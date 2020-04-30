@@ -12,7 +12,7 @@
 
 	<hr />
 
-  <h2>Items:</h2>
+  <h3>Additional Items:</h3>
   <ul>
   <#list published_pages as page>
   <#if page.summary??>
