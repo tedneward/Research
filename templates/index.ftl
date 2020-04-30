@@ -3,8 +3,11 @@
 	<#include "menu.ftl">
 
 	<div class="page-header">
-		<h1>Most recently modified</h1>
+		<h1>Research Notes</h1>
 	</div>
+
+	<p>The notes listed below are in reverse-chronological order of modification (most recent first), with no categorization attached. The menu has categories and tags listed. Or browse to your hearts' content.</p>
+	
 	<!-- Eventually restrict this to the first twenty or so? -->
 	<#list pages?sort_by("date")?reverse[0..*19] as page>
   		<#if (page.status == "published")>
