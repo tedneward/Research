@@ -6,6 +6,10 @@ status=published
 
 Programming languages are (generally) human-friendly means of getting a computer to do something interesting on a human's behalf. Some languages may be friendlier than others; where opinions will genuinely differ as to which are friendlier, there are some that deliberately seek to be as obtuse and unreadable as possible, and those are usually called "esoteric" programming languages and fit into their own category of madness.
 
+(Categories of languages: object, functional, procedural, assembly/machine; declarative; static/dynamic/mixed; compiled/interpreted)
+
+Some general language-wonk sorts of sites
+
 * [Lambda the Ultimate | Programming Languages Weblog](http://lambda-the-ultimate.org/)
 
 * [Programming Languages Short List (PLRE.org)](http://www.plre.org/languages.html)
