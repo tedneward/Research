@@ -3,18 +3,16 @@
 	<#include "menu.ftl">
 
 	<div class="page-header">
-		<h1>Blog</h1>
+		<h1>Most recently modified</h1>
 	</div>
-	<#list posts as post>
-  		<#if (post.status == "published")>
-  			<a href="${post.uri}"><h1><#escape x as x?xml>${post.title}</#escape></h1></a>
-  			<p>${post.date?string("dd MMMM yyyy")}</p>
-  			<p>${post.body}</p>
+	<!-- Eventually restrict this to the first twenty or so? -->
+	<#list pages?sort_by("date")?reverse[0..*19] as page>
+  		<#if (page.status == "published")>
+  			<a href="${page.uri}"><h1><#escape x as x?xml>${page.title}</#escape></h1></a>
+  			<p>${page.date?string("dd MMMM yyyy")}</p>
   		</#if>
   	</#list>
 	
 	<hr />
-	
-	<p>Older posts are available in the <a href="${content.rootpath}${config.archive_file}">archive</a>.</p>
 
 <#include "footer.ftl">
