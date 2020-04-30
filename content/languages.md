@@ -8,17 +8,7 @@ Programming languages are (generally) human-friendly means of getting a computer
 
 (Categories of languages: object, functional, procedural, assembly/machine; declarative; static/dynamic/mixed; compiled/interpreted)
 
-Some general language-wonk sorts of sites
+Some general language-wonk sorts of sites: [Lambda the Ultimate | Programming Languages Weblog](http://lambda-the-ultimate.org/) | [Programming Languages Short List (PLRE.org)](http://www.plre.org/languages.html) | [Programming languages](http://microsoft.toddverbeek.com/lang.html) | [The Encyclopedia of Computer Languages](http://hopl.murdoch.edu.au/) | [Programming language - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Programming_language) | [Visual Programming Languages - Snapshots](http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/)
 
-* [Lambda the Ultimate | Programming Languages Weblog](http://lambda-the-ultimate.org/)
 
-* [Programming Languages Short List (PLRE.org)](http://www.plre.org/languages.html)
-
-* [Programming languages](http://microsoft.toddverbeek.com/lang.html)
-
-* [The Encyclopedia of Computer Languages](http://hopl.murdoch.edu.au/)
-
-* [Programming language - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Programming_language)
-
-* [Visual Programming Languages - Snapshots](http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/)
 

@@ -14,7 +14,7 @@
 
   <h3>Additional Items:</h3>
   <ul>
-  <#list published_pages as page>
+  <#list published_pages?sort_by("title") as page>
   <#if page.summary??>
   <#if page.tags?seq_contains(content.category)>
   <li><em><a href="${page.uri}">${page.title}</a></em> ${page.summary}</li>
