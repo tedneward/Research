@@ -7,4 +7,4 @@ Built with [JBake](https://jbake.org/). I tried to use Gatsby, I really did. But
 ## Structure
 Content is all pages, not blog posts. (I haven't removed the blog functionality entirely, but that's really not the point of the site, as will be very clear before long.) Content lives inside the content/ directory. Templates are in /templates.
 
-Content consists of "categorypages", which are pages for the top-level categoreis (language, platform, storage, etc), and "pages" which have the actual notes themselves. Tags are for crossing between categories and are mostly freeform.
+Content consists of "categorypages", which are pages for the top-level categories (language, platform, storage, etc), and "pages" which have the actual notes themselves. Tags are for crossing between categories and are mostly freeform.
