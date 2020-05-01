@@ -11,8 +11,7 @@
 	<!-- Eventually restrict this to the first twenty or so? -->
 	<#list pages?sort_by("date")?reverse[0..*19] as page>
   		<#if (page.status == "published")>
-  			<a href="${page.uri}"><h1><#escape x as x?xml>${page.title}</#escape></h1></a>
-  			<p>${page.date?string("dd MMMM yyyy")}</p>
+  			<p><a href="${page.uri}"><em><#escape x as x?xml>${page.title}</#escape></em></a>: ${page.summary!"(No summary)"} (${page.date?string("dd MMMM yyyy")})</p>
   		</#if>
   	</#list>
 	
