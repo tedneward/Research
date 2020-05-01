@@ -5,7 +5,7 @@ status=published
 summary=A statically-compiled research language from Microsoft around explicit state machine management.
 ~~~~~~
 
-Research language from Microsoft. Related to [P](p.md). [Github](https://github.com/p-org/PSharp). Deprecated and now moved to [Coyote](coyote.md).
+Research language from Microsoft. Related to [P](p.md). [Github](https://github.com/p-org/PSharp). Deprecated and now moved to [Coyote](coyote.html).
 
 From the Github repo:
 

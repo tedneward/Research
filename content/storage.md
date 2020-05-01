@@ -10,10 +10,6 @@ Storage is typically data, but the degree of structure is flexible. Unstructured
 
 Built, more or less, on the Codd model of relationships between tuples of data.
 
-Tools: 
-
-[Flyway](flyway.md): Database evolution/migration tool
-
 ### Document-oriented
 
 Structure is conceptually "star"-like, with minimal (or no) relationships outside of the document recognized by the storage system. (Developers can, and usually will, store unique data elements across documents as a way of putting structure in at the application level, but this is typically unrecognized by the storage system itself.)
