@@ -8,3 +8,12 @@ Built with [JBake](https://jbake.org/). I tried to use Gatsby, I really did. But
 Content is all pages, not blog posts. (I haven't removed the blog functionality entirely, but that's really not the point of the site, as will be very clear before long.) Content lives inside the content/ directory. Templates are in /templates.
 
 Content consists of "categorypages", which are pages for the top-level categories (language, platform, storage, etc), and "pages" which have the actual notes themselves. Tags are for crossing between categories and are mostly freeform.
+
+## Categories
+* Languages: Any and all programming languages
+* Platforms: Environments in which programs execute (includes native, VMs, mobile-native)
+* Storage: Systems specifically designed to store data (a la "databases" but not always)
+* GameDev: Specifically around the development of any sort of game (game frameworks, etc)
+* DistribSys: Distributed system research--not architecture but networking
+* Architecture: Software architecture links/research
+
