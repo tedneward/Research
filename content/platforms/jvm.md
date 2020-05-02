@@ -1,6 +1,6 @@
 title=JVM
 type=page
-tags=jvm, platform
+tags=jvm, platforms
 status=published
 summary=A stack-based bytecode virtual machine.
 ~~~~~~

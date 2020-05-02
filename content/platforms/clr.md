@@ -1,6 +1,6 @@
 title=CLR
 type=page
-tags=clr, platform
+tags=clr, platforms
 status=published
 summary=A stack-based bytecode virtual machine.
 ~~~~~~
