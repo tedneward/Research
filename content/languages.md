@@ -21,6 +21,8 @@ Characterized by little-to-no abstraction over the target platform.
 #### [Functional](https://en.wikipedia.org/wiki/Functional_programming)
 Functional programming brought us [monads](reading/monads.html) and all the fun that goes with that. Frequently cites/builds off of the [lambda calculus](http://en.wikipedia.org/wiki/Lambda_calculus).
 
+#### Metaprogramming (aka MetaObject Protocol)
+
 #### [Probabalistic Programming](http://probabilistic-programming.org/wiki/Home?imm_mid=0e7ab9&cmp=em-prog-na-na-newsltr_20160910)
 "Make it easier to to probabilistic inference in custom models." | [Probabalistic Models of Cognition](https://probmods.org/) | ["TOWARDS COMMON-SENSE REASONING
 VIA CONDITIONAL SIMULATION: LEGACIES OF TURING IN ARTIFICIAL INTELLIGENCE"](https://arxiv.org/pdf/1212.4799v2.pdf)

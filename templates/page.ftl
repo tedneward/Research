@@ -10,6 +10,13 @@
 
 	<p>${content.body}</p>
 
+	<hr />
+
+	Tags:
+	<#list content.tags as tag>
+	<a href="/tags/${tag}.html">${tag}</a>&nbsp;&nbsp;
+	</#list>
+
 	<p><em>Last modified ${content.date?string("dd MMMM yyyy")}</em></p>
 
 	<hr />

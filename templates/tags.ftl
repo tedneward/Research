@@ -8,7 +8,7 @@
 	
 	<!--<ul>-->
 	<ul>
-		<#list tagged_documents as doc>
+		<#list tagged_documents?sort_by("title") as doc>
 		<li><a href="/${doc.uri}">${doc.title}</a></li>
 		</#list>
 	</ul>
