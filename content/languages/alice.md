@@ -5,4 +5,5 @@ status=published
 summary=Introductory programming language.
 ~~~~~~
 
-[Website](http://www.ps.uni-sb.de/alice/)
+[Website](http://www.ps.uni-sb.de/alice/) (may be offline or defunct?)
+

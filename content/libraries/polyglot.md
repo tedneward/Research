@@ -1,8 +1,8 @@
-title=WebAssembly Virtual Machine
+title=Polyglot
 type=page
-tags=library, language, jvm
+tags=library, language, jvm, parsing
 status=published
-summary=Extensible compiler front end for language implementation on the JVM.
+summary=Extensible compiler front end framework for language implementation on the JVM.
 ~~~~~~
 
 [Website](https://research.cs.cornell.edu/polyglot/) | [Github](https://github.com/polyglot-compiler/polyglot)
