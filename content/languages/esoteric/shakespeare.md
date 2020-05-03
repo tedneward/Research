@@ -1,7 +1,7 @@
 title=Shakespeare (Programming Language)
 tags=language, esoteric
 summary=Prithee, thou art desiring to program using Shakespearean English, art thou not?
-~~~~~~~
+~~~~~~
 
 [Website](http://shakespearelang.sourceforge.net/) | [Docs](http://shakespearelang.sf.net/report/shakespeare/) (or [PDF](http://shakespearelang.sf.net/report/shakespeare.pdf))
 

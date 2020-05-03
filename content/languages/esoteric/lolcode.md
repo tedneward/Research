@@ -1,7 +1,7 @@
 title=LOLCODE
 tags=language, esoteric
 summary=Programming in l33tsp33k
-~~~~~~~
+~~~~~~
 
 [Website](http://www.lolcode.org/) | [Interpreter Github](https://github.com/justinmeza/lci)
 
