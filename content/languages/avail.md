@@ -1,7 +1,7 @@
-title=Avail
+title=Avail Programming Language
 tags=language, jvm
 summary=Multi-paradigmatic general purpose programming language emphasizing support for articulate programming.
-~~~~~
+~~~~~~
 
 [Website](http://www.availlang.org/) | [Github](https://github.com/AvailLang/Avail.git)
 
@@ -40,3 +40,4 @@ Public method "Play Wump the Wumpus with reader_with reporter_" is
     ];
 ] : ⊤;
 ```
+
