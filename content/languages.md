@@ -20,8 +20,10 @@ Characterized by little-to-no abstraction over the target platform.
 
 #### Functional
 
-#### Probabalistic Programming
-"Make it easier to to probabilistic inference in custom models."
+#### [Probabalistic Programming](http://probabilistic-programming.org/wiki/Home?imm_mid=0e7ab9&cmp=em-prog-na-na-newsltr_20160910)
+"Make it easier to to probabilistic inference in custom models." | [Probabalistic Models of Cognition](https://probmods.org/) | ["TOWARDS COMMON-SENSE REASONING
+VIA CONDITIONAL SIMULATION: LEGACIES OF TURING IN ARTIFICIAL INTELLIGENCE"](https://arxiv.org/pdf/1212.4799v2.pdf)
+
 Some [slides](https://tminka.github.io/papers/mlss2009/WinnMinka-ProbabilisticProgramming-slides.pdf) on the concept; they mention a Microsoft Research language, Csoft, that does not appear in Google, and reference [InferNET](/libraries/infernet.html) as being close to what Csoft was supposed to offer.
 
 #### Declarative
@@ -32,4 +34,7 @@ Some [slides](https://tminka.github.io/papers/mlss2009/WinnMinka-ProbabilisticPr
 
 ### Language development tools
 [Pck: The Parser Construction Kit](https://www.codeproject.com/Articles/5163943/Pck-The-Parser-Construction-Kit): "It currently supports Yacc/Bison and Flex/lex. Support is coming for GOLD, ANTLR and possibly Coco/R. ... In addition, Pck is unique in that it exposes much of the generation process (including grammar transformation) to the console, so that you can run intermediate tools on the output before feeding into the input of the next phase of the transformation. For example, you may convert a high level representation of a grammar into the low level representation used by the engine, and then left factor it for LL(1) parsing before passing it to the generator, a bit like your compiler and linker work together." [Code](https://github.com/codewitch-honey-crisis/pck)
+
+### Domain-specific languages (DSLs)
+[DSLs - A powerful Scala feature](http://www.scala-lang.org/node/1403) | [Bootstrapping a simple compiler from nothing](http://homepage.ntlworld.com/edmund.grimley-evans/bcompiler.html)
 
