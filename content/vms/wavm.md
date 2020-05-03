@@ -1,6 +1,6 @@
 title=WebAssembly Virtual Machine
 type=page
-tags=vms
+tags=vm
 status=published
 summary=WebAssembly virtual machine designed for use in non-web applications.
 ~~~~~~

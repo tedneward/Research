@@ -1,6 +1,6 @@
 title=Virtual Machines
 type=categorypage
-tags=vms
+category=vm
 status=published
 ~~~~~~
 

@@ -1,6 +1,6 @@
 title=OMR
 type=page
-tags=platforms
+tags=vm
 status=published
 summary=Reliable components for building language runtimes.
 ~~~~~~

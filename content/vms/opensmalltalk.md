@@ -1,6 +1,6 @@
 title=Open Smalltalk
 type=page
-tags=vms
+tags=vm
 status=published
 summary=Cross-platform virtual machine for Squeak, Pharo, Cuis, and Newspeak.
 ~~~~~~

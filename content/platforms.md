@@ -1,5 +1,5 @@
 title=Platforms
-category=platforms
+category=platform
 type=categorypage
 status=published
 ~~~~~~

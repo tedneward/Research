@@ -1,6 +1,6 @@
 title=Strongtalk
 type=page
-tags=vms
+tags=vm
 status=published
 summary=A bytecode-based virtual machine that formed the core of the modern JVM.
 ~~~~~~
