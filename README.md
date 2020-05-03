@@ -13,6 +13,7 @@ Content consists of "categorypages", which are pages for the top-level categorie
 * Languages: Any and all programming languages
 * Platforms: Environments in which programs execute (includes native, VMs, mobile-native)
 * Storage: Systems specifically designed to store data (a la "databases" but not always)
+* VMs: Virtual machine implementations (differing from platforms mostly due to scope)
 * GameDev: Specifically around the development of any sort of game (game frameworks, etc)
 * DistribSys: Distributed system research--not architecture but networking
 * Architecture: Software architecture links/research
