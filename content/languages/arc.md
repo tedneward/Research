@@ -1,7 +1,5 @@
 title=Arc
-type=page
 tags=language, functional
-status=published
 summary=A new dialect of Lisp.
 ~~~~~~
 

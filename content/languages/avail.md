@@ -1,7 +1,5 @@
 title=Avail
-type=page
 tags=language, jvm
-status=published
 summary=Multi-paradigmatic general purpose programming language emphasizing support for articulate programming.
 ~~~~~
 

@@ -1,7 +1,5 @@
 title=Ark
-type=page
 tags=language
-status=published
 summary=Systems programming language; goal is to a cleaner C without deviating from C's original goals of simplicity.
 ~~~~~~
 

@@ -1,7 +1,5 @@
 title=Alice
-type=page
 tags=language, jvm
-status=published
 summary=Introductory programming language.
 ~~~~~~
 
