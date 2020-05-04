@@ -3,7 +3,7 @@ tags=gamedev, jvm
 summary=Cross-platform game development built using Java/JVM languages.
 ~~~~~~
 
-[Website]() | [Github]()
+[Website](https://libgdx.badlogicgames.com/) | [Github](https://github.com/libgdx/libgdx)
 
 ## Tutorials
 [Game from Scratch: LibGDX Text Tutorial Series](http://gamefromscratch.com/page/LibGDX-Tutorial-series.aspx) builds a jet-plane shooter game
