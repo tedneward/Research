@@ -1,7 +1,5 @@
 title=Parrot
-type=page
 tags=vm
-status=published
 summary=Virtual machine implementation for Perl and other dynamic languages.
 ~~~~~~
 

@@ -1,7 +1,5 @@
 title=Simple Object Machine
-type=page
 tags=vm
-status=published
 summary=A minimal Smalltalk for teaching of and research on Virtual Machines.
 ~~~~~~
 
