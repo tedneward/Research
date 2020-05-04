@@ -15,3 +15,5 @@ Intel x86/IA64 reference links should go here; likewise for AMD
 [Linux Assembly HOWTO](http://asm.sourceforge.net/howto.html) | [List of Linux/i386 system calls](http://www.lxhp.in-berlin.de/lhpsyscal.html) | [Another list of Linux/i386 system calls](http://asm.sourceforge.net/syscall.html) | [Linux Kernel Internals](http://www.tldp.org/LDP/lki/) | [Using the GNU Assembler](http://sourceware.org/binutils/docs-2.23.1/as/index.html)
 
 [Collection of ASM resources](http://asm.sourceforge.net/resources.html) (source to some of the above; this page has non-x86 resources on it, as well, which I'd like to extract and put into other research notes pages)
+
+["Metaprogramming in Flat Assembler"](https://gpfault.net/posts/asm-tut-1.txt.html): Demonstrating FASM (flat assembler) macros, which are pretty powerful, it seems.

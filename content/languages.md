@@ -5,10 +5,14 @@ type=categorypage
 
 Programming languages are (generally) human-friendly means of getting a computer to do something interesting on a human's behalf. Some languages may be friendlier than others; where opinions will genuinely differ as to which are friendlier, there are some that deliberately seek to be as obtuse and unreadable as possible, and those are usually called "esoteric" programming languages and fit into their own category of madness.
 
-### General language sites/links
-Some general language-wonk sorts of sites: [Lambda the Ultimate | Programming Languages Weblog](http://lambda-the-ultimate.org/) | [Programming Languages Short List (PLRE.org)](http://www.plre.org/languages.html) | [Programming languages](http://microsoft.toddverbeek.com/lang.html) | [The Encyclopedia of Computer Languages](http://hopl.murdoch.edu.au/) | [Programming language - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Programming_language) | [Visual Programming Languages - Snapshots](http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/) | [Embedded scripting languages list](https://github.com/dbohdan/embedded-scripting-languages)
+## Fun
+["History of Programming Languages"](http://thequickword.wordpress.com/2014/02/16/james-irys-history-of-programming-languages-illustrated-with-pictures-and-large-fonts/) by James Iry. Illustrated--pictures and large fonts. | ["Say something you dislike about a language you love"](https://lobste.rs/s/2cw6ov/say_something_you_dislike_about_language) | ["Say something nice about a language you dislike"](https://lobste.rs/s/hib1ui/say_something_nice_about_programming)
 
-### Language categories
+
+## General language sites/links
+Some general language-wonk sorts of sites: [Lambda the Ultimate | Programming Languages Weblog](http://lambda-the-ultimate.org/) | [Programming Languages Short List (PLRE.org)](http://www.plre.org/languages.html) | [Programming languages](http://microsoft.toddverbeek.com/lang.html) | [The Encyclopedia of Computer Languages](http://hopl.murdoch.edu.au/) | [Programming language - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Programming_language) | [Visual Programming Languages - Snapshots](http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/) | [Embedded scripting languages list](https://github.com/dbohdan/embedded-scripting-languages) | [PL Enthusiast](http://www.pl-enthusiast.net/) | [PL wonks](http://wonks.github.io/)
+
+## Language categories
 Wikipedia defines a really large ontological breakdown of languages; I prefer a slightly smaller one.
 
 #### Assembly/Machine
@@ -16,12 +20,13 @@ Characterized by little-to-no abstraction over the target platform.
 
 #### Procedural
 
-#### Object-oriented
+#### [Object-oriented](/tags/object.html)
 
-#### [Functional](https://en.wikipedia.org/wiki/Functional_programming)
+#### [Functional](/tags/functional.html)
+[Wikipedia](https://en.wikipedia.org/wiki/Functional_programming)
 Functional programming brought us [monads](reading/monads.html) and all the fun that goes with that. Frequently cites/builds off of the [lambda calculus](http://en.wikipedia.org/wiki/Lambda_calculus).
 
-#### Metaprogramming (aka MetaObject Protocol)
+#### [Metaprogramming](/tags/metaobject.html) (aka MetaObject Protocol)
 
 #### Declarative
 
@@ -34,4 +39,7 @@ Functional programming brought us [monads](reading/monads.html) and all the fun 
 VIA CONDITIONAL SIMULATION: LEGACIES OF TURING IN ARTIFICIAL INTELLIGENCE"](https://arxiv.org/pdf/1212.4799v2.pdf)
 
 Some [slides](https://tminka.github.io/papers/mlss2009/WinnMinka-ProbabilisticProgramming-slides.pdf) on the concept; they mention a Microsoft Research language, Csoft, that does not appear in Google, and reference [InferNET](/libraries/infernet.html) as being close to what Csoft was supposed to offer.
+
+## Comparisons
+[Syntax across languages](http://rigaux.org/language-study/syntax-across-languages.html): One large page of comprehensive syntax across languages | [Quick comparison of ten non-mainstream languages](http://www.h3rald.com/articles/10-programming-languages/) | [List of multiparadigm languages](http://en.wikipedia.org/wiki/List_of_multi-paradigm_programming_languages) | [Hostiness: List of languages targeting an existing host platform](http://blog.fogus.me/2012/10/09/hostiness/) | [Advanced programming languages](http://matt.might.net/articles/best-programming-languages/) -- thoughts on Haskell, Scala, Scheme, SML, OCaml | ["Six programming paradigms that will change how you think about coding"](https://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/) | ['A Language a Day'](https://andrewshitov.com/2019/11/25/a-language-a-day-advent-calendar-2019/) | ["Dimensional Analysis in Programming Languages: A survey of existing designs/implementations for automatic conversion and verification of units of measurement in computer programs"](https://gmpreussner.com/research/dimensional-analysis-in-programming-languages)
 
