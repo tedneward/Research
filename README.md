@@ -11,6 +11,7 @@ Content consists of "categorypages", which are pages for the top-level categorie
 
 ## Categories
 * Languages: Any and all programming languages
+* Libraries: Collection of code; includes O-O frameworks
 * Platforms: Environments in which programs execute (includes native, VMs, mobile-native)
 * Storage: Systems specifically designed to store data (a la "databases" but not always)
 * VMs: Virtual machine implementations (differing from platforms mostly due to scope)
