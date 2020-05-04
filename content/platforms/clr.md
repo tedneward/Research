@@ -1,7 +1,5 @@
 title=CLR
-type=page
 tags=clr, platform, vm
-status=published
 summary=A stack-based bytecode virtual machine.
 ~~~~~~
 
@@ -14,4 +12,7 @@ CLR/CLI Specifications: [ECMA-335 Specification page](https://www.ecma-internati
 .NET Core repositories: [Runtime](https://github.com/dotnet/runtime) | [Roslyn](https://github.com/dotnet/roslyn) | [F#](https://github.com/dotnet/fsharp) | [WinForms](https://github.com/dotnet/winforms) | [SDK](https://github.com/dotnet/sdk) | [CLI](https://github.com/dotnet/cli) | [ASP.NET Core](https://github.com/dotnet/aspnetcore) | [WPF](https://github.com/dotnet/wpf) | [EFCore](https://github.com/dotnet/efcore) | [Tye](https://github.com/dotnet/tye) | [C#](https://github.com/dotnet/csharplang)
 
 There used to be multiple CLR implementations, but all have more or less fallen into disuse and disrepair. CoreCLR and the Windows CLR are the only ones left standing.
+
+### Related posts
+[Open-source CLR Instrumentation Engine](https://www.poppastring.com/blog/open-source-clr-instrumentation-engine) (and on [Github](https://github.com/microsoft/CLRInstrumentationEngine))
 
