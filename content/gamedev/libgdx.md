@@ -5,11 +5,17 @@ summary=Cross-platform game development built using Java/JVM languages.
 
 [Website](https://libgdx.badlogicgames.com/) | [Github](https://github.com/libgdx/libgdx)
 
+[List of awesome resources, tools, tutorials and projects](https://github.com/rafaskb/awesome-libgdx)
+
 ## Tutorials
-[Game from Scratch: LibGDX Text Tutorial Series](http://gamefromscratch.com/page/LibGDX-Tutorial-series.aspx) builds a jet-plane shooter game
+[Game from Scratch: LibGDX Text Tutorial Series](http://gamefromscratch.com/page/LibGDX-Tutorial-series.aspx) builds a jet-plane shooter game | [BludBourne](https://github.com/patrickhoey/BludBourne) comes from the book "Mastering libGdx Game Development"
 
 ## Examples
-[Asteroids](https://github.com/haxpor/asteroids) | [Nine Circles](https://github.com/edwardszczepanski/LibGDX-Demo-Game)
+[Asteroids](https://github.com/haxpor/asteroids) | [Nine Circles](https://github.com/edwardszczepanski/LibGDX-Demo-Game) | [Checkers](https://github.com/grafiszti/checkers) | [Straight-Checkers](https://github.com/choxxy/Straight-Checkers) | [libgdx-tic-tac-toe](https://github.com/jarrodparkes/libgdx-tic-tac-toe) | [martianrun](https://github.com/wmora/martianrun) | [DestinationSol](https://github.com/MovingBlocks/DestinationSol) space shooter | [Unciv](https://github.com/yairm210/Unciv) Android/Desktop remake of Civ V | [Unlucky](https://github.com/mingli1/Unlucky) Android 2D RPG | [uracer-kotd](https://github.com/manuelbua/uracer-kotd) GLES2 top-down racer | 
+
+## Support libraries/packages
+
+[VisUI](https://github.com/kotcrab/vis-ui) UI skin
 
 ## Articles
 
