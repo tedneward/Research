@@ -19,5 +19,5 @@ Immo Landwerth has done a collection of videos on building a language called Min
 [Build your own Lisp](http://www.buildyourownlisp.com/) teaches C by building a Lisp.
 
 ## Posts
-[Interview with Jesper Louis Andsersen](https://medium.com/@unbalancedparen/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#.g4q9w4eqq) about a ton of languages. | ["Less is more: language features"](http://blog.ploeh.dk/2015/04/13/less-is-more-language-features/) | ["Languages I want to write"](https://blog.wesleyac.com/posts/language-todos) | ["A wish list for a new programming language"](http://www.drmaciver.com/2015/07/a-wish-list/) | 
+[Interview with Jesper Louis Andsersen](https://medium.com/@unbalancedparen/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#.g4q9w4eqq) about a ton of languages. | ["Less is more: language features"](http://blog.ploeh.dk/2015/04/13/less-is-more-language-features/) | ["Languages I want to write"](https://blog.wesleyac.com/posts/language-todos) | ["A wish list for a new programming language"](http://www.drmaciver.com/2015/07/a-wish-list/)
 

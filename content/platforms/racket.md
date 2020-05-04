@@ -1,5 +1,5 @@
 title=Racket
-tags=platform, language
+tags=platform, language, functional, object, metaobject
 summary=Racket language/platform is a Lisp, but has numerous language implementations built on it.
 ~~~~~~
 

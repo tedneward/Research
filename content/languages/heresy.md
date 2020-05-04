@@ -1,5 +1,5 @@
 title=Heresy
-tags=language
+tags=language, functional
 summary=A functional Lisp/Scheme dialect implemented in Racket, with syntax inspired by the BASIC family of programming languages.
 ~~~~~~
 
