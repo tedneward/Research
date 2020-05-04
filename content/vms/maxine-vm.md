@@ -1,7 +1,5 @@
 title=Maxine-VM
-type=page
-tags=platforms
-status=published
+tags=vm
 summary=A meta-circular research VM; a next generation, highly productive platform for virtual machine research..
 ~~~~~~
 

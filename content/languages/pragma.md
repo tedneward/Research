@@ -1,7 +1,5 @@
 title=Pragma
-type=page
 tags=language
-status=published
 summary=Pragma generates a GraphQL API based on your data models, authorization rules, and custom Javascript functions.
 ~~~~~~
 Still in beta. May be called Pragmalang?

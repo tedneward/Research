@@ -12,7 +12,7 @@
 
 	<hr />
 
-  <h3>Additional Items:</h3>
+  <h3>Detail Pages:</h3>
   <ul>
   <#list published_pages?sort_by("title") as page>
   <#if page.summary??>
