@@ -1,6 +1,11 @@
 # JBake-generated output
 output
 
+# Gradle
+.gradle
+gradle
+
+
 # Compiled class file
 *.class
 
@@ -24,3 +29,6 @@ output
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Ignore Gradle build output directory
+build
