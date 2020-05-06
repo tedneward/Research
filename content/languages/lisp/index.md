@@ -10,3 +10,8 @@ Common Lisp Implementations:
 
 Lisp-inspired:
 * [Arc](../arc.html)
+
+"A Lisp":
+* [Ferret](https://ferret-lang.org/): appears to compile [Clojure](/languages/clojure.html) into native code
+
+

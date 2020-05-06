@@ -1,7 +1,5 @@
 title=Pony
-type=page
-tags=language, native
-status=published
+tags=language, native, object capability
 summary=A statically-compiled research language from Microsoft around actors and concurrency.
 ~~~~~~
 
