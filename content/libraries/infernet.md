@@ -1,6 +1,6 @@
 title=Infer.NET
 type=page
-tags=clr, library, probabalistic programming
+tags=clr, library, probabilistic programming
 status=published
 summary=A framework for running Bayesian inference in graphical models. It can also be used for probabalistic programming
 ~~~~~~
