@@ -52,5 +52,18 @@ jobs:
           arguments: bake
 
       # Log in to Azure
+      #- name: Azure Login
+      #  uses: azure/login@v1
+      #  with:
+      #    creds: ${{ secrets.AZURE_CREDENTIALS }}      
+      
       # Batch-upload the output/ contents
+      #- name: Azure CLI script
+      #  uses: azure/CLI@v1
+      #  with:
+      #    inlineScript: |
+      #      az storage blob upload-batch -s output -d \$web --connection-string "DefaultEndpointsProtocol=https;AccountName=researchstorage;AccountKey=${{ secrets.AZURE_LICENSE_KEY }};EndpointSuffix=core.windows.net"
+
       # Log out
+      #- name: Azure Logout
+      #  uses: azure/logout@v1

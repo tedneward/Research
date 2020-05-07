@@ -10,12 +10,14 @@ Content is all pages, not blog posts. (I haven't removed the blog functionality 
 Content consists of "categorypages", which are pages for the top-level categories (language, platform, storage, etc), and "pages" which have the actual notes themselves. Tags are for crossing between categories and are mostly freeform.
 
 ## Categories
+* Architecture: Software architecture links/research
+* DistribSys: Distributed system research--not architecture but networking
+* GameDev: Specifically around the development of any sort of game (game frameworks, etc)
 * Languages: Any and all programming languages
 * Libraries: Collection of code; includes O-O frameworks
 * Platforms: Environments in which programs execute (includes native, VMs, mobile-native)
+* Places: Websites of interest "in general"
+* Reading: Specific topics of interest and reading materials related them
 * Storage: Systems specifically designed to store data (a la "databases" but not always)
 * VMs: Virtual machine implementations (differing from platforms mostly due to scope)
-* GameDev: Specifically around the development of any sort of game (game frameworks, etc)
-* DistribSys: Distributed system research--not architecture but networking
-* Architecture: Software architecture links/research
 
