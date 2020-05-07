@@ -62,4 +62,6 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az storage blob upload-batch -s output -d \$web --connection-string "DefaultEndpointsProtocol=https;AccountName=researchstorage;AccountKey=${{ secrets.AZURE_LICENSE_KEY }};EndpointSuffix=core.windows.net"
+            az storage blob upload-batch -s $GITHUB_WORKSPACE/output -d \$web --account-name researchstorage
+            
+      # --connection-string "DefaultEndpointsProtocol=https;AccountName=researchstorage;AccountKey=${{ secrets.AZURE_LICENSE_KEY }};EndpointSuffix=core.windows.net"
