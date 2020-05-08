@@ -1,5 +1,5 @@
 title=NetLogo
-tags=languages, jvm, agent
+tags=language, jvm, agent
 summary=A programming language and IDE for agent-based modeling as a dialect of Logo and emphasizing the decentralized, interconnected nature of the phenomena you can model.
 ~~~~~~
 

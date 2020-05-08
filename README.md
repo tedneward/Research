@@ -21,3 +21,18 @@ Content consists of "categorypages", which are pages for the top-level categorie
 * Storage: Systems specifically designed to store data (a la "databases" but not always)
 * VMs: Virtual machine implementations (differing from platforms mostly due to scope)
 
+## Tags
+An open-ended list, but here's what we have so far:
+
+* Category tags: backend, gamedev, language, distributed system, platform, reading, storage, vm
+* Backends: backend, cms
+* Gamedev: gamedev
+* Language: language, compiled, object, metaobject, functional, logic, probabilistic programming, reactive, state machine, static, dynamic, esoteric
+* Distributed Systems: distributed system, actors
+* Platforms: clr, jvm, native, linux, macos, windows, browser, mobile, ios, android, llvm, nodejs, python, ruby, javascript, wasm
+* VMs: interpreter, vm
+* Tools: library, parsing
+* Storage: storage, static, dynamic, cms, document, keyvalue, object, relational
+* Architecture/design: agent, concurrency
+* Misc: research, website, security, services, ui
+

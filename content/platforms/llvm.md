@@ -7,3 +7,6 @@ summary=A compiler and back-end native compilation/linking toolchain.
 
 ### Related
 [Decompilation pipeline](https://github.com/decomp/decomp) project: "The aim of this project is to implement a decompilation pipeline composed of independent components interacting through well-defined interfaces."
+
+#### Tutorials
+[Make your own LLVM compiler](https://www.youtube.com/watch?v=OhkwPSvyBu0)

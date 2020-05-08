@@ -1,5 +1,5 @@
 title=Microsoft Resarch (MSR)
-tags=website, research
+tags=place, research
 summary=Microsoft's collection of research projects.
 ~~~~~~
 

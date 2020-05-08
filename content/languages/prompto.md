@@ -1,5 +1,5 @@
 title=Prompto
-tags=language, plaform
+tags=language, platform
 summary=Platform and differing-syntax languages for cloud development.
 ~~~~~~
 

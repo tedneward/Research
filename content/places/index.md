@@ -1,6 +1,6 @@
 title=Places of interest on the Internet
 type=categorypage
-tags=website
+tags=place
 summary=Some sites collect things of interest, like corporate research sites, developer portals, or arbitrary collections of links.
 ~~~~~~
 
