@@ -6,6 +6,7 @@ See also: [Computer Architecture](/reading/comparch.html) -- recommended backgro
 
 # Contents
 
+- [Tutorials, Courses](#tutorials-courses): [AArch64](#aarch64)
 - [Readings](#readings):
 	- [Binary Analysis](#readings-binary-analysis)
 	- [Concurrency](#concurrency)
@@ -40,7 +41,99 @@ See also: [Computer Architecture](/reading/comparch.html) -- recommended backgro
 	- [2011](#2011)
 	- [2010](#2010)
 	- [History](#history)
-- [Tutorials, Courses](#tutorials-courses): [AArch64](#aarch64)
+
+---
+
+# Tutorials, Courses
+
+* ARM assembler in Raspberry Pi - http://thinkingeek.com/arm-assembler-raspberry-pi/
+	+ 1\. Introduction - http://thinkingeek.com/2013/01/09/arm-assembler-raspberry-pi-chapter-1/
+	+ 2\. Registers and basic arithmetic - http://thinkingeek.com/2013/01/10/arm-assembler-raspberry-pi-chapter-2/
+	+ 3\. Memory, addresses; load and store - http://thinkingeek.com/2013/01/11/arm-assembler-raspberry-pi-chapter-3/
+	+ 4\. GDB - http://thinkingeek.com/2013/01/12/arm-assembler-raspberry-pi-chapter-4/
+	+ 5\. Branches - http://thinkingeek.com/2013/01/19/arm-assembler-raspberry-pi-chapter-5/
+	+ 6\. Control structures - http://thinkingeek.com/2013/01/20/arm-assembler-raspberry-pi-chapter-6/
+	+ 7\. Indexing modes - http://thinkingeek.com/2013/01/26/arm-assembler-raspberry-pi-chapter-7/
+	+ 8\. Arrays and structures and more indexing modes - http://thinkingeek.com/2013/01/27/arm-assembler-raspberry-pi-chapter-8/
+	+ 9\. Functions (I) - http://thinkingeek.com/2013/02/02/arm-assembler-raspberry-pi-chapter-9/
+	+ 10\. Functions (II); the stack - http://thinkingeek.com/2013/02/07/arm-assembler-raspberry-pi-chapter-10/
+	+ 11\. Predication - http://thinkingeek.com/2013/03/16/arm-assembler-raspberry-pi-chapter-11/
+	+ 12\. Loops and the status register - http://thinkingeek.com/2013/03/28/arm-assembler-raspberry-pi-chapter-12/
+	+ 13\. Floating point numbers - http://thinkingeek.com/2013/05/12/arm-assembler-raspberry-pi-chapter-13/
+	+ 14\. Matrix multiply - http://thinkingeek.com/2013/05/12/arm-assembler-raspberry-pi-chapter-14/
+	+ 15\. Integer division - http://thinkingeek.com/2013/08/11/arm-assembler-raspberry-pi-chapter-15/
+	+ 16\. Switch control structure - http://thinkingeek.com/2013/08/23/arm-assembler-raspberry-pi-chapter-16/
+	+ 17\. Passing data to functions - http://thinkingeek.com/2013/11/20/arm-assembler-raspberry-pi-chapter-17/
+	+ 18\. Local data and the frame pointer - http://thinkingeek.com/2014/05/11/arm-assembler-raspberry-pi-chapter-18/
+	+ 19\. The operating system - http://thinkingeek.com/2014/05/24/arm-assembler-raspberry-pi-chapter-19/
+	+ 20\. Indirect calls - http://thinkingeek.com/2014/08/20/arm-assembler-raspberry-pi-chapter-20/
+	+ 21\. Subword data - http://thinkingeek.com/2014/08/23/arm-assembler-raspberry-pi-chapter-21/
+	+ 22\. The Thumb instruction set - http://thinkingeek.com/2014/12/20/arm-assembler-raspberry-pi-chapter-22/
+	+ 23\. Nested functions - http://thinkingeek.com/2015/01/02/arm-assembler-raspberry-pi-chapter-23/
+	+ 24\. Trampolines - http://thinkingeek.com/2015/01/09/arm-assembler-raspberry-pi-chapter-24/
+	+ 25\. Integer SIMD - http://thinkingeek.com/2015/07/04/arm-assembler-raspberry-pi-chapter-25/
+	+ 26\. A primer about linking - http://thinkingeek.com/2016/10/30/arm-assembler-raspberry-pi-chapter-26/
+	+ 27\. Dynamic linking - http://thinkingeek.com/2017/04/17/arm-assembler-raspberry-pi-chapter-27/
+* ARM Assembly Basics - Azeria Labs
+	+ Part 1: Introduction to ARM Assembly Basics - https://azeria-labs.com/writing-arm-assembly-part-1/
+	+ Part 2: Data Types - https://azeria-labs.com/arm-data-types-and-registers-part-2/
+	+ Part 3: ARM & Thumb - https://azeria-labs.com/arm-instruction-set-part-3/
+	+ Part 4: Memory Instructions: Load and Store - https://azeria-labs.com/memory-instructions-load-and-store-part-4/
+	+ Part 5: Load/Store Multiple - https://azeria-labs.com/load-and-store-multiple-part-5/
+	+ Part 6: Conditional Execution - https://azeria-labs.com/arm-conditional-execution-and-branching-part-6/
+	+ Part 7: Stack and Functions - https://azeria-labs.com/functions-and-the-stack-part-7/
+	+ Assembly Basics Cheatsheet: https://azeria-labs.com/assembly-basics-cheatsheet/
+* ARM Assembly Language - Isfahan University of Technology (Slides)
+	+ http://www.googoolia.com/micro/lecture/arm_assembly.pdf
+* ARM Assembly Language Programming (AALP) - http://www.peter-cockerell.net/aalp/
+* ARM by David Thomas - http://www.davespace.co.uk/arm/
+	+ Introduction to ARM - http://www.davespace.co.uk/arm/introduction-to-arm/
+	+ Efficient C for ARM - http://www.davespace.co.uk/arm/efficient-c-for-arm/
+* ARM Challenges - "Root Me" Learning Platform - https://www.root-me.org/?page=recherche&lang=en&recherche=ARM
+* ARM exploitation for IoT
+	+ Episode 1: Reversing ARM applications - https://quequero.org/2017/07/arm-exploitation-iot-episode-1/
+	+ Episode 2: ARM shellcoding - https://quequero.org/2017/09/arm-exploitation-iot-episode-2/
+	+ Episode 3: ARM exploitations - https://quequero.org/2017/11/arm-exploitation-iot-episode-3/
+* ARM lectures by Dr. Santanu Chaudhury, EE Department, IIT Delhi - https://www.youtube.com/playlist?list=PL95AFA4ABA8B28627
+* EECS 370 - http://www.eecs.umich.edu/courses/eecs370/eecs370.f17/resources/
+	+ ARM Examples - https://www.eecs.umich.edu/courses/eecs370/eecs370.w17/resources/materials/370ARMExamples.pdf
+	+ ARM Instruction Set Quick Reference Card - https://www.eecs.umich.edu/courses/eecs370/eecs370.f17/resources/materials/ARM_Instruction_Set.pdf
+	+ ARM v8 Quick Reference Guide - http://www.eecs.umich.edu/courses/eecs370/eecs370.f17/resources/materials/ARM-v8-Quick-Reference-Guide.pdf
+* ELEC 5260/ELEC 6260-6266: Embedded Computing Systems
+	+ http://www.eng.auburn.edu/~nelson/courses/elec5260_6260/
+	+ ARM Assembly Language (Knaggs & Welsh - Bournemouth Univ.)
+		- http://www.eng.auburn.edu/~nelson/courses/elec5260_6260/arm/ARM_AssyLang.pdf
+	+ ARM processor architecture - http://www.eng.auburn.edu/~nelson/courses/elec5260_6260/slides/Chapter2%20ARM.pdf
+* Introducing ARM assembly language - http://www.toves.org/books/arm/
+* Introduction to ARM
+	+ Gananand Kini's class on the ARM CPU assembly and architecture
+	+ http://www.opensecuritytraining.info/IntroARM.html
+	+ https://www.youtube.com/playlist?list=PLUFkSN0XLZ-n91t_AX5zO007Giz1INwPd
+* Understanding ARM Assembly - Marion Cole
+	+ Part 1: Processor features - https://blogs.msdn.microsoft.com/ntdebugging/2013/11/22/understanding-arm-assembly-part-1/
+	+ Part 2: How Windows uses the processor - https://blogs.msdn.microsoft.com/ntdebugging/2014/05/15/understanding-arm-assembly-part-2/
+	+ Part 3: Calling conventions - https://blogs.msdn.microsoft.com/ntdebugging/2014/05/29/understanding-arm-assembly-part-3/
+* Whirlwind Tour of ARM Assembly - https://www.coranac.com/tonc/text/asm.htm
+* Windows on ARM - An assembly language primer - http://www.codemachine.com/article_armasm.html
+
+## AArch64
+
+* A Guide to ARM64 / AArch64 Assembly on Linux with Shellcodes and Cryptography
+	+ https://modexp.wordpress.com/2018/10/30/arm64-assembly/
+* arm64 assembly crash course - https://github.com/Siguza/ios-resources/blob/master/bits/arm64.md
+* Armv8-A Instruction Set Architecture (ISA)
+	+ https://developer.arm.com/architectures/learn-the-architecture/armv8-a-instruction-set-architecture
+* Exploring AArch64 assembler - http://thinkingeek.com/category/aarch64/
+	+ Chapter 1: first program - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter1/
+	+ Chapter 2: register operands and immediate operands - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter-2/
+	+ Chapter 3: more about register operands - http://thinkingeek.com/2016/10/23/exploring-aarch64-assembler-chapter-3/
+	+ Chapter 4: arithmetic and bitwise instructions - http://thinkingeek.com/2016/10/23/exploring-aarch64-assembler-chapter-4/
+	+ Chapter 5: memory - http://thinkingeek.com/2016/11/13/exploring-aarch64-assembler-chapter-5/
+	+ Chapter 6: control flow - http://thinkingeek.com/2016/11/27/exploring-aarch64-assembler-chapter-6/
+	+ Chapter 7: functions - http://thinkingeek.com/2017/03/19/exploring-aarch64-assembler-chapter-7/
+	+ Chapter 8: the stack - http://thinkingeek.com/2017/05/29/exploring-aarch64-assembler-chapter-8/
+	+ Chapter 9: control constructs - http://thinkingeek.com/2017/11/05/exploring-aarch64-assembler-chapter-9/
+* Introduction to ARMv8 64-bit Architecture - https://quequero.org/2014/04/introduction-to-arm-architecture/
 
 ---
 
@@ -799,7 +892,7 @@ Disassemblers, Decompilers, Recompilers
 
 ## Software: Performance
 
-See also: [Performance Tools](performance.tools.md)
+See also: [Performance Tools](/tools/performance.tools.html)
 
 * Arm HPC tools and libraries
 	- https://developer.arm.com/tools-and-software/server-and-hpc
@@ -1038,96 +1131,3 @@ See also: [Performance Tools](performance.tools.md)
 * The Future of Microprocessors, Sophie Wilson
 	+ 2016 - Code Mesh - https://www.youtube.com/watch?v=_9mzmvhwMqw
 	+ 2014 - Wuthering Bytes - https://www.youtube.com/watch?v=b5j_Y-ML3dg
-
----
-
-# Tutorials, Courses
-
-* ARM assembler in Raspberry Pi - http://thinkingeek.com/arm-assembler-raspberry-pi/
-	+ 1\. Introduction - http://thinkingeek.com/2013/01/09/arm-assembler-raspberry-pi-chapter-1/
-	+ 2\. Registers and basic arithmetic - http://thinkingeek.com/2013/01/10/arm-assembler-raspberry-pi-chapter-2/
-	+ 3\. Memory, addresses; load and store - http://thinkingeek.com/2013/01/11/arm-assembler-raspberry-pi-chapter-3/
-	+ 4\. GDB - http://thinkingeek.com/2013/01/12/arm-assembler-raspberry-pi-chapter-4/
-	+ 5\. Branches - http://thinkingeek.com/2013/01/19/arm-assembler-raspberry-pi-chapter-5/
-	+ 6\. Control structures - http://thinkingeek.com/2013/01/20/arm-assembler-raspberry-pi-chapter-6/
-	+ 7\. Indexing modes - http://thinkingeek.com/2013/01/26/arm-assembler-raspberry-pi-chapter-7/
-	+ 8\. Arrays and structures and more indexing modes - http://thinkingeek.com/2013/01/27/arm-assembler-raspberry-pi-chapter-8/
-	+ 9\. Functions (I) - http://thinkingeek.com/2013/02/02/arm-assembler-raspberry-pi-chapter-9/
-	+ 10\. Functions (II); the stack - http://thinkingeek.com/2013/02/07/arm-assembler-raspberry-pi-chapter-10/
-	+ 11\. Predication - http://thinkingeek.com/2013/03/16/arm-assembler-raspberry-pi-chapter-11/
-	+ 12\. Loops and the status register - http://thinkingeek.com/2013/03/28/arm-assembler-raspberry-pi-chapter-12/
-	+ 13\. Floating point numbers - http://thinkingeek.com/2013/05/12/arm-assembler-raspberry-pi-chapter-13/
-	+ 14\. Matrix multiply - http://thinkingeek.com/2013/05/12/arm-assembler-raspberry-pi-chapter-14/
-	+ 15\. Integer division - http://thinkingeek.com/2013/08/11/arm-assembler-raspberry-pi-chapter-15/
-	+ 16\. Switch control structure - http://thinkingeek.com/2013/08/23/arm-assembler-raspberry-pi-chapter-16/
-	+ 17\. Passing data to functions - http://thinkingeek.com/2013/11/20/arm-assembler-raspberry-pi-chapter-17/
-	+ 18\. Local data and the frame pointer - http://thinkingeek.com/2014/05/11/arm-assembler-raspberry-pi-chapter-18/
-	+ 19\. The operating system - http://thinkingeek.com/2014/05/24/arm-assembler-raspberry-pi-chapter-19/
-	+ 20\. Indirect calls - http://thinkingeek.com/2014/08/20/arm-assembler-raspberry-pi-chapter-20/
-	+ 21\. Subword data - http://thinkingeek.com/2014/08/23/arm-assembler-raspberry-pi-chapter-21/
-	+ 22\. The Thumb instruction set - http://thinkingeek.com/2014/12/20/arm-assembler-raspberry-pi-chapter-22/
-	+ 23\. Nested functions - http://thinkingeek.com/2015/01/02/arm-assembler-raspberry-pi-chapter-23/
-	+ 24\. Trampolines - http://thinkingeek.com/2015/01/09/arm-assembler-raspberry-pi-chapter-24/
-	+ 25\. Integer SIMD - http://thinkingeek.com/2015/07/04/arm-assembler-raspberry-pi-chapter-25/
-	+ 26\. A primer about linking - http://thinkingeek.com/2016/10/30/arm-assembler-raspberry-pi-chapter-26/
-	+ 27\. Dynamic linking - http://thinkingeek.com/2017/04/17/arm-assembler-raspberry-pi-chapter-27/
-* ARM Assembly Basics - Azeria Labs
-	+ Part 1: Introduction to ARM Assembly Basics - https://azeria-labs.com/writing-arm-assembly-part-1/
-	+ Part 2: Data Types - https://azeria-labs.com/arm-data-types-and-registers-part-2/
-	+ Part 3: ARM & Thumb - https://azeria-labs.com/arm-instruction-set-part-3/
-	+ Part 4: Memory Instructions: Load and Store - https://azeria-labs.com/memory-instructions-load-and-store-part-4/
-	+ Part 5: Load/Store Multiple - https://azeria-labs.com/load-and-store-multiple-part-5/
-	+ Part 6: Conditional Execution - https://azeria-labs.com/arm-conditional-execution-and-branching-part-6/
-	+ Part 7: Stack and Functions - https://azeria-labs.com/functions-and-the-stack-part-7/
-	+ Assembly Basics Cheatsheet: https://azeria-labs.com/assembly-basics-cheatsheet/
-* ARM Assembly Language - Isfahan University of Technology (Slides)
-	+ http://www.googoolia.com/micro/lecture/arm_assembly.pdf
-* ARM Assembly Language Programming (AALP) - http://www.peter-cockerell.net/aalp/
-* ARM by David Thomas - http://www.davespace.co.uk/arm/
-	+ Introduction to ARM - http://www.davespace.co.uk/arm/introduction-to-arm/
-	+ Efficient C for ARM - http://www.davespace.co.uk/arm/efficient-c-for-arm/
-* ARM Challenges - "Root Me" Learning Platform - https://www.root-me.org/?page=recherche&lang=en&recherche=ARM
-* ARM exploitation for IoT
-	+ Episode 1: Reversing ARM applications - https://quequero.org/2017/07/arm-exploitation-iot-episode-1/
-	+ Episode 2: ARM shellcoding - https://quequero.org/2017/09/arm-exploitation-iot-episode-2/
-	+ Episode 3: ARM exploitations - https://quequero.org/2017/11/arm-exploitation-iot-episode-3/
-* ARM lectures by Dr. Santanu Chaudhury, EE Department, IIT Delhi - https://www.youtube.com/playlist?list=PL95AFA4ABA8B28627
-* EECS 370 - http://www.eecs.umich.edu/courses/eecs370/eecs370.f17/resources/
-	+ ARM Examples - https://www.eecs.umich.edu/courses/eecs370/eecs370.w17/resources/materials/370ARMExamples.pdf
-	+ ARM Instruction Set Quick Reference Card - https://www.eecs.umich.edu/courses/eecs370/eecs370.f17/resources/materials/ARM_Instruction_Set.pdf
-	+ ARM v8 Quick Reference Guide - http://www.eecs.umich.edu/courses/eecs370/eecs370.f17/resources/materials/ARM-v8-Quick-Reference-Guide.pdf
-* ELEC 5260/ELEC 6260-6266: Embedded Computing Systems
-	+ http://www.eng.auburn.edu/~nelson/courses/elec5260_6260/
-	+ ARM Assembly Language (Knaggs & Welsh - Bournemouth Univ.)
-		- http://www.eng.auburn.edu/~nelson/courses/elec5260_6260/arm/ARM_AssyLang.pdf
-	+ ARM processor architecture - http://www.eng.auburn.edu/~nelson/courses/elec5260_6260/slides/Chapter2%20ARM.pdf
-* Introducing ARM assembly language - http://www.toves.org/books/arm/
-* Introduction to ARM
-	+ Gananand Kini's class on the ARM CPU assembly and architecture
-	+ http://www.opensecuritytraining.info/IntroARM.html
-	+ https://www.youtube.com/playlist?list=PLUFkSN0XLZ-n91t_AX5zO007Giz1INwPd
-* Understanding ARM Assembly - Marion Cole
-	+ Part 1: Processor features - https://blogs.msdn.microsoft.com/ntdebugging/2013/11/22/understanding-arm-assembly-part-1/
-	+ Part 2: How Windows uses the processor - https://blogs.msdn.microsoft.com/ntdebugging/2014/05/15/understanding-arm-assembly-part-2/
-	+ Part 3: Calling conventions - https://blogs.msdn.microsoft.com/ntdebugging/2014/05/29/understanding-arm-assembly-part-3/
-* Whirlwind Tour of ARM Assembly - https://www.coranac.com/tonc/text/asm.htm
-* Windows on ARM - An assembly language primer - http://www.codemachine.com/article_armasm.html
-
-## AArch64
-
-* A Guide to ARM64 / AArch64 Assembly on Linux with Shellcodes and Cryptography
-	+ https://modexp.wordpress.com/2018/10/30/arm64-assembly/
-* arm64 assembly crash course - https://github.com/Siguza/ios-resources/blob/master/bits/arm64.md
-* Armv8-A Instruction Set Architecture (ISA)
-	+ https://developer.arm.com/architectures/learn-the-architecture/armv8-a-instruction-set-architecture
-* Exploring AArch64 assembler - http://thinkingeek.com/category/aarch64/
-	+ Chapter 1: first program - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter1/
-	+ Chapter 2: register operands and immediate operands - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter-2/
-	+ Chapter 3: more about register operands - http://thinkingeek.com/2016/10/23/exploring-aarch64-assembler-chapter-3/
-	+ Chapter 4: arithmetic and bitwise instructions - http://thinkingeek.com/2016/10/23/exploring-aarch64-assembler-chapter-4/
-	+ Chapter 5: memory - http://thinkingeek.com/2016/11/13/exploring-aarch64-assembler-chapter-5/
-	+ Chapter 6: control flow - http://thinkingeek.com/2016/11/27/exploring-aarch64-assembler-chapter-6/
-	+ Chapter 7: functions - http://thinkingeek.com/2017/03/19/exploring-aarch64-assembler-chapter-7/
-	+ Chapter 8: the stack - http://thinkingeek.com/2017/05/29/exploring-aarch64-assembler-chapter-8/
-	+ Chapter 9: control constructs - http://thinkingeek.com/2017/11/05/exploring-aarch64-assembler-chapter-9/
-* Introduction to ARMv8 64-bit Architecture - https://quequero.org/2014/04/introduction-to-arm-architecture/
