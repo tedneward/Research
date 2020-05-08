@@ -2,7 +2,7 @@ title=ARM Assembly
 tags=language, native, object, metaobject
 summary=ARM and AArch64 Assembly links
 ~~~~~~
-See also: [Computer Architecture](/reading/comparch.md) -- recommended background (which makes the following significantly more approachable) includes an undergraduate-level course.
+See also: [Computer Architecture](/reading/comparch.html) -- recommended background (which makes the following significantly more approachable) includes an undergraduate-level course.
 
 # Contents
 
