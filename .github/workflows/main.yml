@@ -54,9 +54,6 @@ jobs:
       - name: Debugging step 1
         run: ls -la
 
-      - name: Debugging step 2
-        run: echo $GITHUB_WORKSPACE
-
       # Log in to Azure
       - name: Azure Login
         uses: azure/login@v1
@@ -69,4 +66,4 @@ jobs:
         with:
           inlineScript: |
             az account show
-            az storage blob upload-batch -s $GITHUB_WORKSPACE/output -d \$web --connection-string "DefaultEndpointsProtocol=https;AccountName=researchstorage;AccountKey=${{ secrets.AZURE_LICENSE_KEY }};EndpointSuffix=core.windows.net"
+            az storage blob upload-batch -s $GITHUB_WORKSPACE/buiid/output -d \$web --connection-string "DefaultEndpointsProtocol=https;AccountName=researchstorage;AccountKey=${{ secrets.AZURE_LICENSE_KEY }};EndpointSuffix=core.windows.net"
