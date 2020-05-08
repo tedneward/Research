@@ -1,7 +1,7 @@
 title=Storage
-category=storage
 type=categorypage
-status=published
+category=storage
+summary=Everything to do with data storage, organization, query, and analysis.
 ~~~~~~
 
 Storage is typically data, but the degree of structure is flexible. Unstructured storage is essentially a filesystem (although even then filesystems have structure to them). Structured storage is often called a "database system" in some particular shape.

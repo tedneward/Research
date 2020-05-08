@@ -19,7 +19,7 @@ Content consists of "categorypages", which are pages for the top-level categorie
 * Places: Websites of interest "in general"
 * Reading: Specific topics of interest and reading materials related them
 * Storage: Systems specifically designed to store data (a la "databases" but not always)
-* VMs: Virtual machine implementations (differing from platforms mostly due to scope)
+* VMs: Virtual machine implementations (differing from platforms mostly due to scope--platforms include libraries, open-source packages, etc)
 
 ## Tags
 An open-ended list, but here's what we have so far:
