@@ -1,5 +1,5 @@
 title=VM Development
-tags=vms, research
+tags=vm, research
 summary=A collection of links on the implementation of a VM.
 ~~~~~~
 

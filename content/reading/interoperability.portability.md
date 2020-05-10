@@ -1,5 +1,5 @@
 title=Interoperability and portability
-tags=language, vms, platforms, native, reading
+tags=language, vm, platform, native, reading
 summary=A collection of links and reading around how languages, compilers, vms, and platforms interoperate with one another.
 ~~~~~~
 # Contents

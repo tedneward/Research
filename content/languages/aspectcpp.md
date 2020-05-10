@@ -1,5 +1,5 @@
 title=AspectC++
-tags=langauge, native, metaobject, object, static, compiled
+tags=language, native, metaobject, object, static, compiled
 summary=A strongly-typed aspect-oriented programming language starting from C++.
 ~~~~~~
 

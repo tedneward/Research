@@ -1,5 +1,5 @@
 title=AspectJ
-tags=langauge, jvm, metaobject, object, static, compiled
+tags=language, jvm, metaobject, object, static, compiled
 summary=A strongly-typed aspect-oriented programming language starting from Java.
 ~~~~~~
 
