@@ -209,6 +209,11 @@ Note: Some of the following are primarily for entertainment purposes; while prov
 - Insecure coding in C (and C++) - https://www.slideshare.net/olvemaudal/insecure-coding-in-c-and-c
 - Online C++ tests - http://www.interqiew.com/tests?type=cpp - http://www.interqiew.com/tests?type=dp
 
+## Lists/links
+
+[List of C++ UI libraries](https://philippegroarke.com/posts/2018/c++_ui_solutions/)
+
+
 ## Communities
 
 * C++ User Groups - https://meetingcpp.com/usergroups/
