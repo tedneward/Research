@@ -1,4 +1,4 @@
-tool=Ninja
+title=Ninja
 tags=tool, native
 summary=A small build system with a focus on speed.
 ~~~~~~
