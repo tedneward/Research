@@ -46,13 +46,18 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradlew-
 
+      - uses: actions/cache@v1
+        name: Cache JBake output
+        with:
+          path: ~/build/output
+          key: ${{ runner.os }}-baked-${{ hashFiles('**/jbake.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-baked-
+
       # Kick off JBake and bake
       - uses: eskatos/gradle-command-action@v1
         with:
           arguments: bake
-
-      - name: Debugging step 1
-        run: ls -la $GITHUB_WORKSPACE/build/output
 
       # Log in to Azure
       - name: Azure Login
