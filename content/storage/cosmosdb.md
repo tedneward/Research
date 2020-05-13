@@ -1,5 +1,5 @@
 title=CosmosDB
-tags=storage
+tags=storage, cloud
 summary=Microsoft's proprietary globally-distributed, multi-model database service "for managing data at planet-scale" launched in May 2017. It is schema-agnostic, horizontally scalable and generally classified as a NoSQL database.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=FaunaDB
-tags=storage
+tags=storage, cloud
 summary=A global serverless database that gives you ubiquitous, low latency access to app data, without sacrificing data correctness and scale.
 ~~~~~~
 

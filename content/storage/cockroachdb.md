@@ -1,5 +1,5 @@
 title=CockroachDB
-tags=storage
+tags=storage, cloud
 summary=A prime example of NewSQL with ACID guarantee of SQL and the scale of NoSQL. CockroachDB is open source and freely available for cloud-native and hybrid deployments. SQL. Geo-location of data. Horizonatal Scale. ACID transactions.
 ~~~~~~
 
