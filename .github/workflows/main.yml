@@ -50,7 +50,7 @@ jobs:
         name: Cache JBake output
         with:
           path: ~/build/output
-          key: ${{ runner.os }}-baked-${{ hashFiles('**/jbake.properties' }}
+          key: ${{ runner.os }}-baked-${{ hashFiles('**/jbake.properties') }}
           restore-keys: |
             ${{ runner.os }}-baked-
 
