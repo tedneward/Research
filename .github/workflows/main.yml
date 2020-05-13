@@ -49,7 +49,7 @@ jobs:
       - uses: actions/cache@v1
         name: Cache JBake output
         with:
-          path: ~/build/output
+          path: $GITHUB_WORKSPACE/build/output
           key: ${{ runner.os }}-baked-${{ hashFiles('**/jbake.properties') }}
           restore-keys: |
             ${{ runner.os }}-baked-
