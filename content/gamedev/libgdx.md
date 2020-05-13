@@ -3,6 +3,8 @@ tags=gamedev, jvm
 summary=Cross-platform game development built using Java/JVM languages.
 ~~~~~~
 
+Java game development framework that provides a unified API that works across all supported platforms.
+
 [Website](https://libgdx.badlogicgames.com/) | [Github](https://github.com/libgdx/libgdx)
 
 [List of awesome resources, tools, tutorials and projects](https://github.com/rafaskb/awesome-libgdx)
@@ -10,12 +12,18 @@ summary=Cross-platform game development built using Java/JVM languages.
 ## Tutorials
 [Game from Scratch: LibGDX Text Tutorial Series](http://gamefromscratch.com/page/LibGDX-Tutorial-series.aspx) builds a jet-plane shooter game | [BludBourne](https://github.com/patrickhoey/BludBourne) comes from the book "Mastering libGdx Game Development"
 
+## Prominent personages
+[TEttinger](https://github.com/tommyettinger): [gdx-liftoff](https://github.com/tommyettinger/gdx-liftoff) | [raeleus](https://github.com/raeleus): [skin-composer](https://github.com/raeleus/skin-composer) | [czyzby](https://github.com/czyzby): [gdx-setup](https://github.com/czyzby/gdx-setup)
+
 ## Examples
 [Asteroids](https://github.com/haxpor/asteroids) | [Nine Circles](https://github.com/edwardszczepanski/LibGDX-Demo-Game) | [Checkers](https://github.com/grafiszti/checkers) | [Straight-Checkers](https://github.com/choxxy/Straight-Checkers) | [libgdx-tic-tac-toe](https://github.com/jarrodparkes/libgdx-tic-tac-toe) | [martianrun](https://github.com/wmora/martianrun) | [DestinationSol](https://github.com/MovingBlocks/DestinationSol) space shooter | [Unciv](https://github.com/yairm210/Unciv) Android/Desktop remake of Civ V | [Unlucky](https://github.com/mingli1/Unlucky) Android 2D RPG | [uracer-kotd](https://github.com/manuelbua/uracer-kotd) GLES2 top-down racer | [SuperJumper](https://github.com/dsaltares/ashley-superjumper)
 
 ## Scene2D
+[This site](https://github.com/czyzby/gdx-skins) has a bunch of skins, and links to how to use skins in general.
 
 
+## Extensions
+[LibKTX]https://github.com/libktx/ktx): Kotlin extensions for LibGDX games/apps.
 
 ## Ashley (Entity Component System)
 An ECS is essentially a cross-cutting concerns capture tool. Might be something that could be replaced entirely through the use of [AspectJ](/languages/aspectj.html)--need to look into that sometime.

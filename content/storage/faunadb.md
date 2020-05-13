@@ -1,0 +1,9 @@
+title=FaunaDB
+tags=storage
+summary=A global serverless database that gives you ubiquitous, low latency access to app data, without sacrificing data correctness and scale.
+~~~~~~
+
+"The database built for serverless, featuring native GraphQL. Add a full-featured global datastore to your apps in minutes. Access effortlessly from the browser and from mobile. Never again worry about data correctness, capacity, redundancy, latency, and availability. FaunaDB is a global serverless database that gives you ubiquitous, low latency access to app data, without sacrificing data correctness and scale. It eliminates layers of app code for manually handling data anomalies, security, and scale, creating a friendlier dev experience for you and better app experience for your users. Relational, document and graph access to the same set of data using modern APIs such as GraphQL that are easy to work with. No cold starts, and no additional middleware necessary. 100% ACID, with globally consistent reads and writes without compromising latency and scale. Trust your app data. Eliminate unnecessary code. Data automatically replicated across global regions instantly, correctly. Requests are routed automatically to the region closest to the user for low-latency reads and writes ensuring snappiest possible app experience. Start risk-free with one of the most generous free tiers available. Throttling-free transparent scaling, so your app never encounters unplanned capacity hiccups or outages. Eliminate complexity with built-in authorization that is easy to use, yet powerful. Lockdown data with a rich, attribute-based security model. Never leave your data unprotected. Sign up and go. Never again deal with database provisioning, clustering, backups, and maintenance. Spans multiple clouds so you never see downtime. It just works."
+
+[Website](https://fauna.com/) | No Github?
+
