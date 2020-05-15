@@ -1,6 +1,6 @@
 title=Pizza
 tags=language, object, functional, metaobject, jvm
-summary=
+summary=One of the original extension-languages to Java. Historical interest only.
 ~~~~~~
 
 "The Pizza language is an extension to (then-)Java with three new features:

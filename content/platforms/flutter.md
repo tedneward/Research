@@ -1,5 +1,5 @@
 title=Flutter
-tags=platform, native, mobile, ui, reactive, functional
+tags=platform, native, mobile, ios, android, presentation, reactive, functional
 summary=A functional/reactive cross-platform mobile framework.
 ~~~~~~
 

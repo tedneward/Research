@@ -3,34 +3,6 @@ tags=language, native, object, metaobject, functional
 summary=C++ 2017 version
 ~~~~~~
 
-C++17 includes the following new language features:
-- [template argument deduction for class templates](#template-argument-deduction-for-class-templates)
-- [declaring non-type template parameters with auto](#declaring-non-type-template-parameters-with-auto)
-- [folding expressions](#folding-expressions)
-- [new rules for auto deduction from braced-init-list](#new-rules-for-auto-deduction-from-braced-init-list)
-- [constexpr lambda](#constexpr-lambda)
-- [lambda capture this by value](#lambda-capture-this-by-value)
-- [inline variables](#inline-variables)
-- [nested namespaces](#nested-namespaces)
-- [structured bindings](#structured-bindings)
-- [selection statements with initializer](#selection-statements-with-initializer)
-- [constexpr if](#constexpr-if)
-- [utf-8 character literals](#utf-8-character-literals)
-- [direct-list-initialization of enums](#direct-list-initialization-of-enums)
-- [fallthrough, nodiscard, maybe_unused attributes](#fallthrough-nodiscard-maybe_unused-attributes)
-
-C++17 includes the following new library features:
-- [std::variant](#stdvariant)
-- [std::optional](#stdoptional)
-- [std::any](#stdany)
-- [std::string_view](#stdstring_view)
-- [std::invoke](#stdinvoke)
-- [std::apply](#stdapply)
-- [std::filesystem](#stdfilesystem)
-- [std::byte](#stdbyte)
-- [splicing for maps and sets](#splicing-for-maps-and-sets)
-- [parallel algorithms](#parallel-algorithms)
-
 ## C++17 Language Features
 
 ### Template argument deduction for class templates

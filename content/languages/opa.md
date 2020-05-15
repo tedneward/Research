@@ -1,6 +1,6 @@
 title=Opa
 tags=language, distributed system, functional
-summary=
+summary=An attempt at an "all-in-one" presentation, middleware, and storage system.
 ~~~~~~
 
 [Website](http://opalang.org/) | [Github](https://github.com/MLstate/opalang)

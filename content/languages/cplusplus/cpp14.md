@@ -3,21 +3,6 @@ tags=language, native, object, metaobject, functional
 summary=C++ 2014 version
 ~~~~~~
 
-C++14 includes the following new language features:
-- [binary literals](#binary-literals)
-- [generic lambda expressions](#generic-lambda-expressions)
-- [lambda capture initializers](#lambda-capture-initializers)
-- [return type deduction](#return-type-deduction)
-- [decltype(auto)](#decltypeauto)
-- [relaxing constraints on constexpr functions](#relaxing-constraints-on-constexpr-functions)
-- [variable templates](#variable-templates)
-- [\[\[deprecated\]\] attribute](#deprecated-attribute)
-
-C++14 includes the following new library features:
-- [user-defined literals for standard library types](#user-defined-literals-for-standard-library-types)
-- [compile-time integer sequences](#compile-time-integer-sequences)
-- [std::make_unique](#stdmake_unique)
-
 ## C++14 Language Features
 
 ### Binary literals

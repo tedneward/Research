@@ -1,22 +1,9 @@
 title=C++ Standards
-tags=language, native, object, metaobject
+tags=native
 summary=C++ Standards links
 ~~~~~~
 
-# C++ links
-
-# Contents
-
-- [Standardization](#standardization)
-- [C++20](#c20): [C++20 Readings](#c20-readings), [C++20 Talks](#c20-talks)
-- [C++17](#c17): [C++17 Readings](#c17-readings), [C++17 Talks](#c17-talks)
-- [C++14](#c14): [C++14 Readings](#c14-readings), [C++14 Talks](#c14-talks)
-- [C++11](#c11): [C++11 Readings](#c11-readings), [C++11 Talks](#c11-talks)
-- [History](#history)
-
----
-
-# Standardization
+# C++ Standardization
 
 - Standardization - Standard C++ Foundation
 	- https://isocpp.org/std

@@ -64,7 +64,7 @@ Articles and papers (focused on teaching, but also of interest for learning by s
 
 ---
 
-#### Standards
+#### [Standards](std.html)
 
 Overview of C++ features, by version:
 [C++20](cpp20.html)
@@ -95,6 +95,7 @@ Overview of C++ features, by version:
 More given [here](std.html).
 
 #### Resources
+* [Error-handling links](error_handling.html)
 * [Modern C++ Overview](https://github.com/AnthonyCalandra/modern-cpp-features) is the original source of the "Versions" section above and the best overview of all the new features in the language since I stopped using it around C++08.
 * [cpplinks](https://github.com/MattPD/cpplinks) is a great collection of C++ links that I shamelessly forked and copied over. May be out of sync with the original.
 * [C++ Rvalue References Explained](http://thbecker.net/articles/rvalue_references/section_01.html)

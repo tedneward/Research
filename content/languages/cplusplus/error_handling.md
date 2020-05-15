@@ -1,5 +1,5 @@
 title=C++ Error handling
-tags=language, native, reading
+tags=native, reading
 summary=A collection of links and reading on the specific ways C/C++ do error-handling.
 ~~~~~~
 # Contents

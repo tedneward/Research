@@ -1,5 +1,5 @@
 title=C++ atomics, lock-free libraries and tools, and the memory model
-tags=language, native, reading
+tags=native, reading
 summary=A collection of readings and research on C++ memory model and related concurrency/synchronization concepts.
 ~~~~~~
 # Contents

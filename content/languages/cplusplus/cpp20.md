@@ -3,28 +3,6 @@ tags=language, native, object, metaobject, functional
 summary=C++ 2020 version
 ~~~~~~
 
-C++20 includes the following new language features:
-- [concepts](#concepts)
-- [designated initializers](#designated-initializers)
-- [template syntax for lambdas](#template-syntax-for-lambdas)
-- [range-based for loop with initializer](#range-based-for-loop-with-initializer)
-- [likely and unlikely attributes](#likely-and-unlikely-attributes)
-- [deprecate implicit capture of this](#deprecate-implicit-capture-of-this)
-- [class types in non-type template parameters](#class-types-in-non-type-template-parameters)
-- [constexpr virtual functions](#constexpr-virtual-functions)
-- [explicit(bool)](#explicitbool)
-- [char8_t](#char8_t)
-- [immediate functions](#immediate-functions)
-- [using enum](#using-enum)
-
-C++20 includes the following new library features:
-- [concepts library](#concepts-library)
-- [synchronized buffered outputstream](#synchronized-buffered-outputstream)
-- [std::span](#stdspan)
-- [bit operations](#bit-operations)
-- [math constants](#math-constants)
-- [std::is_constant_evaluated](#stdis_constant_evaluated)
-
 ## C++20 Language Features
 
 ### Concepts

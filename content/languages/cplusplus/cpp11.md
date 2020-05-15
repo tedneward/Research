@@ -3,56 +3,6 @@ tags=language, native, object, metaobject, functional
 summary=C++ 2011 version
 ~~~~~~
 
-C++11 includes the following new language features:
-- [move semantics](#move-semantics)
-- [variadic templates](#variadic-templates)
-- [rvalue references](#rvalue-references)
-- [forwarding references](#forwarding-references)
-- [initializer lists](#initializer-lists)
-- [static assertions](#static-assertions)
-- [auto](#auto)
-- [lambda expressions](#lambda-expressions)
-- [decltype](#decltype)
-- [type aliases](#type-aliases)
-- [nullptr](#nullptr)
-- [strongly-typed enums](#strongly-typed-enums)
-- [attributes](#attributes)
-- [constexpr](#constexpr)
-- [delegating constructors](#delegating-constructors)
-- [user-defined literals](#user-defined-literals)
-- [explicit virtual overrides](#explicit-virtual-overrides)
-- [final specifier](#final-specifier)
-- [default functions](#default-functions)
-- [deleted functions](#deleted-functions)
-- [range-based for loops](#range-based-for-loops)
-- [special member functions for move semantics](#special-member-functions-for-move-semantics)
-- [converting constructors](#converting-constructors)
-- [explicit conversion functions](#explicit-conversion-functions)
-- [inline-namespaces](#inline-namespaces)
-- [non-static data member initializers](#non-static-data-member-initializers)
-- [right angle brackets](#right-angle-brackets)
-- [ref-qualified member functions](#ref-qualified-member-functions)
-- [trailing return types](#trailing-return-types)
-- [noexcept specifier](#noexcept-specifier)
-
-C++11 includes the following new library features:
-- [std::move](#stdmove)
-- [std::forward](#stdforward)
-- [std::thread](#stdthread)
-- [std::to_string](#stdto_string)
-- [type traits](#type-traits)
-- [smart pointers](#smart-pointers)
-- [std::chrono](#stdchrono)
-- [tuples](#tuples)
-- [std::tie](#stdtie)
-- [std::array](#stdarray)
-- [unordered containers](#unordered-containers)
-- [std::make_shared](#stdmake_shared)
-- [std::ref](#stdref)
-- [memory model](#memory-model)
-- [std::async](#stdasync)
-- [std::begin/end](#stdbeginend)
-
 ## C++11 Language Features
 
 ### Move semantics
