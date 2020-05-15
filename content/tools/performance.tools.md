@@ -2,20 +2,6 @@ title=Performance tools and research
 tags=tool, reading
 summary=A collection of links around performance tools
 ~~~~~~
-# Contents
-
-- [Benchmarking](#benchmarking)
-- [Memory](#memory):
-	- [Memory - Benchmarking](#memory---benchmarking)
-	- [Memory - Profiling](#memory---profiling)
-- [Microarchitecture](#microarchitecture)
-- [Optimization](#optimization)
-- [Profiling](#profiling)
-- [Timing](#timing)
-- [Visualization](#visualization)
-
----
-
 # Benchmarking
 
 ## Software

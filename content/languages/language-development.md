@@ -11,5 +11,5 @@ summary=A collection of language development tools and libraries.
 [ANTLR](http://www.antlr.org): Popular parser generator from Terrence Parr. [Github](https://github.com/antlr/antlr4) and [Docs](https://github.com/antlr/antlr4/blob/4.8/doc/index.md). There's also a bunch of [grammars](https://github.com/antlr/grammars-v4) already written for it.
 
 ## Examples
-[This site](https://catseye.tc/article/Languages.md) has an interesting collection of tiny languages, many of which are esoteric in nature, but some of which have some interesting principles that are worth investigating. It looks like the author of the site spend a ton of time just writing a new language each month or something, going all the way back to 2008 and earlier....
+[This site](https://catseye.tc/article/Languages.md) has an interesting collection of tiny languages, many of which are esoteric in nature, but some of which have some interesting principles that are worth investigating. It looks like the author of the site spends a ton of time just writing a new language each month or something, going all the way back to 2008 and earlier....
 
