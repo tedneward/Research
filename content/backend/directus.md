@@ -1,5 +1,5 @@
 title=Directus
-tags=cms
+tags=backend, cms
 summary=Headless CMS & API for Custom Databases.
 ~~~~~~
 

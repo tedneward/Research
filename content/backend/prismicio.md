@@ -1,5 +1,5 @@
 title=Prismic.io
-tags=cms
+tags=backend, cms
 summary=Headless, API-driven "content platform" CMS.
 ~~~~~~
 

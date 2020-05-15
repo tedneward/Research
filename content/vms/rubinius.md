@@ -1,6 +1,6 @@
 title=Rubinius
-tags=platform, native
-summary=A modern language platform that supports a number of programming languages.
+tags=vm, native
+summary=A modern language vm that supports a number of programming languages.
 ~~~~~~
 
 [Website](https://rubinius.com/) | [Github](https://github.com/rubinius/rubinius)
