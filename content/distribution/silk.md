@@ -1,5 +1,5 @@
 title=Silk
-tags=distributed system, tool
+tags=distribution, tool
 summary=Markdown-based document-driven RESTful API testing.
 ~~~~~~
 
