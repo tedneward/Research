@@ -6,16 +6,11 @@ Executable files, debugging data, object code, shared libraries - file formats i
 
 Organization: Preference given to the most specific category; e.g., if an article discusses DLL-specific information, then it belongs to the DLL section (in preference to the more general PE).
 
-See also:
-
-- [Compilers](language-impl.html)
-- [Linking and Loading](executables.linking_loading.html) 
+See also: [Compilers](language-impl.html) | [Linking and Loading](executables.linking_loading.html) 
 
 ---
 
-# General
-
-## General: Readings
+## General
 
 * Comparison of executable file formats - https://en.wikipedia.org/wiki/Comparison_of_executable_file_formats
 * Executable and object file formats - https://en.wikipedia.org/wiki/Template:Executables
@@ -37,81 +32,6 @@ See also:
 	+ pe101: https://github.com/corkami/pics/tree/master/binary/pe101
 	+ pe102: https://github.com/corkami/pics/tree/master/binary/pe102
 
-## General: Software
-
-* Backdoor Factory (BDF): patch PE, ELF, Mach-O binaries with shellcode - https://github.com/secretsquirrel/the-backdoor-factory
-* bingrep: Greps through binaries from various OSs and architectures, and colors them (ELF, Mach-O, PE)
-	+ https://github.com/m4b/bingrep
-* Bloaty McBloatface: a size profiler for binaries (ELF, Mach-O) - https://github.com/google/bloaty
-	+ http://blog.reverberate.org/2016/11/07/introducing-bloaty-mcbloatface.html
-	+ “(Ab)using Compiler Tools”; CppCon 2019; Reka Kovacs
-		- https://www.youtube.com/watch?v=5Lke40ywMaU
-		- https://github.com/CppCon/CppCon2019/tree/master/Presentations/abusing_compiler_tools
-* Boost Dynamic Library Load (Boost.DLL): Library for comfortable work with DLL and DSO
-	+ https://github.com/boostorg/dll
-	+ https://www.boost.org/doc/libs/release/doc/html/boost_dll.html
-* cave_miner: search for code cave in binaries (ELF, Mach-O, PE), and inject code in them - https://github.com/Antonin-Deniau/cave_miner
-* codesize: Code size visualization tool with PDB/ELF/Mach-O support
-	+ https://github.com/zeux/codesize
-* ddbug - Display debugging information
-	+ ddbug is a utility that can extract useful information from DWARF/PDB debugging data. Its goal is to use the debugging information to provide insights into the code generation.
-	+ Supports: ELF files with DWARF, Mach-O files with DWARF, Windows PDB files (mimimal)
-	+ https://github.com/gimli-rs/ddbug
-* Delinker: Unlinks a binary executable to get back a set of .o object files for further transformation and re-linking.
-	+ https://github.com/jnider/delinker
-	+ Reverse the Linking Process
-		- Compiler, Architecture, and Tools Conference (CATC) 2018
-		- Joel Nider
-		- https://software.intel.com/en-us/download/reverse-the-linking-process
-* Detect-It-Easy: Program for determining types of files for Windows, Linux and MacOS
-	- https://github.com/horsicq/Detect-It-Easy
-* FileBytes
-	+ Library to read and edit files in the following formats: Executable and Linking Format (ELF), Portable Executable (PE), MachO and OAT (Android Runtime)
-	+ https://scoding.de/filebytes-introduction
-	+ https://github.com/sashs/filebytes/
-* Fileformat: A set of libraries and tools for representation, manipulation, and analysis of binary files in various object file formats
-	+ COFF, ELF, Intel HEX, Mach-O, PE, raw data
-	+ https://github.com/avast-tl/fileformat
-* FunctionSimSearch
-	+ Example C++ code to demonstrate how to do SimHash-based similarity search over CFGs extracted from disassemblies
-	+ https://github.com/googleprojectzero/functionsimsearch
-	+ Searching statically-linked vulnerable library functions in executable code
-		- https://googleprojectzero.blogspot.com/2018/12/searching-statically-linked-vulnerable.html
-* injectdso - A collection of tools for injecting DSOs - https://github.com/huku-/injectdso
-* LIEF - Library to Instrument Executable Formats
-	+ The purpose of this project is to provide a cross platform library which can parse, modify and abstract ELF, PE and MachO formats.
-	+ https://github.com/lief-project/LIEF
-	+ https://lief.quarkslab.com/
-	+ references: https://lief.quarkslab.com/doc/latest/references.html
-* Pyew - https://github.com/joxeankoret/pyew
-	+ Pyew is a (command line) python tool to analyse malware. It does have support for hexadecimal viewing, disassembly (Intel 16, 32 and 64 bits), PE and ELF file formats (it performs code analysis and let you write scripts using an API to perform many types of analysis), follows direct call/jmp instructions in the interactive command line, displays function names and string data references; supports OLE2 format, PDF format and more. It also supports plugins to add more features to the tool.
-* Qiew - Hex/File format viewer (ELF and PE plugins available) - https://github.com/mtivadar/qiew
-* RetDec: a retargetable machine-code decompiler based on LLVM
-	+ Supported file formats: ELF, PE, Mach-O, COFF, AR (archive), Intel HEX, and raw machine code.
-	+ Supported architectures (32b only): Intel x86, ARM, MIPS, PIC32, and PowerPC.
-	+ https://github.com/avast-tl/retdec
-* Ropper - ROP gadget finder and binary information tool (ELF, PE, Mach-O)
-	+ https://scoding.de/ropper/
-	+ https://github.com/sashs/ropper
-* Sample Binaries: Sample binary executables (for a number of architectures) for binary analysis testing
-	+ https://github.com/GaloisInc/sample-binaries
-* Samples of binary with different formats and architectures. A test suite for your binary analysis tools. (ELF, Mach-O, PE)
-	+ https://github.com/JonathanSalwan/binary-samples
-* symtool: Static symbol manipulation tool for ELF and Mach-O objects
-	+ https://github.com/calebzulawski/symtool
-	+ Changing symbol visibility
-	+ Renaming symbols
-	+ Actions are performed in-place, leaving the rest of the binary untouched
-* The Witchcraft Compiler Collection  
-	+ https://github.com/endrazine/wcc
-	+ wld: The Witchcraft Linker
-		- wld takes an ELF executable as an input and modifies it to create a shared library.
-	+ wcc: The Witchcraft Compiler
-		- The wcc compiler takes binaries (ELF, PE, ...) as an input and creates valid ELF binaries as an output. It can be used to create relocatable object files from executables or shared libraries.
-	+ wsh: The Witchcraft shell
-		- The witchcraft shell accepts ELF shared libraries, ELF ET_DYN executables and Witchcraft Shell Scripts written in Punk-C as an input. It loads all the executables in its own address space and makes their API available for programming in its embedded interpreter. This provides for binaries functionalities similar to those provided via reflection on languages like Java.
-	+ wldd: print shared libraries compilation flags
-	+ wcch: generate C headers from binaries
 
 ## General: Talks
 
@@ -127,8 +47,6 @@ See also:
 	+ https://www.youtube.com/playlist?list=PLUFkSN0XLZ-n_Na6jwqopTt1Ki57vMIc3
 
 ---
-
-# DLL
 
 ## DLL: Readings
 

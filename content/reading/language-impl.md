@@ -1,5 +1,5 @@
 title=Language Implementation Reading
-tags=language, reading
+tags=language, reading, llvm, native
 summary=Collection of articles on implementing languages.
 ~~~~~~
 
