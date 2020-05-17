@@ -1,5 +1,5 @@
 title=cave_miner
-tags=tool, native, macos, windows, linux
+tags=tool, native, elf, macho, pe
 summary=Search for code cave in binaries (ELF, Mach-O, PE), and inject code in them
 ~~~~~~
 

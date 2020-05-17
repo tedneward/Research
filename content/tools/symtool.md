@@ -1,6 +1,6 @@
 title=symtool
 summary=Static symbol manipulation tool for ELF and Mach-O objects.
-tags=tool, native, linux, macos
+tags=tool, native, linux, macos, elf, macho
 ~~~~~~
 
 [Github](https://github.com/calebzulawski/symtool)

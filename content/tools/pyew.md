@@ -1,5 +1,5 @@
 title=Pyew
-tags=tool, python, native, windows, linux
+tags=tool, python, native, windows, linux, pe, elf, pdf
 summary=A (command line) python tool to analyse malware.
 ~~~~~~
 

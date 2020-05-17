@@ -1,5 +1,5 @@
 title=ddbug 
-tags=tool, native, linux, macos, windows
+tags=tool, native, dwarf, pdf, macho, pe, elf
 summary=Display debugging information.
 ~~~~~~
 

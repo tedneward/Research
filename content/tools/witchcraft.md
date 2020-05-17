@@ -1,6 +1,6 @@
 title=The Witchcraft Compiler Collection  
 summary=A collection of tools for working with executables.
-tags=tool, language, library, native, linux, windows
+tags=tool, language, library, native, linux, windows, elf, pe
 ~~~~~~
 
 wld: The Witchcraft Linker

@@ -1,5 +1,5 @@
 title=Bloaty McBloatface
-tags=tool, native, macos, linux
+tags=tool, native, elf, macho
 summary=A size profiler for binaries (ELF, Mach-O)
 ~~~~~~
 
