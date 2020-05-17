@@ -8,6 +8,8 @@ Distributed systems are the means by which programs on one machine communicate w
 Reading lists:
 * [dancres.github.io](https://dancres.github.io/Pages/)
 
+Interesting links:
+* [Fuck Off As A Service](http://foaas.com/)
 
 
 
