@@ -1,16 +1,12 @@
 title=Executable and object file formats
 tags=native, reading, windows, linux, macos, linux, elf, macho, pe, dwarf, pdb
-summary=Resources and reading around executable and object file formats (ELF, Mach-O, PE) and debugging data formats (DWARF, PDB).
+summary=Resources and reading around executable and object file formats.
 ~~~~~~
 Executable files, debugging data, object code, shared libraries - file formats information, specifications, software - with relevance to compiler toolchains, debuggers, and general program analysis.
 
 Organization: Preference given to the most specific category; e.g., if an article discusses DLL-specific information, then it belongs to the DLL section (in preference to the more general PE).
 
 See also: [Compilers](language-impl.html) | [Linking and Loading](executables.linking_loading.html) | [DWARF](/formats/dwarf.html) | [ELF](/formats/elf.html) | [COFF](/formats/coff.html) | [PE and DLL](/formats/pe.html) | [PDB](/formats/pdb.html)
-
----
-
-## General
 
 * Comparison of executable file formats - https://en.wikipedia.org/wiki/Comparison_of_executable_file_formats
 * Executable and object file formats - https://en.wikipedia.org/wiki/Template:Executables
@@ -32,7 +28,7 @@ See also: [Compilers](language-impl.html) | [Linking and Loading](executables.li
 	+ pe101: https://github.com/corkami/pics/tree/master/binary/pe101
 	+ pe102: https://github.com/corkami/pics/tree/master/binary/pe102
 
-## General: Talks
+## Talks
 
 * Reverse Engineering Binaries
 	+ DevConf.CZ 2019; Divya Basant Kumar
