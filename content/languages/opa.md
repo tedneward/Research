@@ -1,5 +1,5 @@
 title=Opa
-tags=language, distributed system, functional
+tags=language, distribution, functional
 summary=An attempt at an "all-in-one" presentation, middleware, and storage system.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=Ballerina
-tags=language, distributed system, services
+tags=language, distribution, services
 Summary=A service-oriented programming language.
 ~~~~~~
 

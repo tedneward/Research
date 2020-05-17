@@ -1,7 +1,9 @@
 title=The Witchcraft Compiler Collection  
-summary=A collection of tools for working with executables.
+summary=A collection of compilation tools to perform binary black magic on the GNU/Linux and other POSIX platforms.
 tags=tool, language, library, native, linux, windows, elf, pe
 ~~~~~~
+
+[User manual](https://github.com/endrazine/wcc/wiki)
 
 wld: The Witchcraft Linker
     - wld takes an ELF executable as an input and modifies it to create a shared library.

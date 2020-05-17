@@ -1,5 +1,5 @@
 title=Jolie
-tags=language, distributed system
+tags=language, distribution, services
 summary=A microservice/SOA programming language.
 ~~~~~~
 

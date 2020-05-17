@@ -1,5 +1,5 @@
 title=E
-tags=language, object, distributed system, dynamic, jvm
+tags=language, object, distribution, dynamic, jvm
 summary=An object-oriented programming language for secure distributed computing.
 ~~~~~~
 
