@@ -1,5 +1,5 @@
 title=Executable and Linkable Format (ELF)
-tags=format, linux
+tags=format, linux, elf, dwarf
 summary=Executable file format.
 ~~~~~~
 

@@ -1,6 +1,6 @@
 title=Portable Executable (PE)
 summary=Win32 executable file format.
-tags=format, native, windows, pdb
+tags=format, native, windows, pdb, pe
 ~~~~~~
 
 DLLs and EXEs differ by basically one byte in the PE file format, indicating whether this is executable (and therefore has a main()-style entry point) or not.

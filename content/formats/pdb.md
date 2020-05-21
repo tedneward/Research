@@ -1,6 +1,6 @@
 title=Programming Debug Binary (PDB)
 summary=Debugging file format for Windows executables.
-tags=format, native, windows, pe
+tags=format, native, windows, pe, pdb
 ~~~~~~
 
 ## PDB: Readings

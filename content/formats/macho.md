@@ -1,5 +1,5 @@
 title=Mach-O
-tags=format, macos, elf, dwarf
+tags=format, macos, elf, dwarf, macho
 summary=macOS executable file format.
 ~~~~~~
 

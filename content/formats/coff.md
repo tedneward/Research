@@ -1,5 +1,5 @@
 title=Common Object File Format (COFF)
-tags=format, native
+tags=format, native, pe, coff
 summary=Executable file format.
 ~~~~~~
 

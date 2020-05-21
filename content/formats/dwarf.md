@@ -1,6 +1,6 @@
 title=DWARF
 summary=Debugging format for ELF excutables
-tags=format, native, elf, reading
+tags=format, native, elf, reading, dwarf
 ~~~~~~
 
 [Website](http://dwarfstd.org/) | [Wiki](http://wiki.dwarfstd.org/)

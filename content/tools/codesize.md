@@ -1,5 +1,5 @@
 title=codesize
-tags=tool, native, pdb, elb, macho
+tags=tool, native, pdb, elf, macho
 summary=Code size visualization tool with PDB/ELF/Mach-O support
 ~~~~~~
 
