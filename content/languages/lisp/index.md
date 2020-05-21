@@ -14,4 +14,3 @@ Lisp-inspired:
 "A Lisp":
 * [Ferret](https://ferret-lang.org/): appears to compile [Clojure](/languages/clojure.html) into native code
 
-
