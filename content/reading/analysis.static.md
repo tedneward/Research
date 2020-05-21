@@ -2,32 +2,7 @@ title=Static Program Analysis
 tags=language, native, object, metaobject, reading
 summary=A collection of resources and readings on static program analysis
 ~~~~~~
-# Program Analysis - Static
-
-See also:
-
-- [Compilers](language-impl.html)
-- [Debugging](debugging.html)
-- [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
-	- [Dynamic Program Analysis](analysis.dynamic.html) - instrumentation, translation, sanitizers 
-	- [Symbolic Execution](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#symbolic-execution)
-	- [LLVM - Verification](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm---verification)
-- [Testing](testing.html)
-	- [Fuzzing](testing.fuzzing.html)
-
-# Contents
-
-- [Readings](#readings)
-	- [Books](#readings-books)
-	- [Research](#readings-research)
-		- [Correctness](#readings-research-correctness)
-- [Benchmarking](#benchmarking)
-- [Verification](#verification): Verification & Model Checking
-	- [Software](#verification-software): Verification Software
-- [Software](#software):
-	- [Compilers](#software-compilers): Clang, GCC, Visual C++ - static analysis support
-
----
+See also: [Compilers](language-impl.html) | [Debugging](debugging.html) | [Program Analysis](program-analysis.html) and [Dynamic Program Analysis](analysis.dynamic.html) | [Testing](testing.html) and [Fuzzing](testing.fuzzing.html)
 
 # Readings
 
