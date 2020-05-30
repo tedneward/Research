@@ -2,6 +2,7 @@ title=Reading
 category=reading
 type=categorypage
 summary=Lots of theory and/or category-wide research and related links.
+tags=reading
 ~~~~~~
 
 Collections of articles on various topics. Liberal crosslinking expected.

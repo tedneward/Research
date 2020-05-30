@@ -1,7 +1,8 @@
 title=Virtual Machines
 type=categorypage
 category=vm
-status=published
+summary=A collection of links and pages around software virtual machines.
+tags=vm
 ~~~~~~
 
 Virtual Machines differ from platforms in that a virtual machine may form the core of a platform.

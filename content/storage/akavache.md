@@ -1,5 +1,5 @@
 title=Akavache
-tags=storage, key-value, embedded, clr
+tags=storage, key-value, embedded, clr, library
 summary=An asynchronous, persistent key-value store created for writing desktop and mobile applications, based on SQLite3.
 ~~~~~~
 

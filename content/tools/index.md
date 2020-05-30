@@ -2,6 +2,7 @@ title=Tools
 type=categorypage
 category=tool
 summary=A collection of software tools, more software development-related than not.
+tags=tool
 ~~~~~~
 
 Tools to break out into individual pages:

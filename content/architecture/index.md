@@ -1,6 +1,8 @@
 title=Architecture
 category=architecture
 type=categorypage
+summary=A collection of links around software architecture, which may or may not include distributed systems or networking.
+tags=architecture
 ~~~~~~
 
 High-level resources/links around software architecture--styles, analysis, etc.
