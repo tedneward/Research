@@ -1,7 +1,7 @@
 title=Distribution and Distributed Systems
 category=distribution
 type=categorypage
-summary=A collection of links about distributed systems.
+summary=A collection of links about distributed systems, including protocol definitions/specifications.
 tags=distribution
 ~~~~~~
 
