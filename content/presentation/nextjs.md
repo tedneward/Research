@@ -1,5 +1,5 @@
 title=NextJS
-tag=presentation, browser
+tags=presentation, browser
 summary=Browser-based React framework.
 ~~~~~~
 
