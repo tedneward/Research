@@ -1,5 +1,5 @@
 title=LevelDB
-tags=storage, browser, embedded, keyvalue
+tags=storage, browser, embedded, key-value
 summary=A very fast and lightweight, embedded database; part of the Chrome browser (exposed as IndexedDB).
 ~~~~~~
 

@@ -1,6 +1,6 @@
 title=UnQLite
 type=page
-tags=native, library, storage, document, keyvalue
+tags=native, library, storage, document, key-value
 status=published
 summary=Embedded C-bindings document and key/value store.
 ~~~~~~
