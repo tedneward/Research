@@ -3,7 +3,7 @@ tags=platform, language, functional, object, metaobject
 summary=Racket language/platform is a Lisp, but has numerous language implementations built on it.
 ~~~~~~
 
-[Website](https://racket-lang.org/) | [Docs](https://docs.racket-lang.org/index.html)
+[Website](https://racket-lang.org/) | [Docs](https://docs.racket-lang.org/index.html) | [Source](https://github.com/racket/racket)
 
 General-purpose programming language, as well as ecosystem for language-oriented programming. Languages available (through the `#lang` directive):
 * racket

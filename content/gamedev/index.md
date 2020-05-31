@@ -7,5 +7,6 @@ tags=gamedev
 
 Video game development links.
 
+[Github list of Game Engines](https://github.com/collections/game-engines)
 
 

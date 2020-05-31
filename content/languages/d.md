@@ -1,6 +1,8 @@
 title=D
 tags=language, native, object, metaobject
-summary=A proposed successor to C++ as a systems-level object-oriented language.
+summary=a general-purpose programming language with static typing, systems-level access, and C-like syntax.
 ~~~~~~
 
-[Website]() | [Github]()
+[Website](https://dlang.org/index.html) | [dmd Source](https://github.com/dlang/dmd) | [Language Specificaion](https://dlang.org/spec/spec.html)
+
+

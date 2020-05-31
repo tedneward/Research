@@ -3,7 +3,7 @@ tags=language, jvm, functional, static
 summary=A functional language heavily Haskell-inspired for the JVM.
 ~~~~~~
 
-[Github](https://github.com/Frege/frege) | [Language reference](http://www.frege-lang.org/doc/Language.pdf) | [Real-World Frege](https://github.com/Dierk/Real_World_Frege/) | [Frege Goodness](http://dierk.gitbooks.io/fregegoodness)
+[Source](https://github.com/Frege/frege) | [Language reference](http://www.frege-lang.org/doc/Language.pdf) | [Real-World Frege](https://github.com/Dierk/Real_World_Frege/) | [Frege Goodness](http://dierk.gitbooks.io/fregegoodness)
 
 Like any Haskell, it is purely functional, enjoys a strong static type system with global type inference and non-strict - also known as lazy - evaluation. Frege compiles to Java, runs on the JVM, and uses any Java library you want. It can be used inside any Java project.
 

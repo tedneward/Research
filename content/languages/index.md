@@ -12,7 +12,18 @@ Programming languages are (generally) human-friendly means of getting a computer
 
 
 ## General language sites/links
-Some general language-wonk sorts of sites: [Codelani](https://codelani.com/) appears to be a comprehensive list of languages (over 4,000); the ["patterns"](https://codelani.com/lists/patterns.html) section is more a collection of "language atoms" that make up a lot of language syntax and semantics | [Lambda the Ultimate | Programming Languages Weblog](http://lambda-the-ultimate.org/) | [Programming Languages Short List (PLRE.org)](http://www.plre.org/languages.html) | [Programming languages](http://microsoft.toddverbeek.com/lang.html) | [The Encyclopedia of Computer Languages](http://hopl.murdoch.edu.au/) | [Programming language - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Programming_language) | [Visual Programming Languages - Snapshots](http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/) | [Embedded scripting languages list](https://github.com/dbohdan/embedded-scripting-languages) | [PL Enthusiast](http://www.pl-enthusiast.net/) | [PL wonks](http://wonks.github.io/)
+Some general language-wonk sorts of sites: 
+* [Github Collections: Programming Languages](https://github.com/collections/programming-languages): As of 1 June 2020, I've collected the top two or three dozen into this site (at least).
+* [Codelani](https://codelani.com/) appears to be a comprehensive list of languages (over 4,000); the ["patterns"](https://codelani.com/lists/patterns.html) section is more a collection of "language atoms" that make up a lot of language syntax and semantics
+* [Lambda the Ultimate | Programming Languages Weblog](http://lambda-the-ultimate.org/)
+* [Programming Languages Short List (PLRE.org)](http://www.plre.org/languages.html)
+* [Programming languages](http://microsoft.toddverbeek.com/lang.html) 
+* [The Encyclopedia of Computer Languages](http://hopl.murdoch.edu.au/) 
+* [Programming language - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Programming_language) 
+* [Visual Programming Languages - Snapshots](http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/) 
+* [Embedded scripting languages list](https://github.com/dbohdan/embedded-scripting-languages) 
+* [PL Enthusiast](http://www.pl-enthusiast.net/) 
+* [PL wonks](http://wonks.github.io/)
 
 ## Language categories
 Wikipedia defines a really large ontological breakdown of languages; I prefer a slightly smaller one:

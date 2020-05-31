@@ -3,7 +3,7 @@ tags=language, functional, object, native
 summary=A general-purpose programming language that provides caching with features like reactive invalidation, safe parallelism, and efficient garbage collection.
 ~~~~~~
 
-[Website](http://www.skiplang.com/) | [Github](https://github.com/skiplang/skip)
+[Website](http://www.skiplang.com/) | [Source](https://github.com/skiplang/skip)
 
 ### Overview (from the website):
 Skip is a general-purpose programming language that tracks side effects to provide caching with reactive invalidation, ergonomic and safe parallelism, and efficient garbage collection. Skip is statically typed and ahead-of-time compiled using LLVM to produce highly optimized executables.

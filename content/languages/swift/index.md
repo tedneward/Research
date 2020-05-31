@@ -14,5 +14,5 @@ summary=A second-generation object-oriented language with functional overtones.
 
 Swift combines powerful type inference and pattern matching with a modern, lightweight syntax, allowing complex ideas to be expressed in a clear and concise manner."
 
-[Website](https://swift.org/) | [Apple website](https://developer.apple.com/swift/)
+[Website](https://swift.org/) | [Apple website](https://developer.apple.com/swift/) | [Source](https://github.com/apple/swift)
 

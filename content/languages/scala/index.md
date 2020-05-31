@@ -4,3 +4,5 @@ summary=A functional/object hybrid for the JVM.
 ~~~~~~
 
 A compiled language.
+
+[Source](https://github.com/scala/scala)
