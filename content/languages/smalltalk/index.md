@@ -12,7 +12,7 @@ summary=The original object-oriented programming language, emphasizing multiple 
 
 #### Implementations
 * [Cincom](http://www.cincomsmalltalk.com/main/) (commercial but free download)
-* [Pharo](http://pharo.org/)
+* [Pharo](pharo.html)
 * [Redline Smalltalk](http://www.redline.st/): Smalltalk on the JVM
 * [Squeak](https://squeak.org/)
 * [Amber Smalltalk](https://amber-lang.net/): Smalltalk to JS for the browser [Source](https://lolg.it/amber/amber)

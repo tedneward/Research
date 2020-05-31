@@ -1,5 +1,5 @@
 title=Idris
-tags=language, functional
+tags=language, functional, dependent types
 summary=A dependently typed functional programming language.
 ~~~~~~
 
