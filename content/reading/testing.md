@@ -2,20 +2,13 @@ title=Testing
 tags=native, reading
 summary=A collection of links and resources around testing
 ~~~~~~
-See also:
 
-- [Fuzzing](testing.fuzzing.html)
-- [Compilers Correctness](compilers.correctness.html): [Testing](compilers.correctness.html#testing)
+[Principles of Chaos Engineering](http://principlesofchaos.org/)
+
+See also: [Fuzzing](fuzzing.html) || [Compilers Correctness](compilers.correctness.html)
 
 # Contents
 
-- [General](#general)
-- [Blogs](#blogs):
-	- [Series](#blogs-series)
-- [Books](#books)
-- [Courses](#courses)
-- [Research](#research)
-- [Concurrency](#concurrency)
 - [Continuous Integration](#continuous-integration):
 	- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration-readings)
 	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration-software)
