@@ -3,7 +3,7 @@ tags=distribution, library
 summary=OASIS standard for data over HTTP-based communication.
 ~~~~~~
 
-[Website](http://www.odata.org/) | [OASIS Open Data Protocol Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=odata)
+[Website](http://www.odata.org/) | [OASIS Open Data Protocol Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=odata) | [Microsoft docs on OData](https://docs.microsoft.com/en-us/odata/)
 
 ## Clients/SDKs
 
@@ -15,4 +15,4 @@ summary=OASIS standard for data over HTTP-based communication.
 
 [RESTier](http://odata.github.io/RESTier/): RESTful API development framework for building standardized, OData V4 based RESTful services on .NET platform. [Github](https://github.com/OData/RESTier)
 
-
+[Ecosystem](https://www.odata.org/ecosystem/): [VSCode extension](https://marketplace.visualstudio.com/items?itemName=stansw.vscode-odata) | 
