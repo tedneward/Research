@@ -18,7 +18,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <#list categorypages?sort_by("title") as page>
-                <li><a href="/${page.uri}">${page.title}</a></li>
+                <li><a href="/${page.uri}" target="_blank">${page.title}</a></li>
                 </#list>
               </ul>
             </li>
