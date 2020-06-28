@@ -8,6 +8,7 @@ The Semantic Web is an extension of the World Wide Web through standards set by 
 Standards:
 * [RDF](/formats/rdf.html)
 * [SPARQL](/formats/sparql.html)
+* [Web Ontology Language](https://en.wikipedia.org/wiki/Web_Ontology_Language)
 
 Tools/Libraries:
 * [Jena](/storage/jena.html)

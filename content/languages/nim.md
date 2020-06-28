@@ -4,3 +4,7 @@ summary=A compiled, garbage-collected systems programming language with a design
 ~~~~~~
 
 [Source](https://github.com/nim-lang/Nim)
+
+---
+
+[Prologue](https://github.com/planety/prologue): Full-Stack Web Framework written in Nim. [Website](planety.github.io/prologue)
