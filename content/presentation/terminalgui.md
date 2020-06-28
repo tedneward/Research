@@ -1,6 +1,8 @@
-title=Terminal.Gui
-tags=presentation, library, clr
-summary=Console-based user interface toolkit for .NET applications.
+title=Terminal.GUI
+tags=presentation, library, clr, macos
+summary=Console-based user interface toolkit.
 ~~~~~~
 
-[Source](https://github.com/migueldeicaza/gui.cs)
+Terminal.GUI.NET: [Source](https://github.com/migueldeicaza/gui.cs)
+
+TerminalKit for Swift: [Source](https://github.com/migueldeicaza/TermKit)

@@ -6,6 +6,8 @@ See also: [compilers and language implementation](language-impl.html)
 
 # General
 
+[What is a secure programming language?](https://drops.dagstuhl.de/opus/volltexte/2019/10546/pdf/LIPIcs-SNAPL-2019-3.pdf)
+
 - ACM SIGPLAN Conference on Certified Programs and Proofs (CPP) - http://dblp.org/db/conf/cpp/
 - Black-Box Equivalence Checking Across Compiler Transformations
 	- 2018 PhD thesis; Manjeet Dahiya

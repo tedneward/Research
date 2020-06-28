@@ -16,5 +16,11 @@ There used to be multiple CLR implementations, but all have more or less fallen 
 ### Related posts
 [Open-source CLR Instrumentation Engine](https://www.poppastring.com/blog/open-source-clr-instrumentation-engine) (and on [Github](https://github.com/microsoft/CLRInstrumentationEngine))
 
+--- 
+# CLR-to-X interoperability
+
+## CLR-to-JVM
+[IKVM](https://www.ikvm.net/): IKVM.NET is an implementation of Java for Mono and the Microsoft .NET Framework.
+
 ### CLR-native bindings/libraries/tools
 [CppAst](https://github.com/xoofx/CppAst): a .NET library providing a C/C++ parser for header files powered by Clang/libclang with access to the full AST, comments and macros; also see [CppAst.CodeGen](https://github.com/xoofx/CppAst.CodeGen)
