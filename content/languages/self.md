@@ -7,3 +7,4 @@ summary=An object-oriented programming language based on the concept of prototyp
 
 The [Papers](http://bibliography.selflanguage.org/) have a lot of strong ideas that have emerged into other VM implementations (a la JVM, via [Strongtalk](/vms/strongtalk.html)).
 
+[The Object Model of Self](https://github.com/pavel-krivanek/articles/tree/master/SelfObjectModel)
