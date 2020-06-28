@@ -9,8 +9,14 @@ Standards:
 * [RDF](/formats/rdf.html)
 * [SPARQL](/formats/sparql.html)
 
+Tools/Libraries:
+* [Jena](/storage/jena.html)
+
 Some related links:
 * [dotnetRDF](/libraries/dotnetRDF.html)
 
 Older, looking-abandoned links:
 * [4store](/storage/4store.html)
+
+["How RDF Databases Differ from Other NoSQL Solutions"](https://web.archive.org/web/20190104190318/http://blog.datagraph.org:80/2010/04/rdf-nosql-diff)
+
