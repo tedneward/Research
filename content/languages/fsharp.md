@@ -15,6 +15,7 @@ F# was originally a CLR-based variant of [OCaml](/languages/ocaml.html). Since F
 [Cloud](https://fsharp.org/guides/cloud/): Cloud and SOA are places where F# has made some strong plays. 
 
 [Web](https://fsharp.org/guides/web): There's a collection of different web frameworks for F#. Some are more recent than others.
+* [Fable](https://fable.io/): A compiler powered by Babel designed to make F# a first-class citizen of the JavaScript ecosystem. See [The Elmish Book](https://zaid-ajaj.github.io/the-elmish-book/#/) for a practical guide on using Fable.
 
 [Mobile](https://fsharp.org/guides/mobile-apps): Most of this centers around Xamarin; lots of the links on the F#.org site are old (2013-era).
 
@@ -23,4 +24,6 @@ F# was originally a CLR-based variant of [OCaml](/languages/ocaml.html). Since F
 
 [Data access](https://fsharp.org/guides/data-access/): Type providers are seriously powerful: [Accessing loosely structured data from F# and C#](http://tomasp.net/blog/goto-loosely-structured-data.aspx/index.html) [XML](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html), [JSON](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html), [SQL](http://msdn.microsoft.com/en-us/library/hh361033.aspx). Agents and message queues: [An Introduction To F# Agents](http://www.developerfusion.com/article/139804/an-introduction-to-f-agents/) | [Agents](http://fsharpforfunandprofit.com/posts/concurrency-actor-model/)
 
+---
 
+[Donald](https://github.com/pimbrouwers/Donald): A succinct F# DSL for ADO.NET.
