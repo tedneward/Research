@@ -1,5 +1,5 @@
 title=Bazel
-tags=tool
+tags=tool, build
 summary=A fast, scalable, multi-language, extensible build system.
 ~~~~~~
 

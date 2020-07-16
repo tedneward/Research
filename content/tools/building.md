@@ -1,5 +1,5 @@
 title=Build tools and research
-tags=tool, reading
+tags=tool, reading, build
 summary=A collection of links around building, build systems, and build performance optimization
 ~~~~~~
 [Autotools](autotools.html) | [Bazel](bazel.html) | [Boost.Build](boostbuild.html) | [build2](build2.html) | [CMake](cmake.html) | [FASTBuild](fastbuild.html) | [Gradle](gradle.html) | [Make and GNUMake](make.html) | [Meson](meson.html) | [MSBuild](msbuild.html) [Ninja](ninja.html) | [Tundra](tundra.html) | [Tup](tup.html) | [Xcode](xcode.html) | [xmake](xmake.html)

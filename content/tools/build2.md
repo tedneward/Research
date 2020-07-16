@@ -1,5 +1,5 @@
 title=Build2
-tags=tool, native
+tags=tool, native, build
 summary=C++ build toolchain.
 ~~~~~~
 

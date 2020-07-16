@@ -1,5 +1,5 @@
 title=Gradle
-tags=tool, jvm, android
+tags=tool, jvm, android, build
 summary=Build tool for JVM and Android environments using Groovy (later Kotlin) as build language.
 ~~~~~~
 

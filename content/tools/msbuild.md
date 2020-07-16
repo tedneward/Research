@@ -1,5 +1,5 @@
 title=MSBuild
-tags=tool, clr, native
+tags=tool, clr, native, build
 summary=A build system from Microsoft heavily inspired by Ant.
 ~~~~~~
 

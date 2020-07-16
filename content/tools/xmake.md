@@ -1,5 +1,5 @@
 title=XMake
-tags=tool
+tags=tool, build
 summary=A cross-platform build utility based on Lua.
 ~~~~~~
 

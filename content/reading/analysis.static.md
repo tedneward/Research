@@ -26,14 +26,11 @@ See also: [Compilers](language-impl.html) | [Debugging](debugging.html) | [Progr
 		- 2019 arXiv
 		- Sriteja Kummita, Goran Piskachev
 		- https://arxiv.org/abs/1907.02558
-- On the Relationship Between Static Analysis and Type Theory
-	- https://semantic-domain.blogspot.com/2019/08/on-relationship-between-static-analysis.html
+- [On the Relationship Between Static Analysis and Type Theory](https://semantic-domain.blogspot.com/2019/08/on-relationship-between-static-analysis.html)
 
 ## Readings: Books
 
-- Static Program Analysis
-	- Anders Møller, Michael I. Schwartzbach
-	- https://cs.au.dk/~amoeller/spa/
+- [Static Program Analysis](https://cs.au.dk/~amoeller/spa/) by Anders Møller, Michael I. Schwartzbach
 
 ## Readings: Research
 

@@ -1,5 +1,5 @@
 title=CMake
-tags=tool, native
+tags=tool, native, build
 summary=Cross-platform build tool.
 ~~~~~~
 

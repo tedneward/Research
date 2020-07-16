@@ -1,5 +1,5 @@
 title=Tup
-tags=tool, native
+tags=tool, native, build
 summary=A file-based build system.
 ~~~~~~
 
