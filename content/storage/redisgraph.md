@@ -12,7 +12,7 @@ Primary features:
 * Nodes that can be labeled
 * Relationships have a relationship type
 * Graphs represented as sparse adjacency matrices
-* [Cypher](/languages/cypher.html) as query language
+* [Cypher](/languages/cypher) as query language
 * Cypher queries translated into linear algebra expressions
 
 [Website](https://oss.redislabs.com/redisgraph/) | [Source](https://github.com/RedisGraph/RedisGraph/)
