@@ -7,6 +7,12 @@ A file format developed by Adobe in the 1990s to present documents, including te
 
 [Wikipedia](https://en.wikipedia.org/wiki/PDF) | ISO standards: [Part 1](https://www.iso.org/standard/51502.html) [Part 2](https://www.iso.org/standard/63534.html) | [Adobe-published PDF 1.7 Spec](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf)
 
+The PDF combines three technologies:
+
+* A subset of the [PostScript](PostScript) page description programming language, for generating the layout and graphics.
+* A font-embedding/replacement system to allow fonts to travel with the documents.
+* A structured storage system to bundle these elements and any associated content into a single file, with data compression where appropriate.
+
 Extensions:
 
 * **PDF/A** ([Part 1](http://www.iso.org/iso/catalogue_detail?csnumber=38920) [Part 2](http://www.iso.org/iso/catalogue_detail?csnumber=50655) [Part 3](http://www.iso.org/iso/catalogue_detail?csnumber=57229)): an ISO-standardized version of the Portable Document Format (PDF) specialized for use in the archiving and long-term preservation of electronic documents. PDF/A differs from PDF by prohibiting features unsuitable for long-term archiving, such as font linking (as opposed to font embedding) and encryption.
