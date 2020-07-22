@@ -1,6 +1,6 @@
 title=ChocoPy
 tags=language, reading
-summary=A Programming Language for Compilers Courses
+summary=A Programming Language for Compilers Courses.
 ~~~~~~
 
 [Website](https://chocopy.org/)
