@@ -24,8 +24,8 @@ Extensions:
 * **[PDF/VT](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=46428)**: an exchange format optimized for variable and transactional printing. Built on top of PDF/X-4, it is the first variable-data printing (VDP) format which ensures modern International Color Consortium-based (ICC) color management through the use of ICC Output Intents.
 
 * **PDF/X**: a format (ISO 15930) designed to facilitate graphics exchange, and it therefore has a series of printing-related requirements which do not apply to standard PDF files. Several implementation specifications:
-  * [PDF/X-1a:2003](https://www.iso.org/standard/39938.html)
-  * [PDF/X-3:2003](https://www.iso.org/standard/39940.html)
-  * [PDF/X-4](https://www.iso.org/standard/42876.html)
-  * [PDF/X-5](https://www.iso.org/standard/42877.html)
+    * [PDF/X-1a:2003](https://www.iso.org/standard/39938.html)
+    * [PDF/X-3:2003](https://www.iso.org/standard/39940.html)
+    * [PDF/X-4](https://www.iso.org/standard/42876.html)
+    * [PDF/X-5](https://www.iso.org/standard/42877.html)
 

@@ -17,6 +17,5 @@ summary=An XML-based vector image format for two-dimensional graphics with suppo
 </g>
 </svg>
 ```
-... produces the following (without the grid or labels):
-![](https://en.wikipedia.org/wiki/File:SVG_example_markup_grid.svg)
+... produces the following: ![alt text](https://upload.wikimedia.org/wikipedia/commons/1/1a/SVG_example_markup_grid.svg)
 
