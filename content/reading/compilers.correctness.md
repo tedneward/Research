@@ -2,7 +2,7 @@ title=Compiler correctness reading
 tags=language, reading, native, clr, llvm
 summary=A collection of links and resources on compiler correctness, certification, validation, verification.
 ~~~~~~
-See also: [compilers and language implementation](language-impl.html)
+See also: [compilers and language implementation](compilers)
 
 # General
 

@@ -2,49 +2,9 @@ title=Computer Architecture: Microarchitectural channels
 tags=assembly, native, reading, security
 summary=A collection of reading materials on computer microarchitectural channels.
 ~~~~~~
-See also: [Computer Architecture](comparch.html)
-
 - Leakage channels: side channels (accidental), covert channels (deliberate).
 - Storage channels (functional behavior), timing channels (temporal behavior).
 - Timing-based channels (operations timing), access-based channels (direct information access), trace-based channels (program execution measurement).
-
-# Contents
-
-- [General](#general)
-- [Defense, Mitigation, Protection](#defense-mitigation-protection)
-
----
-
-- [Arithmetic Logic Unit (ALU)](#arithmetic-logic-unit-alu)
-- [Branch Predictor](#branch-predictor)
-- [Cache](#cache)
-- [DRAM](#dram)
-- [Electromagnetic (EM) Emanations](#electromagnetic-em-emanations)
-- [Floating Point Unit (FPU)](#floating-point-unit-fpu)
-- [FPGA](#fpga)
-- [GPU](#gpu)
-- [Interrupts](#interrupts)
-- [Keyboard](#keyboard)
-- [Magnetic](#magnetic)
-- [Memory Bus](#memory-bus)
-- [Memory Order Buffer (MOB)](#memory-order-buffer-mob)
-- [Memory Management Unit (MMU)](#memory-management-unit-mmu)
-- [Power](#power)
-- [Prefetch](#prefetch)
-- [Pseudo-Random Number Generator (PRNG)](#pseudo-random-number-generator-prng)
-- [Return Stack Buffer (RSB)](#return-stack-buffer-rsb)
-- [SMT](#smt)
-- [Speculation](#speculation)
-- [Store Buffer](#store-buffer)
-- [Thermal](#thermal)
-- [Translation Lookaside Buffer (TLB)](#translation-lookaside-buffer-tlb)
-- [Trusted Execution Environments (TEEs)](#trusted-execution-environments-tees): [Arm TrustZone](#arm-trustzone), [Intel SGX](#intel-sgx)
-- [TSX](#tsx)
-- [Talks](#talks)
-
----
-
-# General
 
 - A Note on the Confinement Problem
 	- Communications of the ACM (CACM) 1973; Butler W. Lampson

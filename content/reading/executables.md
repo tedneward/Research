@@ -6,7 +6,7 @@ Executable files, debugging data, object code, shared libraries - file formats i
 
 Organization: Preference given to the most specific category; e.g., if an article discusses DLL-specific information, then it belongs to the DLL section (in preference to the more general PE).
 
-See also: [Compilers](language-impl.html) | [Linking and Loading](executables.linking_loading.html) | [DWARF](/formats/dwarf.html) | [ELF](/formats/elf.html) | [COFF](/formats/coff.html) | [PE and DLL](/formats/pe.html) | [PDB](/formats/pdb.html)
+See also: [Compilers](compilers) | [Linking and Loading](executables.linking_loading.html) | [DWARF](/formats/dwarf.html) | [ELF](/formats/elf.html) | [COFF](/formats/coff.html) | [PE and DLL](/formats/pe.html) | [PDB](/formats/pdb.html)
 
 * Comparison of executable file formats - https://en.wikipedia.org/wiki/Comparison_of_executable_file_formats
 * Executable and object file formats - https://en.wikipedia.org/wiki/Template:Executables

@@ -3,7 +3,7 @@ tags=reading, language
 summary=A collection of links around program analysis
 ~~~~~~
 
-See also: [Compilers](language-impl.html) | [Compiler correctness](compilers.correctness.html) | [Dynamic program analysis](analysis.dynamic.html) (instrumentation, translation, sanitizers), [Static program analysis](analysis.static.html) (static analysis and verification)
+See also: [Compilers](compilers) | [Compiler correctness](compilers.correctness.html) | Dynamic program analysis [instrumentation](analysis.dynamic.instrumentation) translation, sanitizers, [Static program analysis](analysis.static.html) (static analysis and verification)
 
 ## General
 
