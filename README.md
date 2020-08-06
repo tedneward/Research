@@ -11,14 +11,19 @@ Content consists of "categorypages", which are pages for the top-level categorie
 
 ## Categories
 * Architecture: Software architecture links/research
-* DistribSys: Distributed system research--not architecture but networking
+* Backends: Software platforms
+* Clouds: Software "other peoples' hardware on other peoples' dirt" platforms
+* Distributed Systems: Distributed system research--not architecture but networking
+* Formats: File and online formats (HTML, PDF, etc)
 * GameDev: Specifically around the development of any sort of game (game frameworks, etc)
 * Languages: Any and all programming languages
 * Libraries: Collection of code; includes O-O frameworks
-* Platforms: Environments in which programs execute (includes native, VMs, mobile-native)
 * Places: Websites of interest "in general"
+* Platforms: Environments in which programs execute (includes native, VMs, mobile-native)
+* Presentation: Front-end layers, usually of some sort of graphical format
 * Reading: Specific topics of interest and reading materials related them
 * Storage: Systems specifically designed to store data (a la "databases" but not always)
+* Tools: Bits of software that are intended to be used directly (compilers, analyzers, etc)
 * VMs: Virtual machine implementations (differing from platforms mostly due to scope--platforms include libraries, open-source packages, etc)
 
 ## Tags
