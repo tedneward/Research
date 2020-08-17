@@ -1,5 +1,5 @@
 title=Apache Cordova
-tags=presentation, nodejs
+tags=presentation, nodejs, ios, android, browser, windows, macos
 summary=Mobile apps with HTML, CSS and JS
 ~~~~~~
 
