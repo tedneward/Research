@@ -9,9 +9,10 @@ Defined by the [JVMS 14](https://docs.oracle.com/javase/specs/jvms/se14/html/ind
 
 ### Virtual machine implementations
 Numerous JVM virtual machine implementations available:
-* AdoptOpenJDK
+* [OpenJDK](https://openjdk.java.net/) which is built by [AdoptOpenJDK](https://adoptopenjdk.net/) among others; see [foojay](https://foojay.io/) for interesting details on OpenJDK
 * Oracle
 * Zulu
+* Amazon Coretto
 
 [Wikipedia list of JVM languages](http://en.wikipedia.org/wiki/JVM_Languages)
 
