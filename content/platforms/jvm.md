@@ -9,10 +9,14 @@ Defined by the [JVMS 14](https://docs.oracle.com/javase/specs/jvms/se14/html/ind
 
 ### Virtual machine implementations
 Numerous JVM virtual machine implementations available:
-* [OpenJDK](https://openjdk.java.net/) which is built by [AdoptOpenJDK](https://adoptopenjdk.net/) among others; see [foojay](https://foojay.io/) for interesting details on OpenJDK
+* [OpenJDK](https://openjdk.java.net/)  among others; see [foojay](https://foojay.io/) for interesting details on OpenJDK
+* [GraalVM](https://www.graalvm.org/) is a drop-in replacement for Java, Node, Python, Ruby, and other VMs
+* [Eclipse OpenJ9](https://www.eclipse.org/openj9/)
 * Oracle
 * Zulu
 * Amazon Coretto
+
+[AdoptOpenJDK](https://adoptopenjdk.net/) builds JDK downloads of OpenJDK and OpenJ9 builds.
 
 [Wikipedia list of JVM languages](http://en.wikipedia.org/wiki/JVM_Languages)
 
