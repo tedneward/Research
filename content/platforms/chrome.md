@@ -1,5 +1,5 @@
 title=Chrome (browser)
-tags=platform, browser
+tags=platform, presentation, browser
 summary=(Chrome) Extensions are software programs that customize the browsing experience. They enable users to tailor Chrome functionality and behavior to individual needs or preferences. They are built on web technologies such as HTML, JavaScript, and CSS.
 ~~~~~~
 
