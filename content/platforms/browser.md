@@ -1,6 +1,6 @@
 title=Browsers (Web)
 type=page
-tags=platform, browser
+tags=platform, presentation, browser
 status=published
 summary=Standardized web browser programming.
 ~~~~~~
