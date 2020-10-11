@@ -11,7 +11,7 @@ Brief bit of Windows lore: [Using Notepad as a debug console for Windows program
 ```
 static void nlog(char *str, ...)
 {
-    HWND notepad, edit;
+	HWND notepad, edit;
 	va_list ap;
 	char buf[256];
 

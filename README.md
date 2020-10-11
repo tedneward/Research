@@ -9,6 +9,11 @@ Content is all pages, not blog posts. (I haven't removed the blog functionality 
 
 Content consists of "categorypages", which are pages for the top-level categories (language, platform, storage, etc), and "pages" which have the actual notes themselves. Tags are for crossing between categories and are mostly freeform.
 
+## TODO
+* Create a Chrome Extension to "bookmark" from Chrome tabs by creating a new file in either the local filesystem or via GitHub API calls
+  * Verify that the page or something like it doesn't already exist
+  * Add links to an existing page
+
 ## Categories
 * Architecture: Software architecture links/research
 * Backends: Software platforms
