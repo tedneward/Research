@@ -20,6 +20,8 @@ Interpreters/VMs:
 
 [ZILF Reference Guide](https://github.com/heasm66/ZILF-Reference-Guide)
 
+[Zork Implementation Language Facebook group](https://www.facebook.com/groups/ZILcom/)
+
 ---
 
 # [Zeugma](https://www.linusakesson.net/software/zeugma/index.php)
