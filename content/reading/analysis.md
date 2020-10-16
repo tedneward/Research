@@ -1,9 +1,9 @@
 title=Program analysis
-tags=reading, language
+tags=reading, language, tool
 summary=A collection of links around program analysis
 ~~~~~~
 
-See also: [Compilers](compilers) | [Compiler correctness](compilers.correctness.html) | Dynamic program analysis [instrumentation](analysis.dynamic.instrumentation) translation, sanitizers, [Static program analysis](analysis.static.html) (static analysis and verification)
+See also: [Compilers](compilers) | [Compiler correctness](compilers.correctness.html) | Dynamic program analysis [instrumentation](analysis.dynamic.instrumentation) translation, [sanitizers](analysis.dynamic.santizer), [Static program analysis](analysis.static) (static analysis and verification)
 
 ## General
 

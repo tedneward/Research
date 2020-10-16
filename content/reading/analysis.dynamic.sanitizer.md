@@ -1,5 +1,5 @@
 title=Dynamic Analysis Sanitizers reading
-tags=reading, tool, library, native, llvm
+tags=reading, language, tool, library, native, llvm
 summary=Readings on software sanitizers.
 ~~~~~~
 

@@ -7,6 +7,42 @@ tags=language
 
 Programming languages are (generally) human-friendly means of getting a computer to do something interesting on a human's behalf. Some languages may be friendlier than others; where opinions will genuinely differ as to which are friendlier, there are some that deliberately seek to be as obtuse and unreadable as possible, and those are usually called "esoteric" programming languages and fit into their own category of madness.
 
+["Programming Paradigms for Dummies: What Every Programmer Should Know"](https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf); includes a [chart of the major programming paradigms](http://www.info.ucl.ac.be/people/PVR/paradigmsDIAGRAMeng108.pdf), displayed here: ![chart of programming languages](http://www.info.ucl.ac.be/people/PVR/paradigmsDIAGRAMeng108.pdf)
+* Descriptive declarative programming **XML, S-expression**
+* First-order functional programming
+* Imperative programming **Pascal, C**
+* Imperative search programming **SNOBOL, Icon, Prolog**
+* Functional programming **Scheme, ML**
+* Deterministic logic programming
+* Relational & logic programming **Prolog, SQL embeddings**
+* Constraint (logic) programming **CLP, ILOG Solver**
+* Concurrent constraint programming **LIFE, AKL**
+* Lazy concurrent constraint programming **Oz, Alice, Curry**
+* Continuation programming **Scheme, ML**
+* Lazy functional programming **Haskell**
+* Monotonic dataflow programming
+* Declarative concurrent programming **Pipes, MapReduce**
+* Lazy dataflow programming
+* Lazy dataflow concurrent programming **Oz, Alice, Curry**
+* ADT functional programming **Haskell, ML, E**
+* ADT imperative programming **CLU, OCaml, Oz**
+* Nonmonotonic dataflow programming
+* Concurrent logic programming **Oz, Alice, Curry, Excel, AKL, FGHC, FCP**
+* Functional reactive programming (FRP)
+* Weak synchronous programming **FrTime, SL**
+* Strong synchronous programming **Esterel, Lustre, Signal**
+* Multi-agent dataflow programming **Oz, Alice, AKL**
+* Event-loop programming **E in one val**
+* Multi-agent programming
+* Message-passing concurrent programming **Erlang, AKL**
+* Active object programming
+* Object capabilities programming **CSP, Occam, E, Oz, Alice, publish/subscribe, tuple space (Linda)**
+* Sequential object-oriented programming
+* Stateful functional programming **Java, OCaml**
+* Concurrent object-oriented programming
+* Shared-state concurrent programming **Smalltalk, Oz, Java, Alice**
+* Software transactional memory **SQL embeddings**
+
 ## Fun
 ["History of Programming Languages"](http://thequickword.wordpress.com/2014/02/16/james-irys-history-of-programming-languages-illustrated-with-pictures-and-large-fonts/) by James Iry. Illustrated--pictures and large fonts. | ["Say something you dislike about a language you love"](https://lobste.rs/s/2cw6ov/say_something_you_dislike_about_language) | ["Say something nice about a language you dislike"](https://lobste.rs/s/hib1ui/say_something_nice_about_programming)
 
@@ -16,7 +52,7 @@ Some general language-wonk sorts of sites:
 
 * [Github Collections: Programming Languages](https://github.com/collections/programming-languages): As of 1 June 2020, I've collected the top two or three dozen into this site (at least).
 
-* [Codelani](https://codelani.com/) appears to be a comprehensive list of languages (over 4,000); the ["patterns"](https://codelani.com/lists/patterns.html) section is more a collection of "language atoms" that make up a lot of language syntax and semantics
+* [Codelani](https://codelani.com/) appears to be a comprehensive list of languages (over 4,000); the ["patterns"](https://codelani.com/lists/patterns.html) section is more a collection of "language atoms" that make up a lot of language syntax and semantics; I need to create my own ontology around this
 
 * [Lambda the Ultimate | Programming Languages Weblog](http://lambda-the-ultimate.org/)
 

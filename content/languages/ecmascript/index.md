@@ -47,3 +47,11 @@ From the Specification home page, a history:
 * JVM: Nashorn: [Nashorn Blog](https://blogs.oracle.com/nashorn/) is at Oracle but Nashorn appears to have moved to JetBrains ownership/development [here](https://github.com/JetBrains/jdk8u_nashorn)
 * [JVM: Rhino](https://github.com/mozilla/rhino)
 * [JVM: Graal.js](https://github.com/graalvm/graaljs) part of [GraalVM](/vms/graalvm.html)
+
+### Transpilers
+[List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS)
+* [Coco](coco)
+* [CoffeeScript](coffeescript)
+* [Livescript](licescript)
+* [PureScript](purescript)
+* [TypeScript](typescript)

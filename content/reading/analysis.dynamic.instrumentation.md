@@ -1,5 +1,5 @@
 title=Dynamic Binary Instrumentation (DBI) reading
-tags=language, native, object, llvm
+tags=reading, language, native, object, llvm
 summary=A collection of reading and resources on dynamic program analysis
 ~~~~~~
 
