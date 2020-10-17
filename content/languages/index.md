@@ -66,7 +66,7 @@ Some general language-wonk sorts of sites:
 
 * [Visual Programming Languages - Snapshots](http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/) 
 
-* [Embedded scripting languages list](https://github.com/dbohdan/embedded-scripting-languages) 
+* [Embedded scripting languages list](https://github.com/dbohdan/embedded-scripting-languages)
 
 * [PL Enthusiast](http://www.pl-enthusiast.net/) 
 
