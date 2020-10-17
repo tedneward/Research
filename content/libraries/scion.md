@@ -1,5 +1,5 @@
 title=Scion
-tags=library, language
+tags=library, language, state machine
 summary=A suite of software for standard state machine support.
 ~~~~~~
 

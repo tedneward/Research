@@ -1,5 +1,5 @@
 title=SCXML (State Chart XML)
-tags=format, language
+tags=format, language, state machine
 summary=State Machine notation for control abstraction specification.
 ~~~~~~
 
