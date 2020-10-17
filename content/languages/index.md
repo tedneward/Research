@@ -7,7 +7,8 @@ tags=language
 
 Programming languages are (generally) human-friendly means of getting a computer to do something interesting on a human's behalf. Some languages may be friendlier than others; where opinions will genuinely differ as to which are friendlier, there are some that deliberately seek to be as obtuse and unreadable as possible, and those are usually called "esoteric" programming languages and fit into their own category of madness.
 
-["Programming Paradigms for Dummies: What Every Programmer Should Know"](https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf); includes a [chart of the major programming paradigms](http://www.info.ucl.ac.be/people/PVR/paradigmsDIAGRAMeng108.pdf), displayed here: ![chart of programming languages](http://www.info.ucl.ac.be/people/PVR/paradigmsDIAGRAMeng108.pdf)
+["Programming Paradigms for Dummies: What Every Programmer Should Know"](https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf); includes a [chart of the major programming paradigms](http://www.info.ucl.ac.be/people/PVR/paradigmsDIAGRAMeng108.pdf):
+
 * Descriptive declarative programming **[XML](../../formats/xml), S-expression**
 * First-order functional programming
 * Imperative programming **Pascal, [C](../c)**
