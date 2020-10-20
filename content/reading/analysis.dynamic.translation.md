@@ -1,5 +1,5 @@
 title=Dynamic Binary Translation (DBT) reading
-tags=reading, tool, library
+tags=reading, language, tool, library
 summary=Reading on DBT
 ~~~~~~
 
