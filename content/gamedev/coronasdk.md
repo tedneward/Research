@@ -1,9 +1,9 @@
 title=CoronaSDK
-tags=gamedev, platform
+tags=gamedev, platform, ios, macos, windows
 summary=Cross-platform framework ideal for rapidly creating apps and games for mobile devices and desktop systems. 
 ~~~~~~
 
-Commercially shut down, but still available.
+Commercially shut down, but still available open-source.
 
 Corona currently supports building apps for the following platforms:
 * iOS
