@@ -45,4 +45,3 @@ An open-ended list, but here's what we have so far:
 * Storage: storage, static, dynamic, cms, document, keyvalue, object, relational
 * Architecture/design: agent, concurrency
 * Misc: research, website, security, services, ui
-
