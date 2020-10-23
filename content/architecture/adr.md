@@ -4,4 +4,3 @@ summary=An Architectural Decision Record captures a single Architectural Decisio
 ~~~~~~
 
 [ADR Github](adr.github.io)
-
