@@ -1,5 +1,5 @@
 title=Meson
-tags=tool, native
+tags=tool, native, build
 summary=
 ~~~~~~
 

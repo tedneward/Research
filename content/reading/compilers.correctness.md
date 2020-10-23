@@ -2,9 +2,11 @@ title=Compiler correctness reading
 tags=language, reading, native, clr, llvm
 summary=A collection of links and resources on compiler correctness, certification, validation, verification.
 ~~~~~~
-See also: [compilers and language implementation](language-impl.html)
+See also: [compilers and language implementation](compilers)
 
 # General
+
+[What is a secure programming language?](https://drops.dagstuhl.de/opus/volltexte/2019/10546/pdf/LIPIcs-SNAPL-2019-3.pdf)
 
 - ACM SIGPLAN Conference on Certified Programs and Proofs (CPP) - http://dblp.org/db/conf/cpp/
 - Black-Box Equivalence Checking Across Compiler Transformations

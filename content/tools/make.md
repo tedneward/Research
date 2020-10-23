@@ -1,5 +1,5 @@
 title=Make
-tags=tool, native
+tags=tool, native, build
 summary=A build tool with some dependency-based tracking available.
 ~~~~~~
 

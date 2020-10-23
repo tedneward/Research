@@ -3,11 +3,15 @@ tags=platform, windows
 summary=The Microsoft operating system that has gone through several iterations since its humble beginnings as a standalone graphical user interface system on top of DOS.
 ~~~~~~
 
+[XWindows for WSL subsystem](https://x410.dev/): Commercial
+
+---
+
 Brief bit of Windows lore: [Using Notepad as a debug console for Windows programs](https://reddit.com/r/programming/comments/gnazif/ray_tracing_in_notepadexe_at_30_fps/fr8uy2l):
 ```
 static void nlog(char *str, ...)
 {
-    HWND notepad, edit;
+	HWND notepad, edit;
 	va_list ap;
 	char buf[256];
 

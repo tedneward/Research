@@ -1,5 +1,5 @@
 title=XCodebuild (XCode build system)
-tags=tool, macos
+tags=tool, macos, build
 summary=XCode's build system.
 ~~~~~~
 

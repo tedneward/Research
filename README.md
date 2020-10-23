@@ -9,16 +9,26 @@ Content is all pages, not blog posts. (I haven't removed the blog functionality 
 
 Content consists of "categorypages", which are pages for the top-level categories (language, platform, storage, etc), and "pages" which have the actual notes themselves. Tags are for crossing between categories and are mostly freeform.
 
+## TODO
+* Create a Chrome Extension to "bookmark" from Chrome tabs by creating a new file in either the local filesystem or via GitHub API calls
+  * Verify that the page or something like it doesn't already exist
+  * Add links to an existing page
+
 ## Categories
 * Architecture: Software architecture links/research
-* DistribSys: Distributed system research--not architecture but networking
+* Backends: Software platforms
+* Clouds: Software "other peoples' hardware on other peoples' dirt" platforms
+* Distributed Systems: Distributed system research--not architecture but networking
+* Formats: File and online formats (HTML, PDF, etc)
 * GameDev: Specifically around the development of any sort of game (game frameworks, etc)
 * Languages: Any and all programming languages
 * Libraries: Collection of code; includes O-O frameworks
-* Platforms: Environments in which programs execute (includes native, VMs, mobile-native)
 * Places: Websites of interest "in general"
+* Platforms: Environments in which programs execute (includes native, VMs, mobile-native)
+* Presentation: Front-end layers, usually of some sort of graphical format
 * Reading: Specific topics of interest and reading materials related them
 * Storage: Systems specifically designed to store data (a la "databases" but not always)
+* Tools: Bits of software that are intended to be used directly (compilers, analyzers, etc)
 * VMs: Virtual machine implementations (differing from platforms mostly due to scope--platforms include libraries, open-source packages, etc)
 
 ## Tags
@@ -35,4 +45,3 @@ An open-ended list, but here's what we have so far:
 * Storage: storage, static, dynamic, cms, document, keyvalue, object, relational
 * Architecture/design: agent, concurrency
 * Misc: research, website, security, services, ui
-

@@ -28,6 +28,7 @@ Frequently conjoined with [C](/languages/c); Bjarne wanted C++ to be "as close a
 	- Support For C++11/14/17 Features: https://msdn.microsoft.com/en-us/library/hh567368.aspx
 	- Microsoft C++ language conformance table: https://docs.microsoft.com/en-us/cpp/visual-cpp-language-conformance
 
+
 #### References
 - https://cppreference.com/
 	- cppman: C++ manual pages for Linux/MacOS
@@ -213,7 +214,6 @@ Note: Some of the following are primarily for entertainment purposes; while prov
 ## Lists/links
 
 [List of C++ UI libraries](https://philippegroarke.com/posts/2018/c++_ui_solutions/)
-
 
 ## Communities
 

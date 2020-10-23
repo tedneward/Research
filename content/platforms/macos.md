@@ -36,6 +36,3 @@ Basic steps:
 * *Boot the ISO.* The ISO won't immediately install to the created hard drive because it needs to be formatted first. From the "macOS Utilities" dialog select "Disk Utility" and Erase the VirtualBox hard drive as "Format: MacOS Extended (Journaled)" and "Scheme: GUID Partition Map". Name can be whatever. When that's done, quit "Disk Utility" and "Install macOS" to the VBox hard drive.
 
 * *Finish the macOS install.* Remove the ISO, boot the VBox, and it should begin the installation process as per normal installation procedures. Create an account, and by the time that's all done, it should be good to go.
-
-
-

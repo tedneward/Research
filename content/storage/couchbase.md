@@ -4,3 +4,5 @@ summary=A full-featured, multi-service NoSQL database.
 ~~~~~~
 
 [Website](https://www.couchbase.com/)
+
+Community Editions are open-source.

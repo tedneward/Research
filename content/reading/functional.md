@@ -3,7 +3,7 @@ tags=reading, functional
 summary=Ideas and concepts around functional programming.
 ~~~~~~
 
-[Why Functional Programming Matters](http://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf) by John Hughes
+[Why Functional Programming Matters](http://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf) by John Hughes | [What Functional Programming Is, What it Isn't, and Why it Matters](https://www.inner-product.com/posts/fp-what-and-why/) by Noel Welsh
 
 Pure-functional languages are those that have no side effects permitted (except under very specific circumstances, to allow for things like I/O to happen). Impure functional languages allow state modification to happen (under constraints) and thus often avoid the gyrations to which pure functional languages need to go, such as [monads](monads.html).
 

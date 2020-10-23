@@ -13,4 +13,6 @@ From the website:
 #### Links/libraries
 [Cats](http://funcool.github.io/cats/latest/#_maybe): Category Theory and algebriac abstractions for Clojure.
 
+[Magic](http://nas.sr/magic/): The Morgan And Grand Iron Clojure Compiler
+A high-performance Clojure compiler library targeting the Common Language Runtime.
 

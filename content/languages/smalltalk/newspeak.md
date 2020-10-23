@@ -1,5 +1,5 @@
 title=Newspeak
-tags=language, platform, vm, object, functional
+tags=language, platform, vm, object, functional, object capability
 summary=A language in the tradition of Self and Smalltalk, dynamic and reflective, but designed to support modularity and security.
 ~~~~~~
 

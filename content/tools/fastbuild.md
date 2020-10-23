@@ -1,5 +1,5 @@
 title=FASTBuild
-tags=tool, native, macos, windows, linux
+tags=tool, native, macos, windows, linux, build
 summary=A high performance, open-source build system for Windows, Linux, and OS X.
 ~~~~~~
 
