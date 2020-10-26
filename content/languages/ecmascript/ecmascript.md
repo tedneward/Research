@@ -56,15 +56,16 @@ From the Specification home page, a history:
 * [Livescript](../livescript): Last commit 2018
 * [PureScript](../purescript)
 * [TypeScript](../typescript)
+* [SweetJS](../sweetjs)
 
 ### SQL
 * [sql.js](https://github.com/kripken/sql.js): SQLite compiled to Javascript
 
 ### Tierless
-* [Fun](../fun)	A programming language for realtime webapps - compiles to client-side and server-side JS.
-* [Ur](../ur)	In the tradition of ML and Haskell.
-* [mobl](../mobl)	The new language for programming the mobile web.
-* [E](../../e)	Compiles E to JS. E is a secure distributed persistent pure object language.
-* [Sugar](../../sugar)	New programming language designed to replace JavaScript for client-side (and server-side) web development
-* [Opa](../../opa)	Write your complete application in just one language, and the compiler will transform it into a self-sufficient executable
-* [STIP.js](../stip)	Slicing Tierless Programs in JavaScript
+* [Fun](../fun): A programming language for realtime webapps - compiles to client-side and server-side JS.
+* [Ur](../ur): In the tradition of ML and Haskell.
+* [mobl](../mobl): The new language for programming the mobile web.
+* [E](../../e): Compiles E to JS. E is a secure distributed persistent pure object language.
+* [Sugar](../../sugar): New programming language designed to replace JavaScript for client-side (and server-side) web development
+* [Opa](../../opa): Write your complete application in just one language, and the compiler will transform it into a self-sufficient executable
+* [STIP.js](../stip): Slicing Tierless Programs in JavaScript
