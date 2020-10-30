@@ -1,7 +1,5 @@
 title=Concurnas
-type=page
 tags=jvm, language
-status=published
 summary=An open source JVM programming language designed for building reliable, scalable, high performance concurrent, distributed and parallel systems.
 ~~~~~~
 

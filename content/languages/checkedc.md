@@ -1,5 +1,5 @@
 title=Checked C
-tags=native, research
+tags=native, research, language
 summary=An extension to C that adds checking to C to detect or prevent common programming errors such as buffer overruns, out-of-bounds memory accesses, and incorrect type casts.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=Ballerina
-tags=language, distribution, services
+tags=language, distribution, services, jvm
 Summary=A service-oriented programming language.
 ~~~~~~
 

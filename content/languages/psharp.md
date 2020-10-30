@@ -1,7 +1,5 @@
 title=P#
-type=page
 tags=clr, language
-status=published
 summary=A statically-compiled research language from Microsoft around explicit state machine management.
 ~~~~~~
 
