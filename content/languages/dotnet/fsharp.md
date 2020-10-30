@@ -11,8 +11,10 @@ Originally from [Microsoft Research](../../places/msr).
 
 F# was originally a CLR-based variant of [OCaml](../ocaml). Since F# 3.0, it has relaxed some of the direct compatibility with OCaml in favor of a friendlier syntax, but still very much holds to its roots.
 
+[Wikibook](https://en.wikibooks.org/wiki/F_Sharp_Programming)
+
 #### Areas of use
-[Cloud](https://fsharp.org/guides/cloud/): Cloud and SOA are places where F# has made some strong plays. 
+[Cloud](https://fsharp.org/guides/cloud/): Cloud and SOA are places where F# has made some strong plays. | [Azure functions](https://blog.tamizhvendan.in/blog/2016/09/19/scale-up-azure-functions-in-f-number-using-suave/) | [Fog](https://github.com/dmohl/Fog) for creating Azure apps
 
 [Web](https://fsharp.org/guides/web): There's a collection of different web frameworks for F#. Some are more recent than others.
 * [Fable](https://fable.io/): A compiler powered by Babel designed to make F# a first-class citizen of the JavaScript ecosystem. See [The Elmish Book](https://zaid-ajaj.github.io/the-elmish-book/#/) for a practical guide on using Fable.
@@ -23,6 +25,10 @@ F# was originally a CLR-based variant of [OCaml](../ocaml). Since F# 3.0, it has
 ](http://gorodinski.com/blog/2013/02/17/domain-driven-design-with-fsharp-and-eventstore/). 
 
 [Data access](https://fsharp.org/guides/data-access/): Type providers are seriously powerful: [Accessing loosely structured data from F# and C#](http://tomasp.net/blog/goto-loosely-structured-data.aspx/index.html) [XML](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html), [JSON](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html), [SQL](http://msdn.microsoft.com/en-us/library/hh361033.aspx). Agents and message queues: [An Introduction To F# Agents](http://www.developerfusion.com/article/139804/an-introduction-to-f-agents/) | [Agents](http://fsharpforfunandprofit.com/posts/concurrency-actor-model/)
+
+[Data mining](http://fdatamining.blogspot.com/2012/12/a-reading-list-on-languages-in-ml-family.html)
+
+[FAKE](https://fake.build/): Build tool DSL
 
 [Nu game engine](https://github.com/bryanedds/Nu)
 
@@ -35,3 +41,16 @@ F# was originally a CLR-based variant of [OCaml](../ocaml). Since F# 3.0, it has
 [F# For Fun and Profit](https://fsharpforfunandprofit.com/) articles:
 * [Parsing command-line arguments](https://fsharpforfunandprofit.com/posts/pattern-matching-command-line/)
 * [Domain-Driven Design](https://fsharpforfunandprofit.com/ddd/)
+
+[Domain modeling with types](https://blog.ploeh.dk/2016/11/28/easy-domain-modelling-with-types/) [Video](https://vimeo.com/97507575)
+
+Some fuzzy logic examples:
+* [Fuzzy Advisor](https://www.codeproject.com/Articles/30798/FuzzyAdvisor-A-Simple-Fuzzy-Logic-Expert-System-in)
+* [Fuzzy Logic in F#](http://techneilogy.blogspot.com/2010/08/fuzzy-logic-in-f-now-more-functional.html)
+* [Fuzzy Logic in F#, Example 1](http://techneilogy.blogspot.com/2010/08/fuzzy-logic-in-f-example-1.html)
+* [Fuzzy Logic Experiments](http://techneilogy.blogspot.com/2010/08/fuzzy-logic-experiments-in-f.html)
+* [Conjunctive Fuzzy Logic Rules in F#](http://techneilogy.blogspot.com/2010/08/conjunctive-fuzzy-logic-rules-in-f.html)
+
+[FsharpX](https://www.developerfusion.com/article/136179/an-introduction-to-fsharpx/) | [Suave](https://suave.io/) | [F# PowerPack](https://archive.codeplex.com/?p=fsharppowerpack) | [fsxplat](https://archive.codeplex.com/?p=fsxplat)
+
+[fsharpsamples (Archive)](https://archive.codeplex.com/?p=fsharpsamples)
