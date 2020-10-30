@@ -17,6 +17,7 @@ F# was originally a CLR-based variant of [OCaml](../ocaml). Since F# 3.0, it has
 [Cloud](https://fsharp.org/guides/cloud/): Cloud and SOA are places where F# has made some strong plays. | [Azure functions](https://blog.tamizhvendan.in/blog/2016/09/19/scale-up-azure-functions-in-f-number-using-suave/) | [Fog](https://github.com/dmohl/Fog) for creating Azure apps
 
 [Web](https://fsharp.org/guides/web): There's a collection of different web frameworks for F#. Some are more recent than others.
+
 * [Fable](https://fable.io/): A compiler powered by Babel designed to make F# a first-class citizen of the JavaScript ecosystem. See [The Elmish Book](https://zaid-ajaj.github.io/the-elmish-book/#/) for a practical guide on using Fable.
 
 [Mobile](https://fsharp.org/guides/mobile-apps): Most of this centers around Xamarin; lots of the links on the F#.org site are old (2013-era).
@@ -39,12 +40,14 @@ F# was originally a CLR-based variant of [OCaml](../ocaml). Since F# 3.0, it has
 [Donald](https://github.com/pimbrouwers/Donald): A succinct F# DSL for ADO.NET.
 
 [F# For Fun and Profit](https://fsharpforfunandprofit.com/) articles:
+
 * [Parsing command-line arguments](https://fsharpforfunandprofit.com/posts/pattern-matching-command-line/)
 * [Domain-Driven Design](https://fsharpforfunandprofit.com/ddd/)
 
 [Domain modeling with types](https://blog.ploeh.dk/2016/11/28/easy-domain-modelling-with-types/) [Video](https://vimeo.com/97507575)
 
 Some fuzzy logic examples:
+
 * [Fuzzy Advisor](https://www.codeproject.com/Articles/30798/FuzzyAdvisor-A-Simple-Fuzzy-Logic-Expert-System-in)
 * [Fuzzy Logic in F#](http://techneilogy.blogspot.com/2010/08/fuzzy-logic-in-f-now-more-functional.html)
 * [Fuzzy Logic in F#, Example 1](http://techneilogy.blogspot.com/2010/08/fuzzy-logic-in-f-example-1.html)
