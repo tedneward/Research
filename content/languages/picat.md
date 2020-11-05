@@ -7,5 +7,3 @@ Picat is a rule-based language, in which predicates, functions, and actors are d
 
 [Website](http://www.picat-lang.org/) | [Book](http://picat-lang.org/picatbook2015/constraint_solving_and_planning_with_picat.pdf) | [Tutorial](http://picat-lang.org/download/picat_tutorial.pdf)
 
-
-
