@@ -1,11 +1,8 @@
 title=The Technology Fallacy
-tags=reading, management, book
+tags=reading, management, books
 summary=How people are the real key to digital transformation
 ~~~~~~
-
-# The Technology Fallacy: How People are the Real Key to Digital Transformation
-
-(By Gerald C Kane, Anh Nguyen Phillips, Jonathan R Copulsky, Garth R Andrus)
+(by Gerald C Kane, Anh Nguyen Phillips, Jonathan R Copulsky, Garth R Andrus)
 
 "Executives cannot simply impose change on organizations, yet grassroots change is unlikely to be sustainable without strong executive support."
 

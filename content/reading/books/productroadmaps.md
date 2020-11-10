@@ -1,19 +1,20 @@
 title=Product Roadmaps
-tags=reading, management, book
-summary=Developing product roadmaps
+tags=reading, management, books
+summary=Developing product roadmaps.
 ~~~~~~
-# Product Roadmaps
 (by Lombardo, McCarthy, Ryan, Connors)
 
 ### Chapter 1: Relaunching Roadmaps
 Roadmap is a strategic communication tool, a statement of intent and direction; describes how you intend to achieve your product vision. It focuses on the value you propose to deliver for your customer and your organization in order to rally support and coordinate effort among stakeholders.
 
 Product: how you deliver value to your organization's customers.
+
 Stakeholder: all the internal and external colleagues and partners who are involved with the product being developed, marketed, sold, and serviced.
+
 Customer: the recipient of the value your product provides. Buyer and user are often the same, but not always.
 
 Product roadmap should:
-	* Put the organization's plans in a strategic context
+  * Put the organization's plans in a strategic context
 		* Problem: Nobody understands why things are on the roadmap
 		* Solution: Tie the roadmap to a compelling vision of the future
 	* Focus on delivering value to customers and the organization
@@ -74,12 +75,19 @@ Values are beliefs and ideals.
 Product vision: Why your product exists.
 
 Value proposition template:
+
 For: (target customer)
+
 Who: (target customer's needs)
+
 The: (product name)
+
 Is a: (product category)
+
 That: (product benefit/reason to buy)
+
 Unlike: (competitors)
+
 Our product: (differentiator)
 
 Supports our: (objective(s)
