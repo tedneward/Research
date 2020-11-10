@@ -1,5 +1,5 @@
 title=xState
-tags=library, nodejs, browser
+tags=library, nodejs, browser, state machine
 summary=A state management library for Javascript.
 ~~~~~~
 

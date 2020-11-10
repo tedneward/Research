@@ -32,12 +32,6 @@ See also: Assembly languages: [ARM](/languages/assembly/arm), [RISC-V](/language
 
 [Introduction to Compilers and Language Design](http://compilerbook.org/) by Thain
 
-[Static Single Assignment (SSA) Book (PDF)](http://ssabook.gforge.inria.fr/latest/book-full.pdf) and [online](https://gforge.inria.fr/scm/viewvc.php/ssabook/book/)
-
-[Instruction Selection: Principles, Methods, & Applications](http://kth.diva-portal.org/smash/record.jsf?pid=diva2:951540): Gabriel Hjort Blindell (2016)
-
-[Universal Instruction Selection](https://github.com/gablin/ghb-thesis/blob/master/ghb-thesis.pdf): 2018 PhD Dissertation; Gabriel Hjort Blindell [Github](https://github.com/gablin/ghb-thesis) and also [here](http://www.diva-portal.org/smash/record.jsf?pid=diva2:1185339)
-
 ### Lists of recommended books
 [GCC Wiki - List of compiler books](https://gcc.gnu.org/wiki/ListOfCompilerBooks) | [Jordan Rose (Swift team) recommendations](http://belkadan.com/blog/2015/11/Recommendations/)
 
@@ -126,13 +120,17 @@ UCSD CSE 231: Advanced Compiler Design
 	- GCC: https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html
 	- Clang: http://clang.llvm.org/docs/CommandGuide/clang.html#cmdoption-O0 - https://stackoverflow.com/questions/15548023/clang-optimization-levels
 	- Visual C++: https://msdn.microsoft.com/en-us/library/19z1t1wy.aspx
-- Devirtualization in C++ - https://hubicka.blogspot.com/search/label/devirtualization
-- GoingNative 50: New Visual C++ Code Optimizer - https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-50-New-Visual-C-Code-Optimizer
-- Link time optimization (LTO) - https://hubicka.blogspot.com/search/label/link-time%20optimization
-- Optimizations in C++ Compilers: A practical journey
-	- ACM Queue vol. 17, no. 5 (2019)
-	- Matt Godbolt
-	- https://queue.acm.org/detail.cfm?id=3372264
+- [Devirtualization in C++](https://hubicka.blogspot.com/search/label/devirtualization)
+- [GoingNative 50: New Visual C++ Code Optimizer](https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-50-New-Visual-C-Code-Optimizer)
+- [Link time optimization (LTO)](https://hubicka.blogspot.com/search/label/link-time%20optimization)
+- [Optimizations in C++ Compilers: A practical journey](https://queue.acm.org/detail.cfm?id=3372264), by Matt Godbolt; ACM Queue vol. 17, no. 5 (2019)
+
+[Static Single Assignment (SSA) Book (PDF)](http://ssabook.gforge.inria.fr/latest/book-full.pdf) and [online](https://gforge.inria.fr/scm/viewvc.php/ssabook/book/)
+
+[Instruction Selection: Principles, Methods, & Applications](http://kth.diva-portal.org/smash/record.jsf?pid=diva2:951540): Gabriel Hjort Blindell (2016)
+
+[Universal Instruction Selection](https://github.com/gablin/ghb-thesis/blob/master/ghb-thesis.pdf): 2018 PhD Dissertation; Gabriel Hjort Blindell [Github](https://github.com/gablin/ghb-thesis) and also [here](http://www.diva-portal.org/smash/record.jsf?pid=diva2:1185339)
+
 
 ### Superoptimization
 
