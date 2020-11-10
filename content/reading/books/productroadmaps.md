@@ -1,5 +1,5 @@
 title=Product Roadmaps
-tags=reading, book
+tags=reading, management, book
 summary=Developing product roadmaps
 ~~~~~~
 # Product Roadmaps

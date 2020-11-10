@@ -1,5 +1,5 @@
 title=The Technology Fallacy
-tags=reading, book
+tags=reading, management, book
 summary=How people are the real key to digital transformation
 ~~~~~~
 
