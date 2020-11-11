@@ -1,4 +1,4 @@
-title=Dyninst
+title=Dynamic instrumentation tools
 tags=tool, library, native
 summary=Tools for binary instrumentation, analysis, and modification.
 ~~~~~~
