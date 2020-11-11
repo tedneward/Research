@@ -1,4 +1,6 @@
 title=Reading
+type=categorypage
+category=reading
 tags=reading
 summary=Lots of theory and/or category-wide research and related links.
 ~~~~~~

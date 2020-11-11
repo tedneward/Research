@@ -1,5 +1,5 @@
 title=Design Patterns (GOF)
-tags=reading, books, patterns, object-oriented
+tags=reading, books, patterns, object
 summary=The "original" patterns book.
 ~~~~~~
 
