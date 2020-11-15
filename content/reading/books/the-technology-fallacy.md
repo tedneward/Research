@@ -86,17 +86,17 @@ What We Know
 
 Top barriers by maturity stage:
 	* Early
-		○ Lack of strategy
-		○ Too many priorities
-		○ Lack of management understanding
+		* Lack of strategy
+		* Too many priorities
+		* Lack of management understanding
 	* Developing
-		○ Too many priorities
-		○ Lack of strategy
-		○ Insufficient tech skills
+		* Too many priorities
+		* Lack of strategy
+		* Insufficient tech skills
 	* Maturing
-		○ Too many priorities
-		○ Security concerns
-		○ Insufficient tech skills
+		* Too many priorities
+		* Security concerns
+		* Insufficient tech skills
 
 Tradeoff between established and new business initiatives as "exploration vs exploitation"
 	* Exploration processes are about innovation, often resulting in lower-performing short-term outcomes required to figure out the new processes but better long-term outcomes that result from the new processes
@@ -174,20 +174,20 @@ Don't lose the talent once you have it
 Passive recruiting exacerbates the talent threat
 Survey: How are companies primarily strengthening digital innovation capabilities?
 	* Early
-		○ Hiring contractors/consultants
-		○ Don't know
-		○ External relationships
-		○ Developing employees
+		* Hiring contractors/consultants
+		* Don't know
+		* External relationships
+		* Developing employees
 	* Developing
-		○ Developing employees
-		○ External relationships
-		○ Hiring contractors/consultants
-		○ Recruiting digital employees
+		* Developing employees
+		* External relationships
+		* Hiring contractors/consultants
+		* Recruiting digital employees
 	* Maturing
-		○ Developing employees
-		○ Recruiting digital employees
-		○ External relationships
-		○ Recruiting digital leaders
+		* Developing employees
+		* Recruiting digital employees
+		* External relationships
+		* Recruiting digital leaders
 Look outside your industry for fresh perspectives
 Leverage talent beyond your four walls
 Encourage talent to leak within your organization; companies are increasingly adopting a "tour of duty" model, in which employees spend a fixed period in a certain assignment, then move on to another assignment, which may be entirely different.
