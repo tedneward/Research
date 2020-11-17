@@ -1,5 +1,5 @@
 title=ArkScript
-tags=language, functional
+tags=language, functional, vm
 summary=A small, fast, functional and scripting language for C++ projects.
 ~~~~~~
 
