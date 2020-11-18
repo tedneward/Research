@@ -17,10 +17,12 @@ summary=
 
 ### Chap 3: The Two Phases of Perceiving People
 Phase 1 of Perception
+
 	* Perceivers attribute your behavior to something about you--your personality, your abilities, your moral character, your traits--rather than the wider context. This is called correspondence bias.
 	* Perceivers make automatic, effortless assumptions on the basis of your behavior. They use shortcuts and heuristics (like stereotypes) to make sense of you. They are entirely unaware of this process, which can be riddled with all sorts of bias. But because it is all unconscious, they believe they are seeing you objectively as you are.
 
 Phase 2 of Perception
+
 	* Perceivers take the situation and other factors into account and revise their impression of you accordingly--making it generally much more accurate.
 	* Perceivers need to be able to pay attention and motivated to put in the effort--otherwise they stick with their Phase 1 conclusions. And since people are often mentally busy and not particularly motivated, much of perception in real life ends up being based on the processes of Phase 1.
 
