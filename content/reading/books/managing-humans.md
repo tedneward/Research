@@ -2,7 +2,6 @@ title=Managing Humans
 tags=reading, books, management
 summary=Managing technical teams of people.
 ~~~~~~
-
 ## Part I: The Management Quiver
 ### Don't Be a Prick
 "My definition of a manager is someone with whom you can make a connection no matter where you sit in the org chart. ... It's your ability to construct an insightful opinion about a person in seconds that will help make you a phenomenal manager. ... Every single person with whom you work has a vastly different set of needs. ... It is your full-time job to listen to these people and mentally document how they are built."
