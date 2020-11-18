@@ -1,6 +1,6 @@
 title=Gravity
 tags=language, native, dynamic
-summary=An embeddable programming language with no external dependencies and a register-based virtual machine.
+summary=A class-based concurrent scripting language with a Swift-like syntax; embeddable; no external dependencies; register-based virtual machine.
 ~~~~~~
 
 [Website](http://gravity-lang.org/) | [Source](https://github.com/marcobambini/gravity)
