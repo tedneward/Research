@@ -22,3 +22,4 @@ summary=Scripting language often embedded into game engines for extensibility.
 * [Shine](https://github.com/richardhundt/shine): A language based on Lua with additional safety and expressiveness features implemented as a fork of LuaJIT.
 * [Squirrel](../squirrel)
 * [SquiLu](https://github.com/mingodad/squilu): A fork of Squirrel. Changes the syntax to accept a subset of JavaScript and C/C++. Implements Lua's features like string pattern matching and global table manipulation functions. Adds extensions for database access (SQLite3, MySQL, PostgreSQL), sockets, and other features.
+* [Wu](../wu)

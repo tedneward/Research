@@ -75,6 +75,8 @@ Some general language-wonk sorts of sites:
 
 * [PL wonks](http://wonks.github.io/)
 
+* Awesome Open Source: [Language Projects](https://awesomeopensource.com/projects/language) | [Scripting Language Projects](https://awesomeopensource.com/projects/scripting-language) | [Virtual Machine Projects](https://awesomeopensource.com/projects/virtual-machine)
+
 ## Language categories
 Wikipedia defines a really large ontological breakdown of languages; I prefer a slightly smaller one:
 

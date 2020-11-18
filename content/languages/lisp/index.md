@@ -32,10 +32,9 @@ Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/li
 
 * [ArkScript](../arkscript): A small functional Lisp-like programming language. Separate bytecode compiler and VM.
 * [Arc](../arc)
-* [Io](../../io): A prototype-based OO language.
-* [CLiPs](../clips): an expert system rule engine using a Lisp as the language for facts and rules
-* [JESS](https://jess.sandia.gov/): Java Expert System Shell, a CLIPS-inspired expert system rule engine on the JVM
-* [Arkscript](../arkscript)
 * [Carp](../carp)
+* [CLiPs](../clips): an expert system rule engine using a Lisp as the language for facts and rules
+* [Io](../../io): A prototype-based OO language.
 * [Janet](../../janet)
+* [JESS](https://jess.sandia.gov/): Java Expert System Shell, a CLIPS-inspired expert system rule engine on the JVM
 
