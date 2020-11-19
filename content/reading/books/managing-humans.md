@@ -8,7 +8,7 @@ summary=Managing technical teams of people.
 
 ### Managers Are Not Evil
 *Your manager's job is not your job.* Your manager is your face to the rest of the organization; give him something to say. ... Each manager, good or bad, is going to have a glaring deficiency; does he recognize he has a blind spot? A manager's job is to transform his glaring deficiency into a strength by finding the best person to fill it and trust him to do the job. ... Schedule 1:1s with direct reports, keep them on the same day and time, and never cancel them. You will always learn something in your 1:1. ... Pure delegators are slowly becoming irrelevant to their organizations. Real work is visible action managers take to support their particular vision for their organization. ... Politically active managers are informed managers. They know when change is afoot and they know what action to take to best represent their org in that change. ... Question #1: Where did I come from? (Being able to relate to those you manage comes from intimately understanding their job.) Question #2: Where am I going? (A plan for your manager's next big move is his incentive.)
-	
+
 ### The Rands Test
 * Do you have a 1:1?
 * Do you have a team meeting?
@@ -33,8 +33,11 @@ There is no way you can do it all; you need to trust and you need to delegate. Y
 	
 ### The Update, the Vent, and the Disaster
 Your job in a 1:1 is to give the smallest voice a chance to be heard; start with a question: "How are you?" Hold a 1:1 the same time each week. Always do it. Give it 30 minutes at least. "How are you" leads to one of three buckets:
+
 * **The Update** *(all clear!)*: 1:1s should not be status updates--if no meaty conversation appears in 15 minutes, have three prepared talking points, do a mini-performance review, or my current disaster.
+  
 * **The Vent** *(something's up...)*: your job is to listen for as long as it takes. Be aware of when it becomes a rant. Vents are motivated by emotion. Vents can spiral into a Disaster.
+
 * **The Disaster** *(oh dear...)*: you're under attack. The absolute worst response is any semblance of emotion. The person you're talking to isn't him/herself. Shut up (really); defuse by contributing nothing. Because whatever this is, it's not about the issue anymore--it's about the emotional baggage attached to the issue. A Disaster is the end result of poor management--when your employee believes that totally losing their shit is a productive strategy, it's because they believe it's the only option left for making anything change. Your reward for a culture of healthy 1:1s is a distinct lack of drama.
 	
 ### The Monday Freakout
@@ -48,25 +51,25 @@ Agenda detection is the ability to discern (a) typical meeting roles and how mee
 
 * Identify the type of meeting: 
 
-  * Informational; two kinds of roles: talkers and listeners.
+    * Informational; two kinds of roles: talkers and listeners.
 
-  * Conflict Resolution; some kind of problem needs to be solved.
+    * Conflict Resolution; some kind of problem needs to be solved.
 
 * Classify the participants
 
-  * Players: they want something out of the meeting
+    * Players: they want something out of the meeting
 
-  * Pawns: are either silent or instruments of running the meeting
+    * Pawns: are either silent or instruments of running the meeting
 
 * Identify the Players
 
-* Identify the Pros and Cons (subclasses of Players); Pros are "winning" and aren't incented to negotiate; Cons are the ones being screwed and are usually easy to pick out because they're expressing some degree of pissed-off-ness.
+    * Identify the Pros and Cons (subclasses of Players); Pros are "winning" and aren't incented to negotiate; Cons are the ones being screwed and are usually easy to pick out because they're expressing some degree of pissed-off-ness.
 
-* Figure out the Issue. What do the Cons want?
+    * Figure out the Issue. What do the Cons want?
 
-* Give the Cons what they want. They want a plan, some assurance that will somewhat address whatever the issue is. Cons will not let you out of that meeting until there is the perception of forward progress.
+    * Give the Cons what they want. They want a plan, some assurance that will somewhat address whatever the issue is. Cons will not let you out of that meeting until there is the perception of forward progress.
 
-* Figure out the Issue. If it's 30 minutes in and you still can't figure out what the issue is, it's time to go: too many issues. Someone who cares more than you needs to distill this one down so Pros and Cons can argue about one thing.
+    * Figure out the Issue. If it's 30 minutes in and you still can't figure out what the issue is, it's time to go: too many issues. Someone who cares more than you needs to distill this one down so Pros and Cons can argue about one thing.
 		
 ### Dissecting the Mandate
 
