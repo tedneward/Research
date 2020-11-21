@@ -758,70 +758,79 @@ All the data types discussed here can be lumped together into a single all-encom
 
 # Chapter 3: Forms
 The reader will have noted that the Scheme example programs provided thus far are also s-expressions. This is true of all Scheme programs: Programs are data.
+
 Thus, the character datum #\c is a program, or a form. We will use the more general term form instead of program, so that we can deal with program fragments too.
+
 Scheme evaluates the form #\c to the value #\c, because #\c is self-evaluating. Not all s-expressions are self-evaluating. For instance the symbol s-expression xyz evaluates to the value held by the variable xyz. The list s-expression (string->number "16") evaluates to the number 16.
+
 Not all s-expressions are valid programs. If you typed the dotted-pair s-expression (1 . 2) at the Scheme listener, you will get an error.
+
 Scheme evaluates a list form by examining the first element, or head, of the form. If the head evaluates to a procedure, the rest of the form is evaluated to get the procedure's arguments, and the procedure is applied to the arguments.
+
 If the head of the form is a special form, the evaluation proceeds in a manner idiosyncratic to that form. Some special forms we have already seen are begin, define, and set!. begin causes its subforms to be evaluated in order, the result of the entire form being the result of the last subform. define introduces and initializes a variable. set! changes the binding of a variable.
-3.1  Procedures
+
+## 3.1  Procedures
 We have seen quite a few primitive Scheme procedures, eg, cons, string->list, and the like. Users can create their own procedures using the special form lambda. For example, the following defines a procedure that adds 2 to its argument:
-
+```
 (lambda (x) (+ x 2))
-
+```
  
 The first subform, (x), is the list of parameters. The remaining subform(s) constitute the procedure's body. This procedure can be called on an argument, just like a primitive procedure:
-
+```
 ((lambda (x) (+ x 2)) 5)
 =>  7
-
+```
  
 If we wanted to call this same procedure many times, we could create a replica using lambda each time, but we can do better. We can use a variable to hold the procedure value:
-
+```
 (define add2
   (lambda (x) (+ x 2)))
-
+```
  
 We can then use the variable add2 each time we need a procedure for adding 2 to its argument:
-
+```
 (add2 4) =>  6
 (add2 9) =>  11
-
+```
  
-3.1.1  Procedure parameters
+### 3.1.1  Procedure parameters
 The parameters of a lambda-procedure are specified by its first subform (the form immediately following the head, the symbol lambda). add2is a single-argument -- or unary -- procedure, and so its parameter list is the singleton list (x). The symbol x acts as a variable holding the procedure's argument. Each occurrence of x in the procedure's body refers to the procedure's argument. The variable x is said to be local to the procedure's body.
-We can use 2-element lists for 2-argument procedures, and in general, n-element lists for n-argument procedures. The following is a 2-argument procedure that calculates the area of a rectangle. Its two arguments are the length and breadth of the rectangle.
 
+We can use 2-element lists for 2-argument procedures, and in general, n-element lists for n-argument procedures. The following is a 2-argument procedure that calculates the area of a rectangle. Its two arguments are the length and breadth of the rectangle.
+```
 (define area
   (lambda (length breadth)
     (* length breadth)))
-
+```
  
 Notice that area multiplies its arguments, and so does the primitive procedure *. We could have simply said:
-
+```
 (define area *)
-
+```
  
-3.1.2  Variable number of arguments
+### 3.1.2  Variable number of arguments
 Some procedures can be called at different times with different numbers of arguments. To do this, the lambda parameter list is replaced by a single symbol. This symbol acts as a variable that is bound to the list of the arguments that the procedure is called on.
-In general, the lambda parameter list can be a list of the form (x ...), a symbol, or a dotted pair of the form (x ... . z). In the dotted-pair case, all the variables before the dot are bound to the corresponding arguments in the procedure call, with the single variable after the dot picking up all the remaining arguments as one list.
-3.2  apply
-The Scheme procedure apply lets us call a procedure on a list of its arguments.
 
+In general, the lambda parameter list can be a list of the form (x ...), a symbol, or a dotted pair of the form (x ... . z). In the dotted-pair case, all the variables before the dot are bound to the corresponding arguments in the procedure call, with the single variable after the dot picking up all the remaining arguments as one list.
+
+## 3.2  apply
+The Scheme procedure apply lets us call a procedure on a list of its arguments.
+```
 (define x '(1 2 3))
 
 (apply + x)
 =>  6
-
+```
  
 In general, apply takes a procedure, followed by a variable number of other arguments, the last of which must be a list. It constructs the argument list by prefixing the last argument with all the other (intervening) arguments. It then returns the result of calling the procedure on this argument list. Eg,
-
+```
 (apply + 1 2 3 x)
 =>  12
-
+```
  
-3.3  Sequencing
+## 3.3  Sequencing
 We used the begin special form to bunch together a group of subforms that need to be evaluated in sequence. Many Scheme forms haveimplicit begins. For example, let's define a 3-argument procedure that displays its three arguments, with spaces between them. A possible definition is:
-
+```
 (define display3
   (lambda (arg1 arg2 arg3)
     (begin
@@ -831,10 +840,10 @@ We used the begin special form to bunch together a group of subforms that need
       (display " ")
       (display arg3)
       (newline))))
-
+```
  
 In Scheme, lambda-bodies are implicit begins. Thus, the begin in display3's body isn't needed, although it doesn't hurt. display3, more simply, is:
-
+```
 (define display3
   (lambda (arg1 arg2 arg3)
     (display arg1)
@@ -843,30 +852,23 @@ In Scheme, lambda-bodies are implicit begins. Thus, the begin in display3's
     (display " ")
     (display arg3)
     (newline)))
+```
 
 
- 
-
-
-
-
-Chapter 4
- Conditionals
+# Chapter 4: Conditionals
 Like all languages, Scheme provides conditionals. The basic form is the if:
-
+```
 (if test-expression
     then-branch
     else-branch)
-
+```
 
  
 If test-expression evaluates to true (ie, any value other than #f), the ``then'' branch is evaluated. If not, the ``else'' branch is evaluated. The ``else'' branch is optional.
-
+```
 (define p 80)
 
-(if (]]
-]]>
- p 70) 
+(if (> p 70) 
     'safe
     'unsafe)
 =>  safe 
@@ -874,24 +876,26 @@ If test-expression evaluates to true (ie, any value other than #f), the ``the
 (if (< p 90)
     'low-pressure) ;no ``else'' branch
 =>  low-pressure 
-
+```
 
  
 Scheme provides some other conditional forms for convenience. They can all be defined as macros (chap 8) that expand into if-expressions.
-4.1  when and unless
-when and unless are convenient conditionals to use when only one branch (the ``then'' or the ``else'' branch) of the basic conditional is needed.
 
+## 4.1  when and unless
+when and unless are convenient conditionals to use when only one branch (the ``then'' or the ``else'' branch) of the basic conditional is needed.
+```
 (when (< (pressure tube) 60)
    (open-valve tube)
    (attach floor-pump tube)
    (depress floor-pump 5)
    (detach floor-pump tube)
    (close-valve tube))
-
+```
  
 Assuming pressure of tube is less than 60, this conditional will attach floor-pump to tube and depress it 5 times. (attach and depressare some suitable procedures.)
-The same program using if would be:
 
+The same program using if would be:
+```
 (if (< (pressure tube) 60)
     (begin
       (open-valve tube)
@@ -899,82 +903,85 @@ The same program using if would be:
       (depress floor-pump 5)
       (detach floor-pump tube)
       (close-valve tube)))
-
+```
  
 Note that when's branch is an implicit begin, whereas if requires an explicit begin if either of its branches has more than one form.
-The same behavior can be written using unless as follows:
 
+The same behavior can be written using unless as follows:
+```
 (unless (>= (pressure tube) 60)
    (open-valve tube)
    (attach floor-pump tube)
    (depress floor-pump 5)
    (detach floor-pump tube)
    (close-valve tube))
-
+```
 
  
 Not all Schemes provide when and unless. If your Scheme does not have them, you can define them as macros (see chap 8).
-4.2  cond
-The cond form is convenient for expressing nested if-expressions, where each ``else'' branch but the last introduces a new if. Thus, the form
 
+## 4.2  cond
+The cond form is convenient for expressing nested if-expressions, where each ``else'' branch but the last introduces a new if. Thus, the form
+```
 (if (char<? c #\c) -1
     (if (char=? c #\c) 0
         1))
-
+```
  
 can be rewritten using cond as:
-
+```
 (cond ((char<? c #\c) -1)
       ((char=? c #\c) 0)
       (else 1))
-
+```
  
 The cond is thus a multi-branch conditional. Each clause has a test and an associated action. The first test that succeeds triggers its associated action. The final else clause is chosen if no other test succeeded.
-The cond actions are implicit begins.
-4.3  case
-A special case of the cond can be compressed into a case expression. This is when every test is a membership test.
 
+The cond actions are implicit begins.
+
+## 4.3  case
+A special case of the cond can be compressed into a case expression. This is when every test is a membership test.
+```
 (case c
   ((#\a) 1)
   ((#\b) 2)
   ((#\c) 3)
   (else 4))
 =>  3
-
+```
  
 The clause whose head contains the value of c is chosen.
-4.4  and and or
-Scheme provides special forms for boolean conjunction (``and'') and disjunction (``or''). (We have already seen (sec 2.1.1) Scheme's boolean negation not, which is a procedure.)
-The special form and returns a true value if all its subforms are true. The actual value returned is the value of the final subform. If any of the subforms are false, and returns #f.
 
+## 4.4  and and or
+Scheme provides special forms for boolean conjunction (``and'') and disjunction (``or''). (We have already seen (sec 2.1.1) Scheme's boolean negation not, which is a procedure.)
+
+The special form and returns a true value if all its subforms are true. The actual value returned is the value of the final subform. If any of the subforms are false, and returns #f.
+```
 (and 1 2)  =>  2
 (and #f 1) =>  #f
-
+```
  
 The special form or returns the value of its first true subform. If all the subforms are false, or returns #f.
-
+```
 (or 1 2)  =>  1
 (or #f 1) =>  1
-
+```
  
 Both and and or evaluate their subforms left-to-right. As soon as the result can be determined, and and or will ignore the remaining subforms.
-
+```
 (and 1 #f expression-guaranteed-to-cause-error)
 =>  #f
 
 (or 1 #f expression-guaranteed-to-cause-error)
 =>  1
-
+```
  
 
-
-
-
-Chapter 5
- Lexical variables
+# Chapter 5: Lexical variables
 Scheme's variables have lexical scope, ie, they are visible only to forms within a certain contiguous stretch of program text. The globalvariables we have seen thus far are no exception: Their scope is all program text, which is certainly contiguous.
-We have also seen some examples of local variables. These were the lambda parameters, which get bound each time the procedure is called, and whose scope is that procedure's body. Eg,
 
+We have also seen some examples of local variables. These were the lambda parameters, which get bound each time the procedure is called, and whose scope is that procedure's body. Eg,
+```
 (define x 9)
 (define add2 (lambda (x) (+ x 2)))
 
@@ -984,167 +991,168 @@ x        =>  9
 (add2 x) =>  11
 
 x        =>  9
-
+```
 
  
 Here, there is a global x, and there is also a local x, the latter introduced by procedure add2. The global x is always 9. The local x gets bound to 3 in the first call to add2 and to the value of the global x, ie, 9, in the second call to add2. When the procedure calls return, the global xcontinues to be 9.
+
 The form set! modifies the lexical binding of a variable.
-
+```
 (set! x 20)
-
+```
 
  
 modifies the global binding of x from 9 to 20, because that is the binding of x that is visible to set!. If the set! was inside add2's body, it would have modified the local x:
-
+```
 (define add2
   (lambda (x)
     (set! x (+ x 2))
     x))
-
+```
 
  
 The set! here adds 2 to the local variable x, and the procedure returns this new value of the local x. (In terms of effect, this procedure is indistinguishable from the previous add2.) We can call add2 on the global x, as before:
-
+```
 (add2 x) =>  22
-
+```
 
  
 (Remember global x is now 20, not 9!)
+
 The set! inside add2 affects only the local variable used by add2. Although the local variable x got its binding from the global x, the latter is unaffected by the set! to the local x.
-
+```
 x =>  20
-
+```
 
  
 Note that we had all this discussion because we used the same identifier for a local variable and a global variable. In any text, an identifier named x refers to the lexically closest variable named x. This will shadow any outer or global x's. Eg, in add2, the parameter x shadows the global x.
-A procedure's body can access and modify variables in its surrounding scope provided the procedure's parameters don't shadow them. This can give some interesting programs. Eg,
 
+A procedure's body can access and modify variables in its surrounding scope provided the procedure's parameters don't shadow them. This can give some interesting programs. Eg,
+```
 (define counter 0)
 
 (define bump-counter
   (lambda ()
     (set! counter (+ counter 1))
     counter))
-
+```
 
  
 The procedure bump-counter is a zero-argument procedure (also called a thunk). It introduces no local variables, and thus cannot shadow anything. Each time it is called, it modifies the global variable counter -- it increments it by 1 -- and returns its current value. Here are some successive calls to bump-counter:
-
+```
 (bump-counter) =>  1
 (bump-counter) =>  2
 (bump-counter) =>  3
-
+```
 
  
-5.1  let and let*
+## 5.1  let and let*
 Local variables can be introduced without explicitly creating a procedure. The special form let introduces a list of local variables for use within its body:
-
+```
 (let ((x 1)
       (y 2)
       (z 3))
   (list x y z))
 =>  (1 2 3)
-
+```
  
 As with lambda, within the let-body, the local x (bound to 1) shadows the global x (which is bound to 20).
 The local variable initializations -- x to 1; y to 2; z to 3 -- are not considered part of the let body. Therefore, a reference to x in the initialization will refer to the global, not the local x:
-
+```
 (let ((x 1)
       (y x))
   (+ x y))
 =>  21
-
+```
  
 This is because x is bound to 1, and y is bound to the global x, which is 20.
 Sometimes, it is convenient to have let's list of lexical variables be introduced in sequence, so that the initialization of a later variable occurs in the lexical scope of earlier variables. The form let* does this:
-
+```
 (let* ((x 1)
        (y x))
   (+ x y))
 =>  2
-
+```
  
 The x in y's initialization refers to the x just above. The example is entirely equivalent to -- and is in fact intended to be a convenient abbreviation for -- the following program with nested lets:
-
+```
 (let ((x 1))
   (let ((y x))
     (+ x y)))
 =>  2
-
+```
  
 The values bound to lexical variables can be procedures:
-
+```
 (let ((cons (lambda (x y) (+ x y))))
   (cons 1 2))
 =>  3
-
+```
  
 Inside this let body, the lexical variable cons adds its arguments. Outside, cons continues to create dotted pairs.
-5.2  fluid-let
-A lexical variable is visible throughout its scope, provided it isn't shadowed. Sometimes, it is helpful to temporarily set a lexical variable to a certain value. For this, we use the form fluid-let.2
 
+## 5.2  fluid-let
+A lexical variable is visible throughout its scope, provided it isn't shadowed. Sometimes, it is helpful to temporarily set a lexical variable to a certain value. For this, we use the form fluid-let.2
+```
 (fluid-let ((counter 99))
   (display (bump-counter)) (newline)
   (display (bump-counter)) (newline)
   (display (bump-counter)) (newline))
-
+```
  
 This looks similar to a let, but instead of shadowing the global variable counter, it temporarily sets it to 99 before continuing with thefluid-let body. Thus the displays in the body produce
-
+```
 100 
 101 
 102 
-
+```
  
 After the fluid-let expression has evaluated, the global counter reverts to the value it had before the fluid-let.
-
+```
 counter =>  3
-
+```
  
 Note that fluid-let has an entirely different effect from let. fluid-let does not introduce new lexical variables like let does. It modifies the bindings of existing lexical variables, and the modification ceases as soon as the fluid-let does.
-To drive home this point, consider the program
 
+To drive home this point, consider the program
+```
 (let ((counter 99))
   (display (bump-counter)) (newline)
   (display (bump-counter)) (newline)
   (display (bump-counter)) (newline))
-
+```
  
 which substitutes let for fluid-let in the previous example. The output is now
-
+```
 4
 5
 6
-
+```
  
 Ie, the global counter, which is initially 3, is updated by each call to bump-counter. The new lexical variable counter, with its initialization of 99, has no impact on the calls to bump-counter, because although the calls to bump-counter are within the scope of this local counter, the body of bump-counter isn't. The latter continues to refer to the global counter, whose final value is 6.
-
+```
 counter =>  6
-
+```
  
 
 
 2 fluid-let is a nonstandard special form. See sec 8.3 for a definition of fluid-let in Scheme.
 
-
-
-
-
-
-Chapter 6
- Recursion
+# Chapter 6: Recursion
 A procedure body can contain calls to other procedures, not least itself:
 
+```
 (define factorial
   (lambda (n)
     (if (= n 0) 1
         (* n (factorial (- n 1))))))
-
+```
 
  
 This recursive procedure calculates the factorial of a number. If the number is 0, the answer is 1. For any other number n, the procedure uses itself to calculate the factorial of n - 1, multiplies that subresult by n, and returns the product.
-Mutually recursive procedures are also possible. The following predicates for evenness and oddness use each other:
 
+Mutually recursive procedures are also possible. The following predicates for evenness and oddness use each other:
+```
 (define is-even?
   (lambda (n)
     (if (= n 0) #t
@@ -1154,13 +1162,14 @@ Mutually recursive procedures are also possible. The following predicates for ev
   (lambda (n)
     (if (= n 0) #f
         (is-even? (- n 1)))))
-
+```
 
  
 These definitions are offered here only as simple illustrations of mutual recursion. Scheme already provides the primitive predicates even?and odd?.
-6.1  letrec
-If we wanted the above procedures as local variables, we could try to use a let form:
 
+## 6.1  letrec
+If we wanted the above procedures as local variables, we could try to use a let form:
+```
 (let ((local-even? (lambda (n)
                      (if (= n 0) #t
                          (local-odd? (- n 1)))))
@@ -1168,11 +1177,12 @@ If we wanted the above procedures as local variables, we could try to use a let
                     (if (= n 0) #f
                         (local-even? (- n 1))))))
   (list (local-even? 23) (local-odd? 23)))
-
+```
  
 This won't quite work, because the occurrences of local-even? and local-odd? in the initializations don't refer to the lexical variables themselves. Changing the let to a let* won't work either, for while the local-even? inside local-odd?'s body refers to the correct procedure value, the local-odd? in local-even?'s body still points elsewhere.
-To solve problems like this, Scheme provides the form letrec:
 
+To solve problems like this, Scheme provides the form letrec:
+```
 (letrec ((local-even? (lambda (n)
                         (if (= n 0) #t
                             (local-odd? (- n 1)))))
@@ -1180,12 +1190,13 @@ To solve problems like this, Scheme provides the form letrec:
                        (if (= n 0) #f
                            (local-even? (- n 1))))))
   (list (local-even? 23) (local-odd? 23)))
-
+```
  
 The lexical variables introduced by a letrec are visible not only in the letrec-body but also within all the initializations. letrec is thus tailor-made for defining recursive and mutually recursive local procedures.
-6.2  Named let
-A recursive procedure defined using letrec can describe loops. Let's say we want to display a countdown from 10:
 
+## 6.2  Named let
+A recursive procedure defined using letrec can describe loops. Let's say we want to display a countdown from 10:
+```
 (letrec ((countdown (lambda (i)
                       (if (= i 0) 'liftoff
                           (begin
@@ -1193,38 +1204,44 @@ A recursive procedure defined using letrec can describe loops. Let's say we wa
                             (newline)
                             (countdown (- i 1)))))))
   (countdown 10))
-
+```
  
 This outputs on the console the numbers 10 down to 1, and returns the result liftoff.
-Scheme allows a variant of let called named let to write this kind of loop more compactly:
 
+Scheme allows a variant of let called named let to write this kind of loop more compactly:
+```
 (let countdown ((i 10))
   (if (= i 0) 'liftoff
       (begin
         (display i)
         (newline)
         (countdown (- i 1)))))
-
+```
  
 Note the presence of a variable identifying the loop immediately after the let. This program is equivalent to the one written with letrec. You may consider the named let to be a macro (chap 8) expanding to the letrec form.
-6.3  Iteration
-countdown defined above is really a recursive procedure. Scheme can define loops only through recursion. There are no special looping or iteration constructs.
-Nevertheless, the loop as defined above is a genuine loop, in exactly the same way that other languages bill their loops. Ie, Scheme takes special care to ensure that recursion of the type used above will not generate the procedure call/return overhead.
-Scheme does this by a process called tail-call elimination. If you look closely at the countdown procedure, you will note that when the recursive call occurs in countdown's body, it is the tail call, or the very last thing done -- each invocation of countdown either does not call itself, or when it does, it does so as its very last act. To a Scheme implementation, this makes the recursion indistinguishable from iteration. So go ahead, use recursion to write loops. It's safe.
-Here's another example of a useful tail-recursive procedure:
 
+## 6.3  Iteration
+countdown defined above is really a recursive procedure. Scheme can define loops only through recursion. There are no special looping or iteration constructs.
+
+Nevertheless, the loop as defined above is a genuine loop, in exactly the same way that other languages bill their loops. Ie, Scheme takes special care to ensure that recursion of the type used above will not generate the procedure call/return overhead.
+
+Scheme does this by a process called tail-call elimination. If you look closely at the countdown procedure, you will note that when the recursive call occurs in countdown's body, it is the tail call, or the very last thing done -- each invocation of countdown either does not call itself, or when it does, it does so as its very last act. To a Scheme implementation, this makes the recursion indistinguishable from iteration. So go ahead, use recursion to write loops. It's safe.
+
+Here's another example of a useful tail-recursive procedure:
+```
 (define list-position
   (lambda (o l)
     (let loop ((i 0) (l l))
       (if (null? l) #f
           (if (eqv? (car l) o) i
               (loop (+ i 1) (cdr l)))))))
-
+```
 
  
 list-position finds the index of the first occurrence of the object o in the list l. If the object is not found in the list, the procedure returns#f.
-Here's yet another tail-recursive procedure, one that reverses its argument list ``in place'', ie, by mutating the contents of the existing list, and without allocating a new one:
 
+Here's yet another tail-recursive procedure, one that reverses its argument list ``in place'', ie, by mutating the contents of the existing list, and without allocating a new one:
+```
 (define reverse!
   (lambda (s)
     (let loop ((s s) (r '()))
@@ -1232,65 +1249,76 @@ Here's yet another tail-recursive procedure, one that reverses its argument list
           (let ((d (cdr s)))
             (set-cdr! s r)
             (loop d s))))))
-
+```
 
  
 (reverse! is a useful enough procedure that it is provided primitively in many Scheme dialects, eg, MzScheme and Guile.)
 For some numerical examples of recursion (including iteration), see Appendix C.
-6.4  Mapping a procedure across a list
-A special kind of iteration involves repeating the same action for each element of a list. Scheme offers two procedures for this situation: mapand for-each.
-The map procedure applies a given procedure to every element of a given list, and returns the list of the results. Eg,
 
+## 6.4  Mapping a procedure across a list
+A special kind of iteration involves repeating the same action for each element of a list. Scheme offers two procedures for this situation: mapand for-each.
+
+The map procedure applies a given procedure to every element of a given list, and returns the list of the results. Eg,
+```
 (map add2 '(1 2 3))
 =>  (3 4 5)
-
+```
  
 The for-each procedure also applies a procedure to each element in a list, but returns void. The procedure application is done purely for any side-effects it may cause. Eg,
-
+```
 (for-each display
   (list "one " "two " "buckle my shoe"))
-
+```
  
 has the side-effect of displaying the strings (in the order they appear) on the console.
-The procedures applied by map and for-each need not be one-argument procedures. For example, given an n-argument procedure, map takesn lists and applies the procedure to every set of n of arguments selected from across the lists. Eg,
 
+The procedures applied by map and for-each need not be one-argument procedures. For example, given an n-argument procedure, map takesn lists and applies the procedure to every set of n of arguments selected from across the lists. Eg,
+```
 (map cons '(1 2 3) '(10 20 30))
 =>  ((1 . 10) (2 . 20) (3 . 30))
 
 (map + '(1 2 3) '(10 20 30))
 =>  (11 22 33)
-
+```
  
 
-
-
-
-Chapter 7
- I/O
+# Chapter 7: I/O
 Scheme has input/output (I/O) procedures that will let you read from an input port or write to an output port. Ports can be associated with the console, files or strings.
-7.1  Reading
-Scheme's reader procedures take an optional input port argument. If the port is not specified, the current input port (usually the console) is assumed.
-Reading can be character-, line- or s-expression-based. Each time a read is performed, the port's state changes so that the next read will read material following what was already read. If the port has no more material to be read, the reader procedure returns a specific datum called the end-of-file or eof object. This datum is the only value that satisfies the eof-object? predicate.
-The procedure read-char reads the next character from the port. read-line reads the next line, returning it as a string (the final newline is not included). The procedure read reads the next s-expression.
-7.2  Writing
-Scheme's writer procedures take the object that is to be written and an optional output port argument. If the port is not specified, the current output port (usually the console) is assumed.
-Writing can be character- or s-expression-based.
-The procedure write-char writes the given character (without the #\) to the output port.
-The procedures write and display both write the given s-expression to the port, with one difference: write attempts to use a machine-readable format and display doesn't. Eg, write uses double quotes for strings and the #\ syntax for characters. display doesn't.
-The procedure newline starts a new line on the output port.
-7.3  File ports
-Scheme's I/O procedures do not need a port argument if the port happens to be standard input or standard output. However, if you need these ports explicitly, the zero-argument procedures current-input-port and current-output-port furnish them. Thus,
 
+## 7.1  Reading
+Scheme's reader procedures take an optional input port argument. If the port is not specified, the current input port (usually the console) is assumed.
+
+Reading can be character-, line- or s-expression-based. Each time a read is performed, the port's state changes so that the next read will read material following what was already read. If the port has no more material to be read, the reader procedure returns a specific datum called the end-of-file or eof object. This datum is the only value that satisfies the eof-object? predicate.
+
+The procedure read-char reads the next character from the port. read-line reads the next line, returning it as a string (the final newline is not included). The procedure read reads the next s-expression.
+
+## 7.2  Writing
+Scheme's writer procedures take the object that is to be written and an optional output port argument. If the port is not specified, the current output port (usually the console) is assumed.
+
+Writing can be character- or s-expression-based.
+
+The procedure write-char writes the given character (without the #\) to the output port.
+
+The procedures write and display both write the given s-expression to the port, with one difference: write attempts to use a machine-readable format and display doesn't. Eg, write uses double quotes for strings and the #\ syntax for characters. display doesn't.
+
+The procedure newline starts a new line on the output port.
+
+## 7.3  File ports
+Scheme's I/O procedures do not need a port argument if the port happens to be standard input or standard output. However, if you need these ports explicitly, the zero-argument procedures current-input-port and current-output-port furnish them. Thus,
+```
 (display 9)
 (display 9 (current-output-port))
-
+```
 
  
 have the same behavior.
-A port is associated with a file by opening the file. The procedure open-input-file takes a filename argument and returns a new input port associated with it. The procedure open-output-file takes a filename argument and returns a new output port associated with it. It is an error to open an input file that doesn't exist, or to open an output file that already exists.
-After you have performed I/O on a port, you should close it with close-input-port or close-output-port.
-In the following, assume the file hello.txt contains the single word hello.
 
+A port is associated with a file by opening the file. The procedure open-input-file takes a filename argument and returns a new input port associated with it. The procedure open-output-file takes a filename argument and returns a new output port associated with it. It is an error to open an input file that doesn't exist, or to open an output file that already exists.
+
+After you have performed I/O on a port, you should close it with close-input-port or close-output-port.
+
+In the following, assume the file hello.txt contains the single word hello.
+```
 (define i (open-input-file "hello.txt"))
 
 (read-char i)
@@ -1300,11 +1328,11 @@ In the following, assume the file hello.txt contains the single word hello.
 
 j
 =>  ello
-
+```
 
  
 Assume the file greeting.txt does not exist before the following programs are fed to the listener:
-
+```
 (define o (open-output-file "greeting.txt"))
 
 (display "hello" o)
@@ -1313,19 +1341,20 @@ Assume the file greeting.txt does not exist before the following programs are 
 (newline o)
 
 (close-output-port o)
-
+``
 
  
 The file greeting.txt will now contain the line:
-
+```
 hello world 
-
+```
 
  
-7.3.1  Automatic opening and closing of file ports
+### 7.3.1  Automatic opening and closing of file ports
 Scheme supplies the procedures call-with-input-file and call-with-output-file that will take care of opening a port and closing it after you're done with it.
-The procedure call-with-input-file takes a filename argument and a procedure. The procedure is applied to an input port opened on the file. When the procedure completes, its result is returned after ensuring that the port is closed.
 
+The procedure call-with-input-file takes a filename argument and a procedure. The procedure is applied to an input port opened on the file. When the procedure completes, its result is returned after ensuring that the port is closed.
+```
 (call-with-input-file "hello.txt"
   (lambda (i)
     (let* ((a (read-char i))
@@ -1333,13 +1362,14 @@ The procedure call-with-input-file takes a filename argument and a procedure. 
            (c (read-char i)))
       (list a b c))))
 =>  (#\h #\e #\l)
-
+```
 
  
 The procedure call-with-output-file does the analogous services for an output file.
-7.4  String ports
-It is often convenient to associate ports with strings. Thus, the procedure open-input-string associates a port with a given string. Reader procedures on this port will read off the string:
 
+## 7.4  String ports
+It is often convenient to associate ports with strings. Thus, the procedure open-input-string associates a port with a given string. Reader procedures on this port will read off the string:
+```
 (define i (open-input-string "hello world"))
 
 (read-char i)
@@ -1350,38 +1380,38 @@ It is often convenient to associate ports with strings. Thus, the procedure ope
 
 (read i)
 =>  world
-
+```
 
  
 The procedure open-output-string creates an output port that will eventually be used to create a string:
-
+```
 (define o (open-output-string))
 
 (write 'hello o)
 (write-char #\, o)
 (display " " o)
 (display "world" o)
-
+```
 
  
 You can now use the procedure get-output-string to get the accumulated string in the string port o:
-
+```
 (get-output-string o)
 =>  "hello, world"
-
+```
 
  
 String ports need not be explicitly closed.
-7.5  Loading files
+
+## 7.5  Loading files
 We have already seen the procedure load that loads files containing Scheme code. Loading a file consists in evaluating in sequence every Scheme form in the file. The pathname argument given to load is reckoned relative to the current working directory of Scheme, which is normally the directory in which the Scheme executable was called.
+
 Files can load other files, and this is useful in a large program spanning many files. Unfortunately, unless full pathnames are used, the argument file of a load is dependent on Scheme's current directory. Supplying full pathnames is not always convenient, because we would like to move the program files as a unit (preserving their relative pathnames), perhaps to many different machines.
+
 MzScheme provides the load-relative procedure that greatly helps in fixing the files to be loaded. load-relative, like load, takes a pathname argument. When a load-relative call occurs in a file foo.scm, the path of its argument is reckoned from the directory of the calling file foo.scm. In particular, this pathname is reckoned independent of Scheme's current directory, and thus allows convenient multifile program development.
 
 
-
-
-Chapter 8
- Macros
+Chapter 8: Macros
 Users can create their own special forms by defining macros. A macro is a symbol that has a transformer procedure associated with it. When Scheme encounters a macro-expression -- ie, a form whose head is a macro -- , it applies the macro's transformer to the subforms in the macro-expression, and evaluates the result of the transformation.
 Ideally, a macro specifies a purely textual transformation from code text to other code text. This kind of transformation is useful for abbreviating an involved and perhaps frequently occurring textual pattern.
 A macro is defined using the special form define-macro (but see sec A.3).3 For example, if your Scheme lacks the conditional special formwhen, you could define when as the following macro:
