@@ -4,22 +4,22 @@ summary=
 ~~~~~~
 # Part I: A Philosophical Introduction
 1. Beyond the Cuckoo Clock
-    * Man is a tool-using creature
-    * First tools were extensions of our physical abilities
-    * Medieval clock was first extension of our mind
-    * Cuckoo clocks are analog computers--take input (swings of pendulum) and turn them into data (time representation)
-    * Computers are digital computers, and infinitiely flexible (unike analog computers)
+      * Man is a tool-using creature
+      * First tools were extensions of our physical abilities
+      * Medieval clock was first extension of our mind
+      * Cuckoo clocks are analog computers--take input (swings of pendulum) and turn them into data (time representation)
+      * Computers are digital computers, and infinitiely flexible (unike analog computers)
 2. Is There an Aesthetic of Programming?
-    * discussion of algorithms as aesthetics
+      * discussion of algorithms as aesthetics
 3. The Ethical Quotient
-    * ethical challenges: qualities of magnification, precision, alienation, believability, malleability of information, impermeability, and autonomy of operation
-    * magnification: computers magnify our thought processes significantly, but have no conscience or controls beyond what we put on them
-    * precision: instructions to a computer must be precise
-    * alientation: computer isolates programmers and operators from the people affected by their actions/code. "Instead of seein the program as a real instrument affecting the lives of real people, programmers sometimes see it as a game, a challenge to their ingenuity. The alienating quality of the computer permits us to overlook the human consequences of a programming decision or error." This happens to users on the Internet as well.
-    * believability: we believe the computer because it presents us with too much information to be able to effectively doubt any of it
-    * malleability: data can change without us knowing it
-    * impermeability: we cannot observe the computer, only its side effects and results
-    * autonomy of operation: the computer is capable of acting without our intervention or supervision
+      * ethical challenges: qualities of magnification, precision, alienation, believability, malleability of information, impermeability, and autonomy of operation
+      * magnification: computers magnify our thought processes significantly, but have no conscience or controls beyond what we put on them
+      * precision: instructions to a computer must be precise
+      * alientation: computer isolates programmers and operators from the people affected by their actions/code. "Instead of seein the program as a real instrument affecting the lives of real people, programmers sometimes see it as a game, a challenge to their ingenuity. The alienating quality of the computer permits us to overlook the human consequences of a programming decision or error." This happens to users on the Internet as well.
+      * believability: we believe the computer because it presents us with too much information to be able to effectively doubt any of it
+      * malleability: data can change without us knowing it
+      * impermeability: we cannot observe the computer, only its side effects and results
+      * autonomy of operation: the computer is capable of acting without our intervention or supervision
 
 # Part II: The Structure of the Computer
 4. Types of Computers
