@@ -1,11 +1,7 @@
-title=Computer Architecture: GPU
-tags=assembly, native, reading
-summary=A collection of reading materials on computer GPU hardware and architecture.
+title=GPU hardware Architecture
+tags=assembly, native, reading, hardware
+summary=A collection of reading materials on computer GPU hardware and architecture: articles & papers, CUDA, open source hardware GPU projects, software, talks.
 ~~~~~~
-Note: see also [computer architecture](comparch.html)
-
----
-
 # Articles & Papers
 
 * A closer look at GPUs. Fatahalian, K., & Houston, M. (2008) CACM - http://graphics.stanford.edu/~kayvonf/papers/fatahalianCACM.pdf
