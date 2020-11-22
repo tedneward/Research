@@ -2,10 +2,7 @@ title=Language Implementation Reading
 tags=language, reading, llvm, native
 summary=Collection of articles on implementing languages.
 ~~~~~~
-
 ["The Naked Truth About Writing a Programming Language"](https://www.digitalmars.com/articles/b90.html)
-
-See also: Assembly languages: [ARM](/languages/assembly/arm), [RISC-V](/languages/assembly/riscv), [x86/x64](/languages/assembly/x86) | [Compilers Correctness](compilers.correctness.md) | [Debugging](debugging.html) | [Linking and Loading](executables.linking_loading.html) | [LLVM](/platforms/llvm.html) | [Executables](executables.html) and [Linking and Loading](executables.linking_loading.html)
 
 [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
 
