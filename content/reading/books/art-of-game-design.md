@@ -33,6 +33,7 @@ summary=Various 'lenses' by which to view game design.
 14. **The Lens of Risk Mitigation:** Stop thinking positively, and start seriously considering the things that could go horribly wrong with your game. What could keep this game from being great? How can we stop that from happening? Risk management is hard. It means you have to face up to the problems you would most like to avoid, and solve them immediately. But if you discipline yourself to do it, you'll loop more times, and more usefully, and get a better game as a result. It is tempting to ignore potential problems and just work on the parts of your game you feel most confident about. You must resist this temptation and focus on the parts of your game that are in danger.
 
 What skills does a game designer need?
+
 * Animation
 * Anthropology
 * Architecture
@@ -58,11 +59,13 @@ Five Kinds of Listening: listen to your team, audience, game, client and self
 
 
 Introspection: Powers, Perils and Practice
+
 * Peril #1: Introspection can lead to false conclusions about reality
 * Peril #2: What is true of my experiences may not be true for others
 
 
 Defeating Heisenberg
+
 * Analyze Memories
 * Two Passes (once for feeling, second for analysis)
 * Sneak Glances
@@ -76,6 +79,7 @@ State the Problem: You get a broader creative space, a clear measurement of the 
 
 
 Your Subconscious
+
 * Common characteristics: Can't talk (or chooses not to); Impulsive; Emotional; Playful; Irrational
 * Subconscious Tip #1: Pay Attention
 * Subconscious Tip #2: Record Your Ideas
@@ -102,9 +106,9 @@ Fifteen Nitty-Gritty Brainstorming Tips
 15. Find a Partner
 
 Categories (from #14)
-* Technology Ideas: Cell-phone platform; Handheld game; PC; Integrated with SMS; Game console; …
-* Mechanics Ideas: Sims-like game; Interactive fiction game; The winner makes the most friends; Try to spread rumors about the other players; Try to help as many people as possible; Tetris-like game; …
-* Story Ideas: High-school drama; College-themed; You play cupid; You're a TV star; Hospital theme; Music theme*you're a rock star, you're a dancer; ...
+* Technology Ideas: Cell-phone platform; Handheld game; PC; Integrated with SMS; Game console; ...
+* Mechanics Ideas: Sims-like game; Interactive fiction game; The winner makes the most friends; Try to spread rumors about the other players; Try to help as many people as possible; Tetris-like game; ...
+* Story Ideas: High-school drama; College-themed; You play cupid; You're a TV star; Hospital theme; Music theme--you're a rock star, you're a dancer; ...
 * Aesthetic Ideas: Cel shaded; Anime style; All characters are animals; R&B music defines the game; Edgy rock/punk music defines the feel
 
 
