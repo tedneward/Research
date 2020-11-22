@@ -2,7 +2,7 @@ title=Product Roadmaps
 tags=reading, management, books
 summary=Developing product roadmaps.
 ~~~~~~
-(by Lombardo, McCarthy, Ryan, Connors)
+*(by Lombardo, McCarthy, Ryan, Connors)*
 
 ### Chapter 1: Relaunching Roadmaps
 Roadmap is a strategic communication tool, a statement of intent and direction; describes how you intend to achieve your product vision. It focuses on the value you propose to deliver for your customer and your organization in order to rally support and coordinate effort among stakeholders.
@@ -14,32 +14,32 @@ Stakeholder: all the internal and external colleagues and partners who are invol
 Customer: the recipient of the value your product provides. Buyer and user are often the same, but not always.
 
 Product roadmap should:
-  * Put the organization's plans in a strategic context
-		* Problem: Nobody understands why things are on the roadmap
-		* Solution: Tie the roadmap to a compelling vision of the future
-	* Focus on delivering value to customers and the organization
-		* Problem: You are shipping a lot but not making progress
-		* Solution: Focus the roadmap on delivering value
-	* Embrace learning as part of a successful product development process
-		* Problem: Executives and customers demand commitments
-		* Solution: Commit to outcomes rather than output
-	* Rally the organization around a single set of priorities
-		* Problem: Marketing and sales are not selling what you are making
-		* Solution: Align everyone around common goals and priorities
-	* Get customers excited about the product's direction
-		* Problem: Customers aren't excited about your new features
-		* Solution: Use the roadmap to reality-check your direction with customers
+* Put the organization's plans in a strategic context
+    * Problem: Nobody understands why things are on the roadmap
+    * Solution: Tie the roadmap to a compelling vision of the future
+* Focus on delivering value to customers and the organization
+    * Problem: You are shipping a lot but not making progress
+    * Solution: Focus the roadmap on delivering value
+* Embrace learning as part of a successful product development process
+    * Problem: Executives and customers demand commitments
+    * Solution: Commit to outcomes rather than output
+* Rally the organization around a single set of priorities
+    * Problem: Marketing and sales are not selling what you are making
+    * Solution: Align everyone around common goals and priorities
+* Get customers excited about the product's direction
+    * Problem: Customers aren't excited about your new features
+    * Solution: Use the roadmap to reality-check your direction with customers
 
 Product roadmap should NOT:
-	* Make promises a team cannot deliver
-		* Problem: Your stakeholders and customers expect a firm commitment on dates for your product releases
-		* Solution: Prioritization is critical to deliver on your commitments
-	* Require wasteful up-front design and estimation
-		* Problem: Time spent estimating design and development efforts takes time away from actually implementing them
-		* Solution: Let the teams determine the solutions, and allow them to solve the problem
-	* Should not be confused with a release plan or a project plan
-		* Problem: Your team looks at the roadmap as if it were a project plan when features will be released
-		* Solution: Commit to outcomes rather than output
+* Make promises a team cannot deliver
+    * Problem: Your stakeholders and customers expect a firm commitment on dates for your product releases
+    * Solution: Prioritization is critical to deliver on your commitments
+* Require wasteful up-front design and estimation
+    * Problem: Time spent estimating design and development efforts takes time away from actually implementing them
+    * Solution: Let the teams determine the solutions, and allow them to solve the problem
+* Should not be confused with a release plan or a project plan
+    * Problem: Your team looks at the roadmap as if it were a project plan when features will be released
+    * Solution: Commit to outcomes rather than output
 
 ### Chapter 2: Components of a Roadmap
 Primary components:
@@ -118,8 +118,8 @@ Expected Outcome (Objective)
 	* Opportunity
 		* Solution (Features)
 		* Solution
-			§ Experiment
-			§ Experiment
+			* Experiment
+			* Experiment
 
 Job stories (similar to user stories):
 When (situation/motivation)
@@ -217,6 +217,4 @@ Co-creation workshop. Needs to have clear plan and outcomes before you hold it. 
 
 ### Chapter 11: Relaunching Roadmaps in Your Organization
 (Steps for re-launching roadmaps into an organization that has gotten away from them)
-
-
 

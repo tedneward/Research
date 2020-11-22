@@ -2,7 +2,6 @@ title=The 1-Week Marketing Plan
 tags=reading, books, marketing
 summary=How to build a marketing plan in one week.
 ~~~~~~
-
 (Intended as intro content only; not a heavy read.)
 
 ## Part 1: Basic Plan
