@@ -2,26 +2,6 @@ title=Fuzzing (as part of testing)
 tags=native, reading
 summary=A collection of reading and links on "fuzzing" during testing.
 ~~~~~~
-See also:
-
-- [Testing](testing.html): [Continuous Integration](testing.html#continuous-integration)
-- [Compilers Correctness](compilers.correctness.html): [Testing](compilers.correctness.html#testing)
-
-# Contents
-
-- [General](#general)
-- [Readings](#readings): [Books](#readings-books), [General](#readings-general), [Practice](#readings-practice)
-- [Software](#software)
-	- [Software: AFL](#software-afl)
-	- [Software: libFuzzer](#software-libfuzzer)
-	- [Software: Benchmarking](#software-benchmarking)
-	- [Software: OS: Linux](#software-os-linux)
-	- [Software: OS: Windows](#software-os-windows)
-	- [Software: Performance](#software-performance)
-- [Talks](#talks): [2020](#talks-2020), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2015](#talks-2015), [2007](#talks-2007)
-
----
-
 # General
 
 - Awesome Fuzzing
