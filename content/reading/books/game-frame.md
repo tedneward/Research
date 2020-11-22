@@ -103,6 +103,8 @@ Hard fun suggests the distinction between fun as pleasure (a roller coaster ride
 
 
 # Level Eight
+A behavioral game is made up of ten building blocks.
+
 **Activity:** The activity in a behavioral game is the real-world endeavor that the game is built upon. Identifying an activity is as simple as finding an area of focus--something we want players to do more, better, or differently. Some good examples of activities include studying, exercising, cooking, painting, brainstorming, relaxing, and so on. Activities are verbs; they are the things we do.
 
 
@@ -241,6 +243,7 @@ Tips & tricks:
 Every game has outcomes that occur en route to victory. The ultimate objective may take weeks, months, or even years to achieve, but along the way, players need to see and feel incremental successes and failures. Outcomes allow this. In terms of design, outcomes are related to short-term goals. If a short-term goal is accomplished or an opportunity missed, an outcome can drive the learning home. In many cases, outcomes take the form of rewards (tangible or intangible), but outcomes can actually be positive or negative. Our players may experience setbacks in their quest; sometimes they'll have to press reset and start over. If all the outcomes in a behavioral game are positive, uncertainty goes down (and takes learning with it).
 
 Tips & tricks:
+
 * Remember that outcomes can be contingent or scheduled. Players can trigger an outcome based on a specific action they take, or a time frame within the game.
 * Outcomes can occur based on ratios (a number of specific actions) and intervals (a unit of time) between outcomes.
 * Remember what you learned from operant conditioning about rewards schedules: if they are variable/unpredictable you'll get a more active response as players try to grok the system.
@@ -259,45 +262,105 @@ Tips & tricks:
 * Is the game personal enough for your players? Do they feel that it's tailored to their own unique personality and desires?
 * Remember, above all, your work as a designer is never done. Keep raising the stakes. When your players reach their objectives, it's time to go back to the drawing board!
 
-
-
-
 # Level Nine: Building Blocks
-Targets:
+The building blocks of behavioral games come in many shapes and sizes. One game’s form of resistance is chance, while another’s is competition. In assembling these profiles I was surprised to find that certain building blocks, namely resistance, feedback, and resources, benefit from more variety of form than all the others combined. Some, such as activity, player profile, skills, and the black box, have been omitted entirely, as they are typically too bespoke to be useful as thought-starters.
 
-Competition:  
+### Targets
+*(In Other Words: Benchmark, Bull’s-eye, Quota)*
 
-Chance:   
+A target is a fixed goal, something specific we can aim for. Targets are typically spatial, as in a bull’s-eye or basketball hoop, but can also be quantifiable, as in a revenue goal or speed record. As a form of the objectives building block, targets can be either short-term or long-term in nature. In general, they tend to be more concrete than other goals. Skill cycles are often structured around short-term goals designed to be achieved within that time frame. We should focus on those targets that can fit into our skill cycles most readily. 
 
-Time Pressure:   
+A lack of targets leads to aimless activity and confusion about degrees of success. When games don’t offer us a clear idea of what precise performance looks like, we play with less purpose.
 
-Scarcity:   
+**Why Targets Work:** Targets seem to activate a primal desire within us—to hunt and pursue something we desire. The presence of anything that stands out is enough to trigger that impulse. Concentration and commitment to an objective are quite beneficial traits for a hunter/gatherer. Until recently, humans had to find (and in some cases subdue) the food we ate. That required a specialized focus that is not unique to us. Many species (including house cats) prowl, stalk, scavenge, and hunt. In the modern world, that pursuit can be focused on more abstract prey. A sales target isn’t a buffalo, but it does put food on the table.
 
-Puzzles:   
+**Instructions for Designing with Targets** Designing a behavioral game with targets is no different from working with any other objective. But with targets, you should be thinking about how that objective is presented. Is it visual? Is it quantifiable? Does it stand out? In fundraising, organizations don’t just mention their sponsorship goal, they put a thermometer on the wall and watch it fill up. People going out to meet someone special don’t wear nondescript clothing, they try to stand out and become a target. Think about the objectives in your game, then try to make them more specific, more in your face, and more taunting. Your players will fixate on them.
 
-Novelty:   
+### Competition
+*(In Other Words: Rivalry, Opponent, Adversary)*
 
-Levels:   
+Competition is a manifestation of the natural rivalry created when people and organizations clash over common desires. Competition is a dynamic that often produces a distinct feeling of motivation and aggression. The vast majority of the sports world is built on it. Competition also shows up in the workplace, where employees struggle to climb the corporate ladder, often at the expense of their peers. While many emotions are uniformly characterized as positive or negative, competitiveness is unique in that it can be viewed as constructive or destructive depending on the attitude and sportsmanship behind it. A lack of competition can lead to confusion about what it means to win, and a loss of intensity in the activity itself. The presence of competition is often necessary to create and maintain a benchmark of success or quality.
 
-Social Pressure:   
+**Why Competition Works:** Having evolved in an environment that promotes survival of the fittest, we have a unique sensitivity to competition; any chance to prove ourselves as skilled and worthy should be taken. In the early days of our existence, human beings without the will to win didn’t last long. Today, our competitive instinct is like any other natural impulse: given the right trigger, we start it up. Rivalry is such a strong cultural force that it can transcend generations in sports and, unfortunately, war.
 
-Teamwork:   
+**Instructions for Designing with Competition:** Ensure that your competition is structured fairly, and that the rules of engagement are clear and understood by everyone. Lack of clarity in highly competitive environments can lead to unpredictable behavior and a lack of trust in the system. Remember that competition manifests differently in different people. While some players are obvious in their will to win, others may satisfy that desire with more subtle means. Consider what kind of competition makes the most sense for your game and players.
 
-Currency:   
+### Chance
+*(In Other Words: Randomness, Fortune, Luck)*
 
-Renewal:   
+Chance is one of the oldest and most powerful forms of resistance. Since the early days of our species, humans have looked up to the heavens and wondered why things unfold the way they do. Why does fortune favor some and not others? So many of our cultural traditions, from rain dances to lucky numbers, exist as our attempt to influence fate. Chance can be implemented simply by introducing randomness and probability into a system. A lack of chance can lead to predictability and boredom. The mere possibility of a random occurrence raises our alertness. Once we know that chance isn’t playing a role, we settle into the routine that best serves our purposes.
 
-Forced Decisions:   
+**Why Chance Works:** Our learning circuitry doesn’t discriminate between experiences, so we view systems governed by randomness with the same scrutiny we apply to any novelty. After the surprise of winning money on a spin at the roulette table, our brain’s pleasure centers light up, desperately seeking to explain why that happened, and how we can make it happen again. So, we lay out more money. We obsess over the game. We study it for patterns. We see ten black numbers in a row and think it’s got to be red this time. Blaise Pascal and Pierre de Fermat started corresponding about the theory of probability in 1654. Over 350 years have passed, and you can still find people crowded around games of chance trying to figure out “a system.” Although everyone is somewhat captivated by chance, there is variance in what kind of risks we’re willing to take. Recent studies with rats suggest that deficiencies in neurotransmitters like serotonin and dopamine can lead humans to be more susceptible to gambling addiction.
 
-Data:   
+**Instructions for Designing with Chance:** When designing a behavioral game that needs moments of excitement, consider using chance as a spice, peppered across the experience to keep things interesting. While on a diet, you might pack five brown bag lunches for the week and drop a candy bar in two of them. Consider that chance can also randomize repetitive experiences. Instead of the same staff meeting topics every week, you could have a bowl filled with the options that you draw from at random. In general, it’s a good idea to pair chance with mechanics that focus on the development of skills, since chance never will.
 
-Progress:   
+### Time Pressure
+*(In Other Words: Urgency, Countdown, Timer)*
 
-Points:   
+Time is fundamental to the human experience—it is the unit by which we measure the constant change of the world around us. But time is also elastic. We’re not always aware of it, and in fact, as we have seen, certain activities can make it seem longer or shorter. Clocks, too, if we use them correctly, can make activities seem longer or shorter, and more or less intense. Time can easily be used as a resource or a form of feedback within a game, but it most often represents a form of resistance. It can be used to determine when the game takes place, and how long it (or a part of it) will last. This in turn has a huge impact on how we approach activities within the game. With limitless time to play, we lean back and explore. With time running out, we jump in and take brash action. Some games allow time to pass even as players are away, creating a sense of urgency to return to the system and tend to one’s affairs. A lack of time pressure in a game creates a casual pace, and asks players to regulate their own momentum. This can result in rich relaxed play, or a sense of aimlessness.
 
-Sensation:   
+**Why Time Pressure Works:** As any good procrastinator will tell you, time pressure is the easiest way to create urgency. There is some evidence to suggest that the same neurotransmitters that regulate seeking behavior also regulate our sense of time. Time flies when you’re having fun, and fun is flow. When we focus intently, our perception of time can slow or speed up depending on the situation. When the system we’re playing limits time, it’s possible that we shift into focus mode more readily because of this association between time and seeking. While the science may not be clear-cut, we know that having more or less time affects behavior and perception, immediately and broadly.
 
-Recognition:   
+**Instructions for Designing with Time Pressure:** Use time pressure whenever you need to create a sense of urgency or, in cases where time is already limited and you plan to open it up, a sense of exploration. Think about how to display time—as a clock, a countdown, a rating of average time (as in the case of Target), or another method altogether. Consider what you are asking players to do within their allotted time, and how that expectation maps to reality. With longer time frames, such as the eight-hour workday, consider how to break the time up and create multiple waves of engagement around specific activities.
 
-Status:   
+### Scarcity
+*(In Other Words: Limited, Collectible, Rare)*
 
+Scarcity is a lack of supply, a familiar concept to anyone who has studied modern economics. When the supply of a desired resource is low, demand goes up. The same is true in behavioral games. Anything quantifiable that players have to manage within a game could be made scarce. In some cases that could mean weapons and ammunition; in others, it might mean water or food supplies. Features and functionality of equipment and software count too. Some resources can be initially unavailable and be unlocked or obtained through exploration and experience. Scarcity in a game demands that players make careful choices about which resources they’ll use, retain, pursue, collect, or ignore.
+
+A lack of scarcity can lead to an experience that is too easy. A sailboat equipped with plentiful features like automatic navigation and sails is not going to demand your full attention. In terms of flow, this virtually ensures boredom.
+
+**Why Scarcity Works:** Scarcity is often associated with things of real value—food, shelter, mates, and other natural resources that are not available abundantly. As a result, when anything is scarce, our first instinct is to assume it has some kind of value. That’s why we often see irrational behavior in the midst of scarcity. We also attempt to reduce scarcity by collecting. As hunter gatherers, we innately understand the value of building up a collection. Collecting and managing resources has many survival benefits, and we’re naturals at both. Additionally, by forcing us to make choices about limited resources, behavioral games make those decisions meaningful.
+
+**Instructions for Designing with Scarcity:** Scarcity is good for adding an element of competition in a multiplayer system, or adding an element of strategy and control in a single player system. Think about what your players need to accomplish their goals. Think about how you can take away resources and make them available through gameplay. Consider that scarcity is an invitation to explore, assuming that additional resources are out there. Remember that something as simple taking turns is a kind of scarcity. Each player has one chance to act in each round of play and must make the most of it. Anything that is necessary or helpful that can be limited can be made scarce. Now you must decide if and how players will get access to those resources. In many games, additional resources are offered at the end of a level or round of play, turning scarce items into rewards.
+
+### Puzzles
+*(In Other Words: Mysteries, Patterns, Hints)*
+
+Puzzles are problems that promise the existence of a solution. In some ways, they satiate our desire to repeat the kind of perplexing experiences we encounter in real life. From birth, we are puzzled by countless interactions. How do I walk? How do I open the door? And one of the grandest puzzles of all: what is everyone saying and how do I communicate with them? The problem-solving skills that come from all this bewilderment serve us for the rest of our lives. Of course, puzzles come in too many forms to name—patterns, mazes, word games, plot twists—their common element being the existence of a solution, realization, prediction, or understanding. Because puzzles promise a solution while real world challenges offer us no such favor, we relish the chance to attack them.
+
+A lack of puzzles reduces the chance for structured discovery, which can negatively impact volition. Why continue when no new realizations await? Also, the absence of puzzles can reduce engagement. It’s too easy to get distracted when there’s nothing to solve for. In the broadest sense then, a puzzle-free system or experience is a kind of shallow entertainment, and not really a game at all.
+
+**Why Puzzles Work:** Puzzles are driven by the same cognitive processes we’ve already examined. The exhilaration of grokking a difficult puzzle, cracking a code, or finding an Easter egg lights up the reward circuitry in our brains. The fact that puzzles and other similarly designed experiences have a guaranteed solution drives even deeper engagement, since we needn’t worry about the futility of the activity. There is an answer; we need only to find it.
+
+**Instructions for Designing with Puzzles:** Most of the activities and skills that make up behavioral games have puzzles built right in. Learning to make a dress, for example, is a kind of puzzle. How you cut a pattern, and connect the pieces of that garment takes some figuring out. When designing a behavioral game, you can begin by improving the existing puzzles inherent in the activity. How can you make them clearer, more engaging, and more fun? Beyond that, you can use puzzles as a way to unlock new and different experiences within your game. Limited information can be a kind of puzzle. When players don’t have all the information they need to make a decision or take action, they have to fill in the pieces. Puzzles are a test bed for creating the flow dynamic between challenge and skills. Attempting to solve a puzzle for which you do not have the skills or tools can lead to rapid demotivation. Always pair a challenge with your players’ abilities to create the perfect amount of tension.
+
+### Novelty
+*(In Other Words: Surprises, Changes, Curiosities)*
+
+Novelty, the presence of anything new, is something our brains crave. As a form of resistance, novelty can have positive or negative effects, depending on the attitude of the players and the nature of what is being introduced. In general, people like to stick to a routine. We get stuck in our ways (and worldview) because we are “cognitive misers” and expending extra energy making sense of needless change is disadvantageous. But that dynamic can be turned on its head when change is something we have to process to achieve our goals. Then, the novelty is fascinating. Our bodies respond well to change too—interval training has shown that we respond more positively to different patterns of exercise than repetitive workouts. Novelty comes in many forms, including changes of scenery, patterns, processes, activities, and resources.
+
+A lack of novelty leads to boredom. Change presents a new set of challenges and patterns, which in turn leads to flow and a sense of purpose. We’re not always prepared for it, but we achieve an optimal state of mind when dealing with it.
+
+**Why Novelty Works:** We’re surprised and perplexed when something doesn’t match with our current worldview or our understanding of a system. That feeling represents an opportunity to learn something new and potentially beneficial about our environment. Therefore, our brains prioritize and reward novelty when we encounter it. It makes perfect sense, then, that routine change deployed within a system creates habitual behavior. Recent analysis of our addiction to email and web surfing has shown that these systems offer us a constant stream of new information and content, something our brains mistake as continually important (it may or may not be). These digital nuggets are triggering our seeking instinct. 
+
+**Instructions for Designing with Novelty:** To use novelty within a behavioral game, think about the day-to-day experience you're developing. What about it is stale? What about it is static but needn't be? Use novelty sparingly to challenge the assumptions of your players, give them new options, tools, and resources, and keep the experience fresh. Remember that today's digital culture has acclimated us to a pace of change that is hard to satisfy. To create a truly engaging experience, you'll be fighting for attention with all of the content the Internet has to offer. Consider letting your players dictate the pace of change by interacting with the system. Can you allow them to indicate when they want more novelty? Finally remember that amidst too much change, players may become uncomfortable and search for something to ground themselves. Experiment with the right amount of change for your players.
+
+### Levels
+*(In Other Words: Stages, Areas, Domains)*
+
+
+
+### Social Pressure
+
+### Teamwork
+
+### Currency
+
+### Renewal
+
+### Forced Decisions
+
+### Data
+
+### Progress
+
+### Points
+
+### Sensation
+
+### Recognition
+
+### Status
+
+# Level Ten
