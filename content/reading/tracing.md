@@ -1,37 +1,22 @@
-title=Debugging tracing reading
+title=Tracing (in software) reading
 tags=native, linux, windows, reading
 summary=A collection of links and resources on tracing through programs in assistance of debugging.
 ~~~~~~
-
-See also: [Debugging](debugging.html)
-
-# Contents
-
-- [Readings](#readings): [Hardware Assistance / Processor Tracing](#hardware-assistance--processor-tracing)
-- [Software](#software):
-	- [Linux](#software-linux)
-	- [Windows](#software-windows)
-- [Talks](#talks): [2017](#2017), [2016](#2016), [2014](#2014)
-
----
-
 # Readings
 
-- Debug your programs like they're closed source! (strace, ltrace)
-	- https://jvns.ca/blog/2014/04/20/debug-your-programs-like-theyre-closed-source/
-- Hidden in Plain Sight
-	- ACM Queue 4(1) (2006); Bryan Cantrill
-	- https://queue.acm.org/detail.cfm?id=1117401
-- Multi-scale navigation of large trace data: A survey
+[Debug your programs like they're closed source! (strace, ltrace)](https://jvns.ca/blog/2014/04/20/debug-your-programs-like-theyre-closed-source/)
+
+[Hidden in Plain Sight](https://queue.acm.org/detail.cfm?id=1117401): ACM Queue 4(1) (2006); Bryan Cantrill
+ 
+[Multi-scale navigation of large trace data: A survey](https://publications.polymtl.ca/2980/)
 	- Concurrency and Computation: Practice and Experience, 29(10) 2017
 	- Ezzati-Jivan, N. & Dagenais, M. R
-	- https://publications.polymtl.ca/2980/
-- Survey and Analysis of Kernel and Userspace Tracers on Linux: Design, Implementation, and Overhead
+
+[Survey and Analysis of Kernel and Userspace Tracers on Linux: Design, Implementation, and Overhead](https://dl.acm.org/citation.cfm?id=3158644)
 	- ACM Computing Surveys (CSUR) Volume 51 Issue 2, March 2018
 	- Mohamad Gebai, Michel R. Dagenais
-	- https://dl.acm.org/citation.cfm?id=3158644
-- SynchroTrace
-	- https://github.com/VANDAL/SynchroTrace-gem5
+
+[SynchroTrace](https://github.com/VANDAL/SynchroTrace-gem5):
 	- http://vlsi.ece.drexel.edu/index.php?title=SynchroTrace
 	- https://sites.tufts.edu/tcal/current-research-projects/synchrotrace/
 	- Synchronization-Aware Architecture-Agnostic Traces for Lightweight Multicore Simulation of CMP and HPC Workloads
@@ -42,10 +27,6 @@ See also: [Debugging](debugging.html)
 		- http://dpac.ece.drexel.edu/wp-content/uploads/2013/04/SynchroTrace.pdf
 
 ## Hardware Assistance / Processor Tracing
-
-sampling-based processor tracing: Intel LBR (Last Branch Record), Itanium BTB (Branch Trace Buffer), PowerPC BHRB (Branch History Rolling Buffer)
-
-non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bts-branch-trace-store), [Intel PT (Processor Trace)](#intel-pt-processor-trace), ARM CoreSight
 
 - Hardware-assisted instruction profiling and latency detection
 	- The Journal of Engineering, Volume 2016, Issue 10
@@ -73,13 +54,11 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- Sharma, S. D., Bastien, G., Nemati, H. & Dagenais, M.
 	- https://publications.polymtl.ca/2975/1/2016_Sharma_Low_overhead_hardware-assisted_virtual_machive.pdf
 
-### Intel BTS (Branch Trace Store)
+sampling-based processor tracing: Intel LBR (Last Branch Record), Itanium BTB (Branch Trace Buffer), PowerPC BHRB (Branch History Rolling Buffer)
 
+non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (Processor Trace), ARM CoreSight
 - libbts.c: minimal BTS tracing wrapper for Linux Perf
 	- https://gist.github.com/pkhuong/1ce34e33c6df4b9be3bc9beb22415a47
-
-### Intel PT (Processor Trace)
-
 - Andi Kleen's Intel Processor Trace resources
 	- http://halobates.de/blog/p/406
 	- http://web.archive.org/http://halobates.de/blog/p/406

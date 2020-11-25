@@ -1,9 +1,7 @@
-title=Computer Architecture: FPGA
-tags=assembly, native, reading
-summary=A collection of reading materials on computer FPGA hardware and architecture.
+title=FPGA hardware architecture
+tags=assembly, native, reading, hardware
+summary=A collection of reading materials on computer FPGA hardware and architecture: articles, courses, communities, HDL (Hardware Description Language), Open Source Hardware FPGA Projects, software, talks & videos.
 ~~~~~~
-See also: [computer architecture](comparch.html)
-
 # Articles
 
 * A 16-nm Multiprocessing System-on-Chip Field-Programmable Gate Array Platform (2016) - http://doi.org/10.1109/MM.2016.18
@@ -22,9 +20,13 @@ See also: [computer architecture](comparch.html)
   - Steve Leibson, Chapter of "Fabless: the Transformation of the Semiconductor Industry"
   - https://forums.xilinx.com/xlnx/attachments/xlnx/Xcell/200/1/Fabless%20Book%20Chapter%20FINAL.pdf
 
+---
+
 # Courses
 
 * 18-643 Reconfigurable Logic: Technology, Architecture and Applications - http://users.ece.cmu.edu/~jhoe/doku/doku.php?id=18-643_reconfigurable_logic
+
+---
 
 # Communities
 
@@ -33,6 +35,8 @@ See also: [computer architecture](comparch.html)
 * comp.lang.vhdl - https://groups.google.com/d/forum/comp.lang.vhdl
 * /r/FPGA - everything about programmable hardware - https://www.reddit.com/r/FPGA
 * IRC ​Channel #​#fpga - freenode - http://irc.netsplit.de/channels/details.php?room=%23%23fpga&net=freenode
+
+---
 
 # HDL
 
@@ -62,15 +66,14 @@ See also: [computer architecture](comparch.html)
 * SystemVerilog Central - http://www.asic-world.com/systemverilog/
 * SystemVerilog Training and Examples from Doulos - The Guide to SystemVerilog - https://www.doulos.com/knowhow/sysverilog/
 
+---
+
 # Open Source Hardware FPGA Projects
 
 * FOSSi: The Free and Open Source Silicon Foundation - http://fossi-foundation.org/
 * FuseSoC (package manager and a set of build tools for HDL code for FPGA/ASIC development) - https://github.com/olofk/fusesoc
 * LibreCores: Free and Open Source Digital Hardware - https://www.librecores.org/
 * OpenCores: Open Source Hardware Community - http://opencores.org/
-
----
-
 * PicoRV32 - A Size-Optimized RISC-V CPU
   - https://github.com/cliffordwolf/picorv32  
   - https://github.com/cliffordwolf/picorv32/tree/master/scripts/icestorm
@@ -92,15 +95,17 @@ See also: [computer architecture](comparch.html)
   - http://labs.domipheus.com/blog/tpu-series-quick-links/
   - Github repository with VHDL sources, ISE project, assembler and ISA: https://github.com/Domipheus/TPU
 
+---
+
 # Software
 
-* gEDA suite - http://geda-project.org/ - http://wiki.gedaproject.org/geda:faq
-  - The gEDA project has produced and continues working on a full GPL'd suite and toolkit of Electronic Design Automation tools. These tools are used for electrical circuit design, schematic capture, simulation, prototyping, and production. Currently, the gEDA project offers a mature suite of free software applications for electronics design, including schematic capture, attribute management, bill of materials (BOM) generation, netlisting into over 20 netlist formats, analog and digital simulation, and printed circuit board (PCB) layout.
-* Project IceStorm - http://www.clifford.at/icestorm/  
-  - Project IceStorm aims at reverse engineering and documenting the bitstream format of Lattice iCE40 FPGAs and providing simple tools for analyzing and creating bitstream files. The IceStorm flow (Yosys, Arachne-pnr, and IceStorm) is a fully open source Verilog-to-Bitstream flow for iCE40 FPGAs. 
-* SymbiFlow - https://symbiflow.github.io/
+* [gEDA suite](http://geda-project.org/) ([FAQ](http://wiki.gedaproject.org/geda:faq)): The gEDA project has produced and continues working on a full GPL'd suite and toolkit of Electronic Design Automation tools. These tools are used for electrical circuit design, schematic capture, simulation, prototyping, and production. Currently, the gEDA project offers a mature suite of free software applications for electronics design, including schematic capture, attribute management, bill of materials (BOM) generation, netlisting into over 20 netlist formats, analog and digital simulation, and printed circuit board (PCB) layout.
+* [Project IceStorm](http://www.clifford.at/icestorm/): Project IceStorm aims at reverse engineering and documenting the bitstream format of Lattice iCE40 FPGAs and providing simple tools for analyzing and creating bitstream files. The IceStorm flow (Yosys, Arachne-pnr, and IceStorm) is a fully open source Verilog-to-Bitstream flow for iCE40 FPGAs. 
+* [SymbiFlow](https://symbiflow.github.io/):
   - FOSS Verilog-to-Bitstream FGPA synthesis flow for Xilinx 7-Series FPGAs and iCE40
   - Project X-Ray: Documenting the Xilinx 7-series bit-stream format - https://github.com/SymbiFlow/prjxray
+
+---
 
 # Talks & Videos
 

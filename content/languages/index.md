@@ -77,6 +77,7 @@ Some general language-wonk sorts of sites:
 
 * Awesome Open Source: [Language Projects](https://awesomeopensource.com/projects/language) | [Scripting Language Projects](https://awesomeopensource.com/projects/scripting-language) | [Virtual Machine Projects](https://awesomeopensource.com/projects/virtual-machine)
 
+
 ## Language categories
 Wikipedia defines a really large ontological breakdown of languages; I prefer a slightly smaller one:
 
@@ -108,3 +109,67 @@ Some [slides](https://tminka.github.io/papers/mlss2009/WinnMinka-ProbabilisticPr
 
 ["Bits of History, Words of Advice"](http://gbracha.blogspot.com/2020/05/bits-of-history-words-of-advice.html): The creator of [Newspeak](../newspeak) and one of the core developers working on [Java](java) and the [JVM](../../platforms/jvm) offers some advice about Smalltalk's lack of success in the mainstream.
 
+# Implementation Reading
+* Crash Course on Notation in Programming Language Theory
+	- Jeremy G. Siek
+	- LambdaConf 2018
+	- Part 1: https://www.youtube.com/watch?v=vU3caZPtT2I
+	- Part 2: https://www.youtube.com/watch?v=MhuK_aepu1Y
+	- Slides: https://www.dropbox.com/s/joaq7m9v75blrw5/pl-notation-lambdaconf-2018.pdf?dl=1
+	- 2012 blog post: http://siek.blogspot.com/2012/07/crash-course-on-notation-in-programming.html
+* [Type Safety in Three Easy Lemmas](https://siek.blogspot.com/2013/05/type-safety-in-three-easy-lemmas.html)
+* [On the Relationship Between Static Analysis and Type Theory](https://semantic-domain.blogspot.com/2019/08/on-relationship-between-static-analysis.html)
+* [Soundness and completeness: with precision](https://bertrandmeyer.com/2019/04/21/soundness-completeness-precision/)
+* [What is soundness (in static analysis)?](http://www.pl-enthusiast.net/2017/10/23/what-is-soundness-in-static-analysis/)
+* Brown CS: CSCI 1730: Programming Languages
+	- http://cs.brown.edu/courses/csci1730/2012/
+	- http://cs.brown.edu/courses/cs173/2012/Videos/
+* OPLSS (Oregon Programming Languages Summer School)
+	- https://cs.uoregon.edu/research/summerschool/
+	- 2019-2017, 2003: https://www.youtube.com/channel/UCDe6N9R7U-RYWA57wzJQ2SQ/playlists
+	- 2016-2015: https://www.youtube.com/channel/UCsON_8vogp4nCQFTnfu43kA/playlists
+	- free video lectures available, including the introductory ones based on Practical Foundations for Programming Languages: http://www.cs.cmu.edu/~rwh/pfpl/
+* Programming Language Implementation Summer School (PLISS)
+	- https://pliss2019.github.io/talks.html
+	- https://www.youtube.com/channel/UCofC5zis7rPvXxWQRDnrTqA/playlists 
+* [SSA book](http://ssabook.gforge.inria.fr/latest/)
+* Intermediate Representations in Imperative Compilers: A Survey
+	- ACM Computing Surveys, Vol. 45, No. 3, Article 26, 2013
+	- James Stanier, Des Watson
+	- http://dx.doi.org/10.1145/2480741.2480743
+	- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.885.5223&rep=rep1&type=pdf
+* Modern Intermediate Representations (IR)
+	- Introduction to LLVM - David Chisnall (Cambridge University)
+	- [HPC Summer School 2017](https://llvm.org/devmtg/2017-06/)
+	- https://llvm.org/devmtg/2017-06/1-Davis-Chisnall-LLVM-2017.pdf
+* Testing Intermediate Representations for Binary Analysis
+	- https://softsec.kaist.ac.kr/~soomink/paper/ase17main-mainp491-p.pdf
+	- https://github.com/SoftSec-KAIST/MeanDiff
+	- https://softsec-kaist.github.io/MeanDiff/
+* [CS 7194 - Great works in Programming Languages](https://www.cs.cornell.edu/courses/cs7194/2019sp/)
+* Type Systems - Neel Krishnaswami
+	- https://www.cl.cam.ac.uk/teaching/1819/Types/materials.html
+	- https://www.cl.cam.ac.uk/teaching/1819/Types/handout.pdf
+* http://jschuster.org/blog/2016/11/29/getting-started-in-programming-languages/
+* [Programming Languages: Application and Interpretation](http://cs.brown.edu/~sk/Publications/Books/ProgLangs/) by Shriram Krishnamurthi
+* [SIGPLAN Awards](http://www.sigplan.org/Awards/)
+* [Great Works in Programming Languages](https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml) Collected by Benjamin C. Pierce
+* [10PL: 10 papers that all PhD students in programming languages ought to know, for some value of 10](https://github.com/nuprl/10PL) from Northeastern University Programming Research Lab 
+* [Best of PLDI 2004](https://dblp.uni-trier.de/db/conf/pldi/pldi2004best.html)
+* [Classic Papers in Programming Languages and Logic](https://www.cs.cmu.edu/~crary/819-f09/) by Karl Crary
+* What Type Soundness Theorem Do You Really Want to Prove?
+	- https://blog.sigplan.org/2019/10/17/what-type-soundness-theorem-do-you-really-want-to-prove/
+	- Milner Award Lecture: The Type Soundness Theorem That You Really Want to Prove (and now you can)
+		- POPL 2018; Derek Dreyer
+		- https://www.youtube.com/watch?v=8Xyk_dGcAwk
+* Type Theory Behind Glasgow Haskell Compiler Internals
+	- LambdaConf 2018; Vitaly Bragilevsky
+	- https://www.youtube.com/playlist?list=PLvPsfYrGz3wspkm6LVEjndvQqK6SkcXaT
+	- https://github.com/bravit/tt-ghc-exercises/
+	- https://github.com/lambdaconf/lambdaconf-2018/tree/master/LC18-slides
+* Principles of Programming Languages
+	- Lectures - Matthias Felleisen
+	- https://felleisen.org/matthias/4400-s20/lectures.html
+*  [learn-programming-languages](https://github.com/jeanqasaur/learn-programming-languages)
+	- Resources for the working programmer to learn more about the fundamentals and theory of programming languages.
+	- Jean Yang
