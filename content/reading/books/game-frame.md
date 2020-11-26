@@ -339,28 +339,102 @@ A lack of novelty leads to boredom. Change presents a new set of challenges and 
 ### Levels
 *(In Other Words: Stages, Areas, Domains)*
 
+levels are hierarchical and bounded domains in which we play. They also signify ability and access, because they are graduated and require qualification to move among them. As individuals level up in a system, they get to enjoy a new set of challenges, abilities, and areas to explore. A twelfth grader has access to twelfth grade classes, activities, and privileges, while younger students do not. From a behavioral games perspective, we view levels as discrete challenges designed to move someone from a low degree of skill to a high one. Levels make an experience manageable, and isolate growth opportunities so that players can tackle challenges one at a time. If a new graduate was immediately given the full responsibilities of the CEO, she would surely experience anxiety and a sense of diminished faculty (a phenomenon we do se at some startups). By dividing the acquisition of those skills into several levels, the system of a business becomes more manageable.
 
+A lack of levels can make acquiring skills a chaotic process, and confuse players about the direction they're supposed to be heading. Even a pause in the activity--some division between levels--allows players a chance to assimilate what they've learned.
+
+**Why Levels Work:** Levels work by focusing our attention on a defined area of exploration. Moving beyond or beating a level requires specific knowledge and skills. The promise of a *next* level where any number of novelties await us, along with any rewards we might receive for leveling up, is enough to trigger our desire. The feeling of using skills that we already heave, coupled with the development of new ones, is infectious. Levels also help with issues of *faculty*, by providing a clear roadmap for progress. Don't worry about anything else, *just focus on beating level one.*
+
+**Instructions for Designing with Levels:** To use levels effectively, think about the skills that need to be developed over the course of your behavioral game. What do players need to be able to do at the highest level? Now examine how you might break up the challenges that are part of improving these skills. If you can create tiers of meaningful and clear challenge, and control access to these tiers, you'll have a good level system in place. In golf lessons for example, it's not uncommon to start beginners off with just a seven-iron and a putter. Once comfortable wht these basics, players can level up to add clubs to their bag to take on the additional complexity and challenge of selecting and hitting with different clubs. Keep in mind, though, that some experiences require a broader palette of choices to be fun (painting with *one* color is not very exciting), so make sure that your first level is interesting from the outset.
 
 ### Social Pressure
+*(In Other Words: Peer Pressure, Obligation, Conformity)*
+
+Social pressure is a form of influence exerted by the people around us. Our desire to belong is one of the strongest human emotions, and so we're often acutely aware of what is expected of us. To be a part of the group means members must meet some basic criteria and accepted norms. These criteria may evolve or change based on the needs of the group or the world at large. Manifestations of these norms vary widely. We also pay strict attention to the movements and patterns of the herd. What the majority of us do *must* be right. This idea is often referred to as "social proof". For example, it's totally normal to assume that a fully booked restaurant must be delicious.
+
+A lack of social pressure leads to a lack of obligation or belonging. However, the world is full of people, and any hint of social scrutiny will alter behavior, whether it's a function of a game or not.
+
+**Why Social Pressure Works:** Our survival is more likely if we operate in the company of others who are working to ensure our health and safety. Our brain has evolved to help us interact with and understand other people. You need only to ask a seventh grader why "fitting in" is important to understand how basic this drive is. Playing in the company of others triggers a type of self-awareness that has developed over thousands of years filled with social dynamics. In general, we're very concerned about what other people are doing, and how they're perceiving us. THis is known as the Hawthorne effect, a theory that people adjust their behavior to conform to the expectations or norms of the people around them. For example, a recent GameSpy report showed that the more friends someone has in a game, the less likely they are to cheat.
+
+**Instructions for Designing with Social Pressure:** You can use social pressure to promote certain behavior norms, encourage achievement, or create aspirational energy within a system Think about the various ways you can bring social pressure to life--from group feedback to public activity. Anything that makes players feel like they are part of something or desire to be part of something is useful. Make sure that there is a clear group identity--some invisible threshold that keeps it together.
 
 ### Teamwork
+*(In Other Words: Collaboration, Cooperation, Co-Creation)*
+
+Teamwork is the act of more than one player working together toward a common goal. Although typically promoted as a positive and helpful dynamic, teamwork can also act as a form of resistance, because other people represent a force outside our control. The benefits of collaboration are many, but before they can be realized, a team must learn how to work together. This process can be frustrating and challenging (as in a three-legged race) but also produce great results. Friction within teams happens routinely in sports, but also in business and online social platforms. In working together, we are subjective to the input, actions, and desires of other players, which influences our approach to the game. Our input, actions, and desires in turn influence them. Collaborative processes are often iterative and unstructured, allowing recombinant thinking and incongruent feedback to guide us to new heights. Recently, collaborative problem solving has been enabled online such that hundreds or thousands of participants can work together--giving rise to the notions of crowd intelligence.
+
+A lack of collaboration and teamwork can lead to isolation, and a slower learning curve over the long term. Without the help of co-conspirators to guide our growth, we have to rely on the system alone to mold our thoughts and actions.
+
+**Why Teamwork Works:** When we share common goals, we share success. But when we have to count on the performance of others, this creates tension. Before we can benefit from having a team, we have to build trust and fluid communication. Having a chance to explain our approach (and hear theirs), increases our sense of faculty. Once committed to a plan, knowing that other people are counting on us creates a strong sense of urgency and accountability.
+
+**Instructions for Designing with Teamwork:** Using teamwork in a behavioral game requires that you have multiple players trying to accomplish the same objective, and that working together is required to succeed. Remember, teamwork is not just support, it's conflict. Consider how you can force players to confront their communication gap and find new ways to achieve their individual and collective objectives.
 
 ### Currency
+*(In Other Words: Economy, Marketplace, Exchange)*
+
+
 
 ### Renewal
+*(In Other Words: Regeneration, Iteration, Boost)*
 
 ### Forced Decisions
+*(In Other Words: Choice, Preference, Judgment)*
 
 ### Data
+*(In Other Words: Information, Results, Indicators)*
 
 ### Progress
+*(In Other Words: Steps, Meters, Percentages)*
 
 ### Points
+*(In Other Words: Scores, Ratings, Grades)*
 
 ### Sensation
+*(In Other Words: Stimulation, Motion, Touch)*
 
 ### Recognition
+*(In Other Words: Achievements, Badges, Awards)*
+
+Recognition is an acknowledgemnt that conveys our approval. Whether it be a blue ribbon, a badge, a plaque on the wall, or a pink Mary Kay Cadillac, public recognition is a powerful thing. While recognition can certainly come from the system iteself, it is the sharing of that achievement that gives it significance. We need to share our victories and be recognized by our peers. That's why gamers are constantly showing off their recent successes. In response, games have evolved to include instant replays and visible signs of past accomplishments. Xbox achievements grew into a social phenomenon on the back of this dynamic as well.
+
+A lack of recognition can result in reduced motivation and a sense of isolation. As a social and tribal organism, we must translate our accomplishments back to the group and determine what they might mean for our status within it.
+
+**Why Recognition Works:** When other people in our social circle pay attention to us, our brains release dopamine and endorphins, signaling a reward. In nature, having the admiration and attention of others is a sure sign that we've done something significant and raised our standing with the tribe. An achievement alone is significant, but when coupled with some kind of token or symbol, and given in a public way, that achievement provides a deep satisfaction of our innate desire for status.
+
+**Instructions for Designing with Recognition:** Although the token of recognition may be a badge or trophy, the public display or presentation of that award is extremely important, as we've covered. Think about the kinds of behavior and accomplishments you want to reward--they should be ones that you want to see repeated. Remember, recognition should stimulate further development, not stunt it by communicating a sense of completion. In this way, a Boy Scout merit badge is better than an Eagle Scout certificate. Consider that while players love to be recognized, they also like to offer praise to others. By building in mechanisms for reciprocation, you set everyone up to grow.
 
 ### Status
+*(In Other Words: Rank, Class, Reputation)*
+
+Status is the manifestation of power and respect in a social group. It represents the kind of basic hierarchy that helps us create social order. Nearly everywhere you look, you'll see social status in action. The military calls it rank. Business calls it position or title. Students are defined by grade: eighth graders, ninth graders, and so on. Status comes in so many variations that it can be hard to recognize. But rest assured, whenever there is a hierarchy of experience, power, opportunity, or responsibility, you can be sure status is present. As you'd suspect, status and levels go hand in hand, but are distinct from each other. Levels refer to new challenges and areas within a system. Status refers to facult, power, and reputation within a system, and among other players. Higher-status players get to do more, see more, and have more. In this way status and levels are symbiotic: the status or rank that players have achieved indicates the level they're currently exploring.
+
+A lack of status among players can lead to confusion about roles and authority. It can also inhibit the spread of knowledge, as the players who know how to progress are harder to identify.
+
+**Why Status Works:** Status is part of our wiring as tribal animals. In the wild it's important to know where we stand. Status works because it offers us a kind of shorthand for cataloging the people and experiences around us. Once we know their level of status, we know a lot about what they can do for us, and how we should interact with them.
+
+**Instructions for Designing with Status:** Use status when you're working on an activity in which power is an incentive. What is status is good for in your game? What rights or opportunities does it afford? Consider that upper limits on status make it about protecting the status quo rather than continued development. While a black belt in karate can look forward to becoming a grand master, a head nurse or public school teacher has effectively peaked, and may lose momentum and focus on protecting their turf as a result.
 
 # Level Ten
+(Call to action.)
+
+# Appendix: Putting it into Practice
+
+## Cab Chaos
+A local cab company has decided that it's time to stand out from the competition. One of the most common complaints from customers is that cab drivers are erratic and aggressive, making the ride experience anxious and unpleasant. This driving behavior is due to incentives already in place. The drivers get to start their meters with a minimum fare of a couple of dollars preloaded, making a higher number of passengers more desirable than one long fare. Additionally, passengers want to get to their destination as quickly and safely as possible, a tension drivers resolve by focusing on speed.
+
+Design a behavioral game to increase the safety and quality of the ride, without compromising overall fares.
+
+## Use the Force
+A national technology company that sells products and services to other businesses is having trouble with its sales force. The head of sales has decided that two skills are key to success across the entire team: preparation and follow-through. He believes that if his salespeople prepare for sales meetings ahead of time, and follow up regularly afterward, results will improve dramatically.
+
+Design a behavioral game to encourage and improve preparation and follow-through across teh salesforce.
+
+## What's Cooking
+You've decided that it's time to step up your skills as an amateur chef. You fancy yourself a decent cook but want to be more inventive--able to make something delicious with whatever is on hand. However, you often come home tired from a day of work, and so you tend to order in or cook the usual quick recipes.
+
+Design a behavioral game that will help you take your cuisine to the next level and encourage innovation.
+
+## The Short Stay
+A retail bookstore is getting plenty of foot traffic, but visitors are leaving the bookstore after only a few minutes, and often with no purchases. Store managers are convinced that if they can get people to spend more time browsing in the store, they'll see sales improve.
+
+Design a behavioral game that will encourage customers to browse the store more fully.
