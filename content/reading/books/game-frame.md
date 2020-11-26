@@ -372,25 +372,81 @@ A lack of collaboration and teamwork can lead to isolation, and a slower learnin
 ### Currency
 *(In Other Words: Economy, Marketplace, Exchange)*
 
+Currency is a medium of exchange. It's a way of standardizing value so that players can trade goods, services, and rights with each other, or the game itself. The concept of currency is quite familiar to us, since our real-world economy is itself built around it. This economy has taught us that currency is representative of value, but not static; it can become more or less valuable in different circumstances. No matter where we are (real or virtual), the basic economic principles of currency still apply. Anything that can be exchanged for something of value will be collected and attended to.
 
+Without a common currency, conducting any kind of business can be difficult. Absent any clear mechanism for earning, buying, or trading what seem to be important resources in the game, many players will suffer a crisis of faculty, and disassociate entirely.
+
+**Why Currency Works:** Currency works out of necessity. In a culture of specialize trades--where one person raises cattle and another grows grain--a system of exchange becomes a requirement. One person may not need the assets of another, but everyone's assets need a market value for fair trade. A currency simplifies our desire to possess and experience many things; all things can be bought with money.
+
+**Instructions for Designing with Currency:** Currency works best when you have levels or resources that players want to access. To use a currency, determine whether it will be physical or virtual, what the exchange rate will be, and how it will be used. Like any form of reinforcement, currency can be positive or negative (players can buy things they like, or pay to avoid things they don't). Keep in mind that showing the rate of exchange for a unit of currency can sometimes hurt you--when credit cards started blatantly showing the cash value of their loyalty points, those points lost some of their luster. Our rational side can always calculate their true value, but our inner player is happy to toil away without destroying this illusion. What's most important in deploying currency is ensuring that it is used in service of a larger goal or purpos, and not just to create a secondary economy.
 
 ### Renewal
 *(In Other Words: Regeneration, Iteration, Boost)*
 
+Renewal is a process of replenishment. One of the most wondrous and powerful things about games is that you can start over. You can try and fail, and try again. You can die and be reborn. You can risk it all, and still have fun. Games have all kinds of devices for allowing us to regenerate and renew. They have discoverable resources known as "power-ups", which replenish our hit points, life force, mana, or whatever the measure of our vitality might be. Action games sometimes feature auto-regenerative health, where simply surviving for a certain amount of time allows you to grow stronger. And innumerable games offer us some way to earn extra lives or chances to succeed. Games give us room to fail, and even if they limit us with some scarcity (three lives per game for instance), this room allows us to stretch and grow unencumbered.
+
+A lack of renewal can make things too serious--even read. Most situations where we're not allowed mistakes have serious consequences. Unfortunately, if you fail in college, you're out. If you fail at work, you're fired. No do-overs. Which is unfortunate, because do-overs are exactly what we need to develop complex skills.
+
+**Why Renewal Works:** Renewal is a basic principle of life. Healing, sleeping, and seasons are based on the notion that life can rebuild. What's interesting about the idea of renewal in games is that additional lives and chances to play are just about continuing the game experience. This is why they're not really rewards; they're resources that give us permission to continue. And yet, we strive for them. Sadly, in real world environments, you seldom see this kind of behavior. No one is trying to earn an extra work day, likely because they don't want to be there.
+
+**Instructions for Designing with Renewal:** Consider the resources that are required in your system. Think about the ways that players can fail, or hit a dead end. Then create a way for your players to begin again. Remember that renewal does not have to be infinite. Even a second chance can help. Your system is balanced when the renewal encourages players without providing them undue advantage.
+
 ### Forced Decisions
 *(In Other Words: Choice, Preference, Judgment)*
+
+Forced decisions are choices that have to be made to continue an activity. Games do a great job at creating these moments. Unlike so many experiences in life where it's unclear what our options are, games communicate choices and options constantly. Perhaps a path or route must be chosen. Or we have to decide whether to stay and fight, or escape and battle another day. In these cases, we can quickly determine the available options, deliberate, and make our choice. If we don't, the action stops, or worse, we lose. In many board games and social games too, the concept of taking turns is a mechanic for forcing decisions. It's your turn, and it's time to make something happen.
+
+A lack of decisions and choices can leave players feeling powerless. If they can't make choices, the activity may not be a game at all. Books and movies differ strongly from games in this regard: nothing you decide is going to change how the movie ends. A cliffhanger ending, where the story is finished in the imagination of the audience, is a popular excption to this rule.
+
+**Why Forced Decisions Work:** Forced decisions have two benefits that align well with our psychological needs and tendencies. First, having a choice can increase feelings of control and intrinsic motivation, enhancing our sense of self. The person making the decision has power, even if the choice itself is an imposition. Second, studies show that simply offering a choice between two positive altneratives can increase the response rate to one of them. Meaning, if you ask your kids if they want fruit with dinner, the answer will be no more often than if you ask them to choose between apples and orages.
+
+**Instructions for Designing with Forced Decisions:** All games have decisions and choices: the question is when a forced decision will make a better behavioral game. Begin by outlining the major decisions that occur within your skill cycle, and think about how and when those decisions come about. Are key decisions being delayed or avoided? Are there new choices or tradeoffs you could be presenting to your players? Attempt to accelerate your game by forcing choices and note how this effects the dynamics of the experience so you can refine it later.
 
 ### Data
 *(In Other Words: Information, Results, Indicators)*
 
+Data is information in visible form. From raw numeric information to rich visualization, data reveal the hidden math behind our world. In any system, information related to our actions helps us make decisions and adjust our behavior.
+
+A lack of data can lead to confusion about the state of things in a system, and can affect a person's play style. The less data we have, the more anxious we become; our sense of control erodes as we question our ability to succeed.
+
+**Why Data Works:** As we learned in our examination of the brain at play, our natural learning mechanism is very similar to that of the scientific method--we hypothesize, test, and interpret results to augment our theories. This process is how we make sense of the world around us. Without data and information we lack the ability to formulate new hypotheses, take new action, or refine our skills. Each bit of feedback is a novel and important experience to our brains, especially if the actions we're taking are deemed integral to achieving our goals.
+
+**Instructions for Designing with Data:** Data should be employed in any instance where players are taking action and awaiting a system response. In designing a behavioral game, data and visual feedback are great places to start your creative process. Based on the desired behaviors that you're trying to encourage, think about what sorts of feedback would be most helpful or encouraging. What kind of information has never been available before? Now supply that information, in as close to real time as possible. THink about how to display that information in a simple and intuitive way. Remember though, that data can also backfire, as it may cause players to game the system, or reveal too much about how the system works. Consider how your game can share key information but not reveal all its secrets.
+
 ### Progress
 *(In Other Words: Steps, Meters, Percentages)*
+
+Progress is a specialized form of feedback in which a system plots a player's progress along a defined path or process. Anyone who has installed software on a home computer should be quite familiar with progress bars. Progress bars that show percentages for completion are a popular form, but any indication that a player is moving toward a goal counts.
+
+One common complaint among Generation Y workis is that their progress in the workplace is so unclear. After putting in a solid year of long hours, are they 50 percent cloer to promotion? 90 percent? For these natural gamers, not knowing where they stand is the worst kind of limbo.
+
+**Why Progress Works:** Progress is a powerful indication that we're growing and developing. From an evolutionary perspective, it's advantageous to be addicted to progress--we never rest on our laurels. However, in many settings, progress is hard to detect, which often leads to demotivation. By making a goal apparent and showing us that we're moving, progress indicators add gas to our internal fire.
+
+Additionally, showing that we've completed some percentage of a process can lead to loss aversion when people consider leaving that endeavor. "Well, I've already gone this far, why stop now?"
+
+**Instructions for Designing with Progress:** Using a progress indicator makes sense whenever you have a process or series of stages that you want your players to pursue. This is also ideal in situations where you don't want your players to leave mid-process. Be sure that the progress is shown in a highly visual and highly visible manner. Progress can be communicated in terms of percentages, days remaining, or almost any unit of measurement, as long as an end goal is in sight. Consider confronting players with their current progress at regular intervals.
 
 ### Points
 *(In Other Words: Scores, Ratings, Grades)*
 
+Points are a unit of measurement for performance--a specialized kind of data awarded within a game. Points give players a clear indication of what is valued by the system, and the relative importance of individual behaviors. In a point system, as the action unfolds, or at the conclusion of a session of action, points are awarded. Based on this, players will evaluate their performance and the performance of others. Points, at least from a game design perspective, are not exchangeable for anything of value inside or outside the game. In most sporting events, however, points are the sole means of determining the winner. There are points awarded by a system, and points awarded by other players (often referred to as "reputation"). Point totals are often referred to as scores, and can even be elevated to legend (e.g., world record for all-time home runs).
+
+A lack of points can make individual actions seem less valuagle, or disguise the actions that matter most. Points in any form tend to amplify or enable other elements like currency, levels, and competition.
+
+**Why Points Work:** Points have a magical effect on the brain. We see them as a reward, even when they're worthless, because they are a form of validation. Points represent an abstraction of value, and so we often act irrationally when points are in the mix. In one study, researchers found that people attempted to win an undesirable ice cream flavor, simply because it was associated with a higher score than the flavor they preferred. Keep in mind that since raw points don't translate into tangible rewards (although they can easily be turned into a currency), much of the success of a points system comes from the social status that points imply.
+
+**Instructions for Designing with Points:** Points are great in any game that offers a variety of actions. When building a point system, determine what the possible actions are, and then how much each is worth. Think about how quickly you'll be able to award points to players, and whether an automated point system is necessary. Alternatively, consider that points often lead to competition and point-seeking behavior, so deploy them carefully and reevaluate often.
+
 ### Sensation
 *(In Other Words: Stimulation, Motion, Touch)*
+
+Good games make use of all of our senses, and being physical creatures, many of the most satisfying experiences we have involve sensation. Be it the rust of a roller coaster or the feelings of hitting a golf ball, these activities are fun by virtue of the feelings they bring out in us. Physical intensity can trigger the release of endorphins in the brain, which in turn create a pleasurable state of arousal. As a result, a sense of movement, vertigo, or any novel stimulus can quickly engage us. In terms of behavioral game design, we can assume that playing off any of our senses could represent powerful feedback. In some cases, sensation itself can be mimicked. Just seeing something associated with a physical sensation can trigger mirror neurons, suspension of disbelief, and all the feelings that you'd expect from the real thing. That's why simulators are so much fun.
+
+Systems that lack sensation can feel flat and one-dimensional. Players may engage, but they'll never feel the sense of heightened emotion that comes from a richer sensory experience.
+
+**Why Sensation Works:** We like to feel good, and sensations that make us feel that way are highly sought after. From the satisfaction of popping a bubble to the exhilaration of sky diving, our sensory interactions with the world around us arouse our brains--releasing adrenaline and other neurotransmitters--and engage us in the moment.
+
+**Instructions for Designing with Sensation:** Sensation works well when players need to reinvigorated or refocused on the task at hand. To use sensation in a behavioral game, consider the environment and the kind of sensation that would be most surprising, satisfying, or exhilarating. Consider sight, sound, smell, taste, and touch. Remember that people interpret sensation differently, and have different thresholds for comfort, so choose something that will work across the board.
 
 ### Recognition
 *(In Other Words: Achievements, Badges, Awards)*

@@ -2,10 +2,7 @@ title=Program analysis
 tags=reading, language, tool
 summary=A collection of links around program analysis
 ~~~~~~
-
-See also: [Compilers](compilers) | [Compiler correctness](compilers.correctness.html) | Dynamic program analysis [instrumentation](analysis.dynamic.instrumentation) translation, [sanitizers](analysis.dynamic.santizer), [Static program analysis](analysis.static) (static analysis and verification)
-
-## General
+# General
 
 - Program Analysis Reading List - Rolf Rolles - http://www.msreverseengineering.com/program-analysis-reading-list/
 - Reading for graduate students in static analysis - http://matt.might.net/articles/books-papers-materials-for-graduate-students/#analysis
@@ -13,7 +10,7 @@ See also: [Compilers](compilers) | [Compiler correctness](compilers.correctness.
 - Conferences on Software Verification and Analysis - https://github.com/soarlab/conferences
 - Static Analysis Roadmap - https://tpiazza.me/posts/2017-11-01-static-analysis-roadmap.html
 
-### Symbolic Execution
+# Symbolic Execution
 
 - Awesome Symbolic Execution - https://github.com/ksluckow/awesome-symbolic-execution
 - Symbolic execution history timeline: https://github.com/enzet/symbolic-execution
@@ -41,7 +38,7 @@ See also: [Compilers](compilers) | [Compiler correctness](compilers.correctness.
 	- https://unsat.cs.washington.edu/projects/serval/
 	- https://blog.acolyer.org/2019/11/13/scaling-symbolic-evaluation-serval/
 
-## Lectures & Courses
+# Lectures & Courses
 
 - Foundations of Programming Languages
 	- M-PS (WS 2014/2015): Concepts of Programming Languages
@@ -81,7 +78,7 @@ https://drive.google.com/file/d/1j9rfMt14pubi6G9PKK3akddyeet5bf0x/view
 	- Isıl Dillig (University of Texas)
 	- https://www.cis.upenn.edu/~alur/CIS673/isil-plmw.pdf
 
-## Software
+# Software
 
 - SPARTA: a library that provides the basic blocks for building high-performance static code analyzers based on Abstract Interpretation
 	- https://github.com/facebookincubator/SPARTA
@@ -93,7 +90,7 @@ https://drive.google.com/file/d/1j9rfMt14pubi6G9PKK3akddyeet5bf0x/view
 	- Even Mo' Static - http://btorpey.github.io/blog/2016/11/12/even-mo-static/
 	- Lots o' static - http://btorpey.github.io/blog/2017/09/17/lotso-static/
 
-### LLVM
+## LLVM
 
 - awesome-llvm: A curated list of awesome LLVM related docs, tools, and other resources
 	- https://github.com/HongxuChen/awesome-llvm
@@ -153,7 +150,7 @@ https://drive.google.com/file/d/1j9rfMt14pubi6G9PKK3akddyeet5bf0x/view
 		- 2016 EuroLLVM Developers' Meeting: Y. Sui "SVF: Static Value-Flow Analysis in LLVM"
 		- https://www.youtube.com/watch?v=nD-i-enA8rc
 
-#### LLVM - Symbolic Execution
+### LLVM - Symbolic Execution
 
 - haybale: Symbolic execution of LLVM IR with an engine written in Rust
 	- operates on LLVM IR, which allows it to analyze programs written in C/C++, Rust, Swift, or any other language which compiles to LLVM IR
@@ -163,7 +160,7 @@ https://drive.google.com/file/d/1j9rfMt14pubi6G9PKK3akddyeet5bf0x/view
 	- http://klee.github.io/publications/
 	- https://github.com/klee/klee
 
-#### LLVM - Verification
+### LLVM - Verification
 
 - LLBMC: The Low-Level Bounded Model Checker
 	- http://llbmc.org/
@@ -217,7 +214,7 @@ https://drive.google.com/file/d/1j9rfMt14pubi6G9PKK3akddyeet5bf0x/view
 		- Jack Garzella, Marek S. Baranowski, Shaobo He, Zvonimir Rakamaric
 		- https://soarlab.org/publications/2020_vmcai_gbhr/
 
-#### Clang
+### Clang
 
 - clang-tutor: A collection of Clang plugins - learn the API through examples
 	- https://github.com/banach-space/clang-tutor/
@@ -227,7 +224,7 @@ https://drive.google.com/file/d/1j9rfMt14pubi6G9PKK3akddyeet5bf0x/view
 	- https://www.youtube.com/watch?v=FNnKMSkaLkY
 	- https://llvm.org/devmtg/2019-10/talk-abstracts.html#tut11
 
-##### Clang Static Analyzer
+#### Clang Static Analyzer
 
 - Developing the Clang Static Analyzer
 	- 2019 LLVM Developers’ Meeting; Artem Dergachev
@@ -236,7 +233,7 @@ https://drive.google.com/file/d/1j9rfMt14pubi6G9PKK3akddyeet5bf0x/view
 	- 2018 LLVM Developers’ Meeting; George Karpenkov, Artem Dergachev
 	- https://www.youtube.com/watch?v=4n3l-ZcDJNY
 
-#### Introduction
+### Introduction
 
 - Building Program Reasoning Tools using LLVM and Z3
 	- POPL 2020 Tutorial
@@ -314,7 +311,7 @@ https://drive.google.com/file/d/1j9rfMt14pubi6G9PKK3akddyeet5bf0x/view
 - Writing a basic clang static analysis check
 	- https://bbannier.github.io/blog/2015/05/02/Writing-a-basic-clang-static-analysis-check.html
 
-#### Instrumentation
+### Instrumentation
 
 - Creating an LLVM Sanitizer from Hopes and Dreams
 	- https://blog.trailofbits.com/2019/06/25/creating-an-llvm-sanitizer-from-hopes-and-dreams/
@@ -341,7 +338,7 @@ https://drive.google.com/file/d/1j9rfMt14pubi6G9PKK3akddyeet5bf0x/view
 	- https://github.com/staticafi/sbt-instrumentation
 	- Instrumentation of LLVM IR - https://is.muni.cz/th/409920/fi_m/?lang=en
 
-#### Lifting
+### Lifting
 
 Lifting: Disassembly, Decompilation, Recompilation, Reverse Engineering
 
@@ -380,7 +377,7 @@ Lifting: Disassembly, Decompilation, Recompilation, Reverse Engineering
 	- https://rev.ng/
 	- https://github.com/revng/revng
 
-#### Passes
+### Passes
 
 - Building, Testing and Debugging a Simple out-of-tree LLVM Pass
 	- 2016 EuroLLVM Developers' Meeting
@@ -398,7 +395,7 @@ Lifting: Disassembly, Decompilation, Recompilation, Reverse Engineering
 		- https://www.youtube.com/watch?v=ar7cJl2aBuU
 		- http://llvm.org/devmtg/2019-10/talk-abstracts.html#tut4
 
-##### Legacy Pass Manager
+#### Legacy Pass Manager
 
 - 2007 LLVM Developer's Meeting
 	- http://llvm.org/devmtg/2007-05/03-Patel-Passmanager.pdf
@@ -406,7 +403,7 @@ Lifting: Disassembly, Decompilation, Recompilation, Reverse Engineering
 	- LLVM Pass Manager Demystified (2 of 3) - https://www.youtube.com/watch?v=PaUWxVLGBg0
 	- LLVM Pass Manager Demystified (3 of 3) - https://www.youtube.com/watch?v=4HEy5EtVdCA
 
-##### New Pass Manager
+### New Pass Manager
 
 - New PM: taming a custom pipeline of Falcon JIT
 	- 2018 EuroLLVM Developers’ Meeting - Fedor Sergeev, Azul Systems
@@ -430,7 +427,7 @@ Lifting: Disassembly, Decompilation, Recompilation, Reverse Engineering
 	- Part II - AnalysisManager - https://medium.com/@mshockwave/writing-llvm-pass-in-2018-part-ii-640f680978ec
 	- Part III - In-Tree Pass Integration - https://medium.com/@mshockwave/writing-llvm-pass-in-2018-part-iii-d44cd0c2c354
 
-## Readings
+# Readings
 
 - A Few Billion Lines of Code Later: Using Static Analysis to Find Bugs in the Real World
 	- Communications of the ACM, Vol. 53 No. 2, 2010
@@ -463,82 +460,3 @@ Lifting: Disassembly, Decompilation, Recompilation, Reverse Engineering
 	- https://dl.acm.org/citation.cfm?id=1254713
 - Static versus dynamic analysis---an illusory distinction?
 	- https://www.cs.kent.ac.uk/people/staff/srk21/blog/research/static-and-dynamic-analyses.html
-
-## Background
-
-
-- Crash Course on Notation in Programming Language Theory
-	- Jeremy G. Siek
-	- LambdaConf 2018
-	- Part 1: https://www.youtube.com/watch?v=vU3caZPtT2I
-	- Part 2: https://www.youtube.com/watch?v=MhuK_aepu1Y
-	- Slides: https://www.dropbox.com/s/joaq7m9v75blrw5/pl-notation-lambdaconf-2018.pdf?dl=1
-	- 2012 blog post: http://siek.blogspot.com/2012/07/crash-course-on-notation-in-programming.html
-- Type Safety in Three Easy Lemmas 
-	- https://siek.blogspot.com/2013/05/type-safety-in-three-easy-lemmas.html
-- On the Relationship Between Static Analysis and Type Theory 
-	- https://semantic-domain.blogspot.com/2019/08/on-relationship-between-static-analysis.html
-- Soundness and completeness: with precision
-	- https://bertrandmeyer.com/2019/04/21/soundness-completeness-precision/
-- What is soundness (in static analysis)? - http://www.pl-enthusiast.net/2017/10/23/what-is-soundness-in-static-analysis/
-- Brown CS: CSCI 1730: Programming Languages
-	- http://cs.brown.edu/courses/csci1730/2012/
-	- http://cs.brown.edu/courses/cs173/2012/Videos/
-- OPLSS (Oregon Programming Languages Summer School)
-	- https://cs.uoregon.edu/research/summerschool/
-	- 2019-2017, 2003: https://www.youtube.com/channel/UCDe6N9R7U-RYWA57wzJQ2SQ/playlists
-	- 2016-2015: https://www.youtube.com/channel/UCsON_8vogp4nCQFTnfu43kA/playlists
-	- free video lectures available, including the introductory ones based on Practical Foundations for Programming Languages: http://www.cs.cmu.edu/~rwh/pfpl/
-- Programming Language Implementation Summer School (PLISS)
-	- https://pliss2019.github.io/talks.html
-	- https://www.youtube.com/channel/UCofC5zis7rPvXxWQRDnrTqA/playlists 
-- SSA book - http://ssabook.gforge.inria.fr/latest/
-- Intermediate Representations in Imperative Compilers: A Survey
-	- ACM Computing Surveys, Vol. 45, No. 3, Article 26, 2013
-	- James Stanier, Des Watson
-	- http://dx.doi.org/10.1145/2480741.2480743
-	- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.885.5223&rep=rep1&type=pdf
-- Modern Intermediate Representations (IR)
-	- Introduction to LLVM - David Chisnall (Cambridge University)
-	- [HPC Summer School 2017](https://llvm.org/devmtg/2017-06/)
-	- https://llvm.org/devmtg/2017-06/1-Davis-Chisnall-LLVM-2017.pdf
-- Testing Intermediate Representations for Binary Analysis
-	- https://softsec.kaist.ac.kr/~soomink/paper/ase17main-mainp491-p.pdf
-	- https://github.com/SoftSec-KAIST/MeanDiff
-	- https://softsec-kaist.github.io/MeanDiff/
-- CS 7194 - Great works in Programming Languages - https://www.cs.cornell.edu/courses/cs7194/2019sp/
-- Type Systems - Neel Krishnaswami
-	- https://www.cl.cam.ac.uk/teaching/1819/Types/materials.html
-	- https://www.cl.cam.ac.uk/teaching/1819/Types/handout.pdf
-- http://jschuster.org/blog/2016/11/29/getting-started-in-programming-languages/
-- Programming Languages: Application and Interpretation by Shriram Krishnamurthi
-  - http://cs.brown.edu/~sk/Publications/Books/ProgLangs/
-- SIGPLAN Awards - http://www.sigplan.org/Awards/
-- Great Works in Programming Languages
-  - Collected by Benjamin C. Pierce
-  - https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml
-- 10PL: 10 papers that all PhD students in programming languages ought to know, for some value of 10
-  - Northeastern University Programming Research Lab 
-  - https://github.com/nuprl/10PL
-- Best of PLDI 2004
-  - https://dblp.uni-trier.de/db/conf/pldi/pldi2004best.html
-- Classic Papers in Programming Languages and Logic
-  - Karl Crary
-  - https://www.cs.cmu.edu/~crary/819-f09/
-- What Type Soundness Theorem Do You Really Want to Prove?
-	- https://blog.sigplan.org/2019/10/17/what-type-soundness-theorem-do-you-really-want-to-prove/
-	- Milner Award Lecture: The Type Soundness Theorem That You Really Want to Prove (and now you can)
-		- POPL 2018; Derek Dreyer
-		- https://www.youtube.com/watch?v=8Xyk_dGcAwk
-- Type Theory Behind Glasgow Haskell Compiler Internals
-	- LambdaConf 2018; Vitaly Bragilevsky
-	- https://www.youtube.com/playlist?list=PLvPsfYrGz3wspkm6LVEjndvQqK6SkcXaT
-	- https://github.com/bravit/tt-ghc-exercises/
-	- https://github.com/lambdaconf/lambdaconf-2018/tree/master/LC18-slides
-- Principles of Programming Languages
-	- Lectures - Matthias Felleisen
-	- https://felleisen.org/matthias/4400-s20/lectures.html
--  learn-programming-languages
-	- Resources for the working programmer to learn more about the fundamentals and theory of programming languages.
-	- Jean Yang
-	- https://github.com/jeanqasaur/learn-programming-languages
