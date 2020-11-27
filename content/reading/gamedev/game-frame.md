@@ -92,15 +92,58 @@ Hard fun suggests the distinction between fun as pleasure (a roller coaster ride
 
 # Level Four
 
+Brain is particularly sensitive to novelty. In terms of novelty, games are incredibly rich territory. Good games give you countless features to unlock or discover, including new weapons, levels, etc. Beyond that, games unfold a narrative in which you are the protangonist--where your willingness to explore leads to more and more adventure. The ultimate surprise in gaming comes from achieving an "epic win": "An outcome that is so extraordinarily positive you had no idea it was even possible until you achieved it."
+
+## Getting to Know Games
+From "Rules to Play": "A game is a system in which players engage in an artificial conflict, defined by rules, that results in a quantifiable outcome."
+
+### A Game Demands Participation
+Many forms of entertainment can be passively observed; games require participation to keep going.
+
+### A Game Can Be Played Again
+Games are renewable. Each successive game will likely be more interesting than the last, due to ever-increasing skills and a heightened perception of the experience.
+
+### A Game is Understood Through Play
+The only way to truly understand the game is to play it for yourself.
+
+## The Magic Circle
+When we play games we enter an "alternative universe"; willing suspension of disbelief. This psychological space is known as the magic circle: a state of mind that you allow yourself to enter when you begin a game.
+
+## Why Do We Love Games?
+Games can happen anywhere.
+
+Games give us purpose.
+
+We solve problems in games.
+
+Games give us control.
+
+Games show us progress.
+
+We take risks in games.
+
+Games let us face our fears.
+
+Games give us the glory.
+
+Games shift time.
+
+Games bring us together.
+
+What happens in games doesn't stay there.
+
+Games represent what could be.
 
 # Level Five
+Games are getting serious; getting developed in industries everywhere.
 
+Data is everywhere, and leads to a lot of gamification.
 
 # Level Six
-
+Rewards are a crutch. Turning play into work can create demotivation, called the overjustification effect. However, it's important to note that the kind of reward really does matter. While we usually conceive of rewards and prizes as things--objects with monetary or social value--many other outcomes can be viewed as rewards. Earning the right to make a decision can be a reward. Access to a new experience or opportunity counts too. Any outcome that is desirable to a person can be used as a reward to encourage specific behavior.
 
 # Level Seven
-
+Grokking the systems that define our lives is the great task of all behavioral games. Good behavioral games, then, should reveal something fundamental about the underlying activities they're built around. Achieving this requires examining the structure of our own activities and experiences in more depth than ever before.
 
 # Level Eight
 A behavioral game is made up of ten building blocks.
