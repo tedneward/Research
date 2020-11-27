@@ -1,6 +1,6 @@
 title=The Art of Concurrency
 tags=reading, books, concurrency
-summary=
+summary=Thoughts on implementation using concurrent mechanics.
 ~~~~~~
 *(by (author), (publisher))*
 

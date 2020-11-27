@@ -2,13 +2,6 @@ title=Foreign Function Interfaces (FFI)
 tags=language, reading
 summary=A collection of links and research on how various languages/vms handle interoperability with their host environment.
 ~~~~~~
-# Contents
-
-- [General](#general)
-- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Objective-C](#objective-c), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata)
-
----
-
 # General
 
 - C++ Language Interface Foundation (CLIF)

@@ -32,7 +32,9 @@ summary=Various 'lenses' by which to view game design.
 
 14. **The Lens of Risk Mitigation:** Stop thinking positively, and start seriously considering the things that could go horribly wrong with your game. What could keep this game from being great? How can we stop that from happening? Risk management is hard. It means you have to face up to the problems you would most like to avoid, and solve them immediately. But if you discipline yourself to do it, you'll loop more times, and more usefully, and get a better game as a result. It is tempting to ignore potential problems and just work on the parts of your game you feel most confident about. You must resist this temptation and focus on the parts of your game that are in danger.
 
-What skills does a game designer need?
+
+
+# What skills does a game designer need?
 
 * Animation
 * Anthropology
@@ -55,16 +57,16 @@ What skills does a game designer need?
 * Visual Arts
 
 
-Five Kinds of Listening: listen to your team, audience, game, client and self
+# Five Kinds of Listening: listen to your team, audience, game, client and self
 
 
-Introspection: Powers, Perils and Practice
+# Introspection: Powers, Perils and Practice
 
 * Peril #1: Introspection can lead to false conclusions about reality
 * Peril #2: What is true of my experiences may not be true for others
 
 
-Defeating Heisenberg
+# Defeating Heisenberg
 
 * Analyze Memories
 * Two Passes (once for feeling, second for analysis)
@@ -72,13 +74,14 @@ Defeating Heisenberg
 * Observe Silently
 
 
-The Elemental Tetrad: Mechanics, Story, Aesthetics, Technology
+# The Elemental Tetrad
+Mechanics, Story, Aesthetics, Technology
+
+# State the Problem
+You get a broader creative space, a clear measurement of the quality of proposed ideas, and better communication
 
 
-State the Problem: You get a broader creative space, a clear measurement of the quality of proposed ideas, and better communication
-
-
-Your Subconscious
+# Your Subconscious
 
 * Common characteristics: Can't talk (or chooses not to); Impulsive; Emotional; Playful; Irrational
 * Subconscious Tip #1: Pay Attention
@@ -88,7 +91,8 @@ Your Subconscious
 * Subconscious Tip #5: Don't Push Too Hard
 
 
-Fifteen Nitty-Gritty Brainstorming Tips
+# Fifteen Nitty-Gritty Brainstorming Tips
+
 1. The Write Answer
 2. Write or Type?
 3. Sketch
@@ -105,14 +109,15 @@ Fifteen Nitty-Gritty Brainstorming Tips
 14. Talk To Yourself
 15. Find a Partner
 
-Categories (from #14)
+# Categories (from #14)
 * Technology Ideas: Cell-phone platform; Handheld game; PC; Integrated with SMS; Game console; ...
 * Mechanics Ideas: Sims-like game; Interactive fiction game; The winner makes the most friends; Try to spread rumors about the other players; Try to help as many people as possible; Tetris-like game; ...
 * Story Ideas: High-school drama; College-themed; You play cupid; You're a TV star; Hospital theme; Music theme--you're a rock star, you're a dancer; ...
 * Aesthetic Ideas: Cel shaded; Anime style; All characters are animals; R&B music defines the game; Edgy rock/punk music defines the feel
 
 
-The Eight Filters (of deciding if your idea os "good enough")
+# The Eight Filters (of deciding if your idea os "good enough")
+
 1. Artistic impulse. Does this game feel right?
 2. Demographics. Will the intended audience like this game enough?
 3. Experience Design. Is this a well-designed game?
@@ -123,7 +128,8 @@ The Eight Filters (of deciding if your idea os "good enough")
 8. Playtesting. Do the play testers enjoy the game enough?
 
 
-Eight Tips for Productive Prototyping
+# Eight Tips for Productive Prototyping
+
 1. Answer a Question.
 2. Forget Quality
 3. Don't Get Attached
