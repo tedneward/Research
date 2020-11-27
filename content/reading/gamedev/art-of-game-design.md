@@ -24,11 +24,20 @@ summary=Various 'lenses' by which to view game design.
 
 10. **The Lens of Resonance:** You must look for hidden power. What is it about my game that feels powerful and special? When I describe my game to people, what ideas get them really excited? If I had no constraints of any kind, what would this game be like? I have certain instincts about how this game should be. What is driving those instincts? This lens is a quiet, delicate instrument. It is a tool for listening to yourself and listening to others. We bury important things deep inside ourselves, and when something causes them to resonate, it shakes us to our very core. The fact that these things are hidden gives them power, but also makes them hard to find.
 
-11. **The Lens of Infinite Inspiration:** "When you know how to listen, everybody is the guru." (Ram Dass) Stop looking at your game, and stop looking at games like it. Instead, look everywhere else. What is an experience I have had in my life that I would want to share with others? In what small way can I capture the essence of that experience and put it into my game? Using this lens requires an open mind and a big imagination. You need to search your feelings and observe everything around you. You must be willing to try the impossible*for surely it is impossible for a roll of the dice to capture the excitement of a swordfight, or for a video game to make a player feel afraid of the dark*isn't it? Use this lens to find the non-game experiences that will inspire your game. Your choices in the different quadrants of the tetrad can each by united by a single inspiration, or each can build on different inspirations, blending them together to create something entirely new. When you have concrete visions based on real life that guide your decision making, your experience will acquire an undeniable power, strength and uniqueness. This lens works hand in hand with Essential Experience. Use the Infinite Inspiration to seek and find beautiful experiences, and the Essential Experience to bring them into your game.
+11. **The Lens of Infinite Inspiration:** "When you know how to listen, everybody is the guru." (Ram Dass) Stop looking at your game, and stop looking at games like it. Instead, look everywhere else. What is an experience I have had in my life that I would want to share with others? In what small way can I capture the essence of that experience and put it into my game? Using this lens requires an open mind and a big imagination. You need to search your feelings and observe everything around you. You must be willing to try the impossible--for surely it is impossible for a roll of the dice to capture the excitement of a swordfight, or for a video game to make a player feel afraid of the dark--isn't it? Use this lens to find the non-game experiences that will inspire your game. Your choices in the different quadrants of the tetrad can each by united by a single inspiration, or each can build on different inspirations, blending them together to create something entirely new. When you have concrete visions based on real life that guide your decision making, your experience will acquire an undeniable power, strength and uniqueness. This lens works hand in hand with Essential Experience. Use the Infinite Inspiration to seek and find beautiful experiences, and the Essential Experience to bring them into your game.
 
 12. **The Lens of the Problem Statement:** Think of your game as the solution to a problem. What problem, or problems, am I really trying to solve? Have I been making assumptions about this game that really have nothing to do with its true purpose? Is a game really the best solution? Why? How will I be able to tell if the problem is solved? Defining the constraints and goals for your game as a problem statement can help move you to a clear game design much more quickly.
 
-13. **The Lens of the Eight Filters:** You must consider the many constraints your design must satisfy. You can only call your design finished when it can pass through all eight filters without requiring a change. Does this game feel right? Will the intended audience like this game enough? Is this a well-designed game? Is this game novel enough? Will this game sell? Is it technically possible to build this game? Does this game meet our social and community goals? Do the play testers enjoy this game enough?
+13. **The Lens of the Eight Filters:** You must consider the many constraints your design must satisfy. You can only call your design finished when it can pass through all eight filters without requiring a change.
+    
+    1. Artistic impulse. Does this game feel right?
+    2. Demographics. Will the intended audience like this game enough?
+    3. Experience Design. Is this a well-designed game?
+    4. Innovation. Is this game novel enough?
+    5. Business and Marketing. Will this game sell?
+    6. Engineering. Is it technically possible to build this game?
+    7. Social/Community. Does this game meet our social and community goals?
+    8. Playtesting. Do the play testers enjoy the game enough?
 
 14. **The Lens of Risk Mitigation:** Stop thinking positively, and start seriously considering the things that could go horribly wrong with your game. What could keep this game from being great? How can we stop that from happening? Risk management is hard. It means you have to face up to the problems you would most like to avoid, and solve them immediately. But if you discipline yourself to do it, you'll loop more times, and more usefully, and get a better game as a result. It is tempting to ignore potential problems and just work on the parts of your game you feel most confident about. You must resist this temptation and focus on the parts of your game that are in danger.
 
@@ -116,16 +125,6 @@ You get a broader creative space, a clear measurement of the quality of proposed
 * Aesthetic Ideas: Cel shaded; Anime style; All characters are animals; R&B music defines the game; Edgy rock/punk music defines the feel
 
 
-# The Eight Filters (of deciding if your idea os "good enough")
-
-1. Artistic impulse. Does this game feel right?
-2. Demographics. Will the intended audience like this game enough?
-3. Experience Design. Is this a well-designed game?
-4. Innovation. Is this game novel enough?
-5. Business and Marketing. Will this game sell?
-6. Engineering. Is it technically possible to build this game?
-7. Social/Community. Does this game meet our social and community goals?
-8. Playtesting. Do the play testers enjoy the game enough?
 
 
 # Eight Tips for Productive Prototyping
