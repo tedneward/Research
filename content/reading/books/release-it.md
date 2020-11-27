@@ -1,6 +1,6 @@
 title=Release It!
 tags=reading, books
-summary=
+summary=Patterns/concepts around what it takes to make software "production-ready".
 ~~~~~~
 *(by Michael Nygard (Pragmatic Bookshelf, 2007, ISBN-13 978-0-9787392-1-8))*
 
