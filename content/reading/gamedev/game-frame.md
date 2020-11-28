@@ -45,7 +45,7 @@ A radical simplification of the hero’s journey goes something like this: a “
 
 
 # Level Two: Pervasivenes and Engagement of Games
-(Part of the "why" of gamification: History of games; examples of how pervasive games are engaging us; etc)
+(Part of the "why" of gamification: History of games; examples of how pervasive games are engaging us; etc.)
 
 # Level Three: The Neuroscience of Play (and Fun)
 (Feeling good vs feeling motivated)
