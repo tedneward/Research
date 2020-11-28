@@ -36,6 +36,7 @@ The game is not the experience; the game enables the experience, but it is not t
 Three practical approaches to chasing rainbows: psychology, anthropology, design (musicians, architects, authors, filmmakers, industrial designers, Web designers, choreographers, visual designers, and more).
 
 Introspection: Powers, Perils, and Practice
+
 * Peril #1: Introspection can lead to false conclusions about reality.
 
 * Peril #2: What is true of my experiences may not be true for others.
@@ -60,6 +61,7 @@ How do we define a "game"?
 **Lens #4: The Lens of Curiosity**
 
 Key qualities of games:
+
 1. Games are entered willfully.
 2. Games have goals.
 3. Games have conflict.
@@ -76,6 +78,7 @@ Key qualities of games:
 **Lens #6: The Lens of Problem Solving**
 
 The Fruits of our Labors (defining a game):
+
 * Fun is pleasure with surprises.
 * Play is manipulation that satisfies curiosity.
 * A toy is an object you play with.
@@ -84,6 +87,7 @@ The Fruits of our Labors (defining a game):
 
 # The Game Consists of *Elements*
 The Four Basic Elements:
+
 * **Mechanics**: The procedures and rules of your game.
 * **Story**: The sequence of events that unfolds in your game.
 * **Aesthetics**: How your game looks, sounds, smells, tastes, and feels.
@@ -108,9 +112,10 @@ Inspiration: don't look to the others around you, look everywhere else.
 **Lens #11: The Lens of Infinite Inspiration**
 
 **State the Problem**. Get the problem statement right. This creates three advantages:
-    * **Broader creative space.**
-    * **Clear measurement.**
-    * **Better communication.**
+
+* **Broader creative space.**
+* **Clear measurement.**
+* **Better communication.**
 
 **Lens #12: The Lens of the Problem Statement**
 
@@ -122,7 +127,8 @@ Inspiration: don't look to the others around you, look everywhere else.
 * Subconscious Tip #4: Sleep
 * Subconscious Tip #5: Don't Push Too Hard
 
-# Fifteen Nitty-Gritty Brainstorming Tips
+## Fifteen Nitty-Gritty Brainstorming Tips
+
 1. The Write Answer: write them (all) down.
 2. Write or Type?: whatever works best.
 3. Sketch
@@ -145,6 +151,7 @@ Inspiration: don't look to the others around you, look everywhere else.
 
 # The Game Improves Through *Iteration*
 The Eight Filters; only when your idea passes through each of these is it "good enough":
+
 1. **Artistic Impulse.** Ask yourself if the game "feels right" to you. **Does this game feel right?**
 2. **Demographics.** Consider whether the design is right for the demographic you are targeting. **Will the intended audience like this game well enough?**
 3. **Experience Design.** Take into account everything you know about creating a good experience, including aesthetics, interest curves, resonant theme, game balancing, and many more. **Is this a well-designed game?**
@@ -157,6 +164,7 @@ The Eight Filters; only when your idea passes through each of these is it "good 
 **Lens #13: The Lens of the Eight Filters**
 
 The Rule of the Loop: The more times you test and improve your design, the better your game will be.
+
 * How can I make every loop count?
 * How can I loop as fast as possible?
 
@@ -189,6 +197,7 @@ You must know what your audience will and will not like.
 * **50+: Fifties and Up.** The "empty nesters", suddenly have a lot of time on their hands.
 
 Five Things Males Like to See in Games:
+
 1. **Mastery.** It doesn't have to be useful, only challenging.
 2. **Competition.**
 3. **Destruction.**
@@ -196,6 +205,7 @@ Five Things Males Like to See in Games:
 5. **Trial and Error.** Males tend to have a preference for learning things through trial and error.
 
 Five Things Females Like to See in Games:
+
 1. **Emotion.** Experiences that explore the richness of human emotion.
 2. **Real World.** Entertainment that connects meaningfully to the real world.
 3. **Nurturing.**
@@ -206,6 +216,7 @@ Five Things Females Like to See in Games:
 
 ## Psychographics
 Leblanc's Taxonomy of Game Pleasures
+
 1. **Sensation.**
 2. **Fantasy.**
 3. **Narrative.**
@@ -216,12 +227,14 @@ Leblanc's Taxonomy of Game Pleasures
 8. **Submission.**
 
 Bartle's Taxonomy of Player Types
+
 * (Diamond) **Achievers** want to achieve the goals of the game. Their primary pleasure is Challenge.
 * (Spade) **Explorers** want to get to know the breadth of the game. Their primary pleasure is Discovery.
 * (Heart) **Socializers** are interested in relationships with other people. They primiarily seek the pleasures of Fellowship.
 * (Club) **Killers** are interested in competing with and defeating others. 
 
 A few more pleasures to be considered (beyond the two taxonomies):
+
 * **Anticipation.**
 * **Delight in Another's Misfortune.** *schadenfreude*
 * **Gift Giving.**
@@ -323,16 +336,20 @@ A few more pleasures to be considered (beyond the two taxonomies):
 14. **The Lens of Risk Mitigation:** Stop thinking positively, and start seriously considering the things that could go horribly wrong with your game. What could keep this game from being great? How can we stop that from happening? Risk management is hard. It means you have to face up to the problems you would most like to avoid, and solve them immediately. But if you discipline yourself to do it, you'll loop more times, and more usefully, and get a better game as a result. It is tempting to ignore potential problems and just work on the parts of your game you feel most confident about. You must resist this temptation and focus on the parts of your game that are in danger.
 
 15. **The Lens of the Toy:** Stop thinking about whether your game is fun to play, and start thinking about whether it is fun to play *with*. Ask yourself these questions:
+
 * If my game had no goal, would it be fun at all? If not, how can I change that?
 * When people see my game, do they want to start interacting with it, even before they know what to do? If not, how can I change that?
+
 There are two ways to use this lens. One way is to use it on an existing game, to figure out how to add more toy-like qualities to it--that is, how to make it more approachable, and more fun to manipulate. The second way (the braver way) is to use it to invent and create new toys before you even have any idea what games will be played with them. This is risky if you are on a schedule--but if you are not, it can be a great "divining rod" to help you find wonderful games you might not have discovered otherwise.
 
 16. **The Lens of the Player:** Stop thinking about your game, and start thinking about your player. Ask yourself these questions about the people who will play your game:
+
 * In general, what do they like?
 * What don't they like? Why?
 * What do they expect to see in a game?
 * If I were in their place, what would I want to see in a game?
 * What would they like or dislike about my game in particular?
+
 A good game designer should always be thinking of the player, and should be an advocate for the player. Skilled designers hold The Lens of the Player and the Lens of Holographic Design in the same hand, thinking about the player, the experience of the game, and the mechanics of the game all at the same time. THinking about hte player is useful, but evne more useful is watching them play your game. The more you observe them playing, the more easily you'll be able to predict what they are going to enjoy.
 
 17. **The Lens of Pleasure:** Think about the kinds of pleasure your game does and does not provide. Ask yourself these questions:
@@ -340,4 +357,4 @@ A good game designer should always be thinking of the player, and should be an a
 * What pleasures are missing from your experience? Why? Can they be added?
 The job of a game is to give pleasure. Always be on the lookout for unique, unclassified pleasures not found in most games--for one of these might be what gives your game the unique quality it needs.
 
-
+18. 
