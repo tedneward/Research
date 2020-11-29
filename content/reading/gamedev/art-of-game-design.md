@@ -2,7 +2,7 @@ title=Art of Game Design
 tags=reading, books, gamedev
 summary=An introduction to game design.
 ~~~~~~
-*(by Jesse Schell (Morgan-Kaufman, 2008 ISBN 978-0-12-369496-6))* 
+*(by Jesse Schell (Morgan-Kaufman, 2008 ISBN 978-0-12-369496-6))* [PDF](https://www.dropbox.com/s/nta8b72fkhadryh/art-game-design.pdf?dl=0)
 
 # In the Beginning, There Is the *Designer*
 What skills does a game designer need?
