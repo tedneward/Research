@@ -182,6 +182,8 @@ Eight Tips for Productive Prototyping:
 
 **Lens #15: The Lens of the Toy**
 
+How much is enough? The Method makes an interesting distinction between what (game designer) Mark Cerny calls "pre-production " and "production" (terms borrowed from Hollywood). He argues that you are in pre-production until you have finished two publishable levels of your game, complete with all necessary features. In other words, until you have two completely finished levels, you are still figuring out the fundamental design of your game. Once you reach this magic point, you are now in production. This means that you know enough about what your game really is that you can safely schedule the rest of development. Cerny states that usually this point is generally reached when 30% of the necessary budget has been spent.
+
 # The Game is Made for a *Player*
 You must know what your audience will and will not like.
 
@@ -250,6 +252,49 @@ A few more pleasures to be considered (beyond the two taxonomies):
 **Lens #17: The Lens of Pleasure**
 
 # The Experience is in the *Player's Mind*
+Psychology: understanding an opaque system that we are intrinsically immersed in.
+
+## Modeling
+The only way our minds are able to get by at all is by simplifying reality so that we can make some sense of it. Correspondingly, our minds do not deal with reality itself, but instead with models of reality. [Philosophy: the map is not the terrain.] Reality is full of aspects that aren’t at all part of our day-to-day modeling. Consider Charlie Brown [or any other cartoon character], there's nothing "real" about him.
+
+## Focus
+One crucial technique our brains use to make sense of the world is the ability to focus its attention selectively, ignoring some things, and devoting more mental power to others. What we focus on at any given moment is determined through a blend of our unconscious desires and our conscious will. When we create games, our goal is to create an experience interesting enough that it holds the player’s focus as long and as intensely as possible. When something captures our complete attention and imagination for a long period, we enter an interesting mental state. This state of sustained focus, pleasure, and enjoyment is referred to as "flow". Some of the key components necessary to create an activity that puts a player into a flow state are:
+
+* **Clear goals.** When our goals are clear, we are able to more easily stay focused on our task. When goals are unclear, we are not "into" our task, for we aren’t at all certain whether our current actions are useful.
+* **No distractions.** Distractions steal focus from our task. No focus, no flow.
+* **Direct feedback.** If every time we take an action, we have to wait before we know what effect the action caused, we will quickly become distracted and lose focus on our task. When feedback is immediate, we can easily stay focused.
+* **Continuously challenging.** Human beings love a challenge. But it must be a challenge we think we can achieve. If we start to think we can’t achieve it, we feel frustrated, and our minds start seeking an activity more likely to be rewarding. On the other hand, if the challenge is too easy, we feel bored, and again, our minds start seeking more rewarding activities. 
+
+Flow activities must manage to stay in the narrow margin of challenge that lies between boredom and frustration, for both of these unpleasant extremes cause our mind to change its focus to a new activity. Csikszentmihalyi calls this margin the "flow channel."
+
+**Lens #18: The Lens of Flow**
+
+## Empathy
+As human beings, we have an amazing ability to project ourselves into the place of others. When we do this, we think the other person’s thoughts and feel their feelings, to the best of our ability. It is one of the hallmarks of our ability to understand one another that we can do this, and it is an integral part of gameplay. Of course, the brain does all this using mental models — in truth, we are empathizing not with real people or animals, but with our mental models of them — which means we are easily tricked. We can feel emotion when there is none. A photo, a drawing, or a videogame character can just as easily capture our empathy. As game designers, we will make use of empathy in the same ways that novelists, graphic artists, and filmmakers do, but we also have our own set of new empathic interactions. Games are about problem solving, and empathic projection is a useful method of problem solving.
+
+## Imagination
+Imagination puts the player into the game by putting the game into the player.
+
+For example, if I tell you a short story: "The mailman stole my car yesterday," I have actually told you very little, but already you have a picture of what happened. Weirdly, your picture is full of details that I didn’t include in my story. Take a look at the mental image that formed, and answer these questions:
+
+* What did the mailman look like?
+* What kind of neighborhood was my car in when he stole it?
+* What color was the car?
+* What time of day did he steal it?
+* How did he steal it?
+* Why did he steal it?
+
+Now, I didn’t tell you any of those things, but your amazing imagination just made up a bunch of these details so that you could more easily think about what I was telling you. Now, if I suddenly give you more information, like, "It wasn’t a real car, but an expensive model toy car," you quickly reformulate your imaginary image to fit what you have heard, and your answers to the above questions might change correspondingly.
+
+## Motivation
+[Maslow's Pyramid]
+
+**Lens #19: The Lens of Needs**
+
+## Judgment
+The fourth level of Maslow’s hierarchy, self-esteem, is the one most intimately connected to games. But why? One deep need common to everyone is the need to be judged. (People don't hate being judged--they hate being judged unfairly.)
+
+**Lens #20: The Lens of Judgment**
 
 # Some Elements are *Game Mechanics*
 
@@ -337,24 +382,49 @@ A few more pleasures to be considered (beyond the two taxonomies):
 
 15. **The Lens of the Toy:** Stop thinking about whether your game is fun to play, and start thinking about whether it is fun to play *with*. Ask yourself these questions:
 
-* If my game had no goal, would it be fun at all? If not, how can I change that?
-* When people see my game, do they want to start interacting with it, even before they know what to do? If not, how can I change that?
+    * If my game had no goal, would it be fun at all? If not, how can I change that?
+    * When people see my game, do they want to start interacting with it, even before they know what to do? If not, how can I change that?
 
-There are two ways to use this lens. One way is to use it on an existing game, to figure out how to add more toy-like qualities to it--that is, how to make it more approachable, and more fun to manipulate. The second way (the braver way) is to use it to invent and create new toys before you even have any idea what games will be played with them. This is risky if you are on a schedule--but if you are not, it can be a great "divining rod" to help you find wonderful games you might not have discovered otherwise.
+    There are two ways to use this lens. One way is to use it on an existing game, to figure out how to add more toy-like qualities to it--that is, how to make it more approachable, and more fun to manipulate. The second way (the braver way) is to use it to invent and create new toys before you even have any idea what games will be played with them. This is risky if you are on a schedule--but if you are not, it can be a great "divining rod" to help you find wonderful games you might not have discovered otherwise.
 
 16. **The Lens of the Player:** Stop thinking about your game, and start thinking about your player. Ask yourself these questions about the people who will play your game:
 
-* In general, what do they like?
-* What don't they like? Why?
-* What do they expect to see in a game?
-* If I were in their place, what would I want to see in a game?
-* What would they like or dislike about my game in particular?
+    * In general, what do they like?
+    * What don't they like? Why?
+    * What do they expect to see in a game?
+    * If I were in their place, what would I want to see in a game?
+    * What would they like or dislike about my game in particular?
 
-A good game designer should always be thinking of the player, and should be an advocate for the player. Skilled designers hold The Lens of the Player and the Lens of Holographic Design in the same hand, thinking about the player, the experience of the game, and the mechanics of the game all at the same time. THinking about hte player is useful, but evne more useful is watching them play your game. The more you observe them playing, the more easily you'll be able to predict what they are going to enjoy.
+    A good game designer should always be thinking of the player, and should be an advocate for the player. Skilled designers hold The Lens of the Player and the Lens of Holographic Design in the same hand, thinking about the player, the experience of the game, and the mechanics of the game all at the same time. THinking about hte player is useful, but evne more useful is watching them play your game. The more you observe them playing, the more easily you'll be able to predict what they are going to enjoy.
 
 17. **The Lens of Pleasure:** Think about the kinds of pleasure your game does and does not provide. Ask yourself these questions:
-* What pleasures does your game give to players? Can these be improved?
-* What pleasures are missing from your experience? Why? Can they be added?
-The job of a game is to give pleasure. Always be on the lookout for unique, unclassified pleasures not found in most games--for one of these might be what gives your game the unique quality it needs.
 
-18. 
+    * What pleasures does your game give to players? Can these be improved?
+    * What pleasures are missing from your experience? Why? Can they be added?
+
+    The job of a game is to give pleasure. Always be on the lookout for unique, unclassified pleasures not found in most games--for one of these might be what gives your game the unique quality it needs.
+
+18. **The Lens of Flow:** Consider what is holding your player’s focus. Ask yourself these questions:
+
+    * Does my game have clear goals? If not, how can I fix that?
+    * Are the goals of the player the same goals I intended?
+    * Are there parts of the game that distract players to the point they forget their goal? If so, can these distractions be reduced, or tied into the game goals?
+    * Does my game provide a steady stream of not-too-easy, not-too-hard challenges, taking into account the fact that the player’s skills may be gradually improving?
+    * Are the player’s skills improving at the rate I had hoped? If not, how can I change that? 
+
+19. **The Lens of Needs:** Stop thinking about your game, and start thinking about what basic human needs it fulfills. Ask yourself these questions:
+
+    * On which levels of Maslow’s hierarchy is my game operating?
+    * How can I make my game fulfill more basic needs than it already is?
+    * On the levels my game is currently operating, how can it fulfill those needs even better?
+
+    It sounds strange to talk about a game fulfilling basic human needs, but everything that people do is an attempt to fulfill these needs in some way. And keep in mind, some games fulfill needs better than others — your game can’t just promise the need, it must deliver fulfillment of the need. If a player imagines that playing your game is going to make them feel better about themselves, or get to know their friends better, and your game doesn’t deliver on these needs, your player will move on to a game that does. 
+
+20. **The Lens of Judgment:** To decide if your game is a good judge of the players, ask yourself these questions:
+
+    * What does your game judge about the players?
+    * How does it communicate this judgment?
+    * Do players feel the judgment is fair?
+    * Do they care about the judgment?
+    * Does the judgment make them want to improve?
+
