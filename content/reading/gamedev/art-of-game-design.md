@@ -4,6 +4,8 @@ summary=An introduction to game design.
 ~~~~~~
 *(by Jesse Schell (Morgan-Kaufman, 2008 ISBN 978-0-12-369496-6))*
 
+![Art of Game Design mind map](../../ArtOfGameDesignChapterGraphicsFinal.png)
+
 # In the Beginning, There Is the *Designer*
 What skills does a game designer need?
 
@@ -87,6 +89,8 @@ The Fruits of our Labors (defining a game):
 
 # The Game Consists of *Elements*
 The Four Basic Elements:
+
+![Elemental Tetrad](../../ElementalTetrad.png)
 
 * **Mechanics**: The procedures and rules of your game.
 * **Story**: The sequence of events that unfolds in your game.
@@ -351,11 +355,11 @@ is a matter of opinion.
 
 Trying to create "emergent gameplay," that is, interesting resultant actions, has been likened to tending a garden, since what emerges has a life of its own, but at the same time, it is fragile and easily destroyed. When you notice some interesting effect-oriented actions showing up in your game, you must be able to recognize them, and then do what you can to nurture them and give them a chance to flourish. But what makes these things spring up in the first place? It is not just luck — there are things you can do to increase the chances of interesting effect-oriented actions appearing. Here are five tips for preparing the soil of your game and planting seeds of emergence.
 
-    1. Add more verbs.
-    2. Verbs that can act on many objects.
-    3. Goals that can be achieved more than one way.
-    4. Many subjects.
-    5. Side effects that change constraints.
+1. Add more verbs.
+2. Verbs that can act on many objects.
+3. Goals that can be achieved more than one way.
+4. Many subjects.
+5. Side effects that change constraints.
 
 **Lens #23: The Lens of Emergence**
 
@@ -480,8 +484,6 @@ As much as we like to think that chance and skill are completely separate mechan
 
 # Each Designer has a *Motivation*
 
-# Final Graphic
-![Art of Game Design mind map](../../ArtOfGameDesignChapterGraphicsFinal.png)
 
 # The Lenses
 1. **The Lens of Essential Experience:** To use this lens, you stop thinking about your game and start thinking about the experience of the player. What experience do I want the player to have? What is essential to that experience? How can my game capture that essence? If there is a big different between the experience you want to create and the one you are actually creating, your game needs to change: You need to clearly state the essential experience you desire, and find as many ways as possible to instill this essence into your game.
@@ -569,7 +571,7 @@ As much as we like to think that chance and skill are completely separate mechan
     * Do they care about the judgment?
     * Does the judgment make them want to improve?
 
-21. **The Lens of Functional Space: ** Think about the space in which your game really takes place when all surface elements are stripped away. Ask yourself these questions:
+21. **The Lens of Functional Space:** Think about the space in which your game really takes place when all surface elements are stripped away. Ask yourself these questions:
 
     * Is the space of this game discrete or continuous?
     * How many dimensions does it have?
