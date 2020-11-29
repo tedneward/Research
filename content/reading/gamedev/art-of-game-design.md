@@ -346,10 +346,10 @@ The second kind of actions are **resultant actions**. These are actions that are
     * Move a checker into the "king row" to make it a king
     * ... and many others 
 
-The resultant actions often involve subtle interactions within the game, and are often very strategic moves. These actions are mostly not part of the rules, per se, but rather actions and strategies that emerge naturally as the game is played. Most game designers agree that interesting emergent actions are the hallmark of a good game. Consequently, the ratio of meaningful resultant actions to operation-oriented actions is a good measure of how much emergent behavior your game features. It is an elegant game indeed that allows a player a small number of operation-oriented actions, but a large number of effect-oriented actions. It should be noted that this is a somewhat subjective measure, since the number of “ meaningful ”resultant actions
+The resultant actions often involve subtle interactions within the game, and are often very strategic moves. These actions are mostly not part of the rules, per se, but rather actions and strategies that emerge naturally as the game is played. Most game designers agree that interesting emergent actions are the hallmark of a good game. Consequently, the ratio of meaningful resultant actions to operation-oriented actions is a good measure of how much emergent behavior your game features. It is an elegant game indeed that allows a player a small number of operation-oriented actions, but a large number of effect-oriented actions. It should be noted that this is a somewhat subjective measure, since the number of " meaningful"resultant actions
 is a matter of opinion.
 
-Trying to create “emergent gameplay, ” that is, interesting resultant actions, has been likened to tending a garden, since what emerges has a life of its own, but at the same time, it is fragile and easily destroyed. When you notice some interesting effect-oriented actions showing up in your game, you must be able to recognize them, and then do what you can to nurture them and give them a chance to flourish. But what makes these things spring up in the first place? It is not just luck — there are things you can do to increase the chances of interesting effect-oriented actions appearing. Here are five tips for preparing the soil of your game and planting seeds of emergence.
+Trying to create "emergent gameplay," that is, interesting resultant actions, has been likened to tending a garden, since what emerges has a life of its own, but at the same time, it is fragile and easily destroyed. When you notice some interesting effect-oriented actions showing up in your game, you must be able to recognize them, and then do what you can to nurture them and give them a chance to flourish. But what makes these things spring up in the first place? It is not just luck — there are things you can do to increase the chances of interesting effect-oriented actions appearing. Here are five tips for preparing the soil of your game and planting seeds of emergence.
 
     1. Add more verbs.
     2. Verbs that can act on many objects.
@@ -364,7 +364,77 @@ Trying to create “emergent gameplay, ” that is, interesting resultant action
 ## Mechanic #4: Rules
 The rules are really the most fundamental mechanic. They define the space, the objects, the actions, the consequences of the actions, the constraints on the actions, and the goals. In other words, they make possible all the mechanics we have seen so far and add the crucial thing that makes a game a game — goals.
 
+![Parlett's Rule Analysis](../../ParlettsRuleAnalysis.png)
 
+1. **Operational Rules**: These are the easiest to understand. These are basically, "What the players do to play the game." When players understand the operational rules, they can play a game.
+2. **Foundational Rules**: The foundational rules are the underlying formal structure of the game. The operational rules might say "The player should roll a six-sided die, and collect that many power chips." The foundational rules would be more abstract: "The player’s power value is increased by a random number from 1 to 6." Foundational rules are a mathematical representation of game state and how and when it changes. Boards, dice, chips, health meters, etc., are all just operational ways of keeping track of the foundational game state. As Parlett’s diagram shows, foundational rules inform operational rules. There is not yet any standard notation for representing these rules, and there is some question about whether a complete notation is even possible. In real life, game designers learn to see the foundational rules on an as-needed basis, but seldom do they have any need to formally document the entire set of foundational rules in a completely abstract way.
+3. **Behavioral Rules**: These are rules that are implicit to gameplay, which most people naturally understand as part of "good sportsmanship." For example, during a game of chess, one should not tickle the other player while they are trying to think, or take five hours to make a move. These are seldom stated explicitly — mostly, everyone knows them. The fact that they exist underlines the point that a game is a kind of social contract between players. These, too, inform the operational rules. Steven Sniderman has written an excellent essay about behavioral rules called "Unwritten Rules."
+4. **Written Rules**: These are the "rules that come with the game," the document that players have to read to gain an understanding of the operational rules. Of course, in reality, only a small number of people read this document — most people learn a game by having someone else explain how to play. Why? It is very hard to encode the non-linear intricacies of how to play a game into a document, and similarly hard to decode such a document. Modern videogames have gradually been doing away with written rules in favor of having the game itself teach players how to play through interactive tutorials. This hands-on approach is far more effective, though it can be challenging and time-consuming to design and implement as it involves many iterations that cannot be completed until the game is in its final state. Every game designer must have a ready answer to the question: "How will players learn to play my game?" Because if someone can’t figure out your game, they will not play it.
+5. **Laws**: These only form when games are played in serious, competitive settings, where the stakes are high enough that a need is felt to explicitly record the rules of good sportsmanship, or where there is need to clarify or modify the official written rules. These are often called "tournament rules," since during a serious tournament is when there is the most need for this kind of official clarification.  
+6. **Official Rules**: These are created when a game is played seriously enough that a group of players feels a need to merge the written rules with the laws. Over time, these official rules later become the written rules. In chess, when a player makes a move that puts the opponent’s king in danger of checkmate, that player is obligated to warn the opponent by saying "check."At one time, this was a " law,"not a written rule, but now it is part of the " official rules." 
+7. **Advisory Rules**: Often called "rules of strategy," these are just tips to help you play better, and not really " rules"at all from a game mechanics standpoint.
+8. **House Rules**: These rules are not explicitly described by Parlett, but he does point out that as players play a game, they may find they want to tune the operational rules to make the game more fun. This is the " feedback"on his diagram, since house rules are usually created by players in response to a deficiency perceived after a few rounds of play. 
+
+### Modes
+When your game changes modes in a dramatic way like this, it is very important that you let your players know which mode you are in. Too many modes and the players can get confused. Very often, there is one main mode, with several sub-modes, which is a good hierarchical way to organize the different modes. Game designer Sid Meier proposes an excellent rule of thumb: players should never spend so much time in a sub-game that they forget what they were doing in the main game.
+
+### The Enforcer
+How the rules are enforced.
+
+### The Most Important Rule
+Games have a lot of rules — how to move and what you can and cannot do — but there is one rule at the foundation of all the others: The Object of the Game. Games are about achieving goals — you must be able to state your game’s goal, and state it clearly. Good game goals have three important qualities:
+1. **Concrete**. Players understand and can clearly state what they are supposed to achieve.
+2. **Achievable**. Players need to think that they have a chance of achieving the goal. If it seems impossible to them, they will quickly give up. 
+3. **Rewarding**. A lot goes into making an achieved goal rewarding. If the goal has the right level of challenge, just achieving it at all is a reward in itself. But why not go further? You can make your goal even more rewarding by giving the player something valuable upon reaching the goal — use the Lens of Pleasure to find different ways to reward the player, and really make them proud of their achievement. And while it is important to reward players that achieve a goal, it is equally (or more) important that players appreciate that the goal is rewarding before they have achieved it, so that they are inspired to attempt to achieve it. Don’t overinflate their expectations, though, for if they are disappointed with the reward for achieving a goal, they will not play again! 
+
+**Lens #25: The Lens of Goals**
+
+**Lens #26: The Lens of Rules**
+
+## Mechanic #5: Skill
+The mechanic of skill shifts the focus away from the game and onto the player. Every game requires players to exercise certain skills. If the player’s skill level is a good match to the game’s difficulty, the player will feel challenged and stay in the flow channel. When you design a game, it is a worthwhile exercise to make a list of the skills that your game requires from the player. Even though there are thousands of possible skills that can go into a game, skills can generally be divided into three main categories:
+1. **Physical Skills**. These include skills involving strength, dexterity, coordination, and physical endurance. Physical skills are an important part of most sports. Effectively manipulating a game controller is a kind of physical skill, but many videogames (such as Dance Dance Revolution and the Sony Eyetoy) require a broader range of physical skills from players.
+2. **Mental Skills**. These include the skills of memory, observation, and puzzle solving. Although some people shy away from games that require too much in the way of mental skills, it is the rare game that doesn’t involve some mental skills, because games are interesting when there are interesting decisions to make, and decision making is a mental skill.
+3. **Social Skills**. These include, among other things, reading an opponent (guessing what he is thinking), fooling an opponent, and coordinating with teammates. Typically we think of social skills in terms of your ability to make friends and influence people, but the range of social and communication skills in games is much wider. Poker is largely a social game, because so much of it rests on concealing your thoughts and guessing the thoughts of others. Sports are very social, as well, with their focus on teamwork and on "psyching out" your opponents. 
+
+### Enumerating Skills
+Making a list of all the skills required in your game can be a very useful exercise. You might make a general list: "my game requires memory, problem solving, and pattern matching skills." Or you might make it very specific: "my game requires players to quickly identify and mentally rotate specific two-dimensional shapes in their heads, while solving a grid-based packing problem."
+
+**Lens #27: The Lens of Skill**
+
+## Mechanic #6: Chance
+Chance is an essential part of a fun game because chance means uncertainty, and uncertainty means surprises. 
+
+### Ten Rules of Probability Every Game Designer Should Know
+1. Fractions are Decimals are Percents
+2. Zero to One — and That’s It! 
+3. "Looked For" Divided By "Possible Outcomes" Equals Probability 
+4. Enumerate!
+5. In Certain Cases, OR Means Add
+6. In Certain Cases, AND Means Multiply
+7. One Minus "Does" = "Doesn’t" 
+8. The Sum of Multiple Linear Random Selections is NOT a Linear Random Selection! 
+9. Roll the Dice
+10. Geeks Love Showing Off (Gombauld’s Law)
+
+### Expected Value
+The expected value of a transaction in a game is the average of all the possible values that could result. And consider values carefully; take care to measure the real values of actions in the game. If something gives a benefit that a player can't use, or contains a hidden penalty, you must capture it in your calculations.
+
+### The Human Element
+You must also keep in mind that expected value calculations do not perfectly predict human behavior. (Behavioral economics, loss aversion, etc)
+
+**Lens #28: The Lens of Expected Value**
+
+### Skill and Chance Get Tangled
+As much as we like to think that chance and skill are completely separate mechanics, there are important interactions between them that we cannot ignore. Here are five of the most important skill/chance interactions for a game designer to consider. 
+
+1. Estimating chance is a skill.
+2. Skills have a probability of success.
+3. Estimating an opponent’s skill is a skill
+4. Predicting pure chance is an imagined skill.
+5. Controlling pure chance is an imagined skill.
+
+**Lens #29: The Lens of Chance**
 
 # Game Mechanics Must be in *Balance*
 
@@ -536,4 +606,55 @@ The rules are really the most fundamental mechanic. They define the space, the o
 
     Can I somehow enable these, either as operational or resultant actions? A game without actions is like a sentence without verbs — nothing happens. Deciding the actions in your game will be the most fundamental decision you can make as a game designer. Tiny changes to these actions will have tremendous ripple effects with the possibility of either creating marvelous emergent gameplay or making a game that is predictable and tedious. Choose your actions carefully, and learn to listen to your game and your players to learn what is made possible by your choices. 
 
-25. 
+25. **The Lens of Goals:** To ensure the goals of your game are appropriate and well-balanced, ask yourself these questions:
+
+    * What is the ultimate goal of my game?
+    * Is that goal clear to players?
+    * If there is a series of goals, do the players understand that?
+    * Are the different goals related to each other in a meaningful way?
+    * Are my goals concrete, achievable, and rewarding?
+    * Do I have a good balance of short- and long-term goals?
+    * Do players have a chance to decide on their own goals?
+
+26. **The Lens of Rules:** Look deep into your game, until you can make out its most basic structure. Ask yourself these questions:
+
+    * What are the foundational rules of my game? How do these differ from the operational rules?
+    * Are there "laws" or "house rules" that are forming as the game develops? Should these be incorporated into my game directly?
+    * Are there different modes in my game? Do these modes make things simpler, or more complex? Would the game be better with fewer modes? More modes?
+    * Who enforces the rules?
+    * Are the rules easy to understand, or is there confusion about them? If there is confusion, should I fix it by changing the rules or by explaining them more clearly?
+
+    There is a common misconception that designers make games by sitting down and writing a set of rules. This usually isn’t how it happens at all. A game’s rules are arrived at gradually and experimentally. The designer’s mind generally works in the domain of "operational rules," occasionally switching to the perspective of "foundational rules" when thinking about how to change or improve the game. The "written rules" usually come toward the end, once the game is playable. Part of the designer’s job is to make sure there are rules that cover every circumstance. Be sure to take careful notes as you playtest, because it is during these tests that holes in your rules will appear — if you just patch them quickly and don’t make a note, the same hole will just show up again later. A game is its rules — give them the time and consideration that they deserve. 
+
+27. **The Lens of Skill:** Stop looking at your game, and start looking at the skills you are asking of your players. Ask yourself these questions:
+
+    * What skills does my game require from the player?
+    * Are there categories of skill that this game is missing?
+    * Which skills are dominant?
+    * Are these skills creating the experience I want?
+    * Are some players much better at these skills than others? Does this make the game feel unfair?
+    * Can players improve their skills with practice?
+    * Does this game demand the right level of skill?
+
+    Exercising skills can be a joyful thing — it is one of the reasons that people love games. Of course, it is only joyful if the skills are interesting and rewarding, and if the challenge level strikes that ideal balance between “too easy ” and “too hard. ” Even dull skills (such as pushing buttons) can be made more interesting by dressing them up as virtual skills and providing the right level of challenge. Use this lens as a window into the experience the player is having. Because skills do so much to define experience, the Lens of Skill works quite well in conjunction with Lens #1: The Lens of Essential Experience. 
+
+28. **The Lens of Expected Value:** Think about the chance of different events occurring in your game, and what those mean to your player. Ask yourself these questions:
+
+    * What is the actual chance of a certain event occurring?
+    * What is the perceived chance?
+    * What value does the outcome of that event have? Can the value be quantified? Are there intangible aspects of value that I am not considering?
+    * Each action a player can take has a different expected value when I add up all the possible outcomes. Am I happy with these values? Do they give the player interesting choices? Are they too rewarding, or too punishing?
+
+    Expected value is one of your most valuable tools for analyzing game balance. The challenge of using it is finding a way to numerically represent everything that can happen to a player. Gaining and losing money is easy to represent. But what is the numerical value of “boots of speed ” that let you run faster, or a “warp gate ” that lets you skip two levels? These are difficult to quantify perfectly — but that doesn’t mean you can’t take a guess. As you go through multiple iterations of game testing, tweaking parameters and values in your game, you will also be tweaking your own estimations of the values of different outcomes. Quantifying these less tangible elements can be quite enlightening, because it makes you think concretely about what is valuable to the player and why — and this concrete knowledge will put you in control of the balance of your game.
+
+29. **The Lens of Chance:** Focus on the parts of your game that involve randomness and risk, keeping in mind that those two things are not the same. Ask yourself these questions:
+
+    * What in my game is truly random? What parts just feel random?
+    * Does the randomness give the players positive feelings of excitement and challenge, or does it give them negative feelings of hopelessness and lack of control?
+    * Would changing my probability distribution curves improve my game?
+    * Do players have the opportunity to take interesting risks in the game?
+    * What is the relationship between chance and skill in my game? Are there ways I can make random elements feel more like the exercise of a skill? Are there ways I can make exercising skills feel more like risk-taking?
+
+    Risk and randomness are like spices. A game without any hint of them can be completely bland, but put in too much and they overwhelm everything else. But get them just right, and they bring out the flavor of everything else in your game. Unfortunately, using them in your game is not as simple as sprinkling them on top. You must look into your game to see where elements of risk and randomness naturally arise, and then decide how you can best tame them to do your bidding. Don’t fall into the trap of thinking that elements of chance only occur around die rolls or randomly generated numbers. On the contrary, you can find them wherever a player encounters the unknown. 
+
+30.
