@@ -297,6 +297,74 @@ The fourth level of Maslow’s hierarchy, self-esteem, is the one most intimatel
 **Lens #20: The Lens of Judgment**
 
 # Some Elements are *Game Mechanics*
+On one level, game mechanics are very objective, clearly stated sets of rules. On another level, though, they involve something more mysterious. Earlier, we discussed how the mind breaks down all games into mental models that it can easily manipulate. Part of game mechanics necessarily involves describing the structure of these mental models. Since these exist largely in the darkness of the subconscious mind, it is hard for us come up with a well-defined analytical taxonomy of how they work. 
+
+## Mechanic 1: Space
+As a game mechanic, space is a mathematical construct. We need to strip away all visuals, all aesthetics, and simply look at the abstract construction of a game’s space. There are no hard and fast rules for describing these abstract, stripped-down game spaces. Generally, though, game spaces:
+
+1. Are either discrete or continuous
+2. Have some number of dimensions
+3. Have bounded areas which may or may not be connected
+
+### Nested Spaces
+Many game spaces are more complex than the examples we have looked at here. Often they feature "spaces within spaces." Computer-based fantasy role-playing games are a good example of this. Most of them feature an "outdoor space" that is continuous and two-dimensional. A player traveling this space sometimes encounters little icons representing towns, or caves, or castles. Players can enter these as completely separate spaces, not really connected in any way to the "outdoor space" but through the gateway icon.
+
+### Zero Dimensions
+Does every game take place in a space? Consider a game like "Twenty Questions," where one player thinks of an object, and the other player asks "yes or no" questions trying to guess what it is. There is no game board and nothing moves — the game is just two people talking. You might argue that this game has no space. On the other hand, you might find it useful to think of the game happening in a space containing three nodes on a line: the mind of the questioner, the conversation space, and the mind of the answerer. The mind of the answerer contains the secret object. The mind of the questioner is where all the weighing of the previous answers is going on, and the conversation space between them is how they exchange information. Every game has some kind of information or "state" (as we’ll see later in Mechanic 2), and this has to exist somewhere. So, even if a game takes place in a single point of zero dimensions, it can be useful to think of it as a space. You may find that figuring out an abstract model for a game whose space seems to be trivial may lead you to insights about it that surprise you. 
+
+**Lens #21: The Lens of Functional Space**
+
+## Mechanic 2: Objects, Attributes, and States
+A space without anything in it is, well, just a space. Your game space will surely have **objects** in it. Characters, props, tokens, scoreboards, anything that can be seen or manipulated in your game falls into this category. Objects are the "nouns" of game mechanics. Technically, there are times you might consider the space itself an object, but usually the space of your game is different enough from other objects that it stands apart. Objects generally have one or more **attributes**, one of which is often the current position in the game space.
+
+Attributes are categories of information about an object. For example, in a racing game, a car might have maximum speed and current speed as attributes. Each attribute has a current **state**. The state of the "maximum speed" attribute might be 150 mph, while the state of the "current speed" attribute might be 75 mph if that is how fast the car is going. Maximum speed is not a state that will change much, unless perhaps you upgrade the engine in your car. Current speed, on the other hand, changes constantly as you play.
+
+If objects are the nouns of game mechanics, attributes and their states are the adjectives.
+
+Attributes can be static (such as the color of a checker), never changing throughout the game, or dynamic (the checker has a "movement mode" attribute with three possible states: "normal," "king," and "captured"). Primarily, we are interested in dynamic attributes. 
+
+### Secrets
+A very important decision about game attributes and their states is who is aware of which ones.
+
+**Lens #22: The Lens of Dynamic State**
+
+## Mechanic #3: Actions
+The next important game mechanic is the **action**. Actions are the "verbs" of game mechanics. There are two perspectives on actions, or put another way, two ways to answer the question "What can the players do?"
+
+The first kind of actions are the **operative actions**. These are simply the base actions a player can take. For example, in checkers a player can perform only three basic operations:
+
+    1. Move a checker forward
+    2. Jump an opponent’s checker
+    3. Move a checker backwards (kings only) 
+
+The second kind of actions are **resultant actions**. These are actions that are only meaningful in the larger picture of the game — they have to do with how the player is using operational actions to achieve a goal. The list of resultant actions is generally longer than the list of operational actions. Consider the possible resultant actions in checkers:
+
+    * Protect a checker from being captured by moving another checker behind it
+    * Force an opponent into making an unwanted jump
+    * Sacrifice a checker to trick his opponent
+    * Build a "bridge" to protect his back row
+    * Move a checker into the "king row" to make it a king
+    * ... and many others 
+
+The resultant actions often involve subtle interactions within the game, and are often very strategic moves. These actions are mostly not part of the rules, per se, but rather actions and strategies that emerge naturally as the game is played. Most game designers agree that interesting emergent actions are the hallmark of a good game. Consequently, the ratio of meaningful resultant actions to operation-oriented actions is a good measure of how much emergent behavior your game features. It is an elegant game indeed that allows a player a small number of operation-oriented actions, but a large number of effect-oriented actions. It should be noted that this is a somewhat subjective measure, since the number of “ meaningful ”resultant actions
+is a matter of opinion.
+
+Trying to create “emergent gameplay, ” that is, interesting resultant actions, has been likened to tending a garden, since what emerges has a life of its own, but at the same time, it is fragile and easily destroyed. When you notice some interesting effect-oriented actions showing up in your game, you must be able to recognize them, and then do what you can to nurture them and give them a chance to flourish. But what makes these things spring up in the first place? It is not just luck — there are things you can do to increase the chances of interesting effect-oriented actions appearing. Here are five tips for preparing the soil of your game and planting seeds of emergence.
+
+    1. Add more verbs.
+    2. Verbs that can act on many objects.
+    3. Goals that can be achieved more than one way.
+    4. Many subjects.
+    5. Side effects that change constraints.
+
+**Lens #23: The Lens of Emergence**
+
+**Lens #24: The Lens of Action**
+
+## Mechanic #4: Rules
+The rules are really the most fundamental mechanic. They define the space, the objects, the actions, the consequences of the actions, the constraints on the actions, and the goals. In other words, they make possible all the mechanics we have seen so far and add the crucial thing that makes a game a game — goals.
+
+
 
 # Game Mechanics Must be in *Balance*
 
@@ -343,7 +411,7 @@ The fourth level of Maslow’s hierarchy, self-esteem, is the one most intimatel
 # Each Designer has a *Motivation*
 
 # Final Graphic
-![Art of Game Design mind map](../ArtOfGameDesignChapterGraphicsFinal.png)
+![Art of Game Design mind map](../../ArtOfGameDesignChapterGraphicsFinal.png)
 
 # The Lenses
 1. **The Lens of Essential Experience:** To use this lens, you stop thinking about your game and start thinking about the experience of the player. What experience do I want the player to have? What is essential to that experience? How can my game capture that essence? If there is a big different between the experience you want to create and the one you are actually creating, your game needs to change: You need to clearly state the essential experience you desire, and find as many ways as possible to instill this essence into your game.
@@ -431,3 +499,41 @@ The fourth level of Maslow’s hierarchy, self-esteem, is the one most intimatel
     * Do they care about the judgment?
     * Does the judgment make them want to improve?
 
+21. **The Lens of Functional Space: ** Think about the space in which your game really takes place when all surface elements are stripped away. Ask yourself these questions:
+
+    * Is the space of this game discrete or continuous?
+    * How many dimensions does it have?
+    * What are the boundaries of the space?
+    * Are there sub-spaces? How are they connected?
+    * Is there more than one useful way to abstractly model the space of this game?
+
+22. **The Lens of Dynamic State:** Think about what information changes during your game, and who is aware of it. Ask yourself these questions:
+    
+    * What are the objects in my game?
+    * What are the attributes of the objects?
+    * What are the possible states for each attribute? What triggers the state changes for each attribute?
+    * What state is known by the game only?
+    * What state is known by all players?
+    * What state is known by some, or only one player?
+    * Would changing who knows what state improve my game in some way?
+
+    Game playing is decision making. Decisions are made based on information. Deciding the different attributes, their states, and who knows about them is core to the mechanics of your game. Small changes to who knows what information can radically change a game, sometimes for the better, sometimes for the worse. Who knows about what attributes can even change over the course of a game — a great way to create drama in your game is to make an important piece of private information suddenly become public. 
+
+23. **The Lens of Emergence:** To make sure your game has interesting qualities of emergence, ask yourself these questions:
+
+    * How many verbs do my players have?
+    * How many objects can each verb act on?
+    * How many ways can players achieve their goals?
+    * How many subjects do the players control?
+    * How do side effects change constraints? 
+
+24. **The Lens of Action:** To use this lens, think about what your players can do and what they can’t, and why. Ask yourself these questions:
+    * What are the operational actions in my game?
+    * What are the resultant actions?
+    * What resultant actions would I like to see? How can I change my game in order to make those possible?
+    * Am I happy with the ratio of resultant to operational actions?
+    * What actions do players wish they could do in my game that they cannot?
+
+    Can I somehow enable these, either as operational or resultant actions? A game without actions is like a sentence without verbs — nothing happens. Deciding the actions in your game will be the most fundamental decision you can make as a game designer. Tiny changes to these actions will have tremendous ripple effects with the possibility of either creating marvelous emergent gameplay or making a game that is predictable and tedious. Choose your actions carefully, and learn to listen to your game and your players to learn what is made possible by your choices. 
+
+25. 
