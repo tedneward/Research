@@ -1,9 +1,303 @@
 title=Art of Game Design
 tags=reading, books, gamedev
-summary=Various 'lenses' by which to view game design.
+summary=An introduction to game design.
 ~~~~~~
 *(by Jesse Schell (Morgan-Kaufman, 2008 ISBN 978-0-12-369496-6))* 
 
+# In the Beginning, There Is the *Designer*
+What skills does a game designer need?
+
+* Animation
+* Anthropology
+* Architecture
+* Brainstorming
+* Business
+* Cinematography
+* Communication
+* Creative Writing
+* Economics
+* Engineering
+* History
+* Management
+* Mathematics
+* Music
+* Psychology
+* Public Speaking
+* Sound Design
+* Technical Writing
+* Visual Arts
+
+The most important skill: Listening. The Five Kinds of Listening: to your team, to your audience, to your game, to your client, and to your self.
+
+# The Designer Creates an *Experience*
+
+The game is not the experience; the game enables the experience, but it is not the experience itself. "If a tree falls in the forest, and no one is around to hear it, does it make a sound?" If "sound" is the experience of hearing a noise, then the answer is no, it doesn't. Game designers only care about what *seems* to exist.
+
+Three practical approaches to chasing rainbows: psychology, anthropology, design (musicians, architects, authors, filmmakers, industrial designers, Web designers, choreographers, visual designers, and more).
+
+Introspection: Powers, Perils, and Practice
+
+* Peril #1: Introspection can lead to false conclusions about reality.
+
+* Peril #2: What is true of my experiences may not be true for others.
+
+* Dissect your feelings. *Why* you feel a certain way, not just feeling it.
+
+* Heisenburg (observing a thing interferes with the thing) and experience. To defeat Heisenburg...
+    * Analyze memories.
+    * Two passes. Run through the experience twice.
+    * Sneak glances. Take a few short glances at the experience, but don't analyze in depth.
+    * Observe silently.
+
+**Lens #1: The Lens of Essential Experience**
+
+# The Experience Rises Out of a *Game*
+How do we define a "game"?
+
+**Lens #2: The Lens of Surprise** 
+
+**Lens #3: The Lens of Fun**
+
+**Lens #4: The Lens of Curiosity**
+
+Key qualities of games:
+
+1. Games are entered willfully.
+2. Games have goals.
+3. Games have conflict.
+4. Games have rules.
+5. Games can be won and lost.
+6. Games are interactive.
+7. Games have challenge.
+8. Games can create their own internal value.
+9. Games engage players.
+10. Games are closed, formal systems.
+
+**Lens #5: The Lens of Endogenous Value**
+
+**Lens #6: The Lens of Problem Solving**
+
+The Fruits of our Labors (defining a game):
+
+* Fun is pleasure with surprises.
+* Play is manipulation that satisfies curiosity.
+* A toy is an object you play with.
+* A good toy is an object that is fun to play with.
+* A game is a problem-solving activity, approached with a playful attitude.
+
+# The Game Consists of *Elements*
+The Four Basic Elements:
+
+* **Mechanics**: The procedures and rules of your game.
+* **Story**: The sequence of events that unfolds in your game.
+* **Aesthetics**: How your game looks, sounds, smells, tastes, and feels.
+* **Technology**: Any materials an interactions that make your game possible, such as paper and pencil, plastic chits, or high-powered lasers.
+
+**Lens #7: The Lens of the Elemental Tetrad**
+
+**Lens #8: The Lens of Holographic Design**
+
+# The Elements Support a *Theme*
+Unifying themes; step 1, figure out what your theme is; step 2, use every means possible to reinforce that theme.
+
+**Lens #9: The Lens of Unification**
+
+Some themes are better than others because they resonate with people more closely.
+
+**Lens #10: The Lens of Resonance**
+
+# The Game Begins with an *Idea*
+Inspiration: don't look to the others around you, look everywhere else.
+
+**Lens #11: The Lens of Infinite Inspiration**
+
+**State the Problem**. Get the problem statement right. This creates three advantages:
+
+* **Broader creative space.**
+* **Clear measurement.**
+* **Better communication.**
+
+**Lens #12: The Lens of the Problem Statement**
+
+## Your Subconscious
+* Common characteristics: Can't talk (or chooses not to); Impulsive; Emotional; Playful; Irrational
+* Subconscious Tip #1: Pay Attention
+* Subconscious Tip #2: Record Your Ideas
+* Subconscious Tip #3: Manage Its Appetites (Judiciously)
+* Subconscious Tip #4: Sleep
+* Subconscious Tip #5: Don't Push Too Hard
+
+## Fifteen Nitty-Gritty Brainstorming Tips
+
+1. The Write Answer: write them (all) down.
+2. Write or Type?: whatever works best.
+3. Sketch
+4. Toys
+5. Change Your Perspective
+6. Immerse Yourself
+7. Crack Jokes
+8. Spare No Expense
+9. The Writing on the Wall
+10. The Space Remembers
+11. Write Everything
+12. Number Your Lists
+13. Mix and Match Categories
+        * Technology Ideas: Cell-phone platform; Handheld game; PC; Integrated with SMS; Game console; ...
+        * Mechanics Ideas: Sims-like game; Interactive fiction game; The winner makes the most friends; Try to spread rumors about the other players; Try to help as many people as possible; Tetris-like game; ...
+        * Story Ideas: High-school drama; College-themed; You play cupid; You're a TV star; Hospital theme; Music theme--you're a rock star, you're a dancer; ...
+        * Aesthetic Ideas: Cel shaded; Anime style; All characters are animals; R&B music defines the game; Edgy rock/punk music defines the feel
+14. Talk To Yourself
+15. Find a Partner
+
+# The Game Improves Through *Iteration*
+The Eight Filters; only when your idea passes through each of these is it "good enough":
+
+1. **Artistic Impulse.** Ask yourself if the game "feels right" to you. **Does this game feel right?**
+2. **Demographics.** Consider whether the design is right for the demographic you are targeting. **Will the intended audience like this game well enough?**
+3. **Experience Design.** Take into account everything you know about creating a good experience, including aesthetics, interest curves, resonant theme, game balancing, and many more. **Is this a well-designed game?**
+4. **Innovation.** There needs to be something new about it. **Is this game novel enough?**
+5. **Business and Marketing.** **Will this game sell?**
+6. **Engineering.** How are we going to build this? **Is it technically possible to build this game?**
+7. **Social/Community.** **Does this game meet our social and community goals?**
+8. **Playtesting.** **Do the playtesters enjoy the game enough?**
+
+**Lens #13: The Lens of the Eight Filters**
+
+The Rule of the Loop: The more times you test and improve your design, the better your game will be.
+
+* How can I make every loop count?
+* How can I loop as fast as possible?
+
+**Lens #14: The Lens of Risk Mitigation**
+
+Eight Tips for Productive Prototyping:
+1. Answer a Question.
+2. Forget Quality
+3. Don't Get Attached
+4. Prioritize Your Prototypes
+5. Parallelize Prototypes Productively
+6. It Doesn't Have to be Digital
+7. Pick a "Fast Loop" Game Engine
+8. Build the Toy First
+
+**Lens #15: The Lens of the Toy**
+
+# The Game is Made for a *Player*
+You must know what your audience will and will not like.
+
+## Demographics
+* **0-3: Infant/Toddler.** Very interested in toys (not games).
+* **4-6: Preschooler.** Games are very simple, and played with parents.
+* **7-9: Kids.** The age of seven is "the age of reason"; this is when kids are learning to read, able to think things through, and begin making their own decisions.
+* **10-13: Preteen or 'Tween'.** Going through a period of neurological growth and are suddenly able to think about things more deeply and with more nuance. "The Age of Obsession".
+* **13-18: Teen.** Start getting ready for adulthood. We see a significant divergense in interests between males and females; boys continue-to/grow-more interested in competition and mastery; girls become more focused on real-world issues and communication.
+* **19-24: Young Adult.** Adults in general play less than children do. Young adults usually have time and money on their hands, making them big consumers of games.
+* **25-35: Twenties and Thirties.** Time starts to beome more precious. "The Age of Peak Family Formation." Most adults in this age bracket are only casual game players, but "hardcore gamers" are an important target market.
+* **35-50: Thirties and Forties.** The "family maturation stage"; only casual game players.
+* **50+: Fifties and Up.** The "empty nesters", suddenly have a lot of time on their hands.
+
+Five Things Males Like to See in Games:
+
+1. **Mastery.** It doesn't have to be useful, only challenging.
+2. **Competition.**
+3. **Destruction.**
+4. **Spatial Puzzles.** Puzzles that involve navigating 3D spaces are often quite intriguing.
+5. **Trial and Error.** Males tend to have a preference for learning things through trial and error.
+
+Five Things Females Like to See in Games:
+
+1. **Emotion.** Experiences that explore the richness of human emotion.
+2. **Real World.** Entertainment that connects meaningfully to the real world.
+3. **Nurturing.**
+4. **Dialog and Verbal Puzzles.**
+5. **Learning by Example.**
+
+**Lens #16: The Lens of the Player**
+
+## Psychographics
+Leblanc's Taxonomy of Game Pleasures
+
+1. **Sensation.**
+2. **Fantasy.**
+3. **Narrative.**
+4. **Challenge.**
+5. **Fellowship.**
+6. **Discovery.**
+7. **Expression.**
+8. **Submission.**
+
+Bartle's Taxonomy of Player Types
+
+* (Diamond) **Achievers** want to achieve the goals of the game. Their primary pleasure is Challenge.
+* (Spade) **Explorers** want to get to know the breadth of the game. Their primary pleasure is Discovery.
+* (Heart) **Socializers** are interested in relationships with other people. They primiarily seek the pleasures of Fellowship.
+* (Club) **Killers** are interested in competing with and defeating others. 
+
+A few more pleasures to be considered (beyond the two taxonomies):
+
+* **Anticipation.**
+* **Delight in Another's Misfortune.** *schadenfreude*
+* **Gift Giving.**
+* **Humor.**
+* **Possibility.**
+* **Pride in an Accomplishment.**
+* **Purification.** Making something clean or "clear the level".
+* **Surprise.**
+* **Thrill.**
+* **Triumph over Adversity.**
+* **Wonder.**
+
+**Lens #17: The Lens of Pleasure**
+
+# The Experience is in the *Player's Mind*
+
+# Some Elements are *Game Mechanics*
+
+# Game Mechanics Must be in *Balance*
+
+# Game Mechanics Support *Puzzles*
+
+# Players Play Games Through an *Interface*
+
+# Experiences can be Judged by their *Interest Curves*
+
+# One Kind of Experience is *Story*
+
+# Story and Game Structures can be Arfully Merged with *Indirect Control*
+
+# Stories and Games Take Place in *Worlds*
+
+# Worlds Contain *Characters*
+
+# Worlds Contain *Spaces*
+
+# The Look and Feel of a World Is Defined by Its *Aesthetics*
+
+# Some Games are Played with *Other Players*
+
+# Other Players Sometimes Form *Communities*
+
+# The Designer Usually Works with a *Team*
+
+# The Team Sometimes Communicates Through *Documents*
+
+# Good Games Are Created Through *Playtesting*
+
+# The Team Builds a Game with *Technology*
+
+# Your Game Will Probably Have a *Client*
+
+# The Designer Gives the CLient a *Pitch*
+
+# The Designer and Client Want the Game to Make a *Profit*
+
+# Games *Transform* Their Players
+
+# Designers Have Certain *Responsibilities*
+
+# Each Designer has a *Motivation*
+
+# The Lenses
 1. **The Lens of Essential Experience:** To use this lens, you stop thinking about your game and start thinking about the experience of the player. What experience do I want the player to have? What is essential to that experience? How can my game capture that essence? If there is a big different between the experience you want to create and the one you are actually creating, your game needs to change: You need to clearly state the essential experience you desire, and find as many ways as possible to instill this essence into your game.
 
 2. **The Lens of Surprise:** Surprise is so basic that we can easily forget about it. Use this lens to remind yourself to fill your game with interesting surprises. What will surprise players when they play my game? Does the story in my game have surprises? Do the game rules? Does the artwork? The technology?
@@ -41,100 +335,26 @@ summary=Various 'lenses' by which to view game design.
 
 14. **The Lens of Risk Mitigation:** Stop thinking positively, and start seriously considering the things that could go horribly wrong with your game. What could keep this game from being great? How can we stop that from happening? Risk management is hard. It means you have to face up to the problems you would most like to avoid, and solve them immediately. But if you discipline yourself to do it, you'll loop more times, and more usefully, and get a better game as a result. It is tempting to ignore potential problems and just work on the parts of your game you feel most confident about. You must resist this temptation and focus on the parts of your game that are in danger.
 
+15. **The Lens of the Toy:** Stop thinking about whether your game is fun to play, and start thinking about whether it is fun to play *with*. Ask yourself these questions:
 
+* If my game had no goal, would it be fun at all? If not, how can I change that?
+* When people see my game, do they want to start interacting with it, even before they know what to do? If not, how can I change that?
 
-# What skills does a game designer need?
+There are two ways to use this lens. One way is to use it on an existing game, to figure out how to add more toy-like qualities to it--that is, how to make it more approachable, and more fun to manipulate. The second way (the braver way) is to use it to invent and create new toys before you even have any idea what games will be played with them. This is risky if you are on a schedule--but if you are not, it can be a great "divining rod" to help you find wonderful games you might not have discovered otherwise.
 
-* Animation
-* Anthropology
-* Architecture
-* Brainstorming
-* Business
-* Cinematography
-* Communication
-* Creative Writing
-* Economics
-* Engineering
-* History
-* Management
-* Mathematics
-* Music
-* Psychology
-* Public Speaking
-* Sound Design
-* Technical Writing
-* Visual Arts
+16. **The Lens of the Player:** Stop thinking about your game, and start thinking about your player. Ask yourself these questions about the people who will play your game:
 
+* In general, what do they like?
+* What don't they like? Why?
+* What do they expect to see in a game?
+* If I were in their place, what would I want to see in a game?
+* What would they like or dislike about my game in particular?
 
-# Five Kinds of Listening: listen to your team, audience, game, client and self
+A good game designer should always be thinking of the player, and should be an advocate for the player. Skilled designers hold The Lens of the Player and the Lens of Holographic Design in the same hand, thinking about the player, the experience of the game, and the mechanics of the game all at the same time. THinking about hte player is useful, but evne more useful is watching them play your game. The more you observe them playing, the more easily you'll be able to predict what they are going to enjoy.
 
+17. **The Lens of Pleasure:** Think about the kinds of pleasure your game does and does not provide. Ask yourself these questions:
+* What pleasures does your game give to players? Can these be improved?
+* What pleasures are missing from your experience? Why? Can they be added?
+The job of a game is to give pleasure. Always be on the lookout for unique, unclassified pleasures not found in most games--for one of these might be what gives your game the unique quality it needs.
 
-# Introspection: Powers, Perils and Practice
-
-* Peril #1: Introspection can lead to false conclusions about reality
-* Peril #2: What is true of my experiences may not be true for others
-
-
-# Defeating Heisenberg
-
-* Analyze Memories
-* Two Passes (once for feeling, second for analysis)
-* Sneak Glances
-* Observe Silently
-
-
-# The Elemental Tetrad
-Mechanics, Story, Aesthetics, Technology
-
-# State the Problem
-You get a broader creative space, a clear measurement of the quality of proposed ideas, and better communication
-
-
-# Your Subconscious
-
-* Common characteristics: Can't talk (or chooses not to); Impulsive; Emotional; Playful; Irrational
-* Subconscious Tip #1: Pay Attention
-* Subconscious Tip #2: Record Your Ideas
-* Subconscious Tip #3: Manage Its Appetites (Judiciously)
-* Subconscious Tip #4: Sleep
-* Subconscious Tip #5: Don't Push Too Hard
-
-
-# Fifteen Nitty-Gritty Brainstorming Tips
-
-1. The Write Answer
-2. Write or Type?
-3. Sketch
-4. Toys
-5. Change Your Perspective
-6. Immerse Yourself
-7. Crack Jokes
-8. Spare No Expense
-9. The Writing on the Wall
-10. The Space Remembers
-11. Write Everything
-12. Number Your Lists
-13. Mix and Match Categories
-14. Talk To Yourself
-15. Find a Partner
-
-# Categories (from #14)
-* Technology Ideas: Cell-phone platform; Handheld game; PC; Integrated with SMS; Game console; ...
-* Mechanics Ideas: Sims-like game; Interactive fiction game; The winner makes the most friends; Try to spread rumors about the other players; Try to help as many people as possible; Tetris-like game; ...
-* Story Ideas: High-school drama; College-themed; You play cupid; You're a TV star; Hospital theme; Music theme--you're a rock star, you're a dancer; ...
-* Aesthetic Ideas: Cel shaded; Anime style; All characters are animals; R&B music defines the game; Edgy rock/punk music defines the feel
-
-
-
-
-# Eight Tips for Productive Prototyping
-
-1. Answer a Question.
-2. Forget Quality
-3. Don't Get Attached
-4. Prioritize Your Prototypes
-5. Parallelize Prototypes Productively
-6. It Doesn't Have to be Digital
-7. Pick a "Fast Loop" Game Engine
-8. Build the Toy First
-
+18. 
