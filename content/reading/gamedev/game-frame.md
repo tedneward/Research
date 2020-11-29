@@ -91,7 +91,6 @@ Evolutionary psychology tells us that having fun increases our chances of surviv
 Hard fun suggests the distinction between fun as pleasure (a roller coaster ride), and fun as enjoyment (building a beautiful sand castle), in which the latter is clearly the hard fun. Hard fun has the potential to be infinitely more rewarding, and is the by-product of a well-designed game.
 
 # Level Four
-
 Brain is particularly sensitive to novelty. In terms of novelty, games are incredibly rich territory. Good games give you countless features to unlock or discover, including new weapons, levels, etc. Beyond that, games unfold a narrative in which you are the protangonist--where your willingness to explore leads to more and more adventure. The ultimate surprise in gaming comes from achieving an "epic win": "An outcome that is so extraordinarily positive you had no idea it was even possible until you achieved it."
 
 ## Getting to Know Games
