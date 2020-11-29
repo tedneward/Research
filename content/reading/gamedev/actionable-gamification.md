@@ -47,7 +47,7 @@ Once gamification became a buzzword, it attracted many who saw it as an opportun
 
 If you ask any gamer what makes a game fun, they will not tell you it is because of the PBLs. They play it because there are elements of strategy and great ways to spend time with friends, or they want to challenge themselves to overcome difficult obstacles. *(Extrinsic vs intrinsic motivation.)*
 
-**Simply incorporating game mechanics and game elements does make a game fun.**
+**Simply incorporating game mechanics and game elements does not make a game fun.**
 
 ## The Story of the Good Designer vs Bad Designer
 How a bad designer might design a game: doesn't focus on their users' motivations first.
