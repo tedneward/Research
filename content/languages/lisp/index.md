@@ -38,3 +38,7 @@ Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/li
 * [Janet](../../janet)
 * [JESS](https://jess.sandia.gov/): Java Expert System Shell, a CLIPS-inspired expert system rule engine on the JVM
 
+### Reading
+
+* [The Lisp Curse](http://winestockwebdesign.com/Essays/Lisp_Curse.html): An attempt to reconcile the power of the Lisp language with the inability of the Lisp community to repduce their pre-AI Winter achievements; the explanation is that the power of Lisp is actually its curse, that those who can hack anything in Lisp often do, but only to the point where it is useful to themselves, and never take that final step to produce something generally useful.
+
