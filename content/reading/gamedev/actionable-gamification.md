@@ -71,6 +71,7 @@ The top Core Drives are considered very positive motivations ("White Hat"), whil
 **Level 3 Octalysis:** Factoring in the different player types (such as using Bartle's Four Player Types--Achievers, Explorers, Socializers, Killers, as one possible y-axis).
 
 # Putting Gamification in its Place
+*(Discussion of the language and semantics in the field)*
 
 # The First Core Drive: Epic Meaning & Calling
 
