@@ -1,6 +1,6 @@
 title=The Philosophical Programmer
 tags=reading, books, philosophy
-summary=
+summary=A collection of discussions of philosophy as it meets programming.
 ~~~~~~
 # Part I: A Philosophical Introduction
 1. Beyond the Cuckoo Clock
@@ -35,6 +35,7 @@ summary=
       * autonomy of operation: the computer is capable of acting without our intervention or supervision
 
 # Part II: The Structure of the Computer
+{:start="4"}
 4. Types of Computers
 5. The Parts of a Computer
 6. The Construction of Memory
@@ -55,3 +56,4 @@ summary=
 17. The Real World Out There
 18. The Limitations of Design
 19. Programming as Abstraction and Reflection
+

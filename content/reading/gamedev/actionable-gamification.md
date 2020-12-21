@@ -47,7 +47,7 @@ Once gamification became a buzzword, it attracted many who saw it as an opportun
 
 If you ask any gamer what makes a game fun, they will not tell you it is because of the PBLs. They play it because there are elements of strategy and great ways to spend time with friends, or they want to challenge themselves to overcome difficult obstacles. *(Extrinsic vs intrinsic motivation.)*
 
-**Simply incorporating game mechanics and game elements does make a game fun.**
+**Simply incorporating game mechanics and game elements does not make a game fun.**
 
 ## The Story of the Good Designer vs Bad Designer
 How a bad designer might design a game: doesn't focus on their users' motivations first.
@@ -55,7 +55,7 @@ How a bad designer might design a game: doesn't focus on their users' motivation
 How a good designer might design a game: "How do I want my users to feel? Do I want them to feel inspired? Do I want them to feel proud? Should they be scared? Anxious? What's my goal for their intended experience?"
 
 # The Octalysis Framework
-![Octalysis Gamification Framework](octaysis-gamification-framework.png)
+![Octalysis Gamification Framework](../../octalysis-gamification-framework.png)
 ([Source](https://yukaichou.com/gamification-examples/octalysis-complete-gamification-framework/))
 
 When there are none of these 8 Core Drives behind a Desired Action, there is zero motivation and no action takes place. The placement determines the nature of the motivation (left-brained on the left, right-brained on the right). Interestingly, Left Brain Core Drives tend to rely on extrinsic motivation--you are motivated because you want to obtain something. Right Brain Core Drives are mostly associated with intrinsic motivations--you don't need a goal or reward, the activity is rewarding on its own.
