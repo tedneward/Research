@@ -134,87 +134,86 @@ Core Orleans concepts.
 
 * [Create the SiloHost](https://dotnet.github.io/orleans/docs/tutorials_and_samples/tutorial_1.html#create-the-silo--programcs)
 
-  The SiloHost is the process host for the Orleans Grain we've created, and will be what provides the Orleans runtime support so Clients (next) can find their way to the Grain; this gives the runtime the opportunity to do all of the things it likes to do on the behalf of the grain, like instantiation, activation, and so on. (The parallels here to EJB or RMI or CORBA or any of the other distributed-object systems is just spooky... or disappointing, depending on where you sit in opinion on those things.)
+    The SiloHost is the process host for the Orleans Grain we've created, and will be what provides the Orleans runtime support so Clients (next) can find their way to the Grain; this gives the runtime the opportunity to do all of the things it likes to do on the behalf of the grain, like instantiation, activation, and so on. (The parallels here to EJB or RMI or CORBA or any of the other distributed-object systems is just spooky... or disappointing, depending on where you sit in opinion on those things.)
 
-  ```
-  using System;
-  using System.Net;
-  using System.Threading.Tasks;
-  using HelloWorld.Grains;
-  using Microsoft.Extensions.Logging;
-  using Orleans;
-  using Orleans.Configuration;
-  using Orleans.Hosting;
+    ```
+    using System;
+    using System.Net;
+    using System.Threading.Tasks;
+    using HelloWorld.Grains;
+    using Microsoft.Extensions.Logging;
+    using Orleans;
+    using Orleans.Configuration;
+    using Orleans.Hosting;
 
-  namespace OrleansSiloHost
-  {
-      public class Program
-      {
-          public static int Main(string[] args)
-          {
-              return RunMainAsync().Result;
-          }
+    namespace OrleansSiloHost
+    {
+        public class Program
+        {
+            public static int Main(string[] args)
+            {
+                return RunMainAsync().Result;
+            }
 
-          private static async Task<int> RunMainAsync()
-          {
-              try
-              {
-                  var host = await StartSilo();
-                  Console.WriteLine("Press Enter to terminate...");
-                  Console.ReadLine();
+            private static async Task<int> RunMainAsync()
+            {
+                try
+                {
+                    var host = await StartSilo();
+                    Console.WriteLine("Press Enter to terminate...");
+                    Console.ReadLine();
 
-                  await host.StopAsync();
+                    await host.StopAsync();
 
-                  return 0;
-              }
-              catch (Exception ex)
-              {
-                  Console.WriteLine(ex);
-                  return 1;
-              }
-          }
+                    return 0;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex);
+                    return 1;
+                }
+            }
 
-          private static async Task<ISiloHost> StartSilo()
-          {
-              // define the cluster configuration
-              var builder = new SiloHostBuilder()
-                  .UseLocalhostClustering()
-                  .Configure<ClusterOptions>(options =>
-                  {
-                      options.ClusterId = "dev";
-                      options.ServiceId = "HelloWorldApp";
-                  })
-                  .Configure<EndpointOptions>(options => options.AdvertisedIPAddress = IPAddress.Loopback)
-                  .ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(HelloGrain).Assembly).WithReferences())
-                  .ConfigureLogging(logging => logging.AddConsole());
+            private static async Task<ISiloHost> StartSilo()
+            {
+                // define the cluster configuration
+                var builder = new SiloHostBuilder()
+                    .UseLocalhostClustering()
+                    .Configure<ClusterOptions>(options =>
+                    {
+                        options.ClusterId = "dev";
+                        options.ServiceId = "HelloWorldApp";
+                    })
+                    .Configure<EndpointOptions>(options => options.AdvertisedIPAddress = IPAddress.Loopback)
+                    .ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(HelloGrain).Assembly).WithReferences())
+                    .ConfigureLogging(logging => logging.AddConsole());
 
-              var host = builder.Build();
-              await host.StartAsync();
-              return host;
-          }
-      }
-  }
-  ```
+                var host = builder.Build();
+                await host.StartAsync();
+                return host;
+            }
+        }
+    }
+    ```
 
-  `Main` just defers to an async version of `Main` to keep with the async theme everywhere.
+    `Main` just defers to an async version of `Main` to keep with the async theme everywhere.
 
-  `RunMainAsync` async calls `StartSilo` to do the work of spinning up the runtime, then console-blocks until a Return is pressed, at which point it starts the shutdown of the runtime. Add some exception-handling, and we have a pretty vanilla host. **Investigate: Wonder if there's some generic hosting options coming down the pipe, or if the intent is to always keep Orleans host-neutral like this.**
+    `RunMainAsync` async calls `StartSilo` to do the work of spinning up the runtime, then console-blocks until a Return is pressed, at which point it starts the shutdown of the runtime. Add some exception-handling, and we have a pretty vanilla host. **Investigate: Wonder if there's some generic hosting options coming down the pipe, or if the intent is to always keep Orleans host-neutral like this.**
 
-  `StartSilo` does the work of the configuration. Points to explore:
-  * `UseLocalhostClustering`: probably sets up clustering to be just localhost, wonder what this needs to look like to do clustering across different environments.
-  * `Configure<ClusterOptions>`: looks like this sets up identifiers for how the cluster and silo is advertised or negotiates around names. **Investigate: How would multiple services identify?**
-  * `Configure<EndpointOptions>`: how do interfaces and endpoints relate to one another?
-  * `ConfigureApplicationparts`: looks like this is how the implementation actually gets registered with the silo/runtime
-  * `ConfigureLogging`: pretty self-explanatory, wonder if I can set up multiple logging endpoints; guessing I just make multiple `logging.Add...()` calls or something.
+    `StartSilo` does the work of the configuration. Points to explore:
 
-  Documentation has a [list of options](https://dotnet.github.io/orleans/docs/host/configuration_guide/list_of_options_classes.html) for reference purposes. 
+    * `UseLocalhostClustering`: probably sets up clustering to be just localhost, wonder what this needs to look like to do clustering across different environments.
+    * `Configure<ClusterOptions>`: looks like this sets up identifiers for how the cluster and silo is advertised or negotiates around names. **Investigate: How would multiple services identify?**
+    * `Configure<EndpointOptions>`: how do interfaces and endpoints relate to one another?
+    * `ConfigureApplicationparts`: looks like this is how the implementation actually gets registered with the silo/runtime
+    * `ConfigureLogging`: pretty self-explanatory, wonder if I can set up multiple logging endpoints; guessing I just make multiple `logging.Add...()` calls or something.
 
-  During the build, an interesting step shows up: `Orleans.CodeGenerator - command-line = SourceToSource /Users/tedneward/Projects/Exploration.git/Orleans/GrainImpls/obj/Debug/net5.0/GrainImpls.orleans.g.args.txt`; want to bet it's generating server-side proxy arond the interfaces referenced?
+    Documentation has a [list of options](https://dotnet.github.io/orleans/docs/host/configuration_guide/list_of_options_classes.html) for reference purposes. 
+
+    During the build, an interesting step shows up: `Orleans.CodeGenerator - command-line = SourceToSource /Users/tedneward/Projects/Exploration.git/Orleans/GrainImpls/obj/Debug/net5.0/GrainImpls.orleans.g.args.txt`; want to bet it's generating server-side proxy arond the interfaces referenced?
 
 * [Create the Client](https://dotnet.github.io/orleans/docs/tutorials_and_samples/tutorial_1.html#create-the-client--programcs)
-
   Ironically for most systems of this type, the Client code is the longest, which surprises me:
-
   ```
   using HelloWorld.Interfaces;
   using Orleans;
@@ -334,11 +333,12 @@ Core Orleans concepts.
 
 #### Stateful grain(s)
 [Russell's tutorial](https://medium.com/@kritner/microsoft-orleans-reusing-grains-and-grain-state-136977facd42) states that there's two ways to do stateful grains:
+
 * Extend `Grain<T>` instead of `Grain`
 
-  Grain state needs to be persisted, which means we need to configure the SiloHost with a persistence configuration option. MemoryGrainStorage is the classic in-memory storage option; use `.AddMemoryGrainStorage("storage-name")` in silo configuration.
+    Grain state needs to be persisted, which means we need to configure the SiloHost with a persistence configuration option. MemoryGrainStorage is the classic in-memory storage option; use `.AddMemoryGrainStorage("storage-name")` in silo configuration.
 
-  Then create a grain interface that exposes the state (optional?), which provides an internal/protected member State to store the state, and use WriteStateAsync() to do the actual storage.
+    Then create a grain interface that exposes the state (optional?), which provides an internal/protected member State to store the state, and use WriteStateAsync() to do the actual storage.
 
 * "Do it yo'self" (which isn't clear to me what that entails)
 
@@ -365,9 +365,10 @@ If this is an actors implementation, I would think we would be able to get to th
 * **Override `Participate` method from Grain base class.** The passed IGrainLifecycle object provides the ability to register a `Task ...(CancellationToken ct)` method to be invoked when grains of that type enter a partiular state.
 
 * **"components can access the lifecycle via the grain activation context (see IGrainActivationContext.ObservableLifecycle)."** Not quite sure what this means yet, but it looks like it has to do with how grains are constructed via dependency injection. Later in that section it says:
-  > "Components created during a grain’s construction can take part in the lifecycle as well, without any special grain logic being added. Since the grain’s activation context (IGrainActivationContext), including the grain’s lifecycle (IGrainActivationContext.ObservableLifecycle), is created before the grain is created, any component injected into the grain by the container can participate in the grain’s lifecycle."
 
-  I think this is related to the IGrainRuntime-based constructor I found in the [Grain.cs](https://github.com/dotnet/orleans/blob/master/src/Orleans.Core.Abstractions/Core/Grain.cs) implementation (which I thought was a two-argument constructor?).
+    > "Components created during a grain’s construction can take part in the lifecycle as well, without any special grain logic being added. Since the grain’s activation context (IGrainActivationContext), including the grain’s lifecycle (IGrainActivationContext.ObservableLifecycle), is created before the grain is created, any component injected into the grain by the container can participate in the grain’s lifecycle."
+
+    I think this is related to the IGrainRuntime-based constructor I found in the [Grain.cs](https://github.com/dotnet/orleans/blob/master/src/Orleans.Core.Abstractions/Core/Grain.cs) implementation (which I thought was a two-argument constructor?).
 
 #### Are grains leased, and can I configure leasing options?
 
@@ -378,6 +379,6 @@ hostBuilder.ConfigureServices(services => {
     services.AddSingleton<T, Impl>(...);
 });
 ```
-Does this mean we have the ability to do singleton implementations of grains?
+Does this mean we have the ability to do singleton implementations of grains? **No**, I think this is related to how services/objects are injected into grains, false alarm.
 
 
