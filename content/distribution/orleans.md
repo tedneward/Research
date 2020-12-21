@@ -205,7 +205,9 @@ Core Orleans concepts.
   * `Configure<ClusterOptions>`: looks like this sets up identifiers for how the cluster and silo is advertised or negotiates around names. **Investigate: How would multiple services identify?**
   * `Configure<EndpointOptions>`: how do interfaces and endpoints relate to one another?
   * `ConfigureApplicationparts`: looks like this is how the implementation actually gets registered with the silo/runtime
-  * `ConfigureLogging`: pretty self-explanatory, wonder if I can set up multiple logging endpoints; guessing I just make multiple `logging.Add...()` calls or something. 
+  * `ConfigureLogging`: pretty self-explanatory, wonder if I can set up multiple logging endpoints; guessing I just make multiple `logging.Add...()` calls or something.
+
+  Documentation has a [list of options](https://dotnet.github.io/orleans/docs/host/configuration_guide/list_of_options_classes.html) for reference purposes. 
 
   During the build, an interesting step shows up: `Orleans.CodeGenerator - command-line = SourceToSource /Users/tedneward/Projects/Exploration.git/Orleans/GrainImpls/obj/Debug/net5.0/GrainImpls.orleans.g.args.txt`; want to bet it's generating server-side proxy arond the interfaces referenced?
 
@@ -325,3 +327,55 @@ Core Orleans concepts.
     ProcessTableUpdate (called from TryUpdateMyStatusGlobalOnce) membership table: 1 silos, 1 are Active, 0 are Dead, Version=<2, 2>. All silos: [SiloAddress=S127.0.0.1:11111:346226086 SiloName=Silo_ff4c8 Status=Active]
     ```
     Looks like the ProcessTable might be the collection of grains and silos currently active inside the host?
+
+### Investigation questions
+
+#### Add unit testing to HelloWorld above
+
+#### Stateful grain(s)
+[Russell's tutorial](https://medium.com/@kritner/microsoft-orleans-reusing-grains-and-grain-state-136977facd42) states that there's two ways to do stateful grains:
+* Extend `Grain<T>` instead of `Grain`
+
+  Grain state needs to be persisted, which means we need to configure the SiloHost with a persistence configuration option. MemoryGrainStorage is the classic in-memory storage option; use `.AddMemoryGrainStorage("storage-name")` in silo configuration.
+
+  Then create a grain interface that exposes the state (optional?), which provides an internal/protected member State to store the state, and use WriteStateAsync() to do the actual storage.
+
+* "Do it yo'self" (which isn't clear to me what that entails)
+
+Look into [MathGrains](https://dotnet.github.io/orleans/docs/tutorials_and_samples/MathGrains.html) (when it has actual text) and/or build my own calculator
+
+Chat application: investigate multiplayer communication. (Does Orleans support server->client communication flow, or is it all client-initiated?) -- looks like this [Twitter-clone-like sample](https://github.com/dotnet/orleans/tree/master/Samples/3.3/Chirper) may have some answers to that.
+
+#### Dynamic lookup of grains? Display a list of active grains?
+
+#### Dynamic invocation of grains? Runtime discovery of grains?
+
+#### Versioning? Contract versioning?
+
+#### Grains implementing multiple interfaces? (supported or not?)
+
+#### Messaging underpining
+If this is an actors implementation, I would think we would be able to get to the messages being sent/received in a more detailed fasion, which could then allow for some of the dynamic invocation of grains that I'm curious about.
+
+#### How do I hook into grain lifecycle to know about activation/deactivation?
+[Here](https://dotnet.github.io/orleans/docs/grains/grain_lifecycle.html) it documents that application logic can participate with a grain's lifecycle in one of two ways.
+
+* **Override `Participate` method from Grain base class.** The passed IGrainLifecycle object provides the ability to register a `Task ...(CancellationToken ct)` method to be invoked when grains of that type enter a partiular state.
+
+* **"components can access the lifecycle via the grain activation context (see IGrainActivationContext.ObservableLifecycle)."** Not quite sure what this means yet, but it looks like it has to do with how grains are constructed via dependency injection. Later in that section it says:
+  > "Components created during a grain’s construction can take part in the lifecycle as well, without any special grain logic being added. Since the grain’s activation context (IGrainActivationContext), including the grain’s lifecycle (IGrainActivationContext.ObservableLifecycle), is created before the grain is created, any component injected into the grain by the container can participate in the grain’s lifecycle."
+
+  I think this is related to the IGrainRuntime-based constructor I found in the [Grain.cs](https://github.com/dotnet/orleans/blob/master/src/Orleans.Core.Abstractions/Core/Grain.cs) implementation (which I thought was a two-argument constructor?).
+
+#### Are grains leased, and can I configure leasing options?
+
+#### Singletons?
+In the [Unit Testing](https://dotnet.github.io/orleans/docs/tutorials_and_samples/testing.html) section, we see reference to this snippet of code:
+```
+hostBuilder.ConfigureServices(services => {
+    services.AddSingleton<T, Impl>(...);
+});
+```
+Does this mean we have the ability to do singleton implementations of grains?
+
+
