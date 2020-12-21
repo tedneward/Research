@@ -1,7 +1,5 @@
 title=Starcounter
-type=page
-tags=library, clr, storage
-status=published
+tags=distribution, presentation, library, clr, storage
 summary="Fused" ACID memory centric database engine and C# VM.
 ~~~~~~
 
