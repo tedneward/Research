@@ -365,6 +365,10 @@ There's also the concept of "grain observers" (IGrainObserver), which [the prese
 #### Messaging underpining
 If this is an actors implementation, I would think we would be able to get to the messages being sent/received in a more detailed fasion, which could then allow for some of the dynamic invocation of grains that I'm curious about.
 
+#### Grain call filters (interceptors)
+
+#### Request context (request/response metadata)
+
 #### How do I hook into grain lifecycle to know about activation/deactivation?
 [Here](https://dotnet.github.io/orleans/docs/grains/grain_lifecycle.html) it documents that application logic can participate with a grain's lifecycle in one of two ways.
 
