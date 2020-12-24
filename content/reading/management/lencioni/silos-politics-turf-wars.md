@@ -74,6 +74,7 @@ Once the ratings have been done (usually taking five minutes) the team is ready 
 If nothing else gets discussed during the meeting, the areas of focus must be. Needless time should not be wasted on discussions about other non-focal areas. As obvious as this may seem, it is an extremely common problem among many teams. All too often, executives spread their time evenly across all departments and issues, giving equal attention to every topic regardless of where it falls in terms of importance or progress. Meetings become show-and-tell sessions designed to give everyone time to talk about their departments and activities. This only reinforces silos and makes it more likely that critical issues get too little attention from the entire team. Without the clarify of a secorecard that includes defining objectives and standard operating objectives, it is extremely difficult for them to avoid this, and without the existence of a thematic goal, it would all be impossible.
 
 (Summation required below this line)
+---
 
 # Thematic goals and long-term context
 When a thematic goal runs its course and is largely accomplished, an organization must then come up with another, and then another. This raises the question, *Shouldn’t all of this be part of a longer-term strategic direction?*
