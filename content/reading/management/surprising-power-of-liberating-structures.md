@@ -62,11 +62,11 @@ Whatever we do, there is always a structure to support or guide what is being do
 
 **Hierarchy and Examples of Structures**
 
-Type           |Tangible Structures|Intangible Structures
----------------|----------------------------------|---------------------
-**Macrostructures** | Office building; school; Hospital; Shop; Ship; Factory|Strategies; Organization Structure; Policies and Procedures; Compensation/Incentives; Core operating processes; Grants of authority
-**Microstructures** | Boardroom; Classroom; Meeting room; Restaurant; Office; Water cooler|Presentation/Lecture; Managed discussion; Status report; Open discussion; Brainstorm; Liberating Structure
-**Structural Elements** | Large round table; Large rectangular table; Small table; Chair; Flip chart; Post-its; Projector; Screen|Purpose/Agenda; Question; Theme; Seating arrangement; Group configuration; Time allocation; Standing instead of sitting; Formal or informal
+| Type           |Tangible Structures|Intangible Structures |
+| ---------------|----------------------------------|--------------------- |
+| **Macrostructures** | Office building; school; Hospital; Shop; Ship; Factory|Strategies; Organization Structure; Policies and Procedures; Compensation/Incentives; Core operating processes; Grants of authority |
+| **Microstructures** | Boardroom; Classroom; Meeting room; Restaurant; Office; Water cooler|Presentation/Lecture; Managed discussion; Status report; Open discussion; Brainstorm; Liberating Structure|
+|**Structural Elements** | Large round table; Large rectangular table; Small table; Chair; Flip chart; Post-its; Projector; Screen|Purpose/Agenda; Question; Theme; Seating arrangement; Group configuration; Time allocation; Standing instead of sitting; Formal or informal|
 
 Microstructures may sound like small things, but they have a big impact.
 
