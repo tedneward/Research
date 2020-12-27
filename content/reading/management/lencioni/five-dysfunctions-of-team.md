@@ -70,3 +70,10 @@ The most important action that a leader must take to encourage the building of t
 By building trust, a team makes conflict possible because team members do not hesitate to engage in passionate and sometimes emotional debate, knowing that they will not be punished for saying something that might otherwise be interpreted as destructive or critical.
 
 ## Dysfunction 2: Fear of Conflict
+All great relationships, the one that last over time, require productive conflict in order to grow. Unfortunately, conflict is considered taboo in many situations, and the higher you go up the management chain, the more you find people spending inordinate amounts of time and energy trying to avoid the kind of passionate debates that are essential to any great team.
+
+It is important to distinguish productive ideological conflict (limited to concepts and ideas, avoiding personality-focused, mean-spirited attacks) from destructive fighting and interpersonal politics.
+
+Contrary to the notion that teams waste time and energy arguing, those that avoid conflict actually doom themselves to revisiting issues again and again without resolution.
+
+### Suggestions for Overcoming Dysfunction 2
