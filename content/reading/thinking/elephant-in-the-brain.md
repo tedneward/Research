@@ -56,7 +56,34 @@ We act on hidden motives together, in public, just as often as we do by ourselve
 # Part I: Why We Hide Our Motives
 
 ## Chapter 1: Animal Behavior
+Let's start at a simpler beginning: two animal behaviors that are hard to decipher. In each case, the animals appear to be doing something simple and straightforward, but as we dig beneath the surface, we'll find extra layers of complexity.
 
+### Social Grooming
+To keep their fur clean, primates enlist the aid of others to groom their backs, faces, and heads: *social grooming*.
+
+At first blush, social grooming looks like an act of hygiene, a way to keep one's fur clean. But we can't take it at face value:
+
+* Most primates spend far more time grooming each other than necessary to keep fur clean. (Gelada baboons spend 17% of their daylight hours; other primates spend 0.1%, and birds 0.01%.)
+
+* Primates spend a lot more time grooming each other than they spend grooming themselves.
+
+* We can correlate the average body size with the amount of time they spend grooming--if grooming were strictly a hygienic activity, we'd expect larger species (with more fur) to spend more time grooming each other. But in fact there's no correlation.
+
+Primatologist Robin Dunbar suggests social grooming isn't about hygiene--it's also about politics. By grooming each other, primates help forge alliances that help them in other situations. "Grooming creates a platform off which trust can be built." This explains why higher-ranked individuals receive more grooming than lower-ranked individuals. It also explains why grooming time across species is correlated with the size of the social group, but not the amount of fur.
+
+### Competitive Altruism
+The Arabian babbler (bird) lives in small groups of 3 to 20 members who collectively defend a small territory of trees, shrubs, and bushes that provide much-needed cover from predators. Babblers who live as part of a group do well; those who are kicked out of a group are in great danger. Male babblers arrange themselves into rigid dominance hierarchies. At first, these activities seem straightforwardly altruistic, but closer inspection suggests otherwise.
+
+* Babblers compete to help each other and the group, often aggressively so. If the goal of these behaviors is to be helpful, why waste effort competing to perform them?
+    * One theory is that higher-ranked babblers are stronger and better able to forego food and fight off predators.
+    * The problem: babblers compete primarily with the birds immediately above or below them in the hierarchy (#1 v #2, never #1 v #10).
+    * Babblers often intefere in the helpful behaviors of their rivals, which makes no sense if the goal is to benefit the group as a whole.
+* The answer: altruistic babblers develop a kind of "credit" among their groupmates: *prestige status*. This earns them two perks:
+    * Mating opportunities--the alpha will allow a high-prestige beta to mate with some of the females, "bribing" the beta to stick around.
+    * Reduced risk of ostracization.
+
+### Human Behaviors
+To find out why we misconstrue animal motives, including our own, we have to look more carefully at how our brains were designed and what problems they're intended to solve.
 
 ## Chapter 2: Competition
 
