@@ -26,13 +26,19 @@ The model for combating silos consists of four components
 *A single, qualitative focus that is shared by the entire leadership team--and ultimately by the entire organization-and that applies for only a specified time period.*
 
 What it is not:
+
 * a long-term vision or a BHAG (Big Hairy Audacious Goal).
+
 * a tactical metric or measurable objective.
 
 Key elements of a thematic goal:
+
 * **Single**: there can only be one true thematic goal in a given period. Every organization needs a top priority; when a company is tempted to throw in one or two extra top priorities, they defat the purpose of the thematic goal, which is to provide clarity around whatever is truly most important. Something has to be most important.
+
 * **Qualitative**: The thematic goal is not a number, and it is not even specifically measurable. It is a general statement of a desired accomplishment. It requires a verb, because it rallies people to *do* something. *Improve*, *reduce*, *increase*, *grow*, *change*, *establish*, *eliminate*, *accelerate*.
+
 * **Time-Bound**: The thematic goal does live beyond a fixed time period, because that would suggest that it is an ongoing objective. To the contrary: It is a desired achievement that is particularly important during that period, and must therefore be accomplshed in a corresponding timeframe, usually somewhere betwen three and twelve months, depending.
+
 * **Shared**: The thematic goal applies to everyone on the leadership team, regardless of their area of expertise or interest. It is critical that all team members take responsibility for the goal, and for doing anything they can to move the company toward the accomplishment of that goal. That means executives must remove their functional hats; they must dare to make suggestions and ask questions about areas other than their own, even when they know relatively little about those areas. And while it may seem to smack of a lack of trust among team members, it is actually a realization that the most insightful questions and ideas often come from people with a more objective viewpoint than is possible for experts who are living in breathing an issue every day.
 
 ## A set of defining objectives
