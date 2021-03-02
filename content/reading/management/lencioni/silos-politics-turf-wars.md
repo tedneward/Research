@@ -79,51 +79,18 @@ Once the ratings have been done (usually taking five minutes) the team is ready 
 
 If nothing else gets discussed during the meeting, the areas of focus must be. Needless time should not be wasted on discussions about other non-focal areas. As obvious as this may seem, it is an extremely common problem among many teams. All too often, executives spread their time evenly across all departments and issues, giving equal attention to every topic regardless of where it falls in terms of importance or progress. Meetings become show-and-tell sessions designed to give everyone time to talk about their departments and activities. This only reinforces silos and makes it more likely that critical issues get too little attention from the entire team. Without the clarify of a secorecard that includes defining objectives and standard operating objectives, it is extremely difficult for them to avoid this, and without the existence of a thematic goal, it would all be impossible.
 
-(Summation required below this line)
----
-
 # Thematic goals and long-term context
-When a thematic goal runs its course and is largely accomplished, an organization must then come up with another, and then another. This raises the question, *Shouldn’t all of this be part of a longer-term strategic direction?*
+Shouldn’t thematic goals be part of a longer-term strategic direction? The answer is yes, but with caveats. Too often, leaders either have no plan, or they have too much of a plan (a la Prussian-style too-specific details). **A thematic goal provides that context because it exists within the framework of six to twelve months**, a time horizon that most businesses can accurately manage.
 
-The answer is yes, but with some important caveats. 
+BHAGs don’t provide enough guidance about what people should actually focus on once they get to work. Consider that **executives can be in solid agreement around a BHAG and still find themselves constantly working at cross-purposes**. Take, for example, a community hospital whose BHAG is to be the best little community hospital in the world. Even if every leader of that hospital is completely committed to that BHAG, there is a great likelihood that silos will rise up within that hospital as executives with different responsibilities and interpretations of how that BHAG should be achieved lead their departments in different directions.
 
-Too often, leaders of organizations choose one of two extremes when it comes to planning. 
-
-* They have no real long-range plan and make decisions reactively according to their short-term needs. Or . . .
-
-* They have a detailed and analytically elegant three- or five-year strategic plan, which is designed to eventually roll up into a grand, all-consuming long-term goal. 
-
-And while I suppose it is better to have too much detail and information guiding decision making and prioritization rather than too little, it is nonetheless a problem that can lead to the same kind of flailing experienced by companies with no strategy at all. 
-
-Why? Because successful organizations achieve a delicate balance between predicting what is going to happen over the long term and responding to unexpected circumstances along the way. This calls for a planning approach that provides the right amount of context without unnecessary restrictions.
-
-A thematic goal provides that context because it exists within the framework of six to twelve months, a time horizon that most businesses can accurately manage. Beyond that, organizations find that their plans become irrelevant or stale. Shorter-term goals, on the other hand, the kind measured in days or weeks, don’t provide enough time for leaders and their employees to get their hands around something difficult.
-
-Does that suggest the abandonment of weekly metrics? Absolutely not. But they should be established within the context of longer-term thematic goals.
-
-And what about three- and five-year plans? They’re fine too, as long as leaders don’t artificially preserve them if they’re no longer relevant—which is often the case in a dynamic market—and as long as they don’t take the place of thematic goals. 
-
-As for BHAGs, every organization should probably have them. Like a core purpose, something else that Collins and Porras describe in *Built to Last*, they can give leaders and employees a sense of why they get out of bed in the morning. But they don’t provide enough guidance about what people should actually focus on once they get to work.
-
-Consider that executives can be in solid agreement around a BHAG and still find themselves constantly working at cross-purposes. Take, for example, a community hospital whose BHAG is to be the best little community hospital in the world. Even if every leader of that hospital is completely committed to that BHAG, there is a great likelihood that silos will rise up within that hospital as executives with different responsibilities and interpretations of how that BHAG should be achieved lead their departments in different directions.
-
-It’s the thematic goal that ties it all together. Without it, the BHAGs lose connection to day-to-day activities, and weekly metrics become arbitrary and lifeless numbers that seem to serve no purpose other than their own. A final thought about this. When a thematic goal is clearly established and communicated, employees should be able to look up from their work at any given time and see how they’re contributing to an outcome that is far enough away to give them the ability to succeed, but not so far away that they cannot imagine ever being finished. They should be able to see how the company’s long-term vision connects to its short-term objectives. 
+**It’s the thematic goal that ties it all together.** Without it, the BHAGs lose connection to day-to-day activities, and weekly metrics become arbitrary and lifeless numbers that seem to serve no purpose other than their own. A final thought about this. When a thematic goal is clearly established and communicated, employees should be able to look up from their work at any given time and see how they’re contributing to an outcome that is far enough away to give them the ability to succeed, but not so far away that they cannot imagine ever being finished. They should be able to see how the company’s long-term vision connects to its short-term objectives. 
 
 # Making matrix organizations work
-Why matrix organizational structures became so popular I’m not really sure. There is certainly an element of flexibility and collaboration suggested by them, but in reality they are forums for confusion and conflict. They have certainly not contributed to the breakdown of silos; they’ve merely added an element of schizophrenia and cognitive dissonance for employees who are unlucky enough to report into two different silos.
-
-But the matrix is here to stay, and so it is critical that we understand how to make thematic goals work within it. Happily, it turns out that a thematic goal is exactly what is needed to transform a matrix reporting structure from a tool of confusion to one of collaboration.
-
-The real problem with matrices is that they put employees in difficult—maybe impossible—situations by asking them to please two different leaders who are not aligned with one another. By achieving clarity about the number one priority in an organization, organization, and by clearly identifying the defining and standard operating objectives that contribute to it, companies will give their employees far less reason to fear being pulled apart at the seams.
-
-And if an employee does start to feel some pull, it is a great opportunity for the leaders in charge to identify a crack in their alignment. Like a canary in a coal mine, a confused or conflicted employee can be a sign that the thematic goal and defining objectives aren’t being communicated effectively, or more important, aren’t being used to manage the organization from above. 
+It turns out that a thematic goal is exactly what is needed to transform a matrix reporting structure from a tool of confusion to one of collaboration. The real problem with matrices is that they ask employees to please two different leaders who are not aligned with one another. By achieving clarity about the number one priority in an organization, organization, and by clearly identifying the defining and standard operating objectives that contribute to it, companies will give their employees far less reason to fear being pulled apart at the seams. And if an employee does start to feel some pull, it is a great opportunity for the leaders in charge to identify a crack in their alignment. Like a canary in a coal mine, a confused or conflicted employee can be a sign that the thematic goal and defining objectives aren’t being communicated effectively, or more important, aren’t being used to manage the organization from above. 
 
 # Getting Started
-The first step a leadership team needs to take toward establishing a thematic goal and identifying its related components is to carve out enough time to discuss the organization’s priorities. I can’t imagine doing this effectively in less than two hours.
-
-In some cases, a team will have to go back and clarify its overall purpose and strategy ahead of time in order to provide the context for identifying the thematic goal. So, as much as a full day might be advisable.
-
-And for those who wince at the notion of spending yet another precious day sitting in a conference room while e-mail and other to-dos pile up back in the office, know this. Every executive team that I’ve ever taken through this exercise has come away with a very real sense of clarity and accomplishment. In most cases, it’s as though the members have given themselves permission to stop paying attention to the noisy, extraneous distractions that plague them and focus on what truly matters.
+The first step a leadership team needs to take toward establishing a thematic goal and identifying its related components is to carve out enough time to discuss the organization’s priorities. In some cases, a team will have to go back and clarify its overall purpose and strategy ahead of time in order to provide the context for identifying the thematic goal. So, as much as a full day might be advisable.
 
 Consider the time and energy that will be saved by providing your team with a unifying sense of purpose, by giving them an understanding of how everyone contributes to that purpose, and by making it easy to get employees throughout the organization rowing in the same direction. 
 
