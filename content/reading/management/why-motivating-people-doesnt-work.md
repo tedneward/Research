@@ -320,3 +320,6 @@ Make mistakes a mistake | Encourage self-reflection and growth. Legitimize mista
 
 
 # Chapter 7: The Promise of Optimal Motivation
+Most executives can answer the question, "What do you want *from* your people?" Most cannot answer (at first) "What do you want *for* your people?" *When you focus on what you want for people, you are more likely to get the results you want from people.*
+
+*People can flourish as they succeed. This is the promise of optimal motivation.*
