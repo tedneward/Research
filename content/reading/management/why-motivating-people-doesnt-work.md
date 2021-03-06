@@ -233,4 +233,90 @@ Outlook conversations: *A motivational outlook conversation is an informal or fo
 
 # Chapter 6: Rethinking Five Beliefs That Erode Workplace Motivation
 
+**"It's not personal, it's just business."** Every day you deliver information, feedback, or news to those you lead that affects their work, livelihood, opportunities, status, income, mood, health, or well-being. How is this not personal? *If it is business, it is personal.*
+
+What Doesn't Work | What Does Work
+------------------|---------------
+Think to yourself or tell a person directly, "You shouldn't feel that way" | Acknowledge and validate people's feelings and emotions
+Be judgmental and make approval conditional | Offer pure or descriptive feedback rather than evaluative feedback or personalized praising
+Tolerate sabotaging actions or unacceptable patterns of behavior | Facilitate the genetation of options and ask open-ended questions to promote mindfulness
+
+**"The purpose of business is to make money."** When you hold this belief, you are likely to focus on the dashboard metrics instead of focusing on the people responsible for providing quality service to your customers/clients. *The purpose of business is to serve.* Yes, a business must make a profit to sustain itself. But it is an illogical step to conclude that profit is therefore the purpose of business. You need air to live, water to drink, food to eat. But the purpose of your life is not just breathe, drink, and eat. Your purpose is richer and more profound than basic survival. *The nature of human motivation is not about making money. The nature of human motivation is in making meaning.* "Profit is the applause you get from creating an optimally motivating environment for your people so they want to take care of your customers." *The purpose of business is to serve--both your people and your customers. Profit is a by-product of doing both of these well.*
+
+What Doesn't Work | What Does Work
+------------------|---------------
+Drive profit at the expense of people | Help individuals align to work-related values and a sense of purpose. Frame actions in terms of the welfare of the whole
+Delay skill-related feedback or punish lack of competence | Provide an honest assessment of skills and training needs
+See people as tireless machines | Clear time for inherently motivating projects
+
+**"Leaders are in a position of power."** "Managers need to be incredibly mindful and clear about the types of power they have and use. Most leaders will be surprised by the potentially negative emotional impact that results from having and using their power, in almost all its forms." (Dr Drea Zigarmi) Even when you don't have intentions to use your power, just having it creates a dynamic that requires your awareness and sensitivity. Consider the most commonly used types of power and the potential effect each one has on your people's emotional well-being, intentions, and motivational outlooks:
+
+* *Reward power* is your power to promise monetary or nonmonetary compensation.
+
+    * *Impersonal reward power* is the power to grant special benefits, promotions, or favorable considerations
+
+    * *Personal reward power* is the power you have when your employees' feelings depend on being accepted, valued, and liked by you
+
+  Employees report that when they perceive either form of reward power at work, they experience a suboptimal motivational outlook.
+
+* *Coercive power* is your power to use threats and punishment if people fail to conform to desired outcomes. Coercive power creates a workplace where people need to consciously exercise high-quality self-regulation to avoid a suboptimal motivational outlook.
+
+* *Referent power* is based on how your employees identify with you. You may enjoy certain work relationships becaue your employees' self-identity is enhanced through interaction with you, their actions are based on their desire to be similar to and associated with you, or they think so highly of you that they are afraid to disagree with you. Their dependence on you for their internal state of well-being tends to undermine their autonomy, relatedness, and competence.
+
+* *Legitimate power* is bestowed through a position or title that gives a leader the justifiable right to request compliance from another individual. Often referred to as *position power*, legitimate power is manifest in a variety of forms.
+
+    * *Reciprocity* is the power stemming from your employees feeling obligated to comply with your requests because you have done something positive for them.
+
+    * *Equity power*, thought of as *quid pro quo*, is the power you have when an employee senses that you expect some type of compensation for the work or effort you have put into the relationship.
+
+    * *Dependence power* is the power you have when your employees feel obliged to assist you because you're in need--not out of a sense of relatedness but from an imposed sense of social responsibility.
+
+* *Expert power* is power that comes through your depth and breadth of knowledge. Expert power relies on the perceptions your employees hold regarding your superior knowledge.
+
+* *Information power* relies on your employees' perception on how you present persuasive material or logic.
+
+Power undermines people's psychological needs. It's not just your use of the power; it's people's perception that you *have* it and *could use it*.
+
+*Leaders are in a position of creating a workplace where people are more likely to satisfy their psychological needs for ARC.*
+
+What Doesn't Work | What Does Work
+------------------|---------------
+Apply pressure and demand accountability | Invite choice. Explore options within boundaries.
+Rely on your position or coercive power | Explore individuals' natural interest in and enthusiasm for the goal.
+Withhold or hide your reasoning behind decisions | Provide a rationale and share information. Discuss your intentions openly.
+
+**"The only thing that really matters is results."** Consider the effect this "tyranny of results" has on the workplace. Consider three alternatives to the traditional results focus.
+
+* **Option 1: Redefine and reframe results.** Clarify the underlying values behind your dashboard metrics. People may even shift to an integrated outlook when metrics are authentically positioned as a means to fulfilling a noble purpose.
+
+* **Option 2: Set high-quality goals.** Leaders need to help their people avoid potentially external goals such as:
+
+    * Social recognition, such as increasing the number of friends or contacts to improve social or professional status
+    * Image and appearance, such as losing weight to look good at a reunion or to be more attractive
+    * Material success, such as earning more money, buying a luxury car, or moving to a prestigious neighborhood
+
+  Instead, set goals that promote more optimal motivational outlooks, such as:
+
+    * Personal growth, such as improving listening skills or practicing mindfulness
+    * Affiliation, such as nurturing a mentoring relationship or enhancing working relationships with others
+    * Community, such as contributing to something bigger than yourself, or making a difference
+    * Physical health, such as losing weight as a means for increasing energy
+
+* **Option 3: Do not imply that the ends justify the means.** A focus on results may yield short-term gains. However, those gains are at risk and compromised when people feel pressure instead of autonomy, disconnection instead of relatedness, and a sense of being used without a sense of the competence they have gained. *In the end, what really matters is not just the results people achieve but why and how people achieve them.*
+
+What Doesn't Work | What Does Work
+------------------|---------------
+Impose goals and deadlines | Present goals and timelines as valuable information necessary for accomplishing agreed-upon outcomes. Help individuals reframe goals so they are meaningful to them while still achieving the outcomes required.
+Focus on the needs of the organization without equal attention to the needs of the individuals you lead | Provide individuals the appropriate direction and support needed for their level of development
+Evaluate output while ignoring effort | Explore alternatives for stimulating implementation strategies
+
+**"If you cannot measure it, it doesn't matter."** A specific, measurable, attainable, relevant, and time-bound goal simply is not SMART enough; change M to Motivating and move "measurable" to S (specific). *As in life, the most rewarding aspects of work are those most difficult to measure.* If you believe the statement "If you cannot measure it, it does not matter", ask yourself why. *If you cannot measure it, it is probably really, really important.* A true growth step for leaders is to become more mindful of promoting dreams, ideals, and experiences that cannot be easily measured. That includes becoming more comfortable with feelings.
+
+What Doesn't Work | What Does Work
+------------------|---------------
+Overemphasize metrics and competition | Explore individuals' natural interest in and enthusiasm for the goal
+Underestimate learning. Continually delay or cancel learning or development opportunities and training programs | Emphasize learning goals, not just performance goals
+Make mistakes a mistake | Encourage self-reflection and growth. Legitimize mistakes as part of the learning process
+
+
 # Chapter 7: The Promise of Optimal Motivation
