@@ -3,14 +3,14 @@ tags=platform, ios
 summary=The Apple mobile device operating system (on top of the open-source Darwin kernel).
 ~~~~~~
 
-See also [macOS](../macos)
+See also [macOS](./macos)
 
-- [Accessibility](./accessibility)
-- [APIs + Design](./apis_design)
-- [Debugging](./debugging)
-- [Performance](./performance)
-- [Threads, Queues, GCD](./threads_and_queues)
-- [UI](./ui)
+- [Accessibility](./ios/accessibility)
+- [APIs + Design](./ios/apis_design)
+- [Debugging](./ios/debugging)
+- [Performance](./ios/performance)
+- [Threads, Queues, GCD](./ios/threads_and_queues)
+- [UI](./ios/ui)
 
 ## General resources
 
