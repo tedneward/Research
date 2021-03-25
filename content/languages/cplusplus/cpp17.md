@@ -1,9 +1,7 @@
-title=C++17
+title=C++17 Language Features
 tags=language, native, object, metaobject, functional
 summary=C++ 2017 version
 ~~~~~~
-
-## C++17 Language Features
 
 ### Template argument deduction for class templates
 Automatic template argument deduction much like how it's done for functions, but now including class constructors.

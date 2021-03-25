@@ -62,12 +62,12 @@ Official standard name of the language originally appearing in browsers. "Javasc
 ### Transpilers
 [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS)
 
-* [Coco](../coco): Last commit 2014
-* [CoffeeScript](../coffeescript)
-* [Livescript](../livescript): Last commit 2018
-* [PureScript](../purescript)
-* [TypeScript](../typescript)
-* [SweetJS](../sweetjs)
+* [Coco](../ecmascript/coco): Last commit 2014
+* [CoffeeScript](../ecmascript/coffeescript)
+* [Livescript](../ecmascript/livescript): Last commit 2018
+* [PureScript](../ecmascript/purescript)
+* [TypeScript](../ecmascript/typescript)
+* [SweetJS](../ecmascript/sweetjs)
 
 ### SQL
 
@@ -75,10 +75,10 @@ Official standard name of the language originally appearing in browsers. "Javasc
 
 ### Tierless
 
-* [Fun](../fun): A programming language for realtime webapps - compiles to client-side and server-side JS.
+* [Fun](../ecmascript/fun): A programming language for realtime webapps - compiles to client-side and server-side JS.
 * [Ur](../ur): In the tradition of ML and Haskell.
 * [mobl](../mobl): The new language for programming the mobile web.
-* [E](../../e): Compiles E to JS. E is a secure distributed persistent pure object language.
-* [Sugar](../../sugar): New programming language designed to replace JavaScript for client-side (and server-side) web development
-* [Opa](../../opa): Write your complete application in just one language, and the compiler will transform it into a self-sufficient executable
+* [E](../e): Compiles E to JS. E is a secure distributed persistent pure object language.
+* [Sugar](../ecmascript/sugar): New programming language designed to replace JavaScript for client-side (and server-side) web development
+* [Opa](../opa): Write your complete application in just one language, and the compiler will transform it into a self-sufficient executable
 * [STIP.js](../stip): Slicing Tierless Programs in JavaScript
