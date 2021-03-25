@@ -1,13 +1,7 @@
-title=macOS (OS)
+title=macOS (OS) Virtual Machine Notes
 tags=platform, macos
-summary=The Apple operating system (on top of the open-source Darwin kernel) that ships with Apple computers.
+summary=Running the Apple desktop operating system (on top of the open-source Darwin kernel) in a virtual machine.
 ~~~~~~
-
-## Usage Articles
-* ["Change your MAC address with a shell script"](https://josh.works/shell-script-basics-change-mac-address)
-
-## Development Articles
-* ["Supporting XCFrameworks"](https://pspdfkit.com/blog/2020/supporting-xcframeworks/); ["Advances in XCFrameworks"](https://pspdfkit.com/blog/2021/advances-in-xcframeworks/)
 
 ## Running macOS in a VirtualBox VM
 (Some details swiped from https://techsviewer.com/install-macos-10-15-catalina-on-virtualbox-on-windows-pc/)
