@@ -5,12 +5,12 @@ summary=The Apple mobile device operating system (on top of the open-source Darw
 
 See also [macOS](../macos)
 
-- [Accessibility](./accessibility)
-- [APIs + Design](./apis_design)
-- [Debugging](./debugging)
-- [Performance](./performance)
-- [Threads, Queues, GCD](./threads_and_queues)
-- [UI](./ui)
+- [Accessibility](../ios/accessibility)
+- [APIs + Design](../ios/apis_design)
+- [Debugging](../ios/debugging)
+- [Performance](../ios/performance)
+- [Threads, Queues, GCD](../ios/threads_and_queues)
+- [UI](../ios/ui)
 
 ## General resources
 
@@ -58,9 +58,7 @@ UIApplication.shared.open(url, options: [.universalLinksOnly: true]) { (success)
 
 #### iOS Simulator
 
-- [Getting to Know the Simulator Better](https://www.andyibanez.com/posts/getting-to-know-the-simulator-better/)
-
-> In this article, we will explore the Simulator features provided to us by Xcode and the `xcrun simctl` tool.
+- [Getting to Know the Simulator Better](https://www.andyibanez.com/posts/getting-to-know-the-simulator-better/): In this article, we will explore the Simulator features provided to us by Xcode and the `xcrun simctl` tool.
 
 #### Push Notifications
 
