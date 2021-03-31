@@ -1,6 +1,6 @@
 title=The Five Dysfunctions of a Team
 tags=reading, books, business, management
-summary=
+summary=Understanding teamwork and overcoming the common dysfunctions of a team.
 ~~~~~~
 *(by Lencioni, Patrick M. (J-B Lencioni Series))*
 
