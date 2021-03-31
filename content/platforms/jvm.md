@@ -35,3 +35,5 @@ Previous versions: [JVMS 13](https://docs.oracle.com/javase/specs/jvms/se13/html
 
 (Previous-to-Java8 versions are on the Oracle website; I don't know that anybody should care about versions prior to 8. Prior to Java6, the VM was essentially unchanged since Java2/JDK 1.2.)
 
+[JVM conversion](https://github.com/jtransc/jtransc): Bytecode to source converting Java & Kotlin code into JavaScript, C++, D, C#, PHP, AS3, Dart and Haxe and run it everywhere. Also use JVM code in your favourite language as a library. [Website](jtransc.soywiz.com/)
+
