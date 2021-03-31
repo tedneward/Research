@@ -1,9 +1,7 @@
-title=C++14
+title=C++14 Language Features
 tags=language, native, object, metaobject, functional
 summary=C++ 2014 version
 ~~~~~~
-
-## C++14 Language Features
 
 ### Binary literals
 Binary literals provide a convenient way to represent a base-2 number.

@@ -1,5 +1,5 @@
 title=Simple Rules
-tags=reading, books, psychology, psychology, management
+tags=reading, books, psychology, management
 summary=Descriptions of how to guide behavior using simple rules.
 ~~~~~~
 *(by Donald Sull, Kathleen M. Eisenhardt)*

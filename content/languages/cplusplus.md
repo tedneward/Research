@@ -5,7 +5,7 @@ summary=An object-oriented flavor of C.
 
 Online reference: [cppreference](http://en.cppreference.com/w/cpp) | Specification
 
-Frequently conjoined with [C](/languages/c); Bjarne wanted C++ to be "as close as possible to C, but not closer." Over the years, C++ has taken a strong stand on some lexical and syntactic things about C that didn't hold up well over time, and C has retrofitted many of those choices back into C.
+Frequently conjoined with [C](../c); Bjarne wanted C++ to be "as close as possible to C, but not closer." Over the years, C++ has taken a strong stand on some lexical and syntactic things about C that didn't hold up well over time, and C has retrofitted many of those choices back into C.
 
 #### Compiler Implementations:
 * GNU
@@ -65,13 +65,13 @@ Articles and papers (focused on teaching, but also of interest for learning by s
 
 ---
 
-#### [Standards](std.html)
+#### [Standards](../cplusplus/std)
 
 Overview of C++ features, by version:
-[C++20](cpp20.html)
-[C++17](cpp17.html)
-[C++14](cpp14.html)
-[C++11](cpp11.html)
+[C++20](../cplusplus/cpp20)
+[C++17](../cplusplus/cpp17)
+[C++14](../cplusplus/cpp14)
+[C++11](../cplusplus/cpp11)
 
 - C++ standard draft
 	- https://github.com/cplusplus/draft
@@ -93,7 +93,6 @@ Overview of C++ features, by version:
 - Where do I find the current C or C++ standard documents?
 	- https://stackoverflow.com/questions/81656/where-do-i-find-the-current-c-or-c-standard-documents
 
-More given [here](std.html).
 
 #### Resources
 * [Error-handling links](error_handling.html)
@@ -243,22 +242,6 @@ Project-specific, but likely of interest to the general C++ community.
 	+ Visual C++ General - http://social.msdn.microsoft.com/Forums/en/vcgeneral/
 	+ Visual C++ Language - http://social.msdn.microsoft.com/Forums/en/vclanguage/
 	+ Parallel Computing in C++ and Native Code -- http://social.msdn.microsoft.com/Forums/en/parallelcppnative/
-
-### IRC
-
-* Freenode [http://freenode.net/]:
-	+ #boost - http://www.boost.org/community/irc.html
-	+ ##c++ - http://irc.netsplit.de/channels/details.php?room=%23%23C%2B%2B&net=freenode
-	+ ##c++-basic - http://irc.netsplit.de/channels/details.php?room=%23%23c%2B%2B-basic&net=freenode
-	+ ##C​+​+-general - http://irc.netsplit.de/channels/details.php?room=%23%23C%2B%2B-general&net=freenode
-	+ ##c++-help - http://irc.netsplit.de/channels/details.php?room=%23%23C%2B%2B-help&net=freenode
-	+ ##iso-c++ - http://irc.netsplit.de/channels/details.php?room=%23%23iso-c%2B%2B&net=freenode
-
-### Reddit
-
-* /r/cpp - https://www.reddit.com/r/cpp/
-* /r/cpp_questions - https://www.reddit.com/r/cpp_questions/
-* /r/cpp_review - https://www.reddit.com/r/cpp_review/
 
 ### Slack
 

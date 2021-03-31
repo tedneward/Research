@@ -1,9 +1,7 @@
-title=C++11
+title=C++11 Language Features
 tags=language, native, object, metaobject, functional
 summary=C++ 2011 version
 ~~~~~~
-
-## C++11 Language Features
 
 ### Move semantics
 Moving an object means to transfer ownership of some resource it manages to another object.
