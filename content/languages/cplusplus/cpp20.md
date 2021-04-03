@@ -1,9 +1,7 @@
-title=C++20
+title=C++20 Language Features
 tags=language, native, object, metaobject, functional
 summary=C++ 2020 version
 ~~~~~~
-
-## C++20 Language Features
 
 ### Concepts
 _Concepts_ are named compile-time predicates which constrain types. They take the following form:

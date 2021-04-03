@@ -2,34 +2,6 @@ title=Debugging reading
 tags=native, reading, linux, windows
 summary=A collection of reading links and resources on debugging
 ~~~~~~
-See also:
-
-* [Debugging - tracing](debugging.tracing.html)
-* [Executables](executables.html):
-	+ [DWARF](executables.html#dwarf)
-	+ [PDB](executables.html#pdb-program-database)
-
-# Contents
-
-* [General](#general)
-* [Standard Libraries](#standard-libraries)
-* [Readings](#readings):
-	+ [Books](#books)
-	+ [Concurrency](#concurrency)
-	+ [Implementation](#implementation): [Correctness](#correctness)
-	+ [Reverse Debugging](#reverse-debugging)
-	+ [Software Engineering](#software-engineering)
-	+ [Transparency](#transparency)
-* [Software](#software):
-	+ [GDB](#gdb): [Projects](#projects), [Readings](#readings-1), [Talks](#talks)
-	+ [LLDB](#lldb): [Projects](#projects-1), [Readings](#readings-2), [Talks](#talks-1)
-	+ [RR](#rr)
-	+ [OS-specific](#os-specific): [iOS](#iOS), [Linux](#linux), [macOS](#macos), [Windows](#windows) - [WinDbg](#windbg)
-	+ [Stack Trace & Unwinding](#stack-trace--unwinding)
-* [Talks](#talks-2): [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
-
----
-
 # General
 
 * Program repair: Community-driven effort to facilitate discovery, access and systematization of data related to automated program repair research

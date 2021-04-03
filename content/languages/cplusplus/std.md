@@ -3,8 +3,6 @@ tags=native
 summary=C++ Standards links
 ~~~~~~
 
-# C++ Standardization
-
 - Standardization - Standard C++ Foundation
 	- https://isocpp.org/std
 	- Standing Documents
@@ -31,8 +29,6 @@ summary=C++ Standards links
 ---
 
 # C++20
-
-See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392ad3aeb#file-cpp-std-coroutines-draft-md), [Modules](https://gist.github.com/MattPD/0ad1e6ba7e24f220ff635ea4a34947be#file-cpp-std-modules-draft-md).
 
 ## C++20: Readings
 

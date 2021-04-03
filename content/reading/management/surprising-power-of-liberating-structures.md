@@ -61,11 +61,12 @@ Whatever we do, there is always a structure to support or guide what is being do
     * **Intangible microstructures** are how we micro-organize our interactions with elements such as agendas, presentations, processes, discussions, questions, seating arrangements, and so forth.
 
 **Hierarchy and Examples of Structures**
-               |Tangible Structures|Intangible Structures
----------------|----------------------------------|---------------------
-**Macrostructures**|Office building; school; Hospital; Shop; Ship; Factory|Strategies; Organization Structure; Policies and Procedures; Compensation/Incentives; Core operating processes; Grants of authority
-**Microstructures**|Boardroom; Classroom; Meeting room; Restaurant; Office; Water cooler|Presentation/Lecture; Managed discussion; Status report; Open discussion; Brainstorm; Liberating Structure
-**Structural Elements**|Large round table; Large rectangular table; Small table; Chair; Flip chart; Post-its; Projector; Screen|Purpose/Agenda; Question; Theme; Seating arrangement; Group configuration; Time allocation; Standing instead of sitting; Formal or informal
+
+Type            | Tangible Structures | Intangible Structures
+--------------- | ------------------- | ---------------------
+**Macrostructures** | Office building; school; Hospital; Shop; Ship; Factory | Strategies; Organization Structure; Policies and Procedures; Compensation/Incentives; Core operating processes; Grants of authority
+**Microstructures** | Boardroom; Classroom; Meeting room; Restaurant; Office; Water cooler | Presentation/Lecture; Managed discussion; Status report; Open discussion; Brainstorm; Liberating Structure
+**Structural Elements** | Large round table; Large rectangular table; Small table; Chair; Flip chart; Post-its; Projector; Screen | Purpose/Agenda; Question; Theme; Seating arrangement; Group configuration; Time allocation; Standing instead of sitting; Formal or informal
 
 Microstructures may sound like small things, but they have a big impact.
 
@@ -110,51 +111,51 @@ Conventional microstructures tend to provide too much control of content or too 
 * **Presentation (or Speech or Lecture)**
   The Presentation is designed to make it possible for one person to tell and show the same information to many people simultaneously. Its purpose is to give one person full control about the content while restricting everybody else to listening (or not). Participation in shaping next steps is very limited, if present at all, in the Presentation structure.
 
-  The structural design of the Presentation is: 
+    The structural design of the Presentation is: 
 
-  1. The invitation: Audience members are invited to listen to the presenter from beginning to end (except for questions). 
+    1. The invitation: Audience members are invited to listen to the presenter from beginning to end (except for questions). 
 
-  2. How space is arranged and what materials are used: Audiences large or small are usually sitting and facing the same direction, toward the presenter. PowerPoint slides dominate, whether in face-to-face presentations or virtual broadcasts. A podium or a stage is used for large audiences.
+    2. How space is arranged and what materials are used: Audiences large or small are usually sitting and facing the same direction, toward the presenter. PowerPoint slides dominate, whether in face-to-face presentations or virtual broadcasts. A podium or a stage is used for large audiences.
 
-  3. How participation is distributed: One person, the presenter, gets nearly 100 percent of the time with the discretion to invite questions from others either during the presentation or at the end. Everyone else is given little or no time.
-  
-  4. How groups are configured: The configuration is static, with the presenter in front and everyone else in one group.
-  
-  5. Sequence of steps and time allocation: The first step, the presentation, gets 90 to 99 percent of the allotted time; the second step, questions, gets the balance.
+    3. How participation is distributed: One person, the presenter, gets nearly 100 percent of the time with the discretion to invite questions from others either during the presentation or at the end. Everyone else is given little or no time.
+    
+    4. How groups are configured: The configuration is static, with the presenter in front and everyone else in one group.
+    
+    5. Sequence of steps and time allocation: The first step, the presentation, gets 90 to 99 percent of the allotted time; the second step, questions, gets the balance.
 
-  The Presentation is neither an inclusive nor an engaging process since a single person controls the content. Furthermore, that person is the “expert,” the one who has prepared and is intimately familiar with all details. Participants are “forced” into a silent role that, instead of engagement, may invite passive acceptance, defensive reactions, or withdrawal. When the Presentation is used to convince or persuade others of a predetermined idea or decision, it tends to discourage engagement and spark resistance. In a time-constrained agenda, time allocated to the Presentation means time stolen from group interactions. When the Presentation takes up most of the time available, it becomes the dominant structure and sets the tone for the whole meeting (same thing for a class dominated by lectures).
+    The Presentation is neither an inclusive nor an engaging process since a single person controls the content. Furthermore, that person is the “expert,” the one who has prepared and is intimately familiar with all details. Participants are “forced” into a silent role that, instead of engagement, may invite passive acceptance, defensive reactions, or withdrawal. When the Presentation is used to convince or persuade others of a predetermined idea or decision, it tends to discourage engagement and spark resistance. In a time-constrained agenda, time allocated to the Presentation means time stolen from group interactions. When the Presentation takes up most of the time available, it becomes the dominant structure and sets the tone for the whole meeting (same thing for a class dominated by lectures).
 
 * **Open Discussion**
   An Open Discussion is one that is not managed or facilitated. It can have many different purposes: to collect feedback, share viewpoints, attempt to reach a consensus, allow people to ventilate, create the illusion of inclusion, search for new insights. 
   
-  The structural design of the Open Discussion is:
-  
-  1. The invitation: Participants are invited to respond to a topic, a question, or a presentation in any way each sees fit. 
-  
-  2. How space is arranged and what materials are used: One large group or several smaller groups sitting in a fixed configuration within a room (or connected virtually). Microphones are used if needed. 
-  
-  3. How participation is distributed: Participation is not distributed. Individuals assert their idea or opinion to the whole group at any time for any amount of time. 
-  
-  4. How groups are configured: The initial configuration remains unchanging. 
-  
-  5. Sequence of steps and time allocation: A few minutes may be used to restate the topic. Participants use the rest of the time for expressing their views and for discussing. Total duration is variable and may or may not be specified in advance.
+    The structural design of the Open Discussion is:
+    
+    1. The invitation: Participants are invited to respond to a topic, a question, or a presentation in any way each sees fit. 
+    
+    2. How space is arranged and what materials are used: One large group or several smaller groups sitting in a fixed configuration within a room (or connected virtually). Microphones are used if needed. 
+    
+    3. How participation is distributed: Participation is not distributed. Individuals assert their idea or opinion to the whole group at any time for any amount of time. 
+    
+    4. How groups are configured: The initial configuration remains unchanging. 
+    
+    5. Sequence of steps and time allocation: A few minutes may be used to restate the topic. Participants use the rest of the time for expressing their views and for discussing. Total duration is variable and may or may not be specified in advance.
 
-  In contrast to the Presentation, the Open Discussion operates with very little control of content, if any. If used to engage people in shaping direction, it easily turns chaotic, becoming too unconnected to be productive or too random to shape decisions or next steps. As groups get larger, Open Discussion becomes less and less open for all as a few people will inevitably dominate the discussion. In short, the Open Discussion has too few or too weak microstructural elements to provide everyone a chance to shape next steps. In simpler terms, Open Discussions easily turn into a mess. This usually incites someone with authority to take control and manage the discussion.
+    In contrast to the Presentation, the Open Discussion operates with very little control of content, if any. If used to engage people in shaping direction, it easily turns chaotic, becoming too unconnected to be productive or too random to shape decisions or next steps. As groups get larger, Open Discussion becomes less and less open for all as a few people will inevitably dominate the discussion. In short, the Open Discussion has too few or too weak microstructural elements to provide everyone a chance to shape next steps. In simpler terms, Open Discussions easily turn into a mess. This usually incites someone with authority to take control and manage the discussion.
 
 * **Managed Discussion**
   The standard way of avoiding a mess is to put somebody in charge. In a Managed Discussion, someone is in charge (leader, chair, professor) and responsible for guiding the discussion. Managed Discussions frequently come after a presentation or a status report. Their purpose can be to come to a conclusion or reach a decision or make some progress.
 
-  The structural design of the Managed Discussion is: 
-  
-  1. The invitation: Participants are asked to respond to specific questions by a person with authority/power. 
-  
-  2. How space is arranged and what materials are used: Participants sit around a long or U-shaped conference table, or are seated classroom-style, with the leader in the “power seat.” A presenter may or may not remain standing during the entire discussion. For large groups beyond a dozen participants, seating is multitiered. 
-  
-  3. How participation is distributed: Distribution is determined by the leader, by power relations, by expertise, or by whoever imposes himself or herself. 
-  
-  4. How groups are configured: The initial configuration remains unchanging. For regular meetings (or gatherings or classrooms), the configuration is usually the same, time after time. 
-  
-  5. Sequence of steps and time allocation: Total time is determined beforehand by an agenda or decided in the moment by the leader. If addressing the issue requires several steps or tasks, the leader decides, usually in the moment, how time is allocated between each.
+    The structural design of the Managed Discussion is: 
+    
+    1. The invitation: Participants are asked to respond to specific questions by a person with authority/power. 
+    
+    2. How space is arranged and what materials are used: Participants sit around a long or U-shaped conference table, or are seated classroom-style, with the leader in the “power seat.” A presenter may or may not remain standing during the entire discussion. For large groups beyond a dozen participants, seating is multitiered. 
+    
+    3. How participation is distributed: Distribution is determined by the leader, by power relations, by expertise, or by whoever imposes himself or herself. 
+    
+    4. How groups are configured: The initial configuration remains unchanging. For regular meetings (or gatherings or classrooms), the configuration is usually the same, time after time. 
+    
+    5. Sequence of steps and time allocation: Total time is determined beforehand by an agenda or decided in the moment by the leader. If addressing the issue requires several steps or tasks, the leader decides, usually in the moment, how time is allocated between each.
 
   The Managed Discussion puts control entirely into a single hand, with all the difficulties and complications that this entails. The most common challenge for the leader (or chair, or professor, or expert) is giving to all participants the time they need for comfortably expressing their views. Making it safe for everybody to speak up is another common challenge since acquiescing is the easiest option. Achieving true depth and quality of content within a predetermined amount of time is often impossible.
   

@@ -2,8 +2,6 @@ title=Performance tools and research
 tags=tool, reading
 summary=A collection of links around performance tools
 ~~~~~~
-# Benchmarking
-
 ## Software
 
 - benchmark (Google)
