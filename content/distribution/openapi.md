@@ -16,3 +16,21 @@ summary=A standard, programming language-agnostic interface description for REST
 "Swagger offers the most powerful and easiest to use tools to take full advantage of the OpenAPI Specification."
 
 [Website](https://swagger.io/)
+
+## Tools
+[OpenAPI Tools](https://openapi.tools/)
+* [Converters](https://openapi.tools/#converters)
+* [Data Validators](https://openapi.tools/#data-validators)
+* [Description Validators](https://openapi.tools/#description-validators)
+* [Documentation](https://openapi.tools/#documentation)
+* [DSLs](https://openapi.tools/#dsl)
+* [Mocks](https://openapi.tools/#mock)
+* [Parsers](https://openapi.tools/#parsers)
+* [SDK Generators](https://openapi.tools/#sdk)
+
+[Supermodel](https://supermodel.io/): The Data Model of Your Domain, API and Application. Solved. Supermodel helps your teams get to talking about their domains—as complex as they may be—so you can build software that matters.
+
+[Spot](https://github.com/airtasker/spot): Spot is a concise, developer-friendly way to describe your API contract.
+
+[BOATS](https://www.npmjs.com/package/boats): An OpenAPI & AsyncAPI templating system with Nunjucks... write less YAML... do more.
+
