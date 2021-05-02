@@ -32,10 +32,66 @@ To create a raw nib (.xib file): File | New | File -> iOS -> User Interface -> V
 ## Connections
 
 Directional linking in the nib editor from one object (source) to another (destination). Two kinds:
-* Outlet connections. Has a name, which is matched against the destination's instance property of the same name. "In code, there must be an instance property in the class whose instance will act as owner when the nib loads; it must be marked as `@IBOutlet`. In the nib editor, the class of the nib owner object must be set to the class whose instance will act as owner when the nib loads. We must then create the outlet, with the same name as the property, from the nib owner to some nib object."
-* Action connections. A message-sending reference. An action is a message emitted by a Cocoa UIControl object to another object (the destination); aka an event. Control object must know three things: control event, action (what message to send), target (destination).
+
+* **Outlet connections.** Has a name, which is matched against the destination's instance property of the same name. "In code, there must be an instance property in the class whose instance will act as owner when the nib loads; it must be marked as `@IBOutlet`. In the nib editor, the class of the nib owner object must be set to the class whose instance will act as owner when the nib loads. We must then create the outlet, with the same name as the property, from the nib owner to some nib object."
+
+* **Action connections.** A message-sending reference. An action is a message emitted by a Cocoa UIControl object to another object (the destination); aka an event. Control object must know three things: control event, action (what message to send), target (destination). 
+  Actions can be "nil-targeted", where the target is nil; there is no designated target object, so instead: starting with the hit-test view (the view with which the user is interacting, presumably the top of the Z-order), Cocoa walks up the responder chain looking for an object that can respond to the action message:
+    * If a responder is found that handles this message, that method is called on that responder, and that's the end.
+    * If we get all the way to the top of the responder chain without finding a responder to handle this message, nothing happens; the message goes unhandled with no error/exception.
+  How do we do this in a nib? Form a connection to the First Responder proxy object in the dock--that's what it's for. Before you can connect an action to it, you have to define the action message within the First Responder proxy object: Select the First Responder proxy in the nib, and switch to the Attributes inspector. Click the Plus button in the table (probably empty) of user-defined nil-targeted First Responder actions, and give the new action a name; it must take a single parameter (so that its name will end with a colon). Now we can Control-drag from a control to the First Responder proxy to specify a nil-targeted action with the name specified in the table.
+
+## UIView
+Custom UIView subclass: `draw(_:)` method is invoked so that the view can draw itself.
+
+Example: custom UIView class (`MyHorizLine`) that draws a horizontal line. File -> New -> File -> iOS -> Cocoa Touch Class (UIView).
+
+    ```
+    class MyHorizLine : UIView {
+        required init?(coder: NSCoder) {
+          super.init(coder: coder)
+          self.backgroundColor = .clear
+        }
+
+        override func draw(_ rect: CGRect) {
+          let c = UIGraphicsGetCurrentContext()!
+          c.move(to: CGPoint(x: 0, y: 0))
+          c.addLine(to: CGPoint(x: self.bounds.size.width), y: 0))
+          c.strokePath()
+        }
+    }
+    ```
+
+## Responder chain
+From bottom to top, looks roughly like this:
+
+1. The UIView that we start with (the hit-test view)
+1. If this UIView is a UIViewController's view, that UIViewController
+1. The UIView's superview
+1. Go back to step 2 and repeat, until we reach...
+1. The UIWindow (and the UIWindowScene)
+1. The UIApplication
+1. The UIApplication's delegate
+
+## Communication between objects
+Organizational considerations to help arrange for coherent communication between objects.
+
+* Visibility through an instance property
+* Visibility through instantiation. (First instantiates the second, passing it the message/data in.)
+* Visibility through connection/reference. Segues do this: At the moment a segue is triggered, the source view controller already exists, and the segue knows what view controller it is, and the segue itself instantiates the destination view controller, so the segue immediately turns to the source view controller and hands it a reference to the destination view controller (for example, by calling the source view controller's `prepare(for:sender:)` method). This is the source view controller's chance to obtain a reference to the newly-instantiated destination view controller and provide necessary data, references, delegation, whatever.
+* Visibility through reference. (Singletons; navigating the view or view controller hierarchy.)
 
 ## Misc
+
+#### Log all the `responds(to:)` requests on an object
+For example, implement this on the AppDelegate class in a project to instrument with logging:
+
+    ```
+    override func response(to aSelector: Selector) -> Bool {
+      print(aSelector)
+      return super.responds(to: aSelector)
+    }
+    ```
 
 #### [Variable Width Strings](https://useyourloaf.com/blog/variable-width-strings/)
 
@@ -72,23 +128,6 @@ On autolayout, adaptive table cells, and using UIStackView (or not!)
 #### [Tweaking The iOS System Fonts](https://useyourloaf.com/blog/tweaking-the-ios-system-fonts/)
 
 > Before you switch to a custom font don’t overlook how much you can tweak the appearance of the system fonts. A quick review of some font APIs that work for both UIKit and SwiftUI.
-
-## SwiftUI
-Code-based widget construction. You can find the [official documentation here](https://developer.apple.com/documentation/swiftui).
-
-- [MemeMaker on GitHub](https://github.com/dempseyatgithub/MemeMaker): An app that composes text over an image in SwiftUI
-
-- [How SwiftUI can now be used to build entire iOS apps](https://wwdcbysundell.com/2020/building-entire-apps-with-swiftui/): This year, however, entire apps can now be defined directly using SwiftUI, thanks to a few new additions to its API.
-
-- [What’s new in SwiftUI for iOS 14](https://www.hackingwithswift.com/articles/221/whats-new-in-swiftui-for-ios-14): SwiftUI was inevitably going to see big changes this year, and I’m really excited to experiment with them all – text views, color pickers, progress views, and even limited support for grids have all landed. 
-
-- [How to define SwiftUI properties](https://twitter.com/chriseidhof/status/1280433133813456896): Here's a first draft of a decision tree for how to define your SwiftUI properties...
-
-- [A guide to SwiftUI’s state management system](https://www.swiftbysundell.com/articles/swiftui-state-management-guide/): What separates SwiftUI from Apple’s previous UI frameworks isn’t just how views and other UI components are defined, but also how view-level state is managed throughout an app that uses it.
-
-- [Mastering toolbars in SwiftUI](https://swiftwithmajid.com/2020/07/15/mastering-toolbars-in-swiftui/): This week we will learn all about the new Toolbar API.
-
-- [Setting up a multi-platform SwiftUI project](https://blog.scottlogic.com/2021/03/04/Multiplatform-SwiftUI.html): This blog will take a look at a basic setup for a multi-platform SwiftUI app.
 
 
 ## Devices & Resolutions

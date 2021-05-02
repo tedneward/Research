@@ -43,6 +43,8 @@ summary=The process that takes place when launching an iOS app.
     7. ... calls the scene delegate's `scene(_:willConnectTo:options:)`
     8. ... calls the UIWindow's `makeKeyAndVisible` to make the window visible. This causes the window to turn to the root view controller and tell it to obtain its main view (from a nib or nib inside a storyboard, typically) and then call its `viewDidLoad` method.
 
+* Enter the event loop
+
 ### App without a storyboard
 Create new Xcode project ("TrulyEmpty").
 1. Edit the target: In the General pane, select "Main" in the Main Interface field and delete it. (Press Tab to set the change)
