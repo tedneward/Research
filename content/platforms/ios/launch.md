@@ -50,20 +50,20 @@ Create new Xcode project ("TrulyEmpty").
 1. Edit the target: In the General pane, select "Main" in the Main Interface field and delete it. (Press Tab to set the change)
 2. Info.plist: select "Storyboard Name" in "Application Scene Configuration" dictionary and delete it.
 3. (Delete Main.storyboard file from the project--it will be ignored regardless if present.)
-4. `SceneDelegate.swift`: edit `scene(_:willConnectTo:options:) to look like:
-    ```
-    func scene(_ scene: UIScene,
-                willConnectTo session: UISceneSession
-                options connectionOptions: UIScene.ConnectionOptions) {
-        if let windowScene = scene as? UIWindowScene {
-            let window = UIWindow(windowScene: windowScene)
-            window.backgroundColor = .white
-            window.rootViewController = ViewController()
-            self.window = window
-            window.makeKeyAndVisible()
+4. `SceneDelegate.swift`: edit `scene(_:willConnectTo:options:)` to look like:
+        ```
+        func scene(_ scene: UIScene,
+                    willConnectTo session: UISceneSession
+                    options connectionOptions: UIScene.ConnectionOptions) {
+            if let windowScene = scene as? UIWindowScene {
+                let window = UIWindow(windowScene: windowScene)
+                window.backgroundColor = .white
+                window.rootViewController = ViewController()
+                self.window = window
+                window.makeKeyAndVisible()
+            }
         }
-    }
-    ```
+        ```
 
 TODO: Create an app where there's a main storyboard but sometimes is ignored at launch time (step 4 above), such as displaying a login screen.
 
