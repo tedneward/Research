@@ -3,24 +3,36 @@ tags=platform, ios
 summary=UI development for the Apple mobile device operating system (on top of the open-source Darwin kernel).
 ~~~~~~
 
-## SwiftUI
-You can find the [official documentation here](https://developer.apple.com/documentation/swiftui).
-
-- [MemeMaker on GitHub](https://github.com/dempseyatgithub/MemeMaker): An app that composes text over an image in SwiftUI
-
-- [How SwiftUI can now be used to build entire iOS apps](https://wwdcbysundell.com/2020/building-entire-apps-with-swiftui/): This year, however, entire apps can now be defined directly using SwiftUI, thanks to a few new additions to its API.
-
-- [What’s new in SwiftUI for iOS 14](https://www.hackingwithswift.com/articles/221/whats-new-in-swiftui-for-ios-14): SwiftUI was inevitably going to see big changes this year, and I’m really excited to experiment with them all – text views, color pickers, progress views, and even limited support for grids have all landed. 
-
-- [How to define SwiftUI properties](https://twitter.com/chriseidhof/status/1280433133813456896): Here's a first draft of a decision tree for how to define your SwiftUI properties...
-
-- [A guide to SwiftUI’s state management system](https://www.swiftbysundell.com/articles/swiftui-state-management-guide/): What separates SwiftUI from Apple’s previous UI frameworks isn’t just how views and other UI components are defined, but also how view-level state is managed throughout an app that uses it.
-
-- [Mastering toolbars in SwiftUI](https://swiftwithmajid.com/2020/07/15/mastering-toolbars-in-swiftui/): This week we will learn all about the new Toolbar API.
-
-- [Setting up a multi-platform SwiftUI project](https://blog.scottlogic.com/2021/03/04/Multiplatform-SwiftUI.html): This blog will take a look at a basic setup for a multi-platform SwiftUI app.
-
 ## General
+
+UIView forms root of view hierarchy; object instance lifetime isn't quite 1:1 with widget (screen) lifetime.
+
+UIViewController: A view controller isn't an interface object (view), but it manages one--this view is its "main view".
+
+### Interface Builder: Document Outline
+Hierarchical view of the objects in the nib. 
+
+Two fundamental IB file types, storyboards and nibs:
+
+* Storyboard file contains "scenes": a single view controller, along with some ancillary material. Every scene has a single view controller at its top level. In the document outline, all scenes are listed. Each scene is the top level of a hierarchical list, and down from each scene are the objects that also appear in the view controller's scene dock: the view controller itself, and two proxy objects: the First Responder token and the Exit token. These are the scene's "top-level objects". The proxy objects are placeholders for objects that already exist, and are displayed in order to facilitate communication between nib objects and other objects that will be present at runtime.
+
+* XIB file holds no scenes. Top-level interface object is usually a view. (A Nib can contain a view controller, but it usually doesn't.) The document outline for a Nib contains three top-level objects: the File's Owner, the First Responder, and a nib object (view).
+
+## Nib files
+Resource-based widget construction. "Nib" comes from extension `.nib`: Nextstep Interface Builder. Also applies to `.xib` (XML-based Nib) and `.storyboard` files.
+
+### Loading a Nib
+A nib containing a view controller will almost certainly come from a storyboard.
+
+To manually instantiate a view controller from a nib/storyboard, take a UIStoryboard instance and call `instantiateInitialViewController` (to instantiate the one marked as the initial view controller) or `instantiateViewController(withIdentifier:)` (to instantiate one by ID)
+
+When a view controller has a main view, but instantiates it lazily/on-demand. The view conroller can obtain it through one of several ways, including from a nib. If the view controller is instantiated in code, use the `init(nibName:bundle:)` to designate the .xib file to use to instantiate the view. (Or override it and provide it to the base class?)
+
+`Bundle::loadNibNamed(_:owner:options)` or `UINib::instantiate(withOwner:options:)` (after instantiating a new UINib object). This returns an array of object instances created from the nib's top-level objects.
+
+To create a raw nib (.xib file): File | New | File -> iOS -> User Interface -> View.
+
+## Misc
 
 #### [Variable Width Strings](https://useyourloaf.com/blog/variable-width-strings/)
 
@@ -44,7 +56,7 @@ On autolayout, adaptive table cells, and using UIStackView (or not!)
 
 #### [The Auto Layout Comprehendium™](http://mischa-hildebrand.de/en/2017/11/the-auto-layout-comprehendium/)
 
-> The Auto Layout Comprehendium™ is intended as a compendium for you to look up certain topics and to fully understand the internal mechanics behind the technology. While following an intuitive approach, it will help you master Auto Layout at a deeper level and empower you to build adaptable layouts without conflicts or ambiguities.
+> Intended as a compendium for you to look up certain topics and to fully understand the internal mechanics behind the technology. While following an intuitive approach, it will help you master Auto Layout at a deeper level and empower you to build adaptable layouts without conflicts or ambiguities.
 
 #### [The iOS 13 Design Guidelines: An Illustrated Guide](https://learnui.design/blog/ios-design-guidelines-templates.html)
 
@@ -57,6 +69,24 @@ On autolayout, adaptive table cells, and using UIStackView (or not!)
 #### [Tweaking The iOS System Fonts](https://useyourloaf.com/blog/tweaking-the-ios-system-fonts/)
 
 > Before you switch to a custom font don’t overlook how much you can tweak the appearance of the system fonts. A quick review of some font APIs that work for both UIKit and SwiftUI.
+
+## SwiftUI
+Code-based widget construction. You can find the [official documentation here](https://developer.apple.com/documentation/swiftui).
+
+- [MemeMaker on GitHub](https://github.com/dempseyatgithub/MemeMaker): An app that composes text over an image in SwiftUI
+
+- [How SwiftUI can now be used to build entire iOS apps](https://wwdcbysundell.com/2020/building-entire-apps-with-swiftui/): This year, however, entire apps can now be defined directly using SwiftUI, thanks to a few new additions to its API.
+
+- [What’s new in SwiftUI for iOS 14](https://www.hackingwithswift.com/articles/221/whats-new-in-swiftui-for-ios-14): SwiftUI was inevitably going to see big changes this year, and I’m really excited to experiment with them all – text views, color pickers, progress views, and even limited support for grids have all landed. 
+
+- [How to define SwiftUI properties](https://twitter.com/chriseidhof/status/1280433133813456896): Here's a first draft of a decision tree for how to define your SwiftUI properties...
+
+- [A guide to SwiftUI’s state management system](https://www.swiftbysundell.com/articles/swiftui-state-management-guide/): What separates SwiftUI from Apple’s previous UI frameworks isn’t just how views and other UI components are defined, but also how view-level state is managed throughout an app that uses it.
+
+- [Mastering toolbars in SwiftUI](https://swiftwithmajid.com/2020/07/15/mastering-toolbars-in-swiftui/): This week we will learn all about the new Toolbar API.
+
+- [Setting up a multi-platform SwiftUI project](https://blog.scottlogic.com/2021/03/04/Multiplatform-SwiftUI.html): This blog will take a look at a basic setup for a multi-platform SwiftUI app.
+
 
 ## Devices & Resolutions
 
