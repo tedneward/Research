@@ -7,8 +7,6 @@ summary=Links to games in which one programs a robot to do battle in an arena.
 
 [CRobots (Github)](https://github.com/tpoindex/crobots/): Popular version by Tom Poindexter for DOS | [CRobots64](http://corewar.co.uk/crobots/zora/) appears to be an upgraded version of CRobots, but the page is entirely in Italian | [Netrobots (Github)](https://github.com/bonzini/netrobots): Client/server version of CRobots
 
-[Robocode](https://robocode.sourceforge.io/) ([Sourceforge](https://sourceforge.net/projects/robocode/)): Version for Java, has graphics and sound and a few other niceties
+[Robocode](https://robocode.sourceforge.io/) ([Source](https://github.com/robo-code/robocode)): Robocode is a programming game, where the goal is to develop a robot battle tank to battle against other tanks in Java. The robot battles are running in real-time and on-screen.
 
 See also: Reminiscient of [CoreWar](https://programminggames.org/Core_War) (should be its own page?)
-
-
