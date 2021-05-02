@@ -34,7 +34,7 @@ summary=The process that takes place when launching an iOS app.
             }
             ```
 * UIApplicationMain (assuming the app supports scenes (Info.plist contains an "Application Scene Manifest" dictionary and the code has classes and protocols whose names begin with `UIScene`) and the app has a main storyboard):
-    1. ... creates the shared application instance and binds it to UIApplication.shared
+    1. ... creates the shared application instance and binds it to `UIApplication.shared`
     2. ... creates the application instance's delegate
     3. ... invokes the app delegate's `application(_:didFinishLaunchingWithOptions:).`
     4. ... creates a UISceneSession, a UIWindowScene, and the app's scene delegate (Info.plist)
