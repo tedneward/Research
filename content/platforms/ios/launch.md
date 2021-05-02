@@ -6,13 +6,13 @@ summary=The process that takes place when launching an iOS app.
 * Entry point
     * iOS finds the compiled binary inside the app's bundle via the Info.plist file, "Executable file" key (`CFBundleExecutable`); by default this comes from the `EXECUTABLE_NAME` environment variable
     * Obj-C entry point is `main`, written by the developer
-            ```
-            int main(int argc, char* argv[]) {
-                @autoreleasepool {
-                    return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-                }
+        ```
+        int main(int argc, char* argv[]) {
+            @autoreleasepool {
+                return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
             }
-            ```
+        }
+        ```
     * Swift entry point; entry point is auto-generated, calling UIApplicationMain using class annotated by `@main` as the class to pass in as the fourth argument.
         * If we want to control that, create a `main.swift` (name is important, it gets special dispensation from the compiler to have top-level statements/expressions), and do the same as above:
             ```
@@ -51,19 +51,19 @@ Create new Xcode project ("TrulyEmpty").
 2. Info.plist: select "Storyboard Name" in "Application Scene Configuration" dictionary and delete it.
 3. (Delete Main.storyboard file from the project--it will be ignored regardless if present.)
 4. `SceneDelegate.swift`: edit `scene(_:willConnectTo:options:) to look like:
-        ```
-        func scene(_ scene: UIScene,
-                   willConnectTo session: UISceneSession
-                   options connectionOptions: UIScene.ConnectionOptions) {
-            if let windowScene = scene as? UIWindowScene {
-                let window = UIWindow(windowScene: windowScene)
-                window.backgroundColor = .white
-                window.rootViewController = ViewController()
-                self.window = window
-                window.makeKeyAndVisible()
-            }
+    ```
+    func scene(_ scene: UIScene,
+                willConnectTo session: UISceneSession
+                options connectionOptions: UIScene.ConnectionOptions) {
+        if let windowScene = scene as? UIWindowScene {
+            let window = UIWindow(windowScene: windowScene)
+            window.backgroundColor = .white
+            window.rootViewController = ViewController()
+            self.window = window
+            window.makeKeyAndVisible()
         }
-        ```
+    }
+    ```
 
 TODO: Create an app where there's a main storyboard but sometimes is ignored at launch time (step 4 above), such as displaying a login screen.
 
