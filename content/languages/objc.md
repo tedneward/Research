@@ -7,6 +7,8 @@ summary=The other object-oriented take on C, based much more directly on the mes
 
 [Apple website](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)
 
+[Objective-C Programming Language](http://andrewd.ces.clemson.edu/courses/cpsc102/notes/ObjC.pdf) (2002) | [Objective-C 2.0 Programming Language](http://cagt.bu.edu/w/images/b/b6/Objective-C_Programming_Language.pdf) (2009)
+
 ---
 
 ## Fundamentals
