@@ -30,6 +30,10 @@ See also [macOS](../macos)
 - [The Ultimate Guide To iPhone Resolutions](https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 - [The Wisdom of Quinn: Informative DevForum posts from everyone's favorite DTS member](https://gist.github.com/macshome/0753d3fdf711cfe699533fe5059e50e2)
 
+## Books
+
+"iOS *N* Programming Fundamentals with Swift" (Matt Newburg, OReilly)
+
 ## Miscellaneous
 
 #### Universal Links
@@ -89,3 +93,4 @@ UIApplication.shared.open(url, options: [.universalLinksOnly: true]) { (success)
 > Going back to how `Date` works, it doesn’t model the actual clock time but rather a fixed point in time that can be interpreted in any time zone. And so what’s happening here is that the data is being interpreted as if it happened in my current time zone, which is the default time zone that `Calendar` and `DateFormatter` use.
 >
 > And as such, a `Date` alone isn’t sufficient for modelling historical data, or at least personal historical data: You need time zone information too.
+

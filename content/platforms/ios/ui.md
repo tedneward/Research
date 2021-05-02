@@ -18,19 +18,22 @@ Two fundamental IB file types, storyboards and nibs:
 
 * XIB file holds no scenes. Top-level interface object is usually a view. (A Nib can contain a view controller, but it usually doesn't.) The document outline for a Nib contains three top-level objects: the File's Owner, the First Responder, and a nib object (view).
 
-## Nib files
-Resource-based widget construction. "Nib" comes from extension `.nib`: Nextstep Interface Builder. Also applies to `.xib` (XML-based Nib) and `.storyboard` files.
-
-### Loading a Nib
-A nib containing a view controller will almost certainly come from a storyboard.
-
 To manually instantiate a view controller from a nib/storyboard, take a UIStoryboard instance and call `instantiateInitialViewController` (to instantiate the one marked as the initial view controller) or `instantiateViewController(withIdentifier:)` (to instantiate one by ID)
+
+### Nib files
+Resource-based widget construction. "Nib" comes from extension `.nib`: Nextstep Interface Builder. Also applies to `.xib` (XML-based Nib) and `.storyboard` files. A nib containing a view controller will almost certainly come from a storyboard.
 
 When a view controller has a main view, but instantiates it lazily/on-demand. The view conroller can obtain it through one of several ways, including from a nib. If the view controller is instantiated in code, use the `init(nibName:bundle:)` to designate the .xib file to use to instantiate the view. (Or override it and provide it to the base class?)
 
-`Bundle::loadNibNamed(_:owner:options)` or `UINib::instantiate(withOwner:options:)` (after instantiating a new UINib object). This returns an array of object instances created from the nib's top-level objects.
+`Bundle::loadNibNamed(_:owner:options)` or `UINib::instantiate(withOwner:options:)` (after instantiating a new UINib object). This returns an array of object instances created from the nib's top-level objects. (The owner will be the object to use for the destination of connections.)
 
 To create a raw nib (.xib file): File | New | File -> iOS -> User Interface -> View.
+
+## Connections
+
+Directional linking in the nib editor from one object (source) to another (destination). Two kinds:
+* Outlet connections. Has a name, which is matched against the destination's instance property of the same name. "In code, there must be an instance property in the class whose instance will act as owner when the nib loads; it must be marked as `@IBOutlet`. In the nib editor, the class of the nib owner object must be set to the class whose instance will act as owner when the nib loads. We must then create the outlet, with the same name as the property, from the nib owner to some nib object."
+* Action connections. A message-sending reference. An action is a message emitted by a Cocoa UIControl object to another object (the destination); aka an event. Control object must know three things: control event, action (what message to send), target (destination).
 
 ## Misc
 
