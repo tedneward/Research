@@ -15,3 +15,6 @@ KTHXBYE
 ```
 
 There used to be Java and CLR versions; no idea if they still exist.
+
+[CLR version cached copy](../lolcode/LOLCode-r36.net.zip); should import into Github at some point for safer keeping
+
