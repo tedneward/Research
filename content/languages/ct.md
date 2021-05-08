@@ -137,61 +137,80 @@ Because the ball has a radius of 4 pixels, we need to stop it before its center 
 
 Now our program looks like this:
 
-unit Display
-float: x, v, dt
-calc v := 2
-dt := 0.05
-color zblue
-fill 300,65;320,225
-color zred
+```
+unit    Display
+        float: x, v, dt
+calc    v := 2
+        dt := 0.05
+color   zblue
+        fill 300,65;320,225
+color   zred
+
 loop
-mode erase
-at x,100
-disk 4
-mode write
-calc x := x + v*dt
-at x,100
-disk 4
-if x > (300-4)
-outloop
-endif
+        mode erase
+        at x,100
+        disk 4
+        mode write
+        calc    x := x + v*dt
+        at x,100
+        disk 4
+        if x > (300-4)
+        outloop
+        endif
 endloop
+```
 
 You’ve now encountered basic commands that are sufficient for getting started with cT. For details on additional commands and cT options, see the extensive on-line help that is accessible from the “Window” menu.
 
-Debugging
-Frequently a program does not work correctly on the first try. For example, type in the following program
-and run it:
-unit First
-f: x, y, r, value
-calc value := 20
-x := sqrt[exp(value)]
-y := 134*sin(value/2)
-at x,y
-disk r
+### Debugging
+Frequently a program does not work correctly on the first try. For example, type in the following program and run it:
+
+```
+unit    First
+        f: x, y, r, value
+calc    value := 20
+        x := sqrt[exp(value)]
+        y := 134*sin(value/2)
+        at x,y
+        disk r
+```
+
 Nothing appears on the screen. Why not?
-4
-A simple but extremely useful debugging technique is to examine the values of the relevant variables, by
-printing them in an unused region of the display. Add this code before the -at- statement:
+
+A simple but extremely useful debugging technique is to examine the values of the relevant variables, by printing them in an unused region of the display. Add this code before the -at- statement:
+
+```
 at 10,10
 write x is <|s,x|>
 y is <|s,y|>
 r is <|s,r|>
 pause
-The -pause- command waits for a keypress before continuing execution. The symbols <| and |> denote a
--show- command that has been embedded in an alphanumeric output statement. Note that quotes are not
-required for the -write- command.
- If we get this output on the screen:
+```
+
+The -pause- command waits for a keypress before continuing execution. The symbols <| and |> denote a -show- command that has been embedded in an alphanumeric output statement. Note that quotes are not required for the -write- command.
+
+If we get this output on the screen:
+
+```
 x = 5746
 y = -324
 r = 3E-27
+```
+
 we can see that we are trying to plot an infinitesimal disk in a location far off the screen.
-Comments
+
+### Comments
 There are two ways to include comments in your program. First, any line beginning with an asterisk is a comment, which is ignored by the compiler:
+
+```
 * This line is a comment
+```
+
 Second, a comment may be included at the end of a line of code if it is preceded by “$$”
+
+```
 calc x := x+ v*dt $$ use velocity to update position
-It is often useful to comment out a whole set of lines while debugging your program. Use the mouse to select
-the lines, then choose “Comment Lines” from the Edit menu. An asterisk will appear at the beginning of
-each of the selected lines. You can use “Un-comment lines” to remove asterisks from a selected set of lines.
+```
+
+It is often useful to comment out a whole set of lines while debugging your program. Use the mouse to select the lines, then choose “Comment Lines” from the Edit menu. An asterisk will appear at the beginning of each of the selected lines. You can use “Un-comment lines” to remove asterisks from a selected set of lines.
 
