@@ -49,14 +49,16 @@ The OP1 process runs through the fall and completed before fourth-quarter. In Ja
 The name of both a larger process and the group of individuals (Bar Raisers) central to that process. They get special training in the process. One participates in every interview loop. Cannot be the hiring manager or a recruiter; can veto any hire and override the hiring manager. By raising the bar with each new hire, the team would get progressively stronger and produce increasingly powerful results.
 
 Eight steps in the hiring process:
-* Job Description
-* Resume Review
-* Phone Screen
-* In-House Interview
+* Job Description: specific and focused.
+* Resume Review: if the candidates are off-target, the JD probably needs work.
+* Phone Screen: have a rubric ahead of time; solicit examples of the candidate's past behavior; focus on a subset of the Amazon Leadership Principles. Decide on bringing the candidate in for an interview; if on the fence, the answer is no. One in four is a reasonable success rate at this stage.
+* In-House Interview: 5 - 7 hours to complete, involving expensive people, so must be carefully planned, prepared, and executed.
 * Written Feedback
 * Debrief/Hiring Meeting
 * Reference Check
 * Offer Through Onboarding
+  
+Track and report on the volume and rate at which candidates pass through the funnel and use this data to make process changes as well as to coach and train recruiters and hiring managers.
 
 # Chapter 3:
 
