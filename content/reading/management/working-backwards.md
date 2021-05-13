@@ -159,9 +159,72 @@ This approach to critical thinking challenges the team to question whether the c
 Narratives are designed to increase the quantity and quality of effective communication in your organization. Creating such solid narratives requires hard work and some risk-taking. Good ones take many days to write. This model imposes duties and expectations upon the audience as well. They must objectively and thoroughly evaluate the idea, not the team or the pitch, and suggest ways to improve it. The work product of the meeting is ultimately a joint effort of the presenter and their audience--thinking that they can all stand behind. Silence in the discussion stage is the equivalent of agreement to what is presented, but it carries the sme weight as a full-blown critique.
 
 # Chapter 5: Working Backwards (Start with the Desired Customer Experience)
+What turned out to work best was relying on the core Amazon principle of customer obsession and a simple yet flexible way of writing narrative documents. Relying on "starting from the customer experience" and "working backwards from that" yields "writing a press release that literally announces the product as if it were ready to launch and an FAQ anticipating the tough questions."
 
+A half-baked mock-up is no better, and perhaps worse, than no mock-up at all; it's half-baked thinking. Need to think through the plan in detail.
+
+The idea had to be in the writing.
+
+Writing up our ideas was hard work. It required us to be thorough and precise. We had to describe features, pricing, how the service would work, why consumers would want it. Half-baked thinking was harder to disguise on the written page than in PowerPoint slides; it could not be glossed over through personal charm in the presentation.
+
+### The Features and Benefits of the PR/FAQ
+The primary point of the process is to shift from an internal/company perspective to a customer perspective. Customers are pitched new products constantly. Why will this new product be compelling enough for customers to take action and buy it? A common question asked by executives when reviewing the product features in the PR is "so what?" If the press release doesn't describe a product that is meaningfully better (faster, easier, cheaper) than what is already out there, or results in some stepwise change in customer experience, then it isn't worth building.
+
+The PR gives the reader the highlights of the customer experience. The FAQ provides all the salient details of the customer experience as well as a clear-eyed and thorough assessment of how expensive and challenging i will be for the company to build the product or create the service. That's why it's not unusual for an Amazon team to write ten drafts or more of the PR/FAQ, and to meet with their senior leaders five times or more to iterate, debate, and refine the idea.
+
+The PR/FAQ process process creates a framework for iterating and reinforces a detailed, data-oriented, and fact-based method of decision-making. We found that it can be used to develop ideas and initiatives--a new compensation policy, for example--as well as products and services. Once your organization learns how to use it, it is addicting; people start using it for everything.
+
+The PR portion is a few paragraphs, always less than one page. The FAQ section should be five pages or less. The goal isn't to explain all the excellent work you have done but rather to share the distilled thinking that has come from the work. (Restricting the length of the document is a forcing function to develop better thinkers and communicators.)
+
+Creation of the PR/FAQ starts with the person who has the idea or the project writing a draft. When it's shareable, that person sets up a one-hour meeting w/stakeholder to review the document and get feedback. At the meeting, they distribute the PR/FAQ, and everyone reads it. When they have finished, the writer asks for general feedback. Once everyone has given their high-level responses, the writer asks for specific comments, line by line, paragraph by paragraph. The discussion of the details is the critical part of the meeting. People ask hard questions. They engage in intense debate and discussion of the key ideas and the way they are expressed. They point out things that should be omitted or things that are missing. After the meeting, the writer distributes meeting minutes to all the attendees, including notes on the feedback. Then they get to work on the revision, incorporating responses to the feedback. When it is polished, they present it to the executive leaders in the company. There will be more feedback and discussion. More revision and more meetings may be required.
+
+### Press Release Components
+Heading: Name of the product in a way the reader (target customers) will understand. One sentence under the title.
+
+Subheading: Describe the customer for the product and what benefits they will gain from using it. One sentence only underneath the heading.
+
+Summary Paragraph: Begin with the city, media outlet, and your proposed launch date. Give a summary of the product and the benefit.
+
+Problem Paragraph: This is where you describe the problem that your product is designed to solve. Make sure that you write this paragraph from the customer's point of view.
+
+Solution Paragraph: Describe your product in some detail and how it simply and easily solves the customer's problem. For more complex products, you may need more than one paragraph.
+
+Quotes and Getting Started: Add one quote from you or your company's spokeperson and a second quote from a hypothetical customer in which they describe the benefit they are getting from using your new product. Describe how easy it is to get started, and provide a link to your website where customers can get more information and purchase the product.
+
+### FAQ Components
+There are no mandatory FAQs. The PR section does not typically include visuals, but it is more than appropriate to include tables, graphs, and charts in the FAQ. You must include things like your pro forma P&L for a new business or product. If you have high-quality mock-ups or wireframes, they can be included as an appendix.
+
+(Sample "Melinda" device PR/FAQ.)
+
+Often FAQs are divided into external (customer focused) and internal (focused on your company). The external FAQs are those that customers and/or the press will ask you about the product. These will include more detailed questions about how the product works, how much it costs, and how/where to buy it. Because these questions are product specific, they are unique to an individual PR/FAQ.
+
+For internal FAQs, there is a more standardized list of topics you will need to cover:
+
+* Consumer Needs and Total Addressable Market (TAM)
+    * How many consumers have this need or problem?
+    * How big is the need?
+    * For hw many consumers is this problem big enough that they are willing to spend money to do something about it?
+    * If so, how much money would they be willing to spend?
+    * How many of these consumers have the characteristics/capabilities/constraints necessary to make use of the product?
+* Economics and P&L
+    * What are the per-unit economics of the device? That is, what is the expected gross profit and contribution profit per unit?
+    * What is the rationale for the price point you have chosen for the product?
+    * How much will we have to invest up front to build this product in terms of people, technology, inventory, warehouse space, and so on?
+* Dependencies
+    * How will we convince couriers (USPS, UPS, FedEx, etc) to actually use this device instead of their current/standard delivery methods?
+    * How will we ensure that couriers (who don't work for you and over whom you have no control) will use the device properly?
+    * Won't it take more time (which is precious) for them to make a delivery than it does today?
+    * What third-party technologies are we dependent on for it to function as promised?
+* Feasibility
+    * What are the challenging product engineering problems we will need to solve?
+    * What are the challenging customer UI problems we will need to solve?
+    * What are the third-party dependencies we will need to solve?
+    * How will we manage the risk of the up-front investment required?
+
+The process enables a product team and the company leadership to gain a thorough understanding of the opportunity and the constraints. Leadership and management are often about deciding what *not* to do rather than what *to* do. Bringing clarity to why you aren't doing something is often as important as having clarity about what you are doing.
 
 # Chapter 6: Metrics (Manage Your Inputs, Not Your Outputs)
+
 
 # Part Two: The Invention Machine at Work
 Chapter 7: Kindle; Chapter 8: Prime; Chapter 9: Prime Video; Chapter 10: AWS
