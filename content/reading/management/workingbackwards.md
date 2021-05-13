@@ -126,8 +126,75 @@ Sometimes You Need More Than Two Pizzas: We came later to realize that the bigge
 "Seperable means almost as separate organizationally as APIs are for software. Single-threaded means they don't work on anything else." Such teams have clear, unambiguous ownership of specific features or functionality and can drive innovations with a minimum of resilience or impact upon others. Appointing a single-threaded leader is necessary but not sufficient. Separable, single-threaded teams have fewer organizational dependencies than conventional teams. They clearly demarcate the boundaries of what they own and where the interests of the other teams begin and end. Good rule of thumb is deployment: can the team build and roll out their changes without coupling, coordination, and approvals from other teams?
 
 # Chapter 4: Communicating (Narratives and the Six Pager)
+Amazon relies far more on the written word to develop/communicate ideas than most companies, which makes for a competitive advantage. Two forms of narrative: the "six-pager" and the PR/FAQ (next chapter).
 
-# Chapter 5:
+"The Cognitive Style of PowerPoint: Pitching Out Corrupts Within" by Edward Tufte: "As analysis becomes more causal, multivariate, comparative, evidence based, and resolution-intense, the damaging the bullet list becomes." That description fit the S-Team meetings: complex, interconnected, requiring plenty of information to explore, with greater and greater consequences connected to decisions. Such analysis is not well served by a linear progression of slides that makes it difficult to refer one idea to another, sparsely worded bits of text that don't fully express an idea, and visual effects that are more distracting than enlightening. Tufte proposed a solution: "For serious presentations, it will be useful to replace PowerPoint slides with paper handouts showing words, numbers, data graphics, images together. High-resolution handouts allow viewers to contextualize, compare, narrate, and recast evidence. In contrast, data-thin, forgetful displays tend to make audiences ignorant and passive, and also to diminish the credibility of the presenter. ... Making this transition in large organizations requires a straightforward executive order: From now on your presentation software is Microsoft Word, not PowerPoint. Get used to it."
 
-# Chapter 6:
+Reaction was less than positive. But a good presenter could make a bad idea look good, and a bad presenter could make a good idea look bad. Bezos offered a short explanation of the reason behind the change:
 
+> "The reason writing a good 4 page memo is better than "writing" a 20 page powerpoint is because the narraative structure of a good memo forces better thought and better understanding of what's more important than what, and how things are related. Powerpoint-style presentations somehow give permission to gloss over ideas, flatten out any sense of relative importance, and ignore the interconnectedness of ideas."
+
+Settled in on a standard format: Maximum length, six pages. Appendices with further information or supporting detail could be attached, but would not be required reading in the meeting itself.
+
+### How to Write an Effective Six-Pager
+Mockup (from the book) includes two optional sections that many presenters at Amazon have found helpful:
+1. the call-out to one or more key tenets that the proposal relies on--a foundational element of the reasoning that led us to make this recommendation. Tenets give the reader an anchor point from which to evaluate the rest. If the tenet itself is in dispute, it's easier to address that directly rather than take on all the logical steps that derive from that position.
+2. the inclusion of an FAQ. Strong six-pagers don't just make their case, they anticipate counterarguments, points of contention, or statements that might be easily misinterpreted. Adding the FAQ to address these saves time and gives the reader a useful focal point for checking the thoroughness of the authors' thinking.
+
+Six-page narratives can take many forms. Amazon quarterly business review might be broken down like this: Introduction; Tenets; Accomplishments; Misses; Proposals for Next Period; Headcount; P&L; FAQ; Appendices (including supporting data in the form of spreadsheets, tables and charts, mock-ups)
+
+### The New Meeting Format
+It works best if the entire audience reads the narrative, in the room, at the beginning of the meeting. There is a massive amount of useful information being transferred in those first 20 minutes. (Reading speed of 3 minutes/page, which led to the six-page limit. For a 30-minute meeting, a three-page narrative would be more appropriate. Leave 2/3 of the meeting time for discussing what we've read.)
+
+When everyone has read the document, the presenter takes the floor. Resist the temptation to "Let me orally walk you through the document"; it will likely be a waste of time. The whole point of the written document is to clearly present the reasoning and to avoid the hazards of live presentation. The attendees have already walked themselves through the argument. Some groups go around the room, ask for high-level feedback, then pore over the document line by line. Other groups ask a single individual to give all their feedback on the entire document, then ask the next person in the audience to do the same. Pick a method that works for you.
+
+Then the discussion begins, which esentially means the audience asks questions of the presenting team. They seek clarification, probe intentions, offer insights, and suggest refinements or alternatives. The presenting team has put great care and thought into the narrative, and the audience members have a responsibility to take it seriously. The key goal of the meeting, after all, is to seek the truth about the proposed idea or topic. We want that idea to become the best it can possibly be as a result of any adjustments we make along with the presenting team. During this stage, it's also important that notes be taken on behalf of the entire audience, preferably by someone knowledgeable about the subject who is not the primary presenter. It is vital that we capture and record the salient points of the ensuing discussion, as those comments become part of the output of the narrative process.
+
+### Feedback and Collaboration
+Providing valuable feedbcak and insight can prove to be as difficult as writing the narrative itself. When the reader takes the narrative process just as seriously as the writer does, the comments can have real, significant, and long-lasting impact. You are not just commenting on a document, you're helping to shape an idea, and thereby becoming a key team member for that business. Bezos has an uncanny ability to read a narrative and consistently arrive at insights that no else did: He assumes each sentence he reads is wrong until he can prove otherwise. He's challenging the content of the sentence, not the motive of the writer.
+
+This approach to critical thinking challenges the team to question whether the current narrative has it right or if there are additional fundamental truths to uncover, and if they are aligned with the Leadership Principles.
+
+### Final Thoughts About Narratives
+Narratives are designed to increase the quantity and quality of effective communication in your organization. Creating such solid narratives requires hard work and some risk-taking. Good ones take many days to write. This model imposes duties and expectations upon the audience as well. They must objectively and thoroughly evaluate the idea, not the team or the pitch, and suggest ways to improve it. The work product of the meeting is ultimately a joint effort of the presenter and their audience--thinking that they can all stand behind. Silence in the discussion stage is the equivalent of agreement to what is presented, but it carries the sme weight as a full-blown critique.
+
+# Chapter 5: Working Backwards (Start with the Desired Customer Experience)
+
+
+# Chapter 6: Metrics (Manage Your Inputs, Not Your Outputs)
+
+# Part Two: The Invention Machine at Work
+Chapter 7: Kindle; Chapter 8: Prime; Chapter 9: Prime Video; Chapter 10: AWS
+
+# Appendix A: Interview Feedback Examples
+
+# Appendix B: Sample Narrative Tenets and FAQs
+Dave Glick (Amazon VP):
+
+> "We had gotten through these bad metings and to a place where we could have a discussion about our strategy. At the end of the discussion, we had agreement on the strategy, an we summarized it in five bullet points. Jeff said, 'You should write these down and put them at the top of your document every month, so we remember what we decided last time.' And thus, tenets were born. The next month I showed up with my document with the tenets front and center. It helped us all reload the cache, and made the rest of the meeting productive since we didn't have to rehash our previous decisions."
+
+### Sample Tenets
+**Speed and quality are always important, but, when forced to make a choice between the two, we will always prioritize quality.**
+
+**Tenet: We don't make money when we sell things. We make money when we help customers make purchase decisions.** This guided some challenging and controversial decisions in Amazon's early days, one of which was about product reviews posted on our website. Negative reviews could potentially discourage a customer from buying a product and thus reduce revenue. So, if we are in the business to make money, why would we post negative reviews? But the tenet states that we make money not by selling things, but by helping customers make purchase decisions.
+
+**Tenet: When forced to choose between building something that's convenient for customers or convenient for ourselves, we'll choose the former.** Case in point, product packaging that is impossible for the customer to open but convenient for the company to use to ship items.
+
+**Tenet: We don't let defects travel downstream. When we notice a defect, we will not rely on good intentions to solve the problem. We'll invent and build systematic methods to eliminate that defect.** Useful in any continuous improvement environment. In order to prevent a defect from traveling downstream, you may need to build systems to detect and measure the defect and create a feedback loop to make sure the defect doesn't happen again. The problem will not be solved by encouraging people to try harder or relying on the good intentions of customer service people. The heartfelt "I'm sorry you had this problem, we will try harder to meet your needs in the future" does not result in the improvement of a flawed system.
+
+### Sample FAQs
+An honest, objective, and nonemotional tone tends to work best when answering questions. There's no point in sugarcoating things, and it helps to state the tough issues up front. Amazon's Earn Trust principle states, "Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. Leaders do not believe their or their team's body odor smells of perfume. They benchmark themselves and their teams against the best."
+
+Some useful FAQs we have found useful:
+
+* What were the biggest mistakes we have made last period, and what have we learned from them?
+* What are the key inputs for this business?
+* What is the single biggest thing we can do to move the needle in this business, and how will we organize to do just that?
+* What are the top reasons we should not do what we're proposing today?
+* When push comes to shove, what are the things we won't compromise on?
+* What's hard about the problem we are trying to solve?
+* If our team had X mroe people or Y more dollars, how would we deploy those resources?
+* What are the top three new initiatives, products, or experiments our team has launched in the past X months, and what did we learn from them?
+* What dependencies do we have in our area today over which we wish we had control?
+
+# 
