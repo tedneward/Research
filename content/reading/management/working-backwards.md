@@ -259,5 +259,3 @@ Some useful FAQs we have found useful:
 * If our team had X mroe people or Y more dollars, how would we deploy those resources?
 * What are the top three new initiatives, products, or experiments our team has launched in the past X months, and what did we learn from them?
 * What dependencies do we have in our area today over which we wish we had control?
-
-# 
