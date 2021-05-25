@@ -5,6 +5,9 @@ summary=Popular open-source cloud repository built around Git.
 
 [Website](https://github.com)
 
+### Actions
+
+
 ### Tools
 
 [git-hub](https://github.com/ingydotnet/git-hub): Do GitHub operations from the `git` command. The hub subcommand for git, allows you to perform many of the operations made available by GitHub's v3 REST API, from the git commandline command. You can fork, create, delete and modify repositories. You can get information about users, repositories and issues. You can star, watch and follow things, and find out who else is doing the same. The API is quite extensive. With this command you can do many of your day to day GitHub actions without needing a web browser. You can also chain commands together using the output of one as the input of another. For example you could use this technique to clone all the repos of a GitHub user or organization, with one command.
