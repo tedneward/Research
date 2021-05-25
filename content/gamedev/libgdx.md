@@ -20,3 +20,12 @@ Java game development framework that provides a unified API that works across al
 
 ## Support libraries/packages
 [VisUI](https://github.com/kotcrab/vis-ui) UI skin
+
+[libGDX-graph](https://github.com/marcinsc/libgdx-graph): Support for 2d/3d graphics for those who aren't good at them
+
+[libGDX freetype skin](https://github.com/acanthite/freetype-skin): Asset management extended to allow you to specify TTF fonts right in the uiskin.json file.
+
+[skin-composer](https://github.com/raeleus/skin-composer): Create skins for LibGDX scene2d.ui with a graphical interface.
+
+[HyperLap2D](https://github.com/rednblackgames/HyperLap2D): A powerful, platform-independent, visual editor for complex 2D worlds and scenes.
+
