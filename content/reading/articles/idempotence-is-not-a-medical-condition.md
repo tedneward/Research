@@ -1,6 +1,6 @@
 title=Idempotence is not a Medical Condition
 tags=reading, articles, distribution
-summary=
+summary=Idempotence is an essential property for reliable systems; what is it, how do we do it, how can it go wrong, what to do about it.
 ~~~~~~
 *(by Pat Helland)*
 
