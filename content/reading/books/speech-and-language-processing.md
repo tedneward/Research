@@ -1,5 +1,5 @@
 title=Speech and Language Processing (3rd ed)
-tags=reading, book, nlp
+tags=reading, books, nlp
 summary=A online textbook (draft) of NLP topics.
 ~~~~~~
 
