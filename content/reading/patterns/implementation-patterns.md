@@ -1,5 +1,5 @@
 title=Implementation Patterns
-tags=reading, books, pattern, language
+tags=reading, books, patterns, language
 summary=A collection of patterns around language atoms.
 ~~~~~~
 *(by Kent Beck)*
