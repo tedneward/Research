@@ -2,8 +2,7 @@ title=Design Patterns (GOF)
 tags=reading, books, patterns, object
 summary=The "original" patterns book.
 ~~~~~~
-
-(by Gamma, Helm, Johnson, Vlissides (Addison-Wesley, 1995, ISBN 0-201-63361-2) )
+*(by Gamma, Helm, Johnson, Vlissides (Addison-Wesley, 1995, ISBN 0-201-63361-2) )*
 
 ### Creational Patterns
 -- Abstract Factory (87): Provide an interface for creating families of related or dependent objects without specifying their concrete classes

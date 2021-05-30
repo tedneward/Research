@@ -2,7 +2,7 @@ title=Pattern-Oriented Software Architecture 2 (POSA2)
 tags=reading, books, patterns
 summary=Another collection of patterns.
 ~~~~~~
-(by Douglas Schmidt, Michael Stal, Hans Rohnert, Frank Buschmann (Wiley, 2000, ISBN 0-471-60695-2) )
+*(by Douglas Schmidt, Michael Stal, Hans Rohnert, Frank Buschmann (Wiley, 2000, ISBN 0-471-60695-2) )*
 
 
 ### Service Access and Configuration

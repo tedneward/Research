@@ -2,7 +2,7 @@ title=Enterprise Integration Patterns
 tags=reading, books, patterns, message-passing
 summary=Hohpe/Woolf's classic messaging text.
 ~~~~~~
-(by Gregor Hohpe, Bobby Woolf (Addison-Wesley, 2004, ISBN 0-321-20068-3) )
+*(by Gregor Hohpe, Bobby Woolf (Addison-Wesley, 2004, ISBN 0-321-20068-3) )*
 
 
 ### Integration Styles: How can I integrate multiple applications so that they work together and can exchange information?

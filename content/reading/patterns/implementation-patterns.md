@@ -2,7 +2,7 @@ title=Implementation Patterns
 tags=reading, books, pattern, language
 summary=A collection of patterns around language atoms.
 ~~~~~~
-*(by Kent Beck )*
+*(by Kent Beck)*
 
 ### Class
 * Class (22): Use a class to say, "This data goes together and this logic goes with it"
@@ -91,8 +91,6 @@ summary=A collection of patterns around language atoms.
 * Getting Method (95): Occasionally provide access to fields with a method returning that field
 * Setting Method (96): Even less frequently provide the ability to set fields with a method
 * Safe Copy (97): Avoid aliasing errors by copying objects passed in or out of accessor methods
-
-*-
 
 I really want to expand on this list; I think there's a lot more implementation atoms out there to consider. Much of what Kent put here seems deeply biased/influenced by object-oriented programming paradigms, and I'm certain that's a blinder.
 

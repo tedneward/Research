@@ -2,7 +2,7 @@ title=Pattern-Oriented Software Architecture 1 (POSA1)
 tags=reading, books, patterns
 summary=A collection of patterns by "the gang of five".
 ~~~~~~
-(by Frank Buschmann, Regine Meunier, Hans Rohnert, Peter Sommerlad, Michael Stal (Wiley, 1996, ISBN 0-471-95869-7) )
+*(by Frank Buschmann, Regine Meunier, Hans Rohnert, Peter Sommerlad, Michael Stal (Wiley, 1996, ISBN 0-471-95869-7) )*
 
 
 ### Structural Decomposition
