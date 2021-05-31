@@ -19,9 +19,6 @@ You can access your copy of the digital toolkit online on my website at http://d
 
 # 2 Patterns for Cleaner Python  
 ## 2.1 Covering Your A-- With Assertions
-
-
-
 ## 2.2 Complacent Comma Placement 
 ## 2.3 Context Managers and the with Statement 
 ## 2.4 Underscores, Dunders, and More 
