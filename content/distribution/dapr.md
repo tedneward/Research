@@ -96,7 +96,7 @@ In some cases, where you require capabilities that are unique to both you will f
 
 ### Dapr terminology and definitions
 Term | Definition
------+-----------
+---- | ----------
 App/Application | A running service/binary, usually that you as the user create and run.	
 Building block | An API that Dapr provides to users to help in the creation of microservices and applications.
 Component | Modular types of functionality that are used either individually or with a collection of other components, by a Dapr building block.

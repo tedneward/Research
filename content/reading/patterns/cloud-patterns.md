@@ -16,14 +16,14 @@ Categories:
 
 Pattern|Summary|Category
 -------+-------+--------
-[Ambassador](https://docs.microsoft.com/en-us/azure/architecture/patterns/ambassador)|Create helper services that send network requests on behalf of a consumer service or application.|Design and Implementation, Operational Excellence
-[Anti-Corruption Layer](https://docs.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer)|Implement a façade or adapter layer between a modern application and a legacy system.|Design and Implementation,Operational Excellence
-[Asynchronous Request-Reply](https://docs.microsoft.com/en-us/azure/architecture/patterns/async-request-reply)|Decouple backend processing from a frontend host, where backend processing needs to be asynchronous, but the frontend still needs a clear response.|Messaging
-[Backends for Frontends](https://docs.microsoft.com/en-us/azure/architecture/patterns/backends-for-frontends)|Create separate backend services to be consumed by specific frontend applications or interfaces.|Design and Implementation
-[Bulkhead](https://docs.microsoft.com/en-us/azure/architecture/patterns/bulkhead)|Isolate elements of an application into pools so that if one fails, the others will continue to function.|Reliability
-[Cache-Aside](https://docs.microsoft.com/en-us/azure/architecture/patterns/cache-aside)|Load data on demand into a cache from a data store|Data Management, Performance Efficiency
-[Choreography](https://docs.microsoft.com/en-us/azure/architecture/patterns/choreography)|Let each service decide when and how a business operation is processed, instead of depending on a central orchestrator.|Messaging,Performance Efficiency
-[Circuit Breaker](https://docs.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker)|Handle faults that might take a variable amount of time to fix when connecting to a remote service or resource.|Reliability
+[Ambassador](https://docs.microsoft.com/en-us/azure/architecture/patterns/ambassador) | Create helper services that send network requests on behalf of a consumer service or application. | Design and Implementation, Operational Excellence
+[Anti-Corruption Layer](https://docs.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer) | Implement a façade or adapter layer between a modern application and a legacy system. | Design and Implementation,Operational Excellence
+[Asynchronous Request-Reply](https://docs.microsoft.com/en-us/azure/architecture/patterns/async-request-reply) | Decouple backend processing from a frontend host, where backend processing needs to be asynchronous, but the frontend still needs a clear response. | Messaging
+[Backends for Frontends](https://docs.microsoft.com/en-us/azure/architecture/patterns/backends-for-frontends) | Create separate backend services to be consumed by specific frontend applications or interfaces. | Design and Implementation
+[Bulkhead](https://docs.microsoft.com/en-us/azure/architecture/patterns/bulkhead) | Isolate elements of an application into pools so that if one fails, the others will continue to function. | Reliability
+[Cache-Aside](https://docs.microsoft.com/en-us/azure/architecture/patterns/cache-aside) | Load data on demand into a cache from a data store | Data Management, Performance Efficiency
+[Choreography](https://docs.microsoft.com/en-us/azure/architecture/patterns/choreography) | Let each service decide when and how a business operation is processed, instead of depending on a central orchestrator. | Messaging,Performance Efficiency
+[Circuit Breaker](https://docs.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker) | Handle faults that might take a variable amount of time to fix when connecting to a remote service or resource. | Reliability
 [Claim Check](https://docs.microsoft.com/en-us/azure/architecture/patterns/claim-check)|Split a large message into a claim check and a payload to avoid overwhelming a message bus.|Messaging
 [Compensating Transaction](https://docs.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction)|Undo the work performed by a series of steps, which together define an eventually consistent operation.|Reliability
 [Competing Consumers](https://docs.microsoft.com/en-us/azure/architecture/patterns/competing-consumers)|Enable multiple concurrent consumers to process messages received on the same messaging channel.|Messaging
