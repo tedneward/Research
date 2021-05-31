@@ -47,16 +47,20 @@ The OP1 process runs through the fall and completed before fourth-quarter. In Ja
 The name of both a larger process and the group of individuals (Bar Raisers) central to that process. They get special training in the process. One participates in every interview loop. Cannot be the hiring manager or a recruiter; can veto any hire and override the hiring manager. By raising the bar with each new hire, the team would get progressively stronger and produce increasingly powerful results.
 
 Eight steps in the hiring process:
+
 * **Job Description:** specific and focused.
 * **Resume Review:** if the candidates are off-target, the JD probably needs work.
 * **Phone Screen:** have a rubric ahead of time; solicit examples of the candidate's past behavior; focus on a subset of the Amazon Leadership Principles. Decide on bringing the candidate in for an interview; if on the fence, the answer is no. One in four is a reasonable success rate at this stage.
 * **In-House Interview:** 5 - 7 hours to complete, involving expensive people, so must be carefully planned, prepared, and executed. The most important goals of the interview process became clear: to assess how well a candidate's past behavior and ways of working map to the Amazon Leadership Principles; soon learned that the basic info about the candidate are less reliable predictors of such. Two distinctive features in an Amazon in-house interview:
     1. Behavioral Interviewing: assigning one or more of the 14 Principles to each member of the interview panel, who in turn poses questions that map to their assigned leadership principle, seeking to elicit two kinds of data. First, the interviewer wants the candidate to provide detailed examples of *what* they personally contributed to solving hard problems or how they performed in work situations similar to those at Amazon. Second, the interviewer wants to learn *how* the candidate accomplished their goals and whether their methods align with the Principles. The method that Amazon interviewers use goes by the acronym STAR:
+
           * **Situation** "What was the situation?"
           * **Task** "What were you tasked with?"
           * **Action** "What actions did you take?"
           * **Result** "What was the result?"
-      Some interviews may focus on specific functional skills that are necessary for the role. Interviewers are also trained to maintain control of the interview--to politely cut the candidate short and move on to the next question.
+    
+    Some interviews may focus on specific functional skills that are necessary for the role. Interviewers are also trained to maintain control of the interview--to politely cut the candidate short and move on to the next question.
+
     2. The Bar Raiser: Involved in every interview loop, and ensures the process is followed and bad hiring decisions are avoided. Bar Raisers are trained to become experts in every aspect of the interviewing process. There is a group of senior Bar Raisers that manages the program (Bar Raiser Core), composed mostly of VPs and directors. Members have participated in hundreds of interviews, and demonstrated their mastery of interviewing, managing debriefs, making decisions, and teaching and training other Bar Raisers. There is no extra merit pay for becoming a Bar Raiser, and you retain all the duties of your day job. The only public recognition you get for being a Bar Raiser is an icon next to your name in the company directory.
 * **Written Feedback:** Every interviewer must take detailed notes--as close to verbatim as possible. Use these notes to develop the written feedback you'll give your fellow interviewers; if you do not take complete and detailed notes, expect a visit from your Bar Raiser. Written feedback is expected to be specific, detailed, and filled with examples from the interview to address the Principles assigned to the interviewer. The write-up should be thorough and clear enough that the author need not be present for their conclusions to be understood. This is not an optional exercise: oral feedback offered in lieu of the written is simply unacceptable.
 * **Debrief/Hiring Meeting:** Interviewers gather in person or via video conference to debrief and make the decision. Bar Raiser leads the meeting, which should be held as soon as possible, no more than a few days after the interviews have been completed. The meeting begins with everyone reading all the interview feedback. Once down, ask the group, "Now that everyone has read the feedback, would anyone like to change their vote?", where the vote is the individual interviewer's own (limited) personal view of the candidate.
@@ -72,8 +76,10 @@ Track and report on the volume and rate at which candidates pass through the fun
 
 ### Technical Dependencies
 Dependency discoveries inside of Amazon on Obidos, a monolithic massive executable:
+
 * **Gotchas in Shared Code.** Each team had to coordinate with other teams, and had to dedicate its own time to reviewing other teams' changes.
 * **Protectors of the Database.** Steering group (the "DB Cabal": the CTO, head of DBA, and head of Data) set up to review every proposed change, approve/reject it, then deploy it. Massive bottleneck.
+
 The system was tightly coupled.
 
 ### Organizational Dependencies
@@ -91,6 +97,7 @@ Choosing Our Priorities: Predictions (costs, consumer behavior, etc) were largel
 
 ### First Proposed Solution: Two-Pizza Team
 Reorganize into smaller autonomous teams connected to other teams only loosely, and only when unavoidable. Plan: A two-pizza team will:
+
 * **Be small.** No more than ten people.
 * **Be autonomous.** No need to coordinate with other teams to get their work done.
 * **Be evaluated by a well-defined "fitness function".** The sum of a weighted series of metrics.
@@ -128,7 +135,7 @@ Sometimes You Need More Than Two Pizzas: We came later to realize that the bigge
 # Chapter 4: Communicating (Narratives and the Six Pager)
 Amazon relies far more on the written word to develop/communicate ideas than most companies, which makes for a competitive advantage. Two forms of narrative: the "six-pager" and the PR/FAQ (next chapter).
 
-"The Cognitive Style of PowerPoint: Pitching Out Corrupts Within" by Edward Tufte: "As analysis becomes more causal, multivariate, comparative, evidence based, and resolution-intense, the damaging the bullet list becomes." That description fit the S-Team meetings: complex, interconnected, requiring plenty of information to explore, with greater and greater consequences connected to decisions. Such analysis is not well served by a linear progression of slides that makes it difficult to refer one idea to another, sparsely worded bits of text that don't fully express an idea, and visual effects that are more distracting than enlightening. Tufte proposed a solution: "For serious presentations, it will be useful to replace PowerPoint slides with paper handouts showing words, numbers, data graphics, images together. High-resolution handouts allow viewers to contextualize, compare, narrate, and recast evidence. In contrast, data-thin, forgetful displays tend to make audiences ignorant and passive, and also to diminish the credibility of the presenter. ... Making this transition in large organizations requires a straightforward executive order: From now on your presentation software is Microsoft Word, not PowerPoint. Get used to it."
+["The Cognitive Style of PowerPoint: Pitching Out Corrupts Within"](https://www.edwardtufte.com/tufte/powerpoint) by Edward Tufte: "As analysis becomes more causal, multivariate, comparative, evidence based, and resolution-intense, the damaging the bullet list becomes." That description fit the S-Team meetings: complex, interconnected, requiring plenty of information to explore, with greater and greater consequences connected to decisions. Such analysis is not well served by a linear progression of slides that makes it difficult to refer one idea to another, sparsely worded bits of text that don't fully express an idea, and visual effects that are more distracting than enlightening. Tufte proposed a solution: "For serious presentations, it will be useful to replace PowerPoint slides with paper handouts showing words, numbers, data graphics, images together. High-resolution handouts allow viewers to contextualize, compare, narrate, and recast evidence. In contrast, data-thin, forgetful displays tend to make audiences ignorant and passive, and also to diminish the credibility of the presenter. ... Making this transition in large organizations requires a straightforward executive order: From now on your presentation software is Microsoft Word, not PowerPoint. Get used to it."
 
 Reaction was less than positive. But a good presenter could make a bad idea look good, and a bad presenter could make a good idea look bad. Bezos offered a short explanation of the reason behind the change:
 
