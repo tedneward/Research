@@ -5,4 +5,4 @@ summary=A loosely-categorized collection of links to CS textbooks in a variety o
 
 [Website](https://csgordon.github.io/books.html)
 
-Lots of CompSci/theory books.
+Lots of CompSci/theory books. **TODO** Pull some interesting links out and over here.

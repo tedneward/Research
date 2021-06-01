@@ -19,13 +19,13 @@ Programming languages are (generally) human-friendly means of getting a computer
 * Constraint (logic) programming **CLP, ILOG Solver**
 * Concurrent constraint programming **LIFE, AKL**
 * Lazy concurrent constraint programming **[Oz](../oz), [Alice](../alice), [Curry](../curry)**
-* Continuation programming **[Scheme](../lisp/scheme), ML**
+* Continuation programming **[Scheme](../lisp/scheme), [ML](../ml)**
 * Lazy functional programming **[Haskell](../haskell)**
 * Monotonic dataflow programming
 * Declarative concurrent programming **Pipes, MapReduce**
 * Lazy dataflow programming
 * Lazy dataflow concurrent programming **[Oz](../oz), [Alice](../alice), [Curry](../curry)**
-* ADT functional programming **[Haskell](../haskell), ML, [E](../e)**
+* ADT functional programming **[Haskell](../haskell), [ML](../ml), [E](../e)**
 * ADT imperative programming **CLU, [OCaml](../ocaml), [Oz](../oz)**
 * Nonmonotonic dataflow programming
 * Concurrent logic programming **[Oz](../oz), [Alice](../alice), [Curry](../curry), Excel, AKL, FGHC, FCP**
@@ -41,7 +41,7 @@ Programming languages are (generally) human-friendly means of getting a computer
 * Sequential object-oriented programming
 * Stateful functional programming **[Java](../jvm/java), [OCaml](../ocaml)**
 * Concurrent object-oriented programming
-* Shared-state concurrent programming **[Smalltalk](../smalltalk), [Oz](../oz), Java, [Alice](../alice)**
+* Shared-state concurrent programming **[Smalltalk](../smalltalk), [Oz](../oz), [Java](../jvm/java), [Alice](../alice)**
 * Software transactional memory **SQL embeddings**
 
 Declarative, imperative, functional, constraint, logic, relational, concurrent, dataflow, synchronous, mesage-passing, event-loop, object-oriented, stateful, shared-state
@@ -50,33 +50,7 @@ Declarative, imperative, functional, constraint, logic, relational, concurrent, 
 ["History of Programming Languages"](http://thequickword.wordpress.com/2014/02/16/james-irys-history-of-programming-languages-illustrated-with-pictures-and-large-fonts/) by James Iry. Illustrated--pictures and large fonts. | ["Say something you dislike about a language you love"](https://lobste.rs/s/2cw6ov/say_something_you_dislike_about_language) | ["Say something nice about a language you dislike"](https://lobste.rs/s/hib1ui/say_something_nice_about_programming)
 
 
-## General language sites/links
-Some general language-wonk sorts of sites: 
-
-* [Github Collections: Programming Languages](https://github.com/collections/programming-languages): As of 1 June 2020, I've collected the top two or three d[oz](../oz)en into this site (at least).
-
-* [Codelani](https://codelani.com/) appears to be a comprehensive list of languages (over 4,000); the ["patterns"](https://codelani.com/lists/patterns.html) section is more a collection of "language atoms" that make up a lot of language syntax and semantics; I need to create my own ontology around this
-
-* [Lambda the Ultimate | Programming Languages Weblog](http://lambda-the-ultimate.org/)
-
-* [Programming Languages Short List (PLRE.org)](http://www.plre.org/languages.html)
-
-* [Programming languages](http://microsoft.toddverbeek.com/lang.html) 
-
-* [The Encyclopedia of Computer Languages](http://hopl.murdoch.edu.au/) 
-
-* [Programming language - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Programming_language) 
-
-* [Visual Programming Languages - Snapshots](http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/) 
-
-* [Embedded scripting languages list](https://github.com/dbohdan/embedded-scripting-languages)
-
-* [PL Enthusiast](http://www.pl-enthusiast.net/) 
-
-* [PL wonks](http://wonks.github.io/)
-
-* Awesome Open Source: [Language Projects](https://awesomeopensource.com/projects/language) | [Scripting Language Projects](https://awesomeopensource.com/projects/scripting-language) | [Virtual Machine Projects](https://awesomeopensource.com/projects/virtual-machine)
-
+## See also [Language Places](../../place/languages) and [PLZoo](../../place/plzoo)
 
 ## Language categories
 Wikipedia defines a really large ontological breakdown of languages; I prefer a slightly smaller one:

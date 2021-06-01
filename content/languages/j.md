@@ -1,5 +1,5 @@
 title=J (programming language)
-tags=languages, native, windows, macos, linux, ios, android
+tags=language, native, windows, macos, linux, ios, android
 summary=A high-level, general-purpose programming language that is particularly suited to the mathematical, statistical, and logical analysis of data.
 ~~~~~~
 [Website](https://www.jsoftware.com/#/) | [Source](https://github.com/jsoftware/jsource)
