@@ -57,34 +57,3 @@ Processes are not nearly as flexible or adaptable as resources are--and values a
 * spin out an independent organization from the existing organization and develop within it the new processes and values required to solve the new problem.
 
 * acquire a different organization whose processes and values close match the requirements of the new task.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# "Putting the Balanced Scorecard to Work"
-(by Robert S Kaplan and David P Norton)
-
-# "Innovation: The Classic Traps"
-(by Rosabeth Moss Kanter)
-
-# "Marketing Myopia"
-(by Theodore Levitt)
-
-# "What is Strategy?"
-(by Michael E Porter)
-
-# "The Core Competence of the Corporation"
-(by C.K. Prahalad and Gary Hamel)
-

@@ -48,13 +48,4 @@ Very few people work by themselves and achieve results by themselves. Managing y
 Organizations are no longer built on force but on trust; this does not nmean they like one another, it means they understand one another. *Taking responsibility for relationships is therefore an absolute necessity.*
 
 ### The Second Half of Your Life
-We live longer, we generally maximize our careers out somewhere after 20-25 years of work. Second careers are becoming much more commonplace.
-
-Three ways to develop a second career:
-* **Actually start one.** Just go do it.
-* **Develop a parallel career.** Start doing the second thing while still doing the first thing, "on the side".
-* **Social entrepreneurs.** These people love their work, but it no longer challenges them. In many cases they keep on doing what they have been doing all along but spend less and less of their time on it; they often start another activity, usually a nonprofit.
-
-There is one prerequisite for managing the second half of your life: you must begin long before you enter it.
-
-There is another reason to develop a second interest, and to develop it early: No one can expect to live very long without experiencing a serious setback in his/her life or work. At such times, a second major interest--not just a hobby--may make all the difference.
+(Excerpt from [The Essential Drucker: The Second Half of Your Life](../the-essential-drucker/index.html#second-half-of-your-life))

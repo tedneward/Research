@@ -6,7 +6,7 @@ summary=Selections from the management works of Peter F Drucker
 
 # I. Management
 
-# 1. Management as Social Function and Liberal Art
+## 1. Management as Social Function and Liberal Art
 In less than 150 years, management has transformed the social and economic fabric of the world's developed countries. The truly important problems managers face do not come from technology or politics; they are problems caused by the very success of management itself.
 
 The fundamental task of management remains the same: to make people capable of joint performance through common goals, common values, the right structure, and the training and development they need to perform and to respond to change. But the very meaning of the task has changed, if only because the performance of management has converted the workforce from one composed largely of unskilled laborers to one of highly educated knowledge workers.
@@ -37,61 +37,71 @@ Knowledge, especially advanced knowledge, is always specialized. By itself it pr
 
 **Management as a Liberal Art.** Mangement is what tradition used to call a liberal art--"liberal" because it deals with the fundamentals of knowledge, self-knowledge, wisdom, and leadership; "art" because it is also concerned with practice and application. Managers draw on all the knowledges and insights of the humanities and social sciences--on psychology and philosophy, on economics and history, on ethics--as well as on the physical sciences. But they have to focus this knowledge on effectiveness and results. For these reasons, management will increasingly be the discipline and practice through with the "humanities" will again acquire recognition, impact, and relevance.
 
-# 2. The Dimensions of Management
+## 2. The Dimensions of Management
 
-# 3. The Purpose and Objectives of a Business
+## 3. The Purpose and Objectives of a Business
 
-# 4. What the Nonprofits are Teaching Business
+## 4. What the Nonprofits are Teaching Business
 
-# 5. Social Impacts and Social Problems
+## 5. Social Impacts and Social Problems
 
-# 6. Management's New Paradigms
+## 6. Management's New Paradigms
 
-# 7. The Information Executives Need Today
+## 7. The Information Executives Need Today
 
-# 8. Management by Objectives and Self-Control
+## 8. Management by Objectives and Self-Control
 
-# 9. Picking People--The Basic Rules
+## 9. Picking People--The Basic Rules
 
-# 10. The Entrepreneurial Business
+## 10. The Entrepreneurial Business
 
-# 11. The New Venture
+## 11. The New Venture
 
-# 12. Entrepreneurial Strategies
+## 12. Entrepreneurial Strategies
 
 -----
 
 # II. The Individual
 
-# 13. Effectiveness must be Learned
+## 13. Effectiveness must be Learned
 
-# 14. Focus on Contribution
+## 14. Focus on Contribution
 
-# 15. Know Your Strengths and Values
+## 15. Know Your Strengths and Values
 
-# 16. Know Your Time
+## 16. Know Your Time
 
-# 17. Effective Decisions
+## 17. Effective Decisions
 
-# 18. Functioning Communications
+## 18. Functioning Communications
 
-# 19. Leadership as Work
+## 19. Leadership as Work
 
-# 20. Principles of Innovation
+## 20. Principles of Innovation
 
-# 21. The Second Half of Your Life
+## 21. The Second Half of Your Life {#second-half-of-your-life}
+We live longer, we generally maximize our careers out somewhere after 20-25 years of work. Second careers are becoming much more commonplace.
 
-# 22. The Educated Person
+Three ways to develop a second career:
+* **Actually start one.** Just go do it.
+* **Develop a parallel career.** Start doing the second thing while still doing the first thing, "on the side".
+* **Social entrepreneurs.** These people love their work, but it no longer challenges them. In many cases they keep on doing what they have been doing all along but spend less and less of their time on it; they often start another activity, usually a nonprofit.
+
+There is one prerequisite for managing the second half of your life: you must begin long before you enter it.
+
+There is another reason to develop a second interest, and to develop it early: No one can expect to live very long without experiencing a serious setback in his/her life or work. At such times, a second major interest--not just a hobby--may make all the difference.
+
+## 22. The Educated Person
 
 -----
 
 # III. Society
 
-# 23. A Centural of Social Transformation--Emergence of Knowledge Society
+## 23. A Centural of Social Transformation--Emergence of Knowledge Society
 
-# 24. The Coming of Entrepreneurial Society
+## 24. The Coming of Entrepreneurial Society
 
-# 25. Citizenship through the Social Sector
+## 25. Citizenship through the Social Sector
 
-# 26. From Analysis to Perception--The New Worldview
+## 26. From Analysis to Perception--The New Worldview
 
