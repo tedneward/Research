@@ -15,21 +15,21 @@ Content consists of "categorypages", which are pages for the top-level categorie
   * Add links to an existing page
 
 ## Categories
-* Architecture: Software architecture links/research
-* Backends: Software platforms
-* Clouds: Software "other peoples' hardware on other peoples' dirt" platforms
-* Distributed Systems: Distributed system research--not architecture but networking
-* Formats: File and online formats (HTML, PDF, etc)
-* GameDev: Specifically around the development of any sort of game (game frameworks, etc)
-* Languages: Any and all programming languages
-* Libraries: Collection of code; includes O-O frameworks
-* Places: Websites of interest "in general"
-* Platforms: Environments in which programs execute (includes native, VMs, mobile-native)
-* Presentation: Front-end layers, usually of some sort of graphical format
-* Reading: Specific topics of interest and reading materials related them
-* Storage: Systems specifically designed to store data (a la "databases" but not always)
-* Tools: Bits of software that are intended to be used directly (compilers, analyzers, etc)
-* VMs: Virtual machine implementations (differing from platforms mostly due to scope--platforms include libraries, open-source packages, etc)
+* [Architecture](http://research.tedneward.com/architecture/index/index.html): Software architecture links/research
+* [Backends](http://research.tedneward.com/backends/index/index.html): Software platforms
+* [Clouds](http://research.tedneward.com/clouds/index/index.html): Software "other peoples' hardware on other peoples' dirt" platforms
+* [Distributed Systems](http://research.tedneward.com/distribution/index/index.html): Distributed system research--not architecture but networking
+* [Formats](http://research.tedneward.com/formats/index/index.html): File and online formats (HTML, PDF, etc)
+* [GameDev](http://research.tedneward.com/gamedev/index/index.html): Specifically around the development of any sort of game (game frameworks, etc)
+* [Languages](http://research.tedneward.com/languages/index/index.html): Any and all programming languages
+* [Libraries](http://research.tedneward.com/libraries/index/index.html): Collection of code; includes O-O frameworks
+* [Places](http://research.tedneward.com/places/index/index.html): Websites of interest "in general"
+* [Platforms](http://research.tedneward.com/platforms/index/index.html): Environments in which programs execute (includes native, VMs, mobile-native)
+* [Presentation](http://research.tedneward.com/presentation/index/index.html): Front-end layers, usually of some sort of graphical format
+* [Reading](http://research.tedneward.com/reading/index/index.html): Specific topics of interest and reading materials related them
+* [Storage](http://research.tedneward.com/storage/index/index.html): Systems specifically designed to store data (a la "databases" but not always)
+* [Tools](http://research.tedneward.com/tools/index/index.html): Bits of software that are intended to be used directly (compilers, analyzers, etc)
+* [VMs](http://research.tedneward.com/vms/index/index.html): Virtual machine implementations (differing from platforms mostly due to scope--platforms include libraries, open-source packages, etc)
 
 ## Tags
 An open-ended list, but here's what we have so far:
