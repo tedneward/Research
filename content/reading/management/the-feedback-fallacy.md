@@ -1,6 +1,6 @@
 title=The Feedback Fallacy
 tags=reading, books, leadership, management
-summary=TBD
+summary="Radical candor" feedback doesn't actually work; instead, prefer to accentuate what the individual already does well and build on that.
 ~~~~~~
 *(by Marcus Buckingham and Ashley Goodall, from "HBR's 10 Must Reads 2021")*
 
