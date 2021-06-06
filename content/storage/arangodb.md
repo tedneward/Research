@@ -1,5 +1,5 @@
 title=ArangoDB
-tags=storage, graph, document, keyvalue
+tags=storage, graph, document, key-value
 summary=Multi-model database
 ~~~~~~
 [Website](https://www.arangodb.com/) | [Source](https://github.com/arangodb/arangodb)

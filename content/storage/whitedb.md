@@ -1,5 +1,5 @@
 title=WhiteDB
-tags=storage, keyvalue, rdf, native
+tags=storage, key-value, rdf, native
 summary=A lightweight NoSQL database library written in C, operating fully in main memory.
 ~~~~~~
 
