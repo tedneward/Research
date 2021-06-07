@@ -56,3 +56,4 @@ The following table gives a partial list of the 32 commands of the virtual machi
 **PRN**: Print number obtained by popping the top of the expression stack
 **SPC**: Insert spaces to move the print head to next zone
 **NLINE**: Output a CRLF to the printer
+
