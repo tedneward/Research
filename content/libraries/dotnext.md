@@ -3,7 +3,7 @@ tags=library, language, clr
 summary=A collection of .NET libraries intended to fill in gaps left by the CLR and standard library.
 ~~~~~~
 
-[Website](https://sakno.github.io/dotNext/index.html) | [Github](https://github.com/sakno/dotNext)
+[Website](https://sakno.github.io/dotNext/index.html) | [Source](https://github.com/sakno/dotNext)
 
 ### DotNext
 This library is the core of .NEXT which extends .NET Standard API with
