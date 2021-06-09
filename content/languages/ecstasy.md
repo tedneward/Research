@@ -11,6 +11,12 @@ summary=An object-ish language designed to be cloud native from the ground up.
 
 > The Ecstasy language supports first class modules, including versioning and conditionality; first class functions, including currying and partial application; type-safe object orientation, including support for auto-narrowing types, type-safe covariance, mixins, and duck-typed interfaces; complete type inference; first class immutable types; first class asynchronous services, including both automatic async/await-style and promises-based (@Future) programming models; and first class software containers, including resource injection and transitively-closed, immutable type systems. And much, much more.
 
+## Articles
+[InfoQ](https://www.infoq.com/articles/xtc-lang/)
+[TheServerSide](https://www.theserverside.com/news/252471233/Ecstasy-programming-language-targets-cloud-native-computing)
+[yC](https://news.ycombinator.com/item?id=21481958)
+
+
 ## Examples
 **[HelloWorld](https://github.com/xtclang/xvm/blob/master/doc/examples/HelloWorld.x)**
 ```
