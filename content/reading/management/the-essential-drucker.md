@@ -97,7 +97,7 @@ Markets are not created by God, nature, or economic forces, but by businesspeopl
 
 ## 20. Principles of Innovation
 
-## 21. The Second Half of Your Life {#second-half-of-your-life}
+## <a name="second-half-of-your-life"></a> 21. The Second Half of Your Life
 We live longer, we generally maximize our careers out somewhere after 20-25 years of work. Second careers are becoming much more commonplace.
 
 Three ways to develop a second career:

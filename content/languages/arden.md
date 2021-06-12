@@ -1,6 +1,6 @@
 title=Arden (syntax)
 tags=language, format
-summary=A markup language used for representing and sharing medical knowledge and used in an executable format by clinical decision support systems[2] to generate alerts, interpretations, and to screen and manage messages to clinicians.
+summary=A markup language used for representing and sharing medical knowledge and used in an executable format by clinical decision support systems to generate alerts, interpretations, and to screen and manage messages to clinicians.
 ~~~~~~
 
 [Committee Home](http://www.hl7.org/special/Committees/arden/docs.cfm)

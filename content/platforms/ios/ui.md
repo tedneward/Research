@@ -5,9 +5,81 @@ summary=UI development for the Apple mobile device operating system (on top of t
 
 ## General
 
-UIView forms root of view hierarchy; object instance lifetime isn't quite 1:1 with widget (screen) lifetime.
+### UIView
+A view forms root of view hierarchy; object instance lifetime isn't quite 1:1 with widget (screen) lifetime.
 
-UIViewController: A view controller isn't an interface object (view), but it manages one--this view is its "main view".
+* Views form a hierarchy; every view has a parent view, rooted to a UIWindow (which is the root view to the OS).
+
+### UIViewController
+A view controller isn't an interface object (view), but it manages one--this view is its "main view". Use view controllers to manage your UIKit app’s interface. A view controller manages a single root view, which may itself contain any number of subviews. User interactions with that view hierarchy are handled by your view controller, which coordinates with other objects of your app as needed. Every app has at least one view controller whose content fills the main window. If your app has more content than can fit onscreen at once, use multiple view controllers to manage different parts of that content.
+
+A container view controller embeds the content of other view controllers into its own root view. A container view controller may mix custom views with the contents of its child view controllers to facilitate navigation or to create unique interfaces. For example, a UINavigationController object manages a navigation bar and a stack of child view controllers (only one of which is visible at a time), and provides an API to add and remove child view controllers from the stack.
+
+You change your app's interface by presenting and dismissing view controllers. Every window has a root view controller, which provides the initial content for your window. Presenting a new view controller changes that content by installing a new set of views in the window. When you no longer need the view controller, dismissing it removes its views from the window. You present view controllers in one of several ways:
+
+* **Configure presentations visually in your storyboard.** Using segues in your storyboard is the recommended way to present and dismiss view controllers. A segue is a visual representation of a transition from one view controller to another. A segue starts with an action such as a button tap or table-row selection in the initial view controller. When that action occurs, UIKit creates the view controller at the other end of the segue and presents it automatically. Because you create and configure segues in your storyboard, you can change them very quickly.
+
+    Start a segue from any object that implements an action method, such as a control or gesture recognizer. You may also start segues from table rows and collection view cells.
+
+    * Right-click the control or object in your current view controller.
+
+    * Drag the cursor to the view controller you want to present.
+
+    * Select the kind of segue you want from the list that Xcode provides.
+
+    The storyboard shows segues as an arrow between two view controllers. Selecting the segue displays information about it, including the kind of presentation you want UIK to perform. You can modify the presentation type or configure additional details, such as a segue identifier. You use this information at runtime to customize the segue further, as described in [Customizing the Behavior of Segue-Based Presentations](https://developer.apple.com/documentation/uikit/resource_management/customizing_the_behavior_of_segue-based_presentations).
+
+    For information about how to dismiss a view controller in your storyboards, see [Dismissing a View Controller with an Unwind Segue](https://developer.apple.com/documentation/uikit/resource_management/dismissing_a_view_controller_with_an_unwind_segue).
+
+* **Let the current context define the presentation technique.** Reusing the same view controller in multiple places creates a potential problem: presenting it in different ways based on the current context. For example, you might want to embed it in a navigation controller in one instance, but present it modally in another. UIKit solves this problem with the show(_:sender:) and showDetailViewController(_:sender:) methods of UIViewController, which present the view controller in the most appropriate way for the current context.
+
+    When you call the show(_:sender:) or showDetailViewController(_:sender:) method, UIKit determines the most appropriate context for the presentation. Specifically, it calls the targetViewController(forAction:sender:) method to search for a parent view controller that implements the corresponding show method. If a parent implements the method and wants to handle the presentation, UIKit calls the parent's implementation. A UINavigationController object's implementation of the show(_:sender:) method pushes the new view controller onto its navigation stack. If no view controller handles the presentation, UIKit presents the view controller modally.
+
+    The following code example creates a view controller and shows it using the show(_:sender:) method. The code is equivalent to creating a segue with the kind set to Show.
+
+        @IBAction func showSecondViewController() {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let secondVC = storyboard.instantiateViewController(identifier: "SecondViewController")
+
+            show(secondVC, sender: self)
+        }
+
+    After showing a view controller, use the current context to determine how to dismiss it. Calling the dismiss(animated:completion:) method might not always be the most appropriate option. For example, don't call that method if a navigation controller added the view controller to its navigation stack. Instead, use the presentingViewController, splitViewController, navigationController, and tabBarController properties to determine the current context, and to take appropriate actions in response. That response might also include modifying your view controller's UI to hide a Done button or other controls for dismissing the UI.
+
+    > When implementing a custom container view controller, implement the show(_:sender:) and showDetailViewController(_:sender:) methods to handle presentations. For more information, see Creating a Custom Container View Controller.
+
+* **Embed them in a container view controller.** A container view controller embeds content from one or more child view controllers, and presents the combined interface onscreen. Embedding a child view controller presents it using a container-specific approach. For example, a navigation controller initially positions the child view controller offscreen and then animates it into position onscreen.
+
+    The standard UIKit container view controllers work with segues and the show(_:sender:) and showDetailViewController(_:sender:) methods to embed view controllers as children. They also define additional API for adding and removing child view controllers programmatically. Use segues and the show methods to handle most transitions. Use the methods in the following table to perform one-time configuration of your view controller, for example when restoring your app's UI to a previous state.
+
+    Container | Presentation options
+    --------- | --------------------
+    UISplitViewController | Replace the two initial view controllers using the viewControllers property. The first (primary) view controller appears in the leading pane and the second (detail) view controller appears in the trailing pane.
+    UINavigationController | Replace the contents of the navigation stack using the viewControllers property. Add or remove a subset of view controllers simultaneously using the setViewControllers(_:animated:) method.
+    UITabBarController | Replace the initial tabs using the viewControllers property. Change the current tabs dynamically using the setViewControllers(_:animated:) method.
+    UIPageViewController | Provide all child view controllers using a UIPageViewControllerDataSource object.
+
+    Always use the container view controller's API to remove or replace a presented view controller. 
+
+* **Present a View Controller modally.** Use modal presentations to create temporary interruptions in your app's workflow, such as prompting the user for important information. A modal presentation covers the current view controller wholly or partially, depending on the presentation style you use. Full-screen presentations always replace the previous content, but sheet-style presentations may leave some of the underlying content visible. The actual appearance of each presentation style depends on the current trait environment.
+
+    To configure a modal presentation, create the new view controller and call the present(_:animated:completion:) method. That method animates the new view controller into position using the UIModalPresentationStyle.automatic style and the UIModalTransitionStyle.coverVertical transition animation. To change the styles, modify the modalPresentationStyle and modalTransitionStyle properties of the view controller you present. The following code example changes both of these styles to create a full-screen presentation using a cross-dissolve animation.
+
+        @IBAction func presentSecondViewController() {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let secondVC = storyboard.instantiateViewController(identifier: "SecondViewController")
+            
+            secondVC.modalPresentationStyle = .fullScreen
+            secondVC.modalTransitionStyle = .crossDissolve
+            
+            present(secondVC, animated: true, completion: nil)
+        }
+    
+    To dismiss a modally presented view controller, call the view controller's dismiss(animated:completion:) method.
+
+* Call methods of UIViewController directly.
+
+Each technique gives you different amounts of control over the presentation and dismissal process.
 
 ### Interface Builder: Document Outline
 Hierarchical view of the objects in the nib. 

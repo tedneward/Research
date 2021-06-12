@@ -1,4 +1,4 @@
-title=Apache Geode
+title=Geode
 tags=storage, object, network
 summary=Apache Geode is a data management platform that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures. (Formerly GemStone GemFire.)
 ~~~~~~

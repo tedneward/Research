@@ -20,6 +20,7 @@ See also [macOS](../macos)
 - [Mike Ash, Friday Q & A](https://www.mikeash.com/pyblog/)
 - [Swift Unboxed](https://swiftunboxed.com)
 - [iOS Dev Directory](https://iosdevdirectory.com)
+- [Erica Sadun Github](https://github.com/erica): Author of many, many iOS books
 
 ## Guides
 
