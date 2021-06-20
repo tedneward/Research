@@ -1,5 +1,5 @@
 title=Oz (language) and Mozart (programming system)
-tags=language, functional, object, concurrent, logic, metaobject
+tags=language, functional, object, concurrency, logic, metaobject
 summary=The Mozart Programming System combines ongoing research in programming language design and implementation, constraint logic programming, distributed computing, and human-computer interfaces. Mozart implements the Oz language and provides both expressive power and advanced functionality. Oz is a multiparadigm programming language including logic, functional (both lazy evaluation and eager evaluation), imperative, object-oriented, constraint, distributed, and concurrent programming.
 ~~~~~~
 
@@ -25,7 +25,7 @@ Basic data structures:
 Those data structures are values (constant), first class and dynamically type checked. Variable names in Oz start with an uppercase letter to distinguish them from literals[4] which always begin with a lowercase letter.
 
 ### Functions
-Functions[5] are first class values, allowing higher order functional programming:
+Functions are first class values, allowing higher order functional programming:
 
 ```
 fun {Fact N}
@@ -42,6 +42,7 @@ fun {SumList List}
    end
 end
 ```
+
 Functions may be used with both free and bound variables. Free variable values are found using static lexical scoping. Supports higher-order functions and anonymous functions; procedures are functions (using the "proc" keyword) that return no value.
 
 ### Dataflow variables and declarative concurrency
