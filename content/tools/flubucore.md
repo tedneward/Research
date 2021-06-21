@@ -1,5 +1,5 @@
 title=FlubuCore
-tags=tools, clr, build
+tags=tool, clr, build
 summary=A cross platform build and deployment automation system. You can define your build and deployment scripts in C# using an intuitive fluent interface.
 ~~~~~~
 

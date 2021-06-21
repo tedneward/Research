@@ -1,5 +1,5 @@
 title=Ecstasy (XTC)
-tags=language, vm, compiled, service, cloud, distribution
+tags=language, vm, compiled, services, cloud, distribution
 summary=An object-ish language designed to be cloud native from the ground up.
 ~~~~~~
 

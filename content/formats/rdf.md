@@ -1,5 +1,5 @@
 title=Resource Description Framework (RDF)
-tags=format, specification, distribution
+tags=format, specifications, distribution
 summary=A data format for Semantic Web involving triplets of data.
 ~~~~~~
 
