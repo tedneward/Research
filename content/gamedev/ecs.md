@@ -5,12 +5,20 @@ summary=A common architecture/design pattern for building games.
 
 ["How to Build an Entity Component System Game in JavaScript"](http://vasir.net/blog/game-development/how-to-build-entity-component-system-in-javascript) ([Code](https://github.com/erikhazzard/RectangleEater/blob/master/scripts/game.js))
 
-["Introducing ECSY"](https://blog.mozvr.com/introducing-ecsy/) | 
+["Introducing ECSY"](https://blog.mozvr.com/introducing-ecsy/)
+
+["Entity Component System (ECS) in A-Frame and Javascript"](https://pancy.medium.com/entity-component-system-ecs-in-a-frame-and-javascript-f5b7cdba7248)
+
+["How I Built a TypeScript Entity Component System"](https://blog.marco-alka.de/how-i-built-a-typescript-entity-component-system-ck98i5iqp00eqcxs1m1xol9d5)
 
 Existing libraries:
 * [A-Frame](https://github.com/aframevr/aframe/) (Javascript): [Website](https://aframe.io/) "A web framework for building 3D/AR/VR experiences. Make 3D worlds with HTML and Entity-Component. For Quest, Rift, WMR, SteamVR, mobile, desktop." [Docs](https://aframe.io/docs/1.2.0/introduction/)
 * [Ape-ECS](https://github.com/fritzy/ape-ecs) (Javascript): "Entity-Component-System library for JavaScript."
-* [ensy](https://github.com/adngdb/entity-system-js): "A very simple Entity System for JavaScript." [Docs](https://entity-system-js.readthedocs.io/en/latest/)
+* [ECSY](../ecsy) (Javascript)
+* [ensy](https://github.com/adngdb/entity-system-js) (Javascript): "A very simple Entity System for JavaScript." [Docs](https://entity-system-js.readthedocs.io/en/latest/)
+* [javascript-entity-component-system](https://www.npmjs.com/package/javascript-entity-component-system?activeTab=readme) (Javascript): Lightweight ECS
+* [Legion](https://github.com/TomGillen/legion) (Rust)
+* [SPECS](https://github.com/amethyst/specs) (Rust)
 
 #### From "How to Build an Entity Component System Game in JavaScript":
 With ECS, entities are just collections of components; just a collection of data.
