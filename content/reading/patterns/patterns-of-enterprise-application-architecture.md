@@ -2,7 +2,7 @@ title=Patterns of Enterprise Application Architecture
 tags=reading, books, patterns, distribution
 summary=Martin Fowler's enterprise systems text.
 ~~~~~~
-(by Martin Fowler (Addison-Wesley, 2003, ISBN 0-321-12742-0) )
+*(by Martin Fowler (Addison-Wesley, 2003, ISBN 0-321-12742-0) )*
 
 
 ### Domain Logic

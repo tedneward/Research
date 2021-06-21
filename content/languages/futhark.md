@@ -1,5 +1,5 @@
 title=Futhark
-tags=language, concurrent
+tags=language, concurrency
 summary=A purely functional data-parallel programming language in the ML family.
 ~~~~~~
 

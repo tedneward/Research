@@ -12,8 +12,6 @@ Reading lists:
 
 Interesting links:
 * [Fuck Off As A Service](http://foaas.com/)
-
-
-
-
+* [DnD 5e API](https://github.com/5e-bits/5e-srd-api)
+* [Another DnD 5e API](https://api.open5e.com/)
 

@@ -1,5 +1,5 @@
 title=Autotools
-tags=tool, native
+tags=tool, native, build
 summary=Portable build system used extensively in the GNU software suite.
 ~~~~~~
 

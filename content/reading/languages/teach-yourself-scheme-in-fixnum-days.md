@@ -4,9 +4,6 @@ summary=Scheme tutorials.
 ~~~~~~
 *(by Dorai Sitaram (ds26@gte.com), 1998-2004)*
 
-[Download archive containing all the pages of this document] 
-[Download TeX source for this document] 
-
 # Contents
 
     Preface

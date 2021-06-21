@@ -2,7 +2,7 @@ title=Core J2EE Patterns
 tags=reading, books, patterns, distribution, jvm
 summary=Patterns around enterprise Java circa 2000
 ~~~~~~
-(by Deepak Alur, John Crupi, Dan Malks (Prentice-Hall, 2003, ISBN 0-13-142246-4) )
+*(by Deepak Alur, John Crupi, Dan Malks (Prentice-Hall, 2003, ISBN 0-13-142246-4) )*
 
 
 ### Presentation Tier
