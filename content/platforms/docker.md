@@ -1,5 +1,5 @@
 title=Docker
-tags=platform, container
+tags=platform, containers
 summary=Popular container for atomic code-and-environment deployment.
 ~~~~~~
 
