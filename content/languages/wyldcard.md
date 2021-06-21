@@ -1,7 +1,10 @@
 title=WyldCard
-tags=language, jvm
+tags=language, jvm, presentation, low-code
 summary=A clone of Apple's HyperCard and HyperTalk scripting language.
 ~~~~~~
+
+See also:
+- [HyperCard](../platforms/hypercard.html)
 
 [Source](https://github.com/defano/wyldcard)
 

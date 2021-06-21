@@ -4,29 +4,11 @@ summary=A collection of links and resources on the linking and loading of execut
 ~~~~~~
 See also:
 
-- [Building](https://github.com/MattPD/cpplinks/blob/master/building.md)
-- [Compilers](compilers)
-- [Executables](executables.html) - executable & object file formats ([DLL](executables.html#dll), [ELF](executables.html#elf), [Mach-O](executables.html#mach-o), [PE](executables.html#pe)); debugging data formats ([DWARF](executables.html#dwarf), [PDB](executables.html#pdb-program-database))
-
-# Contents
-
-- [Readings](#readings):
-	- [Blogs](#readings-blogs)
-	- [Books](#readings-books)
-	- [Linker Scripts](#readings-linker-scripts)
-	- [LTO](#readings-lto)
-	- [OS: POSIX](#readings-os-posix) (macOS, Linux, Solaris)
-	- [OS: Windows](#readings-os-windows)
-	- [Relocations](#readings-relocations)
-	- [Security](#readings-security)
-	- [Shared Libraries](#readings-shared-libraries)
-- [Software](#software):
-	- [Linkers](#software-linkers)
-	- [OS: macOS](#software-os-macos)
-	- [OS: Linux](#software-os-linux)
-- [Talks](#talks): [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016)
-
----
+- [Building](../tools/building.html)
+- [Compilers](compilers.html)
+- [Executables](executables.html) 
+    - executable & object file formats :[DLL](executables.html#dll), [ELF](executables.html#elf), [Mach-O](executables.html#mach-o), [PE](executables.html#pe)
+    - debugging data formats ([DWARF](executables.html#dwarf), [PDB](executables.html#pdb-program-database))
 
 # Readings
 
