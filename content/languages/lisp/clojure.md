@@ -10,9 +10,13 @@ From the website:
 
 > Clojure is a dialect of Lisp, and shares with Lisp the code-as-data philosophy and a powerful macro system. Clojure is predominantly a functional programming language, and features a rich set of immutable, persistent data structures. When mutable state is needed, Clojure offers a software transactional memory system and reactive Agent system that ensure clean, correct, multithreaded designs.
 
-#### Links/libraries
+### Links/libraries
 [Cats](http://funcool.github.io/cats/latest/#_maybe): Category Theory and algebriac abstractions for Clojure.
 
 [Magic](http://nas.sr/magic/): The Morgan And Grand Iron Clojure Compiler
 A high-performance Clojure compiler library targeting the Common Language Runtime.
+
+### Implementations
+
+* [sci](https://github.com/borkdude/sci): An interpreter for a subset of Clojure for Clojure and ClojureScript.
 

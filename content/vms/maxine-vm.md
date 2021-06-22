@@ -1,9 +1,9 @@
 title=Maxine-VM
-tags=vm
+tags=vm, jvm
 summary=A meta-circular research VM; a next generation, highly productive platform for virtual machine research..
 ~~~~~~
 
-[Github](https://github.com/beehive-lab/Maxine-VM)
+[Github](https://github.com/beehive-lab/Maxine-VM) | [Wikipedia](https://en.wikipedia.org/wiki/Maxine_Virtual_Machine) | [Docs](https://maxine-vm.readthedocs.io/_/downloads/en/stable/pdf/)
 
 
 From the [docs page](https://maxine-vm.readthedocs.io/en/latest/):

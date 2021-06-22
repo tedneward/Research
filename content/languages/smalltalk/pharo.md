@@ -1,5 +1,5 @@
 title=Pharo
-tags=language, dynamic, message-passing
+tags=language, dynamic, message-passing, vm
 summary=A dynamic reflective pure object-oriented language supporting live programming inspired by Smalltalk.
 ~~~~~~
 

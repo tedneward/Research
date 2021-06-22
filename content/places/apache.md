@@ -1,0 +1,315 @@
+title=Apache.org
+tags=place, jvm
+summary=The Apache site is a collection of numerous open-source projects, in all stages of life (incubating, maintained, archived).
+~~~~~~
+
+[Website](https://apache.org/)
+
+Project list, by name, (as of 6/21/2021):
+
+* HTTP Server
+* APISIX
+* Accumulo
+* ActiveMQ
+* Airavata
+* Airflow
+* Allura
+* Ambari
+* Ant
+* Any23
+* Archiva
+* Aries
+* Arrow
+* AsterixDB
+* Atlas
+* Attic
+    * Abdera
+    * ACE
+    * Apex
+    * Aurora
+    * Avalon
+    * AxKit
+    * Axis Sandesha2/C
+    * Axis Savan/C
+    * Axis Savan/Java
+    * Beehive
+    * Chukwa
+    * Click
+    * Open Climate Workbench
+    * Crimson
+    * Continuum
+    * Crunch
+    * Deltacloud
+    * DeviceMap
+    * DirectMemory
+    * DRAT
+    * Eagle
+    * ESME
+    * Etch
+    * Excalibur
+    * Falcon
+    * Forrest
+    * Hama
+    * Harmony
+    * HiveMind
+    * iBATIS
+    * Jakarta
+    * Jakarta Cactus
+    * Jakarta ECS
+    * Jakarta ORO
+    * Jakarta Regexp
+    * Jakarta Slide
+    * Jakarta Taglibs
+    * Labs
+    * Lens
+    * Lenya
+    * Lucy
+    * Marmotta
+    * Metron
+    * MRUnit
+    * ODE
+    * ObJectRelationalBridge (OJB)
+    * Oltu
+    * Onami
+    * Polygene
+    * PredictionIO
+    * Quetzalcoatl
+    * Rave
+    * Sentry
+    * Shale
+    * Shindig
+    * Standard C++ Library (STDCXX)
+    * Stanbol
+    * Stratos
+    * Tajo
+    * Tiles
+    * Trafodion
+    * Tuscany
+    * Twill
+    * VXQuery
+    * Whirr
+    * Wink
+    * Wookie
+    * WS Muse
+    * Xang
+    * Xindice
+    * XML
+* Avro
+* Axis
+* BVal
+* Bahir
+* Beam
+* Bigtop
+* Bloodhound
+* BookKeeper
+* Brooklyn
+* Buildr
+* CXF
+* Calcite
+* Camel
+* CarbonData
+* [Cassandra](../../storage/cassandra)
+* Cayenne
+* Celix
+* Chemistry
+* Clerezza
+* CloudStack
+* Cocoon
+* Commons
+* [Cordova](../../presentation/cordova)
+* [CouchDB](../../storage/couchdb)
+* Creadur
+* Curator
+* cTAKES
+* DB
+* Daffodil
+* DataFu
+* DataSketches
+* DeltaSpike
+* Directory
+* DolphinScheduler
+* Drill
+* Druid
+* Dubbo
+* ECharts
+* Empire-db
+* Felix
+* Fineract
+* Flex
+* Flink
+* Flume
+* Fluo
+* FreeMarker
+* [Geode](../../storage/geode)
+* Geronimo
+* Giraph
+* Gobblin
+* Gora
+* Griffin
+* [Groovy](../../languages/jvm/groovy)
+* Guacamole
+* Gump
+* HAWQ
+* [HBase](../../storage/hbase)
+* Hadoop
+* Helix
+* Hive
+* HttpComponents
+* Hudi
+* Iceberg
+* Ignite
+* Impala
+* Incubator
+    * AGE
+    * Annotator
+    * BlueMarlin
+    * brpc
+    * Crail
+    * DataLab
+    * Doris
+    * EventMesh
+    * Flagon
+    * Heron
+    * Hivemall
+    * Hop
+    * Liminal
+    * Livy
+    * Marvin-AI
+    * Teaclave
+    * Milagro
+    * MXNet
+    * Nemo
+    * NLPCraft
+    * NuttX
+    * PageSpeed
+    * Pegasus
+    * Pinot
+    * Pony Mail
+    * SDAP
+    * Sedona
+    * ShenYu
+    * Spot
+    * StreamPipes
+    * Training
+    * Toree
+    * InLong
+    * Tuweni
+    * Wayang
+    * YuniKorn
+* IoTDB
+* [Isis](../../presentation/isis)
+* JMeter
+* JSPWiki
+* Jackrabbit
+* James
+* Jena
+* Johnzon
+* Joshua
+* Juneau
+* jUDDI
+* jclouds
+* Kafka
+* Karaf
+* Kibble
+* Knox
+* Kudu
+* Kylin
+* Libcloud
+* Logging Services
+* Lucene
+* Lucene.Net
+* MADlib
+* MINA
+* Mahout
+* ManifoldCF
+* Maven
+* Mesos
+* Mnemonic
+* MyFaces
+* Mynewt
+* NetBeans
+* NiFi
+* Nutch
+* OFBiz
+* OODT
+* ORC
+* Olingo
+* Oozie
+* OpenJPA
+* OpenMeetings
+* OpenNLP
+* OpenOffice
+* OpenWebBeans
+* OpenWhisk
+* Ozone
+* PDFBox
+* PLC4X
+* POI
+* Parquet
+* Perl
+* Petri
+* Phoenix
+* Pig
+* Pivot
+* Portable Runtime (APR)
+* Portals
+* [Pulsar](../../distribution/pulsar)
+* Qpid
+* REEF
+* Ranger
+* Ratis
+* River
+* RocketMQ
+* Roller
+* Royale
+* Rya
+* SINGA
+* SIS
+* Samza
+* Santuario
+* Serf
+* ServiceComb
+* ServiceMix
+* ShardingSphere
+* Shiro
+* SkyWalking
+* Sling
+* Solr
+* SpamAssassin
+* Spark
+* Steve
+* Storm
+* Streams
+* Struts
+* Submarine
+* Subversion
+* Superset
+* Synapse
+* Syncope
+* SystemDS
+* TVM
+* Tapestry
+* [Tcl](../../languages/tcl)
+* Tez
+* Thrift
+* Tika
+* [TinkerPop](../../storage/tinkerpop)
+* TomEE
+* Tomcat
+* Traffic Control
+* Traffic Server
+* Turbine
+* UIMA
+* Unomi
+* Usergrid
+* VCL
+* Velocity
+* Web Services
+* Whimsy
+* Wicket
+* XML Graphics
+* Xalan
+* Xerces
+* Yetus
+* Zeppelin
+* ZooKeeper

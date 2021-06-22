@@ -8,6 +8,8 @@ summary=The native assembly language of the Intel x86 family.
 * [Linux](http://www.plantation-productions.com/Webster/www.artofasm.com/Linux/HTML/AoATOC.html) or [PDF](http://www.plantation-productions.com/Webster/www.artofasm.com/Linux/aoapdf.tar.gz)
 * [DOS (16-bit)](http://www.plantation-productions.com/Webster/www.artofasm.com/DOS/AoADosIndex.html) or [PDF](http://www.plantation-productions.com/Webster/www.artofasm.com/DOS/pdf/0_AoAPDF.html)
 
+["How to read assembly language"](https://wolchok.org/posts/how-to-read-assembly-language/)
+
 Intel x86/IA64 reference links should go here; likewise for AMD
 
 [Assembly tutorial for DOS](https://github.com/WindowsNT/asm) also available in a full list at [CodeProject: The Intel Assembly Manual](https://www.codeproject.com/Articles/1273844/The-Intel-Assembly-Manual)
@@ -103,29 +105,6 @@ http://www.gamasutra.com/view/news/178446/Indepth_Windows_x64_ABI_Stack_frames.p
 	- Download: http://download.savannah.gnu.org/releases/pgubook/
 - PC Assembly Language Tutorial
 	- http://web.archive.org/web/20150815073439/http://www.drpaulcarter.com/pcasm/
-
-# Communities
-
-alt.lang.asm
-https://groups.google.com/d/forum/alt.lang.asm
-
-comp.lang.asm.x86
-https://groups.google.com/d/forum/comp.lang.asm.x86
-
-flat assembler: Message board for the users of flat assembler.
-http://board.flatassembler.net/
-
-x86 Assembly Language FAQ Supporting the alt.lang.asm and comp.lang.asm.x86 Newsgroups
-http://www.fysnet.net/faq/
-
-/r/asm - where every byte counts
-https://www.reddit.com/r/asm
-
-`##asm`, Freenode IRC network
-http://goo.gl/vZ4xwd
-
-CS270 x86 Assembly Blog
-http://cs270assembly.tumblr.com/
 
 # Courses
 

@@ -7,6 +7,3 @@ Message-passing is often at the heart of dynamic programming languages like [Obj
 
 In more widespread distributed systems literature, this is often called "message-oriented middleware" and typically involves messages dispatched over network links to "queues" where they are stored until examined (and possibly consumed) by messaging clients. Those who produce messages are often called "producers"; those who consume them, "consumers".
 
-
-
-
