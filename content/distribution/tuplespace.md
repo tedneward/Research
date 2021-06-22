@@ -7,3 +7,4 @@ summary=An implementation of the associative memory paradigm for parallel/distri
 
 Popularized by the [Linda](../../languages/linda) programming language. Tuple spaces are collections of tuples.
 
+IBM TSpaces were one of my favorite projects I never got to use.
