@@ -26,4 +26,3 @@ Interpreters/VMs:
 
 # [Zeugma](https://www.linusakesson.net/software/zeugma/index.php)
 A modern, highly optimised, open-source Z-machine implementation for the 6502 processor family. It is designed around a virtual memory model, where pages are retrieved on demand from an external storage resource, 512 KB in size, which must be preloaded with the game file.
-

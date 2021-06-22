@@ -678,4 +678,3 @@ You have many remote CouchDB databases that the user may access, and they are al
 You have many local PouchDB databases, which are mirrored to a single remote CouchDB as a backup store.
 
 The only limits are your imagination and your disk space.
-
