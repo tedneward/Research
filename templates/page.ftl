@@ -3,7 +3,7 @@
 	<#include "menu.ftl">
 
 	<div class="page-header">
-		<h1><#escape x as x?xml>${content.title}</#escape></h1>
+		<h1><#escape x as x?xml>${content.title?!"(No title)"}</#escape></h1>
 		<h3>${content.summary!""}</h3>
 		<!-- tag tag tag -->
 	</div>
