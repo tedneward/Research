@@ -8,94 +8,22 @@ summary=The Apache site is a collection of numerous open-source projects, in all
 Project list, by name, (as of 6/21/2021):
 
 * HTTP Server
-* APISIX
-* Accumulo
-* ActiveMQ
-* Airavata
-* Airflow
-* Allura
-* Ambari
-* Ant
-* Any23
-* Archiva
-* Aries
-* Arrow
-* AsterixDB
-* Atlas
-* Attic
-    * Abdera
-    * ACE
-    * Apex
-    * Aurora
-    * Avalon
-    * AxKit
-    * Axis Sandesha2/C
-    * Axis Savan/C
-    * Axis Savan/Java
-    * Beehive
-    * Chukwa
-    * Click
-    * Open Climate Workbench
-    * Crimson
-    * Continuum
-    * Crunch
-    * Deltacloud
-    * DeviceMap
-    * DirectMemory
-    * DRAT
-    * Eagle
-    * ESME
-    * Etch
-    * Excalibur
-    * Falcon
-    * Forrest
-    * Hama
-    * Harmony
-    * HiveMind
-    * iBATIS
-    * Jakarta
-    * Jakarta Cactus
-    * Jakarta ECS
-    * Jakarta ORO
-    * Jakarta Regexp
-    * Jakarta Slide
-    * Jakarta Taglibs
-    * Labs
-    * Lens
-    * Lenya
-    * Lucy
-    * Marmotta
-    * Metron
-    * MRUnit
-    * ODE
-    * ObJectRelationalBridge (OJB)
-    * Oltu
-    * Onami
-    * Polygene
-    * PredictionIO
-    * Quetzalcoatl
-    * Rave
-    * Sentry
-    * Shale
-    * Shindig
-    * Standard C++ Library (STDCXX)
-    * Stanbol
-    * Stratos
-    * Tajo
-    * Tiles
-    * Trafodion
-    * Tuscany
-    * Twill
-    * VXQuery
-    * Whirr
-    * Wink
-    * Wookie
-    * WS Muse
-    * Xang
-    * Xindice
-    * XML
-* Avro
-* Axis
+* [APISIX](http://apisix.apache.org/): A dynamic cloud-native API Gateway.
+* [Accumulo](https://accumulo.apache.org/): a sorted, distributed key/value store that provides robust, scalable data storage and retrieval.
+* [ActiveMQ](/distribution/activemq): the most popular open source, multi-protocol, Java-based message broker.
+* [Airavata](http://airavata.apache.org/): a software framework that enables you to compose, manage, execute, and monitor large scale applications and workflows on distributed computing resources such as local clusters, supercomputers, computational grids, and computing clouds.
+* [Airflow](http://airflow.apache.org/): a platform created by the community to programmatically author, schedule and monitor workflows.
+* [Allura](http://allura.apache.org/): open-source project hosting platform.
+* [Ambari](http://ambari.apache.org/): aimed at making Hadoop management simpler by developing software for provisioning, managing, and monitoring Apache Hadoop clusters. Ambari provides an intuitive, easy-to-use Hadoop management web UI backed by its RESTful APIs.
+* [Ant](/tools/ant): a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other.
+* [Any23](http://any23.apache.org/): a library, a web service and a command line tool that extracts structured data in RDF format from a variety of Web documents.
+* [Archiva](http://archiva.apache.org/): build artifact repository manager.
+* [Aries](http://aries.apache.org/documentation/index.html): a set of pluggable Java components enabling an enterprise OSGi application programming model.
+* [Arrow](http://arrow.apache.org/): A cross-language development platform for in-memory analytics.
+* [AsterixDB](http://asterixdb.apache.org/): a scalable, open source Big Data Management System (BDMS).
+* [Atlas](http://atlas.apache.org/#/): a scalable and extensible set of core foundational governance services – enabling enterprises to effectively and efficiently meet their compliance requirements within Hadoop and allows integration with the whole enterprise data ecosystem.
+* [Avro](http://avro.apache.org/): a data serialization system.
+* [Axis](http://axis.apache.org/): Apache Axis, and the the second generation of it, the Apache Axis2, are two Web Service containers that helps users to create, deploy, and run Web Services.
 * BVal
 * Bahir
 * Beam
@@ -159,43 +87,6 @@ Project list, by name, (as of 6/21/2021):
 * Iceberg
 * Ignite
 * Impala
-* Incubator
-    * AGE
-    * Annotator
-    * BlueMarlin
-    * brpc
-    * Crail
-    * DataLab
-    * Doris
-    * EventMesh
-    * Flagon
-    * Heron
-    * Hivemall
-    * Hop
-    * Liminal
-    * Livy
-    * Marvin-AI
-    * Teaclave
-    * Milagro
-    * MXNet
-    * Nemo
-    * NLPCraft
-    * NuttX
-    * PageSpeed
-    * Pegasus
-    * Pinot
-    * Pony Mail
-    * SDAP
-    * Sedona
-    * ShenYu
-    * Spot
-    * StreamPipes
-    * Training
-    * Toree
-    * InLong
-    * Tuweni
-    * Wayang
-    * YuniKorn
 * IoTDB
 * [Isis](../../presentation/isis)
 * JMeter
@@ -313,3 +204,112 @@ Project list, by name, (as of 6/21/2021):
 * Yetus
 * Zeppelin
 * ZooKeeper
+* Incubator
+    * AGE
+    * Annotator
+    * BlueMarlin
+    * brpc
+    * Crail
+    * DataLab
+    * Doris
+    * EventMesh
+    * Flagon
+    * Heron
+    * Hivemall
+    * Hop
+    * Liminal
+    * Livy
+    * Marvin-AI
+    * Teaclave
+    * Milagro
+    * MXNet
+    * Nemo
+    * NLPCraft
+    * NuttX
+    * PageSpeed
+    * Pegasus
+    * Pinot
+    * Pony Mail
+    * SDAP
+    * Sedona
+    * ShenYu
+    * Spot
+    * StreamPipes
+    * Training
+    * Toree
+    * InLong
+    * Tuweni
+    * Wayang
+    * YuniKorn
+* Attic
+    * Abdera
+    * ACE
+    * Apex
+    * Aurora
+    * Avalon
+    * AxKit
+    * Axis Sandesha2/C
+    * Axis Savan/C
+    * Axis Savan/Java
+    * Beehive
+    * Chukwa
+    * Click
+    * Open Climate Workbench
+    * Crimson
+    * Continuum
+    * Crunch
+    * Deltacloud
+    * DeviceMap
+    * DirectMemory
+    * DRAT
+    * Eagle
+    * ESME
+    * Etch
+    * Excalibur
+    * Falcon
+    * Forrest
+    * Hama
+    * Harmony
+    * HiveMind
+    * iBATIS
+    * Jakarta
+    * Jakarta Cactus
+    * Jakarta ECS
+    * Jakarta ORO
+    * Jakarta Regexp
+    * Jakarta Slide
+    * Jakarta Taglibs
+    * Labs
+    * Lens
+    * Lenya
+    * Lucy
+    * Marmotta
+    * Metron
+    * MRUnit
+    * ODE
+    * ObJectRelationalBridge (OJB)
+    * Oltu
+    * Onami
+    * Polygene
+    * PredictionIO
+    * Quetzalcoatl
+    * Rave
+    * Sentry
+    * Shale
+    * Shindig
+    * Standard C++ Library (STDCXX)
+    * Stanbol
+    * Stratos
+    * Tajo
+    * Tiles
+    * Trafodion
+    * Tuscany
+    * Twill
+    * VXQuery
+    * Whirr
+    * Wink
+    * Wookie
+    * WS Muse
+    * Xang
+    * Xindice
+    * XML
