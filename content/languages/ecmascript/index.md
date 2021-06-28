@@ -1,4 +1,3 @@
-<<<<<<< HEAD:content/languages/ecmascript/ecmascript.md
 title=ECMAScript (aka Javascript)
 tags=language, browser, nodejs, dynamic, object, metaobject
 summary=A dynamic, object-oriented script language.
@@ -69,7 +68,6 @@ From the Specification home page, a history:
 * [Sugar](../../sugar)	New programming language designed to replace JavaScript for client-side (and server-side) web development
 * [Opa](../../opa)	Write your complete application in just one language, and the compiler will transform it into a self-sufficient executable
 * [STIP.js](../stip)	Slicing Tierless Programs in JavaScript
-=======
 title=ECMAScript (aka Javascript)
 tags=language, browser, nodejs, dynamic, object, metaobject
 summary=A dynamic, object-oriented script language.
@@ -154,4 +152,3 @@ Official standard name of the language originally appearing in browsers. "Javasc
 * [Sugar](../ecmascript/sugar): New programming language designed to replace JavaScript for client-side (and server-side) web development
 * [Opa](../opa): Write your complete application in just one language, and the compiler will transform it into a self-sufficient executable
 * [STIP.js](../stip): Slicing Tierless Programs in JavaScript
->>>>>>> 7452cc74190d26ccf18f4f287165fb9ad03f7092:content/languages/ecmascript/index.md

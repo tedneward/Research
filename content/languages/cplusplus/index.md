@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 title=C++
 tags=language, native, object, metaobject
 summary=An object-oriented flavor of C.
@@ -288,7 +287,6 @@ In case you'd prefer to use a web browser, Google Groups links are provided.
 	+ http://www.gotw.ca/resources/clcm.htm
 * comp.std.c++ - http://groups.google.com/group/comp.std.c++
 * gnu.g++.help (g++-specific) - http://groups.google.com/group/gnu.g++.help
-=======
 title=C++
 tags=language, native, object, metaobject
 summary=An object-oriented flavor of C.
@@ -561,4 +559,3 @@ In case you'd prefer to use a web browser, Google Groups links are provided.
 	+ http://www.gotw.ca/resources/clcm.htm
 * comp.std.c++ - http://groups.google.com/group/comp.std.c++
 * gnu.g++.help (g++-specific) - http://groups.google.com/group/gnu.g++.help
->>>>>>> 7452cc74190d26ccf18f4f287165fb9ad03f7092
