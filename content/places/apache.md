@@ -24,14 +24,14 @@ Project list, by name, (as of 6/21/2021):
 * [Atlas](http://atlas.apache.org/#/): a scalable and extensible set of core foundational governance services – enabling enterprises to effectively and efficiently meet their compliance requirements within Hadoop and allows integration with the whole enterprise data ecosystem.
 * [Avro](http://avro.apache.org/): a data serialization system.
 * [Axis](http://axis.apache.org/): Apache Axis, and the the second generation of it, the Apache Axis2, are two Web Service containers that helps users to create, deploy, and run Web Services.
-* BVal
-* Bahir
-* Beam
-* Bigtop
-* Bloodhound
-* BookKeeper
-* Brooklyn
-* Buildr
+* [BVal](http://bval.apache.org/): delivers an implementation of the Java Bean Validation Specification which is TCK compliant, works on Java SE 8 or later, and uses the Apache Software License v2.0.
+* [Bahir](http://bahir.apache.org/): provides extensions to multiple distributed analytic platforms, extending their reach with a diversity of streaming connectors and SQL data sources. Currently provides extensions for Apache Spark and Apache Flink.
+* [Beam](https://beam.apache.org/): An advanced unified programming model; implement batch and streaming data processing jobs that run on any execution engine.
+* [Bigtop](http://bigtop.apache.org/): an Apache Foundation project for Infrastructure Engineers and Data Scientists looking for comprehensive packaging, testing, and configuration of the leading open source big data components. Bigtop supports a wide range of components/projects, including, but not limited to, Hadoop, HBase and Spark.
+* [Bloodhound](http://bloodhound.apache.org/): successor to Trac. Manage software products. Keep track of features, tasks and bugs.
+* [BookKeeper](http://bookkeeper.apache.org/): A scalable, fault-tolerant, and low-latency storage service optimized for real-time workloads.
+* [Brooklyn](http://brooklyn.apache.org/): Your applications, any clouds, any containers, anywhere.
+* [Buildr](http://buildr.apache.org/): a build system for Java-based applications, including support for Scala, Groovy and a growing number of JVM languages and tools.
 * CXF
 * Calcite
 * Camel
