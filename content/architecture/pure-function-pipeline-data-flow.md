@@ -1,5 +1,5 @@
 title=The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model
-tags=reading, article, distribution, language
+tags=reading, articles, distribution, language
 summary=The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model.
 ~~~~~~
 

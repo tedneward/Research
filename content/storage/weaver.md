@@ -1,5 +1,5 @@
 title=Weaver
-tags=storage, graph, distributed, native
+tags=storage, graph, distribution, native
 summary=A scalable, fast, consistent graph store.
 ~~~~~~
 

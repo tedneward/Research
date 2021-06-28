@@ -6,4 +6,3 @@ summary=Seamless multi-master sync documented-oriented native HTTP/JSON API with
 [Website](https://couchdb.apache.org/) | [Source](https://github.com/apache/couchdb)
 
 [CouchDB: The Definitive Guide](http://guide.couchdb.org/) | [Source](https://github.com/oreilly/couchdb-guide)
-
