@@ -7,13 +7,15 @@ Source repositories: [Runtime](https://github.com/dotnet/runtime) | [Roslyn](htt
 
 [Official dotnet cli tooling documentation](https://docs.microsoft.com/en-us/dotnet/articles/core/tools/dotnet-run)
 
-["Book of the Runtime"](https://github.com/dotnet/coreclr/tree/master/Documentation/botr): Guides to the internals of .NET Core
+[SSCLI Essentials](../sscli-essentials) is a good place to start to understand the CLR codebase ("runtime") itself.
+
+["Book of the Runtime"](https://github.com/dotnet/coreclr/tree/master/Documentation/botr): Guides to the internals of .NET Core. Anything in here that conflicts with SSCLI Essentials should be considered the more accurate of the two.
 
 [corehost.exe runtime assembly resolution](https://github.com/dotnet/cli/blob/rel/1.0.0/Documentation/specs/corehost.md) (Note that the `cli` repo has been pulled into the `sdk` repo now, so it's not clear how accurate this link is at this point)
 
 ## List of blog posts that provide a 'deep-dive' into the CoreCLR source code
 
-- ["How the `dotnet` CLI runs your code"](https://mattwarren.org/2016/07/04/How-the-dotnet-CLI-tooling-runs-your-code/): Great breakdown of how the `dotnet` tool works, particular emphasis to the environment variables mentioned (COREHOST_TRACE and DOTNET_CLI_CAPTURE_TIMING)
+- ["How the `dotnet` CLI runs your code"](https://mattwarren.org/2016/07/04/How-the-dotnet-CLI-tooling-runs-your-code/): Great breakdown of how the `dotnet` tool works, particular emphasis to the environment variables mentioned (`COREHOST_TRACE` and `DOTNET_CLI_CAPTURE_TIMING`)
 
 ### Posts that take a high-level overview of releases
 

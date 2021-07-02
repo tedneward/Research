@@ -1,5 +1,5 @@
 title=HyperText Transmission Protocol
-tags=distribution
+tags=distribution, protocol
 summary=Backbone protocol for the World Wide Web.
 ~~~~~~
 
