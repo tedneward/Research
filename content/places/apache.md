@@ -1,5 +1,5 @@
 title=Apache.org
-tags=place, jvm, native
+tags=place, jvm, clr, native
 summary=The Apache site is a collection of numerous open-source projects, in all stages of life (incubating, maintained, archived).
 ~~~~~~
 
@@ -99,16 +99,22 @@ Project list, by name, (as of 6/21/2021):
     * Apache Whisker assists assembled applications maintain correct legal documentation. Coded in Java, it runs from the command line or as a plugin for Maven.
 * [Curator](http://curator.apache.org/): a Java/JVM client library for Apache ZooKeeper, a distributed coordination service. It includes a highlevel API framework and utilities to make using Apache ZooKeeper much easier and more reliable. It also includes recipes for common use cases and extensions such as service discovery and a Java 8 asynchronous DSL.
 * [cTAKES](http://ctakes.apache.org/): a natural language processing system for extraction of information from electronic medical record clinical free-text.
-* DB
-* Daffodil
-* DataFu
-* DataSketches
-* DeltaSpike
-* Directory
-* DolphinScheduler
-* Drill
-* Druid
-* Dubbo
+* [DB](http://db.apache.org/): charged with the creation and maintenance of commercial-quality, open-source, database solutions based on software licensed to the Foundation, for distribution at no charge to the public.
+    * [Derby](http://db.apache.org/derby/): an open source relational database implemented entirely in Java
+    * [Java Data Objects (JDO)](http://db.apache.org/jdo/): a standard way to access persistent data in databases, using plain old Java objects (POJO) to represent persistent data. The approach separates data manipulation (done by accessing Java data members in the Java domain objects) from database manipulation (done by calling the JDO interface methods). 
+    * [Torque](http://db.apache.org/torque/): an object-relational mapper for java. In other words, Torque lets you access and manipulate data in a relational database using java objects. Unlike most other object-relational mappers, Torque does not use reflection to access user-provided classes, but it generates the necessary classes (including the Data Objects) from an XML schema describing the database layout. The XML file can either be written by hand or a starting point can be generated from an existing database. The XML schema can also be used to generate and execute a SQL script which creates all the tables in the database.
+* [Daffodil](http://daffodil.apache.org/): Open-source implementation of the Data Format Description Language to convert between fixed format data and XML, JSON, and other data structures.
+* [DataFu](http://datafu.apache.org/): a collection of libraries for working with large-scale data in Hadoop:
+    * [DataFu Spark](http://datafu.apache.org/docs/spark/getting-started.html): a collection of utils and user-defined functions for Apache Spark.
+    * [DataFu Pig](http://datafu.apache.org/docs/datafu/getting-started.html): a collection of user-defined functions and macros for Apache Pig.
+    * [DataFu Hourglass](http://datafu.apache.org/docs/hourglass/getting-started.html): an incremental processing framework for Apache Hadoop in MapReduce.
+* [DataSketches](http://datasketches.apache.org/): A software library of stochastic streaming algorithms: In the analysis of big data there are often problem queries that don’t scale because they require huge compute resources and time to generate exact results. Examples include count distinct, quantiles, most-frequent items, joins, matrix computations, and graph analysis.If approximate results are acceptable, there is a class of specialized algorithms, called streaming algorithms, or sketches that can produce results orders-of magnitude faster and with mathematically proven error bounds. For interactive queries there may not be other viable alternatives, and in the case of real-time analysis, sketches are the only known solution. For any system that needs to extract useful information from big data these sketches are a required toolkit that should be tightly integrated into their analysis capabilities. This project is dedicated to providing a broad selection of sketch algorithms of production quality.
+* [DeltaSpike](http://deltaspike.apache.org/): consists of a number of portable CDI extensions that provide useful features for Java application developers.
+* [Directory](http://directory.apache.org/): provides directory solutions entirely written in Java. These include a directory server, which has been certified as LDAP v3 compliant by the Open Group (ApacheDS), and Eclipse-based directory tools (Apache Directory Studio).
+* [DolphinScheduler](http://dolphinscheduler.apache.org/): A distributed and easy-to-extend visual workflow scheduler system.
+* [Drill](http://drill.apache.org/): Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
+* [Druid](http://druid.apache.org/): a high performance real-time analytics database.
+* [Dubbo](https://dubbo.apache.org/en/): a high-performance, java based open source RPC framework.
 * ECharts
 * Empire-db
 * Felix
