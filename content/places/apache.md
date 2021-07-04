@@ -180,42 +180,54 @@ Project list, by name, (as of 6/21/2021):
     * Log4JAudit
 * [Lucene](https://lucene.apache.org/): releases a core search library, named Lucene™ core, as well as PyLucene, a python binding for Lucene. Lucene Core is a Java library providing powerful indexing and search features, as well as spellchecking, hit highlighting and advanced analysis/tokenization capabilities. The PyLucene sub project provides Python bindings for Lucene Core.
 * [Lucene.Net](http://lucenenet.apache.org/): a high performance search engine library for .NET.
-* MADlib
-* MINA
-* Mahout
-* ManifoldCF
-* Maven
-* Mesos
-* Mnemonic
-* MyFaces
-* Mynewt
-* NetBeans
-* NiFi
-* Nutch
-* OFBiz
-* OODT
-* ORC
-* Olingo
-* Oozie
-* OpenJPA
-* OpenMeetings
-* OpenNLP
-* OpenOffice
-* OpenWebBeans
-* OpenWhisk
-* Ozone
-* PDFBox
-* PLC4X
-* POI
-* Parquet
-* Perl
-* Petri
-* Phoenix
-* Pig
-* Pivot
-* Portable Runtime (APR)
-* Portals
-* [Pulsar](../../distribution/pulsar)
+* [MADlib](http://madlib.apache.org/): Big Data Machine Learning in SQL.
+* [MINA](http://mina.apache.org/): a network application framework which helps users develop high performance and high scalability network applications easily. It provides an abstract event-driven asynchronous API over various transports such as TCP/IP and UDP/IP via Java NIO.
+* [Mahout](http://mahout.apache.org/): a distributed linear algebra framework and mathematically expressive Scala DSL designed to let mathematicians, statisticians, and data scientists quickly implement their own algorithms. Apache Spark is the recommended out-of-the-box distributed back-end, or can be extended to other distributed backends.
+* [ManifoldCF](http://manifoldcf.apache.org/): an effort to provide an open source framework for connecting source content repositories like Microsoft Sharepoint and EMC Documentum, to target repositories or indexes, such as Apache Solr, Open Search Server, or ElasticSearch. Apache ManifoldCF also defines a security model for target repositories that permits them to enforce source-repository security policies.
+* [Maven](http://maven.apache.org/): a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
+* [Mesos](http://mesos.apache.org/): abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively.
+* [Mnemonic](http://mnemonic.apache.org/): an advanced hybrid memory storages oriented library, it proposed a non-volatile/durable Java object model and durable computing service that bring several advantages to significantly improve the performance of massive real-time data processing/analytics. Developers are able to use this library to design their cache-less and SerDe-less high performance applications.
+* [MyFaces](http://myfaces.apache.org/#/): a project of the Apache Software Foundation, and hosts several sub-projects relating to the JavaServer™ Faces (JSF) technology.
+    * Projects
+        * MyFaces Core | Implementation of the JSF specification
+        * Apache Tobago | A component library
+    * Inactive Projects (Maintenance Mode)
+        * MyFaces Commons | Utilities like components, converters, validators
+        * MyFaces Tomahawk | A component library
+        * MyFaces Trinidad | A component library (former Oracle ADF-Faces)
+        * MyFaces Orchestra | Utility library based on Spring
+        * MyFaces Extensions Validator | Validation framework based on annotations
+        * MyFaces Extensions CDI | Utility library based on CDI
+        * MyFaces Extensions Scripting | Adds scripting and rapid prototyping (hot deployment) to JSF
+        * MyFaces Portlet Bridge | Bridge between Portlets and JSF
+* [Mynewt](http://mynewt.apache.org/): An OS to build, deploy and securely manage billions of devices.
+* [NetBeans](http://netbeans.apache.org/): IDE.
+* [NiFi](http://nifi.apache.org/): An easy to use, powerful, and reliable system to process and distribute data. Supports powerful and scalable directed graphs of data routing, transformation, and system mediation logic. Some of the high-level capabilities and objectives of Apache NiFi include Web-based user interface (Seamless experience between design, control, feedback, and monitoring), Highly configurable (Loss tolerant vs guaranteed delivery, Low latency vs high throughput, Dynamic prioritization, Flow can be modified at runtime, Back pressure), Data Provenance (Track dataflow from beginning to end), Designed for extension (Build your own processors and more, Enables rapid development and effective testing), Secure (SSL, SSH, HTTPS, encrypted content, etc..., Multi-tenant authorization and internal authorization/policy management)
+* [Nutch](http://nutch.apache.org/): a well matured, production ready Web crawler. Nutch 1.x enables fine grained configuration, relying on Apache Hadoop data structures, which are great for batch processing. Being pluggable and modular of course has it's benefits, Nutch provides extensible interfaces such as Parse, Index and ScoringFilter's for custom implementations e.g. Apache Tika for parsing. Additonally, pluggable indexing exists for Apache Solr, Elastic Search, SolrCloud, etc.
+* [OFBiz](https://ofbiz.apache.org/): a suite of business applications flexible enough to be used across any industry. A common architecture allows developers to easily extend or enhance it to create custom features.
+* [Object-Oriented Data Technology (OODT)](http://oodt.apache.org/): Traditional processing pipelines are commonly made up of custom UNIX shell scripts and fragile custom written glue code. Apache OODT uses structured XML-based capturing of the processing pipeline that can be understood and modified by non-programmers to create, edit, manage and provision workflow and task execution. OODT also allows for remote execution of jobs on scalable computational infrastructures so that computational and data-intensive processing can be integrated into OODT’s data processing pipelines using cloud computing and high-performance computing environments.
+* [ORC](https://orc.apache.org/): the smallest, fastest columnar storage for Hadoop workloads.
+* [Olingo](http://olingo.apache.org/): a Java library that implements the Open Data Protocol (OData). Apache Olingo serves client and server aspects of OData. It currently supports OData 2.0 and will also support OData 4.0. The latter is the OASIS version of the protocol: OASIS Open Data Protocol (OData) TC.
+* [Oozie](http://oozie.apache.org/): a workflow scheduler system to manage Apache Hadoop jobs.
+* [OpenJPA](http://openjpa.apache.org/): a Java persistence project that can be used as a stand-alone POJO persistence layer or integrated into any Java EE compliant container and many other lightweight frameworks, such as Tomcat and Spring.
+* [OpenMeetings](http://openmeetings.apache.org/): provides video conferencing, instant messaging, white board, collaborative document editing and other groupware tools. It uses API functions of Media Server for Remoting and Streaming Kurento.
+* [OpenNLP](http://opennlp.apache.org/): a machine learning based toolkit for the processing of natural language text.
+* [OpenOffice](https://openoffice.apache.org/): the free and open productivity suite from the Apache Software Foundation; features six personal productivity applications: a word processor (and its web-authoring component), spreadsheet, presentation graphics, drawing, equation editor, and database.
+* [OpenWebBeans](http://openwebbeans.apache.org/): delivers an implementation of the Contexts and Dependency injection for Java EE (CDI) 2.0 Specification (JSR-365).
+* [OpenWhisk](http://openwhisk.apache.org/): an open source, distributed Serverless platform that executes functions (fx) in response to events at any scale. OpenWhisk manages the infrastructure, servers and scaling using Docker containers so you can focus on building amazing and efficient applications. The OpenWhisk platform supports a programming model in which developers write functional logic (called Actions), in any supported programming language, that can be dynamically scheduled and run in response to associated events (via Triggers) from external sources (Feeds) or from HTTP requests. The project includes a REST API-based Command Line Interface (CLI) along with other tooling to support packaging, catalog services and many popular container deployment options.
+* [Ozone](http://ozone.apache.org/): a scalable, redundant, and distributed object store for Hadoop. Apart from scaling to billions of objects of varying sizes, Ozone can function effectively in containerized environments such as Kubernetes and YARN.
+* [PDFBox](https://pdfbox.apache.org/): an open source Java tool for working with PDF documents. This project allows creation of new PDF documents, manipulation of existing documents and the ability to extract content from documents.
+* [PLC4X](https://plc4x.apache.org/): a set of libraries for communicating with industrial programmable logic controllers (PLCs) using a variety of protocols but with a shared API.
+* [POI](http://poi.apache.org/): Java APIs for manipulating various file formats based upon the [Office](../../libraries/msoffice) Open XML standards (OOXML) and Microsoft's OLE 2 Compound Document format (OLE2). In short, you can read and write MS Excel files using Java. In addition, you can read and write MS Word and MS PowerPoint files using Java. Apache POI is your Java Excel solution (for Excel 97-2008). We have a complete API for porting other OOXML and OLE2 formats and welcome others to participate.
+* [Parquet](http://parquet.apache.org/): a columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.
+* [mod_perl](http://perl.apache.org/): mod_perl brings together the full power of the Perl programming language and the Apache HTTP server.
+* [Petri](https://petri.apache.org/): The Apache Petri (as in “petri dish” –where cultures are grown and bloom) committee assists external project communities interested in becoming an Apache project to learn how The Apache Software Foundation (ASF) works, its views on community, and how to build a healthy community for the long-term. Petri’s mission is to mentor existing external communities (“cultures”) about “The Apache Way” by focusing on community governance that includes discussions about ASF policies. The mentoring and education is conducted on a mailing list. The primary goal is to reach a point where a recommendation to the ASF Board can be made to construct a new Apache Project Management Committee (PMC) for the external community.
+* [Phoenix](http://phoenix.apache.org/): OLTP and operational analytics for Apache Hadoop.
+* [Pig](http://pig.apache.org/): a platform for analyzing large data sets that consists of a high-level language for expressing data analysis programs, coupled with infrastructure for evaluating these programs. The salient property of Pig programs is that their structure is amenable to substantial parallelization, which in turns enables them to handle very large data sets.
+* [Pivot](http://pivot.apache.org/): an open-source platform for building installable Internet applications (IIAs). It combines the enhanced productivity and usability features of a modern user interface toolkit with the robustness of the Java platform.
+* [Portable Runtime (APR)](http://apr.apache.org/): create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementations. The primary goal is to provide an API to which software developers may code and be assured of predictable if not identical behaviour regardless of the platform on which their software is built, relieving them of the need to code special-case conditions to work around or take advantage of platform-specific deficiencies or features.
+* [Portals](http://portals.apache.org/): a collaborative software development project dedicated to providing robust, full-featured, commercial-quality, and freely available Portal related software on a wide variety of platforms and programming languages. Portals offer many advantages over other software applications. First, they provide a single point of entry for employees, partners, and customers. Second, portals can access Web services transparently from any device in virtually any location. Third, portals are highly flexible; they can exist in the form of B2E intra-nets, B2B extra-nets, or B2C inter-nets. Fourth, portals can be combined to form a portal network that can span a companys entire enterprise system, allowing for access both inside and outside the firewall. Portals have many advantages, which is why they have become the de facto standard for Web application delivery. In fact, analysts have predicted that portals will become the next generation for the desktop environment.Portals distinguish themselves from other software systems because they provide the ability to integrate disparate systems and leverage the functionality provided by those systems. As such, they are not mutually exclusive, and do not force you into an either-or decision vis-a-vis existing software systems. This point is of paramount importance, particularly when you consider the fact that Web services are destined to fuel the explosion of Web applications. Since portals can access any Web services, the conclusion is inescapable: portals provide a unique opportunity to leverage the functionality of nascent technologies as well as mature, well-established software systems.
+* [Pulsar](../../distribution/pulsar): a cloud-native, distributed messaging and streaming platform.
 * Qpid
 * REEF
 * Ranger
