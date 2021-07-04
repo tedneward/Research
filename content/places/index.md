@@ -5,4 +5,3 @@ summary=Some sites collect things of interest, like corporate research sites, de
 tags=place
 ~~~~~~
 
-(Nothing to add yet.)

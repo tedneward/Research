@@ -144,7 +144,7 @@ Project list, by name, (as of 6/21/2021):
 * [Ignite](https://ignite.apache.org/): Distributed Database For High-Performance Computing With In-Memory Speed.
 * [Impala](http://impala.apache.org/): the open source, native analytic database for Apache Hadoop.
 * [IoTDB](http://iotdb.apache.org/): an IoT native database with high performance for data management and analysis, deployable on the edge and the cloud. Due to its light-weight architecture, high performance and rich feature set together with its deep integration with Apache Hadoop, Spark and Flink, Apache IoTDB can meet the requirements of massive data storage, high-speed data ingestion and complex data analysis in the IoT industrial fields.
-* [Isis](../../presentation/isis): [NakedObjects](../../presentation/nakedobjects) implementation on the JVM.
+* [Isis](../../presentation/isis): [NakedObjects](../../reading/nakedobjects) implementation on the JVM.
 * [JMeter](https://jmeter.apache.org/): a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
 * [JSPWiki](http://jspwiki.apache.org/): a leading open source WikiWiki engine, feature-rich and built around standard JEE components (Java, servlets, JSP).
 * [Jackrabbit](http://jackrabbit.apache.org/jcr/index.html): a fully conforming implementation of the Content Repository for Java Technology API (JCR, specified in JSR 170 and JSR 283). A content repository is a hierarchical content store with support for structured and unstructured content, full text search, versioning, transactions, observation, and more.
