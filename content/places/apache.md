@@ -145,26 +145,41 @@ Project list, by name, (as of 6/21/2021):
 * [Impala](http://impala.apache.org/): the open source, native analytic database for Apache Hadoop.
 * [IoTDB](http://iotdb.apache.org/): an IoT native database with high performance for data management and analysis, deployable on the edge and the cloud. Due to its light-weight architecture, high performance and rich feature set together with its deep integration with Apache Hadoop, Spark and Flink, Apache IoTDB can meet the requirements of massive data storage, high-speed data ingestion and complex data analysis in the IoT industrial fields.
 * [Isis](../../presentation/isis): [NakedObjects](../../presentation/nakedobjects) implementation on the JVM.
-* JMeter
-* JSPWiki
-* Jackrabbit
-* James
-* Jena
-* Johnzon
-* Joshua
-* Juneau
-* jUDDI
-* jclouds
-* Kafka
-* Karaf
-* Kibble
-* Knox
-* Kudu
-* Kylin
-* Libcloud
-* Logging Services
-* Lucene
-* Lucene.Net
+* [JMeter](https://jmeter.apache.org/): a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
+* [JSPWiki](http://jspwiki.apache.org/): a leading open source WikiWiki engine, feature-rich and built around standard JEE components (Java, servlets, JSP).
+* [Jackrabbit](http://jackrabbit.apache.org/jcr/index.html): a fully conforming implementation of the Content Repository for Java Technology API (JCR, specified in JSR 170 and JSR 283). A content repository is a hierarchical content store with support for structured and unstructured content, full text search, versioning, transactions, observation, and more.
+* [James](http://james.apache.org/): Java Apache Mail Enterprise Server! It has a modular architecture based on a rich set of modern and efficient components which provides at the end complete, stable, secure and extendable Mail Servers running on the JVM. Create your own personal solution of emails treatment by assembling the components you need thanks to the Inversion of Control mail platform offered and go further customizing filtering and routing rules using James Mailet Container.
+* [Jena](https://jena.apache.org/): A free and open source Java framework for building Semantic Web and Linked Data applications.
+* [Johnzon](http://johnzon.apache.org/): a project providing an implementation of JsonProcessing (aka JSR-353) and a set of useful extension for this specification like an Object mapper, some JAX-RS providers and a WebSocket module provides a basic integration with Java WebSocket API (JSR-356).
+* [Joshua](https://cwiki.apache.org/confluence/display/JOSHUA/): a statistical machine translation decoder for phrase-based, hierarchical, and syntax-based machine translation, written in Java.
+* [Juneau](http://juneau.apache.org/#about.html): a single cohesive Java ecosystem consisting of the following parts:
+    * juneau-core	
+        * juneau-marshall	A universal toolkit for marshalling POJOs to a variety of content types using a common framework with no external library dependencies.
+        * juneau-marshall-rdf	Extended marshalling support for RDF languages.
+        * juneau-dto	A variety of predefined DTOs for serializing and parsing languages such as HTML5, Swagger and ATOM.
+        * juneau-config	A sophisticated configuration file API.
+    * juneau-rest
+        * juneau-rest-server	A universal REST server API for creating Swagger-based self-documenting REST interfaces using POJOs, simply deployed as one or more top-level servlets in any Servlet 3.1.0+ container. Includes Spring Boot and JAX-RS integration support.
+        * juneau-rest-client	A universal REST client API for interacting with Juneau or 3rd-party REST interfaces using POJOs and proxy interfaces.
+* [jUDDI](http://juddi.apache.org/): an open source Java implementation of OASIS the Universal Description, Discovery, and Integration (UDDI) specification for (Web) Services. The jUDDI project includes Scout, an implementation of the JSR 93 - JavaTM API for XML Registries 1.0 (JAXR).
+* [jclouds](http://jclouds.apache.org/): an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.
+* [Kafka](http://kafka.apache.org/): an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications.
+* [Karaf](http://karaf.apache.org/): provides modulith runtime for the enterprise, running on premise or on cloud. Focus on your business code and applications, Apache Karaf deals with the rest.
+* [Kibble](http://kibble.apache.org/): a suite of tools for collecting, aggregating and visualizing activity in software projects.
+* [Knox](http://knox.apache.org/): an Application Gateway for interacting with the REST APIs and UIs of Apache Hadoop deployments. The Knox Gateway provides a single access point for all REST and HTTP interactions with Apache Hadoop clusters.
+* [Kudu](https://kudu.apache.org/): an open source distributed data storage engine that makes fast analytics on fast and changing data easy.
+* [Kylin](http://kylin.apache.org/): an open source, distributed Analytical Data Warehouse for Big Data; it was designed to provide OLAP (Online Analytical Processing) capability in the big data era. By renovating the multi-dimensional cube and precalculation technology on Hadoop and Spark, Kylin is able to achieve near constant query speed regardless of the ever-growing data volume. Reducing query latency from minutes to sub-second, Kylin brings online analytics back to big data.
+* [Libcloud](http://libcloud.apache.org/): Python library for interacting with many of the popular cloud service providers using a unified API.
+* [Logging Services](http://logging.apache.org/): creates and maintains open-source software related to the logging of application behavior and released at no charge to the public.
+    * Log4J
+    * log4cxx
+    * Log4Net
+    * Log4JKotlin
+    * Log4JScala
+    * chainsaw
+    * Log4JAudit
+* [Lucene](https://lucene.apache.org/): releases a core search library, named Lucene™ core, as well as PyLucene, a python binding for Lucene. Lucene Core is a Java library providing powerful indexing and search features, as well as spellchecking, hit highlighting and advanced analysis/tokenization capabilities. The PyLucene sub project provides Python bindings for Lucene Core.
+* [Lucene.Net](http://lucenenet.apache.org/): a high performance search engine library for .NET.
 * MADlib
 * MINA
 * Mahout
