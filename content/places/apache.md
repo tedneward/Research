@@ -115,36 +115,36 @@ Project list, by name, (as of 6/21/2021):
 * [Drill](http://drill.apache.org/): Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
 * [Druid](http://druid.apache.org/): a high performance real-time analytics database.
 * [Dubbo](https://dubbo.apache.org/en/): a high-performance, java based open source RPC framework.
-* ECharts
-* Empire-db
-* Felix
-* Fineract
-* Flex
-* Flink
-* Flume
-* Fluo
-* FreeMarker
-* [Geode](../../storage/geode)
-* Geronimo
-* Giraph
-* Gobblin
-* Gora
-* Griffin
-* [Groovy](../../languages/jvm/groovy)
-* Guacamole
-* Gump
-* HAWQ
-* [HBase](../../storage/hbase)
-* Hadoop
-* Helix
-* Hive
-* HttpComponents
-* Hudi
-* Iceberg
-* Ignite
-* Impala
-* IoTDB
-* [Isis](../../presentation/isis)
+* [ECharts](http://echarts.apache.org/en/index.html): An Open Source JavaScript Visualization Library.
+* [Empire-db](http://empire-db.apache.org/): a relational database abstraction layer and data persistence component that allows developers to take a much more SQL-centric approach in application development than traditional Object-relational mapping frameworks (ORM).
+* [Felix](http://felix.apache.org/): a community effort to implement the OSGi Framework and Service platform and other interesting OSGi-related technologies under the Apache license.
+* [Fineract](http://fineract.apache.org/): is open source software for financial services. Fineract provides a reliable, robust, and affordable solution for entrepreneurs, financial institutions, and service providers to offer financial services to the world’s 2 billion underbanked and unbanked. Fineract is aimed at innovative mobile and cloud-based solutions, and enables digital transaction accounts for all.
+* [Flex](http://flex.apache.org/): ActionScript, MXML, and the final resting place for the platform originally created by Adobe. Work appears to have stopped in 2017, and all major browsers announced end-of-life for support for Flash by the end of 2020.
+* [Flink](https://flink.apache.org/): a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. Flink has been designed to run in all common cluster environments, perform computations at in-memory speed and at any scale.
+* [Flume](http://flume.apache.org/): a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
+* [Fluo](https://fluo.apache.org/): a distributed processing system that lets users make incremental updates to large data sets.
+* [FreeMarker](https://freemarker.apache.org/): a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data. Templates are written in the FreeMarker Template Language (FTL), which is a simple, specialized language (not a full-blown programming language like PHP). Usually, a general-purpose programming language (like Java) is used to prepare the data (issue database queries, do business calculations). Then, Apache FreeMarker displays that prepared data using templates. In the template you are focusing on how to present the data, and outside the template you are focusing on what data to present.
+* [Geode](../../storage/geode): a data management platform that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures. Geode pools memory, CPU, network resources, and optionally local disk across multiple processes to manage application objects and behavior. It uses dynamic replication and data partitioning techniques to implement high availability, improved performance, scalability, and fault tolerance. In addition to being a distributed data container, Apache Geode is an in-memory data management system that provides reliable asynchronous event notifications and guaranteed message delivery. Apache Geode is a mature, robust technology originally developed by GemStone Systems. Commercially available as GemFire, it was first deployed in the financial sector as the transactional, low-latency data engine used in Wall Street trading platforms.
+* [Geronimo](http://geronimo.apache.org/): an open source server runtime that integrates the best open source projects to create Java/OSGi server runtimes that meet the needs of enterprise developers and system administrators. Our most popular distribution has previously been a fully certified Java EE 6 application server runtime. Now we are refocusing on providing JavaEE/JakartaEE libraries and Microprofile implementations.
+* [Giraph](http://giraph.apache.org/): an iterative graph processing system built for high scalability. For example, it is currently used at Facebook to analyze the social graph formed by users and their connections. Giraph originated as the open-source counterpart to Pregel, the graph processing architecture developed at Google and described in a 2010 paper. Both systems are inspired by the Bulk Synchronous Parallel model of distributed computation introduced by Leslie Valiant. Giraph adds several features beyond the basic Pregel model, including master computation, sharded aggregators, edge-oriented input, out-of-core computation, and more.
+* [Gobblin](http://gobblin.apache.org/): A distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems.
+* [Gora](http://gora.apache.org/): provides an in-memory data model and persistence for big data. Gora supports persisting to column stores, key value stores, document stores, distributed in-memory key/value stores, in-memory data grids, in-memory caches, distributed multi-model stores, and hybrid in-memory architectures.
+* [Griffin](http://griffin.apache.org/): Big Data Quality Solution For Batch and Streaming.
+* [Groovy](../../languages/jvm/groovy): a dynamically-typed programming language for the JVM.
+* [Guacamole](http://guacamole.apache.org/): a clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH. We call it clientless because no plugins or client software are required. Thanks to HTML5, once Guacamole is installed on a server, all you need to access your desktops is a web browser.
+* [Gump](http://gump.apache.org/): a continuous integration tool. It is written in Python and fully supports Apache Ant, Apache Maven (1.x to 3.x) and other build tools. Gump is unique in that it builds and compiles software against the latest development versions of those projects. This allows Gump to detect potentially incompatible changes to that software just a few hours after those changes are checked into the version control system. Notifications are sent to the project team as soon as such a change is detected, referencing more detailed reports available online.
+* [HAWQ](http://hawq.apache.org/): Apache Hadoop Native SQL. Advanced Analytics MPP Database for Enterprises.
+* [HBase](../../storage/hbase): the Hadoop database, a distributed, scalable, big data store.
+* [Hadoop](http://hadoop.apache.org/): a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures.
+* [Helix](http://helix.apache.org/): a generic cluster management framework used for the automatic management of partitioned, replicated and distributed resources hosted on a cluster of nodes. Helix automates reassignment of resources in the face of node failure and recovery, cluster expansion, and reconfiguration.
+* [Hive](http://hive.apache.org/): data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL. Structure can be projected onto data already in storage. A command line tool and JDBC driver are provided to connect users to Hive.
+* [HttpComponents](http://hc.apache.org/): responsible for creating and maintaining a toolset of low level Java components focused on HTTP and associated protocols.
+* [Hudi](http://hudi.apache.org/): ingests & manages storage of large analytical datasets over DFS (hdfs or cloud stores).
+* [Iceberg](http://iceberg.apache.org/): an open table format for huge analytic datasets. Iceberg adds tables to Trino and Spark that use a high-performance format that works just like a SQL table.
+* [Ignite](https://ignite.apache.org/): Distributed Database For High-Performance Computing With In-Memory Speed.
+* [Impala](http://impala.apache.org/): the open source, native analytic database for Apache Hadoop.
+* [IoTDB](http://iotdb.apache.org/): an IoT native database with high performance for data management and analysis, deployable on the edge and the cloud. Due to its light-weight architecture, high performance and rich feature set together with its deep integration with Apache Hadoop, Spark and Flink, Apache IoTDB can meet the requirements of massive data storage, high-speed data ingestion and complex data analysis in the IoT industrial fields.
+* [Isis](../../presentation/isis): [NakedObjects](../../presentation/nakedobjects) implementation on the JVM.
 * JMeter
 * JSPWiki
 * Jackrabbit
