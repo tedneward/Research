@@ -18,7 +18,7 @@ F# was originally a CLR-based variant of [OCaml](../ocaml). Since F# 3.0, it has
 
 [Web](https://fsharp.org/guides/web): There's a collection of different web frameworks for F#. Some are more recent than others.
 
-* [Fable](https://fable.io/): A compiler powered by Babel designed to make F# a first-class citizen of the JavaScript ecosystem. See [The Elmish Book](https://zaid-ajaj.github.io/the-elmish-book/#/) for a practical guide on using Fable.
+* [Fable](../fable): A compiler powered by Babel designed to make F# a first-class citizen of the JavaScript ecosystem. See [The Elmish Book](https://zaid-ajaj.github.io/the-elmish-book/#/) for a practical guide on using Fable.
 
 [Mobile](https://fsharp.org/guides/mobile-apps): Most of this centers around Xamarin; lots of the links on the F#.org site are old (2013-era).
 
@@ -53,7 +53,7 @@ Some fuzzy logic examples:
 * [Fuzzy Logic Experiments](http://techneilogy.blogspot.com/2010/08/fuzzy-logic-experiments-in-f.html)
 * [Conjunctive Fuzzy Logic Rules in F#](http://techneilogy.blogspot.com/2010/08/conjunctive-fuzzy-logic-rules-in-f.html)
 
-[FsharpX](https://www.developerfusion.com/article/136179/an-introduction-to-fsharpx/) | [Suave](https://suave.io/) | [F# PowerPack](https://archive.codeplex.com/?p=fsharppowerpack) | [fsxplat](https://archive.codeplex.com/?p=fsxplat)
+[FsharpX](https://www.developerfusion.com/article/136179/an-introduction-to-fsharpx/) | [F# PowerPack](https://archive.codeplex.com/?p=fsharppowerpack) | [fsxplat](https://archive.codeplex.com/?p=fsxplat)
 
 [fsharpsamples (Archive)](https://archive.codeplex.com/?p=fsharpsamples)
 
