@@ -1,5 +1,5 @@
 title=Apache.org
-tags=place, jvm, clr, native
+tags=place, jvm, clr, native, library, language, platform, reading, storage, presentation, tool, vm, cloud, backend
 summary=The Apache site is a collection of numerous open-source projects, in all stages of life (incubating, maintained, archived).
 ~~~~~~
 
@@ -228,65 +228,65 @@ Project list, by name, (as of 6/21/2021):
 * [Portable Runtime (APR)](http://apr.apache.org/): create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementations. The primary goal is to provide an API to which software developers may code and be assured of predictable if not identical behaviour regardless of the platform on which their software is built, relieving them of the need to code special-case conditions to work around or take advantage of platform-specific deficiencies or features.
 * [Portals](http://portals.apache.org/): a collaborative software development project dedicated to providing robust, full-featured, commercial-quality, and freely available Portal related software on a wide variety of platforms and programming languages. Portals offer many advantages over other software applications. First, they provide a single point of entry for employees, partners, and customers. Second, portals can access Web services transparently from any device in virtually any location. Third, portals are highly flexible; they can exist in the form of B2E intra-nets, B2B extra-nets, or B2C inter-nets. Fourth, portals can be combined to form a portal network that can span a companys entire enterprise system, allowing for access both inside and outside the firewall. Portals have many advantages, which is why they have become the de facto standard for Web application delivery. In fact, analysts have predicted that portals will become the next generation for the desktop environment.Portals distinguish themselves from other software systems because they provide the ability to integrate disparate systems and leverage the functionality provided by those systems. As such, they are not mutually exclusive, and do not force you into an either-or decision vis-a-vis existing software systems. This point is of paramount importance, particularly when you consider the fact that Web services are destined to fuel the explosion of Web applications. Since portals can access any Web services, the conclusion is inescapable: portals provide a unique opportunity to leverage the functionality of nascent technologies as well as mature, well-established software systems.
 * [Pulsar](../../distribution/pulsar): a cloud-native, distributed messaging and streaming platform.
-* Qpid
-* REEF
-* Ranger
-* Ratis
-* River
-* RocketMQ
-* Roller
-* [Royale](../../presentation/royale)
-* Rya
-* SINGA
-* SIS
-* Samza
-* Santuario
-* Serf
-* ServiceComb
-* ServiceMix
-* ShardingSphere
-* Shiro
-* SkyWalking
-* Sling
-* Solr
-* SpamAssassin
-* Spark
-* Steve
-* Storm
-* Streams
-* Struts
-* Submarine
-* Subversion
-* Superset
-* Synapse
-* Syncope
-* SystemDS
-* TVM
-* Tapestry
-* [Tcl](../../languages/tcl)
-* Tez
-* Thrift
-* Tika
-* [TinkerPop](../../storage/tinkerpop)
-* TomEE
-* Tomcat
-* Traffic Control
-* Traffic Server
-* Turbine
-* UIMA
-* Unomi
-* Usergrid
-* VCL
-* Velocity
-* Web Services
-* Whimsy
-* Wicket
-* XML Graphics
-* Xalan
-* Xerces
-* Yetus
-* Zeppelin
-* ZooKeeper
+* [Qpid]():
+* [REEF]():
+* [Ranger]():
+* [Ratis]():
+* [River]():
+* [RocketMQ]():
+* [Roller]():
+* [Royale](../../presentation/royale):
+* [Rya]():
+* [SINGA]():
+* [SIS]():
+* [Samza]():
+* [Santuario]():
+* [Serf]():
+* [ServiceComb]():
+* [ServiceMix]():
+* [ShardingSphere]():
+* [Shiro]():
+* [SkyWalking]():
+* [Sling]():
+* [Solr]():
+* [SpamAssassin]():
+* [Spark]():
+* [Steve]():
+* [Storm]():
+* [Streams]():
+* [Struts]():
+* [Submarine]():
+* [Subversion]():
+* [Superset]():
+* [Synapse]():
+* [Syncope]():
+* [SystemDS]():
+* [TVM]():
+* [Tapestry]():
+* [Tcl](../../languages/tcl):
+* [Tez]():
+* [Thrift]():
+* [Tika]():
+* [TinkerPop](../../storage/tinkerpop):
+* [TomEE]():
+* [Tomcat]():
+* [Traffic Control]():
+* [Traffic Server]():
+* [Turbine]():
+* [UIMA]():
+* [Unomi]():
+* [Usergrid]():
+* [VCL]():
+* [Velocity]():
+* [Web Services]():
+* [Whimsy]():
+* [Wicket]():
+* [XML Graphics]():
+* [Xalan]():
+* [Xerces]():
+* [Yetus]():
+* [Zeppelin]():
+* [ZooKeeper]():
 * Incubator
     * AGE
     * Annotator
