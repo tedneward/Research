@@ -228,65 +228,84 @@ Project list, by name, (as of 6/21/2021):
 * [Portable Runtime (APR)](http://apr.apache.org/): create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementations. The primary goal is to provide an API to which software developers may code and be assured of predictable if not identical behaviour regardless of the platform on which their software is built, relieving them of the need to code special-case conditions to work around or take advantage of platform-specific deficiencies or features.
 * [Portals](http://portals.apache.org/): a collaborative software development project dedicated to providing robust, full-featured, commercial-quality, and freely available Portal related software on a wide variety of platforms and programming languages. Portals offer many advantages over other software applications. First, they provide a single point of entry for employees, partners, and customers. Second, portals can access Web services transparently from any device in virtually any location. Third, portals are highly flexible; they can exist in the form of B2E intra-nets, B2B extra-nets, or B2C inter-nets. Fourth, portals can be combined to form a portal network that can span a companys entire enterprise system, allowing for access both inside and outside the firewall. Portals have many advantages, which is why they have become the de facto standard for Web application delivery. In fact, analysts have predicted that portals will become the next generation for the desktop environment.Portals distinguish themselves from other software systems because they provide the ability to integrate disparate systems and leverage the functionality provided by those systems. As such, they are not mutually exclusive, and do not force you into an either-or decision vis-a-vis existing software systems. This point is of paramount importance, particularly when you consider the fact that Web services are destined to fuel the explosion of Web applications. Since portals can access any Web services, the conclusion is inescapable: portals provide a unique opportunity to leverage the functionality of nascent technologies as well as mature, well-established software systems.
 * [Pulsar](../../distribution/pulsar): a cloud-native, distributed messaging and streaming platform.
-* [Qpid]():
-* [REEF]():
-* [Ranger]():
-* [Ratis]():
-* [River]():
-* [RocketMQ]():
-* [Roller]():
-* [Royale](../../presentation/royale):
-* [Rya]():
-* [SINGA]():
-* [SIS]():
-* [Samza]():
-* [Santuario]():
-* [Serf]():
-* [ServiceComb]():
-* [ServiceMix]():
-* [ShardingSphere]():
-* [Shiro]():
-* [SkyWalking]():
-* [Sling]():
-* [Solr]():
-* [SpamAssassin]():
-* [Spark]():
-* [Steve]():
-* [Storm]():
-* [Streams]():
-* [Struts]():
-* [Submarine]():
-* [Subversion]():
-* [Superset]():
-* [Synapse]():
-* [Syncope]():
-* [SystemDS]():
-* [TVM]():
-* [Tapestry]():
-* [Tcl](../../languages/tcl):
-* [Tez]():
-* [Thrift]():
-* [Tika]():
-* [TinkerPop](../../storage/tinkerpop):
-* [TomEE]():
-* [Tomcat]():
-* [Traffic Control]():
-* [Traffic Server]():
-* [Turbine]():
-* [UIMA]():
-* [Unomi]():
-* [Usergrid]():
-* [VCL]():
-* [Velocity]():
-* [Web Services]():
-* [Whimsy]():
-* [Wicket]():
-* [XML Graphics]():
-* [Xalan]():
-* [Xerces]():
-* [Yetus]():
-* [Zeppelin]():
-* [ZooKeeper]():
+* [Qpid](http://qpid.apache.org/): makes messaging tools that speak AMQP and support many languages and platforms.
+* [Retainable Evaluator Execution Framework (REEF)](http://reef.apache.org/): is a library for developing portable applications for cluster resource managers such as Apache Hadoop YARN or Apache Mesos. Apache REEF drastically simplifies development of those resource managers through the following features:
+    * Centralized Control Flow: Apache REEF turns the chaos of a distributed application into events in a single machine, the Job Driver. Events include container allocation, Task launch, completion and failure. For failures, Apache REEF makes every effort of making the actual Exception thrown by the Task available to the Driver.
+    * Task runtime: Apache REEF provides a Task runtime called Evaluator. Evaluators are instantiated in every container of a REEF application. Evaluators can keep data in memory in between Tasks, which enables efficient pipelines on REEF.
+    * Support for multiple resource managers: Apache REEF applications are portable to any supported resource manager with minimal effort. Further, new resource managers are easy to support in REEF.
+    * .NET and Java API: Apache REEF is the only API to write YARN or Mesos applications in .NET. Further, a single REEF application is free to mix and match Tasks written for .NET or Java.
+    * Plugins: Apache REEF allows for plugins (called “Services”) to augment its feature set without adding bloat to the core. REEF includes many Services, such as a name-based communications between Tasks, MPI-inspired group communications (Broadcast, Reduce, Gather, …) and data ingress.
+* [Ranger](http://ranger.apache.org/): a framework to enable, monitor and manage comprehensive data security across the Hadoop platform.
+* [Ratis](http://ratis.apache.org/): a highly customizable Raft protocol implementation in Java.
+* [River](http://river.apache.org/): the implementation of Jini service oriented architecture. It defines a programming model which both exploits and extends Java technology to enable the construction of secure, distributed systems consisting of federations of services and clients. Jini technology can be used to build adaptive network systems that are scalable, evolvable and flexible as typically required in dynamic computing environments.
+* [RocketMQ](http://rocketmq.apache.org/): a unified messaging engine, lightweight data processing platform.
+* [Roller](http://roller.apache.org/): a Java-based, full-featured, multi-user and group-blog server suitable for blog sites large and small.
+* [Royale](../../presentation/royale): a productive, open-source frontend application technology that lets you code in MXML & AS3 and output to different formats.
+* [Rya](http://rya.apache.org/): a Big Data triple store that provides scalable storage, retrieval, and analysis of RDF data.
+* [SINGA](http://singa.apache.org/): focusing on distributed training of deep learning and machine learning models.
+* [Spatial Information System (SIS)](https://sis.apache.org/): a free software, Java language library for developing geospatial applications. SIS provides data structures for geographic features and associated metadata along with methods to manipulate those data structures.
+* [Samza](http://samza.apache.org/): A distributed stream processing framework.
+* [Santuario](http://santuario.apache.org/): aimed at providing implementation of the primary security standards for XML: XML-Signature Syntax and Processing and XML Encryption Syntax and Processing. (For both Java and C++)
+* [Serf](http://serf.apache.org/): a high performance C-based HTTP client library built upon the Apache Portable Runtime (APR) library.
+* [ServiceComb](http://servicecomb.apache.org/): Open-Source, Full-Stack Microservice Solution.With out of the box, high performance, compatible with popular ecology, multi-language support.
+* [ServiceMix](http://servicemix.apache.org/): a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime platform you can use to build your own integrations solutions. It provides a complete, enterprise ready ESB exclusively powered by OSGi.
+* [ShardingSphere](http://shardingsphere.apache.org/): an open-source ecosystem consisted of a set of distributed database solutions, including 3 independent products, JDBC, Proxy & Sidecar (Planning). They all provide functions of data scale out, distributed transaction and distributed governance, applicable in a variety of situations such as Java isomorphism, heterogeneous language and cloud native.
+* [Shiro](http://shiro.apache.org/): a powerful and easy-to-use Java security framework that performs authentication, authorization, cryptography, and session management. With Shiro’s easy-to-understand API, you can quickly and easily secure any application – from the smallest mobile applications to the largest web and enterprise applications.
+* [SkyWalking](http://skywalking.apache.org/): Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, Kubernetes, Mesos) architectures.
+* [Sling](https://sling.apache.org/): a framework for RESTful web-applications based on an extensible content tree. In a nutshell, Sling maps HTTP request URLs to content resources based on the request's path, extension and selectors. Using convention over configuration, requests are processed by scripts and servlets, dynamically selected based on the current resource. This fosters meaningful URLs and resource driven request processing, while the modular nature of Sling allows for specialized server instances that include only what is needed.
+* [Solr](https://solr.apache.org/): highly reliable, scalable and fault tolerant, providing distributed indexing, replication and load-balanced querying, automated failover and recovery, centralized configuration and more.
+* [SpamAssassin](https://spamassassin.apache.org/): anti-spam platform giving system administrators a filter to classify email and block spam (unsolicited bulk email). It uses a robust scoring framework and plug-ins to integrate a wide range of advanced heuristic and statistical analysis tests on email headers and body text including text analysis, Bayesian filtering, DNS blocklists, and collaborative filtering databases.
+* [Spark](http://spark.apache.org/): a unified analytics engine for large-scale data processing.
+* [Steve](http://steve.apache.org/): Apache's Python based voting system that the Foundation uses to handle things like voting in our new Board of Directors.
+* [Storm](http://storm.apache.org/): a free and open source distributed realtime computation system. Apache Storm makes it easy to reliably process unbounded streams of data, doing for realtime processing what Hadoop did for batch processing.
+* [Streams](http://streams.apache.org/): unifies a diverse world of digital profiles and online activities into common formats and vocabularies, and makes these datasets accessible across a variety of databases, devices, and platforms for streaming, browsing, search, sharing, and analytics use-cases.
+* [Struts](https://struts.apache.org/): a free, open-source, MVC framework for creating elegant, modern Java web applications. It favors convention over configuration, is extensible using a plugin architecture, and ships with plugins to support REST, AJAX and JSON.
+* [Submarine](http://submarine.apache.org/): Cloud Native Machine Learning Platform.
+* [Subversion](http://subversion.apache.org/): an open source version control system.
+* [Superset](https://superset.apache.org/): a modern data exploration and visualization platform.
+* [Synapse](http://synapse.apache.org/): a lightweight and high-performance Enterprise Service Bus (ESB). Powered by a fast and asynchronous mediation engine, Apache Synapse provides exceptional support for XML, Web Services and REST. In addition to XML and SOAP, Apache Synapse supports several other content interchange formats, such as plain text, binary, Hessian and JSON. The wide range of transport adapters available for Synapse, enables it to communicate over many application and transport layer protocols. As of now, Apache Synapse supports HTTP/S, Mail (POP3, IMAP, SMTP), JMS, TCP, UDP, VFS, SMS, XMPP and FIX.
+* [Syncope](http://syncope.apache.org/): an Open Source system for managing digital identities in enterprise environments, implemented in Java EE technology. Identity management (or IdM) means to manage user data on systems and applications, using the combination of business processes and IT. IdM involves considering user attributes, roles, resources and entitlements in trying to answer the following thorny question: Who has access to What, When, How, and Why?
+* [SystemDS](http://systemds.apache.org/): A machine learning platform optimal for big data.
+* [TVM](http://tvm.apache.org/): an open source machine learning compiler framework for CPUs, GPUs, and machine learning accelerators. It aims to enable machine learning engineers to optimize and run computations efficiently on any hardware backend.
+* [Tapestry](https://tapestry.apache.org/): A component-oriented framework for creating highly scalable web applications in Java.
+* [Tcl](http://tcl.apache.org/): Apache-Tcl integration. 
+* [Tez](http://tez.apache.org/): aimed at building an application framework which allows for a complex directed-acyclic-graph of tasks for processing data. It is currently built atop Apache Hadoop YARN.
+* [Thrift](../../distribution/thrift): The Apache Thrift software framework, for scalable cross-language services development, combines a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js, Smalltalk, OCaml and Delphi and other languages.
+* [Tika](http://tika.apache.org/): detects and extracts metadata and text from over a thousand different file types (such as PPT, XLS, and PDF). All of these file types can be parsed through a single interface, making Tika useful for search engine indexing, content analysis, translation, and much more.
+* [TinkerPop](../../storage/tinkerpop): a graph computing framework for both graph databases (OLTP) and graph analytic systems (OLAP).
+* [TomEE](https://tomee.apache.org/): an all-Apache Jakarta EE 9.1 certified application server extends Apache Tomcat that is assembled from a vanilla Apache Tomcat zip file. We start with Apache Tomcat, add our jars, and zip up the rest. The result is Tomcat plus EE features - TomEE.
+* [Tomcat](http://tomcat.apache.org/): an open source implementation of the Jakarta Servlet, Jakarta Server Pages, Jakarta Expression Language, Jakarta WebSocket, Jakarta Annotations and Jakarta Authentication specifications.
+* [Traffic Control](http://trafficcontrol.apache.org/): allows you to build a large scale content delivery network using open source. Built around Apache Traffic Server as the caching software, Traffic Control implements all the core functions of a modern CDN.
+* [Traffic Server](http://trafficserver.apache.org/): a fast, scalable and extensible HTTP/1.1 and HTTP/2 compliant caching proxy server.
+* [Turbine](http://turbine.apache.org/): a servlet based framework that allows experienced Java developers to quickly build web applications. Turbine allows you to use personalize the web sites and to use user logins to restrict access to parts of your application.
+* [UIMA](http://uima.apache.org/): enables applications to be decomposed into components, for example "language identification" => "language specific segmentation" => "sentence boundary detection" => "entity detection (person/place names etc.)". Each component implements interfaces defined by the framework and provides self-describing metadata via XML descriptor files. The framework manages these components and the data flow between them. Components are written in Java or C++; the data that flows between components is designed for efficient mapping between these languages. 
+* [Unomi](http://unomi.apache.org/): (pronounced "You know me") is a Java Open Source customer data platform, a Java server designed to manage customers, leads and visitors data and help personalize customers experiences while also offering features to respect visitor privacy rules (such as GDPR).
+* [Usergrid](../../backends/usergrid): an open-source Backend-as-a-Service (“BaaS” or “mBaaS”) composed of an integrated distributed NoSQL database, application layer and client tier with SDKs for developers looking to rapidly build web and/or mobile applications. It provides elementary services (user registration & management, data storage, file storage, queues) and retrieval features (full text search, geolocation search, joins) to power common app features. It is a multi-tenant system designed for deployment to public cloud environments (such as Amazon Web Services, Rackspace, etc.) or to run on traditional server infrastructures so that anyone can run their own private BaaS deployment. For architects and back-end teams, it aims to provide a distributed, easily extendable, operationally predictable and highly scalable solution. For front-end developers, it aims to simplify the development process by enabling them to rapidly build and operate mobile and web applications without requiring backend expertise.
+* [VCL](http://vcl.apache.org/):  a free & open-source cloud computing platform with the primary goal of delivering dedicated, custom compute environments to users. The compute environments can range from something as simple as a virtual machine running productivity software to a cluster of powerful physical servers running complex HPC simulations.
+* [Velocity](http://velocity.apache.org/): a Java-based template engine. It permits anyone to use a simple yet powerful template language to reference objects defined in Java code.
+* [Web Services](http://ws.apache.org/): the home of a number of Web services related projects:
+    * Active Projects
+        * Apache Axiom: An XML and SOAP object model which supports deferred parsing and on-demand building of the object tree.
+        * Apache Neethi: A general framework for the programmers to use WS Policy.
+        * Apache Woden: A Java class library for reading, manipulating, creating and writing WSDL documents.
+        * Apache WSS4J: An implementation of the OASIS Web Services Security (WS-Security) from OASIS Web Services Security TC.
+        * Apache XmlSchema: A Java class library for creating and traversing W3C XML Schema 1.0 documents.
+    * Archived Projects
+        * Apache JaxMe: An implementation of JAXB, the specification for Java/XML binding.
+        * Apache SOAP: A first generation SOAP stack.
+        * Apache TCPMon: A tool to intercept SOAP/HTTP messages.
+        * Apache WSIF: A simple Java API for invoking Web services, no matter how or where the services are provided.
+        * Apache XML-RPC: A Java implementation of XML-RPC, a popular protocol that uses XML over HTTP to implement remote procedure calls.
+* [Wicket](http://wicket.apache.org/): an open source, component oriented, serverside, Java web application framework.
+* [XML Graphics](https://xmlgraphics.apache.org/): the conversion of XML formats to graphical output:
+    * Apache Batik - A toolkit for Scalable Vector Graphics (SVG), based in Java
+    * Apache FOP - A print formatter & renderer for XSL-FO (FO=formatting objects), based in Java
+    * Apache XML Graphics Commons - A library with various components used by Apache Batik and Apache FOP, written in Java
+* [Xalan](http://xalan.apache.org/): develops and maintains libraries and programs that transform XML documents using XSLT standard stylesheets. Our subprojects use the Java and C++ programing languages to implement the XSLT libraries.
+* [Xerces](http://xerces.apache.org/): XML parsers, Java and C++
+* [Yetus](http://yetus.apache.org/): a collection of libraries and tools that enable contribution and release processes for software projects.
+* [Zeppelin](http://zeppelin.apache.org/): Web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more.
+* [ZooKeeper](https://zookeeper.apache.org/): a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. All of these kinds of services are used in some form or another by distributed applications. Each time they are implemented there is a lot of work that goes into fixing the bugs and race conditions that are inevitable. Because of the difficulty of implementing these kinds of services, applications initially usually skimp on them, which make them brittle in the presence of change and difficult to manage. Even when done correctly, different implementations of these services lead to management complexity when the applications are deployed.
 * Incubator
     * AGE
     * Annotator
