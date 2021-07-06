@@ -1,5 +1,5 @@
 title=OpenFin
-tags=platform, browser
+tags=platform, browser, financial
 summary=A web runtime and operating environment designed for enterprise app development.
 ~~~~~~
 
