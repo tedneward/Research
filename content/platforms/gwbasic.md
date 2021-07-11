@@ -1,5 +1,5 @@
 title=GWBasic
-tags=platform, language, windows
+tags=platform, language, windows, gamedev
 summary=Ancient predecessor to modern BASIC, for DOS.
 ~~~~~~
 
