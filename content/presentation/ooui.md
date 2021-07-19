@@ -36,7 +36,7 @@ class Program
 
 Make sure to add a reference to Ooui before you start running!
 
-```
+```shell
 dotnet add package Ooui
 dotnet run
 ```
