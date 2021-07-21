@@ -16,4 +16,4 @@ Here is a typical flow:
 * Fluid runtime incorporates that operation into local data and raises a “valueChanged” event
 * Client code handles that event (updates view, runs business logic
 
-[Website](https://fluidframework.com/) | [Source](https://github.com/microsoft/FluidFramework)
+[Website](https://fluidframework.com/) | [Source](https://github.com/microsoft/fluidframework)

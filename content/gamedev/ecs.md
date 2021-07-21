@@ -13,6 +13,7 @@ summary=A common architecture/design pattern for building games.
 
 Existing libraries:
 * [A-Frame](https://github.com/aframevr/aframe/) (Javascript): [Website](https://aframe.io/) "A web framework for building 3D/AR/VR experiences. Make 3D worlds with HTML and Entity-Component. For Quest, Rift, WMR, SteamVR, mobile, desktop." [Docs](https://aframe.io/docs/1.2.0/introduction/)
+* [Artemis (C#)](https://thelinuxlich.github.io/artemis_CSharp/)/[Artemis (Java)](https://gamadu.com/artemis/)
 * [Ape-ECS](https://github.com/fritzy/ape-ecs) (Javascript): "Entity-Component-System library for JavaScript."
 * [ECSY](../ecsy) (Javascript)
 * [ensy](https://github.com/adngdb/entity-system-js) (Javascript): "A very simple Entity System for JavaScript." [Docs](https://entity-system-js.readthedocs.io/en/latest/)
