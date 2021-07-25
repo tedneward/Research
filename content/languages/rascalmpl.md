@@ -7,7 +7,7 @@ Rascal is a programming language; such that meta programs can be created by, und
 
 Rascal primitives include immutable data, context-free grammars and algebraic data-types, relations, relational calculus operators, advanced patterns matching, generic type-safe traversal, comprehensions, concrete syntax for objects, lexically scoped backtracking, and string templates for code generation. It has libraries for integrating language front-ends, for reusing analysis algorithms, for getting typed meta-data out of version management systems, for interactive visualization, etc.
 
-[Website](https://www.rascal-mpl.org/) | [UseTheSource](http://usethesource.io/) Project
+[Website](https://www.rascal-mpl.org/) | [UseTheSource](http://usethesource.io/) Project | [Paper (PDF)](https://www.researchgate.net/profile/Tijs-Van-Der-Storm/publication/221202312_EASY_Meta-programming_with_Rascal/links/09e4150981f713fb1d000000/EASY-Meta-programming-with-Rascal.pdf)
 
 From the website:
 
