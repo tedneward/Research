@@ -1,9 +1,9 @@
 title=OOUI
-tags=presentation, clr, browser, 
+tags=presentation, clr, browser
 summary=a small cross-platform UI library for .NET that uses web technologies; presents a classic object-oriented UI API that controls a dumb browser.
 ~~~~~~
 
-[Source](https://github.com/praeclarum/Ooui) | [Interactive examples](http://ooui.mecha.parts/)
+[Source](https://github.com/praeclarum/Ooui) | [Interactive examples](http://ooui.mecha.parts/) and [source](https://github.com/praeclarum/Ooui/tree/master/Samples)
 
 ### Example App
 ```
@@ -41,3 +41,73 @@ dotnet add package Ooui
 dotnet run
 ```
 
+### [Button-XAML Example]()
+An example of doing an interactive Xamarin Forms app.
+
+XAML:
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ButtonXaml.ButtonXamlPage">
+
+    <StackLayout Padding="20">
+        <Label Text="Welcome to Xamarin.Forms!" FontSize="32" FontAttributes="Bold" />
+        <Entry x:Name="LabelCount" Text="Click Count: 0"/>
+        <Button Text="Tap for click count!"
+                Clicked="OnButtonClicked" />
+    </StackLayout>
+</ContentPage>
+```
+
+XAML.CS:
+```
+using System;
+using Xamarin.Forms;
+
+namespace ButtonXaml
+{
+    public partial class ButtonXamlPage
+    {
+        int count = 0;
+
+        public ButtonXamlPage()
+        {
+            InitializeComponent();
+        }
+
+        public void OnButtonClicked(object sender, EventArgs args)
+        {
+            count++;
+            LabelCount.Text = $"Click Count: {count}";
+           
+        }
+    }
+}
+```
+
+C#:
+```
+using Ooui;
+using Xamarin.Forms;
+
+namespace Samples
+{
+    public class ButtonXamlSample : ISample
+    {
+        public string Title => "Xamarin.Forms Button XAML";
+        public string Path => "buttons";
+
+        public Ooui.Element CreateElement ()
+        {
+            var page = new ButtonXaml.ButtonXamlPage ();
+            return page.GetOouiElement ();
+        }
+
+        public void Publish()
+        {
+            UI.Publish(Path, CreateElement);
+        }
+    }
+}
+```
