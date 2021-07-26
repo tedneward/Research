@@ -7,6 +7,10 @@ summary=Ideas and concepts around functional programming.
 
 Pure-functional languages are those that have no side effects permitted (except under very specific circumstances, to allow for things like I/O to happen). Impure functional languages allow state modification to happen (under constraints) and thus often avoid the gyrations to which pure functional languages need to go, such as [monads](monads.html).
 
+David Turner [Some History of Functional Programming Languages](http://www.cs.kent.ac.uk/people/staff/dat/tfp12/tfp12.pdf), Proceedings TFP 2012, Springer LNCS 7829:1--20.
+
+Philip Wadler [A critique of Abelson and Sussman or why calculating is better than scheming](https://www.cs.kent.ac.uk/people/staff/dat/miranda/wadler87.pdf), SIGPLAN Notices 22(3):83-94, March 1987
+
 ### Books
 [Haskell Programming from first principles](http://haskellbook.com/) with [book examples](https://github.com/elrocqe/frege_programming) in [Frege](/languages/frege.html) | [Real-World Haskell](http://book.realworldhaskell.org/read/) | [Learn you a Haskell](http://learnyouahaskell.com/chapters) | [Programming in Haskell](http://www.amazon.com/Programming-Haskell-Graham-Hutton/dp/0521692695/)
 

@@ -5,7 +5,9 @@ summary=An object/functional hybrid language.
 
 "F# is a mature, open source, cross-platform, functional-first programming language. It empowers users and organizations to tackle complex computing problems with simple, maintainable and robust code."
 
-[Website](https://fsharp.org/) | [Source](https://github.com/fsharp) | [Language Overview](http://tomasp.net/articles/fsharp-i-introduction/article.pdf) |  [Language Specification](https://fsharp.org/specs/language-spec/): [4.1](https://fsharp.org/specs/language-spec/4.1/FSharpSpec-4.1-latest.pdf) [4.0](https://fsharp.org/specs/language-spec/4.0/FSharpSpec-4.0-final.pdf) [3.1](https://fsharp.org/specs/language-spec/3.1/FSharpSpec-3.1-final.pdf) [3.0](https://fsharp.org/specs/language-spec/3.0/FSharpSpec-3.0-final.pdf) | Syntax Cheat Sheet: [HTML](http://dungpa.github.io/fsharp-cheatsheet/) [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf)
+[Website](https://fsharp.org/) | [Source](https://github.com/fsharp) | [Foundation](http://fsharp.org/)
+
+[Language Overview](http://tomasp.net/articles/fsharp-i-introduction/article.pdf) |  [Language Specification](https://fsharp.org/specs/language-spec/): [4.1](https://fsharp.org/specs/language-spec/4.1/FSharpSpec-4.1-latest.pdf) [4.0](https://fsharp.org/specs/language-spec/4.0/FSharpSpec-4.0-final.pdf) [3.1](https://fsharp.org/specs/language-spec/3.1/FSharpSpec-3.1-final.pdf) [3.0](https://fsharp.org/specs/language-spec/3.0/FSharpSpec-3.0-final.pdf) | Syntax Cheat Sheet: [HTML](http://dungpa.github.io/fsharp-cheatsheet/) [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf)
 
 Originally from [Microsoft Research](../../places/msr).
 

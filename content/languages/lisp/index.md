@@ -37,6 +37,7 @@ Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/li
 * [Io](../../io): A prototype-based OO language.
 * [Janet](../../janet)
 * [JESS](https://jess.sandia.gov/): Java Expert System Shell, a CLIPS-inspired expert system rule engine on the JVM
+* [Lux](../lux): A functional, statically-typed Lisp that will run on several platforms, such as the Java Virtual Machine and JavaScript interpreters.
 
 ### Reading
 

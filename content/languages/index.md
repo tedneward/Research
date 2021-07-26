@@ -59,18 +59,18 @@ Wikipedia defines a really large ontological breakdown of languages; I prefer a 
 
 * Procedural: Characterized by imperative execution statements
 
-* [Object-oriented](/tags/object.html): Characterized by the union of state and behavior into a first-class concept, either at compile-time, run-time, or both
+* [Object-oriented](/tags/object): Characterized by the union of state and behavior into a first-class concept, either at compile-time, run-time, or both
 
-* [Functional](/tags/functional.html): Characterized by mathematics-inspired functions as first-class concepts. Preference for expressions over statements, lazy execution, immutable values, and so on. | [Wikipedia](https://en.wikipedia.org/wiki/Functional_programming) | Some [reading](/reading/functional.html) | Functional programming brought us [monads](reading/monads.html) and all the fun that goes with that. Frequently cites/builds off of the [lambda calculus](http://en.wikipedia.org/wiki/Lambda_calculus).
+* [Functional](/tags/functional): Characterized by mathematics-inspired functions as first-class concepts. Preference for expressions over statements, lazy execution, immutable values, and so on. | [Wikipedia](https://en.wikipedia.org/wiki/Functional_programming) | Some [reading](/reading/functional) | Functional programming brought us [monads](/reading/monads) and all the fun that goes with that. Frequently cites/builds off of the [lambda calculus](http://en.wikipedia.org/wiki/Lambda_calculus).
 
-#### [Metaprogramming](/tags/metaobject.html) (aka MetaObject Protocol)
+#### [Metaprogramming](/tags/metaobject) (aka MetaObject Protocol)
 Characterized by the idea that we can elevate "above" the object concept, in a variety of different ways: source generation, semantic macros, parametric polymorphism, and so on. Many MOPs allow for the runtime manipulation of object instances or types without requiring recompilation.
 
 #### Declarative
 
-#### [Static](/tags/static.html)-vs-[dynamic](/tags/dynamic.html) typing
+#### [Static](/tags/static)-vs-[dynamic](/tags/dynamic) typing
 
-#### [Compiled](/tags/compiled.html)-vs-[interpreted](/tags/interpreted.html) execution
+#### [Compiled](/tags/compiled)-vs-[interpreted](/tags/interpreted) execution
 
 #### [Probabalistic Programming](http://probabilistic-programming.org/wiki/Home?imm_mid=0e7ab9&cmp=em-prog-na-na-newsltr_20160910)
 "Make it easier to to probabilistic inference in custom models." | [Probabalistic Models of Cognition](https://probmods.org/) | ["TOWARDS COMMON-SENSE REASONING VIA CONDITIONAL SIMULATION: LEGACIES OF TURING IN ARTIFICIAL INTELLIGENCE"](https://arxiv.org/pdf/1212.4799v2.pdf)
@@ -146,3 +146,5 @@ Some [slides](https://tminka.github.io/papers/mlss2009/WinnMinka-ProbabilisticPr
 *  [learn-programming-languages](https://github.com/jeanqasaur/learn-programming-languages)
 	- Resources for the working programmer to learn more about the fundamentals and theory of programming languages.
 	- Jean Yang
+
+[Lingua.NET](https://archive.codeplex.com/?p=lingua): Discontinued/archived CodePlex parser generator. Archived content copied locally [here](../dotnet/lingua.zip).

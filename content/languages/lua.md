@@ -19,6 +19,7 @@ summary=Scripting language often embedded into game engines for extensibility.
 
 ### Inspired by Lua
 
+* [MetaLua](https://github.com/fab13n/metalua): Metalua is a Lua code analysis tool, as well as a compiler for a superset of Lua 5.1 supporting Compile-Time Meta-Programming. It's separated into two LuaRocks, metalua-parser and metalua-compiler.
 * [Shine](https://github.com/richardhundt/shine): A language based on Lua with additional safety and expressiveness features implemented as a fork of LuaJIT.
 * [Squirrel](../squirrel)
 * [SquiLu](https://github.com/mingodad/squilu): A fork of Squirrel. Changes the syntax to accept a subset of JavaScript and C/C++. Implements Lua's features like string pattern matching and global table manipulation functions. Adds extensions for database access (SQLite3, MySQL, PostgreSQL), sockets, and other features.
