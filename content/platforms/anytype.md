@@ -3,7 +3,7 @@ tags=platform, low-code, no-code, presentation, distribution
 summary=A next-generation software that breaks down barriers between applications, gives back privacy and data ownership to users.
 ~~~~~~
 
-Currently in early-access state, claims that it will go open-source "son".
+Currently in early-access state, claims that it will go open-source "soon".
 
 [Website](https://anytype.io) | [Source](https://github.com/anytypeio)
 
