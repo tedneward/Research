@@ -1,5 +1,5 @@
 title=Adalo
-tags=platform, no-code
+tags=platform, no-code, presentation
 summary=Mobile app-builder tool.
 ~~~~~~
 

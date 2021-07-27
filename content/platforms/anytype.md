@@ -1,5 +1,5 @@
 title=Anytype
-tags=platform, low-code, no-code
+tags=platform, low-code, no-code, presentation, distribution
 summary=A next-generation software that breaks down barriers between applications, gives back privacy and data ownership to users.
 ~~~~~~
 
