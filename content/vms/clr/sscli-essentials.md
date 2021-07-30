@@ -1,5 +1,5 @@
 title=SSCLI Essentials
-tags=reading, platform, clr, vm
+tags=reading, vm, clr
 summary=by Stutz, Shilling, Pobar and myself on the Shared Source CLI, the predecessor to the .NET Core CLR.
 ~~~~~~
 
