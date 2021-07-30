@@ -1,5 +1,5 @@
 title=WebAssembly Virtual Machine
-tags=vm
+tags=vm, wasm
 summary=WebAssembly virtual machine designed for use in non-web applications.
 ~~~~~~
 

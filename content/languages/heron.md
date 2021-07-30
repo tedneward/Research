@@ -1,5 +1,5 @@
 title=Heron
-tags=language, functional, node, browser
+tags=language, functional, nodejs, browser
 summary=A pure functional type-inferred language based on JavaScript.
 ~~~~~~
 
