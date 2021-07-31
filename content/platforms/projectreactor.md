@@ -1,7 +1,6 @@
 title=Project Reactor
 tags=platform, functional, jvm
-summary=A fourth-generation reactive library, based on the Reactive Streams
-specification, for building non-blocking applications on the JVM.
+summary=A fourth-generation reactive library, based on the Reactive Streams specification, for building non-blocking applications on the JVM.
 ~~~~~~
 
 [Website](https://projectreactor.io/) | [Source](https://github.com/reactor)

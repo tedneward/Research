@@ -1,6 +1,6 @@
 title=Firebase
 tags=platform, storage, distribution, cloud
-summary=
+summary=A (pseudo)real-time NoSQL that also has platform capabilities.
 ~~~~~~
 
 [Website](https://firebase.google.com/)
