@@ -10,8 +10,13 @@ summary=A dynamic language.
 
 * [JRuby](https://www.jruby.org/) ([Source](https://github.com/jruby/jruby)): Ruby implementation written for the JVM.
 
-* IronRuby (appears to be stalled): 
+* IronRuby (appears to be stalled)
 
 * [mRuby](https://github.com/mruby/mruby): A lightweight implementation of Ruby. Has a compile-time package manager.
 
 * [mruby/c](https://github.com/mrubyc/mrubyc): An even smaller implementation of Ruby for microcontrollers with limited memory.
+
+* [Opal](../opal): A Ruby-to-JS transpiler.
+
+* [Sorbet](../sorbet): Type-checker for Ruby.
+
