@@ -14,3 +14,7 @@ summary=A high-level scripting language vaguely object-like.
 
 * [LIL](http://runtimeterror.com/tech/lil/): A Tcl-like language incompatible with mainline Tcl.
 
+### Extensions to Tcl:
+
+* [Poet](http://poet.sourceforge.net/): Poet extends the Tcl language with objects featuring dynamic, prototype-based inheritance, persistence, and one-way constraints. Poet includes wrappers around the Tk, Ttk, and BWidget widgets and object and code editors.
+

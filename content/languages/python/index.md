@@ -11,6 +11,12 @@ summary=A dynamic language and platform.
 * JVM: [GraalPython](https://github.com/graalvm/graalpython): part of [GraalVM](/vms/graalvm.html)
 * JVM: [Jython](http://www.jython.org/)
 * CLR: IronPython
+* C: [Stackless](https://github.com/stackless-dev/stackless): Stackless implementation (fork of CPython)
 
 ### Articles:
 * [WTFPython](https://github.com/satwikkansal/wtfpython): A collection of unintuitive ways Python behaves, with explanations as to why.
+
+---
+
+[`dis`: Disassembler for Python bytecode](https://docs.python.org/3/library/dis.html): package in the Python distribution, contains a list of all the Python VM bytecodes
+

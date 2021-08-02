@@ -67,7 +67,7 @@ There is a variety of system architectures as well. These architectures are used
 
 * **HostSystemObject**: A "host system object" is simply an instance of any CLR type which is not a formal part of the Essence# runtime system. One of the requirements for an Essence# class to represent a CLR type (which may or may not be a "class" as the CLR defines that term) is that its instance type must be #HostSystemObject.
 
-Traits
+#### Traits
 Traits are Essence#’s answer to multiple inheritance. Traits are sets of functionality that can be imported by a class, but they are more than just cut-and-paste methods handled by the compiler. So first, let us talk about how they differ from normal methods.
 
 With one exception, methods imported from a trait should be indistinguishable from those implemented locally by the importing class or trait. The exception is that methods defined in a trait bind to non-local variables (e.g, class variables) based on the namespace environment of the trait that defines the methods, and not based on the namespace environment of the class or trait that uses (“imports”) those methods.

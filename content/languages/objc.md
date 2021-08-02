@@ -7,7 +7,7 @@ summary=The other object-oriented take on C, based much more directly on the mes
 
 [Apple website](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)
 
-[Objective-C Programming Language](http://andrewd.ces.clemson.edu/courses/cpsc102/notes/ObjC.pdf) (2002) | [Objective-C 2.0 Programming Language](http://cagt.bu.edu/w/images/b/b6/Objective-C_Programming_Language.pdf) (2009)
+[Objective-C Programming Language](http://andrewd.ces.clemson.edu/courses/cpsc102/notes/ObjC.pdf) (2002) | [Objective-C 2.0 Programming Language](http://cagt.bu.edu/w/images/b/b6/Objective-C_Programming_Language.pdf) (2009) | [GNUStep Obj-C book](http://www.gnustep.org/resources/documentation/ObjectivCBook.pdf)
 
 ---
 
@@ -138,4 +138,11 @@ Implementation is done in .m files, which `#import` the header and define the im
 > In addition, there are a few conventions that are required if you wish to take advantage of language or framework features. Property accessor methods, for example, must follow strict naming conventions in order to work with technologies like Key-Value Coding (KVC) or Key-Value Observing (KVO)."
 
 Being a dynamic language, ObjC depends very heavily on the use of names as the commonality/specialization axis for first-class support. Thus, a class needs to provide precisely-matching names to what's expected in order to be a participant in a particular design family. This enables objects to participate in multiple families without requiring a recompilation of the world, and allows objects to be evaluated for participation in a design family at runtime, which provides greater flexibility, but at the cost of being erroneous due to programmer mistakes.
+
+---
+
+## GNUstep
+The remnants of the NeXTStep environment from Jobs' NeXT days.
+
+[Tutorials](http://www.gnustep.it/nicola/Tutorials/index.html) | [Documentation](http://www.gnustep.org/experience/documentation.html) | [Build Guide](http://gnustep.made-it.com/BuildGuide/)
 
