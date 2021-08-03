@@ -3,7 +3,23 @@ tags=vm, jvm
 summary=The execution engine and supporting structure for Java programs.
 ~~~~~~
 
+Bytecode interpreted. JIT compiled (depending on implementation). Dynamic code loaded.
+
 [Wikipedia](https://en.wikipedia.org/wiki/Java_virtual_machine)
+
+(Oracle) JVM Specifications:
+
+* [JVM Spec, Java SE 16](https://docs.oracle.com/javase/specs/jls/se16/html/index.html)
+* [JVM Spec, Java SE 15](https://docs.oracle.com/javase/specs/jls/se15/html/index.html)
+* [JVM Spec, Java SE 14](https://docs.oracle.com/javase/specs/jls/se14/html/index.html)
+* [JVM Spec, Java SE 13](https://docs.oracle.com/javase/specs/jls/se13/html/index.html)
+* [JVM Spec, Java SE 12](https://docs.oracle.com/javase/specs/jls/se12/html/index.html)
+* [JVM Spec, Java SE 11](https://docs.oracle.com/javase/specs/jls/se11/html/index.html)
+* [JVM Spec, Java SE 10](https://docs.oracle.com/javase/specs/jls/se10/html/index.html)
+* [JVM Spec, Java SE 9](https://docs.oracle.com/javase/specs/jls/se9/html/index.html)
+* [JVM Spec, Java SE 8](https://docs.oracle.com/javase/specs/jls/se8/html/index.html)
+* [JVM Spec, Java SE 7](https://docs.oracle.com/javase/specs/jls/se7/html/index.html)
+* [JVM Spec, 2nd Edition (Java SE 6)](https://docs.oracle.com/javase/specs/jvms/se6/html/VMSpecTOC.doc.html)
 
 [JVM conversion](https://github.com/jtransc/jtransc): Bytecode to source converting Java & Kotlin code into JavaScript, C++, D, C#, PHP, AS3, Dart and Haxe and run it everywhere. Also use JVM code in your favourite language as a library. [Website](https://jtransc.soywiz.com/)
 
