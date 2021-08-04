@@ -12,6 +12,8 @@ Virtual Machines differ from platforms in that a virtual machine may form the co
 
 ### Bytecode
 
+See http://www.complang.tuwien.ac.at/forth/threaded-code.html for an introduction to threading techniques, including a performance comparison at http://www.complang.tuwien.ac.at/forth/threading/
+
 ### Stack-based vs Register-based
 
 ### Garbage collection
