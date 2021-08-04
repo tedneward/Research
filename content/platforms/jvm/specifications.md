@@ -5,18 +5,96 @@ summary=A collection of the various specifications (JavaEE, etc) that make up th
 
 [Java Community Process website](https://www.jcp.org/en/home/index)
 
-## Java SE Platform
+# Java SE (aka J2SE)
 
 
-# Java EE
+
+# Java EE (aka J2EE, Java2 EE)
 
 As mentioned by Arun Gupta in his book entitled Java EE 7 Essentials, the different components work together to provide an integrated stack, as shown below:
 
 ![](https://i.stack.imgur.com/LuHAa.png)
 
-Below you will find a list of specifications for the Java EE 7 technologies. For more details, check the JSR pages:
+## Java EE 5
 
-## Java EE 7 Platform
+Java Platform, Enterprise Edition 5 (Java EE 5)	JSR 244
+
+### Web Services Technologies 
+* Implementing Enterprise Web Services	JSR 109	
+* Java API for XML-Based Web Services (JAX-WS) 2.0	JSR 224	
+* Java API for XML-Based RPC (JAX-RPC) 1.1	JSR 101	
+* Java Architecture for XML Binding (JAXB) 2.0	JSR 222	
+* SOAP with Attachments API for Java (SAAJ)	JSR 67, JSR 173	
+* Web Service Metadata for the Java Platform	JSR 181	
+
+### Web Application Technologies
+* JavaServer Faces 1.2	JSR 252	
+* JavaServer Pages 2.1	JSR 245	
+* JavaServer Pages Standard Tag Library	JSR 52	
+* Java Servlet 2.5	JSR 154	
+
+### Enterprise Application Technologies
+* Common Annotations for the Java Platform	JSR 250	
+* Enterprise JavaBeans 3.0	JSR 220	
+* J2EE Connector Architecture 1.5	JSR 112	
+* JavaBeans Activation Framework (JAF) 1.1	JSR 925	
+* JavaMail	JSR 919	
+* Java Message Service API	JSR 914	
+* Java Persistence API	JSR 220	
+* Java Transaction API (JTA)	JSR 907
+
+### Management and Security Technologies
+* J2EE Application Deployment	JSR 88	
+* J2EE Management	JSR 77	
+* Java Authorization Contract for Containers	JSR 115	
+
+## Java EE 6
+
+Java Platform, Enterprise Edition 6 (Java EE 6)	JSR 316
+
+### Web Services Technologies
+* Java API for RESTful Web Services (JAX-RS) 1.1	JSR 311
+* Implementing Enterprise Web Services 1.3	JSR 109
+* Java API for XML-Based Web Services (JAX-WS) 2.2	JSR 224
+* Java Architecture for XML Binding (JAXB) 2.2	JSR 222
+* Web Services Metadata for the Java Platform	JSR 181
+* Java API for XML-Based RPC (JAX-RPC) 1.1	JSR 101
+* Java APIs for XML Messaging 1.3	JSR 67
+* Java API for XML Registries (JAXR) 1.0	JSR 93
+
+### Web Application Technologies
+* Java Servlet 3.0	JSR 315
+* JavaServer Faces 2.0	JSR 314
+* JavaServer Pages 2.2/Expression Language 2.2	JSR 245
+* Standard Tag Library for JavaServer Pages (JSTL) 1.2	JSR 52
+* Debugging Support for Other Languages 1.0	JSR 45
+
+### Enterprise Application Technologies
+* Contexts and Dependency Injection for Java (Web Beans 1.0)	JSR 299
+* Dependency Injection for Java 1.0	JSR 330
+* Bean Validation 1.0	JSR 303
+* Enterprise JavaBeans 3.1 (includes Interceptors 1.1)	JSR 318
+* Java EE Connector Architecture 1.6	JSR 322
+* Java Persistence 2.0	JSR 317
+* Common Annotations for the Java Platform 1.1	JSR 250
+* Java Message Service API 1.1	JSR 914
+* Java Transaction API (JTA) 1.1	JSR 907
+* JavaMail 1.4	JSR 919
+
+### Management and Security Technologies
+* Java Authentication Service Provider Interface for Containers	JSR 196
+* Java Authorization Contract for Containers 1.3	JSR 115
+* Java EE Application Deployment 1.2	JSR 88
+* J2EE Management 1.1	JSR 77
+
+### Java EE-related Specs in Java SE
+* Java API for XML Processing (JAXP) 1.3	JSR 206
+* Java Database Connectivity 4.0	JSR 221
+* Java Management Extensions (JMX) 2.0	JSR 255
+* JavaBeans Activation Framework (JAF) 1.1	JSR 925
+* Streaming API for XML (StAX) 1.0	JSR 173
+
+## Java EE 7
 
 * JSR 342: Java Platform, Enterprise Edition 7 (Java EE 7)
 
@@ -25,9 +103,6 @@ Below you will find a list of specifications for the Java EE 7 technologies. For
 * JSR 356: Java API for WebSocket
 * JSR 353: Java API for JSON Processing
 * JSR 340: Java Servlet 3.1
-
-    Java Servlet technology lets you define HTTP-specific servlet classes. A servlet class extends the capabilities of servers that host applications accessed by way of a request-response programming model. Although servlets can respond to any type of request, they are commonly used to extend the applications hosted by web servers.
-
 * JSR 344: JavaServer Faces 2.2
 * JSR 341: Expression Language 3.0
 * JSR 245: JavaServer Pages 2.3
@@ -41,18 +116,6 @@ Below you will find a list of specifications for the Java EE 7 technologies. For
 * JSR 330: Dependency Injection for Java 1.0
 * JSR 349: Bean Validation 1.1
 * JSR 345: Enterprise JavaBeans 3.2
-    An Enterprise JavaBeans (EJB) component, or enterprise bean, is a body of code that has fields and methods to implement modules of business logic. You can think of an enterprise bean as a building block that can be used alone or with other enterprise beans to execute business logic on the Java EE server.
-
-    Enterprise beans are either session beans or message-driven beans.
-
-    A session bean represents a transient conversation with a client. When the client finishes executing, the session bean and its data are gone.
-
-    A message-driven bean combines features of a session bean and a message listener, allowing a business component to receive messages asynchronously. Commonly, these are Java Message Service (JMS) messages.
-
-    Asynchronous local session beans in EJB Lite
-
-    Nonpersistent timers in EJB Lite
-
 * JSR 318: Interceptors 1.2
 * JSR 322: Java EE Connector Architecture 1.7
 * JSR 338: Java Persistence 2.1
