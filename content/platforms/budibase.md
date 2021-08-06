@@ -1,5 +1,5 @@
 title=Budibase
-tags=platform, low-code, no-code
+tags=platform, backend, low-code, no-code
 summary=An open-source low code platform that helps you build and self-host internal tools in minutes.
 ~~~~~~
 
