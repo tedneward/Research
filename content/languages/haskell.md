@@ -4,6 +4,8 @@ summary=Pure-functional language.
 ~~~~~~
 
 ### Notes
+(Much quoted from [Learn You a Haskell](http://learnyouahaskell.com).)
+
 Strongly-typed; will not permit `"llama" + 4` for example.
 
 Function application (calling a function by putting a space after it and then typing out the parameters) has the highest precedence of them all. What that means for us is that these two statements are equivalent.
@@ -17,7 +19,8 @@ ghci> (succ 9) + (max 5 4) + 1
 
 If a function takes two parameters, we can also call it as an infix function by surrounding it with backticks. For instance, the div function takes two integers and does integral division between them. Doing `div 92 10` results in a 9. But when we call it like that, there may be some confusion as to which number is doing the division and which one is being divided. So we can call it as an infix function by doing `92 ``div`` 10` and suddenly it's much clearer.
 
-**Defining functions**: Cannot begin with capital letters. `doubleMe x = x + x` polymorphic doubling function.
+#### Defining functions
+Cannot begin with capital letters. `doubleMe x = x + x` polymorphic doubling function.
 
 ```
 ghci> doubleMe 9  
@@ -26,6 +29,7 @@ ghci> doubleMe 8.3
 16.6   
 ```
 
+#### Constructs
 If-then-else is an expression, yielding a value:
 ```
 doubleSmallNumber x = if x > 100  
@@ -144,12 +148,76 @@ ghci> zip [1,2,3,4,5] [5,5,5,5,5]
 [(1,5),(2,5),(3,5),(4,5),(5,5)]  
 ghci> zip [1 .. 5] ["one", "two", "three", "four", "five"]  
 [(1,"one"),(2,"two"),(3,"three"),(4,"four"),(5,"five")]  
+
+ghci> zip [1..] ["apple", "orange", "cherry", "mango"]  
+[(1,"apple"),(2,"orange"),(3,"cherry"),(4,"mango")]  
 ```
+
+Here's a problem that combines tuples and list comprehensions: which right triangle that has integers for all sides and all sides equal to or smaller than 10 has a perimeter of 24? First, let's try generating all triangles with sides equal to or smaller than 10:
+
+```
+ghci> let triangles = [ (a,b,c) | c <- [1..10], b <- [1..10], a <- [1..10] ]   
+```
+
+We're just drawing from three lists and our output function is combining them into a triple. If you evaluate that by typing out triangles in GHCI, you'll get a list of all possible triangles with sides under or equal to 10. Next, we'll add a condition that they all have to be right triangles. We'll also modify this function by taking into consideration that side b isn't larger than the hypothenuse and that side a isn't larger than side b.
+
+```
+ghci> let rightTriangles = [ (a,b,c) | c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b^2 == c^2]   
+```
+
+We're almost done. Now, we just modify the function by saying that we want the ones where the perimeter is 24.
+
+```
+ghci> let rightTriangles' = [ (a,b,c) | c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b^2 == c^2, a+b+c == 24]  
+ghci> rightTriangles'  
+[(6,8,10)]  
+```
+
+#### Types and Typeclasses
+ghci uses `:t` to return the type of an expression.
+
+```
+ghci> :t 'a'  
+'a' :: Char  
+ghci> :t True  
+True :: Bool  
+ghci> :t "HELLO!"  
+"HELLO!" :: [Char]  
+ghci> :t (True, 'a')  
+(True, 'a') :: (Bool, Char)  
+ghci> :t 4 == 5  
+4 == 5 :: Bool  
+```
+
+Functions also have types:
+
+```
+removeNonUppercase :: [Char] -> [Char]  
+removeNonUppercase st = [ c | c <- st, c `elem` ['A'..'Z']]   
+```
+
+`removeNonUppercase` has a type of `[Char] -> [Char]`, meaning that it maps from a string to a string. That's because it takes one string as a parameter and returns another as a result. The `[Char]` type is synonymous with `String` so it's clearer if we write `removeNonUppercase :: String -> String`. We didn't have to give this function a type declaration because the compiler can infer by itself that it's a function from a string to a string but we did anyway. But how do we write out the type of a function that takes several parameters? Here's a simple function that takes three integers and adds them together:
+
+```
+addThree :: Int -> Int -> Int -> Int  
+addThree x y z = x + y + z  
+```
+
+The parameters are separated with `->` and there's no special distinction between the parameters and the return type. The return type is the last item in the declaration and the parameters are the first three.
+
+Int (efficient), Integer (unbounded), Float, Double, Bool, Char
+
+`a` and `b` are often used as generics/parameterized-type descriptors in type descriptions.
+
+A typeclass is a sort of interface that defines some behavior. If a type is a part of a typeclass, that means that it supports and implements the behavior the typeclass describes. (A la interface, as opposed to class.)
+
+
 
 ### Implementations
 
 * [Native: GHC](https://wiki.haskell.org/GHC) and [GHC](https://www.haskell.org/ghc/)
-* [JVM: Eta](https://eta-lang.org/)
+* [JVM: Eta](../jvm/eta)
+* [JVM" Frege](../jvm/frege) is, I think a flavor of Haskell for the JVM
 * [GHC: Haskell Tool Stack](https://docs.haskellstack.org/en/stable/README/)
 
 ### Libraries

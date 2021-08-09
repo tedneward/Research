@@ -8,6 +8,7 @@ summary=A scripting language capable of loading XML schema definition files and 
 Gosu follows a syntax resembling a combination of other languages. For instance, declarations follow more along the lines of Pascal with name-first grammar. Gosu classes can have functions, fields, properties, and inner classes as members. Nominal inheritance and composition via delegation are built into the type system as well as structural typing similar to the Go programming language.
 
 Gosu supports several file types:
+
 * Class (.gs files)
 * Program (.gsp files)
 * Enhancement (*.gsx files)

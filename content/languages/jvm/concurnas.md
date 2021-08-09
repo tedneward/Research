@@ -10,7 +10,7 @@ Actors in Concurnas enable us to build micro-services. Each actor operates withi
 
 Actors allow us to write service code in a single threaded style and be able to run them safety in a concurrent manner without having to concern ourselves with synchronization or race conditions as each call to an actor runs sequentially and has exclusive access to the sate of the actor until it completes. Naturally, because actors implement their own concurrency control they are safe to be shared without copying across multiple isolates.
 ```
-actor MyActor{//lets define an actor
+actor MyActor{ //lets define an actor
   -count = 0
   def increment(){
     count++
