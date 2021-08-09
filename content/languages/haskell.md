@@ -3,7 +3,151 @@ tags=language, functional
 summary=Pure-functional language.
 ~~~~~~
 
-Implementations:
+### Notes
+Strongly-typed; will not permit `"llama" + 4` for example.
+
+Function application (calling a function by putting a space after it and then typing out the parameters) has the highest precedence of them all. What that means for us is that these two statements are equivalent.
+
+```haskell
+ghci> succ 9 + max 5 4 + 1  
+16  
+ghci> (succ 9) + (max 5 4) + 1  
+16 
+```
+
+If a function takes two parameters, we can also call it as an infix function by surrounding it with backticks. For instance, the div function takes two integers and does integral division between them. Doing `div 92 10` results in a 9. But when we call it like that, there may be some confusion as to which number is doing the division and which one is being divided. So we can call it as an infix function by doing `92 ``div`` 10` and suddenly it's much clearer.
+
+**Defining functions**: Cannot begin with capital letters. `doubleMe x = x + x` polymorphic doubling function.
+
+```
+ghci> doubleMe 9  
+18  
+ghci> doubleMe 8.3  
+16.6   
+```
+
+If-then-else is an expression, yielding a value:
+```
+doubleSmallNumber x = if x > 100  
+                        then x  
+                        else x*2  
+```
+
+Parentheses may be necessary around the expression to get proper ordering:
+```
+doubleSmallNumber' x = (if x > 100 then x else x*2) + 1  
+```
+
+In Haskell, lists are a homogenous data structure.
+```
+ghci> let lostNumbers = [4,8,15,16,23,42]  
+ghci> lostNumbers  
+[4,8,15,16,23,42]
+```
+
+Concatenate lists with `++`:
+
+```
+ghci> [1,2,3,4] ++ [9,10,11,12]  
+[1,2,3,4,9,10,11,12]  
+ghci> "hello" ++ " " ++ "world"  
+"hello world"  
+ghci> ['w','o'] ++ ['o','t']  
+"woot"
+```
+
+Watch out when repeatedly using the ++ operator on long strings. When you put together two lists (even if you append a singleton list to a list, for instance: [1,2,3] ++ [4]), internally, Haskell has to walk through the whole list on the left side of ++. That's not a problem when dealing with lists that aren't too big. But putting something at the end of a list that's fifty million entries long is going to take a while. However, putting something at the beginning of a list using the : operator (also called the cons operator) is instantaneous.
+
+```
+ghci> 'A':" SMALL CAT"  
+"A SMALL CAT"  
+ghci> 5:[1,2,3,4,5]  
+[5,1,2,3,4,5]  
+```
+
+Notice how `:` takes a number and a list of numbers or a character and a list of characters, whereas `++` takes two lists. Even if you're adding an element to the end of a list with `++`, you have to surround it with square brackets so it becomes a list.
+
+`[1,2,3]` is actually just syntactic sugar for `1:2:3:[]`. `[]` is an empty list. If we prepend 3 to it, it becomes `[3]`. If we prepend 2 to that, it becomes `[2,3]`, and so on.
+
+```
+ghci> "Steve Buscemi" !! 6  
+'B'  
+ghci> [9.4,33.2,96.2,11.2,23.25] !! 1  
+33.2  
+```
+
+Functions operating on lists: `head` takes a list and returns the head. `tail` takes a list and returns everything except the first element (the head). `last` takes a list and returns the last element in the list. `init` takes a list and returns everything except the last element (the last). `length` takes a list and returns its length. `null` checks if a list is empty. `reverse` reverses a list. `take` takes a number "n" and a list and returns the first "n" elements of that list. `drop`, `maximum`, `minimum`, `sum`, `product`. `elem` takes a thing and a list of things and returns True/False if that thing is present in the list. `cycle' takes a list and iterates across it infinitely. `repeat` takes an element and produces an infinite stream of that value.
+
+Use `..` to specify a range: `[1..20]` is 1 through 20 (including 1 and 20).
+
+**List comprehensions** `[x*2 | x <- [1..10]]`. `x` is drawn from `[1..10]` and for every element in `[1..10]` (which we have bound to `x`), we get that element, only doubled. Here's that comprehension in action.
+
+```
+ghci> [x*2 | x <- [1..10]]  
+[2,4,6,8,10,12,14,16,18,20]  
+```
+
+As in `[` "Do this" `|` "To each element in this" `]`
+
+Let's say we want only the elements which, doubled, are greater than or equal to 12.
+
+```
+ghci> [x*2 | x <- [1..10], x*2 >= 12]  
+[12,14,16,18,20] 
+```
+
+We took a list of numbers and we filtered them by the predicate.
+
+Let's say we want a comprehension that replaces each odd number greater than 10 with "BANG!" and each odd number that's less than 10 with "BOOM!". If a number isn't odd, we throw it out of our list. For convenience, we'll put that comprehension inside a function so we can easily reuse it.
+
+```
+boomBangs xs = [ if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x]   
+```
+
+Not only can we have multiple predicates in list comprehensions (an element must satisfy all the predicates to be included in the resulting list), we can also draw from several lists. When drawing from several lists, comprehensions produce all combinations of the given lists and then join them by the output function we supply. A list produced by a comprehension that draws from two lists of length 4 will have a length of 16, provided we don't filter them. If we have two lists, [2,5,10] and [8,10,11] and we want to get the products of all the possible combinations between numbers in those lists, here's what we'd do.
+
+```
+ghci> [ x*y | x <- [2,5,10], y <- [8,10,11]]  
+[16,20,22,40,50,55,80,100,110]   
+
+ghci> let nouns = ["hobo","frog","pope"]  
+ghci> let adjectives = ["lazy","grouchy","scheming"]  
+ghci> [adjective ++ " " ++ noun | adjective <- adjectives, noun <- nouns]  
+["lazy hobo","lazy frog","lazy pope","grouchy hobo","grouchy frog",  
+"grouchy pope","scheming hobo","scheming frog","scheming pope"] 
+```
+
+Tuples are gathered by parentheses/round brackets.
+
+`fst` takes a pair and returns its first component.
+
+```
+ghci> fst (8,11)  
+8  
+ghci> fst ("Wow", False)  
+"Wow"  
+```
+
+`snd` takes a pair and returns its second component.
+
+```
+ghci> snd (8,11)  
+11  
+ghci> snd ("Wow", False)  
+False  
+```
+
+`zip` takes two lists and then zips them together into one list by joining the matching elements into pairs, stopping when either source ends.
+
+```
+ghci> zip [1,2,3,4,5] [5,5,5,5,5]  
+[(1,5),(2,5),(3,5),(4,5),(5,5)]  
+ghci> zip [1 .. 5] ["one", "two", "three", "four", "five"]  
+[(1,"one"),(2,"two"),(3,"three"),(4,"four"),(5,"five")]  
+```
+
+### Implementations
+
 * [Native: GHC](https://wiki.haskell.org/GHC) and [GHC](https://www.haskell.org/ghc/)
 * [JVM: Eta](https://eta-lang.org/)
 * [GHC: Haskell Tool Stack](https://docs.haskellstack.org/en/stable/README/)
