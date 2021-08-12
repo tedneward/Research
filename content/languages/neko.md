@@ -1,4 +1,4 @@
-title=Neko
+title=Neko (Language)
 tags=language, vm
 summary=A high-level dynamically typed programming language and virtual machine.
 ~~~~~~

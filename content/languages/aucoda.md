@@ -7,7 +7,8 @@ summary=A "meta-compiler" that can take Au source and transpile to a different a
 
 Still under closed-door beta program.
 
-"Learn Au" Course Outloine
+"Learn Au" Course Outline
+
 * Intro: What is a console app? Why use a Web API? Why use a database?
 * Week 1: Console app; variables/scope; data types (`string`, `integer`, `float`, `double`, `bool`, `date`); `list`; `collection`
 * Week 2: Expressions (math); operator precedence; math functions; flow control (`if`, `elseif`, `else`, `end`), operators (math relational ops); complex conditions (`true`, `false`, `and`, `or`, `not`)

@@ -1,4 +1,4 @@
-title=Neko
+title=Neko (VM)
 tags=vm
 summary=The NekoVM is a target for several compilers, including Haxe.
 ~~~~~~

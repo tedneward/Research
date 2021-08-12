@@ -33,6 +33,7 @@ As a language, Apex is:
 Apex is tailored for data access and data manipulation on the platform, and it enables you to add custom business logic to system events. While it provides many benefits for automating business processes on the platform, it is not a general purpose programming language.
 
 Apex cannot be used to:
+
 * Render elements in the user interface other than error messages
 * Change standard functionality—Apex can only prevent the functionality from happening, or add additional functionality
 * Create temporary files
