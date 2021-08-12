@@ -2,6 +2,7 @@ title=50 Philosophy Ideas
 tags=reading, books, philosophy
 summary=A collection of philosophy ideas.
 ~~~~~~
+
 ### The Brain in a vat
 *(are you an envatted brain?)*
 scepticism: how do we know what we know?
@@ -24,7 +25,7 @@ most of us uncritically suppose that physical objects around us are more or less
 
 Berkeley refuted it by saying that Locke could never actually check whether his supposed resemblances actually resembled the external things themselves, then took it to its conclusion and said that reality consists in the 'ideas' or sensations themselves; with these, we are already fully and properly connected, so the dangers of skepticism are evaded, but only at the price of the denial of an external, physical world. Berkeley's idealist (or immaterialist) theory states "to exist is to be perceived", and since God perceives all things, it remains in existence even when passing out of human perception.
  
-### cogito ergo sum
+### *cogito ergo sum*
 *(I am thinking therefore I exist)*
 
 ### Reason& experience

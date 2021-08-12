@@ -3,55 +3,154 @@ tags=reading, books, philosophy
 summary=A collection of ideas that define our world.
 ~~~~~~
 
-1) Platonism (towards transcendent reality) 
-2) Aristotelianism ("The Master of Those Who Know")
-3) The Golden Rule (Do as you would be done by)
-4) Altruism (Selfless or selfish?)
-5) Liberty (something worth dying for?)
-6) Tolerance (a troubled and paradoxical virtue)
-7) Scepticism (the scourge of drama)
-8) Reason (Master or slave of the passions?)
-9) Punishment (a necessary evil?)
-10) Materialism (Matter over mind)
-11) Relativism (anything goes?)
-12) Utilitarianism (The greatest happiness principle)
-13) Existentialism (Condemned to be free)
-14) Evil (Is evil good for us?)
-15) Fate (The iron hand of destiny)
-16) Soul (A mystery no mind can hope to unravel)
-17) Faith (belief that is blind to reason)
-18) Fundamentalism (when faith becomes fanatic)
-19) Atheism (beyond belief)
-20) Secularism (not doing God)
-21) Creationism (when world-views collide)
-22) War (politics by other means)
-23) Duty (thou shalt not... come what may?)
-24) Utopia (Heaven or hell on earth)
-25) Liberalism (Social progress and individual freedom)
-26) Democracy (Bludgeoning of the people by the people?)
-27) Conservatism (adherence to the old and tried)
-28) Imperialism (to enslave or to set free?)
-29) Nationalism (the measles of the human race)
-30) Multiculturalism (melting pot or salad bowl?)
-31) The social contract (society by consent)
-32) Republicanism (Government of laws, not of men)
-33) Communism ("Workers of the world, unite!")
-34) Fascism (a toxic synthesis of left & right)
-35) Racism (the starless midnight of racism)
-36) Feminism (equal, not the same)
-37) Islamism (a clash of civilizations)
-38) Capitalism (the unequal sharing of blessings)
-39) Globalization (life in the global village)
-40) Classicism (Rome's ancient genius)
-41) Romanticism (The addition of strangeness to beauty)
-42) Modernism (the shock of the new)
-43) Surrealism (the omnipotence of dreams)
-44) Censorship (protecting the servants)
-45) Evolution (survival of the fittest)
-46) Gaia (the quest for mother earth)
-47) Chaos (the butterfly effect)
-48) Relativity (the meaning of space & time)
-49) Quantum Mechanics (the strange poetry of atoms)
-50) The Big Bang (the beginning of space & time)
+### Platonism 
+*(towards transcendent reality)*
+
+### Aristotelianism 
+*("The Master of Those Who Know")*
+
+### The Golden Rule 
+*(Do as you would be done by)*
+
+### Altruism 
+*(Selfless or selfish?)*
+
+### Liberty 
+*(something worth dying for?)*
+
+### Tolerance 
+*(a troubled and paradoxical virtue)*
+
+### Scepticism 
+*(the scourge of drama)*
+
+### Reason 
+*(Master or slave of the passions?)*
+
+### Punishment 
+*(a necessary evil?)*
+
+### Materialism 
+*(Matter over mind)*
+
+### Relativism 
+*(anything goes?)*
+
+### Utilitarianism 
+*(The greatest happiness principle)*
+
+### Existentialism 
+*(Condemned to be free)*
+
+### Evil 
+*(Is evil good for us?)*
+
+### Fate 
+*(The iron hand of destiny)*
+
+### Soul 
+*(A mystery no mind can hope to unravel)*
+
+### Faith 
+*(belief that is blind to reason)*
+
+### Fundamentalism 
+*(when faith becomes fanatic)*
+
+### Atheism 
+*(beyond belief)*
+
+### Secularism 
+*(not doing God)*
+
+### Creationism 
+*(when world-views collide)*
+
+### War 
+*(politics by other means)*
+
+### Duty 
+*(thou shalt not... come what may?)*
+
+### Utopia 
+*(Heaven or hell on earth)*
+
+### Liberalism 
+*(Social progress and individual freedom)*
+
+### Democracy 
+*(Bludgeoning of the people by the people?)*
+
+### Conservatism 
+*(adherence to the old and tried)*
+
+### Imperialism 
+*(to enslave or to set free?)*
+
+### Nationalism 
+*(the measles of the human race)*
+
+### Multiculturalism 
+*(melting pot or salad bowl?)*
+
+### The social contract 
+*(society by consent)*
+
+### Republicanism 
+*(Government of laws, not of men)*
+
+### Communism 
+*("Workers of the world, unite!")
+*   
+### Fascism 
+*(a toxic synthesis of left & right)*
+
+### Racism 
+*(the starless midnight of racism)*
+
+### Feminism 
+*(equal, not the same)*
+
+### Islamism 
+*(a clash of civilizations)*
+
+### Capitalism 
+*(the unequal sharing of blessings)*
+
+### Globalization 
+*(life in the global village)*
+
+### Classicism 
+*(Rome's ancient genius)*
+
+### Romanticism 
+*(The addition of strangeness to beauty)*
+
+### Modernism 
+*(the shock of the new)*
+
+### Surrealism 
+*(the omnipotence of dreams)*
+
+### Censorship 
+*(protecting the servants)*
+
+### Evolution 
+*(survival of the fittest)*
+
+### Gaia 
+*(the quest for mother earth)*
+
+### Chaos 
+*(the butterfly effect)*
+
+### Relativity 
+*(the meaning of space & time)*
+
+### Quantum Mechanics 
+*(the strange poetry of atoms)*
+
+### The Big Bang 
+*(the beginning of space & time)*
 
 

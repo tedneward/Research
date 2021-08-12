@@ -20,24 +20,28 @@ summary=A collection of ideas from psychology.
 
 "More serious, ‘major’ or invasive procedures do appear to have stronger placebo effects. Injections per se appear to have a greater impact than pills, and even placebo surgery (where people are cut open and sewn up with little or nothing done) has yielded high positive response rates. The style of treatment administration and other qualities of the therapist appear to contribute substantially to the impact of the treatment itself. Those therapists who also exhibit greater interest in their patients, greater confidence in their treatments, and higher professional status, all appear to promote stronger placebo effects in their patients."
 
-### Kicking the habit (addiction)
+### Kicking the habit
+*(addiction)*
 "Addiction involves the exposure to something and then the behaviour seeking to repeat the experience very often. Over time the addiction becomes established. There is regular and increasing consumption, with the takers knowing their habit is expensive, unhealthy and possibly illegal but seemingly being unable to give it up."
 
 "With regard to drugs, the psychiatric literature distinguishes between substance dependence and abuse. Both have technical meaning. Dependence has very specific characteristics like tolerance (people take more and more for limited effect); withdrawal symptoms (on not taking the drug); obsessions with trying to get hold of the drug; a deterioration in all social, occupational and recreational activities; and continued use with full knowledge of all the damage that is being done. … Abuse means using the drug despite the need to fulfil various school, home and work obligations; use in dangerous situations (driving, at work); use despite illegal behaviour; use despite persistent negative side-effects."
 
-### Lost touch (schizophrenia)
+### Lost touch
+*(schizophrenia)*
 "Schizophrenia is a psychotic illness characterized by a disorder of thoughts and perceptions, behaviours and moods. … They tend to have various manifestations of thought disorders (disorganized, irrational thinking), delusions and hallucinations. They tend to lack energy, initiative and social contacts. They are emotionally very flat, have few pleasures and are withdrawn."
 
 "The classification of schizophrenia remains complex because of the diversity of symptoms. These include delusions; hallucinations; disorganized speech (incoherence, loose association, use of nonsense words); disorganized behaviour (dress, body posture, personal hygiene); negative, flat emotions; poor insight into their problems; and depression. Because of complications with the diagnosis, various subtypes have been named. Thus there is paranoid and catatonic schizophrenia. Catatonics (from the Greek ‘to stretch or draw tight’) often adopt odd, stationary poses for long periods of time. Paranoid schizophrenics have delusions of control, grandeur and persecution and are consistently suspicious of all around them. Disorganized schizophrenics manifest bizarre thoughts and language, with sudden inappropriate emotional outbursts. Some psychiatrists mention simple or undifferentiated schizophrenia. Others have distinguished between acute (sudden, severe onset) and chronic (prolonged, gradual onset). Another distinction is between Type I (mostly positive symptoms) and Type II (mostly negative symptoms)."
 
 "There is still no complete agreement about the subtypes or the precise ‘deficits’ in functioning, though these usually come under four headings: cognitive or thinking; perceptual or seeing; motor or moving; emotional or feeling."
 
-### Not neurotic, just different (anti-psychiatry)
+### Not neurotic, just different 
+*(anti-psychiatry)*
 "Anti-psychiatry critics questioned three things: the medicalization of madness; the existence of mental illness; and the power of psychiatrists to diagnose and treat certain individuals with compulsion. Anti-psychiatry was more than anti-custodial: it was often anti-state, almost anarchic. It saw many state institutions, particularly mental hospitals, as distorting and repressing the human spirit and potential in various groups."
 
 "One of the most famous anti-psychiatry studies was done in the early 1970s. Eight ‘normal’, mentally healthy researchers tried to gain admission, through diagnosis, to a number of American mental hospitals. The only symptom they reported was hearing voices. Seven were diagnosed as schizophrenic and admitted. Once in the hospital they behaved normally and were ignored when they politely asked for information. They later reported that their diagnostic label of schizophrenia meant they had low status and power in the hospital. Then they ‘came clean’ and admitted they had no symptoms and felt fine. But it took nearly three weeks before they were discharged, often with the diagnosis ‘schizophrenia in remission’. So normal, healthy people could easily be diagnosable as ‘abnormal’. But could the reverse happen? The same researchers told psychiatric hospital staff that fake or pseudopatients pretending to be schizophrenics may try to gain access to their hospital. They then found that 19 genuine patients were suspected as frauds by two or more members of staff, including a psychiatrist."
 
-### Seem sane (psychopathy/sociopathy)
+### Seem sane 
+*(psychopathy/sociopathy)*
 "Psychopathy is a personality disorder characterized by people who have no conscience and are incapable of empathy, guilt or loyalty to anyone but themselves. Sociopathy is a non-psychiatric condition and refers to those who are anti-social and criminal and follow the norms of a particular subculture."
 
 "Overall psychopaths tend to be impulsive and irresponsible, with few clear life goals. They have a history of problems with authority and poor behavioural controls. They lack empathy and remorse and never accept responsibility for their actions. … The first response to being found out is to escape, leaving colleagues, family or debtors to pick up the pieces. They do so without a qualm. The next response is to lie with apparent candour and sincerity even under oath and even to parents and loved ones. They behave as if social rules and regulations do not really apply to them. They have no respect for authorities and institutions, families and traditions."
@@ -55,10 +59,11 @@ summary=A collection of ideas from psychology.
 
 ### Stress
 Challenge and support at work:
-	* Much support, little challenge People in this situation are in the fortunate position of good technical and social support, but the fact they are under-challenged probably means that they underperform. They may actually be stressed by boredom and monotony. 
-	* Much support, much challenge This combination tends to get the most out of people as they are challenged by superiors, subordinates, shareholders and customers to ‘work smarter’ but are given the appropriate support to succeed. 
-	* Little support, much challenge This unfortunate, but very common, situation is a major cause of stress for any manager because he or she is challenged to work consistently hard but only offered minimal emotional, informational (feedback) and physical (equipment) support. 
-	* Little support, little challenge People in some bureaucracies lead a quiet and unstressed life because they are neither challenged nor supported, which usually means neither they nor their organization benefit.
+
+* Much support, little challenge People in this situation are in the fortunate position of good technical and social support, but the fact they are under-challenged probably means that they underperform. They may actually be stressed by boredom and monotony. 
+* Much support, much challenge This combination tends to get the most out of people as they are challenged by superiors, subordinates, shareholders and customers to ‘work smarter’ but are given the appropriate support to succeed. 
+* Little support, much challenge This unfortunate, but very common, situation is a major cause of stress for any manager because he or she is challenged to work consistently hard but only offered minimal emotional, informational (feedback) and physical (equipment) support. 
+* Little support, little challenge People in some bureaucracies lead a quiet and unstressed life because they are neither challenged nor supported, which usually means neither they nor their organization benefit.
 
 "Three components: Firstly, stress can be a function of the make-up of the individual, particularly their personality, ability and biography. Secondly, there are features about the environment (job, family, organization), usually but not exclusively considered in terms of the work environment. Thirdly, there is how the individual and the environment perceive, define but more importantly try to cope with stress, strains and pressures."
 
