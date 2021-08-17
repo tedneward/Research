@@ -1,10 +1,11 @@
-title=JVM (Platform)
+title=Java/JVM Platform
 tags=jvm, platform, vm
-summary=A stack-based bytecode virtual machine.
+summary=The platform originally built by Sun for the Java programming experience, now expanded to include a number of languages, a ton of enterprise specifications, and hundreds if not thousands of popular libraries.
 ~~~~~~
 
-The JVM platform. [Specifications](jvm/specifications) [Interoperability](jvm/interoperability)
+The Java/JVM platform. Sun wrote a large number of [specifications](../specifications) to govern how vendors would provide platform features, above and beyond the [language specifications](/languages/jvm/java) and [virtual machine specifications](/vms/jvm/specifications).
 
+### Languages
 [Wikipedia list of JVM languages](http://en.wikipedia.org/wiki/JVM_Languages):
 
 * [AspectJ](../languages/jvm/aspectj)
@@ -30,8 +31,11 @@ The JVM platform. [Specifications](jvm/specifications) [Interoperability](jvm/in
 * [Whiley](../languages/jvm/whiley)
 * [Yeti](../languages/jvm/yeti)
 
+### Libraries
+Rich ecosystem for dealing with [data](../data), particularly the relational kind (JDBC).
 
-See also the [JVM VM page](../vms/jvm)
+### Virtual Machine
+Numerous implementations; see [JVM, the virtual machine](/vms/jvm)
 
 ------
 
