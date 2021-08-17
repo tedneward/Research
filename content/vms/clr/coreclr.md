@@ -5,7 +5,7 @@ summary=The VM implementation of .NET Core
 
 [Source](https://github.com/dotnet/runtime)
 
-[SSCLI Essentials](/vms/clr/sscli-essentials) is a good place to start to understand the CLR itself.
+[SSCLI Essentials](../sscli-essentials) is a good place to start to understand the CLR itself.
 
 ["Book of the Runtime"](https://github.com/dotnet/coreclr/tree/master/Documentation/botr): Guides to the internals of .NET Core. Anything in here that conflicts with SSCLI Essentials should be considered the more accurate of the two.
 
