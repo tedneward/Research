@@ -7,6 +7,8 @@ summary=Actors-based implementation for distributed systems implementation.
 
 Heavily influenced by [Orbit](../orbit), a Java actors flavor.
 
+[HanBaoBao](https://github.com/ReubenBond/hanbaobao-web): Orleans sample application with Kubernetes hosting
+
 ### Concepts
 Core Orleans concepts.
 
