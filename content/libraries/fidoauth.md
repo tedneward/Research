@@ -1,6 +1,6 @@
 title=FIDO Authentication
 tags=library, architecture, distribution, authentication
-summary=The answer to the world's password problem.
+summary="The answer to the world's password problem."
 ~~~~~~
 
 [Website](https://fidoalliance.org/) | [Specs](https://fidoalliance.org/specifications/download/)
