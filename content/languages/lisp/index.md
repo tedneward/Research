@@ -25,6 +25,7 @@ summary=The original dynamic functional(ish) homoiconic (consistent symbology) l
 * [Ferret](https://ferret-lang.org/): appears to compile [Clojure](/languages/clojure.html) into native code
 * [Clojure](../clojure): a Lisp on the JVM
 * [zygomys](https://github.com/glycerine/zygomys): An embedded Lisp for Go. Inspired by Clojure, but more oriented towards imperative programming. Has an infix syntax layer that looks like a subset of Go.
+* [L++](https://bitbucket.org/ktg/l/src/master/): a programming language that transcompiles to C++. It uses Lisp-like syntax.
 * ["How to Write a Program: Lisp interpreter in 90 lines of C++"](http://howtowriteaprogram.blogspot.com/2010/11/lisp-interpreter-in-90-lines-of-c.html)
 * ["I Built a Lisp Compiler"](https://mpov.timmorgan.org/i-built-a-lisp-compiler/)
 * ["Make a Lisp"](https://github.com/kanaka/mal): Step-by-step process to make your own lisp in your language of choice.
