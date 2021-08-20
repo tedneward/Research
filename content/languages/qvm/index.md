@@ -5,5 +5,5 @@ summary=Q is a scripting engine that implements C-like language, compiler, and b
 
 Main design goal were to create minimal and fast engine that can be easily embedded into the C/C++ programs. Q is implemented in standard C.
 
-[Source](https://code.google.com/archive/p/qvm/) (Archived; local copy [here](../qvm.zip))
+[GoogleCode Archive](https://code.google.com/archive/p/qvm/) | [Archive download](qvm.zip)
 
