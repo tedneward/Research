@@ -10,7 +10,7 @@ Language features:
 * Lisp style Macro support 
 * Lambdas 
 * Tail recursion 
-* Big integers 
+* Big integers
 
 Host features: 
 
