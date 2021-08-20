@@ -7,6 +7,36 @@ summary=A C-language library that implements a small, fast, self-contained, high
 
 How does SQLite work? [Part 1](https://jvns.ca/blog/2014/09/27/how-does-sqlite-work-part-1-pages/) | [Part 2](https://jvns.ca/blog/2014/10/02/how-does-sqlite-work-part-2-btrees/)
 
+### C#/.NET
+[Microsoft.Data.Sqlite](https://docs.microsoft.com/en-us/dotnet/standard/data/sqlite/): `dotnet add package Microsoft.Data.Sqlite`
+
+```cs
+using (var connection = new SqliteConnection("Data Source=hello.db"))
+{
+    connection.Open();
+
+    var command = connection.CreateCommand();
+    command.CommandText =
+    @"
+        SELECT name
+        FROM user
+        WHERE id = $id
+    ";
+    command.Parameters.AddWithValue("$id", id);
+
+    using (var reader = command.ExecuteReader())
+    {
+        while (reader.Read())
+        {
+            var name = reader.GetString(0);
+
+            Console.WriteLine($"Hello, {name}!");
+        }
+    }
+}
+```
+
+### Native
 [CG/SQL](https://cgsql.dev/) is a code generation system for the popular SQLite library that allows developers to write stored procedures in a variant of Transact-SQL (T-SQL) and compile them into C code that uses SQLite’s C API to do the coded operations. CG/SQL enables engineers to create highly complex stored procedures with very large queries, without the manual code checking that existing methods require. (Produces C source that can be compiled, and the language is flexible enough to do a fair amount of typical C dev without leaving CQL.)
 
 - [Docs](https://cgsql.dev/docs/introduction)

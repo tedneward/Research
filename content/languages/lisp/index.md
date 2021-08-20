@@ -12,7 +12,7 @@ summary=The original dynamic functional(ish) homoiconic (consistent symbology) l
 * C: [s7](https://ccrma.stanford.edu/software/snd/snd/s7.html): Implements a subset of R5RS/R7RS. Descended from TinyScheme.
 * C: [TinyScheme](http://tinyscheme.sourceforge.net/): Implements a subset of R5RS.
 * C++: [Clasp](https://github.com/drmeister/clasp): Full Common Lisp implementation well integrated with C++, using LLVM for the code generation, to integrate closely with C++ applications or libraries.
-* JVM: [Armed Bear Common Lisp](http://abcl.org/)
+* JVM: [Armed Bear Common Lisp](http://abcl.org/) or [here](https://common-lisp.net/project/armedbear/)
 * JVM: [Kawa](https://www.gnu.org/software/kawa/): R7RS. Supports the javax.script API.
 * Native: [Steel Bank Common Lisp](http://www.sbcl.org/) ([Source](http://www.sbcl.org/platform-table.html))
 * [Clozure CL](https://www.clozure.com/ccl): "Clozure CL is available for download from [ccl.clozure.com](http://ccl.clozure.com/)" (Self-hosted compiler, so requires a copy of both the source and bootstrap compilers, which are all available on [Github](https://github.com/Clozure/ccl): "For the latest released version of CCL, please see https://github.com/Clozure/ccl/releases/latest and download the archive for your platform. These archives contain not only the necessary binaries, but also a full clone of the source code. So, to install a complete CCL, all you have to do is download one archive and extract it.")
@@ -41,5 +41,7 @@ Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/li
 
 ### Reading
 
+* [John McCarthy's Home Page](http://www-formal.stanford.edu/jmc/)
 * [The Lisp Curse](http://winestockwebdesign.com/Essays/Lisp_Curse.html): An attempt to reconcile the power of the Lisp language with the inability of the Lisp community to repduce their pre-AI Winter achievements; the explanation is that the power of Lisp is actually its curse, that those who can hack anything in Lisp often do, but only to the point where it is useful to themselves, and never take that final step to produce something generally useful.
-
+* [Practical Common Lisp (book)](https://gigamonkeys.com/book/)
+* ["C++ and Lisp"](https://www.lurklurk.org/cpp_clos.html): "This article investigates these *[C++ and Lisp]* different approaches in a variety of areas, with two intents. Firstly, I find that it is always illuminating to see concepts from an alternative viewpoint, to be reminded that things can be done differently when a different set of constraints apply. Neither is right or wrong, just appropriate in different circumstances."
