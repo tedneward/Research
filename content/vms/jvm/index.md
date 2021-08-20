@@ -21,6 +21,7 @@ Implementations:
 * [OpenJ9](https://www.eclipse.org/openj9/) ([Source](https://github.com/eclipse/openj9))
 * [JRockit](https://www.oracle.com/java/jrockit.html)
 * [Kaffe](http://www.kaffe.org/) ([Source](https://github.com/kaffe/kaffe))
+* [jvmulator](https://github.com/alblue/jvmulator): "a simple emulator for Java bytecode as well as an in-memory Java compiler to allow bytecode to be generated. The generated code can be executed as well as emulated to allow stepping through bytecode line by line, and seeing what the content of the local variables or stack happens to be."
 
 Research/Experiments:
 
