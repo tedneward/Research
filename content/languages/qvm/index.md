@@ -1,4 +1,4 @@
-title=Q Scripting Language
+title=Q (Scripting Language)
 tags=language, vm, embeddable
 summary=Q is a scripting engine that implements C-like language, compiler, and bytecode interpreter.
 ~~~~~~
