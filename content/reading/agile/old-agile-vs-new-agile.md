@@ -45,7 +45,7 @@ In the community of thinkers who write about business agility, the topic of lead
 
 There are countless other authors who have written powerful books about how humans work best together, including David Marquet, Dr. Daniel Kahneman, Eric Ries, MIrco Hering, Dr. Marta Wilson, Daniel Pink, Patrick Lencioni, Titus Winters (“Software Engineering at Google”), Mik Kersten, Greg McKeown, Jeff Dalton, and many others. Importantly, there are also authors who dismantle the extrovert-favoring and non-neurodiverse bias of the Agile community, including Susan Cain, Cal Newport, and Daniel Goleman. There are also bloggers such as Maarten Dalmijn and countless others who have pointed to myths and dysfunctions with some original Agile ideas and traditions.
 
-**The “New Agile” Ideas**
+#### The “New Agile” Ideas
 And then there is [Agile 2](https://agile2.net/). Agile 2 is new in that it aggregates the ideas of these new thinkers, and integrates these ideas into a cohesive system of thought, while adding missing pieces. Agile 2 interprets these many writings and translates them into a common and holistically integrated shared narrative.
 
 But what is that narrative? Agile 2 is complex because humans are complex. It is not a set of bumper sticker maxims asserted without supporting explanation and rationale. Agile 2 is nuanced and broad, and is published with the thought that went into it. But I will summarize it, to give you a sense.
@@ -56,7 +56,7 @@ Another main thesis of Agile 2 is that it embraces neurodiversity, and that effe
 
 Another key element of Agile 2 is focus on the product and the ecosystem, instead of on the team. The hard issues tend to be how collections of teams work together and within their ecosystem. Individuals are called out as well, as being important to mentor, develop and recognize just as much as teams need those things, pushing back on old-school Agile’s obsession with “the team”. Again, it is about balance rather than old-school Agile’s extreme focus on the team and minimization of the individual.
 
-Conclusion
+#### Conclusion
 Agile needs to evolve — and it has. We all need to let go of early partially formed ideas and elevate our thinking. Much of the thinking is not new in the history of human discourse: many if not most Agile ideas, both new and old, have been expressed many times before; but what changes is the balance and the collections of ideas that link together into a narrative. We need to advance the narrative.
 
 More recent Agile ideas are a more evolved expression of Agile. They are more “grown up” in a sense, because they reflect reality instead of a simplistic ideal. Recent ideas are more inclusive, diverse, and rich. Gone is the insistence that everyone works best a certain way: new Agile embraces neurodiversity and helping people to work together and collaborate even when they do not all work best and communicate best in the same way.
