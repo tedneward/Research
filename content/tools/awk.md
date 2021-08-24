@@ -135,7 +135,6 @@ awk 'BEGIN{print substr("hello", 1, 3)}'
 #### Variables
 **Build-in variables**
 
-| -              | -                                                   |
 |----------------|-----------------------------------------------------|
 | `$0`           | Whole line                                          |
 | `$1, $2...$NF` | First, second… last field                           |
@@ -150,7 +149,7 @@ awk 'BEGIN{print substr("hello", 1, 3)}'
 
 
 **Expressions**
-| -                   | -                                  |
+
 |---------------------|------------------------------------|
 | `$1 == "root"`      | First field equals root            |
 | `{print $(NF-1)}`   | Second last field                  |
@@ -262,6 +261,7 @@ awk -v varName="$PWD" '
 | `"foo" in array` | In array    |
 
 **Regular expression**
+
 | -               | -                 |
 |-----------------|-------------------|
 | `/regex/`       | Line matches      |
@@ -270,6 +270,7 @@ awk -v varName="$PWD" '
 | `$1 !~ /regex/` | Field not matches |
 
 **More conditions**
+
 | -                        | -   |
 |--------------------------|-----|
 | `($2 <= 4 || $3 < 20)` | Or  |
@@ -552,6 +553,7 @@ awk 'BEGIN {
 
 
 #### Examples
+
 **Reverse records**
 ```
 awk -F: '{ x[NR] = $0 }
@@ -662,6 +664,7 @@ awk 'BEGIN{printf "|%-10s|\n", "hello"}'
 ```
 
 **Common specifiers **
+
 | Character     | Description           |
 |---------------|-----------------------|
 | `c`           | ASCII character       |
@@ -709,6 +712,7 @@ daemon     /sbin
 
 
 #### Miscellaneous
+
 **Regex Metacharacters**
 - `\`
 - `^`
@@ -724,6 +728,7 @@ daemon     /sbin
 - `?`
 
 **Escape Sequences**
+
 | -      | -                   |
 |--------|---------------------|
 | `\b`   | Backspace           |
