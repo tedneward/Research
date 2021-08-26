@@ -55,13 +55,19 @@ summary=Collection of thoughts.
 
 > What is perhaps less apparent is that having faster tools changes how users use a tool or perform a task. Users almost always have multiple strategies available to pursue a goal — including deciding to work on something else entirely — and they will choose to use faster tools more and more frequently. Fast tools don’t just allow users to accomplish tasks faster; they allow users to accomplish entirely new types of tasks, in entirely new ways. I’ve seen this phenomenon clearly while working on both Sorbet and Livegrep:
 
-### Brandur Leach’s series on using databases to ensure correct edge-case behavior: [Building Robust Systems with ACID and Constraints](https://brandur.org/acid), [Using Atomic Transactions to Power an Idempotent API](https://brandur.org/http-transactions), [Transactionally Staged Job Drains in Postgres](https://brandur.org/job-drain, [Implementing Stripe-like Idempotency Keys in Postgres](https://brandur.org/idempotency-keys):
+### Brandur Leach’s series on using databases to ensure correct edge-case behavior: 
 
 > I want to convince you that ACID databases are one of the most important tools in existence for ensuring maintainability and data correctness in big production systems. Lets start by digging into each of their namesake guarantees.
 
 > There’s a surprising symmetry between an HTTP request and a database’s transaction. Just like the transaction, an HTTP request is a transactional unit of work – it’s got a clear beginning, end, and result. The client generally expects a request to execute atomically and will behave as if it will (although that of course varies based on implementation). Here we’ll look at an example service to see how HTTP requests and transactions apply nicely to one another.
 
 > In APIs *idempotency* is a powerful concept. An idempotent endpoint is one that can be called any number of times while guaranteeing that the side effects will occur only once. In a messy world where clients and servers that may occasionally crash or have their connections drop partway through a request, it’s a huge help in making systems more robust to failure. Clients that are uncertain whether a request succeeded or failed can simply keep retrying it until they get a definitive response.
+
+* [Building Robust Systems with ACID and Constraints](https://brandur.org/acid)
+* [Using Atomic Transactions to Power an Idempotent API](https://brandur.org/http-transactions)
+* [Transactionally Staged Job Drains in Postgres](https://brandur.org/job-drain
+* [Implementing Stripe-like Idempotency Keys in Postgres](https://brandur.org/idempotency-keys):
+
   
 ### [Notes on Distributed Systems for Young Bloods](https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/):
 > Distributed systems are different because they fail often; Implement backpressure throughout your system; Find ways to be partially available; Use percentiles, not averages; Learn to estimate your capacity; Feature flags are how infrastructure is rolled out; Choose id spaces wisely; Writing cached data back to persistent storage is bad; Extract services.
