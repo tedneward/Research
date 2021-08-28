@@ -5,6 +5,8 @@ summary=A family of dialects of the BASIC programming language that can fit into
 
 [Wikipedia](https://en.wikipedia.org/wiki/Tiny_BASIC)
 
+See also [BASIC](../basic).
+
 ### EBNF
 
 ```

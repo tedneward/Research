@@ -1,9 +1,9 @@
 title=Citron
-tags=language
+tags=language, native
 summary=General purpose programming language (mainly for unix-like systems).
 ~~~~~~
 
-[Source](https://github.com/alimpfard/citron)
+[Source](https://github.com/alimpfard/citron) | [Book](https://alimpfard.github.io/citron_book/book/)
 
 ### Basic language syntax:
 All operations are done through sending and receiving messages between objects.
