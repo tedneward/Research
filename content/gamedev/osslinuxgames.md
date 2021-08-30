@@ -62,6 +62,4 @@ From [Part 1](https://github.blog/2021-08-25-30-free-and-open-source-linux-games
 
 * [Mindustry](https://anuke.itch.io/mindustry) ([Source](https://github.com/Anuken/Mindustry)): What happens when you cross a tower defense game with a factory game? You get Mindustry—a beautiful hybrid of both created by game developer @Anuken. Create elaborate supply chains of conveyor belts, feed ammo into your turrets, and produce materials to use for building to help stop wave upon wave upon wave upon wave of enemies. (Java)
 
-* 
-
 
