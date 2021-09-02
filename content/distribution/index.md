@@ -17,3 +17,5 @@ Interesting links:
 * [DnD 5e API](https://github.com/5e-bits/5e-srd-api)
 * [Another DnD 5e API](https://api.open5e.com/)
 
+["The open calendar, task, and note space is a mess"](https://stevenvanbael.com/open-calendar-task-space-is-a-mess)
+
