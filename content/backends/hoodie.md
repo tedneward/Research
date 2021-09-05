@@ -9,4 +9,11 @@ summary=A fast, simple and self-hosted backend as a service for your (web) apps,
 
 "Hoodie is a noBackend technology — it's there for making the lives of frontend developers easier by abstracting away the backend and keeping you from worrying about backends. It gives you Dreamcode: a simple, easy-to-learn-and-implement frontend API built into it. Hoodie is also Offline First, which means that your app users’ data is stored locally by default so your Hoodie-based apps are accessible and usable anytime, independent from your users’ internet connection."
 
-[Website](http://hood.ie/) | [Github](https://github.com/hoodiehq/hoodie)
+[Website](http://hood.ie/) (appears offline as of 5 Sep 2021) | [Github](https://github.com/hoodiehq/hoodie)
+
+The benefits of Hoodie are:
+
+* Focus on Node.JS developers that want to extend the product.
+* Offline first concept. That is, users’ data are stored locally.
+* Runs on Apache CouchDB.
+
