@@ -7,15 +7,15 @@ tags=language
 
 Programming languages are (generally) human-friendly means of getting a computer to do something interesting on a human's behalf. Some languages may be friendlier than others; where opinions will genuinely differ as to which are friendlier, there are some that deliberately seek to be as obtuse and unreadable as possible, and those are usually called "esoteric" programming languages and fit into their own category of madness.
 
-["Programming Paradigms for Dummies: What Every Programmer Should Know"](https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf); includes a [chart of the major programming paradigms](http://www.info.ucl.ac.be/people/PVR/paradigmsDIAGRAMeng108.pdf):
+["Programming Paradigms for Dummies: What Every Programmer Should Know"](../paradigms-for-dummies); includes a [chart of the major programming paradigms](http://www.info.ucl.ac.be/people/PVR/paradigmsDIAGRAMeng108.pdf):
 
-* Descriptive declarative programming **[XML](../../formats/xml), S-expression**
+* Descriptive declarative programming **[XML](../../formats/xml), [S-expression](../s-expressions)**
 * First-order functional programming
 * Imperative programming **Pascal, [C](../c)**
 * Imperative search programming **SNOBOL, [Icon](../icon), [Prolog](../prolog)**
-* Functional programming **[Scheme](../lisp/scheme), ML**
+* Functional programming **[Scheme](../lisp/scheme), [ML](../ml)**
 * Deterministic logic programming
-* Relational & logic programming **[Prolog](../prolog), SQL embeddings**
+* Relational & logic programming **[Prolog](../prolog), [SQL embeddings](../sql)**
 * Constraint (logic) programming **CLP, ILOG Solver**
 * Concurrent constraint programming **LIFE, AKL**
 * Lazy concurrent constraint programming **[Oz](../oz), [Alice](../alice), [Curry](../curry)**
@@ -45,6 +45,8 @@ Programming languages are (generally) human-friendly means of getting a computer
 * Software transactional memory **SQL embeddings**
 
 Declarative, imperative, functional, constraint, logic, relational, concurrent, dataflow, synchronous, mesage-passing, event-loop, object-oriented, stateful, shared-state
+
+
 
 ## Fun
 ["History of Programming Languages"](http://thequickword.wordpress.com/2014/02/16/james-irys-history-of-programming-languages-illustrated-with-pictures-and-large-fonts/) by James Iry. Illustrated--pictures and large fonts. | ["Say something you dislike about a language you love"](https://lobste.rs/s/2cw6ov/say_something_you_dislike_about_language) | ["Say something nice about a language you dislike"](https://lobste.rs/s/hib1ui/say_something_nice_about_programming)

@@ -30,3 +30,5 @@ summary=Tips on using the Apple desktop operating system (on top of the open-sou
 
     * Get one-line description for a command: `whatis`
 
+    * Keep the Mac from hibernating/sleeping: `caffeinate`
+

@@ -27,3 +27,7 @@ Dependent ML, an extension of ML with dependent typing that led to the developme
 [PAL (programming language)](https://en.wikipedia.org/wiki/PAL_(programming_language)), an educational language related to ML (the Pedagogic Algorithmic Language, is a programming language developed at the Massachusetts Institute of Technology in around 1967 to help teach programming language semantics and design.[1][2] It is a "direct descendant" of ISWIM and owes much of its philosophy to Christopher Strachey)
 
 Inspired [OCaml](../ocaml), [F#](../dotnet/fsharp)
+
+## [Learn X in Y minutes Quick Intro]():
+
+
