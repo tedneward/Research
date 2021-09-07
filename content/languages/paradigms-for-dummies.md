@@ -61,6 +61,20 @@ One intriguing box shown is Dijkstra’s guarded command language (GCL) [14]. It
 
 #### Section 3: Designing a language and its programs
 
+"A programming language is not designed in a vacuum, but for solving certain kinds of problems. Each problem has a paradigm that is best for it. No one paradigm is best for all problems." ... "We will look at two interesting cases: languages that support two paradigms (Section 3.1) and layered languages (Section 3.2)."
 
+##### 3.1: Languages that support two paradigms
+
+"Many languages support two paradigms, typically one for programming in the small and another for programming in the large. The first paradigm is chosen for the kind of problem most frequently targeted by the language. The second paradigm is chosen to support abstraction and modularity and is used when writing large programs."
+
+* **[Prolog](../prolog):** The first paradigm is a logic programming engine based on unification and depth-first search. The second paradigm is imperative: the assert and retract operations which allow a program to add and remove program clauses. Prolog dates from 1972, which makes it an old language. Recent developments in modeling languages based on advanced search algorithms advance both the logic programming and imperative programming sides. Modern Prolog implementations have added some of these advances, e.g., support for constraint programming and a module
+system.
+* **Modeling languages** (e.g., Comet, Numerica [48]): The first paradigm is a solver: constraint programming (see Section 7), local search (see the chapter by Philippe Codognet [8]), satisfiability (SAT solvers), and so forth. The second paradigm is object-oriented programming.
+* **Solving libraries** (e.g., Gecode): The first paradigm is a solver library based on advanced search algorithms, such as Gecode [43, 47]. The second paradigm is added by the host language, e.g., C++ and Java support object-oriented programming.
+* **Language embedding** (e.g., SQL): SQL already supports two paradigms: a relational programming engine for logical queries of a database and a transactional interface for concurrent updates of the database. The host language complements this by supporting object-oriented programming, for organization of large programs. This example goes beyond two paradigms to show a design with three complementary paradigms.
+
+
+
+---
 
 Best footnote from the paper: "Similar reasoning *[referencing the statements "With n concepts, it is theoretically possible to construct 2n paradigms. Of course, many of these paradigms are useless in practice, such as the empty paradigm (no concepts)"]* explains why Baskin-Robbins has exactly 31 flavors of ice cream. We postulate that they have only 5 flavors, which gives 25 − 1 = 31 combinations with at least one flavor. The 32nd combination is the empty flavor. The taste of the empty flavor is an open research question."
