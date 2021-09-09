@@ -12,7 +12,7 @@ summary=Notes from the VanRoy paper.
 * **Deterministic concurrent programming** Section 6 presents deterministic concurrent programming, a concurrent model that trades expressiveness for ease of programming. It is much easier to program in than the usual concurrent paradigms, namely shared-state concurrency and message-passing concurrency. It is also by far the easiest way to write parallel programs, i.e., programs that run on multiple processors such as multi-core processors. We present three important paradigms of deterministic concurrency that deserve to be better known. The price for using deterministic concurrency is that programs cannot express nondeterminism, i.e., where the execution is not completely determined by the specification. For example, a client/server application with two clients is nondeterministic since the server does not know from which client the next command will come. The inability to express nondeterminism inside a program is often irrelevant, since nondeterminism is either not needed, comes from outside the program, or can be limited to a small part of the program. In the client/server application, only the communication with the server is nondeterministic. The client and server implementations can themselves be completely deterministic.
 * **Constraint programming** Section 7 presents the most declarative paradigm of our taxonomy, in the original sense of declarative: telling the computer what is needed instead of how to calculate it. This paradigm provides a high level of abstraction for solving problems with global conditions. This has been used in the past for combinatorial problems, but it can also be used for many more general applications such as computer-aided composition. Constraint programming has achieved a high degree of maturity since its origins in the 1970s. It uses sophisticated algorithms to find solutions that satisfy global conditions. This means that it genuinely delivers on its ambitious claims.
 
-#### Section 2: Languages, paradigms, and concepts
+## Section 2: Languages, paradigms, and concepts
 
 There is a mapping of languages -> paradigms -> concepts: Each language realizes one or more paradigms, each paradigm consists of a set of concepts. "Each paradigm is defined by a set of programming concepts, organized into a simple core language called the paradigm’s *kernel language*." 27 paradigms described in the taxonomy; "of these 27 boxes, eight contain two paradigms with different names but similar concepts." Concepts contain basic primitive elements used to construct the paradigms. "Often two paradigms that seem quite different differ by just one concept." "A paradigm almost always has to be Turing complete to be practical."
 
@@ -59,7 +59,7 @@ One intriguing box shown is Dijkstra’s guarded command language (GCL) [14]. It
 
 "***The common theme in these three scenarios (and many others!) is that we need to do pervasive (nonlocal) modifications of the program in order to handle a new concept. If the need for pervasive modifications manifests itself, we can take this as a sign that there is a new concept waiting to be discovered.*** *(Emphasis mine)* By adding this concept to the language we no longer need these pervasive modifications and we recover the simplicity of the program. The only complexity in the program is that needed to solve the problem. No additional complexity is needed to overcome technical inadequacies of the language." *(Accidental vs necessary complexity)*
 
-#### Section 3: Designing a language and its programs
+## Section 3: Designing a language and its programs
 
 "A programming language is not designed in a vacuum, but for solving certain kinds of problems. Each problem has a paradigm that is best for it. No one paradigm is best for all problems." ... "We will look at two interesting cases: languages that support two paradigms (Section 3.1) and layered languages (Section 3.2)."
 
@@ -92,7 +92,7 @@ The paper has multiple diagrams here, one of the human respiratory system and on
 
 "A program then consists of a set of feedback loops interacting through stigmergy and management. The inner loop *(of TCP)* implements reliable transfer of a byte stream using a sliding window protocol. The outer loop does congestion control: if too many packets are lost, it reduces the transfer rate of the inner loop by reducing the window size. In our view, the large-scale structure of software will more and more be done in this self-sufficient style. If it is not done in this way, the software will simply be too fragile and collapse with any random error or problem.
 
-#### 4: Programming concepts
+## 4: Programming concepts
 
 * **Record**: "A record is a data structure: a group of references to data items with indexed access to
 each item. For example:
@@ -156,7 +156,121 @@ each item. For example:
 
     "*(Consider)* two components, A and B, where component A has an internal named state (memory) and component B does not. Component B always has the same behavior: whenever it is called with the same arguments, it gives the same result. Component A can have different behaviors each time it is called, if it contains a different value in its named state. Having named state is both a blessing and a curse. It is a blessing because it allows the component to adapt to its environment. It can grow and learn. It is a curse because a component with named state can develop erratic behavior if the content of the named state is unknown or incorrect. A component without named state, once proved correct, always stays correct. Correctness is not so simple to maintain for a component with named state. A good rule is that named state should never be invisible: there should always be some way to access it from the outside.
 
+    "Named state is important for a system’s modularity. We say that a system (function, procedure, component, etc.) is modular if updates can be done to part of the system without changing the rest of the system. We give a scenario to show how we can design a modular system by using named state. Without named state, this is not possible.
 
+    "Assume that we have three developers, P, U1, and U2. P has developed a module M that contains two functions F and G. U1 and U2 are users of M: their own programs used module M. Here is one possible definition of M:
+
+        ```
+        fun {ModuleMaker}
+            fun {F ...}
+                ... % Definition of F
+            end
+            fun {G ...}
+                ... % Definition of G
+            end
+        in
+            themodule(f:F g:G)
+        end
+        M={ModuleMaker} % Creation of M
+        ```
+
+    "The function ModuleMaker is a software component, i.e., it defines the behavior of part of a system. We create instances of this component by calling ModuleMaker. One such instance is the module M. Note that a module’s interface is simply a record, where each field is one of the module’s operations. The module M has two operations F and G. 
+    
+    "Now assume that developer U2 has an application that consumes a huge amount of calculation time. U2 would like to investigate where all this time is being spent, so that he can rewrite his application to be less costly. U2 suspects that F is being called too many times and he would like to verify this. U2 would like a new version of M that counts the number of times F is called. So U2 contacts P and asks him to create a new version of M that does this, but without changing the interface (that defines the operations of M and how they are called) since otherwise U2 would have to change all of his program (not to mention U1!).
+
+    "Surprise! This is not possible without named state. If F does not have named state then it cannot change its behavior. In particular, it cannot keep a counter of how many times it is called. The only solution in a program without named state is to change F’s interface (its arguments):
+
+        ```
+        fun {F ... Fin Fout}
+            Fout=Fin+1
+            ...
+        end        
+        ```
+
+    "We add two arguments to F, namely Fin and Fout. When calling F, Fin gives the count of how many times F was called, and F calculates the new count in Fout by adding one to Fin. When calling F, we have to link all these new arguments together. For example, three successive calls to F would look like this:
+
+        ```
+        A={F ... F1 F2}
+        B={F ... F2 F3}
+        C={F ... F3 F4}
+        ```
+
+    "F1 is the initial count. The first call calculates F2, which is passed to the second call, and so forth. The final call returns the count F4. We see that this is a very bad solution, since U2 has to change his program wherever F is called. It gets worse: U1 also has to change his program, even though U1 never asked for any change. All users of M, even U1, have to change their programs, and they are very unhappy for this extra bureaucratic overhead.
+
+    "The solution to this problem is to use named state. We give an internal memory to the module M. In Oz, this internal memory is called a cell or a variable cell. This corresponds simply to what many languages call a variable. Here is the solution:
+
+        ```
+        fun {ModuleMaker}
+            X={NewCell 0} % Create cell referenced by X
+            fun {F ...}
+                X:=@X+1 % New content of X is old plus 1
+                ... % Original definition of F
+            end
+            fun {F ...}
+                ... % Original definition of G
+            end
+            fun {Count} @X end % Return content of X
+        in
+            themodule(f:F g:G c:Count)
+        end
+        M={ModuleMaker}
+        ```
+
+    "The new module M contains a cell inside. Whenever F is called, the cell is incremented. The additional operation Count (accessed by M.c) returns the current count of the cell. The interfaces of F and G are unchanged. Now everybody is happy: U2 has his new module and nobody has to change their programs at all since F and G are called in the same way.
+
+    "The main advantage of named state is that the program becomes modular. The main disadvantage is that a program can become incorrect. It seems that we need to have and not have named state at the same time. How do we solve this dilemma?4 One solution is to concentrate the use of named state in one part of the program and to avoid named state in the rest. Figure 12 shows how this design works. The bulk of the program is a pure function without named state. The rest of the program is a state transformer: it calls the pure function to do the actual work. This concentrates the named state in a small part of the program."
+
+## 5 Data abstraction
+
+"A data abstraction is a way to organize the use of data structures according to precise rules which guarantee that the data structures are used correctly. A data abstraction has an inside, an outside, and an interface between the two. All data structures are kept on the inside. The inside is hidden from the outside. All operations on the data must pass through the interface. ... There are three advantages
+to this organization:
+
+1. First, there is a guarantee that the data abstraction will always work correctly. The interface defines the authorized operations on the data structures and no other operations are possible.
+2. Second, the program is easier to understand. A user of the data abstraction does not need to understand how the abstraction is implemented. The program can be partitioned into many abstractions, implemented independently, which greatly reduces the program’s complexity. This can be further improved by adding the property of compositionality: allowing data abstractions to be defined inside of other data abstractions.
+3. Third, it becomes possible to develop very large programs. We can divide the implementation among a team of people. Each abstraction has one person who is responsible for it: he implements it and maintains it. That person has to know just the interfaces used by his abstraction.
+
+"In the rest of this section we first explain the four different ways to organize data abstractions. We then introduce two principles, polymorphism and inheritance, that greatly increase the power of data abstraction to organize programs. Object-oriented programming, as it is usually understood, is based on data abstraction with polymorphism and inheritance.
+
+### 5.1 Objects and abstract data types
+
+"There are four main ways to organize data abstractions, organized along two axes. The first axis is *state*: does the abstraction use named state or not. The second axis is *bundling*: does the abstraction fuse data and operations into a single entity (this is called an object or a procedural data abstraction (PDA)), or does the abstraction keep them separate (this is called an abstract data type (ADT)). Multiplying the two axes gives four possibilities: 
+
+* Stateful and Abstract data type/unbundled ==> Stateful ADT
+* Stateless and Abstract data type/unbundled ==> "Pure" ADT (for example, an integer)
+* Stateful and Object/bundled ==> "Pure" object (very popular!)
+* Stateless and Object/bundled ==> Declarative object
+
+"The two other possibilities, the abstract data type with named state and the declarative object, can also be useful. But they are less used in current languages."
+
+### 5.2 Polymorphism and the responsibility principle
+
+"The most important principle of object-oriented programming, after data abstraction itself, is polymorphism. In everyday language, we say an entity is polymorphic if it can take on different forms. In computer programming, we say an entity is polymorphic if it can take arguments of different types. This ability is very important for organizing large programs so that the responsibilities of the program’s design are concentrated in well-defined places instead of being spread out over the whole program. To explain this, we use a real-world example. A sick patient goes to see a doctor. The patient does not need to be a doctor, but just to tell the doctor one message: “Cure me!”. The doctor understands this message and does the right thing depending on his speciality. The program “GetCured” run by the patient is polymorphic: it takes a doctor as argument and works with all different kinds of doctors. This is because all doctors understand the message “Cure me!”.
+
+"For programming the idea of polymorphism is similar: if a program works with one data abstraction as argument, it can work with another, if the other has the same interface. All four kinds of data abstractions we saw before support polymorphism. But it is particularly simple for objects, which is one reason for the success of object-oriented programming."
+
+*(It's interesting how Van Roy slices inheritance and polymorphism apart, which is easier to do for languages that use message-passing and dynamic resolution of message-invocation. Theoretically, a statically-compiled language could do the same--resolve at compile time whether the object in question supports the method being invoked and pass or not pass the call--but doing so has always been tied very closely to inheritance and virtual dispatch. Makes me wonder, maybe there's a language concept here where we have objects without inheritance that still support polymorphism--and that there's probably already some languages that do this, but I just haven't noticed it before. Something like*
+
+```
+class Person
+    method Eat(...)
+
+class Pet
+    method Eat(...)
+
+class Furniture
+    // no method Eat
+
+p := Person()
+p.Eat(...) // compiles
+c := Pet()
+c.Eat(...) // compiles
+t := Furniture()
+t.Eat(...) // ERROR
+```
+
+*... but the real power of polymorphism comes from substitutibility ("all Doctors understand the message 'Cure Me!'", and without inheritance, it's harder to see how this might work in a static language, at least without some form of type inference or generics?)*
+
+### 5.3 Inheritance and the substitution principle
 
 ---
 
