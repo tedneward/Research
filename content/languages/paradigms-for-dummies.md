@@ -94,133 +94,139 @@ The paper has multiple diagrams here, one of the human respiratory system and on
 
 ## 4: Programming concepts
 
-* **Record**: "A record is a data structure: a group of references to data items with indexed access to
+### 4.1 Record
+
+"A record is a data structure: a group of references to data items with indexed access to
 each item. For example:
 
-        ```
-        R=chanson(nom:"Le Roi des Aulnes"
-            artiste:"Dietrich Fischer-Dieskau"
-            compositeur:"Franz Schubert"
-            langue:allemand)
-        ```
+```
+R=chanson(nom:"Le Roi des Aulnes"
+    artiste:"Dietrich Fischer-Dieskau"
+    compositeur:"Franz Schubert"
+    langue:allemand)
+```
 
-    "The record is referenced by the identifier R. Members can be references through the dot operation, e.g., R.nom returns a reference to the string "Le Roi des Aulnes". The record is the foundation of symbolic programming. A symbolic programming language is able to calculate with records: create new records, decompose them, and examine them. Many important data structures such as arrays, lists, strings, trees, and hash tables can be derived from records. When combined with closures (see next section), records can be used for component-based programming."
+"The record is referenced by the identifier R. Members can be references through the dot operation, e.g., R.nom returns a reference to the string "Le Roi des Aulnes". The record is the foundation of symbolic programming. A symbolic programming language is able to calculate with records: create new records, decompose them, and examine them. Many important data structures such as arrays, lists, strings, trees, and hash tables can be derived from records. When combined with closures (see next section), records can be used for component-based programming."
 
-* **Lexically-scoped closures**: "The lexically scoped closure is an enormously powerful concept that is at the heart of programming. Functional programming, which is programming with closures, is a central paradigm. From an implementation viewpoint, a closure combines a procedure with its external references (the references it uses at its definition). From the programmer’s viewpoint, a closure is a “packet of work”: a program can transform any instructions into a closure at one point in the program, pass it to another point, and decide to execute it at that point. The result of its execution is the same as if the instructions were executed at the point the closure was created.
+### 4.3 Lexically-scoped closures
 
-    "Figure 9 *(from the paper)* shows schematically what happens when a closure is defined and when it is called. The procedure P is implemented by a closure. At the definition (context D), P stores the references from the definition context. For example, it keeps the reference x to some named state. We say that the environment (set of references) of P is closed over its definition context. At the call (context C), P uses the references from context D.
+"The lexically scoped closure is an enormously powerful concept that is at the heart of programming. Functional programming, which is programming with closures, is a central paradigm. From an implementation viewpoint, a closure combines a procedure with its external references (the references it uses at its definition). From the programmer’s viewpoint, a closure is a “packet of work”: a program can transform any instructions into a closure at one point in the program, pass it to another point, and decide to execute it at that point. The result of its execution is the same as if the instructions were executed at the point the closure was created.
 
-    "*(The below pseudocode)* shows one possible use for a closure: creating a control structure. 
-    
-        ```
-        ...                             ...
-        ...                             ...
-        <stmt>    ; Instruction.  ===>  P = proc ($) <stmt> end ; Define procedure referenced by P (context D)
-        ...                             ...
-        ...                             (P) ; Call the procedure P (context C)
-        ```
-    
-    "At the left, we execute the instruction <stmt>. At the right, instead of executing <stmt>, we place it inside a procedure (closure) referenced by P (the example uses Oz syntax). Any time later on in the program, we can decide to call P. We have separated the definition of <stmt> from its execution. With this ability we can define control structures such as an if statement or while loop.
+"Figure 9 *(from the paper)* shows schematically what happens when a closure is defined and when it is called. The procedure P is implemented by a closure. At the definition (context D), P stores the references from the definition context. For example, it keeps the reference x to some named state. We say that the environment (set of references) of P is closed over its definition context. At the call (context C), P uses the references from context D.
 
-    "The examples can easily be generalized to procedures with arguments. The closed environment exists as before. The arguments are passed during each call. The closure therefore has two sets of references: a closed environment (from the definition) and the arguments (from each call). Almost all programming languages (except for a few venerable ancestors such as Pascal and C) use this kind of closure:
+"*(The below pseudocode)* shows one possible use for a closure: creating a control structure. 
 
-        * functions are closures;
-        * procedures are closures;
-        * objects are closures;
-        * classes are closures;
-        * software components are closures.
+```
+...                             ...
+...                             ...
+<stmt>    ; Instruction.  ===>  P = proc ($) <stmt> end ; Define procedure referenced by P (context D)
+...                             ...
+...                             (P) ; Call the procedure P (context C)
+```
 
-    "Many abilities normally associated with specific paradigms are based on closures:
+"At the left, we execute the instruction <stmt>. At the right, instead of executing <stmt>, we place it inside a procedure (closure) referenced by P (the example uses Oz syntax). Any time later on in the program, we can decide to call P. We have separated the definition of <stmt> from its execution. With this ability we can define control structures such as an if statement or while loop.
 
-        * Instantiation and genericity, normally associated with object-oriented programming, can be done easily by writing functions that return other functions. In object-oriented programming the first function is called a “class” and the second is called an “object”.
-        * Separation of concerns, normally associated with aspect-oriented programming, can be done easily by writing functions that take other functions as arguments. For example, Erlang has a function that implements a generic fault-tolerant client/server. It is called with a function argument that defines the server’s behavior. ... [AOP] is usually done by syntactic transformations (called “weaving”) that add aspect code to the original source. The AspectJ language is a good example of this approach. Weaving is difficult to use because it is fragile: it is easy to introduce errors in the program (changing the source code changes the semantics of the program). Using closures instead makes it easier to preserve correctness because the source code is not changed.
-        * Component-based programming is a style of programming in which programs are organized as components, where each component may depend on other components. A component is a building block that specifies part of a program. An instance of a component is called a module, which is a record containing closures. A new module is created by a function that takes its dependent modules as inputs. The component is the function.
-    
-    "The Erlang language implements all these abilities directly with closures. ... In most other languages, though, the use of closures is hidden inside the language’s implementation and is not available directly to the programmer. If done carefully this can be an advantage, since the implementation can guarantee that the closures are used correctly."
+"The examples can easily be generalized to procedures with arguments. The closed environment exists as before. The arguments are passed during each call. The closure therefore has two sets of references: a closed environment (from the definition) and the arguments (from each call). Almost all programming languages (except for a few venerable ancestors such as Pascal and C) use this kind of closure:
+
+* functions are closures;
+* procedures are closures;
+* objects are closures;
+* classes are closures;
+* software components are closures.
+
+"Many abilities normally associated with specific paradigms are based on closures:
+
+* Instantiation and genericity, normally associated with object-oriented programming, can be done easily by writing functions that return other functions. In object-oriented programming the first function is called a “class” and the second is called an “object”.
+* Separation of concerns, normally associated with aspect-oriented programming, can be done easily by writing functions that take other functions as arguments. For example, Erlang has a function that implements a generic fault-tolerant client/server. It is called with a function argument that defines the server’s behavior. ... [AOP] is usually done by syntactic transformations (called “weaving”) that add aspect code to the original source. The AspectJ language is a good example of this approach. Weaving is difficult to use because it is fragile: it is easy to introduce errors in the program (changing the source code changes the semantics of the program). Using closures instead makes it easier to preserve correctness because the source code is not changed.
+* Component-based programming is a style of programming in which programs are organized as components, where each component may depend on other components. A component is a building block that specifies part of a program. An instance of a component is called a module, which is a record containing closures. A new module is created by a function that takes its dependent modules as inputs. The component is the function.
+
+"The Erlang language implements all these abilities directly with closures. ... In most other languages, though, the use of closures is hidden inside the language’s implementation and is not available directly to the programmer. If done carefully this can be an advantage, since the implementation can guarantee that the closures are used correctly."
 
 * **Independence (concurrency)**: "Another key concept is independence: constructing a program as independent parts. This is not as simple as it may seem. For example, consider a program that consists of instructions executing one after the other. The instructions are not independent since they are ordered in time. To implement independence we need a new programming concept called concurrency. When two parts do not interact at all, we say they are concurrent. (When the order of execution of two parts is given, we say they are sequential.) Concurrent parts can be extended to have some well-defined interaction, which is called communication.
 
-    "Concurrency should not be confused with parallelism. Concurrency is a language concept and parallelism is a hardware concept. Two parts are parallel if they execute simultaneously on multiple processors. Concurrency and parallelism are orthogonal: it is possible to run concurrent programs on a single processor (using preemptive scheduling and time slices) and to run sequential programs on multiple processors (by parallelizing the calculations).
+"Concurrency should not be confused with parallelism. Concurrency is a language concept and parallelism is a hardware concept. Two parts are parallel if they execute simultaneously on multiple processors. Concurrency and parallelism are orthogonal: it is possible to run concurrent programs on a single processor (using preemptive scheduling and time slices) and to run sequential programs on multiple processors (by parallelizing the calculations).
 
-    "The real world is concurrent: it consists of activities that evolve independently. The computing world is concurrent as well. It has three levels of concurrency:
+"The real world is concurrent: it consists of activities that evolve independently. The computing world is concurrent as well. It has three levels of concurrency:
 
-    * Distributed system: a set of computers connected through a network. A concurrent activity is called a computer. This is the basic structure of the Internet.
-    * Operating system: the software that manages a computer. A concurrent activity is called a process. Processes have independent memories. The operating system handles the task of mapping the process execution and memory to the computer. For example, each running application typically executes in one process.
-    * Activities inside one process. A concurrent activity is called a thread. Threads execute independently but share the same memory space. For example, the different windows in a Web browser typically execute in separate threads.
+* Distributed system: a set of computers connected through a network. A concurrent activity is called a computer. This is the basic structure of the Internet.
+* Operating system: the software that manages a computer. A concurrent activity is called a process. Processes have independent memories. The operating system handles the task of mapping the process execution and memory to the computer. For example, each running application typically executes in one process.
+* Activities inside one process. A concurrent activity is called a thread. Threads execute independently but share the same memory space. For example, the different windows in a Web browser typically execute in separate threads.
 
-    "The fundamental difference between processes and threads is how resource allocation is done. Process-level concurrency is sometimes called competitive concurrency: each process tries to acquire all the system’s resources for itself. The operating system’s chief role is to arbitrate the resource requests done by all the processes and to allocate resources in a fair way. Thread-level concurrency is sometimes called cooperative concurrency: threads in a process share resources and collaborate to achieve the result of the process. Threads run in the same application and so are guided by the same program. 
-    
-    "There are two popular paradigms for concurrency. The first is shared-state concurrency: threads access shared data items using special control structures called monitors to manage concurrent access. This paradigm is by far the most popular. It used by almost all mainstream languages, such as Java and C#. Another way to do shared-state concurrency is by means of transactions: threads atomically update shared data items. This approach is used by databases and by software transactional memory. The second paradigm is message-passing concurrency: concurrent agents each running in a single thread that send each other messages.
+"The fundamental difference between processes and threads is how resource allocation is done. Process-level concurrency is sometimes called competitive concurrency: each process tries to acquire all the system’s resources for itself. The operating system’s chief role is to arbitrate the resource requests done by all the processes and to allocate resources in a fair way. Thread-level concurrency is sometimes called cooperative concurrency: threads in a process share resources and collaborate to achieve the result of the process. Threads run in the same application and so are guided by the same program. 
 
-    "Despite their popularity, monitors are the most difficult concurrency primitive to program with. Transactions and message passing are easier, but still difficult. All three approaches suffer from their expressiveness: they can express nondeterministic programs (whose execution is not completely determined by their specifications), which is why it is hard to reason about their correctness. Concurrent programming would be much simpler if the nondeterminism were controlled in some way, so that it is not visible to the programmer. Sections 6 and 7 present four important paradigms that implement this idea to make concurrent programming much simpler.
+"There are two popular paradigms for concurrency. The first is shared-state concurrency: threads access shared data items using special control structures called monitors to manage concurrent access. This paradigm is by far the most popular. It used by almost all mainstream languages, such as Java and C#. Another way to do shared-state concurrency is by means of transactions: threads atomically update shared data items. This approach is used by databases and by software transactional memory. The second paradigm is message-passing concurrency: concurrent agents each running in a single thread that send each other messages.
 
-* **Named state**: "The final key concept we will introduce is named state. State introduces an abstract notion of time in programs. In functional programs, there is no notion of time. Functions are mathematical functions: when called with the same arguments, they always give the same results. Functions do not change. In the real world, things are different. There are few real-world entities that have the timeless behavior of functions. Organisms grow and learn. When the same stimulus is given to an organism at different times, the reaction will usually be different. How can we model this inside a program? We need to model an entity with a unique identity (its name) whose behavior changes during the execution of the program. To do this, we add an abstract notion of time to the program. This abstract time is simply a sequence of values in time that has a single name. We call this sequence a named state. Unnamed state is also possible (monads and DCGs, see Section 2.1), but it does not have the modularity properties of named state. 
+"Despite their popularity, monitors are the most difficult concurrency primitive to program with. Transactions and message passing are easier, but still difficult. All three approaches suffer from their expressiveness: they can express nondeterministic programs (whose execution is not completely determined by their specifications), which is why it is hard to reason about their correctness. Concurrent programming would be much simpler if the nondeterminism were controlled in some way, so that it is not visible to the programmer. Sections 6 and 7 present four important paradigms that implement this idea to make concurrent programming much simpler.
 
-    "*(Consider)* two components, A and B, where component A has an internal named state (memory) and component B does not. Component B always has the same behavior: whenever it is called with the same arguments, it gives the same result. Component A can have different behaviors each time it is called, if it contains a different value in its named state. Having named state is both a blessing and a curse. It is a blessing because it allows the component to adapt to its environment. It can grow and learn. It is a curse because a component with named state can develop erratic behavior if the content of the named state is unknown or incorrect. A component without named state, once proved correct, always stays correct. Correctness is not so simple to maintain for a component with named state. A good rule is that named state should never be invisible: there should always be some way to access it from the outside.
+### 4.3 Named state
 
-    "Named state is important for a system’s modularity. We say that a system (function, procedure, component, etc.) is modular if updates can be done to part of the system without changing the rest of the system. We give a scenario to show how we can design a modular system by using named state. Without named state, this is not possible.
+"The final key concept we will introduce is named state. State introduces an abstract notion of time in programs. In functional programs, there is no notion of time. Functions are mathematical functions: when called with the same arguments, they always give the same results. Functions do not change. In the real world, things are different. There are few real-world entities that have the timeless behavior of functions. Organisms grow and learn. When the same stimulus is given to an organism at different times, the reaction will usually be different. How can we model this inside a program? We need to model an entity with a unique identity (its name) whose behavior changes during the execution of the program. To do this, we add an abstract notion of time to the program. This abstract time is simply a sequence of values in time that has a single name. We call this sequence a named state. Unnamed state is also possible (monads and DCGs, see Section 2.1), but it does not have the modularity properties of named state. 
 
-    "Assume that we have three developers, P, U1, and U2. P has developed a module M that contains two functions F and G. U1 and U2 are users of M: their own programs used module M. Here is one possible definition of M:
+"*(Consider)* two components, A and B, where component A has an internal named state (memory) and component B does not. Component B always has the same behavior: whenever it is called with the same arguments, it gives the same result. Component A can have different behaviors each time it is called, if it contains a different value in its named state. Having named state is both a blessing and a curse. It is a blessing because it allows the component to adapt to its environment. It can grow and learn. It is a curse because a component with named state can develop erratic behavior if the content of the named state is unknown or incorrect. A component without named state, once proved correct, always stays correct. Correctness is not so simple to maintain for a component with named state. A good rule is that named state should never be invisible: there should always be some way to access it from the outside.
 
-        ```
-        fun {ModuleMaker}
-            fun {F ...}
-                ... % Definition of F
-            end
-            fun {G ...}
-                ... % Definition of G
-            end
-        in
-            themodule(f:F g:G)
-        end
-        M={ModuleMaker} % Creation of M
-        ```
+"Named state is important for a system’s modularity. We say that a system (function, procedure, component, etc.) is modular if updates can be done to part of the system without changing the rest of the system. We give a scenario to show how we can design a modular system by using named state. Without named state, this is not possible.
 
-    "The function ModuleMaker is a software component, i.e., it defines the behavior of part of a system. We create instances of this component by calling ModuleMaker. One such instance is the module M. Note that a module’s interface is simply a record, where each field is one of the module’s operations. The module M has two operations F and G. 
-    
-    "Now assume that developer U2 has an application that consumes a huge amount of calculation time. U2 would like to investigate where all this time is being spent, so that he can rewrite his application to be less costly. U2 suspects that F is being called too many times and he would like to verify this. U2 would like a new version of M that counts the number of times F is called. So U2 contacts P and asks him to create a new version of M that does this, but without changing the interface (that defines the operations of M and how they are called) since otherwise U2 would have to change all of his program (not to mention U1!).
+"Assume that we have three developers, P, U1, and U2. P has developed a module M that contains two functions F and G. U1 and U2 are users of M: their own programs used module M. Here is one possible definition of M:
 
-    "Surprise! This is not possible without named state. If F does not have named state then it cannot change its behavior. In particular, it cannot keep a counter of how many times it is called. The only solution in a program without named state is to change F’s interface (its arguments):
+```
+fun {ModuleMaker}
+    fun {F ...}
+        ... % Definition of F
+    end
+    fun {G ...}
+        ... % Definition of G
+    end
+in
+    themodule(f:F g:G)
+end
+M={ModuleMaker} % Creation of M
+```
 
-        ```
-        fun {F ... Fin Fout}
-            Fout=Fin+1
-            ...
-        end        
-        ```
+"The function ModuleMaker is a software component, i.e., it defines the behavior of part of a system. We create instances of this component by calling ModuleMaker. One such instance is the module M. Note that a module’s interface is simply a record, where each field is one of the module’s operations. The module M has two operations F and G. 
 
-    "We add two arguments to F, namely Fin and Fout. When calling F, Fin gives the count of how many times F was called, and F calculates the new count in Fout by adding one to Fin. When calling F, we have to link all these new arguments together. For example, three successive calls to F would look like this:
+"Now assume that developer U2 has an application that consumes a huge amount of calculation time. U2 would like to investigate where all this time is being spent, so that he can rewrite his application to be less costly. U2 suspects that F is being called too many times and he would like to verify this. U2 would like a new version of M that counts the number of times F is called. So U2 contacts P and asks him to create a new version of M that does this, but without changing the interface (that defines the operations of M and how they are called) since otherwise U2 would have to change all of his program (not to mention U1!).
 
-        ```
-        A={F ... F1 F2}
-        B={F ... F2 F3}
-        C={F ... F3 F4}
-        ```
+"Surprise! This is not possible without named state. If F does not have named state then it cannot change its behavior. In particular, it cannot keep a counter of how many times it is called. The only solution in a program without named state is to change F’s interface (its arguments):
 
-    "F1 is the initial count. The first call calculates F2, which is passed to the second call, and so forth. The final call returns the count F4. We see that this is a very bad solution, since U2 has to change his program wherever F is called. It gets worse: U1 also has to change his program, even though U1 never asked for any change. All users of M, even U1, have to change their programs, and they are very unhappy for this extra bureaucratic overhead.
+```
+fun {F ... Fin Fout}
+    Fout=Fin+1
+    ...
+end        
+```
 
-    "The solution to this problem is to use named state. We give an internal memory to the module M. In Oz, this internal memory is called a cell or a variable cell. This corresponds simply to what many languages call a variable. Here is the solution:
+"We add two arguments to F, namely Fin and Fout. When calling F, Fin gives the count of how many times F was called, and F calculates the new count in Fout by adding one to Fin. When calling F, we have to link all these new arguments together. For example, three successive calls to F would look like this:
 
-        ```
-        fun {ModuleMaker}
-            X={NewCell 0} % Create cell referenced by X
-            fun {F ...}
-                X:=@X+1 % New content of X is old plus 1
-                ... % Original definition of F
-            end
-            fun {F ...}
-                ... % Original definition of G
-            end
-            fun {Count} @X end % Return content of X
-        in
-            themodule(f:F g:G c:Count)
-        end
-        M={ModuleMaker}
-        ```
+```
+A={F ... F1 F2}
+B={F ... F2 F3}
+C={F ... F3 F4}
+```
 
-    "The new module M contains a cell inside. Whenever F is called, the cell is incremented. The additional operation Count (accessed by M.c) returns the current count of the cell. The interfaces of F and G are unchanged. Now everybody is happy: U2 has his new module and nobody has to change their programs at all since F and G are called in the same way.
+"F1 is the initial count. The first call calculates F2, which is passed to the second call, and so forth. The final call returns the count F4. We see that this is a very bad solution, since U2 has to change his program wherever F is called. It gets worse: U1 also has to change his program, even though U1 never asked for any change. All users of M, even U1, have to change their programs, and they are very unhappy for this extra bureaucratic overhead.
 
-    "The main advantage of named state is that the program becomes modular. The main disadvantage is that a program can become incorrect. It seems that we need to have and not have named state at the same time. How do we solve this dilemma?4 One solution is to concentrate the use of named state in one part of the program and to avoid named state in the rest. Figure 12 shows how this design works. The bulk of the program is a pure function without named state. The rest of the program is a state transformer: it calls the pure function to do the actual work. This concentrates the named state in a small part of the program."
+"The solution to this problem is to use named state. We give an internal memory to the module M. In Oz, this internal memory is called a cell or a variable cell. This corresponds simply to what many languages call a variable. Here is the solution:
+
+```
+fun {ModuleMaker}
+    X={NewCell 0} % Create cell referenced by X
+    fun {F ...}
+        X:=@X+1 % New content of X is old plus 1
+        ... % Original definition of F
+    end
+    fun {F ...}
+        ... % Original definition of G
+    end
+    fun {Count} @X end % Return content of X
+in
+    themodule(f:F g:G c:Count)
+end
+M={ModuleMaker}
+```
+
+"The new module M contains a cell inside. Whenever F is called, the cell is incremented. The additional operation Count (accessed by M.c) returns the current count of the cell. The interfaces of F and G are unchanged. Now everybody is happy: U2 has his new module and nobody has to change their programs at all since F and G are called in the same way.
+
+"The main advantage of named state is that the program becomes modular. The main disadvantage is that a program can become incorrect. It seems that we need to have and not have named state at the same time. How do we solve this dilemma?4 One solution is to concentrate the use of named state in one part of the program and to avoid named state in the rest. Figure 12 shows how this design works. The bulk of the program is a pure function without named state. The rest of the program is a state transformer: it calls the pure function to do the actual work. This concentrates the named state in a small part of the program."
 
 ## 5 Data abstraction
 
