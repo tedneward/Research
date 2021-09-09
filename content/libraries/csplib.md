@@ -1,6 +1,6 @@
 title=CSPLib
 tags=library, logic, constraint solution
-summary=
+summary=A library of test problems for constraint solvers.
 ~~~~~~
 
 [Website](https://www.csplib.org/) | [Source](http://github.com/csplib/csplib)
@@ -17,4 +17,5 @@ summary=
 * [Numberjack](https://www.csplib.org/Languages/Numberjack)
 * [Picat](/languages/picat)
 
+[Constraint problems (in numerical order)](https://www.csplib.org/Problems/)
 
