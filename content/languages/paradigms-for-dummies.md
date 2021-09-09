@@ -96,12 +96,14 @@ The paper has multiple diagrams here, one of the human respiratory system and on
 
 * **Record**: "A record is a data structure: a group of references to data items with indexed access to
 each item. For example:
+
         ```
         R=chanson(nom:"Le Roi des Aulnes"
             artiste:"Dietrich Fischer-Dieskau"
             compositeur:"Franz Schubert"
             langue:allemand)
         ```
+
     "The record is referenced by the identifier R. Members can be references through the dot operation, e.g., R.nom returns a reference to the string "Le Roi des Aulnes". The record is the foundation of symbolic programming. A symbolic programming language is able to calculate with records: create new records, decompose them, and examine them. Many important data structures such as arrays, lists, strings, trees, and hash tables can be derived from records. When combined with closures (see next section), records can be used for component-based programming."
 
 * **Lexically-scoped closures**: "The lexically scoped closure is an enormously powerful concept that is at the heart of programming. Functional programming, which is programming with closures, is a central paradigm. From an implementation viewpoint, a closure combines a procedure with its external references (the references it uses at its definition). From the programmer’s viewpoint, a closure is a “packet of work”: a program can transform any instructions into a closure at one point in the program, pass it to another point, and decide to execute it at that point. The result of its execution is the same as if the instructions were executed at the point the closure was created.
