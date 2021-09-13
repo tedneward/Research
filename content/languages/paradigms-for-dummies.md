@@ -367,4 +367,4 @@ Declarative concurrency is a good paradigm for parallel programming. This is bec
 
 ---
 
-Best footnote from the paper: "Similar reasoning *[referencing the statements "With n concepts, it is theoretically possible to construct 2n paradigms. Of course, many of these paradigms are useless in practice, such as the empty paradigm (no concepts)"]* explains why Baskin-Robbins has exactly 31 flavors of ice cream. We postulate that they have only 5 flavors, which gives 25 − 1 = 31 combinations with at least one flavor. The 32nd combination is the empty flavor. The taste of the empty flavor is an open research question."
+Best footnote from the paper: "Similar reasoning *[referencing the statements "With n concepts, it is theoretically possible to construct 2n paradigms. Of course, many of these paradigms are useless in practice, such as the empty paradigm (no concepts)"]* explains why Baskin-Robbins has exactly 31 flavors of ice cream. We postulate that they have only 5 flavors, which gives 2^5 − 1 = 31 combinations with at least one flavor. The 32nd combination is the empty flavor. The taste of the empty flavor is an open research question."
