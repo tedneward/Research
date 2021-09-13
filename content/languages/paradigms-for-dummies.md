@@ -358,9 +358,11 @@ end
 
 This is practical if threads are efficient, such as in Mozart. The call `Z={LazyAdd 2 3}` delays the addition until the value of `Z` is needed. We say that it creates a lazy suspension. If another thread executes `Z2={Add Z 4}`, then the suspension will be executed, binding `Z` to 5. If the other thread executes `Z2={LazyAdd Z 4}` instead, then two lazy suspensions are created. If a third thread needs `Z2`, then both will be executed.
 
+**Declarative concurrency and multi-core processors**: Decades of research show that parallel programming cannot be completely hidden from the programmer: it is not possible in general to automatically transform an arbitrary program into a parallel program. There is no magic bullet. The best that we can do is to make parallel programming as easy as possible. The programming language and its libraries should help and not hinder the programmer. Traditional languages such as Java or C++ are poorly equipped for this because shared-state concurrency is difficult. 
 
+Declarative concurrency is a good paradigm for parallel programming. This is because it combines concurrency with the good properties of functional programming. Programs are mathematical functions: a correct function stays correct no matter how it is called (which is not true for objects). Programs have no race conditions: any part of a correct program can be executed concurrently without changing the results. Any correct program can be parallelized simply by executing its parts concurrently on different cores. If the set of instructions to execute is not totally ordered, then this can give a speedup. Paradigms that have named state (variable cells) make this harder because each variable cell imposes an order (its sequence of values). A common programming style is to have concurrent agents connected by streams. This kind of program can be parallelized simply by partitioning the agents over the cores, which gives a pipelined execution.
 
-
+## 7 Constraint Programming
 
 
 ---
