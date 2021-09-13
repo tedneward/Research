@@ -258,27 +258,112 @@ to this organization:
 
 *(It's interesting how Van Roy slices inheritance and polymorphism apart, which is easier to do for languages that use message-passing and dynamic resolution of message-invocation. Theoretically, a statically-compiled language could do the same--resolve at compile time whether the object in question supports the method being invoked and pass or not pass the call--but doing so has always been tied very closely to inheritance and virtual dispatch. Makes me wonder, maybe there's a language concept here where we have objects without inheritance that still support polymorphism--and that there's probably already some languages that do this, but I just haven't noticed it before. Something like*
 
-```
-class Person
-    method Eat(...)
+        ```
+        class Person
+            method Eat(...)
 
-class Pet
-    method Eat(...)
+        class Pet
+            method Eat(...)
 
-class Furniture
-    // no method Eat
+        class Furniture
+            // no method Eat
 
-p := Person()
-p.Eat(...) // compiles
-c := Pet()
-c.Eat(...) // compiles
-t := Furniture()
-t.Eat(...) // ERROR
-```
+        p := Person()
+        p.Eat(...) // compiles
+        c := Pet()
+        c.Eat(...) // compiles
+        t := Furniture()
+        t.Eat(...) // ERROR
+        ```
 
 *... but the real power of polymorphism comes from substitutibility ("all Doctors understand the message 'Cure Me!'", and without inheritance, it's harder to see how this might work in a static language, at least without some form of type inference or generics?)*
 
 ### 5.3 Inheritance and the substitution principle
+
+"The second important principle of object-oriented programming is inheritance. Many abstractions have a lot in common, in what they do but also in their implementations. It can be a good idea to define abstractions to emphasize their common relationship and without repeating the code they share. Repeated code is a source of errors: if one copy is fixed, all copies have to be fixed. It is all too easy to forget some copies or to fix them in the wrong way.
+
+"Inheritance allows to define abstractions incrementally. Definition A can inherit from another definition B: definition A takes definition B as its base and shows how it is modified or extended. The incremental definition A is called a class. However, the abstraction that results is a full definition, not a partial one.
+
+"Inheritance can be a useful tool, but it should be used with care. The possibility of extending a definition B with inheritance can be seen as another interface to B. This interface needs to be maintained throughout the lifetime of B. This is an extra source of bugs. Our recommendation is to use inheritance as little as possible. When defining a class, we recommend to define it as nonextensible if at all possible. In Java this is called a final class.
+
+"Instead of inheritance, we recommend to use composition instead. Composition is a natural technique: it means simply that an attribute of an object refers to another object. The objects are composed together. In this way, it is not necessary to extend a class with inheritance. We use the objects as they are defined to be used.
+
+"If you must use inheritance, then the right way to use it is to follow the substitution principle. Suppose that class A inherits from class B and we have two objects, OA and OB. The substitution principle states that any procedure that works with objects OB of class B must also work with objects OA of class A. In other words, inheritance should not break anything. Class A should be a conservative extension of class B.
+
+"We end our discussion of inheritance with a cautionary tale. In the 1980s, a very large multinational company initiated an ambitious project based on object-oriented programming. Despite a budget of several billion dollars, the project failed miserably. One of the principal reasons for this failure was a wrong use of inheritance. Two main errors were committed:
+
+* "Violating the substitution principle. A procedure that worked with objects of a class no longer worked with objects of a subclass. As a result, many almost-identical procedures needed to be written.
+
+* "Using subclasses to mask bugs. Instead of correcting bugs, subclasses were created to mask bugs, i.e., to test for and handle those cases where the bugs occurred. As a result, the class hierarchy was very deep, complicated, slow, and filled with bugs.
+
+## 6 Deterministic concurrent programming
+
+"One of the major problems of concurrent programming is nondeterminism. An execution of a program is nondeterministic if at some point during the execution there is a choice of what to do next. Nondeterminism appears naturally when there is concurrency: since two concurrent activities are independent, the program’s specification cannot say which executes first. If there are several threads ready to run, then in each execution state the system has to choose which thread to execute next. This choice can be done in different ways; typically there is a part of the system called the scheduler that makes the choice.
+
+"Nondeterminism is very hard to handle if it can be observed by the user of the program. Observable nondeterminism is sometimes called a race condition."
+
+### 6.1 Avoiding nondeterminism in a concurrent language
+
+"We can solve this problem by making a clear distinction between nondeterminism  *inside* the system, which cannot be avoided, and *observable* nondeterminism, which may be avoidable. We solve the problem in two steps:
+
+* First, we limit observable nondeterminism to those parts of the program that really need it. The other parts should have no observable nondeterminism.
+* Second, we define the language so that it is possible to write concurrent programs without observable nondeterminism.
+
+Is it possible to have a concurrent language without observable determinism?
+
+Concurrent paradigm | Races possible? | Inputs can be nondeterministic? | Example languages
+------------------- | --------------- | ------------------------------- | ----------
+Declarative concurrency | No | No | Oz, Alice
+Constraint programming | No | No | Gecode, Numerica
+Functional reactive programming | No | Yes | FrTime, Yampa
+Discrete synchronous programming | No | Yes | Esterel, Lustre, Signal
+Message-passing concurrency | Yes | Yes | Erlang, E
+
+**Declarative concurrency** (also called **monotonic dataflow**). In this paradigm, deterministic inputs are received and used to calculate deterministic outputs. This paradigm lives completely in a deterministic world. If there are multiple input streams, they must be deterministic, i.e., the program must know exactly what input elements to read to calculate each output (for example, there could be a convention that exactly one element is read from each input stream). Two languages that implement this paradigm are Oz [50, 34] and Alice [38]. This paradigm can be made lazy without losing its good properties. The paradigm and its lazy extension are explained in more detail in Section 6.2. Constraint programming is related to declarative concurrency and is explained in Section 7.
+
+There exists also a *nonmonotonic* dataflow paradigm, in which changes on any input are immediately propagated through the program. The changes can be conceptualized as *dataflow tokens* traveling through the program. This paradigm can accept nondeterministic input, but it has the disadvantage that it sometimes adds its own nondeterminism that does not exist in the input (called a “glitch” below). That is why we do not discuss this paradigm further in this chapter. Functional reactive programming is similar to nonmonotonic dataflow but without the glitches.
+
+**Functional reactive programming** (also called **continuous synchronous programming**). In this paradigm, programs are functional but the function arguments can be changed and the change is propagated to the output. This paradigm can accept nondeterministic input and does not add any nondeterminism of its own. Semantically, the arguments are continuous functions of a totally ordered variable (which can correspond to useful magnitudes such as time or size). Implementations typically recompute values only when they change and are needed. Discretization is introduced only when results are calculated [16]. This means that arbitrary scaling is possible without losing accuracy due to approximation. If the changes are propagated correctly, then the functional program does not add any nondeterminism. For example, the simple functional expression `x+(x*y)` with `x=3` and `y=4` gives 15. If `x` is changed to 5, then the expression’s result changes from 15 to 25. Implementing this naively with a concurrent stream connecting a times agent to a plus agent is incorrect. This implementation can give a glitch, for example if the new value of x reaches the addition before the new result of the multiplication. This gives a temporary result of 17, which is incorrect. Glitches are a source of nondeterminism that the implementation must avoid, for example by compile-time preprocessing (doing a topological sort of operations) or thread scheduling constraints. Some languages that implement this paradigm are Yampa (embedded in Haskell) [27] and FrTime (embedded in Scheme) [12].
+
+**Discrete synchronous programming**. In this paradigm, a program waits for input events, does internal calculations, and emits output events. This is called a reactive system. Reactive systems must be deterministic: the same sequence of inputs produces the same sequence of outputs. Like functional reactive programming, this paradigm can accept nondeterministic input and does not add any nondeterminism of its own. The main difference is that time is discrete instead of continuous: time advances in steps from one input event to the next. Output events are emitted at the same logical time instants as the input events.7 All calculations done to determine the next output event are considered to be part of the same time instant. This is exactly what happens in clocked digital logic: combinational circuits are “instantaneous” (they happen within one cycle) and sequential circuits “take time”: they use clocked memory (they happen over several cycles). The clock signal is a sequence of input events. Using discrete time enormously simplifies programming for reactive systems. For example, it means that subprograms can be trivially composed: output events from one subcomponent are instantaneously available as input events in other subcomponents. Some languages that implement this paradigm are Esterel [7], Lustre [21], and Signal [26]. Esterel is an imperative language, Lustre is a functional dataflow language, and Signal is a relational dataflow language. It is possible to combine the discrete synchronous and concurrent constraint paradigms to get the advantages of both. This gives the Timed CC model, which is explained in the chapter by Carlos Olarte et al [35].
+
+All three paradigms have important practical applications and have been realized with languages that have good implementations.
+
+### 6.2 Declarative concurrency
+
+Declarative concurrency has the main advantage of functional programming, namely confluence, in a concurrent model. This means that all evaluation orders give the same result, or in other words, it has no race conditions. It adds two concepts to the functional paradigm: threads and dataflow variables. A thread defines a sequence of instructions, executed independently of other threads. Threads have one operation: `{NewThread P}`: create a new thread that executes the 0-argument procedure `P`. A dataflow variable is a single-assignment variable that is used for synchronization. Dataflow variables have three primitive operations:
+
+* `X={NewVar}`: create a new dataflow variable referenced by X.
+* `{Bind X V}`: bind X to V, where V is a value or another dataflow variable.
+* `{Wait X}`: the current thread waits until X is bound to a value.
+
+Using these primitive operations, we extend all the operations of the language to wait until their arguments are available and to bind their result. For example, we define the operation Add in terms of dataflow variables and a primitive addition operation PrimAdd:
+
+```
+proc {Add X Y Z}
+    {Wait X} {Wait Y}
+    local R in {PrimAdd X Y R} {Bind Z R} end
+end
+```
+
+The call `Z={Add 2 3}` causes `Z` to be bound to 5 (the function output is the procedure’s third argument). We do the same for all operations including the conditional (if) statement (which waits until the condition is bound) and the procedure call (which waits until the procedure variable is bound). The result is a declarative dataflow language.
+
+**Lazy declarative concurrency**: We can add lazy execution to declarative concurrency and still keep the good properties of confluence and determinism. In lazy execution, it is the consumer of a result that decides whether or not to perform a calculation, not the producer of the result. In a loop, the termination condition is in the consumer, not the producer. The producer can even be programmed as an infinite loop. Lazy execution does the least amount of calculation needed to get the result. We make declarative concurrency lazy by adding one concept, by-need synchronization, which is implemented by one operation: `{WaitNeeded X}`: the current thread waits until a thread does `{Wait X}`. This paradigm adds both lazy evaluation and concurrency to functional programming and is still declarative. It is the most general declarative paradigm based on functional programming known so far.9 With WaitNeeded we can define a lazy version of Add:
+
+```
+proc {LazyAdd X Y Z}
+    thread {WaitNeeded Z} {Add X Y Z} end
+end
+```
+
+This is practical if threads are efficient, such as in Mozart. The call `Z={LazyAdd 2 3}` delays the addition until the value of `Z` is needed. We say that it creates a lazy suspension. If another thread executes `Z2={Add Z 4}`, then the suspension will be executed, binding `Z` to 5. If the other thread executes `Z2={LazyAdd Z 4}` instead, then two lazy suspensions are created. If a third thread needs `Z2`, then both will be executed.
+
+**Declarative concurrency and multi-core processors**: Decades of research show that parallel programming cannot be completely hidden from the programmer: it is not possible in general to automatically transform an arbitrary program into a parallel program. There is no magic bullet. The best that we can do is to make parallel programming as easy as possible. The programming language and its libraries should help and not hinder the programmer. Traditional languages such as Java or C++ are poorly equipped for this because shared-state concurrency is difficult. 
+
+Declarative concurrency is a good paradigm for parallel programming. This is because it combines concurrency with the good properties of functional programming. Programs are mathematical functions: a correct function stays correct no matter how it is called (which is not true for objects). Programs have no race conditions: any part of a correct program can be executed concurrently without changing the results. Any correct program can be parallelized simply by executing its parts concurrently on different cores. If the set of instructions to execute is not totally ordered, then this can give a speedup. Paradigms that have named state (variable cells) make this harder because each variable cell imposes an order (its sequence of values). A common programming style is to have concurrent agents connected by streams. This kind of program can be parallelized simply by partitioning the agents over the cores, which gives a pipelined execution.
+
+## 7 Constraint Programming
+
 
 ---
 
