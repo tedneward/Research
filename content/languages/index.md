@@ -9,39 +9,39 @@ Programming languages are (generally) human-friendly means of getting a computer
 
 ["Programming Paradigms for Dummies: What Every Programmer Should Know"](../paradigms-for-dummies); includes a [chart of the major programming paradigms](http://www.info.ucl.ac.be/people/PVR/paradigmsDIAGRAMeng108.pdf):
 
-* Descriptive declarative programming **[XML](../../formats/xml), [S-expression](../s-expressions)**
+* Descriptive declarative programming **[XML](/formats/xml), [S-expression](/languages/s-expressions)**
 * First-order functional programming
-* Imperative programming **Pascal, [C](../c)**
-* Imperative search programming **SNOBOL, [Icon](../icon), [Prolog](../prolog)**
-* Functional programming **[Scheme](../lisp/scheme), [ML](../ml)**
+* Imperative programming **[Pascal](/languages/pascal), [C](/languages/c)**
+* Imperative search programming **SNOBOL, [Icon](/languages/icon), [Prolog](/languages/prolog)**
+* Functional programming **[Scheme](/languages/lisp/scheme), [ML](/languages/ml)**
 * Deterministic logic programming
-* Relational & logic programming **[Prolog](../prolog), [SQL embeddings](../sql)**
+* Relational & logic programming **[Prolog](/languages/prolog), [SQL embeddings](/languages/sql)**
 * Constraint (logic) programming **CLP, ILOG Solver**
 * Concurrent constraint programming **LIFE, AKL**
-* Lazy concurrent constraint programming **[Oz](../oz), [Alice](../alice), [Curry](../curry)**
-* Continuation programming **[Scheme](../lisp/scheme), [ML](../ml)**
-* Lazy functional programming **[Haskell](../haskell)**
+* Lazy concurrent constraint programming **[Oz](/languages/oz), [Alice](/languages/alice), [Curry](/languages/curry)**
+* Continuation programming **[Scheme](/languages/lisp/scheme), [ML](/languages/ml)**
+* Lazy functional programming **[Haskell](/languages/haskell)**
 * Monotonic dataflow programming
 * Declarative concurrent programming **Pipes, MapReduce**
 * Lazy dataflow programming
-* Lazy dataflow concurrent programming **[Oz](../oz), [Alice](../alice), [Curry](../curry)**
-* ADT functional programming **[Haskell](../haskell), [ML](../ml), [E](../e)**
-* ADT imperative programming **CLU, [OCaml](../ocaml), [Oz](../oz)**
+* Lazy dataflow concurrent programming **[Oz](/languages/oz), [Alice](/languages/alice), [Curry](/languages/curry)**
+* ADT functional programming **[Haskell](/languages/haskell), [ML](/languages/ml), [E](/languages/e)**
+* ADT imperative programming **CLU, [OCaml](/languages/ocaml), [Oz](/languages/oz)**
 * Nonmonotonic dataflow programming
-* Concurrent logic programming **[Oz](../oz), [Alice](../alice), [Curry](../curry), Excel, AKL, FGHC, FCP**
+* Concurrent logic programming **[Oz](/languages/oz), [Alice](/languages/alice), [Curry](/languages/curry), Excel, AKL, FGHC, FCP**
 * Functional reactive programming (FRP)
 * Weak synchronous programming **FrTime, SL**
-* Strong synchronous programming **Esterel, Lustre, Signal**
-* Multi-agent dataflow programming **[Oz](../oz), [Alice](../alice), AKL**
-* Event-loop programming **[E in one val](../e)**
+* Strong synchronous programming **[Esterel](/languages/esterel), Lustre, Signal**
+* Multi-agent dataflow programming **[Oz](/languages/oz), [Alice](/languages/alice), AKL**
+* Event-loop programming **[E in one val](/languages/e)**
 * Multi-agent programming
-* Message-passing concurrent programming **[Erlang](../erlang), AKL**
+* Message-passing concurrent programming **[Erlang](/languages/erlang), AKL**
 * Active object programming
-* Object capabilities programming **CSP, Occam, [E](../e), [Oz](../oz), [Alice](../alice), publish/subscribe, tuple space (Linda)**
+* Object capabilities programming **CSP, Occam, [E](/languages/e), [Oz](/languages/oz), [Alice](/languages/alice), publish/subscribe, tuple space (Linda)**
 * Sequential object-oriented programming
-* Stateful functional programming **[Java](../jvm/java), [OCaml](../ocaml)**
+* Stateful functional programming **[Java](/languages/jvm/java), [OCaml](/languages/ocaml)**
 * Concurrent object-oriented programming
-* Shared-state concurrent programming **[Smalltalk](../smalltalk), [Oz](../oz), [Java](../jvm/java), [Alice](../alice)**
+* Shared-state concurrent programming **[Smalltalk](/languages/smalltalk), [Oz](/languages/oz), [Java](/languages/jvm/java), [Alice](/languages/alice)**
 * Software transactional memory **SQL embeddings**
 
 Declarative, imperative, functional, constraint, logic, relational, concurrent, dataflow, synchronous, mesage-passing, event-loop, object-oriented, stateful, shared-state
