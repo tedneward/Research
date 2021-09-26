@@ -258,28 +258,159 @@ to this organization:
 
 *(It's interesting how Van Roy slices inheritance and polymorphism apart, which is easier to do for languages that use message-passing and dynamic resolution of message-invocation. Theoretically, a statically-compiled language could do the same--resolve at compile time whether the object in question supports the method being invoked and pass or not pass the call--but doing so has always been tied very closely to inheritance and virtual dispatch. Makes me wonder, maybe there's a language concept here where we have objects without inheritance that still support polymorphism--and that there's probably already some languages that do this, but I just haven't noticed it before. Something like*
 
-```
-class Person
-    method Eat(...)
+        ```
+        class Person
+            method Eat(...)
 
-class Pet
-    method Eat(...)
+        class Pet
+            method Eat(...)
 
-class Furniture
-    // no method Eat
+        class Furniture
+            // no method Eat
 
-p := Person()
-p.Eat(...) // compiles
-c := Pet()
-c.Eat(...) // compiles
-t := Furniture()
-t.Eat(...) // ERROR
-```
+        p := Person()
+        p.Eat(...) // compiles
+        c := Pet()
+        c.Eat(...) // compiles
+        t := Furniture()
+        t.Eat(...) // ERROR
+        ```
 
 *... but the real power of polymorphism comes from substitutibility ("all Doctors understand the message 'Cure Me!'", and without inheritance, it's harder to see how this might work in a static language, at least without some form of type inference or generics?)*
 
 ### 5.3 Inheritance and the substitution principle
 
+"The second important principle of object-oriented programming is inheritance. Many abstractions have a lot in common, in what they do but also in their implementations. It can be a good idea to define abstractions to emphasize their common relationship and without repeating the code they share. Repeated code is a source of errors: if one copy is fixed, all copies have to be fixed. It is all too easy to forget some copies or to fix them in the wrong way.
+
+"Inheritance allows to define abstractions incrementally. Definition A can inherit from another definition B: definition A takes definition B as its base and shows how it is modified or extended. The incremental definition A is called a class. However, the abstraction that results is a full definition, not a partial one.
+
+"Inheritance can be a useful tool, but it should be used with care. The possibility of extending a definition B with inheritance can be seen as another interface to B. This interface needs to be maintained throughout the lifetime of B. This is an extra source of bugs. Our recommendation is to use inheritance as little as possible. When defining a class, we recommend to define it as nonextensible if at all possible. In Java this is called a final class.
+
+"Instead of inheritance, we recommend to use composition instead. Composition is a natural technique: it means simply that an attribute of an object refers to another object. The objects are composed together. In this way, it is not necessary to extend a class with inheritance. We use the objects as they are defined to be used.
+
+"If you must use inheritance, then the right way to use it is to follow the substitution principle. Suppose that class A inherits from class B and we have two objects, OA and OB. The substitution principle states that any procedure that works with objects OB of class B must also work with objects OA of class A. In other words, inheritance should not break anything. Class A should be a conservative extension of class B.
+
+"We end our discussion of inheritance with a cautionary tale. In the 1980s, a very large multinational company initiated an ambitious project based on object-oriented programming. Despite a budget of several billion dollars, the project failed miserably. One of the principal reasons for this failure was a wrong use of inheritance. Two main errors were committed:
+
+* "Violating the substitution principle. A procedure that worked with objects of a class no longer worked with objects of a subclass. As a result, many almost-identical procedures needed to be written.
+
+* "Using subclasses to mask bugs. Instead of correcting bugs, subclasses were created to mask bugs, i.e., to test for and handle those cases where the bugs occurred. As a result, the class hierarchy was very deep, complicated, slow, and filled with bugs.
+
+## 6 Deterministic concurrent programming
+
+"One of the major problems of concurrent programming is nondeterminism. An execution of a program is nondeterministic if at some point during the execution there is a choice of what to do next. Nondeterminism appears naturally when there is concurrency: since two concurrent activities are independent, the program’s specification cannot say which executes first. If there are several threads ready to run, then in each execution state the system has to choose which thread to execute next. This choice can be done in different ways; typically there is a part of the system called the scheduler that makes the choice.
+
+"Nondeterminism is very hard to handle if it can be observed by the user of the program. Observable nondeterminism is sometimes called a race condition."
+
+### 6.1 Avoiding nondeterminism in a concurrent language
+
+"We can solve this problem by making a clear distinction between nondeterminism  *inside* the system, which cannot be avoided, and *observable* nondeterminism, which may be avoidable. We solve the problem in two steps:
+
+* First, we limit observable nondeterminism to those parts of the program that really need it. The other parts should have no observable nondeterminism.
+* Second, we define the language so that it is possible to write concurrent programs without observable nondeterminism.
+
+Is it possible to have a concurrent language without observable determinism?
+
+Concurrent paradigm | Races possible? | Inputs can be nondeterministic? | Example languages
+------------------- | --------------- | ------------------------------- | ----------
+Declarative concurrency | No | No | Oz, Alice
+Constraint programming | No | No | Gecode, Numerica
+Functional reactive programming | No | Yes | FrTime, Yampa
+Discrete synchronous programming | No | Yes | Esterel, Lustre, Signal
+Message-passing concurrency | Yes | Yes | Erlang, E
+
+**Declarative concurrency** (also called **monotonic dataflow**). In this paradigm, deterministic inputs are received and used to calculate deterministic outputs. This paradigm lives completely in a deterministic world. If there are multiple input streams, they must be deterministic, i.e., the program must know exactly what input elements to read to calculate each output (for example, there could be a convention that exactly one element is read from each input stream). Two languages that implement this paradigm are Oz [50, 34] and Alice [38]. This paradigm can be made lazy without losing its good properties. The paradigm and its lazy extension are explained in more detail in Section 6.2. Constraint programming is related to declarative concurrency and is explained in Section 7.
+
+There exists also a *nonmonotonic* dataflow paradigm, in which changes on any input are immediately propagated through the program. The changes can be conceptualized as *dataflow tokens* traveling through the program. This paradigm can accept nondeterministic input, but it has the disadvantage that it sometimes adds its own nondeterminism that does not exist in the input (called a “glitch” below). That is why we do not discuss this paradigm further in this chapter. Functional reactive programming is similar to nonmonotonic dataflow but without the glitches.
+
+**Functional reactive programming** (also called **continuous synchronous programming**). In this paradigm, programs are functional but the function arguments can be changed and the change is propagated to the output. This paradigm can accept nondeterministic input and does not add any nondeterminism of its own. Semantically, the arguments are continuous functions of a totally ordered variable (which can correspond to useful magnitudes such as time or size). Implementations typically recompute values only when they change and are needed. Discretization is introduced only when results are calculated [16]. This means that arbitrary scaling is possible without losing accuracy due to approximation. If the changes are propagated correctly, then the functional program does not add any nondeterminism. For example, the simple functional expression `x+(x*y)` with `x=3` and `y=4` gives 15. If `x` is changed to 5, then the expression’s result changes from 15 to 25. Implementing this naively with a concurrent stream connecting a times agent to a plus agent is incorrect. This implementation can give a glitch, for example if the new value of x reaches the addition before the new result of the multiplication. This gives a temporary result of 17, which is incorrect. Glitches are a source of nondeterminism that the implementation must avoid, for example by compile-time preprocessing (doing a topological sort of operations) or thread scheduling constraints. Some languages that implement this paradigm are Yampa (embedded in Haskell) [27] and FrTime (embedded in Scheme) [12].
+
+**Discrete synchronous programming**. In this paradigm, a program waits for input events, does internal calculations, and emits output events. This is called a reactive system. Reactive systems must be deterministic: the same sequence of inputs produces the same sequence of outputs. Like functional reactive programming, this paradigm can accept nondeterministic input and does not add any nondeterminism of its own. The main difference is that time is discrete instead of continuous: time advances in steps from one input event to the next. Output events are emitted at the same logical time instants as the input events.7 All calculations done to determine the next output event are considered to be part of the same time instant. This is exactly what happens in clocked digital logic: combinational circuits are “instantaneous” (they happen within one cycle) and sequential circuits “take time”: they use clocked memory (they happen over several cycles). The clock signal is a sequence of input events. Using discrete time enormously simplifies programming for reactive systems. For example, it means that subprograms can be trivially composed: output events from one subcomponent are instantaneously available as input events in other subcomponents. Some languages that implement this paradigm are Esterel [7], Lustre [21], and Signal [26]. Esterel is an imperative language, Lustre is a functional dataflow language, and Signal is a relational dataflow language. It is possible to combine the discrete synchronous and concurrent constraint paradigms to get the advantages of both. This gives the Timed CC model, which is explained in the chapter by Carlos Olarte et al [35].
+
+All three paradigms have important practical applications and have been realized with languages that have good implementations.
+
+### 6.2 Declarative concurrency
+
+Declarative concurrency has the main advantage of functional programming, namely confluence, in a concurrent model. This means that all evaluation orders give the same result, or in other words, it has no race conditions. It adds two concepts to the functional paradigm: threads and dataflow variables. A thread defines a sequence of instructions, executed independently of other threads. Threads have one operation: `{NewThread P}`: create a new thread that executes the 0-argument procedure `P`. A dataflow variable is a single-assignment variable that is used for synchronization. Dataflow variables have three primitive operations:
+
+* `X={NewVar}`: create a new dataflow variable referenced by X.
+* `{Bind X V}`: bind X to V, where V is a value or another dataflow variable.
+* `{Wait X}`: the current thread waits until X is bound to a value.
+
+Using these primitive operations, we extend all the operations of the language to wait until their arguments are available and to bind their result. For example, we define the operation Add in terms of dataflow variables and a primitive addition operation PrimAdd:
+
+```
+proc {Add X Y Z}
+    {Wait X} {Wait Y}
+    local R in {PrimAdd X Y R} {Bind Z R} end
+end
+```
+
+The call `Z={Add 2 3}` causes `Z` to be bound to 5 (the function output is the procedure’s third argument). We do the same for all operations including the conditional (if) statement (which waits until the condition is bound) and the procedure call (which waits until the procedure variable is bound). The result is a declarative dataflow language.
+
+**Lazy declarative concurrency**: We can add lazy execution to declarative concurrency and still keep the good properties of confluence and determinism. In lazy execution, it is the consumer of a result that decides whether or not to perform a calculation, not the producer of the result. In a loop, the termination condition is in the consumer, not the producer. The producer can even be programmed as an infinite loop. Lazy execution does the least amount of calculation needed to get the result. We make declarative concurrency lazy by adding one concept, by-need synchronization, which is implemented by one operation: `{WaitNeeded X}`: the current thread waits until a thread does `{Wait X}`. This paradigm adds both lazy evaluation and concurrency to functional programming and is still declarative. It is the most general declarative paradigm based on functional programming known so far.9 With WaitNeeded we can define a lazy version of Add:
+
+```
+proc {LazyAdd X Y Z}
+    thread {WaitNeeded Z} {Add X Y Z} end
+end
+```
+
+This is practical if threads are efficient, such as in Mozart. The call `Z={LazyAdd 2 3}` delays the addition until the value of `Z` is needed. We say that it creates a lazy suspension. If another thread executes `Z2={Add Z 4}`, then the suspension will be executed, binding `Z` to 5. If the other thread executes `Z2={LazyAdd Z 4}` instead, then two lazy suspensions are created. If a third thread needs `Z2`, then both will be executed.
+
+**Declarative concurrency and multi-core processors**: Decades of research show that parallel programming cannot be completely hidden from the programmer: it is not possible in general to automatically transform an arbitrary program into a parallel program. There is no magic bullet. The best that we can do is to make parallel programming as easy as possible. The programming language and its libraries should help and not hinder the programmer. Traditional languages such as Java or C++ are poorly equipped for this because shared-state concurrency is difficult. 
+
+Declarative concurrency is a good paradigm for parallel programming. This is because it combines concurrency with the good properties of functional programming. Programs are mathematical functions: a correct function stays correct no matter how it is called (which is not true for objects). Programs have no race conditions: any part of a correct program can be executed concurrently without changing the results. Any correct program can be parallelized simply by executing its parts concurrently on different cores. If the set of instructions to execute is not totally ordered, then this can give a speedup. Paradigms that have named state (variable cells) make this harder because each variable cell imposes an order (its sequence of values). A common programming style is to have concurrent agents connected by streams. This kind of program can be parallelized simply by partitioning the agents over the cores, which gives a pipelined execution.
+
+## 7 Constraint Programming
+
+In constraint programming, we express the problem to be solved as a constraint satisfaction problem (CSP). A CSP can be stated as follows: given a set of variables ranging over well-defined domains and a set of constraints (logical relations) on those variables, find an assignment of values to the variables that satisfies all the constraints. Constraint programming is the most declarative of all practical programming paradigms. The programmer specifies the result and the system searches for it. This use of search harnessesblind chance to find a solution: the system can find a solution that is completely unexpected by the programmer. The chapter by Philippe Codognet explains why this is useful for artistic invention [8].
+
+Constraint programming is at a much higher level of abstraction than all the other paradigms in this chapter. This shows up in two ways. First, constraint programming can impose a global condition on a problem: a condition that is true for a solution. Second, constraint programming can actually find a solution in reasonable time, because it can use sophisticated algorithms for the implemented constraints and the search algorithm. This
+gives the solver a lot of power. For example, path-finding constraints can use shortest path algorithms, multiplication constraints can use prime factorization algorithms, and so forth. Because of its power in imposing both local and global conditions, constraint programming has been used in computer-aided composition [3, 41].
+
+Programming with constraints is very different from programming in the other paradigms of this chapter. Instead of writing a set of instructions to be executed, the programmer models the problem: represent the problem using variables with their domains, define the problem as constraints on the variables, choose the propagators that implement the constraints, and define the distribution and search strategies. For small constraint problems, a naive model works fine. For big problems, the model and heuristics have to be designed with care, to reduce search as much as possible by exploiting the problem structure and properties. The art of constraint programming consists in designing a model that makes big problems tractable.
+
+The power and flexibility of a constraint programming system depend on the expressiveness of its variable domains, the expressiveness and pruning power of its propagators, and the smartness of its CSP solver. Early constraint systems were based on simple domains such as finite trees and integers. Modern constraint systems have added real numbers and recently also directed graphs as domains.
+
+Constraint programming is closely related to declarative concurrency. Semantically, both are applications of Saraswat’s concurrent constraint programming framework [42]. Like declarative concurrency, constraint programming is both concurrent and deterministic. It lives a deterministic world: for a given input it calculates a given output. It differs from declarative concurrency in two main ways. First, it replaces dataflow variables by general constraints. Binding a dataflow variable, e.g., X=V, can be seen as an equality constraint: X is equal to V. Second, it has a more flexible control flow: each constraint executes in its own thread, which makes it into a concurrent agent called a propagator (see Section 7.2). This allows the constraints to better prune the search space.
+
+### 7.1 Some applications of constraint programming
+
+Constraint programming has applications in many areas, such as combinatorics, planning, scheduling, optimization, and goal-oriented programming. The possible applications depend very much on the variable domains and constraints that are implemented in the solver. Simple combinatorial problems can be solved with integers. The variable domain corresponding to an integer is called a finite domain because it contains a finite set of integers. When we say, for example, that `x ∈ {0, · · · , 9}`, we mean that the solution for `x` is an element of the finite set `{0, · · · , 9}`. If we have eight variables `s`, `e`, `n`, `d`, `m`, `o`, `r`, `y`, all in the set `{0, · · · , 9}`, then we can model the `SEND+MORE=MONEY` puzzle (where each letter represents a digit) with the single constraint `1000s+100e+10n+d+1000m+100o+10r+e = 10000m+1000o+100n+10e+y`.
+
+We add the constraints `s > 0` and `m > 0` to ensure the first digits are nonzero and the constraint `alldiff({s, e, n, d, m, o, r, y})` to ensure that all digits are different. To solve this problem intelligently, the constraint solver needs just one more piece of information: a heuristic known as the distribution strategy (see Section 7.2). For this example, a simple heuristic called first-fail is sufficient.
+
+Finite domains are a simple example of a discrete domain. Constraint systems have also been built using continuous domains. For example, the Numerica system uses real intervals and can solve problems with differential equations [48]. The difference between Numerica’s techniques and the usual numerical solution of differential equations (e.g., Runge-Kutta or predictor-corrector methods) is that the constraint solver gives a guarantee: the solution, if it exists is guaranteed to be in the interval calculated by the solver. The usual methods give no guarantee but only an approximate error bound.
+
+**Graph constraints and computer music** Recent research since 2006 has introduced a very powerful discrete domain, namely directed graphs. Variables range over directed graphs and the constraints define conditions on the graphs. These can include simple conditions such as existence or nonexistence of edges or nodes. But what makes the domain truly interesting is that it can also include complex conditions such as transitive closure, the existence of paths and dominators, and subgraph isomorphisms [15, 40, 58]. The complex conditions are implemented by sophisticated graph algorithms. A Gecode library for graph constraints is in preparation as part of the MANCOOSI project [20, 43].
+
+Graph constraints can be used in any problem where the solution involves graphs. The MANCOOSI project uses them to solve the package installability problem for large open-source software distributions. Spiessens has used graph constraints to reason about authority propagation in secure systems [46]. The nodes of an authority graph are subjects and objects. An edge in an authority graph describes a permission: an entity has a right to perform an action on another entity. A path in an authority graph describes an authority: an entity can perform an action, either directly or indirectly. Authority propagation problems can be formulated as graph problems. Since constraint programs are relational, this works in both directions: to find the use conditions for a system with given security properties or the security properties of a system with given use conditions.
+
+A piece of music has a global order. A music score can be represented as a graph. Because of these two facts, we hypothesize that graph constraints can be useful primitives for computer-aided composition. For example, subgraph isomorphism can be used to find or to impose themes throughout a composition. Probably it will be necessary to design new graph constraints for computer music. For example, in a music score, the same theme can often be found in different places and at different time scales, perhaps giving the score a fractal structure. A global constraint can be designed to enforce this condition.
+
+### 7.2 How the constraint solver works
+
+In principle, solving a CSP is easy: just enumerate all possible values for all variables and test whether each enumeration is a solution. This naive approach is wildly impractical. Practical constraint solvers use much smarter techniques such as local search or the propagate-distribute algorithm (explained in this section). The latter reduces the amount of search by alternating propagate and distribute steps (for more information see, which explains the Gecode library):
+
+* *Propagate step*: Reduce the domains of the variables in size as much as possible according to the propagators. A propagator is a concurrent agent that implements a constraint. It is triggered when the domains of any of its arguments change. It then attempts to further reduce the domains of its arguments according to the constraint it implements. Propagators can trigger each other through shared arguments. They execute until no more reduction is possible (a fixpoint). This leads to three possibilities: a solution, a failure (no solution), or an incomplete solution.
+
+* *Distribute step*: For each incomplete solution, choose a constraint C and split the problem P into two subproblems `P ∧ C` and `P ∧ ¬C`. This increases the number of problems to solve, but each problem may be easier to solve since it has extra information `(C or ¬C)`. This step is the most primitive form of search.
+
+    The algorithm then continues with propagate steps for the two subproblems. This creates a binary tree called the search tree. The efficiency of the propagate-distribute algorithm depends on three factors that can be chosen independently (). 
+
+* *Propagation over the constraint domains.* This defines how much propagation (pruning) is done by the propagators. This depends on two factors: the sophistication of the propagators and the expressiveness of the constraint domains. Propagators can implement highly sophisticated algorithms that depend on deep theoretical results. For example, the multiplication propagator A*B=:C can use factorization algorithms to improve propagation. For positive integers A and B, the multiplication propagator A*B=:12 will either reduce to `A,B ∈ {1, · · · , 12}` or `A,B ∈ {1, 2, 3, 4, 6, 12}`, depending on whether the constraint domains can have “holes” or not. Better propagation and more expressive constraint domains reduce the number of distribution steps (less search) at the cost of more propagation (more inferencing). Depending on the problem, this may or may not be a good trade-off.
+
+* *Distribution strategy.* This heuristic defines how the constraint C is chosen for each distribute step. A good choice of C depends on the structure of the problem and the distribution of its solutions. For example, the first-fail heuristic finds the variable with the smallest domain and chooses the first value in this domain.
+
+* *Search strategy.* This heuristic defines how the search tree is traversed. Typical traversals are depth-first or breadth-first, but many more sophisticated traversals exist, such as A*, iterative deepening, and limited discrepancy. A* finds the shortest path by guiding the search with a heuristic function: actual distance traveled plus estimated remaining distance to goal. The estimation must not be greater than the actual remaining distance. Iterative deepening and limited discrepancy do progressively wider searches, starting with a bound of 1 and incrementing the bound after each traversal. Iterative deepening uses a depth bound and limited discrepancy uses a discrepancy bound (for example, the number of differences with respect to a depth-first path).
+
+## 8 Conclusion
+
+Programming languages should support several paradigms because different problems require different concepts to solve them. We showed several ways to achieve this: dual-paradigm languages that support two paradigms and a definitive language with four paradigms in a layered structure. Each paradigm has its own “soul” that can only be understand by actually using the paradigm. We recommend that you explore the paradigms by actually programming in them. Each paradigm has programming languages that support it well with their communities and champions. For example, we recommend [Haskell](/languages/haskell) for lazy functional programming, [Erlang](/languages/erlang) for message-passing concurrency, [SQL](/languages/sql) for transactional programming, [Esterel](/languages/esterel) for discrete synchronous programming, and [Oz](/languages/oz) for declarative concurrency and constraint programming.
+
+If you want to explore how to use different paradigms in one program, we recommend a multiparadigm language like [Oz](/languages/oz), [Alice](/languages/jvm/alice), [Curry](/languages/curry), or [CIAO](/languages/ciao). ... There is a big difference between a language that is designed from the start to be multiparadigm (like Oz) and a language that contains many programming concepts (like Common Lisp). A true multiparadigm language is factored: it is possible to program in one paradigm without interference from the other paradigms.
+
 ---
 
-Best footnote from the paper: "Similar reasoning *[referencing the statements "With n concepts, it is theoretically possible to construct 2n paradigms. Of course, many of these paradigms are useless in practice, such as the empty paradigm (no concepts)"]* explains why Baskin-Robbins has exactly 31 flavors of ice cream. We postulate that they have only 5 flavors, which gives 25 − 1 = 31 combinations with at least one flavor. The 32nd combination is the empty flavor. The taste of the empty flavor is an open research question."
+Best footnote from the paper: "Similar reasoning *[referencing the statements "With n concepts, it is theoretically possible to construct 2n paradigms. Of course, many of these paradigms are useless in practice, such as the empty paradigm (no concepts)"]* explains why Baskin-Robbins has exactly 31 flavors of ice cream. We postulate that they have only 5 flavors, which gives 2^5 − 1 = 31 combinations with at least one flavor. The 32nd combination is the empty flavor. The taste of the empty flavor is an open research question."
