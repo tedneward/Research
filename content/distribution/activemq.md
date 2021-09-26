@@ -1,5 +1,5 @@
 title=ActiveMQ
-tags=distribution, messaging, jvm
+tags=distribution, message-passing, jvm
 summary=The most popular open source, multi-protocol, Java-based message broker.
 ~~~~~~
 

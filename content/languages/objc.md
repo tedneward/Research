@@ -1,5 +1,5 @@
 title=Objective-C
-tags=language, native, object, dynamic, compiled, macos, ios
+tags=language, native, object, dynamic, compiled, macos, ios, message-passing
 summary=The other object-oriented take on C, based much more directly on the message-passing principles of Smalltalk.
 ~~~~~~
 
