@@ -122,6 +122,8 @@ Reading: [*Garbage Collection Handbook*](https://gchandbook.org/), [*Garbage Col
 
 ### Type-checking
 
+[What to know before debating type systems](https://cdsmith.wordpress.com/2011/01/09/an-old-article-i-wrote/)
+
 * [Static](/tags/static):
 
 * [Dynamic](/tags/dynamic):
@@ -160,6 +162,8 @@ Note that while these terms usually are applied most directly to programming lan
 [Principles of Programming Languages](https://felleisen.org/matthias/4400-s20/lectures.html)
 
 * **Type systems and type safety**
+
+	* [Luca Cardelli: Type Systems](http://lucacardelli.name/Papers/TypeSystems.pdf)
 
 	* [Type Safety in Three Easy Lemmas](https://siek.blogspot.com/2013/05/type-safety-in-three-easy-lemmas.html)
 
