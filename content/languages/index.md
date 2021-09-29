@@ -130,7 +130,12 @@ Most types break out into the following categories:
 * **Primitives**: the atoms of the programming language; usually things like integers, strings, booleans, and so on. The internal representation of a primitive is usually entirely opaque to the programmer without significant effort (like taking memory addresses and poking around). 
 	* **Booleans**: true/false values
 	* **Integrals**: non-fractional/whole numbers, often using the first bit to indicate sign (positive or negative). Using twos-complement math, this gives a fairly large range of integral numbers, depending on how many bytes are used for the integral:
-		* 1-byte/8-bit: 
+		* 1-byte/8-bit: -128 to +127/0 to 255
+		* 2-byte/16-bit: -32k to +32k/0 to 64k
+		* 4-byte/32-bit: -2,147,483,648 to +2,147,483,647/0 to 4gb
+		* 8-byte/64-bit: if you have to ask...
+		* 16-byte/128-bit: if you have to ask...
+		* "word" or "natural" sized, which is the natural "size" of the CPU (typically, in 2021, this is 64 bits)
 	* **Floating-points**: fractional numbers, usually represented in [IEEE 754](https://ieeexplore.ieee.org/document/8766229) ([Wikipedia](https://en.wikipedia.org/wiki/IEEE_754)) format.
 	* **Pointers**: One common primitive type is a pointer to a memory location (whether directly manipulable by the programmer or not); Java, for example, talks about `Object o = new Object();` as allocating an object `o`, but in truth `o` is a reference to the object created, not the object itself. The reference `o` is allocated on the stack, whereas the object `o` points to is allocated out of the heap.
 
