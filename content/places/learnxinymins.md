@@ -5,6 +5,8 @@ summary=Website collection of numerous "Learn You" style tutorials.
 
 [Website](https://learnxinyminutes.com/) | [Source](https://github.com/adambard/learnxinyminutes-docs)
 
+Slowly many of these are being integrated into their respective pages within this garden.
+
 Current list:
 
 **Algorithms & Data Structures**
