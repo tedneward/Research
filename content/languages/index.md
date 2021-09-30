@@ -137,7 +137,7 @@ Most types break out into the following categories:
 		* 16-byte/128-bit: if you have to ask...
 		* "word" or "natural" sized, which is the natural "size" of the CPU (typically, in 2021, this is 64 bits)
 	* **Floating-points**: fractional numbers, usually represented in [IEEE 754](https://ieeexplore.ieee.org/document/8766229) ([Wikipedia](https://en.wikipedia.org/wiki/IEEE_754)) format.
-	* **Pointers**: One common primitive type is a pointer to a memory location (whether directly manipulable by the programmer or not); Java, for example, talks about `Object o = new Object();` as allocating an object `o`, but in truth `o` is a reference to the object created, not the object itself. The reference `o` is allocated on the stack, whereas the object `o` points to is allocated out of the heap.
+	* **Pointers**: One common primitive type is a pointer to a memory location (whether directly manipulable by the programmer or not); Java, for example, talks about `Object o = new Object();` as allocating an object `o`, but in truth `o` is a reference to the object created, not the object itself. The reference `o` is allocated on the stack, whereas the object `o` points to is allocated out of the heap. Pointers/references are almost always word/natural-sized.
 
 * **Composite**: these are the various "structures" that a programmer can build up out of primitives. Some are built within the language (arrays within C/C++/Java/C#, etc), some are built using language constructs (`class` or `struct` within C++/Java/C#/etc). I tend to break these into "simple composite types" (composites provided by the language itself) and "complex composite types" (composites defined by the developer), also sometimes known as "user-defined types" (UDTs).
 
@@ -145,11 +145,33 @@ Most types break out into the following categories:
 
 ### [Type-checking](https://en.wikipedia.org/wiki/Type_system#Type_checking)
 
+The existence of types is useless without a process of verifying that those types make logical sense in the program so that the program can be executed successfully. Type checking is the process of verifying and enforcing the constraints of types, and it can occur either at ahead-of-(execution-)time (i.e. statically) or at runtime/execution time (i.e. dynamically). Type checking is all about ensuring that the program will not encounter errors due to inappropriate or undefined intersection of types; a type error is an erroneous program behavior in which an operation occurs (or trys to occur) on a particular data type that it’s not meant to occur on.
+
+When a program is considered not type-safe, there is no single standard course of action that happens upon reaching a type error. Many programming languages throw type errors which halt the runtime or compilation of the program, while other languages have built-in safety features to handle a type error and continue running (allowing developers to exhibit poor type safety).
+
 [What to know before debating type systems](https://cdsmith.wordpress.com/2011/01/09/an-old-article-i-wrote/)
 
-* [Static](/tags/static):
+* [Static](/tags/static): A language is statically-typed if the type of a variable is known at ahead-of-(execution-)time instead of at runtime. Since most ahead-of-time checking is considered compilation, most statically-type-checked languages are compilation-based languages, though certainly nothing stops an interpreter from statically-type-checking a program when it is first loaded. Consequences include:
 
-* [Dynamic](/tags/dynamic):
+	* Many type errors, because they are often programmer mental mistakes, can be caught early in the development cycle and thus never appear to the user.
+	* Static typing information can be used to optimize compiled code that executes more quickly because when the compiler knows the exact data types that are in use, it can produce better machine code (i.e. faster and/or using less memory).
+	* A static type-checker will quickly detect type errors in rarely used code paths. Without static type checking, even code coverage tests with 100% coverage may be unable to find such type errors.
+	* Static type-checkers make it nearly impossible to manually raise a type error in code because even if that code block hardly gets called, the type-checker would almost always find a situation/codepath that will yield the possibility of that type error occurring at runtime and thus prevent compilation/execution (because a type error was raised).
+	* Many/most static type checkers evaluate only the type information that can be determined at compile time, but are able to verify that the checked conditions hold for all possible executions of the program, which eliminates the need to repeat type checks every time the program is executed; this can also yield faster startup times.
+
+* [Dynamic](/tags/dynamic): Dynamic type checking is the process of verifying the type safety of a program at runtime.
+
+	Most type-safe languages include some form of runtime/dynamic type checking, even if they also have a static type checker; many useful features or properties are difficult or impossible to verify statically. Languages frequently want to allow a programmer to assert (cast) that a given returned value is, in fact, of a different type; the assumption is that the programmer has awareness of how the code will execute at runtime that the compiler cannot verify. However, humans are fallible creatures, and blindly accepting the cast could yield significant error or corruption. Therefore, a dynamic check is needed to verify that the operation is safe. Consequences:
+	
+	* In contrast to static type checking, dynamic type checking may cause a program to fail at runtime due to type errors.
+
+	* In some programming languages, it is possible to anticipate and recover from these failures – either by error handling or blindly carrying on assuming everything will work out. In others, type checking errors are considered fatal. Because type errors are more difficult to determine in dynamic type checking, it is a common practice to supplement development in these languages with unit testing.
+
+	* Dynamic type checking typically results in less optimized code than does static type checking. (Modern runtimes and JIT compilers can offset this, but usually by doing static type analysis at runtime and then generating/compiling code for direct execution--in essence, just pushing the compilation process to the last possible moment before execution.)
+
+	* Dynamic type checking forces runtime checks to occur for every execution of the program (instead of just at compile-time).
+
+	* It opens up the doors for more powerful language features and makes certain other development practices significantly easier. For example, metaprogramming – especially when using `eval` functionality – is not impossible in statically-typed languages, but it is much, much easier to work with in dynamically-typed languages.
 
 Note that while these terms usually are applied most directly to programming languages, there's a strong case to be made that they apply to other areas of programming, too, like storage. A relational database, for example, could be said to be a strongly-type-safe (because it insists on only integers in INTEGER columns) and statically-type-checked (since it parses SQL and does type-checking).
 
@@ -165,7 +187,7 @@ Note that while these terms usually are applied most directly to programming lan
 ## Comparisons
 [Syntax across languages](http://rigaux.org/language-study/syntax-across-languages.html): One large page of comprehensive syntax across languages | [Quick comparison of ten non-mainstream languages](http://www.h3rald.com/articles/10-programming-languages/) | [List of multiparadigm languages](http://en.wikipedia.org/wiki/List_of_multi-paradigm_programming_languages) | [Hostiness: List of languages targeting an existing host platform](http://blog.fogus.me/2012/10/09/hostiness/) | [Advanced programming languages](http://matt.might.net/articles/best-programming-languages/) -- thoughts on [Haskell](../haskell), Scala, [Scheme](../lisp/scheme), SML, [OCaml](../ocaml) | ["Six programming paradigms that will change how you think about coding"](https://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/) | ['A Language a Day'](https://andrewshitov.com/2019/11/25/a-language-a-day-advent-calendar-2019/) | ["Dimensional Analysis in Programming Languages: A survey of existing designs/implementations for automatic conversion and verification of units of measurement in computer programs"](https://gmpreussner.com/research/dimensional-analysis-in-programming-languages)
 
-["Bits of History, Words of Advice"](http://gbracha.blogspot.com/2020/05/bits-of-history-words-of-advice.html): The creator of [Newspeak](../smalltalk/newspeak) and one of the core developers working on [Java](../jvm/java) and the [JVM](/platforms/jvm) offers some advice about Smalltalk's lack of success in the mainstream.
+["Bits of History, Words of Advice"](http://gbracha.blogspot.com/2020/05/bits-of-history-words-of-advice.html): The creator of [Newspeak](/languages/smalltalk/newspeak) and one of the core developers working on [Java](../jvm/java) and the [JVM](/platforms/jvm) offers some advice about Smalltalk's lack of success in the mainstream.
 
 ## Implementation
 
@@ -241,8 +263,6 @@ Note that while these terms usually are applied most directly to programming lan
 
 	* [SSA book](http://ssabook.gforge.inria.fr/latest/)
 
-
-
 * http://jschuster.org/blog/2016/11/29/getting-started-in-programming-languages/
 
 * [SIGPLAN Awards](http://www.sigplan.org/Awards/)
@@ -253,12 +273,15 @@ Note that while these terms usually are applied most directly to programming lan
 
 * [Classic Papers in Programming Languages and Logic](https://www.cs.cmu.edu/~crary/819-f09/) by Karl Crary
 
-
 *  [learn-programming-languages](https://github.com/jeanqasaur/learn-programming-languages)
 	- Resources for the working programmer to learn more about the fundamentals and theory of programming languages.
 	- Jean Yang
 
+---
+
 [Lingua.NET](https://archive.codeplex.com/?p=lingua): Discontinued/archived CodePlex parser generator. Archived content copied locally [here](../dotnet/lingua.zip).
+
+---
 
 ## Fun
 ["History of Programming Languages"](http://thequickword.wordpress.com/2014/02/16/james-irys-history-of-programming-languages-illustrated-with-pictures-and-large-fonts/) by James Iry. Illustrated--pictures and large fonts. | ["Say something you dislike about a language you love"](https://lobste.rs/s/2cw6ov/say_something_you_dislike_about_language) | ["Say something nice about a language you dislike"](https://lobste.rs/s/hib1ui/say_something_nice_about_programming)
