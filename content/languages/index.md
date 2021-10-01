@@ -66,7 +66,15 @@ My ontology:
 
 * Procedural: Characterized by imperative execution statements with well-defined entry and exit points.
 
-* [Object-oriented](/tags/object): Characterized by the union of state and behavior into a first-class concept, either at compile-time, run-time, or both.
+* [Object-oriented](/tags/object): Characterized by the union of state and behavior into a first-class concept, either at compile-time, run-time, or both. Ontological/categorical relationships between objects are often (though not always) possible, usually capturing some form of additive reuse, aka "inheritance". Objects are usually broken into two different kinds of object systems, typically depending on whether they are ahead-of-(execution-)time type-checked or not:
+
+	* "Class"-based object languages: The more "traditional" OOP systems in which an object is forged out of a template/"cookie-cutter" expression known as a *class*. Typically these languages are compiled and strongly-type-checked, and if runtime inspection facilites (reflection) are available, they will be read-only. Objects obtained as part of the runtime inspection facilities are generally read-only, and often cached/singletonized/memoized.
+
+	* "Prototype"-based object languages: Most popularized by [ECMAScript](/languages/ecmascript), prototype-based object languages have long existed, going as far back as CLOS, Self, Smalltalk, and others. Here, inheritance is a runtime relationship understood by the runtime (an object is cloned from a prototype "class" object, and as part of that cloning process a well-known pointer/reference is established back to the "class" object for "class"-level properties/methods), and is often malleable. Most prototype-object languages are dynamically-typed and often weakly-typechecked, since the runtime doesn't have *a priori* knowledge of how the various relationships are set up after the program has begun execution.
+
+	Note that any language which supports [records](http://research.tedneward.com/languages/paradigms-for-dummies) (4.1) and [lexical function closures](http://research.tedneward.com/languages/paradigms-for-dummies) (4.2) can build objects "by hand", and even support inheritance by defining a runtime convention of a particularly-named-slot in a record to hold a reference to a prototype object. Given that functional languages often support both, this often leads to (a) functional-object hybrid languages with varying degrees of support for both, or (b) functional language zealots to insist that objects are unnecessary.
+
+	Most object languages are imperative when defining methods, though this is not a requirement.
 
 * [Functional](/tags/functional): Characterized by mathematics-inspired functions as first-class concepts. Preference for expressions over statements, lazy execution, immutable values, and so on. | [Wikipedia](https://en.wikipedia.org/wiki/Functional_programming) | Some [reading](/reading/functional) | Functional programming brought us [monads](/reading/monads) and all the fun that goes with that. Frequently cites/builds off of the [lambda calculus](http://en.wikipedia.org/wiki/Lambda_calculus).
 
@@ -177,17 +185,21 @@ Note that while these terms usually are applied most directly to programming lan
 
 ### Type-safety
 
-* Strongly:
+* Strong: A strongly-typed language is one in which variables are bound to specific data types, and will result in type errors if types to not match up as expected in the expression. A simple way to think of strong typing is to consider it to be a guarantor of high degrees of type safety. 
 
-* Weakly:
+* Weak: A weakly-typed language on the other hand is a language in which variables are not bound to a specific data type; they still have a type, but type safety constraints are lower compared to strongly-typed languages. 
 
 Note that while these terms usually are applied most directly to programming languages, there's a strong case to be made that they apply to other areas of programming, too, like storage. A relational database, for example, could be said to be a strongly-type-safe (because it insists on only integers in INTEGER columns) and statically-type-checked (since it parses SQL and does type-checking).
 
+### Runtime Introspection and Modification
+
+Types can often be inspected at runtime regardless of the type-safe or type-checked nature of the language/platform; in many languages/platforms, the process of inspection is known as "reflection".
+
 
 ## Comparisons
-[Syntax across languages](http://rigaux.org/language-study/syntax-across-languages.html): One large page of comprehensive syntax across languages | [Quick comparison of ten non-mainstream languages](http://www.h3rald.com/articles/10-programming-languages/) | [List of multiparadigm languages](http://en.wikipedia.org/wiki/List_of_multi-paradigm_programming_languages) | [Hostiness: List of languages targeting an existing host platform](http://blog.fogus.me/2012/10/09/hostiness/) | [Advanced programming languages](http://matt.might.net/articles/best-programming-languages/) -- thoughts on [Haskell](../haskell), Scala, [Scheme](../lisp/scheme), SML, [OCaml](../ocaml) | ["Six programming paradigms that will change how you think about coding"](https://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/) | ['A Language a Day'](https://andrewshitov.com/2019/11/25/a-language-a-day-advent-calendar-2019/) | ["Dimensional Analysis in Programming Languages: A survey of existing designs/implementations for automatic conversion and verification of units of measurement in computer programs"](https://gmpreussner.com/research/dimensional-analysis-in-programming-languages)
+[Syntax across languages](http://rigaux.org/language-study/syntax-across-languages.html): One large page of comprehensive syntax across languages | [Quick comparison of ten non-mainstream languages](http://www.h3rald.com/articles/10-programming-languages/) | [List of multiparadigm languages](http://en.wikipedia.org/wiki/List_of_multi-paradigm_programming_languages) | [Hostiness: List of languages targeting an existing host platform](http://blog.fogus.me/2012/10/09/hostiness/) | [Advanced programming languages](http://matt.might.net/articles/best-programming-languages/) -- thoughts on [Haskell](/languages/haskell), Scala, [Scheme](/languages/lisp/scheme), [SML](/languages/ml), [OCaml](/languages/ocaml) | ["Six programming paradigms that will change how you think about coding"](https://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/) | ['A Language a Day'](https://andrewshitov.com/2019/11/25/a-language-a-day-advent-calendar-2019/) | ["Dimensional Analysis in Programming Languages: A survey of existing designs/implementations for automatic conversion and verification of units of measurement in computer programs"](https://gmpreussner.com/research/dimensional-analysis-in-programming-languages)
 
-["Bits of History, Words of Advice"](http://gbracha.blogspot.com/2020/05/bits-of-history-words-of-advice.html): The creator of [Newspeak](/languages/smalltalk/newspeak) and one of the core developers working on [Java](../jvm/java) and the [JVM](/platforms/jvm) offers some advice about Smalltalk's lack of success in the mainstream.
+["Bits of History, Words of Advice"](http://gbracha.blogspot.com/2020/05/bits-of-history-words-of-advice.html): The creator of [Newspeak](/languages/smalltalk/newspeak) and one of the core developers working on [Java](/languages/jvm/java) and the [JVM](/platforms/jvm) offers some advice about Smalltalk's lack of success in the mainstream.
 
 ## Implementation
 
