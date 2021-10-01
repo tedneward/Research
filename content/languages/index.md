@@ -16,9 +16,9 @@ See also [Language Places](/places/languages) and [PLZoo](/places/plzoo)
 
 ## Language concepts
 
-(Some of this derives from [here](https://thecodeboss.dev/2015/11/programming-concepts-static-vs-dynamic-type-checking/) and [here](https://thecodeboss.dev/2016/02/programming-concepts-type-introspection-and-reflection/) and [here](https://thecodeboss.dev/2015/07/programming-concepts-compiled-and-interpreted-languages/), and others from that series, although there *are some incorrect statements in those articles*, IMHO.)
-
 ### Syntax/paradigms
+[Toward a better programming](https://www.chris-granger.com/2014/03/27/toward-a-better-programming/)
+
 ["Programming Paradigms for Dummies: What Every Programmer Should Know"](../paradigms-for-dummies); includes a [chart of the major programming paradigms](http://www.info.ucl.ac.be/people/PVR/paradigmsDIAGRAMeng108.pdf):
 
 * Descriptive declarative programming **[XML](/formats/xml), [S-expression](/languages/s-expressions)**
@@ -85,6 +85,19 @@ My ontology:
 
 	Some [slides](https://tminka.github.io/papers/mlss2009/WinnMinka-ProbabilisticProgramming-slides.pdf) on the concept; they mention a Microsoft Research language, Csoft, that does not appear in Google, and reference [InferNET](/libraries/infernet.html) as being close to what Csoft was supposed to offer.
 
+Lists:
+- [Quick comparison of ten non-mainstream languages](http://www.h3rald.com/articles/10-programming-languages/): [Haskell](/languages/haskell), [Erlang](/languages/erlang), [Io](/languages/io), [PLT Scheme](/languages/lisp/scheme), [Clojure](/languages/clojure), [Squeak](/languages/smalltalk/squeak), [OCaml](/languages/ocaml), [Factor](/languages/factor), [Lua](/languages/lua), [Scala](/languages/scala)
+- [List of multiparadigm languages](http://en.wikipedia.org/wiki/List_of_multi-paradigm_programming_languages)
+- [Hostiness: List of languages targeting an existing host platform](http://blog.fogus.me/2012/10/09/hostiness/)
+- [Advanced programming languages](http://matt.might.net/articles/best-programming-languages/) -- thoughts on [Haskell](/languages/haskell), [Scala](/languages/jvm/scala), [Scheme](/languages/lisp/scheme), [SML](/languages/ml), [OCaml](/languages/ocaml)
+- ["Six programming paradigms that will change how you think about coding"](https://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/): Concurrent by default ([ANI](/languages/ani), [Plaid](/languages/plaid)), Dependent types ([Idris](/languages/idris), [Agda](/languages/agda), [Coq](/languages/coq)), Concatenative languages ([Forth](/languages/forth), [cat](/languages/cat), [Joy](/languages/joy)), Declarative languages ([Prolog](/languages/prolog), [SQL](/languages/sql)), Symbolic programming ([Aurora](/languages/aurora)), Knowledge-based programming ([Wolfram](/languages/wolfram))
+- ['A Language a Day' Advent Calendar 2019](https://andrewshitov.com/2019/11/25/a-language-a-day-advent-calendar-2019/)
+
+Reading:
+- [Syntax across languages](http://rigaux.org/language-study/syntax-across-languages.html): One large page of comprehensive syntax across languages
+- [Concurrency is not Parallelism](https://vimeo.com/49718712)
+- ["Dimensional Analysis in Programming Languages: A survey of existing designs/implementations for automatic conversion and verification of units of measurement in computer programs"](https://gmpreussner.com/research/dimensional-analysis-in-programming-languages)
+
 ### Memory management
 
 Reading: [*Garbage Collection Handbook*](https://gchandbook.org/), [*Garbage Collection*](https://www.cs.kent.ac.uk/people/staff/rej/gcbook/)
@@ -101,19 +114,33 @@ Reading: [*Garbage Collection Handbook*](https://gchandbook.org/), [*Garbage Col
 
 * **Automated** (aka garbage collection):
 
-	* Allocate without reclamation:
+	* **Allocate without reclamation**: Technically, this is a legal automatic memory management technique, though obviously it is optimized more for performance of allocation and reclamation (i.e., zero time spent reclamation) than longevity.
 
-	* Smart pointers:
+	* **Reference counting**: Each allocated object has a count associated with it indicating how many references are currently pointing to it. When the reference count drops to zero, the object is eligible for reclamation. Reference counts can either be managed automatically (as in, the language/runtime manage it without programmer intervention required) or manually (programmers must ensure they call some kind of `release` method or function to indicate a finished state of use). Reference counting is highly vulnerable to mutually-referencing objects (cyclic object graphs) as a source of memory leaks.
 
-	* Reference counting:
+	* **Smart pointers**: Most smart pointers are small "wrappers" around native pointers, carrying a reference count that tries to be as automatic as possible. Most popular in C++ implementations, though some languages (Rust) look to incorporate smart-pointer-type semantics directly into the language.
 
-	* Mark-Sweep:
+	* **Reachability**: When moving beyond pointer/reference-based schemes, most automated memory systems need to know which objects are eligible for reclamation, and which aren't--in essence, which are still under the possibility of being used by code. (An automatic memory system should ***never*** deallocate an object that is in use.) This analysis is usually known as "reachability" analysis, that is, finding which objects are "reachable" by user code, and therefore unsafe to reclaim. Many systems have multiple possibilities of reachability: 
+		* reachable (in use)
+		* softly reachable: Softly-reachable objects are eligible for reclamation, but are not reclaimed except and until memory pressure is too great (in other words, the runtime will fail if space is not found). Useful for caching behavior.
+		* weakly reachable: An object is weakly reachable when the garbage collector finds no strong or soft references, but at least one path to the object with a weak reference. Weakly reachable objects are finalized some time after their weak references have been cleared. The only real difference between a soft reference and a weak reference is that the garbage collector uses algorithms to decide whether or not to reclaim a softly reachable object, but always reclaims a weakly reachable object. Weak references work well in applications that need to, for example, associate extra data with an unchangeable object, such as a thread the application did not create. Systems with weak references usually have some form of notification system when the referent is cleared, such as Java's `ReferenceQueue` mechanic. If you make a weak reference to the thread with a reference queue, your program can be notified when the thread is no longer strongly reachable. Upon receiving this notification, the program can perform any required cleanup of the associated data object. This makes them useful for object-pooling kinds of behavior.
+		* "f-reachable": an object queued by the runtime for reclamation but still requires its finalizer to run; thus it is reachable only by the finalizer thread/mechanism within the runtime.
+		* phantom-reachable: An object is phantomly reachable when the garbage collector finds no strong, soft, or weak references, but at least one path to the object with a phantom reference. Phantomly reachable objects are objects that have been finalized, but not reclaimed. These are the hardest to use, but offer a mechanism by which to do cleanup after a finalizer has been executed, essentially providing another way to do resource cleanup.
+		* unreachable (not in use)
 
-	* Mark-Sweep-Compact:
+		Reading: [Monica Pawlan's original article](http://pawlan.com/monica/articles/refobjs/) | [Java reference types](https://www.kdgregory.com/index.php?page=java.refobj)
 
-	* Copying:
+	* **Mark-Sweep**: 
 
-	* Generational:
+	* **Mark-Sweep-Compact**:
+
+	* **Arena**:
+
+	* **Copying**:
+
+	* **Generational**:
+
+	* **Finalizers**: Blocks of code to be run to assist with object reclamation efforts, for those situations in which just releasing the memory occupied is not sufficient to release all allocated resources (files, connections, locks, etc). These need to be run prior to the object's deallocation, since the variable state inside the object is often necessary as part of the resource-deallocation process, but this is usually running on a thread owned by the runtime, which means this is a scenario in which user code is being run on a runtime-owned thread, which raises all sorts of negative possibilities.
 
 	Reading: [Memory Management Reference (site)](https://www.memorymanagement.org/), [CS 4120/5120 Lecture notes](https://www.cs.cornell.edu/courses/cs4120/2018sp/lectures/39gc/lec39-sp18.pdf) (Andrew Myers), [Plumbr Handbook Java GC](https://plumbr.io/java-garbage-collection-handbook), [Python GC](https://stackify.com/python-garbage-collection/), [CPython GC](https://devguide.python.org/garbage_collector/), [Memory Mgmt and GC in Python](https://towardsdatascience.com/memory-management-and-garbage-collection-in-python-c1cb51d1612c)
 
@@ -197,26 +224,13 @@ Types can often be inspected at runtime regardless of the type-safe or type-chec
 
 
 ## Comparisons
-[Syntax across languages](http://rigaux.org/language-study/syntax-across-languages.html): One large page of comprehensive syntax across languages | [Quick comparison of ten non-mainstream languages](http://www.h3rald.com/articles/10-programming-languages/) | [List of multiparadigm languages](http://en.wikipedia.org/wiki/List_of_multi-paradigm_programming_languages) | [Hostiness: List of languages targeting an existing host platform](http://blog.fogus.me/2012/10/09/hostiness/) | [Advanced programming languages](http://matt.might.net/articles/best-programming-languages/) -- thoughts on [Haskell](/languages/haskell), Scala, [Scheme](/languages/lisp/scheme), [SML](/languages/ml), [OCaml](/languages/ocaml) | ["Six programming paradigms that will change how you think about coding"](https://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/) | ['A Language a Day'](https://andrewshitov.com/2019/11/25/a-language-a-day-advent-calendar-2019/) | ["Dimensional Analysis in Programming Languages: A survey of existing designs/implementations for automatic conversion and verification of units of measurement in computer programs"](https://gmpreussner.com/research/dimensional-analysis-in-programming-languages)
-
 ["Bits of History, Words of Advice"](http://gbracha.blogspot.com/2020/05/bits-of-history-words-of-advice.html): The creator of [Newspeak](/languages/smalltalk/newspeak) and one of the core developers working on [Java](/languages/jvm/java) and the [JVM](/platforms/jvm) offers some advice about Smalltalk's lack of success in the mainstream.
 
 ## Implementation
 
+[More reading](/reading/compilers)
+
 [Crash Course on Notation in Programming Language Theory](http://siek.blogspot.com/2012/07/crash-course-on-notation-in-programming.html), Jeremy G. Siek; LambdaConf 2018 [Part 1](https://www.youtube.com/watch?v=vU3caZPtT2I), [Part 2](https://www.youtube.com/watch?v=MhuK_aepu1Y) [Slides](https://www.dropbox.com/s/joaq7m9v75blrw5/pl-notation-lambdaconf-2018.pdf?dl=1)
-
-[Brown CS: CSCI 1730: Programming Languages](http://cs.brown.edu/courses/csci1730/2012/) [Videos](http://cs.brown.edu/courses/cs173/2012/Videos/)
-
-[OPLSS (Oregon Programming Languages Summer School)](https://cs.uoregon.edu/research/summerschool/)
-	- 2019-2017, 2003: https://www.youtube.com/channel/UCDe6N9R7U-RYWA57wzJQ2SQ/playlists
-	- 2016-2015: https://www.youtube.com/channel/UCsON_8vogp4nCQFTnfu43kA/playlists
-	- free video lectures available, including the introductory ones based on Practical Foundations for Programming Languages: http://www.cs.cmu.edu/~rwh/pfpl/
-
-[Programming Language Implementation Summer School (PLISS)](https://pliss2019.github.io/talks.html) [YouTube](https://www.youtube.com/channel/UCofC5zis7rPvXxWQRDnrTqA/playlists)
-
-[*Programming Languages: Application and Interpretation*](http://cs.brown.edu/~sk/Publications/Books/ProgLangs/) by Shriram Krishnamurthi
-
-[Principles of Programming Languages](https://felleisen.org/matthias/4400-s20/lectures.html)
 
 * **Type systems and type safety**
 
@@ -224,22 +238,7 @@ Types can often be inspected at runtime regardless of the type-safe or type-chec
 
 	* [Type Safety in Three Easy Lemmas](https://siek.blogspot.com/2013/05/type-safety-in-three-easy-lemmas.html)
 
-	* [On the Relationship Between Static Analysis and Type Theory](https://semantic-domain.blogspot.com/2019/08/on-relationship-between-static-analysis.html)
-
-	* [Soundness and completeness: with precision](https://bertrandmeyer.com/2019/04/21/soundness-completeness-precision/)
-
-	* [What is soundness (in static analysis)?](http://www.pl-enthusiast.net/2017/10/23/what-is-soundness-in-static-analysis/)
-
 	* [Type Systems - Neel Krishnaswami](https://www.cl.cam.ac.uk/teaching/1819/Types/materials.html) ([Handout](https://www.cl.cam.ac.uk/teaching/1819/Types/handout.pdf))
-
-	* [What Type Soundness Theorem Do You Really Want to Prove?](https://blog.sigplan.org/2019/10/17/what-type-soundness-theorem-do-you-really-want-to-prove/) ([YouTube](https://www.youtube.com/watch?v=8Xyk_dGcAwk))
-		- Milner Award Lecture: The Type Soundness Theorem That You Really Want to Prove (and now you can), POPL 2018; Derek Dreyer
-
-	* Type Theory Behind Glasgow Haskell Compiler Internals
-		- LambdaConf 2018; Vitaly Bragilevsky
-		- https://www.youtube.com/playlist?list=PLvPsfYrGz3wspkm6LVEjndvQqK6SkcXaT
-		- https://github.com/bravit/tt-ghc-exercises/
-		- https://github.com/lambdaconf/lambdaconf-2018/tree/master/LC18-slides
 
 * **Intermediate Representations**: 
 
@@ -250,48 +249,9 @@ Types can often be inspected at runtime regardless of the type-safe or type-chec
 	* [Testing Intermediate Representations for Binary Analysis](https://softsec.kaist.ac.kr/~soomink/paper/ase17main-mainp491-p.pdf) [Github](https://github.com/SoftSec-KAIST/MeanDiff), [Website](https://softsec-kaist.github.io/MeanDiff/)
 
 
-* **Escape analysis**: Escape analysis is an optimization for identifying objects which do not escape the dynamic extent of a function; such objects can be stack-allocated, or 'flattened' so that usages of them are replaced with a series of local variables (the latter optimization is known as "scalar replacement").
-
-	An overview of the escape analysis algorithm used in Factor's Optimizing compiler:
-
-	http://factor-language.blogspot.com/2008/08/algorithm-for-escape-analysis.html
-	http://en.wikipedia.org/wiki/Escape_analysis
-
-* **Register allocation**
-
-    * Linear scan: The linear scan algorithm sacrifices code quality for compilation speed; it only needs to make one or two passes over the intermediate representation to assign registers, and therefore runs in O(n) time; therefore it is much faster than graph coloring, which runs in O(n2) time.
-
-        * Linear Scan Register Allocation, Massimiliano Poletto and Vivek Sarkar, http://www.cs.ucla.edu/~palsberg/course/cs132/linearscan.pdf
-
-        * Linear Scan Register Allocation for the Java HotSpot Client Compiler, by Christian Wimmer, http://www.ssw.uni-linz.ac.at/Research/Papers/Wimmer04Master/
-
-        * Quality and Speed in Linear-scan Register Allocation, by Omri Traub, Glenn Holloway, Michael D. Smith, http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.8435
-
-	* Graph coloring
-
-    	* Graph coloring is traditionally implemented by building an interference graph, attempting to color it, and if coloring fails, spilling some values and building the interference graph again. Building the graph is pretty expensive; if your program is in SSA form, it turns out you can perform spilling, build the graph and color it all in one shot. Register allocation for programs in SSA form using chordal graph coloring, Sebastian Hack, http://digbib.ubka.uni-karlsruhe.de/volltexte/documents/6532
-
-* Static Single Assignment (SSA):
-
-	* [SSA book](http://ssabook.gforge.inria.fr/latest/)
-
-* http://jschuster.org/blog/2016/11/29/getting-started-in-programming-languages/
-
-* [SIGPLAN Awards](http://www.sigplan.org/Awards/)
-
-* [10PL: 10 papers that all PhD students in programming languages ought to know, for some value of 10](https://github.com/nuprl/10PL) from Northeastern University Programming Research Lab 
-
-* [Best of PLDI 2004](https://dblp.uni-trier.de/db/conf/pldi/pldi2004best.html)
-
-* [Classic Papers in Programming Languages and Logic](https://www.cs.cmu.edu/~crary/819-f09/) by Karl Crary
-
-*  [learn-programming-languages](https://github.com/jeanqasaur/learn-programming-languages)
-	- Resources for the working programmer to learn more about the fundamentals and theory of programming languages.
-	- Jean Yang
-
 ---
 
-[Lingua.NET](https://archive.codeplex.com/?p=lingua): Discontinued/archived CodePlex parser generator. Archived content copied locally [here](../dotnet/lingua.zip).
+[Lingua.NET](https://archive.codeplex.com/?p=lingua): Discontinued/archived CodePlex parser generator. Archived content copied locally [here](/languages/dotnet/lingua.zip).
 
 ---
 
