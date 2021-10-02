@@ -1,4 +1,4 @@
-title=Executable and object file formats
+title=Executable and object file format reading
 tags=native, reading, windows, linux, macos, linux, elf, macho, pe, dwarf, pdb
 summary=Resources and reading around executable and object file formats.
 ~~~~~~

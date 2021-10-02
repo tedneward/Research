@@ -5,6 +5,7 @@ summary=Thoughts on implementation using concurrent mechanics.
 *(by (author), (publisher))*
 
 # 8 Simple Rules for Designing Multithreaded Applications 
+
 1. Identify truly independent computations
 2. Implement concurrency at the highest level possible
 3. Plan early for scalability

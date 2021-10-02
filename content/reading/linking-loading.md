@@ -2,13 +2,6 @@ title=Executables linking and loading reading
 tags=native, reading, windows, macos, linux
 summary=A collection of links and resources on the linking and loading of executables.
 ~~~~~~
-See also:
-
-- [Building](../tools/building.html)
-- [Compilers](compilers.html)
-- [Executables](executables.html) 
-    - executable & object file formats :[DLL](executables.html#dll), [ELF](executables.html#elf), [Mach-O](executables.html#mach-o), [PE](executables.html#pe)
-    - debugging data formats ([DWARF](executables.html#dwarf), [PDB](executables.html#pdb-program-database))
 
 # Readings
 

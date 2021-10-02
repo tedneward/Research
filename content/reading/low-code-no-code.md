@@ -1,6 +1,6 @@
 title=Low-Code/No-Code reading
 tags=reading, low-code, no-code
-summary=A collection of thoughts about low-code platforms.
+summary=A collection of thoughts about low-code and no-code platforms.
 ~~~~~~
 
 # What is Low-Code?
@@ -89,9 +89,7 @@ Robust governance and control processes and protocols are essential.
 ### Community
 A platform without a community is no platform at all.
 
-
-*(Source: [Medix](https://www.mendix.com/low-code-guide/the-low-code-manifesto/))*
-*(Source: [Creatio](https://www.creatio.com/page/low-code))*
+*(Source: [Medix](https://www.mendix.com/low-code-guide/the-low-code-manifesto/))* | *(Source: [Creatio](https://www.creatio.com/page/low-code))*
 
 # Reasons to go low-code
 * **Legacy systems are outdated**: These systems can no longer support the needs of businesses to quickly innovate and transform to stay competitive

@@ -5,6 +5,7 @@ summary=
 *(by Elliott Rusty Harold (Addison-Wesley, 2008, ISBN-13 978-0-321-50363-3))*
 
 # Well-Formedness
+
 * Change Name to Lowercase (69)
 * Quote Attribute Value (73)
 * Fill In Omitted Attribute Value (76)
@@ -23,6 +24,7 @@ summary=
 
 
 # Validity
+
 * Introduce a Transitional DOCTYPE Declaration
 * Remove all Nonexistent Tags
 * Add an alt Attribute
@@ -40,6 +42,7 @@ summary=
 
 
 # Layout
+
 * Replace Table Layouts
 * Replace Frames with CSS Positions
 * Move Content to the Front
@@ -51,6 +54,7 @@ summary=
 
 
 # Accessibility
+
 * Convert Images to Text
 * Add Labels to Form Input
 * Introduce Standard Field Names
@@ -66,6 +70,7 @@ summary=
 
 
 # Web Applications
+
 * Replace Unsafe GET with POST
 * Replace Safe POST with GET
 * Redirect POST to GET
@@ -80,6 +85,7 @@ summary=
 
 
 # Content
+
 * Correct Spelling
 * Repair Broken Links
 * Remove the Entry Page

@@ -7,10 +7,6 @@ tags=language
 
 Programming languages are (generally) human-friendly means of getting a computer to do something interesting on a human's behalf. Some languages may be friendlier than others; where opinions will genuinely differ as to which are friendlier, there are some that deliberately seek to be as obtuse and unreadable as possible, and those are usually called "esoteric" programming languages and fit into their own category of madness.
 
-[CS 7194 - Great works in Programming Languages](https://www.cs.cornell.edu/courses/cs7194/2019sp/): A course on examining the "great works" (written) about programming languages
-
-[Great Works in Programming Languages](https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml) Collected by Benjamin C. Pierce
-
 See also [Language Places](/places/languages) and [PLZoo](/places/plzoo)
 
 
@@ -97,6 +93,10 @@ Reading:
 - [Syntax across languages](http://rigaux.org/language-study/syntax-across-languages.html): One large page of comprehensive syntax across languages
 - [Concurrency is not Parallelism](https://vimeo.com/49718712)
 - ["Dimensional Analysis in Programming Languages: A survey of existing designs/implementations for automatic conversion and verification of units of measurement in computer programs"](https://gmpreussner.com/research/dimensional-analysis-in-programming-languages)
+- [CS 7194 - Great works in Programming Languages](https://www.cs.cornell.edu/courses/cs7194/2019sp/): A course on examining the "great works" (written) about programming languages
+- [Great Works in Programming Languages](https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml) Collected by Benjamin C. Pierce
+
+
 
 ### Memory management
 
@@ -220,13 +220,16 @@ Note that while these terms usually are applied most directly to programming lan
 
 Types can often be inspected at runtime regardless of the type-safe or type-checked nature of the language/platform; in many languages/platforms, the process of inspection is known as "reflection".
 
+If the types can be manipulated/changed at runtime, then the language is often said to be a "MetaObject Protocol" language, meaning that it can operate at a "meta-object" level. These tend to be dynamically-type-checked/weakly-type-safe interpreted languages, since it is hard to enforce type-safety when types changing up at runtime.
 
 ## Comparisons
 ["Bits of History, Words of Advice"](http://gbracha.blogspot.com/2020/05/bits-of-history-words-of-advice.html): The creator of [Newspeak](/languages/smalltalk/newspeak) and one of the core developers working on [Java](/languages/jvm/java) and the [JVM](/platforms/jvm) offers some advice about Smalltalk's lack of success in the mainstream.
 
 ## Implementation
 
-[More reading](/reading/compilers)
+[More compilers reading](/reading/compilers)
+
+Lots of these languages run on top of [virtual machines](/vms), and so will obey semantics defined there.
 
 [Crash Course on Notation in Programming Language Theory](http://siek.blogspot.com/2012/07/crash-course-on-notation-in-programming.html), Jeremy G. Siek; LambdaConf 2018 [Part 1](https://www.youtube.com/watch?v=vU3caZPtT2I), [Part 2](https://www.youtube.com/watch?v=MhuK_aepu1Y) [Slides](https://www.dropbox.com/s/joaq7m9v75blrw5/pl-notation-lambdaconf-2018.pdf?dl=1)
 
@@ -248,6 +251,8 @@ Types can often be inspected at runtime regardless of the type-safe or type-chec
 
 
 ---
+
+## Implementation tools
 
 [Lingua.NET](https://archive.codeplex.com/?p=lingua): Discontinued/archived CodePlex parser generator. Archived content copied locally [here](/languages/dotnet/lingua.zip).
 
