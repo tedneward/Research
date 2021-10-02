@@ -2,7 +2,6 @@ title=ECMAScript (aka Javascript)
 tags=language, browser, nodejs, dynamic, object, metaobject
 summary=A dynamic, object-oriented script language.
 ~~~~~~
-~~~~~~
 
 [Official website](http://www.ecmascript.org/) [ECMA-262 Specification](http://www.ecma-international.org/ecma-262/) | [Github](https://github.com/tc39/ecma262) [Active proposals](https://github.com/tc39/proposals) [Finished proposals](https://github.com/tc39/proposals/blob/master/finished-proposals.md)
 
