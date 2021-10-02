@@ -134,8 +134,6 @@ Reading: [*Garbage Collection Handbook*](https://gchandbook.org/), [*Garbage Col
 
 	* **Mark-Sweep-Compact**:
 
-	* **Arena**:
-
 	* **Copying**:
 
 	* **Generational**:
