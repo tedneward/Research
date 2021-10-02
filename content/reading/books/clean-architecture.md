@@ -92,16 +92,6 @@ Power of polymorphism lies in being able to abstract without details. [Example o
 * **ISP: The Interface Segregation Principle**: This principle advises software designers to avoid depending on things that they don’t use.
 * **DIP: The Dependency Inversion Principle**: The code that implements high-level policy should not depend on the code that implements low-level details. Rather, details should depend on policies.
 
-# 7: SRP: Single Responsibility Principle
-
-# 8: OCP: Open-Closed Principle
-
-# 9: LSP: Liskov Substitution Principle
-
-# 10: ISP: Interface Segregation Principle
-
-# 11: DIP: Dependency Inversion Principle
-
 # Part IV: Component Principles
 
 # 12: Components

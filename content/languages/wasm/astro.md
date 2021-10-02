@@ -3,7 +3,7 @@ tags=language, native, wasm
 summary=Multiparadigm language with Python syntax compiling to WASM and native code
 ~~~~~~
 
-[Github](https://github.com/appcypher/astro)
+[Website](https://astrolang.org/) | [Github](https://github.com/appcypher/astro)
 
 ## What is Astro?
 Astro is a fun programming language designed for safe high-performance applications. It is essentially a statically-typed systems language that

@@ -16,9 +16,9 @@ Tools: [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) 
 
 [Awesome WASM languages](https://github.com/appcypher/awesome-wasm-langs):
 
-* [AssemblyScript](https://github.com/AssemblyScript/assemblyscript): An assembler for WebAssembly.
-* [Astro](https://github.com/astrolang/astro): a fun safe language for rapid prototyping and high performance applications.
-* [Cheerp](https://github.com/leaningtech/cheerp-meta): an open-source, commercial C/C++ compiler for Web applications. It can compile virtually any C/C++ code (up to C++14) to WebAssembly, JavaScript, asm.js or a combination thereof.
+* [AssemblyScript](/languages/wasm/assemblyscript): An assembler for WebAssembly.
+* [Astro](/languages/wasm/astro): a fun safe language for rapid prototyping and high performance applications.
+* [Cheerp](/languages/cplusplus/cheerp): an open-source, commercial C/C++ compiler for Web applications. It can compile virtually any C/C++ code (up to C++14) to WebAssembly, JavaScript, asm.js or a combination thereof.
 * [Duktape](https://github.com/svaarala/duktape): embeddable JS engine capable of being run in the browser via WebAssembly
 
 [Wasm3](https://github.com/wasm3/wasm3): "The fastest WebAssembly interpreter (and the most universal wasm runtime)"
