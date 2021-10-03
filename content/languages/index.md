@@ -98,7 +98,7 @@ Reading:
 
 
 
-### Memory management
+### [Memory management](/reading/garbage-collection)
 
 Reading: [*Garbage Collection Handbook*](https://gchandbook.org/), [*Garbage Collection*](https://www.cs.kent.ac.uk/people/staff/rej/gcbook/)
 

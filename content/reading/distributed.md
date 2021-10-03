@@ -128,3 +128,13 @@ For starters, don't do it. Even if you think you need to, don't.
 ["How to do distributed locking"](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html)
 
 Some links on this page copied from [A Distributed Systems Reading List](https://dancres.github.io/Pages/)
+
+## Major distributed system technologies
+
+### [OMG CORBA](/distribution/corba)
+
+### DCOM
+
+### [Java RMI](/platforms/jvm/rmi)
+
+### [ZeroC ICE](https://zeroc.com/)

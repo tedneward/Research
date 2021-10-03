@@ -1,5 +1,5 @@
 title=CLR Specifications
-tags=clr, platform, vm, specifications
+tags=clr, platform, vm, specification
 summary=Specification links for the Common Language Runtime (CLR).
 ~~~~~~
 

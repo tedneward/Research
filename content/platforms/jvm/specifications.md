@@ -1,5 +1,5 @@
 title=Java Platform Specifications
-tags=platform, jvm
+tags=platform, jvm, specification
 summary=A collection of the various specifications (JavaEE, etc) that make up the Java platform
 ~~~~~~
 
