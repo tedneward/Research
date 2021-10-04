@@ -28,20 +28,21 @@ Positive network effects: the ability of a large, well-managed platform communit
 Negative network effects: the ability to reduce value for each user
 
 Uber's "virtuous circle" (flowing clockwise)
-    ```
-    Lower prices  ---> More demand \
-      ^    ^                        \
-      |     \                   More drivers
-      |     Faster pickups          /
-      |              ^             /
-      |               \           /
-      |                 ----  More geographic
-      |               /       coverage/saturation
-      |              v
-    Less driver downtime
 
-    (More demand -> More drivers -> More geographic coverage/satuation -> Faster pickups and Less driver downtime -> Lower prices -> More demand....)
-    ```
+```
+Lower prices  ---> More demand \
+  ^    ^                        \
+  |     \                   More drivers
+  |     Faster pickups          /
+  |              ^             /
+  |               \           /
+  |                 ----  More geographic
+  |               /       coverage/saturation
+  |              v
+Less driver downtime
+
+(More demand -> More drivers -> More geographic coverage/satuation -> Faster pickups and Less driver downtime -> Lower prices -> More demand....)
+```
 
 ***Demand economies of scale***
 20th-century monopolies were created based on supply-side economies of scale, driven by production efficiencies, which reduce unit cost of good/service delivered. 21st-century driven by demand economies of scale, which take advantage of technology improvements on the demand side--efficiencies in social networks, demand aggregation, app development, and other phenomena that make bigger networks more valuable to users. (Metcalfe's Law: The value of a telephone network.)
@@ -133,6 +134,30 @@ First step: analyze the degree of modularity already achieved.
 Platforms cannot be entirely planned--they also emerge; platforms characterized by activity controlled by the users, not bythe owners/managers. Platform designers should always leave room for serendipitous discoveries, as suers often lead the way to where design should evolve. Close monitoring of user behavior reveals unexpected patterns, some of which may suggest fruitful new ideas for value creation. Best platforms allow for user quirks & are open enough to gradually incorporate such quirks.
 
 # 4. Disruption: How Platforms Conquer and Transform Traditional Industries
+Platform concept is not new--farmer's markets, stock markets, etc. What's new is digital technology enabling reach.
+
+***Capsule history of digitial disruption***
+Stage 1: Efficient pipelines are inefficient pipelines
+Stage 2: Platforms eat pipelines
+In the world of platforms, the internet no longer acts merely as a distribution channel; it also acts as a creation infrstructure & coordination mechanism
+
+***Impacts of platform distribution on value creation, value consumption, and quality control***
+Reconfiguring value creation to tape new supply sources
+Reconfiguring value consumption by enabling new forms of consumer behavior
+Reconfiguring quality control through community-driven curation
+
+***Structural impacts of platform disruption***
+De-linking assets from value
+Re-intermediation
+Market aggregation
+
+***The incumbents fight back: Pipelines becoming platforms***
+They'll need to ask questions:
+
+* Which processes that we curently manage in-house can be delegated to outside partners, whether suppliers or consumers?
+* How can we empower outside partners to create products/services that will generate new forms of value for our existing customers?
+* Are there way swe can network w/current competitors to produce valuable new services for customers?
+* How can the value of the goods & services we currently provide be enhanced through new data streams, interpersonal connection, and curation tools?
 
 # 5. Launch: Chicken or Egg? Eight Ways to Launch a Successful Platform
 
