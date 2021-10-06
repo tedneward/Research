@@ -5,6 +5,7 @@ summary=Patterns/concepts around what it takes to make software "production-read
 *(by Michael Nygard (Pragmatic Bookshelf, 2007, ISBN-13 978-0-9787392-1-8))*
 
 # Stability Antipatterns
+
 * Integration Points
 * Chain Reactions
 * Cascading Failures
@@ -19,6 +20,7 @@ summary=Patterns/concepts around what it takes to make software "production-read
 
 
 # Stability Patterns
+
 * Use Timeouts
 * Circuit Breaker
 * Bulkheads
@@ -30,6 +32,7 @@ summary=Patterns/concepts around what it takes to make software "production-read
 
 
 # Capacity Antipatterns
+
 * Resource Pool Contention
 * Excessive JSP Fragments
 * AJAX Overkill
@@ -43,6 +46,7 @@ summary=Patterns/concepts around what it takes to make software "production-read
 
 
 # Capacity Patterns
+
 * Pool Connections
 * Use Caching Carefully
 * Precompute Content
@@ -50,19 +54,23 @@ summary=Patterns/concepts around what it takes to make software "production-read
 
 
 # Networking
+
 * Multihomed Servers
 * Routing
 * Virtual IP Addresses
 
 # Security
+
 * Principle of Least Privilege
 * Configured Passwords
 
 # Availability
+
 * Load Balancing
 * Clustering
 
 # Administration
+
 * Does QA Match Production?
 * Configuration Files
 * Start-up and Shutdown

@@ -35,7 +35,7 @@ summary=A collection of discussions of philosophy as it meets programming.
       * autonomy of operation: the computer is capable of acting without our intervention or supervision
 
 # Part II: The Structure of the Computer
-{:start="4"}
+
 4. Types of Computers
 5. The Parts of a Computer
 6. The Construction of Memory
@@ -44,6 +44,7 @@ summary=A collection of discussions of philosophy as it meets programming.
 9. Operating Systems
 
 # Part III: Fundamental Tools of Programming
+
 10. The Language of the Machine
 11. Forms of Data Definition
 12. Classes and Types of Statements
@@ -52,6 +53,7 @@ summary=A collection of discussions of philosophy as it meets programming.
 15. Algorithms and Objects
 
 # Part IV: The Programmer's Trade
+
 16. The Moth in the Machine
 17. The Real World Out There
 18. The Limitations of Design

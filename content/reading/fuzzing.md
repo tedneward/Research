@@ -19,8 +19,7 @@ summary=A collection of reading and links on "fuzzing" during testing.
 
 ## Readings: Books
 
-- Generating Software Tests: Breaking Software for Fun and Profit
-	- https://www.fuzzingbook.org/
+- [Generating Software Tests: Breaking Software for Fun and Profit](https://www.fuzzingbook.org/)
 
 ## Readings: General
 
@@ -37,8 +36,7 @@ summary=A collection of reading and links on "fuzzing" during testing.
 	- Fuzzing and how to evaluate it
 		- ISSISP 2018; Michael Hicks
 		- https://cs.anu.edu.au/cybersec/issisp2018/assets/slides/hicks-fuzz-testing-eval.pdf
-- FuzzingPaper: Recent Papers Related To Fuzzing
-	- https://github.com/wcventure/FuzzingPaper
+- [FuzzingPaper: Recent Papers Related To Fuzzing](https://github.com/wcventure/FuzzingPaper)
 - Fuzzing: a survey
 	- Cybersecurity 2018
 	- Jun Li, Bodong Zhao and Chao Zhang

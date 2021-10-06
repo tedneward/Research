@@ -6,8 +6,11 @@ summary=Generalized reading topics about spreading code around the network.
 [Distributed programming book](https://github.com/heathermiller/dist-prog-book) ([Website](http://dist-prog-book.com/chapter/1/rpc.html)): "Source repo for the book that I and my students in my course at Northeastern University, CS7680 Special Topics in Computing Systems: Programming Models for Distributed Computing, are writing on the topic of programming models for distributed systems."
 > This is a book about the programming constructs we use to build distributed systems. These range from the small, RPC, futures, actors, to the large; systems built up of these components like MapReduce and Spark. We explore issues and concerns central to distributed systems like consistency, availability, and fault tolerance, from the lens of the programming models and frameworks that the programmer uses to build these systems.
 
+### [Notes on Distributed Systems for Young Bloods](https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/):
+> Distributed systems are different because they fail often; Implement backpressure throughout your system; Find ways to be partially available; Use percentiles, not averages; Learn to estimate your capacity; Feature flags are how infrastructure is rolled out; Choose id spaces wisely; Writing cached data back to persistent storage is bad; Extract services.
 
-#### Ideas and theory
+## Ideas and theory
+
 * [Fallacies of Distributed Computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing) - Peter Deutsch
 * [Why Distributed Computing?](https://www.artima.com/weblogs/viewpost.jsp?thread=4247) - Jim Waldo
 * [A Note on Distributed Computing](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.7628) - Waldo, Wollrath et al
@@ -30,6 +33,7 @@ summary=Generalized reading topics about spreading code around the network.
 * [Scalable Eventually Consistent Counters over Unreliable Networks](https://arxiv.org/pdf/1307.3207v1.pdf) - Scalable counting is tough in an unreliable world
   
 Pat Helland's works
+
 * [Data on the Outside versus Data on the Inside](http://cidrdb.org/cidr2005/papers/P12.pdf) - Pat Helland
 * [Memories, Guesses and Apologies](https://channel9.msdn.com/Shows/ARCast.TV/ARCastTV-Pat-Helland-on-Memories-Guesses-and-Apologies) - Pat Helland
 * [SOA and Newton's Universe](https://web.archive.org/web/20190719121913/https://blogs.msdn.microsoft.com/pathelland/2007/05/20/soa-and-newtons-universe/) - Pat Helland
@@ -38,32 +42,39 @@ Pat Helland's works
 * [If you have too much data, then 'good enough' is good enough](https://queue.acm.org/detail.cfm?id=1988603) - NoSQL, Future of data theory - Pat Helland
 
 CAP Theorem
+
 * [CAP Conjecture](https://web.archive.org/web/20190629112250/https://www.glassbeam.com/sites/all/themes/glassbeam/images/blog/10.1.1.67.6951.pdf) - Consistency, Availability, Parition Tolerance cannot all be satisfied at once
 * [Consistency, Availability, and Convergence](https://www.cs.utexas.edu/users/dahlin/papers/cac-tr.pdf) - Proves the upper bound for consistency possible in a typical system
 * [CAP Twelve Years Later: How the "Rules" Have Changed](https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed) - Eric Brewer expands on the original tradeoff description
 * [You Can't Sacrifice Partition Tolerance](https://codahale.com/you-cant-sacrifice-partition-tolerance/) - Additional CAP commentary
 
 Vogels' works
+
 * [Consistency and Availability](https://www.infoq.com/news/2008/01/consistency-vs-availability) - Vogels
 * [Eventual Consistency](https://www.allthingsdistributed.com/2007/12/eventually_consistent.html) - Vogels
 
 Transactions and commits
+
 * [Avoiding Two-Phase Commit](https://web.archive.org/web/20180821165044/http://www.addsimplicity.com/adding_simplicity_an_engi/2006/12/avoiding_two_ph.html) - Two phase commit avoidance approaches
 * [2PC or not 2PC, Wherefore Art Thou XA?](https://web.archive.org/web/20180821164931/http://www.addsimplicity.com/adding_simplicity_an_engi/2006/12/2pc_or_not_2pc_.html) - Two phase commit isn't a silver bullet
 * [Starbucks doesn't do two phase commit](https://www.enterpriseintegrationpatterns.com/docs/IEEE_Software_Design_2PC.pdf) - Asynchronous mechanisms at work
 * [Optimistic Replication](https://www.hpl.hp.com/techreports/2002/HPL-2002-33.pdf) - Relaxed consistency approaches for data replication
 
 #### Languages and Tools
+
 * [Programming Distributed Erlang Applications: Pitfalls and Recipes](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.137.9417&rep=rep1&type=pdf) - Building reliable distributed applications isn't "just" using Erlang/OTP.
 
 #### Infrastructure
+
 * [Principles of Robust Timing over the Internet](https://queue.acm.org/detail.cfm?id=1773943) - Managing clocks is essential for even basics such as debugging
 
 #### Storage
+
 * [Consistent Hashing and Random Trees](https://www.akamai.com/us/en/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf)
 * [Amazon's Dynamo Storage Service](https://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
 
 #### Paxos Consensus and other consensus papers
+
 * [Paxos Made Simple](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf) - Leslie Lamport - read first
 * [The Part-Time Parliament](https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf) - Leslie Lamport
 * [Paxos Made Live - An Engineering Perspective](https://static.googleusercontent.com/media/research.google.com/en/us/archive/paxos_made_live.pdf) - Chandra et al
@@ -75,6 +86,7 @@ Transactions and commits
 * [In Search of an Understandable Consensus Algorithm](https://raft.github.io/raft.pdf) - The extended version of the RAFT paper, an alternative to PAXOS.
 
 #### Gossip Protocols (Epidemic Behaviours)
+
 * [How robust are gossip-based communication protocols?](https://infoscience.epfl.ch/record/109302?ln=en)
 * [Astrolabe: A Robust and Scalable Technology For Distributed Systems Monitoring, Management, and Data Mining](https://www.cs.cornell.edu/home/rvr/papers/astrolabe.pdf)
 * [Epidemic Computing at Cornell](https://www.allthingsdistributed.com/historical/archives/000456.html)
@@ -84,6 +96,7 @@ Transactions and commits
 * [SWIM: Scalable Weakly-consistent Infection-style Process Group Membership Protocol](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.18.9737)
 
 #### P2P
+
 * [Chord](https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf): A Scalable Peer-to-peer Lookup Protocol for Internet Applications
 * [Kademlia](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf): A Peer-to-peer Information System Based on the XOR Metric
 * [Pastry](https://rowstron.azurewebsites.net/PAST/pastry.pdf): Scalable, decentralized object location and routing for large-scale peer-to-peer systems
@@ -109,4 +122,19 @@ Reading--some tech, some culture
 * [Photon](https://research.google/pubs/pub41318/) - Fault-tolerant and Scalable Joining of Continuous Data Streams. Joins are tough especially with time-skew, high availability and distribution.
 * [Mesa: Geo-Replicated, Near Real-Time, Scalable Data Warehousing](https://research.google/pubs/pub42851/) - Data warehousing system that stores critical measurement data related to Google's Internet advertising business.
 
+## Distributed Locking
+For starters, don't do it. Even if you think you need to, don't.
+
+["How to do distributed locking"](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html)
+
 Some links on this page copied from [A Distributed Systems Reading List](https://dancres.github.io/Pages/)
+
+## Major distributed system technologies
+
+### [OMG CORBA](/distribution/corba)
+
+### DCOM
+
+### [Java RMI](/platforms/jvm/rmi)
+
+### [ZeroC ICE](https://zeroc.com/)

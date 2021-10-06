@@ -65,7 +65,7 @@ From the Specification home page, a history:
 * [SweetJS](../sweetjs): Syntactic sugar (semantic macros) on top of JS
 
 ### SQL
-* [sql.js](https://github.com/kripken/sql.js): SQLite compiled to Javascript
+* [sql.js](http://sql.js.org/) ([Source](https://github.com/sql-js/sql.js)): SQLite compiled to Javascript
 
 ### Tierless
 * [Fun](../fun): A programming language for realtime webapps - compiles to client-side and server-side JS.

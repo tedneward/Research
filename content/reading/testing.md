@@ -5,7 +5,7 @@ summary=A collection of links and resources around testing
 
 [Principles of Chaos Engineering](http://principlesofchaos.org/)
 
-See also: [Fuzzing](fuzzing.html) || [Compilers Correctness](compilers.correctness.html)
+See also: [Fuzzing](../fuzzing) || [Compilers Correctness](../languages/compilers.correctness)
 
 # Contents
 

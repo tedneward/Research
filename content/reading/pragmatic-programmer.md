@@ -2,10 +2,11 @@ title=Pragmatic Programmer
 tags=reading, books
 summary=The best non-technical programming book in the world.
 ~~~~~~
-*(by Andy Hunt, Dave Thomas (Addison-Wesley, ) )*
+*(by Andy Hunt, Dave Thomas (Addison-Wesley) )*
 
 # Checklists
 ## The WISDOM acrostic
+
 * What: What do you want them to learn?
 * Interest: What is their interest in what you've got to say?
 * Sophistication: How sophisticated are they?
@@ -14,12 +15,14 @@ summary=The best non-technical programming book in the world.
 * Motivate: How can you motivate them to listen to you? 
 
 ## How to maintain orthogonality
+
 * Design independent, well-defined components.
 * Keep your code decoupled.
 * Avoid global data.
 * Refactor similar functions.
 
 ## Things to prototype
+
 * Architecture
 * New functionality in an existing system
 * Structure or contents of external data
@@ -28,6 +31,7 @@ summary=The best non-technical programming book in the world.
 * User interface design
 
 ## Architectural questions
+
 * Are responsibilities well defined?
 * Are the collaborations well defined?
 * Is coupling minimized?
@@ -36,6 +40,7 @@ summary=The best non-technical programming book in the world.
 * Can modules access needed data--when needed?
 
 ## Debugging
+
 * Is the problem being reported a direct result of the underlying bug, or merely a symptom?
 * Is the bug really in the compiler? Is it in the OS? Or is it in your code?
 * If you explained this problem in detail to a coworker, what would you say?
@@ -45,6 +50,7 @@ summary=The best non-technical programming book in the world.
 
 ## Law of Demeter for functions
 An object's method should call only methods belonging to:
+
 * Itself
 * Any parameters passed in
 * Objects it creates
@@ -52,11 +58,13 @@ An object's method should call only methods belonging to:
 
 
 ## How to Program Deliberately
+
 * Stay aware of what you're doing
 * Don't code blindfolded
 * Proceed from a plan
 
 ## Rely only on reliable things
+
 * Document your assumptions
 * Test assumptions as well as code
 * Prioritize your effort
@@ -64,6 +72,7 @@ An object's method should call only methods belonging to:
 
 
 ## When to Refactor
+
 * You discover a violation of DRY
 * You find things that could be more orthogonal
 * Your knowledge improves
@@ -72,6 +81,7 @@ An object's method should call only methods belonging to:
 
 
 ## Cutting the Gordian Knot
+
 * Is there an easier way?
 * Am I solving the right problem?
 * Why is this a problem?
@@ -81,6 +91,7 @@ An object's method should call only methods belonging to:
 
 
 ## Aspects of Testing
+
 * Unit testing
 * Integration testing
 * Validation and verification
@@ -91,6 +102,7 @@ An object's method should call only methods belonging to:
 
 
 # Principles
+
 1. **Care About Your Craft.** Why spend your life developing software unless you care about doing it well?
 
 2. **Think! About Your Work.** Turn off the autopilot and take control. Constantly critique and appraise your work.
