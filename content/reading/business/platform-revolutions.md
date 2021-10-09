@@ -4,13 +4,14 @@ summary=How networked markets are transforming the economy and how to make them 
 ~~~~~~
 *(by Geoffrey G Parker, Marshall W Van Alstyne, and Sangeet Paul Choudary)*
 
-# 1. Today: Welcome to the Platform Revolution
+# 1. Today
+*Welcome to the Platform Revolution*
 
 ***Platform***: "A business based on enabling value-creating interactions between external producers and consumers. Platform provides open, participative infrastructure for these interactions and sets governance conditions for them. Purpose: to consummate matches among users and facilitate the exchange of goods, services, or social currency, thereby enabling value creation for all participants."
 
 Traditional system: pipeline/linear value chain (single-track, assembly line)
 
-Platforms beat pipelines because platforms scale more efficiently by eliminating gatekeepers. Until recently, most business were built around products--designed/made at one end of the pipeline and delivered to consumers at the other end. Pipelines rely on inefficient gatekeepers to manage the flow of value from the producer to the consumer; the elimination of gatekeepers allow consumers greater freedom to select products that fit their needs.
+***Platforms beat pipelines because platforms scale more efficiently by eliminating gatekeepers.*** Until recently, most business were built around products--designed/made at one end of the pipeline and delivered to consumers at the other end. Pipelines rely on inefficient gatekeepers to manage the flow of value from the producer to the consumer; the elimination of gatekeepers allow consumers greater freedom to select products that fit their needs.
 
 ***Platforms beat pipelines because platforms unlock new sources of value creation and supply.***
 
@@ -18,7 +19,9 @@ Platforms beat pipelines because platforms scale more efficiently by eliminating
 
 ***Platforms invert the firm.*** Strategy has moved from controlling the unique resources and erecting competitive barriers to orchestrating external resources and engaging vibrant communities.
 
-# 2. Network Effects: The Power of the Platform
+# 2. Network Effects
+*The Power of the Platform*
+
 (Uber as a "matching"--matching ride-providers to ride-seekers--service)
 
 Network effects: the impact the number of users of a platform has on the value created for each user.
@@ -80,7 +83,9 @@ Four broad categories of companies:
 
 In the world of network effects, ecosystems of users are the new source of competitive advantage/market dominance.
 
-# 3. Architecture: Principles for Designing a Successful Platform
+# 3. Architecture
+*Principles for Designing a Successful Platform*
+
 A platform connects producers w/consumers and allows them to exchange value, one of 3 things:
 
 * Information
@@ -133,7 +138,9 @@ First step: analyze the degree of modularity already achieved.
 ***Iterative improvement: The Anti-Design principle***
 Platforms cannot be entirely planned--they also emerge; platforms characterized by activity controlled by the users, not bythe owners/managers. Platform designers should always leave room for serendipitous discoveries, as suers often lead the way to where design should evolve. Close monitoring of user behavior reveals unexpected patterns, some of which may suggest fruitful new ideas for value creation. Best platforms allow for user quirks & are open enough to gradually incorporate such quirks.
 
-# 4. Disruption: How Platforms Conquer and Transform Traditional Industries
+# 4. Disruption
+*How Platforms Conquer and Transform Traditional Industries*
+
 Platform concept is not new--farmer's markets, stock markets, etc. What's new is digital technology enabling reach.
 
 ***Capsule history of digitial disruption***
@@ -159,9 +166,39 @@ They'll need to ask questions:
 * Are there way swe can network w/current competitors to produce valuable new services for customers?
 * How can the value of the goods & services we currently provide be enhanced through new data streams, interpersonal connection, and curation tools?
 
-# 5. Launch: Chicken or Egg? Eight Ways to Launch a Successful Platform
+# 5. Launch: Chicken or Egg?
+*Eight Ways to Launch a Successful Platform*
 
-# 6. Monetization: Capturing the Value Created by Network Effects
+#### The heart of platform marketing: Designing for growth
+Pull strategies are most effective/important over push; goods/services must be designed to be so attractive they naturally pull customers into their orbit
+
+***The incumbents' advantage: Reality or illusion?***
+Large enterprises have advantages, which can lead to complacency
+
+#### Platform launch strategies
+
+1. ***The Follow-the-Rabbit Strategy.*** Use a non-platform demonstration project to model success, probably attracting both users and producers to a new platform erected on your project's proven infrastructure. How to overcome the chicken/egg problem:
+    * Staging value creation: The platform managers arrange for the creation of value units that will attract one or more sets of users and demonstrate the potential benefits of participating in the platform.
+    * Designing the paltform to attract one set of users: platform is designed to provide tools, products, services, or other benefits that will attract one set of users--consumers or producers. The existence of a critical mass of users on one side of a marketplace attracts users on the other side, leading to a positive feedback loop.
+    * Simultanous on-boarding: platform creates conditions such that value units can be created that are relevant to users even when the network size is too small. It then strives to stimulate a burst of activity that will simultanously attract both consumers and producers in sufficient numbers to create larger numbers of value units and value-producing interactions so that network effects begin to kick in.
+2. ***The Piggyback Strategy.*** Connect with an existing user base from a different platform and stage the creation of value units in order to recruit those users to participate.
+3. ***The Seeding Strategy.*** Create value units that will be relevant to at least one set of potential users. When those users are attracted to the platform, other sets of users who want to engage in interactions with them will follow. In many cases, the platform company takes the task of value creation upon itself by acting as the first producer. In addition to jump-starting the platform, the platform owner can define kind and quality of value units they want to see.
+4. ***The Marquee Strategy.*** Provide incentives to attract members of a key user set onto your platform. A variation of this is to choose to purchase a marquee participant in order to obtain exclusive access to the seeds it produces.
+5. ***The Single-Side Strategy.*** Create a business around products or services that benefit a single set of users; later, convert the business into a platform business by attracting a second set of users who want to engage in interactions with the first set.
+6. ***The Producer Evangelism Strategy.*** Design your platform to attract producers, who can induce their customers to become users of the platform. Platforms that provide businesses w/tools for customer relationship management can often solve the chicken/egg problem by attracting one set of users (producers) who then take on the task of bringing along the other set (consumers) from their own customer base. The platform helps the producers cater to their existing set of consumers, and over time, the producers benefit from data-driven cross-pollination as other consumers on the network become interested.
+7. ***The Big-Bang Adoption Strategy.*** Use one or more traditional push marketing strategies to attract a high volume of interest and attention to your platofrm. This triggers a simultaneous on-boarding effect.
+8. ***The Micromarket Strategy.*** Start by targeting a tiny market that comprises members who are already engaging in interactions. This enables the platform to provide the effective matchmaking characteristic of a large market even in the earliest stages of growth.
+
+#### Viral growth: The user-to-user launch mechanism
+Four key elements:
+
+* The sender: getting senders to spread value untis is not the same as word-of-mouth; word of mouth happens when users like your platform so much, they can't stop talking about it. When users become senders and spread value units, they aren't talking about your platform--they are spreading their own creations, and indirectly generating awareness of/interest in your platform. Users do this to get social feedback (fun, fame, fulfillment, fortune, etc); avoid discouraging the spread of value units
+* The value unit: The fundamental unit of virality, but not all value units are spreadable. Design value units to be spreadable as a crucial step.
+* The recipient: Platform managers have no control over them.
+* The external network: External networks often impose restrictions.
+
+# 6. Monetization
+*Capturing the Value Created by Network Effects*
 
 # 7. Openness: Defining What Platform Users and Partners Can and Cannot Do
 
