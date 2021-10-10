@@ -9,4 +9,5 @@ List of CLR VM implementations:
 
 There used to be more (below), but interest appears to have waned after an early surge.
 
-* Shared Source CLI (aka "Rotor")
+* Shared Source CLI (aka "Rotor"); [SSCLI Essentials](../sscli-essentials) is a good place to start to understand the CLR codebase ("runtime") itself.
+
