@@ -15,3 +15,5 @@ build
 # gradle/wrapper/gradle-wrapper.properties
 
 .DS_Store
+.project
+org.eclipse.*
