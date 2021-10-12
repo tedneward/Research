@@ -1338,7 +1338,7 @@ Assume the file greeting.txt does not exist before the following programs are 
 (newline o)
 
 (close-output-port o)
-``
+```
 
  
 The file greeting.txt will now contain the line:
@@ -1408,114 +1408,115 @@ Files can load other files, and this is useful in a large program spanning many 
 MzScheme provides the load-relative procedure that greatly helps in fixing the files to be loaded. load-relative, like load, takes a pathname argument. When a load-relative call occurs in a file foo.scm, the path of its argument is reckoned from the directory of the calling file foo.scm. In particular, this pathname is reckoned independent of Scheme's current directory, and thus allows convenient multifile program development.
 
 
-Chapter 8: Macros
+# Chapter 8: Macros
 Users can create their own special forms by defining macros. A macro is a symbol that has a transformer procedure associated with it. When Scheme encounters a macro-expression -- ie, a form whose head is a macro -- , it applies the macro's transformer to the subforms in the macro-expression, and evaluates the result of the transformation.
 Ideally, a macro specifies a purely textual transformation from code text to other code text. This kind of transformation is useful for abbreviating an involved and perhaps frequently occurring textual pattern.
 A macro is defined using the special form define-macro (but see sec A.3).3 For example, if your Scheme lacks the conditional special formwhen, you could define when as the following macro:
 
-(define-macro when
-  (lambda (test . branch)
-    (list 'if test
-      (cons 'begin branch))))
+    (define-macro when
+      (lambda (test . branch)
+        (list 'if test
+          (cons 'begin branch))))
 
  
 This defines a when-transformer that would convert a when-expression into the equivalent if-expression. With this macro definition in place, the when-expression
 
-(when (< (pressure tube) 60)
-   (open-valve tube)
-   (attach floor-pump tube)
-   (depress floor-pump 5)
-   (detach floor-pump tube)
-   (close-valve tube))
+    (when (< (pressure tube) 60)
+      (open-valve tube)
+      (attach floor-pump tube)
+      (depress floor-pump 5)
+      (detach floor-pump tube)
+      (close-valve tube))
 
  
 will be converted to another expression, the result of applying the when-transformer to the when-expression's subforms:
 
-(apply
-  (lambda (test . branch)
-    (list 'if test
-      (cons 'begin branch)))
-  '((< (pressure tube) 60)
-      (open-valve tube)
-      (attach floor-pump tube)
-      (depress floor-pump 5)
-      (detach floor-pump tube)
-      (close-valve tube)))
+    (apply
+      (lambda (test . branch)
+        (list 'if test
+          (cons 'begin branch)))
+      '((< (pressure tube) 60)
+          (open-valve tube)
+          (attach floor-pump tube)
+          (depress floor-pump 5)
+          (detach floor-pump tube)
+          (close-valve tube)))
 
  
 The transformation yields the list
 
-(if (< (pressure tube) 60)
-    (begin
-      (open-valve tube)
-      (attach floor-pump tube)
-      (depress floor-pump 5)
-      (detach floor-pump tube)
-      (close-valve tube)))
+    (if (< (pressure tube) 60)
+        (begin
+          (open-valve tube)
+          (attach floor-pump tube)
+          (depress floor-pump 5)
+          (detach floor-pump tube)
+          (close-valve tube)))
 
  
 Scheme will then evaluate this expression, as it would any other.
 As an additional example, here is the macro-definition for when's counterpart unless:
 
-(define-macro unless
-  (lambda (test . branch)
-    (list 'if
-          (list 'not test)
-          (cons 'begin branch))))
+    (define-macro unless
+      (lambda (test . branch)
+        (list 'if
+              (list 'not test)
+              (cons 'begin branch))))
 
 
  
 Alternatively, we could invoke when inside unless's definition:
 
-(define-macro unless
-  (lambda (test . branch)
-    (cons 'when
-          (cons (list 'not test) branch))))
+    (define-macro unless
+      (lambda (test . branch)
+        (cons 'when
+              (cons (list 'not test) branch))))
 
 
  
 Macro expansions can refer to other macros.
-8.1  Specifying the expansion as a template
+
+## 8.1  Specifying the expansion as a template
 A macro transformer takes some s-expressions and produces an s-expression that will be used as a form. Typically this output is a list. In ourwhen example, the output list is created using
 
-(list 'if test
-  (cons 'begin branch))
+    (list 'if test
+      (cons 'begin branch))
 
  
 where test is bound to the macro's first subform, ie,
 
-(< (pressure tube) 60)
+    (< (pressure tube) 60)
 
  
 and branch to the rest of the macro's subforms, ie,
 
-((open-valve tube)
- (attach floor-pump tube)
- (depress floor-pump 5)
- (detach floor-pump tube)
- (close-valve tube))
+    ((open-valve tube)
+    (attach floor-pump tube)
+    (depress floor-pump 5)
+    (detach floor-pump tube)
+    (close-valve tube))
 
  
 Output lists can be quite complicated. It is easy to see that a more ambitious macro than when could lead to quite an elaborate construction process for the output list. In such cases, it is more convenient to specify the macro's output form as a template, with the macro arguments inserted at appropriate places to fill out the template for each particular use of the macro. Scheme provides the backquote syntax to specify such templates. Thus the expression
 
-(list 'IF test
-  (cons 'BEGIN branch))
+    (list 'IF test
+      (cons 'BEGIN branch))
 
 
  
 is more conveniently written as
 
-`(IF ,test
-  (BEGIN ,@branch))
+    `(IF ,test
+      (BEGIN ,@branch))
 
 
  
 We can refashion the when macro-definition as:
 
-(define-macro when
-  (lambda (test . branch)
-    `(IF ,test
-         (BEGIN ,@branch))))
+    (define-macro when
+      (lambda (test . branch)
+        `(IF ,test
+            (BEGIN ,@branch))))
 
 
  
@@ -1523,43 +1524,43 @@ Note that the template format, unlike the earlier list construction, gives immed
 The comma and the comma-splice are used to insert the macro arguments into the template. The comma inserts the result of evaluating its following expression. The comma-splice inserts the result of evaluating its following expression after splicing it, ie, it removes the outermost set of parentheses. (This implies that an expression introduced by comma-splice must be a list.)
 In our example, given the values that test and branch are bound to, it is easy to see that the template will expand to the required
 
-(IF (< (pressure tube) 60)
-    (BEGIN
-      (open-valve tube)
-      (attach floor-pump tube)
-      (depress floor-pump 5)
-      (detach floor-pump tube)
-      (close-valve tube)))
+    (IF (< (pressure tube) 60)
+        (BEGIN
+          (open-valve tube)
+          (attach floor-pump tube)
+          (depress floor-pump 5)
+          (detach floor-pump tube)
+          (close-valve tube)))
 
 
  
-8.2  Avoiding variable capture inside macros
+## 8.2  Avoiding variable capture inside macros
 A two-argument disjunction form, my-or, could be defined as follows:
 
-(define-macro my-or
-  (lambda (x y)
-    `(if ,x ,x ,y)))
+    (define-macro my-or
+      (lambda (x y)
+        `(if ,x ,x ,y)))
 
 
  
 my-or takes two arguments and returns the value of the first of them that is true (ie, non-#f). In particular, the second argument is evaluated only if the first turns out to be false.
 
-(my-or 1 2)
-=>  1
+    (my-or 1 2)
+    =>  1
 
-(my-or #f 2)
-=>  2
+    (my-or #f 2)
+    =>  2
 
 
  
 There is a problem with the my-or macro as it is written. It re-evaluates the first argument if it is true: once in the if-test, and once again in the ``then'' branch. This can cause undesired behavior if the first argument were to contain side-effects, eg,
 
-(my-or
-  (begin 
-    (display "doing first argument")
-     (newline)
-     #t)
-  2)
+    (my-or
+      (begin 
+        (display "doing first argument")
+        (newline)
+        #t)
+      2)
 
 
  
