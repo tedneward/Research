@@ -1,6 +1,6 @@
 title=Ballerina
 tags=language, distribution, services, jvm, concurrency
-Summary=A service-oriented programming language.
+summary=A service-oriented programming language.
 ~~~~~~
 
 [Website](https://ballerina.io/) | [Project Github](https://github.com/ballerina-platform): [Spec](https://github.com/ballerina-platform/ballerina-spec) [Language](https://github.com/ballerina-platform/ballerina-lang) | [Examples](https://ballerina.io/learn/by-example/introduction/) | [Language Walkthrough](https://ballerina.io/learn/language-walkthrough/) | [Reference Examples](https://ballerina.io/learn/by-example/)
