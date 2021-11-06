@@ -58,12 +58,17 @@ Generating executable
 
 $ bal run my_first_service.jar
 [ballerina/http] started HTTP/WS listener 0.0.0.0:9090
+```
 
+**Client**
+
+Either approach, hit it from curl:
+```
 $ curl http://localhost:9090/hello/sayHello
 Hello Ballerina!
 ```
 
-**Client**
+... or build a Ballerina client:
 ```
 import ballerina/http;
 import ballerina/io;
