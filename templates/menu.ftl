@@ -23,6 +23,7 @@
               </ul>
             </li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>/tags">All Tags</a></li>
+            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>/all">All Pages</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
