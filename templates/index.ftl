@@ -25,7 +25,5 @@
 	
 	<hr />
 
-	<p><em>Last modified ${content.date?string("dd MMMM yyyy")}</em></p>
-
 
 <#include "footer.ftl">
