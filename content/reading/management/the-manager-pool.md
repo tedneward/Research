@@ -1,5 +1,5 @@
 title=The Manager Pool
-tags=reading, books, management
+tags=reading, books, management, patterns
 summary=Collection of management patterns.
 ~~~~~~
 (by Don Sherwood Olson, Carol L Stimmel)

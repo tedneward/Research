@@ -10,6 +10,7 @@ summary=Managing technical teams of people.
 *Your manager's job is not your job.* Your manager is your face to the rest of the organization; give him something to say. ... Each manager, good or bad, is going to have a glaring deficiency; does he recognize he has a blind spot? A manager's job is to transform his glaring deficiency into a strength by finding the best person to fill it and trust him to do the job. ... Schedule 1:1s with direct reports, keep them on the same day and time, and never cancel them. You will always learn something in your 1:1. ... Pure delegators are slowly becoming irrelevant to their organizations. Real work is visible action managers take to support their particular vision for their organization. ... Politically active managers are informed managers. They know when change is afoot and they know what action to take to best represent their org in that change. ... Question #1: Where did I come from? (Being able to relate to those you manage comes from intimately understanding their job.) Question #2: Where am I going? (A plan for your manager's next big move is his incentive.)
 
 ### The Rands Test
+
 * Do you have a 1:1?
 * Do you have a team meeting?
 * Do you have status reports? [Rands gives this a -1: "email-based status reports come down to control, a lack of imagination, and a lack of trust in the organization. I'm not convinced.]
@@ -22,11 +23,12 @@ summary=Managing technical teams of people.
 * Are you actively killing the Grapevine? [Kill gossip.]
 		
 ### How to Run a Meeting
+
 * Alignment meetings: tactical communication exchanges that rarely dive into the strategic.
 * Creation meetings: diving into solving a hard problem
 * Meetings have two critical components: an agenda, and a referee. Referee's job is to shape the meeting to meet the requirements of the agenda and the expectations of the participants. A good referee not only makes sure the majority of the attendees believe progress is being made, but they're aware of anyone who doesn't believe that progress is being made at any given moment. And they're looking for people being checked out. If their attention is elsewhere, they aren't listening. How do we keep everyone engaged? Pull them back (steer the conversation toward them); reset the meeting with silence (when all eyes are on you, count backwards from 10); change the scenery. Referee needs to own the meeting (actively demonstrate control of the meeting), improvise (solution to whatever the hard problem might be is going to show up via one of two things: random brilliance or grindingly hard work), knows when the meeting is nowhere the stated agenda but is making progress, knows when participant who appears to be rambling and wasting everyone's time is onto something that might lead to random brilliance so let them go, knows the glaring danger signs for a meeting that is doomed, and has the courage to stop this meeting five minutes into the scheduled hour because there is no discernible way to make progress.
 
-*(Patrick Lencioni has a lot more thoughts about meetings here; capture those notes and link from here.)*
+*(Lencioni has [a lot more thoughts about meetings](../lencioni/dath-by-meeting).)*
 
 ### The Twinge
 There is no way you can do it all; you need to trust and you need to delegate. You must also understand the art of evaluating a Spartan set of data, extracting the truth, and trusting your Twinges. Your day is full of stories; stories are the chosen version of reality on the part of the storyteller. Their agenda dictates what they are choosing to tell you. A Twinge is your experience speaking to you in an unexpected and possibly unstructured way.

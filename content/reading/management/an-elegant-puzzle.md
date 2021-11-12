@@ -1,5 +1,5 @@
 title=An Elegant Puzzle
-tags=reading, management
+tags=reading, management, books
 summary=Systems of engineering management.
 ~~~~~~
 *(by Will Larson)*
@@ -89,6 +89,72 @@ An organization is a collection of people working toward a shared goal. ... When
 
 # 3. Tools
 
+This chapter provides a box of tools for managing change, both from the abstract chair of guiding change and form the more visceral role of serving as glue during periods of transition.
+
+* **Introduction to systems thinking**
+
+    * Stocks and flows: the links between events are often more subtle than they appear. We want to describe events causally but few events occur in a vacuum. Big changes appear to happen in a moment, closer examination reveals the big change is a slow accumulation of small changes. These accumulations are called *stocks*, and are the memory of changes over time. A stock might be the number of trained managers at the company.
+
+        Changes to stocks are called *flows*: inflows or outflows. Taining a new manager is an inflow, and a departing trained manager is an outflow.
+
+        The other relationship is an *information link*. This indicates that the value of a stock is a factor in the size of a flow.
+
+        A stock outside of a diagram's scope will be represented as a cloud, indicating that something complex happened there that we're not currently exploring. It's best practice to label every flow; keep in mind that *every flow is a rate, and every stock is a quantity*.
+
+    * Developer velocity. *Accelerate: The Science of Lean Software and DevOp* suggests four measures of developer velocity:
+
+        1. Delivery lead time: the time from the creation of code to its use in production.
+
+        2. Deployment frequency: how often you deploy code.
+
+        3. Change fail rate: how frequently changes fail.
+
+        4. Time to restore service: the time spent recovering from defects.
+
+        Modeling these into a system:
+
+        * **Pull requests** are converted into **ready commits** based on our *code review rate*
+        * **Ready commits** convert into **deployed commits** at *deploy rate*
+        * **Deployed commits** convert into **incidents** at *defect rate*
+        * **Incidents** are remediated into **reverted commits** at *recovery rate*
+        * **Reverted commits** are debugged into new **pull requests** at *debug rate*
+
+        Linking these pieces together we see a *feedback loop*--the system's downstream behavior impacts its upstream behavior; with a sufficiently high *defect rate* or slow *recovery rate*, you could easily see a world where each deploy leaves you even further behind.
+
+        If your model is a good one, opportunities for improvement should be immediately obvious; however to truly identify where to invest, you need to identify the true values of these stocks and flows. (For example: if you don't have a backlog of **ready commits**, speeding up your *deploy rate* may not be valuable; if your *defect rate* is very low, then reducing your *recovery time* will have little impact.)
+
+    * Model away. Once you start thinking about systems, it's hard to stop; pretty much any difficult problem is worth trying to represent as a system. Tools: Stella (gold standard but expensive), Insight Maker (quirky by donation-based payment).
+
+* **Product management: exploration, selection, validation**
+
+
+
+* Visions and strategies
+
+* Metrics and baselines
+
+* Guilding broad organizational change
+
+* Migrations
+
+* Running an engineering reorg
+
+* Identify your controls
+
+* Career narratives
+
+* The briefest of media trainings
+
+* Model, document, and share
+
+* Scaling consistency
+
+* Presenting to senior leadership
+
+* Time management
+
+* Communities of learning
+
 # 4. Approaches
 
 # 5. Culture
@@ -97,7 +163,13 @@ An organization is a collection of people working toward a shared goal. ... When
 
 # 7. Appendix
 
-* Book list
+* Recommended reading/references list
 
-* Papers list
+    * Books
+
+        * *Accelerate: The Science of Lean Software and DevOp* (by Forsgren, Kim, Humble)
+
+        * *Thinking in Systems: A Primer* (Meadows)
+
+    * Papers
 
