@@ -1,9 +1,11 @@
 title=Structurizr
 tags=tool, library, architecture, jvm, clr, php, python, nodejs, browser
-summary=Allow you to create your software architecture model, and associated documentation, via code.
+summary=Builds upon "diagrams as code", allowing you to create multiple diagrams from a single model, using a number of tools and programming languages.
 ~~~~~~
 
-[Website](https://structurizr.com/help/code)
+[Website](https://structurizr.com/help/code) | [Source](https://github.com/structurizr)
+
+
 
 [Structurizr Lite](https://structurizr.com/help/lite): 
 
@@ -34,6 +36,13 @@ workspace {
 
 }
 ```
+
+    ![](https://static.structurizr.com/img/help/multiple-diagrams-1.png) 
+
+    and
+
+    ![](https://static.structurizr.com/img/help/multiple-diagrams-2.png)
+
 
     You can find more about the Structurizr DSL at https://github.com/structurizr/dsl, but essentially this DSL file says:
 
