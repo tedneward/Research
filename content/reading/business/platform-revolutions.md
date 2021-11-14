@@ -200,15 +200,24 @@ Four key elements:
 # 6. Monetization
 *Capturing the Value Created by Network Effects*
 
-# 7. Openness: Defining What Platform Users and Partners Can and Cannot Do
 
-# 8. Governance: Policies to Increase Value and Enhance Growth
 
-# 9. Metrics: How Platform Managers Can Measure What Really Matters
+# 7. Openness
+*Defining What Platform Users and Partners Can and Cannot Do*
 
-# 10. Strategy: How Platforms Change Competition
+# 8. Governance
+*Policies to Increase Value and Enhance Growth*
 
-# 11. Policy: How Platforms Should (and Should Not) Be Regulated
+# 9. Metrics
+*How Platform Managers Can Measure What Really Matters*
 
-# 12. Tomorrow: The Future of the Platform Revolution
+# 10. Strategy
+*How Platforms Change Competition*
+
+# 11. Policy
+*How Platforms Should (and Should Not) Be Regulated*
+
+# 12. Tomorrow
+*The Future of the Platform Revolution*
+
 
