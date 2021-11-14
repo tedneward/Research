@@ -37,7 +37,7 @@ Project list, by name, (as of 6/21/2021):
     * [Avatica](https://calcite.apache.org/avatica/): a framework for building database drivers; defined by a wire API between a client and a server. The Avatica server is an HTTP server, the Avatica client is a JDBC driver, and the wire API is defined by JSON or Protobuf Buffers. The flexibility of the wire API and HTTP transport allows other Avatica clients to be built in any language, implementing any client specification.
 * [Camel](https://camel.apache.org/): an Open Source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.
 * [CarbonData](http://carbondata.apache.org/): an indexed columnar data file format for fast analytics on big data platform, e.g. Apache Hadoop, Apache Spark, etc.
-* [Cassandra](../../storage/cassandra)
+* [Cassandra](/storage/cassandra)
 * [Cayenne](https://cayenne.apache.org/): an open source Java object-to-relational mapping framework.
 * [Celix](http://celix.apache.org/): An implementation of the OSGi specification adapted to C and C++.
 * [Chemistry](http://chemistry.apache.org/): provides open source implementations of the Content Management Interoperability Services (CMIS) specification (an OASIS standard enabling information sharing between different Content Management Systems).
@@ -91,8 +91,8 @@ Project list, by name, (as of 6/21/2021):
         * [Weaver](): Provides an easy way to enhance (weave) compiled bytecode.
     * [Sandbox](http://commons.apache.org/sandbox.html): components under development.
     * [Dormant](http://commons.apache.org/dormant.html): components currently inactive.
-* [Cordova](../../presentation/cordova)
-* [CouchDB](../../storage/couchdb)
+* [Cordova](/presentation/cordova)
+* [CouchDB](/storage/couchdb)
 * [Creadur](http://creadur.apache.org/): This project started as just Rat, a release auditing tool good with licenses, coded in Java with plugins for Ant and Maven; it became clear that creating one uber-tool in one language is less useful than collecting a suite:
     * Apache Rat audits license headers — the boilerplate text needed in most source files. Coded in Java, it runs from the command line with plugins for Maven and Ant.
     * Apache Tentacles helps to audit in bulk components uploaded to a staging repository. Coded in Java, it runs from the command line.
