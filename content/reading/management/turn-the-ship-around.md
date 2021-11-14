@@ -143,6 +143,18 @@ History and prelude to taking command of the *Sante Fe*.
 
     "The best way not to make a mistake is not to do anything or make any decisions. ... focusing on avoiding errors is helpful for understanding the mechanics of procedures and detecting impending major problems before they occur, but it is a debilitating approach when adopted as the objective of an org. ***You are destined to fail.*** No matter how good you get at avoiding mistakes, you will always have errors on something as complex as a submarine. ... Focusing on avoiding mistakes takes our focus away from being truly exceptional. Once a ship has achieved success merely in the form of preventing major errors and is operating in a competent way, mission accomplished, there is no need to strive further. I resolved to change this. Our goal would be excellence instead of error reduction. We would focus on exceptional operational effectiveness for the submarine. We would achieve great things. Reducing mistakes would be an important side benefit to attaining our primary goal: achieving excellence."
 
+    Questions to ponder:
+
+    * Are your people trying to achieve excellence or just to avoid making mistakes?
+    * Has your org become action-averse because taking action sometimes results in errors?
+    * Have you let error-reduction programs sap the lifeblood out of initiative and risk taking?
+    * Do you spend more time critiquing errors than celebrating success?
+    * Are you able to identify the symptoms of avoiding errors in your workplace?
+    * When you ask people what their jobs are, do they answer in terms of reducing errors?
+    * When you investigate the criteria that went behind discussions, do you find that avoidance of negative outcomes far outweighs accomplishing positive outcomes?
+    * What is the primary motivation of the middle managers and rank/file (not what it says on the wall poster outside the board room)?
+    * How can you minimize errors but not make that the focus of your org?
+
 # II: Control
 
 8. Change, in a Word
