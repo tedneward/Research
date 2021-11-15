@@ -39,6 +39,10 @@ From bottom to top, looks roughly like this:
 1. The UIApplication
 1. The UIApplication's delegate
 
+[Bruno Rocha article on responder chain](https://medium.com/better-programming/ios-responder-chain-uiresponder-uievent-uicontrol-and-uses-ee995b75aa18)
+
+[Official Apple docs](https://developer.apple.com/documentation/uikit/touches_presses_and_gestures/using_responders_and_the_responder_chain_to_handle_events)
+
 ## UIViewController
 A view controller isn't an interface object (view), but it manages one--this view is its "main view".
 
@@ -153,6 +157,36 @@ Organizational considerations to help arrange for coherent communication between
 * Visibility through reference. (Singletons; navigating the view or view controller hierarchy.)
 
 ## Misc
+
+#### Dismissing the keyboard
+From [Dismissing the keyboard in SwiftUI](https://www.dabblingbadger.com/blog/2020/11/5/dismissing-the-keyboard-in-swiftui)
+
+In UIKit, views that utilize the keyboard such as UITextField and UITextView can be dismissed by calling resignFirstResponder on the view itself, or endEditing on one of its parent views.  Code in a simple view controller might look like this:
+
+```
+class ViewController: UIViewController {
+    @IBOutlet weak var textField: UITextField!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        self.view.addGestureRecognizer(tapGesture)
+    }
+
+    @IBAction func buttonPressed(_ sender: Any) {
+        dismissKeyboardFrom(view: textField)
+    }
+
+    @objc func dismissKeyboardFrom(view: UIView) {
+        view.resignFirstResponder()
+        // or view.endEditing()
+    }
+
+    @objc func dismissKeyboard() {
+        self.view.endEditing(true)
+    }
+}
+```
 
 #### Log all the `responds(to:)` requests on an object
 For example, implement this on the AppDelegate class in a project to instrument with logging:

@@ -8,6 +8,10 @@ summary=A service-oriented programming language.
 ### Articles
 ["GraphQL Made Easy With Ballerina"](https://dzone.com/articles/graphql-made-easy-with-ballerina)
 
+["Securing Microservices with JWT"](https://medium.com/ballerina-techblog/securing-microservices-with-jwt-a16b738b110f)
+
+["Connecting to and using Google's Cloud SQL with Ballerina"](https://medium.com/@kaneeldias/connecting-to-and-using-googles-cloud-sql-with-ballerina-13e2d6594686)
+
 ## Examples
 Hello, world. A Ballerina application can have:
 

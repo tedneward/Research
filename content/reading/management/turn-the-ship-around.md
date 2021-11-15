@@ -2,7 +2,7 @@ title=Turn the Ship Around!
 tags=reading, books, management, military
 summary="A true story of turning followers into leaders." Management principles from a submarine captain.
 ~~~~~~
-*(by L. David Marquet)* [PDF](../TurntheShipAround.pdf)
+*(by L. David Marquet)* [PDF](../TurntheShipAround.pdf) [Website](https://intentbasedleadership.com/)
 
 "The core of the leader-leader model is giving employees *control* over what they work on and how they work. It means letting them make meaningful decisions. The two enabling pillars are *competence* and *clarity*."
 
@@ -156,53 +156,53 @@ Questions to ponder:
 * What is the primary motivation of the middle managers and rank/file (not what it says on the wall poster outside the board room)?
 * How can you minimize errors but not make that the focus of your org?
 
-# II: Control
+# Part II: **Control**
 
-8. Change, in a Word
+8: **Change, in a Word**
 
-9. "Welcome Aboard *Sante Fe*"
+9: **"Welcome Aboard *Sante Fe*"**
 
-10. Under Way on Nuclear Power
+10: **Under Way on Nuclear Power**
 
-11. "I Intend To..."
+11: **"I Intend To..."**
 
-12. Up Scope!
+12: **Up Scope!**
 
-13. Who's Responsible?
+13: **Who's Responsible?**
 
-14. "A New Ship"
+14: **"A New Ship"**
 
-15. "We Have a Problem"
+15: **"We Have a Problem"**
 
-# III: Competence
+# Part III: **Competence**
 
-16. "Mistakes Just Happen"
+16: **"Mistakes Just Happen"**
 
-17. "We Learn"
+17: **"We Learn"**
 
-18. Under Way for San Diego
+18: **Under Way for San Diego**
 
-19. All Present and Accounted For
+19: **All Present and Accounted For**
 
-20. Final Preparations
+20: **Final Preparations**
 
-# IV: Clarity
+# Part IV: **Clarity**
 
-21. Under Way for Deployment
+21: **Under Way for Deployment**
 
-22. A Remembrance of War
+22: **A Remembrance of War**
 
-23. Leadership at Every Level
+23: **Leadership at Every Level**
 
-24. A Dangerous Passage
+24: **A Dangerous Passage**
 
-25. Looking Ahead
+25: **Looking Ahead**
 
-26. Combat Effectiveness
+26: **Combat Effectiveness**
 
-27. Homecoming
+27: **Homecoming**
 
-28. A New Method of Resupplying
+28: **A New Method of Resupplying**
 
-29. Ripples
+29: **Ripples**
 
