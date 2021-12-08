@@ -7,7 +7,7 @@ Primary reading: [*Garbage Collection Handbook*](https://gchandbook.org/), [*Gar
 
 ## Concepts/terminology
 
-### "Regions" or "kinds" of allocation
+### Allocation schemes (high-level)
 
 * **Static**: The compiler, at the time of compilation (or the program's startup, either approach can work) has knowledge of the desired allocations, and creates space for them out of somewhere in the process' available space. These locations are fixed throughout the lifetime of the program, and cannot be expanded or shrunk--they are literally static throughout the entirety of the application's life. This is how C/C++ handle `static`-modified variable declarations, for example. Most C/C++ globals fall into this category.
 
@@ -27,7 +27,13 @@ Automated memory management (GC) almost always refers to heap management; I've n
 
 * **Reference counting**: Each allocated object has a count associated with it indicating how many references are currently pointing to it. When the reference count drops to zero, the object is eligible for reclamation. Reference counts can either be managed automatically (as in, the language/runtime manage it without programmer intervention required) or manually (programmers must ensure they call some kind of `release` method or function to indicate a finished state of use). Reference counting is highly vulnerable to mutually-referencing objects (cyclic object graphs) as a source of memory leaks.
 
-    Historical note: Microsoft COM was the first "mainstream" platform to really embrace reference counting as a part of its formal semantics (the `IUnknown` interface had three methods, two of which--`AddRef` and `Release`--managed the reference count of the allocated component), with very mixed results. When COM went distributed (DCOM), reference counts jumped in severity, since now the garbage collection was distributed, and a missed or dropped call could keep an object alive forever. Similarly, CORBA used reference counting as well, with much the same result. Java RMI chose to use a different form of distributed garbage collection, using a "heartbeat" to keep an object alive, and if no such heartbeat came through every so often, the object was assumed to be unreachable and therefore eligible for reclamation.
+    Historical note: Microsoft COM was the first "mainstream" platform to really embrace reference counting as a part of its formal semantics (the `IUnknown` interface had three methods, two of which--`AddRef` and `Release`--managed the reference count of the allocated component), with very mixed results. When COM went distributed (DCOM), reference counts jumped in severity, since now the garbage collection was distributed, and a missed or dropped call could keep an object alive forever. 
+    
+    CORBA used reference counting as well, with much the same result.
+    
+    Java RMI chose to use a different form of distributed garbage collection, using a "heartbeat" to keep an object alive, and if no such heartbeat came through every so often, the object was assumed to be unreachable and therefore eligible for reclamation.
+
+    Objective-C used reference counting, then later moved to "automatic reference counts" (ARC) which was then pushed under the covers by the Swift language.
 
 * **Mark-Sweep**: 
 
@@ -52,6 +58,8 @@ Ironically, many of these strategies could be used in custom allocation/dealloca
     * unreachable (not in use)
 
     Reading: [Monica Pawlan's original article](http://pawlan.com/monica/articles/refobjs/) | [Java reference types](https://www.kdgregory.com/index.php?page=java.refobj)
+
+    The above is the JVM terminology; the CLR does not have soft or phantom references, and I've never heard of Python or Ruby having anything beyond weak references, either.
 
 * **Finalizers**: Blocks of code to be run to assist with object reclamation efforts, for those situations in which just releasing the memory occupied is not sufficient to release all allocated resources (files, connections, locks, etc). These need to be run prior to the object's deallocation, since the variable state inside the object is often necessary as part of the resource-deallocation process, but this is usually running on a thread owned by the runtime, which means this is a scenario in which user code is being run on a runtime-owned thread, which raises all sorts of negative possibilities.
 
