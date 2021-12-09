@@ -1,5 +1,5 @@
 title=XForms
-tags=presentation, browser
+tags=presentation, browser, specification
 summary=Proposed standard for replacing HTML forms in a browser.
 ~~~~~~
 
