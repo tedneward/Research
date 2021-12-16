@@ -45,6 +45,6 @@ Military has employee retention/training issues: "In recent years, nearly 40%, o
 
 # 12: Improve your People's Quality of Life
 
-# 13: Life After Benfold
+# 13: Life After *Benfold*
 
 # Epilogue: Out of Uniform
