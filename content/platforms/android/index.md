@@ -3,7 +3,7 @@ tags=platform, android, mobile
 summary=The Android mobile platform.
 ~~~~~~
 
-[Website](https://developer.android.com/) | [Docs](https://developer.android.com/docs)
+[Website](https://developer.android.com/) | [Docs](https://developer.android.com/docs) | [Jetpack](../jetpack) | [Testing](../testing)
 
 ## Guides
 
