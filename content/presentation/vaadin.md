@@ -101,6 +101,6 @@ export class HelloWorldView extends View {
 }
 ```
 
-## [Vaadin Framework]() ([Source](https://github.com/vaadin/framework))
+## Vaadin Framework ([Source](https://github.com/vaadin/framework))
 *Vaadin 8 and Vaadin 7, both of which use GWT as the base of client-side implementations.* 
 

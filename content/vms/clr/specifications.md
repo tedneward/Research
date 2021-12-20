@@ -1,5 +1,5 @@
 title=CLR virtual machine/execution engine specifications
-tags=vm, clr, specifications
+tags=vm, clr, specification
 summary=A collection of the specifications for the runtime of the CLR platform.
 ~~~~~~
 

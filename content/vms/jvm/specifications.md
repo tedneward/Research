@@ -1,5 +1,5 @@
 title=JVM Specifications
-tags=jvm, platform, vm, specifications
+tags=jvm, platform, vm, specification
 summary=Specification links for the Java Virtual Machine (JVM).
 ~~~~~~
 
