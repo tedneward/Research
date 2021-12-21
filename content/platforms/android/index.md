@@ -3,7 +3,7 @@ tags=platform, android, mobile
 summary=The Android mobile platform.
 ~~~~~~
 
-[Website](https://developer.android.com/) | [Docs](https://developer.android.com/docs) | [Jetpack](../jetpack) | [Testing](../testing)
+[Website](https://developer.android.com/) | [Docs](https://developer.android.com/docs) | [Jetpack](../jetpack) | [Testing](../testing) | [Security](../security) | [Performance](../performance)
 
 ## Guides
 
@@ -35,6 +35,17 @@ App resources: [Overview](https://developer.android.com/guide/topics/resources/p
 
 [On-device search](https://developer.android.com/guide/topics/search/appsearch) enables the device to search documents stored in the search database, even when offline.
 
+[Handle mixed connectivity](https://developer.android.com/docs/quality-guidelines/build-for-billions/connectivity): Store data, queue requests, handle images properly for offline/slow connections.
+
+[Build for device range](https://developer.android.com/docs/quality-guidelines/build-for-billions/device-capacity): Lower app memory footprint, build for a range of device capabilities
+
+[Provide data controls](https://developer.android.com/docs/quality-guidelines/build-for-billions/data-cost): Give users control over app's data, reduce app's size, be mindful of consumption
+
+[Use battery efficiently](https://developer.android.com/docs/quality-guidelines/build-for-billions/battery-consumption)
+
+[Privacy](https://developer.android.com/privacy/best-practices): Pay attention to permissions; minimize use of location; handle data safely; use resettable identifiers
+
+[Accessibility](https://developer.android.com/guide/topics/ui/accessibility): [Make apps more accessible](https://developer.android.com/guide/topics/ui/accessibility/apps), [Principles for improve app accessibility](https://developer.android.com/guide/topics/ui/accessibility/principles), [Testing app accessibility](https://developer.android.com/guide/topics/ui/accessibility/testing), [Making custom views more accessible](https://developer.android.com/guide/topics/ui/accessibility/custom-views), [Creating custom accessibility service](https://developer.android.com/guide/topics/ui/accessibility/service)
 
 ### Links, Libraries, etc
 
