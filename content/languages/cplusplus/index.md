@@ -16,6 +16,7 @@ Frequently conjoined with [C](/languages/c); Bjarne wanted C++ to be "as close a
 	- libc++ - http://libcxx.llvm.org/
 * Emscripten
 * [OpenWatcom](http://www.openwatcom.org/)
+* [Digital Mars](http://www.digitalmars.com) : Free C/C++ Compiler for DOS, Win & NT by the author of Zortech C++.
 * [Cheerp](https://leaningtech.com/pages/cheerp.html): C++ to WASM bytecode [Github](https://github.com/leaningtech)
 * C++ compiler support - http://en.cppreference.com/w/cpp/compiler_support
 * EDG C++ Front End - Supported C++ and C Language Features
@@ -27,6 +28,8 @@ Frequently conjoined with [C](/languages/c); Bjarne wanted C++ to be "as close a
 * Visual C++
 	- Support For C++11/14/17 Features: https://msdn.microsoft.com/en-us/library/hh567368.aspx
 	- Microsoft C++ language conformance table: https://docs.microsoft.com/en-us/cpp/visual-cpp-language-conformance
+* [Dev-C++](http://www.bloodshed.net/) : Free IDE and compiler for the C and C++ languages. Delphi and C source code available.
+* [Djgpp](http://www.delorie.com/djgpp/) : Free compiler for c, c++, forth, pascal and more including C sources.
 
 
 #### References
