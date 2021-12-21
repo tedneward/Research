@@ -1,5 +1,5 @@
 title=EO (Elegant Objects)
-tags=language, object
+tags=language, object, jvm
 summary=An object-oriented language, to prove to ourselves that true object-oriented programming is practically possible. Not just in books and abstract examples, but in real code that works. That's why EO is being created—to put all that "crazy" pure object-oriented ideas into practice and see whether they can work.
 ~~~~~~
 
