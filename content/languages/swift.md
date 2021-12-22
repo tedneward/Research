@@ -1023,3 +1023,4 @@ testTryStuff()
 
 - [Aspects](https://github.com/steipete/Aspects): AOP in ObjC and Swift.
 
+- See [SwiftWASM](https://swiftwasm.org/) for doing Swift-to-WebAssembly compilation; more on the [wasm](/platforms/webassembly) page.

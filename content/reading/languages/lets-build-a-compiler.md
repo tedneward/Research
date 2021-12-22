@@ -8,6 +8,7 @@ summary=A very good tutorial on writing a simple compiler in 16 articles. By Jac
 # Copyright
 The following copyright notice applies to everything below this line; all I have changed is formatting for easier reading (into Markdown).
 
+```
 *****************************************************************
 *                                                               *
 *                        COPYRIGHT NOTICE                       *
@@ -15,7 +16,7 @@ The following copyright notice applies to everything below this line; all I have
 *   Copyright (C) 1988 Jack W. Crenshaw. All rights reserved.   *
 *                                                               *
 *****************************************************************
-
+```
 
 # TUTOR (README)
 
@@ -31,7 +32,7 @@ So perhaps this new format is, after all, the safest one for general distributio
 
 I hope you like the tutorials.  Much thought went into them.
 
-									Jack W. Crenshaw
+                                Jack W. Crenshaw
 								CompuServe 72325,1327
 
 # TUTOR1: INTRODUCTION
