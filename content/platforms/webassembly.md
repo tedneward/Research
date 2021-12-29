@@ -21,6 +21,7 @@ Tools: [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) 
 * [Cheerp](/languages/cplusplus/cheerp): an open-source, commercial C/C++ compiler for Web applications. It can compile virtually any C/C++ code (up to C++14) to WebAssembly, JavaScript, asm.js or a combination thereof.
 * [Duktape](https://github.com/svaarala/duktape): embeddable JS engine capable of being run in the browser via WebAssembly
 * [SwiftWASM](https://swiftwasm.org/) ([Source](https://github.com/swiftwasm/swift)): SwiftWasm compiles your [Swift](/languages/swift) code to WebAssembly.
+* [Zig](/languages/zig) can compile to either "freestanding" WASM or as part of WASI
 
 [Wasm3](https://github.com/wasm3/wasm3): "The fastest WebAssembly interpreter (and the most universal wasm runtime)"
 
