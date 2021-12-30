@@ -49,3 +49,4 @@ Using RFCs internally for decision-making:
 * [Making technical decisions using RFCs](https://eltonminetto.dev/en/post/2021-05-22-rfc/)
 * [A Structured RFC Process](https://philcalcado.com/2018/11/19/a_structured_rfc_process.html)
 * [ADRs](/architecture/adr)
+* [Why Engineers Should Invest in Decision Making Skills Early](https://www.reforge.com/blog/technical-decision-making): "... to make more successful technical calls and advance careers, engineers actually need to develop better strategic decision-making skills — not just technical execution skills. In fact, an over-reliance on technical execution skills early in a career leads to untapped impact and stalled growth opportunities down the road."

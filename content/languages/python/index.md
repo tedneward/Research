@@ -12,6 +12,7 @@ summary=A dynamic language and platform.
 * JVM: [Jython](http://www.jython.org/)
 * CLR: IronPython
 * C: [Stackless](https://github.com/stackless-dev/stackless): Stackless implementation (fork of CPython)
+* Python-to-[Crystal](/languages/ruby/crystal): [Py2cr](https://github.com/nanobowers/py2cr)
 
 ### Articles:
 * [WTFPython](https://github.com/satwikkansal/wtfpython): A collection of unintuitive ways Python behaves, with explanations as to why.

@@ -7,6 +7,8 @@ summary=Another C replacement nominee, that aims to have "no hidden functions".
 
 [Zig at a glance](https://andrewshitov.com/2019/12/22/zig-at-a-glance/)
 
+[A review of Zig (2021)](https://www.duskborn.com/posts/2021-aoc-zig/)
+
 ### Installing and running Zig
 You can build Zig from source files or install it using a package manager for your operating system. macOS: `$ brew install zig`
 

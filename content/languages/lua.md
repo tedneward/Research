@@ -5,6 +5,8 @@ summary=Scripting language often embedded into game engines for extensibility.
 
 [Website](https://www.lua.org/)
 
+[Good, bad, and ugly parts](http://notebook.kulchenko.com/programming/lua-good-different-bad-and-ugly-parts)
+
 ## [Learn X in Y Minutes Quick Intro](https://learnxinyminutes.com/docs/lua/):
 
 ```lua
@@ -403,6 +405,10 @@ g()  -- Prints out 343; nothing printed before now.
 * <a href="http://lua-users.org/wiki/IoLibraryTutorial">io library</a>
 * <a href="http://lua-users.org/wiki/OsLibraryTutorial">os library</a>
 
+### Tools
+
+* [Zero Brane Studio](https://studio.zerobrane.com/): A Lua IDE ([Source](https://github.com/pkulchenko/ZeroBraneStudio/))
+
 ### Additional Implementations
 
 * C: [LuaJIT](http://luajit.org/): Fully compatible with Lua 5.1. Has a built-in C FFI library. Very fast.
@@ -422,3 +428,4 @@ g()  -- Prints out 343; nothing printed before now.
 * [Squirrel](../squirrel)
 * [SquiLu](https://github.com/mingodad/squilu): A fork of Squirrel. Changes the syntax to accept a subset of JavaScript and C/C++. Implements Lua's features like string pattern matching and global table manipulation functions. Adds extensions for database access (SQLite3, MySQL, PostgreSQL), sockets, and other features.
 * [Wu](../wu)
+

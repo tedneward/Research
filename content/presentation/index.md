@@ -152,4 +152,5 @@ tags=presentation
 
 ["How to Draw S-Curved Arrows"](https://dragonman225.js.org/curved-arrows.html)
 
+["Have SPAs ruined the Web?"](https://htmx.org/essays/a-response-to-rich-harris/)
 
