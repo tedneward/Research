@@ -146,6 +146,10 @@ tags=presentation
         - system environment constraints (e.g. technology, non-graphic screens);
         - economic constraints (e.g. cost of use, training)
 
+---
 
+## Miscellaneous reading
+
+["How to Draw S-Curved Arrows"](https://dragonman225.js.org/curved-arrows.html)
 
 

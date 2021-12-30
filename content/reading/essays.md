@@ -3,6 +3,12 @@ tags=reading
 summary=Collection of thoughts.
 ~~~~~~
 
+["Does DNA have the equivalent of IF-statements, WHILE loops, or function calls? How about GOTO?"](https://biology.stackexchange.com/questions/30116/does-dna-have-the-equivalent-of-if-statements-while-loops-or-function-calls-h): Short answer, sort of:
+
+    "Molecular biological processes cannot be directly compared to a computer code. It is the underlying logic that is important and not the statement construct itself and these examples should not be taken as absolute analogies. It is also to be noted that DNA is just a set of instructions and not really a fully functional entity (it is functional to some extent). However, even being just a code it is comparable to a HLL code that has to be compiled to execute its functions. See this post too.
+
+    "It is also important to note that the cell, like many other physical systems, is analog in nature. Therefore, in most situations there is no 0/1 (binary) value of variables. Consider gene expression. If a transcriptional activator is present, the gene will be transcribed. However, if you keep increasing the concentration of the activator, the expression of that gene will increase until it reaches a saturation point. So there is no digital logic here. Having said that, I would add that switching behaviour is possible in biological systems (including gene expression) and is also used in many cases. Certain kinds of regulatory network structures can give rise to such dynamics. Co-operativity with or without positive feedback is one of the mechanisms that can implement switching behaviour."
+
 ## [Essays on programming I think about a lot](https://www.benkuhn.net/progessays/):
 
 ### [Computers can be understood](https://blog.nelhage.com/post/computers-can-be-understood/):

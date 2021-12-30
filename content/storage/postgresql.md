@@ -7,3 +7,6 @@ summary=Open-source relational database.
 
 [Download](https://www.postgresql.org/download/) | Also installable via Homebrew (macOS): `brew install postgresql`
 
+---
+
+[Postgres is a great pub/sub & job server](https://webapp.io/blog/postgres-is-the-answer/)

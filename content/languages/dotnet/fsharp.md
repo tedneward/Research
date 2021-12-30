@@ -9,7 +9,7 @@ summary=An object/functional hybrid language.
 
 [Language Overview](http://tomasp.net/articles/fsharp-i-introduction/article.pdf) |  [Language Specification](https://fsharp.org/specs/language-spec/): [4.1](https://fsharp.org/specs/language-spec/4.1/FSharpSpec-4.1-latest.pdf) [4.0](https://fsharp.org/specs/language-spec/4.0/FSharpSpec-4.0-final.pdf) [3.1](https://fsharp.org/specs/language-spec/3.1/FSharpSpec-3.1-final.pdf) [3.0](https://fsharp.org/specs/language-spec/3.0/FSharpSpec-3.0-final.pdf) | Syntax Cheat Sheet: [HTML](http://dungpa.github.io/fsharp-cheatsheet/) [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf)
 
-Originally from [Microsoft Research](../../places/msr).
+Originally from [Microsoft Research](/places/msr).
 
 F# was originally a CLR-based variant of [OCaml](../ocaml). Since F# 3.0, it has relaxed some of the direct compatibility with OCaml in favor of a friendlier syntax, but still very much holds to its roots.
 
@@ -28,13 +28,18 @@ F# was originally a CLR-based variant of [OCaml](../ocaml). Since F# 3.0, it has
 
 [Data access](https://fsharp.org/guides/data-access/): Type providers are seriously powerful: [Accessing loosely structured data from F# and C#](http://tomasp.net/blog/goto-loosely-structured-data.aspx/index.html) [XML](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html), [JSON](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html), [SQL](http://msdn.microsoft.com/en-us/library/hh361033.aspx). Agents and message queues: [An Introduction To F# Agents](http://www.developerfusion.com/article/139804/an-introduction-to-f-agents/) | [Agents](http://fsharpforfunandprofit.com/posts/concurrency-actor-model/)
 
-[Data mining](http://fdatamining.blogspot.com/2012/12/a-reading-list-on-languages-in-ml-family.html)
+* [Data mining](http://fdatamining.blogspot.com/2012/12/a-reading-list-on-languages-in-ml-family.html)
 
-[FAKE](https://fake.build/): Build tool DSL
+Tools:
 
-[Nu game engine](https://github.com/bryanedds/Nu)
+* [FAKE](https://fake.build/): Build tool DSL
+* [PerfAvore](https://github.com/MokoSan/PerfAvore): Rule based performance analysis and monitoring tool for dotnet.
 
-[Intellifactory](http://www.intellifactory.com/): Building functional, reactive, full-stack F# applications
+Games:
+
+* [Nu game engine](https://github.com/bryanedds/Nu)
+
+[Intellifactory](http://www.intellifactory.com/): Building functional, reactive, full-stack F# applications; [their blogs](https://intellifactory.com/blogs)
 
 ---
 

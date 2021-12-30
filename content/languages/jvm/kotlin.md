@@ -7,7 +7,11 @@ From JetBrains.
 
 [Source](https://github.com/JetBrains/kotlin) | [Kotlin tutorials](https://kotlinlang.org/docs/tutorials/) | [A list of Kotlin resources](http://kotlin.link/)
 
-## From [Learn X in Y Minutes]()
+[Kotlin Multiplatform Mobile](https://kotlinlang.org/docs/kmm-overview.html) and some [community content](https://twitter.com/kotlin/status/1474309782169432067)
+
+---
+
+## From [Learn X in Y Minutes](https://learnxinyminutes.com/docs/kotlin/)
 
 ```kotlin
 // Single-line comments start with //

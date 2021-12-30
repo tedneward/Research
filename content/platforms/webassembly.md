@@ -3,7 +3,7 @@ tags=platform, browser
 summary=A portable multi-environment-targeting bytecode format for the Web.
 ~~~~~~
 
-[Website](https://webassembly.org/)
+[Website](https://webassembly.org/) | [Bytecode Alliance](https://bytecodealliance.org/)
 
 [Specifications page](https://webassembly.github.io/spec/) ([Source](https://github.com/WebAssembly/spec/)):
 
@@ -11,6 +11,8 @@ summary=A portable multi-environment-targeting bytecode format for the Web.
 * [JavaScript Embedding](https://webassembly.github.io/spec/js-api/index.html)
 * [Web Embedding](https://webassembly.github.io/spec/web-api/index.html)
 * [Proposals](https://github.com/WebAssembly/proposals)
+* [Component model](https://github.com/WebAssembly/component-model)
+* [WebAssembly System Interface](https://wasi.dev/)
 
 Tools: [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) | [binaryen](https://github.com/WebAssembly/binaryen)
 
@@ -21,8 +23,10 @@ Tools: [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) 
 * [Cheerp](/languages/cplusplus/cheerp): an open-source, commercial C/C++ compiler for Web applications. It can compile virtually any C/C++ code (up to C++14) to WebAssembly, JavaScript, asm.js or a combination thereof.
 * [Duktape](https://github.com/svaarala/duktape): embeddable JS engine capable of being run in the browser via WebAssembly
 * [SwiftWASM](https://swiftwasm.org/) ([Source](https://github.com/swiftwasm/swift)): SwiftWasm compiles your [Swift](/languages/swift) code to WebAssembly.
-* [Zig](/languages/zig) can compile to either "freestanding" WASM or as part of WASI
+* [wasmlink](https://github.com/bytecodealliance/wit-bindgen/tree/main/crates/wasmlink):  a CLI that allows us to statically link a module and its dependencies using [module linking](https://github.com/WebAssembly/module-linking) and the [Canonical Interface Types ABI](https://github.com/WebAssembly/interface-types/pull/140).
 
 [Wasm3](https://github.com/wasm3/wasm3): "The fastest WebAssembly interpreter (and the most universal wasm runtime)"
 
 [Wasm Debugger](https://github.com/wasm3/wasm-debug): Direct, source-level WebAssembly debugger
+
+[An introduction to WebAssembly components](https://radu-matei.com/blog/intro-wasm-components/): 
