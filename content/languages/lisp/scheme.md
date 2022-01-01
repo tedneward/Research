@@ -24,4 +24,5 @@ summary=Homoiconic dynamic functional(ish) language derived from Lisp.
 ### Reading
 * ["The Scheme Programming Language (4th Ed)"](https://www.scheme.com/tspl4/), by Dybvig ([3rd Ed](https://www.scheme.com/tspl3/), [2nd Ed](https://www.scheme.com/tspl2/))
 * ["Scheme From Scratch"](http://peter.michaux.ca/articles/scheme-from-scratch-introduction)
+* ["VLISP: A Verfied Implementation of Scheme"](http://mirror.informatimago.com/scheme/repository.readscheme.org/ftp/papers/vlisp-lasc/vlisp.pdf)
 

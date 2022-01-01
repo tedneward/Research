@@ -1039,3 +1039,8 @@ y := x veryDeepCopy.                            "complete tree copy using a dict
 x := FillInTheBlank request: 'Prompt Me'.       "prompt user for input"
 Utilities openCommandKeyHelp
 ```
+
+### Additional reading
+
+["Exploring the Smalltalk Collections API"](https://donraab.medium.com/exploring-the-smalltalk-collections-api-in-unit-tests-using-pharo-8-0-2f62cfc8410d)
+

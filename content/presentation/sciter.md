@@ -7,3 +7,7 @@ summary=Embeddable HTML/CSS/script engine for modern UI development
 
 C-based API. [C++ Tutorial](https://sciter.com/hello-cpp-tutorial/)
 
+## Apps built with Sciter
+
+* [Sciter Notes](https://notes.sciter.com/)
+* 
