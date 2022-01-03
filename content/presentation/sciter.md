@@ -7,7 +7,8 @@ summary=Embeddable HTML/CSS/script engine for modern UI development
 
 C-based API. [C++ Tutorial](https://sciter.com/hello-cpp-tutorial/)
 
+Used to be built with [TIScript](/languaes/tiscript)
+
 ## Apps built with Sciter
 
 * [Sciter Notes](https://notes.sciter.com/)
-* 
