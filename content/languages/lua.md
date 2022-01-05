@@ -413,6 +413,7 @@ g()  -- Prints out 343; nothing printed before now.
 
 * C: [LuaJIT](http://luajit.org/): Fully compatible with Lua 5.1. Has a built-in C FFI library. Very fast.
 * CLR: [MoonSharp](https://www.moonsharp.org/): CLR Based Lua implementation that is 99% compatible with Lua 5.2.
+* CLR: [Lua.NET](https://www.codeproject.com/Articles/4723/LuaDotNet-a-thin-wrapper-around-Lua-and-Luabind-fo): A thin wrapper around Lua and Luabind.
 * Erlang: [luerl](https://github.com/rvirding/luerl): An implementation of Lua 5.2 in pure Erlang with some features like goto absent.
 * Go: [Go-Lua](https://github.com/Shopify/go-lua): Implements a subset of Lua 5.2.
 * Go: [GopherLua](https://github.com/yuin/gopher-lua): Implements Lua 5.1 with the added support for Go's channels. Lacks the debug hooks and several functions from the C version.

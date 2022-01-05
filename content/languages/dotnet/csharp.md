@@ -10,3 +10,6 @@ A compiled language. [C# Language Specification (ECMA-334)](https://www.ecma-int
 [Roslyn source](https://github.com/dotnet/roslyn)
 
 [Official repo for the design of the C# programming language](https://github.com/dotnet/csharplang)
+
+[VB.Net to C# Converter](http://www.vbconversions.net/home.htm)
+
