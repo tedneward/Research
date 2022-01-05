@@ -1,6 +1,6 @@
 title=Atomic Habits
 tags=reading
-summary=
+summary=Notes from the book.
 ~~~~~~
 
 ## [Quick Summary](https://www.chrisbehan.ca/posts/atomic-habits)
