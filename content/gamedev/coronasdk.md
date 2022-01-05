@@ -6,6 +6,7 @@ summary=Cross-platform framework ideal for rapidly creating apps and games for m
 Commercially shut down, but still available open-source.
 
 Corona currently supports building apps for the following platforms:
+
 * iOS
 * Android
 * Amazon Kindle
