@@ -12,3 +12,6 @@ Consists of:
 * [SoundJS](https://createjs.com/soundjs): A JavaScript library that lets you easily and efficiently work with audio on the web.
 * [PreloadJS](https://createjs.com/preloadjs): A JavaScript library that lets you manage and co-ordinate the loading of assets and data.
 
+## Reading
+
+["Combining Easel.js and Box2d in Canvas"](https://www.luxanimals.com/blog/article/combining_easel_box2d)
