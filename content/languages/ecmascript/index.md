@@ -54,6 +54,7 @@ From the Specification home page, a history:
 * [JVM: Rhino](https://github.com/mozilla/rhino) (includes [E4X](../e4x) support)
 * [JVM: Graal.js](https://github.com/graalvm/graaljs) part of [GraalVM](/vms/graalvm.html)
 * [C/C++: mjs](https://github.com/cesanta/mjs) Embedded JavaScript for C/C++, designed for microcontrollers with limited resources. Implements a strict subset of ES6.
+* [C/C++: QuickJS](https://bellard.org/quickjs/): a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
 
 ### Transpilers
 [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS)
