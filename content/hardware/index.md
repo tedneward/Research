@@ -7,6 +7,10 @@ tags=hardware
 
 Collection of links about and around hardware.
 
+[System76 laptops](https://system76.com/laptops)
+
+[Rent a Mac in the Cloud](http://www.macincloud.com/)
+
 "Hacking the reMarkable e-Ink Tablet"
 
 1. [Intro to reMarkable; Motivation; Getting Started](https://stachu.net/hacking-the-remarkable-eink-tablet/); includes links to popular cases (I like the one he calls out in particular)

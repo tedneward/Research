@@ -21,4 +21,4 @@ High-level resources/links around software architecture--styles, analysis, etc.
 * XI. Logs: Treat logs as event streams
 * XII. Admin processes: Run admin/management tasks as one-off processes
 
-
+[Don't Start with Microservices--Monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
