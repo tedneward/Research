@@ -6,6 +6,7 @@ summary=Approaches to object-oriented design and thinking.
 
 
 # Axioms and Principles that define software quality (p83)
+
 * **Axiom of Separation of Concerns**
 * **Axiom of Comprehension**: accommodate human cognitive limitations
 * **Axiom of Translation**: correctness is unaffected by movement between equivalent contexts
@@ -18,11 +19,13 @@ summary=Approaches to object-oriented design and thinking.
 
 
 # "Greek and Roman" * Robert Glass (p64)
+
 * Greek: individual acts as his own agent*you are an individual, an independent contractor
 * Roman: one's first duty was to the group, clan, class or faction upon which one depended for status: gravitas. This meant sacrificing oneself for the good of the organization, and giving up one's individuality and identifying closely with the group. You are not an individual*you are owned by the organization body and mind, 24 hours a day. Rewards: the organization provides you with security, money and power.
 
 
 # 4 Presuppositions
+
 1. everything is an object
 2. simulation of a problem domain drives object discovery and definition
 3. objects must be composable
@@ -31,6 +34,7 @@ summary=Approaches to object-oriented design and thinking.
 
 # Essential terms
 ## Object
+
 * responsibility
      * maintain and supply on request one or more units of information
      * perform a computational task
@@ -43,6 +47,7 @@ summary=Approaches to object-oriented design and thinking.
 * interface/protocol
   
 ## Collaboration & collaborator
+
 * class hierarchy/library
      * abstract/concrete
 * component
@@ -50,6 +55,7 @@ summary=Approaches to object-oriented design and thinking.
      * inheritance
 
 ## Class
+
 * exemplar object
 * label for set of similar objects
 * storage location for class-wide behaviors
@@ -61,6 +67,7 @@ Inheritance? Pattern? Delegation? Polymorphism? Encapsulation?
 
 
 ## Objectionary (p.306-307): "object vending machine"
+
 * total # of objects < 2000
 * each object is an autonomous executable entity
 * each object has unique ID and unique "address"--each object has its own URL
