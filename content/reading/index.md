@@ -50,3 +50,7 @@ Using RFCs internally for decision-making:
 * [A Structured RFC Process](https://philcalcado.com/2018/11/19/a_structured_rfc_process.html)
 * [ADRs](/architecture/adr)
 * [Why Engineers Should Invest in Decision Making Skills Early](https://www.reforge.com/blog/technical-decision-making): "... to make more successful technical calls and advance careers, engineers actually need to develop better strategic decision-making skills — not just technical execution skills. In fact, an over-reliance on technical execution skills early in a career leads to untapped impact and stalled growth opportunities down the road."
+
+---
+
+[The Sound of Sorting](https://panthema.net/2013/sound-of-sorting/): demo program for sortings algorithms, which both visualizes the algorithms internals and their operations, and generates sound effects from the values being compared.

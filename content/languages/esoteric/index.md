@@ -13,6 +13,21 @@ summary=Languages that are silly, ridiculous, or out to punish innocent programm
 * [Funciton](https://esolangs.org/wiki/Funciton) is a two-dimensional, minimalistic, declarative programming language invented in 2011. (ASCII call-flow graphs FTW!)
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck), the classic esolang.
 * [Emmental](https://esolangs.org/wiki/Emmental) is a self-modifying language. It is defined by a meta-circular interpreter (an Emmental interpreter described in Emmental.) The meta-circular interpreter provides an operation which modifies operations of the meta-circular interpreter. Emmental is a stack-based language, but it also has a queue.
+* [FIFTH](https://esolangs.org/wiki/FIFTH): for all those functional alcoholics out there.
+* [LifeScript](https://esolangs.org/wiki/LifeScript): Typical LifeScript is basically a text document, looking like source code, which describes the actual activity of the editor.
+* [SARTRE](https://esolangs.org/wiki/SARTRE): an extremely unstructured language. Statements in SARTRE have no purpose; they just are there. Thus, SARTRE programs are left to define their own functions. SARTRE programmers tend to be boring and depressed and are no fun at parties.
 
-... and [many, many others](https://esolangs.org/wiki/Language_list).
+... and [many, many others](https://esolangs.org/wiki/Language_list). The Esolangs wiki has broken them out into a number of different [categories](https://esolangs.org/wiki/Esolang:Categorization), which is interesting even for non-esoteric languages.
 
+* [Joke languages](https://esolangs.org/wiki/Joke_language_list)
+
+[Esoteric Programming Languages Webring](http://homepage.eircom.net/~kmgaughan/esolang/index.html) (which seems broken)
+
+Some random links I've found:
+
+* [Beyond Ada: The First Paranoid Programming Language](http://zzo38computer.org/backup/paranoid-programming-language.html)
+* [BIT](https://www.dangermouse.net/esoteric/bit.html): a programming language built around individual bits
+* [foogol](http://www.bertnase.de/html/foogol.html): A (vax) compiler for a tiny ALGOL-like language
+* [JSFuck](http://www.jsfuck.com/): an esoteric and educational programming style based on the atomic parts of JavaScript. It uses only six different characters to write and execute code.
+* [Q-BAL](https://mirrors.talideon.com/articles/qbal/): a programming language based on the question “What would it be like if a language were based on queues rather than stacks?” The acronym stands for Queue-BAsed Lanugage. This language is not designed to be useful, just fun.
+* There's some languages--hard to tell if they're serious or not--at [p-and-q.com](http://p-nand-q.com/programming/languages/index.html).
