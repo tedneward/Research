@@ -7,3 +7,7 @@ summary=Huge collection of cloud-hosted services.
 
 [A Well-Architected Framework (PDF)](http://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
 
+## Articles/Blogs
+[A Fully Self-Sustained Blog Running in S3](https://www.allthingsdistributed.com/2011/02/weblog_in_amazon_s3.html)
+
+[Hosting a static website in S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
