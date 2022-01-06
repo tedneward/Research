@@ -1,5 +1,5 @@
 title=DyBase
-tags=storage, object
+tags=storage, embedded, object
 summary=A very simple object oriented embedded database for languages with dynamic type checking.
 ~~~~~~
 
