@@ -10,7 +10,6 @@ Storage is typically data, but the degree of structure is flexible. Unstructured
 ## Link sites
 [NoSQL](https://hostingdata.co.uk/nosql-database/)
 
-
 ## "Shapes" to data
 
 ### [Relational](/tags/relational.html)
@@ -21,8 +20,6 @@ Built, more or less, on the Codd model of relationships between tuples of data.
 
 Structure is conceptually "star"-like, with minimal (or no) relationships outside of the document recognized by the storage system. (Developers can, and usually will, store unique data elements across documents as a way of putting structure in at the application level, but this is typically unrecognized by the storage system itself.)
 
-MongoDB
-
 ### [Graph-oriented](/tags/graph.html)
 [Wikipedia](https://en.wikipedia.org/wiki/Graph_database)
 
@@ -31,9 +28,9 @@ MongoDB
 "If a user's domain is composed of a heterogeneous set of objects (vertices) that can be related to one another in a multitude of ways (edges), then a graph may be the right representation to use. In a graph, each vertex is seen as an atomic entity (not simply a "row in a table") that can be linked to any other vertex or have properties added or removed at will. This empowers the data modeler to think in terms of actors within a world of complex relations as opposed to, in relational databases, statically-typed tables joined in aggregate. Once a domain is modeled, that model must then be exploited in order to yield novel, differentiating information. Graph computing has a rich history that includes not only query languages devoid of table-join semantics, but also algorithms that support complex reasoning: path analysis, vertex clustering and ranking, subgraph identification, and more. The world of applied graph computing offers a flexible, intuitive data structure along with a host of algorithms able to effectively leverage that structure." -- from [Apache TinkerPop](http://tinkerpop.apache.org/)
 
 List of graph dbs to add (from TinkerPop page):
+
 * [Alibaba Graph Database](https://cn.aliyun.com/product/gdb) - A real-time, reliable, cloud-native graph database service that supports property graph model.
 * [Amazon Neptune](https://aws.amazon.com/neptune/) - Fully-managed graph database service.
-* [ArangoDB](https://github.com/ArangoDB-Community)
 * [Bitsy](https://github.com/lambdazen/bitsy/wiki) - A small, fast, embeddable, durable in-memory graph database.
 * [Blazegraph](https://github.com/blazegraph) - RDF graph database with OLTP support.
 * [ChronoGraph](https://github.com/MartinHaeusler/chronos/tree/master/org.chronos.chronograph) - A versioned graph database.
@@ -43,15 +40,11 @@ List of graph dbs to add (from TinkerPop page):
 * [HGraphDB](https://github.com/rayokota/hgraphdb) - OLTP graph database running on Apache HBase.
 * [Huawei Graph Engine Service](https://www.huaweicloud.com/en-us/product/ges.html) - Fully-managed, distributed, at-scale graph query and analysis service that provides a visualized interactive analytics platform.
 * [IBM Graph](https://console.ng.bluemix.net/catalog/services/ibm-graph/) - OLTP graph database as a service.
-* [JanusGraph](http://janusgraph.org/) - Distributed OLTP and OLAP graph database with BerkeleyDB, Apache Cassandra and Apache HBase support.
-* Neo4j - OLTP graph database (embedded and high availability).
 * [neo4j-gremlin-bolt](https://github.com/SteelBridgeLabs/neo4j-gremlin-bolt) - OLTP graph database (using Bolt Protocol).
-* [OrientDB](https://github.com/orientechnologies) - OLTP graph database
 * [Apache S2Graph](https://s2graph.apache.org/) - OLTP graph database running on Apache HBase.
 * [Sqlg](https://github.com/pietermartin/sqlg) - OLTP implementation on SQL databases.
 * [Stardog](https://stardog.com/) - RDF graph database with OLTP and OLAP support.
 * [TinkerGraph](https://tinkerpop.apache.org/docs/current/reference/#tinkergraph-gremlin) - In-memory OLTP and OLAP reference implementation.
-* [Titan](https://thinkaurelius.github.io/titan/) - Distributed OLTP and OLAP graph database with BerkeleyDB, Apache Cassandra and Apache HBase support.
 * [Unipop](https://github.com/rmagen/unipop) - OLTP Elasticsearch and JDBC backed graph.
 
 ### [Column-oriented (columnar)](/tags/columnar.html)
