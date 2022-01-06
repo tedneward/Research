@@ -124,7 +124,7 @@ If the types can be manipulated/changed at runtime, then the language is often s
 
 ## Implementation
 
-[More compilers reading](/reading/compilers)
+[More compilers reading](/reading/languages/compilers)
 
 Lots of these languages run on top of [virtual machines](/vms), and so will obey semantics defined there.
 

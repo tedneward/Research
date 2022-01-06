@@ -7,8 +7,12 @@ Implementations:
 
 * [SWI-Prolog](http://www.swi-prolog.org/)
 * [GNU Prolog](http://www.gprolog.org/)
+* [GNU Prolog RH](http://pauillac.inria.fr/~haemmerl/gprolog-rh/): an extension of GNU Prolog with attributed variables, coroutinings and constraint logic programming over reals ([PDF Manual](http://pauillac.inria.fr/~haemmerl/pub/gprolog-rh-doc.pdf))
+* [Visual Prolog](https://www.visual-prolog.com/) ([Wikipedia](https://en.wikipedia.org/wiki/Visual_Prolog))
 * [JVM: JIProlog](http://www.jiprolog.com/) | [Source](https://github.com/jiprolog/)
 * [JVM: TuProlog](http://alice.unibo.it/xwiki/bin/view/Tuprolog/)
+* [CLR: P#](https://homepages.inf.ed.ac.uk/stg/research/Psharp/); also [here](http://www.dcs.ed.ac.uk/home/jjc/psharp/psharp-1.1.3/dlpsharp.html)?
+* [CLR: Prolog.NET](https://github.com/Slesa/Prolog.NET) ([NuGet](https://www.nuget.org/packages/Prolog.NET/))
 * [Erlang: Erlog](https://github.com/rvirding/erlog): Interprets a subset of standard Prolog.
 * [Go: Golog](https://github.com/mndrix/golog): Implements a subset of standard Prolog.
 * [BProlog](http://www.picat-lang.org/bprolog/)
@@ -17,10 +21,22 @@ Implementations:
 * [SICStus Prolog](https://sicstus.sics.se/index.html) (commercial)
 * [Tau Prolog](http://tau-prolog.org/) (Prolog in JavaScript) | [Source](https://github.com/tau-prolog)
 * [YAP (Yet Another Prolog)](https://github.com/vscosta/yap-6.3)
+* [Yield Prolog](http://yieldprolog.sourceforge.net/): embed Prolog programs directly in Python, C#, or JavaScript
 * [XSB](http://xsb.sourceforge.net/index.html) "is a Logic Programming and Deductive Database system"; last updated 2017?
-
+* [W-Prolog](https://github.com/Web-Prolog): Prolog in the browser
 
 Many of these are built on the idea of the [Warren Abstract machine](http://en.wikipedia.org/wiki/Warren_abstract_machine), [archived here](http://wambook.sourceforge.net/).
+
+## Reading
+
+* [The Power of Prolog](https://www.metalevel.at/prolog)
+* [Logic, Programming and Prolog](https://www.ida.liu.se/~ulfni53/lpp/bok/bok.pdf)
+* [Adventures in Prolog](http://www.amzi.com/AdventureInProlog/index.php)
+* [Building Expert Systems in Prolog](http://www.amzi.com/ExpertSystemsInProlog/xsipfrtop.htm)
+* [Sports Scheduler Sample Application](http://www.amzi.com/manuals/samples/prolog/ssched/doc.html)
+* [Prolog: The Standard: Reference Manual (Amazon)](https://www.amazon.com/Prolog-Standard-Reference-Manual-ebook/dp/B000QEDG92/ref=sr_1_1_bnp_1_kin)
+* [Prolog Wikibook](https://en.wikibooks.org/wiki/Prolog)
+* [List of Prolog references](https://www.univ-orleans.fr/lifo/software/stdprolog/prolog_refs.html)
 
 ---
 

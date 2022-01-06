@@ -38,6 +38,8 @@ summary=Collection of articles on implementing languages.
 
 [Semantics Engineering with PLT Redex](http://redex.racket-lang.org/): The PhD-level programming languages course at Northeastern uses the Redex book, and I found it to be a good introduction. The tool itself ([Redex](http://docs.racket-lang.org/redex/index.html)) is a great way to experiment with semantics, including reduction relations (roughly, the part of the semantics that says how the program runs) and type systems. You could use this book as a substitute for TAPL (at least for learning the basics of formal semantics), or you could use Redex to experiment with the languages described in TAPL.
 
+[68 resources on creating programming languages](https://tomassetti.me/resources-create-programming-languages/)
+
 [learn-programming-languages](https://github.com/jeanqasaur/learn-programming-languages)
 	- Resources for the working programmer to learn more about the fundamentals and theory of programming languages.
 	- Jean Yang
