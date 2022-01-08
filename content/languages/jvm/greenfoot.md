@@ -1,4 +1,4 @@
-title=Greenfot
+title=Greenfoot
 tags=language, jvm
 summary=Visual and interactive programming tutorial tool built on top of Java.
 ~~~~~~
