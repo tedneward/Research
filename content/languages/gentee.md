@@ -1,6 +1,7 @@
 title=Gentee
-tags=language, go, static
+tags=language, go, static, linux, macos, windows
 summary=Script programming language for automation.
 ~~~~~~
 
-[Source](https://github.com/gentee/gentee/)
+[Website](https://docs.gentee.com/) | [Source](https://github.com/gentee/gentee/)
+

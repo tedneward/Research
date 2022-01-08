@@ -26,3 +26,7 @@ static void nlog(char *str, ...)
 }
 ```
 ... which is kinda a cool trick.
+
+---
+
+[Win32 Assembly Language](https://www.randallhyde.com/AssemblyLanguage/Win32Asm/index.html)

@@ -3,7 +3,7 @@ tags=language
 summary=An advanced, statically typed, high performance scripting language with native C++ embedding.
 ~~~~~~
 
-[Source](https://github.com/felix-lang/felix)
+[Website](https://felix-lang.github.io/felix/) | [Source](https://github.com/felix-lang/felix)
 
 ```
 // hello.flx

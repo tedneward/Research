@@ -14,7 +14,7 @@ Frequently conjoined with [C](/languages/c); Bjarne wanted C++ to be "as close a
 * [LLVM](/platforms/llvm.html)
 	- Clang - http://clang.llvm.org/cxx_status.html
 	- libc++ - http://libcxx.llvm.org/
-* Emscripten
+* [Emscripten]()
 * [OpenWatcom](http://www.openwatcom.org/)
 * [Digital Mars](http://www.digitalmars.com) : Free C/C++ Compiler for DOS, Win & NT by the author of Zortech C++.
 * [Cheerp](https://leaningtech.com/pages/cheerp.html): C++ to WASM bytecode [Github](https://github.com/leaningtech)
@@ -30,6 +30,8 @@ Frequently conjoined with [C](/languages/c); Bjarne wanted C++ to be "as close a
 	- Microsoft C++ language conformance table: https://docs.microsoft.com/en-us/cpp/visual-cpp-language-conformance
 * [Dev-C++](http://www.bloodshed.net/) : Free IDE and compiler for the C and C++ languages. Delphi and C source code available.
 * [Djgpp](http://www.delorie.com/djgpp/) : Free compiler for c, c++, forth, pascal and more including C sources.
+* [nwcc](http://nwcc.sourceforge.net/): a simple C compiler for Unix systems targeting a variety of architectures. ([Source](http://sourceforge.net/project/showfiles.php?group_id=97668))
+* [TinyC Compiler](https://bellard.org/tcc/): 
 
 
 #### References
