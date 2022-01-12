@@ -18,4 +18,5 @@ Distributed systems are the means by which programs on one machine communicate w
 * [Fuck Off As A Service](http://foaas.com/)
 * [DnD 5e API](https://github.com/5e-bits/5e-srd-api)
 * [Another DnD 5e API](https://api.open5e.com/)
+* [imap-backup](https://github.com/joeyates/imap-backup): Backup GMail (or other IMAP) accounts to disk
 

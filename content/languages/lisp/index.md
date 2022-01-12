@@ -47,6 +47,7 @@ Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/li
 ### Reading
 
 * [John McCarthy's Home Page](http://www-formal.stanford.edu/jmc/)
+* [Land of Lisp](http://landoflisp.com/)
 * [The Lisp Curse](http://winestockwebdesign.com/Essays/Lisp_Curse.html): An attempt to reconcile the power of the Lisp language with the inability of the Lisp community to repduce their pre-AI Winter achievements; the explanation is that the power of Lisp is actually its curse, that those who can hack anything in Lisp often do, but only to the point where it is useful to themselves, and never take that final step to produce something generally useful.
 * [Practical Common Lisp (book)](https://gigamonkeys.com/book/)
 * ["C++ and Lisp"](https://www.lurklurk.org/cpp_clos.html): "This article investigates these *[C++ and Lisp]* different approaches in a variety of areas, with two intents. Firstly, I find that it is always illuminating to see concepts from an alternative viewpoint, to be reminded that things can be done differently when a different set of constraints apply. Neither is right or wrong, just appropriate in different circumstances."

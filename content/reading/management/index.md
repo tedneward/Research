@@ -7,6 +7,8 @@ summary=Collection of thoughts/essays/etc on managing people.
 
 [Plucky 1:1 Starter Pack](https://shop.beplucky.com/products/the-plucky-1-1-starter-pack) | [Plucky 1:1 Manager Pack](https://shop.beplucky.com/products/1-1-manager-pack): "Conversation cards" for those awkward moments of silence in a 1:1. Highly recommended.
 
+[T-Shaped People and Academia](https://bastian.rieck.me/blog/posts/2022/t/): "... academia is doing a disservice to ‘T-shaped persons,’ i.e. persons combining deep expertise in one or more fields with an ability to collaborate across areas. T-shaped persons are often contrasted with I-shaped persons, commonly known as experts. Given the state of the art in the software industry, T-shaped people are a sought-for commodity: the current ‘framework du jour’ might be obsolete in a few years, but the horizontal bar of a T-shaped person ensures that they can also contribute to other aspects of a project, and quite likely will develop new vertical bars, i.e. new expertise over time."
+
 #### 9 Questions for 1:1s
 (by Claire Lew, CEO of [KnowYourCompany](http://knowyourteam.com))
 

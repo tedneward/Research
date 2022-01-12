@@ -10,3 +10,6 @@ summary=Open-source relational database.
 ---
 
 [Postgres is a great pub/sub & job server](https://webapp.io/blog/postgres-is-the-answer/)
+
+[5 Tips for a Healthier Postgres Database](https://blog.crunchydata.com/blog/five-tips-for-a-healthier-postgres-database-in-the-new-year)
+
