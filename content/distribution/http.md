@@ -19,3 +19,9 @@ List of RFCs affecting and around HTTP:
 
 [HTTP Toolkit](https://httptoolkit.tech/) ([Sources](https://github.com/httptoolkit)): a beautiful & open-source tool for debugging, testing and building with HTTP(S) on Windows, Linux & Mac. [Docs](https://httptoolkit.tech/docs/)
 
+---
+
+* [How HTTPS Works](https://howhttps.works) - DNSimple
+* [HTTP Succinctly, Syncfusion](https://www.syncfusion.com/resources/techportal/ebooks/http) (PDF, Kindle) (email address *requested*, not required)
+* [HTTP2 Explained](http://daniel.haxx.se/http2/) - Daniel Stenberg
+* [Introduction to HTTP](https://launchschool.com/books/http) - Launch School
