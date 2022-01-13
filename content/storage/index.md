@@ -16,6 +16,15 @@ Storage is typically data, but the degree of structure is flexible. Unstructured
 
 Built, more or less, on the Codd model of relationships between tuples of data.
 
+* [Database Design – 2nd Edition](https://opentextbc.ca/dbdesign01/) - Adrienne Watt, Nelson Eng @ BCcampus Open Pressbooks (HTML, PDF, EPUB, Kindle)
+* [Database Explorations](http://www.dcs.warwick.ac.uk/~hugh/TTM/Database-Explorations-revision-2.pdf) (PDF)
+* [Database Fundamentals](http://public.dhe.ibm.com/software/dw/db2/express-c/wiki/Database_fundamentals.pdf) (PDF)
+* [Databases, Types, and The Relational Model: The Third Manifesto](http://www.dcs.warwick.ac.uk/~hugh/TTM/DTATRM.pdf) (PDF)
+* [Foundations of Databases](http://webdam.inria.fr/Alice/)
+* [Readings in Database Systems, 5th Ed.](http://www.redbook.io)
+* [Temporal Database Management](http://people.cs.aau.dk/~csj/Thesis/) - Christian S. Jensen
+* [The Theory of Relational Databases](http://web.cecs.pdx.edu/~maier/TheoryBook/TRD.html)
+
 ### [Document-oriented](/tags/document.html)
 
 Structure is conceptually "star"-like, with minimal (or no) relationships outside of the document recognized by the storage system. (Developers can, and usually will, store unique data elements across documents as a way of putting structure in at the application level, but this is typically unrecognized by the storage system itself.)

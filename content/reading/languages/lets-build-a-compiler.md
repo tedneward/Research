@@ -3,7 +3,7 @@ tags=language
 summary=A very good tutorial on writing a simple compiler in 16 articles. By Jack W. Crenshaw.
 ~~~~~~
 
-[Original ZIP file of text files](/reading/languages/crenshaw-txt.zip)
+[Original ZIP file of text files](/reading/languages/crenshaw-txt.zip) | [F# Version](https://github.com/craigstuntz/lbac)
 
 # Copyright
 The following copyright notice applies to everything below this line; all I have changed is formatting for easier reading (into Markdown).

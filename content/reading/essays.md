@@ -81,3 +81,5 @@ summary=Collection of thoughts.
   
 ### [Inventing on Principle](https://vimeo.com/36579366):
 > I’ve spent a lot of time over the years making creative tools, using creative tools, thinking about them a lot, and here’s something I’ve come to believe: Creators need an immediate connection to what they’re creating.
+
+[The Passion Gospel](https://avdi.codes/the-passion-gospel/) - Avdi talking about passion in industry

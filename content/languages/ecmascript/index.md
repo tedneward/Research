@@ -82,3 +82,6 @@ From the Specification home page, a history:
 
 * [OMetaJS](https://www.npmjs.com/package/ometajs) ([Source](https://github.com/veged/ometa-js)): a JavaScript implementation of [OMeta](/languages/ometa), an object-oriented language for pattern matching.
 
+## Reading
+
+[JavaScript Promises... in Wicked Detail](https://mattgreer.dev/articles/promises-in-wicked-detail/)

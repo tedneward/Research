@@ -2,19 +2,36 @@ title=Language Implementation Reading
 tags=language, reading, llvm, native
 summary=Collection of articles on implementing languages.
 ~~~~~~
+
 ["The Naked Truth About Writing a Programming Language"](https://www.digitalmars.com/articles/b90.html)
 
 
 [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
 
 ## Background, Books
+[68 resources on creating programming languages](https://tomassetti.me/resources-create-programming-languages/)
+
 [Awesome Compilers](https://github.com/aalhour/awesome-compilers)
 
 [A Compiler Writing Journey](https://github.com/DoctorWkt/acwj)
 
 [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf):  Scheme and Functional Programming 2006; Abdulaziz Ghuloum -- [Github](https://github.com/namin/inc) Step-by-step development of a Scheme-to-x86 compiler
 
+[An Introduction to GCC](https://web.archive.org/web/20170326232435/http://www.network-theory.co.uk/docs/gccintro/index.html) - Brian Gough
+
+[Basics of Compiler Design (Anniversary Edition)](http://www.diku.dk/~torbenm/Basics/) - Torben Mogensen
+
+[Compiler Design in C (1990)](http://www.holub.com/software/compiler.design.in.c.html) - Allen Holub, Prentice Hall
+
+[Compiler Design: Theory, Tools, and Examples, C/C++ Edition](http://elvis.rowan.edu/~bergmann/books/Compiler_Design/c_cpp/Text/C_CppEd.pdf) - Seth D. Bergmann (PDF)
+
+[Compiler Design: Theory, Tools, and Examples, Java Edition](http://elvis.rowan.edu/~bergmann/books/Compiler_Design/java/CompilerDesignBook.pdf) - Seth D. Bergmann (PDF)
+
 [Computer Language Notes: Compilers and Interpreters](https://github.com/melling/ComputerLanguages/blob/master/compilers.md)
+
+[Compiling Scala for the Java Virtual Machine](http://lampwww.epfl.ch/~schinz/thesis-final-A4.pdf) - Michel Schinz (PDF)
+
+[Compiling Techniques (1969)](http://www.chilton-computing.org.uk/acl/literature/books/compilingtechniques/overview.htm) - F.R.A. Hopgood, Macdonald
 
 [Crafting Interpreters](http://craftinginterpreters.com/) by Bob Nystrom [Github](https://github.com/munificent/craftinginterpreters)
 
@@ -24,7 +41,17 @@ summary=Collection of articles on implementing languages.
 
 [How to Design Programs](https://htdp.org/)
 
-[Introduction to Compilers and Language Design](http://compilerbook.org/) by Thain
+[Implementing Functional Languages: A Tutorial](http://research.microsoft.com/en-us/um/people/simonpj/Papers/pj-lester-book/) - Simon Peyton Jones, David Lester
+
+[Introduction to Compilers and Language Design](https://www3.nd.edu/~dthain/compilerbook/compilerbook.pdf) | [Introduction to Compilers and Language Design](http://compilerbook.org/) - Douglas Thain (PDF)
+
+[learn-programming-languages](https://github.com/jeanqasaur/learn-programming-languages)
+	- Resources for the working programmer to learn more about the fundamentals and theory of programming languages.
+	- Jean Yang
+
+[Let's Build a Compiler](http://www.stack.nl/~marcov/compiler.pdf) (PDF)
+
+[Practical and Theoretical Aspects of Compiler Construction](http://web.stanford.edu/class/archive/cs/cs143/cs143.1128/) (class lectures and slides)
 
 [Programming Language Pragmatics](https://www.cs.rochester.edu/~scott/pragmatics/) by Michael L Scott. Covers theoretical background behind languages beyond syntax.
 
@@ -34,15 +61,11 @@ summary=Collection of articles on implementing languages.
 
 [Resources for Amateur Compiler Writers](http://c9x.me/compile/bib/)
 
-[Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl/): TAPL (rhymes with “apple”), as it’s better known, has a solid introduction to formal semantics in the first few chapters and would be my pick for a starting point on formal semantics. The remainder of the book deals with type systems, which form only one part of programming languages, but it’s the canonical reference if you’re looking to learn about types.
-
 [Semantics Engineering with PLT Redex](http://redex.racket-lang.org/): The PhD-level programming languages course at Northeastern uses the Redex book, and I found it to be a good introduction. The tool itself ([Redex](http://docs.racket-lang.org/redex/index.html)) is a great way to experiment with semantics, including reduction relations (roughly, the part of the semantics that says how the program runs) and type systems. You could use this book as a substitute for TAPL (at least for learning the basics of formal semantics), or you could use Redex to experiment with the languages described in TAPL.
 
-[68 resources on creating programming languages](https://tomassetti.me/resources-create-programming-languages/)
+[Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl/): TAPL (rhymes with “apple”), as it’s better known, has a solid introduction to formal semantics in the first few chapters and would be my pick for a starting point on formal semantics. The remainder of the book deals with type systems, which form only one part of programming languages, but it’s the canonical reference if you’re looking to learn about types.
 
-[learn-programming-languages](https://github.com/jeanqasaur/learn-programming-languages)
-	- Resources for the working programmer to learn more about the fundamentals and theory of programming languages.
-	- Jean Yang
+[The ANTLR Mega Tutorial](https://tomassetti.me/antlr-mega-tutorial/)
 
 ### Lists of recommended reading
 [GCC Wiki - List of compiler books](https://gcc.gnu.org/wiki/ListOfCompilerBooks) | [Jordan Rose (Swift team) recommendations](http://belkadan.com/blog/2015/11/Recommendations/) | http://jschuster.org/blog/2016/11/29/getting-started-in-programming-languages/ | [Jonathan Turner’s Reading List](http://www.jonathanturner.org/2016/10/programming-language-and-compilers-reading-list.html): Turner is an engineer on Mozilla’s Rust team and recently posted his reading list for getting up-to-speed on programming languages. The list starts with some resources on how to build interpreters and compilers, but also points to more academic material later. | [10PL](https://github.com/nuprl/10pl): This is a list compiled by Northeastern’s PL faculty of (roughly) ten academic papers that they think every student in PL should know. Not all of them are PL papers themselves, and they don’t form a full foundation on their own, but they form a kind of “great books” list for PL. | Benjamin Pierce, the author of TAPL, also has a [similar list](http://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml) (although with a slightly more type-heavy and theoretical bent). | [Classic Papers in Programming Languages and Logic](https://www.cs.cmu.edu/~crary/819-f09/) by Karl Crary
