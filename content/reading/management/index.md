@@ -3,6 +3,18 @@ tags=reading, management
 summary=Collection of thoughts/essays/etc on managing people.
 ~~~~~~
 
+## Articles
+
+- [What Google Learned From Its Quest to Build the Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html) (New York Times)
+- [Meet is Murder](https://www.nytimes.com/2016/02/28/magazine/meet-is-murder.html) (New York Times, 2016)
+- [Is Blind Hiring the Best Hiring](https://www.nytimes.com/2016/02/28/magazine/is-blind-hiring-the-best-hiring.html) (New York Times, 2016)
+- [Failure to Lunch](https://www.nytimes.com/2016/02/28/magazine/failure-to-lunch.html) (New York Times, 2016)
+- [Managed by Q's 'Good Jobs' Gamble](https://www.nytimes.com/2016/02/28/magazine/managed-by-qs-good-jobs-gamble.html) (New York Times, 2016)
+- [Rethinking the Work-Life Equation](https://www.nytimes.com/2016/02/28/magazine/rethinking-the-work-life-equation.html) (New York Times, 2016)
+- [The Robots Are Coming for Wall Street](https://www.nytimes.com/2016/02/28/magazine/the-robots-are-coming-for-wall-street.html) (New York Times, 2016)
+- [The Post-Cubicle Office and its Discontents](https://www.nytimes.com/2016/02/28/magazine/the-post-cubicle-office-and-its-discontents.html) (New York Times, 2016)
+- [The New Dream Jobs](https://www.nytimes.com/2016/02/28/magazine/the-new-dream-jobs.html) (New York Times, 2016)
+
 ## 1:1 meetings
 
 [Plucky 1:1 Starter Pack](https://shop.beplucky.com/products/the-plucky-1-1-starter-pack) | [Plucky 1:1 Manager Pack](https://shop.beplucky.com/products/1-1-manager-pack): "Conversation cards" for those awkward moments of silence in a 1:1. Highly recommended.
