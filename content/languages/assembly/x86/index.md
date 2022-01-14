@@ -3,14 +3,17 @@ tags=language, native
 summary=The native assembly language of the Intel x86 family.
 ~~~~~~
 
+* [A fundamental introduction to x86 assembly prorgamming](https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming) - Project Nayuki (HTML)
+
 "The Art of Assembly Language", in several editions:
 * [Windows](http://www.plantation-productions.com/Webster/www.artofasm.com/Windows/HTML/AoATOC.html) or [PDF](http://www.plantation-productions.com/Webster/www.artofasm.com/Windows/aoapdf.zip)
 * [Linux](http://www.plantation-productions.com/Webster/www.artofasm.com/Linux/HTML/AoATOC.html) or [PDF](http://www.plantation-productions.com/Webster/www.artofasm.com/Linux/aoapdf.tar.gz)
 * [DOS (16-bit)](http://www.plantation-productions.com/Webster/www.artofasm.com/DOS/AoADosIndex.html) or [PDF](http://www.plantation-productions.com/Webster/www.artofasm.com/DOS/pdf/0_AoAPDF.html)
 
-["How to read assembly language"](https://wolchok.org/posts/how-to-read-assembly-language/)
+* alternative link: [The Art of Assembly Language (2003)](https://web.archive.org/web/20120525102637/http://maven.smith.edu/~thiebaut/ArtOfAssembly/artofasm.html) - Randall Hyde (PDF)
 
-Intel x86/IA64 reference links should go here; likewise for AMD
+
+["How to read assembly language"](https://wolchok.org/posts/how-to-read-assembly-language/)
 
 [Assembly tutorial for DOS](https://github.com/WindowsNT/asm) also available in a full list at [CodeProject: The Intel Assembly Manual](https://www.codeproject.com/Articles/1273844/The-Intel-Assembly-Manual)
 
@@ -19,6 +22,12 @@ Intel x86/IA64 reference links should go here; likewise for AMD
 [Collection of ASM resources](http://asm.sourceforge.net/resources.html) (source to some of the above; this page has non-x86 resources on it, as well, which I'd like to extract and put into other research notes pages)
 
 ["Metaprogramming in Flat Assembler"](https://gpfault.net/posts/asm-tut-1.txt.html): Demonstrating FASM (flat assembler) macros, which are pretty powerful, it seems.
+
+* [x86-64 Assembly Language Programming with Ubuntu](http://www.egr.unlv.edu/~ed/x86.html) - Ed Jorgensen (PDF)
+* [Software optimization resources](http://www.agner.org/optimize/) - A. Fog
+* [Wizard Code, A View on Low-Level Programming](https://web.archive.org/web/20170712195930/http://vendu.twodots.nl/files/wizardcode4.pdf) - Tuomo Tuomo Venäläinen (PDF)
+
+
 
 ---
 
@@ -95,6 +104,10 @@ http://www.gamasutra.com/view/news/178446/Indepth_Windows_x64_ABI_Stack_frames.p
 - Wikibooks
 	- x86 Assembly - https://en.wikibooks.org/wiki/X86_Assembly
 	- X86_Assembly: https://en.wikibooks.org/wiki/X86_Disassembly
+- [Assemblers And Loaders (1993)](http://www.davidsalomon.name/assem.advertis/asl.pdf) - David Salomon (PDF)
+- [Ralf Brown's Interrupt List](http://www.ctyme.com/rbrown.htm)
+- [Run Down On x86 Intel Assembly Course](https://github.com/Ret2LC/x86-assembly) - Ret2LC
+- [Zen of Assembly Language: Volume I, Knowledge (1990)](http://www.jagregory.com/abrash-zen-of-asm/) - Michael Abrash
 
 ## 32-bit
 
@@ -103,7 +116,9 @@ http://www.gamasutra.com/view/news/178446/Indepth_Windows_x64_ABI_Stack_frames.p
 	- https://savannah.nongnu.org/projects/pgubook/
 	- http://programminggroundup.blogspot.com/
 	- Download: http://download.savannah.gnu.org/releases/pgubook/
+	- [PDF](https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf)
 - PC Assembly Language Tutorial
+	- [Github](http://pacman128.github.io/pcasm/) - P. A. Carter
 	- http://web.archive.org/web/20150815073439/http://www.drpaulcarter.com/pcasm/
 
 # Courses

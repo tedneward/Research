@@ -3,7 +3,7 @@ tags=language, native
 summary=A modern programming language that is parallel, productive, portable, scalable.
 ~~~~~~
 
-[Website](https://chapel-lang.org) | [Source](https://github.com/chapel-lang/chapel) | [language specification](https://chapel-lang.org/docs/latest/language/spec.html) | [Docs](https://chapel-lang.org/docs/latest/)
+[Website](https://chapel-lang.org) | [Source](https://github.com/chapel-lang/chapel) | [language specification](https://chapel-lang.org/docs/latest/language/spec.html) | [Docs](https://chapel-lang.org/docs/latest/) | [Tutorial](http://faculty.knox.edu/dbunde/teaching/chapel/) | [Tutorial for Programmers](http://web.archive.org/web/20150310075109/http://cs.colby.edu/kgburke/?resource=chapelTutorial)
 
 ## [Learn X in Y minutes Quick Intro](https://learnxinyminutes.com/docs/chapel/)
 In short, Chapel is an open-source, high-productivity, parallel-programming language in development at Cray Inc., and is designed to run on multi-core PCs as well as multi-kilocore supercomputers.

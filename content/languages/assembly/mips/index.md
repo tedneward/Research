@@ -3,6 +3,8 @@ tags=language, native, mips, assembly
 summary=A brief overview of MIPS assembly.
 ~~~~~~
 
+[Programmed Introduction to MIPS Assembly Language](http://chortle.ccsu.edu/AssemblyTutorial/index.html)
+
 ### [Learn X in Y Minutes: MIPS Assembly](https://learnxinyminutes.com/docs/mips/)
 
 The MIPS (Microprocessor without Interlocked Pipeline Stages) Assembly language is designed to work with the MIPS microprocessor paradigm designed by J. L. Hennessy in 1981. These RISC processors are used in embedded systems such as  gateways and routers.

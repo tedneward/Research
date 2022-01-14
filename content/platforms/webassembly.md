@@ -33,6 +33,8 @@ Tools: [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) 
 
 [An introduction to WebAssembly components](https://radu-matei.com/blog/intro-wasm-components/)
 
+[WebAssembly friendly programming with C/C++](https://github.com/3dgen/cppwasm-book/tree/master/en) - Ending, Chai Shushan, Yushih (HTML, [examples](https://github.com/3dgen/cppwasm-book/tree/master/examples))
+
 ### Example SDL app compiled to WebAssembly (from https://main.lv/writeup/web_assembly_sdl_example.md):
 
 ```
