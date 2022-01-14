@@ -38,6 +38,12 @@ Many of these are built on the idea of the [Warren Abstract machine](http://en.w
 * [Prolog Wikibook](https://en.wikibooks.org/wiki/Prolog)
 * [List of Prolog references](https://www.univ-orleans.fr/lifo/software/stdprolog/prolog_refs.html)
 
+### Visual Prolog
+
+* [A Beginners' Guide to Visual Prolog](http://wiki.visual-prolog.com/index.php?title=A_Beginners_Guide_to_Visual_Prolog)
+* [Visual Prolog for Tyros](http://wiki.visual-prolog.com/index.php?title=Visual_Prolog_for_Tyros)
+
+
 ---
 
 ## SWI-Prolog related material

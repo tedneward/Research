@@ -7,6 +7,8 @@ summary=A C-language library that implements a small, fast, self-contained, high
 
 How does SQLite work? [Part 1](https://jvns.ca/blog/2014/09/27/how-does-sqlite-work-part-1-pages/) | [Part 2](https://jvns.ca/blog/2014/10/02/how-does-sqlite-work-part-2-btrees/)
 
+[SQLite Tutorial](https://www.tutorialspoint.com/sqlite)
+
 ### C#/.NET
 [Microsoft.Data.Sqlite](https://docs.microsoft.com/en-us/dotnet/standard/data/sqlite/): `dotnet add package Microsoft.Data.Sqlite`
 

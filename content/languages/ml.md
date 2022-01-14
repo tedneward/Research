@@ -5,7 +5,15 @@ summary=A strictly-functional language that later inspired OCaML and others.
 
 [Wikipedia](https://en.wikipedia.org/wiki/ML_(programming_language))
 
-[Programming in Standard ML](https://www.cs.cmu.edu/~rwh/isml/book.pdf) | [Notes on Programming Standard ML of New Jersey](http://www.cs.cornell.edu/riccardo/prog-smlnj/notes-011001.pdf) (10 Jan 2001) | ["ML for the Working Programmer, 2nd Ed"](https://www.cl.cam.ac.uk/~lp15/MLbook/pub-details.html) | [Coursera course](https://www.coursera.org/course/proglang) | *[ML for the Working Programmer](https://www.cl.cam.ac.uk/~lp15/MLbook/pub-details.html)* by Larry C. Paulson.
+* [Introduction to Standard ML](http://www.pllab.riec.tohoku.ac.jp/smlsharp/smlIntroSlides.pdf) - Atsushi Ohori (PDF)
+* [ML for the Working Programmer, 2nd Edition](https://www.cl.cam.ac.uk/~lp15/MLbook/pub-details.html) - Lawrence C. Paulson
+* [Programming in Standard ML '97](http://homepages.inf.ed.ac.uk/stg/NOTES/) - Stephen Gilmore, University of Edinburgh
+* [Programming in Standard ML, DRAFT](http://www.cs.cmu.edu/~rwh/isml/book.pdf) - Robert Harper (PDF)
+* [SML# Document](http://www.pllab.riec.tohoku.ac.jp/smlsharp/docs/3.0/en/manual.xhtml) - Atsushi Ohori, Katsuhiro Ueno
+* [The Definition of Standard ML (Revised)](http://sml-family.org/sml97-defn.pdf) - SMLFamily GitHub project (PDF)
+* [Unix System Programming with Standard ML](http://mlton.org/References.attachments/Shipman02.pdf) - Anthony L. Shipman (PDF)
+* [Notes on Programming Standard ML of New Jersey](http://www.cs.cornell.edu/riccardo/prog-smlnj/notes-011001.pdf) (10 Jan 2001)
+* [Coursera course](https://www.coursera.org/course/proglang)
 
 [Standard ML](http://sml-family.org/) ([Wikipedia](https://en.wikipedia.org/wiki/Standard_ML)) and its implementations:
 

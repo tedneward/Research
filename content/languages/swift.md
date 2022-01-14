@@ -16,6 +16,12 @@ Swift combines powerful type inference and pattern matching with a modern, light
 
 [Website](https://swift.org/) | [Apple website](https://developer.apple.com/swift/) | [Source](https://github.com/apple/swift) | [Swift Programming Language](https://itunes.apple.com/us/book/swift-programming-language/id881256329) | [About Swift](https://docs.swift.org/swift-book/)
 
+* [Essential Swift](https://www.programming-books.io/essential/swift/) - Krzysztof Kowalczyk (Compiled from StackOverflow Documentation)
+* [Hacking with Swift](https://www.hackingwithswift.com)
+* [Swift Notes for Professionals](https://goalkicker.com/SwiftBook/) - Compiled from StackOverflow Documentation (PDF)
+* [Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/content//documentation/Swift/Conceptual/BuildingCocoaApps/index.html) (HTML) [(iBook)](https://itunes.apple.com/us/book/using-swift-cocoa-objective/id888894773?mt=11)
+
+
 ```swift
 // import a module
 import Foundation
@@ -1003,6 +1009,8 @@ func testTryStuff() {
 testTryStuff()
 ```
 
+---
+
 - [The power of key paths in Swift](https://www.swiftbysundell.com/posts/the-power-of-key-paths-in-swift)
 
 - [Making properties overridable only in debug builds](https://www.swiftbysundell.com/tips/making-properties-overridable-only-in-debug-builds/)
@@ -1024,3 +1032,10 @@ testTryStuff()
 - [Aspects](https://github.com/steipete/Aspects): AOP in ObjC and Swift.
 
 - See [SwiftWASM](https://swiftwasm.org/) for doing Swift-to-WebAssembly compilation; more on the [wasm](/platforms/webassembly) page.
+
+---
+
+#### Vapor
+
+* [Vapor Official Docs](https://docs.vapor.codes)
+* [Vapor 3 Tutorial For Beginners](https://theswiftdev.com/2018/04/09/vapor-3-tutorial-for-beginners) - Tibor Bödecs

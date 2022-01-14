@@ -5,7 +5,6 @@ summary=A high-level scripting language vaguely object-like.
 
 [Website](https://www.tcl-lang.org) | [Wiki](https://wiki.tcl-lang.org)
 
-
 Tcl was created by [John Ousterhout](https://wiki.tcl-lang.org/page/John+Ousterhout) as a reusable scripting language for circuit design tools that he authored.  In 1997 he was awarded the [ACM Software System Award](https://en.wikipedia.org/wiki/ACM_Software_System_Award) for Tcl.   Tcl can be used both as an embeddable scripting language and as a general programming language.  It can also be used as a portable C library, even in cases where no scripting capability is needed, as it provides data structures such as dynamic strings, lists, and hash tables.  The C library also provides portable functionality for loading dynamic libraries, string formatting and code conversion, filesystem operations, network operations, and more.  Various features of Tcl stand out:
 
 * Convenient cross-platform networking API
@@ -544,18 +543,21 @@ coroutine c apply {{} {
 }}
 ```
 
-# Implementations:
+## Implementations:
 
 * C: [Jim Tcl](http://jim.tcl-lang.org/): Largely compatible with Tcl 8.5 with its own additions.
 * C: [Picol](https://chiselapp.com/user/dbohdan/repository/picol/): A header-only library interpreter for a limited dialect of Tcl.
 * JVM: [JTcl](https://github.com/jtcl-project/jtcl): Tcl 8.4 with some 8.5 features for the JVM.
 * Rust: [Molt](https://github.com/wduquette/molt): A minimal Tcl implementation for Rust applications and libraries.
 
-# Inspired by Tcl: 
+## Inspired by Tcl: 
 
 * [LIL](http://runtimeterror.com/tech/lil/): A Tcl-like language incompatible with mainline Tcl.
 
-# Extensions to Tcl:
+## Extensions to Tcl:
 
 * [Poet](http://poet.sourceforge.net/): Poet extends the Tcl language with objects featuring dynamic, prototype-based inheritance, persistence, and one-way constraints. Poet includes wrappers around the Tk, Ttk, and BWidget widgets and object and code editors.
 
+## Reading
+
+* [Tcl Programming](https://en.wikibooks.org/wiki/Programming%3ATcl) - Richard.Suchenwirth, et. al.

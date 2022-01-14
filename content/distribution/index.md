@@ -37,3 +37,9 @@ Distributed systems are the means by which programs on one machine communicate w
 * [The TCP/IP Guide](http://www.tcpipguide.com/free/t_toc.htm)
 * [Understanding IP Addressing: Everything you ever wanted to know](http://pages.di.unipi.it/ricci/501302.pdf) (PDF)
 * [ZeroMQ Guide](http://zguide.zeromq.org/page%3Aall)
+
+## HTTP APIs
+
+* [Web API Design](https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf) - Brian Mulloy (PDF)
+* [Working with Web APIs](https://launchschool.com/books/working_with_apis) - Launch School
+* [Your API Is Bad](https://leanpub.com/yourapiisbad/read) - Paddy Foran

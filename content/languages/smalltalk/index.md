@@ -6,7 +6,10 @@ summary=The original object-oriented programming language, emphasizing multiple 
 #### Reading
 [How learning Smalltalk can make you a better developer](http://techbeacon.com/how-learning-smalltalk-can-make-you-better-developer) | [I can read C++ and Java but I can't read Smalltalk](http://www.eli.sdsu.edu/courses/spring01/cs635/readingSmalltalk.pdf)
 
-[Smalltalk 101](https://gemstonesoup.wordpress.com/smalltalk-101/) | [Smalltalk Programming Resources](http://www.whoishostingthis.com/resources/smalltalk/) | [Smalltalk Cheatsheet](http://www.angelfire.com/tx4/cus/notes/smalltalk.html) | [Smalltalk-72 Manual](http://www.bitsavers.org/pdf/xerox/parc/techReports/Smalltalk-72_Instruction_Manual_Mar76.pdf) | [GNU Smalltalk User's Guide](https://www.gnu.org/software/smalltalk/manual/html_node/Tutorial.html) | [Links to free books](http://stephane.ducasse.free.fr/FreeBooks/)
+[Smalltalk 101](https://gemstonesoup.wordpress.com/smalltalk-101/) | [Smalltalk Programming Resources](http://www.whoishostingthis.com/resources/smalltalk/) | [Smalltalk Cheatsheet](http://www.angelfire.com/tx4/cus/notes/smalltalk.html) | [Smalltalk-72 Manual](http://www.bitsavers.org/pdf/xerox/parc/techReports/Smalltalk-72_Instruction_Manual_Mar76.pdf) | [Links to free books](http://stephane.ducasse.free.fr/FreeBooks/)
+
+* [Dynamic Web Development with Seaside](http://book.seaside.st/book/table-of-contents) - S. Ducasse, L. Renggli, C. D. Shaffer, R. Zaccone
+* [Stef's Free Online Smalltalk Books](http://stephane.ducasse.free.fr/FreeBooks.html) (meta-list)
 
 #### Historical Documentation(s)
 * [BYTE: A Special issue on Smalltalk](https://archive.org/details/byte-magazine-1981-08)
