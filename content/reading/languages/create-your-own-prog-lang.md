@@ -33,7 +33,23 @@ print(awesome.awesomeness)
 
 Book moves pretty fast; at 78 pages, with multi-page listings, it really doesn't dive too deep into details. Feels like a pretty decent starting-off point for further self-exploration.
 
+### Lexing
 Demonstrates the use of lex (with links to [Rex](http://github.com/tenderlove/rex/) and [JFlex](http://jflex.de/)) to build out lexer. Uses [rexical](https://github.com/tenderlove/rexical) to actually build out the lexer. Uses [Ragel](http://www.complang.org/ragel/) to build out the scanner. "It’s described as a State Machine Compiler: lexers, like regular expressions, are state machines." Goes into building a lexer by hand (in Ruby), using regular expressions to help with the parsing. Also demonstrates how to lex/parse significant indentation, which I haven't seen before.
 
+### Parsing
 Then goes into parsing, discussing [Bison](/tools/bison)/yacc, [Lemon](/tools/lemon), [ANTLR](/tools/antlr), and PEGs.
+
+### Runtime Model
+Discusses briefly a prototype-based runtime, with a link to [this paper](http://piumarta.com/software/cola/objmodel2.pdf) on the subject.
+
+### Interpreter
+
+### Compilation
+LLVM from Ruby
+
+### Virtual Machine
+Bytecode, VM types, prototyping a VM in Ruby.
+
+### Conclusion
+Homoiconicity. Self-hosting. Resources. Solutions to the self-homework posed along the way.
 
