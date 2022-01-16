@@ -9,6 +9,18 @@ summary=Collection of thoughts.
 
     "It is also important to note that the cell, like many other physical systems, is analog in nature. Therefore, in most situations there is no 0/1 (binary) value of variables. Consider gene expression. If a transcriptional activator is present, the gene will be transcribed. However, if you keep increasing the concentration of the activator, the expression of that gene will increase until it reaches a saturation point. So there is no digital logic here. Having said that, I would add that switching behaviour is possible in biological systems (including gene expression) and is also used in many cases. Certain kinds of regulatory network structures can give rise to such dynamics. Co-operativity with or without positive feedback is one of the mechanisms that can implement switching behaviour."
 
+## Steve Yegge's rants
+
+- [Universal Design Pattern](http://steve-yegge.blogspot.com/2008/10/universal-design-pattern.html): "Today I thought I'd talk about a neat design pattern that doesn't seem to get much love: the Properties Pattern. In its fullest form it's also sometimes called the Prototype Pattern." Talks about three forms of modeling:
+
+    * Class modeling: "Class-based OO design is the 800-pound gorilla of domain modeling these days. Its appeal is that it's a natural match for the way we already model things in everyday life. Although the industry loves OO design, it's not especially well liked as an academic topic. This is because OO design has no real mathematical foundation to support it — at least, not until someone comes along and creates a formal model for side effects. The concepts of OOP stem not from mathematics but from fuzzy intuition. This in some sense explains its popularity, and it also explains why OOP has so many subtly different flavors in practice: whether (and how) to support multiple inheritance, static members, method overloading vs. rich signatures, and so on. Industry folks can never quite agree on what OOP is, but we love it all the same."
+    * Relational modeling: "Relational database modeling is a bit harder and takes more practice, because its strength stems from its mathematical foundation. Relational modeling can be intuitive, depending on the problem domain, but most people would agree that it is not necessarily so: it takes some real skill to learn how to model arbitrary problems as relational schemas. Object modeling and relational modeling produce very different designs, each with its strengths and weaknesses, and one of the trickiest problems we face in our industry has always been the object-relational mapping (ORM) problem. It's a big deal. Some people may have let you to believe that it's simple, or that it's automatically handled by frameworks such as Rails or Hibernate. Those who know better know just how hard ORM is in real-world production schemas and systems.
+    * XML (hierarchical) modeling: "XML provides yet another technique for modeling problems. Usually XML is used to model data, but it can also be used to model code. For instance, XML-based frameworks such as Apache Ant and XSLT offer computational facilities: loops or recursion, conditional expressions and setting variables." (He goes on to say that this is a "mostly solved problem" and he basically loses any respect I have for this essay at that point. Mostly.)
+
+    "Two other obvious candidates are Functional modeling (in the sense of Functional Programming, with roots in the lambda calculus) and Prolog-style logical modeling. Both are mature problem-modeling strategies, each with its pros and cons, and each having varying degrees of overlap with other strategies. And there are still other schools, perhaps dozens of them."
+
+    (TODO: Fill in the rest: Hofstadter, properties modeling, etc)
+
 ## [Essays on programming I think about a lot](https://www.benkuhn.net/progessays/):
 
 ### [Computers can be understood](https://blog.nelhage.com/post/computers-can-be-understood/):
@@ -81,5 +93,3 @@ summary=Collection of thoughts.
   
 ### [Inventing on Principle](https://vimeo.com/36579366):
 > I’ve spent a lot of time over the years making creative tools, using creative tools, thinking about them a lot, and here’s something I’ve come to believe: Creators need an immediate connection to what they’re creating.
-
-[The Passion Gospel](https://avdi.codes/the-passion-gospel/) - Avdi talking about passion in industry
