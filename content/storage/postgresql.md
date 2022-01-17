@@ -7,7 +7,11 @@ summary=Open-source relational database.
 
 [Download](https://www.postgresql.org/download/) | Also installable via Homebrew (macOS): `brew install postgresql`
 
+["Optimizing Postgres Queries at Scale"](https://heap.io/blog/optimizing-postgres-queries-at-scale)
+
 ---
+
+[PostgREST](https://postgrest.org/en/stable/): a standalone web server that turns your PostgreSQL database directly into a RESTful API. The structural constraints and permissions in the database determine the API endpoints and operations. [Source](https://github.com/PostgREST)
 
 [Postgres is a great pub/sub & job server](https://webapp.io/blog/postgres-is-the-answer/)
 
