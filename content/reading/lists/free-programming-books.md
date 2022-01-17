@@ -9,40 +9,9 @@ Eventually all of these links should move to their respective pages.
 
 ## BY PROGRAMMING LANGUAGE
 
-### Ada
-
-* [A Guide to Ada for C and C++ Programmers](http://www.cs.uni.edu/~mccormic/4740/guide-c2ada.pdf) (PDF)
-* [Ada Distilled](http://www.adapower.com/pdfs/AdaDistilled07-27-2003.pdf) (PDF)
-* [Ada for the C++ or Java Developer](https://www.adacore.com/uploads/books/pdf/Ada_for_the_C_or_Java_Developer-cc.pdf) - Quentin Ochem (PDF)
-* [Ada Programming](https://en.wikibooks.org/wiki/Ada_Programming) - Wikibooks
-* [Ada Reference Manual - ISO/IEC 8652:2012(E) Language and Standard Libraries](http://www.ada-auth.org/standards/12rm/RM-Final.pdf) (PDF)
-* [Introduction To Ada](https://learn.adacore.com/courses/intro-to-ada/index.html)
-* [Introduction To SPARK](https://learn.adacore.com/courses/SPARK_for_the_MISRA_C_Developer/index.html)
-* [The Big Online Book of Linux Ada Programming](http://www.pegasoft.ca/resources/boblap/book.html)
-
-
-### Agda
-
-* [Agda Tutorial](http://people.inf.elte.hu/divip/AgdaTutorial/Index.html)
-* [Programming Language Foundations in Agda](https://plfa.github.io) - Philip Wadler and Wen Kokke
-
-
 ### Alef
 
 * [Alef Language Reference Manual](http://doc.cat-v.org/plan_9/2nd_edition/papers/alef/ref)
-
-
-### Android
-
-* [Android Notes for Professionals](https://goalkicker.com/AndroidBook) - Compiled from StackOverflow Documentation (PDF)
-* [Android Programming Succinctly, Syncfusion](https://www.syncfusion.com/resources/techportal/ebooks/android) ([PDF](https://www.syncfusion.com/Account/Logon?ReturnUrl=%2fresources%2ftechportal%2febooks%2fandroid), [Kindle](https://www.syncfusion.com/Account/Logon?ReturnUrl=%2fresources%2ftechportal%2febooks%2fandroid)) (email address *requested*, not required)
-* [Android Tutorial](http://www.tutorialspoint.com/android) - Tutorials Point
-* [Codelabs for Advanced Android Development](https://developer.android.com/courses/advanced-training/toc)
-* [CodePath Android Cliffnotes](https://github.com/codepath/android_guides/wiki)
-* [Expert Android and Eclipse development knowledge](http://www.vogella.com/tutorials/android.html)
-* [Google Android Developer Training](https://developer.android.com/guide)
-* [Styling Android](https://blog.stylingandroid.com)
-* [The Busy Coder's Guide to Android Development](https://commonsware.com/Android/4-2-free) (PDF - older versions)
 
 
 ### APL
@@ -195,40 +164,10 @@ Eventually all of these links should move to their respective pages.
 * [Cilk 5.4.6 Reference Manual](https://par.tuwien.ac.at/material/manual-5.4.6.pdf) (PDF)
 
 
-### CMake
-
-* [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/) - Henry Schreiner (HTML)
-* [CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html) (HTML)
-* [Quick CMake tutorial](https://www.jetbrains.com/help/clion/quick-cmake-tutorial.html) (HTML)
-
-
-### COBOL
-
-* [COBOL Programming Fundamental](http://yusman.staff.gunadarma.ac.id/Downloads/files/33460/COBOL_Programming_Fundamental.pdf) (PDF)
-* [Enterprise COBOL for z/OS documentation library](http://www-01.ibm.com/support/docview.wss?uid=swg27036733)
-* [ILE COBOL Programmer's Guide](https://www.ibm.com/docs/de/ssw_ibm_i_74/pdf/sc092539.pdf) (PDF)
-* [Micro Focus: OO Programming with Object COBOL for UNIX (1999)](https://www.microfocus.com/documentation/object-cobol/oc41books/oppubb.htm) - MERANT International Ltd. (HTML)
-* [OpenCOBOL 1.1 - Programmer's Guide](http://open-cobol.sourceforge.net/guides/OpenCOBOL%20Programmers%20Guide.pdf) (PDF)
-
-
-### CoffeeScript
-
-* [CoffeeScript Cookbook](https://coffeescript-cookbook.github.io)
-* [CoffeeScript Ristretto](https://leanpub.com/coffeescript-ristretto/read) - Reginald Braithwaite  *(Leanpub account or valid email requested)*
-* [Hard Rock CoffeeScript](https://alchaplinsky.github.io/hard-rock-coffeescript/) - Alex Chaplinsky (gitbook)
-* [Smooth CoffeeScript](http://autotelicum.github.io/Smooth-CoffeeScript/SmoothCoffeeScript.html)
-* [The Little Book on CoffeeScript](http://arcturo.github.io/library/coffeescript/) - Alex MacCaw, David Griffiths, Satoshi Murakami, Jeremy Ashkenas
-
-
 ### ColdFusion
 
 * [CFML In 100 Minutes](https://github.com/mhenke/CFML-in-100-minutes/blob/master/cfml100mins.markdown) - J. Casimir
 * [Learn CF in a Week](http://learncfinaweek.com)
-
-
-### Component Pascal
-
-* [Computing Fundamentals](http://www.cslab.pepperdine.edu/warford/ComputingFundamentals/) - Stan Warford (PDF)
 
 
 ### Cool
@@ -242,28 +181,11 @@ Eventually all of these links should move to their respective pages.
 * [Software Foundations](http://www.cis.upenn.edu/~bcpierce/sf/)
 
 
-### Crystal
-
-* [Crystal for Rubyists](http://www.crystalforrubyists.com)
-
-
 ### CUDA
 
 * [CUDA C Best Practices Guide](https://docs.nvidia.com/pdf/CUDA_C_Best_Practices_Guide.pdf) (PDF)
 * [CUDA C Programming Guide](https://docs.nvidia.com/pdf/CUDA_C_Programming_Guide.pdf) (PDF)
 * [OpenCL Programming Guide for CUDA Architecture](http://www.nvidia.com/content/cudazone/download/OpenCL/NVIDIA_OpenCL_ProgrammingGuide.pdf) (PDF)
-
-
-### D
-
-* [D Templates Tutorial](https://github.com/PhilippeSigaud/D-templates-tutorial)
-* [Programming in D](http://ddili.org/ders/d.en/)
-
-
-### Dart
-
-* [Essential Dart](https://www.programming-books.io/essential/dart/) - Krzysztof Kowalczyk and StackOverflow Contributors
-* [Learning Dart](https://riptutorial.com/Download/dart.pdf) - Compiled from StackOverflow documentation (PDF)
 
 
 ### DB2
@@ -278,45 +200,9 @@ Eventually all of these links should move to their respective pages.
 * [Database Management Systems eBooks For All Edition](http://www.lincoste.com/ebooks/english/pdf/computers/database_management_systems.pdf) (PDF)
 
 
-### Delphi / Pascal
-
-* [Essential Pascal Version 1 and 2](http://www.marcocantu.com/epascal/) - M. Cantù
-* [Expert Delphi](https://www.packtpub.com/free-ebooks/expert-delphi) - Paweł Głowacki (Packt account *required*)
-* [Modern Object Pascal Introduction for Programmers](https://github.com/michaliskambi/modern-pascal-introduction) - Michalis Kamburelis ([AsciiDoc](https://github.com/michaliskambi/modern-pascal-introduction/blob/master/modern_pascal_introduction.adoc#logical-relational-and-bit-wise-operators), [HTML](https://castle-engine.io/modern_pascal_introduction.html), [PDF](https://castle-engine.io/modern_pascal_introduction.pdf))
-
-
 ### DTrace
 
 * [IllumOS Dynamic Tracing Guide](http://dtrace.org/guide/preface.html)
-
-
-### Eiffel
-
-* [A Functional Pattern System for Object-Oriented Design](http://homepages.mcs.vuw.ac.nz/~tk/fps/fps-sans-escher.pdf) - Thomas Kuhne (PDF)
-
-
-### Elixir
-
-* [30 Days of Elixir](https://github.com/seven1m/30-days-of-elixir) - Tim Morgan (HTML)
-* [Elixir School](https://elixirschool.com) (HTML)
-* [Elixir Succinctly, Syncfusion](https://www.syncfusion.com/ebooks/elixir-succinctly) (PDF, Kindle) (email address requested, not required)
-* [Getting Started Guide](http://elixir-lang.org/getting-started/introduction.html) (HTML) [(PDF, MOBI, EPUB)](https://github.com/potatogopher/elixir-getting-started)
-* [Joy of Elixir](https://joyofelixir.com) - Ryan Bigg (HTML) - [Source](https://github.com/radar/joyofelixir) (:construction: *in process*)
-* [Learning Elixir](http://learningelixir.joekain.com) - Joseph Kain Blog (HTML)
-* [Learning the Elixir Language](https://riptutorial.com/Download/elixir-language.pdf) - Compiled from StackOverflow Documentation (PDF) 
-* [The Ultimate Guide To Elixir For Object-Oriented Programmers](http://www.binarywebpark.com/ultimate-guide-elixir-object-oriented-programmers) - Bruce Park (HTML)
-
-
-#### Ecto
-
-* [Ecto Getting Started Guide](https://hexdocs.pm/ecto/getting-started.html#content) (HTML)
-* [The Little Ecto Cookbook](https://dashbit.co/ebooks/the-little-ecto-cookbook) - José Valim, Dashbit (PDF) (email address *required*)
-
-
-#### Phoenix
-
-* [Phoenix Framework Guide](https://hexdocs.pm/phoenix/overview.html) (HTML)
-* [Versioned APIs with Phoenix](https://elviovicosa.com/freebies/versioned-apis-with-phoenix-by-elvio-vicosa.pdf) - Elvio Vicosa (PDF)
 
 
 ### Emacs
@@ -337,32 +223,9 @@ Eventually all of these links should move to their respective pages.
 * [Mastering the FreeRTOS Real Time Kernel - a Hands On Tutorial Guide](https://freertos.org/Documentation/RTOS_book.html) - freertos.org ([PDF](https://freertos.org/fr-content-src/uploads/2018/07/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf))
 
 
-### Erlang
-
-* [BEAM Wisdoms](http://beam-wisdoms.clau.se/en/latest/) (HTML)
-* [Concurrent Programming in ERLANG](http://www.erlang.org/download/erlang-book-part1.pdf) (PDF)
-* [Erlang Handbook](https://github.com/esl/erlang-handbook/raw/master/output/ErlangHandbook.pdf) (PDF)
-* [Erlang Programming](https://en.wikibooks.org/wiki/Erlang_Programming) - Wikibooks (HTML)
-* [Getting Started with Erlang User's Guide](http://www.erlang.org/doc/getting_started/users_guide.html) (HTML)
-* [Learn You Some Erlang For Great Good](http://learnyousomeerlang.com) - Frederic Trottier-Hebert
-* [Making reliable distributed systems in the presence of software errors](http://www.erlang.org/download/armstrong_thesis_2003.pdf) - Joe Armstrong (PDF)
-* [Stuff Goes Bad: Erlang in Anger](https://www.erlang-in-anger.com) - Fred Herbert (PDF)
-* [The BEAM Book](https://blog.stenmans.org/theBeamBook) (HTML)
-
-
 ### ESP8266
 
 * [Kolban's book on the ESP32 & ESP8266](https://leanpub.com/ESP8266_ESP32)  *(Leanpub account or valid email requested)*
-
-
-### F Sharp
-
-* [Analyzing and Visualizing Data with F#](https://web.archive.org/web/20201023042804/https://www.oreilly.com/programming/free/files/analyzing-visualizing-data-f-sharp.pdf) - Tomas Petricek (PDF) *(:card_file_box: archived)*
-* [F# for fun and profit](https://www.gitbook.com/book/swlaschin/fsharpforfunandprofit/details) (ePub)
-* [F# Programming](https://en.wikibooks.org/wiki/F_Sharp_Programming) - Wikibooks
-* [F# Succinctly, SyncFusion](https://www.syncfusion.com/resources/techportal/ebooks/fsharp) (PDF, Kindle) (email address *requested*, not required)
-* [Functional Programming Textbook](https://www.overleaf.com/read/hcwwdfxvftfp) - Yusuf M Motara (PDF)
-* [Programming Language Concepts for Software Developers](https://archive.org/details/B-001-003-622)
 
 
 ### Firefox OS
@@ -370,144 +233,11 @@ Eventually all of these links should move to their respective pages.
 * [Quick Guide For Firefox OS App Development: Creating HTML5 based apps for Firefox OS](https://leanpub.com/quickguidefirefoxosdevelopment/read) - Andre Garzia
 
 
-### Flutter
-
-* [Cookbook](https://flutter.dev/docs/cookbook)
-* [Flutter in Action](https://livebook.manning.com/book/flutter-in-action/welcome/v-9/) Eric Windmill 
-* [Flutter Succinctly, Syncfusion](https://www.syncfusion.com/ebooks/flutter-succinctly) (PDF, Kindle) (email address *requested*, not required)
-* [Flutter Tutorial](https://www.tutorialspoint.com/flutter) - Tutorials Point
-* [Flutter Tutorials Handbook](https://kodestat.gitbook.io/flutter)
-* [Flutter UI Succinctly, Syncfusion](https://www.syncfusion.com/succinctly-free-ebooks/flutter-ui-succinctly) - Ed Freitas
-
-
-### Force.com
-
-* [Apex Workbook](https://web.archive.org/web/20170102233924/https://resources.docs.salesforce.com/sfdc/pdf/apex_workbook.pdf) (PDF)
-* [Developer Workbooks](http://developer.force.com/workbook)
-* [Force.com Fundamentals](http://developerforce.s3.amazonaws.com/books/Force.com_Fundamentals.pdf) (PDF)
-* [Force.com Platform Fundamentals: An Introduction to Custom Application Development in the Cloud](http://www.lulu.com/shop/salesforcecom/forcecom-platform-fundamentals/ebook/product-17381451.html)
-* [Force.com Workbook](https://web.archive.org/web/20160804055738/http://resources.docs.salesforce.com:80/sfdc/pdf/forcecom_workbook.pdf) (PDF)
-* [Heroku Postgres](https://web.archive.org/web/20131209081736/http://media.developerforce.com/workbooks/HerokuPostgres_Workbooks_Web_Final.pdf) (PDF)
-* [Heroku Workbook](https://res.cloudinary.com/hy4kyit2a/image/upload/workbook_text_Heroku.pdf) (PDF)
-* [Integration Workbook](https://web.archive.org/web/20150919023850/https://resources.docs.salesforce.com/sfdc/pdf/integration_workbook.pdf) (PDF)
-* [Salesforce1 Mobile App Workbook](https://res.cloudinary.com/hy4kyit2a/image/upload/s1_mobile_woorkbook_v3-21.pdf) (PDF)
-* [Visualforce Workbook](https://web.archive.org/web/20150921195528/https://resources.docs.salesforce.com/sfdc/pdf/workbook_vf.pdf) (PDF)
-
-
-### Forth
-
-* [A Beginner's Guide to Forth](https://web.archive.org/web/20180919061255/http://galileo.phys.virginia.edu/classes/551.jvn.fall01/primer.htm) - J.V. Noble
-* [And so Forth...](http://ficl.sourceforge.net/pdf/Forth_Primer.pdf) (PDF)
-* [Easy Forth](https://skilldrick.github.io/easyforth/) - Nick Morgan (HTML)
-* [Programming Forth](http://www.mpeforth.com/arena/ProgramForth.pdf) (PDF)
-* [Starting Forth](http://home.iae.nl/users/mhx/sf.html)
-* [Thinking Forth](http://thinking-forth.sourceforge.net)
-* [Thoughtful Programming and Forth](http://www.ultratechnology.com/forth.htm)
-
-
-### Fortran
-
-* [Exploring Modern Fortran Basics](https://www.manning.com/books/exploring-modern-fortran-basics) - Milan Curcic
-* [Fortran 90 Tutorial](http://www.cs.mtu.edu/~shene/COURSES/cs201/NOTES/fortran.html) - C.-K. Shene at Michigan Technological University (HTML)
-* [Fortran 90 Tutorial](https://web.stanford.edu/class/me200c/tutorial_90/) - Sarah T. Whitlock, Paul H. Hargrove at Stanford University (HTML)
-* [Fortran information & resources](https://www.fortranplus.co.uk/fortran-information/) - fortranplus.co.uk (HTML)
-* [FORTRAN Performance Tuning co-Guide (1998)](https://www.ibiblio.org/pub/languages/fortran/unct.html) - Timothy C. Prince (HTML)
-* [Introduction to Fortran](https://qc2-teaching.readthedocs.io/en/latest/programming.html) - Sebastian Ehlert, Julius Stückrath, Marcel Mueller, Marcel Stahn (HTML)
-* [Modern Fortran in Science and Technology](https://modern-fortran-in-science-and-technology.readthedocs.io/en/latest) - Jonas Lindemann and Ola Dahlblom (HTML, [PDF](https://modern-fortran-in-science-and-technology.readthedocs.io/_/downloads/en/latest/pdf/), [EPUB](https://modern-fortran-in-science-and-technology.readthedocs.io/_/downloads/en/latest/epub/))
-* [Modern Fortran Tutorial](https://masuday.github.io/fortran_tutorial/) - Yutaka Masuda (HTML)
-* [Professional Programmer’s Guide to Fortran77 (2005)](https://www.star.le.ac.uk/~cgp/prof77.pdf) - Clive G. Page (PDF)
-* [Self Study Guide 2: Programming in Fortran 95](http://www.mrao.cam.ac.uk/~rachael/compphys/SelfStudyF95.pdf) - Dr Rachael Padman (PDF)
-* [User Notes On Fortran Programming (UNFP): An open cooperative practical guide (1998)](https://www.ibiblio.org/pub/languages/fortran/) - Abraham Agay, Arne Vajhoej et. al (HTML)
-
-
 ### FreeBSD
 
 * [Books and Articles from FreeBSD Site](http://www.freebsd.org/docs/books.html)
 * [The Complete FreeBSD](http://www.lemis.com/grog/Documentation/CFBSD/)
 * [Using C on the UNIX System](http://www.bitsinthewind.com/about-dac/publications/using-c-on-the-unix-system) - David A. Curry
-
-
-### Git
-
-* [A git Primer](https://danielmiessler.com/study/git/) - Daniel Miessler
-* [A Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html) - Mark Lodato
-* [Conversational Git](http://blog.anvard.org/conversational-git/)
-* [git - the simple guide](http://rogerdudler.github.io/git-guide/)
-* [Git for Computer Scientists](http://eagain.net/articles/git-for-computer-scientists/)
-* [Git From The Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/) - J. Wiegley
-* [Git Immersion](http://gitimmersion.com)
-* [Git In The Trenches](http://cbx33.github.io/gitt/index.html)
-* [Git internals](https://github.com/pluralsight/git-internals-pdf/raw/master/drafts/peepcode-git.pdf) - Scott Chacon (PDF)
-* [Git Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/)
-* [Git Notes for Professionals](http://goalkicker.com/GitBook) - Compiled from StackOverflow Documentation (PDF)
-* [Git Pocket Guide](https://www.oreilly.com/library/view/git-pocket-guide/9781449327507) - Richard E. Silverman
-* [Git Reference](https://web.archive.org/web/20170602211147/http://gitref.org/)
-* [Git Succinctly, Syncfusion](https://www.syncfusion.com/resources/techportal/ebooks/git) (PDF, Kindle) (email address *requested*, not required)
-* [Git Tutorial](https://www.tutorialspoint.com/git/) - Tutorials Point Ltd. (HTML)
-* [Git-Tutorial For-Beginners](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) - HubSpot Product Team
-* [Git Workflows](https://web.archive.org/web/20210910133251/http://documentup.com/skwp/git-workflows-book) - Yan Pritzker *(:card_file_box: archived)*
-* [Happy Git and GitHub for the useR](https://happygitwithr.com) - Jenny Bryan
-* [How to Collaborate on Github](https://github.com/eonist/How-to-collaborate-on-github) - André J
-* [Introduction to Git and Github](https://launchschool.com/books/git) - Launch School
-* [Introduction to Git and Github - Tutorial](http://cse.unl.edu/~cbourke/gitTutorial.pdf) - Dr. Chris Bourke (PDF)
-* [Introduction to Git and GitHub eBook](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook) - Bobby Iliev (Markdown, PDF)
-* [Learn Git - Learn Version Control with Git](http://www.git-tower.com/learn/git/ebook/command-line/introduction) - Tobias Günther
-* [Pro Git](http://git-scm.com/book/en/v2) - Scott Chacon
-* [Pro Git Reedited](https://leanpub.com/progitreedited/read) - Jon Forrest
-* [Ry's Git Tutorial](https://web.archive.org/web/20161121145226/http://rypress.com:80/tutorials/git/index) - Ryan Hodson
-* [Think Like (a) Git: A Guide for the Perplexed](http://think-like-a-git.net)
-
-
-### Go
-
-* [An Introduction to Programming in Go](http://www.golang-book.com)
-* [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/)
-* [Building Web Apps with Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/)
-* [Darker Corners of Go](https://rytisbiel.com/2021/03/06/darker-corners-of-go/) - Rytis Bieliunas
-* [Effective Go](https://golang.org/doc/effective_go.html)
-* [Go 101](https://go101.org/article/101.html) - [@TapirLiu](https://twitter.com/TapirLiu)
-* [Go Bootcamp](http://www.golangbootcamp.com/book) - Matt Aimonetti
-* [Go by Example](https://gobyexample.com)
-* [Go for Javascript Developers](https://github.com/bulim/go-for-javascript-developers)
-* [Go for Python Programmers](https://golang-for-python-programmers.readthedocs.io/en/latest) - Jason McVetta (HTML, PDF, EPUB)
-* [Go Succinctly](https://www.syncfusion.com/succinctly-free-ebooks/go-succinctly) - Mark Lewin (PDF, EPUB, Kindle)
-* [Go Web Development Succinctly](https://www.syncfusion.com/succinctly-free-ebooks/go-web-development) - Mark Lewin (PDF, EPUB, Kindle)
-* [How To Code in Go](https://www.digitalocean.com/community/books/how-to-code-in-go-ebook) - Mark Bates, Cory Lanou, and Timothy J. Raymond (PDF, EPUB)
-* [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
-* [Learning Go](https://miek.nl/go/)
-* [Let's learn Go!](http://go-book.readthedocs.io/en/latest/)
-* [Practical Cryptography With Go](https://leanpub.com/gocrypto/read) - Kyle Isom
-* [Practical Go Lessons](https://www.practical-go-lessons.com) - Maximilien Andile
-* [The Go Tutorial](http://tour.golang.org)
-* [The Little Go Book](https://github.com/karlseguin/the-little-go-book) - Karl Seguin ([PDF](https://www.openmymind.net/assets/go/go.pdf), [ePUB](https://www.openmymind.net/assets/go/go.epub))
-* [Web apps in Go, the anti textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)
-
-
-### GraphQL
-
-* [Fullstack GraphQL](https://github.com/GraphQLCollege/fullstack-graphql)
-* [Learning graphqL](https://riptutorial.com/Download/graphql.pdf) (PDF)
-
-
-### Groovy
-
-#### Gradle
-
-* [Building Java Projects with Gradle](http://spring.io/guides/gs/gradle/)
-* [Gradle Succinctly](https://www.syncfusion.com/ebooks/gradle_succinctly) - José Roberto Olivas Mendoza
-* [Gradle User Guide](https://docs.gradle.org/current/userguide/userguide.html) - Hans Dockter, Adam Murdoch ([PDF](https://docs.gradle.org/current/userguide/userguide.pdf))
-
-
-#### Grails
-
-* [Getting Started with Grails](http://www.infoq.com/minibooks/grails-getting-started)
-* [Grails Tutorial for Beginners](https://web.archive.org/web/20210519053040/http://grails.asia/grails-tutorial-for-beginners/) - grails.asia *(:card_file_box: archived)*
-* [The Grails Framework - Reference Documentation](http://grails.github.io/grails-doc/latest/) - Graeme Rocher, Peter Ledbrook, Marc Palmer, Jeff Brown, Luke Daley, Burt Beckwith, Lari Hotari ([PDF](http://grails.github.io/grails-doc/latest/guide/single.pdf))
-
-
-#### Spock Framework
-
-* [Spock Framework Reference Documentation](https://spockframework.github.io/spock/docs/current/index.html) - Peter Niederwieser
 
 
 ### Hack
@@ -522,39 +252,6 @@ Eventually all of these links should move to their respective pages.
 * [Data-Intensive Text Processing with MapReduce](http://lintool.github.io/MapReduceAlgorithms/MapReduce-book-final.pdf) (Jimmy Lin and Chris Dyer) (PDF)
 * [Hadoop for Windows Succinctly](https://www.syncfusion.com/ebooks/hadoop-for-windows-succinctly) - Dave Vickers
 * [Hadoop Illuminated](http://hadoopilluminated.com/index.html) - Mark Kerzner & Sujee Maniyam
-
-
-### Haskell
-
-* [A Gentle Introduction to Haskell Version 98](https://www.haskell.org/tutorial/) - Paul Hudak, John Peterson, Joseph Fasel
-* [Anatomy of Programming Languages](http://www.cs.utexas.edu/~wcook/anatomy/) - William R. Cook
-* [Beautiful Code, Compelling Evidence](https://web.archive.org/web/20160411023943/http://www.renci.org/wp-content/pub/tutorials/BeautifulCode.pdf) - J.R. Heard (PDF)
-* [Developing Web Applications with Haskell and Yesod](https://www.yesodweb.com/book) - Michael Snoyman 
-* [Exploring Generic Haskell](http://www.andres-loeh.de/ExploringGH.pdf) - Andres Löh (PDF)
-* [Happy Learn Haskell Tutorial](http://www.happylearnhaskelltutorial.com)
-* [Haskell](https://en.wikibooks.org/wiki/Haskell) - Wikibooks
-* [Haskell no panic](http://lisperati.com/haskell/) - Conrad Barski
-* [Haskell Notes for Professionals](https://goalkicker.com/HaskellBook/) - Compiled from StackOverflow documentation (PDF)
-* [Haskell web Programming](http://yannesposito.com/Scratch/fr/blog/Yesod-tutorial-for-newbies/) (Yesod tutorial)
-* [Learn Haskell Fast and Hard](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way/) - Yann Esposito
-* [Learn You a Haskell for Great Good](http://learnyouahaskell.com) - Miran Lipovaca
-* [Parallel and Concurrent Programming in Haskell](https://www.oreilly.com/library/view/parallel-and-concurrent/9781449335939/) - Simon Marlow
-* [Real World Haskell](http://book.realworldhaskell.org) - Bryan O'Sullivan, Don Stewart, and John Goerzen
-* [Speeding Through Haskell](http://www.sthaskell.com) - Arya Popescu
-* [The Haskell Road to Logic, Math and Programming](https://fldit-www.cs.uni-dortmund.de/~peter/PS07/HR.pdf) - Kees Doets and Jan van Eijck (PDF)
-* [The Haskell School of Music - From Signals to Symphonies](https://www.cs.yale.edu/homes/hudak/Papers/HSoM.pdf) - Paul Hudak (PDF)
-* [What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/) - Stephen Diehl (PDF)
-* [Wise Man's Haskell](https://github.com/anchpop/wise_mans_haskell/blob/master/book.md#preface) - Andre Popovitch
-* [Yet Another Haskell Tutorial](http://hal3.name/docs/daume02yaht.pdf) - Hal Daum ́e III (PDF)
-
-
-### Haxe
-
-* [Flambe Handbook](https://github.com/markknol/flambe-guide/wiki)
-* [Haxe and JavaScript](https://matthijskamstra.github.io/haxejs/) - Matthijs Kamstra (wikibook)
-* [Haxe Manual](http://haxe.org/documentation/introduction/) - Haxe Foundation (PDF, HTML)
-* [HaxeFlixel Handbook](http://haxeflixel.com/documentation/haxeflixel-handbook/) (HTML)
-* [Kha Handbook](https://github.com/KTXSoftware/Kha/wiki/Tutorials)
 
 
 ### HTML / CSS

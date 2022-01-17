@@ -13,6 +13,14 @@ summary=A procedural language with added object extensions popularized by Borlan
 * [Free Pascal](http://www.freepascal.org/) : 32-bit Pascal compiler for Dos, Linux, OS/2. Pascal source code included. Used in Dev-Pascal.
 * [Virtual Pascal](http://vpascal.ning.com/) : A tool of choice for 32-bit cross-platform development using the Pascal language. It is compatible with Borland Pascal and Delphi, including the Run-Time Library (RTL), an optimizing compiler, a powerful integrated debugger, and comprehensive online documentation.
 
+### Reading
+
+* [Essential Pascal Version 1 and 2](http://www.marcocantu.com/epascal/) - M. Cantù
+* [Expert Delphi](https://www.packtpub.com/free-ebooks/expert-delphi) - Paweł Głowacki (Packt account *required*)
+* [Modern Object Pascal Introduction for Programmers](https://github.com/michaliskambi/modern-pascal-introduction) - Michalis Kamburelis ([AsciiDoc](https://github.com/michaliskambi/modern-pascal-introduction/blob/master/modern_pascal_introduction.adoc#logical-relational-and-bit-wise-operators), [HTML](https://castle-engine.io/modern_pascal_introduction.html), [PDF](https://castle-engine.io/modern_pascal_introduction.pdf))
+* [Computing Fundamentals](http://www.cslab.pepperdine.edu/warford/ComputingFundamentals/) - Stan Warford (PDF)
+
+
 
 
 

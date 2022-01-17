@@ -94,15 +94,12 @@ Reading:
 - [Concurrency is not Parallelism](https://vimeo.com/49718712)
 - ["Dimensional Analysis in Programming Languages: A survey of existing designs/implementations for automatic conversion and verification of units of measurement in computer programs"](https://gmpreussner.com/research/dimensional-analysis-in-programming-languages)
 - [CS 7194 - Great works in Programming Languages](https://www.cs.cornell.edu/courses/cs7194/2019sp/): A course on examining the "great works" (written) about programming languages
-- [DSL Engineering: Designing, Implementing and Using Domain-Specific Languages](http://dslbook.org) - Markus Voelter
 - [Great Works in Programming Languages](https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml) Collected by Benjamin C. Pierce
-- ["Three Things I Wish I Knew When I Started Designing Languages"](https://www.youtube.com/watch?v=oa0qq75i9oc)
 - [Flow based Programming](http://jpaulmorrison.com/fbp/) - J Paul Morrison
 - [Introduction to Functional Programming](http://www.cl.cam.ac.uk/teaching/Lectures/funprog-jrh-1996/) - J. Harrison
 - [Making Sense of Stream Processing](https://assets.confluent.io/m/2a60fabedb2dfbb1/original/20190307-EB-Making_Sense_of_Stream_Processing_Confluent.pdf) - Martin Kleppmann (PDF)
 - [Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/content/) - Mostly Adequate Core Team
 - [The Pure Function Pipeline Data Flow v3.0 ---- the Grand Unified Programming Theory](https://github.com/linpengcheng/PurefunctionPipelineDataflow) - Lin Pengcheng
-- [Type Theory and Functional Programming](https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/)
 
 
 ### [Memory management](/reading/garbage-collection)
@@ -130,6 +127,12 @@ If the types can be manipulated/changed at runtime, then the language is often s
 ["Bits of History, Words of Advice"](http://gbracha.blogspot.com/2020/05/bits-of-history-words-of-advice.html): The creator of [Newspeak](/languages/smalltalk/newspeak) and one of the core developers working on [Java](/languages/jvm/java) and the [JVM](/platforms/jvm) offers some advice about Smalltalk's lack of success in the mainstream.
 
 ## Implementation
+
+- [Writing your own toy language](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/) using flex, bison, LLVM; [code](https://github.com/lsegal/my_toy_compiler)
+- [How to Create a Programming Language Using ANTLR4](https://progur.com/2016/09/how-to-create-language-using-antlr4.html)
+- [DSL Engineering: Designing, Implementing and Using Domain-Specific Languages](http://dslbook.org) - Markus Voelter
+- ["Three Things I Wish I Knew When I Started Designing Languages"](https://www.youtube.com/watch?v=oa0qq75i9oc)
+- [Type Theory and Functional Programming](https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/)
 
 [More compilers reading](/reading/languages/compilers)
 

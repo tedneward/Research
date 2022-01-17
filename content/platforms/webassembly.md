@@ -13,6 +13,7 @@ summary=A portable multi-environment-targeting bytecode format for the Web.
 * [Proposals](https://github.com/WebAssembly/proposals)
 * [Component model](https://github.com/WebAssembly/component-model)
 * [WebAssembly System Interface](https://wasi.dev/)
+* [Common WebAssembly](https://github.com/CommonWA/cwa-spec)
 
 Tools: [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) | [binaryen](https://github.com/WebAssembly/binaryen)
 

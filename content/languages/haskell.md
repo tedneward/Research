@@ -225,6 +225,28 @@ A typeclass is a sort of interface that defines some behavior. If a type is a pa
 
 [Yesod](http://yesodweb.com/): Web (with [Book](https://www.yesodweb.com/book))
 
+### Books
+* [A Gentle Introduction to Haskell Version 98](https://www.haskell.org/tutorial/) - Paul Hudak, John Peterson, Joseph Fasel
+* [Anatomy of Programming Languages](http://www.cs.utexas.edu/~wcook/anatomy/) - William R. Cook
+* [Beautiful Code, Compelling Evidence](https://web.archive.org/web/20160411023943/http://www.renci.org/wp-content/pub/tutorials/BeautifulCode.pdf) - J.R. Heard (PDF)
+* [Developing Web Applications with Haskell and Yesod](https://www.yesodweb.com/book) - Michael Snoyman 
+* [Exploring Generic Haskell](http://www.andres-loeh.de/ExploringGH.pdf) - Andres Löh (PDF)
+* [Happy Learn Haskell Tutorial](http://www.happylearnhaskelltutorial.com)
+* [Haskell](https://en.wikibooks.org/wiki/Haskell) - Wikibooks
+* [Haskell no panic](http://lisperati.com/haskell/) - Conrad Barski
+* [Haskell Notes for Professionals](https://goalkicker.com/HaskellBook/) - Compiled from StackOverflow documentation (PDF)
+* [Haskell web Programming](http://yannesposito.com/Scratch/fr/blog/Yesod-tutorial-for-newbies/) (Yesod tutorial)
+* [Learn Haskell Fast and Hard](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way/) - Yann Esposito
+* [Learn You a Haskell for Great Good](http://learnyouahaskell.com) - Miran Lipovaca
+* [Parallel and Concurrent Programming in Haskell](https://www.oreilly.com/library/view/parallel-and-concurrent/9781449335939/) - Simon Marlow
+* [Real World Haskell](http://book.realworldhaskell.org) - Bryan O'Sullivan, Don Stewart, and John Goerzen
+* [Speeding Through Haskell](http://www.sthaskell.com) - Arya Popescu
+* [The Haskell Road to Logic, Math and Programming](https://fldit-www.cs.uni-dortmund.de/~peter/PS07/HR.pdf) - Kees Doets and Jan van Eijck (PDF)
+* [The Haskell School of Music - From Signals to Symphonies](https://www.cs.yale.edu/homes/hudak/Papers/HSoM.pdf) - Paul Hudak (PDF)
+* [What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/) - Stephen Diehl (PDF)
+* [Wise Man's Haskell](https://github.com/anchpop/wise_mans_haskell/blob/master/book.md#preface) - Andre Popovitch
+* [Yet Another Haskell Tutorial](http://hal3.name/docs/daume02yaht.pdf) - Hal Daum ́e III (PDF)
+
 ### Papers
 ["Template Meta-programming for Haskell"](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/meta-haskell.pdf?from=http%3A%2F%2Fresearch.microsoft.com%2F%7Esimonpj%2Fpapers%2Fmeta-haskell%2Fmeta-haskell.pdf)
 
@@ -233,4 +255,3 @@ A typeclass is a sort of interface that defines some behavior. If a type is a pa
 ["Haskell web programming"](http://yannesposito.com/Scratch/en/blog/Yesod-tutorial-for-newbies/)
 
 ["Basic Type Level Programming in Haskell"](https://www.parsonsmatt.org/2017/04/26/basic_type_level_programming_in_haskell.html)
-

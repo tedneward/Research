@@ -13,9 +13,23 @@ Originally from [Microsoft Research](/places/msr).
 
 F# was originally a CLR-based variant of [OCaml](../ocaml). Since F# 3.0, it has relaxed some of the direct compatibility with OCaml in favor of a friendlier syntax, but still very much holds to its roots.
 
-[Wikibook](https://en.wikibooks.org/wiki/F_Sharp_Programming)
 
-#### Areas of use
+### F Sharp
+
+* [Wikibook](https://en.wikibooks.org/wiki/F_Sharp_Programming)
+* [Analyzing and Visualizing Data with F#](https://web.archive.org/web/20201023042804/https://www.oreilly.com/programming/free/files/analyzing-visualizing-data-f-sharp.pdf) - Tomas Petricek (PDF)
+* [F# For Fun and Profit](https://fsharpforfunandprofit.com/) ([Source](https://www.gitbook.com/book/swlaschin/fsharpforfunandprofit/details)):
+
+    * [Parsing command-line arguments](https://fsharpforfunandprofit.com/posts/pattern-matching-command-line/)
+    * [Domain-Driven Design](https://fsharpforfunandprofit.com/ddd/)
+
+* [F# Programming](https://en.wikibooks.org/wiki/F_Sharp_Programming) - Wikibooks
+* [F# Succinctly, SyncFusion](https://www.syncfusion.com/resources/techportal/ebooks/fsharp) (PDF, Kindle) (email address *requested*, not required)
+* [Functional Programming Textbook](https://www.overleaf.com/read/hcwwdfxvftfp) - Yusuf M Motara (PDF)
+* [Programming Language Concepts for Software Developers](https://archive.org/details/B-001-003-622)
+* [Domain modeling with types](https://blog.ploeh.dk/2016/11/28/easy-domain-modelling-with-types/) [Video](https://vimeo.com/97507575)
+
+### Areas of use
 [Cloud](https://fsharp.org/guides/cloud/): Cloud and SOA are places where F# has made some strong plays. | [Azure functions](https://blog.tamizhvendan.in/blog/2016/09/19/scale-up-azure-functions-in-f-number-using-suave/) | [Fog](https://github.com/dmohl/Fog) for creating Azure apps
 
 [Web](https://fsharp.org/guides/web): There's a collection of different web frameworks for F#. Some are more recent than others.
@@ -44,13 +58,6 @@ Games:
 ---
 
 [Donald](https://github.com/pimbrouwers/Donald): A succinct F# DSL for ADO.NET.
-
-[F# For Fun and Profit](https://fsharpforfunandprofit.com/) articles:
-
-* [Parsing command-line arguments](https://fsharpforfunandprofit.com/posts/pattern-matching-command-line/)
-* [Domain-Driven Design](https://fsharpforfunandprofit.com/ddd/)
-
-[Domain modeling with types](https://blog.ploeh.dk/2016/11/28/easy-domain-modelling-with-types/) [Video](https://vimeo.com/97507575)
 
 Some fuzzy logic examples:
 

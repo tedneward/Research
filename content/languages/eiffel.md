@@ -7,4 +7,10 @@ summary=Object-oriented language that also implies an environment and "method" o
 
 [SmartEiffel](http://smarteiffel.loria.fr/) : The GNU compiler for the Eiffel language. Requires an ANSI C compiler. Supports AIX, Amiga, BeOS, BSD, Cygwin, MSDOS, FreeBSD, GNU/Hurd, GNU/Linux, HP-UX, IRIX, MacOS, NetBSD, NeXT, OS/2, OSF1, QNX, SCO, Solaris, OpenVMS, Windows 95/98/NT/2K and XENIX.
 
+### Reading
+
+* [A Functional Pattern System for Object-Oriented Design](http://homepages.mcs.vuw.ac.nz/~tk/fps/fps-sans-escher.pdf) - Thomas Kuhne (PDF)
+
+
+
 

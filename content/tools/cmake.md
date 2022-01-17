@@ -7,6 +7,12 @@ CMake is an open-source, cross-platform family of tools designed to build, test 
 
 [Website](https://cmake.org/) | [Github](https://gitlab.kitware.com/cmake/cmake)
 
+### Reading
+
+* [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/) - Henry Schreiner (HTML)
+* [CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html) (HTML)
+* [Quick CMake tutorial](https://www.jetbrains.com/help/clion/quick-cmake-tutorial.html) (HTML)
+
 ## [Learn X in Y Minutes](https://learnxinyminutes.com/docs/cmake/)
 CMake is a cross-platform, open-source build system. This tool allows you to test, compile, and create packages of your source code.
 
