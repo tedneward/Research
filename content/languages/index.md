@@ -72,10 +72,6 @@ My ontology:
 
 	Most object languages are imperative when defining methods, though this is not a requirement.
 
-	Object languages are not perfect:
-
-	* [Bad Engineering Properties of Object-Oriented Languages](http://doc.cat-v.org/programming/bad_properties_of_OO) by Luca Cardelli. 
-
 * [Functional](/tags/functional): Characterized by mathematics-inspired functions as first-class concepts. Preference for expressions over statements, lazy execution, immutable values, and so on. | [Wikipedia](https://en.wikipedia.org/wiki/Functional_programming) | Some [reading](/reading/functional) | Functional programming brought us [monads](/reading/monads) and all the fun that goes with that. Frequently cites/builds off of the [lambda calculus](http://en.wikipedia.org/wiki/Lambda_calculus).
 
 * [Metaprogramming](/tags/metaobject) (aka MetaObject Protocol): Characterized by the idea that we can elevate "above" the object concept, in a variety of different ways: source generation, semantic macros, parametric polymorphism, and so on. Many MOPs allow for the runtime manipulation of object instances or types without requiring recompilation.
@@ -86,6 +82,7 @@ My ontology:
 	Some [slides](https://tminka.github.io/papers/mlss2009/WinnMinka-ProbabilisticProgramming-slides.pdf) on the concept; they mention a Microsoft Research language, Csoft, that does not appear in Google, and reference [InferNET](/libraries/infernet.html) as being close to what Csoft was supposed to offer.
 
 Lists:
+
 - [Quick comparison of ten non-mainstream languages](http://www.h3rald.com/articles/10-programming-languages/): [Haskell](/languages/haskell), [Erlang](/languages/erlang), [Io](/languages/io), [PLT Scheme](/languages/lisp/scheme), [Clojure](/languages/clojure), [Squeak](/languages/smalltalk/squeak), [OCaml](/languages/ocaml), [Factor](/languages/factor), [Lua](/languages/lua), [Scala](/languages/scala)
 - [List of multiparadigm languages](http://en.wikipedia.org/wiki/List_of_multi-paradigm_programming_languages)
 - [Hostiness: List of languages targeting an existing host platform](http://blog.fogus.me/2012/10/09/hostiness/)
@@ -94,7 +91,9 @@ Lists:
 - ['A Language a Day' Advent Calendar 2019](https://andrewshitov.com/2019/11/25/a-language-a-day-advent-calendar-2019/)
 
 Reading:
+
 - [Syntax across languages](http://rigaux.org/language-study/syntax-across-languages.html): One large page of comprehensive syntax across languages
+- [Hyperpolyglot](https://hyperpolyglot.org/): commonly used features in a side-by-side format
 - [Concurrency is not Parallelism](https://vimeo.com/49718712)
 - ["Dimensional Analysis in Programming Languages: A survey of existing designs/implementations for automatic conversion and verification of units of measurement in computer programs"](https://gmpreussner.com/research/dimensional-analysis-in-programming-languages)
 - [CS 7194 - Great works in Programming Languages](https://www.cs.cornell.edu/courses/cs7194/2019sp/): A course on examining the "great works" (written) about programming languages
@@ -163,7 +162,7 @@ Lots of these languages run on top of [virtual machines](/vms), and so will obey
 
 * **Runtime Semantics**:
 
-	* ["Open, Extensible Object Models"](https://www.piumarta.com/software/cola/objmodel2.pdf): "We show that three object types and five methods are sufficient to bootstrap an extensible object model and messaging semantics that are described entirely in terms of those same objects and messages."
+	* ["Open, Extensible Object Models"](https://www.piumarta.com/software/cola/objmodel2.pdf): "We show that three object types and five methods are sufficient to bootstrap an extensible object model and messaging semantics that are described entirely in terms of those same objects and messages." ([Source](https://www.piumarta.com/oopsla07/))
 
 ---
 
