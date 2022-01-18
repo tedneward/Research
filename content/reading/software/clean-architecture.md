@@ -1,5 +1,5 @@
 title=Clean Architecture
-tags=reading, book, architecture, design
+tags=reading, books, architecture, design
 summary=Bob Martin's screed on architecture. Captured for pedagogical analysis.
 ~~~~~~
 *(by Robert Martin, aka "Uncle Bob", aka "the most misogynistic man in tech")*

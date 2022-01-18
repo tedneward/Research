@@ -1,5 +1,5 @@
 title=Clean Code
-tags=reading, book, design
+tags=reading, books, design
 summary=Robert Martin's screed on writing "clean" code. Captured for pedagogical analysis.
 ~~~~~~
 
