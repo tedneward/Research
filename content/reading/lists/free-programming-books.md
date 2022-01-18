@@ -306,54 +306,6 @@ Eventually all of these links should move to their respective pages.
 
 ### Java
 
-* [3D Programming in Java](http://www.mat.uniroma2.it/~picard/SMC/didattica/materiali_did/Java/Java_3D/Java_3D_Programming.pdf) - Daniel Selman (PDF)
-* [Apache Jakarta Commons: Reusable Java Components](http://ptgmedia.pearsoncmg.com/images/0131478303/downloads/Iverson_book.pdf) - Will Iverson (PDF)
-* [Artificial Intelligence - Foundations of Computational Agents, Second Edition](https://artint.info/2e/html/ArtInt2e.html) - David L. Poole and Alan K. Mackworth
-* [Building Back-End Web Apps with Java, JPA and JSF](https://web-engineering.info/tech/JavaJpaJsf/book/) - Mircea Diaconescu, Gerd Wagner (HTML,PDF)
-* [Category wise tutorials - J2EE](https://www.mkyong.com/all-tutorials-on-mkyong-com/) - Yong Mook Kim
-* [Core Servlets and JavaServer Pages, 2nd Ed. (2003)](https://web.archive.org/web/20210126062450/https://pdf.coreservlets.com/) - Marty Hall and Larry Brown *(:card_file_box: archived)*
-* [Data Structures in Java for the Principled Programmer (2007)](https://web.archive.org/web/20190302130416/http://dept.cs.williams.edu/~bailey/JavaStructures/Book_files/JavaStructures.pdf) - Duane A. Bailey (PDF)
-* [Google's Java Style Guide](https://google.github.io/styleguide/javaguide.html)
-* [Introduction to Computer Science "booksite"](https://introcs.cs.princeton.edu/java/cs/) - by Robert Sedgewick and Kevin Wayne (HTML)
-* [Introduction to Computer science using Java](http://www.programmedlessons.org/Java9/index.html) - Bradley Kjell
-* [Introduction to Programming in Java](http://introcs.cs.princeton.edu/java/home/) - Robert Sedgewick and Kevin Wayne
-* [Introduction to Programming Using Java](http://math.hws.edu/javanotes) - David J. Eck (HTML, PDF, ePUB + exercises)
-* [Introduction to Programming Using Java (5th Edition - final version, 2010 Jun)](https://math.hws.edu/eck/cs124/javanotes5) - David J. Eck (HTML, PDF, ePUB + exercises)
-* [Java Application Development on Linux (2005)](https://ptgmedia.pearsoncmg.com/images/013143697X/downloads/013143697X_book.pdf) - Carl Albing and Michael Schwarz (PDF)
-* [Java, Java, Java Object-Oriented Problem Solving](https://archive.org/details/JavaJavaJavaObject-orientedProblemSolving/page/n0) - R. Morelli and R.Walde
-* [Java Language and Virtual Machine Specifications](https://docs.oracle.com/javase/specs/) - James Gosling, et al
-* [Java Masters](https://javamasters.io/servlets) - Java Masters (HTML)
-* [Java Notes for Professionals](http://goalkicker.com/JavaBook/) - Compiled from StackOverflow documentation (PDF)
-* [Java Programming](https://en.wikibooks.org/wiki/Java_Programming) - Wikibooks
-* [Java Programming for Kids](https://yfain.github.io/Java4Kids/) - Yakov Fain
-* [Java Projects, Second Edition](https://www.packtpub.com/free-ebooks/java-projects-second-edition) - Peter Verhas (Packt account *required*)
-* [Learning Java Language](https://riptutorial.com/Download/java-language.pdf) - Compiled from StackOverflow Documentation (PDF)
-* [Microservices Best Practices for Java](https://www.redbooks.ibm.com/redbooks/pdfs/sg248357.pdf) (PDF)
-* [Object-Oriented Programming in JavaTM Textbook](http://computing.southern.edu/halterman/OOPJ/) - Rick Halterman (PDF per Chapter)
-* [OOP - Learn Object Oriented Thinking & Programming](http://pub.bruckner.cz/titles/oop) - Rudolf Pecinovsky (PDF)
-* [Open Data Structures (in Java)](http://opendatastructures.org/ods-java.pdf) - Pat Morin (PDF)
-* [Playing with Java Microservices on Kubernetes and OpenShift](https://leanpub.com/playing-with-java-microservices-on-k8s-and-ocp) - Nebrass Lamouchi *(Leanpub account or valid email requested)*
-* [Processing XML with Java (A Guide to SAX, DOM, JDOM, JAXP, and TrAX) (2002)](http://www.cafeconleche.org/books/xmljava/) - Elliotte Rusty Harold
-* [The Java EE6 Tutorial](https://docs.oracle.com/javaee/6/tutorial/doc/javaeetutorial6.pdf) (PDF)
-* [The Java EE7 Tutorial](https://docs.oracle.com/javaee/7/JEETT.pdf) - Eric Jendrock, et al (PDF)
-* [The Java Tutorials](https://docs.oracle.com/javase/tutorial/index.html)
-* [The Java Web Scraping Handbook](https://www.scrapingbee.com/java-webscraping-book) - Kevin Sahin (PDF, HTML)
-* [Think Data Structures: Algorithms and Information Retrieval in Java](https://greenteapress.com/wp/think-data-structures/) - Allen B. Downey (PDF, HTML)
-* [Think Java: How to Think Like a Computer Scientist, 2nd Edition](https://greenteapress.com/wp/think-java-2e/) - Allen B. Downey and Chris Mayfield (HTML, PDF) [(Interactive version by Trinket)](https://books.trinket.io/thinkjava2/)
-  * [Think Java: How to Think Like a Computer Scientist](https://greenteapress.com/wp/think-java/) - Allen B. Downey and Chris Mayfield (HTML, PDF) [(Interactive version by Trinket)](https://books.trinket.io/thinkjava/)
-* [Using RxJava 2 Tutorial](https://www.vogella.com/tutorials/RxJava/article.html) - Lars Vogel, Simon Scholz (HTML)
-* [Welcome to Java for Python Programmers](https://runestone.academy/runestone/books/published/java4python/index.html) - Brad Miller
-* [Welcome to the Java Workshop (2006)](http://javaworkshop.sourceforge.net) - Trevor Miller
-* [What’s New in Java 8](https://leanpub.com/whatsnewinjava8/read) - Adam L. Davis
-* [Writing Advanced Applications for the Java 2 Platform](http://www.pawlan.com/monica/books/AdvBk.pdf) - Calvin Austin and Monica Pawlan (PDF)
-
-
-#### Codename One
-
-* [Codename One Developer Guide](https://www.codenameone.com/files/developer-guide.pdf) (PDF)
-* [Create an Uber Clone in 7 Days (first 2 chapters)](http://uber.cn1.co) - Shai Almog (PDF)
-
-
 #### Java Reporting
 
 * [The ABC of PDF with iText: PDF Syntax essentials](https://leanpub.com/itext_pdfabc) - Bruno Lowagie  *(Leanpub account or valid email requested)*
@@ -364,36 +316,6 @@ Eventually all of these links should move to their respective pages.
 
 * [Introductory guide for Solidity](https://www.tutorialspoint.com/solidity/index.htm)
 * [The Solidity Reference Guide](https://docs.soliditylang.org)
-
-
-#### Spring
-
-* [Building Applications with Spring 5 and Vue.js 2](https://www.packtpub.com/free-ebooks/building-applications-spring-5-and-vuejs-2) - James J. Ye (Packt account *required*)
-* [Software Architecture with Spring 5.0](https://www.packtpub.com/free-ebooks/software-architecture-spring-50) - René Enríquez, Alberto Salazar (Packt account *required*)
-* [Spring Framework Cookbook: Hot Recipes for Spring Framework](https://www.javacodegeeks.com/wp-content/uploads/2017/01/Spring-Framework-Cookbook.pdf) - JCGs (Java Code Geeks) (PDF)
-* [Spring Framework Notes for Professionals](https://goalkicker.com/SpringFrameworkBook) - Compiled from StackOverflow documentation (PDF)
-* [Spring Framework Reference Documentation](https://docs.spring.io/spring/docs/current/spring-framework-reference/) - Rod Johnson et al.
-
-
-#### Spring Boot
-
-* [Building modern Web Apps with Spring Boot and Vaadin](https://v.vaadin.com/hubfs/Pdfs/Building%20Modern%20Web%20Apps%20with%20Spring%20Boot%20and%20Vaadin.pdf) (PDF)
-* [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/current/reference/html/) - Phillip Webb et al. ([PDF](https://docs.spring.io/spring-boot/docs/current/reference/pdf/spring-boot-reference.pdf))
-
-
-#### Spring Data
-
-* [Spring Data Reference](https://docs.spring.io/spring-data/jpa/docs/current/reference/html) - Oliver Gierke, Thomas Darimont, Christoph Strobl, Mark Paluch, Jay Bryant
-
-
-#### Spring Security
-
-* [Spring Security Reference](http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/) - Ben Alex, Luke Taylor, Rob Winch
-
-
-#### Wicket
-
-* [Official Free Online Guide for Apache Wicket framework](http://wicket.apache.org/learn/#guide)
 
 
 ### JavaScript
@@ -575,85 +497,10 @@ Eventually all of these links should move to their respective pages.
 * [Om Tutorial](http://awkay.github.io/om-tutorial/)
 
 
-#### React
-
-* [Airbnb React/JSX Style Guide](https://airbnb.io/javascript/react/) - Airbnb
-* [Hacking with React](http://www.hackingwithreact.com)
-* [How To Code in React.js](https://www.digitalocean.com/community/books/how-to-code-in-react-js-ebook) - Joe Morgan
-* [Intro to the React Framework](http://code.tutsplus.com/tutorials/intro-to-the-react-framework--net-35660)
-* [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
-* [React-Bits](https://github.com/vasanthk/react-bits)
-* [React Book, your beginner guide to React](https://github.com/softchris/react-book/) - Chris Noring
-* [React Enlightenment](https://www.reactenlightenment.com)
-* [React In-depth: An exploration of UI development](https://developmentarc.gitbooks.io/react-indepth/content/)
-* [React in patterns](https://krasimir.gitbooks.io/react-in-patterns/content) - Krasimir Tsonev
-* [React JS Notes for Professionals](https://goalkicker.com/ReactJSBook/) - Compiled from StackOverflow Documentation (PDF)
-* [React Primer Draft](https://github.com/mikechau/react-primer-draft)
-* [React Succinctly](https://www.syncfusion.com/ebooks/react-succinctly) - Samer Buna
-* [React Tutorial](https://reactjs.org/tutorial/tutorial.html)
-* React Tutorial by Josh Finnie
-  * [Part 1](http://www.joshfinnie.com/blog/reactjs-tutorial-part-1/)
-  * [Part 2](http://www.joshfinnie.com/blog/reactjs-tutorial-part-2/)
-  * [Part 3](http://www.joshfinnie.com/blog/reactjs-tutorial-part-3/)
-* [React with ASP.NET Core Tutorial](https://reactjs.net/getting-started/aspnetcore.html)
-* [React.js Tutorial: Now is Your Time to Try It, Right in Your Browser](https://codegeekz.com/react-js-tutorial/)
-* [SurviveJS - Webpack and React](http://survivejs.com)
-* [The React Beginner's Handbook](https://flaviocopes.com/page/react-handbook/) - Flavio Copes (PDF, EPUB, Kindle) *(email address requested)*
-
-
-#### React Native
-
-* [Programming React Native](https://leanpub.com/programming-react-native)   *(Leanpub account or valid email requested)*
-* [React Native Animation Book](http://browniefed.com/react-native-animation-book/)
-* [React Native Express](http://www.reactnativeexpress.com)
-* [React Native Notes for Professionals](https://goalkicker.com/ReactNativeBook) - Compiled from StackOverflow documentation (PDF)
-* [React Native Training](https://www.gitbook.com/book/unbug/react-native-training/details)
-
-
-#### Redux
-
-* [Full-Stack Redux Tutorial](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html)
-* [SoundCloud Application in React + Redux](https://www.robinwieruch.de/the-soundcloud-client-in-react-redux/)
-* [The Complete Redux Book](https://leanpub.com/redux-book) - Boris Dinkevich and Ilya Gelman  *(Leanpub account or valid email requested)*
-
-
-#### Svelte
-
-* [Svelte Tutorial](https://svelte.dev/tutorial/basics) - Svelte.dev
-* [The Svelte Handbook](https://flaviocopes.com/page/svelte-handbook/) - Flavio Copes (PDF, EPUB, Kindle) *(email address requested)*
-
-
-#### Vue.js
-
-* [30 Days Of Vue](https://www.newline.co/30-days-of-vue) - Hassan Djirdeh (HTML; *email required for PDF*)
-* [Learning Vue.js](https://riptutorial.com/Download/vue-js.pdf) (PDF)
-* [The Vue.js Handbook](https://flaviocopes.nyc3.digitaloceanspaces.com/vue-handbook/vue-handbook.pdf) - Flavio Copes (PDF)
-
-
 ### Jenkins
 
 * [Jenkins: The Definitive Guide](http://www.bogotobogo.com/DevOps/Jenkins/images/Intro_install/jenkins-the-definitive-guide.pdf) (PDF)
 * [Jenkins User Handbook](https://www.jenkins.io/user-handbook.pdf) (PDF)
-
-
-### Julia
-
-* [Introducing Julia](https://en.wikibooks.org/wiki/Introducing_Julia) - Wikibooks
-* [Julia by Example](http://samuelcolvin.github.io/JuliaByExample) - Samuel Colvin (GitHub repo)
-* [Julia Data Science](https://juliadatascience.io) - Jose Storopoli, Rik Huijzer, and Lazaro Alonso
-* [Julia language: a concise tutorial](https://syl1.gitbook.io/julia-language-a-concise-tutorial) - Antonello Lobianco (GitBook)
-* [Learn Julia in Y minutes](https://learnxinyminutes.com/docs/julia) - Leah Hanson
-* [Quantitative Economics with Julia](https://julia.quantecon.org) - Jesse Perla, Thomas J. Sargent and John Stachurski (HTML, [PDF](https://web.archive.org/web/20210713122108/https://julia.quantecon.org/_downloads/pdf/quantitative_economics_with_julia.pdf))
-* [The Julia Express](http://bogumilkaminski.pl/files/julia_express.pdf) - Bogumił Kamiński (PDF)
-* [Think Julia](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html) - Ben Lauwens and Allen Downey (GitBook)
-
-
-### Kotlin
-
-* [Kotlin Notes for Professionals](https://goalkicker.com/KotlinBook/) - Compiled from StackOverflow documentation (PDF)
-* [Kotlin Official Documentation](https://kotlinlang.org/docs/reference/)
-* [Kotlin Quick Reference](https://kotlin-quick-reference.com) - Alvin Alexander (gitbook)
-* [Learning Kotlin](https://riptutorial.com/Download/kotlin.pdf) (PDF)
 
 
 ### LaTeX / TeX

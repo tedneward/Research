@@ -9,6 +9,14 @@ From JetBrains.
 
 [Kotlin Multiplatform Mobile](https://kotlinlang.org/docs/kmm-overview.html) and some [community content](https://twitter.com/kotlin/status/1474309782169432067)
 
+### Reading
+
+* [Kotlin Notes for Professionals](https://goalkicker.com/KotlinBook/) - Compiled from StackOverflow documentation (PDF)
+* [Kotlin Official Documentation](https://kotlinlang.org/docs/reference/)
+* [Kotlin Quick Reference](https://kotlin-quick-reference.com) - Alvin Alexander (gitbook)
+* [Learning Kotlin](https://riptutorial.com/Download/kotlin.pdf) (PDF)
+
+
 ---
 
 ## From [Learn X in Y Minutes](https://learnxinyminutes.com/docs/kotlin/)
