@@ -72,6 +72,10 @@ My ontology:
 
 	Most object languages are imperative when defining methods, though this is not a requirement.
 
+	Object languages are not perfect:
+
+	* [Bad Engineering Properties of Object-Oriented Languages](http://doc.cat-v.org/programming/bad_properties_of_OO) by Luca Cardelli. 
+
 * [Functional](/tags/functional): Characterized by mathematics-inspired functions as first-class concepts. Preference for expressions over statements, lazy execution, immutable values, and so on. | [Wikipedia](https://en.wikipedia.org/wiki/Functional_programming) | Some [reading](/reading/functional) | Functional programming brought us [monads](/reading/monads) and all the fun that goes with that. Frequently cites/builds off of the [lambda calculus](http://en.wikipedia.org/wiki/Lambda_calculus).
 
 * [Metaprogramming](/tags/metaobject) (aka MetaObject Protocol): Characterized by the idea that we can elevate "above" the object concept, in a variety of different ways: source generation, semantic macros, parametric polymorphism, and so on. Many MOPs allow for the runtime manipulation of object instances or types without requiring recompilation.

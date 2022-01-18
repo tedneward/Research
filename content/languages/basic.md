@@ -6,8 +6,9 @@ summary=Various notes and implementations of the BASIC programming language.
 ### Implementations
 
 * [TinyBASIC](../tinybasic)
-* [My_Basic](https://github.com/paladin-t/my_basic)
+* [Gambas](../gambas)
 * [SmallBASIC](http://smallbasic.github.io/) ([Source](https://github.com/smallbasic/SmallBASIC))
+* [My_Basic](https://github.com/paladin-t/my_basic)
 * [BCX](http://bcx-basic.sourceforge.net/) : Basic to C compiler, generates C source files compatible with Lcc-Win32 and MingW (or Dev-C++) without any modification.  It also comes with a resource translator which can read MS resource code and produce code in C (Win32).
 * [ScriptBasic](http://www.scriptbasic.com/) : Free embedded and extendable scripting Basic interpreter with full C source code. Tested on Windows NT and on Linux.
 * [Yabasic](http://www.yabasic.de/) : Small basic interpreter (with source code for Visual C++ 6) for Windows and Linux
@@ -15,6 +16,15 @@ summary=Various notes and implementations of the BASIC programming language.
 * [Rapid-Q](http://rapidq.phatcode.net/) : Rapid-Q is a free IDE and BASIC op-code compiler system for Win32, Linux, Unix...  It is very easy to use and to integrate with many other goodies like mySQL, cgi, DirectX, Direct3D, GTK ...
 * [Phoenix/Envelop](http://www.biz-wise.nl/phoenix_download.html) : Rapid Development under Basic.
 * [B++](https://sourceforge.net/projects/b-plus-plus/) : B++ is a BASIC compiler built on top of C++ - it converts BASIC code to C++, and then calls C++ compiler to produce EXE (or DLL). Source code is in Free Pascal.
+
+### Reading
+
+* [10 PRINT CHR$(205.5+RND(1)); : GOTO 10](http://10print.org) - Nick Montfort, Patsy Baudoin, John Bell, Ian Bogost, Jeremy Douglass, Mark C. Marino, Michael Mateas, Casey Reas, Mark Sample, Noah Vawter
+* [A beginner's guide to Gambas](http://distro.ibiblio.org/vectorlinux/Uelsk8s/GAMBAS/gambas-beginner-guide.pdf) - John W. Rittinghouse (PDF)
+* [Pick/Basic: A Programmer's Guide](http://www.jes.com/pb/) - Jonathan E. Sisk
+
+
+
 
 ---
 

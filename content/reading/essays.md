@@ -9,6 +9,8 @@ summary=Collection of thoughts.
 
     "It is also important to note that the cell, like many other physical systems, is analog in nature. Therefore, in most situations there is no 0/1 (binary) value of variables. Consider gene expression. If a transcriptional activator is present, the gene will be transcribed. However, if you keep increasing the concentration of the activator, the expression of that gene will increase until it reaches a saturation point. So there is no digital logic here. Having said that, I would add that switching behaviour is possible in biological systems (including gene expression) and is also used in many cases. Certain kinds of regulatory network structures can give rise to such dynamics. Co-operativity with or without positive feedback is one of the mechanisms that can implement switching behaviour."
 
+[The Rise of "Worse is Better"](http://doc.cat-v.org/programming/worse_is_better) by Richard P. Gabriel:
+
 ## Steve Yegge's rants
 
 - [Universal Design Pattern](http://steve-yegge.blogspot.com/2008/10/universal-design-pattern.html): "Today I thought I'd talk about a neat design pattern that doesn't seem to get much love: the Properties Pattern. In its fullest form it's also sometimes called the Prototype Pattern." Talks about three forms of modeling:

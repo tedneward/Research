@@ -74,6 +74,12 @@ Automated memory management (GC) almost always refers to heap management; I've n
 
     * **Snapshot mark-and-sweep**: Snapshot mark-and-sweep uses the observation that the set of unreachable objects does not shrink. It is possible (using, for instance, copy-on-write page mapping) to quickly make a copy of the address space, process it concurrently to determine what is garbage, and send that information back to the running process. More garbage may have been generated in the interim, but that is ok, because it will be found in the next collection.
 
+    * **Concurrent mark-and-sweep**:
+
+        Articles:
+
+        - ["Very Concurrent Mark and Sweep Garbage Collection without Fine-Grain Synchronization"](http://doc.cat-v.org/inferno/concurrent_gc/) ([pdf](http://doc.cat-v.org/inferno/concurrent_gc/concurrent_gc.pdf)): We describe a new incremental algorithm for the concurrent reclamation of a program’s allocated, yet unreachable, data. Our algorithm is a variant of mark-&-sweep collection that—unlike prior designs—runs mutator, marker, and sweeper threads concurrently without explicit fine-grain synchronization on shared-memory multiprocessors. A global, but infrequent, synchronization coordinates the per-object coloring marks used by the three threads; ne-grain synchronization is achieved without locking via the basic memory consistency guarantees commonly provided by multiprocessor hardware. We have implemented two versions of this algorithm (called VCGC): in the Inferno operating system and in the SML/NJ ML compiler. Measurements, compared to a sequential generational collector, indicate that VCGC can substantially reduce worst-case pause latencies as well as reduce overall memory usage. We remark that the degrees of freedom on the rates of marking and sweeping enable exploration of a range of resource tradeoffs, but makes "optimal” tuning for even a small set of applications difficult.
+
 * **Mark-Sweep-Compact**:
 
 * **Copying**:
