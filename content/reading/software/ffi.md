@@ -2,7 +2,6 @@ title=Foreign Function Interfaces (FFI)
 tags=language, reading
 summary=A collection of links and research on how various languages/vms handle interoperability with their host environment.
 ~~~~~~
-# General
 
 - C++ Language Interface Foundation (CLIF)
 	- https://github.com/google/clif

@@ -88,8 +88,6 @@ summary=Collection of thoughts.
 * [Transactionally Staged Job Drains in Postgres](https://brandur.org/job-drain
 * [Implementing Stripe-like Idempotency Keys in Postgres](https://brandur.org/idempotency-keys):
 
-  
-  
 ### [End-to-End Arguments in System Design](http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf):
 > This paper presents a design principle that helps guide placement of functions among the modules of a distributed computer system. The principle, called the end-to-end argument, suggests that functions placed at low levels of a system may be redundant or of little value when compared with the cost of providing them at that low level. Examples discussed in the paper include bit error recovery, security using encryption, duplicate message suppression, recovery from system crashes, and delivery acknowledgement. Low level mechanisms to support these functions are justified only as performance enhancements.
   

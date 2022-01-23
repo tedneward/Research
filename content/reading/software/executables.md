@@ -1,5 +1,5 @@
 title=Executable and object file format reading
-tags=native, reading, windows, linux, macos, linux, elf, macho, pe, dwarf, pdb
+tags=native, reading, windows, format, linux, macos, linux, elf, macho, pe, dwarf, pdb
 summary=Resources and reading around executable and object file formats.
 ~~~~~~
 Executable files, debugging data, object code, shared libraries - file formats information, specifications, software - with relevance to compiler toolchains, debuggers, and general program analysis.
