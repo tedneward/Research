@@ -23,4 +23,16 @@ summary=Native language intended to supplement or replace C/C++ someday.
 * [The Rustonomicon](https://doc.rust-lang.org/nomicon)
 * [Why Rust?](https://www.oreilly.com/content/why-rust)
 
+## FFI
+
+- bindgen: Automatically generates Rust FFI bindings to C and C++ libraries
+	- https://github.com/rust-lang/rust-bindgen
+- cbindgen: creates C/C++11 headers for Rust libraries which expose a public C API
+	- https://github.com/eqrion/cbindgen
+	- cbindgen User Guide
+		- https://github.com/eqrion/cbindgen/blob/master/docs.md
+- CXX: safe FFI between Rust and C++
+	- https://github.com/dtolnay/cxx
+- rustcxx: Using C++ from Rust made easy
+	- https://github.com/google/rustcxx
 

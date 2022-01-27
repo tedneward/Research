@@ -71,6 +71,14 @@ Module systems
 * [TypeScript](../typescript)
 * [SweetJS](../sweetjs): Syntactic sugar (semantic macros) on top of JS
 
+### FFI bindings
+To any JS engine (not direct FFI)
+
+* nbind: a set of headers that make your C++11 library accessible from JavaScript.
+	- https://github.com/charto/nbind
+	- https://github.com/charto/nbind#readme
+
+
 ### SQL
 * [sql.js](http://sql.js.org/) ([Source](https://github.com/sql-js/sql.js)): SQLite compiled to Javascript
 

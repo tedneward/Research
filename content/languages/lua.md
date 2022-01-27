@@ -421,6 +421,16 @@ g()  -- Prints out 343; nothing printed before now.
 * JVM: [LuaJ](https://sourceforge.net/projects/luaj/): A Lua 5.2 spec-compliant interpreter written in Java for JME and JSE. Compiles Lua directly to JVM bytecode.
 * OCaml: [LuaML](https://github.com/lindig/lua-ml): Embeddable Lua 2.5 reimplementation that integrates with OCaml type and module system. It's possible to extend or even replace the standard library with your own modules.
 
+### FFI
+
+- Sol v2.0 - a C++ <-> Lua API
+	- Sol is a C++ library binding to Lua. It currently supports all Lua versions 5.1+ (LuaJIT 2.x included). Sol aims to be easy to use and easy to add to a project. The library is header-only for easy integration with projects.
+	- http://sol2.rtfd.org/
+	- https://github.com/ThePhD/sol2
+	- Scripting at the Speed of Thought: Lua and C++ with sol3 - CppCon 2018; JeanHeyd Meneide
+		- https://www.youtube.com/watch?v=xQAmGBfKnas
+- Lua in the Stingray 3D game engine - Niklas Frykholm - https://www.youtube.com/watch?v=wTjyM7d7_YA
+
 
 ### Inspired by Lua
 

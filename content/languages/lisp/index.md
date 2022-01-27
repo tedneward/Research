@@ -59,3 +59,8 @@ Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/li
 
 * [Foil](http://foil.sourceforge.net/): a Foreign Object Interface for Lisp (JVM and CLR integration)
 
+### FFI
+
+- Clasp — Bringing Common Lisp and C++ Together
+	- https://github.com/drmeister/clasp
+

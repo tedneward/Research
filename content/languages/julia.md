@@ -46,6 +46,10 @@ Partly because of run-time type inference (augmented by optional type annotation
 * [The Julia Express](http://bogumilkaminski.pl/files/julia_express.pdf) - Bogumił Kamiński (PDF)
 * [Think Julia](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html) - Ben Lauwens and Allen Downey (GitBook)
 
+### FFI
+
+- Cxx.jl: The Julia C++ Interface
+	- https://github.com/Keno/Cxx.jl
 
 # Notes
 

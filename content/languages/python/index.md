@@ -3,9 +3,11 @@ tags=platform, language, functional, dynamic, object, metaobject
 summary=A dynamic language and platform.
 ~~~~~~
 
+[Website](https://www.python.org/) | [Docs (Python3)](https://docs.python.org/3/)
+
 ### Implementations:
 
-* [CPython](https://github.com/python/cpython): native implementation
+* C: [CPython](../cpython): native implementation
 * JVM: [GraalPython](https://github.com/graalvm/graalpython): part of [GraalVM](/vms/graalvm.html)
 * JVM: [Jython](http://www.jython.org/)
 * CLR: IronPython

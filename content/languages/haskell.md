@@ -255,3 +255,21 @@ A typeclass is a sort of interface that defines some behavior. If a type is a pa
 ["Haskell web programming"](http://yannesposito.com/Scratch/en/blog/Yesod-tutorial-for-newbies/)
 
 ["Basic Type Level Programming in Haskell"](https://www.parsonsmatt.org/2017/04/26/basic_type_level_programming_in_haskell.html)
+
+### FFI
+
+- Calling C++ from Haskell - "The Hard Way"
+	- https://wiki.haskell.org/CPlusPlus_from_Haskell
+- Cxx foreign function interface
+	- https://wiki.haskell.org/Cxx_foreign_function_interface
+- fficxx - FFI to C++ in Haskell
+	- Haskell-C++ Foreign Function Interface Generator
+	- http://ianwookim.org/fficxx/
+	- https://github.com/wavewave/fficxx
+- inline-c-cpp: Lets you embed C++ code into Haskell
+	- http://hackage.haskell.org/package/inline-c-cpp
+	- https://github.com/fpco/inline-c
+- Stranger in a Strange Land: An introductory tour of the Haskell FFI
+	- Haskell DC 2020; P.C. Shyamshankar
+	- https://www.youtube.com/watch?v=zlOrYQH_-Xs
+
