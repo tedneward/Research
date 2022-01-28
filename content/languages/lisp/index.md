@@ -8,7 +8,7 @@ summary=The original dynamic functional(ish) homoiconic (consistent symbology) l
 ### Common Lisp Implementations:
 
 * C: [Embeddable Common Lisp](https://common-lisp.net/project/ecl/) ([Source](https://gitlab.com/embeddable-common-lisp/ecl)): Full Common Lisp implementation, available as a shared library `libecl.so` embeddable in any C, C++ or other application.
-* C: [Guile](https://www.gnu.org/software/guile/): 	"Guile mostly implements R6RS."
+* C: [Guile](../guile): "Guile mostly implements R6RS."
 * C: [s7](https://ccrma.stanford.edu/software/snd/snd/s7.html): Implements a subset of R5RS/R7RS. Descended from TinyScheme.
 * C: [TinyScheme](http://tinyscheme.sourceforge.net/): Implements a subset of R5RS.
 * C++: [Clasp](https://github.com/drmeister/clasp): Full Common Lisp implementation well integrated with C++, using LLVM for the code generation, to integrate closely with C++ applications or libraries.

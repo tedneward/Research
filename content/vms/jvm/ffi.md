@@ -15,12 +15,20 @@ Basically broken into three parts:
 * Native code calling back into the JVM (native code accessing fields and methods of Java objects)
 * Invocation/hosting (bringing the JVM up inside a native process--which is what the `java` host does)
 
-- jni.hpp: a modern, type-safe, header-only, C++14 wrapper for JNI (Java Native Interface)
-	- https://github.com/mapbox/jni.hpp
+### Helpers
+
+- [jni.hpp](https://github.com/mapbox/jni.hpp): a modern, type-safe, header-only, C++14 wrapper for JNI
+- [JavaCPP](https://github.com/bytedeco/javacpp): The missing bridge between Java and native C++
 
 # JNA
 
-# JNR
+[Source](https://github.com/java-native-access/jna)
+
+# JNR (jnr-ffi): Java Abstracted Foreign Function Layer
+
+Java library for loading native libraries without writing JNI code by hand or using tools such as SWIG. JNR is a comparingly young project that target the same problem. Similarly as JNA or Bridj it does not require native programming. There's not much documentation or reviews at the moment, but JNR is often called promising.
+
+[Source](https://github.com/jnr/jnr-ffi)
 
 # BridJ
 
@@ -41,8 +49,3 @@ Supports native execution of LLVM bitcode using [Sulong](https://github.com/graa
 
 # Other FFI
 
-- JavaCPP: The missing bridge between Java and native C++
-	- https://github.com/bytedeco/javacpp
-- jnr-ffi: Java Abstracted Foreign Function Layer
-	- Java library for loading native libraries without writing JNI code by hand or using tools such as SWIG
-	- https://github.com/jnr/jnr-ffi
