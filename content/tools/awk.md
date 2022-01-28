@@ -5,7 +5,11 @@ summary=Tool for text processing and manipulation.
 
 [Website: GNU awk](https://www.gnu.org/software/gawk/manual/gawk.html | [Source]() | [GNU Awk User's Guide](https://www-zeuthen.desy.de/dv/documentation/unixguide/infohtml/gawk/gawk.html)
 
-[AWK cheatsheet](https://gist.github.com/Rafe/3102414)
+* [AWK cheatsheet](https://gist.github.com/Rafe/3102414)
+* [An Awk Primer](https://en.wikibooks.org/wiki/An_Awk_Primer) - Wikibooks
+* [Awk](https://www.grymoire.com/Unix/Awk.html) - Bruce Barnett
+* [GNU awk](https://learnbyexample.github.io/learn_gnuawk/) - Sundeep Agarwal
+
 
 ### [Learn X in Y Minutes](https://github.com/adambard/learnxinyminutes-docs/blob/master/awk.html.markdown) short intro
 

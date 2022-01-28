@@ -55,6 +55,11 @@ From the Specification home page, a history:
 * [JVM: Graal.js](https://github.com/graalvm/graaljs) part of [GraalVM](/vms/graalvm.html)
 * [C/C++: mjs](https://github.com/cesanta/mjs) Embedded JavaScript for C/C++, designed for microcontrollers with limited resources. Implements a strict subset of ES6.
 * [C/C++: QuickJS](https://bellard.org/quickjs/): a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
+* [C/C++: V8](/vms/v8): The engine below NodeJS from Google.
+
+Module systems
+* [Asynchronous Module Definition API (AMD)](https://github.com/amdjs/amdjs-api/blob/master/AMD.md)
+    * [r.js](https://github.com/requirejs/r.js): A command line tool for running JavaScript scripts that use the Asynchronous Module Definition API (AMD) for declaring and using JavaScript modules and regular JavaScript script files. It is part of the RequireJS project, and works with the RequireJS implementation of AMD.
 
 ### Transpilers
 [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS)
@@ -65,6 +70,14 @@ From the Specification home page, a history:
 * [PureScript](../purescript)
 * [TypeScript](../typescript)
 * [SweetJS](../sweetjs): Syntactic sugar (semantic macros) on top of JS
+
+### FFI bindings
+To any JS engine (not direct FFI)
+
+* nbind: a set of headers that make your C++11 library accessible from JavaScript.
+	- https://github.com/charto/nbind
+	- https://github.com/charto/nbind#readme
+
 
 ### SQL
 * [sql.js](http://sql.js.org/) ([Source](https://github.com/sql-js/sql.js)): SQLite compiled to Javascript
@@ -85,3 +98,4 @@ From the Specification home page, a history:
 ## Reading
 
 [JavaScript Promises... in Wicked Detail](https://mattgreer.dev/articles/promises-in-wicked-detail/)
+

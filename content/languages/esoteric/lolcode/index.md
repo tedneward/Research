@@ -3,11 +3,9 @@ tags=language, esoteric
 summary=Programming in l33tsp33k
 ~~~~~~
 
-[Website](http://www.lolcode.org/) | [Interpreter Github](https://github.com/justinmeza/lci)
+[Website](http://www.lolcode.org/) | [Interpreter Github](https://github.com/justinmeza/lci) | [Another reference](https://github.com/leyarotheconquerer/lolcode-reference)
 
 There is a specification which currently rests at [1.2](https://github.com/justinmeza/lolcode-spec/blob/master/v1.2/lolcode-spec-v1.2.md) ([local copy](../specification-1.2)). If you can believe that.
-
-[Another reference](https://github.com/leyarotheconquerer/lolcode-reference)
 
 The specificaction on the [Esolang's wiki](http://esolangs.org/wiki/LOLCODE)
 
@@ -18,9 +16,11 @@ HAI 1.2
 KTHXBYE
 ```
 
-There used to be Java and CLR versions; no idea if they still exist.
+### Implementations
 
-[CLR version cached copy](../lolcode/LOLCode-r36.net.zip)
+* Java: [LOLCODE using JavaCC/JJTree](https://code.google.com/archive/p/lolcode-java/)
+* Java: [Another implementation](https://github.com/nikitagrygoriev/LOLCODE_Compiler)
+* CLR: [CLR version cached copy](../lolcode/LOLCode-r36.net.zip)
 
 ## [Learn X in Y minutes Quick Intro](https://learnxinyminutes.com/docs/LOLCODE/)
 LOLCODE is an esoteric programming language designed to resemble the speech of [lolcats](https://upload.wikimedia.org/wikipedia/commons/a/ab/Lolcat_in_folder.jpg?1493656347257).

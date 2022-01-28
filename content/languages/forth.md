@@ -5,11 +5,18 @@ summary=Entirely stack-oriented programming language.
 
 [Website](http://www.forth.com/)
 
-[Holon Forth](http://www.holonforth.com/new/holon.html) | [Language](http://www.holonforth.com/tools/java/javaforth.htm)
+### Implementations
+* [Holon Forth](http://www.holonforth.com/new/holon.html) | [Language](http://www.holonforth.com/tools/java/javaforth.htm)
+* [StrongForth](http://home.vrweb.de/stephan.becher/forth/)
+* [Retro](http://retroforth.org/): A minimalistic Forth
 
-[StrongForth](http://home.vrweb.de/stephan.becher/forth/)
+### Reading
 
-[Retro](http://retroforth.org/): A minimalistic Forth
-
-["Starting Forth"](http://www.forth.com/starting-forth/) | ["Thinking Forth"](http://thinking-forth.sourceforge.net/)
+* [A Beginner's Guide to Forth](https://web.archive.org/web/20180919061255/http://galileo.phys.virginia.edu/classes/551.jvn.fall01/primer.htm) - J.V. Noble
+* [And so Forth...](http://ficl.sourceforge.net/pdf/Forth_Primer.pdf) (PDF)
+* [Easy Forth](https://skilldrick.github.io/easyforth/) - Nick Morgan (HTML)
+* [Programming Forth](http://www.mpeforth.com/arena/ProgramForth.pdf) (PDF)
+* [Starting Forth](http://home.iae.nl/users/mhx/sf.html) | [Another link?](http://www.forth.com/starting-forth/)
+* [Thinking Forth](http://thinking-forth.sourceforge.net)
+* [Thoughtful Programming and Forth](http://www.ultratechnology.com/forth.htm)
 

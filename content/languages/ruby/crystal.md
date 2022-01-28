@@ -5,6 +5,10 @@ summary=A Ruby-inspired statically-type-checked, native language.
 
 [Website](https://crystal-lang.org/) | [Source](https://github.com/crystal-lang/crystal) | [Docs](https://github.com/crystal-lang/crystal-book)
 
+### Reading
+
+* [Crystal for Rubyists](http://www.crystalforrubyists.com)
+
 ## [Learn X in Y minutes Quick intro](https://learnxinyminutes.com/docs/crystal/)
 ```crystal
 

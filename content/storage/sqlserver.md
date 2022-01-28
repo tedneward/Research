@@ -3,6 +3,13 @@ tags=storage, relational, windows, clr
 summary=Microsoft's relational database implementation.
 ~~~~~~
 
+### Tools
+
+* [tsqllint](https://github.com/tsqllint/tsqllint): Configurable linting for TSQL. Install with `$ dotnet tool install --global TSQLLint` or `brew tap tsqllint/homebrew-tsqllint; brew install tsqllint` for macOS/Linux or `npm install tsqllint -t` for npm. Supports the creation of custom plugins (implemenent an interface in CLR code).
+* [TSQL-Smells](https://github.com/davebally/TSQL-Smells): "TSQL Smells Finder". Last meaningful activity in 2016/2018.
+
+### Reading
+
 * [Best of SQLServerCentral.com Vol 7](http://www.red-gate.com/community/books/ssc-7) *(RedGate, By SQLServerCentral Authors)
 * [Brad's Sure Guide to SQL Server Maintenance Plans](http://www.red-gate.com/community/books/sql-server-maintenance-plans) - Brad McGehee (PDF) (email address *requested*)
 * [Defensive Database Programming](https://www.red-gate.com/library/defensive-database-programming) - Alex Kuznetsov (PDF)

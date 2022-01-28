@@ -11,12 +11,7 @@ Video game development links.
 
 This probably should be a "place", but [Chris Crawford's website](https://www.erasmatazz.com/) is a good source of a bunch of game thoughts and insights. [Balance of Power](https://www.erasmatazz.com/library/my-books/balance-of-power-the-book/index.html) ([PDF](http://www.erasmatazz.com/MyResources/Balance-of-Power-the-Book.pdf)) was the most interesting game I could never get to play on my computer. I should read every one of his [Game Design](https://www.erasmatazz.com/library/game-design/index.html) essays at some point.
 
-### Reading
+[Amit's Thoughts on Grids](http://www-cs-students.stanford.edu/~amitp/game-programming/grids/) | [Grid Parts](https://www.redblobgames.com/grids/parts/)
 
-* [2D Game Development: From Zero To Hero](https://github.com/Penaz91/2DGD_F0TH) - Daniele Penazzo (HTML, [PDF, EBPUB, Kindle...](https://therealpenaz91.itch.io/2dgd-f0th#download)) (:construction: *in process*)
-* [Coding With Minecraft](https://turtleappstore.com/book/) - Al Sweigart
-* [Designing Virtual Worlds](https://mud.co.uk/richard/DesigningVirtualWorlds.pdf) - Richard A. Bartle (PDF)
-* [Game AI Pro](http://www.gameaipro.com) - Steve Rabin
-* [Game Design with AGS](https://ensadi.github.io/AGSBook/) - Dave Ensminger, A. G. Madi
-* [Game Programming Patterns](http://gameprogrammingpatterns.com) - Bob Nystrom
-* [Procedural Content Generation in Games](http://pcgbook.com) - Noor Shaker, Julian Togelius, Mark Nelson
+["Procedural Worlds from Simple Tiles"](https://ijdykeman.github.io/ml/2017/10/12/wang-tile-procedural-generation.html)
+

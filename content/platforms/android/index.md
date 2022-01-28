@@ -51,3 +51,16 @@ App resources: [Overview](https://developer.android.com/guide/topics/resources/p
 
 [Simplify](https://github.com/CalebFenton/simplify): Generic Android Deobfuscator: "Simplify virtually executes an app to understand its behavior and then tries to optimize the code so that it behaves identically but is easier for a human to understand. Each optimization type is simple and generic, so it doesn't matter what the specific type of obfuscation is used."
 
+### Reading
+
+* [Android Notes for Professionals](https://goalkicker.com/AndroidBook) - Compiled from StackOverflow Documentation (PDF)
+* [Android Programming Succinctly, Syncfusion](https://www.syncfusion.com/resources/techportal/ebooks/android) ([PDF](https://www.syncfusion.com/Account/Logon?ReturnUrl=%2fresources%2ftechportal%2febooks%2fandroid), [Kindle](https://www.syncfusion.com/Account/Logon?ReturnUrl=%2fresources%2ftechportal%2febooks%2fandroid)) (email address *requested*, not required)
+* [Android Tutorial](http://www.tutorialspoint.com/android) - Tutorials Point
+* [Codelabs for Advanced Android Development](https://developer.android.com/courses/advanced-training/toc)
+* [CodePath Android Cliffnotes](https://github.com/codepath/android_guides/wiki)
+* [Expert Android and Eclipse development knowledge](http://www.vogella.com/tutorials/android.html)
+* [Google Android Developer Training](https://developer.android.com/guide)
+* [Styling Android](https://blog.stylingandroid.com)
+* [The Busy Coder's Guide to Android Development](https://commonsware.com/Android/4-2-free) (PDF - older versions)
+
+

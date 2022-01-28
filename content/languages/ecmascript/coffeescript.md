@@ -5,6 +5,14 @@ summary=Unfancy JavaScript.
 
 [Website](http://coffeescript.org/) | [Source](https://github.com/jashkenas/coffeescript)
 
+### Reading
+
+* [CoffeeScript Cookbook](https://coffeescript-cookbook.github.io)
+* [CoffeeScript Ristretto](https://leanpub.com/coffeescript-ristretto/read) - Reginald Braithwaite  *(Leanpub account or valid email requested)*
+* [Hard Rock CoffeeScript](https://alchaplinsky.github.io/hard-rock-coffeescript/) - Alex Chaplinsky (gitbook)
+* [Smooth CoffeeScript](http://autotelicum.github.io/Smooth-CoffeeScript/SmoothCoffeeScript.html)
+* [The Little Book on CoffeeScript](http://arcturo.github.io/library/coffeescript/) - Alex MacCaw, David Griffiths, Satoshi Murakami, Jeremy Ashkenas
+
 ## [Learn X in Y minutes Quick Intro](https://learnxinyminutes.com/docs/coffeescript/)
 ---
 CoffeeScript is a little language that compiles one-to-one into the equivalent JavaScript, and there is no interpretation at runtime. As one of the successors to JavaScript, CoffeeScript tries its best to output readable, pretty-printed and smooth-running JavaScript code, which works well in every JavaScript runtime. It also attempts to try and make JavaScript more in line with the trends of many modern languages.

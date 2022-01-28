@@ -3,4 +3,6 @@ tags=vm, functional
 summary=Erlang virtual machine low-level details
 ~~~~~~
 
-[The BEAM Book](https://github.com/happi/theBeamBook): Description of the Erlang Runtime System (ERTS) and virtual machine.
+### Reading
+* [BEAM Wisdoms](http://beam-wisdoms.clau.se/en/latest/) (HTML)
+* [The BEAM Book](https://blog.stenmans.org/theBeamBook) (HTML)

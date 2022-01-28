@@ -18,6 +18,11 @@ Distributed systems are the means by which programs on one machine communicate w
 * [Fuck Off As A Service](http://foaas.com/)
 * [DnD 5e API](https://github.com/5e-bits/5e-srd-api)
 * [Another DnD 5e API](https://api.open5e.com/)
+* [My Little Pony: Friendship is Magic Episode information API](https://github.com/Xe/PonyAPI)
+* [Streaming Movie of the Night API](https://www.movieofthenight.com/about/api)
+
+## Interesting tools based on network APIs
+
 * [imap-backup](https://github.com/joeyates/imap-backup): Backup GMail (or other IMAP) accounts to disk
 
 ## Networking (Fundamentals, et al)
@@ -38,7 +43,7 @@ Distributed systems are the means by which programs on one machine communicate w
 * [Understanding IP Addressing: Everything you ever wanted to know](http://pages.di.unipi.it/ricci/501302.pdf) (PDF)
 * [ZeroMQ Guide](http://zguide.zeromq.org/page%3Aall)
 
-## HTTP APIs
+## HTTP API Design/Implementation/Usage
 
 * [Web API Design](https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf) - Brian Mulloy (PDF)
 * [Working with Web APIs](https://launchschool.com/books/working_with_apis) - Launch School

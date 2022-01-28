@@ -1,5 +1,5 @@
 title=Scheme
-tags=jvm, clr, native, language, functional, dynamic, object, metaobject
+tags=jvm, clr, native, language, functional, lisp, dynamic, object, metaobject
 summary=Homoiconic dynamic functional(ish) language derived from Lisp.
 ~~~~~~
 
@@ -9,6 +9,8 @@ summary=Homoiconic dynamic functional(ish) language derived from Lisp.
 * [Gambit Scheme](https://gambitscheme.org/) ([Source](https://github.com/gambit/gambit)): an efficient implementation of the Scheme programming language.
 * [Larceny](http://www.larcenists.org/)
 * [MIT/GNU Scheme](https://www.gnu.org/software/mit-scheme/)
+* [GNU Guile Scheme](https://www.gnu.org/software/guile/)
+    - FFI bindings: [SCHeMe UnterstüTZung](https://sinusoid.es/schmutz) — easy Guile Scheme C++ bindings ([Source](https://github.com/arximboldi/schmutz))
 * [CLR: IronScheme](https://github.com/IronScheme/IronScheme)
 * [JVM: Bigloo](http://www-sop.inria.fr/mimosa/fp/Bigloo/bigloo.html#Bigloo-homepage)
 * [JVM: Kawa](https://en.wikipedia.org/wiki/Kawa_(Scheme_implementation))
@@ -20,6 +22,8 @@ summary=Homoiconic dynamic functional(ish) language derived from Lisp.
 * [Scheme in One Day (siod)](https://github.com/gjcarrette/siod)
 * [Inlab Scheme](https://scheme.inlab.net/)
 * [Femtolisp](https://github.com/JeffBezanson/femtolisp): a lightweight, robust, scheme-like lisp implementation
+
+
 
 ### Reading
 * [The Scheme Programming Language (4th Ed)](https://www.scheme.com/tspl4/), by Dybvig ([3rd Ed](https://www.scheme.com/tspl3/), [2nd Ed](https://www.scheme.com/tspl2/))

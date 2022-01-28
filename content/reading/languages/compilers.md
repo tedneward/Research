@@ -49,8 +49,6 @@ summary=Collection of articles on implementing languages.
 	- Resources for the working programmer to learn more about the fundamentals and theory of programming languages.
 	- Jean Yang
 
-[Let's Build a Compiler](http://www.stack.nl/~marcov/compiler.pdf) (PDF)
-
 [Practical and Theoretical Aspects of Compiler Construction](http://web.stanford.edu/class/archive/cs/cs143/cs143.1128/) (class lectures and slides)
 
 [Programming Language Pragmatics](https://www.cs.rochester.edu/~scott/pragmatics/) by Michael L Scott. Covers theoretical background behind languages beyond syntax.
@@ -140,6 +138,10 @@ UCSD CSE 231: Advanced Compiler Design
 
 ### Domain-specific languages (DSLs)
 [DSLs - A powerful Scala feature](http://www.scala-lang.org/node/1403) | [Bootstrapping a simple compiler from nothing](http://homepage.ntlworld.com/edmund.grimley-evans/bcompiler.html)
+
+["Design Guidelines for Domain Specific Languages"](https://arxiv.org/pdf/1409.2378): "In this paper we investigate guidelines that are useful for designing domain specific languages, largely based on our experience in developing languages as well as relying on existing guidelines on general purpose (GPLs) and modeling languages. We defined guidelines to support a DSL developer to achieve better quality of the language design and a better acceptance among its users."
+
+Writing Your First Domain Specific Language: [Part 1](https://www.codeproject.com/Articles/26975/Writing-Your-First-Domain-Specific-Language-Part-1), [Part 2](https://www.codeproject.com/Articles/29058/Writing-your-first-Domain-Specific-Language-Part-2) (uses [Irony](/libraries/irony)))
 
 ---
 

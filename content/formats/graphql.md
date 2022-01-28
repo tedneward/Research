@@ -16,6 +16,13 @@ summary=A query language APIs can support to enable SQL-like behavior across API
 * [JVM/Kotlin: graphql-kotlin](https://github.com/ExpediaGroup/graphql-kotlin/)
 * [JVM/Scala: Sangria](https://github.com/sangria-graphql/sangria)
 
+### Reading
+
+* [Fullstack GraphQL](https://github.com/GraphQLCollege/fullstack-graphql)
+* [Learning graphqL](https://riptutorial.com/Download/graphql.pdf) (PDF)
+
+
+
 Many additional implementations from [Apollo](https://github.com/apollographql) project.
 
 ### Schema

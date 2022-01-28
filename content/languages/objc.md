@@ -141,6 +141,14 @@ Being a dynamic language, ObjC depends very heavily on the use of names as the c
 
 ---
 
+## FFI
+
+- OC - Easily Declare/Invoke Objective-C APIs from C11 or C++11
+	- Macro magic for declaring/calling Objective-C APIs from C11 or C++. Preloads selectors, chooses the correct objc_msgSend to call per method/platform.
+	- https://github.com/garettbass/oc
+
+
+
 ## GNUstep
 The remnants of the NeXTStep environment from Jobs' NeXT days.
 

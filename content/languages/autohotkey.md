@@ -3,9 +3,11 @@ tags=language, windows
 summary=The ultimate automation scripting language for Windows.
 ~~~~~~
 
-[Website](https://www.autohotkey.com/) | [Source](https://ahkscript.github.io/) | [Docs](https://www.autohotkey.com/docs/AutoHotkey.htm)
+[Website](https://www.autohotkey.com/) | [Source](https://ahkscript.github.io/) | [Docs](https://www.autohotkey.com/docs/AutoHotkey.htm) ([CHM](https://autohotkey.com/download/1.1/AutoHotkeyHelp.zip))
 
 There's some really interesting ideas here, and the whole language appears to be one giant Windows systemwide keyboard hook. Love the simplicity of the idea.
+
+[AHKbook - the book for AutoHotkey](http://ahkscript.github.io/ahkbook/index.html)
 
 ### Examples
 ```

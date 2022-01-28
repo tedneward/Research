@@ -13,6 +13,7 @@ summary=A portable multi-environment-targeting bytecode format for the Web.
 * [Proposals](https://github.com/WebAssembly/proposals)
 * [Component model](https://github.com/WebAssembly/component-model)
 * [WebAssembly System Interface](https://wasi.dev/)
+* [Common WebAssembly](https://github.com/CommonWA/cwa-spec)
 
 Tools: [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) | [binaryen](https://github.com/WebAssembly/binaryen)
 
@@ -32,6 +33,8 @@ Tools: [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) 
 [Wasm Debugger](https://github.com/wasm3/wasm-debug): Direct, source-level WebAssembly debugger
 
 [An introduction to WebAssembly components](https://radu-matei.com/blog/intro-wasm-components/)
+
+[WebAssembly friendly programming with C/C++](https://github.com/3dgen/cppwasm-book/tree/master/en) - Ending, Chai Shushan, Yushih (HTML, [examples](https://github.com/3dgen/cppwasm-book/tree/master/examples))
 
 ### Example SDL app compiled to WebAssembly (from https://main.lv/writeup/web_assembly_sdl_example.md):
 
