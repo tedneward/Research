@@ -38,6 +38,8 @@ F# was originally a CLR-based variant of [OCaml](../ocaml). Since F# 3.0, it has
 
 [Mobile](https://fsharp.org/guides/mobile-apps): Most of this centers around Xamarin; lots of the links on the F#.org site are old (2013-era).
 
+* [.NET 6.0 mobile templates](https://github.com/fabulousfx/net6.0-mobile-fsharp)
+
 [Enterprise](https://fsharp.org/guides/enterprise): Mostly links about why F# is good in enterprise development. A few nuggets of goodness mixed in. [Domain Modeling and DDD in F#](http://fsharpforfunandprofit.com/ddd/), [Domain-Driven Design (DDD) With F# and EventStore](http://gorodinski.com/blog/2013/02/17/domain-driven-design-with-fsharp-and-eventstore/). 
 
 [Data access](https://fsharp.org/guides/data-access/): Type providers are seriously powerful: [Accessing loosely structured data from F# and C#](http://tomasp.net/blog/goto-loosely-structured-data.aspx/index.html) [XML](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html), [JSON](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html), [SQL](http://msdn.microsoft.com/en-us/library/hh361033.aspx). Agents and message queues: [An Introduction To F# Agents](http://www.developerfusion.com/article/139804/an-introduction-to-f-agents/) | [Agents](http://fsharpforfunandprofit.com/posts/concurrency-actor-model/)
