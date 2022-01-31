@@ -18,3 +18,6 @@ Other specification links: [SQL-92](https://datacadamia.com/_media/data/type/rel
 * [SQL Queries Succinctly](https://www.syncfusion.com/ebooks/sql_queries_succinctly) - Nick Harrison
 * [Use The Index, Luke!: A Guide To SQL Database Performance](http://use-the-index-luke.com)
 
+---
+
+[SQL Tutorial](https://sqlzoo.net/wiki/SQL_Tutorial)

@@ -8,6 +8,12 @@ summary=Collection of articles on implementing languages.
 
 [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
 
+[Implementing a JIT Compiled Language with Haskell and LLVM](https://www.stephendiehl.com/llvm/)
+
+Writing your First Domain Specific Language [Part 1](https://www.codeproject.com/Articles/26975/Writing-Your-First-Domain-Specific-Language-Part-1) | [Part 2](https://www.codeproject.com/Articles/29058/Writing-your-first-Domain-Specific-Language-Part-2) | [Visual Studio Language Service](https://www.codeproject.com/Articles/33250/Writing-Your-First-Visual-Studio-Language-Service)
+
+[How to Design Worlds (PDF)](https://world.cs.brown.edu/1/htdw-v1.pdf)
+
 ## Background, Books
 [68 resources on creating programming languages](https://tomassetti.me/resources-create-programming-languages/)
 
@@ -49,6 +55,8 @@ summary=Collection of articles on implementing languages.
 	- Resources for the working programmer to learn more about the fundamentals and theory of programming languages.
 	- Jean Yang
 
+[Let's Build a Compiler](http://www.stack.nl/~marcov/compiler.pdf) (PDF)
+
 [Practical and Theoretical Aspects of Compiler Construction](http://web.stanford.edu/class/archive/cs/cs143/cs143.1128/) (class lectures and slides)
 
 [Programming Language Pragmatics](https://www.cs.rochester.edu/~scott/pragmatics/) by Michael L Scott. Covers theoretical background behind languages beyond syntax.
@@ -84,6 +92,8 @@ summary=Collection of articles on implementing languages.
 [Build your own Lisp](http://www.buildyourownlisp.com/contents) teaches C by building a Lisp.
 
 ## College/University Courses
+
+[Functional programming and type systems](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:c-2-4-2); [supplemental repo](https://gitlab.inria.fr/fpottier/mpri-2.4-public)
 
 [Stanford OpenEdX: Compilers - Alex Aiken](http://online.stanford.edu/course/compilers-0)
 
@@ -138,10 +148,6 @@ UCSD CSE 231: Advanced Compiler Design
 
 ### Domain-specific languages (DSLs)
 [DSLs - A powerful Scala feature](http://www.scala-lang.org/node/1403) | [Bootstrapping a simple compiler from nothing](http://homepage.ntlworld.com/edmund.grimley-evans/bcompiler.html)
-
-["Design Guidelines for Domain Specific Languages"](https://arxiv.org/pdf/1409.2378): "In this paper we investigate guidelines that are useful for designing domain specific languages, largely based on our experience in developing languages as well as relying on existing guidelines on general purpose (GPLs) and modeling languages. We defined guidelines to support a DSL developer to achieve better quality of the language design and a better acceptance among its users."
-
-Writing Your First Domain Specific Language: [Part 1](https://www.codeproject.com/Articles/26975/Writing-Your-First-Domain-Specific-Language-Part-1), [Part 2](https://www.codeproject.com/Articles/29058/Writing-your-first-Domain-Specific-Language-Part-2) (uses [Irony](/libraries/irony)))
 
 ---
 

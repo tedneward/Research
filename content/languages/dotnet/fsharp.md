@@ -13,23 +13,9 @@ Originally from [Microsoft Research](/places/msr).
 
 F# was originally a CLR-based variant of [OCaml](../ocaml). Since F# 3.0, it has relaxed some of the direct compatibility with OCaml in favor of a friendlier syntax, but still very much holds to its roots.
 
+[Wikibook](https://en.wikibooks.org/wiki/F_Sharp_Programming)
 
-### F Sharp
-
-* [Wikibook](https://en.wikibooks.org/wiki/F_Sharp_Programming)
-* [Analyzing and Visualizing Data with F#](https://web.archive.org/web/20201023042804/https://www.oreilly.com/programming/free/files/analyzing-visualizing-data-f-sharp.pdf) - Tomas Petricek (PDF)
-* [F# For Fun and Profit](https://fsharpforfunandprofit.com/) ([Source](https://www.gitbook.com/book/swlaschin/fsharpforfunandprofit/details)):
-
-    * [Parsing command-line arguments](https://fsharpforfunandprofit.com/posts/pattern-matching-command-line/)
-    * [Domain-Driven Design](https://fsharpforfunandprofit.com/ddd/)
-
-* [F# Programming](https://en.wikibooks.org/wiki/F_Sharp_Programming) - Wikibooks
-* [F# Succinctly, SyncFusion](https://www.syncfusion.com/resources/techportal/ebooks/fsharp) (PDF, Kindle) (email address *requested*, not required)
-* [Functional Programming Textbook](https://www.overleaf.com/read/hcwwdfxvftfp) - Yusuf M Motara (PDF)
-* [Programming Language Concepts for Software Developers](https://archive.org/details/B-001-003-622)
-* [Domain modeling with types](https://blog.ploeh.dk/2016/11/28/easy-domain-modelling-with-types/) [Video](https://vimeo.com/97507575)
-
-### Areas of use
+#### Areas of use
 [Cloud](https://fsharp.org/guides/cloud/): Cloud and SOA are places where F# has made some strong plays. | [Azure functions](https://blog.tamizhvendan.in/blog/2016/09/19/scale-up-azure-functions-in-f-number-using-suave/) | [Fog](https://github.com/dmohl/Fog) for creating Azure apps
 
 [Web](https://fsharp.org/guides/web): There's a collection of different web frameworks for F#. Some are more recent than others.
@@ -37,8 +23,6 @@ F# was originally a CLR-based variant of [OCaml](../ocaml). Since F# 3.0, it has
 * [Fable](../fable): A compiler powered by Babel designed to make F# a first-class citizen of the JavaScript ecosystem. See [The Elmish Book](https://zaid-ajaj.github.io/the-elmish-book/#/) for a practical guide on using Fable.
 
 [Mobile](https://fsharp.org/guides/mobile-apps): Most of this centers around Xamarin; lots of the links on the F#.org site are old (2013-era).
-
-* [.NET 6.0 mobile templates](https://github.com/fabulousfx/net6.0-mobile-fsharp)
 
 [Enterprise](https://fsharp.org/guides/enterprise): Mostly links about why F# is good in enterprise development. A few nuggets of goodness mixed in. [Domain Modeling and DDD in F#](http://fsharpforfunandprofit.com/ddd/), [Domain-Driven Design (DDD) With F# and EventStore](http://gorodinski.com/blog/2013/02/17/domain-driven-design-with-fsharp-and-eventstore/). 
 
@@ -60,6 +44,17 @@ Games:
 ---
 
 [Donald](https://github.com/pimbrouwers/Donald): A succinct F# DSL for ADO.NET.
+
+[F# For Fun and Profit](https://fsharpforfunandprofit.com/) articles:
+
+* [Parsing command-line arguments](https://fsharpforfunandprofit.com/posts/pattern-matching-command-line/)
+* [Domain-Driven Design](https://fsharpforfunandprofit.com/ddd/)
+* [Functional Programming Patterns](https://fsharpforfunandprofit.com/fppatterns/)
+* [O-O Patterns from a Functional Perspective](http://gorodinski.com/blog/2013/09/18/oop-patterns-from-a-functional-perspective/)
+
+[F# for Component Design Guidelines](https://fsharp.org/specs/component-design-guidelines/fsharp-design-guidelines-v14.pdf) | [Functional Design Patterns](https://www.slideshare.net/ScottWlaschin/fp-patterns-buildstufflt) | [Continuation Passing](http://www.fssnip.net/Z) | [F# and Design Patterns for C# Developers](https://www.microsoftpressstore.com/articles/article.aspx?p=2224057&seqNum=2)
+
+[Domain modeling with types](https://blog.ploeh.dk/2016/11/28/easy-domain-modelling-with-types/) [Video](https://vimeo.com/97507575)
 
 Some fuzzy logic examples:
 
