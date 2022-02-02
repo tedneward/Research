@@ -101,7 +101,7 @@ This chapter provides a box of tools for managing change, both from the abstract
 
         A stock outside of a diagram's scope will be represented as a cloud, indicating that something complex happened there that we're not currently exploring. It's best practice to label every flow; keep in mind that *every flow is a rate, and every stock is a quantity*.
 
-        *(TODO: #2 Need to find Emil's link to the description of systems thinking and capture that somewhere)*
+        *(See [Dancoland](https://alexdanco.com/2021/08/21/dancoland/) and the Backpack of Knowledge)*
 
     * Developer velocity. *Accelerate: The Science of Lean Software and DevOp* suggests four measures of developer velocity:
 
@@ -127,13 +127,25 @@ This chapter provides a box of tools for managing change, both from the abstract
 
     * Model away. Once you start thinking about systems, it's hard to stop; pretty much any difficult problem is worth trying to represent as a system. Tools: Stella (gold standard but expensive), Insight Maker (quirky by donation-based payment).
 
-* **Product management: exploration, selection, validation**
+* **Product management: exploration, selection, validation** Product management is an iterative elimination tournament, with each round consisting of _problem discovery_, _problem selection_, and _solution validation_.
 
+    * Problem Discovery: Taking the time to evaluate which problem to solve is one of the best predictors of a team's long-term performance. Themes of analysis include _users pain_, _users purpose_, _benchmarking_, _competitive advantages_, _competitive moats_, and _compounding leverage_.
+        
+        * Moats represent a sustaining competitive advantage, which makes it possible for you to pursue offerings that others simply cannot.
 
+        * Identify tasks that don't seem important enough to prioritize, but whose compounding value makes the work possible to prioritize.
 
-* Visions and strategies
+    * Problem selection: To curate a problem portfolio, consider _what's needed to survive this round, the next round, and to win a round_, _different time frames_, _industry trends_, and _return on investment_. Disagreement about what to work on is often rooted in different assumptions about what time frame to optimize for. Usually people under-prioritize quick, easy wins.
 
-* Metrics and baselines
+    * Solution validation: Effective techniques include _writing a customer letter_, _identifying prior art_, _finding first users_, _experimenting_, _building cheaply_, and _ensuring low switching costs_. Prefer experimentation over analysis, as it's far easier to get good at cheaply validating than it is to get great at always picking the right solution.
+
+* Visions and strategies: Strategies are grounded documents that explain trade-offs and actions to address a specific challenge. Visions are aspirational documents that enable individuals who don't work closely together to make decisions that fit together cleanly.
+
+    * Strategy: An effective structure for good strategy has three sections: _diagnosis_, _policies_, and _actions_.The diagnosis describes the challenge, calling out the factors and constraints that define it. It is a very thorough problem statement. Policies describe the general approach you'll take to address the challenge. Bad guiding policies entrench the status quo, and good ones take a clear stance on competing goals. Actions are the steps to implement policies. Good actions make you feel both uncomfortable and hopeful, while bad actions shirk changing anything.
+
+    * Vision: An effective vision helps people think beyond the constraints of their local maxima, and lightly aligns progress without tight centralized coordination. A good vision defines a _vision statement_, _value proposition_, _capabilities_, _solved constraints_, _future constraints_, _reference materials_, and a _narrative_. The _vision_statement_ is a one- or two-sentence aspirational statement to summarize the rest of the document. The _value proposition_ defines how you will be valuable to your users and to your company, and what kinds of success you will enable them to achieve. The _solved constraints_ explain what you're limited by today but will no longer be constrained by in the future. The _narrative_ is a one-page summary of everything that is easy to digest. This typically immediately follows the vision statement. A vision is succeeding when people reference it to make their own decisions, and is struggling when decisions keep happening that don't fit its direction.Have one vision for every distinct area. Having two articulated visions in one place is worse than having zero.
+
+* Metrics and baselines: Good goals are a composition of four specific kinds of numbers: A _target_ states where you want to reach; a _baseline_ indicates where you are today; a _trend_ defines the current velocity; a _time frame_ sets bounds for the change. Investments describe a future state that you want to reach, and baselines describe aspects of the present that you want to preserve. Baseline metrics are useful for narrowing the solution space that you explore in order to accomplish your investment goals. Specify as few investment goals as possible, maybe three, and focus discussion on those. You should identify more baseline goals.
 
 * Guilding broad organizational change
 
@@ -181,72 +193,8 @@ This chapter provides a box of tools for managing change, both from the abstract
 
 ### Chapter 3: Tools
 
-#### 3.1: Introduction to systems thinking
-
-##### 3.1.1: Stocks and flows
-
-* pg 62: An accumulation of changes, such as the number of trained managers in your company, is called a stock. They are the memory of changes over time.
-* pg 62: A change to a stock is called a flow, and each flow is either an inflow or an outflow.
-
-#### 3.2: Product management: exploration, selection, validation
-
-* pg 65: Product management is an iterative elimination tournament, with each round consisting of _problem discovery_, _problem selection_, and _solution validation_.
-
-##### 3.2.1: Problem discovery
-
-* pg 66: Taking the time to evaluate which problem to solve is one of the best predictors of a team's long-term performance.
-* pg 66: Themes of analysis include _users pain_, _users purpose_, _benchmarking_, _competitive advantages_, _competitive moats_, and _compounding leverage_.
-  * pg 66: Moats represent a sustaining competitive advantage, which makes it possible for you to pursue offerings that others simply cannot.
-  * pg 67: Identify tasks that don't seem important enough to prioritize, but whose compounding value makes the work possible to prioritize.
-
-##### 3.2.2: Problem selection
-
-* pg 67: To curate a problem portfolio, consider _what's needed to survive this round, the next round, and to win a round_, _different time frames_, _industry trends_, and _return on investment_.
-  * pg 68: Disagreement about what to work on is often rooted in different assumptions about what time frame to optimize for.
-  * pg 68: Usually people under-prioritize quick, easy wins.
-
-##### 3.2.3: Solution validation
-
-* pg 68: Effective techniques include _writing a customer letter_, _identifying prior art_, _finding first users_, _experimenting_, _building cheaply_, and _ensuring low switching costs_.
-  * pg 69: Prefer experimentation over analysis, as it's far easier to get good at cheaply validating than it is to get great at always picking the right solution.
-
-#### 3.3: Visions and strategies
-
-##### 3.3.1: Strategies and visions:
-
-* pg 70: Strategies are grounded documents that explain trade-offs and actions to address a specific challenge.
-* pg 70: Visions are aspirational documents that enable individuals who don't work closely together to make decisions that fit together cleanly.
-
-##### 3.3.2: Strategy
-
-* pg 71: An effective structure for good strategy has three sections: _diagnosis_, _policies_, and _actions_.
-* pg 71: The diagnosis describes the challenge, calling out the factors and constraints that define it. It is a very thorough problem statement.
-* pg 72: Policies describe the general approach you'll take to address the challenge. Bad guiding policies entrench the status quo, and good ones take a clear stance on competing goals.
-* pg 72: Actions are the steps to implement policies. Good actions make you feel both uncomfortable and hopeful, while bad actions shirk changing anything.
-
-##### 3.3.3: Vision
-
-* pg 73: An effective vision helps people think beyond the constraints of their local maxima, and lightly aligns progress without tight centralized coordination.
-* pg 73: A good vision defines a _vision statement_, _value proposition_, _capabilities_, _solved constraints_, _future constraints_, _reference materials_, and a _narrative_.
-  * pg 73: The _vision_statement_ is a one- or two-sentence aspirational statement to summarize the rest of the document.
-  * pg 73: The _value proposition_ defines how you will be valuable to your users and to your company, and what kinds of success you will enable them to achieve.
-  * pg 74: The _solved constraints_ explain what you're limited by today but will no longer be constrained by in the future.
-  * pg 74: The _narrative_ is a one-page summary of everything that is easy to digest. This typically immediately follows the vision statement.
-* pg 74: A vision is succeeding when people reference it to make their own decisions, and is struggling when decisions keep happening that don't fit its direction.
-* pg 75: Have one vision for every distinct area. Having two articulated visions in one place is worse than having zero.
-
 #### 3.4: Metrics and baselines
 
-* pg 76: Defining goals – good goals are a composition of four specific kinds of numbers
-  * pg 76: A _target_ states where you want to reach.
-  * pg 76: A _baseline_ indicates where you are today.
-  * pg 76: A _trend_ defines the current velocity.
-  * pg 76: A _time frame_ sets bounds for the change.
-* pg 76: Investments and baselines
-  * pg 76: Investments describe a future state that you want to reach, and baselines describe aspects of the present that you want to preserve.
-  * pg 77: Baseline metrics are useful for narrowing the solution space that you explore in order to accomplish your investment goals.
-* pg 77: Plans and contracts
-  * Specify as few investment goals as possible, maybe three, and focus discussion on those. You should identify more baseline goals.
 
 #### 3.5: Guiding broad organizational change with metrics
 
