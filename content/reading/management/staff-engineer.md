@@ -291,7 +291,7 @@ summary=Not everyone needs to be the boss.
 
 #### Stay aligned with authority
 
-* Retaining organizational authority depends on remaining deeply aligned with a bestowing sponsor – generally your direct manager.
+* Retaining organizational authority depends on remaining deeply aligned with a bestowing sponsor – generally your direct manager.
 
 ##### Beyond the safety net
 

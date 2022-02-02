@@ -3,7 +3,7 @@ tags=reading, management, organizational design
 summary=Organizing business and technology teams for fast flow.
 ~~~~~~
 
-*(by Skelton, Pais; ISBN 978-1942788812)* [Infographic](../TeamTopologies.pdf) ([Source](https://yoan-thirion.gitbook.io/knowledge-base/xtrem-reading/resources/book-notes/team-topologies))
+*(by Skelton, Pais; ISBN 978-1942788812)* [Infographic](../TeamTopologiesInfographic.pdf) ([Source](https://yoan-thirion.gitbook.io/knowledge-base/xtrem-reading/resources/book-notes/team-topologies))
 
 Summary:
 
@@ -23,8 +23,9 @@ Team interactions need to evolve over time to support the distinct phases of dis
 
 (This book) is not a universal formula for building and running software systems successfully. (This book) is meant to provide clear patterns. *(Orchestra/band analogy; these patterns are "printed music".)*
 
-Four team types, three interaction modes
-![](../TeamTopologiesTeamStructures.png)
+Four team types, three interaction modes:
+
+![](../TeamTopologiesTeamStructuresTeamTopologiesTeamStructures.png)
 
 ***Key Influences that Informed This Book***
 First, we assume that an organization is a sociotechnical system or ecosystem that is shaped by the interaction of individuals and the teams within it; in other words, that an organization is the interaction between people and technology. In this aspect, the book fits with ideas from the fields of cybernetics, system thinking, and approaches such as the Cynefin framework for assessing domain complexity. *(From HBR 2007, ["A Leader's Framework for Decision Making"](https://hbr.org/2007/11/a-leaders-framework-for-decision-making))*
