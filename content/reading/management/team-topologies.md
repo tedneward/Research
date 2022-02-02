@@ -3,7 +3,7 @@ tags=reading, management, organizational design
 summary=Organizing business and technology teams for fast flow.
 ~~~~~~
 
-*(by Skelton, Pais; ISBN 978-1942788812)* [Infographic](../TeamTopologies.pdf) ([Source](https://yoan-thirion.gitbook.io/knowledge-base/xtrem-reading/resources/book-notes/team-topologies))
+*(by Skelton, Pais; ISBN 978-1942788812)* [Infographic](../TeamTopologiesInfographic.pdf) ([Source](https://yoan-thirion.gitbook.io/knowledge-base/xtrem-reading/resources/book-notes/team-topologies))
 
 Summary:
 
