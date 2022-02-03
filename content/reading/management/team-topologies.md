@@ -11,7 +11,9 @@ Summary:
 
 * Minimise Extraneous Team Cognitive Load so that teams can focus on the work that really matters.
 
-* The four-team topologies, interaction modes ![](../TeamTopologiesTeamStructures.png) and effective software boundaries will help improve the flow of value.
+* The four-team topologies, interaction modes and effective software boundaries will help improve the flow of value.
+
+    ![](/reading/management/TeamTopologiesTeamStructures.png)
 
 # Preface
 
@@ -205,6 +207,27 @@ Some reorgs aim to reduce staff or create fiefdoms for managers/leaders. Organiz
 
 # Chapter 3 - Team-First Thinking
 
+Driskell and Salas found that teams working as a cohesive unit perform far better than collections of individuals for knowledge-rich, problem-solving tasks that require high amounts of information. Even the US Army has adopted the team as the fundamental unit of operation: McChrystal notes that the best-performing teams "accomplish remarkable feats not simply because of the individual qualifications of their members but because those members coalesce intoa single organism."
+
+There are multiple aspects to consider around teams as the unit for effective software delivery:
+
+## Use Small, Long-Lived Teams as the Standard
+
+### Smaller Size Fosters Trust
+
+Dunbar's numbers: 5, 15, 50, 150
+
+* 5: limit of people with whom we can hold close personal relationships and working memory
+* 15: limit of peopel with whom we can experience deep trust
+* 50: limit of people with whom we can have mutual trust
+* 150: limit of people whose capabilities we can remember
+
+Orgs can be composed from Dunbar-compatible groupings of these sizes; when a limit is reached, split off another unit as a semi-independent grouping
+
+
+
+### 
+
 # Part II: Team Topologies that Work for Flow
 
 Chapter 4
@@ -245,3 +268,4 @@ Chapter 9
 * Accelerate: The Science of DevOps (Nicole Ferguson, Jez Humble, Gene Kim)
 * The Modern Firm (John Roberts)
 * The Principles of Product Development Flow (Don Reinertsen)
+* Team of Teams (Gen Stanley McChrystal)
