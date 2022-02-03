@@ -183,7 +183,25 @@ Sometimes two+ teams feel the need to communicate b/c the code for their parts o
 
 If the org has an expectation that everyone needs to communicate with everyone to accomplish something, we have an org design problem; Conway's Law suggests that this kind of many-to-many communication will produce monolithic, tangled, highly-coupled, interdependent systems that do not support fast flow.
 
+## Beware: Naive uses of Conway's Law
 
+There's a couple ways to misinterpret Conway's Law and have the opposite of the desired effect.
+
+### Tool Choices Drive Communication Patterns
+
+The way in which teams use software communication tools can have a strong influence on comm patterns. A common problem in orgs is a mismatch between the responsibility boundaries for teams/departments and those for tools. Sometimes an org has multiple tools when a single one (providing a common, shared view) should be used; other times, a single tool is used when teams need separation. When responsibility boundaries between two teams do not overlap (teams without much need to collaborate), we will not get much value from insisting on the same tool. Have separate tools for independent teams, and use shared tools for collaborative teams.
+
+> TIP: **Make information visible while keeping security in place.** Don't give team members access to prod; ship the data they need to a less-sensitive location. Make sure that data still remains secure, though.
+
+Don't select a single tool for the whole org without considering team inter-relationships first. Have separate tools for independent teams; use shared tools for collaborative teams.
+
+### Many Different Component Teams
+
+Component teams--better called complicated-subsystem teams--are only needed for exceptional cases; we need to optimize for fast flow, so stream-aligned teams are preferred.
+
+### Repeated Reorganizations that Create Fiefdoms or Reduce Headcount
+
+Some reorgs aim to reduce staff or create fiefdoms for managers/leaders. Organizing along Conway's Law is mutually exclusive to that kind of reorg. With software and "product" companies, structure should anticipate product architecture. Combined with a team-first approach, regular reorganizations for management reasons should become a thing of the past.
 
 # Chapter 3 - Team-First Thinking
 
