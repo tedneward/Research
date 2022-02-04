@@ -105,7 +105,7 @@ summary=Collection of thoughts/essays/etc on managing people.
 
 * [People don't work as much as you think](https://drmaciver.substack.com/p/people-dont-work-as-much-as-you-think)
 
-* [A fractal of lies](https://drmaciver.substack.com/p/a-fractal-of-lies): House was right: everybody lies. (More to the point, studies are often built off of interviews and interrogation, and people have a habit of telling interviewers not-entirely-truthful things for a variety of reasons.) "Whenever there is an advantage, or a power gradient, or a political agenda, or people just want to fuck with you for their own amusement, probably there are lies. And then people repeat those lies - sometimes purely innocently, sometimes adding their own lies on top." 
+* [A fractal of lies](https://drmaciver.substack.com/p/a-fractal-of-lies): Dr House was right: everybody lies. (More to the point, studies are often built off of interviews and interrogation, and people have a habit of telling interviewers not-entirely-truthful things for a variety of reasons.) "Whenever there is an advantage, or a power gradient, or a political agenda, or people just want to fuck with you for their own amusement, probably there are lies. And then people repeat those lies - sometimes purely innocently, sometimes adding their own lies on top."
 
 * [Twitter thread: "Here are 12 things your manager may not be telling you, but I know for a fact will help you."](https://twitter.com/LBacaj/status/1478241311392108545):
 
