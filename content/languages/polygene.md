@@ -320,20 +320,27 @@ If Entities should implement roles, via mixins, in order to interact with each o
 
 This leads us to this typical implementation of an Entity
 
+```
 @Mixins( SomeMixin.class )
 interface MyEntity extends Some, Other, HasIdentity {}
+```
+
 where Some and Other are role interfaces defined by one or more algorithms. SomeMixin is the implementation of the Some interface. There is NO interface that is defined by the author of MyEntity. Algorithms first, objects second!
 
 The state needed for these mixins would then be put into separate interfaces, referred to by using the @This injection in the mixins.
 
+```
 interface SomeState
 {
     Property<String> someProperty();
 }
+```
+
 These interfaces will pretty much ONLY contain state declarations. There might be some methods in there, but I can’t see right now what they would be.
 
 In order to be able to get an overview of all the state being implemented by the Entity we introduce a "superstate" interface:
 
+```
 interface MyState extends SomeState, OtherState //, ...
 {}
 This lets us see the totality of all the state that the Entity has, and can be used in the builder phase:
@@ -344,6 +351,8 @@ MyState state = builder.instanceFor(MyState.class);
 //... init state ...
  
 MyEntity instance = builder.newInstance();
+```
+
 This lets us divide our Entity into two parts: the internal state and the external roles of the domain that the object takes part in. Due to the support for private mixins the state is not unnecessarily exposed, and the mixin support in general allow our role-oriented approach to modeling. The role interfaces are strongly reusable, the mixins are generally reusable, and the state interfaces are usually reusable. This minimizes the need for us to go into the mixin code and read it. If we have read the mixin code once, and the same mixin is reused between objects, then this makes it easier for us to understand it the next time we see it being used in another algorithm.
 
 To summarize thus far, we have looked at why OOP so far has not worked out, why this is the case, and how COP deals with it, and how we can implement a better solution of Entities using Polygene™. All is well!
@@ -354,6 +363,7 @@ Algorithms, then, should(/could?) be modeled using services. If an algorithm nee
 
 In a "Getting Things Done" domain model, with Projects and Actions, you might then have an algorithm like so for task delegation:
 
+```
 void delegate(TaskExecutor from, Completable completable, TaskExecutor to)
 {
    to.inbox().createTask( createDelegatedTask( completable ) );
@@ -362,6 +372,8 @@ void delegate(TaskExecutor from, Completable completable, TaskExecutor to)
  
    from.inbox().createTask( createWaitingTask( completable ) );
 }
+```
+
 In the above I don’t know if "from" and "to" are human users or systems that automatically execute tasks. I also don’t know if Completable is an entire Project or a single Action. From the point of view of the algorithm I don’t need to know! All the algorithm cares about is that the roles it needs are fulfilled somehow. This means that I will be able to extend my domain model later on, and have it be a part of these kinds of algorithms, without having to change my algorithms. And as long as my composites implement the role interfaces, such as TaskExecutor and Completable, they can participate in many different algorithms that use these as a way to interact with the domain objects.
 
 This shows the place of services, as points of contact between objects in a domain model, or more generally, "interactions". These will change often, and will increase in number as the system grows, so it is important that they are easy to read, and that they are easy to participate in. With a focus on roles, rather than classes, this becomes much easier to accomplish!
