@@ -1,20 +1,19 @@
 title=Apache Polygene
 tags=language, jvm
-summary=(Retired) 
+summary=(Retired) Composite Oriented Programming implementation.
 ~~~~~~
 
 [Website](http://polygene.apache.org/)
 
 # Highlights
-Highlights
-Principles
-Composite Oriented Programming builds on some principles that are not addressed by Object Oriented Programming at all.
+Principles: Composite Oriented Programming builds on some principles that are not addressed by Object Oriented Programming at all.
 
-Behavior depends on Context
-Decoupling is a virtue
-Business Rules matters more.
-Classes are dead, long live interfaces.
-Behavior Depends on Context
+* Behavior depends on Context
+* Decoupling is a virtue
+* Business Rules matters more.
+* Classes are dead, long live interfaces.
+* Behavior Depends on Context
+
 Many objects has life cycles that are more extensive than the simple model that Object Oriented Programming model wants us to believe. A few simple examples;
 
 An egg becomes a chicken which in turn becomes food.
@@ -29,21 +28,20 @@ Some objects traverses different scope boundaries to the extreme. For instance, 
 
 We think that one of the the main flaws in OOP is that it is not object oriented at all, but in fact class oriented. Class is the first class citizen that objects are derived from. Not objects being the first-class citizen to which one or many classes are assigned.
 
-Decoupling is Virtue
+### Decoupling is Virtue
 Decoupling is more important than developers in general think. If you could have every OOP class decoupled from all other classes, it is easy to re-use that class. But when that class references another class and the chain never ends, your chances of re-use diminishes quickly.
 
 Object Oriented Programming is suffering a lot from this, and many mechanisms have been introduced over time to counter this problem. But in reality, the best we can manage is subsystems of functionality, which client code can re-use. And these subsystems tend to be infrastructure related, since domain models are less prone to be similar enough from one project to the next, and since OOP in reality constrains the the re-use of individual domain classes, we need to re-do the domain model from scratch ever time.
 
-Business Rules matters more
+### Business Rules matters more
 Smart developers often think that low-level, infrastructure and framework code is more important and more cool to work with, than the simple domain model. But in reality, it is the Domain Model that reflects the actual need and pays the bills. Infrastructure is just a necessary evil to get things done.
 
 If most developers could focus on the Business Rules and Domain Model, and not having to worry about any infrastructure issues, such as persistence, transactions, security or the framework housing it all, the productivity would surge. Eric Evans has written an excellent book about Domain Driven Design, where he goes through the real process that makes the money for companies. However, it is very hard to follow that book, since one is constantly caught up in constraints irrelevant to the domain model, introduced by the underlying framework, from the so called smart developers.
 
-# Background
-Background
+## Background
 Polygene™ is the first Composite Oriented Programming implementation leveraging the Java 5 platform, so that everything you know from Java 5 still applies. You can mix Polygene™ with your ordinary Java code as much as you want. All your existing Java tools works just like before, and Polygene™ does not introduce any new programming language, no special development tools needed and no XML is required.
 
-Purpose
+## Purpose
 Polygene™ addresses the programming problems from the top-down, starting with the Domain Model and Business Rules needs, and let those requirements flow downwards in the software stack and dictate the requirements for underlying layers such as persistence, messaging, querying and more. This means that the business value developer is left to concentrate on the domain models and the actual application bringing the value, instead of creating massive amounts of glue code to tie underlying technologies together.
 
 Problem Descriptions
@@ -54,43 +52,43 @@ How can OOP be a problem? We and others have observed that there is a fundamenta
 
 This in turn leads to that there is no good OOP solution for the problem we describe below.
 
-Behavior depends on Context
+### Behavior depends on Context
 Once you start thinking of "Behavior depends on Context", you have a hard time understanding how people for the last 20 years or so of Object Oriented Programming (OOP) has ignored this fact.
 
-Who am I?
+#### Who am I?
 When I sitting in front of the computer, I am a software developer, but if I go out in the jungle, I am suddenly hunter-gatherer and prey. A large set of me is the same, but my interaction with the surroundings, i.e. the context, is very different. I need different interfaces, so to speak, in these two different contexts.
 
 Now, the above example is perhaps a bit extreme, but we see it in everyday life of the developer. When an object is stored in the database it is of a different class, than when it is transported to the client and possibly when it is displayed in the GUI. We see the effect of this problem in many of the design patterns and so called "best practices" in Java EE development. Facades, delegation, data transport objects and many more.
 
-Coupling
+#### Coupling
 The OOP proponents once proclaimed that classes can be re-used, since the code is encapsulated with the class, so the class is an independent unit which lends itself well to re-use. In reality, however, we have found that classes becomes tightly coupled with many other classes in their neighborhood, leading to impossibilities of single class re-use. Many tricks are introduced to minimize the "Coupling Hell", such as Inversion of Control and Dependency Injection. Although those tools are good, the underlying problem remains.
 
 Why do we end up with large coupled class network graphs?
 
 Essentially, it boils down to "scope". Classes are too large, their scope is too large, and for each small functional unit within the class, there will be additional coupling to other classes. And this often progresses to the full boundary of the entire domain the class remains in.
 
-Application layer impedance mismatch
+#### Application layer impedance mismatch
 Almost all technologies used in modern software development, starts by looking at an infrastructural problem and try to solve that the best way. This is often done in a vacuum and layers on top will be struggling to map or translate the solution into the higher abstraction, and the higher up we get, the harder it becomes to ignore the assumptions, problems and limitations of the underlying technologies. It is also common that the underlying technologies "bleeds" through the layers all the way into the domain models. The "bleed" combined with the problem of using independently developed technologies, puts a large burden on the application developer, whose job it is to bring business value. And often, the most skilled developers end up doing the bottom layers, leaving the hardest job to the least suitable. Another interesting consequence is that each layer needs to anticipate every single use-case - real, potential or perceived - and deal with it in a specifiable and useful manner. This leads to overly complex solutions, compared to if the system is built from the top layer down, where each layer beneath knows exactly what is expected from it, and only needs to handle those use-cases.
 
-Abstracting away meaning.
+#### Abstracting away meaning.
 To paraphrase a famous proverb about a hammer: "If all you have are objects, everything looks like a dependency." We think that increasing abstraction often also increases complexity, and that the abstraction benefits are somewhat linear whereas the complexity negatives are exponential. So, our conclusion is that by making no distinction between different kinds of objects, many sound technologies run into incredibly difficult problems. The implementation of the programming platform (e.g. Java) is of course easier to implement with a hefty amount of scope reduction into as few as possible abstractions. But that is not the situation for the user. The abstraction is then required to be reversed when the rubber hits the road, e.g. ORM mapping must be declared explicitly by the programmer, often using separate tools and languages.
 
-Solution
+### Solution
 We think the solution was expressed more than 2500 years ago, first by Indian scholars and slightly later by Leucippus and Democritus. We are of course talking about atoms, and by using really small building blocks, we can express arbitrarily complex structures. By reducing the classes into what we in Composite Oriented Programming call Fragments, we limit the coupling network graph substantially. Re-use of Fragments becomes a reality, and by combination of Fragments, we compose larger structures, the Composites.
 
-Composition
+#### Composition
 Composite Oriented Programming also view the object, we call it the Composite instance, as the first class citizen. The Composite instance can be cast to any context, meaning a different behavior can be applied to the Composite instance, without affecting its underlying state. And back. This in turn means that we can for instance create a ServerContextualInvoiceEntity, transport that across to a client, cast it to a GuiContextualInvoiceEntity do the modifications to the underlying state, possibly using extra interfaces and methods for interacting with the GUI environment, and then transport the modified object back to the server, cast it back to the ServerContextualInvoiceEntity, and then persist the changes.
 
-Domain Driven Design focus
+#### Domain Driven Design focus
 Composite Oriented Programming is heavily influenced by the book "Domain Driven Design" by Eric Evans. And we are trying to use his analysis of the problem to provide the mechanisms needed to get the job done quicker and more reliably. Mr Evans talks about Applications, Layers, Modules, Specifications, SideEffects and so forth, and all of these should be present in a Composite Oriented Programming implementation, and to a large extent it is in Polygene™.
 
 # Composite-Oriented Programming (COP)
 I’ve written a series of post on AOP lately ([here](https://web.archive.org/web/20090417052136/http://www.iridescence.no/post/Aspect-Oriented-Programming---A-Primer.aspx), [here](https://web.archive.org/web/20091222150653/http://www.iridescence.no/post/Implementing-an-AOP-Framework-Part-1.aspx) and [here](https://web.archive.org/web/20130417090819/http://www.iridescence.no/post/Implementing-an-AOP-Framework-Part-2.aspx)), and in the last part I promised to tackle mixins and introductions in a future post. When I was doing my research for just that, I came cross a Java framework (just humor me :p) called Apache Polygene™, written by Swedish Richard Öberg, pioneering the idea of Composite Oriented Programming, which instantly put a spell on me. Essentially, it takes the concepts from Aspect Oriented Programming to the extreme, and for the past week I’ve dug into it with a passion. This post is the first fruits of my labor.
 
-OOP is Not Object Oriented!
+### OOP is Not Object Oriented!
 One of the things that Richard Öberg argues, is that OOP is not really object oriented at all, but rather class oriented. As the Polygene™ website proclaims, "class is the first class citizen that objects are derived from. Not objects being the first-class citizen to which one or many classes are assigned". Composite oriented programming (COP) then, tries to work around this limitation by building on a set of core principles; that behavior depends on context, that decoupling is a virtue, and that business rules matter more. For a short and abstract explanation of COP, see this page. In the rest of this post I’ll try and explain some of its easily graspable benefits through a set of code examples, and then in a future post we’ll look at how I’ve morphed the AOP framework I started developing in the previous posts in this series into a lightweight COP framework that can actually make it compile and run.
 
-Lead by Example
+### Lead by Example
 Lets pause for a short aside: obviously the examples presented here are going to be architectured beyond any rational sense, but the interesting part lies in seeing the bigger picture; imagine the principles presented here applied on a much larger scale and I’m sure you can see the benefits quite clearly when we reach the end.
 
 Imagine that we have a class Division, which knows how to divide one number by another:
