@@ -58,7 +58,7 @@ Chapter 3
 * Establish clear boundaries of responsibility for teens.
 * Change the team working environment to help teams succeed.
 
-# Chapter 1 - The Problem with Org Charts
+## Chapter 1 - The Problem with Org Charts
 
 Tech teams build software, software runs the world, and building software is a team activity. Despite this, many orgs are organizing their teams in counterproductive ways. Good news is that it is possible to be fast and safe with the right mindset and with tools that emphasize adaptability and repeatability, while putting teams and people at the center. *We must shift our thinking from treating teams as collections of commodity people following "correct" processes using "right" tools, to treating people and technology as a single human/computer carbon/silicon sociotechnical ecosystem.*
 
@@ -133,7 +133,7 @@ We hardly ever discuss cognitive load when assigning responsibilities or softwar
 
 Team Topologies approach advocates for org design that optimizes for *flow of change* and feedback from running systems. This requires restricting cognitive load on teams and explicitly designing the intercommunications between them to help produce the software-systems architecture that we need.
 
-# Chapter 2 - Conway’s Law and Why It Matters
+## Chapter 2 - Conway’s Law and Why It Matters
 
 *(Chapter opens by offering up some examples and citations as proof of the veracity of Conway's Law)*
 
@@ -205,15 +205,15 @@ Component teams--better called complicated-subsystem teams--are only needed for 
 
 Some reorgs aim to reduce staff or create fiefdoms for managers/leaders. Organizing along Conway's Law is mutually exclusive to that kind of reorg. With software and "product" companies, structure should anticipate product architecture. Combined with a team-first approach, regular reorganizations for management reasons should become a thing of the past.
 
-# Chapter 3 - Team-First Thinking
+## Chapter 3 - Team-First Thinking
 
 Driskell and Salas found that teams working as a cohesive unit perform far better than collections of individuals for knowledge-rich, problem-solving tasks that require high amounts of information. Even the US Army has adopted the team as the fundamental unit of operation: McChrystal notes that the best-performing teams "accomplish remarkable feats not simply because of the individual qualifications of their members but because those members coalesce intoa single organism."
 
 There are multiple aspects to consider around teams as the unit for effective software delivery:
 
-## Use Small, Long-Lived Teams as the Standard
+### Use Small, Long-Lived Teams as the Standard
 
-### Smaller Size Fosters Trust
+#### Smaller Size Fosters Trust
 
 Dunbar's numbers: 5, 15, 50, 150
 
@@ -222,9 +222,45 @@ Dunbar's numbers: 5, 15, 50, 150
 * 50: limit of people with whom we can have mutual trust
 * 150: limit of people whose capabilities we can remember
 
+Teams are "stable group of 5 to 9 who work towards a shared goal as a unit. Forming a team takes from 2 weeks to 3 months. Stable teams, not static. In high trust orgs, it is ok to change teams once a year. In a typical org, 2 years.
+
 Orgs can be composed from Dunbar-compatible groupings of these sizes; when a limit is reached, split off another unit as a semi-independent grouping
 
+Every part of the SW system needs to be owned by exactly one team. Team members need a team first mindset: Put the needs of the team above your own. Embrace diversity. Reward the whole team, not individuals. Assign training budgets to the whole team and let them decide.
 
+3 Types of cognitive load (the total amount of mental effort being used in the working memory (John Sweller)):
+
+* Intrinsic: Fundamentals of the problem space. Example: programming language.
+* Extraneous: Environment related. Example: how to deploy.
+* Germane: Special attention is required. Value adding. Example: business domain.
+
+Minimize intrinsic, eliminate extraneous to leave room for germane. To measure cognitive load, ask the team: Do you feel like you are effective and able to respond in a timely fashion to the work you are asked to do?
+
+Heuristics; 3 types of domain:
+
+* Simple.
+* Complicated.
+* Complex.
+
+Each domain to one team. If domain is too big, split into subdomains. One team, either: 2-3 simple domains; 1 complex domain. Avoid 2 complicated domains, better split the team.
+
+Define a Team API:
+
+* Code: endpoints, libraries, clients, …
+* Versioning.
+* Documentation.
+* Practices and principles.
+* Communication tools.
+* Work information: what is working on now, next and future.
+* Consider the Team API for usability point of other teams.
+
+Provide team, space, and money for guilds and communities of practice.
+
+Design Physical and Virtual environment for:
+
+* Focused individual work.
+* Collaborative intra-team.
+* Collaborative inter-team.
 
 ### 
 
@@ -236,11 +272,11 @@ Chapter 5
 
 Chapter 6
 
-# Chapter 4 - Static Team Topologies
+## Chapter 4 - Static Team Topologies
 
-# Chapter 5 - The Four Fundamental Team Topologies
+## Chapter 5 - The Four Fundamental Team Topologies
 
-# Chapter 6 - Choose Team-First Boundaries
+## Chapter 6 - Choose Team-First Boundaries
 
 # Part III: Evolving Team Interactions for Innovation and Rapid Delivery
 
@@ -250,11 +286,11 @@ Chapter 8
 
 Chapter 9
 
-# Chapter 7 - Team Interaction Modes
+## Chapter 7 - Team Interaction Modes
 
-# Chapter 8 - Evolve Team Structures with Organizational Sensing
+## Chapter 8 - Evolve Team Structures with Organizational Sensing
 
-# Chapter 9 - Conclusion
+## Chapter 9 - Conclusion
 
 # Bibliography
 

@@ -3,6 +3,10 @@ tags=reading
 summary=Collection of thoughts.
 ~~~~~~
 
+## References
+
+- [How Team Obama's tech efficiency left Romney IT in dust](https://arstechnica.com/information-technology/2012/11/how-team-obamas-tech-efficiency-left-romney-it-in-dust/)
+
 ["Does DNA have the equivalent of IF-statements, WHILE loops, or function calls? How about GOTO?"](https://biology.stackexchange.com/questions/30116/does-dna-have-the-equivalent-of-if-statements-while-loops-or-function-calls-h): Short answer, sort of:
 
     "Molecular biological processes cannot be directly compared to a computer code. It is the underlying logic that is important and not the statement construct itself and these examples should not be taken as absolute analogies. It is also to be noted that DNA is just a set of instructions and not really a fully functional entity (it is functional to some extent). However, even being just a code it is comparable to a HLL code that has to be compiled to execute its functions. See this post too.
