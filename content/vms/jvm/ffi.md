@@ -32,7 +32,12 @@ Java library for loading native libraries without writing JNI code by hand or us
 
 # BridJ
 
+[Source](https://github.com/nativelibs4java/BridJ)
+
 # Project Panama
+
+[Website (OpenJDK)](http://openjdk.java.net/projects/panama/) 
+
 - Panama: A Foreign Policy for Java
 	- Devoxx 2018; Maurizio Cimadamore
 	- https://www.youtube.com/watch?v=cfxBrYud9KM
