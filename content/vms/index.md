@@ -16,7 +16,11 @@ See http://www.complang.tuwien.ac.at/forth/threaded-code.html for an introductio
 
 ### Stack-based vs Register-based
 
+This is often abstract variations of the register-vs-stack debate that CPUs engage in; generally a VM will either be entirely stack-based (using a virtual stack that may or may not correspond to the real stack), or entirely register-based (though often a stack is still present in a register VM, for other purposes).
+
 ### Garbage collection
+
+Much of this is going to be found in the [reading on memory management](/reading/software/memory-management). VMs typically offer some form of automatic memory management, since they can slightly intervene around raw pointer references and add either additional bookkeeping or indirection or "pointer fixups" to allow for objects to move around in memory w/o programmer awareness/knowledge.
 
 ### Tutorials
 [Creating a VM/Compiler](https://www.youtube.com/watch?v=DUNkdl0Jhgs)
@@ -39,6 +43,9 @@ See http://www.complang.tuwien.ac.at/forth/threaded-code.html for an introductio
 * [node-jvm](https://github.com/YaroslavGaponov/node-jvm): "Java virtual machine in pure node.js"
 * [Sol](https://rsms.me/sol-a-sunny-little-virtual-machine): "A sunny little virtual machine" (register-based VM)
 * [simple.vm](https://github.com/skx/simple.vm): "Simple virtual machine which interprets bytecode"
+* [Wikipedia comparison of virtual machines](https://en.wikipedia.org/wiki/Comparison_of_application_virtualization_software): covers [ART](../art), [CLR](../clr), [Dis](/languages/limbo), [(OpenJDK) JVM](../jvm/openjdk), [JikesRVM](../jvm/jikes), [LLVM](/tools/llvm) (which I don't really think of as a VM), [Mono](../clr/mono), [Parrot](../parrot), [Dalvik](../dalvik), [Squeak](../squeakvm), [BEAM](../beamvm), and [MoarVM](../moarvm). Seems very slanted towards strongly-typed VMs--no Ruby, Python, ECMAScript, Lua, or any other dynamic language VMs. Covers machine model (register vs stack), memory management (auto vs manual), code security, interpreter, JIT, AOT, shared libraries, common language object model, and whether it supports dynamic type checking and RTTI. 
+
+    Breaks out "application virtual machines" into a different chart, and that's where many of the dynamically-typed VMs show up.
 
 ### Reading
 

@@ -5,6 +5,8 @@ summary=A concurrent programming language for the Inferno operating system that 
 
 [Website](http://doc.cat-v.org/inferno/4th_edition/limbo_language/)
 
+Generates a portable object code which is then interpreted by the [Dis virtual machine](/vms/dis).
+
 ### Docs
 - [A Descent into Limbo](http://doc.cat-v.org/inferno/4th_edition/limbo_language/descent) by Brian Kernighan.
 - [The Limbo Programming Language](http://doc.cat-v.org/inferno/4th_edition/limbo_language/limbo) by Dennis M. Ritchie and Addendum by Vita Nuova.
