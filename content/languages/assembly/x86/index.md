@@ -1,4 +1,4 @@
-title=x86 Assembly
+title=x86/x64 Assembly
 tags=language, native, assembly, hardware
 summary=The native assembly language of the Intel x86 family.
 ~~~~~~
@@ -54,6 +54,8 @@ summary=The native assembly language of the Intel x86 family.
 * [Software optimization resources](http://www.agner.org/optimize/) - A. Fog
 * [Wizard Code, A View on Low-Level Programming](https://web.archive.org/web/20170712195930/http://vendu.twodots.nl/files/wizardcode4.pdf) - Tuomo Tuomo Venäläinen (PDF)
 
+## Unfiltered
+
 Assembler relaxation
 http://eli.thegreenplace.net/2013/01/03/assembler-relaxation
 
@@ -97,7 +99,7 @@ http://www.gamasutra.com/view/news/171088/x64_ABI_Intro_to_the_Windows_x64_calli
 Part 2: Stack frames  
 http://www.gamasutra.com/view/news/178446/Indepth_Windows_x64_ABI_Stack_frames.php
 
-# Books
+## Books
 
 - Assembly Language Succinctly
 	- 2014; Christopher Rose
@@ -130,7 +132,7 @@ http://www.gamasutra.com/view/news/178446/Indepth_Windows_x64_ABI_Stack_frames.p
 - [Run Down On x86 Intel Assembly Course](https://github.com/Ret2LC/x86-assembly) - Ret2LC
 - [Zen of Assembly Language: Volume I, Knowledge (1990)](http://www.jagregory.com/abrash-zen-of-asm/) - Michael Abrash
 
-## 32-bit
+### 32-bit
 
 - Programming from the Ground Up Book  
 	- An introduction to programming using Linux assembly language
@@ -142,7 +144,7 @@ http://www.gamasutra.com/view/news/178446/Indepth_Windows_x64_ABI_Stack_frames.p
 	- [Github](http://pacman128.github.io/pcasm/) - P. A. Carter
 	- http://web.archive.org/web/20150815073439/http://www.drpaulcarter.com/pcasm/
 
-# Courses
+## Courses
 
 - In-Depth: C/C++ Low Level Curriculum  
 	- (defunct) http://www.altdevblogaday.com/author/alex-darby/
@@ -170,7 +172,7 @@ Learning assembly for linux-x64
 https://github.com/0xAX/asm
 https://0xax.github.io/categories/assembly/
 
-# Links
+## Links
 
 Assembly Language (x86) Resources
 http://grail.cba.csuohio.edu/~somos/asmx86.html
@@ -178,7 +180,7 @@ http://grail.cba.csuohio.edu/~somos/asmx86.html
 Useful assembly links
 http://www.agner.org/optimize/#links
 
-# References
+## References
 
 Agner Fog: Software optimization resources  
 http://www.agner.org/optimize/  
@@ -288,7 +290,7 @@ http://net.cs.uni-bonn.de/fileadmin/user_upload/plohmann/x86_opcode_structure_an
 x86 oddities  
 http://x86.corkami.com 
 
-## Slides
+### Slides
 
 * Assembly: The mother of all languages - https://speakerdeck.com/takipiadmin/assembly-the-mother-of-all-languages
 * Creating a language using only assembly language
@@ -300,9 +302,3 @@ http://x86.corkami.com
 * x86 Assembly Primer for C Programmers
   - https://speakerdeck.com/vsergeev/x86-assembly-primer-for-c-programmers
   - https://github.com/vsergeev/apfcp
-
-## Software
-
-
----
-
