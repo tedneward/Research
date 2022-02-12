@@ -28,8 +28,8 @@ Older specifications: [R5RS](http://www-swiss.ai.mit.edu/~jaffer/r5rs_toc.html) 
 * [Femtolisp](https://github.com/JeffBezanson/femtolisp): a lightweight, robust, scheme-like lisp implementation
 
 ### Reading
-* [Structured Interpretation of Computer Programming (SICP)](https://mitpress.mit.edu/sicp/)
 * [The Scheme Programming Language (4th Ed)](https://www.scheme.com/tspl4/), by Dybvig ([3rd Ed](https://www.scheme.com/tspl3/), [2nd Ed](https://www.scheme.com/tspl2/))
+* [Structured Interpretation of Computer Programming (SICP)](https://mitpress.mit.edu/sicp/); [JS edition](https://sourceacademy.org/sicpjs/index) ([PDF](https://sicp.sourceacademy.org/sicpjs.pdf)) ([Source](https://github.com/source-academy/sicp))
 * [A Pamphlet Against R. Computational Intelligence in Guile Scheme](https://panicz.github.io/pamphlet/)
 * [An Introduction to Scheme and its Implementation](http://www.cs.rpi.edu/academics/courses/fall00/ai/scheme/reference/schintro-v14/schintro_toc.html)
 * [Concrete Abstractions: An Introduction to Computer Science Using Scheme](https://gustavus.edu/+max/concrete-abstractions.html) - M. Hailperin, B. Kaiser, K. Knight
