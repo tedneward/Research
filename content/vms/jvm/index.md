@@ -29,3 +29,4 @@ Research/Experiments:
 * [Squawk](https://github.com/tomatsu/squawk): A JVM for micro-devices [Wikipedia](https://en.wikipedia.org/wiki/Squawk_virtual_machine)
 * [Jikes RVM](https://www.jikesrvm.org/): Research JVM; "meta-circular" (meaning, JVM written in Java) [Wikipedia](https://en.wikipedia.org/wiki/Jikes_RVM) [Source](https://github.com/JikesRVM)
 * [JamVM](https://github.com/xranby/jamvm): "JamVM is a new Java Virtual Machine conforming to the JVM specification edition 2 (blue book). (Clone of git://git.code.sf.net/p/jamvm/code)"
+* [Inside Java](https://inside.java/): News and views from members of the Java team at Oracle

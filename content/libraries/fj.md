@@ -1,11 +1,12 @@
 title=FJ (Functional Java)
 tags=library, jvm, language, functional
-summary=
+summary=Functional library for Java.
 ~~~~~~
 
 [Website](http://www.functionaljava.org/) | [Source](https://github.com/functionaljava/functionaljava)
 
 Example: map over a list and apply a function
+
 ```java
 import static fj.data.List.list;
 import fj.data.List;
