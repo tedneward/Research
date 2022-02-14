@@ -123,7 +123,17 @@ Zone 3: How is your team interfering with the work of other teams? How are other
 
 ## MVP; ARC
 
-From the book *
+From the book ...
+
+ARC: 
+* Autonomy
+* Relatedness
+* Competence
+
+MVP:
+* 
+* Values
+* Purpose
 
 ## Mastery, Autonomy, and Purpose
 
