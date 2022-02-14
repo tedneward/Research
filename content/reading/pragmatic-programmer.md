@@ -5,6 +5,7 @@ summary=The best non-technical programming book in the world.
 *(by Andy Hunt, Dave Thomas (Addison-Wesley) )*
 
 # Checklists
+
 ## The WISDOM acrostic
 
 * What: What do you want them to learn?
@@ -56,7 +57,6 @@ An object's method should call only methods belonging to:
 * Objects it creates
 * Component objects
 
-
 ## How to Program Deliberately
 
 * Stay aware of what you're doing
@@ -70,7 +70,6 @@ An object's method should call only methods belonging to:
 * Prioritize your effort
 * Don't be a slave to history
 
-
 ## When to Refactor
 
 * You discover a violation of DRY
@@ -78,7 +77,6 @@ An object's method should call only methods belonging to:
 * Your knowledge improves
 * The requirements evolve
 * You need to improve performance
-
 
 ## Cutting the Gordian Knot
 
@@ -88,7 +86,6 @@ An object's method should call only methods belonging to:
 * What makes it hard?
 * Do I have to do it this way?
 * Does it have to be done at all?
-
 
 ## Aspects of Testing
 
