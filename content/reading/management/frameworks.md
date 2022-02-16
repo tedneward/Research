@@ -131,7 +131,7 @@ ARC:
 * Competence
 
 MVP:
-* 
+* Mastery
 * Values
 * Purpose
 

@@ -93,3 +93,5 @@ One of the early theories of complexity is that complex phenomena arise from sim
 
 Leaders who want to apply the principles of complexity science to their organizations will need to think and act differently than they have in the past. This may not be easy, but it is essential in complex contexts.
 
+---
+
