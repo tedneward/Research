@@ -1,8 +1,9 @@
-title=The Essential Drucker
+title=Essential Drucker
 tags=reading, books, management
 summary=Selections from the management works of Peter F Drucker
 ~~~~~~
-*(by Peter F Drucker)*
+## The Essential Drucker
+*(by Peter F Drucker, ISBN ...)*
 
 # I. Management
 

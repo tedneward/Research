@@ -1,8 +1,9 @@
-title=An Elegant Puzzle
+title=Elegant Puzzle
 tags=reading, management, books
 summary=Systems of engineering management.
 ~~~~~~
-*(by Will Larson)*
+## An Elegant Puzzle
+*(by Will Larson; ISBN ...)*
 
 # 2. Organizations
 

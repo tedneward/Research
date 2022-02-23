@@ -1,8 +1,9 @@
-title=The Feedback Fallacy
+title=Feedback Fallacy
 tags=reading, books, leadership, management
 summary="Radical candor" feedback doesn't actually work; instead, prefer to accentuate what the individual already does well and build on that.
 ~~~~~~
-*(by Marcus Buckingham and Ashley Goodall, from "HBR's 10 Must Reads 2021")*
+## The Feedback Fallacy
+*(by Buckingham, Goodall; "HBR's 10 Must Reads 2021")*
 
 **The Challenge**: Managers today are bombarded with calls to give feedback--constantly, directly, and critically. But it turns out that telling people what we think of their performance and how they can do better is not the best way to help them excel and, in fact, can hinder development.
 

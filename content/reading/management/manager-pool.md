@@ -1,8 +1,9 @@
-title=The Manager Pool
+title=Manager Pool
 tags=reading, books, management, patterns
 summary=Collection of management patterns.
 ~~~~~~
-(by Don Sherwood Olson, Carol L Stimmel)
+## The Manager Pool
+*(by Olson, Stimmel; ISBN ...)*
 
 ## Introduction:
 — programmers can spend 25 years in the same position, doing the same thing over and over again; would any other industry consider that a success, or a failure?

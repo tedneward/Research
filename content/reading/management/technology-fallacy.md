@@ -1,8 +1,9 @@
-title=The Technology Fallacy
+title=Technology Fallacy
 tags=reading, management, books
 summary=How people are the real key to digital transformation
 ~~~~~~
-(by Gerald C Kane, Anh Nguyen Phillips, Jonathan R Copulsky, Garth R Andrus)
+## The Technology Fallacy
+*(by Kane, Phillips, Copulsky, Andrus; ISBN ...)*
 
 "Executives cannot simply impose change on organizations, yet grassroots change is unlikely to be sustainable without strong executive support."
 
@@ -43,7 +44,7 @@ What To Do About It
 ### Chapter 2: Digital Disruption is Really about People
 Adoption: the gap between the rate at which technology changes and the rate at which individuals make those changes a part of their daily lives. … Adoption is not the most critical digital disruption problem most managers face. Individuals generally still adopt technology faster than organizations can adopt to it. … This situation is fairly new. As recently as ten to fifteen years ago, businesses adapted more quickly to technology than individuals did. The reason was simple economics. Prior to the first decade of this century, most people could only afford technology through their employers. As costs dropped, online platforms became widely available, and powerful mobile devices have become ubiquitous.
 
-Adaptation:  between the gaps of adoption and assimilation lies adaptation, the gap between how the majority of individuals want (and expect) to use technology to engage with companies and how companies have adapted to support those interactions. … [A] disconnect between individual and organizational technology use represents a real competitive threat. … As companies embrace digital channels for reaching customers, however, this effort can also exacerbate another facet of the adaptation gap--the space between employees and the companies for which they work. … For example, it was often easier to apply for jobs outside the company than inside it.
+Adaptation:  between the gaps of adoption and assimilation lies adaptation, the gap between how the majority of individuals want (and expect) to use technology to engage with companies and how companies have adapted to support those interactions. … [A] disconnect between individual and organizational technology use represents a real competitive threat. … As companies embrace digital channels for reaching customers, however, this effort can also exacerbate another facet of the adaptation gap--the space between employees and the companies for which they work. ... For example, it was often easier to apply for jobs outside the company than inside it.
 
 Assimilation:  the gap between how many orgs use technology and the laws and regulations that societies agree on to govern their use. … For most companies, waiting for the legal policymakers to catch up to practice is not an option.
 
