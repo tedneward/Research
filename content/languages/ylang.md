@@ -1,4 +1,4 @@
-language=Ylang
+title=Ylang
 tags=language, dynamic tracing, platform, tool, linux
 summary=A universal dynamic tracing language that targets various dynamic tracing frameworks and toolchains.
 ~~~~~~

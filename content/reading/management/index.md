@@ -15,6 +15,35 @@ summary=Collection of thoughts/essays/etc on managing people.
 - [The Post-Cubicle Office and its Discontents](https://www.nytimes.com/2016/02/28/magazine/the-post-cubicle-office-and-its-discontents.html) (New York Times, 2016)
 - [The New Dream Jobs](https://www.nytimes.com/2016/02/28/magazine/the-new-dream-jobs.html) (New York Times, 2016)
 - [The myth of the flat start-up: Reconsidering the organizational structure of start-ups](https://onlinelibrary.wiley.com/doi/epdf/10.1002/smj.3333): "My study cautions against [the myth that start-ups should be flat], suggesting that adding a few hierarchical levels of mangers can substantially help start-ups achieve commercial success and survive in their hostile environments, albeit at a potentially marginal cost of creativity."
+- ["5 Things That Change When You Become a Leader"](https://hbr.org/2022/01/5-things-that-change-when-you-become-a-leader) (HBR, Jan 18 2022): 
+    1. **Your friends are no longer your friends.** Effective leadership demands that you be even-handed in your treatment of every team member. The rule of thumb is to be *friendly, not friends* with your people.
+    2. **You have a duty of care.** You used to be responsible only for your own behavior and performance; now that responsibility extends to every individual on the team. You have to ensure that your people have clear objectives; that their physical and mental well-being are safeguarded; that they're given clear feedback and strong direction.
+    3. **You're entrusted to manage resources.** Managerial diligence demands that every decision you make optimizes the resources entrusted to you. This stewardship must take precedence over your own popularity, fear, and self-interest.
+    4. **You need to contribute more broadly.** You're not only accountable for the outcomes of your own team, but also for contributing to the collective value that's delivered by the leadership team you're a part of. Great leaders seek to optimize the overall value delivered by the broader group, even at the expense of their own work.
+    5. **You must align yourself with the intent of senior management.** As a leader, you don't have the luxury of being able to criticize the decisions made above you; you have to support the goals/objectives of the CEO and executive team. *(Dissent but commit)*
+
+    This leads to the 7 Imperatives of Great Leadership:
+
+    1. **Deliver value.** Your job is to identify and communicate what value means in *your* context.
+    2. **Handle conflict.** Adoping and embedding the mantra of *respect before popularity* is a crucial building block for leadership performance.
+    3. **Build resilience.** Finding and overcoming adversity builds resilience so don't shy away from it--embrace it!
+    4. **Work at the right level.** Your job is to teach--not do. It's critical that you adopt a mindset different than that of an IC. Your job is to ensure that the ICs on your team produce the best outcomes possible.
+    5. **Master ambiguity.** Your job is to sit comfortably in ambiguity, and translate it into certainty for your people. As a frontline leader, your people should have unambiguous clarity on what they need to do to be successful. They will look to you for assurance, stability, and purpose--and if you want them to perform at their best, you need to give it to them. Doing so will require you to have a clear understanding of the org's long-term goals, how your individual work contribute to those goals, and the ability to distill and communicate that to your people.
+    6. **Make great decisions.** The most successful companies make smarter decisions faster than their competitors; the earlier you can master smart decision-making, the better. It starts with knowing what makes a great decision, and then learning how to undertake the process with a sense of urgency. A checklist to determine the quality of your choices:
+
+        Great decisions:
+
+        * Are timely.
+        * Are made by a clearly accountable person.
+        * Are made as close to the required expertise as possible.
+        * Consider consultation from many different perspectives.
+        * Consider the holistic impacts of problems.
+        * Consider long- and short-term implications.
+        * Address the root cause of the problem (as opposed to just the exhibited symptoms).
+        * Are communicated appropriately.
+
+    7. **Drive accountability.** When accountability is shared or unclear, gaps and overlaps emerge. Be accountable for everything your team does, and hold each individual to account for what they need to deliver.
+
 - [Trouble in programmer’s paradise: gender-biases in sharing and recognising technical knowledge on Stack Overflow](https://www.tandfonline.com/doi/full/10.1080/1369118X.2021.1962943): "This paper examines gender-biases on Stack Overflow, the world’s largest question-and-answer forum of programming knowledge. Employing a non-binary gender identification built on usernames, I investigate the role of gender in shaping users’ experience in technical forums. The analysis encompasses 11-years of activity, across levels of expertise, language, and specialism, to assess if Stack Overflow is really a paradise for programmers. I first examine individual users, asking if there are gender differences in key user metrics of success, focusing on reputation points, user tenure, and level of activity. Second, I test if there are gender-biases in how technical knowledge is recognised in the question-answer format of the platform. Third, using social network analysis I investigate if interaction on Stack Overflow is organised by gender. Results show that sharing and recognising technical knowledge is dictated by users’ gender, even when it is operationalised beyond a binary. I find that feminine users receive lower scores for their answers, despite exhibiting higher effort in their contributions. I also show that interaction on Stack Overflow is organised by gender. Specifically, that feminine users preferentially interact with other feminine users. The findings emphasise the central role of gender in shaping interaction in technical spaces, a necessity for participation in the masculine-dominated forum. I conclude the study with recommendations for inclusivity in online forums."
 - [Know how your org works](https://copyconstruct.medium.com/know-how-your-org-works-or-how-to-become-a-more-effective-engineer-1a3287d1f58d): "Social media, blog posts and conferences amplify aspirational ideas. There’s nothing wrong with this in my opinion — it’s important to constantly keep pushing the envelope further, after all. Your organization, however, rewards what you *actually get done* that benefits the organization, which might be a very far cry from whatever might be de rigueur on social media. ... One of the *most effective* things you can do to be successful at your job is to understand how your organization works. ... Managers need to deal with these skills as a part of their job description. So do ICs at the very senior levels, but it’s never too early to start cultivating this knowledge. In fact, a core part of mentoring engineers needs to be schooling them in how the organization works, which will then enable them to build a successful track record of getting things done. *Shielding non-senior engineers from organizational politics not just stymies their growth but also hinders their visibility into the skills they’d eventually need to learn the hard way, skills for which there exists no easy playbook, even if some managers and senior ICs might take a more short-sighted view and see this as a way to help other engineers “maintain focus”.* The most important skill for any engineer to posses is the ability to learn quickly.
 
@@ -105,7 +134,224 @@ summary=Collection of thoughts/essays/etc on managing people.
 
 * [People don't work as much as you think](https://drmaciver.substack.com/p/people-dont-work-as-much-as-you-think)
 
-* [A fractal of lies](https://drmaciver.substack.com/p/a-fractal-of-lies): House was right: everybody lies. (More to the point, studies are often built off of interviews and interrogation, and people have a habit of telling interviewers not-entirely-truthful things for a variety of reasons.) "Whenever there is an advantage, or a power gradient, or a political agenda, or people just want to fuck with you for their own amusement, probably there are lies. And then people repeat those lies - sometimes purely innocently, sometimes adding their own lies on top." 
+* [A fractal of lies](https://drmaciver.substack.com/p/a-fractal-of-lies): Dr House was right: everybody lies. (More to the point, studies are often built off of interviews and interrogation, and people have a habit of telling interviewers not-entirely-truthful things for a variety of reasons.) "Whenever there is an advantage, or a power gradient, or a political agenda, or people just want to fuck with you for their own amusement, probably there are lies. And then people repeat those lies - sometimes purely innocently, sometimes adding their own lies on top."
+
+* [Managing People](https://klinger.io/posts/managing-people-%F0%9F%A4%AF): In short:
+
+    * As a manager, everything is your fault
+        * There is no point being angry at your team – ever
+        * You are in charge of processes and people
+            * And you got more information than they do, always
+        * You either created the processes where this outcome happened
+            * or you hired (or did not fire) the wrong people
+        * Ultimately everything is your fault
+
+
+    * You manage processes; you lead people
+        * For some reason, "managing people" means for many that they need to control people's work.
+            * They end up micro-managing not only what when but also how people do their work.
+            * If you got the time to micro-manage people, you can most likely hire cheaper, less talented people for your work
+        * I think it roots in a misunderstanding of what the role of a manager is:
+                * your job is *not to manage people*
+                * but to *manage processes* and *lead people*
+        * You manage processes on how you expect work to be done, where each person's authority starts and ends, how their careers are made, and how all this can be discussed, and/or changed
+        * Additionally, you are leading people by example and through empathy.
+            * They have goals, fears and motivations. Frequently also problems outside of work.
+            * Act how you would want them to act if the role would be reversed.
+
+    * Processes are expectations made explicit
+        * A lot of people make huge disclaimers around "processes."
+            * "We don't want too many processes" etc
+                * again, imho a misunderstanding
+        * Processes are not complex chains of people doing things that are burdened by horrible overheads
+            * *Processes are expectations made explicit*
+                * They can be as simple as "every morning we all do X to ensure everyone else is unblocked."
+            * Have few but very explicit processes and expect them to be followed   
+
+    * Decisions vs Opinions
+        * In every discussion/project/problem/situation, it needs to be clear who makes decisions
+            * everyone else only adds opinions.
+            * Ideally, the person who will afterward do (or lead) the follow-up work makes the decisions.
+                * Everyone else just adds opinions.
+                * This includes people of higher "rank" or pay.
+        * Their manager have a *handbrake* they can use to hard-stop decisions.
+            * Treat this as a literal handbrake.
+                * Imagine a car driving, and you need to pull the handbrake because the car needs to stop, but the driver doesn't react. Damage will follow.
+                * Pull the handbrake if absolutely needed and then discuss how to fix the situation.
+        * Hire based on good decision-making skills
+            * Fire based on poor decision-making skills
+                * Good decision-making skills include listening to other people's opinions.
+            * In case of doubt, see if you can trust the decision-maker by default.
+
+    * Ownership
+        * It's hard to get people to own a problem space fully
+            * But this is the goal
+                * If they are the wrong person, you can still fire them
+        * Feedback them, help them
+            * Trust them and let them make mistakes (within damage barriers)
+            * Consider mistakes them leveling up
+        * The worst thing that can happen is that you frequently step in, and people disassociate from their work
+            * They become drones who do what's told instead of taking ownership.
+            * If this is your goal, you can hire cheaper, less talented people.
+
+    * Avoid back and forth
+        * When defining processes, avoid back and forth
+            * Eg. if you give feedback on something assume that they will either do it or get back to you with reasons why not
+            * Don't expect them to get your approval
+                * *Ain't nobody got time for that*  
+
+    * Trust
+        * Always reflect if your nervousness is due to other people's work or your insecurity
+            * Should other people have to handle your emotions for you?
+        * Also, it's easy to trust when things go well
+            * The real challenge is when things go wrong
+            * Always differ between your frustration about a situation and your frustration about a person
+        * I am not saying "stay out of it"
+            * Stay in the loop, set expectations, voice opinions, but let them handle it. Use your handbrake if needed.
+
+    * ... through transparency
+        * The easiest way to have people trust your work is by transparently sharing it without request.
+            * Have everything accessible where people would look for it
+            * Don't make them ask for it, because most won't
+
+    * ... and is not binary
+        * We tend to think of trust as binary
+            * I either trust someone, or i don't
+        * But this isn't true
+            * You trust different people with different things differently over time.
+        *  Think of trust as something that you systemize
+            * Eg what kind of trust do you give a new team member?
+                * What are they expected to do in the first weeks? first month?
+
+    * Don't confuse autonomy and abandonment
+        * I frequently meet founders who hire people "and get out of their way"
+        * While this is principle correct it doesn't absolve you from enabling them to succeed
+
+
+    * Decision Layering
+        * Different people in the company on various levels rely on each other on doing their work.
+            * A product manager can't do their job if the CEO doesn't know what their current priorities are.
+        * Don't load your work onto others in the company. 
+            * And also avoid stepping into their work just because looks more fun.
+
+    * Avoid drive-by management
+        * Don't start throwing your opinion or ideas around in meetings
+            * You most likely lack context, and most likely, you won't be the person needing to follow through.
+        * Make it clear that it's just opinions and not decisions.
+            * But know the power that the "opinion of the founder (or manager)" has towards most employees
+            * Use [fyi tags](https://klinger.io/posts/fyi-how-founders-can-avoid-drive-by-management) in async communication that usually lacks the "nuance" of voice.
+
+        Btw, I call it drive-by management because the manager comes by a group of people having a discussion. They throw requests, change mandates, and ideas around like bullets, create confusion, panic, chaos, and when they leave, they leave a bloody mess behind.
+
+    * Feedbacking people
+        * people x context = output
+        * I had great people in bad setups that had lousy output
+            * I had very ordinary people in great setups that churned out more work than a whole team
+        * When you feedback work, it's usually easier to discuss the context objectively than the person themselves
+            * What is the situation that led to current problems?
+            * What changed? What is currently required? 
+        * A junior engineer not keeping up with the work?
+            * Is it their fault? Or is your team right now not able to support a junior learning the game?
+                * This is ok, but should be either fixed or acknowledged (by discontinuing)
+        * A huge production incident happened?
+            * How was this possible in the first place?
+                * Where was the focus of the engineering team?
+                * Was there a process in place to avoid it?
+                * Should there be one?
+            * The person breaking production isn't at fault here.
+                * A whole team focused on other priorities
+                * Was this for the right reasons? (eg release pressure?)
+                    * Or the wrong ones? (lacking sophistication?)
+        * Always assume people you hired are motivated, and have the best intentions in mind
+            * And fire the ones that don't
+
+    * Firing should never be a surprise
+        * People should never be surprised that they are fired
+            * Context changed, new requirements should have been communicated
+        * When you discontinue someone, you do it usually because of context
+            * The company changed
+            * The expectations of the role changed
+            * You realized you looked for the wrong hiring criteria
+            * It's most likely more your fault than theirs
+        * They might have hoped that their new efforts were enough
+            * But they will still understand when you fire them
+
+    * Never delay firing
+        * Once you decide to fire someone, do it.
+        * Frequently people keep employees around in a zombie-like state
+            * "We should discontinue them."
+            * But you don't
+                * It's not for them
+                * They are most likely unhappy in their setup
+                    * Not appreciated
+                    * Not able to do good work
+                * You are most likely doing it for yourself
+                    * Because you are not feeling good about firing someone
+                    * They deserve better than you caring more about your feelings and future than theirs
+        * Set up a call and discontinue them
+            * Avoid any chitchat in the beginning
+            * Start directly with the topic and have explicit clarity on the next steps
+            * Make sure to communicate it as fact and truth
+            * Remember that in this moment it's not about your feelings or problems
+        * Then help them finding new roles
+            * In some countries firing someone is a matter of days in some months
+            * In either case manage that process pro-actively and with respect to the people who trusted you      
+            * Those people trusted your team with their career
+            * Most likely the reason they are leaving not their fault but the changes in context
+                * Help them landing a new role that fits them
+
+    * Explicit > Implicit
+        * Clear decisions after meetings
+            * No clear decision? Make that explicit too.
+        * Clear owners
+            * No clear owner? Make that explicit too.
+        * Hear everyone's opinions 
+            * Make explicit who makes the decision
+            * And what the decision is
+
+    * Best practices: Start by making true what's real
+        * When looking for best practices or changes in the team/processes, always look at first what already naturally emerged
+            * If you hire good people they usually start looking for solutions naturally
+            * Is this good? If yes make it explicit
+                * "Make true what is real"
+            * If not discuss changing it
+
+    * Expect to refactor your company every few months
+        * Fast-growing startups have to refactor how they operate internally every 3-6 months
+            * So just go with the minimum changes you currently need
+        * There will never be a final endstate
+            * You will always be unhappy with processes in your company
+            * You will have growing pains until you stagnate 
+        * Use the same principles you'd use in refactoring code
+            * Consider to 
+                * Test in small isolation first
+                * Peer review
+                * Not to change everything at once
+                * Avoid over-engineering
+                * etc
+
+    * Burnout
+        * It's a common misconception that burnouts come from hard work. 
+        * Burnout comes from a felt loss of control and/or impact.
+            * Remember that you can burn out employees (or yourself) with little to no work.
+        * How can you give people control over their impact?
+            * How can you define boundaries around chaos around them?
+
+    * Chaos is felt less by the people creating it
+        * A common frustration of founders is that their team can't keep up with pivots.
+            * As a founder, you most likely got more context on changes, you know earlier of them, and most importantly, you have control over them.
+            * Employees don't.
+
+    * Expect more from managers that report from you
+        * By default, mistakes are not their team's fault but theirs
+            * Share your honest opinions on things with them privately
+        * By default, always give them the trust needed to make decisions
+        * They are accountable for the outcomes
+            * Responsible for all failures
+            * But not responsible for the success
+                * Success is the team's achievement
+        * They should also, whenever possible, give spotlights to their team instead of taking it for themselves
+            * The deal is simple: They get more authority; the team gets more ways to shine
 
 * [Twitter thread: "Here are 12 things your manager may not be telling you, but I know for a fact will help you."](https://twitter.com/LBacaj/status/1478241311392108545):
 

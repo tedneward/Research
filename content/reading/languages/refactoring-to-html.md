@@ -1,6 +1,6 @@
 title=Refactoring to HTML
 tags=reading, books, presentation, browser
-summary=
+summary=Early thoughts about how to get back to HTML-first web page design.
 ~~~~~~
 *(by Elliott Rusty Harold (Addison-Wesley, 2008, ISBN-13 978-0-321-50363-3))*
 

@@ -3,11 +3,12 @@ tags=language, native, object, metaobject
 summary=An object-oriented flavor of C.
 ~~~~~~
 
-Online reference: [cppreference](http://en.cppreference.com/w/cpp) | Specification
+Online reference: [cppreference](http://en.cppreference.com/w/cpp)
 
 Frequently conjoined with [C](/languages/c); Bjarne wanted C++ to be "as close as possible to C, but not closer." Over the years, C++ has taken a strong stand on some lexical and syntactic things about C that didn't hold up well over time, and C has retrofitted many of those choices back into C.
 
 ## Compiler Implementations:
+
 * GNU
 	- C++ Standards Support in GCC - https://gcc.gnu.org/projects/cxx-status.html
 	- GNU C++ Library (libstdc++) - https://gcc.gnu.org/onlinedocs/libstdc++/manual/status.html
@@ -45,7 +46,7 @@ Frequently conjoined with [C](/languages/c); Bjarne wanted C++ to be "as close a
 - A cheatsheet of modern C++ language and library features
 	- https://github.com/AnthonyCalandra/modern-cpp-features
 
-Articles and papers (focused on teaching, but also of interest for learning by self-studying)
+### Articles and papers (focused on teaching, but also of interest for learning by self-studying)
 
 - A Conversation about Teaching Software Engineering - John Regehr
 	- https://blog.regehr.org/archives/1569
@@ -68,37 +69,7 @@ Articles and papers (focused on teaching, but also of interest for learning by s
 	- *Chapter 0: Notes to the Reader*,	<http://www.stroustrup.com/Programming/programming_ch0.pdf>
 	- *Instructor’s Guide for Programming Principles and Practice using C++*, <http://www.stroustrup.com/Programming/PPP-guide.pdf>
 
----
-
-#### [Standards](../std)
-
-Overview of C++ features, by version:
-[C++20](../cpp20)
-[C++17](../cpp17)
-[C++14](../cpp14)
-[C++11](../cpp11)
-
-- C++ standard draft
-	- https://github.com/cplusplus/draft
-	- http://eel.is/c++draft/
-	- C++ Standards Drafts in HTML - https://ubershmekel.github.io/cppdrafts/
-	- HTML version of the C++ working paper
-		- https://github.com/timsong-cpp/cppwp
-		- https://timsong-cpp.github.io/cppwp/
-- C++ International Standard schedule
-	- https://wg21.link/P1000
-- Current Status
-	- https://isocpp.org/std/status
-- ISO C++ paper scheduling and management
-	- track proposals on GitHub
-	- https://github.com/cplusplus/papers/issues
-- Specref (search WG21 papers)
-	- http://www.specref.org/
-- wg21.link - WG21 redirect service - https://wg21.link/
-- Where do I find the current C or C++ standard documents?
-	- https://stackoverflow.com/questions/81656/where-do-i-find-the-current-c-or-c-standard-documents
-
-#### Resources
+## Resources
 
 * [Error-handling links](../error_handling)
 * [Modern C++ Overview](https://github.com/AnthonyCalandra/modern-cpp-features) is the original source of the "Versions" section above and the best overview of all the new features in the language since I stopped using it around C++08.
@@ -131,17 +102,6 @@ Overview of C++ features, by version:
 * The Definitive C++ Book Guide and List - https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
 * Where to Get Started Learing C++ and What Resources to Use
 	- https://shafik.github.io/c++/learning/2019/09/05/getting_started_learning_cpp.html
-
-#### FAQs
-
-- Bjarne Stroustrup's FAQs
-	- FAQ - http://www.stroustrup.com/bs_faq.html
-	- C++ Style and Technique FAQ - http://www.stroustrup.com/bs_faq2.html
-	- C++11 - http://www.stroustrup.com/C++11FAQ.html
-- C++ FAQ - https://isocpp.org/faq
-	- Learning C++ - https://isocpp.org/wiki/faq/how-to-learn-cpp
-- comp.lang.c Frequently Asked Questions - http://www.c-faq.com/
-- LearnProgramming C++ FAQ - https://www.reddit.com/r/learnprogramming/wiki/faq_cpp
 
 ## Lectures & Talks
 
@@ -215,6 +175,98 @@ Note: Some of the following are primarily for entertainment purposes; while prov
 - Insecure coding in C (and C++) - https://www.slideshare.net/olvemaudal/insecure-coding-in-c-and-c
 - Online C++ tests - http://www.interqiew.com/tests?type=cpp - http://www.interqiew.com/tests?type=dp
 
+## FAQs
+
+- Bjarne Stroustrup's FAQs
+	- FAQ - http://www.stroustrup.com/bs_faq.html
+	- C++ Style and Technique FAQ - http://www.stroustrup.com/bs_faq2.html
+	- C++11 - http://www.stroustrup.com/C++11FAQ.html
+- C++ FAQ - https://isocpp.org/faq
+	- Learning C++ - https://isocpp.org/wiki/faq/how-to-learn-cpp
+- comp.lang.c Frequently Asked Questions - http://www.c-faq.com/
+- LearnProgramming C++ FAQ - https://www.reddit.com/r/learnprogramming/wiki/faq_cpp
+
+## [Standards](../std)
+
+Overview of C++ features, by version:
+[C++20](../cpp20)
+[C++17](../cpp17)
+[C++14](../cpp14)
+[C++11](../cpp11)
+
+- C++ standard draft
+	- https://github.com/cplusplus/draft
+	- http://eel.is/c++draft/
+	- C++ Standards Drafts in HTML - https://ubershmekel.github.io/cppdrafts/
+	- HTML version of the C++ working paper
+		- https://github.com/timsong-cpp/cppwp
+		- https://timsong-cpp.github.io/cppwp/
+- C++ International Standard schedule
+	- https://wg21.link/P1000
+- Current Status
+	- https://isocpp.org/std/status
+- ISO C++ paper scheduling and management
+	- track proposals on GitHub
+	- https://github.com/cplusplus/papers/issues
+- Specref (search WG21 papers)
+	- http://www.specref.org/
+- wg21.link - WG21 redirect service - https://wg21.link/
+- Where do I find the current C or C++ standard documents?
+	- https://stackoverflow.com/questions/81656/where-do-i-find-the-current-c-or-c-standard-documents
+
+## Portability
+
+- Beautiful Native Libraries
+	- http://lucumr.pocoo.org/2013/8/18/beautiful-native-libraries/
+- C++ compiler support - http://en.cppreference.com/w/cpp/compiler_support
+- Compiler Dependencies - https://isocpp.org/wiki/faq/compiler-dependencies
+- Creating and using shared libraries with different compilers on different operating systems
+	- http://gernotklingler.com/blog/creating-using-shared-libraries-different-compilers-different-operating-systems/
+- GotW #100: Compilation Firewalls - https://herbsutter.com/gotw/_100/
+- GotW #101: Compilation Firewalls, Part 2 - https://herbsutter.com/gotw/_101/
+- How to Write Shared Libraries - Ulrich Drepper - http://www.akkadia.org/drepper/dsohowto.pdf
+- Interoperability of Libraries Created by Different Compiler Brands
+	- http://www.mingw.org/wiki/Interoperability_of_Libraries_Created_by_Different_Compiler_Brands
+- libabc
+	- http://0pointer.de/blog/projects/libabc
+	- https://git.kernel.org/pub/scm/linux/kernel/git/kay/libabc.git/about/
+- PImpl - http://en.cppreference.com/w/cpp/language/pimpl
+- Program Library HOWTO
+	- This HOWTO for programmers discusses how to create and use program libraries on Linux. This includes static libraries, shared libraries, and dynamically loaded libraries.
+	- http://tldp.org/HOWTO/Program-Library-HOWTO/
+- [SEI CERT C Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=87151973)
+	- [MSC14-C. Do not introduce unnecessary platform dependencies](https://wiki.sei.cmu.edu/confluence/display/c/MSC14-C.+Do+not+introduce+unnecessary+platform+dependencies)
+	- [MSC15-C. Do not depend on undefined behavior](https://wiki.sei.cmu.edu/confluence/display/c/MSC15-C.+Do+not+depend+on+undefined+behavior)
+	- [MSC23-C. Beware of vendor-specific library and language differences](https://wiki.sei.cmu.edu/confluence/display/c/MSC23-C.+Beware+of+vendor-specific+library+and+language+differences)
+- Understanding GCC Builtins to Develop Better Tools
+	- ESEC/FSE 2019
+	- Manuel Rigger, Stefan Marr, Bram Adams, Hanspeter Mössenböck
+	- https://arxiv.org/abs/1907.00863
+	- https://github.com/jku-ssw/gcc-builtin-study
+
+#### Software
+
+- Hedley
+	- a single C/C++ header you can include in your project to enable compiler-specific features while retaining compatibility with all compilers. It contains dozens of macros to help make your code easier to use, harder to misuse, safer, faster, and more portable.
+	- https://nemequ.github.io/hedley/
+	- https://github.com/nemequ/hedley
+- Portable Snippets
+	- a collection of public domain (CC0) code snippets written in C for performing various common tasks which are typically OS, architecture, and/or compiler-dependent. 
+	- https://github.com/nemequ/portable-snippets
+
+#### Talks
+
+- Making a Language Cross Platform: Libraries and Tooling
+	- 2019 LLVM Developers’ Meeting; Gwen Mittertreiner
+	- https://www.youtube.com/watch?v=bdiQM0IPMio
+	- http://llvm.org/devmtg/2019-10/slides/Mittertreiner-MakingALanguageCrossPlatform.pdf
+- Naivety of Creating Cross-Platform, Modern C++ Libraries: A Tour Of Our Challenges and Successes
+	- CppCon 2017; Jonathan Henson
+	- https://www.youtube.com/watch?v=JPdohAomZD8
+- Intro to the C++ Object Model
+	- CppCon 2015; Richard Powell
+	- https://www.youtube.com/watch?v=iLiDezv_Frk&list=PLgpRclL8uN4xjpYqslYJlX2H1hRukN_Qr
+
 ## Lists/links
 
 [List of C++ UI libraries](https://philippegroarke.com/posts/2018/c++_ui_solutions/)
@@ -248,16 +300,6 @@ Project-specific, but likely of interest to the general C++ community.
 	+ Visual C++ Language - http://social.msdn.microsoft.com/Forums/en/vclanguage/
 	+ Parallel Computing in C++ and Native Code -- http://social.msdn.microsoft.com/Forums/en/parallelcppnative/
 
-### IRC
-
-* Freenode [http://freenode.net/]:
-	+ #boost - http://www.boost.org/community/irc.html
-	+ ##c++ - http://irc.netsplit.de/channels/details.php?room=%23%23C%2B%2B&net=freenode
-	+ ##c++-basic - http://irc.netsplit.de/channels/details.php?room=%23%23c%2B%2B-basic&net=freenode
-	+ ##C​+​+-general - http://irc.netsplit.de/channels/details.php?room=%23%23C%2B%2B-general&net=freenode
-	+ ##c++-help - http://irc.netsplit.de/channels/details.php?room=%23%23C%2B%2B-help&net=freenode
-	+ ##iso-c++ - http://irc.netsplit.de/channels/details.php?room=%23%23iso-c%2B%2B&net=freenode
-
 ### Reddit
 
 * /r/cpp - https://www.reddit.com/r/cpp/
@@ -279,15 +321,3 @@ Project-specific, but likely of interest to the general C++ community.
 * C++ Stack Overflow
 	+ About - https://stackoverflow.com/tags/c%2b%2b/info
 	+ Questions - http://stackoverflow.com/questions/tagged/c++
-
-### Usenet
-
-The following newsgroups are accessible using a newsreader (requiring a news server account).
-In case you'd prefer to use a web browser, Google Groups links are provided.
-
-* alt.comp.lang.learn.c-c++ - http://groups.google.com/group/alt.comp.lang.learn.c-c++
-* comp.lang.c++ - http://groups.google.com/group/comp.lang.c++
-* comp.lang.c++.moderated - http://groups.google.com/group/comp.lang.c++.moderated
-	+ http://www.gotw.ca/resources/clcm.htm
-* comp.std.c++ - http://groups.google.com/group/comp.std.c++
-* gnu.g++.help (g++-specific) - http://groups.google.com/group/gnu.g++.help

@@ -20,6 +20,10 @@ summary=A dynamic language and platform.
 ### Articles:
 * [WTFPython](https://github.com/satwikkansal/wtfpython): A collection of unintuitive ways Python behaves, with explanations as to why.
 
+### Bridges/FFI:
+
+* [pyobjc](https://pyobjc.readthedocs.io/en/latest/) ([Source](https://github.com/ronaldoussoren/pyobjc)): The Python-to-Objective-C bridge
+
 ---
 
 [`dis`: Disassembler for Python bytecode](https://docs.python.org/3/library/dis.html): package in the Python distribution, contains a list of all the Python VM bytecodes
