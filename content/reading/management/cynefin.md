@@ -3,6 +3,8 @@ tags=reading, management
 summary=A framework for making decisions.
 ~~~~~~
 
+[Website]()
+
 ## Articles
 
 [A Leader's Framework for Decision-Making (Cynefin)](https://hbr.org/2007/11/a-leaders-framework-for-decision-making) (HBR, 2007): a new perspective based on complexity science.

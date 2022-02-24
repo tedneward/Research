@@ -33,6 +33,8 @@ Caveats:
 
 5. How can I help / where do you need the most help?
 
+---
+
 ## Project retrospectives
 
 Ask did the project achieve its objectives?
@@ -62,6 +64,8 @@ Lessons learned:
 * If we could do this again, what would you wish you'd known from the beginning?
 * What would be useful for a related follow-up project?
 
+---
+
 ## OKRs
 
 OKRs are a process for setting, communicating, and monitoring goals and results in organizations.
@@ -83,6 +87,8 @@ Guidelines:
 * Review regularly.
 * A key result is green if you reach 70% of the stated target.
 
+---
+
 ## RACI Model
 
 The RACI Model is a process for clarifying roles on teams, used in project management.
@@ -98,6 +104,8 @@ Steps in a RACI process:
 * Each activity should have only one A and one R. A person can be both A and R.
 * When a single A or R cannot be identified, decompose the deliverable into smaller deliverables.
 * Can have multiple Cs and Is for a deliverable.
+
+---
 
 ## Zones of Collaboration
 
@@ -121,6 +129,8 @@ Zone 3: How is your team interfering with the work of other teams? How are other
 * This can be work that one team used to own but no longer owns and is having a tough time moving away from it.
 * Protect your team from interference by other teams to ensure that your team delivers great work.
 
+---
+
 ## MVP; ARC
 
 From the book ...
@@ -135,6 +145,8 @@ MVP:
 * Values
 * Purpose
 
+---
+
 ## Mastery, Autonomy, and Purpose
 
 From the book *Drive* by Daniel Pink. These are the things that intrinsically motivate us.
@@ -142,6 +154,8 @@ From the book *Drive* by Daniel Pink. These are the things that intrinsically mo
 * Mastery
 * Autonomy
 * Purpose
+
+---
 
 ## [Radical Candor](http://firstround.com/review/radical-candor-the-surprising-secret-to-being-a-good-boss/)
 
@@ -167,6 +181,8 @@ Delivering radical candor is HHIPP:
 * In person (private if it's criticism, public if it's praise)
 * Doesn't personalize
 
+---
+
 ### [Faultlines](https://www.groupoe.com/blog-on-teams/146-faultlines-can-divide-your-team-be-aware-and-be-smart.html)
 
 A dividing line that splits what is supposed to be a single, unified team into two or more subgroups.
@@ -181,6 +197,8 @@ Addressing faultlines:
 
 * Establish and emphasize shared goals that all team members can embrace.
 * Use "connectors," or someone who shares something in common with multiple groups.
+
+---
 
 ## [GROW Model](https://www.mindtools.com/pages/article/newLDR_89.htm)
 
@@ -208,6 +226,8 @@ Will (or Way Forward):
 * Ask how to keep motivated.
 * Decide when to review progress.
 
+---
+
 ## [SBI](https://www.youtube.com/watch?v=-oRKr5xA9N0)
 
 SBI is a framework that promotes feedback based on identifying behavior and impact in a specific situation.
@@ -229,6 +249,8 @@ Impact:
 * Describes your emotional response and is particular to you.
 * Start this with "I felt..."
 
+---
+
 ## Types of "Yes"
 
 From the book *Never Split the Difference* by Chris Voss. There are three types of "yes" that someone gives:
@@ -244,6 +266,8 @@ From the book *Never Split the Difference* by Chris Voss. If someone appears to 
 * Either person may have incomplete information.
 * That person is operating under constraints that he or she is not eager to reveal.
 * That person is complying with needs or desires based on his or her own rules or worldview.
+
+---
 
 ## [BICEPS model](https://www.palomamedina.com/biceps)
 
@@ -279,6 +303,8 @@ Status:
 * You hold a title or role that honors your worth.
 * Your work is both highly visible and recognized in positive ways.
 
+---
+
 ## Diminishers vs Multipliers
 
 From the book *Multipliers* by Liz Wiseman. It defines the characteristics of a Diminisher versus a Multiplier.
@@ -308,6 +334,8 @@ Micromanagers vs Investors:
 * Micromanagers manage every detail of the work to ensure it is completed the way they would do it.
 * Investors give other people the ownership for results and invest in their success.
 
+---
+
 ## The Coaching Habit
 
 From *The Coaching Habit* by Michael Bungay Stanier. Seven essential questions for coaching others:
@@ -319,6 +347,8 @@ From *The Coaching Habit* by Michael Bungay Stanier. Seven essential questions f
 * The Lazy Question: "How can I help?"
 * The Strategic Question: "If you're saying Yes to this, what are you saying No to?"
 * The Learning Question: "What was the most useful to you?"
+
+---
 
 ## Good Strategy
 
@@ -336,6 +366,8 @@ Guiding Policy:
 Coherent Actions:
 
 * Must have clarity and coordinated action to move forward.
+
+---
 
 ## Effecting Change
 
@@ -361,6 +393,8 @@ Shape the Path:
 * Build habits. The humble checklist is a tool that combines the strategies of tweaking the environment and building habits.
 * Rally the herd. In situations where the herd has embraced the right behavior, publicize it.
 
+---
+
 ## Customer Service
 
 The LATTE method used by Starbucks, from the book *The Power of Habit* by Charles Duhigg.
@@ -371,6 +405,8 @@ The LATTE method used by Starbucks, from the book *The Power of Habit* by Charle
 1. Thank them, and
 1. Explain what you've done
 
+---
+
 ## BANT
 
 BANT is a sales qualification framework.
@@ -380,6 +416,8 @@ BANT is a sales qualification framework.
 * Need: What is the prospect's business need?
 * Timeframe: When will the prospect be implementing a solution?
 
+---
+
 ## Weekly manager updates
 
 1. What you did last week
@@ -387,6 +425,8 @@ BANT is a sales qualification framework.
 1. Team & organizational highlights & lowlights
 1. What's on your mind
 1. Fires
+
+---
 
 ## [Form, Storm, Norm, Perform](http://changingminds.org/explanations/groups/form_storm_norm_perform.htm)
 
@@ -397,6 +437,8 @@ The developmental stages of a team. The manager or external facilitator must fac
 * Norm: Personal conflicts are sorted out and focus turns towards the task. Group rules develop and are refined, and people start to help one another more. Internal conflict may be replaced with external conflict.
 * Perform: Steady-state where the team reaches and optimal level of performance.
 
+---
+
 ## Four states of a team
 
 From the blog post [Staying on the path to high performing teams](https://lethain.com/durably-excellent-teams/):
@@ -405,5 +447,4 @@ From the blog post [Staying on the path to high performing teams](https://lethai
 * Treading water: The team is able to get critical work done, but is not able to start paying down technical debt or start major new projects. The fix is to add process to consolidate the team's efforts to finish more things, and to reduce concurrent work.
 * Repaying debt: The team is able to start paying down technical debt, and each piece of debt you repay leads to more time to repay more debt. The fix is to add more time. Also ensure that you find ways to support your stakeholders; they are probably antsy waiting for the team to start delivering new stuff.
 * Innovating: The team has a low amount of technical debt to repay, and the majority of work is satisfying new user needs. Ensure that folks value the work your team is doing; if viewed as a team that builds science projects, you'll be defunded.
-
 
