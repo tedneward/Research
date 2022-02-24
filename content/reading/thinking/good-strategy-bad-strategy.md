@@ -269,8 +269,11 @@ Inertia: Even when change programs at full speed, it can take years to alter a l
 (NVidia's strategy)
 
 Good strategy
+
 Intelligent anticipation
+
 Guiding policy that reduces complexity
+
 Power of design, focus, using advantage, riding a dynamic wave of change, and the important role played by inertia and disarray of rivals
 
 # Part 3 - Thinking like a strategist

@@ -3,7 +3,7 @@ tags=reading, management
 summary=A framework for making decisions.
 ~~~~~~
 
-[Website]()
+[Website](https://thecynefin.co/about-us/about-cynefin-framework/) | [Wikipedia](https://en.wikipedia.org/wiki/Cynefin_framework)
 
 ## Articles
 
