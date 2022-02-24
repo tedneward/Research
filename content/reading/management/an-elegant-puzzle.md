@@ -193,9 +193,6 @@ This chapter provides a box of tools for managing change, both from the abstract
 
 ### Chapter 3: Tools
 
-#### 3.4: Metrics and baselines
-
-
 #### 3.5: Guiding broad organizational change with metrics
 
 * pg 78: Metrics can be an extremely effective way to lead change with little or no organizational authority.
@@ -442,7 +439,7 @@ This chapter provides a box of tools for managing change, both from the abstract
 * pg 132: New managers _only manage down_, _only manage up_, _never manage up_, _optimize locally_, _assume hiring never solves problems_, _don't spend time building relationships_, _define their role too narrowly_, and _forget their manager is human_.
   * pg 133: If you never manage up, then excellent work goes unnoticed because it was never shared.
   * pg 133: If your business is growing quickly, then eventually you hire or burn out.
-  * pg 133: Managers are the glue in their team, filling any gaps – and that may mean doing things you don't want to do in order to set a good example.
+  * pg 133: Managers are the glue in their team, filling any gaps – and that may mean doing things you don't want to do in order to set a good example.
 * pg 133: More experienced managers _do what worked at their previous company_, _spend too much time building relationships_, _assume that more hiring can solve every problem_, _abscond rather than delegate_, and _become disconnected_.
   * pg 133: Pause to listen and foster awareness before "fixing" things, or else you may fix problems that don't exist with tools that may not be appropriate.
 * pg 134: Managers at all levels of experience _mistake team size for impact_, _mistake title for impact_, _confuse authority with truth_, _don't trust the team enough to delegate_, _let other people manage their time_, and _only see problems_.
@@ -458,7 +455,7 @@ This chapter provides a box of tools for managing change, both from the abstract
 
 #### 4.7: Finding managerial scope
 
-* pg 138: To grow we should pursue scope – not enumerating people, but taking responsibility for the success of increasingly important and complex facets of the organization and company.
+* pg 138: To grow we should pursue scope – not enumerating people, but taking responsibility for the success of increasingly important and complex facets of the organization and company.
 * pg 139: This means can can always find ways to increase your scope and learning, even if your company doesn't have room for more directors or vice presidents.
 
 #### 4.8: Setting organizational direction
@@ -521,7 +518,7 @@ This chapter provides a box of tools for managing change, both from the abstract
   * pg 155: _Refereeing deflection_: If someone acts in self-interest, then other team members will do the same. A manager must referee and ensure good behavior.
   * pg 155: _Avoiding zero-sum culture_: No one will coordinate in such cultures, where perceived success depends on capturing scarce resources like headcount.
 * pg 156: The more fully you embrace optimizing for your collective peers, the closer your priorities will mirror your manager's.
-* pg 156: A first team provides a community of learning, where your team's rate of learning is the sum of everyone's challenges – not just your own experiences.
+* pg 156: A first team provides a community of learning, where your team's rate of learning is the sum of everyone's challenges – not just your own experiences.
 
 #### 5.4: Consider the team you have for senior positions
 
