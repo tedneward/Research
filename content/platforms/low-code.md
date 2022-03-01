@@ -11,6 +11,44 @@ summary=Reading and notes around low-code platforms.
 
 * [Awesome no-code low-code](https://github.com/kairichard/awesome-nocode-lowcode)
 
+## Overview
+*(partly from [The Low-Code/No-Code Ecosystem](https://medium.com/@unigram_labs/the-low-code-no-code-ecosystem-8a0e0ba757c1))*
+
+Forrester: “application development platforms that enable rapid application delivery with minimal hand-coding, and quick setup and deployment.”
+
+The term generally refers to any class of software and tools that provide:
+
+* Interactive visual programming environment
+* Drag-and-drop capabilities
+* Visual modeling tools
+* Prebuilt templates
+* (usually) Easy ability to integrate with third-party tools and solutions
+
+Ecosystem graphic:
+![](https://miro.medium.com/max/1400/1*JnRv4y7glUJAe6_T9gPKQw.jpeg)
+
+Categories:
+
+* **Business Intelligence**: Tools that serve to transform information into knowledge, with the aim of improving the decision-making process in a company. Notable examples of these types of tools are Tableau, Looker, Google Data Studio, and SAP Business Objects — all of which give users the ability to manipulate, analyze, visualize business data.
+
+* **Customer Service / CRM**: Platforms that manage all the communications, opportunities and documentation relating to customers, along with those that help them in all stages of the buying and selling process. Salesforce is the giant in this space, but other tools such as Zoho, Bitrix24, and Creatio are all platforms that enable companies to automate their business processes to create and manage customer relationships.
+
+* **Enterprise Application Development**: These visual development platforms enable developers, of varying skills, to build out entire enterprise wide applications — building and managing custom databases and tools to run entire business processes. This is a large and lucrative space with a number of large players including ServiceNow, [Appian](../appian), [Mendix](../mendix), and newer entrant Unqork.
+
+* **IoT / Industrial automation**: This category includes both IoT (internet of things) platforms, that serve to connect hardware to the Internet and Industrial automation platforms, that enable automatic operation of industrial processes and machinery without the need for human operators. Akenza.io for example, is a self-service IoT platform that connects, controls, and manages IoT devices allowing users to build IoT products and services.
+
+* **Machine Learning**: With the growth of AI and machine learning there has also been a surge of tools that have sought to make ML models available to non-data scientist users. Amazon, Microsoft, and Google all have powerful such platforms but dedicated no-code companies such as [Data Robot](https://www.datarobot.com/) are also providing an increasing amount of AutoML-type tools.
+
+* **Marketing / E-Commerce / Design Tools**: Marketing-technology (or martech) has been a category of its own for quite some time — with large companies such as Mailchimp, Hubspot, and Marketo empowering marketers to build powerful management of campaigns and customer relationship management. We have also included e-commerce tools — including giants like Shopify — that enable businesses of all sizes to conduct commerce online while managing their products and services and their entire virtual storefront. Additionally, in this category, we added design platforms such as Canva and Figma where you can create and share designs and templates easily without having the trained skillset for it.
+
+* **Software Development Tools**: These tools are similar to enterprise application development but geared towards technologists. Virtuoso is an example of such tools, it offers QA automation and web application code generators, which allows for faster and easier website creation.
+
+* **Web App Development**: This is a large category that has been evolving over time, it includes long-standing tools such as WordPress and newer entrants such as Bubble, Adalo, Webflow, and even AirTable, which bills itself as an application development environment. These tools often contain a content management system (CMS) and a user-friendly set of capabilities. Individuals with little to no technical knowledge are able to create attractive websites and smaller applications very quickly with no HTML, CSS, Javascript or other esoteric web technology knowledge required.
+
+* **Workflow Automation**: A workflow may be defined as a set of related activities, which are completed in a certain order to achieve a specific organizational goal. Whereas automation enables these activities to be controlled by a system that will ensure their completeness, correctness and repeatability. Zapier, Kissflow, and Pipefy are all examples of tools that provide integration and/or facilitate business processes workflows, enabling LCNC business users to describe and run full end-to-end business processes.
+
+[List of LCNC platforms and funding](https://docs.google.com/spreadsheets/d/160sFMEpNqjJkPCr4pxRLK_yZVT7mJJRSlRG9HZNdxBQ/edit#gid=0) (not sure as of when)
+
 ## Features
 
 * Visual modeling tools: form builders, GUI builders, etc. Use built-in components to represent information in a form that is readable; data entry/input; validate that input
@@ -124,7 +162,7 @@ summary=Reading and notes around low-code platforms.
 * [Internal](https://internal.io): Console-as-a-service, better tools for customer-facing teams
 * [Involve.Me](https://www.involve.me): Build customizable widgets like quizzes, forms & calculators
 * [It's Alive](https://itsalive.io): Create a Facebook bot in minutes
-* [Jimdo](https://www.jimdo.com): Your Website Builder‎
+* [Jimdo](https://www.jimdo.com): Your Website Builder
 * [JMix](https://www.jmix.io/) (formerly known as [CUBA Platform](https://github.com/cuba-platform)): An open-source RAD system for enterprise. Comes with dozens of tools and extensible infrastructure.
 * [Jotform](https://jotform.com): Online Form Builder & Form Creator.
 * [JUDO](https://www.judo.codes): low-code platform aiming for enterprise use. Offers more flexibility in terms of data modeling, UI design and development.
@@ -196,8 +234,8 @@ summary=Reading and notes around low-code platforms.
 * [Screenshot](https://www.screenshotapi.net/): Programmatic Screenshots of Any Website in Seconds.
 * [Screenzy](https://screenzy.io): Screenshot beautifier
 * [ServiceNow Platform](https://www.servicenow.com/now-platform.html): Get native platform intelligence, so you can predict, prioritize, and proactively manage the work that matters most with the Now Platform from ServiceNow.
-* [Sheet2Site](https://sheet2site.com): Turn your 📗 Google Sheets into 🎨 professional websites
-* [Ship](https://producthunt.com/ship): A toolkit to ship awesome products, by Product Hunt ⛵️
+* [Sheet2Site](https://sheet2site.com): Turn your Google Sheets into professional websites
+* [Ship](https://producthunt.com/ship): A toolkit to ship awesome products, by Product Hunt
 * [Simple Analytics](https://simpleanalytics.io): Simple, clean, and friendly analytics.
 * [Simple scraper](https://simplescraper.io): The web is your API
 * [Simplifier](https://www.simplifier.io/en/): a web-based configuration framework for the creation of IoT (Internet of Things) application. It is one of the Low-code development platforms which provides a real time update of changes.
@@ -229,7 +267,7 @@ summary=Reading and notes around low-code platforms.
 * [Typeform](https://www.typeform.com): Create forms and surveys that people enjoy answering
 * [Udesly](https://www.udesly.com): Use Webflow to create WordPress and Shopify Themes
 * [Uipath](https://www.uipath.com/): We make robots so people don’t have to be  robots.
-* [Unbounce](https://unbounce.com): Landing Pages: More Powerful Customization‎
+* [Unbounce](https://unbounce.com): Landing Pages: More Powerful Customization
 * [unDraw](https://undraw.co): Free, open-source illustrations for every project.
 * [Universe](https://onuniverse.com): Make an awesome website from your phone.
 * [Versoly](https://versoly.com/): The Easiest Way to Build Your SaaS Website

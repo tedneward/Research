@@ -9,6 +9,11 @@ Programming languages are (generally) human-friendly means of getting a computer
 
 See also [Language Places](/places/languages) and [PLZoo](/places/plzoo)
 
+---
+
+> "Every configuration file becomes a Turing-complete language eventually." --James Gosling
+
+[Every simply language will eventually end up Turing complete](https://solutionspace.blog/2021/12/04/every-simple-language-will-eventually-end-up-turing-complete/)
 
 ## Language concepts
 
