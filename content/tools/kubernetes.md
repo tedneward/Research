@@ -24,3 +24,16 @@ Features:
 * Self-healing: Restarts containers that fail, replaces and reschedules containers when nodes die, kills containers that don't respond to your user-defined health check, and doesn't advertise them to clients until they are ready to serve.
 * Designed for extensibility: Add features to your Kubernetes cluster without changing upstream source code.
 
+---
+
+Kubernetes scope levels:
+
+![](https://media-exp1.licdn.com/dms/image/C4D22AQFGGnID0n3O7w/feedshare-shrink_800/0/1646199387172?e=1649289600&v=beta&t=tOpWwoqDw4YOWpwnKN-OqSM_M53vSTPWdyQnyo1jlik)
+
+Project (Strongest network/data/metadata isolation)
+... contains Cluster(s) (Strongest control plane isolation, stronger network/data isolation, strong metadata isolation)
+... contains Node(s) (stronger resource/network/data isolation)
+... contains Pod(s) (Some network isolation, some more resource isolation)
+... contains Container(s) (Some resource isolation, kernel security isolation)
+... with Namespaces (Some control plane isolation, service account isolation) being inside Cluster and encircling Pods
+
