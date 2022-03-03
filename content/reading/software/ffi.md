@@ -30,7 +30,7 @@ C generally mapped the name of a function directly to the exported ABI name, usu
 
 #### [C++](/languages/cplusplus)
 
-... was where things got *really* interesting. In order to support function overloading (same name, different parameters), C++ generated C-style function names with the parameters encoded as part of the name; example:
+... was where things got *really* interesting. (*Inside the C++ Object Model* had/has a lot of details on this.) In order to support function overloading (same name, different parameters), C++ generated C-style function names with the parameters encoded as part of the name; example:
 
 ```
 int  f () { return 1; }
