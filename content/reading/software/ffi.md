@@ -26,7 +26,7 @@ How do we name the exported entry point? Does the entry point have any metadata 
 
 #### [C](/languages/c)
 
-C generally mapped the name of a function directly to the exported ABI name, usually with a prefixed `_`. (Not sure of the reason for that prefix, to be honest.) "an identifier beginning with an underscore followed by a capital letter is a [reserved identifier]() in C, so conflict with user identifiers is avoided"
+C generally mapped the name of a function directly to the exported ABI name, usually with a prefixed `_`. (Not sure of the reason for that prefix, to be honest.) "an identifier beginning with an underscore followed by a capital letter is a [reserved identifier](https://en.wikipedia.org/wiki/Reserved_word) in C, so conflict with user identifiers is avoided"
 
 #### [C++](/languages/cplusplus)
 
