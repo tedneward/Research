@@ -3,7 +3,7 @@ tags=platform, presentation, browser
 summary=Standardized web browser programming.
 ~~~~~~
 
-The Web browsers (Chrome, IE, Firefox, etc) form a platform in of themselves, given how much is targeted specifically to them. That said, there is a great deal of overlap between the browser ecosystem and the [NodeJS](nodejs.html) platform, owing to the ECMAScript-based nature of each.
+The Web browsers ([Chrome](../chrome), [Safari](../safari), IE, [Firefox](../firefox), etc) form a platform in of themselves, given how much is targeted specifically to them. That said, there is a great deal of overlap between the browser ecosystem and the [NodeJS](nodejs.html) platform, owing to the ECMAScript-based nature of each.
 
 ## Web APIs
 [MDN list](https://developer.mozilla.org/en-US/docs/Web/API):
@@ -29,12 +29,76 @@ The Web browsers (Chrome, IE, Firefox, etc) form a platform in of themselves, gi
 * [URL](https://developer.mozilla.org/en-US/docs/Web/API/URL_API)
 * [Web Notifications](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API)
 * [Web Storage](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
-* [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
+* [Web Workers](../webworkers)
 * [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) (This should be its own page)
 * [WebRTC](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API) (This should be its own page)
 * [Websockets API](https://developer.mozilla.org/en-US/docs/Web/API/Websockets_API) and [here](/distribution/websockets.html)
 
-## Web workers
-A background task that can be created via script, which can send messages back to its creator. Creating a worker is done by calling the Worker("path/to/worker/script") constructor.
-
-[MDN](https://developer.mozilla.org/en-US/docs/Web/API/Worker)
+Background Fetch API 
+Barcode Detection API
+Battery API
+Beacon
+CSS Counter Styles
+CSS Font Loading API
+CSS Painting API
+CSS Typed Object Model API
+CSSOM
+Channel Messaging API
+Clipboard API
+Contact Picker API
+Content Index API
+Credential Management API
+Encoding API
+Encrypted Media Extensions
+EyeDropper API
+File System Access API
+File and Directory Entries API
+Gamepad API 
+HTML DOM
+HTML Sanitizer API
+High Resolution Time
+History API
+Image Capture API
+Layout Instability API
+Long Tasks API 
+Media Capabilities API 
+Media Capture and Streams
+Media Session API
+Media Source Extensions 
+MediaStream Recording
+Network Information API 
+Payment Request API
+Performance API
+Performance Timeline API
+Periodic Background Sync
+Permissions API
+Picture-in-Picture API
+Pointer Events
+Pointer Lock API
+Presentation API 
+Proximity Events  
+Push API 
+Resize Observer API
+Resource Timing API
+Screen Capture API
+Screen Orientation API 
+Screen Wake Lock API
+Sensor API
+Streams 
+URL Pattern API
+Vibration API
+Visual Viewport 
+Web Animations
+Web Audio API
+Web Authentication API
+Web Crypto API
+Web MIDI API
+Web Share API
+Web Speech API
+WebCodecs API
+WebHID API
+WebVR API  
+WebVTT
+WebXR Device API
+Window Controls Overlay API
+XMLHttpRequest
