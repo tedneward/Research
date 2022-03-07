@@ -10,7 +10,7 @@ The Web browsers ([Chrome](../chrome), [Safari](../safari), IE, [Firefox](../fir
 * [Background tasks](https://developer.mozilla.org/en-US/docs/Web/API/Background_Tasks_API)
 * [Bluetooth](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API)
 * [Broadcast Channel](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API): broadcast messages across windows/frames/etc
-* [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API): a means for drawing 2D graphics via JavaScript and the HTML <canvas> element.
+* [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API): a means for drawing 2D graphics via JavaScript and the HTML `<canvas>` element.
 * [Console](https://developer.mozilla.org/en-US/docs/Web/API/Console_API): functionality to allow developers to perform debugging tasks, such as logging messages or the values of variables at set points in your code, or timing how long an operation takes to complete.
 * [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 * [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API): generalized replacement for XMLHttpRequest
