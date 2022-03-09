@@ -137,7 +137,52 @@ summary=Articles and links about using no Web framework at all.
 
             * Server-side rendering (SSR): *(I find it hilarious and sad that we talk about using client-side Javascript fameworks to do server-side rendering with a straight face)*
 
-            * 
+            * Internationalization: Internationalization have been handled by libraries for many years now (and finally integrated within frameworks). You can easily integrate one of those libs but this could also be a good candidate for an in-house implementation, which would allow more simple and efficient messages types than a general-purpose lib can.
 
+                        ```
+                        interface WelcomeMessages {
+                            title: string
+                            greetings(user: string, unreadCount: number): string
+                        }
+                        class WelcomeMessage_en implements WelcomeMessage {
+                            title = "Welcome !",
+                            greetings = (user, unreadCount) => `Welcome ${user}, you have ${unreadCount} unread messages.`
+                        }
+                        class WelcomeMessage_fr implements WelcomeMessage {
+                            title = "Bienvenue !",
+                            greetings = (user, unreadCount) => `Bienvenue ${user}, vous avez ${unreadCount} nouveaux messages.`
+                        }
+                        ```
 
+                Note that this provides you:
+                
+                * type checking: every message has a static type (and several implementations/translations), so your IDE can check if you’re using a valid message property or not, and provide you auto-completion.
+                
+                * translation exhaustivity check: you can’t compile until all interface keys are implemented in all languages.
+
+                All you have is to (load and) instantiate the message class that is relevant to you user’s locale. General purpose libs can’t provide such business-specific types.
+
+                *(I think he's oversimplifying the case, but at the same time, I think a lot of frameworks over-complexify the case so let's assume this is the simplest thing, and get more complicated from there as need be.)*
+
+            * Tools: If you want to free yourself from dependency on a too constraining software stack, it is likely that you’d want to do the same with your tools: you don’t want to depend on them (their limitations, their performance, their bugs, their versions) to be able to move forward. You don’t want tot get stuck with a build problem that you cannot solve (or need hours or days to solve) because you do not own it (especially when using trendy but recent build tools which are not fully battle-tested yet). That said, you will hardy avoid those tools. Most often your production code will have to be bundled in a clever way, involving minification, obfuscation, code splitting, tree shaking, lazy loading, style inclusion, etc. and there is little doubt that existing packagers such as Webpack, Parcel, ESBuild or Vite will do it better that you could. All you can do about it is:
+
+                * Use less transformations as possible. For instance, using TypeScript might a good thing but implies an additional level of complexity that has to be handled by your tooling chain. Maybe your CSS also, especially with the latest modern versions, is not worth using preprocessors like Sass.
+                * Use less tools as possible. The more you add, the more one can fail / not support your needs.
+                * When using one, use the most popular tool so what you need is more likely to be supported by such a battle-tested software (and so you won’t be stuck in a position of “change need or change tool”). Moving to the latest hyped bundler too early might save you a few build seconds that might be compensated by the time devoted understanding the new beta documentation, handling bugs or lack of support.
+
+                *(I'm really not sure I agree with his take on this; he has some good points, but this feels like it encourages a very "build it all yourself" approach--which, to be fair, is a known concern that he's addressed repeatedly all over the place. Still, I think the better takeaway here is, "Use tools sparingly but deliberately." Know what the tool does, be able to live one layer deeper than what the tool gives you, and so on.)*
+
+        * Challenges: (from others)
+
+            * “you’re going to write your own framework”: no, you’re going to write an app instead of a framework.
+            * “you’re going to write more code”: maybe, maybe not so much (depending on your use of libraries) as this has to be compared with the boilerplate code required by frameworks. In any case, the overall loaded code size will be smaller,
+            * “you’re going to reinvent the wheel constantly”: of course not: not using a framework is just choosing to not comply with its predefined rules (configuration, lifecycle, refresh mechanism, etc.) but it’s not forgetting DRY principles and, as stated above, you can still (and should) use battle-tested third-party libraries.
+            * “you will write more code for every feature”: no, you’ll just use your own rules instead of the framework boilerplate.
+            * “there will be no documentation”: no documentation about the framework for sure (since there’s isn’t any) but, as for any software development, you are still expected to document your app. Notably, the use of patterns will help to auto-document your software design. Your app’s code documentation is the one you care about ; having an additional framework’s documentation is just the consequence of having a framework.
+            * “there will be no constraints or patterns to guide the developer”: no, nothing prevents you to enforce constraints if you need it (you just have to define contracts). The difference is that they will be the constraints of your choice, tailored for your app.
+            * “you will miss performance improvements” such as the once-hyped Virtual Dom (which is today challenged, including by subsequent frameworks like Svelte or Aurelia): no, as those “performance improvements” are actually more need by the general-purpose nature of frameworks, not by custom apps. On the opposite, general purpose framework will more likely miss a number of performance improvements that a custom code can implement.
+            * “You get this problem because you didn’t use a framework” Every difficulty (bug, delay, recruitment, etc) will be blamed on that unorthodox choice. Because most developers’ experience is that everything that has worked was using a framework, not using them will be assumed risky by default. This assumption will be considered as confirmed as soon as a problem will arise, whether it is related to not using a framework or not. They will forget all the similar issues they had when using framework.
+            * “We can’t find developers”: You’ll be told that it’s difficult to find developers who can develop vanilla code. That’s both true and false. True because a lot of developers (not speaking about managers) will find themselves more comfortable using known recipes such as frameworks. Candidates might feel a bit scared about building a webapp from scratch if they never did it once, or if they don’t know the basic web APIs well. False because, if you want to build quality apps, you should not look for this kind of developers. For sure it is currently easier to find any React developer, but what you need is not a React developer, but a good developer.
+            * “You won’t get the code quality of frameworks”. For sure frameworks or libraries are usually written by major industry players or experienced developers. However, as we saw above, the code of frameworks is mostly related to framework-specific activities (components lifecycle, general-purpose refresh and optimizations, tooling, etc.), not your app. Furthermore, you can still make bad design choices and write poor code using frameworks. The quality of your application always depends more on the quality of your team, than the lack of blueprints.
+            * “You won’t get same performance as frameworks”: No, we’ll get better performance. The marketed argument that framework include sophisticated technologies that can “improve performance” such as the “virtual DOM” (which allowed to bufferize DOM changes in order to limit their changes on it) is off-topic, as it relates to solving the performance drawbacks of a general-purpose solution. When the developer updates the DOM by him/herself, (s)he can get the best performance because (s)he will now if it’s worth bufferizing/caching it or if it’s pure overhead.
 
