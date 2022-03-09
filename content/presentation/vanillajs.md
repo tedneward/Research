@@ -3,7 +3,7 @@ tags=presentation, browser
 summary=Articles and links about using no Web framework at all.
 ~~~~~~
 
-[VanillaJS Toolkit](https://vanillajstoolkit.com/) (ignore the homepage, look at the menu at the top) | [VanillaJS Components](https://github.com/vanillawc/)
+[Website](http://vanilla-js.com/) | [VanillaJS Toolkit](https://vanillajstoolkit.com/) (ignore the homepage, look at the menu at the top) | [VanillaJS Components](https://github.com/vanillawc/)
 
 ["A Framework Author's Case Against Frameworks"](https://youtu.be/VvOsegaN9Wk): Adrian Holovaty, dotJS 2017
 
