@@ -7,7 +7,7 @@ summary=Selections from the management works of Peter F Drucker
 
 # I. Management
 
-## 1. Management as Social Function and Liberal Art #{management-as-social-function-liberal-art}
+## 1. Management as Social Function and Liberal Art
 In less than 150 years, management has transformed the social and economic fabric of the world's developed countries. The truly important problems managers face do not come from technology or politics; they are problems caused by the very success of management itself.
 
 The fundamental task of management remains the same: to make people capable of joint performance through common goals, common values, the right structure, and the training and development they need to perform and to respond to change. But the very meaning of the task has changed, if only because the performance of management has converted the workforce from one composed largely of unskilled laborers to one of highly educated knowledge workers.
@@ -47,14 +47,14 @@ The question, What is management? comes second. There are three tasks that manag
 * Making work productive and the worker effective. A business enterprise (or any other institution) has only one true resource: people. It succeeds by making human resources productive. To make work productive, is, therefore, and essential function--it is increasingly a task of management.
 * Managing social impacts and social responsibilities. None of our institutions exists by itself and is an end in itself. Every one is an organ of society and exists for the sake of society. Free enterprise cannot be justified as being good for business; it can be justified only as being good for society. Business exists to supply goods and services to customers, rather than to supply jobs to workers and managers, or even dividends to stockholders. To discharge its job, the business enterprise has to have impact on people, on communities, and on society. And, increasingly, in our pluralist society of organizations, it has to add to its fundamental concern for the quantities of life for the physical, human, and social environment of modern man and modern community.
 
-## 3. The Purpose and Objectives of a Business {#purpose-objectives-of-business}
+## 3. The Purpose and Objectives of a Business
 Asked what a business is, the typical answer is, "An organization to make a profit"; this is not only false, it is irrelevant. The concept of profit maximization, is, in fact, meaningless. The danger in the concept of profit maximization is that it makes profitability appear a myth. Profit and profitability are, however, crucial. If archangels instead of businessmen sat in directors' chairs, they would still have to be concerned with profitability, despite their total lack of personal interest in making profits.
 
 The root of the confusion is the mistaken belief that the motive of a person--the so-called profit motive of the businessman--is an explanation of his behavior or his guide to right action. Whether there is such a thing as a profit motive at all is highly doubtful. There has never been any existence of the profit motive. We do not learn anything about the work of a heart specialist by being told that he is trying to make a livelihood, or even that he is trying to benefit humanity.
 
 In fact, the concept is worse than irrelevant: it does harm. It is a major cause of the misunderstanding of the nature of profit in our society and of the deep-seated hostility to profit.
 
-To know what a business is, we have to start with its *purpose*: *to create a customer*.
+To know what a business is, we have to start with its *purpose*: ***to create a customer***.
 
 Markets are not created by God, nature, or economic forces, but by businesspeople. It is the customer who determiens what a business is. It is the customer alone whose willingness to pay for a good or for a service converts economic resources into wealth, things into goods. What the customer buys and considers value is never just a product. It is always a utility, that is, what a product or service does for him.
 
