@@ -45,4 +45,4 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az storage blob upload-batch --overwrite true -s $GITHUB_WORKSPACE/build/output -d \$web --connection-string "DefaultEndpointsProtocol=https;AccountName=researchstorage;AccountKey=${{ secrets.AZURE_LICENSE_KEY }};EndpointSuffix=core.windows.net"
+            az storage blob upload-batch -s $GITHUB_WORKSPACE/build/output -d \$web --connection-string "DefaultEndpointsProtocol=https;AccountName=researchstorage;AccountKey=${{ secrets.AZURE_LICENSE_KEY }};EndpointSuffix=core.windows.net"
