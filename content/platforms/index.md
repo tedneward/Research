@@ -33,11 +33,10 @@ Platforms are a wider ecosystem or environment, frequently (but not always) buil
 
 * [Sliksafe](https://www.sliksafe.com/): a Dropbox alternative where all your data is first encrypted on your own device and then stored on decentralized storage. [Whitepaper](https://sliksafe.com/whitepaper.pdf). [Web app](https://app.sliksafe.com), [macOS app](https://sliksafe.com/downloads). [HackerNews](https://news.ycombinator.com/item?id=29637188)
 
-[Awesome OSS Alternatives to SaaS](https://github.com/RunaCapital/awesome-oss-alternatives):
+#### [Awesome OSS Alternatives to SaaS](https://github.com/RunaCapital/awesome-oss-alternatives):
 
-|Category|Company|Description|GitHub Stars|Alternative to|
-|:-------|:------|:----------|:----------:|:------------:|
-API Platform|[Hoppscotch](https://hoppscotch.io/)|API development ecosystem|<a href=https://github.com/hoppscotch/hoppscotch><img src="https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social" width=150/></a>|[Postman](https://www.postman.com/)
+|Category|Company|Description|Source|Alternative to|
+|:-------|:------|:----------|:----------:|:----------:|:------------:|
 Auth & SSO|[Cerbos](https://cerbos.dev/)|Granular access control|<a href=https://github.com/cerbos/cerbos><img src="https://img.shields.io/github/stars/cerbos/cerbos?style=social" width=150/></a>|[Okta](https://okta.com/), [Auth0](https://auth0.com/)
 Auth & SSO|[FusionAuth](https://fusionauth.io/)|User authentication and session management framework|<a href=https://github.com/FusionAuth/fusionauth-containers><img src="https://img.shields.io/github/stars/FusionAuth/fusionauth-containers?style=social" width=150/></a>|[Okta](https://www.okta.com/), [Auth0](https://auth0.com/)|
 Auth & SSO|[Keycloak](https://www.cloud-iam.com/)|User authentication and session management framework|<a href=https://github.com/keycloak/keycloak><img src="https://img.shields.io/github/stars/keycloak/keycloak?style=social" width=150/></a>|[Okta](https://okta.com/), [Auth0](https://auth0.com/)
@@ -45,11 +44,6 @@ Auth & SSO|[OPAL (Permit.io)](https://www.opal.ac/)|Authorization administration
 Auth & SSO|[Ory](https://www.ory.sh/)|Identity platform|<a href=https://github.com/ory/kratos><img src="https://img.shields.io/github/stars/ory/kratos?style=social" width=150/></a>|[Okta](https://okta.com/), [Auth0](https://auth0.com/)
 Auth & SSO|[Oso](https://www.osohq.com/)|Authorization building framework|<a href=https://github.com/osohq/oso><img src="https://img.shields.io/github/stars/osohq/oso?style=social" width=150/></a>|[Okta](https://okta.com/), [Auth0](https://auth0.com/)
 Auth & SSO|[Supertokens](https://supertokens.io/)|User authentication and session management framework|<a href=https://github.com/supertokens/supertokens-core><img src="https://img.shields.io/github/stars/supertokens/supertokens-core?style=social" width=150/></a>|[Okta](https://okta.com/), [Auth0](https://auth0.com/)
-Backend as a service|[Amplication](https://amplication.com/)|Backend server with REST and GraphQL APIs to manage core backend needs|<a href=https://github.com/amplication/amplication><img src="https://img.shields.io/github/stars/amplication/amplication?style=social" width=150/></a>|[Firebase](https://firebase.google.com/)
-Backend as a service|[Appwrite](https://appwrite.io/)|Backend server with REST APIs to manage core backend needs|<a href=https://github.com/appwrite/appwrite><img src="https://img.shields.io/github/stars/appwrite/appwrite?style=social" width=150/></a>|[Firebase](https://firebase.google.com/)
-Backend as a service|[Kuzzle](https://kuzzle.io/kuzzle-backend/)|Backend server with REST APIs to manage core backend needs|<a href=https://github.com/kuzzleio/kuzzle><img src="https://img.shields.io/github/stars/kuzzleio/kuzzle?style=social" width=150/></a>|[Firebase](https://firebase.google.com/)
-Backend as a service|[Nhost](https://nhost.io/)|Backend server with GraphQL|<a href=https://github.com/nhost/nhost><img src="https://img.shields.io/github/stars/nhost/nhost?style=social" width=150/></a>|[Firebase](https://firebase.google.com/)
-Backend as a service|[Supabase](https://supabase.io/)|Backend server with REST APIs to manage core backend needs|<a href=https://github.com/supabase/supabase><img src="https://img.shields.io/github/stars/supabase/supabase?style=social" width=150/></a>|[Firebase](https://firebase.google.com/)
 Business Intelligence|[Preset](https://www.preset.io)|Modern BI platform powered by Apache Superset|<a href=https://github.com/apache/superset><img src="https://img.shields.io/github/stars/apache/superset?style=social" width=150/></a>|[PowerBI](https://powerbi.microsoft.com/), [Tableau](https://www.tableau.com/), [Mode Analytics](https://mode.com/)|
 Business intelligence|[Metabase](https://www.metabase.com/)|Business intelligence software|<a href=https://github.com/metabase/metabase><img src="https://img.shields.io/github/stars/metabase/metabase?style=social" width=150/></a>|[Tableau](https://www.tableau.com/), [Power BI](https://powerbi.microsoft.com/), [DataStudio](https://datastudio.google.com/)
 CMS|[Builder](https://builder.io/)|Drag and drop page builder and CMS|<a href=https://github.com/builderio/builder><img src="https://img.shields.io/github/stars/builderio/builder?style=social" width=150/></a>|[Contentful](https://www.contentful.com/)
