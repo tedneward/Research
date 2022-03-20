@@ -952,3 +952,6 @@ code_native(circle_area, (Float64,), syntax = :intel)
     #         nop     dword ptr [rax + rax]
     # ;}
 ```
+
+### Interesting libraries
+[Term](https://github.com/FedeClaudi/Term.jl): a package for creating stylized terminal outputs.

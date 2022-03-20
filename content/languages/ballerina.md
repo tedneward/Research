@@ -12,6 +12,8 @@ summary=A service-oriented programming language.
 
 ["Connecting to and using Google's Cloud SQL with Ballerina"](https://medium.com/@kaneeldias/connecting-to-and-using-googles-cloud-sql-with-ballerina-13e2d6594686)
 
+["How to Create a REST API--Sprint Boot and Ballerina"](https://medium.com/ballerina-techblog/how-to-create-a-rest-api-spring-boot-and-ballerina-cc85477e22c8)
+
 ## Examples
 Hello, world. A Ballerina application can have:
 

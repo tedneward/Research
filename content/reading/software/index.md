@@ -47,3 +47,24 @@ Using RFCs internally for decision-making:
 ---
 
 [Why Engineers Should Invest in Decision Making Skills Early](https://www.reforge.com/blog/technical-decision-making): "... to make more successful technical calls and advance careers, engineers actually need to develop better strategic decision-making skills — not just technical execution skills. In fact, an over-reliance on technical execution skills early in a career leads to untapped impact and stalled growth opportunities down the road."
+
+---
+
+["Questions for a new technology."](https://kellanem.com/notes/new-tech):
+
+1. What problem are we trying to solve? (Tech should never be introduced as an end to itself)
+
+2. How could we solve the problem with our current tech stack? (If the answer is we can’t, then we probably haven’t thought about the problem deeply enough)
+
+3. Are we clear on what new costs we are taking on with the new technology? (monitoring, training, cognitive load, etc)
+
+4. What about our current stack makes solving this problem in a cost-effective manner (in terms of money, people or time) difficult?
+
+5. If this new tech is a replacement for something we currently do, are we committed to moving everything to this new technology in the future? Or are we proliferating multiple solutions to the same problem? (aka “Will this solution kill and eat the solution that it replaces?”)
+
+6. Who do we know and trust who uses this tech? Have we talked to them about it? What did they say about it? What don’t they like about it? (if they don’t hate it, they haven’t used it in depth yet)
+
+7. What’s a low risk way to get started?
+
+8. Have you gotten a mixed discipline group of senior folks together and thrashed out each of the above points? Where is that documented?
+
