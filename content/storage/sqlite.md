@@ -9,6 +9,9 @@ How does SQLite work? [Part 1](https://jvns.ca/blog/2014/09/27/how-does-sqlite-w
 
 [SQLite Tutorial](https://www.tutorialspoint.com/sqlite)
 
+### Swift/iOS
+By default, SQLite from Swift/iOS is an exercise in C integration. Numerous wrappers are available.
+
 ### C#/.NET
 [Microsoft.Data.Sqlite](https://docs.microsoft.com/en-us/dotnet/standard/data/sqlite/): `dotnet add package Microsoft.Data.Sqlite`
 
@@ -66,3 +69,5 @@ using (var connection = new SqliteConnection("Data Source=hello.db"))
 ["Bashing JSON into Shape with SQLite"](https://christine.website/blog/sqlite-json-munge-2022-01-04): "SQLIte added JSON functions to allow you to munge and modify JSON data in whatever creative ways you want."
 
 ["JSON improvements in SQLite 3.38.0"](https://tirkarthi.github.io/programming/2022/02/26/sqlite-json-improvements.html)
+
+

@@ -5,6 +5,8 @@ summary=Links about different ways to store data at high levels of concurrency
 
 ["BASE: An Alternative to ACID"](http://dl.acm.org/citation.cfm?id=1394128&bnc=1) ([PDF](https://dl.acm.org/doi/pdf/10.1145/1394127.1394128))
 
+[CRDTs.tech](https://crdt.tech/): A Conflict-free Replicated Data Type (CRDT) is a data structure that simplifies distributed data storage systems and multi-user applications.
+
 ### Parallel Programming
 
 * [High Performance Computing](http://cnx.org/contents/bb821554-7f76-44b1-89e7-8a2a759d1347%405.2) - Charles Severance & Kevin Dowd (PDF, ePUB)

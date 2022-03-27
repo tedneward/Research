@@ -17,3 +17,4 @@ Collection of links about and around hardware.
 2. [The reMarkable Hacking Ecosystem](https://stachu.net/the-remarkable-hacking-ecosystem/)
 3. [reMarkable.fs](https://stachu.net/remarkable-fs/): an F# framework (work-in-progress) [Source](https://github.com/StachuDotNet/reMarkable.fs/)
 
+[GATERON Mechanical Keyboard](https://www.amazon.com/dp/B01E57PUNA/?th=1)

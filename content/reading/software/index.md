@@ -5,6 +5,8 @@ summary=A collection of reading about software.
 
 [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) (Not sure where else this belongs.)
 
+[Computer Science Education](https://github.com/ossu/computer-science)
+
 Using RFCs internally for decision-making:
 
 * [Bring Back the RFCs](https://medium.com/better-programming/bring-back-the-rfcs-afda4f332ee)

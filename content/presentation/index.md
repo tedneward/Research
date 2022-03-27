@@ -7,6 +7,8 @@ tags=presentation
 
 [Graphical User Interface Programming](https://www.cs.cmu.edu/~bam/pub/uimsCRCrevised.pdf), by Brad Meyers, CMU (circa 2003 but still an interesting overview--not sure much has changed in two decades on this subject)
 
+[Project LightSpeed](https://engineering.fb.com/2020/03/02/data-infrastructure/messenger/): "... using the native OS wherever possible, reusing the UI with dynamic templates powered by SQLite, using SQLite as a universal system, and building a server broker to operate as a universal gateway between Messenger and its server features." In many respects, sounds like part of what they did was adopt a partial [Naked Objects](../nakedobjects.html)-like approach to their UI, storing the UI description in data and building that UI at runtime.
+
 [ECMA Report on User Interface Taxonomy](https://www.ecma-international.org/wp-content/uploads/ECMA_TR-61_1st_edition_june_1992.pdf) (June 1992): Interesting high-level overview of different ideas around user interface and a taxonomy of that space:
 
 * UI structure

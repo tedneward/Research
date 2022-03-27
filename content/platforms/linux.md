@@ -12,3 +12,8 @@ Distributions:
 * [Wikipedia list](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
 
 [Linux Assembly programming](https://www.randallhyde.com/AssemblyLanguage/LinuxAsm/index.html)
+
+[Bottles](https://usebottles.com/) ([Source](https://github.com/bottlesdevs/Bottles)): Run Windows software and games on Linux
+
+[Cassoway](https://github.com/casualsnek/cassowary): Run Windows Applications on Linux as if they are native, Use linux applications to launch files files located in windows vm without needing to install applications on vm. With easy to use configuration GUI
+

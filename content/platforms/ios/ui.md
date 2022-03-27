@@ -3,6 +3,10 @@ tags=platform, ios
 summary=UI development for the Apple mobile device operating system (on top of the open-source Darwin kernel).
 ~~~~~~
 
+## Nib/Storyboard/SwiftUI Alternatives
+
+[Layout](https://github.com/nicklockwood/layout): A declarative UI framework for iOS
+
 ## UIView
 A view forms root of view hierarchy; object instance lifetime isn't quite 1:1 with widget (screen) lifetime.
 

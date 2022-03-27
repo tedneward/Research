@@ -28,6 +28,7 @@ summary=Distributed version-control system.
 * [Git Workflows](https://web.archive.org/web/20210910133251/http://documentup.com/skwp/git-workflows-book) - Yan Pritzker *(:card_file_box: archived)*
 * [Happy Git and GitHub for the useR](https://happygitwithr.com) - Jenny Bryan
 * [How to Collaborate on Github](https://github.com/eonist/How-to-collaborate-on-github) - André J
+* [How to Write Better Git Commit Messages](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
 * [Introduction to Git and Github](https://launchschool.com/books/git) - Launch School
 * [Introduction to Git and Github - Tutorial](http://cse.unl.edu/~cbourke/gitTutorial.pdf) - Dr. Chris Bourke (PDF)
 * [Introduction to Git and GitHub eBook](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook) - Bobby Iliev (Markdown, PDF)
@@ -541,6 +542,9 @@ $ git rm HelloWorld.c
 # Remove a file from a nested dir
 $ git rm /pather/to/the/file/HelloWorld.c
 ```
+
+### Useful tidbits
+["Changing your default branch name from master in Git is easy. Do it now"](https://twitter.com/cecilphillip/status/1493958954434584580): `git config --global init.defaultBranch main`
 
 # Notes from the Git website
 

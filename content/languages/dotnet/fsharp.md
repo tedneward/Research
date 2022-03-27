@@ -22,6 +22,9 @@ F# was originally a CLR-based variant of [OCaml](../ocaml). Since F# 3.0, it has
 
 * [Fable](../fable): A compiler powered by Babel designed to make F# a first-class citizen of the JavaScript ecosystem. See [The Elmish Book](https://zaid-ajaj.github.io/the-elmish-book/#/) for a practical guide on using Fable.
 
+* [Sutil](https://github.com/davedawkins/Sutil):
+    [Using Sutil to develop a real world application](https://hashset.dev/article/16_using_sutil_to_develop_a_real_world_application)
+
 [Mobile](https://fsharp.org/guides/mobile-apps): Most of this centers around Xamarin; lots of the links on the F#.org site are old (2013-era).
 
 [Enterprise](https://fsharp.org/guides/enterprise): Mostly links about why F# is good in enterprise development. A few nuggets of goodness mixed in. [Domain Modeling and DDD in F#](http://fsharpforfunandprofit.com/ddd/), [Domain-Driven Design (DDD) With F# and EventStore](http://gorodinski.com/blog/2013/02/17/domain-driven-design-with-fsharp-and-eventstore/). 
@@ -69,3 +72,4 @@ Some fuzzy logic examples:
 [fsharpsamples (Archive)](https://archive.codeplex.com/?p=fsharpsamples)
 
 [CarParking](https://github.com/serjKim/CarParking): A "real" web app written on F#.
+

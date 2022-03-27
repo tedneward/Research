@@ -19,6 +19,7 @@ summary=A dynamic language and platform.
 
 ### Articles:
 * [WTFPython](https://github.com/satwikkansal/wtfpython): A collection of unintuitive ways Python behaves, with explanations as to why.
+* [Learn Python ASTs, by building your own linter](https://sadh.life/post/ast/)
 
 ### Bridges/FFI:
 

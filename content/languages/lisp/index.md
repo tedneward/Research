@@ -33,6 +33,7 @@ summary=The original dynamic functional(ish) homoiconic (consistent symbology) l
 * ["I Built a Lisp Compiler"](https://mpov.timmorgan.org/i-built-a-lisp-compiler/)
 * ["Make a Lisp"](https://github.com/kanaka/mal): Step-by-step process to make your own lisp in your language of choice.
 * [Writing a lisp compiler from scratch, in JavaScript](https://notes.eatonphil.com/compiler-basics-lisp-to-assembly.html), [Part 2](https://notes.eatonphil.com/compiler-basics-functions.html), [Part 3](https://notes.eatonphil.com/compiler-basics-llvm.html), [Part 4](https://notes.eatonphil.com/compiler-basics-llvm-conditionals.html), [Part 5](https://notes.eatonphil.com/compiler-basics-llvm-system-calls.html), [Part 6](https://notes.eatonphil.com/compiler-basics-an-x86-upgrade.html), [Source](https://github.com/eatonphil/ulisp)
+* [Llisp](https://stopa.io/post/292): A Lisp in Lisp
 
 Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/lispbox/): "Lispbox is an IDE for Common Lisp development. Actually, Lispbox is just a pre-configured packaging of the Emacs editing environment, SLIME (The Superior Lisp Interaction Mode for Emacs), the Quicklisp library manager, and the Clozure Common Lisp compiler."
 
@@ -67,4 +68,8 @@ Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/li
 
 - Clasp — Bringing Common Lisp and C++ Together
 	- https://github.com/drmeister/clasp
+
+### Deployment
+
+[Running Lisp in production](https://www.grammarly.com/blog/engineering/running-lisp-in-production/)
 

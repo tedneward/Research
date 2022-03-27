@@ -5,13 +5,14 @@ summary=The Apple mobile device operating system (on top of the open-source Darw
 
 See also [macOS](../macos)
 
-- [Accessibility](../ios/accessibility)
-- [APIs + Design](../ios/apis_design)
-- [Debugging](../ios/debugging)
-- [Launch](../ios/launch)
-- [Performance](../ios/performance)
-- [Threads, Queues, GCD](../ios/threads_and_queues)
-- [UI](../ios/ui)
+- [Accessibility](../accessibility)
+- [APIs + Design](../apis_design)
+- [Debugging](../debugging)
+- [Foundation](../foundation)
+- [Launch](../launch)
+- [Performance](../performance)
+- [Threads, Queues, GCD](../threads_and_queues)
+- [UI](../ui)
 
 ## General resources
 

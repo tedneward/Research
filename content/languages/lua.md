@@ -420,6 +420,7 @@ g()  -- Prints out 343; nothing printed before now.
 * [ljs](https://github.com/mingodad/ljs): Lua 5.3, Lua 5.1, and LuaJIT with a C/C++/Java/JavaScript syntax. Can convert Lua source code to ljs.
 * JVM: [LuaJ](https://sourceforge.net/projects/luaj/): A Lua 5.2 spec-compliant interpreter written in Java for JME and JSE. Compiles Lua directly to JVM bytecode.
 * OCaml: [LuaML](https://github.com/lindig/lua-ml): Embeddable Lua 2.5 reimplementation that integrates with OCaml type and module system. It's possible to extend or even replace the standard library with your own modules.
+* Swift: [lua4swift](https://github.com/weyhan/lua4swift)
 
 ### FFI
 
