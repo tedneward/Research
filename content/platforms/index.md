@@ -7,36 +7,11 @@ tags=platform
 
 Platforms are a wider ecosystem or environment, frequently (but not always) built around a virtual machine or language.
 
-### Operating Systems
-
-* [A short introduction to operating systems (2001)](http://markburgess.org/os/os.pdf) - Mark Burgess (PDF)
-* [Computer Science from the Bottom Up](http://www.bottomupcs.com)
-* [How to Make a Computer Operating System](https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System) (:construction: *in process*)
-* [How to write a simple operating system in assembly language](http://mikeos.sourceforge.net/write-your-own-os.html) - Mike Saunders (HTML)
-* [Linux From Scratch](https://www.linuxfromscratch.org/lfs/view/stable/) - Gerard Beekmans, Bruce Dubbs, Ken Moffat, Pierre Labastie et al. (HTML, [PDF, downloads...](https://www.linuxfromscratch.org/lfs/downloads/stable/))
-* [Making Servers Work: A Practical Guide to Linux System Administration](https://www.digitalocean.com/community/books/sysadmin-ebook-making-servers-work) - Jamon Camisso (PDF, EPUB)
-* [Operating Systems and Middleware](https://gustavus.edu/mcs/max/os-book/) (PDF and LaTeX)
-* [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/) (PDF)
-* [Practical File System Design: The Be File System](http://www.nobius.org/~dbg/practical-file-system-design.pdf) - Dominic Giampaolo (PDF)
-* [Project Oberon: The Design of an Operating System, a Compiler, and a Computer](http://people.inf.ethz.ch/wirth/ProjectOberon/index.html) - Niklaus Wirth & Jürg Gutknecht (PDF)
-* [The Art of Unix Programming](http://catb.org/esr/writings/taoup/html/) - Eric S. Raymond
-* [The Design and Implementation of the Anykernel and Rump Kernels](http://www.fixup.fi/misc/rumpkernel-book/) - Antti Kantee
-* [The little book about OS development](https://littleosbook.github.io) - Erik Helin, Adam Renberg
-* [The Little Book of Semaphores](http://greenteapress.com/semaphores/) - Allen B. Downey
-* [Think OS: A Brief Introduction to Operating Systems](http://www.greenteapress.com/thinkos/index.html) - Allen B. Downey (PDF)
-* [UNIX Application and System Programming, lecture notes](http://www.compsci.hunter.cuny.edu/~sweiss/course_materials/unix_lecture_notes.php) - Prof. Stewart Weiss (PDF)
-* [Writing a Simple Operating System from Scratch](http://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf) - Nick Blundell (PDF)
-* [Xv6, a simple Unix-like teaching operating system](https://pdos.csail.mit.edu/6.828/2012/xv6.html)
-
-
 ### Other platform-like links:
 
 * [Sliksafe](https://www.sliksafe.com/): a Dropbox alternative where all your data is first encrypted on your own device and then stored on decentralized storage. [Whitepaper](https://sliksafe.com/whitepaper.pdf). [Web app](https://app.sliksafe.com), [macOS app](https://sliksafe.com/downloads). [HackerNews](https://news.ycombinator.com/item?id=29637188)
 
 #### [Awesome OSS Alternatives to SaaS](https://github.com/RunaCapital/awesome-oss-alternatives):
-
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
 
 Auth & SSO (alternatives to Okta, Auth0):
 
@@ -49,12 +24,9 @@ Auth & SSO (alternatives to Okta, Auth0):
 * [Supertokens](https://supertokens.io/): User authentication and session management framework [Source](https://github.com/supertokens/supertokens-core)
 
 Business Intelligence (alternatives to [PowerBI](https://powerbi.microsoft.com/), [Tableau](https://www.tableau.com/), [Mode Analytics](https://mode.com/), [DataStudio](https://datastudio.google.com/)):
+
 * [Preset](https://www.preset.io): Modern BI platform powered by Apache Superset [Source](https://github.com/apache/superset); 
 * [Metabase](https://www.metabase.com/): Business intelligence software [Source](https://github.com/metabase/metabase) 
-
-Communication (alternatives to [Twilio](https://www.twilio.com/)):
-
-* [Fonoster](https://fonoster.com/): APIs for SMS, voice and video [Source](https://github.com/fonoster/fonoster)
 
 Customer Data Platform (alternatives to [Segment](https://segment.com/)):
 
@@ -84,13 +56,13 @@ Design (alternatives to [Figma](https://www.figma.com/)):
 
 E-commerce (alternatives to [Shopify](https://www.shopify.com/), [Ecwid](https://www.ecwid.com/)):
 
-* [Bagisto](https://bagisto.com/en/)|Headless e-commerce platform|<a href=https://github.com/bagisto/bagisto><img src="https://img.shields.io/github/stars/bagisto/bagisto?style=social" width=150/></a>|[Bagisto](https://bagisto.com/en/)
-* [Medusa](https://www.medusajs.com/)|Headless e-commerce platform|<a href=https://github.com/medusajs/medusa><img src="https://img.shields.io/github/stars/medusajs/medusa?style=social" width=150/></a>
-* [Saleor](https://saleor.io/)|Headless e-commerce platform|<a href=https://github.com/saleor/saleor><img src="https://img.shields.io/github/stars/saleor/saleor?style=social" width=150/></a>
-* [Shuup](https://shuup.com)|Headless e-commerce platform|<a href=https://github.com/shuup/shuup><img src="https://img.shields.io/github/stars/shuup/shuup?style=social" width=150/></a>
-* [Sylius](https://sylius.com/)|Headless e-commerce platform|<a href=https://github.com/sylius/sylius><img src="https://img.shields.io/github/stars/sylius/sylius?style=social" width=150/></a>
-* [Vendure](https://www.vendure.io/)|Headless e-commerce platform|<a href=https://github.com/vendure-ecommerce/vendure><img src="https://img.shields.io/github/stars/vendure-ecommerce/vendure?style=social" width=150/></a>
-* [Vue Storefront](https://www.vuestorefront.io/)|Frontend for e-commerce platform|<a href=https://github.com/vuestorefront/vue-storefront><img src="https://img.shields.io/github/stars/vuestorefront/vue-storefront?style=social" width=150/></a>|[Shogun](https://getshogun.com/)
+* [Bagisto](https://bagisto.com/en/): Headless e-commerce platform [Source](https://github.com/bagisto/bagisto)
+* [Medusa](https://www.medusajs.com/): Headless e-commerce platform [Source](https://github.com/medusajs/medusa)
+* [Saleor](https://saleor.io/): Headless e-commerce platform [Source](https://github.com/saleor/saleor)
+* [Shuup](https://shuup.com): Headless e-commerce platform [Source](https://github.com/shuup/shuup)
+* [Sylius](https://sylius.com/): Headless e-commerce platform [Source](https://github.com/sylius/sylius)
+* [Vendure](https://www.vendure.io/): Headless e-commerce platform [Source](https://github.com/vendure-ecommerce/vendure)
+* [Vue Storefront](https://www.vuestorefront.io/): Frontend for e-commerce platform [Source](https://github.com/vuestorefront/vue-storefront)
 
 ELT / ETL:
 
