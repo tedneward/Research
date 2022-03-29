@@ -13,4 +13,4 @@ Debug Tutorial on CodeProject:
 * [Part 6: Kernel debugging](https://www.codeproject.com/Articles/7913/Debug-Tutorial-Part-6-Navigating-The-Kernel-Debugg)
 * [Part 7: Locks and sync](https://www.codeproject.com/Articles/7919/Debug-Tutorial-Part-7-Locks-and-Synchronization-Ob)
 
-[Windoes Debugger WinDbg Tutorial](https://www.codeproject.com/Articles/6084/Windows-Debuggers-Part-1-A-WinDbg-Tutorial)
+[Windows Debugger WinDbg Tutorial](https://www.codeproject.com/Articles/6084/Windows-Debuggers-Part-1-A-WinDbg-Tutorial)
