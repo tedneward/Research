@@ -21,6 +21,7 @@ Distributed systems are the means by which programs on one machine communicate w
 * [My Little Pony: Friendship is Magic Episode information API](https://github.com/Xe/PonyAPI)
 * [Streaming Movie of the Night API](https://www.movieofthenight.com/about/api)
 * [Nessie, Capital One's Hackathon API](http://api.reimaginebanking.com/): Nessie provides access to some real public-facing data such as Capital One ATM and bank branch locations, along with some mock customer account data, and was designed for use in experiments like this.
+* [Gamestonk Terminal](https://github.com/GamestonkTerminal/GamestonkTerminal): Investment research for everyone [Source](https://github.com/GamestonkTerminal/GamestonkTerminal) (open-source alternative to [Bloomberg](https://www.bloomberg.com/))
 
 ## Interesting tools based on network APIs
 

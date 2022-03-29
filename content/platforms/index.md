@@ -52,47 +52,20 @@ Business Intelligence (alternatives to [PowerBI](https://powerbi.microsoft.com/)
 * [Preset](https://www.preset.io): Modern BI platform powered by Apache Superset [Source](https://github.com/apache/superset); 
 * [Metabase](https://www.metabase.com/): Business intelligence software [Source](https://github.com/metabase/metabase) 
 
-Content Management Systems:
+Communication (alternatives to [Twilio](https://www.twilio.com/)):
 
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[Builder](https://builder.io/)|Drag and drop page builder and CMS|<a href=https://github.com/builderio/builder><img src="https://img.shields.io/github/stars/builderio/builder?style=social" width=150/></a>|[Contentful](https://www.contentful.com/)
-[Concrete](https://www.concretecms.com/)|CMS for teams|<a href=https://github.com/concrete5/concrete5><img src="https://img.shields.io/github/stars/concrete5/concrete5?style=social" width=150/></a>|[Contentful](https://www.contentful.com/)|
-[Directus](https://directus.io/)|Data platform which wraps any database with an intuitive app|<a href=https://github.com/directus/directus><img src="https://img.shields.io/github/stars/directus/directus?style=social" width=150/></a>|[Contentful](https://www.contentful.com/)
-[Netlify CMS](https://www.netlifycms.org/)|Git-based CMS for static site generators|<a href=https://github.com/netlify/netlify-cms><img src="https://img.shields.io/github/stars/netlify/netlify-cms?style=social" width=150/></a>|[Contentful](https://www.contentful.com/)
-[Plasmic](https://plasmic.app/)|The headless page builder for singe-page frameworks|<a href=https://github.com/plasmicapp/plasmic><img src="https://img.shields.io/github/stars/plasmicapp/plasmic?style=social" width=150/></a>|[Contentful](https://www.contentful.com/)|
-[Strapi](https://strapi.io/)|Node.js Headless CMS to build customisable APIs|<a href=https://github.com/strapi/strapi><img src="https://img.shields.io/github/stars/strapi/strapi?style=social" width=150/></a>|[Contentful](https://www.contentful.com/)
-[Sulu](https://sulu.io/)|Modern Symfony based CMS|<a href=https://github.com/sulu/sulu><img src="https://img.shields.io/github/stars/sulu/sulu?style=social" width=150/></a>|[Contentful](https://www.contentful.com/)
-[Tina](https://tina.io/)|Visual editor for React websites|<a href=https://github.com/tinacms/tinacms><img src="https://img.shields.io/github/stars/tinacms/tinacms?style=social" width=150/></a>|[Contentful](https://www.contentful.com/)
-[Webiny](https://www.webiny.com/)|Enterprise serverless CMS|<a href=https://github.com/webiny/webiny-js><img src="https://img.shields.io/github/stars/webiny/webiny-js?style=social" width=150/></a>|[Contentful](https://www.contentful.com/)
+* [Fonoster](https://fonoster.com/): APIs for SMS, voice and video [Source](https://github.com/fonoster/fonoster)
 
-Cloud Storage:
+Customer Data Platform (alternatives to [Segment](https://segment.com/)):
 
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[Minio](https://min.io/)|S3 compatible object storage|<a href=https://github.com/minio/minio><img src="https://img.shields.io/github/stars/minio/minio?style=social" width=150/></a>|[Amazon S3](https://aws.amazon.com/s3/)|
-[Storj](https://www.storj.io/)|Decentralized cloud storage|<a href=https://github.com/storj/storj><img src="https://img.shields.io/github/stars/storj/storj?style=social" width=150/></a>|[Amazon S3](https://aws.amazon.com/s3/)|
+* [Jitsu](https://jitsu.com/): Fully-scriptable data ingestion engine for modern data teams [Source](https://github.com/jitsucom/jitsu)
+* [Rudderstack](https://rudderstack.com/): Customer data platform for developers [Source](https://github.com/rudderlabs/rudder-server)
 
-Communication:
+Customer Engagement (alternatives to [Intercom](https://www.intercom.com/), [Zendesk](https://www.zendesk.com/)):
 
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[Fonoster](https://fonoster.com/)|APIs for SMS, voice and video|<a href=https://github.com/fonoster/fonoster><img src="https://img.shields.io/github/stars/fonoster/fonoster?style=social" width=150/></a>|[Twilio](https://www.twilio.com/)|
-
-Customer Data Platform:
-
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[Jitsu](https://jitsu.com/)|Fully-scriptable data ingestion engine for modern data teams|<a href=https://github.com/jitsucom/jitsu><img src="https://img.shields.io/github/stars/jitsucom/jitsu?style=social" width=150/></a>|[Segment](https://segment.com/)
-[Rudderstack](https://rudderstack.com/)|Customer data platform for developers|<a href=https://github.com/rudderlabs/rudder-server><img src="https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social" width=150/></a>|[Segment](https://segment.com/)
-
-Customer Engagement:
-
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[Chaskiq](https://chaskiq.io/)|Live chat widget|<a href=https://github.com/chaskiq/chaskiq><img src="https://img.shields.io/github/stars/chaskiq/chaskiq?style=social" width=150/></a>|[Intercom](https://www.intercom.com/), [Zendesk](https://www.zendesk.com/)
-[Chatwoot](https://www.chatwoot.com/)|Live chat widget|<a href=https://github.com/chatwoot/chatwoot><img src="https://img.shields.io/github/stars/chatwoot/chatwoot?style=social" width=150/></a>|[Intercom](https://www.intercom.com/), [Zendesk](https://www.zendesk.com/)
-[Papercups](https://papercups.io/)|Live chat widget|<a href=https://github.com/papercups-io/papercups><img src="https://img.shields.io/github/stars/papercups-io/papercups?style=social" width=150/></a>|[Intercom](https://www.intercom.com/), [Zendesk](https://www.zendesk.com/)
+* [Chaskiq](https://chaskiq.io/): Live chat widget [Source](https://github.com/chaskiq/chaskiq)
+* [Chatwoot](https://www.chatwoot.com/): Live chat widget [Source](https://github.com/chatwoot/chatwoot)
+* [Papercups](https://papercups.io/): Live chat widget [Source](https://github.com/papercups-io/papercups)
 
 Cybersecurity:
 
@@ -104,24 +77,20 @@ Cybersecurity:
 [Gravitl](https://gravitl.com)|WireGuard virtual networking platform (VPN)|<a href=https://github.com/gravitl/netmaker><img src="https://img.shields.io/github/stars/gravitl/netmaker?style=social" width=150/></a>|[Tailscale](https://tailscale.com/), [OpenVPN](https://openvpn.net/)|
 [Nuclei](https://nuclei.projectdiscovery.io/)|Vulnerability scanner based on simple YAML based DSL|<a href=https://github.com/projectdiscovery/nuclei><img src="https://img.shields.io/github/stars/projectdiscovery/nuclei?style=social" width=150/></a>|[Tenable Nessus](https://www.tenable.com/products/nessus)|
 
-Design:
+Design (alternatives to [Figma](https://www.figma.com/)):
 
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[Modulz](https://www.modulz.app/)|Code-based tool for designing and prototyping|<a href=https://github.com/radix-ui/primitives><img src="https://img.shields.io/github/stars/radix-ui/primitives?style=social" width=150/></a>|[Figma](https://www.figma.com/)|
-[Penpot](https://penpot.app/)|Design & prototyping platform|<a href=https://github.com/penpot/penpot><img src="https://img.shields.io/github/stars/penpot/penpot?style=social" width=150/></a>|[Figma](https://www.figma.com/)|
+* [Modulz](https://www.modulz.app/): Code-based tool for designing and prototyping [Source](https://github.com/radix-ui/primitives)
+* [Penpot](https://penpot.app/): Design & prototyping platform [Source](https://github.com/penpot/penpot)
 
-E-commerce:
+E-commerce (alternatives to [Shopify](https://www.shopify.com/), [Ecwid](https://www.ecwid.com/)):
 
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[Bagisto](https://bagisto.com/en/)|Headless e-commerce platform|<a href=https://github.com/bagisto/bagisto><img src="https://img.shields.io/github/stars/bagisto/bagisto?style=social" width=150/></a>|[Bagisto](https://bagisto.com/en/)
-[Medusa](https://www.medusajs.com/)|Headless e-commerce platform|<a href=https://github.com/medusajs/medusa><img src="https://img.shields.io/github/stars/medusajs/medusa?style=social" width=150/></a>|[Shopify](https://www.shopify.com/), [Ecwid](https://www.ecwid.com/)
-[Saleor](https://saleor.io/)|Headless e-commerce platform|<a href=https://github.com/saleor/saleor><img src="https://img.shields.io/github/stars/saleor/saleor?style=social" width=150/></a>|[Shopify](https://www.shopify.com/), [Ecwid](https://www.ecwid.com/)
-[Shuup](https://shuup.com)|Headless e-commerce platform|<a href=https://github.com/shuup/shuup><img src="https://img.shields.io/github/stars/shuup/shuup?style=social" width=150/></a>|[Shopify](https://www.shopify.com/), [Ecwid](https://www.ecwid.com/)
-[Sylius](https://sylius.com/)|Headless e-commerce platform|<a href=https://github.com/sylius/sylius><img src="https://img.shields.io/github/stars/sylius/sylius?style=social" width=150/></a>|[Shopify](https://www.shopify.com/), [Ecwid](https://www.ecwid.com/)
-[Vendure](https://www.vendure.io/)|Headless e-commerce platform|<a href=https://github.com/vendure-ecommerce/vendure><img src="https://img.shields.io/github/stars/vendure-ecommerce/vendure?style=social" width=150/></a>|[Shopify](https://www.shopify.com/), [Ecwid](https://www.ecwid.com/)
-[Vue Storefront](https://www.vuestorefront.io/)|Frontend for e-commerce platform|<a href=https://github.com/vuestorefront/vue-storefront><img src="https://img.shields.io/github/stars/vuestorefront/vue-storefront?style=social" width=150/></a>|[Shogun](https://getshogun.com/)
+* [Bagisto](https://bagisto.com/en/)|Headless e-commerce platform|<a href=https://github.com/bagisto/bagisto><img src="https://img.shields.io/github/stars/bagisto/bagisto?style=social" width=150/></a>|[Bagisto](https://bagisto.com/en/)
+* [Medusa](https://www.medusajs.com/)|Headless e-commerce platform|<a href=https://github.com/medusajs/medusa><img src="https://img.shields.io/github/stars/medusajs/medusa?style=social" width=150/></a>
+* [Saleor](https://saleor.io/)|Headless e-commerce platform|<a href=https://github.com/saleor/saleor><img src="https://img.shields.io/github/stars/saleor/saleor?style=social" width=150/></a>
+* [Shuup](https://shuup.com)|Headless e-commerce platform|<a href=https://github.com/shuup/shuup><img src="https://img.shields.io/github/stars/shuup/shuup?style=social" width=150/></a>
+* [Sylius](https://sylius.com/)|Headless e-commerce platform|<a href=https://github.com/sylius/sylius><img src="https://img.shields.io/github/stars/sylius/sylius?style=social" width=150/></a>
+* [Vendure](https://www.vendure.io/)|Headless e-commerce platform|<a href=https://github.com/vendure-ecommerce/vendure><img src="https://img.shields.io/github/stars/vendure-ecommerce/vendure?style=social" width=150/></a>
+* [Vue Storefront](https://www.vuestorefront.io/)|Frontend for e-commerce platform|<a href=https://github.com/vuestorefront/vue-storefront><img src="https://img.shields.io/github/stars/vuestorefront/vue-storefront?style=social" width=150/></a>|[Shogun](https://getshogun.com/)
 
 ELT / ETL:
 
@@ -132,11 +101,9 @@ ELT / ETL:
 [Orchest](https://www.orchest.io/)|No-code data pipelines builder|<a href=https://github.com/orchest/orchest><img src="https://img.shields.io/github/stars/orchest/orchest?style=social" width=150/></a>|[Fivetran](https://fivetran.com/)
 [Prefect](https://www.prefect.io/)|Data orchestration platform for a modern data stack|<a href=https://github.com/prefecthq/prefect><img src="https://img.shields.io/github/stars/prefecthq/prefect?style=social" width=150/></a>|[Fivetran](https://fivetran.com/)
 
-Email marketing:
+Email marketing (alternatives to [Mailchimp](https://mailchimp.com), [Sendinblue](https://www.sendinblue.com)):
 
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[Keila](https://www.keila.io/)|Email newsletter tool|<a href=https://github.com/pentacent/keila><img src="https://img.shields.io/github/stars/pentacent/keila?style=social" width=150/></a>|[Mailchimp](https://mailchimp.com), [Sendinblue](https://www.sendinblue.com)|
+* [Keila](https://www.keila.io/): Email newsletter tool [Source](https://github.com/pentacent/keila)
 
 Enterprise Search:
 
@@ -152,11 +119,9 @@ Enterprise Search:
 [Zilliz](https://zilliz.com)'s [Milvus](https://milvus.io)|Vector database for AI applications|<a href=https://github.com/milvus-io/milvus><img src="https://img.shields.io/github/stars/milvus-io/milvus?style=social" width=150/></a>|[Google Vertex AI](https://cloud.google.com/vertex-ai)
 [Zinc Labs](https://www.zinclabs.io)'s [Zinc](https://github.com/prabhatsharma/zinc)|Cloud native full text search|<a href=https://github.com/prabhatsharma/zinc><img src="https://img.shields.io/github/stars/prabhatsharma/zinc?style=social" width=150/></a>|[Elastic Cloud](https://www.elastic.co/elastic-stack/)
 
-ERP:
+ERP (alternatives to [Oracle Fusion ERP Cloud](https://www.oracle.com/erp),[Odoo](https://odoo.com/),[Microsoft Dynamics](https://dynamics.microsoft.com/)):
 
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[DoliCloud](https://dolicloud.com) | Business management suite (ERP and CRM)|<a href=https://github.com/Dolibarr/dolibarr><img src="https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social" width=150/></a>|[Oracle Fusion ERP Cloud](https://www.oracle.com/erp),[Odoo](https://odoo.com/),[Microsoft Dynamics](https://dynamics.microsoft.com/)
+* [DoliCloud](https://dolicloud.com): Business management suite (ERP and CRM) [Source](https://github.com/Dolibarr/dolibarr)
 
 Feature flag and toggle management:
 
@@ -166,18 +131,6 @@ Feature flag and toggle management:
 [GrowthBook](https://www.growthbook.io/)|Feature flags and A/B testing|<a href=https://github.com/growthbook/growthbook><img src="https://img.shields.io/github/stars/growthbook/growthbook?style=social" width=150/></a>|[LaunchDarkly](https://launchdarkly.com/)
 [Unleash](https://www.getunleash.io/)|Feature flags platform|<a href=https://github.com/Unleash/unleash><img src="https://img.shields.io/github/stars/Unleash/unleash?style=social" width=150/></a>|[LaunchDarkly](https://launchdarkly.com/)
 
-Financial Service:
-
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[Gamestonk Terminal](https://github.com/GamestonkTerminal/GamestonkTerminal)|Investment research for everyone|<a href=https://github.com/GamestonkTerminal/GamestonkTerminal><img src="https://img.shields.io/github/stars/GamestonkTerminal/GamestonkTerminal?style=social" width=150/></a>|[Bloomberg](https://www.bloomberg.com/)
-
-Forums:
-
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[Discourse](https://www.discourse.org/)|A platform for community discussion|<a href=https://github.com/discourse/discourse><img src="https://img.shields.io/github/stars/discourse/discourse?style=social" width=150/></a>|[Tribe](https://tribe.so/), [Circle](https://circle.so/)
-[Vanilla](https://vanillaforums.com/)|A platform for community discussion|<a href=https://github.com/vanilla/vanilla><img src="https://img.shields.io/github/stars/vanilla/vanilla?style=social" width=150/></a>|[Tribe](https://tribe.so/), [Circle](https://circle.so/)|
 
 Helpdesk Solution:
 
@@ -201,14 +154,12 @@ ML Ops:
 [Seldon](https://seldon.io/)|Deployment & monitoring for machine learning at scale|<a href=https://github.com/SeldonIO/seldon-core><img src="https://img.shields.io/github/stars/SeldonIO/seldon-core?style=social" width=150/></a>|[AWS SageMaker](https://aws.amazon.com/sagemaker/), [Google Vertex AI](https://cloud.google.com/vertex-ai)|
 [Zilliz](https://zilliz.com)'s [Towhee](https://towhee.io)|Platform for generating embedding vectors|<a href=https://github.com/towhee-io/towhee><img src="https://img.shields.io/github/stars/towhee-io/towhee?style=social" width=150/></a>|[AWS SageMaker](https://aws.amazon.com/sagemaker)|
 
-Messaging:
+Messaging (alternatives to [Slack](https://slack.com/)):
 
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[Element](https://element.io/)|Enterprise communication platform|<a href=https://github.com/vector-im/element-web><img src="https://img.shields.io/github/stars/vector-im/element-web?style=social" width=150/></a>|[Slack](https://slack.com/)|
-[Mattermost](https://mattermost.com/)|Enterprise communication platform for developers|<a href=https://github.com/mattermost/mattermost-server><img src="https://img.shields.io/github/stars/mattermost/mattermost-server?style=social" width=150/></a>|[Slack](https://slack.com/)|
-[Rocket.chat](https://rocket.chat/)|Enterprise communication platform|<a href=https://github.com/RocketChat/Rocket.Chat><img src="https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social" width=150/></a>|[Slack](https://slack.com/)|
-[Zulip](https://zulip.com/)|Team chat|<a href=https://github.com/zulip/zulip><img src="https://img.shields.io/github/stars/zulip/zulip?style=social" width=150/></a>|[Slack](https://slack.com/)|
+* [Element](https://element.io/): Enterprise communication platform [Source](https://github.com/vector-im/element-web)
+* [Mattermost](https://mattermost.com/): Enterprise communication platform for developers [Source](https://github.com/mattermost/mattermost-server)
+* [Rocket.chat](https://rocket.chat/): Enterprise communication platform [Source](https://github.com/RocketChat/Rocket.Chat)
+* [Zulip](https://zulip.com/): Team chat [Source](https://github.com/zulip/zulip)
 
 Metrics store:
 
@@ -259,20 +210,13 @@ Product Analytics:
 |:------|:----------|:----------:|:----------:|:------------:|
 [PostHog](https://posthog.com/)|Product analytics platform|<a href=https://github.com/PostHog/posthog><img src="https://img.shields.io/github/stars/PostHog/posthog?style=social" width=150/></a>|[Amplitude](https://amplitude.com/), [MixPanel](https://mixpanel.com/)
 
-Project Management:
-
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[Focalboard](https://www.focalboard.com/)|Alternative to Trello, Notion, and Asana|<a href=https://github.com/mattermost/focalboard><img src="https://img.shields.io/github/stars/mattermost/focalboard?style=social" width=150/></a>|[Trello](https://trello.com/), [Notion](https://www.notion.so/), [Asana](https://asana.com/)|
-[OpenProject](https://www.openproject.org/)|Project management software|<a href=https://github.com/opf/openproject><img src="https://img.shields.io/github/stars/opf/openproject?style=social" width=150/></a>|[Asana](https://asana.com/), [Trello](https://trello.com/)|
-[Taiga](https://www.taiga.io/)|Project management software|<a href=https://github.com/kaleidos-ventures/taiga-docker><img src="https://img.shields.io/github/stars/kaleidos-ventures/taiga-docker?style=social" width=150/></a>|[Asana](https://asana.com/), [Trello](https://trello.com/), [Jira](https://www.atlassian.com/software/jira)|
 
 Reverse ETL:
 
 |Company|Description|Source|Alternative to|
 |:------|:----------|:----------:|:----------:|:------------:|
 [Castled](https://castled.io/)|Data synchronization framework focused on external apps|<a href=https://github.com/castledio/castled><img src="https://img.shields.io/github/stars/castledio/castled?style=social" width=150/></a>|[Hightouch](https://www.hightouch.io/), [NewRelic](https://newrelic.com/)
-Reverse ETL|[Grouparoo](https://www.grouparoo.com/)|Data synchronization framework|<a href=https://github.com/grouparoo/grouparoo><img src="https://img.shields.io/github/stars/grouparoo/grouparoo?style=social" width=150/></a>|[Hightouch](https://www.hightouch.io/)
+[Grouparoo](https://www.grouparoo.com/)|Data synchronization framework|<a href=https://github.com/grouparoo/grouparoo><img src="https://img.shields.io/github/stars/grouparoo/grouparoo?style=social" width=150/></a>|[Hightouch](https://www.hightouch.io/)
 
 Robotic Process Automation:
 
@@ -291,26 +235,3 @@ Session Replay software:
 |Company|Description|Source|Alternative to|
 |:------|:----------|:----------:|:----------:|:------------:|
 [OpenReplay](https://openreplay.com/)|Session replay stack for developers|<a href=https://github.com/openreplay/openreplay><img src="https://img.shields.io/github/stars/openreplay/openreplay?style=social" width=150/></a>|[LogRocket](https://logrocket.com/), [FullStory](https://www.fullstory.com/)
-
-Streaming:
-
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[Glimesh](https://glimesh.tv/)|Live streaming platform|<a href=https://github.com/glimesh/glimesh.tv><img src="https://img.shields.io/github/stars/glimesh/glimesh.tv?style=social" width=150/></a>|[Twitch](https://www.twitch.tv/)
-
-Video conferencing:
-
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[Jitsi](https://jitsi.org/meet)|Video conferences platform and SDK|<a href=https://github.com/jitsi/jitsi-meet><img src="https://img.shields.io/github/stars/jitsi/jitsi-meet?style=social" width=150/></a>|[Zoom](https://zoom.us/)|
-[LiveKit](https://livekit.io/)|SFU and SDKs for high-performance, scalable WebRTC|<a href=https://github.com/livekit/livekit-server><img src="https://img.shields.io/github/stars/livekit/livekit-server?style=social" width=150/></a>|[Twilio](https://www.twilio.com/), [Agora](https://agora.io/)|
-[OpenVidu](https://openvidu.io/)|Platform and SDKs to build on-premises WebRTC video conferences|<a href=https://github.com/OpenVidu/openvidu><img src="https://img.shields.io/github/stars/OpenVidu/openvidu?style=social" width=150/></a>|[Twilio](https://www.twilio.com/)|
-
-Website analytics:
-
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[GoatCounter](https://www.goatcounter.com/)|Google Analytics alternative|<a href=https://github.com/arp242/goatcounter><img src="https://img.shields.io/github/stars/arp242/goatcounter?style=social" width=150/></a>|[Google Analytics](https://analytics.google.com/)
-[Matomo](https://matomo.org/)|Google Analytics alternative|<a href=https://github.com/matomo-org/matomo><img src="https://img.shields.io/github/stars/matomo-org/matomo?style=social" width=150/></a>|[Google Analytics](https://analytics.google.com/)
-[Plausible](https://plausible.io/)|Google Analytics alternative|<a href=https://github.com/plausible/analytics><img src="https://img.shields.io/github/stars/plausible/analytics?style=social" width=150/></a>|[Google Analytics](https://analytics.google.com/)
-[Umami](https://umami.is)|Google Analytics alternative|<a href=https://github.com/mikecao/umami><img src="https://img.shields.io/github/stars/mikecao/umami?style=social" width=150/></a>|[Google Analytics](https://analytics.google.com/)
