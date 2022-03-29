@@ -3,6 +3,10 @@ tags=platform, ios
 summary=Using the Foundation frameworks on iOS.
 ~~~~~~
 
+[Apple Docs: Foundation](https://developer.apple.com/documentation/foundation) | [Apple Docs: Core Foundation](https://developer.apple.com/documentation/corefoundation)
+
+---
+
 ["Extending iOS apps with plugins"](https://betterprogramming.pub/extending-ios-apps-with-plug-ins-e4119d064f2d): Discusses three options: use Javascript (using baked-in JavaScriptConsole engine), use Lua ('https://github.com/weyhan/lua4swift'), or dynamically load libraries via C interop via the Darwin framework:
 
 The Framework code:

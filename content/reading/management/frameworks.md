@@ -3,6 +3,10 @@ tags=reading, management
 summary=A collection of leadership/management frameworks/scaffolding, for thinking about how to frame steps and thinking.
 ~~~~~~
 
+## SWOT (Strengths, Weaknesses, Opportunities, Threats)
+
+---
+
 ## SMART Goals
 
 SMART is a framework for ensuring a goal is well stated.
@@ -352,7 +356,7 @@ From *The Coaching Habit* by Michael Bungay Stanier. Seven essential questions f
 
 ## Good Strategy
 
-From the book [Good Strategy Bad Strategy](../../thinking/good-strategy-bad-strategy) by Richard Rumelt.
+From the book [Good Strategy Bad Strategy](/reading/thinking/good-strategy-bad-strategy) by Richard Rumelt.
 
 Diagnosis:
 
