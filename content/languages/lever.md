@@ -68,3 +68,27 @@ sphere_ray_intersect = (sphere, ray):
         t1 = tca + thc
 ```
 
+Using C libraries in your Lever code is so clean that it is optional to write wrappers for them.
+
+```
+sdl = api.library("libSDL2")
+sdl.Init(sdl.INIT_EVERYTHING)
+sdl.Quit()
+```
+
+Lever has semi-automatic utilities to parse C files, clean them and translate them into .json -formatted headers that provide you with everything to use the libraries you need.
+
+It also has headers for OpenGL4, although they have been generated directly from Khronos specifications.
+
+```
+blen = ffi.automem(ffi.uint)
+gl.getObjectParameterivARB(obj, gl.OBJECT_INFO_LOG_LENGTH_ARB, blen)
+gl.getShaderiv(obj, gl.INFO_LOG_LENGTH, blen)
+log = ffi.automem(ffi.ubyte, blen.to)
+gl.getInfoLogARB(obj, blen.to, null, log)
+print(log.str)
+```
+
+Combine this with rest of the features, and you get so incredibly simple programs that do incredibly complex things. For example, check this implementation of Logo out.
+
+
