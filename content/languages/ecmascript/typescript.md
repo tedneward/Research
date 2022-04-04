@@ -19,6 +19,22 @@ summary=A superset of JavaScript with strong compile-time typechecking that tran
 * ["Practical Advanced TypeScript"](https://egghead.io/courses/practical-advanced-typescript)
 * ["Advanced TypeScript type FTW!"](https://www.pulumi.com/blog/advanced-typescript-type-ftw/)
 * ["How to master advanced TypeScript patterns"](https://www.freecodecamp.org/news/typescript-curry-ramda-types-f747e99744ab/)
+* ["The Ultimate TypeScript Thread"](https://twitter.com/mpocock1/status/1509964736275927042):
+    * Learn how to derive a union type from an object - an incredibly useful switcheroo that's at the heart of most TS magic out there
+    * Transform a union to another union, using the `in` operator as a kind of for-loop.
+    * TypeScript's string interpolation powers are incredible, esp since 4.1. Add some utilities from ts-toolbelt, and you've got a stew going.
+    * Function overloads can be used in conjunction with generics to make incredibly complex and dynamic type signatures.
+    * The `extends` keyword is very powerful; here I use it to narrow the value of a generic to enable some beautiful autocomplete/inference.
+    * Type helpers change the game when it comes to types in yoru codebase. They help TS infer more from your code and make your types a lot more readable.
+    * The looseness of Object.keys can be a real pain point when using TS. Luckily, it's pretty simple to create a tighter version using generics and the keyof operator.
+    * You can use generics in React to make dynamic, flexible components.
+    * Generics can be "locked in" by function calls, meaning that generics can be 'curried' through functions.
+    * You can throw detailed error messages for type checks.
+    * Deep partials are useful and not natively supported by TS.
+    * Create a TS helper called LooseAutocomplete which gives us autocomplete while also allowing arbitrary values.
+    * Want to turn a module into a type? Use typeof import('./') to grab the type of any module, even third-party ones.
+    * Globals in TS? declare global is a useful tool for when you want to allow types to cross module boundaries.
+    * You can use generics to dynamically specify the number, and type, of arguments to functions.
 * [Code for "Advanced Static Types in TypeScript" course on egghead.io](https://github.com/mariusschulz/egghead-advanced-static-types-in-typescript)
 * Video: ["Advanced TypeScript tooling at scale"](https://archive.fosdem.org/2019/schedule/event/typescript_advanced_tooling/)
 

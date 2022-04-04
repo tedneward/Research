@@ -25,6 +25,7 @@ Using RFCs internally for decision-making:
     - Power dynamics can be managed
     - The newbie tag enables psychological safety *(by convention; a tag of "[newbie]" indicated that its author is coming from a vulnerable place)
     - Engineering leadership can participate at right level of abstraction
+
 * [Scaling Engineering Teams via RFCs: Writing Things Down](https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/)
     "When working at large companies like Microsoft or smaller ones like Skyscanner, there have been two things related to planning that have always bugged me. First, the lack of visibility on others building or having built the same thing as my team. Second, the tech and architecture debt accumulated due to different teams building things very differently, both approach-wise and quality-wise. ... What if I said there is a way to tackle both these issues pretty well, using a few simple steps? A word of warning, one of the steps will sound a little crazy. Here they are:
 
@@ -49,6 +50,8 @@ Using RFCs internally for decision-making:
 ---
 
 [Why Engineers Should Invest in Decision Making Skills Early](https://www.reforge.com/blog/technical-decision-making): "... to make more successful technical calls and advance careers, engineers actually need to develop better strategic decision-making skills — not just technical execution skills. In fact, an over-reliance on technical execution skills early in a career leads to untapped impact and stalled growth opportunities down the road."
+
+["Education of a Programmer"](https://terrycrowley.medium.com/education-of-a-programmer-aaecf2d35312): "When I left Microsoft in October 2016 after almost 21 years there and almost 35 years in the industry, I took some time to reflect on what I had learned over all those years. This is a lightly edited version of that post."
 
 ---
 
