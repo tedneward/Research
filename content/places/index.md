@@ -37,6 +37,8 @@ tags=place
 
 [JSBooks - directory of free javascript ebooks](https://github.com/revolunet/JSbooks)
 
+[Killed by Microsoft](https://killedbymicrosoft.info/): A collection of all the projects Microsoft has killed over its lifetime
+
 [Learneroo Resources to Learn Programming](https://www.learneroo.com/modules/12/nodes/96)
 
 [Microsoft Guides to Software](https://blogs.msdn.microsoft.com/mssmallbiz/2014/07/07/largest-collection-of-free-microsoft-ebooks-ever-including-windows-8-1-windows-8-windows-7-office-2013-office-365-office-2010-sharepoint-2013-dynamics-crm-powershell-exchange-server-lync-2/)

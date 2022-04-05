@@ -1,6 +1,6 @@
 title=Windows (OS)
-tags=platform, windows
-summary=The Microsoft operating system that has gone through several iterations since its humble beginnings as a standalone graphical user interface system on top of DOS.
+tags=platform, windows, native
+summary=Development links and notes on the Microsoft Windows OS.
 ~~~~~~
 
 [XWindows for WSL subsystem](https://x410.dev/): Commercial

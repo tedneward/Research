@@ -1,5 +1,5 @@
 title=Battlesnake
-tags=gamedev
+tags=gamedev, distribution
 summary=A multi-player programming game played by developers all over the world. All you need to play is a live web server that implements the Battlesnake API.
 ~~~~~~
 

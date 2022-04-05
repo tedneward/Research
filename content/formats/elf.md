@@ -28,6 +28,137 @@ Executable and Linkable Format 101
 
 [References](http://www.skyfree.org/linux/references/references.html)
 
+## Tools/Software
+
+- ABI Dumper - a tool to dump ABI of an ELF object containing DWARF debug info - https://github.com/lvc/abi-dumper
+- abidiff - compares the Application Binary Interfaces (ABI) of two shared libraries in ELF format
+	- https://sourceware.org/libabigail/manual/abidiff.html
+	- Comparing ABIs for Compatibility with libabigail – Part 1 - https://developers.redhat.com/blog/2014/10/23/comparing-abis-for-compatibility-with-libabigail-part-1/
+	- Comparing ABIs for Compatibility with libabigail – Part 2 - https://developers.redhat.com/blog/2014/10/28/comparing-abis-for-compatibility-libabigail-part-2/
+	- Talk: Libabigail: How semantic analysis of C and C++ ELF binaries can be used to analyze ABI changes (openSUSE Conference 2017)
+		- https://media.ccc.de/v/1234-libabigail-how-semantic-analysis-of-c-and-c-elf-binaries-can-be-used-to-analyze-abi-changes
+		- https://www.youtube.com/watch?v=wxVBuZK8Dl0
+- binception: Generate hash values for functions within an ELF binary - https://github.com/enferex/binception
+- binch: a light BINary patCH tool - https://github.com/tunz/binch
+- core2ELF64: Recover 64 bit ELF executables from memory dump
+	- https://github.com/enbarberis/core2ELF64
+- dnload: Minimal binary generator for \*nix operating systems
+	- dnload.py is a script for generating minimal ELF binaries from C code. It serves no practical real-world use case, but can be utilized to aid in the creation of size-limited demoscene productions.
+	- https://github.com/faemiyah/dnload
+- dress: add symbols back into a stripped ELF binary (~strip)
+	- http://van.prooyen.com/projects/#dress
+	- https://github.com/docileninja/dress
+- dt_infect: ELF Shared library injector using DT_NEEDED precedence infection. Acts as a permanent LD_PRELOAD
+	- https://github.com/elfmaster/dt_infect
+- DynELFSymbols: Helps to create backdoor/MitM shared-object files
+	- https://github.com/magisterquis/dynelfsymbols
+	- https://github.com/magisterquis/dynelfsymbols/blob/master/QUICKSTART.md
+	- https://github.com/magisterquis/dynelfsymbols/blob/master/THEORY.md
+- dynStruct: a tool using dynamoRio to monitor memory accesses of an ELF binary via a data gatherer, and use this data to recover structures of the original code
+	- https://github.com/ampotos/dynStruct
+	- dynStruct: An automatic reverse engineering tool for structure recovery and memory use analysis - Daniel Mercier - Master Thesis (2017)
+		- https://kar.kent.ac.uk/58461/
+	- dynStruct: An automatic reverse engineering tool for structure recovery and memory use analysis - Mercier, Daniel and Chawdhary, Aziem and Jones, Richard E. (2017), IEEE 24th International Conference on Software Analysis, Evolution and Reengineering (SANER)
+		- https://kar.kent.ac.uk/63700/
+- ECFS: extended core file snapshot format
+	- https://github.com/elfmaster/ecfs
+	- DEF CON 23 - Ryan Oneill - Advances in Linux Process Forensics Using ECFS - https://www.youtube.com/watch?v=fCJJnJ84MSE
+	- an extension to the existing ELF core file format in Linux. Its job is to intercept the Linux core-dump handler, catch the core-dump before it is written to disk, and carefully reconstruct it into an ecfs-core file.
+	- execute memory snapshots so they can start running where they left off - https://github.com/elfmaster/ecfs_exec
+- elf-bf-tools - https://github.com/bx/elf-bf-tools
+	- This project contains tools that can be used to coerce the gcc's runtime loader into performing interesting operations using only valid relocation entries and symbols.
+- elf-parser: identifying/extracting various sections of an ELF file
+	- https://github.com/TheCodeArtist/elf-parser
+- elf-strings: The better strings utility for the reverse engineer - https://github.com/LloydLabs/elf-strings
+- ELF/PaX Utilities - https://github.com/gentoo/pax-utils
+	- https://en.wikibooks.org/wiki/Grsecurity/Additional_Utilities
+	- scanelf - Prints out information specific to the ELF structure of a binary - https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities#Extracting_ELF_information_from_binaries
+	- dumpelf - Converts a ELF file into human readable C code that defines a structure with the same image as the original ELF file - https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities#Programming_with_ELF_files
+- ELF Tailoring (EMSOFT 2019)
+	- see: [ELF](#elf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-3): "Honey, I Shrunk the ELFs: Lightweight Binary Tailoring of Shared Libraries"
+	- https://gitlab.cs.fau.de/i4/pub/elftailor
+	- ELF diet: Tool to shrink the tailored ELF files to a smaller size
+		- https://gitlab.cs.fau.de/i4/pub/elftailor/elfdiet
+	- remove_from_elf: Tool to remove functions from ELF library interfaces and to overwrite their implementation
+		- https://gitlab.cs.fau.de/i4/pub/elftailor/remove_from_elf
+	- librarytrader: Tool for static and dynamic analysis of dependencies between application(s) and shared libraries which allows us to determine unused functions
+		- https://gitlab.cs.fau.de/i4/pub/elftailor/librarytrader
+- ELF Tool Chain Project - https://sourceforge.net/projects/elftoolchain/
+	- A BSD-licensed implementation of compilation tools (nm, ar, as, ld, etc.) for the ELF object format.
+- ELFbac: runtime intent-level ABI-granular memory protection for Linux - http://elfbac.org/
+- ELFen: Extract and spell check read-only strings within ELF binaries - https://github.com/enferex/ELFen
+- Elfesteem: Executable file format parser/generator - https://github.com/serpilliere/elfesteem
+- ElfFrag: Binary Debloating of ELF binaries
+	- https://github.com/bingseclab/ElfFrag
+- Elfhack: to optimize ELF binaries for size and cold startup speed - https://github.com/mozilla/positron/tree/master/build/unix/elfhack
+- ELFIO - ELF (Executable and Linkable Format) reader and producer implemented as a header only C++ library
+	- http://serge1.github.io/ELFIO 
+	- https://github.com/serge1/ELFIO
+- ELFkickers (ebfc, elfls, elftoc, infect, objres, rebind, sstrip) - http://www.muppetlabs.com/~breadbox/software/elfkickers.html
+- Elfkit: Rust ELF parsing, manipulation, and (re)linking toolkit - https://github.com/aep/elfkit
+- ELFManip: Modify ELF executables - https://github.com/schieb/ELFManip
+- elfutils
+	- a collection of utilities and libraries to read, create and modify ELF binary files, find and handle DWARF debug data, symbols, thread state and stacktraces for processes and core files on GNU/Linux
+	- https://sourceware.org/elfutils/
+- Exodus - a tool that makes it easy to successfully relocate Linux ELF binaries from one system to another
+	- https://github.com/Intoli/exodus
+- GNU Binary Utilities - https://sourceware.org/binutils/docs/binutils/
+	- elfedit: Update the ELF header of ELF files - https://sourceware.org/binutils/docs/binutils/elfedit.html
+	- nm: List symbols from object files - https://sourceware.org/binutils/docs/binutils/nm.html
+	- objdump: Display information from object files - https://sourceware.org/binutils/docs/binutils/objdump.html
+	- readelf: Display the contents of ELF format files - https://sourceware.org/binutils/docs/binutils/readelf.html
+	- size: List section sizes and total size - https://sourceware.org/binutils/docs/binutils/size.html
+		- examples:
+			- https://mcuoneclipse.com/2012/09/24/code-size-information-with-gcc-for-armkinetis/
+			- https://mcuoneclipse.com/2013/04/14/text-data-and-bss-code-and-data-size-explained/
+			- http://www.geeksforgeeks.org/memory-layout-of-c-program/
+			- http://cs-fundamentals.com/c-programming/memory-layout-of-c-program-code-data-segments.php#size-of-code-data-bss-segments
+	- 9 essential GNU binutils tools - https://opensource.com/article/19/10/gnu-binutils
+	- GNU Binutils: the ELF Swiss Army Knife - https://interrupt.memfault.com/blog/gnu-binutils
+- HoloDec: Decompiler for x86 and x86-64 ELF binaries - https://github.com/cararasu/holodec
+- Lepton: a Lightweight ELF Parsing Tool
+	- designed specifically for analyzing and editing binaries with damaged or corrupted ELF headers
+	- https://github.com/BinaryResearch/lepton
+- Libelf - ELF object file access library - http://www.mr511.de/software/english.html
+	- libelf-howto - http://chris.rohlf.googlepages.com/libelf-howto.c
+	- Libelf.js: LibELF port for JavaScript - https://github.com/AlexAltea/libelf.js
+- Libelfin: C++11 ELF/DWARF parser - a from-scratch C++11 library for reading ELF binaries and DWARFv4 debug information - https://github.com/aclements/libelfin
+- libelfmaster: Secure ELF parsing library
+	- https://github.com/elfmaster/libelfmaster
+	- libelfmaster_examples - https://github.com/elfmaster/libelfmaster_examples
+	- readelfmaster: A reimplementation of GNU readelf
+		- https://github.com/Bowlslaw/readelfmaster
+- Mandibule: Linux ELF injector for x86 / x86_64 / arm / arm64
+	- Doesn't use `dlopen` and can inject into statically linked targets by mapping manually the ELF in memory from syscalls only
+	- https://github.com/ixty/mandibule
+- Melkor - An ELF File Format Fuzzer - https://github.com/IOActive/Melkor_ELF_Fuzzer
+- objdump beautifier - https://github.com/diouziou/bod
+	- Supported Targets: elf32-littlearm, elf32-tradlittlemips, elf32-i386, elf64-x86-64
+- PatchELF: A small utility to modify the dynamic linker and RPATH of ELF executables
+	- http://nixos.org/patchelf.html
+	- https://github.com/nixos/patchelf
+- patchkit - https://github.com/lunixbochs/patchkit
+	- Patches an ELF binary using one or more simple Python scripts.
+- pyelftools: Pure-python library for parsing ELF and DWARF - https://github.com/eliben/pyelftools
+- smol: Shoddy minsize-oriented linker
+	- https://github.com/Shizmob/smol
+	- Intricacies of sizecoding on Linux - Revision 2019 Seminar
+		- https://www.youtube.com/watch?v=a03HXo8a_Io
+- Stasis: build static position-independant-executables without any runtime requirements (no libc or ldso)
+	- https://github.com/korhalio/stasis
+- syms2elf: a plugin to export the symbols recognized to the ELF symbol table 
+	- Hex-Ray's IDA Pro and radare2 - https://github.com/danigargu/syms2elf
+	- Binary Ninja - https://github.com/monosource/syms2elf
+- The ERESI Reverse Engineering Software Interface: ELFsh (ELF shell), Embedded ELF Debugger (e2dbg)
+	- http://www.eresi-project.org
+	- https://github.com/thorkill/eresi
+	- https://github.com/thorkill/eresi/wiki/EresiArticles
+	- Next-Generation Debuggers For Reverse Engineering:
+		- https://www.blackhat.com/presentations/bh-europe-07/ERSI/Presentation/bh-eu-07-ersi-apr19.pdf
+		- https://www.blackhat.com/presentations/bh-europe-07/ERSI/Whitepaper/bh-eu-07-ersi-WP-apr19.pdf
+		- https://www.ekoparty.org/archivo/2007/eko3-Julio%20Auto%20-%20Next-Generation%20Debuggers%20For%20Reverse%20Engineering.pdf
+- Vtable-Dumper - a tool to list content of virtual tables in a C++ shared library - https://github.com/lvc/vtable-dumper
+
 ## Readings
 
 * [ELF101 a Linux executable walkthrough](https://speakerdeck.com/ange/booklet-elf101-a-linux-executable-walkthrough)
