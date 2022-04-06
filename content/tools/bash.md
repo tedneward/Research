@@ -34,6 +34,9 @@ summary=Command-line shell and associated shell-scripting language.
 * [The Linux Command Line](http://linuxcommand.org/tlcl.php) - William E. Shotts, Jr. (PDF)
 * [Writing Shell Scripts](http://linuxcommand.org/lc3_writing_shell_scripts.php) - William E. Shotts, Jr. (HTML)
 
+## Supporting tools/projects
+
+* [direnv](https://direnv.net/) ([Source](https://github.com/direnv/direnv)): unclutter your .profile
 
 ## [Cheat sheet](https://github.com/Randy8080/reference/blob/main/bash.md)
 
