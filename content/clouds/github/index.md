@@ -3,10 +3,7 @@ tags=tool, cloud
 summary=Popular open-source cloud repository built around Git.
 ~~~~~~
 
-[Website](https://github.com)
-
-### Actions
-
+[Website](https://github.com) | [Actions](../actions)
 
 ### Tools
 

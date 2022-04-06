@@ -1,6 +1,6 @@
 title=Lit
 tags=presentation, browser
-summary=
+summary=Elements on top of WebComponents.
 ~~~~~~
 
 [Website](https://lit.dev/) | [Source](https://github.com/lit/lit/) | [Tutorial](https://lit.dev/tutorial/)
