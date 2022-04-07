@@ -310,3 +310,7 @@ foo.bar = 123;
 foo.baz = 'hello world'
 
 ```
+
+## Language-related libraries
+
+* [neverthrow](https://github.com/supermacro/neverthrow): Type-Safe Errors for JS & TypeScript
