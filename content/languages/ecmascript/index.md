@@ -95,7 +95,11 @@ To any JS engine (not direct FFI)
 
 * [OMetaJS](https://www.npmjs.com/package/ometajs) ([Source](https://github.com/veged/ometa-js)): a JavaScript implementation of [OMeta](/languages/ometa), an object-oriented language for pattern matching.
 
+### Other JS-related language-related libraries
+
+* [neverthrow](https://github.com/supermacro/neverthrow): Type-Safe Errors for JS & TypeScript
+
 ## Reading
 
-[JavaScript Promises... in Wicked Detail](https://mattgreer.dev/articles/promises-in-wicked-detail/)
-
+* [JavaScript Promises... in Wicked Detail](https://mattgreer.dev/articles/promises-in-wicked-detail/)
+* [SICP in ECMAScript](../sicpjs.pdf)

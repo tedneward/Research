@@ -54,34 +54,30 @@ E-commerce (alternatives to [Shopify](https://www.shopify.com/), [Ecwid](https:/
 * [Vendure](https://www.vendure.io/): Headless e-commerce platform [Source](https://github.com/vendure-ecommerce/vendure)
 * [Vue Storefront](https://www.vuestorefront.io/): Frontend for e-commerce platform [Source](https://github.com/vuestorefront/vue-storefront)
 
-ELT / ETL:
+ELT / ETL (alternatives to [Fivetran](https://fivetran.com/)):
 
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[Airbyte](https://airbyte.io/)|Data integration platform|<a href=https://github.com/airbytehq/airbyte><img src="https://img.shields.io/github/stars/airbytehq/airbyte?style=social" width=150/></a>|[Fivetran](https://fivetran.com/)
-[Dagster](https://dagster.io/)|Orchestration platform for data assets|<a href=https://github.com/dagster-io/dagster><img src="https://img.shields.io/github/stars/dagster-io/dagster?style=social" width=150/></a>|[Fivetran](https://fivetran.com/)
-[Orchest](https://www.orchest.io/)|No-code data pipelines builder|<a href=https://github.com/orchest/orchest><img src="https://img.shields.io/github/stars/orchest/orchest?style=social" width=150/></a>|[Fivetran](https://fivetran.com/)
-[Prefect](https://www.prefect.io/)|Data orchestration platform for a modern data stack|<a href=https://github.com/prefecthq/prefect><img src="https://img.shields.io/github/stars/prefecthq/prefect?style=social" width=150/></a>|[Fivetran](https://fivetran.com/)
+* [Airbyte](https://airbyte.io/): Data integration platform [Source](https://github.com/airbytehq/airbyte)
+* [Dagster](https://dagster.io/): Orchestration platform for data assets [Source](https://github.com/dagster-io/dagster)
+* [Orchest](https://www.orchest.io/): No-code data pipelines builder [Source](https://github.com/orchest/orchest)
+* [Prefect](https://www.prefect.io/): Data orchestration platform for a modern data stack [Source](https://github.com/prefecthq/prefect)
 
 Email marketing (alternatives to [Mailchimp](https://mailchimp.com), [Sendinblue](https://www.sendinblue.com)):
 
 * [Keila](https://www.keila.io/): Email newsletter tool [Source](https://github.com/pentacent/keila)
 
-Enterprise Search:
+Enterprise Search (alternatives to [Algolia](https://www.algolia.com/), [AWS Kendra](https://aws.amazon.com/kendra/), [QnA Maker](https://www.qnamaker.ai/), [Google Vertex AI](https://cloud.google.com/vertex-ai), [Elastic Cloud](https://www.elastic.co/elastic-stack/)):
 
-|Company|Description|Source|Alternative to|
-|:------|:----------|:----------:|:----------:|:------------:|
-[AppBase](https://www.appbase.io/)|Search UI components for React and Vue|<a href=https://github.com/appbaseio/reactivesearch><img src="https://img.shields.io/github/stars/appbaseio/reactivesearch?style=social" width=150/></a>|[Algolia](https://www.algolia.com/)
-[deepset](https://www.deepset.ai/)|NLP platform to build enterprise-grade semantic search|<a href=https://github.com/deepset-ai/haystack><img src="https://img.shields.io/github/stars/deepset-ai/haystack?style=social" width=150/></a>|[AWS Kendra](https://aws.amazon.com/kendra/), [QnA Maker](https://www.qnamaker.ai/)|
-[Jina.ai](https://jina.ai/)|Neural search framework for 𝙖𝙣𝙮 kind of data (including images)|<a href=https://github.com/jina-ai/jina><img src="https://img.shields.io/github/stars/jina-ai/jina?style=social" width=150/></a>|[Algolia](https://www.algolia.com/)
-[Meilisearch](https://www.meilisearch.com/)|Typo tolerant search engine|<a href=https://github.com/meilisearch/meilisearch><img src="https://img.shields.io/github/stars/meilisearch/MeiliSearch?style=social" width=150/></a>|[Algolia](https://www.algolia.com/)
-[Qdrant](https://qdrant.tech/)|Vector similarity search engine with extended filtering support|<a href=https://github.com/qdrant/qdrant><img src="https://img.shields.io/github/stars/qdrant/qdrant?style=social" width=150/></a>|[Google Vertex AI](https://cloud.google.com/vertex-ai), [Algolia](https://www.algolia.com/)|
-[SeMI](https://www.semi.technology/)'s [Weaviate](https://github.com/semi-technologies/weaviate)|Real-time vector search engine|<a href=https://github.com/semi-technologies/weaviate><img src="https://img.shields.io/github/stars/semi-technologies/weaviate?style=social" width=150/></a>|[Google Vertex AI](https://cloud.google.com/vertex-ai), [Algolia](https://www.algolia.com/)
-[TypeSense](https://typesense.org/)|Typo tolerant fuzzy search engine|<a href=https://github.com/typesense/typesense><img src="https://img.shields.io/github/stars/typesense/typesense?style=social" width=150/></a>|[Algolia](https://www.algolia.com/)
-[Zilliz](https://zilliz.com)'s [Milvus](https://milvus.io)|Vector database for AI applications|<a href=https://github.com/milvus-io/milvus><img src="https://img.shields.io/github/stars/milvus-io/milvus?style=social" width=150/></a>|[Google Vertex AI](https://cloud.google.com/vertex-ai)
-[Zinc Labs](https://www.zinclabs.io)'s [Zinc](https://github.com/prabhatsharma/zinc)|Cloud native full text search|<a href=https://github.com/prabhatsharma/zinc><img src="https://img.shields.io/github/stars/prabhatsharma/zinc?style=social" width=150/></a>|[Elastic Cloud](https://www.elastic.co/elastic-stack/)
+* [AppBase](https://www.appbase.io/): Search UI components for React and Vue [Source](https://github.com/appbaseio/reactivesearch)
+* [deepset](https://www.deepset.ai/): NLP platform to build enterprise-grade semantic search [Source](https://github.com/deepset-ai/haystack)
+* [Jina.ai](https://jina.ai/): Neural search framework for 𝙖𝙣𝙮 kind of data (including images) [Source](https://github.com/jina-ai/jina)
+* [Meilisearch](https://www.meilisearch.com/): Typo tolerant search engine [Source](https://github.com/meilisearch/meilisearch)
+* [Qdrant](https://qdrant.tech/): Vector similarity search engine with extended filtering support [Source](https://github.com/qdrant/qdrant)
+* [SeMI](https://www.semi.technology/)'s [Weaviate](https://github.com/semi-technologies/weaviate): Real-time vector search engine [Source](https://github.com/semi-technologies/weaviate)
+* [TypeSense](https://typesense.org/): Typo tolerant fuzzy search engine [Source](https://github.com/typesense/typesense)
+* [Zilliz](https://zilliz.com)'s [Milvus](https://milvus.io): Vector database for AI applications [Source](https://github.com/milvus-io/milvus)
+* [Zinc Labs](https://www.zinclabs.io)'s [Zinc](https://github.com/prabhatsharma/zinc): Cloud native full text search [Source](https://github.com/prabhatsharma/zinc)
 
-ERP (alternatives to [Oracle Fusion ERP Cloud](https://www.oracle.com/erp),[Odoo](https://odoo.com/),[Microsoft Dynamics](https://dynamics.microsoft.com/)):
+ERP (alternatives to [Oracle Fusion ERP Cloud](https://www.oracle.com/erp), [Odoo](https://odoo.com/), [Microsoft Dynamics](https://dynamics.microsoft.com/)):
 
 * [DoliCloud](https://dolicloud.com): Business management suite (ERP and CRM) [Source](https://github.com/Dolibarr/dolibarr)
 

@@ -39,6 +39,7 @@ Distributed systems are the means by which programs on one machine communicate w
 ## Reading and reading lists:
 
 * [dancres.github.io](https://dancres.github.io/Pages/)
+* ["How we built r/Place"](https://www.redditinc.com/blog/how-we-built-rplace): Place was a project by Reddit where users could place a single colored tile on a collaborative canvas every few minutes. Each tile placed was relayed to observers in real-time. This article discusses how multiple engineering teams worked together to create Place.
 
 ### Networking (Fundamentals, et al)
 
