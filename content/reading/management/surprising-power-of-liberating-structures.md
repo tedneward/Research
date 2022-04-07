@@ -1,8 +1,11 @@
-title=The Surprising Power of Liberating Structures
+title=Liberating Structures
 tags=reading, books, management
 summary=Simple Rules to Unleash a Culture of Innovation
 ~~~~~~
-*(by Lipmanowicz, Henri; McCandless, Keith)*
+## The Surprising Power of Liberating Structures
+*(by Lipmanowicz, McCandless; ISBN ...)*
+
+[Website](https://www.liberatingstructures.com/) [Liberating Structures Menu](https://www.liberatingstructures.com/ls-menu/)
 
 ## Prologue
 The purpose of this book is to greatly expand your alphabet of possible ways to interact and work with others to achieve exceptional results. It describes and explains thirty-three new “letters,” simple methods that you can learn without difficulty, with only a small amount of practice.
@@ -32,7 +35,7 @@ Small changes in people’s routine practices produced big differences in the re
 * Accountability without adequate autonomy and support 
 * Things that everybody knows don’t work but are never changed
 
-At the core of the book is the practical idea that simple shifts in our routine patterns of interaction make it possible for everyone to be included, engaged, and unleashed in solving problems, driving innovation, and achieving extraordinary outcomes. Small changes generate big results without imported best practices, more training, or expensive buy-in strategies. This alternative approach is both practical and feasible because, as you will see, Liberating Structures are quite simple and easy to learn; they can be used by everyone at every level, from the C-suite to the front line of any organization, from the neighborhood block club to the global issue-advocacy association. Rather than complicated frameworks or elaborate processes to guide work together, Liberating Structures employ simple rules that are extremely spare and very specific.
+At the core of the book is the practical idea that simple shifts in our routine patterns of interaction make it possible for everyone to be included, engaged, and unleashed in solving problems, driving innovation, and achieving extraordinary outcomes. ... ***Liberating Structures employ simple rules that are extremely spare and very specific***.
 
 **What's Ahead**: 
 
@@ -251,5 +254,9 @@ By definition, full engagement means that everybody plays an active and unrestra
 ### Panarchy
 
 ### Purpose-To-Practice (P2P)
+
+---
+
+## [Liberating Structures in Discussion](https://www.liberatingstructures.com/ls-discussion/)
 
 

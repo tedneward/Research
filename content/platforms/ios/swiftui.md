@@ -18,6 +18,8 @@ Code-based widget construction. You can find the [official documentation here](h
 
 - [Setting up a multi-platform SwiftUI project](https://blog.scottlogic.com/2021/03/04/Multiplatform-SwiftUI.html): This blog will take a look at a basic setup for a multi-platform SwiftUI app.
 
+- [Dismissing the keyboard in SwiftUI](https://www.dabblingbadger.com/blog/2020/11/5/dismissing-the-keyboard-in-swiftui)
+
 ## Examples
 
 ### Hello World
@@ -155,3 +157,77 @@ struct Greeting : View {
 }
 ```
 
+### Dismissing the keyboard
+*from [here](https://www.dabblingbadger.com/blog/2020/11/5/dismissing-the-keyboard-in-swiftui)*
+
+The second fix I am going to show you adds keyboard dismissal App-wide and fixes the issues we observed in the last section.  The original solution and other ideas from StackOverflow can be found here.  In short, you can add a tap gesture recognizer to the underlying UIWindow of the app  that acts in a similar fashion to how we set up keyboard dismissal in UIKit by adding a tap gesture to the view of our view controller.  To begin, extend UIApplication with a new method:
+
+```
+extension UIApplication {
+    func addTapGestureRecognizer() {
+        guard let window = windows.first else { return }
+        let tapGesture = UITapGestureRecognizer(target: window, action: #selector(UIView.endEditing))
+        tapGesture.cancelsTouchesInView = false
+        tapGesture.delegate = self
+        tapGesture.name = "MyTapGesture"
+        window.addGestureRecognizer(tapGesture)
+    }
+ }
+ ```
+
+ The addTapGestureRecognizer method creates a UITapGestureRecognizer, tapGesture, that will target the App’s window and call UIView.endEditing to dismiss the keyboard.  Since we still want the other parts of the user experience to function as normal, we set cancelsTouchesInView to false.  We set the UIApplication as the delegate for tapGesture (you’ll see why in a minute) and add the gesture to the first window in the windows array of UIApplication.
+
+Simultaneous gestures, such as a double tap, are important for selecting text in a TextView.  If we leave things as they stand, by default our new tap gesture will get called for both double and single taps, meaning when we try and double tap to select text, it will dismiss the keyboard. Oops!  To fix this we can implement the `gestureRecognizer(_ gestureRecognizer: , shouldRecognizeSimultaneouslyWith otherGestureRecognizer: )` delegate method of UIGestureRecognizerDelegate and return false.  
+
+```
+extension UIApplication: UIGestureRecognizerDelegate {
+    public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+        return false // set to `false` if you don't want to detect tap during other gestures
+    }
+}
+```
+
+The last step is to add the gesture to the app window when the application launches, which can be done like this if you are using the new SwiftUI App lifecycle:
+
+```
+@main
+struct TestApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+                .onAppear(perform: UIApplication.shared.addTapGestureRecognizer)
+        }
+    }
+}
+```
+
+Or, if you are still using the UIKit lifecycle you can instead skip extending UIApplication and set up your SceneDelegate similar to:
+
+```
+class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+    var window: UIWindow?
+
+    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        let contentView = ContentView()
+        if let windowScene = scene as? UIWindowScene {
+            let window = UIWindow(windowScene: windowScene)
+            window.rootViewController = UIHostingController(rootView: contentView)
+            self.window = window
+            window.makeKeyAndVisible()
+            let tapGesture = UITapGestureRecognizer(target: window, action: #selector(UIView.endEditing))
+            tapGesture.cancelsTouchesInView = false
+            tapGesture.delegate = self
+            tapGesture.name = "MyTapGesture"
+            window.addGestureRecognizer(tapGesture)
+        }
+    }
+}
+
+extension SceneDelegate: UIGestureRecognizerDelegate {
+    func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+        return false
+    }
+}
+```
+
+The final results give us the user interaction we were looking for.  Touching anywhere outside of the TextField dismisses the keyboard and all of our other controls work as expected.  Success!

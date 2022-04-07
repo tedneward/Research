@@ -3,6 +3,30 @@ tags=reading
 summary=Collection of thoughts.
 ~~~~~~
 
+## References
+
+- [How Team Obama's tech efficiency left Romney IT in dust](https://arstechnica.com/information-technology/2012/11/how-team-obamas-tech-efficiency-left-romney-it-in-dust/)
+
+["Does DNA have the equivalent of IF-statements, WHILE loops, or function calls? How about GOTO?"](https://biology.stackexchange.com/questions/30116/does-dna-have-the-equivalent-of-if-statements-while-loops-or-function-calls-h): Short answer, sort of:
+
+    "Molecular biological processes cannot be directly compared to a computer code. It is the underlying logic that is important and not the statement construct itself and these examples should not be taken as absolute analogies. It is also to be noted that DNA is just a set of instructions and not really a fully functional entity (it is functional to some extent). However, even being just a code it is comparable to a HLL code that has to be compiled to execute its functions. See this post too.
+
+    "It is also important to note that the cell, like many other physical systems, is analog in nature. Therefore, in most situations there is no 0/1 (binary) value of variables. Consider gene expression. If a transcriptional activator is present, the gene will be transcribed. However, if you keep increasing the concentration of the activator, the expression of that gene will increase until it reaches a saturation point. So there is no digital logic here. Having said that, I would add that switching behaviour is possible in biological systems (including gene expression) and is also used in many cases. Certain kinds of regulatory network structures can give rise to such dynamics. Co-operativity with or without positive feedback is one of the mechanisms that can implement switching behaviour."
+
+[The Rise of "Worse is Better"](http://doc.cat-v.org/programming/worse_is_better) by Richard P. Gabriel:
+
+## Steve Yegge's rants
+
+- [Universal Design Pattern](http://steve-yegge.blogspot.com/2008/10/universal-design-pattern.html): "Today I thought I'd talk about a neat design pattern that doesn't seem to get much love: the Properties Pattern. In its fullest form it's also sometimes called the Prototype Pattern." Talks about three forms of modeling:
+
+    * Class modeling: "Class-based OO design is the 800-pound gorilla of domain modeling these days. Its appeal is that it's a natural match for the way we already model things in everyday life. Although the industry loves OO design, it's not especially well liked as an academic topic. This is because OO design has no real mathematical foundation to support it — at least, not until someone comes along and creates a formal model for side effects. The concepts of OOP stem not from mathematics but from fuzzy intuition. This in some sense explains its popularity, and it also explains why OOP has so many subtly different flavors in practice: whether (and how) to support multiple inheritance, static members, method overloading vs. rich signatures, and so on. Industry folks can never quite agree on what OOP is, but we love it all the same."
+    * Relational modeling: "Relational database modeling is a bit harder and takes more practice, because its strength stems from its mathematical foundation. Relational modeling can be intuitive, depending on the problem domain, but most people would agree that it is not necessarily so: it takes some real skill to learn how to model arbitrary problems as relational schemas. Object modeling and relational modeling produce very different designs, each with its strengths and weaknesses, and one of the trickiest problems we face in our industry has always been the object-relational mapping (ORM) problem. It's a big deal. Some people may have let you to believe that it's simple, or that it's automatically handled by frameworks such as Rails or Hibernate. Those who know better know just how hard ORM is in real-world production schemas and systems.
+    * XML (hierarchical) modeling: "XML provides yet another technique for modeling problems. Usually XML is used to model data, but it can also be used to model code. For instance, XML-based frameworks such as Apache Ant and XSLT offer computational facilities: loops or recursion, conditional expressions and setting variables." (He goes on to say that this is a "mostly solved problem" and he basically loses any respect I have for this essay at that point. Mostly.)
+
+    "Two other obvious candidates are Functional modeling (in the sense of Functional Programming, with roots in the lambda calculus) and Prolog-style logical modeling. Both are mature problem-modeling strategies, each with its pros and cons, and each having varying degrees of overlap with other strategies. And there are still other schools, perhaps dozens of them."
+
+    (TODO: Fill in the rest: Hofstadter, properties modeling, etc)
+
 ## [Essays on programming I think about a lot](https://www.benkuhn.net/progessays/):
 
 ### [Computers can be understood](https://blog.nelhage.com/post/computers-can-be-understood/):
@@ -55,17 +79,19 @@ summary=Collection of thoughts.
 
 > What is perhaps less apparent is that having faster tools changes how users use a tool or perform a task. Users almost always have multiple strategies available to pursue a goal — including deciding to work on something else entirely — and they will choose to use faster tools more and more frequently. Fast tools don’t just allow users to accomplish tasks faster; they allow users to accomplish entirely new types of tasks, in entirely new ways. I’ve seen this phenomenon clearly while working on both Sorbet and Livegrep:
 
-### Brandur Leach’s series on using databases to ensure correct edge-case behavior: [Building Robust Systems with ACID and Constraints](https://brandur.org/acid), [Using Atomic Transactions to Power an Idempotent API](https://brandur.org/http-transactions), [Transactionally Staged Job Drains in Postgres](https://brandur.org/job-drain, [Implementing Stripe-like Idempotency Keys in Postgres](https://brandur.org/idempotency-keys):
+### Brandur Leach’s series on using databases to ensure correct edge-case behavior: 
 
 > I want to convince you that ACID databases are one of the most important tools in existence for ensuring maintainability and data correctness in big production systems. Lets start by digging into each of their namesake guarantees.
 
 > There’s a surprising symmetry between an HTTP request and a database’s transaction. Just like the transaction, an HTTP request is a transactional unit of work – it’s got a clear beginning, end, and result. The client generally expects a request to execute atomically and will behave as if it will (although that of course varies based on implementation). Here we’ll look at an example service to see how HTTP requests and transactions apply nicely to one another.
 
 > In APIs *idempotency* is a powerful concept. An idempotent endpoint is one that can be called any number of times while guaranteeing that the side effects will occur only once. In a messy world where clients and servers that may occasionally crash or have their connections drop partway through a request, it’s a huge help in making systems more robust to failure. Clients that are uncertain whether a request succeeded or failed can simply keep retrying it until they get a definitive response.
-  
-### [Notes on Distributed Systems for Young Bloods](https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/):
-> Distributed systems are different because they fail often; Implement backpressure throughout your system; Find ways to be partially available; Use percentiles, not averages; Learn to estimate your capacity; Feature flags are how infrastructure is rolled out; Choose id spaces wisely; Writing cached data back to persistent storage is bad; Extract services.
-  
+
+* [Building Robust Systems with ACID and Constraints](https://brandur.org/acid)
+* [Using Atomic Transactions to Power an Idempotent API](https://brandur.org/http-transactions)
+* [Transactionally Staged Job Drains in Postgres](https://brandur.org/job-drain
+* [Implementing Stripe-like Idempotency Keys in Postgres](https://brandur.org/idempotency-keys):
+
 ### [End-to-End Arguments in System Design](http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf):
 > This paper presents a design principle that helps guide placement of functions among the modules of a distributed computer system. The principle, called the end-to-end argument, suggests that functions placed at low levels of a system may be redundant or of little value when compared with the cost of providing them at that low level. Examples discussed in the paper include bit error recovery, security using encryption, duplicate message suppression, recovery from system crashes, and delivery acknowledgement. Low level mechanisms to support these functions are justified only as performance enhancements.
   

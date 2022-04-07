@@ -7,6 +7,11 @@ summary=A C-language library that implements a small, fast, self-contained, high
 
 How does SQLite work? [Part 1](https://jvns.ca/blog/2014/09/27/how-does-sqlite-work-part-1-pages/) | [Part 2](https://jvns.ca/blog/2014/10/02/how-does-sqlite-work-part-2-btrees/)
 
+[SQLite Tutorial](https://www.tutorialspoint.com/sqlite)
+
+### Swift/iOS
+By default, SQLite from Swift/iOS is an exercise in C integration. Numerous wrappers are available.
+
 ### C#/.NET
 [Microsoft.Data.Sqlite](https://docs.microsoft.com/en-us/dotnet/standard/data/sqlite/): `dotnet add package Microsoft.Data.Sqlite`
 
@@ -50,8 +55,19 @@ using (var connection = new SqliteConnection("Data Source=hello.db"))
 
 [SQLCypher](https://www.zetetic.net/sqlcipher/) is an extension to SQLite adding encryption. Open-source and commercial.
 
+[A fast SQLite PWA notebook for CSV files](https://dirtylittlesql.com/) ([Source](https://github.com/mwenge/dirtylittlesql.com), uses [sql.js](https://github.com/sql-js/sql.js) (The database is a web-assembly version of SQLite called sql.js that runs in your browser.), [VSV](http://www.dessus.com/files/vsv.c) (It also uses a SQLite extension called vsv to load delimited text files quickly.), [Codemirror](https://codemirror.net/) (Syntax highlighting), [sheet.js](https://sheetjs.com/) (Excel and Openoffice support.), [chart.js](https://chartjs.org/) (Charts), and [LocalForage](https://github.com/localForage/localForage) (IndexedDB for efficient local storage.) under the hood.)
+
+---
+
+[WS4SQLite](https://github.com/proofrock/ws4sqlite): Query sqlite via http
+
 ---
 
 ## Interesting articles
 ["A future for SQL on the Web"](https://jlongster.com/future-sql-web): Using [IndexedDB](../indexeddb) in the browser as a "file system" underneath a SQLite implementation compiled to WASM. Resulting project is [absurd-sql](https://github.com/jlongster/absurd-sql). Makes use of [sql.js](../sqljs) and a few source changes to it.
+
+["Bashing JSON into Shape with SQLite"](https://christine.website/blog/sqlite-json-munge-2022-01-04): "SQLIte added JSON functions to allow you to munge and modify JSON data in whatever creative ways you want."
+
+["JSON improvements in SQLite 3.38.0"](https://tirkarthi.github.io/programming/2022/02/26/sqlite-json-improvements.html)
+
 

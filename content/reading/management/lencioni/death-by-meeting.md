@@ -1,6 +1,6 @@
 title=Death by Meeting
-tags=reading, books, business, management
-summary=
+tags=reading, books, business, management, meetings
+summary=Running effective meetings.
 ~~~~~~
 *(by Lencioni, Patrick M. (J-B Lencioni Series))*
 

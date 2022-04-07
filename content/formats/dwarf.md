@@ -5,6 +5,61 @@ tags=format, native, elf, reading, dwarf
 
 [Website](http://dwarfstd.org/) | [Wiki](http://wiki.dwarfstd.org/)
 
+## Tools/Software
+
+* dareog: ORC meets DWARF - https://github.com/emersion/dareog
+* Debug Frame Checking: Check `.eh_frame` and `.debug_frame` information
+	+ https://github.com/francesco-zappa-nardelli/eh_frame_check
+* DIVA - Debug Information Visual Analyzer
+	+ DIVA is a command line tool that processes DWARF debug information contained within ELF files and prints the semantics of that debug information. The DIVA output is designed to be understandable by software programmers without any low-level compiler or DWARF knowledge; as such, it can be used to report debug information bugs to the compiler provider.
+	+ https://github.com/SNSystems/DIVA
+	+ 2017 EuroLLVM Developers’ Meeting lightning talk
+		- video: https://www.youtube.com/watch?v=SwtpXaCk2bE
+		- slides: http://llvm.org/devmtg/2017-03/assets/slides/diva_debug_information_visual_analyzer.pdf
+* dsymutil - manipulate archived DWARF debug symbol files
+	+ https://llvm.org/docs/CommandGuide/dsymutil.html
+	+ https://github.com/llvm-mirror/llvm/tree/master/tools/dsymutil
+* dwarfexport: Export dwarf debug information from IDA Pro - https://github.com/ALSchwalm/dwarfexport
+* dwarfidl: Language, library and tools for DWARF-described interfaces - https://github.com/stephenrkell/dwarfidl
+* dwgrep: a tool, an associated language (Zwerg), and a library (libzwerg) for querying Dwarf (debuginfo) graphs
+	+ project: https://github.com/pmachata/dwgrep
+	+ syntax: http://pmachata.github.io/dwgrep/syntax.html
+	+ tutorial: http://pmachata.github.io/dwgrep/tutorial.html
+	+ website: http://pmachata.github.io/dwgrep/
+* dwz: DWARF optimization and duplicate removal tool
+	+ https://sourceware.org/git/?p=dwz.git
+	+ https://fedoraproject.org/wiki/Features/DwarfCompressor
+	+ announcement (2012) - https://gcc.gnu.org/ml/gcc/2012-04/msg00686.html
+* gimli: A lazy, zero-copy parser for the DWARF debugging format
+	+ https://github.com/gimli-rs/gimli
+	+ Speeding Up `dwarfdump` With Rust - https://robert.ocallahan.org/2018/03/speeding-up-dwarfdump-with-rust.html
+* libbacktrace: A C library that may be linked into a C/C++ program to produce symbolic backtraces
+	+ As of September 2016, libbacktrace only supports ELF and PE/COFF executables with DWARF debugging information. The library is written to make it straightforward to add support for other object file and debugging formats.
+	+ https://github.com/ianlancetaylor/libbacktrace
+	+ https://github.com/gcc-mirror/gcc/tree/master/libbacktrace
+* libdwarf - DWARF debugging information - https://sourceforge.net/projects/libdwarf/
+	+ Libdwarf And Dwarfdump - http://wiki.dwarfstd.org/index.php?title=Libdwarf_And_Dwarfdump
+	+ Libdwarf: Library to provide access to DWARF debugging information
+		- Libdwarf meta repository that combines libdwarf with its dependency libelf
+		- https://github.com/avast-tl/libdwarf
+* libdwarfpp: A high-level API for accessing DWARF debugging information in C++
+	+ https://github.com/stephenrkell/libdwarfpp
+* libdwarfw: A C library to write DWARF debugging information
+	+ https://github.com/emersion/libdwarfw
+* llvm-dwarfdump - dump and verify DWARF debug information
+	+ https://llvm.org/docs/CommandGuide/llvm-dwarfdump.html
+* llvm-locstats - calculate statistics on DWARF debug location
+	+ https://llvm.org/docs/CommandGuide/llvm-locstats.html
+* Pahole and the dwarves: Debugging Information Manipulation Tools
+	+ https://git.kernel.org/pub/scm/devel/pahole/pahole.git/
+	+ https://github.com/acmel/dwarves
+	+ https://www.spinics.net/lists/dwarves/
+	+ The 7 dwarves: debugging information beyond gdb - https://landley.net/kdocs/ols/2007/ols2007v2-pages-35-44.pdf
+	+ Poke-a-hole and friends - https://lwn.net/Articles/335942/
+	+ pahole and other DWARF2 utilities - https://lwn.net/Articles/206805/
+	+ How to avoid wasting megabytes of memory a few bytes at a time - https://developers.redhat.com/blog/2016/06/01/how-to-avoid-wasting-megabytes-of-memory-a-few-bytes-at-a-time/
+* structhole: Look for holes in structs by examining DWARF debugging output - https://github.com/cemeyer/structhole
+
 ## Readings
 
 * Introduction to the DWARF Debugging Format - http://www.dwarfstd.org/doc/Debugging%20using%20DWARF.pdf
@@ -75,3 +130,4 @@ tags=format, native, elf, reading, dwarf
 	+ Paper: https://www.usenix.org/legacy/event/woot11/tech/final_files/Oakley.pdf
 	+ Video (WOOT'11): https://www.usenix.org/conference/woot11/exploiting-hard-working-dwarf-trojan-and-exploit-techniques-no-native-executable
 	+ Video (Shmoocon 2011): https://www.youtube.com/watch?v=nLH7ytOTYto
+

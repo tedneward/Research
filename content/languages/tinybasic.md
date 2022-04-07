@@ -3,7 +3,9 @@ tags=language
 summary=A family of dialects of the BASIC programming language that can fit into 4 or fewer KBs of memory.
 ~~~~~~
 
-[Wikipedia](https://en.wikipedia.org/wiki/Tiny_BASIC)
+[Wikipedia](https://en.wikipedia.org/wiki/Tiny_BASIC) | [Language](https://www.tinybasic.de/language.htm) | [Manual](https://www.tinybasic.de/download/TinyBasic.pdf) | [TinyBasicPlus Source](https://github.com/BleuLlama/TinyBasicPlus)
+
+See also [BASIC](../basic).
 
 ### EBNF
 

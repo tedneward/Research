@@ -9,7 +9,7 @@ summary=macOS executable file format.
 * osx-re-101 - https://github.com/michalmalik/osx-re-101
 * Reverse Engineering/Mac OS X - https://en.wikibooks.org/wiki/Reverse_Engineering/Mac_OS_X
 
-## Mach-O: Readings
+## Readings
 
 * Basics of the Mach-O file format - https://samhuri.net/posts/2010/01/basics-of-the-mach-o-file-format/
 * Dynamic Linking: ELF vs. Mach-O - http://timetobleed.com/dynamic-linking-elf-vs-mach-o/
@@ -36,7 +36,30 @@ summary=macOS executable file format.
 * Runtime binary loading via the dynamic loader on Apple Mac OS X - http://www.subreption.com/blog/2009/02/runtime-binary-loading-via-the-dynamic-loader-on-apple-mac-os-x.html
 * The Mach-O Transition: Darling in the Past 5 Years - http://blog.darlinghq.org/2017/02/the-mach-o-transition-darling-in-past-5.html
 
-## Mach-O: Talks
+
+
+## Tools/Software
+
+* cctools-port: Apple cctools port for Linux, \*BSD and Windows (Cygwin)
+	+ https://github.com/tpoechtrager/cctools-port
+* jtool: (Mach-O Analyzer) - http://www.newosxbook.com/tools/jtool.html
+* MacDependency: shows all dependent libraries and frameworks of a given executable, dynamic library or framework on Mac OS X
+	+ https://github.com/kwin/macdependency/
+* mach_override: runtime function overriding for Mac OS X - https://github.com/rentzsch/mach_override
+* MachoAnalysis: collection of analysis utils - https://github.com/eeeyes/macho_analysis
+* macholibre: Mach-O & Universal Binary Parser - https://github.com/aaronst/macholibre
+	+ Mach-O Libre: Pile Driving Apple Malware with Static Analysis, Big-Data, and Automation - https://www.first.org/resources/papers/conf2016/FIRST-2016-130.pdf
+* machO-tools - https://github.com/bx/machO-tools
+* MachOExplorer - https://github.com/everettjf/MachOExplorer
+* Machotools - "a small set of tools built on top of macholib to retrieve and change informations about mach-o files. Think of it as a pure python, cross-platform implementation of install_name_tool"
+	+ https://github.com/enthought/machotools
+* MachOView: a visual Mach-O file browser - https://sourceforge.net/projects/machoview/
+* MachOView fork: https://github.com/gdbinit/MachOView
+* Maloader: userland Mach-O loader for Linux - https://github.com/shinh/maloader
+
+
+
+## Talks
 
 * 2018 - Mach-O Tricks
 	+ BaiJiuCon at Mobile Security Conference (MOSEC) 2018

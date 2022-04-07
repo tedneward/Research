@@ -2,47 +2,6 @@ title=ARM Assembly
 tags=language, native, object, metaobject
 summary=ARM and AArch64 Assembly links
 ~~~~~~
-See also: [Computer Architecture](/reading/comparch.html) -- recommended background (which makes the following significantly more approachable) includes an undergraduate-level course.
-
-# Contents
-
-- [Tutorials, Courses](#tutorials-courses): [AArch64](#aarch64)
-- [Readings](#readings):
-	- [Binary Analysis](#readings-binary-analysis)
-	- [Concurrency](#concurrency)
-	- [Formalization, Specification, Verification](#formalization-specification-verification)
-	- [Instruction Set Architecture](#instruction-set-architecture)
-	- [Performance](#performance)
-	- [Security](#security):
-		- [Memory Tagging Extension (MTE)](#memory-tagging-extension-mte)
-		- [Pointer Authentication](#pointer-authentication)
-		- [TrustZone](#trustzone)
-	- [Simulation](#simulation)
-	- [Virtualization](#virtualization)
-- [References](#references):
-	- [Concurrency](#concurrency)
-	- [Intrinsics & SIMD](#intrinsics--simd)
-	- [Toolchains](#toolchains)
-- [Software](#software):
-	- [Binary Analysis](#software-binary-analysis)
-	- [Debugging, Tracing](#software-debugging-tracing)
-	- [Emulation, Simulation](#software-emulation-simulation)
-	- [Lifting: Disassemblers, Decompilers, Recompilers](#software-lifting)
-	- [Performance](#software-performance)
-	- [Virtualization](#software-virtualization)
-- [Talks](#talks):
-	- [2019](#2019)
-	- [2018](#2018)
-	- [2017](#2017)
-	- [2016](#2016)
-	- [2015](#2015)
-	- [2014](#2014)
-	- [2012](#2012)
-	- [2011](#2011)
-	- [2010](#2010)
-	- [History](#history)
-
----
 
 # Tutorials, Courses
 
@@ -83,6 +42,7 @@ See also: [Computer Architecture](/reading/comparch.html) -- recommended backgro
 	+ Part 6: Conditional Execution - https://azeria-labs.com/arm-conditional-execution-and-branching-part-6/
 	+ Part 7: Stack and Functions - https://azeria-labs.com/functions-and-the-stack-part-7/
 	+ Assembly Basics Cheatsheet: https://azeria-labs.com/assembly-basics-cheatsheet/
+* [ARM Assembly Language Programming](http://www.rigwit.co.uk/ARMBook/ARMBook.pdf) - Peter Knaggs (PDF) (*in process*)
 * ARM Assembly Language - Isfahan University of Technology (Slides)
 	+ http://www.googoolia.com/micro/lecture/arm_assembly.pdf
 * ARM Assembly Language Programming (AALP) - http://www.peter-cockerell.net/aalp/

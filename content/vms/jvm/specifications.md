@@ -1,10 +1,11 @@
 title=JVM Specifications
-tags=jvm, platform, vm, specifications
+tags=jvm, platform, vm, specification
 summary=Specification links for the Java Virtual Machine (JVM).
 ~~~~~~
 
 (Oracle) Java Virtal Machine Specification (JVMS):
 
+* [JVM Spec, Java SE 17](https://docs.oracle.com/javase/specs/jvms/se17/html/index.html) ([PDF](https://docs.oracle.com/javase/specs/jvms/se17/jvms17.pdf))
 * [JVM Spec, Java SE 16](https://docs.oracle.com/javase/specs/jvms/se16/html/index.html) ([PDF](https://docs.oracle.com/javase/specs/jvms/se16/jvms16.pdf))
 * [JVM Spec, Java SE 15](https://docs.oracle.com/javase/specs/jvms/se15/html/index.html) ([PDF](https://docs.oracle.com/javase/specs/jvms/se15/jvms15.pdf))
 * [JVM Spec, Java SE 14](https://docs.oracle.com/javase/specs/jvms/se14/html/index.html) ([PDF](https://docs.oracle.com/javase/specs/jvms/se14/jvms14.pdf))

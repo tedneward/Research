@@ -5,13 +5,14 @@ summary=The Apple mobile device operating system (on top of the open-source Darw
 
 See also [macOS](../macos)
 
-- [Accessibility](../ios/accessibility)
-- [APIs + Design](../ios/apis_design)
-- [Debugging](../ios/debugging)
-- [Launch](../ios/launch)
-- [Performance](../ios/performance)
-- [Threads, Queues, GCD](../ios/threads_and_queues)
-- [UI](../ios/ui)
+- [Accessibility](../accessibility)
+- [APIs + Design](../apis_design)
+- [Debugging](../debugging)
+- [Foundation](../foundation)
+- [Launch](../launch)
+- [Performance](../performance)
+- [Threads, Queues, GCD](../threads_and_queues)
+- [UI](../ui)
 
 ## General resources
 
@@ -33,7 +34,15 @@ See also [macOS](../macos)
 
 ## Books
 
-"iOS *N* Programming Fundamentals with Swift" (Matt Newburg, OReilly)
+* "iOS *N* Programming Fundamentals with Swift" (Matt Newburg, OReilly)
+* [Cocoa Dev Central](http://cocoadevcentral.com)
+* [iOS Developer Notes for Professionals](https://goalkicker.com/iOSBook/) - Compiled from StackOverflow Documentation (PDF)
+* [iOS Succinctly, Syncfusion](https://www.syncfusion.com/resources/techportal/ebooks/ios) (PDF, Kindle) (email address *requested*, not required)
+* [NSHipster](http://nshipster.com/#archive) (Resource)
+* [Start Developing iOS Apps (Swift)](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html) (HTML)
+* [Start Developing iOS Apps Today (Objective-C) - Last updated 22.10.2013](http://everythingcomputerscience.com/books/RoadMapiOS.pdf) (PDF)
+
+
 
 ## Miscellaneous
 

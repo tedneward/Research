@@ -1,5 +1,5 @@
 title=Beef
-tags=language, native
+tags=language, native, llvm, windows, macos, linux
 summary=An open source performance-oriented compiled programming language which has been built hand-in-hand with its IDE environment.
 ~~~~~~
 

@@ -1,6 +1,6 @@
 title=Gamification and Game Mechanics Made Simple
 tags=reading, books, gamedev
-summary=
+summary=Notes on the book.
 ~~~~~~
 *(by Chapman, Patrick; Nordic Book Group)*
 

@@ -7,3 +7,4 @@ summary=Open-source Smalltalk system.
 
 [Website](https://squeak.org/) | See also [SqueakVM](/vms/squeakvm.html)
 
+* [Squeak by Example](https://github.com/hpi-swa-lab/SqueakByExample-english)

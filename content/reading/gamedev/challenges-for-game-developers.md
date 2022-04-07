@@ -1,6 +1,6 @@
 title=Challenges for Game Developers
 tags=reading, books, gamedev
-summary=
+summary=A collection of thinking and approaches to game design, wrapped in some challenges.
 ~~~~~~
 *(by Brenda Brathwaite, Ian Schreiber (Charles River Media))* 
 

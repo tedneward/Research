@@ -20,3 +20,6 @@ summary=A dynamic language.
 
 * [Sorbet](../sorbet): Type-checker for Ruby.
 
+### Reading
+[Design Patterns in Ruby](https://github.com/nslocum/design-patterns-in-ruby)
+

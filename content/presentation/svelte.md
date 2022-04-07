@@ -20,7 +20,10 @@ Project directory layout:
 
 Component-centric; HTML/CSS/JS all go into a `.svelte` file for use.
 
+### Reading
 
+* [Svelte Tutorial](https://svelte.dev/tutorial/basics) - Svelte.dev
+* [The Svelte Handbook](https://flaviocopes.com/page/svelte-handbook/) - Flavio Copes (PDF, EPUB, Kindle) *(email address requested)*
 
 ### Sapper
 

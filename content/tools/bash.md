@@ -3,18 +3,40 @@ tags=tool, language, linux, macos, windows
 summary=Command-line shell and associated shell-scripting language.
 ~~~~~~
 
-[GNU bash Website](https://www.gnu.org/software/bash/) | [Source](https://savannah.gnu.org/projects/bash/) | [User manual](https://www.gnu.org/software/bash/manual/)
+[GNU bash Website](https://www.gnu.org/software/bash/) | [Source](https://savannah.gnu.org/projects/bash/) | [GNU Bash manual](https://www.gnu.org/software/bash/manual/bash.pdf)
+
 
 ### Reading, places
 
-* [Devhints](https://devhints.io/bash)
+* [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/) - M. Cooper (HTML)
+* [Bash Guide](http://mywiki.wooledge.org/BashGuide) - Maarten Billemont (HTML) [(PDF)](http://s.ntnu.no/bashguide.pdf)
+* [Bash Guide for Beginners (2008)](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/) - M. Garrels (HTML)
 * [Bash-hackers wiki](http://wiki.bash-hackers.org/)
-* [Shell vars](http://wiki.bash-hackers.org/syntax/shellvars)
+* [Bash Notes for Professionals](http://goalkicker.com/BashBook/) - Compiled from StackOverflow documentation (PDF)
+* [BASH Programming (2000)](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html) - Mike G. (HTML)
+* [Bash Reference Manual](http://www.gnu.org/software/bash/manual/bashref.html) (HTML)
+* [Bash tutorial](https://web.archive.org/web/20180328183806/http://gdrcorelec.ups-tlse.fr/files/bash.pdf) - Anthony Scemama (PDF)
+* [Conquer the Command Line](https://magpi.raspberrypi.org/books/command-line-second-edition/pdf/download) - Richard Smedley (PDF)
+* [Conquering the Command Line](https://www.softcover.io/read/fc6c09de/unix_commands) - Mark Bates (HTML)
+* [Devhints](https://devhints.io/bash)
+* [Getting Started with BASH](http://www.hypexr.org/bash_tutorial.php) (HTML)
+* [Google Shell Style Guide](https://google.github.io/styleguide/shell.xml) - Paul Armstrong (HTML)
+* [Introduction to Bash Scripting](https://github.com/bobbyiliev/introduction-to-bash-scripting) - Bobby Iliev (Markdown, PDF)
+* [Introduction to the Command Line](https://launchschool.com/books/command_line) - Launch School (HTML)
 * [Learn bash in y minutes](https://learnxinyminutes.com/docs/bash/)
-* [Bash Guide](http://mywiki.wooledge.org/BashGuide)
+* [Linux Shell Scripting Tutorial - A Beginner's Handbook (2002)](http://www.freeos.com/guides/lsst/) - Vivek G. Gite (HTML)
+* [Linux Shell Scripting Tutorial (LSST) v2.0](https://bash.cyberciti.biz/guide/Main_Page) - Vivek Gite (HTML)
+* [Shell vars](http://wiki.bash-hackers.org/syntax/shellvars)
 * [ShellCheck](https://www.shellcheck.net/)
 * [shell - Standard Shell](https://devmanual.gentoo.org/tools-reference/bash/index.html)
+* [Slackbook (2005)](http://slackbook.org) - Alan Hicks, Chris Lumens, David Cantrell and Logan Johnson (HTML, DocBook, Postscript, PDF)
+* [The Bash Academy](http://guide.bash.academy) - Maarten Billemont (HTML)
+* [The Linux Command Line](http://linuxcommand.org/tlcl.php) - William E. Shotts, Jr. (PDF)
+* [Writing Shell Scripts](http://linuxcommand.org/lc3_writing_shell_scripts.php) - William E. Shotts, Jr. (HTML)
 
+## Supporting tools/projects
+
+* [direnv](https://direnv.net/) ([Source](https://github.com/direnv/direnv)): unclutter your .profile
 
 ## [Cheat sheet](https://github.com/Randy8080/reference/blob/main/bash.md)
 

@@ -9,3 +9,5 @@ Source repositories: [Runtime](https://github.com/dotnet/runtime) | [Roslyn](htt
 
 [SSCLI Essentials](/vms/clr/sscli-essentials) is a good place to start to understand the CLR codebase ("runtime") itself.
 
+[How to read and decode IL from a method in C#](https://twitter.com/badamczewski01/status/1480186594413920266)
+

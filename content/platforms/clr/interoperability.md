@@ -1,5 +1,5 @@
 title=CLR Interoperability
-tags=clr, platform, vm, specifications
+tags=clr, platform, vm, specification
 summary=Links for the interoperability between the Common Language Runtime (CLR) and other platforms.
 ~~~~~~
 

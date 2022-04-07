@@ -1,5 +1,5 @@
 title=Objective-C
-tags=language, native, object, dynamic, compiled, macos, ios
+tags=language, native, object, dynamic, compiled, macos, ios, message-passing
 summary=The other object-oriented take on C, based much more directly on the message-passing principles of Smalltalk.
 ~~~~~~
 
@@ -140,6 +140,14 @@ Implementation is done in .m files, which `#import` the header and define the im
 Being a dynamic language, ObjC depends very heavily on the use of names as the commonality/specialization axis for first-class support. Thus, a class needs to provide precisely-matching names to what's expected in order to be a participant in a particular design family. This enables objects to participate in multiple families without requiring a recompilation of the world, and allows objects to be evaluated for participation in a design family at runtime, which provides greater flexibility, but at the cost of being erroneous due to programmer mistakes.
 
 ---
+
+## FFI
+
+- OC - Easily Declare/Invoke Objective-C APIs from C11 or C++11
+	- Macro magic for declaring/calling Objective-C APIs from C11 or C++. Preloads selectors, chooses the correct objc_msgSend to call per method/platform.
+	- https://github.com/garettbass/oc
+
+
 
 ## GNUstep
 The remnants of the NeXTStep environment from Jobs' NeXT days.

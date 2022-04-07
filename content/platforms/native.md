@@ -6,7 +6,9 @@ summary=The hardware, typically x86 or ARM and targeting the operating system (W
 Native refers to a variety of different hardware/OS combinations, including:
 * Windows/x86-x64
 * macOS/x64
+* macOS/ARM (Apple Silicon)
 * Linux/x64
 * iOS/ARM
 * Android/ARM
+* Android/x86
 
