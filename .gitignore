@@ -1,3 +1,7 @@
+# Eclipse files?
+.project
+org.eclipse.*
+
 # JBake-generated output
 output
 
