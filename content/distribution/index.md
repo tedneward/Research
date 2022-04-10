@@ -12,6 +12,7 @@ Distributed systems are the means by which programs on one machine communicate w
 * [Fuck Off As A Service](http://foaas.com/)
 * [DnD 5e API](https://github.com/5e-bits/5e-srd-api)
 * [Another DnD 5e API](https://api.open5e.com/)
+* [Poke API](https://pokeapi.co/)
 * [My Little Pony: Friendship is Magic Episode information API](https://github.com/Xe/PonyAPI)
 * [Streaming Movie of the Night API](https://www.movieofthenight.com/about/api)
 * [Nessie, Capital One's Hackathon API](http://api.reimaginebanking.com/): Nessie provides access to some real public-facing data such as Capital One ATM and bank branch locations, along with some mock customer account data, and was designed for use in experiments like this.
