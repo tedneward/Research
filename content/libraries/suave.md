@@ -12,5 +12,7 @@ open Suave
 startWebServer defaultConfig (Successful.OK "Hello World!")
 ```
 
-[Blog post](https://www.compositional-it.com/news-blog/functional-first-web-applications-in-f/) describing Suave.
+## Articles/Blogs
+
+* [Functional-first Web Applications in F#](https://www.compositional-it.com/news-blog/functional-first-web-applications-in-f/) describing Suave.
 
