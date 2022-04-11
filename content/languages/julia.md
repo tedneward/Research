@@ -954,4 +954,7 @@ code_native(circle_area, (Float64,), syntax = :intel)
 ```
 
 ### Interesting libraries
-[Term](https://github.com/FedeClaudi/Term.jl): a package for creating stylized terminal outputs.
+
+* [Term](https://github.com/FedeClaudi/Term.jl): a package for creating stylized terminal outputs.
+
+* [Genie](https://github.com/GenieFramework/Genie.jl): a "full stack" web framework.
