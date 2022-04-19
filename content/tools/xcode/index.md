@@ -47,3 +47,19 @@ Find a list of [useful tips here](https://xcode-tips.github.io).
 
 * [Multiplatform, Single-scheme Xcode Projects](https://promisekit.org/news/2016/08/Multiplatform-Single-Scheme-Xcode-Projects/)
 * [Xcode & cross-platform frameworks](http://ilya.puchka.me/xcode-cross-platform-frameworks/)
+
+## Documentation Packages ("DocC")
+
+XCode Developer Documentation: `Developer Tools/DocC`
+
+Introduced (?) in XCode 13. DocC doc compiler converst Markdown-based text into "rich documentation" for Swift projects, accessible within XCode.
+
+* Add a doc catalog to an existing project:
+    * select project/package in Project Navigator
+    * File > New > File > Documentation Catalog template. Place the doc catalog in the same folder as the source files for DocC to associate the catalog with the library.
+    * "Root" markdown file is for the package-level documentation
+* Source files use `///` comments (with Markdown tags embedded within them) to provide context documentation
+* Product > Build Documentation generates the docs
+* Docs appear in Window > Developer Documentation > Workspace Documentation (at the top)
+
+`Developer Tools/DocC/Documentation Types/API Documentation` has more on the format of the Markdown

@@ -3,7 +3,7 @@ tags=platform, ios
 summary=The process that takes place when launching an iOS app.
 ~~~~~~
 
-* Entry point
+1. Entry point
     * iOS finds the compiled binary inside the app's bundle via the Info.plist file, "Executable file" key (`CFBundleExecutable`); by default this comes from the `EXECUTABLE_NAME` environment variable
     * Obj-C entry point is `main`, written by the developer
         ```
@@ -33,7 +33,7 @@ summary=The process that takes place when launching an iOS app.
                 }
             }
             ```
-* UIApplicationMain (assuming the app supports scenes (Info.plist contains an "Application Scene Manifest" dictionary and the code has classes and protocols whose names begin with `UIScene`) and the app has a main storyboard):
+2. UIApplicationMain (assuming the app supports scenes (Info.plist contains an "Application Scene Manifest" dictionary and the code has classes and protocols whose names begin with `UIScene`) and the app has a main storyboard):
     1. ... creates the shared application instance and binds it to `UIApplication.shared`
     2. ... creates the application instance's delegate
     3. ... invokes the app delegate's `application(_:didFinishLaunchingWithOptions:).`
@@ -43,7 +43,7 @@ summary=The process that takes place when launching an iOS app.
     7. ... calls the scene delegate's `scene(_:willConnectTo:options:)`
     8. ... calls the UIWindow's `makeKeyAndVisible` to make the window visible. This causes the window to turn to the root view controller and tell it to obtain its main view (from a nib or nib inside a storyboard, typically) and then call its `viewDidLoad` method.
 
-* Enter the event loop
+3. Enter the event loop
 
 ### App without a storyboard
 Create new Xcode project ("TrulyEmpty").
