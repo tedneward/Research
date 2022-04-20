@@ -3,7 +3,9 @@ tags=platform, ios
 summary=Apple's IDE and tools for development on iOS and macOS.
 ~~~~~~
 
-See also [xcodebuild](./xcodebuild), [Swift](../../languages/swift), [Objective-C](../../languages/objc)
+See also [xcodebuild](../xcodebuild), [Swift](/languages/swift), [Objective-C](/languages/objc)
+
+[xcodes](https://github.com/RobotsAndPencils/xcodes): Command-line utility to manage multiple XCode installations (multiple versions, locations, etc); install with `brew install robotsandpencils/made/xcodes`
 
 ## Tips and Tricks
 
