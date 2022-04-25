@@ -1,5 +1,5 @@
 title=Ionic
-tags=presentation, android, ios
+tags=presentation, android, ios, browser
 summary=An open source UI toolkit for building performant, high-quality mobile and desktop apps using web technologies — HTML, CSS, and JavaScript — with integrations for popular frameworks like Angular, React, and Vue.
 ~~~~~~
 
