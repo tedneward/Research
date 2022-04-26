@@ -65,3 +65,4 @@ tags=tool
 ## Graphics and animation
 
 * [Arteater](https://www.eatmy.art/): Create hand-drawn GIFs on paper, upload to transform
+* [Excalidraw](https://excalidraw.com/)
