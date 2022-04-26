@@ -1,5 +1,5 @@
 title=Farnam Street Blog
-tags=reading, articles, management, philosophy, psychology
+tags=reading, articles, management, philosophy, psychology, thinking
 ~~~~~~
 
 Eleven-plus years of thinking about thinking. I'm in Heaven. Notes and quotes from each blog entry, most-recent first.

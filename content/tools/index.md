@@ -59,3 +59,9 @@ tags=tool
 ## Scheduling OSS alternatives (to [Calendly](https://calendly.com/))
 
 * [Calendso](https://cal.com/): [Source](https://github.com/calendso/calendso)
+
+---
+
+## Graphics and animation
+
+* [Arteater](https://www.eatmy.art/): Create hand-drawn GIFs on paper, upload to transform

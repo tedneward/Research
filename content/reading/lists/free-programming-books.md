@@ -1,5 +1,5 @@
 title=Free programming books
-tags=reading, place
+tags=reading, place, list
 summary=A collection of links to free/online reading about different languages and frameworks.
 ~~~~~~
 

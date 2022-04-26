@@ -1,5 +1,5 @@
 title=50 Psychology Ideas
-tags=reading, books, psychology
+tags=reading, books, psychology, thinking
 summary=A collection of ideas from psychology.
 ~~~~~~
 
