@@ -15,3 +15,5 @@ Video game development links.
 
 ["Lands of Lore Engine in Javascript"](https://levelup.gitconnected.com/i-tried-to-code-the-engine-of-1993-rpg-game-lands-of-lore-in-javascript-c78368d1e2f0) ([Source](https://github.com/stephan-romhart/Lands-of-Lore-Engine-in-Javascript)): Nice front-end for Apartum, maybe?
 
+## Engines too esoteric to rate their own page
+[M.U.G.E.N](http://www.elecbyte.com/mugendocs-11b1/mugen.html): 2D fighting game engine

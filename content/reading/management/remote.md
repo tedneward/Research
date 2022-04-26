@@ -17,3 +17,5 @@ summary=Topics and links around remote management of teams.
 
 ---
 
+["How to make hybrid work a success"](https://www.economist.com/business/2022/04/09/how-to-make-hybrid-work-a-success) "Clarity of expectations is the key" (The Economist, 9 Apr 2022)
+

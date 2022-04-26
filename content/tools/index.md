@@ -7,6 +7,10 @@ tags=tool
 
 ["The open calendar, task, and note space is a mess"](https://stevenvanbael.com/open-calendar-task-space-is-a-mess)
 
+## Editors
+
+* [NotepadNext](https://github.com/dail8859/NotepadNext): Cross-platform reimplementation of Notepad++
+
 ## Notetaking
 
 * [Evernote](https://evernote.com/)
