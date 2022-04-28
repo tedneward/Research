@@ -12,6 +12,9 @@ How does SQLite work? [Part 1](https://jvns.ca/blog/2014/09/27/how-does-sqlite-w
 ### Swift/iOS
 By default, SQLite from Swift/iOS is an exercise in C integration. Numerous wrappers are available.
 
+* [SQLite.swift](https://github.com/stephencelis/SQLite.swift): Type-safe Swift wrapper over sqlite3 C API
+* [Sqift](https://github.com/wildthink/SQift): Powerful Swift wrapper for SQLite
+
 ### C#/.NET
 [Microsoft.Data.Sqlite](https://docs.microsoft.com/en-us/dotnet/standard/data/sqlite/): `dotnet add package Microsoft.Data.Sqlite`
 
