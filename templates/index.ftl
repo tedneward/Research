@@ -15,10 +15,12 @@
 	<a href="#n">N</a> | <a href="#o">O</a> | <a href="#p">P</a> | <a href="#q">Q</a> | <a href="#r">R</a> | <a href="#s">S</a> | 
 	<a href="#t">T</a> | <a href="#u">U</a> | <a href="#v">V</a> | <a href="#w">W</a> | <a href="#x">X</a> | <a href="#y">Y</a> | 
 	<a href="#z">Z</a>
+
+	<hr />
 	
 	<#list pages?sort_by("title") as page>
   		<#if (page.status == "published")>
-  			<p><a href="${page.uri} id="${page.title[0]}"><em><#escape x as x?xml>${page.title}</#escape></em></a>: ${page.summary!"(No summary)"} (${page.date?string("dd MMMM yyyy")})</p>
+  			<p><a href="${page.uri}" id="${page.title[0].lower_case}"><em><#escape x as x?xml>${page.title}</#escape></em></a>: ${page.summary!"(No summary)"} (${page.date?string("dd MMMM yyyy")})</p>
   		</#if>
   	</#list>
 	<#--
