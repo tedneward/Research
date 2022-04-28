@@ -20,16 +20,9 @@
 	
 	<#list pages?sort_by("title") as page>
   		<#if (page.status == "published")>
-  			<p><a href="${page.uri}" id="${page.title[0].lower_case}"><em><#escape x as x?xml>${page.title}</#escape></em></a>: ${page.summary!"(No summary)"} (${page.date?string("dd MMMM yyyy")})</p>
+  			<p><a href="${page.uri}" id="${page.title[0]}"><em><#escape x as x?xml>${page.title}</#escape></em></a>: ${page.summary!"(No summary)"} (${page.date?string("dd MMMM yyyy")})</p>
   		</#if>
   	</#list>
-	<#--
-	<#list pages?sort_by("date")?reverse[0..*19] as page>
-  		<#if (page.status == "published")>
-  			<p><a href="${page.uri}"><em><#escape x as x?xml>${page.title}</#escape></em></a>: ${page.summary!"(No summary)"} (${page.date?string("dd MMMM yyyy")})</p>
-  		</#if>
-  	</#list>
-	-->
 	
 	<hr />
 
