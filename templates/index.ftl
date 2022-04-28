@@ -18,7 +18,7 @@
 	
 	<#list pages?sort_by("title") as page>
   		<#if (page.status == "published")>
-  			<p><a href="${page.uri} id="${page.title[0]"><em><#escape x as x?xml>${page.title}</#escape></em></a>: ${page.summary!"(No summary)"} (${page.date?string("dd MMMM yyyy")})</p>
+  			<p><a href="${page.uri} id="${page.title[0]}"><em><#escape x as x?xml>${page.title}</#escape></em></a>: ${page.summary!"(No summary)"} (${page.date?string("dd MMMM yyyy")})</p>
   		</#if>
   	</#list>
 	<#--
