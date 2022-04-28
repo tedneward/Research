@@ -1,4 +1,4 @@
-title=.NET FFI
+title=CLR FFI
 tags=vm, clr, native
 summary=A collection of notes and links on .NET/CLR platform interop and native bindings.
 ~~~~~~

@@ -9,7 +9,7 @@ summary=Virtualization tool for containerizing code, configuration, and sometime
 * [CI/CD for Monorepos: Effectively building, testing, and deploying code with monorepos](https://github.com/semaphoreci/book-monorepo-cicd) - Pablo Tomas Fernandez Zavalia, Marko Anastasov, SemaphoreCI (PDF, EPUB, Kindle)
 * [CI/CD with Docker and Kubernetes Book](https://github.com/semaphoreci/book-cicd-docker-kubernetes) - Marko Anastasov, Jérôme Petazzoni, Pablo Tom F. Zavalia, SemaphoreCI (PDF, EPUB, Kindle)
 * [Docker Jumpstart](http://odewahn.github.io/docker-jumpstart/) - Andrew Odewahn
-
+* [build-image](https://github.com/tmds/build-image): Containerize .NET apps without writing Dockerfiles.
 
 From @Nick_Craver (Twitter):
 > `docker run --rm -it $(docker build -q .)`
