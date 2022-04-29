@@ -5,6 +5,12 @@ summary=Using the Foundation frameworks on iOS.
 
 [Apple Docs: Foundation](https://developer.apple.com/documentation/foundation) | [Apple Docs: Core Foundation](https://developer.apple.com/documentation/corefoundation)
 
+Object serialization: [NSKeyedArchiver](https://developer.apple.com/library/ios/#Documentation/Cocoa/Reference/Foundation/Classes/NSKeyedArchiver_Class/Reference/Reference.html)/[NSKeyedUnarchiver](https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSKeyedUnarchiver_Class/Reference/Reference.html)
+
+---
+
+[Mantle](https://github.com/Mantle/Mantle): Model framework for Cocoa and Cocoa Touch. Mantle makes it easy to write a simple model layer for your Cocoa or Cocoa Touch application.
+
 ---
 
 ["Extending iOS apps with plugins"](https://betterprogramming.pub/extending-ios-apps-with-plug-ins-e4119d064f2d): Discusses three options: use Javascript (using baked-in JavaScriptConsole engine), use Lua ('https://github.com/weyhan/lua4swift'), or dynamically load libraries via C interop via the Darwin framework:
