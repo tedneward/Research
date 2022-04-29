@@ -5,7 +5,17 @@ summary=Using the Foundation frameworks on iOS.
 
 [Apple Docs: Foundation](https://developer.apple.com/documentation/foundation) | [Apple Docs: Core Foundation](https://developer.apple.com/documentation/corefoundation)
 
-Object serialization: [NSKeyedArchiver](https://developer.apple.com/library/ios/#Documentation/Cocoa/Reference/Foundation/Classes/NSKeyedArchiver_Class/Reference/Reference.html)/[NSKeyedUnarchiver](https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSKeyedUnarchiver_Class/Reference/Reference.html)
+The Foundation framework provides a base layer of functionality for apps and frameworks, including data storage and persistence, text processing, date and time calculations, sorting and filtering, and networking.
+
+[Archives and serialization](https://developer.apple.com/documentation/foundation/archives_and_serialization): 
+
+* [JSON](https://developer.apple.com/documentation/foundation/archives_and_serialization/using_json_with_custom_types)
+* [XML](https://developer.apple.com/documentation/foundation/archives_and_serialization/xml_processing_and_modeling)
+* [NSKeyedArchiver](https://developer.apple.com/documentation/foundation/nskeyedarchiver)/[NSKeyedUnarchiver](https://developer.apple.com/documentation/foundation/nskeyedunarchiver)
+
+[Files and Filesystem](https://developer.apple.com/documentation/foundation/file_system)
+
+[Preferences](https://developer.apple.com/documentation/foundation/preferences)
 
 ---
 

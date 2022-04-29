@@ -67,7 +67,7 @@ using (var connection = new SqliteConnection("Data Source=hello.db"))
 ---
 
 ## Interesting articles
-["A future for SQL on the Web"](https://jlongster.com/future-sql-web): Using [IndexedDB](../indexeddb) in the browser as a "file system" underneath a SQLite implementation compiled to WASM. Resulting project is [absurd-sql](https://github.com/jlongster/absurd-sql). Makes use of [sql.js](../sqljs) and a few source changes to it.
+["A future for SQL on the Web"](https://jlongster.com/future-sql-web): Using [IndexedDB](/storage/indexeddb) in the browser as a "file system" underneath a SQLite implementation compiled to WASM. Resulting project is [absurd-sql](https://github.com/jlongster/absurd-sql). Makes use of [sql.js](/storage/sqljs) and a few source changes to it.
 
 ["Bashing JSON into Shape with SQLite"](https://christine.website/blog/sqlite-json-munge-2022-01-04): "SQLIte added JSON functions to allow you to munge and modify JSON data in whatever creative ways you want."
 
