@@ -19,10 +19,11 @@ Content consists of "categorypages", which are pages for the top-level categorie
 
 * [Architecture](http://research.tedneward.com/architecture/index/index.html): Software architecture links/research
 * [Backends](http://research.tedneward.com/backends/index/index.html): Software platforms
-* [Clouds](http://research.tedneward.com/clouds/index/index.html): Software "other peoples' hardware on other peoples' dirt" platforms
+* [Clouds](http://research.tedneward.com/clouds/index/index.html): Software platforms on "other peoples' servers on other peoples' dirt"
 * [Distributed Systems](http://research.tedneward.com/distribution/index/index.html): Distributed system research--not architecture but networking
 * [Formats](http://research.tedneward.com/formats/index/index.html): File and online formats (HTML, PDF, etc)
 * [GameDev](http://research.tedneward.com/gamedev/index/index.html): Specifically around the development of any sort of game (game frameworks, etc)
+* [Hardware](http://research.tedneward.com/hardware/index/index.html): Collection of links about and around hardware.
 * [Languages](http://research.tedneward.com/languages/index/index.html): Any and all programming languages
 * [Libraries](http://research.tedneward.com/libraries/index/index.html): Collection of code; includes O-O frameworks
 * [Places](http://research.tedneward.com/places/index/index.html): Websites of interest "in general"
@@ -43,7 +44,7 @@ An open-ended list, but here's what we have so far:
 * Distributed Systems: distributed system, actors
 * Platforms: clr, jvm, native, linux, macos, windows, browser, mobile, ios, android, llvm, nodejs, python, ruby, javascript, wasm
 * VMs: interpreter, vm
-* Tools: library, parsing
+* Tools: library, parsing, disassembler
 * Storage: storage, static, dynamic, cms, document, keyvalue, object, relational
 * Architecture/design: agent, concurrency
 * Misc: research, website, security, services, ui
