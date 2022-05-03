@@ -4,7 +4,7 @@ summary=A collection of topics for effective enterprise systems.
 ~~~~~~
 *(by Ted Neward, Addison-Wesley)*
 
-# Archiecture
+# Architecture
 1. Prefer components as the key element of development, deployment, and reuse
 
 2. Prefer loose coupling across component boundaries
