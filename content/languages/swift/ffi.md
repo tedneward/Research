@@ -10,6 +10,8 @@ summary=Swift Foreign Function Interface notes.
 ## Projects
 [swift-jni](https://github.com/SwiftAndroid/swift-jni): A project to wrap Swift around [JNI](/vms/jvm/ffi)
 
+[SwiftJava](https://github.com/SwiftJava): A collection of Swift-Java bridges built around a pair of core packages (SwiftJava and CJavaVM), it looks like?
+
 ## Articles/Blogs
 
 [Unsafe Swift: Using Pointers and Interacting With C](https://www.raywenderlich.com/7181017-unsafe-swift-using-pointers-and-interacting-with-c)
