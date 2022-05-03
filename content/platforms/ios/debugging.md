@@ -1,4 +1,4 @@
-title=iOS (OS) Debugging
+title=iOS Debugging
 tags=platform, ios
 summary=Debugging code on the Apple mobile device operating system (on top of the open-source Darwin kernel).
 ~~~~~~

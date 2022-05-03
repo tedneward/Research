@@ -1,4 +1,4 @@
-title=iOS (OS) App launch process
+title=iOS App launch process
 tags=platform, ios
 summary=The process that takes place when launching an iOS app.
 ~~~~~~

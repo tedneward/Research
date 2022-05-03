@@ -9,17 +9,16 @@ Collections of articles and on various topics. Liberal crosslinking expected.
 
 Sub-topics:
 
-* [Agile](/reading/agile)
-* [AI](/reading/ai)
-* [Business](/reading/business)
-* [Hardware architecture](/reading/hardware-architecture)
-* [Lists](/reading/lists)
-* [Management](/reading/management)
-* [Patterns](/reading/patterns)
-* [Software (general)](/reading/software)
-* [Speaking](/reading/speaking)
-* [Thinking](/reading/thinking)
-* [Virtual machines](/reading/vms)
+* [Agile](/reading/agile/index)
+* [AI](/reading/ai/index)
+* [Business](/reading/business/index)
+* [Hardware architecture](/reading/hardware-architecture/index)
+* [Management](/reading/management/index)
+* [Patterns](/reading/patterns/index)
+* [Software (general)](/reading/software/index)
+* [Speaking](/reading/speaking/index)
+* [Thinking](/reading/thinking/index)
+* [Virtual machines](/reading/vms/index)
 
 [25 years of Personal Knowledge Management](https://dsebastien.net/blog/2022-04-03-25-years-of-personal-knowledge-management):
 

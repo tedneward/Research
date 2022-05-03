@@ -1,4 +1,4 @@
-title=iOS (OS) UI
+title=iOS UI
 tags=platform, ios
 summary=UI development for the Apple mobile device operating system (on top of the open-source Darwin kernel).
 ~~~~~~
@@ -31,21 +31,6 @@ Example: custom UIView class (`MyHorizLine`) that draws a horizontal line. File 
         }
     }
     ```
-
-## Responder chain
-From bottom to top, looks roughly like this:
-
-1. The UIView that we start with (the hit-test view)
-1. If this UIView is a UIViewController's view, that UIViewController
-1. The UIView's superview
-1. Go back to step 2 and repeat, until we reach...
-1. The UIWindow (and the UIWindowScene)
-1. The UIApplication
-1. The UIApplication's delegate
-
-[Bruno Rocha article on responder chain](https://medium.com/better-programming/ios-responder-chain-uiresponder-uievent-uicontrol-and-uses-ee995b75aa18)
-
-[Official Apple docs](https://developer.apple.com/documentation/uikit/touches_presses_and_gestures/using_responders_and_the_responder_chain_to_handle_events)
 
 ## UIViewController
 A view controller isn't an interface object (view), but it manages one--this view is its "main view".
