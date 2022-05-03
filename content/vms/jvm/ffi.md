@@ -19,6 +19,7 @@ Basically broken into three parts:
 
 - [jni.hpp](https://github.com/mapbox/jni.hpp): a modern, type-safe, header-only, C++14 wrapper for JNI
 - [JavaCPP](https://github.com/bytedeco/javacpp): The missing bridge between Java and native C++
+- [swift-jni](https://github.com/SwiftAndroid/swift-jni): Swift wrappers around JNI
 
 # JNA
 
