@@ -1,5 +1,5 @@
 title=Natural Language Processing (NLP) places
-tags=places, nlp
+tags=place, nlp
 summary=A collection of NLP links.
 ~~~~~~
 

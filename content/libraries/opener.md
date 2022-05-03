@@ -1,5 +1,5 @@
 title=OpeNER
-tags=library, natural language processing, ruby, python, jvm
+tags=library, nlp, ruby, python, jvm
 summary=Goal is to provide a set of ready to use tools to perform some natural language processing tasks, free and easy to adapt for Academia, Research and Small and Medium Enterprise to integrate them in their workflow. More precisely, OpeNER aims to be able to detect and disambiguate entity mentions and perform sentiment analysis and opinion detection on the texts, to be able for example, to extract the sentiment and the opinion of customers about certain resource (e.g. hotels and accommodations) in Web reviews.
 ~~~~~~
 

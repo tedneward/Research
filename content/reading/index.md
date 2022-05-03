@@ -9,16 +9,16 @@ Collections of articles and on various topics. Liberal crosslinking expected.
 
 Sub-topics:
 
-* [Agile](/reading/agile/index)
-* [AI](/reading/ai/index)
-* [Business](/reading/business/index)
-* [Hardware architecture](/reading/hardware-architecture/index)
-* [Management](/reading/management/index)
-* [Patterns](/reading/patterns/index)
+* [Agile](/reading/agile/index) - [Tag](http://research.tedneward.com/tags/agile.html)
+* [AI](/reading/ai/index) - [Tag](http://research.tedneward.com/tags/ai.html)
+* [Business](/reading/business/index) - [Tag](http://research.tedneward.com/tags/business.html)
+* [Hardware architecture](/reading/hardware-architecture/index) - [Tag](http://research.tedneward.com/tags/hardware.html)
+* [Management](/reading/management/index) - [Tag](http://research.tedneward.com/tags/management.html)
+* [Patterns](/reading/patterns/index) - [Tag](http://research.tedneward.com/tags/patterns.html)
 * [Software (general)](/reading/software/index)
-* [Speaking](/reading/speaking/index)
-* [Thinking](/reading/thinking/index)
-* [Virtual machines](/reading/vms/index)
+* [Speaking](/reading/speaking/index) - [Tag](http://research.tedneward.com/tags/speaking.html)
+* [Thinking](/reading/thinking/index) - [Tag](http://research.tedneward.com/tags/thinking.html)
+* [Virtual machines](/reading/vms/index) - [Tag](http://research.tedneward.com/tags/vm.html)
 
 [25 years of Personal Knowledge Management](https://dsebastien.net/blog/2022-04-03-25-years-of-personal-knowledge-management):
 

@@ -1,5 +1,5 @@
 title=Structure and Interpretation of Computer Programs (SICP)
-tags=language, reading, book, functional, dynamic
+tags=language, reading, books, functional, dynamic
 summary=The classic treatise on the tiny barrier between code and data.
 ~~~~~~
 

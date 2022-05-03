@@ -1,5 +1,5 @@
 title=Library of Congress's Sustainability of Digital Formats
-tags=place, formats
+tags=place, format
 summary=One of the premiere resources in the world for in-depth information about digital file formats. It covers over 525 formats, encodings and wrappers in a variety of content categories – sound recordings, still images, datasets, textual materials, moving images, website and web archives, geospatial, music composition, 3D and architectural drawings and many more.
 ~~~~~~
 

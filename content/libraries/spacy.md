@@ -1,5 +1,5 @@
 title=spaCy
-tags=library, python, natural language processing
+tags=library, python, nlp
 summary=A free, open-source library for advanced Natural Language Processing (NLP) in Python.
 ~~~~~~
 
