@@ -3,9 +3,69 @@ tags=platform, ios
 summary=UI development for the Apple mobile device operating system (on top of the open-source Darwin kernel).
 ~~~~~~
 
-## Nib/Storyboard/SwiftUI Alternatives
+## SceneDelegate
+Introduced in iOS 13.
 
-[Layout](https://github.com/nicklockwood/layout): A declarative UI framework for iOS
+[Understanding the iOS 13 SceneDelegate](https://www.donnywals.com/understanding-the-ios-13-scene-delegate/):
+
+* Info.plist has a new key: `Application Scene Manifest` (contains Enable Multiple Windows and Scene Configuration, which in turn contains Application Session Role, which is an array of Configuration Name/Delegate Class Name items); specifies a name and delegate class for your scene. Note that these properties belong to an array (Application Session Role), suggesting that you can have multiple configurations in your Info.plist. A much more important key that you may have already spotted in the screenshot above is Enable Multiple Windows. This property is set to NO by default. Setting this property to YES will allow users to open multiple windows of your application on iPadOS (or even on macOS). Being able to run multiple windows of an iOS application side by side is a huge difference from the single window environment we’ve worked with until now, and the ability to have multiple windows is the entire reason our app’s lifecycle is now maintained in two places rather than one.
+
+* AppDelegate's responsibilities: The AppDelegate is still the main point of entry for an application in iOS 13. Apple calls AppDelegate methods for several application level lifecycle events. In Apple’s default template you’ll find three methods that Apple considers to be important for you to use:
+
+    * `func application(_:didFinishLaunchingWithOptions:) -> Bool`: called at launch, used to perform app setup. In iOS 12 and earlier, you might have used this method to create/configure a UIWindow and assign a UIViewController instance to the window to make it appear. If your app is using scenes, the AppDelegate is no longer responsible for doing this. (Since your app can now have multiple windows, or UISceneSessions, active, it doesn't make much sense to manage a single-window object here.)
+    * `func application(_:configurationForConnecting:options:) -> UISceneConfiguration`: called whenever your application is expected to supply a new scene, or window for iOS to display. Note that this method is not called when your app launches initially, it’s only called to obtain and create new scenes.
+    * `func application(_:didDiscardSceneSessions:)`: This method is called whenever a user discards a scene, for example by swiping it away in the multitasking window or if you do so programmatically. If your app isn’t running when the user does this, this method will be called for every discarded scene shortly after `func application(_:didFinishLaunchingWithOptions:) -> Bool` is called.
+
+    In addition to these default methods, your AppDelegate can still be used to open URLs, catch memory warnings, detect when your app will terminate, whether the device’s clock changed significantly, detect when a user has registered for remote notifications and more.
+
+* SceneDelegate's responsibilities: the SceneDelegate is responsible for what’s shown on the screen; the scenes or windows. When you’re dealing with scenes, what looks like a window to your user is actually called a UIScene which is managed by a UISceneSession. So when we refer to windows, we are really referring to UISceneSession objects.
+
+    * `scene(_:willConnectTo:options:)`: creates your initial content view (ContentView if you’re using SwiftUI), creates a new UIWindow, sets the window’s rootViewController and makes this window the key window. You might think of this window as the window that your user sees. This, unfortunately, is not the case. Windows have been around since before iOS 13 and they represent the viewport that your app operates in. So, the UISceneSession controls the visible window that the user sees, the UIWindow you create is the container view for your application. In addition to setting up initial views, you can use `scene(_:willConnectTo:options:)` to restore your scene UI in case your scene has disconnected in the past. For example, because it was sent to the background. You can also read the `connectionOptions` object to see if your scene was created due to a HandOff request or maybe to open a URL.
+    * `sceneWillEnterForeground(_:)`: Once your scene has connected, the next method in your scene’s lifecycle is `sceneWillEnterForeground(_:)`. This method is called when your scene will take the stage. This could be when your app transitions from the background to the foreground, or if it’s just becoming active for the first time. 
+    * `sceneDidBecomeActive(_:)`: Next, `sceneDidBecomeActive(_:)` is called. This is the point where your scene is set up, visible and ready to be used.
+    * `sceneWillResignActive(_:)`: When your app goes to the background, sceneWillResignActive(_:) and sceneDidEnterBackground(_:) are called.
+    * `sceneDidEnterBackground(_:)`: When your app goes to the background, sceneWillResignActive(_:) and sceneDidEnterBackground(_:) are called.
+    * `sceneDidDisconnect(_:)`: Whenever your scene is sent to the background, iOS might decide to disconnect and clear out your scene to free up resources. This does not mean your app was killed or isn’t running anymore, it simply means that the scene passed to this method is not active anymore and will disconnect from its session. Note that the session itself is not necessarily discarded too, iOS might decide to reconnect a scene to a scene session at any time, for instance when a user brings a particular scene to the foreground again. The most important thing to do in `sceneDidDisconnect(_:)` is to discard any resources that you don’t need to keep around. This could be data that is easily loaded from disk or the network or other data that you can recreate easily. It’s also important to make sure you retain any data that can’t be easily recreated, like for instance any input the user provided in a scene that they would expect to still be there when they return to a scene.
+
+    State restoration (a la `NSUserActivity`): State restoration starts when your scene gets disconnected and sceneDidDisconnect(_:) is called. At this point, it's important that your application already has a state set up that can be restored later. The best way to do this is to use NSUserActivity in your application. If you’re using NSUserActivity to support Handoff, Siri Shortcuts, Spotlight indexing and more, you don’t have a lot of extra work to do. If you don’t use NSUserActivity yet, don’t worry. A simple user activity might look a bit as follows:
+
+            let activity = NSUserActivity(activityType: "com.donnywals.DocumentEdit")
+            activity.userInfo = ["documentId": document.id]
+
+    Note that this user activity is not structured how Apple recommends it, it’s a very bare example intended to illustrate state restoration. For a complete guide on NSUserActivity, I recommend that you take a look at Apple’s documentation on this topic.
+
+    When the time comes for you to provide a user activity that can be restored at a later time, the system calls stateRestorationActivity(for:) method on your SceneDelegate. Note that this method is not part of the default template
+
+            func stateRestorationActivity(for scene: UIScene) -> NSUserActivity? {
+                return scene.userActivity
+            }
+
+    Doing this associates the currently active user activity for a scene with the scene session. Remember that whenever a scene is disconnected, the UISceneSession that owns the UIScene is not discarded to allow the session to reconnect to a scene. When this happens, scene(_:willConnectTo:options:) is called again. In this method, you have access to the UISceneSession that owns the UIScene so you can read the session’s stateRestorationActivity and restore the application state as needed:
+
+            if let activity = session.stateRestorationActivity,
+                activity.activityType == "com.donnywals.DocumentEdit",
+                let documentId = activity.userInfo["documentId"] as? String {
+
+                // find document by ID
+                // create document viewcontroller and present it
+            }
+
+    Of course, the fine details of this code will vary based on your application, but the general idea should be clear.
+
+    If your UISceneSession is expected to handle a URL, you can inspect the connectionOptions object’s urlContexts to find URLs that your scene should open and information about how your application should do this:
+
+            for urlContext in connectionOptions.urlContexts {
+                let url = urlContext.url
+                let options = urlContext.options
+
+                // handle url and options as needed
+            }
+
+    The options object will contain information about whether your scene should open the URL in place, what application requested this URL to be opened and other metadata about the request.
+
+    The basics of state restoration in iOS 13 with the SceneDelegate are surprisingly straightforward, especially since it's built upon NSUserActivity which means that a lot of applications won’t have to do too much work to begin supporting state restoration for their scenes.
+
+    Keep in mind that if you want to have support for multiple scenes for your app on iPadOS, scene restoration is especially important since iOS might disconnect and reconnect your scenes when they switch from the foreground to the background and back again. Especially if your application allows a user to create or manipulate objects in a scene, a user would not expect their work to be gone if they move a scene to the background for a moment.
 
 ## UIView
 A view forms root of view hierarchy; object instance lifetime isn't quite 1:1 with widget (screen) lifetime.
@@ -33,11 +93,11 @@ Example: custom UIView class (`MyHorizLine`) that draws a horizontal line. File 
     ```
 
 ## UIViewController
-A view controller isn't an interface object (view), but it manages one--this view is its "main view".
+A view controller isn't an interface object (view), but it manages one; this view is its "main view".
 
 Use view controllers to manage your UIKit app’s interface. A view controller manages a single root view, which may itself contain any number of subviews. User interactions with that view hierarchy are handled by your view controller, which coordinates with other objects of your app as needed. Every app has at least one view controller whose content fills the main window. If your app has more content than can fit onscreen at once, use multiple view controllers to manage different parts of that content.
 
-A container view controller embeds the content of other view controllers into its own root view. A container view controller may mix custom views with the contents of its child view controllers to facilitate navigation or to create unique interfaces. For example, a UINavigationController object manages a navigation bar and a stack of child view controllers (only one of which is visible at a time), and provides an API to add and remove child view controllers from the stack.
+A *container view controller* embeds the content of other view controllers into its own root view. A container view controller may mix custom views with the contents of its child view controllers to facilitate navigation or to create unique interfaces. For example, a UINavigationController object manages a navigation bar and a stack of child view controllers (only one of which is visible at a time), and provides an API to add and remove child view controllers from the stack.
 
 You change your app's interface by presenting and dismissing view controllers. Every window has a root view controller, which provides the initial content for your window. Presenting a new view controller changes that content by installing a new set of views in the window. When you no longer need the view controller, dismissing it removes its views from the window. You present view controllers in one of several ways:
 
@@ -55,11 +115,11 @@ You change your app's interface by presenting and dismissing view controllers. E
 
     For information about how to dismiss a view controller in your storyboards, see [Dismissing a View Controller with an Unwind Segue](https://developer.apple.com/documentation/uikit/resource_management/dismissing_a_view_controller_with_an_unwind_segue).
 
-* **Let the current context define the presentation technique.** Reusing the same view controller in multiple places creates a potential problem: presenting it in different ways based on the current context. For example, you might want to embed it in a navigation controller in one instance, but present it modally in another. UIKit solves this problem with the show(_:sender:) and showDetailViewController(_:sender:) methods of UIViewController, which present the view controller in the most appropriate way for the current context.
+* **Let the current context define the presentation technique.** Reusing the same view controller in multiple places creates a potential problem: presenting it in different ways based on the current context. For example, you might want to embed it in a navigation controller in one instance, but present it modally in another. UIKit solves this problem with the `show(_:sender:)` and `showDetailViewController(_:sender:)` methods of UIViewController, which present the view controller in the most appropriate way for the current context.
 
-    When you call the show(_:sender:) or showDetailViewController(_:sender:) method, UIKit determines the most appropriate context for the presentation. Specifically, it calls the targetViewController(forAction:sender:) method to search for a parent view controller that implements the corresponding show method. If a parent implements the method and wants to handle the presentation, UIKit calls the parent's implementation. A UINavigationController object's implementation of the show(_:sender:) method pushes the new view controller onto its navigation stack. If no view controller handles the presentation, UIKit presents the view controller modally.
+    When you call the `show(_:sender:)` or `showDetailViewController(_:sender:)` method, UIKit determines the most appropriate context for the presentation. Specifically, it calls the `targetViewController(forAction:sender:)` method to search for a parent view controller that implements the corresponding show method. If a parent implements the method and wants to handle the presentation, UIKit calls the parent's implementation. A UINavigationController object's implementation of the `show(_:sender:)` method pushes the new view controller onto its navigation stack. If no view controller handles the presentation, UIKit presents the view controller modally.
 
-    The following code example creates a view controller and shows it using the show(_:sender:) method. The code is equivalent to creating a segue with the kind set to Show.
+    The following code example creates a view controller and shows it using the `show(_:sender:)` method. The code is equivalent to creating a segue with the kind set to Show.
 
           @IBAction func showSecondViewController() {
               let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -68,13 +128,13 @@ You change your app's interface by presenting and dismissing view controllers. E
               show(secondVC, sender: self)
           }
 
-    After showing a view controller, use the current context to determine how to dismiss it. Calling the dismiss(animated:completion:) method might not always be the most appropriate option. For example, don't call that method if a navigation controller added the view controller to its navigation stack. Instead, use the presentingViewController, splitViewController, navigationController, and tabBarController properties to determine the current context, and to take appropriate actions in response. That response might also include modifying your view controller's UI to hide a Done button or other controls for dismissing the UI.
+    After showing a view controller, use the current context to determine how to dismiss it. Calling the `dismiss(animated:completion:)` method might not always be the most appropriate option. For example, don't call that method if a navigation controller added the view controller to its navigation stack. Instead, use the presentingViewController, splitViewController, navigationController, and tabBarController properties to determine the current context, and to take appropriate actions in response. That response might also include modifying your view controller's UI to hide a Done button or other controls for dismissing the UI.
 
-    > When implementing a custom container view controller, implement the show(_:sender:) and showDetailViewController(_:sender:) methods to handle presentations. For more information, see Creating a Custom Container View Controller.
+    When implementing a custom container view controller, implement the `show(_:sender:)` and `showDetailViewController(_:sender:)` methods to handle presentations. For more information, see Creating a Custom Container View Controller.
 
 * **Embed them in a container view controller.** A container view controller embeds content from one or more child view controllers, and presents the combined interface onscreen. Embedding a child view controller presents it using a container-specific approach. For example, a navigation controller initially positions the child view controller offscreen and then animates it into position onscreen.
 
-    The standard UIKit container view controllers work with segues and the show(_:sender:) and showDetailViewController(_:sender:) methods to embed view controllers as children. They also define additional API for adding and removing child view controllers programmatically. Use segues and the show methods to handle most transitions. Use the methods in the following table to perform one-time configuration of your view controller, for example when restoring your app's UI to a previous state.
+    The standard UIKit container view controllers work with segues and the `show(_:sender:)` and `showDetailViewController(_:sender:)` methods to embed view controllers as children. They also define additional API for adding and removing child view controllers programmatically. Use segues and the show methods to handle most transitions. Use the methods in the following table to perform one-time configuration of your view controller, for example when restoring your app's UI to a previous state.
 
     Container | Presentation options
     --------- | --------------------
@@ -145,7 +205,13 @@ Organizational considerations to help arrange for coherent communication between
 * Visibility through connection/reference. Segues do this: At the moment a segue is triggered, the source view controller already exists, and the segue knows what view controller it is, and the segue itself instantiates the destination view controller, so the segue immediately turns to the source view controller and hands it a reference to the destination view controller (for example, by calling the source view controller's `prepare(for:sender:)` method). This is the source view controller's chance to obtain a reference to the newly-instantiated destination view controller and provide necessary data, references, delegation, whatever.
 * Visibility through reference. (Singletons; navigating the view or view controller hierarchy.)
 
+---
+
 ## Misc
+
+#### [Adding support for multiple windows to iPadOS app](https://www.donnywals.com/adding-support-for-multiple-windows-to-your-ipados-app/)
+
+(TODO: This is pretty complicated)
 
 #### Dismissing the keyboard
 From [Dismissing the keyboard in SwiftUI](https://www.dabblingbadger.com/blog/2020/11/5/dismissing-the-keyboard-in-swiftui)
@@ -223,6 +289,7 @@ On autolayout, adaptive table cells, and using UIStackView (or not!)
 
 > Before you switch to a custom font don’t overlook how much you can tweak the appearance of the system fonts. A quick review of some font APIs that work for both UIKit and SwiftUI.
 
+---
 
 ## Devices & Resolutions
 
@@ -253,3 +320,10 @@ On autolayout, adaptive table cells, and using UIStackView (or not!)
 
 * [iPhone 12 Screen Sizes](https://useyourloaf.com/blog/iphone-12-screen-sizes/)
 * [How iOS Apps Adapt to the various iPhone 12 Screen Sizes](https://hacknicity.medium.com/how-ios-apps-adapt-to-the-various-iphone-12-screen-sizes-e45c021e1b8b)
+
+---
+
+## Nib/Storyboard/SwiftUI Alternatives
+
+[Layout](https://github.com/nicklockwood/layout): A declarative UI framework for iOS
+

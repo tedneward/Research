@@ -37,3 +37,9 @@ Project (Strongest network/data/metadata isolation)
 ... contains Container(s) (Some resource isolation, kernel security isolation)
 ... with Namespaces (Some control plane isolation, service account isolation) being inside Cluster and encircling Pods
 
+---
+
+## Related Projects
+
+[kyverno](https://github.com/kyverno/kyverno): Kubernetes Native Policy Management
+
