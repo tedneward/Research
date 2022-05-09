@@ -7,6 +7,8 @@ summary=A natural-language interactive fiction game development language and pla
 
 [Website](http://inform7.com/) | [Windows UI Source](https://ifarchive.org/if-archive/infocom/compilers/inform7/source/Windows_UI_source.zip) | [macOS UI Source](https://ifarchive.org/if-archive/infocom/compilers/inform7/source/OSX_UI_source.zip) | [Standard rules source](https://ifarchive.org/if-archive/infocom/compilers/inform7/source/stdrules.tar.gz)
 
+Open-sourced in April 2022: [inform](https://github.com/ganelson/inform) | [inweb](https://github.com/ganelson/inweb): A modern system for literate programming
+
 [Interactive Fiction Archive Inform7 links](https://ifarchive.org/indexes/if-archive/infocom/compilers/inform7/): [Examples](https://ifarchive.org/indexes/if-archive/infocom/compilers/inform7/examples/) | [Extensions](https://ifarchive.org/indexes/if-archive/infocom/compilers/inform7/extensions/) | [Manuals](https://ifarchive.org/indexes/if-archive/infocom/compilers/inform7/manuals/) | [Source](https://ifarchive.org/indexes/if-archive/infocom/compilers/inform7/source/)
 
 ## [Learn X in Y minutes Quick Intro](https://learnxinyminutes.com/docs/inform7/)

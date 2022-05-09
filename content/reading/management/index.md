@@ -5,17 +5,45 @@ summary=Collection of thoughts/essays/etc on managing people.
 
 ## Articles
 
-- [What Google Learned From Its Quest to Build the Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html) (New York Times)
-- [Meet is Murder](https://www.nytimes.com/2016/02/28/magazine/meet-is-murder.html) (New York Times, 2016)
-- [Is Blind Hiring the Best Hiring](https://www.nytimes.com/2016/02/28/magazine/is-blind-hiring-the-best-hiring.html) (New York Times, 2016)
-- [Failure to Lunch](https://www.nytimes.com/2016/02/28/magazine/failure-to-lunch.html) (New York Times, 2016)
-- [Managed by Q's 'Good Jobs' Gamble](https://www.nytimes.com/2016/02/28/magazine/managed-by-qs-good-jobs-gamble.html) (New York Times, 2016)
-- [Rethinking the Work-Life Equation](https://www.nytimes.com/2016/02/28/magazine/rethinking-the-work-life-equation.html) (New York Times, 2016)
-- [The Robots Are Coming for Wall Street](https://www.nytimes.com/2016/02/28/magazine/the-robots-are-coming-for-wall-street.html) (New York Times, 2016)
-- [The Post-Cubicle Office and its Discontents](https://www.nytimes.com/2016/02/28/magazine/the-post-cubicle-office-and-its-discontents.html) (New York Times, 2016)
-- [The New Dream Jobs](https://www.nytimes.com/2016/02/28/magazine/the-new-dream-jobs.html) (New York Times, 2016)
-- [The myth of the flat start-up: Reconsidering the organizational structure of start-ups](https://onlinelibrary.wiley.com/doi/epdf/10.1002/smj.3333): "My study cautions against [the myth that start-ups should be flat], suggesting that adding a few hierarchical levels of mangers can substantially help start-ups achieve commercial success and survive in their hostile environments, albeit at a potentially marginal cost of creativity."
-- ["5 Things That Change When You Become a Leader"](https://hbr.org/2022/01/5-things-that-change-when-you-become-a-leader) (HBR, Jan 18 2022): 
+* ["A Simple Framework for Software Engineering Management"](https://medium.com/swlh/a-simple-framework-for-software-engineering-management-f70b216540f2): Responsibilities (people management, delivery leadership, technical system ownership) in a 2-axis grid with priorities (issues, things that are OK, ideas/aspirations). "To sum up, we can look at software engineering management as a combination of three areas of responsibilities: *people management*, *delivery leadership*, and *technical system ownership*. Paying attention to all three responsibilities is important. However the amount of attention each responsibility should get depends on the team, the organisation, the product, and other factors. It also changes over time. Within each responsibility area we can identify issues, things that are okay, as well as ideas and aspirations. Things that are already okay only need to be acknowledged. Issues need to be prioritised and promptly resolved. Ideas and aspirations should be evaluated and, if deemed relevant, executed or put on the roadmap."
+
+* ["5 Things High-Performing Teams Do Differently"](https://hbr.org/2021/10/5-things-high-performing-teams-do-differently)
+
+    1. High-Performing Teams Are Not Afraid to Pick Up the Phone (communicate more frequently)
+    2. High-Performing Teams Are More Strategic With Their Meetings (avoid poor meetings by requiring prework from participants; introduce an agenda; begin with a check-in that keeps team members apprised of one another's progress)
+    3. High-Performing Teams Invest Time Bonding Over Non-Work Topics (high-performing team members are significantly more likely to spend time at the office discussing non-work matters with their colleagues (25% more) — topics that may extend to sports, books, and family)
+    4. High-Performing Teams Give and Receive Appreciation More Frequently (within the best teams, appreciation doesn’t flow from the top down. It’s a cultural norm that’s observable in peer-to-peer interactions)
+    5. High-Performing Teams Are More Authentic at Work (high-performing teams were significantly more likely to express positive emotions with their colleagues; interestingly, however, they were also more likely to express negative emotions at work. Why would expressing negative emotions at work yield more positive performance? It’s because the alternative to expressing negative emotions is suppressing them, and suppression is cognitively expensive. It involves expending valuable cognitive resources attempting to hide emotions from others, leaving less mental firepower for doing the work.)
+
+* ["Are Emily and Greg More Employable than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination"](https://www.nber.org/papers/w9873): "We perform a field experiment to measure racial discrimination in the labor market. We respond with fictitious resumes to help-wanted ads in Boston and Chicago newspapers. To manipulate perception of race, each resume is assigned either a very African American sounding name or a very White sounding name. The results show significant discrimination against African-American names: White names receive 50 percent more callbacks for interviews. We also find that race affects the benefits of a better resume. ***For White names, a higher quality resume elicits 30 percent more callbacks whereas for African Americans, it elicits a far smaller increase. Applicants living in better neighborhoods receive more callbacks but, interestingly, this effect does not differ by race.*** The amount of discrimination is uniform across occupations and industries. Federal contractors and employers who list Equal Opportunity Employer' in their ad discriminate as much as other employers. We find little evidence that our results are driven by employers inferring something other than race, such as social class, from the names. These results suggest that racial discrimination is still a prominent feature of the labor market."
+
+* ["Does Stress Impact Technical Interviews?"](https://chrisparnin.me/pdf/stress_FSE_20.pdf): "Software engineering candidates commonly participate in whiteboard technical interviews as part of a hiring assessment. During these sessions, candidates write code while thinking-aloud as they work towards a solution, under the watchful eye of an interviewer. While technical interviews should allow for an unbiased and inclusive assessment of problem-solving ability, surprisingly, another possibility is that technical interviews are instead a procedure for identifying candidates who best handle and migrate stress solely caused by being examined by an interviewer (performance anxiety). To understand if coding interviews—as administered today—can induce stress that significantly hinders performance, we conducted a randomized controlled trial with 48 Computer Science students, comparing them in private and public whiteboard settings. We found that performance is reduced by more than half, by simply being watched by an interviewer. We also observed that stress and cognitive load were significantly higher in a traditional technical interview when compared with our private interview. Consequently, interviewers may be filtering out qualified candidates by confounding assessment of problem-solving ability with unnecessary stress. We propose interview modifications to make problem-solving assessment more equitable and inclusive, such as through private focus sessions and retrospective think-aloud, allowing companies to hire from a larger and diverse pool of talent."
+
+* [People don't work as much as you think](https://drmaciver.substack.com/p/people-dont-work-as-much-as-you-think)
+
+* [A fractal of lies](https://drmaciver.substack.com/p/a-fractal-of-lies): Dr House was right: everybody lies. (More to the point, studies are often built off of interviews and interrogation, and people have a habit of telling interviewers not-entirely-truthful things for a variety of reasons.) "Whenever there is an advantage, or a power gradient, or a political agenda, or people just want to fuck with you for their own amusement, probably there are lies. And then people repeat those lies - sometimes purely innocently, sometimes adding their own lies on top."
+
+* [What Google Learned From Its Quest to Build the Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html) (New York Times)
+
+* [Meet is Murder](https://www.nytimes.com/2016/02/28/magazine/meet-is-murder.html) (New York Times, 2016)
+
+* [Is Blind Hiring the Best Hiring](https://www.nytimes.com/2016/02/28/magazine/is-blind-hiring-the-best-hiring.html) (New York Times, 2016)
+
+* [Failure to Lunch](https://www.nytimes.com/2016/02/28/magazine/failure-to-lunch.html) (New York Times, 2016)
+
+* [Managed by Q's 'Good Jobs' Gamble](https://www.nytimes.com/2016/02/28/magazine/managed-by-qs-good-jobs-gamble.html) (New York Times, 2016)
+
+* [Rethinking the Work-Life Equation](https://www.nytimes.com/2016/02/28/magazine/rethinking-the-work-life-equation.html) (New York Times, 2016)
+
+* [The Robots Are Coming for Wall Street](https://www.nytimes.com/2016/02/28/magazine/the-robots-are-coming-for-wall-street.html) (New York Times, 2016)
+
+* [The Post-Cubicle Office and its Discontents](https://www.nytimes.com/2016/02/28/magazine/the-post-cubicle-office-and-its-discontents.html) (New York Times, 2016)
+
+* [The New Dream Jobs](https://www.nytimes.com/2016/02/28/magazine/the-new-dream-jobs.html) (New York Times, 2016)
+
+* [The myth of the flat start-up: Reconsidering the organizational structure of start-ups](https://onlinelibrary.wiley.com/doi/epdf/10.1002/smj.3333): "My study cautions against [the myth that start-ups should be flat], suggesting that adding a few hierarchical levels of mangers can substantially help start-ups achieve commercial success and survive in their hostile environments, albeit at a potentially marginal cost of creativity."
+
+* ["5 Things That Change When You Become a Leader"](https://hbr.org/2022/01/5-things-that-change-when-you-become-a-leader) (HBR, Jan 18 2022): 
     1. **Your friends are no longer your friends.** Effective leadership demands that you be even-handed in your treatment of every team member. The rule of thumb is to be *friendly, not friends* with your people.
     2. **You have a duty of care.** You used to be responsible only for your own behavior and performance; now that responsibility extends to every individual on the team. You have to ensure that your people have clear objectives; that their physical and mental well-being are safeguarded; that they're given clear feedback and strong direction.
     3. **You're entrusted to manage resources.** Managerial diligence demands that every decision you make optimizes the resources entrusted to you. This stewardship must take precedence over your own popularity, fear, and self-interest.
@@ -44,8 +72,9 @@ summary=Collection of thoughts/essays/etc on managing people.
 
     7. **Drive accountability.** When accountability is shared or unclear, gaps and overlaps emerge. Be accountable for everything your team does, and hold each individual to account for what they need to deliver.
 
-- [Trouble in programmer’s paradise: gender-biases in sharing and recognising technical knowledge on Stack Overflow](https://www.tandfonline.com/doi/full/10.1080/1369118X.2021.1962943): "This paper examines gender-biases on Stack Overflow, the world’s largest question-and-answer forum of programming knowledge. Employing a non-binary gender identification built on usernames, I investigate the role of gender in shaping users’ experience in technical forums. The analysis encompasses 11-years of activity, across levels of expertise, language, and specialism, to assess if Stack Overflow is really a paradise for programmers. I first examine individual users, asking if there are gender differences in key user metrics of success, focusing on reputation points, user tenure, and level of activity. Second, I test if there are gender-biases in how technical knowledge is recognised in the question-answer format of the platform. Third, using social network analysis I investigate if interaction on Stack Overflow is organised by gender. Results show that sharing and recognising technical knowledge is dictated by users’ gender, even when it is operationalised beyond a binary. I find that feminine users receive lower scores for their answers, despite exhibiting higher effort in their contributions. I also show that interaction on Stack Overflow is organised by gender. Specifically, that feminine users preferentially interact with other feminine users. The findings emphasise the central role of gender in shaping interaction in technical spaces, a necessity for participation in the masculine-dominated forum. I conclude the study with recommendations for inclusivity in online forums."
-- [Know how your org works](https://copyconstruct.medium.com/know-how-your-org-works-or-how-to-become-a-more-effective-engineer-1a3287d1f58d): "Social media, blog posts and conferences amplify aspirational ideas. There’s nothing wrong with this in my opinion — it’s important to constantly keep pushing the envelope further, after all. Your organization, however, rewards what you *actually get done* that benefits the organization, which might be a very far cry from whatever might be de rigueur on social media. ... One of the *most effective* things you can do to be successful at your job is to understand how your organization works. ... Managers need to deal with these skills as a part of their job description. So do ICs at the very senior levels, but it’s never too early to start cultivating this knowledge. In fact, a core part of mentoring engineers needs to be schooling them in how the organization works, which will then enable them to build a successful track record of getting things done. *Shielding non-senior engineers from organizational politics not just stymies their growth but also hinders their visibility into the skills they’d eventually need to learn the hard way, skills for which there exists no easy playbook, even if some managers and senior ICs might take a more short-sighted view and see this as a way to help other engineers “maintain focus”.* The most important skill for any engineer to posses is the ability to learn quickly.
+* [Trouble in programmer’s paradise: gender-biases in sharing and recognising technical knowledge on Stack Overflow](https://www.tandfonline.com/doi/full/10.1080/1369118X.2021.1962943): "This paper examines gender-biases on Stack Overflow, the world’s largest question-and-answer forum of programming knowledge. Employing a non-binary gender identification built on usernames, I investigate the role of gender in shaping users’ experience in technical forums. The analysis encompasses 11-years of activity, across levels of expertise, language, and specialism, to assess if Stack Overflow is really a paradise for programmers. I first examine individual users, asking if there are gender differences in key user metrics of success, focusing on reputation points, user tenure, and level of activity. Second, I test if there are gender-biases in how technical knowledge is recognised in the question-answer format of the platform. Third, using social network analysis I investigate if interaction on Stack Overflow is organised by gender. Results show that sharing and recognising technical knowledge is dictated by users’ gender, even when it is operationalised beyond a binary. I find that feminine users receive lower scores for their answers, despite exhibiting higher effort in their contributions. I also show that interaction on Stack Overflow is organised by gender. Specifically, that feminine users preferentially interact with other feminine users. The findings emphasise the central role of gender in shaping interaction in technical spaces, a necessity for participation in the masculine-dominated forum. I conclude the study with recommendations for inclusivity in online forums."
+
+* [Know how your org works](https://copyconstruct.medium.com/know-how-your-org-works-or-how-to-become-a-more-effective-engineer-1a3287d1f58d): "Social media, blog posts and conferences amplify aspirational ideas. There’s nothing wrong with this in my opinion — it’s important to constantly keep pushing the envelope further, after all. Your organization, however, rewards what you *actually get done* that benefits the organization, which might be a very far cry from whatever might be de rigueur on social media. ... One of the *most effective* things you can do to be successful at your job is to understand how your organization works. ... Managers need to deal with these skills as a part of their job description. So do ICs at the very senior levels, but it’s never too early to start cultivating this knowledge. In fact, a core part of mentoring engineers needs to be schooling them in how the organization works, which will then enable them to build a successful track record of getting things done. *Shielding non-senior engineers from organizational politics not just stymies their growth but also hinders their visibility into the skills they’d eventually need to learn the hard way, skills for which there exists no easy playbook, even if some managers and senior ICs might take a more short-sighted view and see this as a way to help other engineers “maintain focus”.* The most important skill for any engineer to posses is the ability to learn quickly.
 
     * **Understand Implicit Hierarchies**: "Most organizations have a formal structure. This usually starts with a VP or a director at the top, down to individual teams. ... Most organizations ... also tend to have something of an informal structure, especially among the ICs. ... It’s important to be aware of this informal hierarchy, because as often as not, your work might end up being directly influenced by this hierarchy, irrespective of whatever your personal level and job title might be. ... Your efforts, as such, need to be multi-pronged:
 
@@ -86,55 +115,6 @@ summary=Collection of thoughts/essays/etc on managing people.
     * successfully creating change than just endlessly talking about the need to do so
 
     Which, alas, requires understanding how your organization works."
-
-## 1:1 meetings
-
-[Plucky 1:1 Starter Pack](https://shop.beplucky.com/products/the-plucky-1-1-starter-pack) | [Plucky 1:1 Manager Pack](https://shop.beplucky.com/products/1-1-manager-pack): "Conversation cards" for those awkward moments of silence in a 1:1. Highly recommended.
-
-[T-Shaped People and Academia](https://bastian.rieck.me/blog/posts/2022/t/): "... academia is doing a disservice to ‘T-shaped persons,’ i.e. persons combining deep expertise in one or more fields with an ability to collaborate across areas. T-shaped persons are often contrasted with I-shaped persons, commonly known as experts. Given the state of the art in the software industry, T-shaped people are a sought-for commodity: the current ‘framework du jour’ might be obsolete in a few years, but the horizontal bar of a T-shaped person ensures that they can also contribute to other aspects of a project, and quite likely will develop new vertical bars, i.e. new expertise over time."
-
-#### 9 Questions for 1:1s
-(by Claire Lew, CEO of [KnowYourCompany](http://knowyourteam.com))
-
-1. "Are you afraid of anything at work?"
-2. "Have you seen something recently and thought to yourself 'I wish we'd done that'?"
-3. "Is there something we should measure in the company that we currently don't?"
-4. "Is there any part of the company you wish you were able to interact with more?"
-5. "Are there any benefits we don't offer that you'd like to see us offer?"
-6. "Is there an area outside your current role where you feel you could be contributing?"
-7. "Is there anyone at the company you wish you could apprentice under for a few weeks?"
-8. "Have you seen someone here do great work that's gone unnoticed?"
-9. "Are there things you don't know about the company that you feel you should know?"
-
-#### Ashlee Clifton (Rocket Mortgage) uses these to open 1:1s with people.
-
-* My personal Beliefs and expectations that carry into work - These are your personal ISMs.  List your beliefs and expectations so it is clear for your team members what you expect.
-
-* My personal and work fears - List here what is always in the back of your mind.  Show them you are vulnerable you are not all sunshine and rainbows.
-
-* Best Ways I learn - Let them know how you like to learn, receive feedback, etc.   This will help open the lines of communication and get you started on the right page.
-
-* I am motivated by (Goals, Praise) - Let the person know what motivates you, so they can help.  How do you like to receive recognition?
-
-## Articles
-
-* ["A Simple Framework for Software Engineering Management"](https://medium.com/swlh/a-simple-framework-for-software-engineering-management-f70b216540f2): Responsibilities (people management, delivery leadership, technical system ownership) in a 2-axis grid with priorities (issues, things that are OK, ideas/aspirations). "To sum up, we can look at software engineering management as a combination of three areas of responsibilities: *people management*, *delivery leadership*, and *technical system ownership*. Paying attention to all three responsibilities is important. However the amount of attention each responsibility should get depends on the team, the organisation, the product, and other factors. It also changes over time. Within each responsibility area we can identify issues, things that are okay, as well as ideas and aspirations. Things that are already okay only need to be acknowledged. Issues need to be prioritised and promptly resolved. Ideas and aspirations should be evaluated and, if deemed relevant, executed or put on the roadmap."
-
-* ["5 Things High-Performing Teams Do Differently"](https://hbr.org/2021/10/5-things-high-performing-teams-do-differently)
-
-    1. High-Performing Teams Are Not Afraid to Pick Up the Phone (communicate more frequently)
-    2. High-Performing Teams Are More Strategic With Their Meetings (avoid poor meetings by requiring prework from participants; introduce an agenda; begin with a check-in that keeps team members apprised of one another's progress)
-    3. High-Performing Teams Invest Time Bonding Over Non-Work Topics (high-performing team members are significantly more likely to spend time at the office discussing non-work matters with their colleagues (25% more) — topics that may extend to sports, books, and family)
-    4. High-Performing Teams Give and Receive Appreciation More Frequently (within the best teams, appreciation doesn’t flow from the top down. It’s a cultural norm that’s observable in peer-to-peer interactions)
-    5. High-Performing Teams Are More Authentic at Work (high-performing teams were significantly more likely to express positive emotions with their colleagues; interestingly, however, they were also more likely to express negative emotions at work. Why would expressing negative emotions at work yield more positive performance? It’s because the alternative to expressing negative emotions is suppressing them, and suppression is cognitively expensive. It involves expending valuable cognitive resources attempting to hide emotions from others, leaving less mental firepower for doing the work.)
-
-* ["Are Emily and Greg More Employable than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination"](https://www.nber.org/papers/w9873): "We perform a field experiment to measure racial discrimination in the labor market. We respond with fictitious resumes to help-wanted ads in Boston and Chicago newspapers. To manipulate perception of race, each resume is assigned either a very African American sounding name or a very White sounding name. The results show significant discrimination against African-American names: White names receive 50 percent more callbacks for interviews. We also find that race affects the benefits of a better resume. ***For White names, a higher quality resume elicits 30 percent more callbacks whereas for African Americans, it elicits a far smaller increase. Applicants living in better neighborhoods receive more callbacks but, interestingly, this effect does not differ by race.*** The amount of discrimination is uniform across occupations and industries. Federal contractors and employers who list Equal Opportunity Employer' in their ad discriminate as much as other employers. We find little evidence that our results are driven by employers inferring something other than race, such as social class, from the names. These results suggest that racial discrimination is still a prominent feature of the labor market."
-
-* ["Does Stress Impact Technical Interviews?"](https://chrisparnin.me/pdf/stress_FSE_20.pdf): "Software engineering candidates commonly participate in whiteboard technical interviews as part of a hiring assessment. During these sessions, candidates write code while thinking-aloud as they work towards a solution, under the watchful eye of an interviewer. While technical interviews should allow for an unbiased and inclusive assessment of problem-solving ability, surprisingly, another possibility is that technical interviews are instead a procedure for identifying candidates who best handle and migrate stress solely caused by being examined by an interviewer (performance anxiety). To understand if coding interviews—as administered today—can induce stress that significantly hinders performance, we conducted a randomized controlled trial with 48 Computer Science students, comparing them in private and public whiteboard settings. We found that performance is reduced by more than half, by simply being watched by an interviewer. We also observed that stress and cognitive load were significantly higher in a traditional technical interview when compared with our private interview. Consequently, interviewers may be filtering out qualified candidates by confounding assessment of problem-solving ability with unnecessary stress. We propose interview modifications to make problem-solving assessment more equitable and inclusive, such as through private focus sessions and retrospective think-aloud, allowing companies to hire from a larger and diverse pool of talent."
-
-* [People don't work as much as you think](https://drmaciver.substack.com/p/people-dont-work-as-much-as-you-think)
-
-* [A fractal of lies](https://drmaciver.substack.com/p/a-fractal-of-lies): Dr House was right: everybody lies. (More to the point, studies are often built off of interviews and interrogation, and people have a habit of telling interviewers not-entirely-truthful things for a variety of reasons.) "Whenever there is an advantage, or a power gradient, or a political agenda, or people just want to fuck with you for their own amusement, probably there are lies. And then people repeat those lies - sometimes purely innocently, sometimes adding their own lies on top."
 
 * [Managing People](https://klinger.io/posts/managing-people-%F0%9F%A4%AF): In short:
 
@@ -438,16 +418,46 @@ There is a long assorted list. Here is an attempt to put its items into buckets:
 
 * To communicate technical concepts to non-technical people, find the terms that business people use and find ways to explain tasks in those terms.
 
-
 ### [What It Takes to Be a Great Technical Lead](http://elegantcode.com/2008/12/03/what-it-takes-to-be-a-great-technical-lead/)
 
-* Possess strong technical skills. You’re also responsible for fixing technical issues that your teammates can't solve. If you can't fix something yourself, find an acceptable workaround.
-* Teach your teammates. If there are some core principles or practices that you want them to apply to their work, you must invest time to promote that understanding.
-* Trust your teammates. If you trust a teammate, that developer will respond with improved output. The quality may not be ideal, but the developer will show more effort.
-* Stimulate self-organization. Do not simply assign tasks to your teammates, but organize planning meetings where members can choose their tasks. But promote a balance in the assigned tasks.
-* Don't keep the coolest technical tasks for yourself. Give your teammates the opportunities to work on such tasks. This raises morale, trust, and skill.
-* Try to prevent overtime as much as possible. If in a situation where the team must put in some overtime, don't tell your teammates they have to do it; instead ask them if they want to do it. Also do not go home early while your teammates are still working.
-* Remember that you are responsible for the final result. Never put the blame of something wrong on one of your teammates.
-* Give credit where credit is due. Give credit where it is due, and make sure everyone else knows about it too, especially management. Never take credit for the work of a teammate.
-* Realize that your teammates are not your developers. Having a leadership role does not mean that you can boss around your teammates. This destroys morale.
+* **Possess strong technical skills.** You’re also responsible for fixing technical issues that your teammates can't solve. If you can't fix something yourself, find an acceptable workaround.
+* **Teach your teammates.** If there are some core principles or practices that you want them to apply to their work, you must invest time to promote that understanding.
+* **Trust your teammates.** If you trust a teammate, that developer will respond with improved output. The quality may not be ideal, but the developer will show more effort.
+* **Stimulate self-organization.** Do not simply assign tasks to your teammates, but organize planning meetings where members can choose their tasks. But promote a balance in the assigned tasks.
+* **Don't keep the coolest technical tasks for yourself.** Give your teammates the opportunities to work on such tasks. This raises morale, trust, and skill.
+* **Try to prevent overtime as much as possible.** If in a situation where the team must put in some overtime, don't tell your teammates they have to do it; instead ask them if they want to do it. Also do not go home early while your teammates are still working.
+* **Remember that you are responsible for the final result.** Never put the blame of something wrong on one of your teammates.
+* **Give credit where credit is due.** Give credit where it is due, and make sure everyone else knows about it too, especially management. Never take credit for the work of a teammate.
+* **Realize that your teammates are not your developers.** Having a leadership role does not mean that you can boss around your teammates. This destroys morale.
+
+---
+
+## 1:1 meetings
+
+[Plucky 1:1 Starter Pack](https://shop.beplucky.com/products/the-plucky-1-1-starter-pack) | [Plucky 1:1 Manager Pack](https://shop.beplucky.com/products/1-1-manager-pack): "Conversation cards" for those awkward moments of silence in a 1:1. Highly recommended.
+
+[T-Shaped People and Academia](https://bastian.rieck.me/blog/posts/2022/t/): "... academia is doing a disservice to ‘T-shaped persons,’ i.e. persons combining deep expertise in one or more fields with an ability to collaborate across areas. T-shaped persons are often contrasted with I-shaped persons, commonly known as experts. Given the state of the art in the software industry, T-shaped people are a sought-for commodity: the current ‘framework du jour’ might be obsolete in a few years, but the horizontal bar of a T-shaped person ensures that they can also contribute to other aspects of a project, and quite likely will develop new vertical bars, i.e. new expertise over time."
+
+#### 9 Questions for 1:1s
+(by Claire Lew, CEO of [KnowYourCompany](http://knowyourteam.com))
+
+1. "Are you afraid of anything at work?"
+2. "Have you seen something recently and thought to yourself 'I wish we'd done that'?"
+3. "Is there something we should measure in the company that we currently don't?"
+4. "Is there any part of the company you wish you were able to interact with more?"
+5. "Are there any benefits we don't offer that you'd like to see us offer?"
+6. "Is there an area outside your current role where you feel you could be contributing?"
+7. "Is there anyone at the company you wish you could apprentice under for a few weeks?"
+8. "Have you seen someone here do great work that's gone unnoticed?"
+9. "Are there things you don't know about the company that you feel you should know?"
+
+#### Ashlee Clifton (Rocket Mortgage) uses these to open 1:1s with people.
+
+* My personal Beliefs and expectations that carry into work - These are your personal ISMs.  List your beliefs and expectations so it is clear for your team members what you expect.
+
+* My personal and work fears - List here what is always in the back of your mind.  Show them you are vulnerable you are not all sunshine and rainbows.
+
+* Best Ways I learn - Let them know how you like to learn, receive feedback, etc.   This will help open the lines of communication and get you started on the right page.
+
+* I am motivated by (Goals, Praise) - Let the person know what motivates you, so they can help.  How do you like to receive recognition?
 

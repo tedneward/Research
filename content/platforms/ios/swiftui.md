@@ -1,4 +1,4 @@
-title=iOS (OS) SwiftUI
+title=iOS SwiftUI
 tags=platform, ios
 summary=SwiftUI user-interface style for the Apple mobile device operating system (on top of the open-source Darwin kernel) UI.
 ~~~~~~

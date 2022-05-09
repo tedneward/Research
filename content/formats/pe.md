@@ -3,37 +3,13 @@ summary=Win32 executable file format.
 tags=format, native, windows, pdb, pe
 ~~~~~~
 
-DLLs and EXEs differ by basically one byte in the PE file format, indicating whether this is executable (and therefore has a main()-style entry point) or not.
-
 Traces ancestry directly back to [COFF](/formats/coff) files.
 
 Uses [PDB](/formats/pdb) for debugging information.
 
-## DLL: Readings
+# Portable Executable (PE)
 
-- Adaptive DLL Hijacking
-	- https://silentbreaksecurity.com/adaptive-dll-hijacking/
-- DLLs and Visual C++ run-time library behavior - https://docs.microsoft.com/en-us/cpp/build/run-time-library-behavior
-- Dynamic-Link Library Best Practices - https://msdn.microsoft.com/library/windows/desktop/dn633971.aspx
-- Everything You Never Wanted To Know About DLLs - http://blog.omega-prime.co.uk/2011/07/04/everything-you-never-wanted-to-know-about-dlls/
-- GOTOHELL.DLL: Software Dependencies and the Maintenance of Microsoft Windows
-	- The Maintainers 2016; Stephanie Dick, Dan Volmar
-	- http://themaintainers.org/s/GOTOHELLDLL1.pdf
-- How can I specify that my DLL should resolve a DLL dependency from the same directory that the DLL is in?
-	- https://blogs.msdn.microsoft.com/oldnewthing/20171011-00/?p=97195
-- How to turn a DLL into a standalone EXE - https://hshrzd.wordpress.com/2016/07/21/how-to-turn-a-dll-into-a-standalone-exe/
-- Import by Hash in x64 Assembly - https://emsea.github.io/2017/12/04/import-by-hash/
-- Isolating a plugin into its own directory
-	- http://web.archive.org/web/20171011141708/https://blogs.msdn.microsoft.com/talagrand/2010/03/08/isolating-a-plugin-into-its-own-directory/
-- Rpath emulation: absolute DLL references on Windows - http://blog.omega-prime.co.uk/2012/12/06/rpath-emulation-absolute-dll-references-on-windows/
-- Shellcode: In-Memory Execution of DLL - https://modexp.wordpress.com/2019/06/24/inmem-exec-dll/
-- Ten Process Injection Techniques: A Technical Survey of Common and Trending Process Injection Techniques
-	- https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process
-- What is so special about the instance handle 0x10000000? - https://blogs.msdn.microsoft.com/oldnewthing/20121227-00/?p=5713/
-- Windows DLL Hijacking (Hopefully) Clarified
-	- https://itm4n.github.io/windows-dll-hijacking-clarified/
-
-## PE: Readings
+## Readings
 
 * A smallest PE executable (x64) with every byte executed - https://drakopensulo.wordpress.com/2017/08/06/smallest-pe-executable-x64-with-every-byte-executed/
 * An Analysis of the Windows PE Checksum Algorithm - https://www.codeproject.com/Articles/19326/An-Analysis-of-the-Windows-PE-Checksum-Algorithm
@@ -74,51 +50,7 @@ Uses [PDB](/formats/pdb) for debugging information.
 * Why does a corrupted binary sometimes result in "Program too big to fit in memory"? - https://blogs.msdn.microsoft.com/oldnewthing/20060130-00/?p=32483
 * Why is 0x00400000 the default base address for an executable? - https://blogs.msdn.microsoft.com/oldnewthing/20141003-00/?p=43923
 
-## DLL: Software
-
-- Dependencies: An open-source modern Dependency Walker
-	- https://lucasg.github.io/Dependencies/
-	- https://github.com/lucasg/Dependencies
-- Dependency Walker - http://www.dependencywalker.com/
-- Detours - https://www.microsoft.com/en-us/research/project/detours/
-- DetoursNT: Detours with just single dependency - NTDLL
-	- https://github.com/wbenny/DetoursNT
-- DLL Diagnostic Tools: Tools for diagnosing DLL dependency loading issues
-	- https://github.com/adamrehn/dll-diagnostics
-- DLL_to_EXE: Converts a DLL into a ready-to-use EXE. Supports both 32 and 64 bit DLLs
-	- https://github.com/hasherezade/dll_to_exe
-- EasyHook
-	- https://easyhook.github.io/
-	- https://github.com/EasyHook/EasyHook
-- GNU Binary Utilities - https://sourceware.org/binutils/docs/binutils/
-	- dlltool: Create files needed to build and use DLLs - https://sourceware.org/binutils/docs/binutils/dlltool.html
-- InjectDLL: a Windows command line tool to inject DLLs into other processes - http://bytepointer.com/tools/index.htm#injectdll
-- Koppeling: Adaptive DLL hijacking / dynamic export forwarding
-	- https://github.com/monoxgas/Koppeling
-- loadlibrary: Porting Windows Dynamic Link Libraries to Linux
-	- https://github.com/taviso/loadlibrary
-- MemoryModule: Library to load a DLL from memory
-	- https://github.com/fancycode/MemoryModule
-	- https://www.joachim-bauch.de/tutorials/loading-a-dll-from-memory/
-- PESecInfo: A simple tool to view important DLL Characteristics and change DEP and ASLR
-	- https://github.com/OsandaMalith/PESecInfo
-	- https://osandamalith.com/2018/10/24/pe-sec-info-a-simple-tool-to-manipulate-aslr-and-dep-flags/
-- Rattler: Automated DLL Enumerator
-	- https://github.com/sensepost/rattler
-	- Rattler: Identifying and Exploiting DLL Preloading Vulnerabilities
-		- https://sensepost.com/blog/2016/rattleridentifying-and-exploiting-dll-preloading-vulnerabilities/
-	- What the Dll? Finding and Exploiting DLL preloading vulnerabilities - Chris Le Roy
-		- https://www.youtube.com/watch?v=xvluwoPM8v8
-- Reflective DLL Injection with PowerShell - https://clymb3r.wordpress.com/2013/04/06/reflective-dll-injection-with-powershell/
-- ReflectiveDLLInjection - https://github.com/stephenfewer/ReflectiveDLLInjection
-- ReloadLibrary
-	- ReloadLibrary is a quick-and-dirty anti-hook library. Given the name of a .dll, it will make a temporary copy of the .dll on disk, load the copy, and overwrite the import address table with corresponding function addresses in the cloned library.
-	- https://github.com/nickcano/ReloadLibrary
-- ThreadContinue: Reflective DLL injection using SetThreadContext() and NtContinue()
-	- https://github.com/zerosum0x0/ThreadContinue
-	- https://zerosum0x0.blogspot.com/2017/07/threadcontinue-reflective-injection.html
-
-## PE: Software
+## Tools/Software
 
 * Adlice PEViewer - https://www.adlice.com/download/roguekillerpe/
 * bearparser: Portable Executable parsing library - https://github.com/hasherezade/bearparser
@@ -188,14 +120,14 @@ Uses [PDB](/formats/pdb) for debugging information.
 	+ https://github.com/adrianstone55/SymbolSort
 	+ http://gameangst.com/?p=320
 
-## PE: Software: Loaders
+### Loaders
 
 - DreamLoader: Simple 32/64-bit PEs loader
 	- https://github.com/86hh/DreamLoader
 - In-Memory PE Loader: A very simple PE loader for loading DLLs into memory without using LoadLibray
 	- https://github.com/nettitude/SimplePELoader
 
-## PE: Software: Packers
+### Packers
 
 - Amber: Reflective PE packer
 	- https://github.com/EgeBalci/Amber
@@ -209,18 +141,7 @@ Uses [PDB](/formats/pdb) for debugging information.
 		- Revision Online 2020 Seminar; jake "ferris" taylor / logicoma
 		- https://www.youtube.com/watch?v=O5LfE_qNzes
 
-
-## DLL: Talks
-
-* 2017 - Everything You Ever Wanted to Know about DLLs
-	+ CppCon; James McNellis
-	+ https://www.youtube.com/watch?v=JPQWQfDhICA
-	+ https://github.com/CppCon/CppCon2017/blob/master/Presentations/Everything%20You%20Ever%20Wanted%20to%20Know%20about%20DLLs/
-* 2017 - Memory-Based Library Loading: Someone Did That Already
-	+ Derbycon; Casey Rosini
-	+ http://www.irongeek.com/i.php?page=videos/derbycon7/t108-memory-based-library-loading-someone-did-that-already-casey-rosini
-
-## PE: Talks
+## Talks
 
 * 2018 - Reflective PE Unloading
 	+ BSides Cleveland 2018; Spencer McIntyre
@@ -248,3 +169,87 @@ Uses [PDB](/formats/pdb) for debugging information.
 	+ https://www.reversinglabs.com/newsroom/blog/constant-insecurity-things-you-didnt-know-about-pe-portable-executable-file-format.html
 	+ Paper - Undocumented PECOFF: https://media.blackhat.com/bh-us-11/Vuksan/BH_US_11_VuksanPericin_PECOFF_WP.pdf
 	+ Slides: https://media.blackhat.com/bh-us-11/Vuksan/BH_US_11_VuksanPericin_PECOFF_Slides.pdf
+
+---
+
+# Dynamic Link Libraries
+DLLs are Win32 libraries, loaded and linked at runtime (hence the name), built on top of the Portable Executable format. DLLs and EXEs differ by basically one byte in the PE file format, indicating whether this is executable (and therefore has a main()-style entry point) or not.
+
+## Readings
+
+- Adaptive DLL Hijacking
+	- https://silentbreaksecurity.com/adaptive-dll-hijacking/
+- DLLs and Visual C++ run-time library behavior - https://docs.microsoft.com/en-us/cpp/build/run-time-library-behavior
+- Dynamic-Link Library Best Practices - https://msdn.microsoft.com/library/windows/desktop/dn633971.aspx
+- Everything You Never Wanted To Know About DLLs - http://blog.omega-prime.co.uk/2011/07/04/everything-you-never-wanted-to-know-about-dlls/
+- GOTOHELL.DLL: Software Dependencies and the Maintenance of Microsoft Windows
+	- The Maintainers 2016; Stephanie Dick, Dan Volmar
+	- http://themaintainers.org/s/GOTOHELLDLL1.pdf
+- How can I specify that my DLL should resolve a DLL dependency from the same directory that the DLL is in?
+	- https://blogs.msdn.microsoft.com/oldnewthing/20171011-00/?p=97195
+- How to turn a DLL into a standalone EXE - https://hshrzd.wordpress.com/2016/07/21/how-to-turn-a-dll-into-a-standalone-exe/
+- Import by Hash in x64 Assembly - https://emsea.github.io/2017/12/04/import-by-hash/
+- Isolating a plugin into its own directory
+	- http://web.archive.org/web/20171011141708/https://blogs.msdn.microsoft.com/talagrand/2010/03/08/isolating-a-plugin-into-its-own-directory/
+- Rpath emulation: absolute DLL references on Windows - http://blog.omega-prime.co.uk/2012/12/06/rpath-emulation-absolute-dll-references-on-windows/
+- Shellcode: In-Memory Execution of DLL - https://modexp.wordpress.com/2019/06/24/inmem-exec-dll/
+- Ten Process Injection Techniques: A Technical Survey of Common and Trending Process Injection Techniques
+	- https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process
+- What is so special about the instance handle 0x10000000? - https://blogs.msdn.microsoft.com/oldnewthing/20121227-00/?p=5713/
+- Windows DLL Hijacking (Hopefully) Clarified
+	- https://itm4n.github.io/windows-dll-hijacking-clarified/
+
+## Tools/Software
+
+- Dependencies: An open-source modern Dependency Walker
+	- https://lucasg.github.io/Dependencies/
+	- https://github.com/lucasg/Dependencies
+- Dependency Walker - http://www.dependencywalker.com/
+- Detours - https://www.microsoft.com/en-us/research/project/detours/
+- DetoursNT: Detours with just single dependency - NTDLL
+	- https://github.com/wbenny/DetoursNT
+- DLL Diagnostic Tools: Tools for diagnosing DLL dependency loading issues
+	- https://github.com/adamrehn/dll-diagnostics
+- DLL_to_EXE: Converts a DLL into a ready-to-use EXE. Supports both 32 and 64 bit DLLs
+	- https://github.com/hasherezade/dll_to_exe
+- EasyHook
+	- https://easyhook.github.io/
+	- https://github.com/EasyHook/EasyHook
+- GNU Binary Utilities - https://sourceware.org/binutils/docs/binutils/
+	- dlltool: Create files needed to build and use DLLs - https://sourceware.org/binutils/docs/binutils/dlltool.html
+- InjectDLL: a Windows command line tool to inject DLLs into other processes - http://bytepointer.com/tools/index.htm#injectdll
+- Koppeling: Adaptive DLL hijacking / dynamic export forwarding
+	- https://github.com/monoxgas/Koppeling
+- loadlibrary: Porting Windows Dynamic Link Libraries to Linux
+	- https://github.com/taviso/loadlibrary
+- MemoryModule: Library to load a DLL from memory
+	- https://github.com/fancycode/MemoryModule
+	- https://www.joachim-bauch.de/tutorials/loading-a-dll-from-memory/
+- PESecInfo: A simple tool to view important DLL Characteristics and change DEP and ASLR
+	- https://github.com/OsandaMalith/PESecInfo
+	- https://osandamalith.com/2018/10/24/pe-sec-info-a-simple-tool-to-manipulate-aslr-and-dep-flags/
+- Rattler: Automated DLL Enumerator
+	- https://github.com/sensepost/rattler
+	- Rattler: Identifying and Exploiting DLL Preloading Vulnerabilities
+		- https://sensepost.com/blog/2016/rattleridentifying-and-exploiting-dll-preloading-vulnerabilities/
+	- What the Dll? Finding and Exploiting DLL preloading vulnerabilities - Chris Le Roy
+		- https://www.youtube.com/watch?v=xvluwoPM8v8
+- Reflective DLL Injection with PowerShell - https://clymb3r.wordpress.com/2013/04/06/reflective-dll-injection-with-powershell/
+- ReflectiveDLLInjection - https://github.com/stephenfewer/ReflectiveDLLInjection
+- ReloadLibrary
+	- ReloadLibrary is a quick-and-dirty anti-hook library. Given the name of a .dll, it will make a temporary copy of the .dll on disk, load the copy, and overwrite the import address table with corresponding function addresses in the cloned library.
+	- https://github.com/nickcano/ReloadLibrary
+- ThreadContinue: Reflective DLL injection using SetThreadContext() and NtContinue()
+	- https://github.com/zerosum0x0/ThreadContinue
+	- https://zerosum0x0.blogspot.com/2017/07/threadcontinue-reflective-injection.html
+
+## Talks
+
+* 2017 - Everything You Ever Wanted to Know about DLLs
+	+ CppCon; James McNellis
+	+ https://www.youtube.com/watch?v=JPQWQfDhICA
+	+ https://github.com/CppCon/CppCon2017/blob/master/Presentations/Everything%20You%20Ever%20Wanted%20to%20Know%20about%20DLLs/
+* 2017 - Memory-Based Library Loading: Someone Did That Already
+	+ Derbycon; Casey Rosini
+	+ http://www.irongeek.com/i.php?page=videos/derbycon7/t108-memory-based-library-loading-someone-did-that-already-casey-rosini
+

@@ -2,7 +2,6 @@ title=Tracing (in software) reading
 tags=native, linux, windows, reading
 summary=A collection of links and resources on tracing through programs in assistance of debugging.
 ~~~~~~
-# Readings
 
 [Debug your programs like they're closed source! (strace, ltrace)](https://jvns.ca/blog/2014/04/20/debug-your-programs-like-theyre-closed-source/)
 
@@ -53,10 +52,6 @@ summary=A collection of links and resources on tracing through programs in assis
 	- 2016 IEEE Globecom Workshops
 	- Sharma, S. D., Bastien, G., Nemati, H. & Dagenais, M.
 	- https://publications.polymtl.ca/2975/1/2016_Sharma_Low_overhead_hardware-assisted_virtual_machive.pdf
-
-sampling-based processor tracing: Intel LBR (Last Branch Record), Itanium BTB (Branch Trace Buffer), PowerPC BHRB (Branch History Rolling Buffer)
-
-non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (Processor Trace), ARM CoreSight
 - libbts.c: minimal BTS tracing wrapper for Linux Perf
 	- https://gist.github.com/pkhuong/1ce34e33c6df4b9be3bc9beb22415a47
 - Andi Kleen's Intel Processor Trace resources

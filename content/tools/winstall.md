@@ -1,5 +1,5 @@
 title=Winstall/Winget
-tags=tools, windows
+tags=tool, windows
 summary=Windows package manager.
 ~~~~~~
 

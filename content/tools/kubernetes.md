@@ -37,3 +37,15 @@ Project (Strongest network/data/metadata isolation)
 ... contains Container(s) (Some resource isolation, kernel security isolation)
 ... with Namespaces (Some control plane isolation, service account isolation) being inside Cluster and encircling Pods
 
+---
+
+## Articles
+
+* [Kubernetes in-cluster traffic encryption using cert manager](https://medium.com/@mikhail_advani/kubernetes-in-cluster-traffic-encryption-using-cert-manager-b70c2101a12d)
+
+---
+
+## Related Projects
+
+[kyverno](https://github.com/kyverno/kyverno): Kubernetes Native Policy Management
+

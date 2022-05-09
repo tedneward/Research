@@ -36,3 +36,7 @@ summary=Native language intended to supplement or replace C/C++ someday.
 - rustcxx: Using C++ from Rust made easy
 	- https://github.com/google/rustcxx
 
+## Other
+
+- [Xilem: an architecture for UI in Rust](https://raphlinus.github.io/rust/gui/2022/05/07/ui-architecture.html)
+

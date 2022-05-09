@@ -7,6 +7,10 @@ tags=tool
 
 ["The open calendar, task, and note space is a mess"](https://stevenvanbael.com/open-calendar-task-space-is-a-mess)
 
+## Editors
+
+* [NotepadNext](https://github.com/dail8859/NotepadNext): Cross-platform reimplementation of Notepad++
+
 ## Notetaking
 
 * [Evernote](https://evernote.com/)
@@ -55,3 +59,10 @@ tags=tool
 ## Scheduling OSS alternatives (to [Calendly](https://calendly.com/))
 
 * [Calendso](https://cal.com/): [Source](https://github.com/calendso/calendso)
+
+---
+
+## Graphics and animation
+
+* [Arteater](https://www.eatmy.art/): Create hand-drawn GIFs on paper, upload to transform
+* [Excalidraw](https://excalidraw.com/)

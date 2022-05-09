@@ -1,4 +1,4 @@
-title=iOS (OS) Accessibility
+title=iOS Accessibility
 tags=platform, ios
 summary=Accessibility on the Apple mobile device operating system (on top of the open-source Darwin kernel).
 ~~~~~~

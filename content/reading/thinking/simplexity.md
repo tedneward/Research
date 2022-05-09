@@ -1,5 +1,5 @@
 title=Simplexity
-tags=reading, books, psychology
+tags=reading, books, psychology, thinking
 summary="Why Simple Things Become Complex (and how Complex Things Can Be Made Simple)." Simplexity is a whole new science redefining how we look at the world; seen through this lens, the world becomes a more delicate place filled with predictable patterns, which we often fail to see as we're time and again fooled by our instincts, our fear, the size of things, or even their beauty.
 ~~~~~~
 *(by Jeffrey Kluger, Hyperion, ISBN 978-1-4013-0301-3)*
@@ -69,7 +69,18 @@ The key in all of these situations is to recognize that there is indeed great wi
 (9/11, Ed Schmitt, and his decision to leave the building (Tower One) when the first plane struck Tower Two, when so many others stayed.) Ultimately, we are misled by our most basic instincts--the belief that we know where the danger is and how best to respond to keep ourselves alive, whenin fact we sometimes have no idea at all. It's the job of the people who think about such matters to tease all these things apart and put them back together in buildings and vehicles that keep their occupants alive; it's the job of those occupants to learn enough about the systems so that they have the sense to use them.
 
 ### Buildings
+20,000 people in a building or 1/2 million in a coastal city occupy the same spot on the complexity spectrum as air molecules filling a room--moving randomly and chaotically in all directions, filling all the available space more or less uniformly. Very active, but also very simple and disordered. Send the same people on a stampede down stairways or highways and things quickly grow overloaded and grind to a halt, jumping to the other end of the complexity arc--robust, unchanging, frozen in place, but every bit as simple as the ever-shifting air molecules. It's in the middle of the arc, where the molecules just begin to take some shape (or the people just begin to move to the exits) that true complexity begins to emerge.
 
+### Water
+Best way to understand the manner in which people move *en masse* may be to understand the way water does the same, particularly how it navigates around obstacles or breakwaters. A foundered boat or tumbled boulder creates turbulence; a non-sensical post in the middle of the floor does the same. That turbulence staggers their arrival slightly, allowing them to stream through the opening in a reasonably controlled flow, rather than colliding there at once and causing a pileup. The obstacle keeps you at the top of the complexity arc, preventing you from reaching the frozen end. "By adding a little noise to the system you produce coherence in the flow."
+
+This, of course, assumes people behave sensibly. For one thing, people have different levels of decision-making skills, with some behaving more rationally than others. For another, all of us have a tendency to believe that the rest of the group knows what it's doing, and thus will gravitate toward a popular exit simply because other people have chosen it, even if the alternative is perfectly safe and much less congested. Finally, information tends to get distributed unevenly, with some people learning about an emergency first and acting before the others.
+
+### Stairs
+Simulations and models can't simulate emotion/fear; for example, the only thing that ought to count in stairways is pure speed; anything short of a stampede should get the building emptied in a hurry. But pure speed is hard to maintain. It doesn't take much for a smooth stream of downward-flowing evacuees to turn turbulent. For one thing, people from middle floors who enter the stairwell somewhere in mid-current can cause things to slow or stop. The delay flows back along the queue like a ripple through water or cars entering a highway. Sequential evacuation is the best way to handle this problem, with people on lower floors leaving first and each high floor following successively; but nobody pretends that people fearing for their lives would wait patiently at their desks until their floor is called. The design of the stairways themselves must provide the extra margin of speed. (Guiderails; lighting; fluorescent tape.) But stairways were too narrow, not taking into account that two-thirds of 2001 Americans are overweight or obese.
+
+### Social parts of an evacuation
+Social norms about who's making decisions change during the day-to-day, and all these norms are broken in an emergency. What appears in a time of emergency is something complexity researchers call the emergent norm--that is a whole new set of rules.
 
 # 3: How does a single bullet start a world war? 
 *(Confused by Social Structure)*

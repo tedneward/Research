@@ -1,5 +1,5 @@
 title=Java Concurrency in Practice
-tags=reading, jvm, vms
+tags=reading, jvm, vm
 summary=Goetz's seminal work on how concurrency works and operates on the JVM.
 ~~~~~~
 

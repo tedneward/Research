@@ -1,5 +1,5 @@
 title=Debugging reading
-tags=native, reading, linux, windows
+tags=native, reading, linux, windows, list
 summary=A collection of reading links and resources on debugging
 ~~~~~~
 # General

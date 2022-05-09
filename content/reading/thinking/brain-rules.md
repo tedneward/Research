@@ -1,5 +1,5 @@
 title=Brain Rules
-tags=reading, books, psychology
+tags=reading, books, psychology, thinking
 summary=Rules for how the brain works.
 ~~~~~~
 *(by John Medina (Pear Press))*

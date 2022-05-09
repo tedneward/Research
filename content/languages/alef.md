@@ -1,5 +1,5 @@
 title=Alef
-tags=language, concurrent
+tags=language, concurrency
 summary=A concurrent programming language designed for the Plan 9 operating system from Bell Labs.
 ~~~~~~
 

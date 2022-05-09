@@ -1,5 +1,5 @@
 title=Sway
-tags=reading, books, management, psychology
+tags=reading, books, management, psychology, thinking
 summary=The irresistable pull of irrational behavior
 ~~~~~~
 *(by (author), (publisher))*

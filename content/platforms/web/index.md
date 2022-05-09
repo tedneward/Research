@@ -5,6 +5,9 @@ summary=Standardized web browser programming.
 
 The Web browsers ([Chrome](../chrome), [Safari](../safari), IE, [Firefox](../firefox), etc) form a platform in of themselves, given how much is targeted specifically to them. That said, there is a great deal of overlap between the browser ecosystem and the [NodeJS](../nodejs) platform, owing to the ECMAScript-based nature of each.
 
+Other browsers:
+* [Orion](https://browser.kagi.com/) (macOS, iOS/iPadOS)
+
 ## Web APIs
 [MDN list](https://developer.mozilla.org/en-US/docs/Web/API):
 * [Background tasks](https://developer.mozilla.org/en-US/docs/Web/API/Background_Tasks_API)
