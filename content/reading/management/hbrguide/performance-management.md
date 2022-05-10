@@ -122,27 +122,110 @@ Don't make the mistake of dismissing what you can't quantify. When it comes time
 ### Establish Expectations, Not Just Goals
 When you discuss objectives with your employees, you should also talk about what you expect of them in terms of behavior. Your direct may understand what they must achieve, but if they do so in a way that's detrimental to your team or the organization, their contributions won't matter. Talk through your expectations for citizenship behaviors (stepping in to help colleagues in need, serving as a resource for others, cooperating and demonstrating flexibility, and training new hires) as well as basic competencies like behaving professionally. Understanding behavioral expectations is important to creating a collaborative and productive work environment--and you should make it clear to your employees that you value their contributions and cooperation on this front as much as you do their work results.
 
-
-
 ## Chapter 3: Collaborate with Your Employee to Create a Plan for Moving Forward
 *Outline steps to accomplish objectives and adjust as necessary.*
 
+Once you have goals, create a practical plan for achieving them. "Creating goals that teams and organizations will actually accomplish isn't just a matter of defining what needs doing; you also have to spell out the specifics of getting it done, because you can't assume that everyone involved will know how to move from concept to delivery." (Heidi Grant, "Get Your Team to Do What It Says It's Going to Do", HBR, May 2014) Goals can seem impenetrable but they become much more manageable when there's a detailed plan to reach them.
 
+### Set a Comprehensive Plan for Success
+The process of setting a plan can empower your direct and create a sense of ownership.
+
+Steps:
+
+1. ***Determine the tasks needed to accomplish the goal***: Break the goal down into task-basde components. Some items may be completed simultaneously, while others need to be completed sequentially, so list them in the appropriate order.
+
+2. ***Plan the timing for each task***: Set a start and finish date for each individual task, and describe the desired. (Backlog, basically)
+
+3. ***Gather the resources needed to fulfill each task***: Many efforts fail because people underestimate the time and resources required to accomplish each task. Consider what the employee will need to complete the task. Do they have the bandwidth and equipment to manage these tasks in addition to their ongoing responsibilities? Does your direct report have the training and knowledge to be successful?
+
+4. ***Get it on paper***: Specifically, include:
+    * The date of your performance-planning meeting
+    * Key points brought up by both parties
+    * The employee's goals for the next review period
+    * A detailed plan of what is required to achieve them
+    * A description of any resources or training you have agreed to provide
+    * A time frame for follow-up meetings
+
+### Follow Up and Reassess Goals
+Regularly schedule check-in conversations to keep track of progress; if you don't know how well someone is doing, you won't know when to make adjustments in their plan to reach objectives--or in the goals themselves. For example: "What am I doing that I should keep doing? What am I doing that I should change?"
+
+Timing can vary, and may be set by the organization. You're the best judge of how frequently you should meet with each of your directs. At the end of your performance-planning meeting, discuss with your employee when it makes sense to check in. Some meetings should be event-based: when they complete a task, reach a milestone, or achieves a goal. But others wil lbe between these points, simply to discuss ongoing progress.
+
+#### When to change your employee's goals
+If an employee's goals need to be revised, meet to review previously set goals and plans. Three questions:
+
+* Are they still realistic, given any changes in constraints or resources?
+* Are they still timely? Is now the best possible moment to achieve them?
+* Are they still relevant? Do they still align with the company's strategy?
+
+If you're checking in with your reports on a regular basis, the need to change course or revise goals will come as no surprise. Additionally, every check-in will be another opportunity to monitor your direct's performance, offer feedback, or provide coaching.
 
 # Section Two: Ongoing Performance Management
 *We'll discuss the process of observing, documenting, and improving performance throughout the year. You'll learn how to identify performance gaps and assess why they occur, effectively coach and deliver feedback, recognize good work, and motivate people to do their best.*
 
+
 ## Chapter 4: Assessing Performance Isn't a One-time Event
 *Note good and bad work, and identify root cause*
+
+Assessing performance and providing feedback is a continual process. You and your employees will both benefit if you give feedback often. Take advantage of your check-in sessions as opportunities to track your employees' strengths, weaknesses, interests, and ambitions. Periodic progress checks and ongoing observation are essential in order to help you:
+
+* **Stay grounded in goals.**
+* **Recognize and reinforce strong performance.**
+* **Become aware of performance gaps, and close them.**
+
+### Observe and Gather Data
+To best track performance, observe your employees and how they are progressing toward their goals. Your mission should be to identify an individual's strengths and weaknesses and to understand the impact that their work and behavior has on the person's ability to achieve specific objectives, as well as their contribution to the organization as a whole. Perhaps someone demonstrates a behavior that is causing problems--it's important to assess whether it's an anomaly that won't cause future damage or an ongoing behavior pattern that requires your immediate feedback s your employee can change.
+
+While your personal observations are important, where tasks are complex or involve a team, you may not have the ability to see the full picture. Feedback from other sources provides a useful reality check of your own views--and may provide you with new information about additional good or bad performance. When appropriate, discuss these situations with trusted colleagues--in confidence.
+
+> **SIDEBAR:** ***Document your observations***
+> Keep a file on each of your direct's peformance, and update it throughout the year. Use it to keep track of both good and bad performance, so you have a balanced view of your employee's work. Update it after check-ins, or set a calendar reminder to add new information periodically. This document will likely be only for your own reference, so you don't need to write much--just enough so you can see progress (or lack thereof) over time and ensure that you'll remember notable successes or missteps. That said, if someone's performance is suffering to the point where you need to consider termination, you should be especially careful about documenting such actions, as your personal notes could become material in a legal case. Points to consider:
+
+>    * Record the date and specifics of what happened.
+>    * Stick to facts, not judgments.
+>    * Make notes on the day you've given someone feedback (or soon after), while it's fresh in your mind.
+>    * Keep a folder of emails or other correspondence highlighting your employee's accomplishments, whether they are instances you noted yourself or include praise from others.
+
+> If you aren't able to check in regularly with your employees and jot down notes yourself--perhaps they work remotely or travel often--request periodic progress reports from each of them every week, month, or quarter. Those reports don't need to be formal. An email with a few bullet points will suffice to gather the necessary information, such as key accomplishments, questions or concerns, and what the individual aims to achieve before the next report or check-in session.
+
+Always ensure you have a complete picture of the situation, and continue to watch your direct's work and behavior. Avoid premature judgment, and recognize that, no matter someone's behavior, any assumptions about the causes are just that--assumptions. COnsider what might underlie an employee's disappointing work results, and make the effort to accurately assess what's causing the problem.
+
+#### Notice subtle requests for help
+It's also important to perceive the indirect ways your employees may be asking for help. People don't always know what kind of help they need or exactly how to ask for it. Make a practice of actively listening when discussing projects or progress with your employee, and confirm that they understand exactly what you're asking of them.
+
+### Identify Possible Causes of Poor Performance
+If you've noticed an employee's work isn't up to par, your next step is to investigate what may be causing the issue. The underlying cause could be a skill definiciency, poor time management or personal work habits, lack of motivation, conflict with another employee, or unclear direction on your part. Underperformance may have a nonobvious cause; here a few possible reasons:
+
+* **Bad processes.** The source of unsatisfactory performance is often bad work processes. If you want better performance, look to the work process before you look for faults in your people.
+* **Workplace tensions.**
+* **Work overload.**
+* **Personal problems.**
+
+#### Are you part of the problem?
+Assess whether you've played a role in the issue:
+
+* **Have I been clear in my expectations?** Ask your direct to explain the task or project in their own words.
+* **Am I holding up my end of the bargain?** Be careful of accidental undercut or lack of support.
+* **How often and to what extend have I intervened in the employee's area of responsibility?** Some peoplelearn best by doing research and preparing beforehand, but others thrive with a less cautious approach. Action-oriented individuals may need more freedom to experiment in order to master new skills.
+* **Have I changed priorities and assigned tasks without employee input?** An unexpected--and unplanned-for--shift in time or resources can throw anyone off their game.
+
+WHen you have identified the cause of a problem, decide if it's worth addressing. Is this a true performance gap or a temporary glitch? Avoid giving feedback in situations where your employee cannot change or control the outcome.
+
 
 ## Chapter 5: Make a Habit of Providing Feedback
 *Discuss your observations with your employee*
 
-## Chapter 6: Coach your Employee to CLose Performance Gaps
+
+
+## Chapter 6: Coach your Employee to Close Performance Gaps
 *Ask question to help them solve problems and master new skills*
+
+
 
 ## Chapter 7: How to Keep Your Employees Motivated
 *Recognize good work, and encourage progress*
+
+
 
 # Section Three: Developing Employees
 *We'll address employee career development: how to ensure that your people are growing professionally. Regardless of how your organization's formal performance management process is run, employee development efforts are becoming a focus of every manager who wants to lead an engaged, high-performing team and drive business. You'll learn how to discover your employees' unique needs and ambitions, identify the tactics available to your direct reports to build their skills, determine a direction for growth, and create individualized development plans to propel people forward--even those who are struggling.*
