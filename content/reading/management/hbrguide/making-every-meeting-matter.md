@@ -1,5 +1,5 @@
 title=HBR's Guide to Making Every Meeting Matter
-tags=reading, management, meetings
+tags=reading, management, meetings, hbr
 summary=Notes from the book.
 ~~~~~~
 *(ISBN 9781633692176)*

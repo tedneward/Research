@@ -1,4 +1,4 @@
-title=HBR Guide to Performance Management
+title=HBR's Guide to Performance Management
 tags=reading, management, hbr
 summary=HBR's collection of essays on performance management.
 ~~~~~~
@@ -132,12 +132,57 @@ When you discuss objectives with your employees, you should also talk about what
 # Section Two: Ongoing Performance Management
 *We'll discuss the process of observing, documenting, and improving performance throughout the year. You'll learn how to identify performance gaps and assess why they occur, effectively coach and deliver feedback, recognize good work, and motivate people to do their best.*
 
-# Section Three: 
+## Chapter 4: Assessing Performance Isn't a One-time Event
+*Note good and bad work, and identify root cause*
+
+## Chapter 5: Make a Habit of Providing Feedback
+*Discuss your observations with your employee*
+
+## Chapter 6: Coach your Employee to CLose Performance Gaps
+*Ask question to help them solve problems and master new skills*
+
+## Chapter 7: How to Keep Your Employees Motivated
+*Recognize good work, and encourage progress*
+
+# Section Three: Developing Employees
 *We'll address employee career development: how to ensure that your people are growing professionally. Regardless of how your organization's formal performance management process is run, employee development efforts are becoming a focus of every manager who wants to lead an engaged, high-performing team and drive business. You'll learn how to discover your employees' unique needs and ambitions, identify the tactics available to your direct reports to build their skills, determine a direction for growth, and create individualized development plans to propel people forward--even those who are struggling.*
 
-# Section Four: 
+## Chapter 8: Understand Your Employee's Wants and Needs
+*Know what your direct report aspires to*
+
+## Chapter 9: Expand Your Employee's Skill Sets
+*Basic tactics to learn new areas of expertise*
+
+## Chapter 10: Craft a Development Plan
+*Define a specific plan for future growth*
+
+## Chapter 11: How to Develop Someone Who's Struggling
+*GOod performers aren't the only ones who need to grow*
+
+# Section Four: Formal Performance Reviews
 *We'll delve into the details of formal performance reviews. This section first presents current arguments for and against formal appraisals--and for those who do conduct them, offers a detailed process for success. We'll help you navigate the practice of assessing a direct report's progress toward previously established goals and show you how to put your appraisal in writing, including how to use ratings most effectively. We'll cover how to conduct the review session, from detailing performance to preparing for the review period ahead.*
 
-# Section Five:
+## Chapter 12: The Case Against (and for) Annual Appraisals
+*How companies are changing the way they look at reviews*
+
+## Chapter 13: Assess Performance, but Rethink Ratings
+*Take an individualized approach*
+
+## Chapter 14: How to Conduct the Review Conversation
+*Tips and tricks for a productive discussion*
+
+## Chapter 15: Define Newa Goals for a New Cycle
+*Adjust objectives for continued growth*
+
+# Section Five: Tough Topics
 *We'll explore topics that managers struggle with in performance management. We'll begin by explaining how to support and nurture your B players: those who are neither amibitious standouts nor strugglers. We'll also discuss howto avoid burnout on your team--a problem that tends to affect the most valuable, hardest-working employees. Finally, you'll learn how to manage the performance of remote employees you rarely (or never) see in person.*
+
+## Chapter 16: Responding to the Steady Worker
+*What to do with your stalwarts*
+
+## Chapter 17: Preventing Burnout on your Team
+*Make sure your people aren't running out of steam*
+
+## Chapter 18: Managing the Performance of Remote Employees
+*From giving feedback to conducting annual appraisals*
 
