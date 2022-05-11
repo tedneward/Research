@@ -28,8 +28,98 @@ From [the CSS Snapshot doc](https://www.w3.org/TR/CSS/):
 
 [CSS Tips](https://markodenic.com/css-tips/):
 
-* Typing Effect
-* Drop shadow
+* Typing Effect:
+    HTML:
+    ```
+    <div class="wrapper">
+      <div class="typing-demo">
+        This is a typing demo.
+      </div>
+    </div>
+    ```
+    CSS:
+    ```
+    .wrapper {
+      height: 100vh;
+      /*This part is important for centering*/
+      display: grid;
+      place-items: center;
+    }
+
+    .typing-demo {
+      width: 22ch;
+      animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid;
+      font-family: monospace;
+      font-size: 2em;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0
+      }
+    }
+        
+    @keyframes blink {
+      50% {
+        border-color: transparent
+      }
+    }
+    ```
+
+* Drop shadow: When you work with transparent images you can use `drop-shadow()` filter function to create a shadow on the image’s content, instead of `box-shadow` property which creates a rectangular shadow behind an element’s entire box: filter: `drop-shadow(2px 4px 8px #585858)`
+    HTML
+    ```
+    <div class="wrapper">
+      <div class="mr-2">
+        <div class="mb-1 text-center">
+          box-shadow
+        </div>
+        
+        <img class="box-shadow" src="https://markodenic.com/man_working.png" alt="Image with box-shadow">
+      </div>
+        
+      <div>
+        <div class="mb-1 text-center">
+          drop-shadow
+        </div>
+        
+        <img class="drop-shadow" src="https://markodenic.com/man_working.png" alt="Image with drop-shadow">
+      </div>
+    </div>
+    ```
+    CSS:
+    ```
+    .wrapper {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .mr-2 {
+      margin-right: 2em;
+    }
+
+    .mb-1 {
+      margin-bottom: 1em;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .box-shadow {
+      box-shadow: 2px 4px 8px #585858;
+    }
+
+    .drop-shadow {
+      filter: drop-shadow(2px 4px 8px #585858);
+    }
+    ```
+    
 * Smooth scrolling
 * Center
 * Cursors (as in, mouse cursor)
