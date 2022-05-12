@@ -11,7 +11,12 @@ Bytecode interpreted. JIT compiled (depending on implementation). Dynamic code l
 
 [JVM conversion](https://github.com/jtransc/jtransc): Bytecode to source converting Java & Kotlin code into JavaScript, C++, D, C#, PHP, AS3, Dart and Haxe and run it everywhere. Also use JVM code in your favourite language as a library. [Website](https://jtransc.soywiz.com/)
 
-Implementations:
+## Articles
+
+- [Java Reference Objects](https://www.kdgregory.com/index.php?page=java.refobj): One of the best articles on the Java "Reference" types (SoftReference, WeakReference, PhantomReference, ReferenceQueue) that I've ever read
+- [General memory mgmt/GC reading and links](/reading/memory-management)
+
+## Implementations:
 
 * [OpenJDK](../openjdk)
 * [OpenJ9](https://www.eclipse.org/openj9/) ([Source](https://github.com/eclipse/openj9))
