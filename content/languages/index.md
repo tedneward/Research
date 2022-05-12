@@ -14,6 +14,7 @@ See also [Language Places](/places/languages) and [PLZoo](/places/plzoo)
 [Every simply language will eventually end up Turing complete](https://solutionspace.blog/2021/12/04/every-simple-language-will-eventually-end-up-turing-complete/)
 
 ## Language concepts
+
 ### Syntax/paradigms
 [Toward a better programming](https://www.chris-granger.com/2014/03/27/toward-a-better-programming/)
 
@@ -114,6 +115,7 @@ If the types can be manipulated/changed at runtime, then the language is often s
 
 ## Implementation
 - [Writing your own toy language](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/) using flex, bison, LLVM; [code](https://github.com/lsegal/my_toy_compiler)
+- [Creaging a C# External DSL to Map a Dungeon](http://www.primaryobjects.com/2011/02/27/creating-a-c-net-external-domain-specific-language-to-map-a-dungeon/)
 - [How to Create a Programming Language Using ANTLR4](https://progur.com/2016/09/how-to-create-language-using-antlr4.html)
 - [DSL Engineering: Designing, Implementing and Using Domain-Specific Languages](http://dslbook.org) - Markus Voelter
 - ["Three Things I Wish I Knew When I Started Designing Languages"](https://www.youtube.com/watch?v=oa0qq75i9oc)
