@@ -3,18 +3,22 @@ tags=language, reading, llvm, native
 summary=Collection of articles on implementing languages.
 ~~~~~~
 
-["The Naked Truth About Writing a Programming Language"](https://www.digitalmars.com/articles/b90.html)
+- [Writing your own toy language](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/) using flex, bison, LLVM; [code](https://github.com/lsegal/my_toy_compiler)
+- [How to Create a Programming Language Using ANTLR4](https://progur.com/2016/09/how-to-create-language-using-antlr4.html)
+- ["Three Things I Wish I Knew When I Started Designing Languages"](https://www.youtube.com/watch?v=oa0qq75i9oc)
+- [Type Theory and Functional Programming](https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/)
+- [Crash Course on Notation in Programming Language Theory](http://siek.blogspot.com/2012/07/crash-course-on-notation-in-programming.html), Jeremy G. Siek; LambdaConf 2018 [Part 1](https://www.youtube.com/watch?v=vU3caZPtT2I), [Part 2](https://www.youtube.com/watch?v=MhuK_aepu1Y) [Slides](https://www.dropbox.com/s/joaq7m9v75blrw5/pl-notation-lambdaconf-2018.pdf?dl=1)
+- ["The Naked Truth About Writing a Programming Language"](https://www.digitalmars.com/articles/b90.html)
+- [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
+- [Implementing a JIT Compiled Language with Haskell and LLVM](https://www.stephendiehl.com/llvm/)
+- [How to Design Worlds (PDF)](https://world.cs.brown.edu/1/htdw-v1.pdf)
 
+---
 
-[Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
+## Implementation tools
+[Lingua.NET](https://archive.codeplex.com/?p=lingua): Discontinued/archived CodePlex parser generator. Archived content copied locally [here](/languages/dotnet/lingua.zip).
 
-[Implementing a JIT Compiled Language with Haskell and LLVM](https://www.stephendiehl.com/llvm/)
-
-Writing your First Domain Specific Language [Part 1](https://www.codeproject.com/Articles/26975/Writing-Your-First-Domain-Specific-Language-Part-1) | [Part 2](https://www.codeproject.com/Articles/29058/Writing-your-first-Domain-Specific-Language-Part-2) | [Visual Studio Language Service](https://www.codeproject.com/Articles/33250/Writing-Your-First-Visual-Studio-Language-Service)
-
-[How to Design Worlds (PDF)](https://world.cs.brown.edu/1/htdw-v1.pdf)
-
-## Background, Books
+## Background, Books, Lists
 [68 resources on creating programming languages](https://tomassetti.me/resources-create-programming-languages/)
 
 [Awesome Compilers](https://github.com/aalhour/awesome-compilers)
@@ -143,11 +147,6 @@ UCSD CSE 231: Advanced Compiler Design
 		- https://ucsd-pl.github.io/cse231/wi19/
 
 [NPTEL: Compiler Design](https://nptel.ac.in/courses/106108052/) ([YouTube playlist](https://www.youtube.com/playlist?list=PL3690D679B876DE6A)): 2011; Y.N. Srikant
-
----
-
-### Domain-specific languages (DSLs)
-[DSLs - A powerful Scala feature](http://www.scala-lang.org/node/1403) | [Bootstrapping a simple compiler from nothing](http://homepage.ntlworld.com/edmund.grimley-evans/bcompiler.html)
 
 ---
 

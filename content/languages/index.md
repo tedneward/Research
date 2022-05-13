@@ -11,7 +11,8 @@ See also [Language Places](/places/languages) and [PLZoo](/places/plzoo)
 ---
 
 > "Every configuration file becomes a Turing-complete language eventually." --James Gosling
-[Every simply language will eventually end up Turing complete](https://solutionspace.blog/2021/12/04/every-simple-language-will-eventually-end-up-turing-complete/)
+
+[Every simple language will eventually end up Turing complete](https://solutionspace.blog/2021/12/04/every-simple-language-will-eventually-end-up-turing-complete/)
 
 ## Language concepts
 
@@ -110,22 +111,11 @@ Languages often break down to automatically-managed memory vs. manually-managed,
 Types can often be inspected at runtime regardless of the type-safe or type-checked nature of the language/platform; in many languages/platforms, the process of inspection is known as "reflection".
 If the types can be manipulated/changed at runtime, then the language is often said to be a "MetaObject Protocol" language, meaning that it can operate at a "meta-object" level. These tend to be dynamically-type-checked/weakly-type-safe interpreted languages, since it is hard to enforce type-safety when types changing up at runtime.
 
+See also: [Building compilers/interpreters](/reading/languages/compilers). Lots of these languages run on top of [virtual machines](/vms), and so will obey semantics defined there.
+
+
 ## Comparisons
 ["Bits of History, Words of Advice"](http://gbracha.blogspot.com/2020/05/bits-of-history-words-of-advice.html): The creator of [Newspeak](/languages/smalltalk/newspeak) and one of the core developers working on [Java](/languages/jvm/java) and the [JVM](/platforms/jvm) offers some advice about Smalltalk's lack of success in the mainstream.
-
-## Implementation
-- [Writing your own toy language](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/) using flex, bison, LLVM; [code](https://github.com/lsegal/my_toy_compiler)
-- [Creaging a C# External DSL to Map a Dungeon](http://www.primaryobjects.com/2011/02/27/creating-a-c-net-external-domain-specific-language-to-map-a-dungeon/)
-- [How to Create a Programming Language Using ANTLR4](https://progur.com/2016/09/how-to-create-language-using-antlr4.html)
-- [DSL Engineering: Designing, Implementing and Using Domain-Specific Languages](http://dslbook.org) - Markus Voelter
-- ["Three Things I Wish I Knew When I Started Designing Languages"](https://www.youtube.com/watch?v=oa0qq75i9oc)
-- [Type Theory and Functional Programming](https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/)
-
-[More compilers reading](/reading/languages/compilers)
-
-Lots of these languages run on top of [virtual machines](/vms), and so will obey semantics defined there.
-
-[Crash Course on Notation in Programming Language Theory](http://siek.blogspot.com/2012/07/crash-course-on-notation-in-programming.html), Jeremy G. Siek; LambdaConf 2018 [Part 1](https://www.youtube.com/watch?v=vU3caZPtT2I), [Part 2](https://www.youtube.com/watch?v=MhuK_aepu1Y) [Slides](https://www.dropbox.com/s/joaq7m9v75blrw5/pl-notation-lambdaconf-2018.pdf?dl=1)
 
 * **Type systems and type safety**
 	* [Luca Cardelli: Type Systems](http://lucacardelli.name/Papers/TypeSystems.pdf)
@@ -137,11 +127,6 @@ Lots of these languages run on top of [virtual machines](/vms), and so will obey
 	* [Testing Intermediate Representations for Binary Analysis](https://softsec.kaist.ac.kr/~soomink/paper/ase17main-mainp491-p.pdf) [Github](https://github.com/SoftSec-KAIST/MeanDiff), [Website](https://softsec-kaist.github.io/MeanDiff/)
 * **Runtime Semantics**:
 	* ["Open, Extensible Object Models"](https://www.piumarta.com/software/cola/objmodel2.pdf): "We show that three object types and five methods are sufficient to bootstrap an extensible object model and messaging semantics that are described entirely in terms of those same objects and messages." ([Source](https://www.piumarta.com/oopsla07/))
-
----
-
-## Implementation tools
-[Lingua.NET](https://archive.codeplex.com/?p=lingua): Discontinued/archived CodePlex parser generator. Archived content copied locally [here](/languages/dotnet/lingua.zip).
 
 ---
 
