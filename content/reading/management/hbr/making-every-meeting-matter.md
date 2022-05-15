@@ -1,4 +1,4 @@
-title=HBR's Guide to Making Every Meeting Matter
+title=HBR Guide to Making Every Meeting Matter
 tags=reading, management, meetings, hbr
 summary=HBR's collection of essays on holding productive/useful meetings.
 ~~~~~~
