@@ -17,3 +17,8 @@ Video game development links.
 
 ## Engines too esoteric to rate their own page
 [M.U.G.E.N](http://www.elecbyte.com/mugendocs-11b1/mugen.html): 2D fighting game engine
+
+## Asset websites
+[OpenGameArt](https://opengameart.org/)
+
+[Kenney](https://kenney.nl/)

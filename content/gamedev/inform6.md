@@ -1,5 +1,5 @@
 title=Inform6
-tags=language, platform, gamedev
+tags=language, platform, gamedev, interactive fiction
 summary=A natural-language interactive fiction game development language and platform.
 ~~~~~~
 

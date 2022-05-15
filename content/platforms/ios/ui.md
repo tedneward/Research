@@ -10,6 +10,8 @@ Introduced in iOS 13.
 
 * Info.plist has a new key: `Application Scene Manifest` (contains Enable Multiple Windows and Scene Configuration, which in turn contains Application Session Role, which is an array of Configuration Name/Delegate Class Name items); specifies a name and delegate class for your scene. Note that these properties belong to an array (Application Session Role), suggesting that you can have multiple configurations in your Info.plist. A much more important key that you may have already spotted in the screenshot above is Enable Multiple Windows. This property is set to NO by default. Setting this property to YES will allow users to open multiple windows of your application on iPadOS (or even on macOS). Being able to run multiple windows of an iOS application side by side is a huge difference from the single window environment we’ve worked with until now, and the ability to have multiple windows is the entire reason our app’s lifecycle is now maintained in two places rather than one.
 
+    ***If I delete this key from the plist file, does that "turn off" scene delegates?***
+
 * AppDelegate's responsibilities: The AppDelegate is still the main point of entry for an application in iOS 13. Apple calls AppDelegate methods for several application level lifecycle events. In Apple’s default template you’ll find three methods that Apple considers to be important for you to use:
 
     * `func application(_:didFinishLaunchingWithOptions:) -> Bool`: called at launch, used to perform app setup. In iOS 12 and earlier, you might have used this method to create/configure a UIWindow and assign a UIViewController instance to the window to make it appear. If your app is using scenes, the AppDelegate is no longer responsible for doing this. (Since your app can now have multiple windows, or UISceneSessions, active, it doesn't make much sense to manage a single-window object here.)
@@ -20,7 +22,7 @@ Introduced in iOS 13.
 
 * SceneDelegate's responsibilities: the SceneDelegate is responsible for what’s shown on the screen; the scenes or windows. When you’re dealing with scenes, what looks like a window to your user is actually called a UIScene which is managed by a UISceneSession. So when we refer to windows, we are really referring to UISceneSession objects.
 
-    * `scene(_:willConnectTo:options:)`: creates your initial content view (ContentView if you’re using SwiftUI), creates a new UIWindow, sets the window’s rootViewController and makes this window the key window. You might think of this window as the window that your user sees. This, unfortunately, is not the case. Windows have been around since before iOS 13 and they represent the viewport that your app operates in. So, the UISceneSession controls the visible window that the user sees, the UIWindow you create is the container view for your application. In addition to setting up initial views, you can use `scene(_:willConnectTo:options:)` to restore your scene UI in case your scene has disconnected in the past. For example, because it was sent to the background. You can also read the `connectionOptions` object to see if your scene was created due to a HandOff request or maybe to open a URL.
+    * `scene(_:willConnectTo:options:)`: creates your initial content view (ContentView if you’re using SwiftUI), creates a new UIWindow, sets the window’s `rootViewController` and makes this window the key window. You might think of this window as the window that your user sees. This, unfortunately, is not the case. Windows have been around since before iOS 13 and they represent the viewport that your app operates in. So, the UISceneSession controls the visible window that the user sees, the UIWindow you create is the container view for your application. In addition to setting up initial views, you can use `scene(_:willConnectTo:options:)` to restore your scene UI in case your scene has disconnected in the past. For example, because it was sent to the background. You can also read the `connectionOptions` object to see if your scene was created due to a HandOff request or maybe to open a URL.
     * `sceneWillEnterForeground(_:)`: Once your scene has connected, the next method in your scene’s lifecycle is `sceneWillEnterForeground(_:)`. This method is called when your scene will take the stage. This could be when your app transitions from the background to the foreground, or if it’s just becoming active for the first time. 
     * `sceneDidBecomeActive(_:)`: Next, `sceneDidBecomeActive(_:)` is called. This is the point where your scene is set up, visible and ready to be used.
     * `sceneWillResignActive(_:)`: When your app goes to the background, sceneWillResignActive(_:) and sceneDidEnterBackground(_:) are called.
@@ -198,12 +200,13 @@ Directional linking in the nib editor from one object (source) to another (desti
   How do we do this in a nib? Form a connection to the First Responder proxy object in the dock--that's what it's for. Before you can connect an action to it, you have to define the action message within the First Responder proxy object: Select the First Responder proxy in the nib, and switch to the Attributes inspector. Click the Plus button in the table (probably empty) of user-defined nil-targeted First Responder actions, and give the new action a name; it must take a single parameter (so that its name will end with a colon). Now we can Control-drag from a control to the First Responder proxy to specify a nil-targeted action with the name specified in the table.
 
 ## Communication between objects
-Organizational considerations to help arrange for coherent communication between objects.
+Organizational considerations to help arrange for coherent communication between objects. Almost all of them require First to have an active reference to second in some form.
 
-* Visibility through an instance property
-* Visibility through instantiation. (First instantiates the second, passing it the message/data in.)
+* Visibility through instantiation. (First instantiates the second, passing it the message/data in via property or method.)
 * Visibility through connection/reference. Segues do this: At the moment a segue is triggered, the source view controller already exists, and the segue knows what view controller it is, and the segue itself instantiates the destination view controller, so the segue immediately turns to the source view controller and hands it a reference to the destination view controller (for example, by calling the source view controller's `prepare(for:sender:)` method). This is the source view controller's chance to obtain a reference to the newly-instantiated destination view controller and provide necessary data, references, delegation, whatever.
-* Visibility through reference. (Singletons; navigating the view or view controller hierarchy.)
+* Visibility through segue subclassing. (Investigate)
+* Visibility through a priori known reference. (Singletons)
+* Visibility through discovered reference. (navigating the view or view controller hierarchy)
 
 ---
 

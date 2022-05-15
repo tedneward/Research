@@ -34,14 +34,4 @@ See also the [JVM VM(s)](/vms/jvm) and [Platform](/platforms/jvm).
 - [Whiley](../whiley)
 - [Yeti](../yeti)
 
-## Articles
-
-### ClassLoaders
-
-### GC and Reference Objects
-[Java Reference Objects](https://www.kdgregory.com/index.php?page=java.refobj) (Kate Gregory): One of the best articles on the Java "Reference" types (SoftReference, WeakReference, PhantomReference, ReferenceQueue) that I've ever read
-
-### JIT compilation
-
-
 

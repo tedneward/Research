@@ -1,5 +1,5 @@
 title=TADS
-tags=gamedev, language, vm
+tags=gamedev, language, vm, interactive fiction
 summary=Authoring system for writing Interactive Fiction.
 ~~~~~~
 

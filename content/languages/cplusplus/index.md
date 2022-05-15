@@ -46,6 +46,63 @@ Frequently conjoined with [C](/languages/c); Bjarne wanted C++ to be "as close a
 - A cheatsheet of modern C++ language and library features
 	- https://github.com/AnthonyCalandra/modern-cpp-features
 
+## Books
+[The Definitive C++ Book Guide and List](http://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
+
+* *C++ Primer* (Lippman, Lajoie, Moo) (updated for C++11)
+* *Programming: Principles and Practice Using C++* (Bjarne Stroustrup), 2nd Edition
+* *A Tour of C++* (Bjarne Stroustrup) (2nd edition) (for C++17)
+* *Accelerated C++*	(Koenig, Moo)
+* *Effective C++* (Meyers) (3rd Edition)
+* *Effective Modern C++* (Meyers)
+* *Effective STL* (Meyers)
+* *More Effective C++* (Meyers)
+* *Exceptional C++*	(Sutter)
+* *More Exceptional C++* (Sutter)
+* *Exceptional C++ Style* (Sutter)
+* *C++ Coding Standards* (Sutter, Alexandrescu)
+* *C++ Templates: The Complete Guide* (Vandevoorde, Josuttis)
+* C++ 17 - The Complete Guide	Nicolai M. Josuttis	This book describes all the new features introduced in the C++17 Standard covering everything from the simple ones like 'Inline Variables', 'constexpr if' all the way up to 'Polymorphic Memory Resources' and 'New and Delete with over aligned Data'.	[Review]
+* C++ 20 - The Complete Guide	Nicolai M. Josuttis	This book presents all the new language and library features of C++20. It covers the motivation and context of each new feature with examples and background information. The focus is on how these features impact day-to-day programming, what it means to combine them, and how to benefit from C++20 in practice. (Note that this book is published step-by-step.)	
+* C++ in Action	Bartosz Milewski	This book explains C++ and its features by building an application from ground up.	[Review]
+* Functional Programming in C++	Ivan Čukić	This book introduces functional programming techniques to modern C++ (C++11 and later). A very nice read for those who want to apply functional programming paradigms to C++.	
+* Modern C++ Design	Andrei Alexandrescu	A groundbreaking book on advanced generic programming techniques. Introduces policy-based design, type lists, and fundamental generic programming idioms then explains how many useful design patterns (including small object allocators, functors, factories, visitors, and multi-methods) can be implemented efficiently, modularly, and cleanly using generic programming.	[Review]
+* C++ Template Metaprogramming	David Abrahams and Aleksey Gurtovoy		
+* C++ Concurrency In Action	Anthony Williams	A book covering C++11 concurrency support including the thread library, the atomics library, the C++ memory model, locks and mutexes, as well as issues of designing and debugging multithreaded applications. A second edition covering C++14 and C++17 has already been published.	[Review]
+* Advanced C++ Metaprogramming	Davide Di Gennaro	A pre-C++11 manual of TMP techniques, focused more on practice than theory. There are a ton of snippets in this book, some of which are made obsolete by type traits, but the techniques, are nonetheless useful to know. If you can put up with the quirky formatting/editing, it is easier to read than Alexandrescu, and arguably, more rewarding. For more experienced developers, there is a good chance that you may pick up something about a dark corner of C++ (a quirk) that usually only comes about through extensive experience.	
+* Large Scale C++ volume I, Process and architecture (2020)	John Lakos	Part one of a three-part series extending the older book 'Large Scale C++ Design'. Lakos explains battle-tested techniques to manage very big C++ software projects. If you work in a big C++ software project this is a great read, detailing the relationship between physical and logical structure, strategies for components, and their reuse.	[Review]
+* The C++ Programming Language	Bjarne Stroustrup (updated for C++11)	The classic introduction to C++ by its creator. Written to parallel the classic K&R, this indeed reads very much like it and covers just about everything from the core language to the standard library, to programming paradigms to the language's philosophy.	[Review]
+* C++ Standard Library Tutorial and Reference	Nicolai Josuttis (updated for C++11)	The introduction and reference for the C++ Standard Library. The second edition (released on April 9, 2012) covers C++11.	[Review]
+* The C++ IO Streams and Locales	Angelika Langer and Klaus Kreft	There's very little to say about this book except that if you want to know anything about streams and locales, then this is the one place to find definitive answers.	[Review]
+
+* The C++11/14/17 Standard (INCITS/ISO/IEC 14882:2011/2014/2017) This, of course, is the final arbiter of all that is or isn't C++. Be aware, however, that it is intended purely as a reference for experienced users willing to devote considerable time and effort to its understanding. The C++17 standard is released in electronic form for 198 Swiss Francs.
+
+* The C++17 standard is available, but seemingly not in an economical form – directly from the ISO it costs 198 Swiss Francs (about $200 US). For most people, the final draft before standardization is more than adequate (and free). Many will prefer an even newer draft, documenting new features that are likely to be included in C++20.
+
+* Overview of the New C++ (C++11/14) (PDF only) (Meyers) (updated for C++14) These are the presentation materials (slides and some lecture notes) of a three-day training course offered by Meyers, who's a highly respected author on C++. Even though the list of items is short, the quality is high.
+
+* The C++ Core Guidelines (C++11/14/17/...) (edited by Bjarne Stroustrup and Herb Sutter) is an evolving online document consisting of a set of guidelines for using modern C++ well. The guidelines are focused on relatively higher-level issues, such as interfaces, resource management, memory management, and concurrency affecting application architecture and library design. The project was announced at CppCon'15 by Bjarne Stroustrup and others and welcomes contributions from the community. Most guidelines are supplemented with a rationale and examples as well as discussions of possible tool support. Many rules are designed specifically to be automatically checkable by static analysis tools.
+
+* The C++ Super-FAQ (Marshall Cline, Bjarne Stroustrup, and others) is an effort by the Standard C++ Foundation to unify the C++ FAQs previously maintained individually by Marshall Cline and Bjarne Stroustrup and also incorporating new contributions. The items mostly address issues at an intermediate level and are often written with a humorous tone. Not all items might be fully up to date with the latest edition of the C++ standard yet.
+
+* cppreference.com (C++03/11/14/17/...) (initiated by Nate Kohl)
+
+* The Design and Evolution of C++ (Bjarne Stroustrup)
+
+* Ruminations on C++ - (Andrew Koenig and Barbara Moo)
+
+* Advanced C++ Programming Styles and Idioms (James Coplien)
+
+* Large Scale C++ Software Design (John Lakos)
+
+* Inside the C++ Object Model (Stanley Lippman)
+
+* The Annotated C++ Reference Manual (Bjarne Stroustrup, Margaret A. Ellis)
+
+* Scientific and Engineering C++: An Introduction to Advanced Techniques and Examples (John Barton and Lee Nackman)
+
+
+
 ### Articles and papers (focused on teaching, but also of interest for learning by self-studying)
 
 - A Conversation about Teaching Software Engineering - John Regehr
