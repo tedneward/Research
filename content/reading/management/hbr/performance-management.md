@@ -215,12 +215,119 @@ WHen you have identified the cause of a problem, decide if it's worth addressing
 ## Chapter 5: Make a Habit of Providing Feedback
 *Discuss your observations with your employee*
 
+### The Two Types of Regular Feedback
+Positive feedback or praise (*Here's what you did really well*) can enhance confidence and incrase an employee's sense of commitment. Constructive feedback (*Here's where you need to improve*) is informative, providing a bsis for a discussion and redirection. Whatever the type, feedback is most effective when it's grounded in specific details that an employee can use.
 
+Positive feedback should pinpoint particular actions of merit. Vague praise may not do harm, but it doesn't communicate much useful information.
+
+Constructive feedback should target specific opportunities for improvement. Clear statements help an employee understand what to work on. On the other hand, unvarnished criticism is neither specific nor helpful and offers neither insight nor room for improvement.
+
+Specific feedback is effective at different times w/different kinds of people. Positive feedback is especially helpful for early-stage employees or for individuals trying to master new things. "When you don't really know what you are doing, encouragement helps you stay optimistic and feel more at east with the challenges you are facing." (Heidi Grant, "Sometimes Negative Feedback Is Best", HBR.org) More experienced employees will likely find constructive criticism more helpful and informative. "When you are an expert, it's constructive criticism that can help you do what it takes to get to the top of your game."
+
+Frequent feedback is necessary for all employees, even top performers. People may find constructive feedback easier when they feel genuinely appreciated for what they've done well. It's important to maek your feedback frequent and timely. Check-ins allow you to regularly assess progress and discuss performance, but don't hold off on giving feedback right away just because you have a meeting on the calendar set for a later date.
+
+No one likes to deliver bad news; but if you avoid relaying the message, the unsatisfactory work will most likely continue or worsen. Remind yourself:
+
+* If your aim is to improve performance, giving feedback is the most effective and efficient tool for redirecting and enhancing your employees' work.
+
+* Not giving feedback will undermine the team. Poor performers demoralize others and thwart the success of the unit as a whole.
+
+* You're doing the person a favor. The poor performer may actually think that they are doing satisfactory work. A frank discussion will clear up the misconception and give the employee an opportunity to improve, perhaps saving their job.
+
+* Some employees *like* getting constructive feedback. Since it's essential to improving performance--and by extension career development--many people find it valuable.
+
+### Conducting the Feedback Discussion
+You'll want to tailor your delivery to the particular situation you're discussing as well as the person you're talking to, but here are some general guidelines to follow:
+
+#### Set the stage for a productive conversation
+Make a few notes about what you want to say. Don't dwell on the past: Your goal is to elicit positive change in future performance or workplace behavior, not to rake someone over the coals for past failures.
+
+Consider the logistics of your conversation. Be thoughtful about when you offer unexpected feedback--don't risk throwing your employee off-balance with constructive feedback if emotions are running high or they're anxious about an upcoming situation. Nor do you want to minimize the effect of giving positive feedback because you're rushing back froma meeting that ran late--or cut a productive feedback conversation short to get to your next meeting. Choose a time close enough to the event that it is fresh in everyone's minds, while still taking into account other considerations.
+
+Choose a meeting place where you won't be distracted or interrupted, can easily interact, and where you're free from social interactions that could inhibit your employee from being open and honest.
+
+#### Engage in a two-way dialogue
+A feedback conversation gives each party an opportunity to tell their side and to hear the same from the other. If your goal is to elicit change, your best tool is a two-way discussion. It's easy for an employee to shut down when feeling criticized, so to make progress, involve them in the conversation. Deliver your feedback, and give your employee your undivided attention. Listen to what they have to say, but also note physical cues.
+
+Open the conversation by soliciting their thoughts/reactions to assess if you see the problem in a similar light. Don't impose your own judgment at first. Start with an evenhanded question. Asking the right questions will help you understand the other person and their view of performance. Open-ended questions invite participation and idea sharing:
+
+* **To clarify causes of a problem.** "What do you think the major issues are with this project?"
+
+* **To uncover attitudes or needs.** "How do you feel about our progress to date?"
+
+* **To explore alternatives and feel out solutions.** "What would happen if...?"
+
+Closed questions lead to yes or no answers; use them for the following purposes:
+
+* **To focus the response.** "Is the project on schedule?"
+
+* **To confirm what the other person has said.** "So your main issue is scheduling your time?"
+
+#### Stick to facts, not opinion
+Focus on observed behaviors, not assumptions about character traits, attitudes, or personality. Statements about assumed motivations can quickly lead to your employee becoming guarded, which will make it nearly impossible to persuade them to change; to make any progress, you need your employee to be a receptive, active participant in the discussion. Offer a specific observation that's free of personal judgment.
+
+#### Be specific about the problem and its impact on others
+Your employee may not be fully aware of the consequences of their behavior, so lay it out clearly. The details communicate that this is a problem, not just a matter of your preference, and that it impacts no only you but others as well.
+
+Managers sometimes mistakenly think they need to act tough when giving constructive feedback, but the aim of feedback should be to motivate change, not make the employee feel attacked. Take a thoughtful, nonaggressive approach to allow the receiver to take in, reflect on, and learn from, your feedback.
+
+It can be tempting to couch constructive feedback in praise, in an attempt to soften the blow; it may lessen your own anxiety, but it sends mixed messages.
+
+#### Ask how your employee can address the problem
+People generally feel more ownership of solutions they suggest themselves, but if your direct has trouble coming up with a reasonable suggestion for changel, offer one yourself and check for understanding. It's important that the employee leave the conversation with a concrete step for improvement.
 
 ## Chapter 6: Coach your Employee to Close Performance Gaps
 *Ask question to help them solve problems and master new skills*
 
+Coaching--an ongoing learning process in which you help your direct reports build mastery--won't bring about a quick fix. When an employee is driven to improve and wants your help tackling a problem or building mastery, coaching is a rewarding and effective option.
 
+Coaching is a supportive rather than a directive approach that relies on asking questions; coaching is "asking questions that help people discover the answers that are right for them." (Ed Batista, executive coach) Rather than suggest what your employees should do or explain how to do it, you should prompt them with question to help them solve problems in new ways themselves. "If you keep providing all the answers, people will keep lining up at your door looking for them." (Candice Frankovelgia, Center for Creative Leadership)
+
+Target your coaching to situations where you will get the highest return on your time/effort:
+
+* A new employee needs direction.
+
+* A direct report is almost ready for new responsibilities and just needs a bit more help.
+
+* A newly-minted manager under your wing is still behaving as though they were an individual contributor.
+
+* A strong performer is eager to develop a new skill or explore career development opportunities.
+
+* A significant performance problem has arisen in an employee's work.
+
+The goal of coaching is not to reprimand your employes for shortfalls but to catalyze their growth and improvement; your objective is not to simply identify what they did wrong (draining motivation) but to elicit positive change.
+
+### Get Your Employee On Board
+When you've spotted a coaching opportunity, talk it over with the employee to make sure they agree there is indeed that opportunity and that they are willing to tackle it through coaching. Agreement is the foundation of successful coaching: For it to work, the individual must take ownership and responsibility of the process. (If they disagree, explore how they'd prefer to proceed; they may be open to coaching but not with you, or perhaps they'd rather take a class.) If they are open to coaching, identify at the start of the process exactly what they're hoping to get out of it.
+
+### Define the Purpose of Your Coaching
+Identify an explicit goal to target with coaching; this should be a goal separate from the performance goals set in Section 1 and should generally be focused on learning.
+
+### Understand Your Employee's Perspective
+Learn more about their point of view on the performance gap and which skills they need to master in order to close it. Skillfully-worded, open-ended questions can help draw out answers. Start your questions with *what*, *how*, *when*, or *tell me more*. Listen deeply to their answers. When someone senses you're completely focused and actively listening to what they say, it can be a deeply validating experience that helps build rapport and trust.
+
+### See the Problem in New Ways
+With a stronger understanding of the situation, you can open a two-way dialogue to help your direct report consider new choices, strategies, or skills they might develop. This is different than offering a solution--instead, it leads your employee closer to developing their own answers. Try these tactics:
+
+* Hold up the mirror. Redescribe the situation they have outlined to you, paraphrased from your own perspective, and ask for their response.
+
+* Reframe the situation. Offering another angle can help your employee see things differently.
+
+* Rehearse. A coaching session is a safe environment to role-play an upcoming interaction, such as how they might interact with senior management. You can also review a presentation that they delivered well to this audience and discuss what made it effective. Or you can go over how they should prepare for these kinds of meetings and fine-tune preparation techniques.
+
+The observations, suggestions, and practice opportunities you offer are the heart of coaching, and they need to be tailored to your employee's particular situation. They likely should also be complemented with ongoing "homework" that will help them prepare for your next meeting.
+
+### Agree on Next Steps
+Near the end of your coaching session, assess whether they are ready to move forward by asking them to summarize what they've learned. "What are the top two or three things you're taking away from this conversation?" To maintain momentum between sessions, set a date for when you'll meet again, and identify any tasks to be completed before then. Rather than assigning tasks, build your employee's accountability by asking them to formulate and implement their plans, and establish associated deadlies for each clearly-defined action. It could be that you leave the session with homework, too.
+
+### Keep the Relationship Going
+Coaching doesn't end after the first meeting. Effective coaching to close performance gaps and encourage growth includes checking in to track progress and ensure understanding. Doing so prevents backsliding, reinforces learning, and continues improvement.
+
+Don't wait until the target date to assess how things are going; in a fast-paced workplace, it's easy to lose track of longer-term plans and agreements. Hold yourself and your employee accountable by sticking to your planned check-in dates, and follow through with the resources or introductions you planned to provide. Your employee is more likely to take your coaching efforts seriously if you keep your commitments.
+
+Then, observe growth and communicate impact. Are you seeing progressin your employee's results, behavior, or relationships? Explicitly communicate to your direct the impact of the progress you observe--it may be hard for them to recognize it themselves. Helping them acknolwedge changes and growth can increase their motivation.
+
+Expect a few stumbles in the process. Perfection isn't necessary for someone to make real progress. Remind yourself that you may not see results right away. When you do see improvement, celebrate, even if they still have room to grow.
 
 ## Chapter 7: How to Keep Your Employees Motivated
 *Recognize good work, and encourage progress*
