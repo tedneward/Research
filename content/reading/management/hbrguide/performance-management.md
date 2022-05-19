@@ -263,8 +263,10 @@ WHen you have identified the cause of a problem, decide if it's worth addressing
 ## Chapter 16: Responding to the Steady Worker
 *What to do with your stalwarts*
 
+
 ## Chapter 17: Preventing Burnout on your Team
 *Make sure your people aren't running out of steam*
+
 
 ## Chapter 18: Managing the Performance of Remote Employees
 *From giving feedback to conducting annual appraisals*
