@@ -49,4 +49,9 @@ High-level resources/links around software architecture--styles, analysis, etc.
 * [Test Driven Development, Extensive Tutorial](https://github.com/grzesiek-galezowski/tdd-ebook) - Grzegorz Gałęzowski
 * [The Site Reliability Workbook](https://landing.google.com/sre/workbook/toc/) - Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara and Stephen Thorne
 
+## Interesting exemplars/templates/links
+
+* [UK Ministry of Justice Modernisation Platform](https://github.com/ministryofjustice/modernisation-platform): A place for the core work of the Modernisation Platform -- This repository is defined and managed in Terraform. "The Modernisation Platform is a hosting platform where Ministry of Justice teams can host and modernise applications which are not suitable for the [Cloud Platform](https://user-guide.cloud-platform.service.justice.gov.uk/#cloud-platform-user-guide)."
+* [UK Ministry of Justice Cloud Platform](https://github.com/ministryofjustice/cloud-platform)
+* [UK Ministry of Justice "template repository"](https://github.com/ministryofjustice/template-repository): Github "template" repository, from which to create new MoJ Repositories with organisation defaults
 

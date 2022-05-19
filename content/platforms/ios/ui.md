@@ -200,12 +200,13 @@ Directional linking in the nib editor from one object (source) to another (desti
   How do we do this in a nib? Form a connection to the First Responder proxy object in the dock--that's what it's for. Before you can connect an action to it, you have to define the action message within the First Responder proxy object: Select the First Responder proxy in the nib, and switch to the Attributes inspector. Click the Plus button in the table (probably empty) of user-defined nil-targeted First Responder actions, and give the new action a name; it must take a single parameter (so that its name will end with a colon). Now we can Control-drag from a control to the First Responder proxy to specify a nil-targeted action with the name specified in the table.
 
 ## Communication between objects
-Organizational considerations to help arrange for coherent communication between objects.
+Organizational considerations to help arrange for coherent communication between objects. Almost all of them require First to have an active reference to second in some form.
 
-* Visibility through an instance property
-* Visibility through instantiation. (First instantiates the second, passing it the message/data in.)
+* Visibility through instantiation. (First instantiates the second, passing it the message/data in via property or method.)
 * Visibility through connection/reference. Segues do this: At the moment a segue is triggered, the source view controller already exists, and the segue knows what view controller it is, and the segue itself instantiates the destination view controller, so the segue immediately turns to the source view controller and hands it a reference to the destination view controller (for example, by calling the source view controller's `prepare(for:sender:)` method). This is the source view controller's chance to obtain a reference to the newly-instantiated destination view controller and provide necessary data, references, delegation, whatever.
-* Visibility through reference. (Singletons; navigating the view or view controller hierarchy.)
+* Visibility through segue subclassing. (Investigate)
+* Visibility through a priori known reference. (Singletons)
+* Visibility through discovered reference. (navigating the view or view controller hierarchy)
 
 ---
 

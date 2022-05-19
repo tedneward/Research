@@ -8,6 +8,8 @@ summary=Various notes and implementations of the BASIC programming language.
 * [TinyBASIC](../tinybasic)
 * [Gambas](../gambas)
 * [SmallBASIC](http://smallbasic.github.io/) ([Source](https://github.com/smallbasic/SmallBASIC))
+* [TMBasic](https://tmbasic.com/) ([Source](https://github.com/electroly/tmbasic)): a programming language for writing console programs, from simple command line tools to sophisticated mouse-driven user interfaces. The BASIC language is beginner-friendly, and experienced programmers will find it familiar and easy to use.
+* [QB64](https://qb64.com/): a modern extended BASIC programming language that retains QBasic/QuickBASIC 4.5 compatibility and compiles native binaries for Windows, Linux, and macOS. (Source is in flux; abandoned project [here](https://github.com/QB64Team/qb64) but reboot happening [here](https://github.com/QB64Official/qb64).)
 * [My_Basic](https://github.com/paladin-t/my_basic)
 * [BCX](http://bcx-basic.sourceforge.net/) : Basic to C compiler, generates C source files compatible with Lcc-Win32 and MingW (or Dev-C++) without any modification.  It also comes with a resource translator which can read MS resource code and produce code in C (Win32).
 * [ScriptBasic](http://www.scriptbasic.com/) : Free embedded and extendable scripting Basic interpreter with full C source code. Tested on Windows NT and on Linux.
