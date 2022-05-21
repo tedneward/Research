@@ -332,7 +332,42 @@ Expect a few stumbles in the process. Perfection isn't necessary for someone to 
 ## Chapter 7: How to Keep Your Employees Motivated
 *Recognize good work, and encourage progress*
 
+Motivation is at the very heard of performance management--something that managers must attend to all the time. A person can understand the importance of ambitious goals but is unlikely to achieve them without being motivated to do so.
 
+### Cultivate a Culture of Respect
+Employees value being treated with respect. Unfortunately, respect isn't the norm everywhere. Motivation and performance plummet in response to offensive behavior. Rudeness in the workplace costs organizations dearly and is insiduously infectious. Engagement rises as respectful treatment increases. There are a few steps you can take as a manager to minimize bad behavior and foster a culture of respect, thereby boosting motivation and engagement.
+
+* **Model good behavior.** Managers establish the tone--or lack thereof--in their workplace. As a manager, you have a unique opportunity to set an example of respectful treatment. Employees who see that higher-ups tolerate or embrace offensive behavior may follow suit.
+
+* **Respect your employee's dignity.** Discourage public criticism. A basic tenet of supervision is to praise in public and criticize in private. Being reprimanded in front of one's colleagues can have devastating effects on an employee's sense of fairness, pride, and motivation. You cannot motivate people whom you have stripped of their dignity. Treat your employees with respect at all costs, even when you must share constructive feedback about their performance.
+
+* **Hire resepectful candidates--and stop bad behavior.** Candidates who do not fit the culture, no matter how qualified, are not hired.
+
+Take note of the behavior of those already on your team. If you see a direct report being disrespectful, address it immediately. You may also want to reassure, in confidence, the recipient of that rudeness. This will communicate that you're invested in the well-being of everyone on the team.
+
+### Truly Rewarding Rewards
+
+Rewards and motivation fall into two categories: extrinsic and intrinsic.
+
+*(see ["Why Motivating People Doesn't Work"](../why-motivating-people-doesnt-work))*
+
+#### Extrinsic rewards
+When people think about rewards, they often immediately think of ones that are extrinsic: external, tangible forms of recognition, such as pay hikes, promotions, bonuses, and sales prizes. On the surface, extrinsic rewards tend to be easy to execute. Extrinsic rewards don't necessarily make people work harder or better. Rewards typically undermine the very processes they are intended to enhance. ("Why Incentive Plans Cannot Work", Alfie Kohn)
+
+The biggest problem with extrinsic rewards, by far, is that while many people believe monetary compensation is a major driver of performance, research has found little evidence to back up that assumption. In fact, bonuses and other financial incentives in some cases can do more harm than good. Extrinsic motivators don't change the attitudes that underlie behavior.
+
+#### Intrinsic rewards
+The opposite of extrinsic incentives, intrinsic rewards produce nonquantifiable personal satisfaction, such as a sense of accomplishment, personal control over one's work, and a feeling that efforts are appreciated. Intellectual stimulation, skill development, autonomy, or challenge. When intrinsically motivated, people do things for their own sense of achievement because they inherently want to.
+
+Intrinsic rewards must be thoughtfully tailored to individuals. There are a variety of ways that one can encourage good work through intrinsic rewards:
+
+* **Acknowledge good work** Recognition is one of the most powerful tools in a manager's toolbox--and a far more powerful motivator than money.
+
+* **Provide decision-making discretion**
+
+* **Introduce challenge**
+
+Recognizing your employees' good work and challenging them to do more can motivate them to continue exemplary work and contribute more to the organization. As you consider ways to encourage, engage, and build your direct reports' skills, think about what they may aspire to and how they want to grow in the long term.
 
 # Section Three: Developing Employees
 *We'll address employee career development: how to ensure that your people are growing professionally. Regardless of how your organization's formal performance management process is run, employee development efforts are becoming a focus of every manager who wants to lead an engaged, high-performing team and drive business. You'll learn how to discover your employees' unique needs and ambitions, identify the tactics available to your direct reports to build their skills, determine a direction for growth, and create individualized development plans to propel people forward--even those who are struggling.*
