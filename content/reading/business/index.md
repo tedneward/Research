@@ -7,6 +7,32 @@ summary=A collection of articles and links on the business side of life.
 [Pragmatic Engineer](https://newsletter.pragmaticengineer.com/)
 
 ## Articles/Blogs
+[12 Ways to Show Your Value](https://www.linkedin.com/posts/weskao_most-companies-suck-at-communicating-the-activity-6934551400383201280-ONcW):
+1. **Pour salt on the wound**: No pain, no sale. People will only value your solution if they value their problem. If they don’t think their problem is that bad, they won’t pay you to solve it. When in doubt, emphasize the pain. Painkillers sell better than vitamins.
+
+2. **Use before-and-after**: An effective before-and-after skips all the boring parts. It’s like a jump cut in a movie. It emphasizes *contrast*. This heightens drama and interest. The best before-and-afters make you say wow.
+ 
+3. **Don’t jump right to the solution**: Instead, explain how much $ the problem costs and how it’s making your customer’s life hard. Then talk about your product & how you’ll make their problem go away.
+
+4. **Show, don’t tell**: I came across AI-driven software that reduces background noise on Zoom calls. Their website has a toggle on/off button where you can hear a sound sample without vs with their tool. That demo was worth 10,000 words.
+
+5. **Increase desire, don’t just decrease friction**: People jump through hoops for things they want. Did you pick your spouse because they were the most convenient option? Of course not. You picked them despite obstacles.
+
+6. **Explain "why now?"**: Most folks AGREE that your product is great--but they still don’t buy. What they’re really thinking: “Do I need this enough to pay $ right now? Or can I do this later?" Later often means never.
+
+7. **Be/Do/Have**: This is a classic framework in leadership coaching but applies to marketing. What does your product let your customer *be* that they weren’t before? What can they *do* now that they couldn’t do before? What do they *have* now that they didn’t have before?
+
+8. **Aim for “no-brainer status"**: You need to aim for an instant yes. Not a yes after 100+ touchpoints of nurturing. Think about what would get that reaction. You likely won’t get an instant yes. But if you aim for it, it’ll speed up getting there.
+
+9. **Do what makes their eyes light up (ELU)**: You can tell when people listen to be polite. But there are moments when aliveness flashes in their eyes--you just said something they care about. Watch for ELU. It's data on what to do more of.
+
+10. **Avoid backstory scope creep**: It's easy to get carried away sharing background info. Remove 90% of it. You need less backstory than you think.
+
+11. **Focus on what your customer wants to hear, not what you want to talk about**: This is an easy way to trim from your pitch.
+
+12. **Consider overhauling**: If you’re struggling to describe your product’s value, figure out if the problem is (A) the marketing or (B) the offer itself. If your underlying offer isn’t good, no amount of improving the marketing will help.
+
+
 ["The Scoop: Inside Fast's Rapid Collapse"](https://newsletter.pragmaticengineer.com/p/the-scoop-fast):
     
     * a well-funded scaleup could be closer to bankruptcy than it seems
