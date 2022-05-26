@@ -1,5 +1,5 @@
 title=Ada
-tags=language
+tags=language, object, native
 summary=The committee-designed language for government work.
 ~~~~~~
 

@@ -1,9 +1,24 @@
 title=V
-tags=language
+tags=language, native
 summary=Simple, fast, safe, compiled language for developing maintainable software.
 ~~~~~~
 
 [Website](https://vlang.io) | [Source](https://github.com/vlang/v)
+
+Features:
+
+* No null
+* No undefined values
+* No undefined behavior
+* No variable shadowing
+* Bounds checking
+* Immutable variables by default
+* Pure functions by default
+* Immutable structs by default
+* Option/Result and mandatory error checks
+* Sum types
+* Generics
+* No global variables (can be enabled for low level applications like kernels via a command line flag)
 
 Example: lander.v:
 ```
