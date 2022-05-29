@@ -74,6 +74,14 @@ My ontology:
 "Make it easier to to probabilistic inference in custom models." | [Probabalistic Models of Cognition](https://probmods.org/) | ["TOWARDS COMMON-SENSE REASONING VIA CONDITIONAL SIMULATION: LEGACIES OF TURING IN ARTIFICIAL INTELLIGENCE"](https://arxiv.org/pdf/1212.4799v2.pdf)
 	Some [slides](https://tminka.github.io/papers/mlss2009/WinnMinka-ProbabilisticProgramming-slides.pdf) on the concept; they mention a Microsoft Research language, Csoft, that does not appear in Google, and reference [InferNET](/libraries/infernet.html) as being close to what Csoft was supposed to offer.
 
+"Programming Language Explorations" suggested tags: declarative, imperative, applicative, functional, logic, von Neumann, object-oriented, expression-oriented, persistent, concurrent, reactive, dataflow, stack, free-form, curly brace, visual, compiled, interpreted, very high-level, system, scripting, glue, intermediate, esoteric, toy, educational, domain-specific
+
+* JavaScript: imperative, functional, dynamic, prototypal
+* CoffeeScript: functional, expression-oriented, dynamic
+* Lua: Imperative, prototypal, scripting
+* Python: imperative, glue, dynamic, scripting
+
+
 Lists:
 
 - [Quick comparison of ten non-mainstream languages](http://www.h3rald.com/articles/10-programming-languages/): [Haskell](/languages/haskell), [Erlang](/languages/erlang), [Io](/languages/io), [PLT Scheme](/languages/lisp/scheme), [Clojure](/languages/clojure), [Squeak](/languages/smalltalk/squeak), [OCaml](/languages/ocaml), [Factor](/languages/factor), [Lua](/languages/lua), [Scala](/languages/scala)
