@@ -5,6 +5,8 @@ summary=A collection of links around software architecture, which may or may not
 tags=architecture
 ~~~~~~
 
+[Architecture of Open-Source Applications](https://www.aosabook.org/en/index.html) (books)
+
 High-level resources/links around software architecture--styles, analysis, etc.
 
 [The 12-Factor App](https://12factor.net/):

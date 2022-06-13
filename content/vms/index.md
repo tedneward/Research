@@ -64,5 +64,5 @@ Much of this is going to be found in the [reading on memory management](/reading
 * [18-600: Fondations of Computer Systems/Lecture 19: Virtual Machine Design & Implementation](http://course.ece.cmu.edu/~ece600/fall17/lectures/lecture19.pdf)
 * Crafting Interpreters: [A Virtual Machine](https://www.craftinginterpreters.com/a-virtual-machine.html)
 * [Write your Own Virtual Machine](https://www.jmeiners.com/lc3-vm/) [Source](https://github.com/justinmeiners/lc3-vm)
-
-
+* [UCB CS294-113: Virtual Machines and Managed Runtimes](http://www.wolczko.com/CS294/)
+* ["A Smalltalk Implementation in Self"](http://merlintec.com/download/mario.pdf)

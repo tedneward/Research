@@ -5,6 +5,8 @@ summary=Collection of material on how to build programming languages.
 
 [Writing your own toy language](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/) using flex, bison, LLVM; [code](https://github.com/lsegal/my_toy_compiler)
 
+[Open, extensible object models](https://piumarta.com/software/cola/objmodel2.pdf): "The artificial distinction between implementation language and end-user language can be eliminated by implementing the language using only end-user objects and messages, making the implementation accessible for arbitrary modification by programmers. We show that three object types and five methods are sufficient to bootstrap an extensible object model and messaging semantics that are described entirely in terms of those same objects and messages."
+
 [How to Create a Programming Language Using ANTLR4](https://progur.com/2016/09/how-to-create-language-using-antlr4.html) | [The ANTLR Mega Tutorial](https://tomassetti.me/antlr-mega-tutorial/)
 
 ["Three Things I Wish I Knew When I Started Designing Languages"](https://www.youtube.com/watch?v=oa0qq75i9oc)
@@ -22,6 +24,8 @@ summary=Collection of material on how to build programming languages.
 [learn-programming-languages](https://github.com/jeanqasaur/learn-programming-languages)
 	- Resources for the working programmer to learn more about the fundamentals and theory of programming languages.
 	- Jean Yang
+
+[Concatenative Thinking (wiki)](https://concatenative.org/wiki/view/Front%20Page): We are interested in both theoretical results and practical programming advice, especially as it pertains to any Concatenative language. We want to bring together disparate language communities and build a common knowledge repository that people can consult to learn more about this family of languages.
 
 Creating the Bolt Compiler (series):
 
