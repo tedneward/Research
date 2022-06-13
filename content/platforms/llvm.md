@@ -1,5 +1,5 @@
 title=LLVM
-tags=platform, native
+tags=platform, library, vm, native
 summary=A compiler and back-end native compilation/linking toolchain.
 ~~~~~~
 
@@ -8,8 +8,12 @@ summary=A compiler and back-end native compilation/linking toolchain.
 ### Articles/Books
 [LLVM](http://www.aosabook.org/en/llvm.html) - Chris Lattner, The Architecture of Open Source Applications
 
+[Garbage Collection with LLVM](https://llvm.org/docs/GarbageCollection.html) | [Garbage Collection Safepoints in LLVM](https://llvm.org/docs/Statepoints.html)
+
 ### Tutorials
-[Kaleidoscope](http://llvm.org/docs/tutorial/) or [in Haskell](http://www.stephendiehl.com/llvm/)
+[My First Language Frontend with LLVM Tutorial](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html) | [Kaleidoscope](http://llvm.org/docs/tutorial/) or [in Haskell](http://www.stephendiehl.com/llvm/)
+
+[A Complete Guide to LLVM for Programming Language Creators](https://mukulrathi.com/create-your-own-programming-language/llvm-ir-cpp-api-tutorial/)
 
 [Make your own LLVM compiler](https://www.youtube.com/watch?v=OhkwPSvyBu0)
 

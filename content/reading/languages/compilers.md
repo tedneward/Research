@@ -1,19 +1,7 @@
-title=Language Implementation Reading
+title=Compilers Reading
 tags=language, reading, llvm, native
 summary=Collection of articles on implementing languages.
 ~~~~~~
-
-- [Writing your own toy language](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/) using flex, bison, LLVM; [code](https://github.com/lsegal/my_toy_compiler)
-- [How to Create a Programming Language Using ANTLR4](https://progur.com/2016/09/how-to-create-language-using-antlr4.html)
-- ["Three Things I Wish I Knew When I Started Designing Languages"](https://www.youtube.com/watch?v=oa0qq75i9oc)
-- [Type Theory and Functional Programming](https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/)
-- [Crash Course on Notation in Programming Language Theory](http://siek.blogspot.com/2012/07/crash-course-on-notation-in-programming.html), Jeremy G. Siek; LambdaConf 2018 [Part 1](https://www.youtube.com/watch?v=vU3caZPtT2I), [Part 2](https://www.youtube.com/watch?v=MhuK_aepu1Y) [Slides](https://www.dropbox.com/s/joaq7m9v75blrw5/pl-notation-lambdaconf-2018.pdf?dl=1)
-- ["The Naked Truth About Writing a Programming Language"](https://www.digitalmars.com/articles/b90.html)
-- [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
-- [Implementing a JIT Compiled Language with Haskell and LLVM](https://www.stephendiehl.com/llvm/)
-- [How to Design Worlds (PDF)](https://world.cs.brown.edu/1/htdw-v1.pdf)
-
----
 
 ## Implementation tools
 [Lingua.NET](https://archive.codeplex.com/?p=lingua): Discontinued/archived CodePlex parser generator. Archived content copied locally [here](/languages/dotnet/lingua.zip).
@@ -43,8 +31,6 @@ summary=Collection of articles on implementing languages.
 
 [Compiling Techniques (1969)](http://www.chilton-computing.org.uk/acl/literature/books/compilingtechniques/overview.htm) - F.R.A. Hopgood, Macdonald
 
-[Crafting Interpreters](http://craftinginterpreters.com/) by Bob Nystrom [Github](https://github.com/munificent/craftinginterpreters)
-
 [Essentials of Compilation: An Incremental Approach](https://github.com/IUCompilerCourse/Essentials-of-Compilation) by Siek, Newton: A book about compiling Racket to x86-64 assembly
 
 [Essentials of Programming Languages](http://www.eopl3.com/): EOPL, as it’s better known, introduces readers to the internal workings of programming languages by describing small programming languages and creating an interpreter for each one. The book is very hands-on, with lots of exercises for the reader to modify the interpreters with new features. It touches on the ideas of reasoning about languages and formal semantics, but mostly sticks to the interpreter-as-semantics approach.
@@ -54,10 +40,6 @@ summary=Collection of articles on implementing languages.
 [Implementing Functional Languages: A Tutorial](http://research.microsoft.com/en-us/um/people/simonpj/Papers/pj-lester-book/) - Simon Peyton Jones, David Lester
 
 [Introduction to Compilers and Language Design](https://www3.nd.edu/~dthain/compilerbook/compilerbook.pdf) | [Introduction to Compilers and Language Design](http://compilerbook.org/) - Douglas Thain (PDF)
-
-[learn-programming-languages](https://github.com/jeanqasaur/learn-programming-languages)
-	- Resources for the working programmer to learn more about the fundamentals and theory of programming languages.
-	- Jean Yang
 
 [Let's Build a Compiler](http://www.stack.nl/~marcov/compiler.pdf) (PDF)
 
@@ -73,10 +55,6 @@ summary=Collection of articles on implementing languages.
 
 [Semantics Engineering with PLT Redex](http://redex.racket-lang.org/): The PhD-level programming languages course at Northeastern uses the Redex book, and I found it to be a good introduction. The tool itself ([Redex](http://docs.racket-lang.org/redex/index.html)) is a great way to experiment with semantics, including reduction relations (roughly, the part of the semantics that says how the program runs) and type systems. You could use this book as a substitute for TAPL (at least for learning the basics of formal semantics), or you could use Redex to experiment with the languages described in TAPL.
 
-[Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl/): TAPL (rhymes with “apple”), as it’s better known, has a solid introduction to formal semantics in the first few chapters and would be my pick for a starting point on formal semantics. The remainder of the book deals with type systems, which form only one part of programming languages, but it’s the canonical reference if you’re looking to learn about types.
-
-[The ANTLR Mega Tutorial](https://tomassetti.me/antlr-mega-tutorial/)
-
 ### Lists of recommended reading
 [GCC Wiki - List of compiler books](https://gcc.gnu.org/wiki/ListOfCompilerBooks) | [Jordan Rose (Swift team) recommendations](http://belkadan.com/blog/2015/11/Recommendations/) | http://jschuster.org/blog/2016/11/29/getting-started-in-programming-languages/ | [Jonathan Turner’s Reading List](http://www.jonathanturner.org/2016/10/programming-language-and-compilers-reading-list.html): Turner is an engineer on Mozilla’s Rust team and recently posted his reading list for getting up-to-speed on programming languages. The list starts with some resources on how to build interpreters and compilers, but also points to more academic material later. | [10PL](https://github.com/nuprl/10pl): This is a list compiled by Northeastern’s PL faculty of (roughly) ten academic papers that they think every student in PL should know. Not all of them are PL papers themselves, and they don’t form a full foundation on their own, but they form a kind of “great books” list for PL. | Benjamin Pierce, the author of TAPL, also has a [similar list](http://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml) (although with a slightly more type-heavy and theoretical bent). | [Classic Papers in Programming Languages and Logic](https://www.cs.cmu.edu/~crary/819-f09/) by Karl Crary
 
@@ -88,12 +66,6 @@ summary=Collection of articles on implementing languages.
 	- https://sc19.supercomputing.org/proceedings/tech_poster/tech_poster_pages/rpost138.html
 - FreeCompilerCamp.org: Training for OpenMP Compiler Development from Cloud
 	- https://sc19.supercomputing.org/proceedings/workshops/workshop_pages/ws_bphpcte103.html
-
-- Let's Build an Interpreter (series) ([Github](https://github.com/hisystems/Interpreter/tree/master/Engine)): [1](https://ruslanspivak.com/lsbasi-part1/) | [2](https://ruslanspivak.com/lsbasi-part2/) | [3](https://ruslanspivak.com/lsbasi-part3/) | [4](https://ruslanspivak.com/lsbasi-part4/) | [5](https://ruslanspivak.com/lsbasi-part5/) | [6](https://ruslanspivak.com/lsbasi-part6/) | [7](https://ruslanspivak.com/lsbasi-part7/) | [8](https://ruslanspivak.com/lsbasi-part8/) | [9](https://ruslanspivak.com/lsbasi-part9/) | [10](https://ruslanspivak.com/lsbasi-part10/) | [11](https://ruslanspivak.com/lsbasi-part11/) | [12](https://ruslanspivak.com/lsbasi-part12/) | [13](https://ruslanspivak.com/lsbasi-part13/) | [14](https://ruslanspivak.com/lsbasi-part14/) | [15](https://ruslanspivak.com/lsbasi-part15/) | [16](https://ruslanspivak.com/lsbasi-part16/) | [17](https://ruslanspivak.com/lsbasi-part17/) | [18](https://ruslanspivak.com/lsbasi-part18/) | [19](https://ruslanspivak.com/lsbasi-part19/) | may be more...?
-
-- Immo Landwerth has done a collection of videos on building a language called Minsk, for the CLR platform, in a live-streaming style: [Source](https://github.com/terrajobst/minsk) | [Episode 1](https://www.youtube.com/watch?v=wgHIkdUQbp0&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y) | [Episode 2](https://www.youtube.com/watch?v=3XM9vUGduhk&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=2) | [Episode 3](https://www.youtube.com/watch?v=61dLQNgd9o8&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=3) | [Episode 4](https://www.youtube.com/watch?v=xF-8rWeqV1A&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=4) | [Episode 5](https://www.youtube.com/watch?v=EEzuO9XWmUY&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=5) | [Episode 6](https://www.youtube.com/watch?v=EEzuO9XWmUY&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=6) | [Episode 7](https://www.youtube.com/watch?v=SJE_gUnJl2Y&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=7) | [Episode 8](https://www.youtube.com/watch?v=PfpayNvfu20&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=8) | [Episode 9](https://www.youtube.com/watch?v=QwZuY1dExAc&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=9) | [Episode 10](https://www.youtube.com/watch?v=QwZuY1dExAc&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=10) | [Episode 11](https://www.youtube.com/watch?v=QwZuY1dExAc&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=11) | [Episode 12](https://www.youtube.com/watch?v=psTZi6xpTlM&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=12) | [Episode 13](https://www.youtube.com/watch?v=NvVc8erZpeI&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=13) | [Episode 14](https://www.youtube.com/watch?v=NvVc8erZpeI&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=14) | [Episode 15](https://www.youtube.com/watch?v=NvVc8erZpeI&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=15) | [Episode 16](https://www.youtube.com/watch?v=Ecrv8sCYEbA&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=16) | [Episode 17](https://www.youtube.com/watch?v=Ecrv8sCYEbA&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=17) | [Episode 18](https://www.youtube.com/watch?v=Ecrv8sCYEbA&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=18) | [Episode 19](https://www.youtube.com/watch?v=Ecrv8sCYEbA&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=19) | more are likely on the way
-
-[Build your own Lisp](http://www.buildyourownlisp.com/contents) teaches C by building a Lisp.
 
 ## College/University Courses
 
@@ -157,22 +129,6 @@ UCSD CSE 231: Advanced Compiler Design
 
 ## Implementation and Optimization
 
-### Type Systems
-
-* [On the Relationship Between Static Analysis and Type Theory](https://semantic-domain.blogspot.com/2019/08/on-relationship-between-static-analysis.html)
-
-* [Soundness and completeness: with precision](https://bertrandmeyer.com/2019/04/21/soundness-completeness-precision/)
-
-* [What is soundness (in static analysis)?](http://www.pl-enthusiast.net/2017/10/23/what-is-soundness-in-static-analysis/)
-
-* [What Type Soundness Theorem Do You Really Want to Prove?](https://blog.sigplan.org/2019/10/17/what-type-soundness-theorem-do-you-really-want-to-prove/) ([YouTube](https://www.youtube.com/watch?v=8Xyk_dGcAwk))
-	- Milner Award Lecture: The Type Soundness Theorem That You Really Want to Prove (and now you can), POPL 2018; Derek Dreyer
-
-* Type Theory Behind Glasgow Haskell Compiler Internals
-	- LambdaConf 2018; Vitaly Bragilevsky
-	- https://www.youtube.com/playlist?list=PLvPsfYrGz3wspkm6LVEjndvQqK6SkcXaT
-	- https://github.com/bravit/tt-ghc-exercises/
-	- https://github.com/lambdaconf/lambdaconf-2018/tree/master/LC18-slides
 
 ### Escape analysis
 Escape analysis is an optimization for identifying objects which do not escape the dynamic extent of a function; such objects can be stack-allocated, or 'flattened' so that usages of them are replaced with a series of local variables (the latter optimization is known as "scalar replacement").
