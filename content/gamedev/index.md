@@ -22,3 +22,8 @@ Video game development links.
 [OpenGameArt](https://opengameart.org/)
 
 [Kenney](https://kenney.nl/)
+
+## Some interesting (non-technical) source material
+
+[Titanomachy RPG](https://titanomachyrpg.com/): Caltrop Core, a d4-based system for creating your own TTRPGs, featured in Dicebreaker's "9 best tabletop RPG systems to hack into a custom game." Over 204 games have been created by a diverse community surrounding the system since its release in October 2021.
+

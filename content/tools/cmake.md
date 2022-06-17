@@ -175,6 +175,7 @@ endif()
 + [CMake documentation](https://cmake.org/documentation/)
 + [Mastering CMake](http://amzn.com/1930934319/)
 + [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
++ [cmake-init](https://github.com/friendlyanon/cmake-init): an opinionated CMake project initializer that generates CMake projects which are FetchContent ready, separate consumer and developer targets, provide install rules with proper relocatable CMake packages and use modern CMake (3.14+). (Install with `[pip3](/languaegs/python) install cmake-init`; generated scripts require `[conan](/tools/conan)`)
 
 ---
 

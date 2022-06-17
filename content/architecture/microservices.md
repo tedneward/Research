@@ -8,3 +8,9 @@ summary=Reading on microservices architecture.
 * [Microservices vs. Service-Oriented Architecture](https://www.oreilly.com/radar/microservices-vs-service-oriented-architecture/) - Mark Richards (HTML)
 * [Reactive Microservices Architecture](https://www.lightbend.com/ebooks/reactive-microservices-architecture-design-principles-for-distributed-systems-oreilly) (email address *requested*)
 * [Reactive Microsystems: The Evolution of Microservices at Scale](https://www.lightbend.com/ebooks/reactive-microsystems-evolution-of-microservices-scalability-oreilly) (email address *requested*)
+
+## Interesting/intriguing/for follow up later
+
+* ["Open-source SPL script make microservices develop more efficient"](http://c.raqsoft.com/article/1654195840026)
+    "SPL script"? Specifically, "esProc SPL is the ideal one that can end all issues."?
+

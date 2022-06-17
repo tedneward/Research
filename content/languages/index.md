@@ -90,7 +90,9 @@ Lists:
 - [Advanced programming languages](http://matt.might.net/articles/best-programming-languages/) -- thoughts on [Haskell](/languages/haskell), [Scala](/languages/jvm/scala), [Scheme](/languages/lisp/scheme), [SML](/languages/ml), [OCaml](/languages/ocaml)
 - ["Six programming paradigms that will change how you think about coding"](https://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/): Concurrent by default ([ANI](/languages/ani), [Plaid](/languages/plaid)), Dependent types ([Idris](/languages/idris), [Agda](/languages/agda), [Coq](/languages/coq)), Concatenative languages ([Forth](/languages/forth), [cat](/languages/cat), [Joy](/languages/joy)), Declarative languages ([Prolog](/languages/prolog), [SQL](/languages/sql)), Symbolic programming ([Aurora](/languages/aurora)), Knowledge-based programming ([Wolfram](/languages/wolfram))
 - ['A Language a Day' Advent Calendar 2019](https://andrewshitov.com/2019/11/25/a-language-a-day-advent-calendar-2019/)
+
 Reading:
+
 - [Syntax across languages](http://rigaux.org/language-study/syntax-across-languages.html): One large page of comprehensive syntax across languages
 - [Hyperpolyglot](https://hyperpolyglot.org/): commonly used features in a side-by-side format
 - [Concurrency is not Parallelism](https://vimeo.com/49718712)
@@ -108,10 +110,19 @@ Reading:
 Languages often break down to automatically-managed memory vs. manually-managed, but most of the time that means heap management; static and stack allocation are (almost?) always automatically managed by virtue of their allocation schemes.
 
 ### Language execution types
-* **Compiled**: Source is ahead-of-time transformed into a binary output ready for "direct" execution--it can be loaded and run without additional help. (Note that normally this means that it's an executable file on an operating system, but certain factors could change this up. For example, a Mach-O binary can be directly executed on macOS, but on Windows it would require an adapter or VM; likewise, a JVM class file requires a VM normally, but on a JVM-based OS it would be a native executable.) Most compilers do some form of validity-checking, usually making use of type-checking, to ensure the program will run correctly.
-* **Transpiled**: Source is ahead-of-time transformed into another source format. Term became popular with languages that transpiled into ECMAScript, but technically this has been around since long before then. (When I was taking ECS 140A at UCDavis in 1991, we had an assignment to write a language that transpiled into C, for example.) [C](../c) has long been the preferred target of transpilers before ECMAScript, given its original goal of being a "higher-level assembly language".
+* **Compiled**: Source is ahead-of-time transformed into a binary output ready for "direct" execution--it can be loaded and run without additional help. Most compilers do some form of validity-checking, usually making use of type-checking, to ensure the program will run correctly. Several "flavors" of compiled targets fall into different categories: 
+
+	* **Native**: Source is compiled into binary format ready for direct execution by an operating system.
+
+	* **Transpiled**: Source is ahead-of-time transformed into another source format. Term became popular with languages that transpiled into ECMAScript, but technically this has been around since long before then. (When I was taking ECS 140A at UCDavis in 1991, we had an assignment to write a language that transpiled into C, for example.) [C](../c) has long been the preferred target of transpilers before ECMAScript, given its original goal of being a "higher-level assembly language". [C--](../cminusminus) is a variant of C made specifically for transpilation/compilation purposes.
+
+	* **Bytecode**: This is usually a binary output format that is some level of abstraction higher than native CPU assembly language, but not much more. The intent is to provide an easier format for either direct execution or transformation into native assembly (Just-In-Time compilation) within a virtual machine. Some bytecode formats are well-documented and "external" (like the JVM and CLR formats). In many cases, however, an interpreter is actually doing an on-the-fly compilation of source to an internal bytecode format at runtime, since most bytecode formats are easier to JIT, and/or the bytecode provides a layer of abstraction from the language syntax to the underlying runtime.
+
 * **Interpreted**: Generally this means that source is not pre-examined until the moment it is asked to run. At that point, validity-checking is done, whether "just" syntactical verification or an additional deeper type-based analysis.
-* **Bytecode**: This is usually a binary output format that is some level of abstraction higher than native CPU assembly language, but not much more. The intent is to provide an easier format for either direct execution or transformation into native assembly (Just-In-Time compilation) within a virtual machine. Some bytecode formats are well-documented and "external" (like the JVM and CLR formats). In many cases, however, an interpreter is actually doing an on-the-fly compilation of source to an internal bytecode format at runtime, since most bytecode formats are easier to JIT, and/or the bytecode provides a layer of abstraction from the language syntax to the underlying runtime.
+
+Note that the lines are significantly blurring; several "interpreted" languages internally compile the source into an AST or bytecode format for faster execution, and several "compiled" languages are available to run at the command-line a la shell scripts or REPLs by internally taking source through their compilation pipeline and executing the result.
+
+In the long run, the key differentiator around "compiled vs interpreted" may be solely whether the tool/language does ahead-of-time error-checking.
 
 ### [Types](/reading/languages/types)
 

@@ -8,6 +8,10 @@ The Web browsers ([Chrome](../chrome), [Safari](../safari), IE, [Firefox](../fir
 Other browsers:
 * [Orion](https://browser.kagi.com/) (macOS, iOS/iPadOS)
 
+## Browser insights
+
+* ["How browsers work"](https://taligarsiel.com/Projects/howbrowserswork1.htm)
+
 ## Web APIs
 [MDN list](https://developer.mozilla.org/en-US/docs/Web/API):
 * [Background tasks](https://developer.mozilla.org/en-US/docs/Web/API/Background_Tasks_API)
