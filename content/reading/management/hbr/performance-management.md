@@ -382,7 +382,7 @@ Recognizing your employees' good work and challenging them to do more can motiva
 *Define a specific plan for future growth*
 
 ## Chapter 11: How to Develop Someone Who's Struggling
-*GOod performers aren't the only ones who need to grow*
+*Good performers aren't the only ones who need to grow*
 
 # Section Four: Formal Performance Reviews
 *We'll delve into the details of formal performance reviews. This section first presents current arguments for and against formal appraisals--and for those who do conduct them, offers a detailed process for success. We'll help you navigate the practice of assessing a direct report's progress toward previously established goals and show you how to put your appraisal in writing, including how to use ratings most effectively. We'll cover how to conduct the review session, from detailing performance to preparing for the review period ahead.*
@@ -396,7 +396,7 @@ Recognizing your employees' good work and challenging them to do more can motiva
 ## Chapter 14: How to Conduct the Review Conversation
 *Tips and tricks for a productive discussion*
 
-## Chapter 15: Define Newa Goals for a New Cycle
+## Chapter 15: Define New Goals for a New Cycle
 *Adjust objectives for continued growth*
 
 # Section Five: Tough Topics
