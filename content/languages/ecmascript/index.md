@@ -53,6 +53,8 @@ From the Specification home page, a history:
 * [C/C++: mjs](https://github.com/cesanta/mjs) Embedded JavaScript for C/C++, designed for microcontrollers with limited resources. Implements a strict subset of ES6.
 * [C/C++: QuickJS](https://bellard.org/quickjs/): a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
 * [C/C++: V8](/vms/v8): The engine below NodeJS from Google.
+* [Zig: Bun](https://bun.sh/) ([Source](https://github.com/oven-sh/bun)): a fast all-in-one JavaScript runtime, written in [Zig](/languages/zig).
+* [Native: WebKit JavaScriptCore](https://github.com/WebKit/WebKit/tree/main/Source/JavaScriptCore): the JavaScript engine that comes as part of the larger open-source [WebKit](https://github.com/WebKit/) browser core.
 * [CLR: jint](../jint)
 * [CLR: Yantra](../yantra)
 * [CLR: Jurassic](../jurassic)
