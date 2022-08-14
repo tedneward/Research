@@ -20,3 +20,5 @@ summary=Open-source relational database.
 ---
 
 [PostgresQL implementation of LOLCode](https://github.com/eggyknap/pllolcode); [PGCon slides (PDF)](https://www.pgcon.org/2009/schedule/track/Tutorial/159.en.html)
+
+["Join Data from PostgreSQL Declaratively in GraphQL w/o writing SQL"](https://stepzen.com/blog/join-data-postgresql-declarative-graphql-without-sql)
