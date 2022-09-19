@@ -29,4 +29,6 @@ summary=Programming language from Google emphasizing coroutines.
 * [The Little Go Book](https://github.com/karlseguin/the-little-go-book) - Karl Seguin ([PDF](https://www.openmymind.net/assets/go/go.pdf), [ePUB](https://www.openmymind.net/assets/go/go.epub))
 * [Web apps in Go, the anti textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)
 
+### Libraries
+* [sqlc](https://docs.sqlc.dev/en/latest/index.html): generates fully type-safe idiomatic Go code from SQL.
 
