@@ -1,5 +1,5 @@
 title=Colin S Gordon's Electronic References
-tags=places, reading, language, nlp, computer science
+tags=place, reading, language, nlp, computer science
 summary=A loosely-categorized collection of links to CS textbooks in a variety of areas that are freely available online.
 ~~~~~~
 

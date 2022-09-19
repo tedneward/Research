@@ -1,5 +1,5 @@
 title=Reading list: Hardware
-tags=reading, hardware
+tags=reading, hardware, list
 summary=Collection of articles, books I recommend around hardware topics.
 ~~~~~~
 

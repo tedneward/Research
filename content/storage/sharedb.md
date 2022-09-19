@@ -6,6 +6,7 @@ summary=Realtime database backend based on Operational Transformation (OT).
 "ShareDB is a realtime database backend based on Operational Transformation (OT) of JSON documents. It is the realtime backend for the DerbyJS web application framework.
 
 "Features:
+
 * Realtime synchronization of any JSON document
 * Concurrent multi-user collaboration
 * Synchronous editing API with asynchronous eventual consistency

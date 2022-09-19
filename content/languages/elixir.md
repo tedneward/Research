@@ -18,6 +18,10 @@ summary=A dynamic, functional language designed for building scalable and mainta
 
 ### Libraries
 
+#### EEx
+
+* ["How EEx turns your template into HTML"](https://www.mitchellhanberg.com/how-eex-turns-your-template-into-html/)
+
 #### Ecto
 
 * [Ecto Getting Started Guide](https://hexdocs.pm/ecto/getting-started.html#content) (HTML)

@@ -53,6 +53,8 @@ tags=place
 
 [Papers we love](https://github.com/papers-we-love/papers-we-love)
 
+[Pixabay](https://pixabay.com/): Free images, videos, and music you can use anywhere. (Requires sign-up)
+
 [Programming](https://en.wikibooks.org/wiki/Category%3aComputer_programming) - Wikibooks
 
 [Red Gate Books](http://www.red-gate.com/community/books/index)
@@ -62,8 +64,6 @@ tags=place
 [TechBeamers.com](http://www.techbeamers.com)
 
 [TechBooksForFree.com](http://www.techbooksforfree.com)
-
-[The Definitive C++ Book Guide and List](http://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
 
 [Theassayer.org](http://theassayer.org)
 

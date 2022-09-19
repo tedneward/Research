@@ -1,5 +1,5 @@
 title=FSNotesApp
-tags=tool, macos, iOS, android
+tags=tool, macos, ios, android
 summary=Modern notes manager for macOS and iOS. App respects open formats like GitHub Flavored Markdown, so you can easily write documents on iPhone and MacBook.
 ~~~~~~
 

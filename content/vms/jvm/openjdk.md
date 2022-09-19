@@ -7,8 +7,6 @@ summary=A collection of links and reading specific to the OpenJDK.
 
 ### Performance-related
 
-[General memory mgmt/GC reading and links](/reading/memory-management)
-
 [Java HotSpot Performance Engine Architecture](https://www.oracle.com/java/technologies/whitepaper.html)
 
 [Tuning Garbage Collection with the 5.0 JVM](https://www.oracle.com/java/technologies/tuning-garbage-collection-v50-java-virtual-machine.html)

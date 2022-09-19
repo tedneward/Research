@@ -1,5 +1,5 @@
 title=50 Big Ideas
-tags=reading, books, philosophy
+tags=reading, books, philosophy, thinking
 summary=A collection of ideas that define our world.
 ~~~~~~
 

@@ -16,3 +16,12 @@ summary=Huge collection of cloud-hosted services.
 
 [Amazon's DynamoDB, 10 yeras later](https://www.amazon.science/latest-news/amazons-dynamodb-10-years-later)
 
+## Messaging
+AWS has a fleet of messaging services which reflects very similar architectural considerations as the Azure services.
+
+* [Amazon SQS](https://aws.amazon.com/en/sqs/) corresponds to Azure Storage Queues and Service Bus Queues (FIFO)
+* [Amazon MQ](https://aws.amazon.com/en/amazon-mq) corresponds to Azure Service Bus, albeit at far smaller scale and less managed
+* [Amazon Kinesis](https://aws.amazon.com/en/kinesis/) corresponds to Azure Event Hubs
+* [Amazon EventBridge](https://aws.amazon.com/de/eventbridge/) corresponds to Azure Event Grid
+* [Amazon IoT Core](https://aws.amazon.com/en/iot-core/) corresponds to Azure IoT Hub.
+  

@@ -1,5 +1,5 @@
 title=Adversaries Into Allies
-tags=reading, people, psych
+tags=reading, people, psychology
 summary=Win people over without manipulation or coercion
 ~~~~~~
 *(by Bob Burg, ISBN ...)*

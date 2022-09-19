@@ -7,3 +7,4 @@ Announced at MSBuild 2020. [Blog post](https://devblogs.microsoft.com/dotnet/int
 
 [Github](https://github.com/dotnet/maui)
 
+[Awesome MAUI](https://github.com/jsuarezruiz/awesome-dotnet-maui)

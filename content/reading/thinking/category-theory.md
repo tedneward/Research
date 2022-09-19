@@ -1,5 +1,5 @@
 title=Category Theory
-tags=reading
+tags=reading, mathematics, thinking
 summary=A collection of links on category theory.
 ~~~~~~
 

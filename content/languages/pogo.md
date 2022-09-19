@@ -1,6 +1,6 @@
 title=Pogo, Pogoscript
 tags=language, nodejs
-summary=
+summary=Little language that emphasizes readability, DSLs, and asynchronous primitives.
 ~~~~~~
 
 [Website](http://pogoscript.org/) (seems like the site is no longer live) | [Source](https://github.com/featurist/pogoscript) (active development appears to have stopped ~2015) 
@@ -12,14 +12,6 @@ Installation: `npm install pogo`
 [Google group](http://groups.google.com/group/pogoscript) for questions. (Last message 2017, before that 2014.)
 
 ## [Learn X in Y minutes Quick Intro](https://learnxinyminutes.com/docs/pogo/)
----
-language: pogoscript
-contributors:
-    - ["Tim Macfarlane", "http://github.com/refractalize"]
-filename: learnPogo.pogo
----
-
-Pogoscript is a little language that emphasises readability, DSLs and provides excellent asynchronous primitives for writing connected JavaScript applications for the browser or server.
 
 ``` javascript
 // defining a variable

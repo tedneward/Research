@@ -1,4 +1,4 @@
-title=iOS (OS)
+title=iOS (Platform)
 tags=platform, ios
 summary=The Apple mobile device operating system (on top of the open-source Darwin kernel).
 ~~~~~~

@@ -1,5 +1,5 @@
 title=8 Pillars of Greek Philosophy
-tags=reading, books, philosophy
+tags=reading, books, philosophy, thinking
 summary=8 core greek philosophies.
 ~~~~~~
 

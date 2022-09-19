@@ -5,6 +5,8 @@ summary=Collection of thoughts/essays/etc on managing people.
 
 ## Articles
 
+* ["The Remote Pop-In Meeting"](https://twos.dev/thepopin.html): "The pop-in, back before open floorplans, is when you physically walk into someone's office to ask them a question or spitball an idea. In an open floorplan you can instead swivel your chair or walk to their desk. The pop-in is valuable because it's as informal as email, but as high-bandwidth and low-latency as meetings. It's interruptive to be popped in on, but that interruption power is self-limiting: the effort of physically going somewhere is high, and the tools available to the target like doors, signs, and social cues are numerous and don't require much thought to implement. ... There's really no remote equivalent to the pop-in. There are products that help you "hang out" like Facebook Portal, but nothing that implements the pop-in. ... *In our company Discord server, we give everyone one voice channel of their own. This is your "office". When you are online and able to be disturbed, you join your office, alone. You stay in there as long as you are "in".* When someone wants to pop in, they join your voice channel. The chime plays, they say hello, you unmute and turn on video if you like, and have your pop-in. And that's really it."
+
 * ["A Simple Framework for Software Engineering Management"](https://medium.com/swlh/a-simple-framework-for-software-engineering-management-f70b216540f2): Responsibilities (people management, delivery leadership, technical system ownership) in a 2-axis grid with priorities (issues, things that are OK, ideas/aspirations). "To sum up, we can look at software engineering management as a combination of three areas of responsibilities: *people management*, *delivery leadership*, and *technical system ownership*. Paying attention to all three responsibilities is important. However the amount of attention each responsibility should get depends on the team, the organisation, the product, and other factors. It also changes over time. Within each responsibility area we can identify issues, things that are okay, as well as ideas and aspirations. Things that are already okay only need to be acknowledged. Issues need to be prioritised and promptly resolved. Ideas and aspirations should be evaluated and, if deemed relevant, executed or put on the roadmap."
 
 * ["5 Things High-Performing Teams Do Differently"](https://hbr.org/2021/10/5-things-high-performing-teams-do-differently)
@@ -451,7 +453,7 @@ There is a long assorted list. Here is an attempt to put its items into buckets:
 8. "Have you seen someone here do great work that's gone unnoticed?"
 9. "Are there things you don't know about the company that you feel you should know?"
 
-#### Ashlee Clifton (Rocket Mortgage) uses these to open 1:1s with people.
+#### Ashlee Clifton (Rocket Mortgage) 1:1s
 
 * My personal Beliefs and expectations that carry into work - These are your personal ISMs.  List your beliefs and expectations so it is clear for your team members what you expect.
 

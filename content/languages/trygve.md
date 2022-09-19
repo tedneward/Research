@@ -1,5 +1,5 @@
 title=Trygve
-tags=language, object-oriented
+tags=language, object
 summary=Building a DCI-centric language from the ground up.
 ~~~~~~
 

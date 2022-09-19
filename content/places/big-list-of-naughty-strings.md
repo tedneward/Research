@@ -1,5 +1,5 @@
 title=The Big List of Naughty Strings
-tags=places, security
+tags=place, security
 summary=The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.
 ~~~~~~
 

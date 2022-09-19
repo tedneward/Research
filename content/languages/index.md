@@ -11,9 +11,11 @@ See also [Language Places](/places/languages) and [PLZoo](/places/plzoo)
 ---
 
 > "Every configuration file becomes a Turing-complete language eventually." --James Gosling
-[Every simply language will eventually end up Turing complete](https://solutionspace.blog/2021/12/04/every-simple-language-will-eventually-end-up-turing-complete/)
+
+[Every simple language will eventually end up Turing complete](https://solutionspace.blog/2021/12/04/every-simple-language-will-eventually-end-up-turing-complete/)
 
 ## Language concepts
+
 ### Syntax/paradigms
 [Toward a better programming](https://www.chris-granger.com/2014/03/27/toward-a-better-programming/)
 
@@ -72,6 +74,14 @@ My ontology:
 "Make it easier to to probabilistic inference in custom models." | [Probabalistic Models of Cognition](https://probmods.org/) | ["TOWARDS COMMON-SENSE REASONING VIA CONDITIONAL SIMULATION: LEGACIES OF TURING IN ARTIFICIAL INTELLIGENCE"](https://arxiv.org/pdf/1212.4799v2.pdf)
 	Some [slides](https://tminka.github.io/papers/mlss2009/WinnMinka-ProbabilisticProgramming-slides.pdf) on the concept; they mention a Microsoft Research language, Csoft, that does not appear in Google, and reference [InferNET](/libraries/infernet.html) as being close to what Csoft was supposed to offer.
 
+"Programming Language Explorations" suggested tags: declarative, imperative, applicative, functional, logic, von Neumann, object-oriented, expression-oriented, persistent, concurrent, reactive, dataflow, stack, free-form, curly brace, visual, compiled, interpreted, very high-level, system, scripting, glue, intermediate, esoteric, toy, educational, domain-specific
+
+* JavaScript: imperative, functional, dynamic, prototypal
+* CoffeeScript: functional, expression-oriented, dynamic
+* Lua: Imperative, prototypal, scripting
+* Python: imperative, glue, dynamic, scripting
+
+
 Lists:
 
 - [Quick comparison of ten non-mainstream languages](http://www.h3rald.com/articles/10-programming-languages/): [Haskell](/languages/haskell), [Erlang](/languages/erlang), [Io](/languages/io), [PLT Scheme](/languages/lisp/scheme), [Clojure](/languages/clojure), [Squeak](/languages/smalltalk/squeak), [OCaml](/languages/ocaml), [Factor](/languages/factor), [Lua](/languages/lua), [Scala](/languages/scala)
@@ -80,7 +90,9 @@ Lists:
 - [Advanced programming languages](http://matt.might.net/articles/best-programming-languages/) -- thoughts on [Haskell](/languages/haskell), [Scala](/languages/jvm/scala), [Scheme](/languages/lisp/scheme), [SML](/languages/ml), [OCaml](/languages/ocaml)
 - ["Six programming paradigms that will change how you think about coding"](https://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/): Concurrent by default ([ANI](/languages/ani), [Plaid](/languages/plaid)), Dependent types ([Idris](/languages/idris), [Agda](/languages/agda), [Coq](/languages/coq)), Concatenative languages ([Forth](/languages/forth), [cat](/languages/cat), [Joy](/languages/joy)), Declarative languages ([Prolog](/languages/prolog), [SQL](/languages/sql)), Symbolic programming ([Aurora](/languages/aurora)), Knowledge-based programming ([Wolfram](/languages/wolfram))
 - ['A Language a Day' Advent Calendar 2019](https://andrewshitov.com/2019/11/25/a-language-a-day-advent-calendar-2019/)
+
 Reading:
+
 - [Syntax across languages](http://rigaux.org/language-study/syntax-across-languages.html): One large page of comprehensive syntax across languages
 - [Hyperpolyglot](https://hyperpolyglot.org/): commonly used features in a side-by-side format
 - [Concurrency is not Parallelism](https://vimeo.com/49718712)
@@ -98,10 +110,19 @@ Reading:
 Languages often break down to automatically-managed memory vs. manually-managed, but most of the time that means heap management; static and stack allocation are (almost?) always automatically managed by virtue of their allocation schemes.
 
 ### Language execution types
-* **Compiled**: Source is ahead-of-time transformed into a binary output ready for "direct" execution--it can be loaded and run without additional help. (Note that normally this means that it's an executable file on an operating system, but certain factors could change this up. For example, a Mach-O binary can be directly executed on macOS, but on Windows it would require an adapter or VM; likewise, a JVM class file requires a VM normally, but on a JVM-based OS it would be a native executable.) Most compilers do some form of validity-checking, usually making use of type-checking, to ensure the program will run correctly.
-* **Transpiled**: Source is ahead-of-time transformed into another source format. Term became popular with languages that transpiled into ECMAScript, but technically this has been around since long before then. (When I was taking ECS 140A at UCDavis in 1991, we had an assignment to write a language that transpiled into C, for example.) [C](../c) has long been the preferred target of transpilers before ECMAScript, given its original goal of being a "higher-level assembly language".
+* **Compiled**: Source is ahead-of-time transformed into a binary output ready for "direct" execution--it can be loaded and run without additional help. Most compilers do some form of validity-checking, usually making use of type-checking, to ensure the program will run correctly. Several "flavors" of compiled targets fall into different categories: 
+
+	* **Native**: Source is compiled into binary format ready for direct execution by an operating system.
+
+	* **Transpiled**: Source is ahead-of-time transformed into another source format. Term became popular with languages that transpiled into ECMAScript, but technically this has been around since long before then. (When I was taking ECS 140A at UCDavis in 1991, we had an assignment to write a language that transpiled into C, for example.) [C](../c) has long been the preferred target of transpilers before ECMAScript, given its original goal of being a "higher-level assembly language". [C--](../cminusminus) is a variant of C made specifically for transpilation/compilation purposes.
+
+	* **Bytecode**: This is usually a binary output format that is some level of abstraction higher than native CPU assembly language, but not much more. The intent is to provide an easier format for either direct execution or transformation into native assembly (Just-In-Time compilation) within a virtual machine. Some bytecode formats are well-documented and "external" (like the JVM and CLR formats). In many cases, however, an interpreter is actually doing an on-the-fly compilation of source to an internal bytecode format at runtime, since most bytecode formats are easier to JIT, and/or the bytecode provides a layer of abstraction from the language syntax to the underlying runtime.
+
 * **Interpreted**: Generally this means that source is not pre-examined until the moment it is asked to run. At that point, validity-checking is done, whether "just" syntactical verification or an additional deeper type-based analysis.
-* **Bytecode**: This is usually a binary output format that is some level of abstraction higher than native CPU assembly language, but not much more. The intent is to provide an easier format for either direct execution or transformation into native assembly (Just-In-Time compilation) within a virtual machine. Some bytecode formats are well-documented and "external" (like the JVM and CLR formats). In many cases, however, an interpreter is actually doing an on-the-fly compilation of source to an internal bytecode format at runtime, since most bytecode formats are easier to JIT, and/or the bytecode provides a layer of abstraction from the language syntax to the underlying runtime.
+
+Note that the lines are significantly blurring; several "interpreted" languages internally compile the source into an AST or bytecode format for faster execution, and several "compiled" languages are available to run at the command-line a la shell scripts or REPLs by internally taking source through their compilation pipeline and executing the result.
+
+In the long run, the key differentiator around "compiled vs interpreted" may be solely whether the tool/language does ahead-of-time error-checking.
 
 ### [Types](/reading/languages/types)
 
@@ -109,21 +130,11 @@ Languages often break down to automatically-managed memory vs. manually-managed,
 Types can often be inspected at runtime regardless of the type-safe or type-checked nature of the language/platform; in many languages/platforms, the process of inspection is known as "reflection".
 If the types can be manipulated/changed at runtime, then the language is often said to be a "MetaObject Protocol" language, meaning that it can operate at a "meta-object" level. These tend to be dynamically-type-checked/weakly-type-safe interpreted languages, since it is hard to enforce type-safety when types changing up at runtime.
 
+See also: [Building compilers/interpreters](/reading/languages/compilers). Lots of these languages run on top of [virtual machines](/vms), and so will obey semantics defined there.
+
+
 ## Comparisons
 ["Bits of History, Words of Advice"](http://gbracha.blogspot.com/2020/05/bits-of-history-words-of-advice.html): The creator of [Newspeak](/languages/smalltalk/newspeak) and one of the core developers working on [Java](/languages/jvm/java) and the [JVM](/platforms/jvm) offers some advice about Smalltalk's lack of success in the mainstream.
-
-## Implementation
-- [Writing your own toy language](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/) using flex, bison, LLVM; [code](https://github.com/lsegal/my_toy_compiler)
-- [How to Create a Programming Language Using ANTLR4](https://progur.com/2016/09/how-to-create-language-using-antlr4.html)
-- [DSL Engineering: Designing, Implementing and Using Domain-Specific Languages](http://dslbook.org) - Markus Voelter
-- ["Three Things I Wish I Knew When I Started Designing Languages"](https://www.youtube.com/watch?v=oa0qq75i9oc)
-- [Type Theory and Functional Programming](https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/)
-
-[More compilers reading](/reading/languages/compilers)
-
-Lots of these languages run on top of [virtual machines](/vms), and so will obey semantics defined there.
-
-[Crash Course on Notation in Programming Language Theory](http://siek.blogspot.com/2012/07/crash-course-on-notation-in-programming.html), Jeremy G. Siek; LambdaConf 2018 [Part 1](https://www.youtube.com/watch?v=vU3caZPtT2I), [Part 2](https://www.youtube.com/watch?v=MhuK_aepu1Y) [Slides](https://www.dropbox.com/s/joaq7m9v75blrw5/pl-notation-lambdaconf-2018.pdf?dl=1)
 
 * **Type systems and type safety**
 	* [Luca Cardelli: Type Systems](http://lucacardelli.name/Papers/TypeSystems.pdf)
@@ -135,11 +146,6 @@ Lots of these languages run on top of [virtual machines](/vms), and so will obey
 	* [Testing Intermediate Representations for Binary Analysis](https://softsec.kaist.ac.kr/~soomink/paper/ase17main-mainp491-p.pdf) [Github](https://github.com/SoftSec-KAIST/MeanDiff), [Website](https://softsec-kaist.github.io/MeanDiff/)
 * **Runtime Semantics**:
 	* ["Open, Extensible Object Models"](https://www.piumarta.com/software/cola/objmodel2.pdf): "We show that three object types and five methods are sufficient to bootstrap an extensible object model and messaging semantics that are described entirely in terms of those same objects and messages." ([Source](https://www.piumarta.com/oopsla07/))
-
----
-
-## Implementation tools
-[Lingua.NET](https://archive.codeplex.com/?p=lingua): Discontinued/archived CodePlex parser generator. Archived content copied locally [here](/languages/dotnet/lingua.zip).
 
 ---
 

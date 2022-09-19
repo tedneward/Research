@@ -1,5 +1,5 @@
 title=50 Philosophy Ideas
-tags=reading, books, philosophy
+tags=reading, books, philosophy, thinking
 summary=A collection of philosophy ideas.
 ~~~~~~
 
@@ -28,7 +28,7 @@ Berkeley refuted it by saying that Locke could never actually check whether his 
 ### *cogito ergo sum*
 *(I am thinking therefore I exist)*
 
-### Reason& experience
+### Reason & experience
 *(How do we know?)*
 
 ### The tripartite theory of knowledge

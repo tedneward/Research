@@ -1,5 +1,5 @@
 title=Distribution (networking, distributed systems, etc) reading
-tags=reading, distribution
+tags=reading, distribution, list
 summary=Generalized reading topics about spreading code around the network.
 ~~~~~~
 

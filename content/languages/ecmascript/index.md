@@ -50,12 +50,18 @@ From the Specification home page, a history:
 > This specification, the 10th edition, introduces a few new built-in functions: flat and flatMap on Array.prototype for flattening arrays, Object.fromEntries for directly turning the return value of Object.entries into a new Object, and trimStart and trimEnd on String.prototype as better-named alternatives to the widely implemented but non-standard String.prototype.trimLeft and trimRight built-ins. In addition, this specification includes a few minor updates to syntax and semantics. Updated syntax includes optional catch binding parameters and allowing U+2028 (LINE SEPARATOR) and U+2029 (PARAGRAPH SEPARATOR) in string literals to align with JSON. Other updates include requiring that Array.prototype.sort be a stable sort, requiring that JSON.stringify return well-formed UTF-8 regardless of input, and clarifying Function.prototype.toString by requiring that it either return the corresponding original source text or a standard placeholder.
 
 ### Implementations
-* JVM: Nashorn: [Nashorn Blog](https://blogs.oracle.com/nashorn/) is at Oracle but Nashorn appears to have moved to JetBrains ownership/development [here](https://github.com/JetBrains/jdk8u_nashorn)
-* [JVM: Rhino](https://github.com/mozilla/rhino) (includes [E4X](../e4x) support)
-* [JVM: Graal.js](https://github.com/graalvm/graaljs) part of [GraalVM](/vms/graalvm.html)
 * [C/C++: mjs](https://github.com/cesanta/mjs) Embedded JavaScript for C/C++, designed for microcontrollers with limited resources. Implements a strict subset of ES6.
 * [C/C++: QuickJS](https://bellard.org/quickjs/): a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
 * [C/C++: V8](/vms/v8): The engine below NodeJS from Google.
+* [Zig: Bun](https://bun.sh/) ([Source](https://github.com/oven-sh/bun)): a fast all-in-one JavaScript runtime, written in [Zig](/languages/zig).
+* [Native: WebKit JavaScriptCore](https://github.com/WebKit/WebKit/tree/main/Source/JavaScriptCore): the JavaScript engine that comes as part of the larger open-source [WebKit](https://github.com/WebKit/) browser core.
+* [CLR: jint](../jint)
+* [CLR: Yantra](../yantra)
+* [CLR: Jurassic](../jurassic)
+* [CLR: IronJS](../ironjs)
+* JVM: Nashorn: [Nashorn Blog](https://blogs.oracle.com/nashorn/) is at Oracle but Nashorn appears to have moved to JetBrains ownership/development [here](https://github.com/JetBrains/jdk8u_nashorn)
+* [JVM: Rhino](https://github.com/mozilla/rhino) (includes [E4X](../e4x) support)
+* [JVM: Graal.js](https://github.com/graalvm/graaljs) part of [GraalVM](/vms/graalvm.html)
 
 Module systems
 * [Asynchronous Module Definition API (AMD)](https://github.com/amdjs/amdjs-api/blob/master/AMD.md)
@@ -66,8 +72,10 @@ Module systems
 
 * [Coco](../coco): Last commit 2014
 * [CoffeeScript](../coffeescript)
+* [Lightscript](../lightscript)
 * [Livescript](../livescript): Last commit 2018
 * [PureScript](../purescript)
+* [Rescript](../rescript)
 * [TypeScript](../typescript)
 * [SweetJS](../sweetjs): Syntactic sugar (semantic macros) on top of JS
 
@@ -80,20 +88,22 @@ To any JS engine (not direct FFI)
 
 
 ### SQL
+
 * [sql.js](http://sql.js.org/) ([Source](https://github.com/sql-js/sql.js)): SQLite compiled to Javascript
 
 ### Tierless
+
 * [Fun](../fun): A programming language for realtime webapps - compiles to client-side and server-side JS.
-* [Ur](../ur): In the tradition of ML and Haskell.
-* [mobl](../mobl): The new language for programming the mobile web.
+* [Ur](../../ur): In the tradition of ML and Haskell.
+* [mobl](../../mobl): The new language for programming the mobile web.
 * [E](../../e): Compiles E to JS. E is a secure distributed persistent pure object language.
-* [Sugar](../../sugar): New programming language designed to replace JavaScript for client-side (and server-side) web development
+* [Sugar](../sugar): New programming language designed to replace JavaScript for client-side (and server-side) web development
 * [Opa](../../opa): Write your complete application in just one language, and the compiler will transform it into a self-sufficient executable
-* [STIP.js](../stip): Slicing Tierless Programs in JavaScript
+* [STIP.js](../../stip): Slicing Tierless Programs in JavaScript
 
 ### Other JS-related implementations
 
-* [OMetaJS](https://www.npmjs.com/package/ometajs) ([Source](https://github.com/veged/ometa-js)): a JavaScript implementation of [OMeta](/languages/ometa), an object-oriented language for pattern matching.
+* [OMetaJS](https://www.npmjs.com/package/ometajs) ([Source](https://github.com/veged/ometa-js)): a JavaScript implementation of [OMeta](/languages/ometa), an object-oriented language for pattern matching; see also [OMeta](../../ometa)
 
 ### Other JS-related language-related libraries
 
@@ -103,3 +113,4 @@ To any JS engine (not direct FFI)
 
 * [JavaScript Promises... in Wicked Detail](https://mattgreer.dev/articles/promises-in-wicked-detail/)
 * [SICP in ECMAScript](../sicpjs.pdf)
+* [Code as Data](../code-as-data)

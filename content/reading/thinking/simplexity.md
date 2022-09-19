@@ -1,5 +1,5 @@
 title=Simplexity
-tags=reading, books, psychology
+tags=reading, books, psychology, thinking
 summary="Why Simple Things Become Complex (and how Complex Things Can Be Made Simple)." Simplexity is a whole new science redefining how we look at the world; seen through this lens, the world becomes a more delicate place filled with predictable patterns, which we often fail to see as we're time and again fooled by our instincts, our fear, the size of things, or even their beauty.
 ~~~~~~
 *(by Jeffrey Kluger, Hyperion, ISBN 978-1-4013-0301-3)*

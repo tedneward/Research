@@ -1,5 +1,5 @@
 title=Crucial Conversations
-tags=reading, psychology, management, people
+tags=reading, psychology, management, people, thinking
 summary=How to have important emotional conversations with people (when opinions vary, stakes are high, and emotions run strong).
 ~~~~~~
 

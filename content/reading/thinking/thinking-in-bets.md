@@ -1,5 +1,5 @@
 title=Thinking in Bets
-tags=reading, books, management, psychology
+tags=reading, books, management, psychology, thinking
 summary=How to make decisions with less than perfect information.
 ~~~~~~
 *(by Annie Duke, Portfolio/Penguin, 2018, ISBN 9780735216365)*

@@ -1,5 +1,5 @@
 title=Reading list: Computer Science
-tags=reading, computer science
+tags=reading, computer science, list
 summary=Collection of articles, books I recommend around general Comp Sci topics.
 ~~~~~~
 

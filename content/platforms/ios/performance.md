@@ -1,4 +1,4 @@
-title=iOS (OS) Performance
+title=iOS Performance
 tags=platform, ios
 summary=Performance and tuning the Apple mobile device operating system (on top of the open-source Darwin kernel).
 ~~~~~~

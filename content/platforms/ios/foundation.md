@@ -5,6 +5,44 @@ summary=Using the Foundation frameworks on iOS.
 
 [Apple Docs: Foundation](https://developer.apple.com/documentation/foundation) | [Apple Docs: Core Foundation](https://developer.apple.com/documentation/corefoundation)
 
+The Foundation framework provides a base layer of functionality for apps and frameworks, including data storage and persistence, text processing, date and time calculations, sorting and filtering, and networking.
+
+[Archives and serialization](https://developer.apple.com/documentation/foundation/archives_and_serialization): 
+
+* [JSON](https://developer.apple.com/documentation/foundation/archives_and_serialization/using_json_with_custom_types)
+* [XML](https://developer.apple.com/documentation/foundation/archives_and_serialization/xml_processing_and_modeling)
+* [NSKeyedArchiver](https://developer.apple.com/documentation/foundation/nskeyedarchiver)/[NSKeyedUnarchiver](https://developer.apple.com/documentation/foundation/nskeyedunarchiver)
+
+[Files and Filesystem](https://developer.apple.com/documentation/foundation/file_system)
+
+[Preferences](https://developer.apple.com/documentation/foundation/preferences)
+
+[Task Management](https://developer.apple.com/documentation/foundation/task_management):
+
+* Before entering into a discussion about concurrency, it is necessary to define some relevant terminology to prevent confusion. Developers who are more familiar with UNIX systems or older OS X technologies may find the terms “task”, “process”, and “thread” used somewhat differently in this document. This document uses these terms in the following way:
+
+    * The term *thread* is used to refer to a separate path of execution for code. The underlying implementation for threads in OS X is based on the POSIX threads API.
+    * The term *process* is used to refer to a running executable, which can encompass multiple threads.
+    * The term *task* is used to refer to the abstract concept of work that needs to be performed.
+
+* [NSUserActivity](https://developer.apple.com/documentation/foundation/nsuseractivity): A representation of the state of your app at a moment in time. An NSUserActivity object provides a lightweight way to capture the state of your app and put it to use later. Create this object to capture information about what the user was doing, such as viewing app content, editing a document, viewing a web page, or watching a video. When the system launches your app and an activity object is available, your app can use the information in that object to restore itself to an appropriate state. Spotlight also uses these objects to improve search results for the user.
+
+* Operations ([Operation](https://developer.apple.com/documentation/foundation/operation), [OperationQueue](https://developer.apple.com/documentation/foundation/operationqueue), [BlockOperation](https://developer.apple.com/documentation/foundation/blockoperation)): Managing tasks (code + data) for (possible) asynchronous execution. (See [Concurrency Programming Guide (Archived)](https://developer.apple.com/library/archive/documentation/General/Conceptual/ConcurrencyProgrammingGuide/Introduction/Introduction.html) for additional details)
+
+[Processes and Threads](https://developer.apple.com/documentation/foundation/processes_and_threads):
+
+* [NSRunLoop](https://developer.apple.com/documentation/foundation/nsrunloop): The programmatic interface to objects that manage input sources. A NSRunLoop object processes input for sources, such as mouse and keyboard events from the window system and NSPort objects. A NSRunLoop object also processes NSTimer events. Your application neither creates nor explicitly manages NSRunLoop objects. The system creates a NSRunLoop object as needed for each NSThread object, including the application’s main thread. If you need to access the current thread’s run loop, use the class method currentRunLoop. (`currentRunLoop` returns the run loop for the current thread; `mainRunLoop` returns the run loop of the main thread; `performBlock` schedules a block that the run loop invokes; `performSelector:target:argument:order:modes:` schedules a block that the run loop invokes when it's running in any of the specified modes.)
+* [RunLoop](https://developer.apple.com/documentation/foundation/runloop): Appears similar/identical to NSRunLoop above, except for naming conventions on the class.
+* [Threading Programming Guide (Archived)](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Multithreading/Introduction/Introduction.html)
+
+[Object Runtime](https://developer.apple.com/documentation/foundation/object_runtime): Low-level support for basic Objective-C features, Cocoa design patterns, and Swift integration.
+
+[Streams, Sockets, and Ports](https://developer.apple.com/documentation/foundation/streams_sockets_and_ports): Low-level Unix features to manage input and output among files, processes, and the network.
+
+---
+
+[Mantle](https://github.com/Mantle/Mantle): Model framework for Cocoa and Cocoa Touch. Mantle makes it easy to write a simple model layer for your Cocoa or Cocoa Touch application.
+
 ---
 
 ["Extending iOS apps with plugins"](https://betterprogramming.pub/extending-ios-apps-with-plug-ins-e4119d064f2d): Discusses three options: use Javascript (using baked-in JavaScriptConsole engine), use Lua ('https://github.com/weyhan/lua4swift'), or dynamically load libraries via C interop via the Darwin framework:

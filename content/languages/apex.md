@@ -1,5 +1,5 @@
 title=Apex
-tags=language, platform, salesforce, object-oriented
+tags=language, platform, salesforce, object
 summary=A strongly typed, object-oriented programming language that allows developers to execute flow and transaction control statements on Salesforce servers in conjunction with calls to the API. Using syntax that looks like Java and acts like database stored procedures, Apex enables developers to add business logic to most system events, including button clicks, related record updates, and Visualforce pages. Apex code can be initiated by Web service requests and from triggers on objects.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=Modern Compiler Implementation
-tags=language, reading, book
+tags=language, reading, books
 summary=This book covers compiler theory, design, and implementation.
 ~~~~~~
 

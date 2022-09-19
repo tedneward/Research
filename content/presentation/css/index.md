@@ -26,28 +26,3 @@ From [the CSS Snapshot doc](https://www.w3.org/TR/CSS/):
 
 [Flexbox Froggy](https://flexboxfroggy.com/): A cute Frogger-themed series of exercises practicing with CSS Flexbox styling.
 
-[CSS Tips](https://markodenic.com/css-tips/):
-
-* Typing Effect
-* Drop shadow
-* Smooth scrolling
-* Center
-* Cursors (as in, mouse cursor)
-* Truncate text
-* Truncate the text to a specific number of lines
-* `::selection` CSS pseudo-element
-* Anything resizable
-* CSS modals
-* `calc()`
-* Style empty elements
-* Create custom scrollbar
-* position sticky
-* CSS Scroll Snap
-* Dynamic Tooltips
-* caret-color
-* `::in-range` and `::out-of-range` pseudo-classes
-* Fancy text
-* Flex gap
-* grayscale() function
-* Rounded, gradiant borders
-

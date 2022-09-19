@@ -1,5 +1,5 @@
 title=Nitric
-tags=distribution, clouds, serverless
+tags=distribution, cloud, serverless
 summary=A framework for cloud and serverless apps.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=Influence
-tags=reading, people, psych
+tags=reading, people, psychology
 summary=The Psychology of Persuasion.
 ~~~~~~
 

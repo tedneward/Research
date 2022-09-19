@@ -1,4 +1,4 @@
-title=iOS (OS) Concurrency
+title=iOS Concurrency
 tags=platform, ios
 summary=Threads and queues on the Apple mobile device operating system (on top of the open-source Darwin kernel).
 ~~~~~~

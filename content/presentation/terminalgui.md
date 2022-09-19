@@ -1,5 +1,5 @@
 title=Terminal.GUI
-tags=presentation, library, clr, macos
+tags=presentation, library, clr, macos, cli
 summary=Console-based user interface toolkit.
 ~~~~~~
 

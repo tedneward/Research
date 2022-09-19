@@ -5,6 +5,7 @@ summary=The original open-source operating system.
 
 Distributions:
 
+* [Ubuntu](https://ubuntu.com/)
 * [Pop! OS](https://pop.system76.com/)
 * [Zorin](https://zorin.com/os/)
 * [Mint](https://linuxmint.com/)
@@ -16,4 +17,6 @@ Distributions:
 [Bottles](https://usebottles.com/) ([Source](https://github.com/bottlesdevs/Bottles)): Run Windows software and games on Linux
 
 [Cassoway](https://github.com/casualsnek/cassowary): Run Windows Applications on Linux as if they are native, Use linux applications to launch files files located in windows vm without needing to install applications on vm. With easy to use configuration GUI
+
+[Linux Insides](https://0xax.gitbooks.io/linux-insides/content/): A book-in-progress about the linux kernel and its insides.
 

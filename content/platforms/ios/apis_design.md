@@ -1,4 +1,4 @@
-title=iOS (OS) APIs and Design
+title=iOS APIs and Design
 tags=platform, ios
 summary=Design and APIs around the Apple mobile device operating system (on top of the open-source Darwin kernel).
 ~~~~~~

@@ -1,5 +1,5 @@
 title=Finite and Infinite Games
-tags=reading, books, philosophy
+tags=reading, books, philosophy, thinking
 summary=A Vision of Life and Possibility
 ~~~~~~
 (by James Carse, 1986)

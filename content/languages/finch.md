@@ -1,5 +1,5 @@
 title=Finch
-tags=language, object-oriented, dynamic
+tags=language, object, dynamic
 summary=A simple bytecode interpreted, purely object-oriented, prototype-based, dynamically-typed programming language. It's mostly inspired by Smalltalk, Self, and Javascript.
 ~~~~~~
 
