@@ -1,6 +1,6 @@
 title=Farmer
 tags=cloud, azure, devops
-summary=
+summary=F-sharp bindings to Azure management APIs?
 ~~~~~~
 
 [Website](https://compositionalit.github.io/farmer/) | [Source](https://github.com/compositionalit/farmer)
