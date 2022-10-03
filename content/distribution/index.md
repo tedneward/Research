@@ -7,6 +7,10 @@ tags=distribution
 
 Distributed systems are the means by which programs on one machine communicate with another. Differ from architectures in that while an architecture may have a distributed system at its center, it's not a requirement, and while distributed systems may incorporate an architecture as part of their implementation, that architecture usually isn't imposed on the user of the distributed system. Includes networking topics, for example.
 
+## Technology stacks/stack-related links:
+
+* [Stack on a budget (Free-Tier Driven Development)](https://github.com/255kb/stack-on-a-budget): A collection of services with great free tiers for developers on a budget.
+
 ## Interesting links:
 
 * [Fuck Off As A Service](http://foaas.com/)
