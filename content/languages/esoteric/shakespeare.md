@@ -5,6 +5,15 @@ summary=Prithee, thou art desiring to program using Shakespearean English, art t
 
 [Website](http://shakespearelang.sourceforge.net/) | [Docs](http://shakespearelang.sf.net/report/shakespeare/) (or [PDF](http://shakespearelang.sf.net/report/shakespeare.pdf))
 
+Implementations:
+
+* [Reference implementation](http://shakespearelang.sf.net/download/spl-1.2.1.tar.gz)
+* [GCC frontend](http://people.csa.iisc.ernet.in/sreejith/frontends/spl/)
+* [Python: shakespearelang](https://shakespearelang.com/1.0/) ([Source](https://github.com/zmbc/shakespearelang))
+* [Perl: LinguaShakespeare](http://search.cpan.org/dist/Lingua-Shakespeare/lib/Lingua/Shakespeare.pod)
+* [Python: Spl](https://github.com/drsam94/Spl), a SPL-to-C transpiler
+* [JS: horatio](https://github.com/mileszim/horatio)
+
 From the website:
 > A programming language created with the design goal to make the source code resemble Shakespeare plays. The characters in the play are variables. If you want to assign a character, let's say Hamlet, a negative value, you put him and another character on the stage and let that character insult Hamlet.
 

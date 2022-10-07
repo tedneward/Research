@@ -6,6 +6,8 @@ summary=Collection of articles on implementing languages.
 ## Implementation tools
 [Lingua.NET](https://archive.codeplex.com/?p=lingua): Discontinued/archived CodePlex parser generator. Archived content copied locally [here](/languages/dotnet/lingua.zip).
 
+[GCC Front-end HOWTO](https://tldp.org/HOWTO/GCC-Frontend-HOWTO.html): How to build a GCC front-end (so GCC can take care of the rest)
+
 ## Background, Books, Lists
 [68 resources on creating programming languages](https://tomassetti.me/resources-create-programming-languages/)
 

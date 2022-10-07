@@ -7,4 +7,6 @@ This is the language described by the book ["Writing an Interpreter in Go"](http
 
 Implementations in the wild:
 
+* [Rust Source](https://github.com/Rydgel/monkey-rust)
+* [Rust Source](https://github.com/wadackel/rs-monkey-lang)
 * [Source](https://github.com/haifenghuang/monkey) (archived)
