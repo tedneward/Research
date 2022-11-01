@@ -3,7 +3,7 @@ tags=language
 summary=A Smalltalk and Rebol inspired language implemented as an AST interpreter in Nim.
 ~~~~~~
 
-[Website](http://sprylang.se/) | [Source](https://github.com/gokr/spry)
+[Website](http://sprylang.se/) | [Language Source](https://github.com/gokr/spry) | [VM Source](https://github.com/gokr/spryvm)
 
 Characteristics:
 
