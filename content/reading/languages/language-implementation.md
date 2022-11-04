@@ -54,10 +54,16 @@ summary=Collection of material on how to build programming languages.
 
 [Nanopass](http://www.cs.indiana.edu/~dyb/pubs/nano-jfp.pdf): A framework for compiler education
 
+[Language Incubator](https://github.com/EarlGray/language-incubator): Repo of language experiments/explorations; "An incubator/sandbox for learning compilers, interpreters, code generation, virtual machines, assemblers, JITs, etc."
+
 ---
 
 ## Native/raw
 [Build your own Lisp](http://www.buildyourownlisp.com/contents) teaches C by building a Lisp.
+
+[luax](https://github.com/morrow1nd/luax): Lua-like programming language for studying compiler and interpreter courses.
+
+[Square](https://github.com/square-lang/Square): A tiny programming language under 200kb.
 
 ---
 
@@ -104,6 +110,33 @@ of a dynamically typed language named smalljs which is almost a subset of JavaSc
 [Pointless](https://ptls.dev/) ([Source](https://github.com/pointless-lang/pointless)): a scripting language for learning and fun.
 
 [IMP](https://github.com/jayconrod/imp-interpreter): A minimal interpreter for the toy language, IMP, used as an example for building interpreters.
+
+[Dwarf](https://github.com/nicolasdilley/dwarf-interpreter): A very small scripting language written in Elixir.
+
+
+### Monkey
+This is the language described by the book ["Writing an Interpreter in Go"](https://interpreterbook.com/). Also has a paired book, ["Writing a Compiler in Go"](https://compilerbook.com/) which appears to include the creation of a virtual machine for executing the compiled code.
+
+* [C++](https://github.com/zhuzilin/monkey)
+* [C++](https://github.com/yhirose/monkey-cpp)
+* [Haskell](https://github.com/hatashiro/monkey-hs)
+* [Rust](https://github.com/Rydgel/monkey-rust)
+* [Rust](https://github.com/wadackel/rs-monkey-lang)
+* [Source](https://github.com/haifenghuang/monkey) (archived)
+* [???](https://github.com/Imymirror/mirror-monkey)
+* [Gadget](https://github.com/vkandola/go-go-gadget): The 'Gadget' interpreter language, implemented in Go, using the Writing An Interpreter In Go book. This language is based off the Monkey interpreter language described in the book, and will be implemented as I progress through the book.
+
+### Lox
+From ["Crafting Interpreters"](http://www.craftinginterpreters.com/):
+
+* C++: [CppLox](https://github.com/the-lambda-way/CppLox)
+* Rust: [rlox](https://github.com/cwbriones/rlox)
+* Swift: [slox](https://github.com/alexito4/slox)
+
+---
+
+## Parsing
+[Pratt parsing](http://web.archive.org/web/20151223215421/http://hall.org.ua/halls/wizzard/pdf/Vaughan.Pratt.TDOP.pdf)
 
 ---
 

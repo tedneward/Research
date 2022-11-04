@@ -9,6 +9,10 @@ The [Papers](http://bibliography.selflanguage.org/) have a lot of strong ideas t
 
 [The Object Model of Self](https://github.com/pavel-krivanek/articles/tree/master/SelfObjectModel)
 
+Implementations:
+
+* Zig: [zigSelf](https://github.com/sin-ack/zigself)
+
 ### [Learn X in Y minutes Quick Intro](https://learnxinyminutes.com/docs/self/)
 
 Self is a fast prototype based OO language which runs in its own JIT vm. Most development is done through interacting with live objects through a visual development environment called *morphic* with integrated browsers and debugger.

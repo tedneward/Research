@@ -7,4 +7,4 @@ summary=A language where the programs produce magnificent meals.
 
 Implementations:
 * Java: [Source](https://github.com/joostrijneveld/Chef-Interpreter)
-* 
+* Python: [Source](https://github.com/MosheWagner/PyChefInterpreter)

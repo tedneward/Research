@@ -12,6 +12,7 @@ summary=A procedural language with added object extensions popularized by Borlan
 * [TinyPascal](http://www.bloodshed.net/delphi/tinypas.zip) : A small implementation of the Pascal language. Full Delphi sources included.
 * [Free Pascal](http://www.freepascal.org/) : 32-bit Pascal compiler for Dos, Linux, OS/2. Pascal source code included. Used in Dev-Pascal.
 * [Virtual Pascal](http://vpascal.ning.com/) : A tool of choice for 32-bit cross-platform development using the Pascal language. It is compatible with Borland Pascal and Delphi, including the Run-Time Library (RTL), an optimizing compiler, a powerful integrated debugger, and comprehensive online documentation.
+* Rust: [rascal](https://github.com/tylerlaberge/rascal): A simple Pascal interpreter in Rust.
 
 ### Reading
 
