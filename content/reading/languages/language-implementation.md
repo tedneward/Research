@@ -117,11 +117,11 @@ This is the language described by the book ["Writing an Interpreter in Go"](http
 
 * [C++](https://github.com/zhuzilin/monkey)
 * [C++](https://github.com/yhirose/monkey-cpp)
+* [C++](https://github.com/Imymirror/mirror-monkey)
 * [Haskell](https://github.com/hatashiro/monkey-hs)
 * [Rust](https://github.com/Rydgel/monkey-rust)
 * [Rust](https://github.com/wadackel/rs-monkey-lang)
 * [Source](https://github.com/haifenghuang/monkey) (archived)
-* [???](https://github.com/Imymirror/mirror-monkey)
 * [Gadget](https://github.com/vkandola/go-go-gadget): The 'Gadget' interpreter language, implemented in Go, using the Writing An Interpreter In Go book. This language is based off the Monkey interpreter language described in the book, and will be implemented as I progress through the book.
 
 ### Lox
@@ -152,11 +152,5 @@ From ["Crafting Interpreters"](http://www.craftinginterpreters.com/):
 * [What Type Soundness Theorem Do You Really Want to Prove?](https://blog.sigplan.org/2019/10/17/what-type-soundness-theorem-do-you-really-want-to-prove/) ([YouTube](https://www.youtube.com/watch?v=8Xyk_dGcAwk))
 	- Milner Award Lecture: The Type Soundness Theorem That You Really Want to Prove (and now you can), POPL 2018; Derek Dreyer
 
-* Type Theory Behind Glasgow Haskell Compiler Internals
-	- LambdaConf 2018; Vitaly Bragilevsky
-	- https://www.youtube.com/playlist?list=PLvPsfYrGz3wspkm6LVEjndvQqK6SkcXaT
-	- https://github.com/bravit/tt-ghc-exercises/
-	- https://github.com/lambdaconf/lambdaconf-2018/tree/master/LC18-slides
-
-
+* [Type Theory Behind Glasgow Haskell Compiler Internals](https://github.com/lambdaconf/lambdaconf-2018/tree/master/LC18-slides) ([video](https://www.youtube.com/playlist?list=PLvPsfYrGz3wspkm6LVEjndvQqK6SkcXaT)): LambdaConf 2018; Vitaly Bragilevsky - https://github.com/bravit/tt-ghc-exercises/
 

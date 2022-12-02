@@ -159,6 +159,8 @@ From the book *Drive* by Daniel Pink. These are the things that intrinsically mo
 * Autonomy
 * Purpose
 
+Feels like a shortened/bastardized version of ARC/MVP.
+
 ---
 
 ## [Radical Candor](http://firstround.com/review/radical-candor-the-surprising-secret-to-being-a-good-boss/)

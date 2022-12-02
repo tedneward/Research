@@ -8,9 +8,9 @@ summary=How the best leaders make everyone smarter.
 #### Chapter 1: The Multiplier Effect
 
 * The person sitting at the apex of the intelligence hierarchy is the genius maker, not the genius.
-* ultipliers not only access people's current capability, but stretch it, getting more from people than they knew they had to give.
-* iminishers argue their people are overworked, the best people are maxed out, and so accomplishing a bigger task requires more resources.
-* ultipliers argue that most people are underutilized, better leadership can leverage this capability, and so no bigger investment is needed.
+* Multipliers not only access people's current capability, but stretch it, getting more from people than they knew they had to give.
+* Diminishers argue their people are overworked, the best people are maxed out, and so accomplishing a bigger task requires more resources.
+* Multipliers argue that most people are underutilized, better leadership can leverage this capability, and so no bigger investment is needed.
 * A diminisher thinks "They will never figure it out without me," while a multiplier thinks "People are smart and will figure this out."
 * Multipliers attract and optimize talent, create intensity that requires best thinking, extend challenges, debate decisions, and instill ownership and accountability.
 * Multipliers have a hard edge, and are not "feel-good" managers. They see a lot, and so they expect a lot.

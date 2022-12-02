@@ -1,6 +1,6 @@
 title=Art of the Start
 tags=reading, business, management
-summary=
+summary=Startup bible for many folks.
 ~~~~~~
 
 *(by Guy Kawasaki, ISBN ...)*
