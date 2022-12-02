@@ -79,9 +79,7 @@ summary=Collection of material on how to build programming languages.
 ## CLR
 [How to Design Worlds (PDF)](https://world.cs.brown.edu/1/htdw-v1.pdf)
 
-[learn-programming-languages](https://github.com/jeanqasaur/learn-programming-languages)
-	- Resources for the working programmer to learn more about the fundamentals and theory of programming languages.
-	- Jean Yang
+[learn-programming-languages](https://github.com/jeanqasaur/learn-programming-languages): Resources for the working programmer to learn more about the fundamentals and theory of programming languages. (Jean Yang)
 
 [Concatenative Thinking (wiki)](https://concatenative.org/wiki/view/Front%20Page): We are interested in both theoretical results and practical programming advice, especially as it pertains to any Concatenative language. We want to bring together disparate language communities and build a common knowledge repository that people can consult to learn more about this family of languages.
 
