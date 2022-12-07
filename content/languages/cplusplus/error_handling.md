@@ -3,14 +3,6 @@ tags=native, reading
 summary=A collection of links and reading on the specific ways C/C++ do error-handling.
 ~~~~~~
 
-# Contents
-
-* [Readings](#readings): [Blogs](#blogs-posts-and-series), [Documentation](#documentation), [Papers](#papers), [References](#references), [StackOverflow](#stackoverflow-questions)
-* [Software](#software): [Benchmarks](#benchmarks), [Libraries](#libraries), [Tools](#tools)
-* [Talks](#talks): [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
-
----
-
 # Readings
 
 ## Blogs: Posts and Series
