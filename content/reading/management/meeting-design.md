@@ -67,10 +67,61 @@ A meeting is something that enables us to achieve an outcome that we can't other
 ***Design conversations to work effectrively within limits posed by the human brain.***
 
 ### Better Meetings Make Better Memories
-There is one design constraint that all huans bring: their capacity to remember the discussion.
+There is one design constraint that all huans bring: their capacity to remember the discussion. Brain's job in meetings is to accept inputs (things we see/hear/touch) and store it as memory, then to apply those absorbed ideas in discussion (things we say and make). Best way to design for this constraint is by creating ways to support more effective creation of memories.
+
+Science has identified four theoretical stages of memory:
+
+* sensory
+* working: aka "short-term" memory. Limited capacity; collects ~30 (depending on the indivudal) seconds of the things you've recently heard/seen. Accommodate variations in working memory by establishing a reasonable pace of information: deliberate, consistent, and slower than your normal pace of thought. (Concepts are often presented more quickly than people can remember them because the presenter is already familiar with the details.) Breaking information into evenly-sized, consumable chunks allows a group of people to engage in constructive and critical thinking more effectively.
+* intermediate: Your memory should transform ideas absorbed in meetings into taking an action of some kind afterward; triggering intermediate-term memories is the secret to making that happen. Intermediate-term memories last between 2 and 3 hours, and are characterized by processes taking place in the brain (biochemical translation and transcription--translation is a process by which the brain makes new meaning, transcription is where that meaning is replicated). A well-designed meeting experience moves the right information from working to intermediate memory; ideas generated and decisions made should materialize into actions that take place outside the meeting. Any session without breaks that lasts longer than 90 minutes makes the job of your mempries moving thought into action fuzzier, and therefore more difficult.
+* long-term
+
+### Brain Input Modes
+During a meeting, each attendee's brain is either in a state of input or output. By choosing to assemble in a group, the assumption is implicit that information needs to be moved out of one place/brain into another (or several others). An energetic, collaborative meeting has a synchronous input/output dynamic, with movement between the input and output states happening more frequently in smaller, faster bursts. Each brain in a fast-paced meeting is working to absorb the information from surrounding brains while also outputting information for the cumulative benefit of the group. That should increase clarity about a problem/solution and culminate in a shared understanding that wouldn't exist without everyone.
+
+### More Effective Listening
+Groups regularly fall back on conversation as the MO for meetings; similarly to classrooms. But the effectiveness of listening at creating good memories in lectures has been studied--students in a lecture audience have a heart rate that is in constant decline, decreasing energy and focus. After about 20-30 minutes, people begin to have difficulty absorbing information via listening. Thus, try to break the meeting content into 20- to 30-minute durations. Within each 20- to 30-minute session, include time to reflect on what participants have heard. That reflection can take the form of conversation with the presenter, conversation with each other, or applying the knowledge in an exercise.
+
+### Time constraints
+With too much time to focus on a single issue in a discussion, you might start to believe your have nothing to say because you aren't qualified to contribute, despite evidence to the contrary. (Imposter syndrome.) This can be discouraged in discussions by simply preventing people from having too much time to spend in a single thought space. Aggressive time constraints encourage people to act more quickly and use the limited brain energy they have in powerful bursts.
+
+### Food
+(Carbs, bad. More details in the chapter.)
+
+### Visual Listening
+Visualization is an effective method of getting memories into your brain. Creating and reinforcing memories with visuals can manage and even reduce the constraint of memory unreliability and exhaustion.
+
+Meeting scribes/secretaries take notes at a nearly-impossible level of detail, distribute them, and they are promptly never visisted again. *Stop taking notes in meetings this way, now and forever.* Give the scribe a different job: get those notes in front of everyone's eyes at the same time, in real-time, while the discussion is taking place. While people are engaged in talking, the scribe creates a visual record of only the main ideas, the conflicts, and the decisions on the wall. It needs to be large enough that anyone in the room can read it from wherever they are sitting--that way, when the scribe captures something incorrectly, someone in the meeting can speak up and provide a correction. (Visual facilitation is a little beyond just note taking, and probably should be done by people trained in it.)
+
+### Getting in touch with your ideas
+Physically manipulating objects during a discussion is a *great* idea. Moving yourself and moving tools that you can hold in your hands provides a platform for interaction between people and ideas. Example: the sticky note.
 
 ## Chapter 3: Build Agendas Out of Ideas, People, and Time
 ***How much content can be covered? How many people can you invite? How much time will this agenda take?***
+
+You can design an agenda to scale well and be flexible, even if it doesn't go as expected. Make a flexible agenda based on the number of ideas, people, and minutes you have in mind.
+
+Start with the content. Establish a target cadence for the topics being introduced. Take the number of just-complex-enough topics or concepts you hope to cover and divide that number by five. The resulting number is the amount of 20-minute "content sections" of time you should allot.
+
+Each section provides 10 minutes to present each set of five ideas, followed by some breathing room for an application of the ideas for another 10 minutes. In an hour, you can explore about 15 ideas, but you're probably better off doing a little less than that to allow time for tangents and some creative exploration.
+
+For seven people or fewer:
+
+* One "content section" = 10 minutes of presentation + 10 minutes of reflection/discussion
+* 15 different ideas divided by 5 = 3 content sections
+* 20 minutes per section times 3 content sections = 60 minutes
+
+Adjust the agenda for the desired number of people or the constraint of time. Do you need to add more content or more people into the discussion? Are the topics you meant to cover giving birth to unexpected, but legit, additional topics?
+
+Improve your use of time by breaking into groups to scale into smaller, parallel discussions. Include time at the end for each smaller group to "share out" to the larger group to consolidate the original goals.
+
+For larger groups (let's say 15):
+
+* Break into enough groups to achieve an equal distribution of people in groups that are no smaller than give, but no larger than seven. (15 people => 3 groups)
+
+* Cover the intended ideas at the cadence established by the previous formula. (60 minutes for 15 concepts)
+
+* Add 5 - 10 minutes for each group at the end of the small group to present their ideas (another 30 minutes for each group)
 
 ## Chapter 4: Manage Conflict with Facilitation
 ***Build from a classic definition of facilitation that works in any organization, and find productive conflict that moves things forward.***
