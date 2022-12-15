@@ -231,11 +231,7 @@ Note: Some of the following are primarily for entertainment purposes; while prov
 
 ## [Standards](../std)
 
-Overview of C++ features, by version:
-[C++20](../cpp20)
-[C++17](../cpp17)
-[C++14](../cpp14)
-[C++11](../cpp11)
+Overview of C++ features, by version: [C++20](../cpp20) / [C++17](../cpp17) / [C++14](../cpp14) / [C++11](../cpp11)
 
 - C++ standard draft
 	- https://github.com/cplusplus/draft

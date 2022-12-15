@@ -1,5 +1,5 @@
 title=Adama
-tags=language, 
+tags=language, storage
 summary=RDF database
 ~~~~~~
 
