@@ -1,5 +1,5 @@
 title=Programming Languages: Application and Interpretation
-tags=language, reading
+tags=language, reading, langdev
 summary=Notes on the book.
 ~~~~~~
 

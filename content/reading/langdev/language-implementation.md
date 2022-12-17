@@ -1,5 +1,5 @@
 title=Progrmming Language Implementation
-tags=reading, languages
+tags=reading, languages, langdev
 summary=Collection of material on how to build programming languages.
 ~~~~~~
 
@@ -130,11 +130,6 @@ From ["Crafting Interpreters"](http://www.craftinginterpreters.com/):
 * C++: [CppLox](https://github.com/the-lambda-way/CppLox)
 * Rust: [rlox](https://github.com/cwbriones/rlox)
 * Swift: [slox](https://github.com/alexito4/slox)
-
----
-
-## Parsing
-[Pratt parsing](http://web.archive.org/web/20151223215421/http://hall.org.ua/halls/wizzard/pdf/Vaughan.Pratt.TDOP.pdf)
 
 ---
 
