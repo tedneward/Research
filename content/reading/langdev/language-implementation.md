@@ -21,6 +21,8 @@ summary=Collection of material on how to build programming languages.
 
 [Intrinsically-Typed Definitional Interpreters for Linear, Session-Typed Languages](https://eelcovisser.org/publications/2020/RouvoetPKV20.pdf)
 
+[Principles of Programming Languages (course)](https://bguppl.github.io/interpreters/practice_sessions/ps4.html) ([Source](https://github.com/bguppl/interpreters))
+
 ## Walkthroughs
 
 ***Creating the Bolt Compiler (series):***

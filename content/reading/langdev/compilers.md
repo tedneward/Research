@@ -61,7 +61,19 @@ Compiler Design: Theory, Tools, and Examples - Seth D. Bergmann
 [mpri-2.4-public](https://gitlab.inria.fr/fpottier/mpri-2.4-public): Resources for course MPRI 2-4 on functional programming and type systems.
 
 ### Lists of recommended reading
-[GCC Wiki - List of compiler books](https://gcc.gnu.org/wiki/ListOfCompilerBooks) | [Jordan Rose (Swift team) recommendations](http://belkadan.com/blog/2015/11/Recommendations/) | http://jschuster.org/blog/2016/11/29/getting-started-in-programming-languages/ | [Jonathan Turner’s Reading List](http://www.jonathanturner.org/2016/10/programming-language-and-compilers-reading-list.html): Turner is an engineer on Mozilla’s Rust team and recently posted his reading list for getting up-to-speed on programming languages. The list starts with some resources on how to build interpreters and compilers, but also points to more academic material later. | [10PL](https://github.com/nuprl/10pl): This is a list compiled by Northeastern’s PL faculty of (roughly) ten academic papers that they think every student in PL should know. Not all of them are PL papers themselves, and they don’t form a full foundation on their own, but they form a kind of “great books” list for PL. | Benjamin Pierce, the author of TAPL, also has a [similar list](http://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml) (although with a slightly more type-heavy and theoretical bent). | [Classic Papers in Programming Languages and Logic](https://www.cs.cmu.edu/~crary/819-f09/) by Karl Crary
+[GCC Wiki - List of compiler books](https://gcc.gnu.org/wiki/ListOfCompilerBooks)
+
+[Jordan Rose (Swift team) recommendations](http://belkadan.com/blog/2015/11/Recommendations/)
+
+http://jschuster.org/blog/2016/11/29/getting-started-in-programming-languages/
+
+[Jonathan Turner’s Reading List](http://www.jonathanturner.org/2016/10/programming-language-and-compilers-reading-list.html): Turner is an engineer on Mozilla’s Rust team and recently posted his reading list for getting up-to-speed on programming languages. The list starts with some resources on how to build interpreters and compilers, but also points to more academic material later.
+
+[10PL](https://github.com/nuprl/10pl): This is a list compiled by Northeastern’s PL faculty of (roughly) ten academic papers that they think every student in PL should know. Not all of them are PL papers themselves, and they don’t form a full foundation on their own, but they form a kind of “great books” list for PL.
+
+Benjamin Pierce, the author of TAPL, also has a [similar list](http://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml) (although with a slightly more type-heavy and theoretical bent).
+
+[Classic Papers in Programming Languages and Logic](https://www.cs.cmu.edu/~crary/819-f09/) by Karl Crary
 
 ## Tutorials/Intros/Walkthroughs
 [FreeCompilerCamp.org](http://freecompilercamp.org/): Online Training for Extending Compilers [Github](https://github.com/freeCompilerCamp):
