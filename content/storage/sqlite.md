@@ -15,6 +15,9 @@ By default, SQLite from Swift/iOS is an exercise in C integration. Numerous wrap
 * [SQLite.swift](https://github.com/stephencelis/SQLite.swift): Type-safe Swift wrapper over sqlite3 C API
 * [Sqift](https://github.com/wildthink/SQift): Powerful Swift wrapper for SQLite
 
+### Java
+* [SQLite-jdbc](https://github.com/xerial/sqlite-jdbc): Straight JDBC driver for SQLite
+
 ### C#/.NET
 [Microsoft.Data.Sqlite](https://docs.microsoft.com/en-us/dotnet/standard/data/sqlite/): `dotnet add package Microsoft.Data.Sqlite`
 
