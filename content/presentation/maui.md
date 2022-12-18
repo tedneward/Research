@@ -1,10 +1,11 @@
-title=Multi-platform App UI (MAUI)
+title=.NET Multi-platform App UI (MAUI)
 tags=presentation, clr, ios, android, browser, windows, macos
-summary=A single stack that supports all modern workloads: Android, iOS, macOS, and Windows.
+summary=Build native apps using a .NET cross-platform UI toolkit that targets the mobile and desktop form factors on Android, iOS, macOS, Windows, and Tizen.
 ~~~~~~
 
-Announced at MSBuild 2020. [Blog post](https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/). Planning to ship with .NET 6 (which has no ship date as of May 2020).
+[MAUI Docs](https://learn.microsoft.com/en-us/dotnet/maui) ([PDF](https://learn.microsoft.com/en-us/dotnet/maui/opbuildpdf/fb09dc9e6631000255afc54e0ec4c50a/toc.pdf?branch=live&view=net-maui-7.0)) | [Github](https://github.com/dotnet/maui)
 
-[Github](https://github.com/dotnet/maui)
+## Lists and resources
 
-[Awesome MAUI](https://github.com/jsuarezruiz/awesome-dotnet-maui)
+* [Awesome MAUI](https://github.com/jsuarezruiz/awesome-dotnet-maui)
+

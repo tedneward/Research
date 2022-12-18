@@ -2,9 +2,6 @@ title=Compiler correctness reading
 tags=language, reading, native, clr, llvm, langdev
 summary=A collection of links and resources on compiler correctness, certification, validation, verification.
 ~~~~~~
-See also: [compilers and language implementation](compilers)
-
-# General
 
 [What is a secure programming language?](https://drops.dagstuhl.de/opus/volltexte/2019/10546/pdf/LIPIcs-SNAPL-2019-3.pdf)
 

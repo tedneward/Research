@@ -9,6 +9,20 @@ summary=Collection of material on how to build programming languages.
 
 [The Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler) (JS)
 
+["Three Things I Wish I Knew When I Started Designing Languages"](https://www.youtube.com/watch?v=oa0qq75i9oc)
+
+["The Naked Truth About Writing a Programming Language"](https://www.digitalmars.com/articles/b90.html)
+
+[Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
+
+[Nanopass](http://www.cs.indiana.edu/~dyb/pubs/nano-jfp.pdf): A framework for compiler education
+
+[Language Incubator](https://github.com/EarlGray/language-incubator): Repo of language experiments/explorations; "An incubator/sandbox for learning compilers, interpreters, code generation, virtual machines, assemblers, JITs, etc."
+
+[Intrinsically-Typed Definitional Interpreters for Linear, Session-Typed Languages](https://eelcovisser.org/publications/2020/RouvoetPKV20.pdf)
+
+## Walkthroughs
+
 ***Creating the Bolt Compiler (series):***
 
 * Part 1: [How I wrote my own "proper" programming language](https://mukulrathi.com/create-your-own-programming-language/intro-to-compiler/)
@@ -45,16 +59,6 @@ summary=Collection of material on how to build programming languages.
 * [18](https://ruslanspivak.com/lsbasi-part18/)
 * [19](https://ruslanspivak.com/lsbasi-part19/)
 * may be more...?
-
-["Three Things I Wish I Knew When I Started Designing Languages"](https://www.youtube.com/watch?v=oa0qq75i9oc)
-
-["The Naked Truth About Writing a Programming Language"](https://www.digitalmars.com/articles/b90.html)
-
-[Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
-
-[Nanopass](http://www.cs.indiana.edu/~dyb/pubs/nano-jfp.pdf): A framework for compiler education
-
-[Language Incubator](https://github.com/EarlGray/language-incubator): Repo of language experiments/explorations; "An incubator/sandbox for learning compilers, interpreters, code generation, virtual machines, assemblers, JITs, etc."
 
 ---
 
@@ -130,22 +134,3 @@ From ["Crafting Interpreters"](http://www.craftinginterpreters.com/):
 * C++: [CppLox](https://github.com/the-lambda-way/CppLox)
 * Rust: [rlox](https://github.com/cwbriones/rlox)
 * Swift: [slox](https://github.com/alexito4/slox)
-
----
-
-## Types
-* [Type Theory and Functional Programming](https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/) | [Crash Course on Notation in Programming Language Theory](http://siek.blogspot.com/2012/07/crash-course-on-notation-in-programming.html), Jeremy G. Siek; LambdaConf 2018 [Part 1](https://www.youtube.com/watch?v=vU3caZPtT2I), [Part 2](https://www.youtube.com/watch?v=MhuK_aepu1Y) [Slides](https://www.dropbox.com/s/joaq7m9v75blrw5/pl-notation-lambdaconf-2018.pdf?dl=1)
-
-* [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl/): TAPL (rhymes with “apple”), as it’s better known, has a solid introduction to formal semantics in the first few chapters and would be my pick for a starting point on formal semantics. The remainder of the book deals with type systems, which form only one part of programming languages, but it’s the canonical reference if you’re looking to learn about types.
-
-* [On the Relationship Between Static Analysis and Type Theory](https://semantic-domain.blogspot.com/2019/08/on-relationship-between-static-analysis.html)
-
-* [Soundness and completeness: with precision](https://bertrandmeyer.com/2019/04/21/soundness-completeness-precision/)
-
-* [What is soundness (in static analysis)?](http://www.pl-enthusiast.net/2017/10/23/what-is-soundness-in-static-analysis/)
-
-* [What Type Soundness Theorem Do You Really Want to Prove?](https://blog.sigplan.org/2019/10/17/what-type-soundness-theorem-do-you-really-want-to-prove/) ([YouTube](https://www.youtube.com/watch?v=8Xyk_dGcAwk))
-	- Milner Award Lecture: The Type Soundness Theorem That You Really Want to Prove (and now you can), POPL 2018; Derek Dreyer
-
-* [Type Theory Behind Glasgow Haskell Compiler Internals](https://github.com/lambdaconf/lambdaconf-2018/tree/master/LC18-slides) ([video](https://www.youtube.com/playlist?list=PLvPsfYrGz3wspkm6LVEjndvQqK6SkcXaT)): LambdaConf 2018; Vitaly Bragilevsky - https://github.com/bravit/tt-ghc-exercises/
-

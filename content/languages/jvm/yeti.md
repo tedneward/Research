@@ -2,7 +2,10 @@ title=Yeti
 tags=language, jvm, functional
 summary=An ML-style functional language for the JVM.
 ~~~~~~
-"The goal of the Yeti is to have a clean and minimal expressive language on the JVM that allows functional style programming, has static type inference and interfaces well with Java code.
+
+[Website](http://mth.github.io/yeti/) | [Github](https://github.com/mth/yeti) | [Tutorial](http://dot.planet.ee/yeti/intro.html) | [Reference](http://dot.planet.ee/yeti/reference.pdf)
+
+"The goal of Yeti is to have a clean and minimal expressive language on the JVM that allows functional style programming, has static type inference and interfaces well with Java code.
 
 "Some of the features:
 
@@ -20,6 +23,3 @@ summary=An ML-style functional language for the JVM.
 "The core language and existing standard library API should be fairly stable.
 "The compiler development is now frozen to be bug-fix only (and writing documentation) until the 1.0 release."
 
-[Website](http://mth.github.io/yeti/) | [Github](https://github.com/mth/yeti) | [Tutorial](http://dot.planet.ee/yeti/intro.html)
-
-Appears to have halted development in 2015.
