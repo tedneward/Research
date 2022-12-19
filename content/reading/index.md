@@ -13,6 +13,7 @@ Sub-topics:
 * [AI](/reading/ai/index) - [Tag](http://research.tedneward.com/tags/ai.html)
 * [Business](/reading/business/index) - [Tag](http://research.tedneward.com/tags/business.html)
 * [Hardware architecture](/reading/hardware-architecture/index) - [Tag](http://research.tedneward.com/tags/hardware.html)
+* [Language development](/reading/langdev/index) - [Tag](http://research.tedneward.com/tags/langdev.html)
 * [Management](/reading/management/index) - [Tag](http://research.tedneward.com/tags/management.html)
 * [Patterns](/reading/patterns/index) - [Tag](http://research.tedneward.com/tags/patterns.html)
 * [Software (general)](/reading/software/index)

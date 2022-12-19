@@ -8,7 +8,7 @@ summary=Collection of articles on implementing languages.
 
 [GCC Front-end HOWTO](https://tldp.org/HOWTO/GCC-Frontend-HOWTO.html): How to build a GCC front-end (so GCC can take care of the rest)
 
-## Background, Books, Lists
+## Background, Books
 [68 resources on creating programming languages](https://tomassetti.me/resources-create-programming-languages/)
 
 [Awesome Compilers](https://github.com/aalhour/awesome-compilers)
@@ -76,6 +76,7 @@ Benjamin Pierce, the author of TAPL, also has a [similar list](http://www.cis.up
 [Classic Papers in Programming Languages and Logic](https://www.cs.cmu.edu/~crary/819-f09/) by Karl Crary
 
 ## Tutorials/Intros/Walkthroughs
+
 [FreeCompilerCamp.org](http://freecompilercamp.org/): Online Training for Extending Compilers [Github](https://github.com/freeCompilerCamp):
 - Clang/LLVM Tutorials
 	- http://freecompilercamp.org/clang-llvm-landing
@@ -118,10 +119,6 @@ University of Utah: Advanced Compilers - John Regehr
 
 [SFU CMPT 886](http://www.cs.sfu.ca/~wsumner/teaching/886/15/schedule.html): Program Analysis and Reliability - Nick Sumner, Spring 2015 [YouTube playlist](https://www.youtube.com/playlist?list=PLNC6lmsIySCOPjY8IwKBtD2cqe-MMgIGM)
 
-[UCB CS294-113](http://www.wolczko.com/CS294/): Virtual Machines and Managed Runtimes
-	- [A Concise and Opinionated History of Virtual Machines](https://archive.org/download/vmss16/wolczko.pdf) or [YouTube](https://www.youtube.com/watch?v=QnQYhrpX39M)
-		- [Virtual Machines Summer School 2016](https://soft-dev.org/events/vmss16/)
-
 UCSD CSE 131: Compiler Construction
 	- Fall 2019; Joseph Gibbs Politz
 		- https://ucsd-cse131-f19.github.io/
@@ -140,11 +137,15 @@ UCSD CSE 231: Advanced Compiler Design
 ---
 
 ## Posts
-[Interview with Jesper Louis Andsersen](https://medium.com/@unbalancedparen/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#.g4q9w4eqq) about a ton of languages. | ["Less is more: language features"](http://blog.ploeh.dk/2015/04/13/less-is-more-language-features/) | ["Languages I want to write"](https://blog.wesleyac.com/posts/language-todos) | ["A wish list for a new programming language"](http://www.drmaciver.com/2015/07/a-wish-list/)
+[Interview with Jesper Louis Andsersen](https://medium.com/@unbalancedparen/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#.g4q9w4eqq) about a ton of languages.
+
+["Less is more: language features"](http://blog.ploeh.dk/2015/04/13/less-is-more-language-features/)
+
+["Languages I want to write"](https://blog.wesleyac.com/posts/language-todos)
+
+["A wish list for a new programming language"](http://www.drmaciver.com/2015/07/a-wish-list/)
 
 ---
-
-
 
 ## Detection
 
