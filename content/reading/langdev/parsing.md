@@ -6,6 +6,7 @@ summary=A collection of links on parsers, parser generators, parsing algorithms,
 ## Articles
 
 Strumenta
+
 * [Parsing in JavaScript](https://tomassetti.me/parsing-in-javascript)
 
 ## Theory and approaches

@@ -1,8 +1,7 @@
 title=Debugging reading
-tags=native, reading, linux, windows, list
+tags=native, reading, linux, windows
 summary=A collection of reading links and resources on debugging
 ~~~~~~
-# General
 
 * Program repair: Community-driven effort to facilitate discovery, access and systematization of data related to automated program repair research
 	+ http://program-repair.org/
@@ -95,9 +94,7 @@ summary=A collection of reading links and resources on debugging
 * What does debugging a program look like? - Julia Evans - https://jvns.ca/blog/2019/06/23/a-few-debugging-resources/
 * When debugging a stack overflow, you want to focus on the repeating recursive part - Raymond Chen - https://blogs.msdn.microsoft.com/oldnewthing/20090107-00/?p=19573
 
-## Books
-
-_Books, Books Reviews_
+## Books, Book Reviews
 
 * Effective Debugging - https://www.spinellis.gr/debugging/
 * Four Books on Debugging - https://blog.regehr.org/archives/849

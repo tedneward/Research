@@ -1,17 +1,12 @@
-title=Compilers Reading
-tags=language, reading, llvm, native, langdev
-summary=Collection of articles on implementing languages.
+title=Resources List: Compilers
+tags=reading, langdev, computer science, list
+summary=Collection of articles, books I recommend around general compilers/interpreters topics.
 ~~~~~~
 
-## Implementation tools
-[Lingua.NET](https://archive.codeplex.com/?p=lingua): Discontinued/archived CodePlex parser generator. Archived content copied locally [here](/languages/dotnet/lingua.zip).
-
-[GCC Front-end HOWTO](https://tldp.org/HOWTO/GCC-Frontend-HOWTO.html): How to build a GCC front-end (so GCC can take care of the rest)
+[Awesome Compilers](https://github.com/aalhour/awesome-compilers)
 
 ## Background, Books
 [68 resources on creating programming languages](https://tomassetti.me/resources-create-programming-languages/)
-
-[Awesome Compilers](https://github.com/aalhour/awesome-compilers)
 
 [A Compiler Writing Journey](https://github.com/DoctorWkt/acwj)
 
@@ -50,7 +45,7 @@ Compiler Design: Theory, Tools, and Examples - Seth D. Bergmann
 
 [Programming Language Pragmatics](https://www.cs.rochester.edu/~scott/pragmatics/) by Michael L Scott. Covers theoretical background behind languages beyond syntax.
 
-[Programming Languages: Application and Interpretation](http://cs.brown.edu/courses/cs173/2012/book/)
+[Programming Languages: Application and Interpretation](../plai.html) (http://cs.brown.edu/courses/cs173/2012/book/)
 
 [Programming languages and techniques (PDF)](http://www.seas.upenn.edu/~cis120/current/notes/120notes.pdf)
 
@@ -59,6 +54,19 @@ Compiler Design: Theory, Tools, and Examples - Seth D. Bergmann
 [Semantics Engineering with PLT Redex](http://redex.racket-lang.org/): The PhD-level programming languages course at Northeastern uses the Redex book, and I found it to be a good introduction. The tool itself ([Redex](http://docs.racket-lang.org/redex/index.html)) is a great way to experiment with semantics, including reduction relations (roughly, the part of the semantics that says how the program runs) and type systems. You could use this book as a substitute for TAPL (at least for learning the basics of formal semantics), or you could use Redex to experiment with the languages described in TAPL.
 
 [mpri-2.4-public](https://gitlab.inria.fr/fpottier/mpri-2.4-public): Resources for course MPRI 2-4 on functional programming and type systems.
+
+["Bits of History, Words of Advice"](http://gbracha.blogspot.com/2020/05/bits-of-history-words-of-advice.html): The creator of [Newspeak](/languages/smalltalk/newspeak) and one of the core developers working on [Java](/languages/jvm/java) and the [JVM](/platforms/jvm) offers some advice about Smalltalk's lack of success in the mainstream.
+
+* **Type systems and type safety**
+	* [Luca Cardelli: Type Systems](http://lucacardelli.name/Papers/TypeSystems.pdf)
+	* [Type Safety in Three Easy Lemmas](https://siek.blogspot.com/2013/05/type-safety-in-three-easy-lemmas.html)
+	* [Type Systems - Neel Krishnaswami](https://www.cl.cam.ac.uk/teaching/1819/Types/materials.html) ([Handout](https://www.cl.cam.ac.uk/teaching/1819/Types/handout.pdf))
+* **Intermediate Representations**: 
+	* [Intermediate Representations in Imperative Compilers: A Survey](http://dx.doi.org/10.1145/2480741.2480743) ([PDF](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.885.5223&rep=rep1&type=pdf)) (by James Stanier, Des Watson; ACM Computing Surveys, Vol. 45, No. 3, Article 26, 2013)
+	* [Modern Intermediate Representations (IR)](https://llvm.org/devmtg/2017-06/1-Davis-Chisnall-LLVM-2017.pdf); Introduction to LLVM - David Chisnall (Cambridge University), [HPC Summer School 2017](https://llvm.org/devmtg/2017-06/)
+	* [Testing Intermediate Representations for Binary Analysis](https://softsec.kaist.ac.kr/~soomink/paper/ase17main-mainp491-p.pdf) [Github](https://github.com/SoftSec-KAIST/MeanDiff), [Website](https://softsec-kaist.github.io/MeanDiff/)
+* **Runtime Semantics**:
+	* ["Open, Extensible Object Models"](https://www.piumarta.com/software/cola/objmodel2.pdf): "We show that three object types and five methods are sufficient to bootstrap an extensible object model and messaging semantics that are described entirely in terms of those same objects and messages." ([Source](https://www.piumarta.com/oopsla07/))
 
 ### Lists of recommended reading
 [GCC Wiki - List of compiler books](https://gcc.gnu.org/wiki/ListOfCompilerBooks)
@@ -84,6 +92,65 @@ Benjamin Pierce, the author of TAPL, also has a [similar list](http://www.cis.up
 	- https://sc19.supercomputing.org/proceedings/tech_poster/tech_poster_pages/rpost138.html
 - FreeCompilerCamp.org: Training for OpenMP Compiler Development from Cloud
 	- https://sc19.supercomputing.org/proceedings/workshops/workshop_pages/ws_bphpcte103.html
+
+***Creating the Bolt Compiler (series):***
+
+* Part 1: [How I wrote my own "proper" programming language](https://mukulrathi.com/create-your-own-programming-language/intro-to-compiler/)
+* Part 2: So how do you structure a compiler project?
+* Part 3: Writing a Lexer and Parser using OCamllex and Menhir
+* Part 4: An accessible introduction to type theory and implementing a type-checker
+* Part 5: A tutorial on liveness and alias dataflow analysis
+* Part 6: Desugaring - taking our high-level language and simplifying it!
+* Part 7: A Protobuf tutorial for OCaml and C++
+* Part 8: A Complete Guide to LLVM for Programming Language Creators
+* Part 9: Implementing Concurrency and our Runtime Library
+* Part 10: Generics - adding polymorphism to Bolt
+* Part 11: Adding Inheritance and Method Overriding to Our Language
+
+***Let's Build an Interpreter (series)*** ([Github](https://github.com/hisystems/Interpreter/tree/master/Engine)): 
+
+* [Part 1](https://ruslanspivak.com/lsbasi-part1/)
+* [Part 2](https://ruslanspivak.com/lsbasi-part2/)
+* [Part 3](https://ruslanspivak.com/lsbasi-part3/)
+* [Part 4](https://ruslanspivak.com/lsbasi-part4/)
+* [Part 5](https://ruslanspivak.com/lsbasi-part5/)
+* [Part 6](https://ruslanspivak.com/lsbasi-part6/)
+* [Part 7](https://ruslanspivak.com/lsbasi-part7/)
+* [Part 8](https://ruslanspivak.com/lsbasi-part8/)
+* [Part 9](https://ruslanspivak.com/lsbasi-part9/)
+* [Part 10](https://ruslanspivak.com/lsbasi-part10/)
+* [Part 11](https://ruslanspivak.com/lsbasi-part11/)
+* [Part 12](https://ruslanspivak.com/lsbasi-part12/)
+* [Part 13](https://ruslanspivak.com/lsbasi-part13/)
+* [Part 14](https://ruslanspivak.com/lsbasi-part14/)
+* [Part 15](https://ruslanspivak.com/lsbasi-part15/)
+* [Part 16](https://ruslanspivak.com/lsbasi-part16/)
+* [Part 17](https://ruslanspivak.com/lsbasi-part17/)
+* [Part 18](https://ruslanspivak.com/lsbasi-part18/)
+* [Part 19](https://ruslanspivak.com/lsbasi-part19/)
+* may be more...?
+
+Immo Landwerth has done a collection of videos on building a language called Minsk, for the CLR platform, in a live-streaming style: [Source](https://github.com/terrajobst/minsk):
+* [Episode 1](https://www.youtube.com/watch?v=wgHIkdUQbp0&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y)
+* [Episode 2](https://www.youtube.com/watch?v=3XM9vUGduhk&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=2)
+* [Episode 3](https://www.youtube.com/watch?v=61dLQNgd9o8&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=3)
+* [Episode 4](https://www.youtube.com/watch?v=xF-8rWeqV1A&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=4)
+* [Episode 5](https://www.youtube.com/watch?v=EEzuO9XWmUY&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=5)
+* [Episode 6](https://www.youtube.com/watch?v=EEzuO9XWmUY&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=6)
+* [Episode 7](https://www.youtube.com/watch?v=SJE_gUnJl2Y&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=7)
+* [Episode 8](https://www.youtube.com/watch?v=PfpayNvfu20&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=8)
+* [Episode 9](https://www.youtube.com/watch?v=QwZuY1dExAc&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=9)
+* [Episode 10](https://www.youtube.com/watch?v=QwZuY1dExAc&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=10)
+* [Episode 11](https://www.youtube.com/watch?v=QwZuY1dExAc&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=11)
+* [Episode 12](https://www.youtube.com/watch?v=psTZi6xpTlM&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=12)
+* [Episode 13](https://www.youtube.com/watch?v=NvVc8erZpeI&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=13)
+* [Episode 14](https://www.youtube.com/watch?v=NvVc8erZpeI&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=14)
+* [Episode 15](https://www.youtube.com/watch?v=NvVc8erZpeI&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=15)
+* [Episode 16](https://www.youtube.com/watch?v=Ecrv8sCYEbA&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=16)
+* [Episode 17](https://www.youtube.com/watch?v=Ecrv8sCYEbA&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=17)
+* [Episode 18](https://www.youtube.com/watch?v=Ecrv8sCYEbA&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=18)
+* [Episode 19](https://www.youtube.com/watch?v=Ecrv8sCYEbA&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=19)
+* ... more are likely on the way
 
 ## College/University Courses
 
@@ -133,17 +200,6 @@ UCSD CSE 231: Advanced Compiler Design
 		- https://ucsd-pl.github.io/cse231/wi19/
 
 [NPTEL: Compiler Design](https://nptel.ac.in/courses/106108052/) ([YouTube playlist](https://www.youtube.com/playlist?list=PL3690D679B876DE6A)): 2011; Y.N. Srikant
-
----
-
-## Posts
-[Interview with Jesper Louis Andsersen](https://medium.com/@unbalancedparen/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#.g4q9w4eqq) about a ton of languages.
-
-["Less is more: language features"](http://blog.ploeh.dk/2015/04/13/less-is-more-language-features/)
-
-["Languages I want to write"](https://blog.wesleyac.com/posts/language-todos)
-
-["A wish list for a new programming language"](http://www.drmaciver.com/2015/07/a-wish-list/)
 
 ---
 
@@ -277,3 +333,5 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 - Compiler Confidential
 	- GoingNative 2013; Eric Brumer
 	- https://channel9.msdn.com/Events/GoingNative/2013/Compiler-Confidential
+
+
