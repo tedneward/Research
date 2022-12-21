@@ -3,6 +3,8 @@ tags=reading, vm
 summary=A collection of interesting links and reading on VM-related topics.
 ~~~~~~
 
+## Posts, Papers
+
 * [How to write a very simple JIT compiler](https://github.com/spencertipping/jit-tutorial)
 * [Introduction to Virtual Machines](http://ittc.ku.edu/~kulkarni/teaching/EECS768/slides/chapter1.pdf)
 * [An Introduction to Virtual Machines Implementation and Applications](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.186.4512&rep=rep1&type=pdf)
@@ -14,6 +16,10 @@ summary=A collection of interesting links and reading on VM-related topics.
 * [The Implementation of Lua 5.0](https://www.lua.org/doc/jucs05.pdf)
 * [A Virtual Machine for Guile](https://www.gnu.org/software/guile/manual/html_node/A-Virtual-Machine-for-Guile.html)
 * [Design and implementation of a distributed virtual machine for networked computers](https://www.cs.cornell.edu/people/egs/papers/kimera-sosp99.pdf)
+* ["Virtual Machines and Abstract Compilers"](./VirtualMachinesAndAbstractCompilers.pdf)
+* ["Improving Compiler-Runtime Separation with XIR"](./TitzerVEE10.pdf)
+* ["Modular and Didactic Compiler Design with XML Inter-Phases Communication"](./2204.06156.pdf)
+* [qb.js: An implementation of QBASIC in Javascript](http://stevehanov.ca/blog/index.php?id=92)
 
 ## Videos
 
