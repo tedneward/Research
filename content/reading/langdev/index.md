@@ -74,6 +74,8 @@ summary=A collection of links and articles on building programming languages.
 
 of a dynamically typed language named smalljs which is almost a subset of JavaScript.
 
+[joeq: A Virtual Machine and Compiler Infrastructure](https://joeq.sourceforge.net/) ([PDF](https://suif.stanford.edu/~jwhaley/papers/ivme03.pdf)) ([Source](https://sourceforge.net/projects/joeq/)): entirely implemented in JavaTM, leading to greater reliability, portability, maintainability, and efficiency. It is also language-independent, so code from any supported language can be seamlessly compiled, linked, and executed --- all dynamically!
+
 ---
 
 ## Toy/experimental
