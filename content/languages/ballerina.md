@@ -12,7 +12,9 @@ summary=A service-oriented programming language.
 
 ["Connecting to and using Google's Cloud SQL with Ballerina"](https://medium.com/@kaneeldias/connecting-to-and-using-googles-cloud-sql-with-ballerina-13e2d6594686)
 
-["How to Create a REST API--Sprint Boot and Ballerina"](https://medium.com/ballerina-techblog/how-to-create-a-rest-api-spring-boot-and-ballerina-cc85477e22c8)
+["How to Create a REST API--Spring Boot and Ballerina"](https://medium.com/ballerina-techblog/how-to-create-a-rest-api-spring-boot-and-ballerina-cc85477e22c8)
+
+["An Introduction to Pub/Sub in Ballerina"](https://stackoverflow.com/collectives/wso2/articles/73946256/an-introduction-to-pub-sub-in-ballerina)
 
 ## Examples
 Hello, world. A Ballerina application can have:
