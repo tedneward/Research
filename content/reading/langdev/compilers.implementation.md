@@ -3,6 +3,11 @@ tags=language, reading, llvm, native, langdev
 summary=Collection of articles on implementing languages.
 ~~~~~~
 
+## CLang
+
+* [Understanding the Clang AST](https://jonasdevlieghere.com/understanding-the-clang-ast/)
+
+
 ### Escape analysis
 Escape analysis is an optimization for identifying objects which do not escape the dynamic extent of a function; such objects can be stack-allocated, or 'flattened' so that usages of them are replaced with a series of local variables (the latter optimization is known as "scalar replacement").
 
