@@ -1,5 +1,5 @@
 title=Jython
-tags=jvm, python, language, functional, dynamic, object, metaobject
+tags=vm, jvm, python, language, functional, dynamic, object, metaobject
 summary=Python implementation on the JVM.
 ~~~~~~
 
