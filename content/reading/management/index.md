@@ -21,27 +21,27 @@ summary=Collection of thoughts/essays/etc on managing people.
 
 * ["Does Stress Impact Technical Interviews?"](https://chrisparnin.me/pdf/stress_FSE_20.pdf): "Software engineering candidates commonly participate in whiteboard technical interviews as part of a hiring assessment. During these sessions, candidates write code while thinking-aloud as they work towards a solution, under the watchful eye of an interviewer. While technical interviews should allow for an unbiased and inclusive assessment of problem-solving ability, surprisingly, another possibility is that technical interviews are instead a procedure for identifying candidates who best handle and migrate stress solely caused by being examined by an interviewer (performance anxiety). To understand if coding interviews—as administered today—can induce stress that significantly hinders performance, we conducted a randomized controlled trial with 48 Computer Science students, comparing them in private and public whiteboard settings. We found that performance is reduced by more than half, by simply being watched by an interviewer. We also observed that stress and cognitive load were significantly higher in a traditional technical interview when compared with our private interview. Consequently, interviewers may be filtering out qualified candidates by confounding assessment of problem-solving ability with unnecessary stress. We propose interview modifications to make problem-solving assessment more equitable and inclusive, such as through private focus sessions and retrospective think-aloud, allowing companies to hire from a larger and diverse pool of talent."
 
-* [People don't work as much as you think](https://drmaciver.substack.com/p/people-dont-work-as-much-as-you-think)
+* [People don't work as much as you think](https://drmaciver.substack.com/p/people-dont-work-as-much-as-you-think):
 
 * [A fractal of lies](https://drmaciver.substack.com/p/a-fractal-of-lies): Dr House was right: everybody lies. (More to the point, studies are often built off of interviews and interrogation, and people have a habit of telling interviewers not-entirely-truthful things for a variety of reasons.) "Whenever there is an advantage, or a power gradient, or a political agenda, or people just want to fuck with you for their own amusement, probably there are lies. And then people repeat those lies - sometimes purely innocently, sometimes adding their own lies on top."
 
-* [What Google Learned From Its Quest to Build the Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html) (New York Times)
+* [What Google Learned From Its Quest to Build the Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html) (New York Times):
 
-* [Meet is Murder](https://www.nytimes.com/2016/02/28/magazine/meet-is-murder.html) (New York Times, 2016)
+* [Meet is Murder](https://www.nytimes.com/2016/02/28/magazine/meet-is-murder.html) (New York Times, 2016):
 
-* [Is Blind Hiring the Best Hiring](https://www.nytimes.com/2016/02/28/magazine/is-blind-hiring-the-best-hiring.html) (New York Times, 2016)
+* [Is Blind Hiring the Best Hiring](https://www.nytimes.com/2016/02/28/magazine/is-blind-hiring-the-best-hiring.html) (New York Times, 2016):
 
-* [Failure to Lunch](https://www.nytimes.com/2016/02/28/magazine/failure-to-lunch.html) (New York Times, 2016)
+* [Failure to Lunch](https://www.nytimes.com/2016/02/28/magazine/failure-to-lunch.html) (New York Times, 2016):
 
-* [Managed by Q's 'Good Jobs' Gamble](https://www.nytimes.com/2016/02/28/magazine/managed-by-qs-good-jobs-gamble.html) (New York Times, 2016)
+* [Managed by Q's 'Good Jobs' Gamble](https://www.nytimes.com/2016/02/28/magazine/managed-by-qs-good-jobs-gamble.html) (New York Times, 2016):
 
-* [Rethinking the Work-Life Equation](https://www.nytimes.com/2016/02/28/magazine/rethinking-the-work-life-equation.html) (New York Times, 2016)
+* [Rethinking the Work-Life Equation](https://www.nytimes.com/2016/02/28/magazine/rethinking-the-work-life-equation.html) (New York Times, 2016):
 
-* [The Robots Are Coming for Wall Street](https://www.nytimes.com/2016/02/28/magazine/the-robots-are-coming-for-wall-street.html) (New York Times, 2016)
+* [The Robots Are Coming for Wall Street](https://www.nytimes.com/2016/02/28/magazine/the-robots-are-coming-for-wall-street.html) (New York Times, 2016):
 
-* [The Post-Cubicle Office and its Discontents](https://www.nytimes.com/2016/02/28/magazine/the-post-cubicle-office-and-its-discontents.html) (New York Times, 2016)
+* [The Post-Cubicle Office and its Discontents](https://www.nytimes.com/2016/02/28/magazine/the-post-cubicle-office-and-its-discontents.html) (New York Times, 2016):
 
-* [The New Dream Jobs](https://www.nytimes.com/2016/02/28/magazine/the-new-dream-jobs.html) (New York Times, 2016)
+* [The New Dream Jobs](https://www.nytimes.com/2016/02/28/magazine/the-new-dream-jobs.html) (New York Times, 2016):
 
 * [The myth of the flat start-up: Reconsidering the organizational structure of start-ups](https://onlinelibrary.wiley.com/doi/epdf/10.1002/smj.3333): "My study cautions against [the myth that start-ups should be flat], suggesting that adding a few hierarchical levels of mangers can substantially help start-ups achieve commercial success and survive in their hostile environments, albeit at a potentially marginal cost of creativity."
 
@@ -128,14 +128,13 @@ summary=Collection of thoughts/essays/etc on managing people.
             * or you hired (or did not fire) the wrong people
         * Ultimately everything is your fault
 
-
     * You manage processes; you lead people
         * For some reason, "managing people" means for many that they need to control people's work.
             * They end up micro-managing not only what when but also how people do their work.
             * If you got the time to micro-manage people, you can most likely hire cheaper, less talented people for your work
         * I think it roots in a misunderstanding of what the role of a manager is:
-                * your job is *not to manage people*
-                * but to *manage processes* and *lead people*
+            * your job is *not to manage people*
+            * but to *manage processes* and *lead people*
         * You manage processes on how you expect work to be done, where each person's authority starts and ends, how their careers are made, and how all this can be discussed, and/or changed
         * Additionally, you are leading people by example and through empathy.
             * They have goals, fears and motivations. Frequently also problems outside of work.
