@@ -4,11 +4,14 @@ summary=Legacy business language that refuses to die.
 ~~~~~~
 
 Implementations:
+
+* [GNU-COBOL](https://gnucobol.sourceforge.io/)
 * [JVM: Heirloom Elastic COBOL](https://www.heirloomcomputing.com/elasticcobol/)
 * [JVM: Veryant isCOBOL Evolve](http://www.veryant.com/products/)
 * [JVM/CLR: MicroFocus Visual COBOL](https://www.microfocus.com/en-us/products/cobol-development/overview)
 
 IDE:
+
 * [Open COBOL IDE](https://opencobolide.software.informer.com/4.6/#)
 
 ---
