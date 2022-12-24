@@ -7,6 +7,7 @@ summary=Various notes and implementations of the BASIC programming language.
 
 * [TinyBASIC](../tinybasic)
 * [Gambas](../gambas)
+* [FreeBASIC](https://freebasic.net/) ([Source](https://github.com/freebasic/fbc)): a completely free, open-source, multi-platform BASIC compiler, with syntax similar to MS-QuickBASIC, that adds new features such as pointers, object orientation, unsigned data types, inline assembly, and many others.
 * [SmallBASIC](http://smallbasic.github.io/) ([Source](https://github.com/smallbasic/SmallBASIC))
 * [TMBasic](https://tmbasic.com/) ([Source](https://github.com/electroly/tmbasic)): a programming language for writing console programs, from simple command line tools to sophisticated mouse-driven user interfaces. The BASIC language is beginner-friendly, and experienced programmers will find it familiar and easy to use.
 * [QB64](https://qb64.com/): a modern extended BASIC programming language that retains QBasic/QuickBASIC 4.5 compatibility and compiles native binaries for Windows, Linux, and macOS. (Source is in flux; abandoned project [here](https://github.com/QB64Team/qb64) but reboot happening [here](https://github.com/QB64Official/qb64).)
