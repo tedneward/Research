@@ -1,6 +1,6 @@
 title=The Ultimate Public Speaking Survival Guide
 tags=reading, books, speaking
-summary=
+summary=Notes from the book.
 ~~~~~~
 *(by Ramakrishna Reddy)*
 

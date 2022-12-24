@@ -4,3 +4,5 @@ summary=Notes from the book.
 ~~~~~~
 *(by Thengvall)* [Amazon](https://www.amazon.com/Business-Value-Developer-Relations-Communities-ebook/dp/B07FKFQ1NK)
 
+[Website](https://www.persea-consulting.com/book)
+

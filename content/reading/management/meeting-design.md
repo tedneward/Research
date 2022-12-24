@@ -126,11 +126,17 @@ For larger groups (let's say 15):
 ## Chapter 4: Manage Conflict with Facilitation
 ***Build from a classic definition of facilitation that works in any organization, and find productive conflict that moves things forward.***
 
+
+
 ## Chapter 5: Facilitation Strategy and Style
 ***Sometimes, great facilitation can be as simple as asking the right question. But other times, a facilitator may need to adapt.***
 
+
+
 ## Chapter 6: Better Mettings Lead to Better Organizations
 ***A meeting is a window into a group's culture. Assess that culture, build a new one, and introduce changes through better get-togethers.***
+
+
 
 # Part 2: Designed Meetings
 ***A collection of meetings design to produce outcomes and decisions.***
@@ -138,8 +144,14 @@ For larger groups (let's say 15):
 ## Chapter 7: Get Started with Beginning Meetings
 ***Start a project or process with gatherings that reduce ambiguity and create direction.***
 
+
+
 ## Chapter 8: Chart the Course Using Middle Meetings
 ***Stuck in the middle of a project? Need to course correct? Use a well-designed conversation to map the terrain.***
 
+
+
 ## Chapter 9: Find Closure with End Meetings
 ***Wrap up your work with meetings that lead to continued growth and evolution.***
+
+
