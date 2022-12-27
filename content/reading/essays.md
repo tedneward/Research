@@ -1,9 +1,7 @@
 title=Essays on Programming
 tags=reading
-summary=Collection of thoughts.
+summary=Random collection of long-form thoughts.
 ~~~~~~
-
-## References
 
 - [How Team Obama's tech efficiency left Romney IT in dust](https://arstechnica.com/information-technology/2012/11/how-team-obamas-tech-efficiency-left-romney-it-in-dust/)
 
