@@ -1,6 +1,6 @@
 title=Mission-Critical Meetings
 tags=reading, management, meetings
-summary=
+summary=Notes from the book.
 ~~~~~~
 *(by Ava S Butler, ISBN 978-1-32787-038-2)*
 

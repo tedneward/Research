@@ -1,5 +1,5 @@
 title=Reading in mathematics
-tags=reading
+tags=reading, thinking
 summary=A collection of notes, articles, and free books on maths.
 ~~~~~~
 

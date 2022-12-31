@@ -23,6 +23,8 @@ KTHXBYE
 * CLR: [CLR version cached copy](../lolcode/LOLCode-r36.net.zip)
 * [Parallel and Distributed Computing with LOLCODE](https://parallella.org/2017/04/01/parallel-and-distributed-computing-with-lolcode/) ([Source](https://github.com/browndeer/lcc)) ([PDF](https://arxiv.org/pdf/1703.10242.pdf))
 
+[A ray tracer in LOLCODE](https://github.com/LoganKelly/LOLTracer)
+
 ## [Learn X in Y minutes Quick Intro](https://learnxinyminutes.com/docs/LOLCODE/)
 LOLCODE is an esoteric programming language designed to resemble the speech of [lolcats](https://upload.wikimedia.org/wikipedia/commons/a/ab/Lolcat_in_folder.jpg?1493656347257).
 
