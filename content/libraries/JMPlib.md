@@ -1,5 +1,5 @@
 title=JMPLib
-tags=library, language, jvm, code generation, metaobject programming
+tags=library, language, jvm, code generation, metaobject
 summary=
 ~~~~~~
 

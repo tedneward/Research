@@ -20,6 +20,7 @@ Philip Wadler [A critique of Abelson and Sussman or why calculating is better th
 [Collection of readings](https://systemfw.org/writings.html): "This page lists various writings from Gitter, Reddit or Github, in their raw form."
 
 Apocalisp:
+
 * [Lazy Error Handling in Java, Part 1: The Thrower Functor](https://apocalisp.wordpress.com/2008/05/16/thrower-functor/)
 * [Lazy Error Handling in Java, Part 2: Thrower is a Monad](https://apocalisp.wordpress.com/2008/05/22/thrower-is-a-monad/)
 * [Lazy Error Handling in Java, Part 3: Throwing Away Throws](https://apocalisp.wordpress.com/2008/06/04/throwing-away-throws/)
@@ -29,6 +30,7 @@ Apocalisp:
 * [Higher-Order Java Parallelism, Part 4: A Better Future](https://apocalisp.wordpress.com/2008/09/02/a-better-future/)
 
 ### Books
+
 [Haskell Programming from first principles](http://haskellbook.com/) with [book examples](https://github.com/elrocqe/frege_programming) in [Frege](/languages/frege.html) | [Real-World Haskell](http://book.realworldhaskell.org/read/) | [Learn you a Haskell](http://learnyouahaskell.com/chapters) | [Programming in Haskell](http://www.amazon.com/Programming-Haskell-Graham-Hutton/dp/0521692695/)
 
 ### Videos

@@ -1,5 +1,5 @@
 title=Javassist
-tags=library, language, jvm, code generation, metaobject programming
+tags=library, language, jvm, code generation, metaobject
 summary=Java bytecode engineering toolkit.
 ~~~~~~
 

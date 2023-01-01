@@ -1,5 +1,5 @@
 title=SPOON
-tags=library, language, jvm, code generation, static analysis, metaobject programming
+tags=library, language, jvm, code generation, static analysis, metaobject
 summary=A metaprogramming library to analyze and transform Java source code; it parses source files to build a well-designed AST with powerful analysis and transformation API.
 ~~~~~~
 

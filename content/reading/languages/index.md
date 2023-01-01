@@ -3,11 +3,11 @@ tags=reading, language
 summary=A collection of links and articles on different programming languages.
 ~~~~~~
 
-[Aspect-Oriented](../aspect-oriented.html)
+[Aspect-Oriented](../aspect-oriented)
 
-[Functional](../functional.html)
+[Functional](../functional)
 
-* [Monads](../monads.html)
+* [Monads](../monads)
 
 Logic
 
