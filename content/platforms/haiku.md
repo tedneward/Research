@@ -1,11 +1,11 @@
-title=Haiku (open-source successor to BeOS)
+title=Haiku
 tags=platform
 summary=The open-source flag-bearer for the now-defunct Be operating system.
 ~~~~~~
 
 [Website](https://www.haiku-os.org/) | [Source](https://git.haiku-os.org/) | [Developer Docs](https://www.haiku-os.org/development)
 
-BeOS used C++ as its "native" development language of choice (rather than C). As such, Be (and Haiku) are interesting in examining how we were thinking about OS-level integration using C++ at the time (late 90's, early 2000's).
+BeOS used C++ as its "native" development language of choice (rather than C). As such, Be (and Haiku) are interesting in examining how we were thinking about OS-level integration using C++ at the time (late 90's, early 2000's). Might be interesting to run as a primary OS of choice for a few days, just to see where it's at, but it's probably not going to win any new converts over from macOS, Windows, or any of the modern Linux distros.
 
 Documentation
 
