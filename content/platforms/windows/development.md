@@ -3,7 +3,7 @@ tags=platform, windows, native
 summary=Development links and notes on the Microsoft Windows OS.
 ~~~~~~
 
-[XWindows for WSL subsystem](https://x410.dev/): Commercial
+[Win32 Assembly Language](https://www.randallhyde.com/AssemblyLanguage/Win32Asm/index.html)
 
 ---
 
@@ -29,4 +29,3 @@ static void nlog(char *str, ...)
 
 ---
 
-[Win32 Assembly Language](https://www.randallhyde.com/AssemblyLanguage/Win32Asm/index.html)
