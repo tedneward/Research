@@ -21,7 +21,9 @@ Object-oriented
 
 * [Object capabilities](../object-capability.html)
 * [Object thinking](../object-thinking.html)
+* [Foundations of Object Oriented Languages](https://www.cs.cmu.edu/~aldrich/FOOL/FOOL1/FOOL1-report.pdf) ([PDF](../FOOL1-report.pdf))
 
+Miscellaneous
 
 - [Syntax across languages](http://rigaux.org/language-study/syntax-across-languages.html): One large page of comprehensive syntax across languages
 - [Hyperpolyglot](https://hyperpolyglot.org/): commonly used features in a side-by-side format
