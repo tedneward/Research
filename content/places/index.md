@@ -11,8 +11,6 @@ tags=place
 
 [Jeremy Morgan's website](https://www.jeremymorgan.com/): Lots of Linux-related articles, tutorials, tutorials, courses (on Pluralsight), videos, podcast, and live streams.
 
-[How to customize WSL Terminal](https://www.jeremymorgan.com/tutorials/linux/customize-wsl-terminal/)
-
 [atariarchives.org](http://www.atariarchives.org) atariarchives.org makes books, information, and software for Atari and other classic computers available on the Web.
 
 [Bento](https://www.bento.io)

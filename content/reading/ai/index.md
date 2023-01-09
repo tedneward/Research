@@ -1,9 +1,9 @@
 title=Reading in Artificial Intelligence
-tags=reading
+tags=reading, ai, machine learning, fuzzy logic, logic, expert system, nlp
 summary=A collection of language-agnostic links on AI and Machine Learning.
 ~~~~~~
 
-### Artificial Intelligence
+# General
 
 * [Artificial Intelligence for a Better Future: An Ecosystem Perspective on the Ethics of AI and Emerging Digital Technologies](https://link.springer.com/book/10.1007/978-3-030-69978-9) - Bernd Carsten Stahl (PDF)
 * [Artificial Intelligence: Foundations of Computational Agents (2010), 1st Edition](https://artint.info/aifca1e.html) - David L. Poole, Alan K. Mackworth @ Cambridge University Press (HTML)
@@ -13,8 +13,25 @@ summary=A collection of language-agnostic links on AI and Machine Learning.
 * [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/) - Cam Davidson-Pilon (HTML, Jupyter Notebook)
 * [The Quest for Artificial Intelligence: A History of Ideas and Achievements](http://ai.stanford.edu/~nilsson/QAI/qai.pdf) - Nils J. Nilsson (PDF)
 
+## Fuzzy Logic
 
-### Machine Learning
+* [Wikipedia](https://en.wikipedia.org/wiki/Fuzzy_logic)
+* Tutorials: ["What is Fuzzy Logic"](https://www.guru99.com/what-is-fuzzy-logic.html) | ["Fuzzy Logic Explained: Master Class"](https://www.masterclass.com/articles/fuzzy-logic)
+* [A Practical Introduction to Fuzzy Logic Using LISP](https://www.researchgate.net/publication/283225230_A_Practical_Introduction_to_Fuzzy_Logic_using_LISP)
+
+## Expert Systems
+
+* [Wikipedia](https://en.wikipedia.org/wiki/Expert_system)
+
+## Natural Language Processing
+
+* [Wikipedia](https://en.wikipedia.org/wiki/Natural_language_processing)
+* [HBR: "The Power of Natural Language Processing"](https://hbr.org/2022/04/the-power-of-natural-language-processing)
+* ["Natural language processing: an introduction"](https://academic.oup.com/jamia/article/18/5/544/829676)
+* ["Natural language processing: an annual review" (2003)](https://strathprints.strath.ac.uk/2611/1/strathprints002611.pdf)
+* ["Advances in natural language processing"](https://nlp.stanford.edu/~manning/xyzzy/Hirschberg-Manning-Science-2015.pdf)
+
+## Machine Learning
 
 * [A Brief Introduction to Machine Learning for Engineers](https://arxiv.org/pdf/1709.02840.pdf) - Osvaldo Simeone (PDF)
 * [A Brief Introduction to Neural Networks](http://www.dkriesel.com/en/science/neural_networks)

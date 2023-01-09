@@ -61,6 +61,7 @@ From the Specification home page, a history:
 * JVM: Nashorn: [Nashorn Blog](https://blogs.oracle.com/nashorn/) is at Oracle but Nashorn appears to have moved to JetBrains ownership/development [here](https://github.com/JetBrains/jdk8u_nashorn)
 * [JVM: Rhino](https://github.com/mozilla/rhino) (includes [E4X](../e4x) support)
 * [JVM: Graal.js](https://github.com/graalvm/graaljs) part of [GraalVM](/vms/graalvm.html)
+* [JVM: RingoJS](https://ringojs.org/) ([Source](https://github.com/ringo/ringojs/))
 * [Rust: Boa](https://github.com/boa-dev/boa)
 * [Rust: Deno](https://github.com/denoland/deno)
 * [Zig: Bun](https://bun.sh/) ([Source](https://github.com/oven-sh/bun)): a fast all-in-one JavaScript runtime, written in [Zig](/languages/zig).

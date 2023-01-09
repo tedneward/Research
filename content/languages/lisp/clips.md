@@ -1,5 +1,5 @@
 title=CLIPS
-tags=language, logic, platform
+tags=language, platform, logic, rules, expert system
 summary=A forward-chaining rule-based programming language written in C that also provides procedural and object-oriented programming facilities.
 ~~~~~~
 

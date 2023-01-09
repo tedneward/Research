@@ -1,5 +1,5 @@
-title=Open API
-tags=distribution
+title=Open API Specification (OAS)
+tags=distribution, format, specification
 summary=A standard, programming language-agnostic interface description for REST APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic.
 ~~~~~~
 

@@ -9,6 +9,7 @@ Distributions:
 * [Pop! OS](https://pop.system76.com/)
 * [Zorin](https://zorin.com/os/)
 * [Mint](https://linuxmint.com/)
+* [VanillaOS](../vanillaos)
 * [ttylinux](http://www.minimalinux.org/ttylinux/): a small GNU/Linux system available for several CPU architectures. This small system has an 8 MB file system and runs on i486 computers within 28 MB of RAM, but provides a complete command line environment and is ready for Internet access.
 * [Wikipedia list](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
 
