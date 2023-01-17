@@ -20,6 +20,7 @@ summary=A superset of JavaScript with strong compile-time typechecking that tran
 * ["Advanced TypeScript type FTW!"](https://www.pulumi.com/blog/advanced-typescript-type-ftw/)
 * ["How to master advanced TypeScript patterns"](https://www.freecodecamp.org/news/typescript-curry-ramda-types-f747e99744ab/)
 * ["The Ultimate TypeScript Thread"](https://twitter.com/mpocock1/status/1509964736275927042):
+
     * Learn how to derive a union type from an object - an incredibly useful switcheroo that's at the heart of most TS magic out there
     * Transform a union to another union, using the `in` operator as a kind of for-loop.
     * TypeScript's string interpolation powers are incredible, esp since 4.1. Add some utilities from ts-toolbelt, and you've got a stew going.
@@ -35,10 +36,13 @@ summary=A superset of JavaScript with strong compile-time typechecking that tran
     * Want to turn a module into a type? Use typeof import('./') to grab the type of any module, even third-party ones.
     * Globals in TS? declare global is a useful tool for when you want to allow types to cross module boundaries.
     * You can use generics to dynamically specify the number, and type, of arguments to functions.
+
 * [Code for "Advanced Static Types in TypeScript" course on egghead.io](https://github.com/mariusschulz/egghead-advanced-static-types-in-typescript)
 * Video: ["Advanced TypeScript tooling at scale"](https://archive.fosdem.org/2019/schedule/event/typescript_advanced_tooling/)
+* ["Using the Compiler API"](https://github.com/Microsoft/TypeScript/wiki/Using-the-Compiler-API)
 
 ### [Learn TypeScript in Y Minutes](https://learnxinyminutes.com/docs/typescript/)
+
 TypeScript is a language that aims at easing development of large scale applications written in JavaScript.  TypeScript adds common concepts such as classes, modules, interfaces, generics and (optional) static typing to JavaScript.  It is a superset of JavaScript: all JavaScript code is valid TypeScript code so it can be added seamlessly to any project. The TypeScript compiler emits JavaScript.
 
 ```ts

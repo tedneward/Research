@@ -7,6 +7,74 @@ summary=A dynamic, object-oriented script language.
 
 Official standard name of the language originally appearing in browsers. "Javascript" is the implementation of the language that appeared in the Netscape Navigator browser.
 
+## Implementations
+
+* [Native: WebKit JavaScriptCore](https://github.com/WebKit/WebKit/tree/main/Source/JavaScriptCore): the JavaScript engine that comes as part of the larger open-source [WebKit](https://github.com/WebKit/) browser core.
+* [C/C++: mjs](https://github.com/cesanta/mjs) Embedded JavaScript for C/C++, designed for microcontrollers with limited resources. Implements a strict subset of ES6.
+* [C/C++: QuickJS](https://bellard.org/quickjs/): a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
+* [C/C++: V8](/vms/v8): The engine below NodeJS from Google.
+* [CLR: jint](../jint)
+* [CLR: Yantra](../yantra)
+* [CLR: Jurassic](../jurassic)
+* [CLR: IronJS](../ironjs)
+* JVM: Nashorn: [Nashorn Blog](https://blogs.oracle.com/nashorn/) is at Oracle but Nashorn appears to have moved to JetBrains ownership/development [here](https://github.com/JetBrains/jdk8u_nashorn)
+* [JVM: Rhino](https://github.com/mozilla/rhino) (includes [E4X](../e4x) support)
+* [JVM: Graal.js](https://github.com/graalvm/graaljs) part of [GraalVM](/vms/graalvm.html)
+* [JVM: RingoJS](https://ringojs.org/) ([Source](https://github.com/ringo/ringojs/))
+* [Rust: Boa](https://github.com/boa-dev/boa)
+* [Rust: Deno](https://github.com/denoland/deno)
+* [Zig: Bun](https://bun.sh/) ([Source](https://github.com/oven-sh/bun)): a fast all-in-one JavaScript runtime, written in [Zig](/languages/zig).
+
+Module systems
+
+* [Asynchronous Module Definition API (AMD)](https://github.com/amdjs/amdjs-api/blob/master/AMD.md)
+    * [r.js](https://github.com/requirejs/r.js): A command line tool for running JavaScript scripts that use the Asynchronous Module Definition API (AMD) for declaring and using JavaScript modules and regular JavaScript script files. It is part of the RequireJS project, and works with the RequireJS implementation of AMD.
+
+### Transpilers
+[List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS)
+
+* [Babel](../babel): Babel is a JS-to-JS transpiler to support new features on older implementations.
+* [Coco](../coco): Last commit 2014
+* [CoffeeScript](../coffeescript)
+* [Lightscript](../lightscript)
+* [Livescript](../livescript): Last commit 2018
+* [PureScript](../purescript)
+* [Rescript](../rescript)
+* [TypeScript](../typescript)
+* [SweetJS](../sweetjs): Syntactic sugar (semantic macros) on top of JS
+
+### FFI bindings
+To any JS engine (not direct FFI)
+
+* nbind: a set of headers that make your C++11 library accessible from JavaScript.
+	- https://github.com/charto/nbind
+	- https://github.com/charto/nbind#readme
+
+
+### Tierless
+
+* [Fun](../fun): A programming language for realtime webapps - compiles to client-side and server-side JS.
+* [Ur](../../ur): In the tradition of ML and Haskell.
+* [mobl](../../mobl): The new language for programming the mobile web.
+* [E](../../e): Compiles E to JS. E is a secure distributed persistent pure object language.
+* [Sugar](../sugar): New programming language designed to replace JavaScript for client-side (and server-side) web development
+* [Opa](../../opa): Write your complete application in just one language, and the compiler will transform it into a self-sufficient executable
+* [STIP.js](../../stip): Slicing Tierless Programs in JavaScript
+
+### Other JS-related implementations
+
+* [OMetaJS](https://www.npmjs.com/package/ometajs) ([Source](https://github.com/veged/ometa-js)): a JavaScript implementation of [OMeta](/languages/ometa), an object-oriented language for pattern matching; see also [OMeta](../../ometa)
+
+### Other JS-related language-related libraries
+
+* [neverthrow](https://github.com/supermacro/neverthrow): Type-Safe Errors for JS & TypeScript
+
+## Reading
+
+* [JavaScript Promises... in Wicked Detail](https://mattgreer.dev/articles/promises-in-wicked-detail/)
+* [SICP in ECMAScript](../sicpjs.pdf)
+* [Code as Data](../code-as-data)
+
 ## History
 From the Specification home page, a history:
 > ECMAScript is based on several originating technologies, the most well-known being JavaScript (Netscape) and JScript (Microsoft). The language was invented by Brendan Eich at Netscape and first appeared in that company's Navigator 2.0 browser. It has appeared in all subsequent browsers from Netscape and in all browsers from Microsoft starting with Internet Explorer 3.0.
@@ -48,72 +116,3 @@ From the Specification home page, a history:
 
 ### ECMAScript 2019
 > This specification, the 10th edition, introduces a few new built-in functions: flat and flatMap on Array.prototype for flattening arrays, Object.fromEntries for directly turning the return value of Object.entries into a new Object, and trimStart and trimEnd on String.prototype as better-named alternatives to the widely implemented but non-standard String.prototype.trimLeft and trimRight built-ins. In addition, this specification includes a few minor updates to syntax and semantics. Updated syntax includes optional catch binding parameters and allowing U+2028 (LINE SEPARATOR) and U+2029 (PARAGRAPH SEPARATOR) in string literals to align with JSON. Other updates include requiring that Array.prototype.sort be a stable sort, requiring that JSON.stringify return well-formed UTF-8 regardless of input, and clarifying Function.prototype.toString by requiring that it either return the corresponding original source text or a standard placeholder.
-
-### Implementations
-* [Native: WebKit JavaScriptCore](https://github.com/WebKit/WebKit/tree/main/Source/JavaScriptCore): the JavaScript engine that comes as part of the larger open-source [WebKit](https://github.com/WebKit/) browser core.
-* [C/C++: mjs](https://github.com/cesanta/mjs) Embedded JavaScript for C/C++, designed for microcontrollers with limited resources. Implements a strict subset of ES6.
-* [C/C++: QuickJS](https://bellard.org/quickjs/): a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
-* [C/C++: V8](/vms/v8): The engine below NodeJS from Google.
-* [CLR: jint](../jint)
-* [CLR: Yantra](../yantra)
-* [CLR: Jurassic](../jurassic)
-* [CLR: IronJS](../ironjs)
-* JVM: Nashorn: [Nashorn Blog](https://blogs.oracle.com/nashorn/) is at Oracle but Nashorn appears to have moved to JetBrains ownership/development [here](https://github.com/JetBrains/jdk8u_nashorn)
-* [JVM: Rhino](https://github.com/mozilla/rhino) (includes [E4X](../e4x) support)
-* [JVM: Graal.js](https://github.com/graalvm/graaljs) part of [GraalVM](/vms/graalvm.html)
-* [JVM: RingoJS](https://ringojs.org/) ([Source](https://github.com/ringo/ringojs/))
-* [Rust: Boa](https://github.com/boa-dev/boa)
-* [Rust: Deno](https://github.com/denoland/deno)
-* [Zig: Bun](https://bun.sh/) ([Source](https://github.com/oven-sh/bun)): a fast all-in-one JavaScript runtime, written in [Zig](/languages/zig).
-
-Module systems
-* [Asynchronous Module Definition API (AMD)](https://github.com/amdjs/amdjs-api/blob/master/AMD.md)
-    * [r.js](https://github.com/requirejs/r.js): A command line tool for running JavaScript scripts that use the Asynchronous Module Definition API (AMD) for declaring and using JavaScript modules and regular JavaScript script files. It is part of the RequireJS project, and works with the RequireJS implementation of AMD.
-
-### Transpilers
-[List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS)
-
-* [Coco](../coco): Last commit 2014
-* [CoffeeScript](../coffeescript)
-* [Lightscript](../lightscript)
-* [Livescript](../livescript): Last commit 2018
-* [PureScript](../purescript)
-* [Rescript](../rescript)
-* [TypeScript](../typescript)
-* [SweetJS](../sweetjs): Syntactic sugar (semantic macros) on top of JS
-
-### FFI bindings
-To any JS engine (not direct FFI)
-
-* nbind: a set of headers that make your C++11 library accessible from JavaScript.
-	- https://github.com/charto/nbind
-	- https://github.com/charto/nbind#readme
-
-
-### SQL
-
-* [sql.js](http://sql.js.org/) ([Source](https://github.com/sql-js/sql.js)): SQLite compiled to Javascript
-
-### Tierless
-
-* [Fun](../fun): A programming language for realtime webapps - compiles to client-side and server-side JS.
-* [Ur](../../ur): In the tradition of ML and Haskell.
-* [mobl](../../mobl): The new language for programming the mobile web.
-* [E](../../e): Compiles E to JS. E is a secure distributed persistent pure object language.
-* [Sugar](../sugar): New programming language designed to replace JavaScript for client-side (and server-side) web development
-* [Opa](../../opa): Write your complete application in just one language, and the compiler will transform it into a self-sufficient executable
-* [STIP.js](../../stip): Slicing Tierless Programs in JavaScript
-
-### Other JS-related implementations
-
-* [OMetaJS](https://www.npmjs.com/package/ometajs) ([Source](https://github.com/veged/ometa-js)): a JavaScript implementation of [OMeta](/languages/ometa), an object-oriented language for pattern matching; see also [OMeta](../../ometa)
-
-### Other JS-related language-related libraries
-
-* [neverthrow](https://github.com/supermacro/neverthrow): Type-Safe Errors for JS & TypeScript
-
-## Reading
-
-* [JavaScript Promises... in Wicked Detail](https://mattgreer.dev/articles/promises-in-wicked-detail/)
-* [SICP in ECMAScript](../sicpjs.pdf)
-* [Code as Data](../code-as-data)
