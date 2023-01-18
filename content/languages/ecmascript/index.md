@@ -63,7 +63,7 @@ To any JS engine (not direct FFI)
 
 ### Other JS-related implementations
 
-* [OMetaJS](https://www.npmjs.com/package/ometajs) ([Source](https://github.com/veged/ometa-js)): a JavaScript implementation of [OMeta](/languages/ometa), an object-oriented language for pattern matching; see also [OMeta](../../ometa)
+* [OMetaJS](https://www.npmjs.com/package/ometajs) ([Source](https://github.com/veged/ometa-js)): a JavaScript implementation of [OMeta](/languages/ometa), an object-oriented language for pattern matching; see the [dissertation](https://web.cs.ucla.edu/~todd/theses/warth_dissertation.pdf); see also [OMeta](../../ometa)
 
 ### Other JS-related language-related libraries
 

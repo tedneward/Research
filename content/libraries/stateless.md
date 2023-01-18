@@ -29,3 +29,8 @@ phoneCall.Configure(State.Connected)
 phoneCall.Fire(Trigger.CallDialled);
 Assert.AreEqual(State.Ringing, phoneCall.State);
 ```
+
+## Articles
+
+* ["Modelig Workflows with Finite State Machines in .NET"](https://www.lloydatkinson.net/posts/2022/modelling-workflows-with-finite-state-machines-in-dotnet/)
+
