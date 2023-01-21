@@ -19,12 +19,11 @@ Primary features:
 
 To quickly try out RedisGraph, launch an instance using docker: `docker run -p 6379:6379 -it --rm redislabs/redisgraph`
 
-Give it a try ¶
-After you load RedisGraph, you can interact with it using redis-cli.
+After you load RedisGraph, you can interact with it using `redis-cli`.
 
 Here we'll quickly create a small graph representing a subset of motorcycle riders and teams taking part in the MotoGP league. Once created, we'll start querying our data.
 
-With redis-cli ¶
+With redis-cli
 ```
 $ redis-cli
 127.0.0.1:6379> GRAPH.QUERY MotoGP "CREATE (:Rider {name:'Valentino Rossi'})-[:rides]->(:Team {name:'Yamaha'}), (:Rider {name:'Dani Pedrosa'})-[:rides]->(:Team {name:'Honda'}), (:Rider {name:'Andrea Dovizioso'})-[:rides]->(:Team {name:'Ducati'})"
