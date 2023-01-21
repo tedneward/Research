@@ -17,7 +17,7 @@ summary=A functional/reactive cross-platform mobile framework.
 
 [Flutter by Example](https://github.com/mjohnsullivan/flutter-by-example): Twenty-odd samples detailing common tasks with Flutter: how to use text fields, streams and StreamBuilders, and more.
 
-[Flutter for web samples](web) _(Flutter team)_: A collection of Flutter samples structured as Flutter for web projects. You can see them in action at https://flutter.github.io/samples.
+[Flutter for web samples](https://flutter.github.io/samples/#): A collection of Flutter samples structured as Flutter for web projects. Most source is at https://github.com/flutter/samples/ .
 
 [21 Flutter Example Apps](https://www.devaradise.com/flutter-example-apps): Not a bad little collection, with source code, of some apps.
 

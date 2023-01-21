@@ -452,6 +452,22 @@ There is a long assorted list. Here is an attempt to put its items into buckets:
 8. "Have you seen someone here do great work that's gone unnoticed?"
 9. "Are there things you don't know about the company that you feel you should know?"
 
+#### 1-on-1 Toolkit
+
+"The 1-on-1 Toolkit is my mission control for managing my teams; it's where we define actionable goals that are tied to specific sections of the career ladder, track progress towards each goal, set 1:1 agendas so that time is well-spent and focused on clear objectives, and capture kudos—all in one place.
+
+1. "A partnership agreement". Agree on what matters for you and your managee and what you expect from each other.
+
+2. "Organized meeting notes, action items, reminders. Keeping these agenda items up to date is critical to maximizing our 1-on-1 time."
+
+3. "An up-to-date development plan." It can be revisited quarterly and followed closely to ensure you keep sight of the employee's goals.
+
+4. "A Hype document." A repository of everything the employee has achieved, all the praise they have received, and other small items that show and hype their impact.
+
+5. "Learning resources." You will often end up recommending readings, courses, or other resources. This page is an invitation to capitalize on them.
+
+from https://coda.io/@jenniferemick/squares-1-on-1-toolkit
+
 #### Ashlee Clifton (Rocket Mortgage) 1:1s
 
 * My personal Beliefs and expectations that carry into work - These are your personal ISMs.  List your beliefs and expectations so it is clear for your team members what you expect.
