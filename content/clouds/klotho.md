@@ -1,5 +1,5 @@
 title=Klotho
-tags=
+tags=cloud, tool
 summary=Applies static analysis to create an adaptive architecture based on in-code annotations it introduces. It also produces the files needed to deploy, run and operate the application in your cloud of choice.
 ~~~~~~
 
