@@ -17,11 +17,23 @@ summary=A functional/reactive cross-platform mobile framework.
 
 [Flutter by Example](https://github.com/mjohnsullivan/flutter-by-example): Twenty-odd samples detailing common tasks with Flutter: how to use text fields, streams and StreamBuilders, and more.
 
-[Flutter for web samples](web) _(Flutter team)_: A collection of Flutter samples structured as Flutter for web projects. You can see them in action at https://flutter.github.io/samples.
+[Flutter for web samples](https://flutter.github.io/samples/#): A collection of Flutter samples structured as Flutter for web projects. Most source is at https://github.com/flutter/samples/ .
+
+[21 Flutter Example Apps](https://www.devaradise.com/flutter-example-apps): Not a bad little collection, with source code, of some apps.
+
+* [flutter-todos](https://github.com/asjqkkkk/flutter-todos)
+* [Taskist](https://github.com/huextrat/Taskist)
+* [recipes](https://github.com/bimsina/recipes)
+* [Stack Overflow clone](https://github.com/iampawan/FlutterStackOverflowApp)
+* [Pokemon App](https://github.com/iampawan/PokemonApp)
+
+[70+ Flutter projects](https://www.theinsaneapp.com/2021/06/flutter-projects-with-source-code.html)
 
 [FilledStacks tutorials](https://github.com/FilledStacks/flutter-tutorials)
 
 [Flutterboy20 examples](https://github.com/flutterboy20): Small collection of examples, not all are filled in or up to date
+
+[Flutter examples](https://github.com/nisrulz/flutter-examples): [Website](https://nisrulz.com/flutter-examples/)
 
 ### Architecture / networking / backend
 
