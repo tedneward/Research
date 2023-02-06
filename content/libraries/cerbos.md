@@ -26,9 +26,35 @@ summary=Authorization as a service (or library), decoupled from actual code.
     * Bare metal
     * Virtual machine"
 
-Implemented in Go. SDKs in ECMAScript, Python, PHP, JVM, CLR, Rust, Ruby, GraphQL(?), Prisma(?), SQLAlchemy(?), ExpressJS, NextJS, NestJS, Remix (React?), SvelteKit, FastAPI(?)
+Implemented in Go. SDKs in ECMAScript, Python, PHP, JVM, CLR, Rust, Ruby, GraphQL(?), Prisma(?), SQLAlchemy(?), ExpressJS, NextJS, NestJS, Remix (React?), SvelteKit, FastAPI(?).
 
 Remote calls (REST or gRPC) to service for centralized authorization control.
+
+# Policy file format
+
+YAML.
+
+Example: "CRUD" example [in Playground](https://play.cerbos.dev/p/g4K42DBkZEdPG611f7f84FWZgHYZdB2d?utm_source=website&_gl=1*83jqv4*_ga*MjAzNTk0MTYyMi4xNjc1MjcwMTky*_ga_8G3G3MS838*MTY3NTI3NjM0OS4zLjEuMTY3NTI3NjQ0Ni40Mi4wLjA.) [in GitHub](https://github.com/cerbos/express-jwt-cerbos)
+
+```yaml
+---
+apiVersion: api.cerbos.dev/v1
+resourcePolicy:
+  version: default
+  resource: contact
+  rules:
+  - actions: ["read", "list"]
+    roles:
+      - admin
+      - user
+    effect: EFFECT_ALLOW
+
+  - actions: ["create", "update", "delete"]
+    roles:
+      - admin
+    effect: EFFECT_ALLOW
+```
+
 
 # SDKs
 
@@ -55,11 +81,15 @@ repositories {
 
 ### Creating a client without TLS
 
+*NOTE: Imports not listed*: `import dev.cerbos.sdk.*; import dev.cerbos.sdk.builders.*;`
+
 ```java
 CerbosBlockingClient client=new CerbosClientBuilder("localhost:3593").withPlaintext().buildBlockingClient();
 ```
 
 ### Check a single principal and resource
+
+*NOTE: Requires static import*: `import static dev.cerbos.sdk.builders.AttributeValue;` for `stringValue` calls below to compile.
 
 ```java
 CheckResult result=client.check(
