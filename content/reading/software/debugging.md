@@ -7,6 +7,7 @@ summary=A collection of reading links and resources on debugging
 	+ http://program-repair.org/
 * UNIX Debugger Translation Table: gdb, lldb, dbx, adb, sdb
 	+ https://www.lurklurk.org/debuggers.html
+* [The Pocket Guide to Debugging](https://wizardzines.com/zines/debugging-guide/)
 
 ---
 
