@@ -48,6 +48,7 @@ Distributed systems are the means by which programs on one machine communicate w
 * ["The Distributed Computing Manifesto"](https://www.allthingsdistributed.com/2022/11/amazon-1998-distributed-computing-manifesto.html): "Today, I am publishing the Distributed Computing Manifesto, a canonical document from the early days of Amazon that transformed the architecture of Amazon’s ecommerce platform. It highlights the challenges we were facing at the end of the 20th century, and hints at where we were headed." --Werner Vogels
 * [dancres.github.io](https://dancres.github.io/Pages/)
 * ["How we built r/Place"](https://www.redditinc.com/blog/how-we-built-rplace): Place was a project by Reddit where users could place a single colored tile on a collaborative canvas every few minutes. Each tile placed was relayed to observers in real-time. This article discusses how multiple engineering teams worked together to create Place.
+* ["Goodbye Microservices: From 100s of problem children to 1 superstar"](https://segment.com/blog/goodbye-microservices/)
 
 ### Networking (Fundamentals, et al)
 
