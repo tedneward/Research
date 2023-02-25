@@ -167,3 +167,5 @@ tags=presentation
 [Web Design Primer](https://pressbooks.library.ryerson.ca/webdesign/) - Richard Adams, Ahmed Sagarwala
 
 [Web Style Guide Online](https://www.webstyleguide.com/wsg3/index.html) - Patrick J. Lynch and Sarah Horton
+
+[Visual design rules you can safely follow every time](https://anthonyhobday.com/sideprojects/saferules/)
