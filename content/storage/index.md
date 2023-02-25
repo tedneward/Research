@@ -58,7 +58,11 @@ List of graph dbs to add (from TinkerPop page):
 
 ### [Column-oriented (columnar)](/tags/columnar.html)
 
+Cassandra
+
 ### [Key-value store](/tags/keyvalue.html)
+
+Redis
 
 ## Topology options
 
@@ -92,4 +96,6 @@ Some storage engines also allow for code-hosting, in which code executes inside 
 * [Information Retrieval: A Survey](http://www.csee.umbc.edu/csee/research/cadip/readings/IR.report.120600.book.pdf) (PDF)
 * [Introduction to Information Retrieval](http://nlp.stanford.edu/IR-book/information-retrieval-book.html)
 
+## Storage and retrieval
 
+["Don't use your ORM entities for everything--embrace the SQL!"](https://www.blackparrotlabs.io/post/architecture-pitfalls-dont-use-your-orm-entities-for-everything): 

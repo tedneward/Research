@@ -35,6 +35,8 @@ summary=Collection of thoughts/essays/etc on developer relations (DevRel).
 
 * [The History of Developer Evangelism](https://joshondesign.com/2017/06/06/history-developer-evangelism): 
 
+* [How DevEx and DevRel can support Go-To-Market](https://www.youtube.com/watch?v=Gl2gZI7CMcg) (video)
+
 * [A Developer Relations Bill of Rights](https://medium.com/glitch/a-developer-relations-bill-of-rights-21381920e273): Every person who does the work of Developer Relations deserves to be supported by an environment which follows these 10 principles:
 
     1. [A clear set of business goals](https://medium.com/glitch/every-dev-rel-professional-deserves-a-clear-set-of-business-goals-f91e1a558046): Every developer relations professional should know how their work contributes to helping their organization achieve its business goals.
@@ -73,13 +75,7 @@ summary=Collection of thoughts/essays/etc on developer relations (DevRel).
         - Give constructive feedback to the product teams and get questions answered
         - Collate outside feedback and convert to constructive feedback
 
-## Conferences
 
-*(Those conferences which are "meta" about DevRel (that is, they talk about DevRel itself--not just about develoeprs or developing software).)*
-
-[DevRelCon](https://developerrelations.com/devrelcon)
-
-[DevRelX Summit](https://www.devrelxsummit.com/)
 
 ## Resources 
 *(from [AndyPiper](https://gist.github.com/andypiper/7fdb73f9713b7e1f7e5e7ac373f635cb))*
