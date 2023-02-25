@@ -1,5 +1,5 @@
 title=Global Software Architecture Summit (GSAS)
-tag=conference, architecture
+tags=conference, architecture
 summary=Barcelona, Architecture, October.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=DevRelCon
-tag=conference, devrel
+tags=conference, devrel
 summary=A conference on DevRel.
 ~~~~~~
 
