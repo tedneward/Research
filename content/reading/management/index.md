@@ -45,6 +45,10 @@ summary=Collection of thoughts/essays/etc on managing people.
 
 * [The myth of the flat start-up: Reconsidering the organizational structure of start-ups](https://onlinelibrary.wiley.com/doi/epdf/10.1002/smj.3333): "My study cautions against [the myth that start-ups should be flat], suggesting that adding a few hierarchical levels of mangers can substantially help start-ups achieve commercial success and survive in their hostile environments, albeit at a potentially marginal cost of creativity."
 
+* ["Measuring an engineering organization"](https://lethain.com/measuring-engineering-organizations/)
+
+* ["Developer Productivity at Google"](https://newsletter.abinoda.com/p/developer-productivity-at-google); discusses the paper ["What improves developer productivity at google? code quality"](https://dl.acm.org/doi/10.1145/3540250.3558940)
+
 * ["5 Things That Change When You Become a Leader"](https://hbr.org/2022/01/5-things-that-change-when-you-become-a-leader) (HBR, Jan 18 2022): 
     1. **Your friends are no longer your friends.** Effective leadership demands that you be even-handed in your treatment of every team member. The rule of thumb is to be *friendly, not friends* with your people.
     2. **You have a duty of care.** You used to be responsible only for your own behavior and performance; now that responsibility extends to every individual on the team. You have to ensure that your people have clear objectives; that their physical and mental well-being are safeguarded; that they're given clear feedback and strong direction.

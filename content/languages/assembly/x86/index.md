@@ -23,6 +23,7 @@ summary=The native assembly language of the Intel x86 family.
   + Talks:
     - STOKE: Search-Based Compiler Optimization - Alex Aiken (2016) - https://www.youtube.com/watch?v=rZFeTTFp7x4
     - Stochastic Optimization for x86 Binaries - Eric Schkufza (2015) - https://www.youtube.com/watch?v=aD9mZDJzb58
+* [asmcfg](https://github.com/badlogic/asmcfg): An assembly control flow graph/basic block visualizer for the web
 
 ## Reading
 

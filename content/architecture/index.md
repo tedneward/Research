@@ -61,6 +61,12 @@ Tomas Petricek's writings on the subject:
 * [Test Driven Development, Extensive Tutorial](https://github.com/grzesiek-galezowski/tdd-ebook) - Grzegorz Gałęzowski
 * [The Site Reliability Workbook](https://landing.google.com/sre/workbook/toc/) - Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara and Stephen Thorne
 * [Why a programmer might actually be a good urban planner](https://b1z0n.pro/why-the-programmers-might-be-good-urban-planners1/)
+* [WSO2 Reference Architecture](https://github.com/wso2/reference-architecture):
+    * [Cell-Based Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-architecture-cell-based.md)
+    * [Event-Driven APIs in Microservice Architectures](https://github.com/wso2/reference-architecture/blob/master/event-driven-api-architecture.md)
+    * [Layered and Segmented Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-architecture-layered-segmented.md)
+    * [Cloud-Native Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-cloud-native-architecture-digital-enterprise.md) 
+
 
 ## Interesting exemplars/templates/links
 
