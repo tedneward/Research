@@ -23,6 +23,8 @@ summary=Collection of thoughts/essays/etc on managing people.
 
 * [People don't work as much as you think](https://drmaciver.substack.com/p/people-dont-work-as-much-as-you-think):
 
+* ["The Tyranny of The Plan"](https://chrisgagne.com/1255/mary-poppendiecks-the-tyranny-of-the-plan/)
+
 * [A fractal of lies](https://drmaciver.substack.com/p/a-fractal-of-lies): Dr House was right: everybody lies. (More to the point, studies are often built off of interviews and interrogation, and people have a habit of telling interviewers not-entirely-truthful things for a variety of reasons.) "Whenever there is an advantage, or a power gradient, or a political agenda, or people just want to fuck with you for their own amusement, probably there are lies. And then people repeat those lies - sometimes purely innocently, sometimes adding their own lies on top."
 
 * [What Google Learned From Its Quest to Build the Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html) (New York Times):
@@ -364,6 +366,8 @@ summary=Collection of thoughts/essays/etc on managing people.
 These are some notes from insightful blog posts on what it takes to be an effective tech lead.
 
 ["An Exact Breakdown of How One CEO Spent His First Two Years of Company-Building"](https://review.firstround.com/an-exact-breakdown-of-how-one-ceo-spent-his-first-two-years-of-company-building)
+
+["Silent meetings and feedback on the count of three: How Ramp uses writing culture to grow"](https://slab.com/blog/how-ramp-uses-writing-culture-to-grow/)
 
 ### [Effective Technical Leadership](https://medium.com/@davidbyttow/effective-technical-leadership-b193a544e771)
 
