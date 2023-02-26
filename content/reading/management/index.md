@@ -363,6 +363,8 @@ summary=Collection of thoughts/essays/etc on managing people.
 
 These are some notes from insightful blog posts on what it takes to be an effective tech lead.
 
+["An Exact Breakdown of How One CEO Spent His First Two Years of Company-Building"](https://review.firstround.com/an-exact-breakdown-of-how-one-ceo-spent-his-first-two-years-of-company-building)
+
 ### [Effective Technical Leadership](https://medium.com/@davidbyttow/effective-technical-leadership-b193a544e771)
 
 What makes a badass TL is broken down into three A's: attributes, activities and actions.

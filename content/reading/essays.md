@@ -3,6 +3,8 @@ tags=reading
 summary=Random collection of long-form thoughts.
 ~~~~~~
 
+- [4 Lessons I wish I knew earlier on in my professional career](https://jv-la.com/journal/2022/lessons-earlier-professional-career/)
+
 - [How Team Obama's tech efficiency left Romney IT in dust](https://arstechnica.com/information-technology/2012/11/how-team-obamas-tech-efficiency-left-romney-it-in-dust/)
 
 ["Does DNA have the equivalent of IF-statements, WHILE loops, or function calls? How about GOTO?"](https://biology.stackexchange.com/questions/30116/does-dna-have-the-equivalent-of-if-statements-while-loops-or-function-calls-h): Short answer, sort of:

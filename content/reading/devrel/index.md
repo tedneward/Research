@@ -31,6 +31,8 @@ summary=Collection of thoughts/essays/etc on developer relations (DevRel).
 
 * ["What is Developer Relations" (Forbes.com)](https://www.forbes.com/sites/justinwarren/2019/08/14/what-is-developer-relations/?sh=7e8a9ec63fa4)
 
+* ["So you're starting a new DevRel job..."](https://dev.to/jerdog/so-youre-starting-a-new-devrel-job-277e)
+
 * [Planning a Developer Relations Strategy](https://dzone.com/articles/planning-a-developer-relations-strategy-part-1) - Matthew Revell of Hoopy
 
 * [The History of Developer Evangelism](https://joshondesign.com/2017/06/06/history-developer-evangelism): 

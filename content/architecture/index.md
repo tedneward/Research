@@ -18,6 +18,10 @@ Tomas Petricek's writings on the subject:
 
 ["Don't Call It a Platform"](https://samnewman.io/blog/2023/02/08/dont-call-it-a-platform/): "Habitability, in the broadest sense, describes how nice (or not) the experience is for the people who have to live in a system. ... I make the argument that we ignore habitability at our peril. Those of us in a place to shape the lived experiences of our colleagues have a duty of care to ensure that we take their needs to heart."
 
+["DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together"](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/)
+
+["The cloudy layers of modern-day programming"](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/)
+
 [Platform Engineering Teams Done Right...](https://adrianco.medium.com/platform-engineering-teams-done-right-b3b3d4a8ad23)
 
 [The 12-Factor App](https://12factor.net/):
@@ -40,6 +44,8 @@ Tomas Petricek's writings on the subject:
 
 ## Reading
 
+* [10 Most Popular Software Architectural Patterns](https://nix-united.com/blog/10-common-software-architectural-patterns-part-1/)
+* [Architectural Patterns](https://books.google.com/books/about/Architectural_Patterns.html?id=RvNFDwAAQBAJ&printsec=frontcover&source=kp_read_button&hl=en&newbks=1&newbks_redir=0&gboemv=1#v=onepage&q&f=false) (Book)
 * [Architectural Styles and the Design of Network-based Software Architectures](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) - Roy Thomas Fielding
 * [Best Kept Secrets of Peer Code Review](http://smartbear.com/lp/ebook/collaborator/secrets-of-peer-code-review/)
 * [Building Secure & Reliable Systems](./building_secure_and_reliable_systems.pdf) - Heather Adkins, Betsy Beyer, Paul Blankinship, Piotr Lewandowski, Ana Oprea & Adam Stubblefield (PDF)

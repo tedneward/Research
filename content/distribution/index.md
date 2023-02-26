@@ -28,6 +28,8 @@ Distributed systems are the means by which programs on one machine communicate w
 
 ## Auth-n-Auth and SSO
 
+* ["Enabling user authentication in Swagger using Microsoft Identity"](https://www.josephguadagno.net/2022/06/03/enabling-user-authentication-in-swagger-using-microsoft-identity)
+
 ### Proprietary/Cloud
 
 * Auth0

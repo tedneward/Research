@@ -26,3 +26,4 @@ Looks to be commercial plans only; can't find a way to explore them w/o paying m
 ## Tools
 
 * [gh](https://cli.github.com/) https://github.com/cli/cli): GitHub's official CLI tool
+* [beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile): This repository helps you to have a more beautiful and attractive github profile, and you can access a complete set of tools and guides for beautifying your github profile.

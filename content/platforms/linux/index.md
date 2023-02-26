@@ -21,3 +21,6 @@ Distributions:
 
 [Linux Insides](https://0xax.gitbooks.io/linux-insides/content/): A book-in-progress about the linux kernel and its insides.
 
+## Building
+
+Video - [Building Your Own Linux Kernel Might Not Be As Hard As You Think](https://www.youtube.com/watch?app=desktop&v=SH3v0S32io4)
