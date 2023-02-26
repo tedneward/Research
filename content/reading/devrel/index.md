@@ -37,6 +37,16 @@ summary=Collection of thoughts/essays/etc on developer relations (DevRel).
 
 * [How DevEx and DevRel can support Go-To-Market](https://www.youtube.com/watch?v=Gl2gZI7CMcg) (video)
 
+* [DevRel the Ultimate Guide](https://opensenselabs.com/blog/articles/developer-relations-ultimate-guide)
+
+* [The Four Pillars of DevRel](https://developerrelations.com/strategy-and-metrics/the-four-pillars-of-developer-relations)
+
+* [Planning your DevRel's Team Strategy](https://developerrelations.com/strategy-and-metrics/planning-your-teams-dev-rel-strategy-naomi-pentrel)
+
+* [R3's 2020 DevRel plan](https://medium.com/corda/r3s-2020-developer-relations-plan-f22ca87837e1)
+
+* [How to seed, grow, and scale DevRel](https://posthog.com/blog/seed-grow-scale-devrel)
+
 * [A Developer Relations Bill of Rights](https://medium.com/glitch/a-developer-relations-bill-of-rights-21381920e273): Every person who does the work of Developer Relations deserves to be supported by an environment which follows these 10 principles:
 
     1. [A clear set of business goals](https://medium.com/glitch/every-dev-rel-professional-deserves-a-clear-set-of-business-goals-f91e1a558046): Every developer relations professional should know how their work contributes to helping their organization achieve its business goals.

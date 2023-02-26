@@ -1,5 +1,5 @@
 title=Supabase
-tags=backend, platform
+tags=backend, storage, platform
 summary=Backend server with REST APIs to manage core backend needs.
 ~~~~~~
 
@@ -14,3 +14,7 @@ Features
 * Real-time database listeners.
 * JavaScript library and APIs.
 * Functions
+
+## Articles
+
+["Build a Realtime Chat App with Remix and Supabase"](https://egghead.io/courses/build-a-realtime-chat-app-with-remix-and-supabase-d36e2618)

@@ -36,6 +36,8 @@ Tomas Petricek's writings on the subject:
 
 [Don't Start with Microservices--Monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
 
+[The Nature of Software](https://buttondown.email/natureofsoftware)
+
 ## Reading
 
 * [Architectural Styles and the Design of Network-based Software Architectures](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) - Roy Thomas Fielding
@@ -55,6 +57,7 @@ Tomas Petricek's writings on the subject:
 * [Serverless Design Patterns and Best Practices](https://www.packtpub.com/free-ebooks/serverless-design-patterns-and-best-practices) - Brian Zambrano (Packt account *required*)
 * [Shape Up - Stop Running in Circles and Ship Work that Matters](https://basecamp.com/shapeup) - Ryan Singer (PDF)
 * [Site Reliability Engineering](https://landing.google.com/sre/book/index.html)
+* Six Event-Driven Archicture Patterns: [Part 1]](https://medium.com/wix-engineering/6-event-driven-architecture-patterns-part-1-93758b253f47) [Part 2](https://medium.com/wix-engineering/6-event-driven-architecture-patterns-part-2-455cc73b22e1)
 * [Software Architecture Patterns](http://www.oreilly.com/programming/free/software-architecture-patterns.csp) (email address *requested*, not required)
 * [Software Engineering for Internet Applications](http://philip.greenspun.com/seia/)
 * [Source Making Design Patterns and UML](https://sourcemaking.com/design_patterns)

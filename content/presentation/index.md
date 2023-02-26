@@ -11,6 +11,8 @@ tags=presentation
 
 ["The Balance has Shifted Away from SPAs"](https://nolanlawson.com/2022/05/21/the-balance-has-shifted-away-from-spas/)
 
+["A Whole Website in a Single JavaScript File"](https://deno.com/blog/a-whole-website-in-a-single-js-file)
+
 [ECMA Report on User Interface Taxonomy](https://www.ecma-international.org/wp-content/uploads/ECMA_TR-61_1st_edition_june_1992.pdf) (June 1992): Interesting high-level overview of different ideas around user interface and a taxonomy of that space:
 
 * UI structure
