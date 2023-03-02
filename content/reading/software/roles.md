@@ -3,6 +3,8 @@ tags=reading, management, development
 summary=A collection of links and notes on the different roles that can/do appear in software dev teams.
 ~~~~~~
 
+## Technical Program Manager (TPM)
+
 [Pragmatic Engineer](https://newsletter.pragmaticengineer.com/)
 
 * ["What TPMs Do and What Software Engineers Can Learn From Them"](https://newsletter.pragmaticengineer.com/p/what-tpms-do)
