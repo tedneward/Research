@@ -10,3 +10,4 @@ summary=1105 Media's conference about Microsoft.
 * Microsoft HQ: 07-17-2023 to 07-21-2023
 * San Diego: 08-07-2023 to 08-11-2023
 * Orlando: 11-12-2023 to 11-17-2023; [CFP](https://sessionize.com/live360_2023/) closes March 13 2023
+
