@@ -65,6 +65,8 @@ using (var connection = new SqliteConnection("Data Source=hello.db"))
 
 [A fast SQLite PWA notebook for CSV files](https://dirtylittlesql.com/) ([Source](https://github.com/mwenge/dirtylittlesql.com), uses [sql.js](https://github.com/sql-js/sql.js) (The database is a web-assembly version of SQLite called sql.js that runs in your browser.), [VSV](http://www.dessus.com/files/vsv.c) (It also uses a SQLite extension called vsv to load delimited text files quickly.), [Codemirror](https://codemirror.net/) (Syntax highlighting), [sheet.js](https://sheetjs.com/) (Excel and Openoffice support.), [chart.js](https://chartjs.org/) (Charts), and [LocalForage](https://github.com/localForage/localForage) (IndexedDB for efficient local storage.) under the hood.)
 
+[SQLStudio](https://sqlitestudio.pl/) ([Source](https://github.com/pawelsalawa/sqlitestudio)): A free, open source, multi-platform SQLite database manager.
+
 ---
 
 [WS4SQLite](https://github.com/proofrock/ws4sqlite): Query sqlite via http
