@@ -26,6 +26,7 @@ See also the [JVM VM(s)](/vms/jvm) and [Platform](/platforms/jvm).
 - [Java](../java)
 - [Jelly](../jelly)
 - [Join Java](../joinjava)
+- [Kawa](../kawa)
 - [Kotlin](../kotlin)
 - [Mirah](../mirah)
 - [Pizza](../pizza)

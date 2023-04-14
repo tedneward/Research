@@ -28,6 +28,7 @@ High-level resources/links around software architecture--styles, analysis, etc.
 ## Reading
 
 * [Architectural Styles and the Design of Network-based Software Architectures](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) - Roy Thomas Fielding
+* ["Architecture vs Model"](https://kalele.io/architecture-vs-model/): "One of the biggest problems with business software is that architecture gets promoted more than the domain model. Further, most domain models are ordinary, and could be implemented by school students for a lot less cost than the 7-9 figures often spent. Yet, often the software architecture supporting a model—almost certainly anemic—is generally over engineered."
 * [Best Kept Secrets of Peer Code Review](http://smartbear.com/lp/ebook/collaborator/secrets-of-peer-code-review/)
 * [Building Secure & Reliable Systems](https://static.googleusercontent.com/media/landing.google.com/en//sre/static/pdf/Building_Secure_and_Reliable_Systems.pdf) - Heather Adkins, Betsy Beyer, Paul Blankinship, Piotr Lewandowski, Ana Oprea & Adam Stubblefield (PDF)
 * [Domain Driven Design Quickly](http://www.infoq.com/minibooks/domain-driven-design-quickly)

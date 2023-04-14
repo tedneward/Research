@@ -9,6 +9,10 @@ summary=Collection of material on how to build programming languages.
 
 [The Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler) (JS)
 
+[Scripting and Dynamic Interaction in Java](http://alumni.media.mit.edu/~mt/skij/dynjava/dynjava.html)
+
+[Video: Nashorn: implementing a dynamic language runtime on JVM](https://www.youtube.com/watch?v=KKaHkkpdHxg) (Attila Szegedi)
+
 ***Creating the Bolt Compiler (series):***
 
 * Part 1: [How I wrote my own "proper" programming language](https://mukulrathi.com/create-your-own-programming-language/intro-to-compiler/)

@@ -46,6 +46,24 @@ Distributed systems are the means by which programs on one machine communicate w
 * [dancres.github.io](https://dancres.github.io/Pages/)
 * ["How we built r/Place"](https://www.redditinc.com/blog/how-we-built-rplace): Place was a project by Reddit where users could place a single colored tile on a collaborative canvas every few minutes. Each tile placed was relayed to observers in real-time. This article discusses how multiple engineering teams worked together to create Place.
 
+### Distributed systems patterns
+
+* [Design Patterns and Principles That Support Large Scale Systems](https://medium.com/everything-full-stack/design-patterns-and-principles-that-support-large-scale-systems-f3c9adf89ad0)
+
+    * Idempotence
+    * Embracing Asynchronicity
+    * Health Check (Heartbeat)
+    * Circuit Breaker
+    * Kill Switch/Feature Flag
+    * Bulkhead: "a dividing wall or barrier between compartments a the bottom of a ship. Its job is to isolate an area in case there’s a hole at the bottom — to prevent water from flooding all the ship (it will flood only the compartment in which the hole was created)."
+    * Service Discovery
+    * Timeouts, Sleep, Retries
+    * Fallbacks
+    * Metrics, Monitoring, Alarms
+    * Rate-limiting (User, Service, Geocentric)
+    * Backpressure
+    * Canary release: "Canary testing is a technique used to roll out changes gradually to production. When the monitoring system catches an issue — the canaries are rolled back automatically with minimal damage to production traffic."
+
 ### Networking (Fundamentals, et al)
 
 * [An Introduction to Computer Networks](http://intronetworks.cs.luc.edu) (HTML, PDF, Kindle)
