@@ -55,7 +55,11 @@ tags=backend
 * Hosting
 * Other platform- or vendor-specific functionalities; for instance, Firebase offers Google search indexing"
 
+---
 
+["How I write backends"](https://github.com/fpereiro/backendlore)
+
+["Backend best practices"](https://github.com/futurice/backend-best-practices): An evolving description of general best practices for backend development.
 
 
 

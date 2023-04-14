@@ -4,6 +4,8 @@ summary=The "original" patterns book.
 ~~~~~~
 *(by Gamma, Helm, Johnson, Vlissides (Addison-Wesley, 1995, ISBN 0-201-63361-2) )*
 
+[Quick Reference](http://www.mcdonaldland.info/2007/11/28/40/) [PDF](http://www.mcdonaldland.info/files/designpatterns/designpatternscard.pdf) [Poster](http://www.cafepress.com/codergear)
+
 ### Creational Patterns
 -- Abstract Factory (87): Provide an interface for creating families of related or dependent objects without specifying their concrete classes
 -- Builder (97): Separate the construction of a complex object from its representation so that the same construction process can create different representations

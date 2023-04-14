@@ -9,6 +9,8 @@ summary=Open-source relational database.
 
 ["Optimizing Postgres Queries at Scale"](https://heap.io/blog/optimizing-postgres-queries-at-scale)
 
+[Postgres-wasm](https://github.com/snaplet/postgres-wasm): A PostgreSQL server instance running in a virtual machine running in the browser
+
 ---
 
 [PostgREST](https://postgrest.org/en/stable/): a standalone web server that turns your PostgreSQL database directly into a RESTful API. The structural constraints and permissions in the database determine the API endpoints and operations. [Source](https://github.com/PostgREST)
@@ -22,3 +24,6 @@ summary=Open-source relational database.
 [PostgresQL implementation of LOLCode](https://github.com/eggyknap/pllolcode); [PGCon slides (PDF)](https://www.pgcon.org/2009/schedule/track/Tutorial/159.en.html)
 
 ["Join Data from PostgreSQL Declaratively in GraphQL w/o writing SQL"](https://stepzen.com/blog/join-data-postgresql-declarative-graphql-without-sql)
+
+---
+

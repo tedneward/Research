@@ -35,3 +35,33 @@ There used to be multiple CLR implementations, but all have more or less fallen 
 
 [realmon](https://github.com/maoni0/realmon): A monitoring tool that tells you when GCs happen in a process and some characteristics about these GCs
 
+## Articles
+[Using Named Pipes in C# for Interprocess Communication](https://dev.to/volkanalkilic/using-named-pipes-in-c-for-interprocess-communication-4kp1): 
+
+Named Pipe server:
+```c#
+using (var server = new NamedPipeServerStream("my_pipe_name"))
+{
+    Console.WriteLine("Waiting for client connection...");
+    server.WaitForConnection();
+    Console.WriteLine("Client connected.");
+
+    // Read and write data through the pipe
+}
+```
+
+Client:
+```c#
+using (var client = new NamedPipeClientStream(".", "my_pipe_name", PipeDirection.InOut))
+{
+    Console.WriteLine("Connecting to server...");
+    client.Connect();
+    Console.WriteLine("Connected to server.");
+
+    // Read and write data through the pipe
+}
+```
+
+[Programmatically Convert HTML to PDF in .NET Core C# Without Dependencies](https://dev.to/grapecity/programmatically-convert-html-to-pdf-in-net-core-c-without-dependencies-76f): "... we will learn about the new GcHtml package, tips for migrating from the old to the new GcHtml package, and finally, explore how to use the new GcHtml package for converting HTML to PDF. GcHtml uses a Chrome or Edge browser (already installed in the current system or downloaded from a public website) in headless mode and interacts with it using the WebSocket protocol."
+
+["Track your coding progress on GitHub with a .NET Worker Service"](https://dev.to/sannae/track-my-coding-progress-on-github-with-a-net-worker-service-49g4)

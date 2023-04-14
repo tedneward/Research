@@ -22,3 +22,5 @@ build
 
 .project
 org.eclipse.buildship.core.prefs
+
+bake.sh

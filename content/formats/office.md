@@ -1,5 +1,5 @@
 title=Microsoft Office Protocols and Formats
-tags=format, windows
+tags=format, windows, msoffice
 summary=Detailed technical specifications for Microsoft protocols that are implemented and used by Office to interoperate or communicate with other Microsoft products.
 ~~~~~~
 
@@ -11,3 +11,11 @@ summary=Detailed technical specifications for Microsoft protocols that are imple
 
 ECMA Standards ECMA-376: Office Open XML formats [Overview](https://www.ecma-international.org/wp-content/uploads/OpenXML-White-Paper.pdf) | [Part 1: Fundamentals and Markup Reference](https://www.ecma-international.org/wp-content/uploads/ECMA-376-Fifth-Edition-Part-1-Fundamentals-And-Markup-Language-Reference.zip) | [Part 3: Markup Compatibility and Extensibility](https://www.ecma-international.org/wp-content/uploads/ECMA-376-Fifth-Edition-Part-3-Markup-Compatibility-and-Extensibility.zip) | [Part 4: Transitional Migration Features](https://www.ecma-international.org/wp-content/uploads/ECMA-376-Fifth-Edition-Part-4-Transitional-Migration-Features.zip) (Part 2 is apparently not accepted as a standard) 5th ed, Dec 2016
 
+## Libraries
+
+* .NET: [OpenXMLSDK](/libraries/open-xml-sdk)
+* Java: [POI](https://poi.apache.org/)
+
+### PowerPoint
+
+* .NET: [ShapeCrawler](/libraries/shapecrawler)

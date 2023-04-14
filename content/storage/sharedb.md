@@ -1,5 +1,5 @@
 title=sharedb
-tags=storage, network, relational, document, concurrency
+tags=storage, nodejs, network, relational, document, concurrency
 summary=Realtime database backend based on Operational Transformation (OT).
 ~~~~~~
 

@@ -22,6 +22,7 @@ summary=Native language intended to supplement or replace C/C++ someday.
 * [The Rustc Book](https://doc.rust-lang.org/rustc)
 * [The Rustonomicon](https://doc.rust-lang.org/nomicon)
 * [Why Rust?](https://www.oreilly.com/content/why-rust)
+* [When Rust hurts](https://mmapped.blog/posts/15-when-rust-hurts.html)
 
 ## FFI
 

@@ -4,6 +4,7 @@ summary=Twitter threads of "11 promises"
 ~~~~~~
 
 [First thread](https://twitter.com/MrEchs/status/1516024322409832450):
+
 1. We’ll have a weekly 1:1. I’ll never cancel this meeting, but you can cancel it whenever you like. It’s your time.
 2. Our 1:1 agenda will be in the meeting invite so we remember important topics. But you’re always free to use the time for whatever’s on your mind.
 3. When I schedule a meeting with you, I’ll always say *when I schedule it* what it’s meant to be about. I will not schedule meetings without an agenda.
@@ -17,6 +18,7 @@ summary=Twitter threads of "11 promises"
 11. I will attribute credit appropriately to you and your team. I will never exaggerate my own role or minimize your contribution. I’ll be especially certain to nail down attribution when senior management are hearing of our accomplishments.
 
 [A different (hopefully humorous) take](https://twitter.com/anothercohen/status/1516617310966009859):
+
 1. Your ideas are my ideas. Your job is to make me look as good as possible so that when I get promoted, you get promoted. All ideas funnel through me
 2. On our 1-1s I am going to only talk about me. This isn't a time for you to vent or talk about your feelings. It's a time for me to talk about how good at being a manager I am
 3. Expect me to move or cancel 4 out of every 5 of our meetings. My time is valuable and thus I'll likely need to spend it doing higher priority things.

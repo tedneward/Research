@@ -1,9 +1,9 @@
 title=Essays on Programming
 tags=reading
-summary=Collection of thoughts.
+summary=Random collection of long-form thoughts.
 ~~~~~~
 
-## References
+- [4 Lessons I wish I knew earlier on in my professional career](https://jv-la.com/journal/2022/lessons-earlier-professional-career/)
 
 - [How Team Obama's tech efficiency left Romney IT in dust](https://arstechnica.com/information-technology/2012/11/how-team-obamas-tech-efficiency-left-romney-it-in-dust/)
 

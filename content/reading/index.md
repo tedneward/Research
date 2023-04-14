@@ -9,16 +9,23 @@ Collections of articles and on various topics. Liberal crosslinking expected.
 
 Sub-topics:
 
-* [Agile](/reading/agile/index) - [Tag](http://research.tedneward.com/tags/agile.html)
-* [AI](/reading/ai/index) - [Tag](http://research.tedneward.com/tags/ai.html)
-* [Business](/reading/business/index) - [Tag](http://research.tedneward.com/tags/business.html)
+* [Agile](/reading/agile/index) - Agile, agile processes, variants on agile, ... - [Tag](http://research.tedneward.com/tags/agile.html)
+* [AI](/reading/ai/index) - Artificial intelligence, machine learning, expert systems, ... - [Tag](http://research.tedneward.com/tags/ai.html)
+* [Business](/reading/business/index) - Building a business, running abusiness, marketing, sales - [Tag](http://research.tedneward.com/tags/business.html)
+* [Development](/reading/development/index)
+* [Developer Relations](/reading/devrel/index) - [Tag](http://research.tedneward.com/tags/devrel.html)
 * [Hardware architecture](/reading/hardware-architecture/index) - [Tag](http://research.tedneward.com/tags/hardware.html)
-* [Management](/reading/management/index) - [Tag](http://research.tedneward.com/tags/management.html)
-* [Patterns](/reading/patterns/index) - [Tag](http://research.tedneward.com/tags/patterns.html)
+* [Languages](/reading/languages/index) - Different programming language types (that don't fit into specific language pages)
+* [Language development](/reading/langdev/index) - How to build programming languages - [Tag](http://research.tedneward.com/tags/langdev.html)
+* [Management](/reading/management/index) - How to build and run teams of people - [Tag](http://research.tedneward.com/tags/management.html)
+* [Patterns](/reading/patterns/index) - Software, architecture, and other sorts of GOF-inspired thinking - [Tag](http://research.tedneward.com/tags/patterns.html)
 * [Software (general)](/reading/software/index)
-* [Speaking](/reading/speaking/index) - [Tag](http://research.tedneward.com/tags/speaking.html)
-* [Thinking](/reading/thinking/index) - [Tag](http://research.tedneward.com/tags/thinking.html)
-* [Virtual machines](/reading/vms/index) - [Tag](http://research.tedneward.com/tags/vm.html)
+* [Speaking](/reading/speaking/index) - Standing up in front of a technical crowd and delivering a presentation successfully - [Tag](http://research.tedneward.com/tags/speaking.html)
+* [Thinking](/reading/thinking/index) - Psychology, philosophy, and other things that go on inside the gray matter - [Tag](http://research.tedneward.com/tags/thinking.html)
+* [Virtual machines](/reading/vms/index) - Building/exploring those things we writing languages to run on - [Tag](http://research.tedneward.com/tags/vm.html)
+* [Writing](/reading/writing/index) - [Tag](http://research.tedneward.com/tags/writing.html)
+
+[Paperlist](https://paperlist.io/): Read and share research papers
 
 [25 years of Personal Knowledge Management](https://dsebastien.net/blog/2022-04-03-25-years-of-personal-knowledge-management):
 
@@ -49,5 +56,3 @@ A key paper to read before reading any academic papers: https://blog.acolyer.org
 ---
 
 "A cultural universal is an element, pattern, or trait that is common to all known human cultures worldwide. These include: Personal names, sexual jealousy, music, dance, proverbs, and poetry." --[UberFacts](https://twitter.com/UberFacts/status/1509115472163356686)
-
-[The manifold effects of partisan media on viewers' beliefs and attitudes: A field experiment with Fox News viewers](https://osf.io/jrw26/)

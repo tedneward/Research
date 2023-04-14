@@ -34,6 +34,13 @@ Frequently conjoined with [C](/languages/c); Bjarne wanted C++ to be "as close a
 * [TinyC Compiler](https://bellard.org/tcc/)
 * C++ compiler support - http://en.cppreference.com/w/cpp/compiler_support
 
+### Variants and extensions
+
+* Writing GCC plugins
+	* https://gabrieleserra.ml/blog/2020-08-27-an-introduction-to-gcc-and-gccs-plugins.html
+	* https://stephanfr.blog/2013/05/19/building-gcc-plugins-part-1-c-11-generalized-attributes/
+* [GCC Design-by-Contract invariant plugin](https://github.com/GavinRay97/gcc-invariant-plugin) and [related blog post](https://gavinray97.github.io/blog/adding-invariant-to-cpp-design-by-contract):
+	
 
 ## References
 - https://cppreference.com/

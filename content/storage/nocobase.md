@@ -1,5 +1,5 @@
 title=Nocobase
-tags=storage, low-code
+tags=storage, no-code
 summary=An open source and free no-code development platform.
 ~~~~~~
 

@@ -88,6 +88,37 @@ summary=Collection of thoughts/essays/etc on managing people.
 ## Leadership/You as the leader
 
 ["5 Things That Change When You Become a Leader"](https://hbr.org/2022/01/5-things-that-change-when-you-become-a-leader) (HBR, Jan 18 2022): 
+* [People don't work as much as you think](https://drmaciver.substack.com/p/people-dont-work-as-much-as-you-think):
+
+* ["The Tyranny of The Plan"](https://chrisgagne.com/1255/mary-poppendiecks-the-tyranny-of-the-plan/)
+
+* [A fractal of lies](https://drmaciver.substack.com/p/a-fractal-of-lies): Dr House was right: everybody lies. (More to the point, studies are often built off of interviews and interrogation, and people have a habit of telling interviewers not-entirely-truthful things for a variety of reasons.) "Whenever there is an advantage, or a power gradient, or a political agenda, or people just want to fuck with you for their own amusement, probably there are lies. And then people repeat those lies - sometimes purely innocently, sometimes adding their own lies on top."
+
+* [What Google Learned From Its Quest to Build the Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html) (New York Times):
+
+* [Meet is Murder](https://www.nytimes.com/2016/02/28/magazine/meet-is-murder.html) (New York Times, 2016):
+
+* [Is Blind Hiring the Best Hiring](https://www.nytimes.com/2016/02/28/magazine/is-blind-hiring-the-best-hiring.html) (New York Times, 2016):
+
+* [Failure to Lunch](https://www.nytimes.com/2016/02/28/magazine/failure-to-lunch.html) (New York Times, 2016):
+
+* [Managed by Q's 'Good Jobs' Gamble](https://www.nytimes.com/2016/02/28/magazine/managed-by-qs-good-jobs-gamble.html) (New York Times, 2016):
+
+* [Rethinking the Work-Life Equation](https://www.nytimes.com/2016/02/28/magazine/rethinking-the-work-life-equation.html) (New York Times, 2016):
+
+* [The Robots Are Coming for Wall Street](https://www.nytimes.com/2016/02/28/magazine/the-robots-are-coming-for-wall-street.html) (New York Times, 2016):
+
+* [The Post-Cubicle Office and its Discontents](https://www.nytimes.com/2016/02/28/magazine/the-post-cubicle-office-and-its-discontents.html) (New York Times, 2016):
+
+* [The New Dream Jobs](https://www.nytimes.com/2016/02/28/magazine/the-new-dream-jobs.html) (New York Times, 2016):
+
+* [The myth of the flat start-up: Reconsidering the organizational structure of start-ups](https://onlinelibrary.wiley.com/doi/epdf/10.1002/smj.3333): "My study cautions against [the myth that start-ups should be flat], suggesting that adding a few hierarchical levels of mangers can substantially help start-ups achieve commercial success and survive in their hostile environments, albeit at a potentially marginal cost of creativity."
+
+* ["Measuring an engineering organization"](https://lethain.com/measuring-engineering-organizations/)
+
+* ["Developer Productivity at Google"](https://newsletter.abinoda.com/p/developer-productivity-at-google); discusses the paper ["What improves developer productivity at google? code quality"](https://dl.acm.org/doi/10.1145/3540250.3558940)
+
+* ["5 Things That Change When You Become a Leader"](https://hbr.org/2022/01/5-things-that-change-when-you-become-a-leader) (HBR, Jan 18 2022): 
     1. **Your friends are no longer your friends.** Effective leadership demands that you be even-handed in your treatment of every team member. The rule of thumb is to be *friendly, not friends* with your people.
     2. **You have a duty of care.** You used to be responsible only for your own behavior and performance; now that responsibility extends to every individual on the team. You have to ensure that your people have clear objectives; that their physical and mental well-being are safeguarded; that they're given clear feedback and strong direction.
     3. **You're entrusted to manage resources.** Managerial diligence demands that every decision you make optimizes the resources entrusted to you. This stewardship must take precedence over your own popularity, fear, and self-interest.
@@ -168,14 +199,13 @@ summary=Collection of thoughts/essays/etc on managing people.
             * or you hired (or did not fire) the wrong people
         * Ultimately everything is your fault
 
-
     * You manage processes; you lead people
         * For some reason, "managing people" means for many that they need to control people's work.
             * They end up micro-managing not only what when but also how people do their work.
             * If you got the time to micro-manage people, you can most likely hire cheaper, less talented people for your work
         * I think it roots in a misunderstanding of what the role of a manager is:
-                * your job is *not to manage people*
-                * but to *manage processes* and *lead people*
+            * your job is *not to manage people*
+            * but to *manage processes* and *lead people*
         * You manage processes on how you expect work to be done, where each person's authority starts and ends, how their careers are made, and how all this can be discussed, and/or changed
         * Additionally, you are leading people by example and through empathy.
             * They have goals, fears and motivations. Frequently also problems outside of work.

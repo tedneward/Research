@@ -9,11 +9,16 @@ How does SQLite work? [Part 1](https://jvns.ca/blog/2014/09/27/how-does-sqlite-w
 
 [SQLite Tutorial](https://www.tutorialspoint.com/sqlite)
 
+[How the SQLite VM works](https://fly.io/blog/sqlite-virtual-machine/)
+
 ### Swift/iOS
 By default, SQLite from Swift/iOS is an exercise in C integration. Numerous wrappers are available.
 
 * [SQLite.swift](https://github.com/stephencelis/SQLite.swift): Type-safe Swift wrapper over sqlite3 C API
 * [Sqift](https://github.com/wildthink/SQift): Powerful Swift wrapper for SQLite
+
+### Java
+* [SQLite-jdbc](https://github.com/xerial/sqlite-jdbc): Straight JDBC driver for SQLite
 
 ### C#/.NET
 [Microsoft.Data.Sqlite](https://docs.microsoft.com/en-us/dotnet/standard/data/sqlite/): `dotnet add package Microsoft.Data.Sqlite`
@@ -59,6 +64,8 @@ using (var connection = new SqliteConnection("Data Source=hello.db"))
 [SQLCypher](https://www.zetetic.net/sqlcipher/) is an extension to SQLite adding encryption. Open-source and commercial.
 
 [A fast SQLite PWA notebook for CSV files](https://dirtylittlesql.com/) ([Source](https://github.com/mwenge/dirtylittlesql.com), uses [sql.js](https://github.com/sql-js/sql.js) (The database is a web-assembly version of SQLite called sql.js that runs in your browser.), [VSV](http://www.dessus.com/files/vsv.c) (It also uses a SQLite extension called vsv to load delimited text files quickly.), [Codemirror](https://codemirror.net/) (Syntax highlighting), [sheet.js](https://sheetjs.com/) (Excel and Openoffice support.), [chart.js](https://chartjs.org/) (Charts), and [LocalForage](https://github.com/localForage/localForage) (IndexedDB for efficient local storage.) under the hood.)
+
+[SQLStudio](https://sqlitestudio.pl/) ([Source](https://github.com/pawelsalawa/sqlitestudio)): A free, open source, multi-platform SQLite database manager.
 
 ---
 

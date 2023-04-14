@@ -1,0 +1,9 @@
+title=Console
+tags=language, network
+summary=
+~~~~~~
+
+[Thesis](https://essay.utwente.nl/58039/) ([PDF](http://essay.utwente.nl/58039/1/scriptie_D_van_%27t_Oever.pdf))
+
+A network provides a service to its users. Most modern networks are based upon the TCP/IP protocol. The main service provided by this protocol are best-effort, end-to-end connections. The behavior of this protocol is standardized and there are no default mechanisms to change the default behavior or to introduce new behavior. to improve this situation, programmable networks were developed, that allow the user to program how the network should behave. Examples are Active Networks and User Programmable Virtualized Networks (UPVN). This opens the door for application-specific network services; an application can optimize the service provided by the network for its own use. With a General Purpose Language (GPL), every technically possible network service can be programmed. But since the language is general, it requires every detail to be specified. On the other hand there are Domain Specific Languages (DSL) that address problems in a small domain. Because the domain is known, a solution for a problem in that domain can be short and efficient. A drawback is that problems that are only slightly outside of the domain can not be solved by the DSL. In this research we want to reveal the mechanisms or statements that are common for creating network services. We do this by creating a network service programming language. We chose to develop a DSL, since every addition to a DSL can be considered domain knowledge. This domain knowledge could be mixed up with knowledge from other domains if we would develop a GPL. We only investigate network services that require the cooperation of multiple network elements. Network services that can be provided a single Network Element (NE) are not considered.
+

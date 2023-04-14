@@ -35,7 +35,7 @@ summary=Bob Martin's screed on architecture. Captured for pedagogical analysis.
 
 # Part II: Programming Paradigms
 
-"Paradigms are ways of programming, relatively unrelated to languages. A paradigm tells you which programming structures to use, and when to use them. To date, there have been three such paradigms." *(Not true, there've been numerous paradigms, many of which overlap. See [VanRoy](/languages/paradigms-for-dummies). And VanRoy really ignores [AOP](/reading/aspect-oriented) entirely to boot.)*
+"Paradigms are ways of programming, relatively unrelated to languages. A paradigm tells you which programming structures to use, and when to use them. To date, there have been three such paradigms." *(Not true, there've been numerous paradigms, many of which overlap. See [VanRoy](/languages/paradigms-for-dummies). And VanRoy really ignores [AOP](/reading/languages/aspect-oriented.html) entirely to boot.)*
 
 # 3: Paradigm Overview
 

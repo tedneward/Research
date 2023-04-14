@@ -59,6 +59,7 @@ Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/li
 * ["Embedding Lisp in C++"](https://lambdafaktorie.com/embedding-lisp-in-c-a-recipe/)
 * [Language repos for "Artificial Intelligence: A Modern Approach"](https://github.com/aimacode), by Norvig (Java, Lisp, Python, JavaScript, pseudocode)
 * [Chris Kohlepp's Blog](https://chriskohlhepp.wordpress.com/): Interesting sections. ["Advanced C++ and Lisp"](https://chriskohlhepp.wordpress.com/advanced-c-lisp/), ["Embeddable Common Lisp on iPhone"](https://chriskohlhepp.wordpress.com/embeddable-common-lisp-on-iphone/), ["Reasoning Systems"](https://chriskohlhepp.wordpress.com/reasoning-systems/), and so on.
+* ["How to Write a Lisp Interpreter in JavaScript"](https://chidiwilliams.com/post/how-to-write-a-lisp-interpreter-in-javascript/)
 
 ### Libraries(ish)
 

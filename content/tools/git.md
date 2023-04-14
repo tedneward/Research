@@ -5,15 +5,57 @@ summary=Distributed version-control system.
 
 (Just the tool itself; considered separate from [Github](github.html) since it is used by a variety of other source-control providers like [Bitbucket](bitbucket.html).)
 
-[Website](https://www.git-scm.com) | [Pro Git (book)](https://www.git-scm.com/book/en/v2) | [Git For Computer Scientists](http://eagain.net/articles/git-for-computer-scientists/) | [Git For Designers](http://hoth.entp.com/output/git_for_designers.html) |  [tryGit - A fun interactive way to learn Git.](http://try.github.io/levels/1/challenges/1) | [Learn Git Branching - the most visual and interactive way to learn Git on the web](http://learngitbranching.js.org/) | [Git Immersion - A Guided tour that walks through the fundamentals of git](http://gitimmersion.com/) | [git-scm - Video Tutorials](http://git-scm.com/videos) | [git-scm - Documentation](http://git-scm.com/docs) | [Atlassian Git - Tutorials & Workflows](https://www.atlassian.com/git/) | [SalesForce Cheat Sheet](http://res.cloudinary.com/hy4kyit2a/image/upload/SF_git_cheatsheet.pdf) | [GitGuys](http://www.gitguys.com/) | [Git - the simple guide](http://rogerdudler.github.io/git-guide/index.html) | [An introduction to Git and GitHub for Beginners (Tutorial)](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) | [The New Boston tutorial to Git covering basic commands and workflow](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx)
+[Website](https://www.git-scm.com) | [Docs](http://git-scm.com/docs)
+
+### Cheat sheet
+
+`git init`: Create repository in directory
+
+`git clone {url}`: copy git repo at {url} to local machine
+
+`git status`: show modified files in repo
+
+`git log`: show commit history
+
+`git add -A`: add (stage) changed files for commit
+
+`git commit -m 'message'`: commit changes using 'message' as the commit message
+
+`git pull origin main`: get up to date changes from branch "main"
+
+`git push origin main`: push local changes to remote "origin" on branch "main"
+
+`git branch`: list all local branches
+
+`git branch {branchname}`: create a new branch
+
+`git checkout {branchname}`: switch from current branch to named branch
+
+`git branch -m {newbranchname}`: rename current branch
+
+`git branch -d {branchname}`: delete named branch
+
+`git merge develop`: merge branch "develop" into current branch
+
+`git rm {filename}`: delete (and stage) file
+
+`git stash`: save modified files and staged changes
+
+`git diff {branch1} {branch2}`: diff between named branches
+
+`git rebase {branch}`: put commits of current branch ahead of named branch
+
+* [SalesForce Cheat Sheet](http://res.cloudinary.com/hy4kyit2a/image/upload/SF_git_cheatsheet.pdf)
 
 ### Reading
 
+* [Atlassian Git - Tutorials & Workflows](https://www.atlassian.com/git/)
 * [A git Primer](https://danielmiessler.com/study/git/) - Daniel Miessler
 * [A Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html) - Mark Lodato
 * [Conversational Git](http://blog.anvard.org/conversational-git/)
 * [git - the simple guide](http://rogerdudler.github.io/git-guide/)
 * [Git for Computer Scientists](http://eagain.net/articles/git-for-computer-scientists/)
+* [Git For Designers](http://hoth.entp.com/output/git_for_designers.html)
 * [Git From The Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/) - J. Wiegley
 * [Git Immersion](http://gitimmersion.com)
 * [Git In The Trenches](http://cbx33.github.io/gitt/index.html)
@@ -39,6 +81,16 @@ summary=Distributed version-control system.
 * [Ry's Git Tutorial](https://web.archive.org/web/20161121145226/http://rypress.com:80/tutorials/git/index) - Ryan Hodson
 * [Think Like (a) Git: A Guide for the Perplexed](http://think-like-a-git.net)
 
+### Websites
+
+* [GitGuys](http://www.gitguys.com/)
+* [Learn Git Branching - the most visual and interactive way to learn Git on the web](http://learngitbranching.js.org/)
+* [tryGit - A fun interactive way to learn Git.](http://try.github.io/levels/1/challenges/1)
+
+### Videos
+
+* [git-scm - Video Tutorials](http://git-scm.com/videos)
+* [The New Boston tutorial to Git covering basic commands and workflow](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx)
 
 # [Learn X in Y Minutes](https://learnxinyminutes.com/docs/git/)
 Git is a distributed version control and source code management system.
@@ -590,6 +642,7 @@ This allows you to stage only portions of a modified file. Gone are the days of 
 Of course, Git also makes it easy to ignore this feature if you don't want that kind of control — just add a '-a' to your commit command in order to add all changes to all files to the staging area.
 
 ---
+
 ### Using Git to do keyword-expansion within source files
 
 In general, this appears to be best handled with [Git Hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks). [Official githook doc page](https://www.git-scm.com/docs/githooks).

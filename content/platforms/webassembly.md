@@ -36,6 +36,8 @@ Tools: [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) 
 
 [WebAssembly friendly programming with C/C++](https://github.com/3dgen/cppwasm-book/tree/master/en) - Ending, Chai Shushan, Yushih (HTML, [examples](https://github.com/3dgen/cppwasm-book/tree/master/examples))
 
+[Extism](https://extism.org/) ([Source](https://github.com/extism/extism)): a plug-in system for running WebAssembly extensions within an app
+
 ### Example SDL app compiled to WebAssembly (from https://main.lv/writeup/web_assembly_sdl_example.md):
 
 ```

@@ -5,6 +5,7 @@ summary=A collection of patterns around public speaking.
 *(by Neal Ford, Matthew McCullough, Nate Schutta)*
 
 # Part 1: Prepare
+
 ## Chapter 1: Presentation Prelude Patterns
 ### Pattern: Know Your Audience
 Preparing a great presentation is lost if you present it to the “wrong” audience. Seek data on your attendees; their occupations, relative ages, comfort level with the material, and general background. Tune your material to match as many of the attending demographics as possible.
