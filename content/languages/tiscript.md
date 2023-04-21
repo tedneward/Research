@@ -12,3 +12,6 @@ The TIScript Engine consists of:
 * heap manager that uses a copying garbage collector (GC)
 * runtime which is an implementation of native object classes
 
+## Implementations
+
+* Javascript: [TI-JS](https://www.davidtorosyan.com/ti-js/) [Source](https://github.com/davidtorosyan/ti-js)

@@ -5,9 +5,11 @@ summary=Assembly language for the RISC-V architecture.
 
 [Foundation](https://riscv.org/) | [Source](https://github.com/riscv) | [Mailing Lists](https://riscv.org/mailing-lists/) | [Proceedings](https://riscv.org/category/workshops/proceedings/) | [Wikipedia](https://en.wikipedia.org/wiki/RISC-V)
 
+[RISC-V Intro](https://github.com/rsnikhil/RISC-V_Intro)
+
 ## Specifications
 
-https://riscv.org/specifications/
+https://riscv.org/specifications/ | https://riscv.org/technical/specifications/
 
 - RISC-V Instruction Set Manual - https://github.com/riscv/riscv-isa-manual
 - RISC-V Instruction Set Listing - https://github.com/michaeljclark/riscv-meta/blob/master/doc/pdf/riscv-instructions.pdf

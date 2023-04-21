@@ -7,6 +7,10 @@ tags=tool
 
 ["The open calendar, task, and note space is a mess"](https://stevenvanbael.com/open-calendar-task-space-is-a-mess)
 
+["10 Awesome Open Source Apps in 2023"](https://news.itsfoss.com/open-source-apps-try-2023/)
+
+["Command Line Interface Guidelines"](https://clig.dev/)
+
 ## Editors
 
 * [NotepadNext](https://github.com/dail8859/NotepadNext): Cross-platform reimplementation of Notepad++

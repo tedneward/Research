@@ -7,5 +7,12 @@ summary=A distributed-objects platform, architecture, and specifications popular
 
 ## Implementations
 
+It seems that these are actually still under active development. Who knew?
+
+* .NET: [IIOP.NET](https://iiop-net.sourceforge.net/)
+* C++: [Mico](http://www.mico.org/)
+* C++, Python: [omniORB](https://omniorb.sourceforge.io/)
+
+
 ## Reading
 

@@ -17,6 +17,8 @@ Specialized standards:
 
 [OAuth IETF Working Group](https://datatracker.ietf.org/wg/oauth/about/)
 
+[What is OAuth? A Breakdown for Beginners](https://nordicapis.com/oauth-a-breakdown-for-beginners/)
+
 ## Reading
 
 Dan Moore

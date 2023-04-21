@@ -27,6 +27,15 @@ Numerous languages seek to supplant or replace C as the ubiquitous system langua
 * [Pacific C for DOS](http://www.grifo.com/SOFT/Pacific/uk_pacific.html) : Freeware version for MSDOS of a professional C IDE/compiler shareware
 * [Dev86 / BCC](https://github.com/lkundrak/dev86) : 8086 C/Assembler development tools (C compiler, assembler, linker). Open Source.
 * [Extended C Development Kit](http://openecdk.sourceforge.net/)
+* [C compiler written in untyped lambda calculus](https://github.com/woodrush/lambda-8cc):
+    * Compile C to:
+        * x86 executable (a.out)
+        * Lambda calculus term (runs on the same interpreter as lambda-8cc)
+        * Binary lambda calculus program
+        * SKI combinator calculus term (runnable as a Lazy K program)
+        * ELVM assembly listing (example: rot13.s)
+    * Compile ELVM assembly to:
+        * x86/lambda calculus/BLC/SKI combinator calculus (all of the above)
 
 [Cosmopolitan](https://github.com/jart/cosmopolitan) Libc: "makes C a build-once run-anywhere language, like Java, except it doesn't need an interpreter or virtual machine. Instead, it reconfigures stock GCC and Clang to output a POSIX-approved polyglot format that runs natively on Linux + Mac + Windows + FreeBSD + OpenBSD + NetBSD + BIOS with the best possible performance and the tiniest footprint imaginable."
 

@@ -11,9 +11,17 @@ Video game development links.
 
 [Amit's Thoughts on Grids](http://www-cs-students.stanford.edu/~amitp/game-programming/grids/) | [Grid Parts](https://www.redblobgames.com/grids/parts/)
 
+[Unreal Engine Scripting Languages](https://benui.ca/unreal/scripting-languages/)
+
 ["Procedural Worlds from Simple Tiles"](https://ijdykeman.github.io/ml/2017/10/12/wang-tile-procedural-generation.html)
 
 ["Lands of Lore Engine in Javascript"](https://levelup.gitconnected.com/i-tried-to-code-the-engine-of-1993-rpg-game-lands-of-lore-in-javascript-c78368d1e2f0) ([Source](https://github.com/stephan-romhart/Lands-of-Lore-Engine-in-Javascript)): Nice front-end for Apartum, maybe?
+
+["An Android game using JavaFX and GraalVM"](https://www.metacodes.pro/blog/write_one_run_anywhere_an_android_game_using_javafx_and_the_graalvm/)
+
+AI for Game Development: [Part 1](https://huggingface.co/blog/ml-for-games-1) [Part 2](https://huggingface.co/blog/ml-for-games-2) | [Part 3](https://huggingface.co/blog/ml-for-games-3) | [Part 4](https://huggingface.co/blog/ml-for-games-4) | [Part 5](https://huggingface.co/blog/ml-for-games-5)
+
+[Build a Tetris game with SwiftUI](https://betterprogramming.pub/build-a-tetris-game-using-swiftui-c8c9b1722259)
 
 ## Engines too esoteric to rate their own page
 [M.U.G.E.N](http://www.elecbyte.com/mugendocs-11b1/mugen.html): 2D fighting game engine
@@ -37,7 +45,7 @@ Finally, if **hacking online games** is a topic of interest for you, I'm also ma
 ### Game Hacking Tools (Disassemblers, Debuggers, Hex Editors, Unpackers, and More)
 
 Tool Type | Tool/Link | Description
----- | ---- | ----
+--------- | --------- | -----------
 **All-In-One** | [Cheat Engine](https://github.com/cheat-engine/cheat-engine) | [Open Source] *A powerful, all-in-one game hacking tool with an extensive feature set. Varying versions for Mac, Linux, and Android can be found [here](http://www.cheatengine.org/downloads.php). CE video tutorials [here](https://www.youtube.com/playlist?list=PLNffuWEygffbbT9Vz-Y1NXQxv2m6mrmHr).*
 **All-In-One** | [Squalr](https://github.com/Squalr/Squalr) | [Open Source] *A performant game hacking tool developed in C# with features that both rival and complement Cheat Engine.*
 **All-In-One** | [CrySearch](http://www.crysearch.nl/) | [Open Source] *A memory scanner akin to Cheat Engine, but with different features and a cleaner UI.*

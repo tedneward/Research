@@ -12,7 +12,11 @@ Documentation
 * (Legacy) [BeBook](https://www.haiku-os.org/legacy-docs/bebook/)
 * [Haiku API](https://api.haiku-os.org/)
 * [Common patterns](https://www.haiku-os.org/development/apps-patterns)
+* [Package Management - Internals documentation](https://www.haiku-os.org/docs/develop/packages/README.html)
+* [Package Management Infrastructure](https://www.haiku-os.org/docs/develop/packages/Infrastructure.html)
 * (Legacy) ["Programming the Be Operating System"](http://www.oreilly.com/catalog/beosprog/book/) (Online OReilly book)
 
+---
 
+[Haiku Package Management](https://www.markround.com/blog/2023/02/13/haiku-package-management/)
 

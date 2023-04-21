@@ -37,6 +37,7 @@ Many of these are built on the idea of the [Warren Abstract machine](http://en.w
 * [Prolog: The Standard: Reference Manual (Amazon)](https://www.amazon.com/Prolog-Standard-Reference-Manual-ebook/dp/B000QEDG92/ref=sr_1_1_bnp_1_kin)
 * [Prolog Wikibook](https://en.wikibooks.org/wiki/Prolog)
 * [List of Prolog references](https://www.univ-orleans.fr/lifo/software/stdprolog/prolog_refs.html)
+* ["Solving a Dungeons & Dragons riddle using prolog"](https://gist.github.com/Spuffynism/446c7c2d498477491d8137e8f234d4a9)
 
 ### Visual Prolog
 

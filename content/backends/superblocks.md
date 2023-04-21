@@ -1,5 +1,5 @@
 title=Superblocks
-tags=backend, low-code
+tags=backend, tool, cloud, low-code
 summary=A programmable IDE for developers to build any internal app, workflow, or scheduled job.
 ~~~~~~
 

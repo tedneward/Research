@@ -19,6 +19,8 @@ Philip Wadler [A critique of Abelson and Sussman or why calculating is better th
 
 [Collection of readings](https://systemfw.org/writings.html): "This page lists various writings from Gitter, Reddit or Github, in their raw form."
 
+["This is not a monad tutorial"](https://johnazariah.github.io/2022/12/06/this-is-not-a-monad-tutorial.html)
+
 Apocalisp:
 
 * [Lazy Error Handling in Java, Part 1: The Thrower Functor](https://apocalisp.wordpress.com/2008/05/16/thrower-functor/)

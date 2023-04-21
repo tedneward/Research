@@ -31,9 +31,23 @@ summary=Collection of thoughts/essays/etc on developer relations (DevRel).
 
 * ["What is Developer Relations" (Forbes.com)](https://www.forbes.com/sites/justinwarren/2019/08/14/what-is-developer-relations/?sh=7e8a9ec63fa4)
 
+* ["So you're starting a new DevRel job..."](https://dev.to/jerdog/so-youre-starting-a-new-devrel-job-277e)
+
 * [Planning a Developer Relations Strategy](https://dzone.com/articles/planning-a-developer-relations-strategy-part-1) - Matthew Revell of Hoopy
 
 * [The History of Developer Evangelism](https://joshondesign.com/2017/06/06/history-developer-evangelism): 
+
+* [How DevEx and DevRel can support Go-To-Market](https://www.youtube.com/watch?v=Gl2gZI7CMcg) (video)
+
+* [DevRel the Ultimate Guide](https://opensenselabs.com/blog/articles/developer-relations-ultimate-guide)
+
+* [The Four Pillars of DevRel](https://developerrelations.com/strategy-and-metrics/the-four-pillars-of-developer-relations)
+
+* [Planning your DevRel's Team Strategy](https://developerrelations.com/strategy-and-metrics/planning-your-teams-dev-rel-strategy-naomi-pentrel)
+
+* [R3's 2020 DevRel plan](https://medium.com/corda/r3s-2020-developer-relations-plan-f22ca87837e1)
+
+* [How to seed, grow, and scale DevRel](https://posthog.com/blog/seed-grow-scale-devrel)
 
 * [A Developer Relations Bill of Rights](https://medium.com/glitch/a-developer-relations-bill-of-rights-21381920e273): Every person who does the work of Developer Relations deserves to be supported by an environment which follows these 10 principles:
 
@@ -73,13 +87,7 @@ summary=Collection of thoughts/essays/etc on developer relations (DevRel).
         - Give constructive feedback to the product teams and get questions answered
         - Collate outside feedback and convert to constructive feedback
 
-## Conferences
 
-*(Those conferences which are "meta" about DevRel (that is, they talk about DevRel itself--not just about develoeprs or developing software).)*
-
-[DevRelCon](https://developerrelations.com/devrelcon)
-
-[DevRelX Summit](https://www.devrelxsummit.com/)
 
 ## Resources 
 *(from [AndyPiper](https://gist.github.com/andypiper/7fdb73f9713b7e1f7e5e7ac373f635cb))*

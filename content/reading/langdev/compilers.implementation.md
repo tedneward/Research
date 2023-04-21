@@ -3,10 +3,14 @@ tags=language, reading, llvm, native, langdev
 summary=Collection of articles on implementing languages.
 ~~~~~~
 
+## Object-Oriented Papers
+
+* ["The concept of class invariant in object-oriented programming"](https://arxiv.org/pdf/2109.06557.pdf): "Class invariants — consistency constraints preserved by every operation on objects of a given type — are fundamental to building, understanding and verifying object-oriented programs. For verification, however, they raise difficulties, which have not yet received a generally accepted solution. The present work introduces a proof rule meant to address these issues and allow verification tools to benefit from invariants."
+
+
 ## CLang
 
 * [Understanding the Clang AST](https://jonasdevlieghere.com/understanding-the-clang-ast/)
-
 
 ### Escape analysis
 Escape analysis is an optimization for identifying objects which do not escape the dynamic extent of a function; such objects can be stack-allocated, or 'flattened' so that usages of them are replaced with a series of local variables (the latter optimization is known as "scalar replacement").
