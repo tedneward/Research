@@ -69,3 +69,21 @@ volumes:
   db_data:
   fa_config:
 ```
+
+coupled with a .env file:
+```
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+# Prior to version 1.19.0, using DATABASE_USER
+DATABASE_USER=fusionauth
+# >= 1.19.0, using DATABASE_USERNAME
+DATABASE_USERNAME=fusionauth
+DATABASE_PASSWORD=hkaLBM3RVnyYeYeqE3WI1w2e4Avpy0Wd5O3s3
+
+ES_JAVA_OPTS="-Xms512m -Xmx512m"
+
+# Prior to version 1.19.0, using FUSIONAUTH_MEMORY
+FUSIONAUTH_MEMORY=512M
+# >= 1.19.0, using FUSIONAUTH_APP_MEMORY
+FUSIONAUTH_APP_MEMORY=512M
+```
