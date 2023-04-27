@@ -70,6 +70,18 @@ Distributed systems are the means by which programs on one machine communicate w
     * Backpressure
     * Canary release: "Canary testing is a technique used to roll out changes gradually to production. When the monitoring system catches an issue — the canaries are rolled back automatically with minimal damage to production traffic."
 
+* [A Design Guide for Building Offline First Apps](https://hasura.io/blog/design-guide-to-offline-first-apps/)
+
+    * Make code available offline; make data available offline
+    * Conflict resolution:
+    
+        1. Conflicts don't matter. (Users will correct the data later.)
+        2. Version your objects.
+        3. Use conflict-free replicated data types (CRDTs)
+        4. Ship changes to server, store aggregates on server
+    
+    * Online-only things in an offline-first app: Authentication, Search, Attachments.
+
 ### Networking (Fundamentals, et al)
 
 * [An Introduction to Computer Networks](http://intronetworks.cs.luc.edu) (HTML, PDF, Kindle)
