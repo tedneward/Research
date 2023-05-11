@@ -6,4 +6,5 @@ summary=Industry standard for graph-oriented database.
 
 Comes in local/desktop version (free) and cloud-hosted versions.
 
-Uses Cypher query language for ad-hoc query of the nodes and arcs.
+Uses [Cypher](/languages/cypher) query language for ad-hoc query of the nodes and arcs.
+

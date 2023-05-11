@@ -1,5 +1,5 @@
 title=InfluxDB
-tags=storage
+tags=storage, time-series
 summary=Platform for building time series applications.
 ~~~~~~
 
