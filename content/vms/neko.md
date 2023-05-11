@@ -1,5 +1,5 @@
 title=Neko (VM)
-tags=vm
+tags=vm, gamedev
 summary=The NekoVM is a target for several compilers, including Haxe.
 ~~~~~~
 

@@ -20,7 +20,6 @@ summary=A build system from Microsoft heavily inspired by Ant.
 	- build native and managed MSBuild-based applications without requiring the Visual Studio IDE. There are options to install the Visual C++ compilers and libraries, MFC, ATL, and C++/CLI support, and .NET and .NET Core support.
 	- http://aka.ms/buildtools
 	- GoingNative 63: C++ Build Tools - https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-63-CPP-Build-Tools
-- Using A Custom Toolchain In Visual Studio With MSBuild
-	- http://www.reedbeta.com/blog/custom-toolchain-with-msbuild/
-- Visual Studio and Custom Build Rules 
-	- http://miken-1gam.blogspot.com/2013/01/visual-studio-and-custom-build-rules.html
+- [Using A Custom Toolchain In Visual Studio With MSBuild](http://www.reedbeta.com/blog/custom-toolchain-with-msbuild/)
+- [Visual Studio and Custom Build Rules](http://miken-1gam.blogspot.com/2013/01/visual-studio-and-custom-build-rules.html) 
+- ["MSBuild is complicated. Let's lift the veil on it."](https://github.com/BenVillalobos/msbuildism)

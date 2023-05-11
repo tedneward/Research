@@ -5,3 +5,4 @@ summary=Tutorials about cross-platform game development built using Java/JVM lan
 
 [Game from Scratch: LibGDX Text Tutorial Series](http://gamefromscratch.com/page/LibGDX-Tutorial-series.aspx) builds a jet-plane shooter game | [BludBourne](https://github.com/patrickhoey/BludBourne) comes from the book "Mastering libGdx Game Development"
 
+[A simple game](https://libgdx.com/wiki/start/a-simple-game), [Extending the simple game](https://libgdx.com/wiki/start/simple-game-extended)
