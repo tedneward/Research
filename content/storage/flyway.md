@@ -1,7 +1,5 @@
 title=Flyway
-type=page
 tags=storage, migration, relational
-status=published
 summary=Relational(ish) database evolution and migration tool.
 ~~~~~~
 
