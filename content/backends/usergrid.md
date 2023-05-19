@@ -5,6 +5,8 @@ summary=an open-source Backend-as-a-Service (“BaaS” or “mBaaS”) composed
 
 [Website](http://usergrid.apache.org/) | [Source](http://github.com/apache/usergrid)
 
+Retired to the Apache Attic in 2021.
+
 It provides elementary services (user registration & management, data storage, file storage, queues) and retrieval features (full text search, geolocation search, joins) to power common app features.
 
 It is a multi-tenant system designed for deployment to public cloud environments (such as Amazon Web Services, Rackspace, etc.) or to run on traditional server infrastructures so that anyone can run their own private BaaS deployment.
