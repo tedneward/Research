@@ -20,6 +20,7 @@ For meetings to be efficient and successful, facilitators must utilize technique
 * **Linguistic**: Lead focused group discussions ("Content Experts" (45), "SWOTs" (51)). Use analogies and metaphors ("Analogies and Metaphors" (14)).
 
 ## Attributes of an Effective Meeting Facilitator
+
 * Good sense of humor
 * Assertiveness
 * Intuition
@@ -66,30 +67,28 @@ Meeting success is a team responsibility, but not all meetings will be filled wi
     1. Who should facilitate/present each issue/agenda item?
     1. How should each issue/agenda item be introduced?
 
-3. **Logistical Questions**
+3. **Logistical Questions**: What room arrangements and other prep is necessary?
 
-    1. What room arrangements and other prep is necessary?
-
-        * Physical environment ("Feel" of the room)
-        * Windows (whenever possible, open the shades)
-        * Atmosphere (create as bright/energetic atmosphere as possible)
-        * Room (everyone should be able to have eye contact with everyone else)
-        * Refreshments
-        * Charts/easels
-        * Tables, chairs (numbers, configurations)
-        * Audio-visual equipment
-        * Computers
-        * Microphones (fixed or roving)
-        * Audio-video links (incoming)
-        * Translations
-        * Car parking
-        * Plants/flowers
-        * Music
-        * Travel arrangements
-        * Accessibility arrangements
-        * Internet access
-        * Name tags/placecards
-        * Arrangements for messages
+    * Physical environment ("Feel" of the room)
+    * Windows (whenever possible, open the shades)
+    * Atmosphere (create as bright/energetic atmosphere as possible)
+    * Room (everyone should be able to have eye contact with everyone else)
+    * Refreshments
+    * Charts/easels
+    * Tables, chairs (numbers, configurations)
+    * Audio-visual equipment
+    * Computers
+    * Microphones (fixed or roving)
+    * Audio-video links (incoming)
+    * Translations
+    * Car parking
+    * Plants/flowers
+    * Music
+    * Travel arrangements
+    * Accessibility arrangements
+    * Internet access
+    * Name tags/placecards
+    * Arrangements for messages
 
 4. **Reporting Questions**
 
@@ -101,9 +100,11 @@ Meeting success is a team responsibility, but not all meetings will be filled wi
     1. What is the best way to evaluate the effectiveness of your meetings?
 
 ## Creating Your Agenda
+
 To be consistently successful, you will want to prepare two different agendas for your meetings--one for your meeting participants (which is what goes out as part of the invite) and a more detailed agenda for yourself as a facilitator's guide.
 
 ## More Inside Information
+
 **Setting the Stage**: Plan to arrive early to make sure everything is set up the way you expected. Prepare visual aids. Greet people as they arrive.
 
 **Expect changes**: Things will never go according to plan.
