@@ -5,8 +5,42 @@ summary=Notes on the book, about how non-experts can often outpredict the expert
 *(Tetlock, Gardner; Crown Publishers, 2015)*
 
 # Chapter 1: An Optimistic Skeptic
+Tom Friedman (globally-recognized predictor) vs Bill Flack (virtually unknown predictor who is right quite often).
+
+## The One About the Chimp
+The average expert was roughly as accurate as a dart-throwing chimpanzee. Author conducted a twenty-year (1984 - 2004) study: gathered up a big group of experts (academics, pundits, etc) to make thousands of predictions about the economy, stocks, elections, wars, and other issues of the day. Time passed, and when the researcher checked the accuracy of the predictions, he found that the average expert did as well as random guessing.
+
+People are in front of the cameras for reasons other than their skill at predictions. Old forecasts are like old news--soon forgotten--and pundits are almost never asked to reconcile what they said with what actually happened. *The one undeniable talent that talking heads have is their skill at telling a compelling story with conviction.*
+
+It was easiest to beat chance on the shortest-range questions that only required looking one year out, and accuracy fell off the further out experts tried to forecast, approaching random-chance levels at 3-5 years out.
+
+Author: "Call me an optimistic skeptic."
+
+## The Skeptic
+(The story of Mohamed Bouazizi, 17 Dec 2010, who self-immolated in Tunisia after a police shakedown and started the Arab Spring.) Could Tom Friedman have predicted the Arab Spring? Of course not. *(Black swan event.)*
+
+1972: Meteorologist Edward Lorenz publishes "Predictability: Does the Flap of a Butterfly's Wings in Brazil Set Off a Tornado in Texas?" about tiny data entry variations in computer simulations (0.506127 with 0.506) could product dramatically different long-term forecasts. Inspired "chaos theory": in nonlinear systems (like the atmosphere) even small changes in initial conditions can mushroom to enormous proportions. This shifted scientific opinion toward the view that there are hard limits on predictability, a deeply philosophical question.
+
+## The Optimist
+It is one thing to recognize the limits on predictability, and quite another to dismiss *all prediction* as an exercise in futility. We make mundane predictions routinely (when to leave the house to avoid traffic, how to anticipate other drivers' behavior, expecting other people to follow through on their commitments to meetings, etc). So much of our reality is this predictable, or more so.
+
+Of course each of these pockets of predictability can be abruptly punctured: a restaurant very likely will open its doors when it says it will, but it may not for a number of reasons (manager sleeping late, fire, bankruptcy, pandemic, nuclear war, ...). There are no certainties in life--not even death or taxes, if we assign a nonzero probability to the invention of technologies that let us upload the contents of our brains into a cloud-computing network and the emergence of a future society so public-spirited and prosperous that the state can be funded with charitable donations.
+
+***How predictable something is depends on what we are trying to predict, how far into the future, and under what circumstances.***
+
+Forecasters are often groping in the dark--they have no idea how good their forecasts are in the short, medium, or long term--and no idea how good their forecasts could become. At best, they have vague hunches. That's because the forecast-measure-revise procedure operates only within the rarified confines of high-tech forecasting. It's a demand-side problem: the consumers of forecasting don't demand evidence of accuracy, so there is no measurement, which means no revision, and without revision, they can be no improvement.
+
+(History of the Good Judgment Project (GJP) and its efforts.)
+
+Two conclusions emerge from this research: One, foresight is real. Two, what makes these superforecasters so good isn't who they are, it's what they do: ***Foresight isn't a mysterious gift bestowed at birth. It is the product of particular ways of thinking, of gathering information, of updating beliefs.*** Broadly speaking, ***superforecasting demands thinking that is open-minded, careful, curious and above all, self-critical. It also demands focus. The kind of thinking that produces superior judgment does not come effortlessly--only the determined can deliver it reasonably consistently, which is why our analyses have consistently found commitment to self-improvement to be the strongest predictor of performance.***
+
+## A Forecast About Forecasting
+(Discussions about human judgment vs computer machine learning/AI.) "I think it's going to get stranger and stranger" for people to listen to the advice of experts whose views are informed only by their subjective judgment--human thought is beset by psychological pitfalls. "So what I want is that human expert paired with a computer to overcome the human cognitive limitations and biases." (David Ferrucci, IBM Watson chief engineer)
+
+We will need to blend computer-based forecasting and subjective judgment in the future.
 
 # Chapter 2: Illusions of Knowledge
+(Discussions of cognitive biases and people loudly proclaiming incorrect conclusions with no proof.)
 
 # Chapter 3: Keeping Score
 
