@@ -11,11 +11,11 @@ summary=A collection of leadership/management frameworks/scaffolding, for thinki
 
 SMART is a framework for ensuring a goal is well stated.
 
-* Specific
-* Measurable
-* Actionable
-* Relevant
-* Time-Bound
+* **S**pecific
+* **M**easurable
+* **A**ctionable
+* **R**elevant
+* **T**ime-Bound
 
 Caveats:
 
