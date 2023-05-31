@@ -2,7 +2,6 @@ title=Remote: Office Not Required
 tags=reading, management, remote work
 summary=DHH's screed on remote work. Most of it is now (2021) more widely-accepted as a given, but still useful as a reference.
 ~~~~~~
-
 *(by Jason Fried and David Heinemeier Hansson)*
 
 ### Chapter 1: The Time is Right for Remote Work
