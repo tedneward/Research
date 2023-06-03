@@ -2,7 +2,7 @@ title=Brain Rules
 tags=reading, books, psychology, thinking
 summary=Rules for how the brain works.
 ~~~~~~
-*(by John Medina (Pear Press))*
+*(by John Medina; Pear Press, when?; ISBN ...)*
 
 1) Exercise boosts brain power
 2) The human brain evolved, too

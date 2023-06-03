@@ -2,7 +2,6 @@ title=Staff Engineer: Leadership Beyond the Management Track
 tags=reading, management
 summary=Not everyone needs to be the boss.
 ~~~~~~
-
 *(by Will Larson)*
 
 ### Overview

@@ -2,8 +2,7 @@ title=Thinking in Systems
 tags=reading, thinking, systems
 summary=A primer on systems thinking.
 ~~~~~~
-
-*(by Donella H. Meadows)*
+*(Donella H. Meadows; ISBN ...)*
 
 ### Part 1: System Structure and Behavior
 

@@ -2,7 +2,6 @@ title=Crucial Conversations
 tags=reading, psychology, management, people, thinking
 summary=How to have important emotional conversations with people (when opinions vary, stakes are high, and emotions run strong).
 ~~~~~~
-
 *(by Kerry Patterson, Joseph Grenny, Ron McMillan, and Al Switzler)*
 
 ### Chapter 1: What is a Crucial Conversation?

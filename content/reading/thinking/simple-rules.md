@@ -125,44 +125,44 @@ Stopping rules are particularly critical in situations when people tend to doubl
 
 * How-to rules can provide robust guidance.
 
-  [Example: sports announcing; Seymour Joly de Lotbiniere, the "Lenin of the commentary revolution". A good commenter should: (1) set the scene, (2) describe the action, (3) give the score or results, regularly and succinctly, (4) explain, without interrupting, the stadium’s reaction to the game’s event, (5) share "homework", such as historical facts and figures or personal information, and (6) assess the significance of the occasion and key moments.]
+    [Example: sports announcing; Seymour Joly de Lotbiniere, the "Lenin of the commentary revolution". A good commenter should: (1) set the scene, (2) describe the action, (3) give the score or results, regularly and succinctly, (4) explain, without interrupting, the stadium’s reaction to the game’s event, (5) share "homework", such as historical facts and figures or personal information, and (6) assess the significance of the occasion and key moments.]
 
 * How-to rules are particularly helpful when there is extreme pressure and severe time constraint.
 
-  [Example: the Mann Gulch tragedy; four simple rules for how to deal with out-of-control fires: (1) start an escape fire in the path of the advancing fire if possible; (2) go to where the fuel is thinner; (3) turn toward the fire and try to work through it; (4) don’t let the fire choose the spot where it hits you]
+    [Example: the Mann Gulch tragedy; four simple rules for how to deal with out-of-control fires: (1) start an escape fire in the path of the advancing fire if possible; (2) go to where the fuel is thinner; (3) turn toward the fire and try to work through it; (4) don’t let the fire choose the spot where it hits you]
 
 * How-to rules can also foster artistic creativity.
 
-  "At first glance, this seems counterintuitive, because following the rules and being creative are often viewed as antithetical. The reality is, however, that a blank canvas and no rules on how to fill it can overwhelm an artist with too many degrees of freedom."
+    "At first glance, this seems counterintuitive, because following the rules and being creative are often viewed as antithetical. The reality is, however, that a blank canvas and no rules on how to fill it can overwhelm an artist with too many degrees of freedom."
 
-  [Examples of Chinese creativity: first group was simply given the assignment; second group received "Please try to be creative"; third group received simple rules on how to complete the activity, such as "Fold or tear the stickers to vary the shape and size of the materials".]
+    [Examples of Chinese creativity: first group was simply given the assignment; second group received "Please try to be creative"; third group received simple rules on how to complete the activity, such as "Fold or tear the stickers to vary the shape and size of the materials".]
 
-  Simple rules are not just for beginners, but rather can also stimulate the creativity of master artists. 
+    Simple rules are not just for beginners, but rather can also stimulate the creativity of master artists. 
 
-  "Patricia Stokes, a painter and psychologist at Columbia University, studied how influential artists like Claude Monet, William Motherwell, and Piet Mondrian produced their groundbreaking work. She argues that truly original artists work by imposing constraints on themselves, in terms of the subjects they paint, materials they use, and artists they draw upon for inspiration. Monet, for example, purposefully limited his subjects, repeatedly painting pictures, by the dozens, of subjects like grain stacks and water lilies. This self-imposed constraint allowed him to focus on exploring how light changes, and his exploration helped spark a transition in the art world from representation to impressionism, setting the stage for twentieth-century artists like Picasso. By constraining the infinite possibilities, simple rules allow creativity to flourish, less from thinking outside the box and more from deciding how to draw the box in the first place." (p77/Kloc 1000)
+    "Patricia Stokes, a painter and psychologist at Columbia University, studied how influential artists like Claude Monet, William Motherwell, and Piet Mondrian produced their groundbreaking work. She argues that truly original artists work by imposing constraints on themselves, in terms of the subjects they paint, materials they use, and artists they draw upon for inspiration. Monet, for example, purposefully limited his subjects, repeatedly painting pictures, by the dozens, of subjects like grain stacks and water lilies. This self-imposed constraint allowed him to focus on exploring how light changes, and his exploration helped spark a transition in the art world from representation to impressionism, setting the stage for twentieth-century artists like Picasso. By constraining the infinite possibilities, simple rules allow creativity to flourish, less from thinking outside the box and more from deciding how to draw the box in the first place." (p77/Kloc 1000)
 
 * How-to rules can also accelerate creativity.
 
-  [Example: White Stripes album. Five rules: (1) no blues; (2) no guitar solos; (3) no slide guitar; (4) no covers; (5) no bass. 18 songs in 10 days.) "By restricting their creative process, how-to rules freed the White Stripes to follow a short, clear path to their favorite patch of creativity.
+    [Example: White Stripes album. Five rules: (1) no blues; (2) no guitar solos; (3) no slide guitar; (4) no covers; (5) no bass. 18 songs in 10 days.) "By restricting their creative process, how-to rules freed the White Stripes to follow a short, clear path to their favorite patch of creativity.
 
-  Simple rules can help balance novelty and continuity and add a dash of efficiency to the creative process.
+    Simple rules can help balance novelty and continuity and add a dash of efficiency to the creative process.
 
-  [Example: Elmore Leonard’s forty-six novels. "Avoid prologues", "Never use a verb other than 'said’ to carry dialogue", "Try to leave out the part that readers tend to skip".]
+    [Example: Elmore Leonard’s forty-six novels. "Avoid prologues", "Never use a verb other than 'said’ to carry dialogue", "Try to leave out the part that readers tend to skip".]
 
-  How-to rules address the basics of getting things done without prescribing every detail of what to do. They work well in situations where the unexpected is the expected. They can stimulate creativity, shape action when there is no time to plan, and create structure that allows entrepreneurs to grow their company.
+    How-to rules address the basics of getting things done without prescribing every detail of what to do. They work well in situations where the unexpected is the expected. They can stimulate creativity, shape action when there is no time to plan, and create structure that allows entrepreneurs to grow their company.
 
 #### Coordination rules
 [Example: flocking behavior of starlings and other birds; Craig Reynolds avian avatar flocking rules: (1) avoid collisions; (2) head in the same direction as your nearest neighbors; (3) stay close to your nearest neighbors.]
 
 * Coordination rules work by clarifying what to do in relation to others.
 
-  [Example: locust swarms: When the density of locusts exceeds a threshold, they begin to sneak up behind others to bit them. When forced into tight quarters, they follow two simple rules: (1) flee from the locusts chasing you from behind, and (2) try to eat the locust in front of you if it gets too close.]
+    [Example: locust swarms: When the density of locusts exceeds a threshold, they begin to sneak up behind others to bit them. When forced into tight quarters, they follow two simple rules: (1) flee from the locusts chasing you from behind, and (2) try to eat the locust in front of you if it gets too close.]
 
-  [Example: improv comedy]
+    [Example: improv comedy]
 
 * Coordination rules can be followed by using only local information. Coordination rules also allow for adaptation to local conditions while still recognizing the group objectives.
 
-  [Example: Combat. Napoleon: "march toward the sound of gunfire"]
+    [Example: Combat. Napoleon: "march toward the sound of gunfire"]
 
 * Coordination rules delineate what to do, and likewise what others should do, so that collective objectives can be achieved. Coordination rules do not deal with when to do something.
 
@@ -249,21 +249,21 @@ Negotiation can be a helpful approach even if there is a higher authority, when 
   
 * ***Choose a bottleneck***: identify a bottleneck, a decision or activity that is preventing the company from achieving profitability
   
-  In nearly every case, the company's goals were misunderstood, and top executives disagreed on what mattered most for the company's success. ... Without a clear understanding of what their company is trying to achieve, executives struggle to identify where to apply simple rules, let alone what the rules should be.
+    In nearly every case, the company's goals were misunderstood, and top executives disagreed on what mattered most for the company's success. ... Without a clear understanding of what their company is trying to achieve, executives struggle to identify where to apply simple rules, let alone what the rules should be.
 
-  The best bottlenecks to focus on share three characteristics: (a) they have a direct and significant impact on value creation--what moves the needles will vary from company to company and so should the chosen bottleneck; (b) chosen bottlenecks should represent recurrent decisions (rather than one-off choices), so the rules can be tested, refined, and used many times; (c) bottlenecks, as their name implies, arise when opportunities exceed available resources
+    The best bottlenecks to focus on share three characteristics: (a) they have a direct and significant impact on value creation--what moves the needles will vary from company to company and so should the chosen bottleneck; (b) chosen bottlenecks should represent recurrent decisions (rather than one-off choices), so the rules can be tested, refined, and used many times; (c) bottlenecks, as their name implies, arise when opportunities exceed available resources
 
-  "The how from a who, what, how analysis is often a good place to start, and often points in the right direction. ... A company's how will often point to a broad process, such as marketing and sales or new-product development, crucial to creating economic value. These overarching processes consist of several discrete steps, each of which is a candidate for simple rules."
+    "The how from a who, what, how analysis is often a good place to start, and often points in the right direction. ... A company's how will often point to a broad process, such as marketing and sales or new-product development, crucial to creating economic value. These overarching processes consist of several discrete steps, each of which is a candidate for simple rules."
 
-  "When searching for the right bottleneck, it helps to look for a critical activity where the number of opportunities exceeds the available resources, such as when sales opportunities outstrip a company's ability to meet demand. ... Choosing external partners is another bottleneck where opportunities often exceed a firm's capacity to pursue them. ... Decisions that require coordination across different departments or teams are another good place to look for bottlenecks."
+    "When searching for the right bottleneck, it helps to look for a critical activity where the number of opportunities exceeds the available resources, such as when sales opportunities outstrip a company's ability to meet demand. ... Choosing external partners is another bottleneck where opportunities often exceed a firm's capacity to pursue them. ... Decisions that require coordination across different departments or teams are another good place to look for bottlenecks."
 
-  "When it comes to deciding where to apply simple rules, the most obvious activity is not always the right answer."
+    "When it comes to deciding where to apply simple rules, the most obvious activity is not always the right answer."
 
 * ***Craft the rules***: a set of simple rules that, when applied to the bottleneck, improves profitability
 
-  Developing rules from the top down is a big mistake. When leaders rely on their gut instincts, they overemphasize recent events, build in their personal biases, and ignore data that doesn't fit with their preconceived notions. It is much better to involve a team (4-8 members) and use a structured process to harness members' diverse insights and points of view. When drafting the team to develop simple rules, it is critical to include some of the people who will be using them on a day-to-day basis. ... Having users make the rules confers several advantages: (a) they are closest to the facts on the ground and best positioned to codify experience into usable rules; (b) because they will make decisions based on the rules, they can strike the right balance between guidance and discretion, avoiding rules that are overly vague or restrictive; (c) users can also phrase the rules in language that resonates for them, rather than relying on business jargon; (d) by actively participating in the process, users are more likely to buy into the final rules and therefore apply them in practice; (e) firsthand knowledge also makes it easier to explain the rules, and their underlying rationale, to colleagues who did not participate in the process.
+    Developing rules from the top down is a big mistake. When leaders rely on their gut instincts, they overemphasize recent events, build in their personal biases, and ignore data that doesn't fit with their preconceived notions. It is much better to involve a team (4-8 members) and use a structured process to harness members' diverse insights and points of view. When drafting the team to develop simple rules, it is critical to include some of the people who will be using them on a day-to-day basis. ... Having users make the rules confers several advantages: (a) they are closest to the facts on the ground and best positioned to codify experience into usable rules; (b) because they will make decisions based on the rules, they can strike the right balance between guidance and discretion, avoiding rules that are overly vague or restrictive; (c) users can also phrase the rules in language that resonates for them, rather than relying on business jargon; (d) by actively participating in the process, users are more likely to buy into the final rules and therefore apply them in practice; (e) firsthand knowledge also makes it easier to explain the rules, and their underlying rationale, to colleagues who did not participate in the process.
 
-  It is critical to test your first-cut rules in a rigorous fashion, and refine them in light of your findings.
+    It is critical to test your first-cut rules in a rigorous fashion, and refine them in light of your findings.
 
 ### Getting Personal
 [Applying the above three-step process to personal goals; same process, different scope; fill in any details later]

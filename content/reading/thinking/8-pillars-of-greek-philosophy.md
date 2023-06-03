@@ -25,9 +25,15 @@ summary=8 core greek philosophies.
     5. The Meaning of Excellence: We cannot all be winners, but neither were the Greeks. Winning is not what life asks of us; it asks us to discover those things we are capable of doing well, and then to do them with all our heart and soul. The ancient Greeks never mistook winning for heroism. To be a hero, to pursue excellence, is to be a loving mother, to be a compassionate husband, to do our job well, with honor, integrity, and passion. To do so is to fulfill our finest nature; to do less is to lose our chance to experience the full meaning of being alive.
     6. The Price of Excellence: To pursue excellence, however, inevitably means to encounter frustration (the cruelest punishment of all, to the Greeks). Greek Hell was about being frustrated, not physical torture, because they were a race of achievers. Just being in the land of the dead constituted punishment because nothing could be accomplished there. In its dark and dank environment, the dead dwelt as disembodied ghosts, devoid of substance and purpose. If the price of excellence was frustration in the here and now, it was a price worth paying--without the savor of success the rest would be empty indeed. It is the choice of Achilles, but it is our choice, too, individually and collectively, to wallow in the warm mud of mediocrity, or climb to the mountain's cold and rocky heights.
     7. The Cost of Success: Achievement installs pride, but pride goeth before a fall. The myths of Niobe, Arachne; the arrogance of Agamemnon.
+
 3. Practice of Moderation
+
 4. Self-Knowledge
+
 5. Rationalism
+
 6. Restless Curiosity
+
 7. Love of Freedom
+
 8. Individualism
