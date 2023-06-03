@@ -12,7 +12,8 @@ Implementations:
 * Elixir: [xBitsy](https://github.com/apbendi/xbitsy)
 * LLVM: [BitsyLLVM](https://github.com/SimplyDanny/bitsy-llvm)
 
-# Bitsy (from https://github.com/apbendi/bitsyspec/blob/master/BITSY.md)
+# Bitsy 
+(from https://github.com/apbendi/bitsyspec/blob/master/BITSY.md)
 
 Bitsy aims to be the best language to implement when writing your first compiler or interpreter. It is a resource for programmers learning about language design.
 
