@@ -3,7 +3,15 @@ tags=language, dynamic
 summary=Inspired by Self, Smalltalk and LISP.
 ~~~~~~
 
-[Website](http://iolanguage.org/) | [Source](https://github.com/IoLanguage/io)
+[Website](http://iolanguage.org/) 
+
+## Implementations
+
+* [Reference](https://github.com/IoLanguage/io)
+* [CLR](https://github.com/stangelandcl/io-clr)
+* [GraalVM](https://github.com/guillermomolina/graal-io)
+* [JS](https://github.com/dariusf/iota)
+* [PyPy](https://pypi.org/project/mio-lang/)
 
 > The focus of programming language research for the last thirty years has been to combine the expressive power of high level languages like Smalltalk and the performance of low level languages like C. The results have neither been as fast as C or as expressive as Smalltalk. Io's purpose is to refocus attention on expressiveness by exploring higher level dynamic programming features with greater levels of runtime flexibility combined with simplified programming syntax and semantics.
 > In Io, all values are objects (of which, anything can change at runtime, including slots, methods and inheritance), all code is made up of expressions (which are runtime inspectable and modifiable) and all expressions are made up of dynamic message sends (including assignment and control structures). Execution contexts themselves are objects and activatable objects such as methods/blocks and functions are unified into blocks with assignable scope. Concurrency is made more easily manageable through actors and implemented using coroutines for scalability.
