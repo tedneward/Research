@@ -1,6 +1,6 @@
 title=JMPLib
 tags=library, language, jvm, code generation, metaobject
-summary=
+summary=A dynamic language implementation library.
 ~~~~~~
 
 [Source](https://github.com/ComputationalReflection/JMPLib)

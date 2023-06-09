@@ -2,7 +2,6 @@ title=Multipliers
 tags=reading, management
 summary=How the best leaders make everyone smarter.
 ~~~~~~
-
 *(by Liz Wiseman)*
 
 #### Chapter 1: The Multiplier Effect
