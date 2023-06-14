@@ -7,6 +7,8 @@ summary=Collection of thoughts/essays/etc on developer relations (DevRel).
 
 [DevRel Directory](https://www.devrelbook.com/devreldirectory) (2nd tab, below the fold)
 
+[Developer experience: what is it and why should you care?](https://github.blog/2023-06-08-developer-experience-what-is-it-and-why-should-you-care/)
+
 ## "What is Developer Relations"
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Developer_relations): "an umbrella term covering the strategies and tactics for building and nurturing a community of mutually beneficial relationships between organizations and developers (e.g., software developers) as the primary users, and often influencers on purchases, of a product."
@@ -87,12 +89,12 @@ summary=Collection of thoughts/essays/etc on developer relations (DevRel).
         - Give constructive feedback to the product teams and get questions answered
         - Collate outside feedback and convert to constructive feedback
 
-
+* [Lunch & Learns](https://www.mattblodgett.com/2023/05/lunch-learns.html)
 
 ## Resources 
 *(from [AndyPiper](https://gist.github.com/andypiper/7fdb73f9713b7e1f7e5e7ac373f635cb))*
 
-### Other 📚 Books 
+### Books 
 
 * [Selling the Dream - Guy Kawasaki](https://guykawasaki.com/books/selling-the-dream/)
 * [The Art of Community - Jono Bacon](http://www.artofcommunityonline.org/)
@@ -101,7 +103,7 @@ summary=Collection of thoughts/essays/etc on developer relations (DevRel).
 * [The New Kingmakers - Stephen O'Grady](https://thenewkingmakers.com/)
 * [Developer, Advocate! - Geertjan Wielenga](https://www.packtpub.com/product/developer-advocate/9781789138740)
 
-### 📰 Communities / Newsletters / Resources 
+### Communities / Newsletters / Resources 
 
 * [DevRel Collective](https://devrelcollective.fun/) - Slack (formerly, EvangelistCollective)
 * [Awesome-Devrel](https://github.com/devrelcollective/awesome-devrel) - List of lots of things DevRel-related
