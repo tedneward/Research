@@ -34,6 +34,7 @@ Some random links I've found:
 * [foogol](http://www.bertnase.de/html/foogol.html): A (vax) compiler for a tiny ALGOL-like language
 * Golfscript: stack-oriented aimed at solving problems in as few keystrokes as possible (described at https://trove42.com/top-20-strangest-programming-languages/)
 * Grass: functional language using only W, w, v characters, so source code looks like a field of grass (described at https://trove42.com/top-20-strangest-programming-languages/)
+* [Haifu](https://www.dangermouse.net/esoteric/haifu.html): a programming language to address the lack of Eastern philosophy in the current set of commonly used languages such as C and Java. The meanings of "haifu" all describe essential qualities of the language. *Note: The specification for Haifu is not quite complete.*
 * [JSFuck](http://www.jsfuck.com/): an esoteric and educational programming style based on the atomic parts of JavaScript. It uses only six different characters to write and execute code.
 * l33t: designed to be as confusing as possible (described at https://trove42.com/top-20-strangest-programming-languages/)
 * Omgrofl: LOLCODE clone (described at https://trove42.com/top-20-strangest-programming-languages/)
@@ -44,6 +45,10 @@ Some random links I've found:
 * There's some languages--hard to tell if they're serious or not--at [p-and-q.com](http://p-nand-q.com/programming/languages/index.html).
 * There's a whole host more of them [here](https://catseye.tc/article/Languages.md), along with [formats](https://catseye.tc/article/Formats.md) and [automatons](https://catseye.tc/article/Automata.md), the distinction between which is not always clear
 
+Some ideas I have for esoteric languages:
 
+* A language built around the synonyms and antonyms of "other", so we can call it that "Other" programming language.
+* What about a D&D/TTRPG programming language?
+* Language built around the concepts of collectible card games (Magic, Pokemon, Yu-Gi-Oh); I really like the YuGiOh idea of "But I have a trap card!" that deals with exceptions. Maybe cards are blocks? Oh, I kinda want to see a program be a deck, and all of the blocks are cards that interrupt and form a stack and oh my Jesus this could work.
 
 

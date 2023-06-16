@@ -7,7 +7,10 @@ summary=A collection of articles and links on the business side of life.
 [Pragmatic Engineer](https://newsletter.pragmaticengineer.com/)
 
 ## Articles/Blogs
+[Tech debt metaphor maximalism](https://apenwarr.ca/log/20230605): "I really like the "tech debt" metaphor. A lot of people don't, but I think that's because they either don't extend the metaphor far enough, or because they don't properly understand financial debt." *Really* good read on how to think about tech debt as a direct extension of financial debt.
+
 [12 Ways to Show Your Value](https://www.linkedin.com/posts/weskao_most-companies-suck-at-communicating-the-activity-6934551400383201280-ONcW):
+
 1. **Pour salt on the wound**: No pain, no sale. People will only value your solution if they value their problem. If they don’t think their problem is that bad, they won’t pay you to solve it. When in doubt, emphasize the pain. Painkillers sell better than vitamins.
 
 2. **Use before-and-after**: An effective before-and-after skips all the boring parts. It’s like a jump cut in a movie. It emphasizes *contrast*. This heightens drama and interest. The best before-and-afters make you say wow.

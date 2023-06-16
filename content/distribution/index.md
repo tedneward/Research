@@ -21,6 +21,7 @@ Distributed systems are the means by which programs on one machine communicate w
 * [Streaming Movie of the Night API](https://www.movieofthenight.com/about/api)
 * [Nessie, Capital One's Hackathon API](http://api.reimaginebanking.com/): Nessie provides access to some real public-facing data such as Capital One ATM and bank branch locations, along with some mock customer account data, and was designed for use in experiments like this.
 * [Gamestonk Terminal](https://github.com/GamestonkTerminal/GamestonkTerminal): Investment research for everyone [Source](https://github.com/GamestonkTerminal/GamestonkTerminal) (open-source alternative to [Bloomberg](https://www.bloomberg.com/))
+* [State of APIs](https://stateofapis.com/): Survey results on a yearly (2021, 2022, beyond?) basis.
 
 ## Interesting tools based on network APIs
 
@@ -51,6 +52,7 @@ Distributed systems are the means by which programs on one machine communicate w
 * [dancres.github.io](https://dancres.github.io/Pages/)
 * ["How we built r/Place"](https://www.redditinc.com/blog/how-we-built-rplace): Place was a project by Reddit where users could place a single colored tile on a collaborative canvas every few minutes. Each tile placed was relayed to observers in real-time. This article discusses how multiple engineering teams worked together to create Place.
 * ["Goodbye Microservices: From 100s of problem children to 1 superstar"](https://segment.com/blog/goodbye-microservices/)
+* ["Clocks and Causality -- Ordering Events in Distributed Systems"](https://www.exhypothesi.com/clocks-and-causality/): *In distributed systems, logical clocks play a key role in the ordering of system events. What are the various logical clock designs, and how do they help with event ordering? This article answers these questions.*
 
 ### Distributed systems patterns
 

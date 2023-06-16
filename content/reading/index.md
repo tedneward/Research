@@ -46,12 +46,15 @@ Sub-topics:
 * Avoid hoarding tons of content if you can. Dealing with huge amounts of data can hurt your mental health
 * Learn to let go of the past (the sooner the better)
 
+[POSSE: Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE): The better approach to social media, IMHO.
 
 [Write, Think, Learn](http://www.covingtoninnovations.com/mc/WriteThinkLearn.pdf): "How to/reading. Write more clearly; Think more clearly; Learn more easily -- My central claim: These are connected!"
 
 A key paper to read before reading any academic papers: https://blog.acolyer.org/2018/01/26/a-practitioners-guide-to-reading-programming-languages-papers/
 
 [The Sound of Sorting](https://panthema.net/2013/sound-of-sorting/): demo program for sortings algorithms, which both visualizes the algorithms internals and their operations, and generates sound effects from the values being compared.
+
+[The Joy of Computer History Books](https://fabiensanglard.net/joy/index.html): A collection of the author's favorite books on computer industry history. (TODO: Go through here, extract the book links, put them on a to-read list.)
 
 ---
 

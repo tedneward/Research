@@ -116,9 +116,10 @@ summary=Collection of thoughts/essays/etc on developer relations (DevRel).
 * [Devocate](https://www.devocate.com/)
 * [`devrel` tag on DEV.to](https://dev.to/t/devrel) - lots more reading
 
-### 📝 Classic blog posts 
+### Blog posts 
 
 * [Starting Strong in Developer Relations](https://trost.codes/posts/starting-strong-in-devrel/) - a very good and length piece by Alex Trost "Understand your company. Learn your product. Meet your people." - I love this.
+* [Developer marketing for early-stage startups – what we’ve learned](https://posthog.com/blog/dev-marketing-for-startups)
 
 ---
 

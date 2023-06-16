@@ -5,6 +5,16 @@ summary=A tool that takes a unique approach to package management and system con
 
 [Website](https://nixos.org) | [Source](https://github.com/NixOS)
 
+## Articles
+
+* [Nix Manual - Nix expression language](https://nixos.org/nix/manual/#ch-expression-language)
+
+* [James Fisher - Nix by example - Part 1: The Nix expression language](https://medium.com/@MrJamesFisher/nix-by-example-a0063a1a4c55)
+
+* [Rommel Martinez - A Gentle Introduction to the Nix Family](https://ebzzry.io/en/nix/#nix)
+
+* [Some notes on using nix](https://jvns.ca/blog/2023/02/28/some-notes-on-using-nix/)
+
 ## [Learn X in Y minutes Quick Intro:](https://learnxinyminutes.com/docs/nix/)
 ---
 Nix is a simple functional language developed for the [Nix package manager](https://nixos.org/nix/) and [NixOS](https://nixos.org/).
@@ -360,12 +370,4 @@ with builtins; [
 
 ]
 ```
-
-### Further Reading
-
-* [Nix Manual - Nix expression language](https://nixos.org/nix/manual/#ch-expression-language)
-
-* [James Fisher - Nix by example - Part 1: The Nix expression language](https://medium.com/@MrJamesFisher/nix-by-example-a0063a1a4c55)
-
-* [Rommel Martinez - A Gentle Introduction to the Nix Family](https://ebzzry.io/en/nix/#nix)
 

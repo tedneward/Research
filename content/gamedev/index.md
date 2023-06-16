@@ -11,6 +11,8 @@ Video game development links.
 
 [Amit's Thoughts on Grids](http://www-cs-students.stanford.edu/~amitp/game-programming/grids/) | [Grid Parts](https://www.redblobgames.com/grids/parts/)
 
+[DOS Development Templates](https://github.com/badlogic/dos-dev-template): Template project for developing DOS games/apps with DJGPP, including source-level remote debugging with GDB and DOSBox. ([Toot](https://mastodon.gamedev.place/@badlogic/109560027107569705), [Tweet](https://twitter.com/badlogicgames/status/1609902906165141504))
+
 [Unreal Engine Scripting Languages](https://benui.ca/unreal/scripting-languages/)
 
 ["Procedural Worlds from Simple Tiles"](https://ijdykeman.github.io/ml/2017/10/12/wang-tile-procedural-generation.html)
@@ -242,4 +244,8 @@ Title/Link | Description
 [Xonotic](http://www.xonotic.org/) | An open source, arena-style multiplayer FPS.
 [Nexuiz](http://www.alientrap.com/games/nexuiz/) | The open source, multiplayer FPS game Xonotic is based on.
 [AssaultCube](https://assault.cubers.net/) | An open source, multiplayer, FPS.
+
+### Misc
+
+[OpenMoonray](https://github.com/dreamworksanimation/openmoonray): MoonRay is DreamWorks’ open-source, award-winning, state-of-the-art production MCRT renderer. [Website](https://openmoonray.org/)
 

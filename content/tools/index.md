@@ -11,9 +11,23 @@ tags=tool
 
 ["Command Line Interface Guidelines"](https://clig.dev/)
 
+[Transform.tools](https://transform.tools/): Transform things to things?
+
+## Thinking tools
+
+* [Untools.co](https://untools.co/): Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems.
+
+## Life/Productivity tools
+
+* [Unroll.me](https://unroll.me/): Unroll.Me gives you the tools you need to manage a cluttered mailbox full of pesky subscriptions emails.
+
 ## Editors
 
 * [NotepadNext](https://github.com/dail8859/NotepadNext): Cross-platform reimplementation of Notepad++
+
+## Editing
+
+* [QuillBot](https://quillbot.com/): AI-powered paraphrasing tool will enhance your writing.
 
 ## Notetaking
 
@@ -32,6 +46,7 @@ tags=tool
 * [Joplin](https://joplinapp.org/): Secure, Cross-platform, Open-Source  Markdown Note Taking App [Source](https://github.com/laurent22/joplin)
 * [Logseq](https://logseq.com/): Knowledge base manager [Source](https://github.com/logseq/logseq)
 * [Notabase](https://notabase.io): Powerful and easy-to-use note-taking app for networked thinking [Source](https://github.com/churichard/notabase)
+* [Otter](https://otter.ai/): Get an AI meeting assistant that records audio, writes notes, automatically captures slides, and generates summaries.
 * [Outline](https://www.getoutline.com/): Wiki and knowledge base [Source](https://github.com/outline/outline)
 * [Trilium.cc](https://trilium.cc/): Personal knowledge base [Source](https://github.com/zadam/trilium)
 

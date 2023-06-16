@@ -14,7 +14,7 @@ Numerous languages seek to supplant or replace C as the ubiquitous system langua
 * [gcc](https://gcc.gnu.org/projects/cxx-status.html)
 * [clang](http://clang.llvm.org/cxx_status.html) from [LLVM](/platforms/llvm.html)
 * [Emscripten](https://emscripten.org/)
-* [TinyC](https://bellard.org/tcc/): [Website](http://savannah.nongnu.org/projects/tinycc) and [Git repo](https://repo.or.cz/w/tinycc.git)
+* [TinyC](https://bellard.org/tcc/): [Website](http://savannah.nongnu.org/projects/tinycc) and [Git repo](https://repo.or.cz/w/tinycc.git) | [Single-page](http://www.iro.umontreal.ca/~felipe/IFT2030-Automne2002/Complements/tinyc.c)
 * [OpenWatcom](http://www.openwatcom.org/)
 * [Cheerp](https://leaningtech.com/pages/cheerp.html): C to WASM bytecode
 * [PicoC](https://github.com/zsaleeba/picoc): Statically typed. Interprets a subset of C.
@@ -39,3 +39,8 @@ Numerous languages seek to supplant or replace C as the ubiquitous system langua
 
 [Cosmopolitan](https://github.com/jart/cosmopolitan) Libc: "makes C a build-once run-anywhere language, like Java, except it doesn't need an interpreter or virtual machine. Instead, it reconfigures stock GCC and Clang to output a POSIX-approved polyglot format that runs natively on Linux + Mac + Windows + FreeBSD + OpenBSD + NetBSD + BIOS with the best possible performance and the tiniest footprint imaginable."
 
+---
+
+## Relationship to other languages
+
+* [C-rusted: The Advantages of Rust, in C, without the Disadvantages](https://arxiv.org/pdf/2302.05331.pdf)
