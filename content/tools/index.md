@@ -13,28 +13,43 @@ tags=tool
 
 [Transform.tools](https://transform.tools/): Transform things to things?
 
+[Microsoft Store CLI](https://github.com/microsoft/msstore-cli): The Microsoft Store Developer Command Line Interface is a cross-platform (Windows, MacOS, Linux) CLI that helps developers access the Microsoft Store APIs, for both managed (MSIX), as well as unmanaged (MSI/EXE) applications.
+
+---
+
 ## Thinking tools
 
 * [Untools.co](https://untools.co/): Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems.
 
+---
+
 ## Life/Productivity tools
 
 * [Unroll.me](https://unroll.me/): Unroll.Me gives you the tools you need to manage a cluttered mailbox full of pesky subscriptions emails.
+* [12ft.io](https://12ft.io/): Bypass any paywall, https://12ft.io/{URL}
+
+---
 
 ## Editors
 
 * [NotepadNext](https://github.com/dail8859/NotepadNext): Cross-platform reimplementation of Notepad++
 
+---
+
 ## Editing
 
 * [QuillBot](https://quillbot.com/): AI-powered paraphrasing tool will enhance your writing.
+
+---
 
 ## Notetaking
 
 * [Evernote](https://evernote.com/)
 * [Notion](https://www.notion.so/)
 * [OneNote](https://www.onenote.com/n)
-* [Roam Research](https://roamresearch.com/)):
+* [Roam Research](https://roamresearch.com/)
+
+---
 
 ## Notetaking OSS Alternatives
 

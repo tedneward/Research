@@ -37,6 +37,8 @@ AI for Game Development: [Part 1](https://huggingface.co/blog/ml-for-games-1) [P
 
 [Titanomachy RPG](https://titanomachyrpg.com/): Caltrop Core, a d4-based system for creating your own TTRPGs, featured in Dicebreaker's "9 best tabletop RPG systems to hack into a custom game." Over 204 games have been created by a diverse community surrounding the system since its release in October 2021.
 
+[Lisp Game Jam: "Wireworld"](https://spritely.institute/news/hoot-wireworld-live-in-browser.html): A game-of-life (sort of) WASM game/simulation.
+
 ---
 
 # [The Ultimate Game Hacking Resource](https://github.com/dsasmblr/game-hacking/)
