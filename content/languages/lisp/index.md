@@ -41,8 +41,8 @@ Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/li
 ### Lisp-inspired:
 
 * [ArkScript](../arkscript): A small functional Lisp-like programming language. Separate bytecode compiler and VM.
-* [Arc](../arc)
-* [Carp](../carp)
+* [Arc](../arc): Paul Graham vaporware
+* [Carp](../carp): a statically typed lisp, without a GC, for real-time applications.
 * [CLiPs](../clips): an expert system rule engine using a Lisp as the language for facts and rules
 * [Io](../../io): A prototype-based OO language.
 * [Janet](../../janet)
