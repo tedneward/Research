@@ -47,6 +47,9 @@ summary=Collection of thoughts/essays/etc on managing people.
         * Team growth: Recruit engineers, review code in detail and give useful feedback, read and write and give feedback on design documents, help onboard, etc.
         * Technical action: Identify technical debt, generate new ideas and elegant solutions, debug difficult production issues, write the right code at the right times, etc.
 
+[Why Executives Leave](https://henrysward.medium.com/executive-departures-25bc7d935813)
+
+[What Team Structure is Right for DevOps to Flourish?](https://web.devopstopologies.com/#)
 
 [5 Tips for Being an Effective Tech Lead](https://www.thoughtworks.com/insights/blog/5-tips-being-effective-tech-lead)
 

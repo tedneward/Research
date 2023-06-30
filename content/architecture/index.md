@@ -5,7 +5,10 @@ summary=A collection of links around software architecture, which may or may not
 tags=architecture
 ~~~~~~
 
+["Software Architecture as a Set of Architectural Design Decisions"](https://www.ics.uci.edu/~andre/ics223w2006/jansenbosch.pdf): "Software architectures have high costs for change, are complex, and erode during evolution. We believe these problems are partially due to knowledge vaporization. Currently, almost all the knowledge and information about the design decisions the architecture is based on are implicitly embedded in the architecture, but lack a first-class representation. Consequently, knowledge about these design decisions disappears into the architecture, which leads to the aforementioned problems. In this paper, a new perspective on software architecture is presented, which views software architecture as a composition of a set of explicit design decisions. This perspective makes architectural design decisions an explicit part of a software architecture. Consequently, knowledge vaporization is reduced, thereby alleviating some of the fundamental problems of software architecture."
+
 Tomas Petricek's writings on the subject:
+
 * [Where programs live?](https://tomasp.net/blog/2023/vague-spaces/)
 * [Programming as Architecture, Design, and Urban Planning](https://tomasp.net/academic/papers/metaphors/)
 * [Timeless Way of Programming](http://tomasp.net/blog/2022/timeless-way/)

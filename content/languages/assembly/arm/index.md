@@ -3,6 +3,67 @@ tags=language, native, object, metaobject
 summary=ARM and AArch64 Assembly links
 ~~~~~~
 
+# Articles
+
+["Apple M1 Assembly Hello World"](https://smist08.wordpress.com/2021/01/08/apple-m1-assembly-language-hello-world/):
+
+"Both MacOS and Linux are based on Unix and are more similar than different. However there are a few differences of note:
+
+- MacOS uses LLVM by default whereas Linux uses GNU GCC. This really just affects the command line arguments in the makefile for the purposes of this article. You can use LLVM on Linux and GCC should be available for Apple M1 shortly.
+- The MacOS linker/loader doesn’t like doing relocations, so you need to use the ADR rather than LDR instruction to load addresses. You could use ADR in Linux and if you do this it will work in both.
+- The Unix API calls are nearly the same, the difference is that Linux redid the function numbers when they went to 64-bit, but MacOS kept the function numbers the same. In the 32-bit world they were the same, but now they are all different.
+- When calling a Linux service the function number goes in X16 rather than X8.
+Linux installs the various libraries and includes files under `/usr/lib` and `/usr/include`, so they are easy to find and use. When you install XCode, it installs SDKs for MacOS, iOS, iPadOS, iWatchOS, etc. with the option of installing lots for versions. The paths to the libs and includes are rather complicated and you need a tool to find them.
+- In MacOS the program must start on a 64-bit boundary, hence the listing has an “.align 2” directive near top.
+- In MacOS you need to link in the System library even if you don’t make a system call from it or you get a linker error. This sample Hello World program uses software interrupts to make the system calls rather than the API in the System library and so shouldn’t need to link to it.
+- In MacOS the default entry point is `_main` whereas in Linux it is `_start`. This is changed via a command line argument to the linker.
+
+Below is the simple Assembly Language program to print out “Hello World” in a terminal window.
+
+```
+//
+// Assembler program to print "Hello World!"
+// to stdout.
+//
+// X0-X2 - parameters to linux function services
+// X16 - linux function number
+//
+.global _start             // Provide program starting address to linker
+.align 2
+
+// Setup the parameters to print hello world
+// and then call Linux to do it.
+
+_start: mov X0, #1     		// 1 = StdOut
+        adr X1, helloworld  // string to print
+		mov X2, #13     	// length of our string
+        mov X16, #4     	// MacOS write system call
+        svc 0    		 	// Call linux to output the string
+
+// Setup the parameters to exit the program
+// and then call Linux to do it.
+
+        mov     X0, #0      // Use 0 return code
+        mov     X16, #1     // Service command code 1 terminates this program
+        svc     0           // Call MacOS to terminate the program
+
+helloworld:      .ascii  "Hello World!\n"
+```
+
+Makefile:
+```
+HelloWorld: HelloWorld.o
+     ld -macosx_version_min 11.0.0 -o HelloWorld HelloWorld.o -lSystem -syslibroot
+             `xcrun -sdk macosx --show-sdk-path` -e _start -arch arm64 
+
+HelloWorld.o: HelloWorld.s
+     as -o HelloWorld.o HelloWorld.s
+```
+
+[An introduction to assembly on Apple Silicon Macs.](https://github.com/below/HelloSilicon): "In this repository, I will code along with the book Programming with 64-Bit ARM Assembly Language, adjusting all sample code for Apple's ARM64 line of computers"
+
+[Code in Assembly for Apple Silicon with the AsmAttic.app](https://eclecticlight.co/2021/06/07/code-in-assembly-for-apple-silicon-with-the-asmattic-app/)
+
 # Tutorials, Courses
 
 * ARM assembler in Raspberry Pi - http://thinkingeek.com/arm-assembler-raspberry-pi/
