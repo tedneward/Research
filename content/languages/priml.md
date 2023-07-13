@@ -4,4 +4,3 @@ summary=A new programming language aimed at facilitating systems and AI infrastr
 ~~~~~~
 
 [Source](https://github.com/primllang/pc)
-

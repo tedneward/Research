@@ -163,6 +163,7 @@ of a dynamically typed language named smalljs which is almost a subset of JavaSc
 
 - https://github.com/totalspectrum/tinyscript
 
+- https://github.com/progschj/jtc: A toy programming language interpreter in a single C++ file
 
 ### Monkey
 This is the language described by the book ["Writing an Interpreter in Go"](https://interpreterbook.com/). Also has a paired book, ["Writing a Compiler in Go"](https://compilerbook.com/) which appears to include the creation of a virtual machine for executing the compiled code.
@@ -176,6 +177,8 @@ This is the language described by the book ["Writing an Interpreter in Go"](http
 * [Source](https://github.com/haifenghuang/monkey) (archived)
 * [Gadget](https://github.com/vkandola/go-go-gadget): The 'Gadget' interpreter language, implemented in Go, using the Writing An Interpreter In Go book. This language is based off the Monkey interpreter language described in the book, and will be implemented as I progress through the book.
 * Rust: https://github.com/JoshMcguigan/monkey
+* Rust: https://github.com/shuhei/cymbal
+* Rust: https://github.com/hatashiro/monkey-rs
 
 ### Lox
 From ["Crafting Interpreters"](http://www.craftinginterpreters.com/):
