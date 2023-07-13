@@ -6,6 +6,9 @@ summary=A collection of links and articles on building programming languages.
 ## Reading
 
 * [Crafting Interpreters](http://craftinginterpreters.com/) by Bob Nystrom ([Github](https://github.com/munificent/craftinginterpreters))
+
+    * ["My Experience Crafting an Interpreter with Rust"](https://ceronman.com/2021/07/22/my-experience-crafting-an-interpreter-with-rust/)
+    
 * [A Retargetable C Compiler](./a-retargetable-c-compiler-design-and-implementation.pdf); makes use of literate programming (/languages/noweb)
 * [LLVM Tutorial: Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html)
 * [CS6120: Advanced Compilers: The Self-Guided Online Course](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/): The work consists of reading papers and open-source hacking tasks, which use LLVM and an educational IR invented just for this class.

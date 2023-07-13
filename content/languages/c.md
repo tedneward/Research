@@ -44,3 +44,4 @@ Numerous languages seek to supplant or replace C as the ubiquitous system langua
 ## Relationship to other languages
 
 * [C-rusted: The Advantages of Rust, in C, without the Disadvantages](https://arxiv.org/pdf/2302.05331.pdf)
+* [CLangSharp](https://github.com/dotnet/ClangSharp): CLang bindings in [C#](/languages/dotnet/csharp)
