@@ -6,10 +6,12 @@ summary=A collection of links and articles on building programming languages.
 ## Reading
 
 * [Crafting Interpreters](http://craftinginterpreters.com/) by Bob Nystrom ([Github](https://github.com/munificent/craftinginterpreters))
+* [A Retargetable C Compiler](./a-retargetable-c-compiler-design-and-implementation.pdf); makes use of literate programming (/languages/noweb)
 * [LLVM Tutorial: Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html)
 * [CS6120: Advanced Compilers: The Self-Guided Online Course](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/): The work consists of reading papers and open-source hacking tasks, which use LLVM and an educational IR invented just for this class.
 * [Dynamic Language Embedding](https://scg.unibe.ch/archive/phd/renggli-phd.pdf)
 * [X-expressions in XMLisp: S-expressions and Extensible Markup Language Unite](https://home.cs.colorado.edu/~ralex/papers/PDF/X-expressions.pdf): "XMLisp unites S-expressions with XML into X-expressions that unify the notions of data sharing with computation. Using a combination of the Meta Object Protocol (MOP), readers and printers, X-expressions uniquely integrate XML at a language, not API level, into Lisp in a way that could not be done with other programming languages."
+* [Principles of Programming Languages course](https://bguppl.github.io/interpreters/): [Source](https://github.com/bguppl/interpreters)
 
 ## DSLs
 
@@ -58,6 +60,8 @@ summary=A collection of links and articles on building programming languages.
 ---
 
 ## Native/raw
+[AsmInterpreter](https://github.com/yekyam/AsmInterpreter): A simple assembly interpreter to help people with understanding the language without the hassle of setup.
+
 [Build your own Lisp](http://www.buildyourownlisp.com/contents) teaches C by building a Lisp.
 
 [luax](https://github.com/morrow1nd/luax): Lua-like programming language for studying compiler and interpreter courses.
@@ -106,20 +110,51 @@ of a dynamically typed language named smalljs which is almost a subset of JavaSc
 
 ---
 
+## Python
+
+- https://github.com/jonpry/Pill: Pill is an open source interpreter for the Cadence Skill language. Its purpose is to run PCell generator codes used in VLSI. Pill is written in Python and compiles the source into Python bytecode where it is then executed alongside regular python functions at similar speed to "native" python codes. *(This is an intriguing idea, and one that deserves some further exploration--if I can go from source to Py bytecode, we skip much of the parsing and get a startup speed benefit.)*
+
+---
+
 ## Toy/experimental
 
-[jtc](https://github.com/progschj/jtc): A toy programming language interpreter that has no dependencies and sits in a single C++ file. C++11 capable compilers should compile it without extra options other than enabling C++11.
+- [jtc](https://github.com/progschj/jtc): A toy programming language interpreter that has no dependencies and sits in a single C++ file. C++11 capable compilers should compile it without extra options other than enabling C++11.
 
-[Maverick](https://github.com/willianscsilva/interpreter)
+- [Maverick](https://github.com/willianscsilva/interpreter)
 
-[Eval](https://github.com/tevelee/Eval): a lightweight interpreter framework written in Swift, evaluating expressions at runtime.
+- [Eval](https://github.com/tevelee/Eval): a lightweight interpreter framework written in Swift, evaluating expressions at runtime.
 
-[Pointless](https://ptls.dev/) ([Source](https://github.com/pointless-lang/pointless)): a scripting language for learning and fun.
+- [Pointless](https://ptls.dev/) ([Source](https://github.com/pointless-lang/pointless)): a scripting language for learning and fun.
 
-[IMP](https://github.com/jayconrod/imp-interpreter): A minimal interpreter for the toy language, IMP, used as an example for building interpreters.
+- [IMP](https://github.com/jayconrod/imp-interpreter): A minimal interpreter for the toy language, IMP, used as an example for building interpreters.
 
-[Dwarf](https://github.com/nicolasdilley/dwarf-interpreter): A very small scripting language written in Elixir.
+- https://github.com/nandor/utcn-imp: Imp Language and Interpreter
 
+- [Dwarf](https://github.com/nicolasdilley/dwarf-interpreter): A very small scripting language written in Elixir.
+
+- [Bhai](https://github.com/DulLabs/bhai-lang): A toy programming language written in Typescript
+
+- https://github.com/hisystems/Interpreter: Simple language interpreter written in pure C#.
+
+- https://github.com/airtrack/luna: A toy interpreter of lua-like language
+
+- https://github.com/sam-astro/Z-Sharp: Custom programming interpreter for ZSharp (Z#), a language I made up.
+
+- https://github.com/proglangclass/interpreter: Language built during the Programming Language Masterclass.
+
+- https://github.com/JohnEarnest/ok: An open-source interpreter for the K5 programming language.
+
+- https://github.com/drmenguin/minilang-interpreter: Interpreter and Read-Eval-Print-Loop for a simple programming language called "MiniLang", written in C++
+
+- https://github.com/bbu/simple-interpreter: A hackable and extensible lexer, parser and interpreter for a minimalistic, imperative, C-like language.
+
+- https://github.com/oriontransfer/PL0-Language-Tools: An implementation of PL/0 including a tree-based interpreter and virtual machine. http://programming.dojo.net.nz/study/pl0-language-tools/index
+
+- https://github.com/jamesdhutton/Interpreter: Interpreter for a simple language
+
+- https://github.com/hijkzzz/mini-interpreter: A simple scripting language (supports anonymous functions and clases)
+
+- https://github.com/mattgreen/hython: Haskell-powered Python 3 interpreter
 
 ### Monkey
 This is the language described by the book ["Writing an Interpreter in Go"](https://interpreterbook.com/). Also has a paired book, ["Writing a Compiler in Go"](https://compilerbook.com/) which appears to include the creation of a virtual machine for executing the compiled code.
@@ -139,3 +174,8 @@ From ["Crafting Interpreters"](http://www.craftinginterpreters.com/):
 * C++: [CppLox](https://github.com/the-lambda-way/CppLox)
 * Rust: [rlox](https://github.com/cwbriones/rlox)
 * Swift: [slox](https://github.com/alexito4/slox)
+
+### Esolangs
+
+- https://github.com/nickdesaulniers/bf_interpreter_jit_compiler: Teach myself about interpreters, JITs, and compilers using the Brainfuck language as the toy language -- https://nickdesaulniers.github.io/blog/2015/05/25/interpreter-compiler-jit/
+

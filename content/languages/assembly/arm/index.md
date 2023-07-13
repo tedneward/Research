@@ -808,6 +808,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	+ <https://github.com/alastairreid/mra_tools>
 * VIXL: AArch64 Runtime Code Generation Library
 	+ https://github.com/armvixl/vixl
+* https://github.com/ARM-software/asl-interpreter: Example implementation of Arm's Architecture Specification Language (ASL)
 
 ## Software: Binary Analysis
 

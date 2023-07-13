@@ -9,6 +9,10 @@ summary=A collection of links and articles on different programming languages.
 
 * [Monads](../monads)
 
+Literate
+
+* [nuweb](/languages/nuweb)
+
 Logic
 
 * [A Very Gentle Intro to Logic Programming](../avergentleintrotologicprog.html)

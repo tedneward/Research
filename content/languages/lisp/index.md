@@ -20,7 +20,7 @@ summary=The original dynamic functional(ish) homoiconic (consistent symbology) l
 * [Clozure CL](https://www.clozure.com/ccl): "Clozure CL is available for download from [ccl.clozure.com](http://ccl.clozure.com/)" (Self-hosted compiler, so requires a copy of both the source and bootstrap compilers, which are all available on [Github](https://github.com/Clozure/ccl): "For the latest released version of CCL, please see https://github.com/Clozure/ccl/releases/latest and download the archive for your platform. These archives contain not only the necessary binaries, but also a full clone of the source code. So, to install a complete CCL, all you have to do is download one archive and extract it.")
 * Rust: [Ketos](https://github.com/murarth/ketos): A functional Lisp.
 * [Allegro Common Lisp](https://franz.com/products/allegro-common-lisp/): Commercial implementation with a free (evaluational, not-timeboxed) download.
-* [LispWorks](http://www.lispworks.com/documentation/index.html): [Personal Edition](http://www.lispworks.com/downloads/index.html), 
+* [LispWorks](http://www.lispworks.com/documentation/index.html): [Personal Edition](http://www.lispworks.com/downloads/index.html)
 
 ### "A Lisp":
 
@@ -29,11 +29,14 @@ summary=The original dynamic functional(ish) homoiconic (consistent symbology) l
 * [Ferret](https://ferret-lang.org/): appears to compile [Clojure](/languages/clojure.html) into native code
 * [zygomys](https://github.com/glycerine/zygomys): An embedded Lisp for Go. Inspired by Clojure, but more oriented towards imperative programming. Has an infix syntax layer that looks like a subset of Go.
 * [L++](https://bitbucket.org/ktg/l/src/master/): a programming language that transcompiles to C++. It uses Lisp-like syntax.
+* [ligo](https://github.com/aki237/ligo): scheme like language interpreter in golang
 * ["How to Write a Program: Lisp interpreter in 90 lines of C++"](http://howtowriteaprogram.blogspot.com/2010/11/lisp-interpreter-in-90-lines-of-c.html)
 * ["I Built a Lisp Compiler"](https://mpov.timmorgan.org/i-built-a-lisp-compiler/)
 * ["Make a Lisp"](https://github.com/kanaka/mal): Step-by-step process to make your own lisp in your language of choice.
 * [Writing a lisp compiler from scratch, in JavaScript](https://notes.eatonphil.com/compiler-basics-lisp-to-assembly.html), [Part 2](https://notes.eatonphil.com/compiler-basics-functions.html), [Part 3](https://notes.eatonphil.com/compiler-basics-llvm.html), [Part 4](https://notes.eatonphil.com/compiler-basics-llvm-conditionals.html), [Part 5](https://notes.eatonphil.com/compiler-basics-llvm-system-calls.html), [Part 6](https://notes.eatonphil.com/compiler-basics-an-x86-upgrade.html), [Source](https://github.com/eatonphil/ulisp)
 * [Llisp](https://stopa.io/post/292): A Lisp in Lisp
+* Awk: https://github.com/darius/awklisp
+* Swift: https://github.com/uraimo/SwiftyLISP A minimal Lisp implemented in Swift
 
 Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/lispbox/): "Lispbox is an IDE for Common Lisp development. Actually, Lispbox is just a pre-configured packaging of the Emacs editing environment, SLIME (The Superior Lisp Interaction Mode for Emacs), the Quicklisp library manager, and the Clozure Common Lisp compiler."
 
