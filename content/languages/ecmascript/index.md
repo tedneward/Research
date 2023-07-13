@@ -72,7 +72,7 @@ To any JS engine (not direct FFI)
 ## Reading
 
 * [JavaScript Promises... in Wicked Detail](https://mattgreer.dev/articles/promises-in-wicked-detail/)
-* [SICP in ECMAScript](../sicpjs.pdf)
+* [SICP in ECMAScript](../sicpjs.pdf); see also [js-slang](https://github.com/source-academy/js-slang), implementations of the Source languages, which are small sublanguages of JavaScript designed for SICP JS
 * [Code as Data](../code-as-data)
 
 ## History

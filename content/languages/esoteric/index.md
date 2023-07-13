@@ -10,6 +10,10 @@ summary=Languages that are silly, ridiculous, or out to punish innocent programm
 [Esolangs wiki](https://esolangs.org/wiki/Main_Page): With lovely languages like:
 
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck), the classic esolang.
+
+    * [Urban Miller's original implementation](https://gist.github.com/rdebath/0ca09ec0fdcf3f82478f)
+    * C#: [ByteRibbon](https://github.com/lambdacasserole/byteribbon)
+
 * [Emmental](https://esolangs.org/wiki/Emmental) is a self-modifying language. It is defined by a meta-circular interpreter (an Emmental interpreter described in Emmental.) The meta-circular interpreter provides an operation which modifies operations of the meta-circular interpreter. Emmental is a stack-based language, but it also has a queue.
 * [FIFTH](https://esolangs.org/wiki/FIFTH): for all those functional alcoholics out there.
 * [Funciton](https://esolangs.org/wiki/Funciton) is a two-dimensional, minimalistic, declarative programming language invented in 2011. (ASCII call-flow graphs FTW!)
@@ -42,6 +46,7 @@ Some random links I've found:
 * [Q-BAL](https://mirrors.talideon.com/articles/qbal/): a programming language based on the question “What would it be like if a language were based on queues rather than stacks?” The acronym stands for Queue-BAsed Lanugage. This language is not designed to be useful, just fun.
 * reMorse: a programming language designed to look like Morse code (described at https://trove42.com/top-20-strangest-programming-languages/)
 * Velato: MIDI files as source code (described at https://trove42.com/top-20-strangest-programming-languages/)
+* [uwuscript](https://github.com/lambdacasserole/uwuscript): World's first uwu-oriented language
 * [Whitespace](http://compsoc.dur.ac.uk/whitespace/): language designed to make use of whitespace characters exclusively
 * There's some languages--hard to tell if they're serious or not--at [p-and-q.com](http://p-nand-q.com/programming/languages/index.html).
 * There's a whole host more of them [here](https://catseye.tc/article/Languages.md), along with [formats](https://catseye.tc/article/Formats.md) and [automatons](https://catseye.tc/article/Automata.md), the distinction between which is not always clear
