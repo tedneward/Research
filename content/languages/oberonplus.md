@@ -1,6 +1,6 @@
 title=Oberon+
 tags=language, native
-summary=
+summary=A successor to Pascal with some interesting elements.
 ~~~~~~
 
 [Website](https://oberon-lang.github.io/) | [Source](https://github.com/oberon-lang/specification)

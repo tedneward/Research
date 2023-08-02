@@ -1,6 +1,6 @@
 title=Pashmak
 tags=language, object, dynamic, python
-summary=
+summary=An interesting developing language.
 ~~~~~~
 
 [Github](https://github.com/pashmaklang/pashmak)

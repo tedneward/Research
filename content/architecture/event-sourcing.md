@@ -1,6 +1,6 @@
 title=Event Sourcing
 tags=architecture
-summary=
+summary=An approach to building storage systems that tracks events rather than "truth".
 ~~~~~~
 
 [Introduction to Event Sourcing Workshop](https://github.com/oskardudycz/EventSourcing.NetCore/tree/main/Workshops/IntroductionToEventSourcing)

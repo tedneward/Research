@@ -1,6 +1,6 @@
 title=Paradigms of Artificial Intelligence Programming
 tags=reading, ai, nlp
-summary=
+summary=Norvig's classic, on the Web.
 ~~~~~~
 
 by Peter Norvig

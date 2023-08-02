@@ -1,6 +1,6 @@
 title=Nools
 tags=library, nodejs, rules
-summary=
+summary=Rules engine inference and enforcement in JS.
 ~~~~~~
 
 [Website](http://noolsjs.com/) | [Source](https://github.com/noolsjs/nools)

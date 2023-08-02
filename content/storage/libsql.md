@@ -1,6 +1,6 @@
 title=libSQL
 tags=storage, native
-summary=
+summary=A next-gen fork of SQLite.
 ~~~~~~
 
 [Website](https://libsql.org/) | [Source](https://github.com/libsql/libsql)

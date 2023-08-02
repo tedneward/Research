@@ -1,6 +1,6 @@
 title=Meson
 tags=tool, native, build
-summary=
+summary=Yet another build tool for C++.
 ~~~~~~
 
 [Website](http://mesonbuild.com/) | [Videos](https://mesonbuild.com/Videos.html) | [Github](https://github.com/mesonbuild/meson)
