@@ -1,6 +1,6 @@
 title=Console
 tags=language, network
-summary=
+summary=A DSL for a network service programming language.
 ~~~~~~
 
 [Thesis](https://essay.utwente.nl/58039/) ([PDF](http://essay.utwente.nl/58039/1/scriptie_D_van_%27t_Oever.pdf))

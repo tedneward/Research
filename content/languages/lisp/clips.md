@@ -1,6 +1,6 @@
 title=CLIPS
-tags=language, platform, logic, rules, expert system
-summary=A forward-chaining rule-based programming language written in C that also provides procedural and object-oriented programming facilities.
+tags=language, platform, logic, rules, expert system, knowledge representation
+summary=A forward-chaining rule-based programming language/platform/engine written in C that also provides procedural and object-oriented programming facilities.
 ~~~~~~
 
 [Website](http://www.clipsrules.net/) | [Source](https://sourceforge.net/projects/clipsrules/) | [CLIPSNet Source](https://sourceforge.net/projects/clipsnet/)

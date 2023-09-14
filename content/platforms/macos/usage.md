@@ -33,25 +33,80 @@ summary=Tips on using the Apple desktop operating system (on top of the open-sou
 
     * Keep the Mac from hibernating/sleeping: `caffeinate`
 
+* ["Useful macOS shortcuts"](https://www.makeuseof.com/tag/useful-mac-osx-shortcuts-pdf/):
+
+    Startup: Intel
+
+    Action | Keystroke(s)
+    ------ | ------------
+    Boot without automatic login | Left shift (Press and hold when macOS progress indicator appears)
+    Boot in Safe Mode (Intel) | Shift (Press and hold)
+    Boot in Single User Mode (Intel, unavailable in macOS Mojave and later) | Cmd + S
+    Boot in Verbose Mode (Intel) | Cmd + V
+    Boot in Target Disk Mode (Intel) | T
+    Boot from a NetBoot network server | N
+    Boot to Startup Manager (Intel) | Option
+    Load macOS Recovery (Intel) | Cmd + R
+    Load macOS Recovery over the internet (Intel) | Option + Cmd + R
+    Enter Apple Diagnostics (Intel) | D
+    Load Apple Diagnostics over the internet | Option + D
+    Reset NVRAM or PRAM (Intel, unnecessary on Apple Silicon Macs) | Option + Cmd + P + R
+    Eject removable media | F12
+
+    Startup: Apple Silicon
+
+    Action | Keystroke(s)
+    ------ | ------------
+    Boot without automatic login | Left shift (Press and hold when macOS progress indicator appears)
+    Boot in Safe Mode (Apple Silicon) | Power (Press and hold), then select a volume, then hold Shift while clicking Continue in Safe Mode
+    Boot to Startup Manager (Apple Silicon) | Power
+    Enter Apple Diagnostics (Apple Silicon) | Cmd + D
+    Load macOS Recovery (Apple Silicon) | Power, then select Options, then click Continue
+    Load Apple Diagnostics over the internet | Option + D
+    Boot from a NetBoot network server | N
+    Eject removable media | F12
+
+    Finder
+
+    Action | Keystroke(s)
+    ------ | ------------
+    Go to folder | Cmd + Shift + G
+    Show/hide the Path Bar | Option + Cmd + P
+    Show/hide the Status Bar | Option + Cmd + / (Slash)
+
+    General
+
+    Action | Keystroke(s)
+    ------ | ------------
+    Lock the screen | Cmd + Control + Q
+    Log out | Shift + Cmd + Q
+    Log out without confirmation | Option + Shift + Cmd + Q
+    Display the macOS screenshotting tools | Cmd + 5
+    Take a screenshot of the entire screen | Shift + Cmd + 3
+    Take a screenshot of a portion of the screen | Shift + Cmd + 4 (then hold Space to drag the selection, if needed)
+    Take a screenshot of a specific window or menu | Cmd + Shift + 4, then Space
+    Close all windows | Option + Cmd + W
+    Paste and delete original items | Option + Cmd + V
+    Paste and match style | Shift + Option + Cmd + V
+    Zoom in | Cmd + + (Plus)
+    Zoom out | Cmd + - (Minus)
+    Open preferences for the current app | Cmd + , (Comma)
+    Open Spotlight search | Cmd + Space
+    Hide/show the Dock | Option + Cmd + D
+    Show the Character Viewer | Control + Cmd + Space
+    Show the emoji picker | Fn
+    Show desktop icons as stacks | Cmd + Control + 0
+    Switch the current app to fullscreen mode | Control + Cmd + F
+    Quit the selected app in the app switcher | Cmd + Shift, then Q
+    Force quit apps | Option + Cmd + Esc
+    Switch to the next window in the current app | Cmd + ~ (Tilde)
+    Put display(s) to sleep | Shift + Control + Eject
+    Put your computer to sleep | Option + Cmd + Eject
+    Quit all apps and restart | Control + Cmd + Eject 
+    Quit all apps and shut down | Control + Option + Cmd + Power
+    Choose from Sleep, Restart, and Shutdown options | Control + Eject
+
 ## A/V Tricks
-
-* ["Take a screenshot on your Mac"](https://support.apple.com/en-us/HT201361):
-
-    * **How to take a screenshot on your Mac**: To take a screenshot, press and hold these three keys together: Shift, Command, and 3. If you see a thumbnail in the corner of your screen, click it to edit the screenshot. Or wait for the screenshot to save to your desktop.
-
-    * **How to capture a portion of the screen**: Press and hold these three keys together: Shift, Command, and 4. Drag the crosshair  to select the area of the screen to capture. To move the selection, press and hold Space bar while dragging. To cancel taking the screenshot, press the Esc (Escape) key.
-
-    * **How to capture a window or menu**: Open the window or menu that you want to capture. Press and hold these keys together: Shift, Command, 4, and Space bar. The pointer changes to a camera icon. To cancel taking the screenshot, press the Esc (Escape) key. Click the window or menu to capture it. To exclude the window's shadow from the screenshot, press and hold the Option key while you click. If you see a thumbnail in the corner of your screen, click it to edit the screenshot. Or wait for the screenshot to save to your desktop.
-
-    * **Where to find screenshots**: By default, screenshots save to your desktop with the name "Screen Shot [date] at [time].png." 
-    
-    * In macOS Mojave or later, you can change the default location of saved screenshots from the Options menu in the Screenshot app. You can also drag the thumbnail to a folder or document.
-
-    * In macOS Mojave or later, you can also set a timer and choose where screenshots are saved with the Screenshot app. To open the app, press and hold these three keys together: Shift, Command, and 5. Learn more about the Screenshot app.
-
-    * Some apps, such as the Apple TV app, might not let you take screenshots of their windows.
-
-    * To copy a screenshot to the Clipboard, press and hold the Control key while you take the screenshot. You can then paste the screenshot somewhere else. Or use Universal Clipboard to paste it on another Apple device.
 
 * ["How to Record Your Face and Screen"](https://macreports.com/record-face-screen-mac/):
 

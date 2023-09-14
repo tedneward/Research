@@ -1,6 +1,6 @@
 title=Pikachu
 tags=language, esoteric, esolang
-summary=
+summary=Pika pika.
 ~~~~~~
 
 [Intro](https://trove42.com/introducing-pikachu-programming-language/) | [Syntax](https://trove42.com/pikachu-syntax-rules/)

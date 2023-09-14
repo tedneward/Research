@@ -7,6 +7,10 @@ summary=Distributed version-control system.
 
 [Website](https://www.git-scm.com) | [Docs](http://git-scm.com/docs)
 
+### Graphical cheat sheet
+
+![](https://media.licdn.com/dms/image/D5622AQF8ksdiwWBvyw/feedshare-shrink_800/0/1684905537126?e=1689811200&v=beta&t=P5Pt5DenPxOmgJ_kUJ1-9fq8LykPNB6hrtbJO1_7AW4)
+
 ### Cheat sheet
 
 `git init`: Create repository in directory

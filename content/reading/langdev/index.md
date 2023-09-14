@@ -3,11 +3,22 @@ tags=reading, langdev
 summary=A collection of links and articles on building programming languages.
 ~~~~~~
 
-## Books
+## Reading
 
-[Crafting Interpreters](http://craftinginterpreters.com/) by Bob Nystrom ([Github](https://github.com/munificent/craftinginterpreters))
+* [Crafting Interpreters](http://craftinginterpreters.com/) by Bob Nystrom ([Github](https://github.com/munificent/craftinginterpreters))
+
+    * ["My Experience Crafting an Interpreter with Rust"](https://ceronman.com/2021/07/22/my-experience-crafting-an-interpreter-with-rust/)
+    
+* [A Retargetable C Compiler](./a-retargetable-c-compiler-design-and-implementation.pdf); makes use of literate programming (/languages/noweb)
+* [LLVM Tutorial: Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html)
+* [CS6120: Advanced Compilers: The Self-Guided Online Course](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/): The work consists of reading papers and open-source hacking tasks, which use LLVM and an educational IR invented just for this class.
+* [Dynamic Language Embedding](https://scg.unibe.ch/archive/phd/renggli-phd.pdf)
+* [X-expressions in XMLisp: S-expressions and Extensible Markup Language Unite](https://home.cs.colorado.edu/~ralex/papers/PDF/X-expressions.pdf): "XMLisp unites S-expressions with XML into X-expressions that unify the notions of data sharing with computation. Using a combination of the Meta Object Protocol (MOP), readers and printers, X-expressions uniquely integrate XML at a language, not API level, into Lisp in a way that could not be done with other programming languages."
+* [Principles of Programming Languages course](https://bguppl.github.io/interpreters/): [Source](https://github.com/bguppl/interpreters)
 
 ## DSLs
+
+[MLIR: Creating a Toy Language and AST](https://mlir.llvm.org/docs/Tutorials/Toy/Ch-1/)
 
 [Creating a DSL Step by Step, Part 1](https://www.youtube.com/watch?v=3sfMSHyjMHk)
 
@@ -15,11 +26,15 @@ summary=A collection of links and articles on building programming languages.
 
 [Creating a Ruby DSL: A Guide to Advanced Metaprogramming](https://www.toptal.com/ruby/ruby-dsl-metaprogramming-guide)
 
+[Towards Dynamically Extensible Syntax](https://homepages.cwi.nl/~storm/publications/jh.pdf): introduces CherryLisp -- a Lisp dialect with dynamically user-definable syntax that suffers from neither of [drawbacks listed in the abstract].
+
 ## Articles/Papers
 
 ["Three Things I Wish I Knew When I Started Designing Languages"](https://www.youtube.com/watch?v=oa0qq75i9oc)
 
 ["The Naked Truth About Writing a Programming Language"](https://www.digitalmars.com/articles/b90.html)
+
+["How Big Should a Programming Language Be?"](https://tratt.net/laurie/blog/2023/how_big_should_a_programming_language_be.html): "... a long-held opinion I have about programming language design: we have a tendency to keep adding features to a language until it becomes so big that its sheer size makes it difficult to use reliably." *Yes!*
 
 [Open, extensible object models](https://piumarta.com/software/cola/objmodel2.pdf): "The artificial distinction between implementation language and end-user language can be eliminated by implementing the language using only end-user objects and messages, making the implementation accessible for arbitrary modification by programmers. We show that three object types and five methods are sufficient to bootstrap an extensible object model and messaging semantics that are described entirely in terms of those same objects and messages."
 
@@ -37,15 +52,19 @@ summary=A collection of links and articles on building programming languages.
 
 [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
 
-[Nanopass](http://www.cs.indiana.edu/~dyb/pubs/nano-jfp.pdf): A framework for compiler education
+[Nanopass](https://legacy.cs.indiana.edu/~dyb/pubs/nano-jfp.pdf): A framework for compiler education | [Source](https://github.com/nanopass/) in Racket or Scheme
 
 [Language Incubator](https://github.com/EarlGray/language-incubator): Repo of language experiments/explorations; "An incubator/sandbox for learning compilers, interpreters, code generation, virtual machines, assemblers, JITs, etc."
 
 [Principles of Programming Languages (course)](https://bguppl.github.io/interpreters/practice_sessions/ps4.html) ([Source](https://github.com/bguppl/interpreters))
 
+[Flattening ASTs (and Other Compiler Data Structures)](https://www.cs.cornell.edu/~asampson/blog/flattening.html)
+
 ---
 
 ## Native/raw
+[AsmInterpreter](https://github.com/yekyam/AsmInterpreter): A simple assembly interpreter to help people with understanding the language without the hassle of setup.
+
 [Build your own Lisp](http://www.buildyourownlisp.com/contents) teaches C by building a Lisp.
 
 [luax](https://github.com/morrow1nd/luax): Lua-like programming language for studying compiler and interpreter courses.
@@ -94,20 +113,57 @@ of a dynamically typed language named smalljs which is almost a subset of JavaSc
 
 ---
 
+## Python
+
+- https://github.com/jonpry/Pill: Pill is an open source interpreter for the Cadence Skill language. Its purpose is to run PCell generator codes used in VLSI. Pill is written in Python and compiles the source into Python bytecode where it is then executed alongside regular python functions at similar speed to "native" python codes. *(This is an intriguing idea, and one that deserves some further exploration--if I can go from source to Py bytecode, we skip much of the parsing and get a startup speed benefit.)*
+
+---
+
 ## Toy/experimental
 
-[jtc](https://github.com/progschj/jtc): A toy programming language interpreter that has no dependencies and sits in a single C++ file. C++11 capable compilers should compile it without extra options other than enabling C++11.
+- [jtc](https://github.com/progschj/jtc): A toy programming language interpreter that has no dependencies and sits in a single C++ file. C++11 capable compilers should compile it without extra options other than enabling C++11.
 
-[Maverick](https://github.com/willianscsilva/interpreter)
+- [Maverick](https://github.com/willianscsilva/interpreter)
 
-[Eval](https://github.com/tevelee/Eval): a lightweight interpreter framework written in Swift, evaluating expressions at runtime.
+- [Eval](https://github.com/tevelee/Eval): a lightweight interpreter framework written in Swift, evaluating expressions at runtime.
 
-[Pointless](https://ptls.dev/) ([Source](https://github.com/pointless-lang/pointless)): a scripting language for learning and fun.
+- [Pointless](https://ptls.dev/) ([Source](https://github.com/pointless-lang/pointless)): a scripting language for learning and fun.
 
-[IMP](https://github.com/jayconrod/imp-interpreter): A minimal interpreter for the toy language, IMP, used as an example for building interpreters.
+- [IMP](https://github.com/jayconrod/imp-interpreter): A minimal interpreter for the toy language, IMP, used as an example for building interpreters.
 
-[Dwarf](https://github.com/nicolasdilley/dwarf-interpreter): A very small scripting language written in Elixir.
+- https://github.com/nandor/utcn-imp: Imp Language and Interpreter
 
+- [Dwarf](https://github.com/nicolasdilley/dwarf-interpreter): A very small scripting language written in Elixir.
+
+- [Bhai](https://github.com/DulLabs/bhai-lang): A toy programming language written in Typescript
+
+- https://github.com/hisystems/Interpreter: Simple language interpreter written in pure C#.
+
+- https://github.com/airtrack/luna: A toy interpreter of lua-like language
+
+- https://github.com/sam-astro/Z-Sharp: Custom programming interpreter for ZSharp (Z#), a language I made up.
+
+- https://github.com/proglangclass/interpreter: Language built during the Programming Language Masterclass.
+
+- https://github.com/JohnEarnest/ok: An open-source interpreter for the K5 programming language.
+
+- https://github.com/drmenguin/minilang-interpreter: Interpreter and Read-Eval-Print-Loop for a simple programming language called "MiniLang", written in C++
+
+- https://github.com/bbu/simple-interpreter: A hackable and extensible lexer, parser and interpreter for a minimalistic, imperative, C-like language.
+
+- https://github.com/oriontransfer/PL0-Language-Tools: An implementation of PL/0 including a tree-based interpreter and virtual machine. http://programming.dojo.net.nz/study/pl0-language-tools/index
+
+- https://github.com/jamesdhutton/Interpreter: Interpreter for a simple language
+
+- https://github.com/hijkzzz/mini-interpreter: A simple scripting language (supports anonymous functions and clases)
+
+- https://github.com/mattgreen/hython: Haskell-powered Python 3 interpreter
+
+- https://github.com/yangtau/hedgehog: a toy programming language
+
+- https://github.com/totalspectrum/tinyscript
+
+- https://github.com/progschj/jtc: A toy programming language interpreter in a single C++ file
 
 ### Monkey
 This is the language described by the book ["Writing an Interpreter in Go"](https://interpreterbook.com/). Also has a paired book, ["Writing a Compiler in Go"](https://compilerbook.com/) which appears to include the creation of a virtual machine for executing the compiled code.
@@ -120,6 +176,9 @@ This is the language described by the book ["Writing an Interpreter in Go"](http
 * [Rust](https://github.com/wadackel/rs-monkey-lang)
 * [Source](https://github.com/haifenghuang/monkey) (archived)
 * [Gadget](https://github.com/vkandola/go-go-gadget): The 'Gadget' interpreter language, implemented in Go, using the Writing An Interpreter In Go book. This language is based off the Monkey interpreter language described in the book, and will be implemented as I progress through the book.
+* Rust: https://github.com/JoshMcguigan/monkey
+* Rust: https://github.com/shuhei/cymbal
+* Rust: https://github.com/hatashiro/monkey-rs
 
 ### Lox
 From ["Crafting Interpreters"](http://www.craftinginterpreters.com/):
@@ -127,3 +186,8 @@ From ["Crafting Interpreters"](http://www.craftinginterpreters.com/):
 * C++: [CppLox](https://github.com/the-lambda-way/CppLox)
 * Rust: [rlox](https://github.com/cwbriones/rlox)
 * Swift: [slox](https://github.com/alexito4/slox)
+
+### Esolangs
+
+- https://github.com/nickdesaulniers/bf_interpreter_jit_compiler: Teach myself about interpreters, JITs, and compilers using the Brainfuck language as the toy language -- https://nickdesaulniers.github.io/blog/2015/05/25/interpreter-compiler-jit/
+

@@ -40,5 +40,8 @@ Import the srfi-19 module and use its functions to display the current date and 
 
 [Tutorial showing embedding GUILE](https://www.gnu.org/software/guile/docs/guile-tut/tutorial.html)
 
+---
 
+[Hoot](https://gitlab.com/spritely/guile-hoot): an ahead-of-time compiler for all of R7RS-small
+Scheme to WebAssembly.
 
