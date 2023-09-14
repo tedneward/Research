@@ -1,0 +1,152 @@
+title=Tiny
+tags=gamedev
+summary=A virtual console that offers an easy and efficient way to build games and other applications with its Lua programming support, hot reloading, and 256-color maximum.
+~~~~~~
+
+[Webiste](https://minigdx.github.io/tiny/index.html) | [Source](https://github.com/minigdx/tiny)
+
+## Tiny Tutorial
+In this tutorial, we'll be creating a simple Pong game using the Lua programming language and `🧸 Tiny`.
+
+Pong is a classic 2D arcade game where two players control paddles on opposite sides of the screen, and try to hit a ball back and forth without letting it pass their paddle. The game ends when one player misses the ball, and the other player scores a point.
+
+Our implementation of Pong will have a fixed screen size of 256 pixels for width and height, and we'll use the `ctrl.pressing()` function to check for key presses. Check the <<Tiny API>> to know more about the Tiny Engine API.
+
+We'll cover four main steps: initializing the game state with the `_init()` function, updating the game state with the `_update()` function and drawing the game with the `_draw()` function.
+
+By the end of this tutorial, you should have a basic Pong game that you can customize and build upon.
+
+### Step 1: Initialize the Game State
+First, we need to initialize the game state. We'll define the position and size of the paddles, the position and size of the ball, and the initial velocity of the ball.
+
+```lua
+function _init()
+    paddle_width = 4
+    paddle_height = 32
+    ball_radius = 4
+    ball_speed = 2
+    ball_velocity = { x = ball_speed, y = ball_speed }
+    player1_pos = { x = 8, y = 96 - paddle_height / 2 }
+    player2_pos = { x = 244, y = 96 - paddle_height / 2 }
+    ball_pos = { x = 128, y = 96 }
+end
+```
+
+### Step 2: Update the Game State
+In the `_update()` callback, we'll update the game state by moving the paddles and the ball. We'll also check for collisions between the ball and the paddles, and update the ball's velocity accordingly.
+
+```lua
+-- convert bool to number
+function num(var)
+    return var and 1 or 0
+end
+
+function _update()
+    -- Update game state
+    player1_pos.y = player1_pos.y - 4 * num(ctrl.pressing(keys.up))
+    player1_pos.y = player1_pos.y + 4 * num(ctrl.pressing(keys.down))
+    player2_pos.y = player2_pos.y - 4 * num(ctrl.pressing(keys.z))
+    player2_pos.y = player2_pos.y + 4 * num(ctrl.pressing(keys.s))
+
+    ball_pos.x = ball_pos.x + ball_velocity.x
+    ball_pos.y = ball_pos.y + ball_velocity.y
+
+    -- Check for collisions with walls
+    if ball_pos.y < ball_radius or ball_pos.y > 256 - ball_radius then
+        ball_velocity.y = -ball_velocity.y
+    end
+
+    -- Check for collisions with paddles
+    if ball_pos.x < player1_pos.x + paddle_width and
+            ball_pos.y > player1_pos.y and
+            ball_pos.y < player1_pos.y + paddle_height then
+        ball_velocity.x = -ball_velocity.x
+    end
+
+    if ball_pos.x > player2_pos.x - ball_radius and
+            ball_pos.y > player2_pos.y and
+            ball_pos.y < player2_pos.y + paddle_height then
+        ball_velocity.x = -ball_velocity.x
+    end
+
+    -- Check if the ball is inside the screen
+    if ball_pos.x ~= math.clamp(0, ball_pos.x, 256) or ball_pos.y ~= math.clamp(0, ball_pos.y, 256) then
+        _init()
+    end
+end
+```
+
+### Step 3: Draw the Game
+In the `_draw()` callback, we'll draw the paddles and the ball using the `shape.rectf()` and `shape.circlef()` functions.
+
+```lua
+function _draw()
+  -- Draw game
+  gfx.cls()
+  shape.rectf(player1_pos.x, player1_pos.y, paddle_width, paddle_height, 7)
+  shape.rectf(player2_pos.x, player2_pos.y, paddle_width, paddle_height, 7)
+  shape.circlef(ball_pos.x, ball_pos.y, ball_radius, 7)
+end
+```
+
+And that's it! With these three steps, you should have a basic Pong game up and running in Lua. Feel free to experiment with the game state, update function, and drawing function to customize the game to your liking.
+
+```
+function _init()
+    paddle_width = 4
+    paddle_height = 32
+    ball_radius = 4
+    ball_speed = 2
+    ball_velocity = { x = ball_speed, y = ball_speed }
+    player1_pos = { x = 8, y = 96 - paddle_height / 2 }
+    player2_pos = { x = 244, y = 96 - paddle_height / 2 }
+    ball_pos = { x = 128, y = 96 }
+end
+
+-- convert bool to number
+function num(var)
+    return var and 1 or 0
+end
+
+function _update()
+    -- Update game state
+    player1_pos.y = player1_pos.y - 4 * num(ctrl.pressing(keys.up))
+    player1_pos.y = player1_pos.y + 4 * num(ctrl.pressing(keys.down))
+    player2_pos.y = player2_pos.y - 4 * num(ctrl.pressing(keys.z))
+    player2_pos.y = player2_pos.y + 4 * num(ctrl.pressing(keys.s))
+
+    ball_pos.x = ball_pos.x + ball_velocity.x
+    ball_pos.y = ball_pos.y + ball_velocity.y
+
+    -- Check for collisions with walls
+    if ball_pos.y < ball_radius or ball_pos.y > 256 - ball_radius then
+        ball_velocity.y = -ball_velocity.y
+    end
+
+    -- Check for collisions with paddles
+    if ball_pos.x < player1_pos.x + paddle_width and
+            ball_pos.y > player1_pos.y and
+            ball_pos.y < player1_pos.y + paddle_height then
+        ball_velocity.x = -ball_velocity.x
+    end
+
+    if ball_pos.x > player2_pos.x - ball_radius and
+            ball_pos.y > player2_pos.y and
+            ball_pos.y < player2_pos.y + paddle_height then
+        ball_velocity.x = -ball_velocity.x
+    end
+
+    -- Check if the ball is inside the screen
+    if ball_pos.x ~= math.clamp(0, ball_pos.x, 256) or ball_pos.y ~= math.clamp(0, ball_pos.y, 256) then
+        _init()
+    end
+end
+
+function _draw()
+    -- Draw game
+    gfx.cls()
+    shape.rectf(player1_pos.x, player1_pos.y, paddle_width, paddle_height, 7)
+    shape.rectf(player2_pos.x, player2_pos.y, paddle_width, paddle_height, 7)
+    shape.circlef(ball_pos.x, ball_pos.y, ball_radius, 7)
+end
+```
