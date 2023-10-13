@@ -9,14 +9,25 @@ summary=A collection of links and articles on building programming languages.
 
     * ["My Experience Crafting an Interpreter with Rust"](https://ceronman.com/2021/07/22/my-experience-crafting-an-interpreter-with-rust/)
     
+* [Let's Build a Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/): Up to 19 parts up through 2020.
 * [A Retargetable C Compiler](./a-retargetable-c-compiler-design-and-implementation.pdf); makes use of literate programming (/languages/noweb)
 * [LLVM Tutorial: Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html)
 * [CS6120: Advanced Compilers: The Self-Guided Online Course](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/): The work consists of reading papers and open-source hacking tasks, which use LLVM and an educational IR invented just for this class.
 * [Dynamic Language Embedding](https://scg.unibe.ch/archive/phd/renggli-phd.pdf)
 * [X-expressions in XMLisp: S-expressions and Extensible Markup Language Unite](https://home.cs.colorado.edu/~ralex/papers/PDF/X-expressions.pdf): "XMLisp unites S-expressions with XML into X-expressions that unify the notions of data sharing with computation. Using a combination of the Meta Object Protocol (MOP), readers and printers, X-expressions uniquely integrate XML at a language, not API level, into Lisp in a way that could not be done with other programming languages."
 * [Principles of Programming Languages course](https://bguppl.github.io/interpreters/): [Source](https://github.com/bguppl/interpreters)
+* [Generic Abstract Syntax Tree (geast)](https://angeljavalopez.medium.com/geast-a-generic-abstract-syntax-tree-c7feb681b6b5)
+* [Practical Foundations for Programming Languages](./practical-foundations.pdf) (PDF)
+* ["A Generic Abstract Syntax Model for Embedded Languages"](https://www.cs.tufts.edu/~nr/cs257/archive/emil-axelsson/paper.pdf): "Representing a syntax tree using a data type often involves having many similar-looking constructors. Functions operating on such types often end up having many similar-looking cases. Different languages often make use of similar-looking constructions. We propose a generic model of abstract syntax trees capable of representing a wide range of typed languages. Syntactic constructs can be composed in a modular fashion enabling reuse of abstract syntax and syntactic processing within and across languages. Building on previous methods of encoding extensible data types in Haskell, our model is a pragmatic solution to Wadler’s “expression problem”. Its practicality has been confirmed by its use in the implementation of the embedded language Feldspar."
+* ["GAST"](./GAST_A_generic_AST_representation_for_language-ind.pdf) (PDF)
 
 ## DSLs
+
+[gel: Generic Extensible Language](https://www.cs.utexas.edu/~wcook/Drafts/2008/gel.pdf) (PDF)
+
+> One of the things I like about this paper is that it points out that Lisp and XML are essentially the same creature: Lisp: `(if (< x 3) (print x))` == XML: `<if><test op=”lt”><var name=”x”/><const>3</const></test><then><call fun=”print”><arg>x</arg></call></then></if>` I kinda love that.
+
+[coAST](https://github.com/coala/coAST): coAST is a universal abstract syntax tree that allows to easily analyze each programming language. Especially adding new languages should be easy and generic. (Last update Dec 2018)
 
 [MLIR: Creating a Toy Language and AST](https://mlir.llvm.org/docs/Tutorials/Toy/Ch-1/)
 
@@ -48,6 +59,8 @@ summary=A collection of links and articles on building programming languages.
 
 ["A wish list for a new programming language"](http://www.drmaciver.com/2015/07/a-wish-list/)
 
+[A Generic Framework for Automated QA of Software Models](https://thesai.org/Downloads/Volume5No1/Paper_5-A_Generic_Framework_for_Automated_Quality_Assurance_of_Software_Models.pdf): references the OMG's Generic AST Model (GASTM) which I think is related to Abstract Syntax Tree Metamodeling (ASTM), [here](https://www.omg.org/spec/ASTM/1.0/About-ASTM) ([PDF](https://www.omg.org/spec/ASTM/1.0/PDF)) This kinda looks like the generic AST I was futzing about with.
+
 [The Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler) (JS)
 
 [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
@@ -71,6 +84,8 @@ summary=A collection of links and articles on building programming languages.
 
 [Square](https://github.com/square-lang/Square): A tiny programming language under 200kb.
 
+[mal](https://github.com/kanaka/mal) (Make A Lisp): Steps (and collection of implementations) to make your own Lisp.
+
 ---
 
 ## LLVM
@@ -92,6 +107,8 @@ summary=A collection of links and articles on building programming languages.
 Video - [Creating a domain specific language for .NET Application](https://www.youtube.com/watch?app=desktop&v=64x29FGaoK4)
 
 Presentation - [Write your own domain specific language with F#](https://www.youtube.com/watch?app=desktop&v=NoGyFQ99NgY)
+
+Kaleidoscope: [Implementing a language with LLVM in CSharp](https://ice1000.org/llvm-cs/en/CSharpLangImpl01/): "By the end of the tutorial, we’ll have written a bit less than 1000 lines of non-comment, non-blank, lines of code. With this small amount of code, we’ll have built up a very reasonable compiler for a non-trivial language including a hand-written lexer, parser, AST, as well as code generation support with a JIT compiler. While other systems may have interesting “hello world” tutorials, I think the breadth of this tutorial is a great testament to the strengths of LLVM and why you should consider it if you’re interested in language or compiler design."
 
 ---
 
@@ -117,6 +134,34 @@ of a dynamically typed language named smalljs which is almost a subset of JavaSc
 
 - https://github.com/jonpry/Pill: Pill is an open source interpreter for the Cadence Skill language. Its purpose is to run PCell generator codes used in VLSI. Pill is written in Python and compiles the source into Python bytecode where it is then executed alongside regular python functions at similar speed to "native" python codes. *(This is an intriguing idea, and one that deserves some further exploration--if I can go from source to Py bytecode, we skip much of the parsing and get a startup speed benefit.)*
 
+- [(How to Write a (Lisp) Interpreter (in Python))](http://norvig.com/lispy.html): Norvig builds a simple Scheme in simple Python
+
+- [ast](https://docs.python.org/3/library/ast.html): The Python official documentation of the `ast` module that ships as part of Python. "The ast module helps Python applications to process trees of the Python abstract syntax grammar. The abstract syntax itself might change with each Python release; this module helps to find out programmatically what the current grammar looks like. An abstract syntax tree can be generated by passing ast.PyCF_ONLY_AST as a flag to the compile() built-in function, or using the parse() helper provided in this module. The result will be a tree of objects whose classes all inherit from ast.AST. An abstract syntax tree can be compiled into a Python code object using the built-in compile() function."
+
+- [CPython Internals](https://devguide.python.org/internals/exploring/)
+
+- [Green Tree Snakes: The Missing Python AST docs](https://greentreesnakes.readthedocs.io/en/latest/index.html). Points out a few projects using the Pythong AST:
+
+    - [pytest](https://docs.pytest.org/) (uses the AST to produce useful assertion error messages)
+    - [astsearch](https://astsearch.readthedocs.io/) (search the semantics, not the syntax)
+    - [astpath](https://github.com/hchasestevens/astpath) (XPath over an AST)
+    - [bellybutton](https://github.com/hchasestevens/bellybutton) readily customised linter
+
+- [Code Transformer](https://github.com/danielzuegner/code-transformer): "The CodeTransformer is a Transformer based architecture that jointly learns from source code (Context) and parsed abstract syntax trees (AST; Structure). It does so by linking source code tokens to AST nodes and using pairwise distances (e.g., Shortest Paths, PPR) between the nodes to represent the AST. This combined representation is processed in the model by adding the contributions of each distance type to the raw self-attention score between two input tokens (See the paper for more details)."
+
+---
+
+## Rust
+
+[Create Your Own Programming Language with Rust](https://createlang.rs/intro.html): Incomplete but interesting first steps
+
+---
+
+## Learning/AI-related
+
+- https://openreview.net/pdf?id=Xh5eMZVONGF : LANGUAGE-AGNOSTIC REPRESENTATION LEARNING
+OF SOURCE CODE FROM STRUCTURE AND CONTEXT
+
 ---
 
 ## Toy/experimental
@@ -129,9 +174,13 @@ of a dynamically typed language named smalljs which is almost a subset of JavaSc
 
 - [Pointless](https://ptls.dev/) ([Source](https://github.com/pointless-lang/pointless)): a scripting language for learning and fun.
 
-- [IMP](https://github.com/jayconrod/imp-interpreter): A minimal interpreter for the toy language, IMP, used as an example for building interpreters.
+- Imp:
 
-- https://github.com/nandor/utcn-imp: Imp Language and Interpreter
+    - [IMP](https://github.com/jayconrod/imp-interpreter): A minimal interpreter for the toy language, IMP, used as an example for building interpreters.
+
+    - https://github.com/nandor/utcn-imp: Imp Language and Interpreter
+
+- [Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/LangImpl01.html): the classic from the LLVM website
 
 - [Dwarf](https://github.com/nicolasdilley/dwarf-interpreter): A very small scripting language written in Elixir.
 
