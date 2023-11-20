@@ -1,6 +1,6 @@
 title=PursuedPyBear
 tags=gamedev, python
-summary=
+summary=Game development engine/library for Python.
 ~~~~~~
 
 [Website](https://ppb.dev/) | [Source](https://github.com/ppb/pursuedpybear)

@@ -11,7 +11,8 @@ The [Papers](http://bibliography.selflanguage.org/) have a lot of strong ideas t
 
 Implementations:
 
-* Zig: [zigSelf](https://github.com/sin-ack/zigself)
+* Python [tinySelf](https://github.com/Bystroushaak/tinySelf): Self-like language implemented in the RPython language toolkit
+* Zig [zigSelf](https://github.com/sin-ack/zigself):
 
 ### [Learn X in Y minutes Quick Intro](https://learnxinyminutes.com/docs/self/)
 

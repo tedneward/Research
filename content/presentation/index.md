@@ -13,6 +13,11 @@ tags=presentation
 
 ["A Whole Website in a Single JavaScript File"](https://deno.com/blog/a-whole-website-in-a-single-js-file)
 
+Repositories for graphics:
+
+* [The Noun Project](https://thenounproject.com/): icons and photos for everything.
+* [Unsplash](https://unsplash.com/): The Internet's source for visuals.
+
 [ECMA Report on User Interface Taxonomy](https://www.ecma-international.org/wp-content/uploads/ECMA_TR-61_1st_edition_june_1992.pdf) (June 1992): Interesting high-level overview of different ideas around user interface and a taxonomy of that space:
 
 * UI structure

@@ -18,6 +18,8 @@ See also [language reading](/reading/languages) and [language development](/read
 
 ## Language concepts
 
+["The 7 ur-languages"](https://madhadron.com/programming/seven_ur_languages.html), captured [here](/content/reading/languages): ALGOL, Lisp, ML, Self, Forth, APL, Prolog
+
 ### Syntax/paradigms
 [Toward a better programming](https://www.chris-granger.com/2014/03/27/toward-a-better-programming/)
 

@@ -1,5 +1,5 @@
 title=Netlify CMS
-tags=
+tags=tool, cms, presentation
 summary=Git-based CMS for static site generators.
 ~~~~~~
 

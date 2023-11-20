@@ -7,4 +7,6 @@ summary=The Apple operating system (on top of the open-source Darwin kernel) tha
 * [Virtual machine images](../macos/vm)
 * [Development](../macos/development)
 
+## Miscellaneous tools
 
+[Apple Notes Liberator](https://github.com/HamburgChimps/apple-notes-liberator): Free your Apple Notes data from Notes.app

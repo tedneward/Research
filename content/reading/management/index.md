@@ -5,6 +5,19 @@ summary=Collection of thoughts/essays/etc on managing people.
 
 *(Reorganize this to be more topical)*
 
+[Servant Leadership](https://responsiveadvisors.com/blog/servant-leadership/) - Jason Malmstadt
+
+[Questionable Advice: “How can I drive change and influence teams... without power?”](https://charity.wtf/2023/06/05/drive-change-and-influence-teams-without-power/) - Charity Majors
+
+[A few words on communication](https://event-driven.io/en/a_few_words_on_communication/) - Oskar Dudycz
+
+[Engineering Leadership Tactics: Finding Focus](https://betterprogramming.pub/engineering-leadership-tactics-finding-focus-3a3f5c40863c) - Francisco Trindade
+
+[10 Best Innovation Frameworks](https://jdmeier.com/10-best-innovation-frameworks/) - JD Meier
+
+[Biases and Fallacies Lead to Smol Thinking](https://ceklog.kindel.com/2023/06/02/biases-and-fallacies-lead-to-smol-thinking/)
+
+
 ## Engineering Management
 
 ["A Simple Framework for Software Engineering Management"](https://medium.com/swlh/a-simple-framework-for-software-engineering-management-f70b216540f2): Responsibilities (people management, delivery leadership, technical system ownership) in a 2-axis grid with priorities (issues, things that are OK, ideas/aspirations). "To sum up, we can look at software engineering management as a combination of three areas of responsibilities: *people management*, *delivery leadership*, and *technical system ownership*. Paying attention to all three responsibilities is important. However the amount of attention each responsibility should get depends on the team, the organisation, the product, and other factors. It also changes over time. Within each responsibility area we can identify issues, things that are okay, as well as ideas and aspirations. Things that are already okay only need to be acknowledged. Issues need to be prioritised and promptly resolved. Ideas and aspirations should be evaluated and, if deemed relevant, executed or put on the roadmap."
@@ -34,6 +47,9 @@ summary=Collection of thoughts/essays/etc on managing people.
         * Team growth: Recruit engineers, review code in detail and give useful feedback, read and write and give feedback on design documents, help onboard, etc.
         * Technical action: Identify technical debt, generate new ideas and elegant solutions, debug difficult production issues, write the right code at the right times, etc.
 
+[Why Executives Leave](https://henrysward.medium.com/executive-departures-25bc7d935813)
+
+[What Team Structure is Right for DevOps to Flourish?](https://web.devopstopologies.com/#)
 
 [5 Tips for Being an Effective Tech Lead](https://www.thoughtworks.com/insights/blog/5-tips-being-effective-tech-lead)
 

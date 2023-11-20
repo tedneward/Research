@@ -7,8 +7,13 @@ tags=storage
 
 Storage is typically data, but the degree of structure is flexible. Unstructured storage is essentially a filesystem (although even then filesystems have structure to them). Structured storage is often called a "database system" in some particular shape.
 
+## Some various data sources
+
+* [Pokedex](https://github.com/veekun/pokedex)
+
 ## Link sites
-[NoSQL](https://hostingdata.co.uk/nosql-database/)
+
+* [NoSQL](https://hostingdata.co.uk/nosql-database/)
 
 ## "Shapes" to data
 
@@ -24,6 +29,12 @@ Built, more or less, on the Codd model of relationships between tuples of data.
 * [Readings in Database Systems, 5th Ed.](http://www.redbook.io)
 * [Temporal Database Management](http://people.cs.aau.dk/~csj/Thesis/) - Christian S. Jensen
 * [The Theory of Relational Databases](http://web.cecs.pdx.edu/~maier/TheoryBook/TRD.html)
+* [The Third Manifesto](http://www.thethirdmanifesto.com/)
+* [Why Are There No Relational DBMSs?](https://www.dcs.warwick.ac.uk/~hugh/TTM/Why-Are-There-No-Relational-DBMSs.pdf) - Hugh Darwen
+
+Some interesting relational-oriented sites
+
+* [PokemonSQLTutorial](https://github.com/decentralion/PokemonSQLTutorial)
 
 ### [Document-oriented](/tags/document.html)
 

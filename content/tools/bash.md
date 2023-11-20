@@ -37,6 +37,7 @@ summary=Command-line shell and associated shell-scripting language.
 ## Supporting tools/projects
 
 * [direnv](https://direnv.net/) ([Source](https://github.com/direnv/direnv)): unclutter your .profile
+* [parallel](https://www.gnu.org/software/parallel/parallel.html): build and execute shell command lines from standard input in parallel
 
 ## [Cheat sheet](https://github.com/Randy8080/reference/blob/main/bash.md)
 

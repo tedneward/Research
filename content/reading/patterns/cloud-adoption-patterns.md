@@ -1,6 +1,6 @@
 title=Cloud Adoption Patterns
 tags=patterns, cloud, architecture
-summary=
+summary=Collection of patterns for adopting cloud.
 ~~~~~~
 
 [Website](https://kgb1001001.github.io/cloudadoptionpatterns/)

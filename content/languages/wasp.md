@@ -5,6 +5,8 @@ summary=A programming language that understands what a web app is.
 
 [Website](https://wasp-lang.dev) | [Source](https://github.com/wasp-lang/wasp)
 
+Builds on top of [React](/presentation/react), NodeJS, and [Prisma](/libraries/prisma)
+
 Example: [ToDo app](https://github.com/wasp-lang/wasp/tree/main/examples/tutorials/TodoApp)
 ```
 app TodoApp {

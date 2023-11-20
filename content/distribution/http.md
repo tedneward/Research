@@ -15,6 +15,8 @@ List of RFCs affecting and around HTTP:
 
 [1.0 Standard](https://www.w3.org/Protocols/HTTP/1.0/spec.html) 
 
+[Building Blocks for HTTP APIs Working Group Home Page](https://ietf-wg-httpapi.github.io/)
+
 ---
 
 [HTTP Toolkit](https://httptoolkit.tech/) ([Sources](https://github.com/httptoolkit)): a beautiful & open-source tool for debugging, testing and building with HTTP(S) on Windows, Linux & Mac. [Docs](https://httptoolkit.tech/docs/)
