@@ -5,13 +5,13 @@ summary=A helpful list for becoming a better storyteller from the world’s anim
 
 [Website](https://42courses.medium.com/pixars-22-rules-of-storytelling-dc24162fe8ce)
 
-1. Admire characters for attempting more than what their successes have been.
+1. You admire a character for trying more than for their successes.
 
 2. Keep in mind what’s interesting to you as an audience, not what’s fun as a writer. They can be very different.
 
 3. Trying for theme is important, however you won’t see what the story is about until you’re at the end of that story. Got it? Now rewrite.
 
-4. Once upon a time there was…… Every day, ……One day……Because of that, …… Until finally……
+4. Once upon a time there was ____. Every day, ___. One day ____. Because of that, ______. Until finally ____.
 
 5. Simplify. Focus. Combine characters. Hop over detours. You’ll feel like you’re losing valuable stuff but it sets you free.
 
