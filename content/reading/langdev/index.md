@@ -87,6 +87,8 @@ summary=A collection of links and articles on building programming languages.
 
 [mal](https://github.com/kanaka/mal) (Make A Lisp): Steps (and collection of implementations) to make your own Lisp.
 
+[Writer your own C compiler from scratch with Python](https://medium.com/@pasi_pyrro/how-to-write-your-own-c-compiler-from-scratch-with-python-90ab84ffe071)
+
 ---
 
 ## LLVM
