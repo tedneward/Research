@@ -12,6 +12,7 @@ summary=A collection of links and articles on building programming languages.
 * [Let's Build a Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/): Up to 19 parts up through 2020.
 * [A Retargetable C Compiler](./a-retargetable-c-compiler-design-and-implementation.pdf); makes use of literate programming (/languages/noweb)
 * [LLVM Tutorial: Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html)
+* [TinyML: A tiny functional language interpreter](https://d3s.mff.cuni.cz/files/teaching/nprg077/02-tinyml.pdf) (Tomas Petricek)
 * [CS6120: Advanced Compilers: The Self-Guided Online Course](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/): The work consists of reading papers and open-source hacking tasks, which use LLVM and an educational IR invented just for this class.
 * [Dynamic Language Embedding](https://scg.unibe.ch/archive/phd/renggli-phd.pdf)
 * [X-expressions in XMLisp: S-expressions and Extensible Markup Language Unite](https://home.cs.colorado.edu/~ralex/papers/PDF/X-expressions.pdf): "XMLisp unites S-expressions with XML into X-expressions that unify the notions of data sharing with computation. Using a combination of the Meta Object Protocol (MOP), readers and printers, X-expressions uniquely integrate XML at a language, not API level, into Lisp in a way that could not be done with other programming languages."
@@ -85,6 +86,8 @@ summary=A collection of links and articles on building programming languages.
 [Square](https://github.com/square-lang/Square): A tiny programming language under 200kb.
 
 [mal](https://github.com/kanaka/mal) (Make A Lisp): Steps (and collection of implementations) to make your own Lisp.
+
+[Writer your own C compiler from scratch with Python](https://medium.com/@pasi_pyrro/how-to-write-your-own-c-compiler-from-scratch-with-python-90ab84ffe071)
 
 ---
 

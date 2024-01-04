@@ -5,7 +5,7 @@ summary=Backend server with REST APIs to manage core backend needs.
 
 [Website](https://supabase.io/) | [Github](https://github.com/supabase/supabase)
 
-Connects to an existing [PostgresQL](postgresql.html) database.
+Connects to an existing [PostgresQL](/storage/postgresql) database.
 
 Features
 

@@ -1,5 +1,5 @@
 title=Coolify
-tags=platform
+tags=platform, backend
 summary=Self-hostable Heroku alternative.
 ~~~~~~
 

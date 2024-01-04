@@ -43,13 +43,15 @@ summary=Open-source relational database.
 ## Access Tools
 
 ### Language bindings
+
+* API: [PostgREST](https://github.com/PostgREST/postgrest)
 * Common Lisp: [Postmodern](https://github.com/marijnh/Postmodern)
 * Clojure: [clj-postgresql](https://github.com/remodoy/clj-postgresql)
 * Elixir: [postgrex](https://github.com/elixir-ecto/postgrex)
 * Go: [pq](https://github.com/lib/pq), [pgx](https://github.com/jackc/pgx)
 * Haskell: [postgresql-simple](http://hackage.haskell.org/package/postgresql-simple)
 * Java: [PostgreSQL JDBC Driver](https://jdbc.postgresql.org/)
-* .Net/.Net Core: [Npgsql](https://github.com/npgsql/npgsql)
+* .NET/.NET Core: [Npgsql](https://github.com/npgsql/npgsql)
 * Node: [node-postgres](https://github.com/brianc/node-postgres), [pg-promise](https://github.com/vitaly-t/pg-promise), [pogi](https://github.com/holdfenytolvaj/pogi), [slonik](https://github.com/gajus/slonik), [postgres](https://github.com/porsager/postgres)
 * Perl: [DBD-Pg](https://metacpan.org/pod/distribution/DBD-Pg/Pg.pm)
 * PHP: [Pomm](http://www.pomm-project.org), [pecl/pq](https://github.com/m6w6/ext-pq)
