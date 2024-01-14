@@ -34,3 +34,57 @@ First 100 Fizz buzz rounds:
   ] choose echo
 ]
 ```
+
+Sieve of Eratosthenes:
+
+```
+2 to: 120 ||-> [ $: n (stack without: [ n /? ]) asStack n ] each: echo
+```
+
+Zigzag problem from LeetCode, with the examples as tests. Observe the boundary between terseness and readability.
+
+```
+"""
+Not the mathy one but the naive one, because programming is
+not math thank goodness!
+"""
+
+[ dup 1 = => [ drop ^ ]
+
+  collect: '' dup 1 |to $: grid
+
+  0 $: col
+
+  [ grid |: |> |atRightBound? asc desc sel ] $: desc
+  [ grid |: <| |afterFirst? desc asc sel (col 1 + =: col) ] $: asc
+  desc @: action
+
+  [ $: char grid |: [ char ~ ] ] @: put
+
+  each: [ put action =: action ]
+
+  grid join
+] @: convert
+
+
+describe 'Zigzag Conversion' [
+  in leetcode
+
+  it should 'follow the happy path' [
+    'A' 1 convert 'A' assert=
+    'A' 3 convert 'A' assert=
+    'HELLOWORLD' 1 convert 'HELLOWORLD' assert=
+  ]
+
+  it should 'convert given 3 rows' [
+    'PAYPALISHIRING' 3 convert 'PAHNAPLSIIGYIR' assert=
+  ]
+
+  it should 'convert given 4 rows' [
+    'PAYPALISHIRING' 4 convert 'PINALSIGYAHRPI' assert=
+  ]
+]
+
+runTestsInGroup: leetcode
+```
+

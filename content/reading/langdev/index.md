@@ -19,14 +19,16 @@ summary=A collection of links and articles on building programming languages.
 * [Principles of Programming Languages course](https://bguppl.github.io/interpreters/): [Source](https://github.com/bguppl/interpreters)
 * [Generic Abstract Syntax Tree (geast)](https://angeljavalopez.medium.com/geast-a-generic-abstract-syntax-tree-c7feb681b6b5)
 * [Practical Foundations for Programming Languages](./practical-foundations.pdf) (PDF)
-* ["A Generic Abstract Syntax Model for Embedded Languages"](https://www.cs.tufts.edu/~nr/cs257/archive/emil-axelsson/paper.pdf): "Representing a syntax tree using a data type often involves having many similar-looking constructors. Functions operating on such types often end up having many similar-looking cases. Different languages often make use of similar-looking constructions. We propose a generic model of abstract syntax trees capable of representing a wide range of typed languages. Syntactic constructs can be composed in a modular fashion enabling reuse of abstract syntax and syntactic processing within and across languages. Building on previous methods of encoding extensible data types in Haskell, our model is a pragmatic solution to Wadler’s “expression problem”. Its practicality has been confirmed by its use in the implementation of the embedded language Feldspar."
+* ["A Generic Abstract Syntax Model for Embedded Languages"](https://www.cs.tufts.edu/~nr/cs257/archive/emil-axelsson/paper.pdf): "Representing a syntax tree using a data type often involves having many similar-looking constructors. Functions operating on such types often end up having many similar-looking cases. Different languages often make use of similar-looking constructions. We propose a generic model of abstract syntax trees capable of representing a wide range of typed languages. Syntactic constructs can be composed in a modular fashion enabling reuse of abstract syntax and syntactic processing within and across languages. Building on previous methods of encoding extensible data types in Haskell, our model is a pragmatic solution to Wadler’s “expression problem". Its practicality has been confirmed by its use in the implementation of the embedded language Feldspar."
 * ["GAST"](./GAST_A_generic_AST_representation_for_language-ind.pdf) (PDF)
 
 ## DSLs
 
+[BuildIt](https://buildit.so/): A framework for rapidly developing high-performance Domain Specific Languages (DSLs) with little to no compiler knowledge. [Source](https://github.com/BuildIt-lang/buildit/)
+
 [gel: Generic Extensible Language](https://www.cs.utexas.edu/~wcook/Drafts/2008/gel.pdf) (PDF)
 
-> One of the things I like about this paper is that it points out that Lisp and XML are essentially the same creature: Lisp: `(if (< x 3) (print x))` == XML: `<if><test op=”lt”><var name=”x”/><const>3</const></test><then><call fun=”print”><arg>x</arg></call></then></if>` I kinda love that.
+> One of the things I like about this paper is that it points out that Lisp and XML are essentially the same creature: Lisp: `(if (< x 3) (print x))` == XML: `<if><test op="lt"><var name="x"/><const>3</const></test><then><call fun="print"><arg>x</arg></call></then></if>` I kinda love that.
 
 [coAST](https://github.com/coala/coAST): coAST is a universal abstract syntax tree that allows to easily analyze each programming language. Especially adding new languages should be easy and generic. (Last update Dec 2018)
 
@@ -109,7 +111,7 @@ Video - [Creating a domain specific language for .NET Application](https://www.y
 
 Presentation - [Write your own domain specific language with F#](https://www.youtube.com/watch?app=desktop&v=NoGyFQ99NgY)
 
-Kaleidoscope: [Implementing a language with LLVM in CSharp](https://ice1000.org/llvm-cs/en/CSharpLangImpl01/): "By the end of the tutorial, we’ll have written a bit less than 1000 lines of non-comment, non-blank, lines of code. With this small amount of code, we’ll have built up a very reasonable compiler for a non-trivial language including a hand-written lexer, parser, AST, as well as code generation support with a JIT compiler. While other systems may have interesting “hello world” tutorials, I think the breadth of this tutorial is a great testament to the strengths of LLVM and why you should consider it if you’re interested in language or compiler design."
+Kaleidoscope: [Implementing a language with LLVM in CSharp](https://ice1000.org/llvm-cs/en/CSharpLangImpl01/): "By the end of the tutorial, we’ll have written a bit less than 1000 lines of non-comment, non-blank, lines of code. With this small amount of code, we’ll have built up a very reasonable compiler for a non-trivial language including a hand-written lexer, parser, AST, as well as code generation support with a JIT compiler. While other systems may have interesting “hello world" tutorials, I think the breadth of this tutorial is a great testament to the strengths of LLVM and why you should consider it if you’re interested in language or compiler design."
 
 ---
 
