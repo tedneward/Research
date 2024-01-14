@@ -1,9 +1,9 @@
 title=Odin
-tags=language
+tags=language, native
 summary=Designed with the intent of creating an alternative to C around simplicity, high performance, built for modern systems, and joy of programming.
 ~~~~~~
 
-[Website](https://odin-lang.org/) | [Source](https://github.com/odin-lang/Odin)
+[Website](https://odin-lang.org/) | [Source](https://github.com/odin-lang/Odin) | [Language Specification](https://odin-lang.org/docs/spec/) | [Core Library Docs]() | [Vendor Library Docs](https://pkg.odin-lang.org/vendor/) (including CommonMark, DirectX, Lua 5.4, OpenGL, SDL2, )
 
 ### Examples:
 ```
