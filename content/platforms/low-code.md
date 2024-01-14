@@ -9,6 +9,8 @@ summary=Reading and notes around low-code platforms.
 
 "These platforms have become increasingly popular as a fast and easy alternative to traditional software development. Both professional developers and “citizen developers” (non-professional developers) can use a low-code platform to create apps of varying complexity to meet business demands for development, automate processes, and accelerate digital transformation." --[Creatio](https://www.creatio.com/page/low-code)
 
+* [Low-Code/No-Code Capabilities](https://ea-central.com/blog/enterprise-architecture/low-code-no-code-platforms/which-is-the-best-low-code-no-code-platform/)
+
 * [Awesome no-code low-code](https://github.com/kairichard/awesome-nocode-lowcode)
 
 ## Overview
@@ -23,6 +25,35 @@ The term generally refers to any class of software and tools that provide:
 * Visual modeling tools
 * Prebuilt templates
 * (usually) Easy ability to integrate with third-party tools and solutions
+
+#### Capabilities
+
+![](https://ea-central.com/wp-content/uploads/2023/02/image-3.png)
+
+* ***User Interface:*** Ability of LCNC platform to support a variety of user interfaces – web, mobile, tablet, kiosks etc.
+* ***Application Types:*** Ability of LCNC platform to build and support various use cases such as advanced workflow management features such as process and task automation, attended and / or un-attended process automation, event triggers, integration with chatbots and conditional logic to streamline workflows and improve efficiency. Many LCNC platforms also provide the ability to create interactive dashboards and reports.
+* ***Integration:*** Ability of platform to support seamless integration with existing systems, such as databases, APIs, and cloud services, to help streamline workflows and improve efficiency.
+LCNC platforms provide a plethora of out of the box connectors. Assess the out of the box connectors that meet your requirements. **Custom connectors** Assess the ease of creating and using custom connectors when OOB connectors do not exists or meet your requirements.
+* ***Development Tools:*** LCNC platforms should have a simple, intuitive interface that allows users to build applications using a drag-and-drop design model. The platform should come with pre-built templates and modules, allowing users to quickly create applications without having to start from scratch. For those who need more control over their applications, the platform should offer the ability to write custom code and integrate it with the LCNC platform.
+* ***Data Layer:*** Ability of the LCNC platform to integrate with both cloud and on-premises databases, as well as its native database. Integration with cloud and on-premises databases allows organizations to leverage existing data sources, while a robust native database can help to improve application performance and reduce data duplication. 
+* ***Hosting:*** Ability to run applications either on the cloud or on a local network. Whether you prefer the flexibility and scalability of the cloud or the control and security of on-premise hosting, a platform that supports both options will help to ensure that your applications can run smoothly and efficiently.
+
+* ***Platform Governance and Management:*** Application lifecycle management (ALM) is an important feature when evaluating a low code/no code platform. This includes features such as version control, code management, testing and debugging, deployment, and monitoring. A platform that provides robust ALM support will help ensure that your applications remain secure, stable, and up-to-date over time, while also making it easier to identify and resolve any issues that may arise. 
+    Entitlement refers to the platform’s ability to control and manage access to various features and functionalities within the application. Entitlements are critical for ensuring that only authorized users have access to sensitive information and that all actions taken within the application are in compliance with your organization’s security policies.
+    Environment management refers to the process of managing different environments such as development, testing, and production. A low code/no code platform that offers robust environment management support will enable you to easily create and manage separate environments for each stage of the development lifecycle. This will help to ensure that changes made in one environment do not affect other environments, allowing for a smoother and more efficient development process.
+    The platform should have robust security and compliance features to protect sensitive data and ensure compliance with industry standards. Different industries and regions have specific compliance regulations that must be followed, such as data privacy laws (e.g. GDPR, HIPAA) and financial regulations (e.g. SOX, PCI-DSS). A low code/no code platform that supports compliance requirements will help ensure that your applications adhere to the regulations and standards that apply to your organization, reducing the risk of potential non-compliance penalties. When evaluating a platform, it is important to look for features such as data encryption, secure access controls, and audit trails to ensure that your applications can meet your compliance requirements.
+    Instrumentation refers to the ability to monitoring, troubleshooting, and optimizing applications. Logging, monitoring, and analytics will allow you to track and analyse environment’s / application’s performance and user behaviour which can be used to improve application performance, resolve issues, and make data-driven decisions
+
+#### Other aspects to consider
+Some other aspects that you should also consider while assessing the LCNC platforms are
+
+* Scalability: The platform should be scalable to accommodate growth and meet future needs. Assess if LCNC platform meets necessary architectural and technical capabilities to support scalability, including the ability to handle large amounts of data, process transactions efficiently, and support multiple users and tenants.
+
+* Resilience: Assess platform’s capability to ensure it can maintain high availability and prevent data loss during downtime. The platform should have robust backup and recovery mechanisms in place, as well as measures to prevent single points of failure.
+
+* Training and Documentation: The platform should offer comprehensive support and training resources, including documentation, forums, and dedicated support teams, to help users get the most out of the platform.
+
+* Marketplace: A platform with a large and well-stocked marketplace can save time and resources compared to building everything from scratch, while a platform with a limited marketplace may limit the scope of what can be achieved with the platform. Consider factors such as the size and diversity of its offerings, the quality of the components and templates, and the ease of use and integration.
 
 Ecosystem graphic:
 ![](https://miro.medium.com/max/1400/1*JnRv4y7glUJAe6_T9gPKQw.jpeg)
