@@ -11,3 +11,4 @@ There used to be more (below), but interest appears to have waned after an early
 
 * Shared Source CLI (aka "Rotor"); [SSCLI Essentials](/vms/clr/sscli-essentials) is a good place to start to understand the CLR codebase ("runtime") itself.
 
+* [CLR Heap Encryption](https://github.com/lap1nou/CLR_Heap_encryption) proof of concept
