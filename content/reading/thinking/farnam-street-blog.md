@@ -91,4 +91,5 @@ In business, it’s never enough to have a great idea. For any innovation to be 
 
 ? Well, among the Geniuses a bit fewer than 1 out of 5 individuals (18%) will end up with the invention. Half of those Geniuses will have figured it out all by themselves. Meanwhile, 99.9% of Butterflies will have the innovation, but only 0.1% will have figured it out by themselves.
 
---- 
+---
+
