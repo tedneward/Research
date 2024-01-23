@@ -21,7 +21,9 @@ summary=A procedural language with added object extensions popularized by Borlan
 * [Modern Object Pascal Introduction for Programmers](https://github.com/michaliskambi/modern-pascal-introduction) - Michalis Kamburelis ([AsciiDoc](https://github.com/michaliskambi/modern-pascal-introduction/blob/master/modern_pascal_introduction.adoc#logical-relational-and-bit-wise-operators), [HTML](https://castle-engine.io/modern_pascal_introduction.html), [PDF](https://castle-engine.io/modern_pascal_introduction.pdf))
 * [Computing Fundamentals](http://www.cslab.pepperdine.edu/warford/ComputingFundamentals/) - Stan Warford (PDF)
 
+## Variants/Flavors
 
+* ["Relational Pascal data base interface"](https://academic.oup.com/comjnl/article/24/2/112/338088)
 
 
 

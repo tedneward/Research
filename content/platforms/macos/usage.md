@@ -3,6 +3,10 @@ tags=platform, macos
 summary=Tips on using the Apple desktop operating system (on top of the open-source Darwin kernel) that ships with Apple computers.
 ~~~~~~
 
+## Network utilities
+
+* ["networkQuality"](https://cyberhost.uk/the-hidden-macos-speedtest-tool-networkquality/): "The networkQuality tool is a built-in tool released in macOS Monterey that can help diagnose network issues and measure network performance."
+
 ## Terminal Tricks
 * ["Change your MAC address with a shell script"](https://josh.works/shell-script-basics-change-mac-address)
 
