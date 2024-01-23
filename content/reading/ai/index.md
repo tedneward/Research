@@ -79,3 +79,7 @@ summary=A collection of language-agnostic links on AI and Machine Learning.
 * [The Python Game Book](https://web.archive.org/web/20210308080726/https://thepythongamebook.com/en%3Astart) - Horst Jens *(:card_file_box: archived)*
 * [Top 10 Machine Learning Algorithms Every Engineer Should Know](https://www.dezyre.com/article/top-10-machine-learning-algorithms/202) - Binny Mathews and Omair Aasim
 * [Understanding Machine Learning: From Theory to Algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning) - Shai Shalev-Shwartz, Shai Ben-David
+
+## Coding Assistants/Interaction
+
+* ["How to use GPT as a natural language to SQL query engine"](https://www.infoworld.com/article/3700858/how-to-use-gpt-as-a-natural-language-to-sql-query-engine.html)

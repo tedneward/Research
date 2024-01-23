@@ -22,6 +22,51 @@ summary=Collection of thoughts/essays/etc on managing people.
 
 ["A Simple Framework for Software Engineering Management"](https://medium.com/swlh/a-simple-framework-for-software-engineering-management-f70b216540f2): Responsibilities (people management, delivery leadership, technical system ownership) in a 2-axis grid with priorities (issues, things that are OK, ideas/aspirations). "To sum up, we can look at software engineering management as a combination of three areas of responsibilities: *people management*, *delivery leadership*, and *technical system ownership*. Paying attention to all three responsibilities is important. However the amount of attention each responsibility should get depends on the team, the organisation, the product, and other factors. It also changes over time. Within each responsibility area we can identify issues, things that are okay, as well as ideas and aspirations. Things that are already okay only need to be acknowledged. Issues need to be prioritised and promptly resolved. Ideas and aspirations should be evaluated and, if deemed relevant, executed or put on the roadmap."
 
+["Engineering Management Checklist"](https://pnewman.org/engineering_mgmt_checklist.txt):
+
+"This list isn't meant to be exhaustive, nor is every item listed here applicable all the time. It's meant to give a basic framework to help managers, particularly less experienced ones, think about balancing their responsibilities."
+
+1. Section 1: Managing the team	
+
+    1.	every member of the team knows what they should be working on
+    2.	every member of the team knows what to do if they finish a task, or get blocked
+    3.	every member of the team has had a meaningful career conversation within the last six months
+    4.	every member of the team receives timely, meaningful, actionable performance feedback
+    5.	work that needs to get done aligns with work that is rewarded by the promotion process
+    6.	performance reviews never contain surprises
+    7.	team members are able to express ideas for new projects or changes to the way the team works
+    8.	the team is able to give input on roadmaps and plans
+    9.	the team is staffed adequately and work is evenly distributed
+    10.	the team, overall, has the level of functional expertise required to do the work, and a reasonable number of stretch goals are available
+    11.	conflicts are resolved in a fair and respectful way
+    12.	diversity is represented and embraced; a broad spectrum of views are considered
+	
+2. Section 2: Managing peer relationships	
+
+    1.	key team peer relationships are identified and regularly maintained through regular healthy, productive meetings, and effective written communication
+    2.	groups dependent on team's work can trust the commitments the team makes
+    3.	key peer teams have a clear idea of how they can request work to be prioritized by your team, with transparency into what the tradeoffs are
+    4.	team is able to get work required from dependency teams prioritized with a reasonable expectation that commitments are honored
+    5.	agreements are documented in writing
+    6.	progress and set backs are reguarly communicated to key stakeholders
+    7.	when collaborative projects are completed, credit is shared among the contributors
+    8.	there is a clear, mutually-respectful escalation path for issues that cannot be resolved between peer managers/engineers
+    9.	managers are able to discuss issues privately in a psychologically safe manner
+	
+3. Section 3: Managing senior mgmt relationships	
+
+    1.	direct management has clear visibility into the progress of the team
+    2.	direct management/management chain is appropriately involved in issues requiring special attention
+    3.	you are able to advocate for specific prioritization decisions; priorities are set with transparency
+    4.	clear agreement on goals and definition of success
+	
+4. Section 4: Managing yourself	
+
+    1.	Your own work-life boundaries are respected
+    2.	Your immediate and long-term career goals are documented in writing
+    3.	You are not stagnating, even if your immediate career goals don't involve a promotion
+    4.	impact is primarily expressed in achievements of the team and the growth of the team members
+
 ["Effective Technical Leadership"](https://medium.com/@davidbyttow/effective-technical-leadership-b193a544e771): What makes a badass TL is broken down into three A's: attributes, activities and actions.
 
     * Attributes: Over time, you should always be increasing three attributes: Knowledge, Speed, and Awareness.
