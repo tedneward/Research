@@ -477,3 +477,6 @@ summary=The functional-composition way to build UIs in Android; "Jetpack Compose
         }
         ```
 
+## Resources
+
+* [formerly-Ray-Wenderlich Compose book code](https://github.com/kodecocodes/jet-materials)

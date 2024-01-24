@@ -3,6 +3,8 @@ tags=platform, macos
 summary=Running the Apple desktop operating system (on top of the open-source Darwin kernel) in a virtual machine.
 ~~~~~~
 
+["How to install macOS in VirtualBox"](https://www.xda-developers.com/how-install-macos-virtualbox/)
+
 ## Running macOS in a VirtualBox VM
 (Some details swiped from https://techsviewer.com/install-macos-10-15-catalina-on-virtualbox-on-windows-pc/)
 
