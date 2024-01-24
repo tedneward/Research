@@ -5,3 +5,6 @@ summary=A zero dependency, cross platform, Ruby runtime built on top of mRuby, l
 
 [Website](https://dragonruby.org/toolkit/game) | [Docs](http://docs.dragonruby.org/)
 
+## Books
+
+[Building Games with Dragonruby](./BuildingGameswithDragonRuby.pdf)
