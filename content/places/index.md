@@ -68,3 +68,6 @@ tags=place
 [tutorialspoint](http://www.tutorialspoint.com)
 
 [Tildeverse](https://tildeverse.org/)
+
+[MalwareSourceCode](https://github.com/vxunderground/MalwareSourceCode): Git repo filled with the source code for malware for a variety of different languages and platforms. 
+
