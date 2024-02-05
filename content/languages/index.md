@@ -10,6 +10,13 @@ See also [Language Places](/places/languages) and [PLZoo](/places/plzoo)
 
 See also [language reading](/reading/languages) and [language development](/reading/langdev)
 
+Language collection/explorations
+
+* A [Programming Language Database](https://pldb.pub/) ([Source](https://github.com/breck7/pldb)) with query capabilities (though it doesn't seem like it works at the moment?)
+* [PLE](https://github.com/rtoal/ple): A collection of illustrative examples in close to 100 programming languages, including every code snippet used in the book [Programming Language Explorations](https://rtoal.github.io/ple/).
+
+It may be fair to suggest that any language is a transformation, but there is a special meaning to the term "program transformation" -- see [here](https://www.program-transformation.org/) for more details. [Spoofax](../tools/spoofax.md) is one of these.
+
 ---
 
 > "Every configuration file becomes a Turing-complete language eventually." --James Gosling

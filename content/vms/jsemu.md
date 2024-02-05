@@ -3,8 +3,6 @@ tags=vm, ecmascript
 summary=A list of emulators written in the JavaScript programming language.
 ~~~~~~
 
-# Emulators written in JavaScript
-
 A list of emulators written in the JavaScript programming language.
 
 This list started as a compilation of JavaScript emulators posted to Echo JS
