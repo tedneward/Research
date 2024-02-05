@@ -10,6 +10,10 @@ summary=a general-purpose programming language with static typing, systems-level
 * [D Templates Tutorial](https://github.com/PhilippeSigaud/D-templates-tutorial)
 * [Programming in D](http://ddili.org/ders/d.en/)
 
+### GUI
+
+* [dlangui](https://github.com/buggins/dlangui)
+
 ### FFI
 
 - d++ - #include C and C++ headers in D files

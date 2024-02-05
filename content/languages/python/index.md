@@ -18,6 +18,7 @@ summary=A dynamic language and platform.
 * C: [CircuitPython](/languages/python/circuitpython): fork of micropython
 * Web: [Jupyter Notebooks](https://jupyter.org/): installable locally via `pip install notebook`
 * Web: [JupyterLab](https://jupyter.org/): "latest web-based interactive development environment for notebooks, code, and data ... allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning... extensions expand and enrich functionality."
+* Javascript: [Skulpt](https://github.com/skulpt/skulpt): a Javascript implementation of Python 2.x.
 
 Not sure if this is a library or an implementation or a tool, it's sort of all three: [VPython](https://vpython.org/), 3D Programming for Ordinary Mortals
 
