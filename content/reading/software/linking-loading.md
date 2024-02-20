@@ -3,21 +3,33 @@ tags=native, reading, windows, macos, linux
 summary=A collection of links and resources on the linking and loading of executables.
 ~~~~~~
 
-# Readings
+- Advanced C and C++ Compiling
+	- 2014; Milan Stevanovic​
+	- "Engineering guide to C/C++ compiling, linking, and binary files structure"
+	- http://www.apress.com/9781430266679
+	- http://link.springer.com/book/10.1007%2F978-1-4302-6668-6
+	- https://github.com/apress/adv-c-cpp-compiling
+- Linkers and Loaders
+	- 1999; John R. Levine
+	- https://www.iecc.com/linker/
+- Assemblers and Loaders
+	- https://www.davidsalomon.name/
+	- Written during 1985--1992, the book developed from class notes on computer organization. It includes numerous exercises with answers provided, and review questions following each chapter. The book is bound as a paperback with a colorful cover.
+	- https://www.davidsalomon.name/assem.advertis/AssemAd.html ([PDF](http://www.davidsalomon.name/assem.advertis/asl.pdf)) ([Local](./asl.pdf))
 
 - Beginner's Guide to Linkers
 	- 2010; David Drysdale
 	- https://www.lurklurk.org/linkers/linkers.html
+- Linkers and Loaders
+	- ACM Computing Surveys, Volume 4, Number 3, September 1972
+	- Leon Presser, John R. White
+	- http://www-inst.eecs.berkeley.edu/~cs162/sp06/hand-outs/p149-presser-linker-loader.pdf
 - Binary File Descriptor library (BFD)
 	- https://sourceware.org/binutils/docs/bfd/
 	- https://publicclu2.blogspot.com/2013/05/binary-file-descriptor-library-bfd.html
 - Concurrent Linking with the GNU Gold Linker
 	- 2013 Thesis; Sander Mathijs van Veen
 	- https://smvv.io/gold.pdf
-- Linkers and Loaders
-	- ACM Computing Surveys, Volume 4, Number 3, September 1972
-	- Leon Presser, John R. White
-	- http://www-inst.eecs.berkeley.edu/~cs162/sp06/hand-outs/p149-presser-linker-loader.pdf
 - Oracle Solaris 11.1 Linkers and Libraries Guide
 	- https://docs.oracle.com/cd/E26502_01/html/E26507/
 - The Missing Link: Explaining ELF Static Linking, Semantically
@@ -104,18 +116,6 @@ summary=A collection of links and resources on the linking and loading of execut
 	- Linking to Older Versioned Symbols (glibc)
 		- https://web.archive.org/web/20150906233154/http://www.trevorpounds.com/blog/?p=103
 
-## Readings: Books
-
-- Advanced C and C++ Compiling
-	- 2014; Milan Stevanovic​
-	- "Engineering guide to C/C++ compiling, linking, and binary files structure"
-	- http://www.apress.com/9781430266679
-	- http://link.springer.com/book/10.1007%2F978-1-4302-6668-6
-	- https://github.com/apress/adv-c-cpp-compiling
-- Linkers and Loaders
-	- 1999; John R. Levine
-	- https://www.iecc.com/linker/
-
 ## Readings: Linker Scripts
 
 - OSDev Wiki
@@ -166,7 +166,7 @@ summary=A collection of links and resources on the linking and loading of execut
 		- Teresa Johnson, Mehdi Amini, and Xinliang David Li
 		- https://research.google/pubs/pub47584/
 
-## Readings: OS: POSIX
+## Readings: OS
 
 ### macOS
 
@@ -195,7 +195,7 @@ summary=A collection of links and resources on the linking and loading of execut
 	- What Are "Tentative" Symbols?
 		- http://www.linker-aliens.org/blogs/ali/entry/what_are_tentative_symbols/
 
-## Readings: OS: Windows
+### Windows
 
 - Raymond Chen - The Old New Thing
 	- Understanding the classical model for linking

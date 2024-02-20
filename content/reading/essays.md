@@ -13,7 +13,18 @@ summary=Random collection of long-form thoughts.
 
     "It is also important to note that the cell, like many other physical systems, is analog in nature. Therefore, in most situations there is no 0/1 (binary) value of variables. Consider gene expression. If a transcriptional activator is present, the gene will be transcribed. However, if you keep increasing the concentration of the activator, the expression of that gene will increase until it reaches a saturation point. So there is no digital logic here. Having said that, I would add that switching behaviour is possible in biological systems (including gene expression) and is also used in many cases. Certain kinds of regulatory network structures can give rise to such dynamics. Co-operativity with or without positive feedback is one of the mechanisms that can implement switching behaviour."
 
-[The Rise of "Worse is Better"](http://doc.cat-v.org/programming/worse_is_better) by Richard P. Gabriel:
+[The Rise of "Worse is Better"](http://doc.cat-v.org/programming/worse_is_better) by Richard P. Gabriel
+
+[The Age of Agile Must End](https://uxdesign.cc/the-age-of-agile-must-end-bc89c0f084b7): "As far as manifestos go, this is one of the more pathetic documents ever created. It lists four “Values” and twelve “Principles.” They may have been well-intentioned at their inception — that intention was to treat developers as humans, not cogs in a machine — but now we’ve gone full circle. These principles have devolved into something caustic for organizations. Viewed now, they’re variations on a theme of how a scrum pod can absolve themselves of any accountability.
+
+* Individuals and interactions over processes and tools. *(Yeah, we’re gonna do things however we want)*
+* Welcome changing requirements, even in late development. *(We can also change our minds whenever)*
+* Projects are built around motivated individuals, who should be trusted. *(Leave us alone, take what you get)*
+* Working software is the primary measure of progress. *(The fact that we produced something, anything, is all that matters)*
+* Simplicity — the art of maximizing the amount of work not done — is essential. *(We are going to do as little as possible)*
+* Best architectures, requirements, and designs emerge from self-organizing teams. *(Don’t tell us what to do)*
+
+"The combination of Agile principles and Scrum practices is disastrous for startups. These are operational directives from management; designers, PM’s, and engineers are not self-organizing and choosing to work this way. It’s all in the name of an “MVP” and time to market; this is what happens. *Every. Time.*"
 
 ## Steve Yegge's rants
 

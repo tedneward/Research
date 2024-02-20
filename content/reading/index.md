@@ -7,6 +7,8 @@ summary=Lots of theory and/or category-wide research and related links.
 
 Collections of articles and on various topics. Liberal crosslinking expected.
 
+["My parents are dead. What now?"](https://www.deadparentswhatnow.com)
+
 Sub-topics:
 
 * [Agile](/reading/agile/index) - Agile, agile processes, variants on agile, ... - [Tag](http://research.tedneward.com/tags/agile.html)

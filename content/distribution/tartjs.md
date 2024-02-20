@@ -1,5 +1,5 @@
 title=Tiny Actor RunTime in Javascript (tartjs)
-tags=distribution, nodejs
+tags=distribution, actors, nodejs
 summary=JavaScript implementation of Tiny Actor Run-Time.
 ~~~~~~
 

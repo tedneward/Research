@@ -1,5 +1,5 @@
 title=Nix/NixOS/nixpkgs
-tags=tool, language
+tags=tool, language, platform
 summary=A tool that takes a unique approach to package management and system configuration.
 ~~~~~~
 
@@ -8,6 +8,8 @@ summary=A tool that takes a unique approach to package management and system con
 ## Articles
 
 * [Nix Manual - Nix expression language](https://nixos.org/nix/manual/#ch-expression-language)
+
+* [The Nix Thesis](https://jonathanlorimer.dev/posts/nix-thesis.html): 
 
 * [James Fisher - Nix by example - Part 1: The Nix expression language](https://medium.com/@MrJamesFisher/nix-by-example-a0063a1a4c55)
 

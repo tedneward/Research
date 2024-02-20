@@ -3,7 +3,7 @@ tags=language
 summary=Legacy business language that refuses to die.
 ~~~~~~
 
-Implementations:
+## Implementations:
 
 * Native: [GNU-COBOL](https://gnucobol.sourceforge.io/)
 * JVM: [Heirloom Elastic COBOL](https://www.heirloomcomputing.com/elasticcobol/)
@@ -11,7 +11,7 @@ Implementations:
 * JVM/CLR: [MicroFocus Visual COBOL](https://www.microfocus.com/en-us/products/cobol-development/overview)
 * CLR: [Otterkit](https://otterkit.com/) ([Source](https://github.com/otterkit/otterkit))
 
-IDE:
+## IDE:
 
 * [Open COBOL IDE](https://opencobolide.software.informer.com/4.6/#)
 
@@ -21,7 +21,7 @@ IDE:
 
 * ["Learning COBOL: A Journey for the Modern Programmer"](https://monadical.com/posts/cobol.html)
 * ["The Beauty of COBOL"](https://devops.com/the-beauty-of-the-cobol-programming-language-v2/)
-
+* ["Mastering the COBOL Programming Language"](https://dev.to/github20k/alien-hunter-series-pt-1-mastering-the-cobol-programming-language-3kmh) (Really more a collection of links to other COBOL-related stuff)
 
 ## Books
 

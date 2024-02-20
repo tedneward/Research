@@ -3,7 +3,7 @@ tags=vm, functional, native
 summary=A pure functional compile target that is lazy, non-garbage-collected and massively parallel. It is also beta-optimal, meaning that, in several cases, it can be exponentially faster than most functional runtimes, including Haskell's GHC.
 ~~~~~~
 
-[Source](https://github.com/Kindelia/HVM)
+[Source](https://github.com/HigherOrderCO/HVM)
 
 Pretty hyperbolic:
 

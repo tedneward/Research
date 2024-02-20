@@ -48,7 +48,6 @@ summary=The best non-technical programming book in the world.
 * If the suspect code passes its unit tests, are the tests complete enough? What happens if you run the unit test with "this" data?
 * Do the conditions that caused this bug exist anywhere else in the system?
 
-
 ## Law of Demeter for functions
 An object's method should call only methods belonging to:
 

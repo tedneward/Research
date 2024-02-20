@@ -24,3 +24,8 @@ Distributions:
 ## Building
 
 Video - [Building Your Own Linux Kernel Might Not Be As Hard As You Think](https://www.youtube.com/watch?app=desktop&v=SH3v0S32io4)
+
+## Using
+
+* ["7 steps to make Linux look more like macOS"](https://www.xda-developers.com/steps-make-linux-look-macos/)
+

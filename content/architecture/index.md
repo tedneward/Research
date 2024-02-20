@@ -72,6 +72,7 @@ Tomas Petricek's writings on the subject:
 * [Software Engineering for Internet Applications](http://philip.greenspun.com/seia/)
 * [Source Making Design Patterns and UML](https://sourcemaking.com/design_patterns)
 * [Test Driven Development, Extensive Tutorial](https://github.com/grzesiek-galezowski/tdd-ebook) - Grzegorz Gałęzowski
+* ["The Case for Event-Driven Architecture with Mediator Topology"](https://www.infoq.com/articles/eda-mediator/)
 * [The Site Reliability Workbook](https://landing.google.com/sre/workbook/toc/) - Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara and Stephen Thorne
 * [Why a programmer might actually be a good urban planner](https://b1z0n.pro/why-the-programmers-might-be-good-urban-planners1/)
 * [WSO2 Reference Architecture](https://github.com/wso2/reference-architecture):

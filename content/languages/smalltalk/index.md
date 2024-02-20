@@ -12,6 +12,7 @@ summary=The original object-oriented programming language, emphasizing multiple 
 * [Stef's Free Online Smalltalk Books](http://stephane.ducasse.free.fr/FreeBooks.html) (meta-list)
 
 #### Historical Documentation(s)
+* ["Early History of Smalltalk"](./EarlyHistory.pdf) - Alan Kay, https://dl.acm.org/doi/pdf/10.1145/234286.1057828
 * [BYTE: A Special issue on Smalltalk](https://archive.org/details/byte-magazine-1981-08)
 * [Smalltalk-72 Manual](http://www.bitsavers.org/pdf/xerox/parc/techReports/Smalltalk-72_Instruction_Manual_Mar76.pdf)
 * [Smalltalk, Objects, and Design](https://books.google.co.in/books?id=W8_Une9cbbgC&printsec=frontcover&dq=smalltalk&hl=en&sa=X&ved=0CCIQ6AEwAWoVChMIw63Vo6CpyAIV0HGOCh3S2Alf#v=onepage&q=smalltalk&f=false)
