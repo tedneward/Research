@@ -39,6 +39,8 @@ tags=place
 
 [Learneroo Resources to Learn Programming](https://www.learneroo.com/modules/12/nodes/96)
 
+[The Lost Ways of Programming: Commodore 64 BASIC](https://tomasp.net/commodore64/): Interactive article showing the REPL-istic nature of the Commodore64's BASIC shell. (Apple ][+ BASIC shell was basically much the same way.) "I believe that how we interact with a programming environment when programming is more important than the specific programming language that we are using. This has never been widely studied and we have interesting things to learn from past systems, including Commodore 64 BASIC. We should look at the history and recreate past programming experiences in order to learn from them, following a method that a historian of science, Hasok Chang, calls complementary science. Reading about interactions is not enough. To get a sense of how the interaction worked, you need to experience it yourself, at least in a limited form. This is best done with an interactive article."
+
 [Microsoft Guides to Software](https://blogs.msdn.microsoft.com/mssmallbiz/2014/07/07/largest-collection-of-free-microsoft-ebooks-ever-including-windows-8-1-windows-8-windows-7-office-2013-office-365-office-2010-sharepoint-2013-dynamics-crm-powershell-exchange-server-lync-2/)
 
 [Microsoft Press: Free E-Books](https://mva.microsoft.com/ebooks)
