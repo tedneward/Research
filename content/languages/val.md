@@ -24,3 +24,6 @@ public fun main() {
 }
 ```
 
+## Articles
+
+* ["Meet Val: A New Language Alternative to C++, Rust"](https://thenewstack.io/meet-val-a-new-language-alternative-to-c-rust/)

@@ -1,5 +1,5 @@
 title=LineageOS
-tags=platform, operating system, mobile
+tags=platform, operating system, mobile, android
 summary=A free and open source operating system for mobile devices.
 ~~~~~~
 
