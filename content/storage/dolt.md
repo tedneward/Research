@@ -1,4 +1,4 @@
-title=DoIt
+title=Dolt
 tags=storage, distribution, relational
 summary=It's Git for Data.
 ~~~~~~
