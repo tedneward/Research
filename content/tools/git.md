@@ -96,6 +96,16 @@ summary=Distributed version-control system.
 * [git-scm - Video Tutorials](http://git-scm.com/videos)
 * [The New Boston tutorial to Git covering basic commands and workflow](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx)
 
+### Libraries
+
+* [libgit2](https://libgit2.org/): a portable, pure C implementation of the Git core methods
+* [Gitblit](https://www.gitblit.com/): an [open-source](https://github.com/gitblit-org/gitblit), pure Java stack for managing, viewing, and serving Git repositories
+* [jgit](https://github.com/eclipse-jgit/jgit): the Java implementation of git
+* [Git-Python](https://github.com/gitpython-developers/GitPython): Python library used to interact with Git repositories
+* [libgit2sharp](https://github.com/libgit2/libgit2sharp): Git + .NET
+
+------
+
 # [Learn X in Y Minutes](https://learnxinyminutes.com/docs/git/)
 Git is a distributed version control and source code management system.
 
