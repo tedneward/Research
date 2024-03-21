@@ -16,3 +16,12 @@ summary=Spiritual successor to XNA; a CLR-based open source game framework.
 ["Getting Started with MonoGame.Extended"](http://www.monogameextended.net/posts/getting-started-with-monogame-extended) -- not sure what MG.E is, but it's worth finding out
 
 ["My path through MonoGame and Beyond"](https://community.monogame.net/t/my-path-through-monogame-and-beyond-beginners-guides-xbox-uwp/12016): Supposed to be an intro tutorial to getting started with MG. Will know more when I try this again.
+
+["Placeholder Game"](https://github.com/FlyingOakGames/PlaceholderGame): A placeholder game that you don't need to build yourself (Github Actions will do it for you) for Windows, Linux, and macOS to upload to your Steam depots for whatever reason. Also acts as a cross-platform MonoGame template.
+
+    * Fork the project
+    * Edit empty.png to your liking
+    * Push the changes to Github
+    * Wait for the Actions to complete and download the generated artifacts from there
+    * Upload those builds to Steam
+
