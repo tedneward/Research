@@ -6,6 +6,7 @@ summary=Patterns around enterprise Java circa 2000
 
 
 ### Presentation Tier
+
 * **Intercepting Filter** (144)
 * **Front Controller** (166)
 * **Context Object** (181)
@@ -17,6 +18,7 @@ summary=Patterns around enterprise Java circa 2000
 
 
 ### Business Tier
+
 * **Business Delegate** (302)
 * **Service Locator** (315)
 * **Session Facade** (341)
@@ -29,6 +31,7 @@ summary=Patterns around enterprise Java circa 2000
 
 
 ### Integration Tier
+
 * **Data Access Object** (462)
 * **Service Activator** (496)
 * **Domain Store** (516)

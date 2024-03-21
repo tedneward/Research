@@ -21,6 +21,7 @@ Framework language graph
 
 
 # Three Examples
+
 * **Context:** You have decided to develop a framework for a particular domain
 * **Problem:** How do you start?
 * **Forces:**
@@ -32,6 +33,7 @@ Framework language graph
 
 
 # White-box Frameworks
+
 * **Context:** You have started to build your second app
 * **Problem:** Some f/w rely on inheritance, others polymorphic composition*which should you use?
 * **Forces:**
@@ -46,6 +48,7 @@ Framework language graph
 
 
 # Component Library
+
 * **Context:** You're developing the second and subsequent examples based on the White-box Framework.
 * **Problem:** Similar objects must be implemented for each problem the framework solves. How do you avoid writing similar objects for each instantiation of the framework?
 * **Forces:**
@@ -56,6 +59,7 @@ Framework language graph
 
 
 # Hot Spots
+
 * **Context:** You are adding components to your Component Library
 * **Problem:** How do you eliminate similar code being written over and over again?
 * **Forces:**
@@ -77,6 +81,7 @@ Framework language graph
 
 
 # Pluggable Objects
+
 * **Context:** you are adding components to your Component Library
 * **Problem:** most of the subclasses you write differ in trivial ways (1 method)*how to avoid having to create trivial subclasses each time you want to use the framework?
 * **Forces:**
@@ -86,6 +91,7 @@ Framework language graph
 
 
 # Fine-Grained Objects
+
 * **Context:** you are refactoring your Component Library to make it more reusable
 * **Problem:** How far should you go in dividing objects into smaller objects?
 * **Forces:**
@@ -95,6 +101,7 @@ Framework language graph
 
 
 # Black-Box Frameworks
+
 * **Context:** You are developing Pluggable Objects by encapsulating Hot Spots and making Fine-Grained Objects
 * **Problem:** Some frameworks rely heavily on inheritance, others on polymorphic composition; which to use?
 * **Forces:**
@@ -109,6 +116,7 @@ Framework language graph
 
 
 # Visual Builder
+
 * **Context:** you now have a Black-Box Framework, and can make an app by connecting objects of existing classes. A single app is two parts: one, the script that connects the objects and "turns them on", and two, the behavior of the individual objects; programmer still must provide the first part
 * **Problem:** The connection/construction script is usual similar across apps; how to simplify?
 * **Forces:**
@@ -119,6 +127,7 @@ Framework language graph
 
 
 # Language Tools
+
 * **Context:** you have just created a Builder
 * **Problem:** how do you easily inspect/debug Builder-generated complex composite objects?
 * **Forces:**
