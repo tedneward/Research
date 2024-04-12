@@ -103,6 +103,7 @@ summary=Distributed version-control system.
 * [jgit](https://github.com/eclipse-jgit/jgit): the Java implementation of git
 * [Git-Python](https://github.com/gitpython-developers/GitPython): Python library used to interact with Git repositories
 * [libgit2sharp](https://github.com/libgit2/libgit2sharp): Git + .NET
+* [isomorphic-git](https://isomorphic-git.org/) ([Source](https://github.com/isomorphic-git/isomorphic-git)): A pure JavaScript implementation of git for node and browsers
 
 ------
 
