@@ -69,11 +69,11 @@ List of graph dbs to add (from TinkerPop page):
 
 ### [Column-oriented (columnar)](/tags/columnar.html)
 
-Cassandra
+* Cassandra
 
 ### [Key-value store](/tags/keyvalue.html)
 
-Redis
+* Redis
 
 ## Topology options
 
@@ -107,7 +107,6 @@ Some storage engines also allow for code-hosting, in which code executes inside 
 * [The Ultimate Guide to 12 Dimensionality Reduction Techniques (with Python codes)](https://www.analyticsvidhya.com/blog/2018/08/dimensionality-reduction-techniques-python/) - Pulkit Sharma
 * [Theory and Applications for Advanced Text Mining](http://www.intechopen.com/books/theory-and-applications-for-advanced-text-mining)
 
-
 ## Information Retrieval
 
 * [Information Retrieval: A Survey](http://www.csee.umbc.edu/csee/research/cadip/readings/IR.report.120600.book.pdf) (PDF)
@@ -116,3 +115,10 @@ Some storage engines also allow for code-hosting, in which code executes inside 
 ## Storage and retrieval
 
 ["Don't use your ORM entities for everything--embrace the SQL!"](https://www.blackparrotlabs.io/post/architecture-pitfalls-dont-use-your-orm-entities-for-everything): 
+
+## Implementation
+
+* [Let's Write a Database](https://cstack.github.io/db_tutorial/) (a SQLite clone in C)
+* [B-Tree Implementation](https://www.codeproject.com/Articles/7410/Implementation-of-a-B-Tree-Database-Class)
+* [simpledb](https://github.com/awelm/simpledb): A simple database built from scratch that has some the basic RDBMS features (SQL query parser, transactions, query optimizer)
+* [The SimpleDB Data System](http://cs.bc.edu/~sciore/simpledb/): "... a multi-user transactional database server written in Java, which interacts with Java client programs via JDBC. The system is intended for pedagogical use only. The code is clean and compact. The APIs are straightforward. The learning curve is relatively small.  Everything about it is geared towards improving the experience of a database system internals course.  Consequently, the system is intentionally bare-bones. It implements only a small fraction of SQL and JDBC, and does little or no error checking. The SimpleDB code is an integral part of my textbook [Database Design and Implementation](https://www.amazon.com/dp/3030338355/), published by Springer."
