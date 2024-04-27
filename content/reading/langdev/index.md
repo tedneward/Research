@@ -139,6 +139,8 @@ of a dynamically typed language named smalljs which is almost a subset of JavaSc
 
 ## Python
 
+- https://github.com/menezesd/epic-lang: interpreter for Python-like programming language with braces
+
 - https://github.com/jonpry/Pill: Pill is an open source interpreter for the Cadence Skill language. Its purpose is to run PCell generator codes used in VLSI. Pill is written in Python and compiles the source into Python bytecode where it is then executed alongside regular python functions at similar speed to "native" python codes. *(This is an intriguing idea, and one that deserves some further exploration--if I can go from source to Py bytecode, we skip much of the parsing and get a startup speed benefit.)*
 
 - [(How to Write a (Lisp) Interpreter (in Python))](http://norvig.com/lispy.html): Norvig builds a simple Scheme in simple Python
@@ -147,7 +149,7 @@ of a dynamically typed language named smalljs which is almost a subset of JavaSc
 
 - [CPython Internals](https://devguide.python.org/internals/exploring/)
 
-- [Green Tree Snakes: The Missing Python AST docs](https://greentreesnakes.readthedocs.io/en/latest/index.html). Points out a few projects using the Pythong AST:
+- [Green Tree Snakes: The Missing Python AST docs](https://greentreesnakes.readthedocs.io/en/latest/index.html). Points out a few projects using the Python AST:
 
     - [pytest](https://docs.pytest.org/) (uses the AST to produce useful assertion error messages)
     - [astsearch](https://astsearch.readthedocs.io/) (search the semantics, not the syntax)
@@ -155,6 +157,10 @@ of a dynamically typed language named smalljs which is almost a subset of JavaSc
     - [bellybutton](https://github.com/hchasestevens/bellybutton) readily customised linter
 
 - [Code Transformer](https://github.com/danielzuegner/code-transformer): "The CodeTransformer is a Transformer based architecture that jointly learns from source code (Context) and parsed abstract syntax trees (AST; Structure). It does so by linking source code tokens to AST nodes and using pairwise distances (e.g., Shortest Paths, PPR) between the nodes to represent the AST. This combined representation is processed in the model by adding the contributions of each distance type to the raw self-attention score between two input tokens (See the paper for more details)."
+
+- https://github.com/maxmalysh/tiny-py-interpreter: Python interpreter written in Python; uses ANTLR4
+
+- https://github.com/jszheng/py3antlr4book: Covert ANTLR4 book source code to Python3 version.
 
 ---
 
