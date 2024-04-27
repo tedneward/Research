@@ -22,6 +22,7 @@ summary=Hohpe/Woolf's classic messaging text.
 * **Message Translator** (85): How can systems using different data formats communicate with each other using messaging?
 * **Message Endpoint** (95): How does an application connect to a messaging channel to send and receive Messages (66)?
 
+
 ### Messaging Channels
 
 * **Point-to-Point Channel** (103): How can the caller be sure that exactly one receiver will receive the document or perform the call?
