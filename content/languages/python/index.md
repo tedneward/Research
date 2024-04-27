@@ -11,6 +11,7 @@ summary=A dynamic language and platform.
 * JVM: [GraalPython](https://github.com/graalvm/graalpython): part of [GraalVM](/vms/graalvm.html)
 * JVM: [Jython](http://www.jython.org/)
 * CLR: [IronPython3](https://github.com/IronLanguages/ironpython3) and [IronPython2](https://github.com/IronLanguages/ironpython2)
+* [Nuitka](https://nuitka.net/): optimizing Python compiler written in Python that creates executables that run without a separate installer. ([Source](https://github.com/Nuitka/Nuitka))
 * C: [Stackless](https://github.com/stackless-dev/stackless): Stackless implementation (fork of CPython)
 * Python-to-[Crystal](/languages/ruby/crystal): [Py2cr](https://github.com/nanobowers/py2cr)
 * C: [tinypy](http://www.tinypy.org/): a minimalist implementation of python in 64k of code. [Source](https://github.com/philhassey/tinypy)
