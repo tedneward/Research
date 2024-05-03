@@ -118,9 +118,29 @@ Some storage engines also allow for code-hosting, in which code executes inside 
 
 ## Implementation
 
-* [Let's Write a Database](https://cstack.github.io/db_tutorial/) (a SQLite clone in C)
-* [B-Tree Implementation](https://www.codeproject.com/Articles/7410/Implementation-of-a-B-Tree-Database-Class)
-* [simpledb](https://github.com/awelm/simpledb): A simple database built from scratch that has some the basic RDBMS features (SQL query parser, transactions, query optimizer)
-* [The SimpleDB Data System](http://cs.bc.edu/~sciore/simpledb/): "... a multi-user transactional database server written in Java, which interacts with Java client programs via JDBC. The system is intended for pedagogical use only. The code is clean and compact. The APIs are straightforward. The learning curve is relatively small.  Everything about it is geared towards improving the experience of a database system internals course.  Consequently, the system is intentionally bare-bones. It implements only a small fraction of SQL and JDBC, and does little or no error checking. The SimpleDB code is an integral part of my textbook [Database Design and Implementation](https://www.amazon.com/dp/3030338355/), published by Springer."
+* [Mini-LSM](https://skyzh.github.io/mini-lsm/): Build a simple key-value storage engine in a week. Extend it in the second and third weeks.
 * [LibraDB](https://github.com/amit-davidson/LibraDB): "... a simple, persistent key/value store written in pure Go. The project aims to provide a working yet simple example of a working database."
+* [simpledb](https://github.com/awelm/simpledb): A simple database built from scratch that has some the basic RDBMS features (SQL query parser, transactions, query optimizer)
+* C: [Let's Write a Database](https://cstack.github.io/db_tutorial/) (a SQLite clone in C)
+* C++: [Build Your Own Redis from Scratch](https://build-your-own.org/redis)
+* C#: [Build Your Own Database](https://www.codeproject.com/Articles/1029838/Build-Your-Own-Database)
+* Clojure: [An Archaeology-Inspired Database](http://aosabook.org/en/500L/an-archaeology-inspired-database.html)
+* Crystal: [Why you should build your own NoSQL Database](https://medium.com/@marceloboeira/why-you-should-build-your-own-nosql-database-9bbba42039f5)
+* Go: [Build Your Own Database from Scratch: Persistence, Indexing, Concurrency](https://build-your-own.org/database/)
+* Go: [Build Your Own Redis from Scratch](https://www.build-redis-from-scratch.dev/)
+* Go: [gosqldb](https://github.com/krasun/gosqldb): A key-value persistent database that supports SQL queries over B+ and LSM trees
+* JavaScript: [Dagoba: an in-memory graph database](http://aosabook.org/en/500L/dagoba-an-in-memory-graph-database.html)
+* Python: [DBDB: Dog Bed Database](http://aosabook.org/en/500L/dbdb-dog-bed-database.html)
+* Python: [Write your own miniature Redis with Python](http://charlesleifer.com/blog/building-a-simple-redis-server-with-python/)
+* Ruby: [Build your own fast, persistent KV store in Ruby](https://dineshgowda.com/posts/build-your-own-persistent-kv-store/)
+* Rust: [Build your own Redis client and server](https://tokio.rs/tokio/tutorial/setup)
+* Rust: [YourSQL](https://github.com/yywe/yoursql)
+* Rust: [OxidSQL](https://github.com/mzinsmeister/OxidSQL)
+* Rust: [erdb](https://github.com/radogost/erdb): An educational relational database
+* [Subreddit: /r/databasedevelopment](https://www.reddit.com/r/databasedevelopment/)
+* [B-Tree Implementation](https://www.codeproject.com/Articles/7410/Implementation-of-a-B-Tree-Database-Class)
+* [The SimpleDB Data System](http://cs.bc.edu/~sciore/simpledb/): "... a multi-user transactional database server written in Java, which interacts with Java client programs via JDBC. The system is intended for pedagogical use only. The code is clean and compact. The APIs are straightforward. The learning curve is relatively small.  Everything about it is geared towards improving the experience of a database system internals course.  Consequently, the system is intentionally bare-bones. It implements only a small fraction of SQL and JDBC, and does little or no error checking. The SimpleDB code is an integral part of my textbook [Database Design and Implementation](https://www.amazon.com/dp/3030338355/), published by Springer."
 * [Building a NoSQL database from zero](https://github.com/amit-davidson/Building-a-NoSQL-database-from-zero)
+* ["How to build a relational database from scratch"](https://medium.com/swlh/how-to-build-a-relational-database-from-scratch-e208061027c7) (Medium members only)
+* [Build a NoSQL database from scratch in 1000 lines of code](https://betterprogramming.pub/build-a-nosql-database-from-the-scratch-in-1000-lines-of-code-8ed1c15ed924) (in Go)
+* [Building BerkeleyDB](https://transactional.blog/building-berkeleydb/)
