@@ -3,7 +3,7 @@ tags=language, storage, native
 summary=Portable, xBase compatible programming language and environment.
 ~~~~~~
 
-[Website](https://harbour.github.io/) | [Source](https://github.com/harbour/core)
+[Website](https://harbour.github.io/) | [Source](https://github.com/harbour/core) | [Wiki](https://harbour.wiki/)
 
 Last stable release (3.0.0), in 2011.
 

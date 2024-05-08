@@ -11,8 +11,13 @@ Distributed systems are the means by which programs on one machine communicate w
 
 * [Stack on a budget (Free-Tier Driven Development)](https://github.com/255kb/stack-on-a-budget): A collection of services with great free tiers for developers on a budget.
 
+## Interesting reading/links
+
+* [In-memory mesasage bus in type-safe Typescript](https://event-driven.io/en/inmemory_message_bus_in_typescript/)
+
 ## Interesting links:
 
+* [Public APIs](https://github.com/public-apis/public-apis): A collection of public APIs to use
 * [Fuck Off As A Service](http://foaas.com/)
 * [DnD 5e API](https://github.com/5e-bits/5e-srd-api)
 * [Another DnD 5e API](https://api.open5e.com/)

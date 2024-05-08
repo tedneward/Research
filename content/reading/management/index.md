@@ -5,6 +5,8 @@ summary=Collection of thoughts/essays/etc on managing people.
 
 *(Reorganize this to be more topical)*
 
+["The Worst Tool for the Job"](https://www.johndcook.com/blog/2020/07/25/worst-tool-for-the-job/): if you need a tool, buy the cheapest one you can find. If it’s inadequate, or breaks, or you use it a lot, then buy the best one you can afford. If you follow this strategy, you’ll sometimes waste a little money by buying a cheap tool before buying a good one. But you won’t waste money buying expensive tools that you rarely use. And you won’t waste money by buying a sequence of incrementally better tools until you finally buy a good one.
+
 [Servant Leadership](https://responsiveadvisors.com/blog/servant-leadership/) - Jason Malmstadt
 
 [Questionable Advice: “How can I drive change and influence teams... without power?”](https://charity.wtf/2023/06/05/drive-change-and-influence-teams-without-power/) - Charity Majors
@@ -17,6 +19,9 @@ summary=Collection of thoughts/essays/etc on managing people.
 
 [Biases and Fallacies Lead to Smol Thinking](https://ceklog.kindel.com/2023/06/02/biases-and-fallacies-lead-to-smol-thinking/)
 
+## Organizational Design
+
+[Building Organizational Resilience through Documentation and InnerSource Practices](https://www.infoq.com/podcasts/documentation-innersource-practices-build-resilience/)
 
 ## Engineering Management
 

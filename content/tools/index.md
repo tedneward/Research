@@ -130,6 +130,7 @@ tags=tool
 * [N8n](https://n8n.io/) has the right number of apps, a larger community, and is much more mature than many of its competitors, but its less-intuitive design is potentially a turnoff. (Despite being free to self-host via a community option, it also does not have an open-source license.) It can be run inside a desktop application, though, which is a plus.
 * [ActivePieces](https://www.activepieces.com/) seems to have the right momentum to get things going in a good direction; it also has a reasonably priced cloud option, and while it is also still new, it has a lot of potential and a quickly growing app list. (It, too, doesn’t use a pure GPL-style license, however. Another responsive-to-feedback team, however.)
 * If your goal is just automating some basic tasks, the browser extension [Automa](https://www.automa.site/) also has a lot of potential.
+* [Flowpipe: A workflow engine for DevOps scripters](https://www.infoworld.com/article/3712125/flowpipe-a-workflow-engine-for-devops-scripters.html): Uses HCL for configuration/definition
 
 ---
 

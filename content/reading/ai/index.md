@@ -3,7 +3,11 @@ tags=reading, ai, machine learning, fuzzy logic, logic, expert system, nlp
 summary=A collection of language-agnostic links on AI and Machine Learning.
 ~~~~~~
 
-# General
+## Contrarian/hype-debunking
+
+* ["The LLMentalist Effect: how chat-based Large Language Models replicate the mechanisms of a psychic’s con"](https://softwarecrisis.dev/letters/llmentalist/)
+
+## General
 
 * [Artificial Intelligence for a Better Future: An Ecosystem Perspective on the Ethics of AI and Emerging Digital Technologies](https://link.springer.com/book/10.1007/978-3-030-69978-9) - Bernd Carsten Stahl (PDF)
 * [Artificial Intelligence: Foundations of Computational Agents (2010), 1st Edition](https://artint.info/aifca1e.html) - David L. Poole, Alan K. Mackworth @ Cambridge University Press (HTML)
