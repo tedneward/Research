@@ -1,4 +1,4 @@
-title=h
+title=H
 tags=language, esoteric
 summary=A simple, fast, open-source, complete, (satirical) and safe language for developing modern software for the web.
 ~~~~~~

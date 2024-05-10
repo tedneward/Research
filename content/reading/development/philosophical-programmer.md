@@ -3,7 +3,9 @@ tags=reading, books, philosophy
 summary=A collection of discussions of philosophy as it meets programming.
 ~~~~~~
 # Part I: A Philosophical Introduction
+
 1. Beyond the Cuckoo Clock
+
       * Man is a tool-using creature
 
       * First tools were extensions of our physical abilities
@@ -15,9 +17,11 @@ summary=A collection of discussions of philosophy as it meets programming.
       * Computers are digital computers, and infinitiely flexible (unike analog computers)
 
 2. Is There an Aesthetic of Programming?
+
       * discussion of algorithms as aesthetics
 
 3. The Ethical Quotient
+
       * ethical challenges: qualities of magnification, precision, alienation, believability, malleability of information, impermeability, and autonomy of operation
 
       * magnification: computers magnify our thought processes significantly, but have no conscience or controls beyond what we put on them

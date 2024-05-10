@@ -33,3 +33,6 @@ summary=A collection of links to essays.
 * [Working with Web APIs](https://launchschool.com/books/working_with_apis) - Launch School
 * [Your API Is Bad](https://leanpub.com/yourapiisbad/read) - Paddy Foran
 
+## Messaging
+
+* [In-memory mesasage bus in type-safe Typescript](https://event-driven.io/en/inmemory_message_bus_in_typescript/)
