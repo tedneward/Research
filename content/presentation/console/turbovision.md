@@ -1,5 +1,5 @@
 title=Turbo Vision
-tags=presentation, cli, windows, linux, macos
+tags=presentation, console, windows, linux, macos
 summary=Reimplementations of Borland's old Character User Interface framework.
 ~~~~~~
 

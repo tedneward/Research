@@ -3,7 +3,7 @@ tags=language, jvm
 summary=A practical calculating tool and programming language designed to make physical calculations simple, to help ensure that answers come out right, and to make a tool that's really useful in the real world. It tracks units of measure (feet, meters, kilograms, watts, etc.) through all calculations, allowing you to mix units of measure transparently, and helps you easily verify that your answers make sense.
 ~~~~~~
 
-[Website](https://futureboy.us/frinkdocs/) |
+[Website](https://frinklang.org/)
 
 ### [Sample Calculations](https://futureboy.us/frinkdocs/#SampleCalculations):
 

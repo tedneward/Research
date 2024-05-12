@@ -3,6 +3,7 @@ tags=reading, books
 summary=The book describing the predecessor to agile.
 ~~~~~~
 # Principles:
+
 * Rapid Feedback
 
 * Assume Simplicity
@@ -35,6 +36,7 @@ summary=The book describing the predecessor to agile.
 
 
 # Practices: 
+
 * The Planning Game
 
 * Small Releases

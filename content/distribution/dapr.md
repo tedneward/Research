@@ -7,7 +7,7 @@ summary=A portable, event-driven runtime that makes it easy for any developer to
 From the website:
 > Today we are experiencing a wave of cloud adoption. Developers are comfortable with web + database application architectures (for example classic 3-tier designs) but not with microservice application architectures which are inherently distributed. It’s hard to become a distributed systems expert, nor should you have to. Developers want to focus on business logic, while leaning on the platforms to imbue their applications with scale, resiliency, maintainability, elasticity and the other attributes of cloud-native architectures.
 
-> This is where Dapr comes in. Dapr codifies the best practices for building microservice applications into open, independent, building blocks that enable you to build portable applications with the language and framework of your choice. Each building block is completely independent and you can use one, some, or all of them in your application.
+> This is where Dapr comes in. Dapr codifies the best practices for building microservice applications into open, independent, *building blocks* that enable you to build portable applications with the language and framework of your choice. Each building block is completely independent and you can use one, some, or all of them in your application.
 
 > In addition Dapr is platform agnostic meaning you can run your applications locally, on any Kubernetes cluster, and other hosting environments that Dapr integrates with. This enables you to build microservice applications that can run on the cloud and edge.
 
@@ -23,8 +23,19 @@ Building blocks address common challenges in building resilient, microservices a
 * **Publish and subscribe** Publishing events and subscribing to topics
 * **Resource bindings**	Resource bindings with triggers builds further on event-driven architectures for scale and resiliency by receiving and sending events to and from any external source such as databases, queues, file systems, etc.
 * **Actors** A pattern for stateful and stateless objects that make concurrency simple with method and state encapsulation. Dapr provides many capabilities in its actor runtime including concurrency, state, life-cycle management for actor activation/deactivation and timers and reminders to wake-up actors.
-* **Observability** Dapr emit metrics, logs, and traces to debug and monitor both Dapr and user applications. Dapr supports distributed tracing to easily diagnose and serve inter-service calls in production using the W3C Trace Context standard and Open Telemetry to send to different monitoring tools.
 * **Secrets**	Dapr provides secrets management and integrates with public cloud and local secret stores to retrieve the secrets for use in application code.
+* **Configuration** The configuration API enables you to retrieve and subscribe to application configuration items from configuration stores.
+* **Distributed lock** The distributed lock API enables your application to acquire a lock for any resource that gives it exclusive access until either the lock is released by the application, or a lease timeout occurs.
+* **Workflows** The workflow API can be combined with other Dapr building blocks to define long running, persistent processes or data flows that span multiple microservices using Dapr workflows or workflow components.
+* **Cryptography** The cryptography API provides an abstraction layer on top of security infrastructure such as key vaults. It contains APIs that allow you to perform cryptographic operations, such as encrypting and decrypting messages, without exposing keys to your applications.
+
+## Cross-Cutting APIs
+* **Resiliency** Dapr provides the capability to define and apply fault tolerance resiliency policies via a resiliency spec. Supported specs define policies for resiliency patterns such as timeouts, retries/back-offs, and circuit breakers.
+* **Observability**	Dapr emits metrics, logs, and traces to debug and monitor both Dapr and user applications. Dapr supports distributed tracing to easily diagnose and serve inter-service calls in production using the W3C Trace Context standard and Open Telemetry to send to different monitoring tools.
+* **Security** Dapr supports in-transit encryption of communication between Dapr instances using the Dapr control plane, Sentry service. You can bring in your own certificates, or let Dapr automatically create and persist self-signed root and issuer certificates.
+
+Dapr exposes its HTTP and gRPC APIs as a sidecar architecture, either as a container or as a process, not requiring the application code to include any Dapr runtime code. This makes integration with Dapr easy from other runtimes, as well as providing separation of the application logic for improved supportability.
+
 
 ### Components
 Dapr uses a modular design where functionality is delivered as a component. Each component has an interface definition. All of the components are pluggable so that you can swap out one component with the same interface for another. The components contrib repo is where you can contribute implementations for the component interfaces and extends Dapr’s capabilities.
@@ -34,11 +45,11 @@ A building block can use any combination of components. For example the actors b
 You can get a list of current components available in the current hosting environment using the dapr components CLI command.
 
 * **State stores** State store components are data stores (databases, files, memory) that store key-value pairs as part of the state management building block.
-* **Service discovery** Service discovery components are used with the service invocation building block to integrate with the hosting environment to provide service-to-service discovery. For example, the Kubernetes service discovery component integrates with the Kubernetes DNS service and self hosted uses mDNS.
-* **Middleware** Dapr allows custom middleware to be plugged into the request processing pipeline. Middleware can perform additional actions on a request, such as authentication, encryption and message transformation before the request is routed to the user code, or before the request is returned to the client. The middleware components are used with the service invocation building block.
 * **Pub/sub brokers** Pub/sub broker components are message brokers that can pass messages to/from services as part of the publish & subscribe building block.
 * **Bindings** External resources can connect to Dapr in order to trigger a service or be called from a service as part of the bindings building block.
 * **Secret stores** In Dapr, a secret is any piece of private information that you want to guard against unwanted users. Secrets stores are used to store secrets that can be retrieved and used in services.
+* **Service discovery** Service discovery components are used with the service invocation building block to integrate with the hosting environment to provide service-to-service discovery. For example, the Kubernetes service discovery component integrates with the Kubernetes DNS service and self hosted uses mDNS.
+* **Middleware** Dapr allows custom middleware to be plugged into the request processing pipeline. Middleware can perform additional actions on a request, such as authentication, encryption and message transformation before the request is routed to the user code, or before the request is returned to the client. The middleware components are used with the service invocation building block.
 
 ### Observability
 When building an applications, understanding how the system is behaving is an important part of operating it - this includes having the ability to observe the internal calls of an application, gauging its performance and becoming aware of problems as soon as they occur. This is challenging for any system but even more so for a distributed system comprised of multiple microservices where a flow, made of several calls, may start in one microservices but continue in another. Observability is critical in production environments but also useful during development to understand bottlenecks, improve performance and perform basic debugging across the span of microservices.

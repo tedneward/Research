@@ -18,6 +18,8 @@ Collection of links about and around hardware.
 
 [Framework](): Replaceable parts? Kinda want to get one just to see how well it holds up.
 
+[Slimbook](https://slimbook.com/en/)
+
 ## Storage
 [High Speed Portable SSD](https://miatine.com/speed)
 

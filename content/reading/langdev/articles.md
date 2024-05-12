@@ -32,6 +32,7 @@ summary=
 - [PROGRAMMING A PROBLEM-ORIENTED LANGUAGE](http://www.forth.org/POL.pdf)
 
 # S:
+- [S-Expressions in Javascript](https://www.freecodecamp.org/news/s-expressions-in-javascript/)
 - Subtype Inference by Example (series):
   - [Part 1: Introducing CubiML](https://blog.polybdenum.com/2020/07/04/subtype-inference-by-example-part-1-introducing-cubiml.html);
   - [Part 2: Parsing and Biunification](https://blog.polybdenum.com/2020/07/11/subtype-inference-by-example-part-2-parsing-and-biunification.html);
