@@ -9,22 +9,22 @@ Official standard name of the language originally appearing in browsers. "Javasc
 
 ## Implementations
 
-* [Native: WebKit JavaScriptCore](https://github.com/WebKit/WebKit/tree/main/Source/JavaScriptCore): the JavaScript engine that comes as part of the larger open-source [WebKit](https://github.com/WebKit/) browser core.
-* [C/C++: mjs](https://github.com/cesanta/mjs) Embedded JavaScript for C/C++, designed for microcontrollers with limited resources. Implements a strict subset of ES6.
-* [C/C++: QuickJS](https://bellard.org/quickjs/): a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
-* [C/C++: V8](/vms/v8): The engine below NodeJS from Google.
-* [CLR: jint](../jint)
-* [CLR: Yantra](../yantra)
-* [CLR: Jurassic](../jurassic)
-* [CLR: IronJS](../ironjs)
+* Native: [WebKit JavaScriptCore](https://github.com/WebKit/WebKit/tree/main/Source/JavaScriptCore): the JavaScript engine that comes as part of the larger open-source [WebKit](https://github.com/WebKit/) browser core.
+* C/C++: [mjs](https://github.com/cesanta/mjs) Embedded JavaScript for C/C++, designed for microcontrollers with limited resources. Implements a strict subset of ES6.
+* C/C++: [QuickJS](https://bellard.org/quickjs/): a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
+* C/C++: [V8](/vms/v8): The engine below NodeJS from Google.
+* CLR: [jint](../jint)
+* CLR: [Yantra](../yantra)
+* CLR: [Jurassic](../jurassic)
+* CLR: [IronJS](../ironjs)
 * JVM: Nashorn: [Nashorn Blog](https://blogs.oracle.com/nashorn/) is at Oracle but Nashorn appears to have moved to JetBrains ownership/development [here](https://github.com/JetBrains/jdk8u_nashorn)
-* [JVM: Rhino](https://github.com/mozilla/rhino) (includes [E4X](../e4x) support)
-* [JVM: Graal.js](https://github.com/graalvm/graaljs) part of [GraalVM](/vms/graalvm.html)
-* [JVM: RingoJS](https://ringojs.org/) ([Source](https://github.com/ringo/ringojs/))
+* JVM: [Rhino](https://github.com/mozilla/rhino) (includes [E4X](../e4x) support)
+* JVM: [Graal.js](https://github.com/graalvm/graaljs) part of [GraalVM](/vms/graalvm.html)
+* JVM: [RingoJS](https://ringojs.org/) ([Source](https://github.com/ringo/ringojs/))
 * JVM: Kotlin: [Reeva](https://github.com/ReevaJS/reeva)
-* [Rust: Boa](https://github.com/boa-dev/boa)
-* [Rust: Deno](https://github.com/denoland/deno)
-* [Zig: Bun](https://bun.sh/) ([Source](https://github.com/oven-sh/bun)): a fast all-in-one JavaScript runtime, written in [Zig](/languages/zig).
+* Rust: [Boa](https://github.com/boa-dev/boa)
+* Rust: [Deno](https://github.com/denoland/deno)
+* Zig: [Bun](https://bun.sh/) ([Source](https://github.com/oven-sh/bun)): a fast all-in-one JavaScript runtime, written in [Zig](/languages/zig).
 
 Implementation-related
 
