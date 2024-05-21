@@ -1,6 +1,6 @@
 title=Go
 tags=language
-summary=Programming language from Google emphasizing coroutines.
+summary=Compiled, statically typed in the tradition of Algol and C, with garbage collection, limited structural typing, memory safety features and CSP-style concurrent programming features added.
 ~~~~~~
 
 [Source](https://github.com/golang/go)

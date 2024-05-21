@@ -1,6 +1,6 @@
 title=C
 tags=language, native
-summary=A procedural language intended first as a replacement for assembly, later taking on a life of its own as a systems-level language.
+summary=General-purpose, imperative, supporting structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations.
 ~~~~~~
 
 [C Specification](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1124.pdf) (6 May 2005 Draft) | [C17 Standard Draft](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2310.pdf)

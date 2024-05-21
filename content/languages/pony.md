@@ -1,9 +1,9 @@
 title=Pony
 tags=language, native, object capability
-summary=A statically-compiled research language from Microsoft around actors and concurrency.
+summary=Open-source, object-oriented, actor-model, capabilities-secure, high-performance programming language.
 ~~~~~~
 
-[Website](https://www.ponylang.io/).
+[Website](https://www.ponylang.io/) | [Source](https://github.com/ponylang/ponyc)
 
 > Pony is an open-source, object-oriented, actor-model, capabilities-secure, high-performance programming language.
 
