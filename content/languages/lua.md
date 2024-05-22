@@ -23,6 +23,8 @@ summary=Scripting language often embedded into game engines for extensibility.
 * JVM: [LuaJ](https://sourceforge.net/projects/luaj/): A Lua 5.2 spec-compliant interpreter written in Java for JME and JSE. Compiles Lua directly to JVM bytecode.
 * OCaml: [LuaML](https://github.com/lindig/lua-ml): Embeddable Lua 2.5 reimplementation that integrates with OCaml type and module system. It's possible to extend or even replace the standard library with your own modules.
 * Swift: [lua4swift](https://github.com/weyhan/lua4swift)
+* Rust: [Luster](https://github.com/kyren/luster): Experimental Lua VM implemented in pure Rust.
+
 
 ### Resources
 

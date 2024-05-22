@@ -1,7 +1,7 @@
 title=Bolt
-tags=language, llvm, concurrent
-summary=A language with in-built data-race freedom!
+tags=language
+summary=Research language with finer-grained concurrency than Rust.
 ~~~~~~
 
-[Source](https://github.com/mukul-rathi/bolt)
+[Source](https://github.com/mukul-rathi/bolt) | [HN](https://news.ycombinator.com/item?id=23122973)
 

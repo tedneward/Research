@@ -17,6 +17,7 @@ Official standard name of the language originally appearing in browsers. "Javasc
 * CLR: [Yantra](../yantra)
 * CLR: [Jurassic](../jurassic)
 * CLR: [IronJS](../ironjs)
+* Go: [Elsa](https://github.com/elsaland/elsa) | [HN](https://news.ycombinator.com/item?id=24626655): Fast/secure QuickJS wrapper in Go
 * JVM: Nashorn: [Nashorn Blog](https://blogs.oracle.com/nashorn/) is at Oracle but Nashorn appears to have moved to JetBrains ownership/development [here](https://github.com/JetBrains/jdk8u_nashorn)
 * JVM: [Rhino](https://github.com/mozilla/rhino) (includes [E4X](../e4x) support)
 * JVM: [Graal.js](https://github.com/graalvm/graaljs) part of [GraalVM](/vms/graalvm.html)
