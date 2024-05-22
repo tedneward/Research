@@ -3,7 +3,7 @@ tags=language, native
 summary=An AOT compiled language that uses an entirely new approach to memory management: generational references, which have zero aliasing costs and no garbage collection pauses.
 ~~~~~~
 
-[Website](https://vale.dev/) | [Source](https://github.com/ValeLang/Vale) | [Guide](https://vale.dev/guide/introduction)
+[Website](https://vale.dev/) | [Source](https://github.com/ValeLang/Vale) | [Guide](https://vale.dev/guide/introduction) | [HN](https://news.ycombinator.com/item?id=23865674) [HN 2](https://news.ycombinator.com/item?id=25160202)
 
 Vale's goal is to show the world that speed and safety can be easy. Vale is:
 
@@ -26,3 +26,4 @@ Featuring:
 * Mutable and Immutable Objects
 * Patterns: Destructuring, Parameters, Extractors
 
+- [Vale](https://vale.dev/) - Fast, safe, and easy programming language. It uses single ownership with constraint references for memory safety without garbage collection, and an emphasis on modern, readable syntax. ([Code](https://github.com/ValeLang/Vale)) 

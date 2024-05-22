@@ -1,6 +1,6 @@
 title=Virgil
 tags=language, native, jvm, wasm
-summary=A fast and lightweight native programming language.
+summary=Fast and lightweight native programming language designed for fast, dependency-free programs.
 ~~~~~~
 
 [Source](https://github.com/titzer/virgil) | [Tutorial](https://github.com/titzer/virgil/blob/master/doc/tutorial/Overview.md)
@@ -15,4 +15,3 @@ Virgil focuses on balancing these main features in a statically-typed language:
 * Tuples - for efficient aggregation and uniform treatment of multi-argument functions
 * Type parameters - for powerful and clean abstraction over types
 * Algebraic data types - for easy building and matching of data structures
-

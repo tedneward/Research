@@ -241,6 +241,9 @@ This is the language described by the book ["Writing an Interpreter in Go"](http
 * Rust: https://github.com/JoshMcguigan/monkey
 * Rust: https://github.com/shuhei/cymbal
 * Rust: https://github.com/hatashiro/monkey-rs
+* Go: [Monkey in Go](https://github.com/bradford-hamilton/monkey-lang)
+* Rust: [Monkey in Rust](https://github.com/bradford-hamilton/monkey_lang_rust)
+* TypeScript: [Monkey in TypeScript](https://github.com/bradford-hamilton/monkey_lang_rust)
 
 ### Lox
 From ["Crafting Interpreters"](http://www.craftinginterpreters.com/):
