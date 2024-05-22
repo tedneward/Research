@@ -6,12 +6,11 @@ tags=language
 ~~~~~~
 Programming languages are (generally) human-friendly means of getting a computer to do something interesting on a human's behalf. Some languages may be friendlier than others; where opinions will genuinely differ as to which are friendlier, there are some that deliberately seek to be as obtuse and unreadable as possible, and those are usually called "esoteric" programming languages and fit into their own category of madness.
 
-See also [Language Places](/places/languages) and [PLZoo](/places/plzoo)
+See also:
 
-See also [language reading](/reading/languages) and [language development](/reading/langdev)
-
-Language collection/explorations
-
+* [Language Places](/places/languages) and [PLZoo](/places/plzoo)
+* [language reading](/reading/languages)
+* [language development](/reading/langdev)
 * A [Programming Language Database](https://pldb.pub/) ([Source](https://github.com/breck7/pldb)) with query capabilities (though it doesn't seem like it works at the moment?)
 * [PLE](https://github.com/rtoal/ple): A collection of illustrative examples in close to 100 programming languages, including every code snippet used in the book [Programming Language Explorations](https://rtoal.github.io/ple/).
 * [List of programming languages that are actively developed on GitHub](https://github.com/collections/programming-languages)
@@ -135,73 +134,6 @@ If the types can be manipulated/changed at runtime, then the language is often s
 
 ---
 
-## Functional
-
-- [Braid](https://github.com/joshsharp/braid) - Functional language with Reason-like syntax that compiles to Go.
-- [Bright ML](https://github.com/elpinal/bright-ml) - Statically-typed programming language based on "F-ing modules".
-- [Calypso](https://github.com/calypso-lang/calypso) - Mostly imperative language with some functional influences that is focused on flexibility and simplicity.
-- [cur](https://github.com/wilbowma/cur) - Powerful meta-programming for powerful types.
-- [Derw](https://github.com/eeue56/derw) - Elm-inspired language that transpiles to TypeScript.
-- [Discus](https://github.com/discus-lang/ddc) - Experimental dialect of Haskell which investigates static typing and program transformation in the presence of computational effects.
-- [Ditto](https://github.com/ditto-lang/ditto) - Functional, statically typed, and pure.
-- [Dynasty](https://github.com/aionescu/dynasty) - Interpreted, dynamically-typed, lazily evaluated, purely functional programming language.
-- [Eff](http://www.eff-lang.org/) - Functional language with handlers of not only exceptions, but also of other computational effects such as state or I/O.
-- [Effekt](https://github.com/effekt-lang/effekt) - Research language with effect handlers and lightweight effect polymorphism. ([Web](https://effekt-lang.org/))
-- [Enki](https://github.com/ReedOei/Enki) - Intended to be a logic language for teaching programming to people with no programming experience.
-- [Eve](https://github.com/witheve/Eve) - Programming language based on years of research into building a human-first programming platform.
-- [Expresso](https://github.com/willtim/Expresso) - Simple expressions language with polymorphic extensible row types. ([HN](https://news.ycombinator.com/item?id=23501981))
-- [F\*](https://fstar-lang.org/#introduction) - General-purpose functional programming language with effects aimed at program verification.
-- [Facet](https://github.com/facet-lang/facet) - Call-by-value functional language with algebraic effects, quantitative type theory, and staging.
-- [Fika](https://github.com/fika-lang/fika) - Statically typed functional programming language for the web.
-- [Functa](https://github.com/dragostis/Functa) - Flexible, fully functional dynamic programming language.
-- [Gluon](https://github.com/gluon-lang/gluon) - Static, type inferred and embeddable language written in Rust.
-- [Grace](https://github.com/Gabriel439/grace) - Ready-to-fork interpreted, typed, and functional language.
-- [Granule](https://github.com/granule-project/granule) - Statically typed functional language with graded modal types for fine-grained program reasoning via types.
-- [Hemlock](https://github.com/BranchTaken/Hemlock) - Synthesizes the expressive type and module systems of ML-family languages, a unified parametric effects/mutability/type system, and the shared-nothing message-passing parallelism of Erlang.
-- [Ink](https://github.com/thesephist/ink) - Minimal programming language inspired by modern JavaScript and Go, with functional style. ([Ink By Example](https://inkbyexample.com/))
-- [Keli](https://github.com/KeliLanguage/compiler) ([Motivations](https://keli-language.gitbook.io/doc/)) ([HN](https://news.ycombinator.com/item?id=24331635))
-- [Ko](https://github.com/kocircuit/kocircuit) - Generic type-safe language for concurrent, stateful, deadlock-free systems and protocol manipulations.
-- [Labrys](https://github.com/kit-ty-kate/labrys) - Toy language based on LLVM that implements the System Fω type-system.
-- [lambda-ski](https://github.com/thma/lambda-ski) - Small functional language with a combinator based graph-reduction machine.
-- [Lasca](https://github.com/nau) - LLVM-based statically or dynamically typed strict functional programming language. Simplified OCaml if you will.
-- [Lawvere](https://github.com/jameshaydon/lawvere) - Categorical programming language with effects.
-- [Leo](https://github.com/AleoHQ/leo) - Functional, statically-typed programming language built for writing private applications.
-- [LinearML](https://github.com/pikatchu/LinearML) - Functional language for parallel programming.
-- [lviv](https://github.com/kwantam/lviv) - Stack-based RPN functional programming language. Written in Scheme.
-- [Mlatu](https://github.com/brightly-salty/mlatu) - Statically typed, stack-based purely functional programming language designed for simplicity, speed, and safety.
-- [morloc](https://github.com/morloc-project/morloc) - Typed, polyglot, functional language.
-- [Nazo ML](https://github.com/cannorin/nml) - Experimental implementation of temporal-logic-based Hindley-Milner type system.
-- [Neut](https://github.com/u2zv1wx/neut) - Dependently-typed programming language based on the Calculus of Constructions. ([HN](https://news.ycombinator.com/item?id=23283880))
-- [Never](https://github.com/never-lang/never) - Statically typed, embedded functional programming language.
-- [Pikelet](https://github.com/pikelet-lang/pikelet) - Small, functional, dependently typed programming language.
-- [Salt](https://github.com/discus-lang/salt) - Compilation target that functional programmers always wanted.
-- [Silt](https://github.com/silt-lang/silt) - An in-progress fast, dependently typed, functional programming language implemented in Swift.
-- [Sixten](https://github.com/ollef/sixten) - Experimental functional language where all data is unboxed by default. Functional programming with fewer indirections.
-- [Spiral](https://github.com/mrakgr/The-Spiral-Language) - Functional language with intensional polymorphism and first-class staging.
-- [TAMGU](https://github.com/naver/tamgu) - FIL programming language: Functional, Imperative, Logical all in one for annotation and data augmentation.
-- [Tao](https://github.com/zesterer/tao) - Statically-typed functional programming language.
-- [TiML](http://adam.chlipala.net/papers/TimlOOPSLA17/) - Functional Language for Practical Complexity Analysis with Invariants.
-- [TopShell](https://github.com/topshell-language/topshell) - Purely functional, reactive scripting language.
-- [Tyrade](https://github.com/willcrichton/tyrade) - Pure functional language for type-level programming in Rust.
-- [Unlambda](http://www.madore.org/~david/programs/unlambda/) - Minimal, "nearly pure" functional programming language invented by David Madore. Based on combinatory logic. ([Wiki](https://en.wikipedia.org/wiki/Unlambda))
-- [Verve](https://github.com/tadeuzagallo/verve-lang) - Functional language for the working hacker.
-- [Zilch](https://github.com/zilch-lang/zilch) - Statically-typed, low-level, functional programming language with some focus on runtime performance.
-
-## Lisp
-
-- [Emacs Lisp](https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html) - dialect of the Lisp programming language used as a scripting language by Emacs with some later influence from Common Lisp. Created by GNU it supports imperative and functional programming methods.
-- [femtolisp](https://github.com/JeffBezanson/femtolisp) - Lightweight, robust, scheme-like lisp implementation.
-- [Fennel](https://github.com/bakpakin/Fennel) - Lua Lisp Language.
-- [Hime](https://github.com/hime-lang/Hime) - A general programming language running on the JVM platform.
-- [Janet](https://github.com/janet-lang/janet) - Functional and imperative programming language and bytecode interpreter.
-- [Ketos](https://github.com/murarth/ketos) - Lisp dialect scripting and extension language for Rust programs. ([HN](https://news.ycombinator.com/item?id=28616475))
-- [Liz](https://github.com/dundalek/liz) - Lisp-flavored general-purpose programming language (based on Zig).
-- [llrl](https://github.com/yubrot/llrl) - Lisp-like programming language powered by Rust + LLVM.
-- [Lux](https://github.com/LuxLang/lux) - Functional, statically-typed Lisp that will run on several platforms, such as the Java Virtual Machine and JavaScript interpreters.
-- [PicoLisp](https://picolisp.com/wiki/) - Simple and lightweight and encourages clean, concise code.
-- [Ren](https://github.com/ren-lang/compiler) - Cleaner, clearer JavaScript. Modern scripting language for the Web.
-- [Urn](https://urn-lang.com/) - Lisp implementation for Lua. ([Code](https://github.com/SquidDev/urn)) ([Lobsters](https://lobste.rs/s/qzubyo/urn_lisp_implementation_for_lua))
-
 ## Explicit logical parallelism
 
 - [Ceu](https://github.com/ceu-lang/ceu) - Reactive language that aims to offer a higher-level and safer alternative to C. ([Web](http://www.ceu-lang.org/))
@@ -227,27 +159,18 @@ If the types can be manipulated/changed at runtime, then the language is often s
 - [Austral](https://github.com/austral/austral) - Systems language with linear types.
 - [Bagel](https://github.com/brundonsmith/bagel) - Statically typed, reactive language with pure and impure functions. ([Article](https://www.brandons.me/blog/the-bagel-language))
 - [Basil](https://github.com/basilTeam/basil) - Fast and flexible language exploring partial evaluation, context-sensitive parsing, and metaprogramming. Compiles JIT or AOT to native code.
-- [Beef](https://github.com/beefytech/Beef) - Open source performance-oriented compiled programming language which has been built hand-in-hand with its IDE environment.
-- [BIPLAN](https://github.com/gioblu/BIPLAN) - Byte coded Interpreted Programming language.
 - [BlazeX](https://github.com/BlazifyOrg/blazex) - AOT compiled object oriented programming language.
 - [Bog](https://github.com/Vexu/bog) - Small, strongly typed, embeddable language. Written in Zig.
 - [Bolt](https://github.com/mukul-rathi/bolt) - Research language with finer-grained concurrency than Rust. ([HN](https://news.ycombinator.com/item?id=23122973))
-- [Boson](https://github.com/Narasimha1997/boson-lang) - Hybrid programming language written in Rust.
-- [Bosque](https://github.com/Microsoft/BosqueLanguage) - Experiment in regularized design for a machine assisted rapid and reliable software development lifecycle. ([HN](https://news.ycombinator.com/item?id=23175280))
 - [Butter](https://github.com/neverRare/butter) - Aims to be a concise and friendly language for building efficient software.
 - [buzz](https://github.com/giann/buzz) - Small/lightweight typed scripting language written in Zig.
-- [Cairo](https://github.com/starkware-libs/cairo-lang) - Programming language for writing provable programs. ([Web](https://www.cairo-lang.org/))
 - [Caledon](https://github.com/mmirman/caledon) - Dependently typed, polymorphic, higher order logic programming language.
 - [Cane](https://github.com/Jackojc/cane) - A small vector language designed for making beats with realtime MIDI.
 - [Cant](https://github.com/darius/cant) - Programming language descended mainly from E and Scheme.
-- [Charity](http://pll.cpsc.ucalgary.ca/charity1/www/home.html) - Categorical programming language. ([Code](https://github.com/mietek/charity-lang))
-- [Ć](https://github.com/pfusik/cito) - Language which can be translated automatically to C, C++, C#, Java, JavaScript, Python, Swift, TypeScript and OpenCL C. ([HN](https://news.ycombinator.com/item?id=28805825))
-- [Ciao](https://github.com/ciao-lang/ciao) - Programming language that builds up from a logic-based simple kernel, and is designed to be extensible and modular.
 - [Clay](https://github.com/jckarter/clay) - Programming language designed for Generic Programming.
 - [CLU](https://codelani.com/languages/clu.html) - Programming language created at MIT.
 - [Cognate](https://github.com/stavromulabeta/cognate) - Quasi-concatenative stack language that uses embedded comments to read like English prose.
 - [Compose](https://github.com/samskivert/compose) - Experimental programming language. It aims to be teachable, scalable, modern, powerful & precise.
-- [Concurnas](https://concurnas.com/) - Open source JVM programming language designed for building reliable, scalable, high performance concurrent, distributed and parallel systems. ([HN](https://news.ycombinator.com/item?id=23321096))
 - [Cone](https://github.com/jondgoodwin/cone) - Fast, fit, friendly, and safe systems programming language. ([Web](https://cone.jondgoodwin.com/))
 - [Copper](https://tibleiz.net/copper/index.html) - Experimental programming language that can be used as a replacement to C and C++.
 - [Cotowali](https://github.com/cotowali/cotowali) - Statically typed scripting language that transpile into POSIX sh.
@@ -266,9 +189,7 @@ If the types can be manipulated/changed at runtime, then the language is often s
 - [Elsa](https://github.com/elsaland/elsa) - Minimal, fast and secure QuickJS wrapper written in Go. ([HN](https://news.ycombinator.com/item?id=24626655))
 - [Emojicode](https://www.emojicode.org/) - Open-source, full-blown programming language consisting of emojis. ([Code](https://github.com/emojicode/emojicode))
 - [Enso](https://github.com/enso-org/ide) - Visual and textual functional programming language.
-- [EO](https://github.com/cqfn/eo) - Experimental Object-Oriented Programming Language Based on 𝜑-Calculus. ([HN](https://news.ycombinator.com/item?id=28423328))
 - [FaCT](https://github.com/PLSysSec/FaCT) - Flexible and Constant Time Programming Language.
-- [Factor](https://factorcode.org/) - Practical stack language. ([Lobsters](https://lobste.rs/s/sv9jw7/factor_programming_language))
 - [fe](https://github.com/rxi/fe) - Tiny, embeddable language implemented in ANSI C. ([HN](https://news.ycombinator.com/item?id=22785137))
 - [Felix](https://github.com/felix-lang/felix) - Advanced, statically typed, high performance scripting language with native C++ embedding.
 - [F--](https://github.com/raviqqe/fmm) - Uncurried minimal functional programming language.
@@ -277,7 +198,6 @@ If the types can be manipulated/changed at runtime, then the language is often s
 - [Fractran](https://en.wikipedia.org/wiki/FRACTRAN) - Turing-complete esoteric programming language invented by the mathematician John Conway. ([Notes](https://wiki.xxiivv.com/site/fractran.html)) ([Fractran Interpreter](https://merveilles.town/web/statuses/105357795783765822))
 - [Ghost](https://github.com/ghost-language/ghost) - Small, class-based scripting language. ([Web](https://ghostlang.org/))
 - [GLICOL](https://github.com/chaosprint/glicol) - Graph-oriented live coding language written in Rust. Make music with code. ([Web](https://glicol.org/))
-- [Gosu](https://gosu-lang.github.io/) - Pragmatic language for the JVM. ([Code](https://github.com/gosu-lang/gosu-lang))
 - [Gravity](https://marcobambini.github.io/gravity/#/) - Embeddable programming language. ([Code](https://github.com/marcobambini/gravity)) ([HN](https://news.ycombinator.com/item?id=23467289))
 - [Gwion](https://github.com/Gwion/Gwion) - Strongly-timed language aimed at music creation. Heavily inspired by ChucK.
 - [Hamler](https://www.hamler-lang.org/) - Haskell-style functional programming language running on Erlang VM. ([Code](https://github.com/hamler-lang/hamler)) ([Article](https://www.emqx.io/news/open-source-functional-programming-language-hamler))
@@ -294,7 +214,6 @@ If the types can be manipulated/changed at runtime, then the language is often s
 - [Icon](https://www2.cs.arizona.edu/icon/ftp/doc/lb1up.pdf) - Programming language with a focus on string manipulation. ([Lobsters](https://lobste.rs/s/qendox/icon_programming_language))
 - [Inko](https://gitlab.com/inko-lang/inko) - Statically-typed, safe, object-oriented programming language for writing concurrent programs.
 - [IntercalScript](https://github.com/Storyyeller/IntercalScript) - Systems programming language for the web that combines a simple and consistent syntax with a static type system that completely eliminates runtime type errors.
-- [io](https://github.com/IoLanguage/io) - Programming language. Inspired by Self, Smalltalk and LISP. ([Web](https://iolanguage.org/))
 - [Jai](https://github.com/BSVino/JaiPrimer/blob/master/JaiPrimer.md) - High-level programming language developed by Jonathan Blow.
 - [jakt](https://github.com/awesomekling/jakt) - Memory-safe systems programming language. Currently transpiles to C++.
 - [Kara](https://github.com/1whatleytay/kara) - Statically typed, LLVM-based programming language. It's designed to be fast and easy to use.

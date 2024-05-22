@@ -7,7 +7,10 @@ summary=The original dynamic functional(ish) homoiconic (consistent symbology) l
 
 ### Common Lisp Implementations:
 
+* [Allegro Common Lisp](https://franz.com/products/allegro-common-lisp/): Commercial implementation with a free (evaluational, not-timeboxed) download.
 * [CLISP](https://clisp.sourceforge.io/): a high-level, general-purpose, object-oriented, dynamic, functional programming language.
+* [Clozure CL](https://www.clozure.com/ccl): "Clozure CL is available for download from [ccl.clozure.com](http://ccl.clozure.com/)" (Self-hosted compiler, so requires a copy of both the source and bootstrap compilers, which are all available on [Github](https://github.com/Clozure/ccl): "For the latest released version of CCL, please see https://github.com/Clozure/ccl/releases/latest and download the archive for your platform. These archives contain not only the necessary binaries, but also a full clone of the source code. So, to install a complete CCL, all you have to do is download one archive and extract it.")
+* [LispWorks](http://www.lispworks.com/documentation/index.html): [Personal Edition](http://www.lispworks.com/downloads/index.html)
 * C: [GCL](https://www.gnu.org/software/gcl/): the official Common Lisp for the GNU project.
 * C: [Embeddable Common Lisp](https://common-lisp.net/project/ecl/) ([Source](https://gitlab.com/embeddable-common-lisp/ecl)): Full Common Lisp implementation, available as a shared library `libecl.so` embeddable in any C, C++ or other application.
 * C: [Guile](../guile): "Guile mostly implements R6RS."
@@ -17,10 +20,7 @@ summary=The original dynamic functional(ish) homoiconic (consistent symbology) l
 * JVM: [Armed Bear Common Lisp](http://abcl.org/) or [here](https://common-lisp.net/project/armedbear/)
 * JVM: [Kawa](https://www.gnu.org/software/kawa/): R7RS. Supports the javax.script API.
 * Native: [Steel Bank Common Lisp](http://www.sbcl.org/) ([Source](http://www.sbcl.org/platform-table.html))
-* [Clozure CL](https://www.clozure.com/ccl): "Clozure CL is available for download from [ccl.clozure.com](http://ccl.clozure.com/)" (Self-hosted compiler, so requires a copy of both the source and bootstrap compilers, which are all available on [Github](https://github.com/Clozure/ccl): "For the latest released version of CCL, please see https://github.com/Clozure/ccl/releases/latest and download the archive for your platform. These archives contain not only the necessary binaries, but also a full clone of the source code. So, to install a complete CCL, all you have to do is download one archive and extract it.")
-* Rust: [Ketos](https://github.com/murarth/ketos): A functional Lisp.
-* [Allegro Common Lisp](https://franz.com/products/allegro-common-lisp/): Commercial implementation with a free (evaluational, not-timeboxed) download.
-* [LispWorks](http://www.lispworks.com/documentation/index.html): [Personal Edition](http://www.lispworks.com/downloads/index.html)
+* Rust: [Ketos](https://github.com/murarth/ketos): Lisp dialect scripting and extension language for Rust programs. ([HN](https://news.ycombinator.com/item?id=28616475))
 
 ### "A Lisp":
 
@@ -47,10 +47,18 @@ Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/li
 * [Arc](../arc): Paul Graham vaporware
 * [Carp](../carp): a statically typed lisp, without a GC, for real-time applications.
 * [CLiPs](../clips): an expert system rule engine using a Lisp as the language for facts and rules
-* [Io](../../io): A prototype-based OO language.
-* [Janet](../../janet)
+* [Janet](../janet): Functional and imperative programming language and bytecode interpreter.
 * [JESS](https://jess.sandia.gov/): Java Expert System Shell, a CLIPS-inspired expert system rule engine on the JVM
+* [Emacs Lisp](https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html) - dialect of the Lisp programming language used as a scripting language by Emacs with some later influence from Common Lisp. Created by GNU it supports imperative and functional programming methods.
+* [femtolisp](https://github.com/JeffBezanson/femtolisp) - Lightweight, robust, scheme-like lisp implementation.
+* [Fennel](https://github.com/bakpakin/Fennel) - Lua Lisp Language.
+* [Hime](https://github.com/hime-lang/Hime) - A general programming language running on the JVM platform.
+* [Liz](https://github.com/dundalek/liz) - Lisp-flavored general-purpose programming language (based on Zig).
+* [llrl](https://github.com/yubrot/llrl) - Lisp-like programming language powered by Rust + LLVM.
 * [Lux](../lux): A functional, statically-typed Lisp that will run on several platforms, such as the Java Virtual Machine and JavaScript interpreters.
+* [PicoLisp](https://picolisp.com/wiki/) - Simple and lightweight and encourages clean, concise code.
+* [Ren](https://github.com/ren-lang/compiler) - Cleaner, clearer JavaScript. Modern scripting language for the Web.
+* [Urn](https://urn-lang.com/) - Lisp implementation for Lua. ([Code](https://github.com/SquidDev/urn)) ([Lobsters](https://lobste.rs/s/qzubyo/urn_lisp_implementation_for_lua))
 
 ### Reading
 

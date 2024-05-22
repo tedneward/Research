@@ -15,5 +15,4 @@ Ciao is a programming language that builds up from a logic-based simple kernel, 
 
 The system implements some advanced features such as separate and incremental compilation, global program analysis and static debugging and optimization (via source to source program transformation, CiaoPP preprocessor), a build automation system, documentation generator, debugger, and (Emacs-based) development environment.
 
-[Website](http://ciao-lang.org/)
-
+[Website](http://ciao-lang.org/) | [Source](https://github.com/ciao-lang/ciao)
