@@ -7,6 +7,7 @@ summary=The original dynamic functional(ish) homoiconic (consistent symbology) l
 
 ### Common Lisp Implementations:
 
+* [Common Lisp](https://lisp-lang.org/): A dialect of the Lisp programming language, published in ANSI standard document ANSI INCITS 226-1994. Common Lisp is not an implementation, but rather a language specification. Several implementations of the Common Lisp standard are available, including free and open-source software and proprietary products. Common Lisp is a general-purpose, multi-paradigm programming language. It supports a combination of procedural, functional, and object-oriented programming paradigms.
 * [Allegro Common Lisp](https://franz.com/products/allegro-common-lisp/): Commercial implementation with a free (evaluational, not-timeboxed) download.
 * [CLISP](https://clisp.sourceforge.io/): a high-level, general-purpose, object-oriented, dynamic, functional programming language.
 * [Clozure CL](https://www.clozure.com/ccl): "Clozure CL is available for download from [ccl.clozure.com](http://ccl.clozure.com/)" (Self-hosted compiler, so requires a copy of both the source and bootstrap compilers, which are all available on [Github](https://github.com/Clozure/ccl): "For the latest released version of CCL, please see https://github.com/Clozure/ccl/releases/latest and download the archive for your platform. These archives contain not only the necessary binaries, but also a full clone of the source code. So, to install a complete CCL, all you have to do is download one archive and extract it.")
