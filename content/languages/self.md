@@ -166,3 +166,6 @@ d at: 'goodbye' Put: 'No!.
 "Prints 31"
 ( d at: 'hello' IfAbsent: -1 ) printLine.
 ```
+
+https://selflanguage.org/
+Self is a prototype-based dynamic object-oriented programming language, environment, and virtual machine centered around the principles of simplicity, uniformity, concreteness, and liveness.

@@ -32,3 +32,6 @@ print my_func 100
 ```
 
 It also adds table comprehensions, implicit return on functions, classes, inheritance, scope management statements import & export, and a convenient object creation statement called with.
+
+https://github.com/leafo/moonscript
+MoonScript is a dynamic scripting language that compiles into Lua. It gives you the power of one of the fastest scripting languages combined with a rich set of features.

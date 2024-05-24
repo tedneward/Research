@@ -27,3 +27,6 @@ Featuring:
 * Patterns: Destructuring, Parameters, Extractors
 
 - [Vale](https://vale.dev/) - Fast, safe, and easy programming language. It uses single ownership with constraint references for memory safety without garbage collection, and an emphasis on modern, readable syntax. ([Code](https://github.com/ValeLang/Vale)) 
+
+https://github.com/ValeLang/Vale
+Vale is the fast, safe, and easy programming language. It uses single ownership with constraint references for memory safety without garbage collection, and an emphasis on modern, readable syntax.

@@ -17,3 +17,6 @@ summary=High-level and strictly-typed, cross-compiles to many different targets.
 * [HaxeFlixel Handbook](http://haxeflixel.com/documentation/haxeflixel-handbook/) (HTML)
 * [Kha Handbook](https://github.com/KTXSoftware/Kha/wiki/Tutorials)
 
+
+https://github.com/HaxeFoundation/haxe
+High-level and strictly-typed programming language, cross-compiles to many different targets.

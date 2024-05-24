@@ -65,3 +65,5 @@ end
 // let's see it in action
 > absoluter.enact( -2 )    // shall be 2
 ```
+https://github.com/falconpl
+Falcon is an Open Source, simple, fast and powerful programming language, easy to learn and to feel comfortable with, and a scripting engine ready to empower mission-critical multithreaded applications. Falcon provides six integrated programming paradigms: procedural, object oriented, prototype oriented, functional, tabular and message oriented. And you don't have to master all of them; you just need to pick the ingredients you prefer, and let the code follow your inspiration.

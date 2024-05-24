@@ -4,3 +4,6 @@ summary=Static, type inferred and embeddable language written in Rust, inspired 
 ~~~~~~
 
 [Source](https://github.com/gluon-lang/gluon)
+
+https://github.com/gluon-lang/gluon
+Gluon is a static, type inferred and embeddabble language written in Rust.

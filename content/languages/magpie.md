@@ -115,3 +115,5 @@ service Hello on "0.0.0.0:8090:debug" { //':debug': for debugging request
   }
 }
 ```
+https://github.com/munificent/magpie
+Magpie is a small dynamically-typed programming language built around patterns, classes, and multimethods. It has a prototype interpreter that runs on the JVM and an in-progress bytecode VM written in C++.

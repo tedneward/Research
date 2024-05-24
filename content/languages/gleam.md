@@ -30,3 +30,6 @@ pub fn has_even_leaf(tree: Tree(Int)) -> Bool {
 ```
 
 [Website](https://gleam.run/) | [Github](https://github.com/gleam-lang/gleam)
+
+https://github.com/gleam-lang/gleam
+Gleam is a type safe functional programming language for building scalable concurrent systems. It compiles to Erlang and has straightforward interop with other BEAM languages such as Erlang, Elixir and LFE.

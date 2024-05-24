@@ -16,3 +16,6 @@ summary=A strongly timed programming language for making music.
 * lambdas
 * memoization
 * variadic functions
+
+https://github.com/Gwion/Gwion
+A strongly-timed programming language aimed at music creation. Heavily inspired by ChucK.

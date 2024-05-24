@@ -33,3 +33,6 @@ It’s nice to cover as many things as possible, but completeness can be sacrifi
 
 The “get-stuff-done” approach has the same attitude towards correctness and simplicity as “the-right-thing”, but the same attitude towards consistency and completeness as “worse-is-better”. It also adds performance as a new principle, treating it as the second most important thing (after correctness)
 
+
+https://github.com/ponylang/ponyc
+Pony is a compiled, actor-model, capabilities-secure, high performance programming language that prevents concurrency mistakes such as data races and deadlocks by design with reasonable syntactic defaults. Its FFI allows Pony to interface with other languages.

@@ -351,3 +351,6 @@ YottaDB and its precursor, GT.M, have thorough documentation on all the language
 
 * [YottaDB Programmer's Guide](https://docs.yottadb.com/ProgrammersGuide/langfeat.html)
 * [GT.M Programmer's Guide](http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/index.html)
+
+https://en.wikipedia.org/wiki/MUMPS
+Massachusetts General Hospital Utility Multi-Programming System, or M, is a high performance transaction processing key-value database with integrated programming language. It was originally developed at Massachusetts General Hospital for managing hospital laboratory information systems. MUMPS technology has since expanded as the predominant database for health information systems and electronic health records in the United States. MUMPS-based information systems run over 40% of the hospitals in the U.S., run across all of the U.S. federal hospitals and clinics, and provide health information services for over 54% of patients across the U.S.

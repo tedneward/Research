@@ -302,3 +302,6 @@ const proc: main is func
   end func;
 ```
 
+
+https://github.com/ThomasMertes/seed7
+Seed7 is a higher level language compared to Ada, C++ and Java.

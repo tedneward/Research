@@ -5,3 +5,6 @@ summary=An interactive programming language for scientific computing that includ
 
 [Source](https://github.com/LLNL/yorick)
 
+
+https://software.llnl.gov/yorick-doc/
+Yorick is an interpreted programming language for scientific simulations or calculations, postprocessing or steering large simulation codes, interactive scientific graphics, and reading, writing, or translating large files of numbers. 

@@ -9,3 +9,6 @@ It is a complete rewrite of [Kind1](https://github.com/HigherOrderCO/Kind-Legacy
 
 Install requires Rust: `cargo +nightly install kind2`
 
+
+https://github.com/Kindelia/Kind
+A minimal, efficient and practical programming language that aims to rethink functional programming from the scratch, and make it right. Under the hoods, it is basically Haskell, except without historical mistakes, and with a modern, consistent design. On the surface, it aims to be more practical, and to look more like conventional languages. Kind is statically typed, and its types are so powerful that you can prove mathematical theorems on it.

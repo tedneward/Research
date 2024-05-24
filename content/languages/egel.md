@@ -4,3 +4,6 @@ summary=An untyped concurrent functional scripting language based on eager combi
 ~~~~~~
 
 [Github](https://github.com/egel-lang/egel)
+
+https://github.com/egel-lang/egel
+Egel is an untyped concurrent functional scripting language based on eager combinator rewriting with a concise but remarkably powerful syntax.

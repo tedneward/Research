@@ -46,3 +46,5 @@ Example:
     probe convert CONV_LOWER "There ARE 123 Dogs."
     probe convert CONV_INVERT "This SHOULD be INVERTED!"
 ```
+https://github.com/red/red
+Red is a next-generation programming language strongly inspired by Rebol, but with a broader field of usage thanks to its native-code compiler, from system programming to high-level scripting and cross-platform reactive GUI, while providing modern support for concurrency, all in a zero-install, zero-config, single 1MB file!

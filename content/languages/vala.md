@@ -27,3 +27,6 @@ Vala is designed to allow access to existing C libraries, especially GObject-bas
 
 Using classes and methods written in Vala from an application written in C is not difficult. The Vala library only has to install the generated header files and C applications may then access the GObject-based API of the Vala library as usual. It should also be easily possible to write a bindings generator for access to Vala libraries from applications written in e.g. C# as the Vala parser is written as a library, so that all compile-time information is available when generating a binding.
 
+
+https://gitlab.gnome.org/GNOME/vala
+Vala is a programming language that aims to bring modern programming language features to GNOME developers without imposing any additional runtime requirements and without using a different ABI compared to applications and libraries written in C.

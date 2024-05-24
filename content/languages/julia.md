@@ -959,3 +959,6 @@ code_native(circle_area, (Float64,), syntax = :intel)
 * [Term](https://github.com/FedeClaudi/Term.jl): a package for creating stylized terminal outputs.
 
 * [Genie](https://github.com/GenieFramework/Genie.jl): a "full stack" web framework.
+
+https://github.com/JuliaLang/julia
+Julia is a high-level, high-performance, dynamic programming language. While it is a general-purpose language and can be used to write any application, many of its features are well suited for numerical analysis and computational science.

@@ -35,3 +35,6 @@ def meaning_of_life():
 meaning_of_life() # 42
 ```
 
+
+https://github.com/eth-sri/lmql
+LMQL is a programming language for large language models (LLMs) based on a superset of Python. LMQL offers a novel way of interweaving traditional programming with the ability to call LLMs in your code. It goes beyond traditional templating languages by integrating LLM interaction natively at the level of your program code.
