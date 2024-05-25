@@ -1,7 +1,8 @@
 title=Oil
-tags=language
-summary=Oil is a new Unix shell. It's our upgrade path from bash to a better language and runtime.
+tags=language, tool
+summary=A new Unix shell.
 ~~~~~~
 
 [Source](https://github.com/oilshell/oil)
 
+It's our upgrade path from bash to a better language and runtime.

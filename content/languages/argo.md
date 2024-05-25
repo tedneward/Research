@@ -1,5 +1,5 @@
 title=Argo
-tags=language
+tags=language, functional
 summary=Pragmatic functional programming language.
 ~~~~~~
 

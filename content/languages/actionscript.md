@@ -1,5 +1,5 @@
 title=ActionScript
-tags=language, presentation
+tags=language, presentation, archived, historical
 summary=Programming language for the Adobe Flash plugin for web browsers.
 ~~~~~~
 

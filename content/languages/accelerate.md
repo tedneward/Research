@@ -3,4 +3,4 @@ tags=language, functional
 summary=Embedded language for high-performance array computations.
 ~~~~~~
 
-[Source](https://github.com/AccelerateHS/accelerate)
+[Website](https://www.acceleratehs.org/) | [Source](https://github.com/AccelerateHS/accelerate)

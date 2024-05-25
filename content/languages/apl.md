@@ -1,5 +1,5 @@
 title=APL
-tags=language
+tags=language, historical
 summary=An array language, and one of the oldest programming languages still in use today, next to FORTRAN, Lisp and COBOL.
 ~~~~~~
 
