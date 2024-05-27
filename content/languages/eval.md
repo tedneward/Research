@@ -1,6 +1,6 @@
 title=Eval
 tags=language, interpreter
-summary=a lightweight interpreter framework written in Swift, evaluating expressions at runtime, with operators and data types you define.
+summary=A lightweight interpreter framework written in Swift, evaluating expressions at runtime, with operators and data types you define.
 ~~~~~~
 
 [Source](https://github.com/tevelee/Eval)

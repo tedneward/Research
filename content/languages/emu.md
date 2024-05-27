@@ -1,6 +1,6 @@
-title=emu
-tags=language
-summary=Emu (The EMbeddable Utility Language) is a clean, fast, flexible and free programming language. It is designed to be embedded into other files, such as text documents, web page etc
+title=Emu (The EMbeddable Utility Language)
+tags=language, embedded
+summary=A clean, fast, flexible and free programming language.
 ~~~~~~
 
 [Source](https://sourceforge.net/projects/emulang/)
