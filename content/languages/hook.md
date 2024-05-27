@@ -5,6 +5,3 @@ summary=Cross-platform scripting language with a C-like syntax, dynamic typing, 
 
 [Source](https://github.com/hook-lang/hook)
 
-
-https://github.com/hook-lang/hook
-Hook is an imperative, cross-platform, dynamically typed scripting language that utilizes a mutable value semantics approach.

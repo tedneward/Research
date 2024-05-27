@@ -6,5 +6,3 @@ summary=General purpose and open source programming language designed to build o
 [Source](https://github.com/hascal/hascal)
 
 
-https://github.com/hascal/hascal
-Hascal is a general purpose and open source programming language designed to build optimal, maintainable, reliable and efficient software.

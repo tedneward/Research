@@ -1,6 +1,7 @@
 title=ACCEPT
 tags=language
-summary=An approximate compiler for C and C++ programs based on Clang. ~~~~~~
+summary=An approximate compiler for C and C++ programs based on Clang.
+~~~~~~
 
 [Source](https://sampa.cs.washington.edu/accept/)
 
