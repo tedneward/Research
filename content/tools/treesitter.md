@@ -1,5 +1,5 @@
 title=Tree-Sitter
-tags=tool, langdev, parser
+tags=tool, language development, parser
 summary=Tree-sitter generates parsers based on a language and provides insights about the code as seen by the engine.
 ~~~~~~
 

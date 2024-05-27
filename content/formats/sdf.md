@@ -1,5 +1,5 @@
 title=Syntax Definition Formalism (SDF)
-tags=format, specification, langdev
+tags=format, specification, language development
 summary=a metasyntax used to define context-free grammars: that is, a formal way to describe formal languages. It can express the entire range of context-free grammars.
 ~~~~~~
 

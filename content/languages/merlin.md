@@ -1,5 +1,5 @@
 title=Merlin
-tags=language, actor
+tags=language, actors
 summary=An simple actor-based programming language.
 ~~~~~~
 

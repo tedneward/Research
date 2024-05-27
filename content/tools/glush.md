@@ -1,5 +1,5 @@
 title=Glush
-tags=tool, langdev, parser
+tags=tool, language development, parser
 summary=A new parser compiler based on Glushkov’s construction algorithm.
 ~~~~~~
 

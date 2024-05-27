@@ -1,5 +1,5 @@
 title=Kivy
-tags=presentation, python, android, ios, macOS, windows
+tags=presentation, python, android, ios, macos, windows
 summary=Python cross-platform GUI framework.
 ~~~~~~
 

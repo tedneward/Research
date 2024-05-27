@@ -1,5 +1,5 @@
 title=Ook!
-tags=language, esolang
+tags=language, esoteric
 summary=A programming language designed for orang-utans.
 ~~~~~~
 

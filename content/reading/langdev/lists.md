@@ -1,5 +1,5 @@
 title=Resources List: Compilers
-tags=reading, langdev, computer science, list
+tags=reading, language development, computer science, list
 summary=Collection of articles, books I recommend around general compilers/interpreters topics.
 ~~~~~~
 

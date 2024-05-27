@@ -1,5 +1,5 @@
 title=Piet
-tags=language, esolang
+tags=language, esoteric
 summary=A language where the programs are works of modern art.
 ~~~~~~
 

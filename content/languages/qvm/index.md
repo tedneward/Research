@@ -1,5 +1,5 @@
 title=Q (Scripting Language)
-tags=language, vm, embeddable, native
+tags=language, vm, embedded, native
 summary=Q is a scripting engine that implements C-like language, compiler, and bytecode interpreter.
 ~~~~~~
 

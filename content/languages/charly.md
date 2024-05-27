@@ -1,5 +1,5 @@
 title=Charly
-tags=language, vm, functional, concurrent
+tags=language, vm, functional, concurrency
 summary=Fully parallel dynamically typed programming language.
 ~~~~~~
 

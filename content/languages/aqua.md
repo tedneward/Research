@@ -1,5 +1,5 @@
 title=Aqua
-tags=langauge, distributed
+tags=language, distributed systems
 summary=An open-source language for distributed workflow coordination in p2p networks; Aqua programs are executed on many peers, sequentially or in parallel, forming a single-use coordination network. 
 ~~~~~~
 

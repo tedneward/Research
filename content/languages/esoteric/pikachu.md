@@ -1,5 +1,5 @@
 title=Pikachu
-tags=language, esoteric, esolang
+tags=language, esoteric
 summary=Pika pika.
 ~~~~~~
 

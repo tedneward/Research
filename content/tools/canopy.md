@@ -1,5 +1,5 @@
 title=Canopy
-tags=tool, langdev, parser
+tags=tool, language development, parser
 summary=A PEG parser compiler.
 ~~~~~~
 

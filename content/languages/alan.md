@@ -1,5 +1,5 @@
 title=Alan
-tags=language, concurrent
+tags=language, concurrency
 summary=Programming language that does concurrency for you and can thus separate how the software is written from how it runs.
 ~~~~~~
 

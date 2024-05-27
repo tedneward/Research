@@ -1,5 +1,5 @@
 title=Let's Build a Compiler (Jack Crenshaw)
-tags=language, reading, langdev
+tags=language, reading, language development
 summary=A very good tutorial on writing a simple compiler in 16 articles. By Jack W. Crenshaw.
 ~~~~~~
 

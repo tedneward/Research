@@ -1,5 +1,5 @@
 title=coala
-tags=language, langdev
+tags=language, language development
 summary=Command-line utility for linting and fixing code for all languages.
 ~~~~~~
 

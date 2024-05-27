@@ -1,5 +1,5 @@
 title=Practical Compiler Construction
-tags=langdev, language, compiler
+tags=language development, language, compiler
 summary=A no-nonsense tour through a C compiler.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=HonKit
-tags=presentation, book, format, authoring
+tags=presentation, books, format, authoring
 summary=Building beautiful books using Markdown.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=Intercal
-tags=language, esolang
+tags=language, esoteric
 summary=The first esoteric programming language.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=A Compiler Writing Journey
-tags=langdev, language
+tags=language development, language
 summary=Learn network programming and data structures by coding from scratch.
 ~~~~~~
 

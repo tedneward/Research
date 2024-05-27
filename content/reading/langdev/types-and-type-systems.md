@@ -1,5 +1,5 @@
 title=Types and type systems (reading)
-tags=reading, language, langdev
+tags=reading, language, language development
 summary=Reading and notes about types and type systems in programming languages (and related).
 ~~~~~~
 
