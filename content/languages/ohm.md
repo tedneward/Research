@@ -12,7 +12,7 @@ The Ohm language is based on parsing expression grammars (PEGs), which are a for
 * Full support for left-recursive rules means that you can define left-associative operators in a natural way.
 * Object-oriented grammar extension makes it easy to extend an existing language with new syntax.
 * Modular semantic actions. Unlike many similar tools, Ohm completely separates grammars from semantic actions. This separation improves modularity and extensibility, and makes both grammars and semantic actions easier to read and understand.
-* Online editor and visualizer. The Ohm Editor provides instant feedback and an interactive visualization that makes the entire execution of the parser visible and tangible. It'll make you feel like you have superpowers. 💪
+* Online editor and visualizer. The Ohm Editor provides instant feedback and an interactive visualization that makes the entire execution of the parser visible and tangible.
 
 Some awesome things people have built using Ohm:
 
