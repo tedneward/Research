@@ -6,9 +6,34 @@ tags=language
 ~~~~~~
 Programming languages are (generally) human-friendly means of getting a computer to do something interesting on a human's behalf. Some languages may be friendlier than others; where opinions will genuinely differ as to which are friendlier, there are some that deliberately seek to be as obtuse and unreadable as possible, and those are usually called "esoteric" programming languages and fit into their own category of madness.
 
-See also [Language Places](/places/languages) and [PLZoo](/places/plzoo)
+* [Language Places](/places/languages)
+* [PLZoo](/places/plzoo)
+* [language reading](/reading/languages)
+* [language development](/reading/langdev)
 
-See also [language reading](/reading/languages) and [language development](/reading/langdev)
+### Programming Language collections
+
+* [History of Programming Languages](http://hopl.info) - HOPL: Online Historical Encyclopaedia of Programming Languages.
+* [Wikipedia's List of Programming Languages](https://en.wikipedia.org/wiki/List_of_programming_languages).
+* [List of GitHub programming languages](https://github.com/collections/programming-languages) - A list of programming languages that are actively developed on GitHub.
+* [PL catalog](https://github.com/prathyvsh/pl-catalog) - A catalog of programming languages.
+* [Programming languages](https://github.com/learn-anything/programming-languages) - Awesome Programming Languages.
+* [Programming Language Design](https://proglangdesign.net/) - Programming Language Design is dedicated to the theory, design and implementation of programming languages.
+* [PLE](https://github.com/rtoal/ple): A collection of illustrative examples in close to 100 programming languages, including every code snippet used in the book [Programming Language Explorations](https://rtoal.github.io/ple/).
+* A [Programming Language Database](https://pldb.pub/) ([Source](https://github.com/breck7/pldb)) with query capabilities (though it doesn't seem like it works at the moment?)
+
+### Specific Languages Lists
+
+* [Awesome Basic](https://github.com/JohnBlood/awesome-basic) - A curated list of awesome BASIC dialects, IDEs, and tutorials.
+* [Awesome Lisp languages](https://github.com/dundalek/awesome-lisp-languages) - A list of Lisp-flavored programming languages.
+* [Lua languages](https://github.com/hengestone/lua-languages) - Languages that compile to Lua.
+* [Awesome Scheme](https://github.com/schemedoc/awesome-scheme) - A curated list of awesome Scheme libraries and resources.
+* [Awesome low level programming languages](https://github.com/robertmuth/awesome-low-level-programming-languages)
+* [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS) - List of languages that compile to JavaScript and many other transpilers.
+* [Lox implementations](https://github.com/munificent/craftinginterpreters/wiki/Lox-implementations) - Lots implementations of Lox language written in many programming languages.
+* [Langs written in Rust](https://github.com/alilleybrinker/langs-in-rust) - A list of programming languages implemented in Rust, for inspiration. This is a (probably incomplete) list of languages implemented in Rust. It is intended as a source of inspiration and comparison, and as a directory of potentially interesting projects in this vein.
+
+It may be fair to suggest that any language is a transformation, but there is a special meaning to the term "program transformation" -- see [here](https://www.program-transformation.org/) for more details. [Spoofax](../tools/spoofax.md) is one of these.
 
 ---
 
@@ -124,3 +149,8 @@ If the types can be manipulated/changed at runtime, then the language is often s
 - ["History of Programming Languages"](http://thequickword.wordpress.com/2014/02/16/james-irys-history-of-programming-languages-illustrated-with-pictures-and-large-fonts/) by James Iry. Illustrated--pictures and large fonts.
 - ["Say something you dislike about a language you love"](https://lobste.rs/s/2cw6ov/say_something_you_dislike_about_language)
 - ["Say something nice about a language you dislike"](https://lobste.rs/s/hib1ui/say_something_nice_about_programming)
+
+---
+
+- [Shen/C](https://github.com/otabat/shen-c) - C port of the Shen programming language.
+- [Shen/Go](https://github.com/tiancaiamao/shen-go) - Go port of the Shen language.

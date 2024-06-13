@@ -1,5 +1,5 @@
 title=Taxi: The Programming Language
-tags=language, esolang
+tags=language, esoteric
 summary=Let's be honest here, what does a programmer fundamentally do? A programmer moves data from one memory location to another. In this respect, a programmer is not unlike a taxi driver, who moves people from place to place all day long. Introducting the Taxi Programming Languge!
 ~~~~~~
 

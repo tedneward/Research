@@ -5,6 +5,7 @@ summary=A collection of patterns around language atoms.
 *(by Kent Beck)*
 
 ### Class
+
 * Class (22): Use a class to say, "This data goes together and this logic goes with it"
 * Simple Superclass Name (23): Name the roots of class hierarchies with simple names drawn from the same metaphor
 * Qualified Subclass Name (24): Name subclasses to communicate the similarities and differences with a superclass
@@ -26,6 +27,7 @@ summary=A collection of patterns around language atoms.
 
 
 ### State
+
 * State (44): Compute with values that change over time
 * Access (45): Maintain flexibility by limiting access to state
 * Direct Access (46): Directly access state inside an object
@@ -50,6 +52,7 @@ summary=A collection of patterns around language atoms.
 
 
 ### Behavior
+
 * Control Flow (64): Express computations as a sequence of steps
 * Main Flow (64): Clearly express the main flow of control
 * Message (65): Express control flow by sending a message
@@ -67,6 +70,7 @@ summary=A collection of patterns around language atoms.
 
 
 ### Method
+
 * Composed Method (77): Compose methods out of calls to other methods
 * Intention-Revealing Name (79): Name methods after what they are intended to do
 * Method Visibility (80): Make methods as private as possible

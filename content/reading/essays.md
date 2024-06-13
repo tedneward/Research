@@ -5,15 +5,28 @@ summary=Random collection of long-form thoughts.
 
 - [4 Lessons I wish I knew earlier on in my professional career](https://jv-la.com/journal/2022/lessons-earlier-professional-career/)
 
+- [Why we can't have nice software](https://andrewkelley.me/post/why-we-cant-have-nice-software.html): We keep improving past perfection.
+
 - [How Team Obama's tech efficiency left Romney IT in dust](https://arstechnica.com/information-technology/2012/11/how-team-obamas-tech-efficiency-left-romney-it-in-dust/)
 
-["Does DNA have the equivalent of IF-statements, WHILE loops, or function calls? How about GOTO?"](https://biology.stackexchange.com/questions/30116/does-dna-have-the-equivalent-of-if-statements-while-loops-or-function-calls-h): Short answer, sort of:
+- ["Does DNA have the equivalent of IF-statements, WHILE loops, or function calls? How about GOTO?"](https://biology.stackexchange.com/questions/30116/does-dna-have-the-equivalent-of-if-statements-while-loops-or-function-calls-h): Short answer, sort of:
 
     "Molecular biological processes cannot be directly compared to a computer code. It is the underlying logic that is important and not the statement construct itself and these examples should not be taken as absolute analogies. It is also to be noted that DNA is just a set of instructions and not really a fully functional entity (it is functional to some extent). However, even being just a code it is comparable to a HLL code that has to be compiled to execute its functions. See this post too.
 
     "It is also important to note that the cell, like many other physical systems, is analog in nature. Therefore, in most situations there is no 0/1 (binary) value of variables. Consider gene expression. If a transcriptional activator is present, the gene will be transcribed. However, if you keep increasing the concentration of the activator, the expression of that gene will increase until it reaches a saturation point. So there is no digital logic here. Having said that, I would add that switching behaviour is possible in biological systems (including gene expression) and is also used in many cases. Certain kinds of regulatory network structures can give rise to such dynamics. Co-operativity with or without positive feedback is one of the mechanisms that can implement switching behaviour."
 
-[The Rise of "Worse is Better"](http://doc.cat-v.org/programming/worse_is_better) by Richard P. Gabriel:
+- [The Rise of "Worse is Better"](http://doc.cat-v.org/programming/worse_is_better) by Richard P. Gabriel
+
+- [The Age of Agile Must End](https://uxdesign.cc/the-age-of-agile-must-end-bc89c0f084b7): "As far as manifestos go, this is one of the more pathetic documents ever created. It lists four "Values" and twelve "Principles." They may have been well-intentioned at their inception — that intention was to treat developers as humans, not cogs in a machine — but now we’ve gone full circle. These principles have devolved into something caustic for organizations. Viewed now, they’re variations on a theme of how a scrum pod can absolve themselves of any accountability.
+
+* Individuals and interactions over processes and tools. *(Yeah, we’re gonna do things however we want)*
+* Welcome changing requirements, even in late development. *(We can also change our minds whenever)*
+* Projects are built around motivated individuals, who should be trusted. *(Leave us alone, take what you get)*
+* Working software is the primary measure of progress. *(The fact that we produced something, anything, is all that matters)*
+* Simplicity — the art of maximizing the amount of work not done — is essential. *(We are going to do as little as possible)*
+* Best architectures, requirements, and designs emerge from self-organizing teams. *(Don’t tell us what to do)*
+
+"The combination of Agile principles and Scrum practices is disastrous for startups. These are operational directives from management; designers, PM’s, and engineers are not self-organizing and choosing to work this way. It’s all in the name of an "MVP" and time to market; this is what happens. *Every. Time.*"
 
 ## Steve Yegge's rants
 
@@ -56,7 +69,7 @@ summary=Random collection of long-form thoughts.
 > Our field selects engineers using a process that is worse than reading chicken entrails. Like interviews, poultry intestine has little to tell you about whether to hire someone. But they’re a more pleasant eating experience than a lunch interview.
   
 ### [The Product-Minded Engineer](https://blog.pragmaticengineer.com/the-product-minded-engineer/):
-> Proactive with product ideas/opinions • Interest in the business, user behavior and data on this • Curiosity and a keen interest in “why?” • Strong communicators and great relationships with non-engineers • Offering product/engineering tradeoffs upfront • Pragmatic handling of edge cases • Quick product validation cycles • End-to-end product feature ownership • Strong product instincts through repeated cycles of learning
+> Proactive with product ideas/opinions • Interest in the business, user behavior and data on this • Curiosity and a keen interest in "why?" • Strong communicators and great relationships with non-engineers • Offering product/engineering tradeoffs upfront • Pragmatic handling of edge cases • Quick product validation cycles • End-to-end product feature ownership • Strong product instincts through repeated cycles of learning
   
 ### [Write code that is easy to delete, not easy to extend](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to):
 > If we see ‘lines of code’ as ‘lines spent’, then when we delete lines of code, we are lowering the cost of maintenance. Instead of building re-usable software, we should try to build disposable software.

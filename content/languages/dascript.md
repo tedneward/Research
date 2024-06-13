@@ -1,7 +1,7 @@
 title=daScript
 tags=language
-summary=A statically-typed performance-oriented scripting language.
+summary=High-performance statically strong typed scripting language.
 ~~~~~~
 
-[Website](https://dascript.org/)
+[Source](https://dascript.org/) | [HN](https://news.ycombinator.com/item?id=24166505)
 

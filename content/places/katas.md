@@ -10,3 +10,5 @@ summary=A collection of sites that have coding katas for practice.
 * [Parrot](https://github.com/emilybache/Parrot-Refactoring-Kata)
 * [Supermarket Receipt](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata)
 * ... more ...
+
+["Tell, Don't Ask": A legacy refactor kata, focused on the violation of the tell don't ask principle and anemic domain model](https://github.com/mapu77/tell-dont-ask-kata)

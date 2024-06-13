@@ -1,9 +1,9 @@
 title=Zig
 tags=language, native
-summary=Another C replacement nominee, that aims to have "no hidden functions".
+summary=Robust, optimal, and clear programming language.
 ~~~~~~
 
-[Website](https://ziglang.org/) | [Docs](https://ziglang.org/documentation/0.5.0/)
+[Website](https://ziglang.org/) | [Source](https://github.com/zig-lang/zig) | [Docs](https://ziglang.org/documentation/0.5.0/)
 
 [Zig at a glance](https://andrewshitov.com/2019/12/22/zig-at-a-glance/)
 
@@ -200,3 +200,6 @@ pub fn main() void {
 }
 ```
 
+
+https://github.com/ziglang/zig
+General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.

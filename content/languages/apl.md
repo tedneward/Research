@@ -1,10 +1,11 @@
 title=APL
-tags=language
+tags=language, historical
 summary=An array language, and one of the oldest programming languages still in use today, next to FORTRAN, Lisp and COBOL.
 ~~~~~~
 
 > "APL doesn’t look anything like the other programming languages you know, and yes, learning APL sure presents a different kind of challenge. If you’re a seasoned (say) Python programmer, and you decide to pick up Ruby, you can reasonably expect to follow code written by others from day 1, and learn enough syntax within a day or two to write code yourself. Sure, it takes a bit longer to find your way around the standard library and learn how to write idiomatic Ruby, but still. If you’ve learned a few languages like that, picking up another represents known and quantifiable effort. ... There will be more initial friction when learning APL – for starters, your keyboard doesn’t even have the squiggly symbols! Having said that, APL is a tiny language – there is negligible amounts of syntax to pick up, and believe it or not, actually quite easy to learn at a superficial level, once you get past the practical barriers." --[Learning APL](https://xpqz.github.io/learnapl)
 
+[Wikipedia](https://en.wikipedia.org/wiki/APL_(programming_language)) - APL (named after the book A Programming Language) is a programming language developed in the 1960s by Kenneth E. Iverson. Its central datatype is the multidimensional array. It uses a large range of special graphic symbols to represent most functions and operators, leading to very concise code. It has been an important influence on the development of concept modeling, spreadsheets, functional programming, and computer math packages. It has also inspired several other programming languages.
 
 ### Reading
 
@@ -15,4 +16,8 @@ summary=An array language, and one of the oldest programming languages still in 
 * [Learning APL](https://xpqz.github.io/learnapl) - Stefan Kruger (HTML,PDF,IPYNB)
 * [Mastering Dyalog APL](http://www.dyalog.com/mastering-dyalog-apl.htm) (PDF) (HTML,IPYNB :construction: *in process*)
 * [Reinforcement Learning From The Ground Up](https://romilly.github.io/o-x-o) - Romilly Cocking (PDF,HTML,IPYNB) (:construction: *in process*)
+
+### Other interesting links
+
+* [APLX](https://microapl.com/APL/index.html) - is an advanced, second generation implementation of the APL language, closely based on IBM's APL2, but with a number of important enhancements.
 

@@ -14,3 +14,6 @@ summary=Object-oriented language that also implies an environment and "method" o
 
 
 
+
+https://www.eiffel.org/
+Based on a set of principles, including design by contract, command-query separation, the uniform-access principle, the single-choice principle, the open-closed principle, and option-operand separation.

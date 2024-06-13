@@ -3,12 +3,13 @@ tags=tool, language
 summary=Tool for text processing and manipulation.
 ~~~~~~
 
-[Website: GNU awk](https://www.gnu.org/software/gawk/manual/gawk.html | [Source]() | [GNU Awk User's Guide](https://www-zeuthen.desy.de/dv/documentation/unixguide/infohtml/gawk/gawk.html)
+[Website: GNU awk](https://www.gnu.org/software/gawk/manual/gawk.html) | [Source]() | [GNU Awk User's Guide](https://www-zeuthen.desy.de/dv/documentation/unixguide/infohtml/gawk/gawk.html)
 
 * [AWK cheatsheet](https://gist.github.com/Rafe/3102414)
 * [An Awk Primer](https://en.wikibooks.org/wiki/An_Awk_Primer) - Wikibooks
 * [Awk](https://www.grymoire.com/Unix/Awk.html) - Bruce Barnett
 * [GNU awk](https://learnbyexample.github.io/learn_gnuawk/) - Sundeep Agarwal
+* [AWKA](https://awka.sourceforge.net/index.html) - Awka is an open-source implementation. Awka is not an interpreter like Gawk, Mawk or Nawk, but instead it converts the program to ANSI-C, then compiles this using gcc or a native C compiler to create a binary executable. This means you must have an ANSI C compiler present on your system for Awka to work.
 
 
 ### [Learn X in Y Minutes](https://github.com/adambard/learnxinyminutes-docs/blob/master/awk.html.markdown) short intro

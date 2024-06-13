@@ -8,3 +8,6 @@ Recently, Koka fully supports user-defined effects through algebraic effect hand
 
 [Website](http://koka-lang.org/) | [Research](https://www.microsoft.com/en-us/research/project/koka/) | [Github](https://github.com/koka-lang/koka) | [Book](https://koka-lang.github.io/koka/doc/kokaspec.html) | [Library docs](https://koka-lang.github.io/koka/doc/toc.html) | [Tutorial, live-coding environment](https://www.rise4fun.com/koka/tutorial) | [Lang.Next slides](http://research.microsoft.com/en-us/projects/koka/2012-overviewkoka.pdf)
 
+
+https://github.com/koka-lang/koka
+Koka: a functional language with effects. Koka is a strongly typed functional-style language with effect types and handlers.

@@ -3,11 +3,16 @@ tags=reading, ai, machine learning, fuzzy logic, logic, expert system, nlp
 summary=A collection of language-agnostic links on AI and Machine Learning.
 ~~~~~~
 
-# General
+## Contrarian/hype-debunking
+
+* ["The LLMentalist Effect: how chat-based Large Language Models replicate the mechanisms of a psychic’s con"](https://softwarecrisis.dev/letters/llmentalist/)
+
+## General
 
 * [Artificial Intelligence for a Better Future: An Ecosystem Perspective on the Ethics of AI and Emerging Digital Technologies](https://link.springer.com/book/10.1007/978-3-030-69978-9) - Bernd Carsten Stahl (PDF)
 * [Artificial Intelligence: Foundations of Computational Agents (2010), 1st Edition](https://artint.info/aifca1e.html) - David L. Poole, Alan K. Mackworth @ Cambridge University Press (HTML)
 * [Artificial Intelligence: Foundations of Computational Agents (2017), 2nd Edition](https://artint.info) - David L. Poole, Alan K. Mackworth @ Cambridge University Press (HTML, Slides)
+* [Deep Learning](https://issuu.com/cmb321/docs/deep_learning_ebook?ff)
 * [Introduction to Autonomous Robots](https://github.com/correll/Introduction-to-Autonomous-Robots/releases) - Nikolaus Correll (PDF)
 * [On the Path to AI: Law’s prophecies and the conceptual foundations of the machine learning age](https://link.springer.com/book/10.1007/978-3-030-43582-0) - Thomas D. Grant, Damon J. Wischik (PDF)
 * [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/) - Cam Davidson-Pilon (HTML, Jupyter Notebook)
@@ -78,3 +83,7 @@ summary=A collection of language-agnostic links on AI and Machine Learning.
 * [The Python Game Book](https://web.archive.org/web/20210308080726/https://thepythongamebook.com/en%3Astart) - Horst Jens *(:card_file_box: archived)*
 * [Top 10 Machine Learning Algorithms Every Engineer Should Know](https://www.dezyre.com/article/top-10-machine-learning-algorithms/202) - Binny Mathews and Omair Aasim
 * [Understanding Machine Learning: From Theory to Algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning) - Shai Shalev-Shwartz, Shai Ben-David
+
+## Coding Assistants/Interaction
+
+* ["How to use GPT as a natural language to SQL query engine"](https://www.infoworld.com/article/3700858/how-to-use-gpt-as-a-natural-language-to-sql-query-engine.html)

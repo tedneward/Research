@@ -6,6 +6,7 @@ summary=Hohpe/Woolf's classic messaging text.
 
 
 ### Integration Styles: How can I integrate multiple applications so that they work together and can exchange information?
+
 * **File Transfer** (43)
 * **Shared Database** (47)
 * **Remote Procedure Invocation** (50)
@@ -13,6 +14,7 @@ summary=Hohpe/Woolf's classic messaging text.
 
 
 ### Messaging Systems
+
 * **Message Channel** (60): How does one application communicate with another using messaging?
 * **Message** (66): How can two applications connected by a message channel exchange a piece of information?
 * **Pipes and Filters** (70): How can we perform complex processing on a message while maintaining independence and flexibility?
@@ -20,7 +22,9 @@ summary=Hohpe/Woolf's classic messaging text.
 * **Message Translator** (85): How can systems using different data formats communicate with each other using messaging?
 * **Message Endpoint** (95): How does an application connect to a messaging channel to send and receive Messages (66)?
 
+
 ### Messaging Channels
+
 * **Point-to-Point Channel** (103): How can the caller be sure that exactly one receiver will receive the document or perform the call?
 * **Publish-Subscribe Channel** (106): How can the sender broadcast an event to all interested receivers?
 * **Datatype Channel** (111): How can the application send a data item such that the receiver will know how to process it?
@@ -33,6 +37,7 @@ summary=Hohpe/Woolf's classic messaging text.
 
 
 ### Message Construction
+
 * **Command Message** (145): How can messaging be used to invoke a procedure in another application?
 * **Document Message** (147): How can messaging be used to transfer data between applications?
 * **Event Message** (151): How can messaging be used to transmit events from one application to another?
@@ -45,6 +50,7 @@ summary=Hohpe/Woolf's classic messaging text.
 
 
 ### Message Routing
+
 * **Content-Based Router** (230): How do we handle a situation in which the implementation of a single logical function is spread across multiple physical systems?
 * **Message Filter** (237): How can a component avoid receiving uninteresting messages?
 * **Dynamic Router** (243): How can you avoid the dependency of the router on all possible destinations while maintaining its efficiency?
@@ -60,6 +66,7 @@ summary=Hohpe/Woolf's classic messaging text.
 
 
 ### Message Transformation
+
 * **Envelope Wrapper** (330): How can existing systems participate in a messaging exchange that places specific requirements, such as message header fields or encryption, on the message format?
 * **Content Enricher** (336): How do we communicate with another system if the message originator does not have all the required data items available?
 * **Content Filter** (342): How do you simplify dealing with a large message when you are interested only in a few data items?
@@ -69,6 +76,7 @@ summary=Hohpe/Woolf's classic messaging text.
 
 
 ### Messaging Endpoints
+
 * **Messaging Gateway** (468): How do you encapsulate access to the messaging system from the rest of the application?
 * **Messaging Mapper** (477): How do you move data between domain objects and the messaging infrastructure while keeping the two independent of one another?
 * **Transactional Client** (484): How can a client control its transactions with the messaging system?
@@ -83,6 +91,7 @@ summary=Hohpe/Woolf's classic messaging text.
 
 
 ### System Management
+
 * **Control Bus** (540): How can we effectively administer a messaging system that is distributed across multiple platforms and a wide geographic area?
 * **Detour** (545): How can you route a message through intermediate steps to perform validation, testing, or debugging functions?
 * **Wire Tap** (547): How do you inspect messages that travel on a Point-to-Point Channel (103)?

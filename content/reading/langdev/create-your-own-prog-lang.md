@@ -1,5 +1,5 @@
 title=Create Your Own Programming Language
-tags=reading, language, antlr, ruby, python, langdev
+tags=reading, language, antlr, ruby, python, language development
 summary=Notes on the book "Create Your Own Programming Language"
 ~~~~~~
 

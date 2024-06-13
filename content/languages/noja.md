@@ -4,3 +4,6 @@ summary=A very high level language in the same range of abstraction as languages
 ~~~~~~
 
 [GitHub](https://github.com/cozis/Noja)
+
+https://github.com/cozis/Noja
+Noja is a high level language with dynamic typing inspired from CPython, which features an import system, type assertions, multiple return values and more!

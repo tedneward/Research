@@ -1,5 +1,5 @@
 title=Compiler correctness reading
-tags=language, reading, native, clr, llvm, langdev
+tags=language, reading, native, clr, llvm, language development
 summary=A collection of links and resources on compiler correctness, certification, validation, verification.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=Chef
-tags=language, esolang
+tags=language, esoteric
 summary=A language where the programs produce magnificent meals.
 ~~~~~~
 

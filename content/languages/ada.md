@@ -1,9 +1,13 @@
 title=Ada
 tags=language, object, native
-summary=The committee-designed language for government work.
+summary=General-purpose, strongly typed, performant, readable and safe language.
 ~~~~~~
 
-[GNAT](http://www.getadanow.com/): GNAT is an Ada95 compiler with the source code available in Ada95.
+[Web](https://ada-lang.io/)
+
+### Implementations
+
+* [GNAT](http://www.getadanow.com/): GNAT is an Ada95 compiler with the source code available in Ada95.
 
 ### Reading
 

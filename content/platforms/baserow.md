@@ -1,5 +1,5 @@
 title=Baserow
-tags=platform, no-code
+tags=platform, backend, no-code
 summary=Open source no-code database and Airtable alternative.
 ~~~~~~
 

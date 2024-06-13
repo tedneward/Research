@@ -7,36 +7,6 @@ summary=A collection of links and resources around testing
 
 See also: [Fuzzing](../fuzzing) || [Compilers Correctness](../languages/compilers.correctness)
 
-# Contents
-
-- [Continuous Integration](#continuous-integration):
-	- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration-readings)
-	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration-software)
-		- [AppVeyor](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration-software-appveyor)
-		- [GitHub Actions](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration-software-github-actions)
-		- [Travis](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration-software-travis)
-- [Coverage](#coverage):
-	- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-readings)
-	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-software)
-	- [Mutation](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-mutation): Mutation Analysis, Mutation Coverage, Mutation Testing
-		- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-mutation-readings)
-		- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-mutation-software)
-		- [Talks](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-mutation-talks)
-- [Generation](https://github.com/MattPD/cpplinks/blob/master/testing.md#generation):
-	- [Random](https://github.com/MattPD/cpplinks/blob/master/testing.md#generation-random)
-- [Property-Based Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md#property-based-testing):
-	- [Metamorphic](https://github.com/MattPD/cpplinks/blob/master/testing.md#property-based-testing-metamorphic): Metamorphic Relations, Metamorphic Testing
-- [Reduction](#reduction):
-	- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#reduction-readings)
-	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#reduction-software)
-- [Software](#software):
-	- [Test Doubles](#software-test-doubles): [Mocking](#software-test-doubles-mocking)
-- [Talks](#talks): [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2015](#talks-2015), [2014](#talks-2014)
-
----
-
-# General
-
 - [ACM Special Interest Group on Software Engineering (SIGSOFT)](https://www.sigsoft.org/)
 	- Open Table of Contents (TOC) Resources - https://www.sigsoft.org/resources/opentoc.html
 - Testing Standards Working Party

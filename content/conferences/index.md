@@ -11,3 +11,11 @@ Sources:
 
 * https://dev.java/community/events/
 * [SeeCFP](https://seecfp.com/)
+
+---
+
+# Other conference links/data
+
+FOSDEM:
+
+* [2024 transcripts](https://jonatron.github.io/fosdem2024whisper/)

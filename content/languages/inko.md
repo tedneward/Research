@@ -193,3 +193,6 @@ list.push('oops')
 
 
 
+
+https://gitlab.com/inko-lang/inko
+Inko is a statically-typed, safe, object-oriented programming language for writing concurrent programs.

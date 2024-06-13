@@ -252,3 +252,6 @@ received(crypto(Type, _Wallet, Amount)) = S :-  % _Wallet is named throwaway
         throw("monero not yet supported")  % exception with string as payload
     ).
 ```
+
+https://github.com/Mercury-Language/mercury
+Mercury is a logic/functional programming language which combines the clarity and the expressiveness of declarative programming with advanced static analysis and error detection features.

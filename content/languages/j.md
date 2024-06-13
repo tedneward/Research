@@ -18,3 +18,6 @@ The key difference between Jd and most other database systems is that Jd comes w
 
 J is a modern, array-oriented, high-performance, general-purpose programming language. In J the natural unit of information is a list (of booleans or integers or floats or datetimes or fixed length character strings or variable length character strings or etc). In J, the list of all the license numbers is a noun (named data object). And that noun can be mapped (memory mapped files) directly to a file in the file system by the host OS. So the Jd table column of license numbers is a single file. J can map that file to single J noun and work directly on all that data. Jd table column -> file -> J noun.
 
+
+https://github.com/jsoftware/jsource
+J is a high-level, general-purpose programming language that is particularly suited to the mathematical, statistical, and logical analysis of data. It is a powerful tool for developing algorithms and exploring problems that are not already well understood.

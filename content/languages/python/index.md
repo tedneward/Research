@@ -11,6 +11,7 @@ summary=A dynamic language and platform.
 * JVM: [GraalPython](https://github.com/graalvm/graalpython): part of [GraalVM](/vms/graalvm.html)
 * JVM: [Jython](http://www.jython.org/)
 * CLR: [IronPython3](https://github.com/IronLanguages/ironpython3) and [IronPython2](https://github.com/IronLanguages/ironpython2)
+* [Nuitka](https://nuitka.net/): optimizing Python compiler written in Python that creates executables that run without a separate installer. ([Source](https://github.com/Nuitka/Nuitka))
 * C: [Stackless](https://github.com/stackless-dev/stackless): Stackless implementation (fork of CPython)
 * Python-to-[Crystal](/languages/ruby/crystal): [Py2cr](https://github.com/nanobowers/py2cr)
 * C: [tinypy](http://www.tinypy.org/): a minimalist implementation of python in 64k of code. [Source](https://github.com/philhassey/tinypy)
@@ -18,6 +19,8 @@ summary=A dynamic language and platform.
 * C: [CircuitPython](/languages/python/circuitpython): fork of micropython
 * Web: [Jupyter Notebooks](https://jupyter.org/): installable locally via `pip install notebook`
 * Web: [JupyterLab](https://jupyter.org/): "latest web-based interactive development environment for notebooks, code, and data ... allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning... extensions expand and enrich functionality."
+* Javascript: [Skulpt](https://github.com/skulpt/skulpt): a Javascript implementation of Python 2.x.
+* Rust: [Cannoli](https://github.com/joncatanio/cannoli): a compiler for a subset of Python 3.6.5.
 
 Not sure if this is a library or an implementation or a tool, it's sort of all three: [VPython](https://vpython.org/), 3D Programming for Ordinary Mortals
 

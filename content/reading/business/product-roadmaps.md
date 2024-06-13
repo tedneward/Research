@@ -14,6 +14,7 @@ Stakeholder: all the internal and external colleagues and partners who are invol
 Customer: the recipient of the value your product provides. Buyer and user are often the same, but not always.
 
 Product roadmap should:
+
 * Put the organization's plans in a strategic context
     * Problem: Nobody understands why things are on the roadmap
     * Solution: Tie the roadmap to a compelling vision of the future
@@ -31,6 +32,7 @@ Product roadmap should:
     * Solution: Use the roadmap to reality-check your direction with customers
 
 Product roadmap should NOT:
+
 * Make promises a team cannot deliver
     * Problem: Your stakeholders and customers expect a firm commitment on dates for your product releases
     * Solution: Prioritization is critical to deliver on your commitments
@@ -42,6 +44,7 @@ Product roadmap should NOT:
     * Solution: Commit to outcomes rather than output
 
 ### Chapter 2: Components of a Roadmap
+
 Primary components:
 	* Product vision is your guiding principle
 	* Business objectives help to measure progress
@@ -90,9 +93,10 @@ Unlike: (competitors)
 
 Our product: (differentiator)
 
-Supports our: (objective(s)
+Supports our: (objective(s))
 
 Universal business objectives:
+
 	* Sustainable value:
 		* Support the product's core value
 		* Create barriers to competition

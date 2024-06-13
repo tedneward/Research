@@ -18,3 +18,6 @@ Current development on Heron is focused on numerical array processing, such as r
 
 Heron is built on the principle of emphasizing functional programming, immutable data structures, and type safety while minimizing complexity.
 
+
+https://github.com/cdiggins/heron-language
+Heron is a small cross-platform language that was designed for ease of use, performance, and safety with a JavaScript like syntax. Heron emphasizes pure functional programming code, but looks like a traditional imperative or object-oriented code.

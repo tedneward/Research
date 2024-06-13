@@ -77,3 +77,6 @@ var unCaughtError = coroutine_b.call();
 ```
 
 
+
+https://github.com/SenegalLang/Senegal
+Senegal is a powerful, small-but-fast, concurrent, class-based, and dynamically-typed programming language with a modern syntax.

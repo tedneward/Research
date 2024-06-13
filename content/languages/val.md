@@ -24,3 +24,8 @@ public fun main() {
 }
 ```
 
+## Articles
+
+* ["Meet Val: A New Language Alternative to C++, Rust"](https://thenewstack.io/meet-val-a-new-language-alternative-to-c-rust/)
+https://github.com/val-lang/val
+Val is an open source, general-purpose programming language designed around on the concept of (mutable) value semantics. The language aims to be safe and efficient, yet expressive enough to support multiple programming paradigms and implement concurrent algorithms safely and efficiently.

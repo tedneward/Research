@@ -1,6 +1,6 @@
 title=ANI
-tags=language, concurrency
-summary=Concurrent=by-default programming language.
+tags=language, concurrency, archived
+summary=Concurrent-by-default programming language.
 ~~~~~~
 
 [Website](https://code.google.com/p/anic/) (Should be considered dead)

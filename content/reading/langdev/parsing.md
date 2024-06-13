@@ -1,5 +1,5 @@
 title=Parsing (language syntax)
-tags=reading, langdev, tool, library
+tags=reading, language development, tool, library
 summary=A collection of links on parsers, parser generators, parsing algorithms, and so on.
 ~~~~~~
 

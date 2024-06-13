@@ -273,3 +273,6 @@ A typeclass is a sort of interface that defines some behavior. If a type is a pa
 	- Haskell DC 2020; P.C. Shyamshankar
 	- https://www.youtube.com/watch?v=zlOrYQH_-Xs
 
+
+https://gitlab.haskell.org/ghc/ghc
+A general-purpose, statically-typed, purely functional programming language with type inference and lazy evaluation. Designed for teaching, research and industrial application, Haskell has pioneered a number of programming language features such as type classes, which enable type-safe operator overloading. Haskell's main implementation is the Glasgow Haskell Compiler (GHC).

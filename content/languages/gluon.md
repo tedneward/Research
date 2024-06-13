@@ -1,7 +1,9 @@
 title=Gluon
 tags=language, native, static
-summary=Inspired by Lua, Haskell, and OCaml. Each executing gluon thread gets a separate heap.
+summary=Static, type inferred and embeddable language written in Rust, inspired by Lua, Haskell, and OCaml, where each executing gluon thread gets a separate heap.
 ~~~~~~
 
 [Source](https://github.com/gluon-lang/gluon)
 
+https://github.com/gluon-lang/gluon
+Gluon is a static, type inferred and embeddabble language written in Rust.

@@ -5,7 +5,9 @@ summary=A formal proof management system. It provides a formal language to write
 
 [Website](https://coq.inria.fr/) | [Source](https://github.com/coq/coq) | [Reference](https://coq.inria.fr/refman/)
 
-## [Learn X in Y minutes Quick Intro]()
+* [Getting Started](https://softwarefoundations.cis.upenn.edu/lf-current/Basics.html)
+
+## [Learn X in Y minutes Quick Intro](https://learnxinyminutes.com/docs/coq/)
 The Coq system is a proof assistant. It is designed to build and verify mathematical proofs. The Coq system contains the functional programming language Gallina and is capable of proving properties about programs written in this language.
 
 Coq is a dependently typed language. This means that the types of the language may depend on the values of variables. In this respect, it is similar to other related languages such as Agda, [Idris](../idris), F*, Lean, and others. Via the Curry-Howard correspondence, programs, properties and proofs are formalized in the same language.

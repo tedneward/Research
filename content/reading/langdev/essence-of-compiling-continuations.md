@@ -1,5 +1,5 @@
 title=The Essence of Compiling with Continuations
-tags=language, reading, langdev
+tags=language, reading, language development
 summary=A paper on compilation using continuations as a key element.
 ~~~~~~
 

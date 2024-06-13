@@ -32,10 +32,13 @@ Some random links I've found:
 * [Befunge](https://github.com/catseye/Befunge-93): a programming language designed to be as difficult as possible to compile
 * [Beyond Ada: The First Paranoid Programming Language](http://zzo38computer.org/backup/paranoid-programming-language.html)
 * [BIT](https://www.dangermouse.net/esoteric/bit.html): a programming language built around individual bits
+* [C-plus-Equality](https://github.com/ErisBlastar/cplusequality): Feminist programming language.
 * [Chicken](https://isotropic.org/papers/chicken.pdf): only one valid symbol: "chicken" ([presentation](https://youtu.be/yL_-1d9OSdk))
+* [dogescript](https://github.com/dogescript/dogescript): Wow so syntax very doge much future.
 * [foogol](http://www.bertnase.de/html/foogol.html): A (vax) compiler for a tiny ALGOL-like language
 * Golfscript: stack-oriented aimed at solving problems in as few keystrokes as possible (described at https://trove42.com/top-20-strangest-programming-languages/)
 * Grass: functional language using only W, w, v characters, so source code looks like a field of grass (described at https://trove42.com/top-20-strangest-programming-languages/)
+* [H](https://h.christine.website/): [Source](https://tulpa.dev/cadey/hlang)
 * [Haifu](https://www.dangermouse.net/esoteric/haifu.html): a programming language to address the lack of Eastern philosophy in the current set of commonly used languages such as C and Java. The meanings of "haifu" all describe essential qualities of the language. *Note: The specification for Haifu is not quite complete.*
 * [JSFuck](http://www.jsfuck.com/): an esoteric and educational programming style based on the atomic parts of JavaScript. It uses only six different characters to write and execute code.
 * l33t: designed to be as confusing as possible (described at https://trove42.com/top-20-strangest-programming-languages/)
@@ -47,6 +50,8 @@ Some random links I've found:
 * [Whitespace](http://compsoc.dur.ac.uk/whitespace/): language designed to make use of whitespace characters exclusively
 * There's some languages--hard to tell if they're serious or not--at [p-and-q.com](http://p-nand-q.com/programming/languages/index.html).
 * There's a whole host more of them [here](https://catseye.tc/article/Languages.md), along with [formats](https://catseye.tc/article/Formats.md) and [automatons](https://catseye.tc/article/Automata.md), the distinction between which is not always clear
+
+
 
 Some ideas I have for esoteric languages:
 

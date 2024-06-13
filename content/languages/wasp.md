@@ -1,9 +1,9 @@
 title=Wasp
 tags=language, browser, nodejs
-summary=A programming language that understands what a web app is.
+summary=Web Application Specification Language. Extensible DSL (domain-specific language) for building modern web apps with less code.
 ~~~~~~
 
-[Website](https://wasp-lang.dev) | [Source](https://github.com/wasp-lang/wasp)
+[Website](https://wasp-lang.dev) | [Source](https://github.com/wasp-lang/wasp) | [HN](https://news.ycombinator.com/item?id=26091956) 
 
 Builds on top of [React](/presentation/react), NodeJS, and [Prisma](/libraries/prisma)
 

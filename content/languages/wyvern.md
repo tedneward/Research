@@ -14,3 +14,6 @@ Unfortunately, while modern languages provide good support for expressing the lo
 [Website](http://wyvernlang.github.io/) | [Github](https://github.com/wyvernlang/wyvern) | [Wyvern Manifesto](https://github.com/wyvernlang/wyvern/wiki/Wyvern%3A-A-Language-for-Usable-Design-Driven-Assurance)
 
 
+
+https://github.com/wyvernlang/wyvern
+Wyvern is a new general-purpose programming language designed to support adaptation and assurance. Key features of Wyvern's evolving design include: A simple object model with good support for both object-oriented and functional programming. Static type safety. Extensibility with domain-specific syntax via libraries written within the language. A simple but powerful capability-safe module system. Support for various aspects of software architecture within the running system

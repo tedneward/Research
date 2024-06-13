@@ -33,6 +33,7 @@ summary=The original, "standard", C-based implementation of the Python language/
 		- https://www.youtube.com/watch?v=jQedHfF1Jfw
 	- Integrate Python and C++ with pybind11 - NDC 2018; Robert Smallshire
 		- https://www.youtube.com/watch?v=YReJ3pSnNDo
+- [pydotnet](https://github.com/sadhbh-c0d3/pydotnet): Direct interop between Python and .NET assemblies via Microsoft C++/CLR and Boost.Python.
 - Python - using C and C++ libraries with ctypes
 	- https://solarianprogrammer.com/2019/07/18/python-using-c-cpp-libraries-ctypes/
 - Wrappy: Wrapping python made easy

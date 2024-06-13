@@ -1,5 +1,5 @@
 title=Malbolge
-tags=language, esolang
+tags=language, esoteric
 summary=A programming language designed to be difficult (or impossible) to program in.
 ~~~~~~
 

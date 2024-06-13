@@ -27,3 +27,6 @@ Philosophies:
 * As little parenthesis as possible.
 * Most of the core is open.
 * As close to English as possible.
+
+https://github.com/h3rald/min
+A small but practical concatenative programming language and shell.

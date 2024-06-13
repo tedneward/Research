@@ -27,3 +27,6 @@ summary=A high level imperative, object-oriented programming language, designed 
 
 [Website](http://www.squirrel-lang.org/) | [Github](https://github.com/albertodemichelis/squirrel) | [Reference Manual](http://www.squirrel-lang.org/squirreldoc/squirrel3.pdf) | [Standard Library Manual](http://www.squirrel-lang.org/squirreldoc/sqstdlib3.pdf)
 
+
+https://github.com/albertodemichelis/squirrel
+Squirrel is a high level imperative, object-oriented programming language, designed to be a light-weight scripting language that fits in the size, memory bandwidth, and real-time requirements of applications like video games.

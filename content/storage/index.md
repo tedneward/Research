@@ -69,11 +69,11 @@ List of graph dbs to add (from TinkerPop page):
 
 ### [Column-oriented (columnar)](/tags/columnar.html)
 
-Cassandra
+* Cassandra
 
 ### [Key-value store](/tags/keyvalue.html)
 
-Redis
+* Redis
 
 ## Topology options
 
@@ -85,6 +85,12 @@ The storage engine is access in-process inside of the using program. Often canno
 
 ### [Code hosting](/tags/code-hosting.html)
 Some storage engines also allow for code-hosting, in which code executes inside the same process(es) as the storage engine itself, a la "stored procedures".
+
+## Automation
+
+* ["Database Gyms"](https://www.cidrdb.org/cidr2023/papers/p27-lim.pdf): "In the past decade, academia and industry have embraced machine learning (ML) for database management system (DBMS) automation. These efforts have focused on designing ML models that predict DBMS behavior to support picking actions (e.g., building indexes) that improve the system’s performance. Recent developments in ML have created automated methods for finding good models. Such advances shift the bottleneck from DBMS model design to obtaining the training data necessary for building these models. But generating good training data is challenging and requires encoding subject matter expertise into DBMS instrumentation.
+    "Existing methods for training data collection are bespoke to individual DBMS components and do not account for (1) how workload trends affect the system and (2) the subtle interactions between internal system components. Consequently, the models created from this data do not support holistic tuning across subsystems and require frequent retraining to boost their accuracy.
+    "This paper presents the architecture of a database gym, an integrated environment that provides a unified API of pluggable components for obtaining high-quality training data. The goal of a database gym is to simplify ML model training and evaluation to accelerate autonomous DBMS research. But unlike gyms in other domains that rely on custom simulators, a database gym uses the DBMS itself to create simulation environments for ML training. Thus, we discuss and prescribe methods for overcoming challenges in DBMS simulation, which include demanding requirements for performance, simulation fidelity, and DBMS-generated hints for guiding training processes."
 
 ## Datamining
 
@@ -101,7 +107,6 @@ Some storage engines also allow for code-hosting, in which code executes inside 
 * [The Ultimate Guide to 12 Dimensionality Reduction Techniques (with Python codes)](https://www.analyticsvidhya.com/blog/2018/08/dimensionality-reduction-techniques-python/) - Pulkit Sharma
 * [Theory and Applications for Advanced Text Mining](http://www.intechopen.com/books/theory-and-applications-for-advanced-text-mining)
 
-
 ## Information Retrieval
 
 * [Information Retrieval: A Survey](http://www.csee.umbc.edu/csee/research/cadip/readings/IR.report.120600.book.pdf) (PDF)
@@ -110,3 +115,32 @@ Some storage engines also allow for code-hosting, in which code executes inside 
 ## Storage and retrieval
 
 ["Don't use your ORM entities for everything--embrace the SQL!"](https://www.blackparrotlabs.io/post/architecture-pitfalls-dont-use-your-orm-entities-for-everything): 
+
+## Implementation
+
+* [Mini-LSM](https://skyzh.github.io/mini-lsm/): Build a simple key-value storage engine in a week. Extend it in the second and third weeks.
+* [LibraDB](https://github.com/amit-davidson/LibraDB): "... a simple, persistent key/value store written in pure Go. The project aims to provide a working yet simple example of a working database."
+* [simpledb](https://github.com/awelm/simpledb): A simple database built from scratch that has some the basic RDBMS features (SQL query parser, transactions, query optimizer)
+* C: [Let's Write a Database](https://cstack.github.io/db_tutorial/) (a SQLite clone in C)
+* C++: [Build Your Own Redis from Scratch](https://build-your-own.org/redis)
+* C#: [Build Your Own Database](https://www.codeproject.com/Articles/1029838/Build-Your-Own-Database)
+* Clojure: [An Archaeology-Inspired Database](http://aosabook.org/en/500L/an-archaeology-inspired-database.html)
+* Crystal: [Why you should build your own NoSQL Database](https://medium.com/@marceloboeira/why-you-should-build-your-own-nosql-database-9bbba42039f5)
+* Go: [Build Your Own Database from Scratch: Persistence, Indexing, Concurrency](https://build-your-own.org/database/)
+* Go: [Build Your Own Redis from Scratch](https://www.build-redis-from-scratch.dev/)
+* Go: [gosqldb](https://github.com/krasun/gosqldb): A key-value persistent database that supports SQL queries over B+ and LSM trees
+* JavaScript: [Dagoba: an in-memory graph database](http://aosabook.org/en/500L/dagoba-an-in-memory-graph-database.html)
+* Python: [DBDB: Dog Bed Database](http://aosabook.org/en/500L/dbdb-dog-bed-database.html)
+* Python: [Write your own miniature Redis with Python](http://charlesleifer.com/blog/building-a-simple-redis-server-with-python/)
+* Ruby: [Build your own fast, persistent KV store in Ruby](https://dineshgowda.com/posts/build-your-own-persistent-kv-store/)
+* Rust: [Build your own Redis client and server](https://tokio.rs/tokio/tutorial/setup)
+* Rust: [YourSQL](https://github.com/yywe/yoursql)
+* Rust: [OxidSQL](https://github.com/mzinsmeister/OxidSQL)
+* Rust: [erdb](https://github.com/radogost/erdb): An educational relational database
+* [Subreddit: /r/databasedevelopment](https://www.reddit.com/r/databasedevelopment/)
+* [B-Tree Implementation](https://www.codeproject.com/Articles/7410/Implementation-of-a-B-Tree-Database-Class)
+* [The SimpleDB Data System](http://cs.bc.edu/~sciore/simpledb/): "... a multi-user transactional database server written in Java, which interacts with Java client programs via JDBC. The system is intended for pedagogical use only. The code is clean and compact. The APIs are straightforward. The learning curve is relatively small.  Everything about it is geared towards improving the experience of a database system internals course.  Consequently, the system is intentionally bare-bones. It implements only a small fraction of SQL and JDBC, and does little or no error checking. The SimpleDB code is an integral part of my textbook [Database Design and Implementation](https://www.amazon.com/dp/3030338355/), published by Springer."
+* [Building a NoSQL database from zero](https://github.com/amit-davidson/Building-a-NoSQL-database-from-zero)
+* ["How to build a relational database from scratch"](https://medium.com/swlh/how-to-build-a-relational-database-from-scratch-e208061027c7) (Medium members only)
+* [Build a NoSQL database from scratch in 1000 lines of code](https://betterprogramming.pub/build-a-nosql-database-from-the-scratch-in-1000-lines-of-code-8ed1c15ed924) (in Go)
+* [Building BerkeleyDB](https://transactional.blog/building-berkeleydb/)

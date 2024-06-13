@@ -1,6 +1,6 @@
 title=Haxe
 tags=language, gamedev, native, jvm, nekovm
-summary=A modern, high-level, strictly-typed programming language
+summary=High-level and strictly-typed, cross-compiles to many different targets.
 ~~~~~~
 
 [Website](https://haxe.org/) | [Source](https://github.com/HaxeFoundation/haxe) 
@@ -16,3 +16,7 @@ summary=A modern, high-level, strictly-typed programming language
 * [Haxe Manual](http://haxe.org/documentation/introduction/) - Haxe Foundation (PDF, HTML)
 * [HaxeFlixel Handbook](http://haxeflixel.com/documentation/haxeflixel-handbook/) (HTML)
 * [Kha Handbook](https://github.com/KTXSoftware/Kha/wiki/Tutorials)
+
+
+https://github.com/HaxeFoundation/haxe
+High-level and strictly-typed programming language, cross-compiles to many different targets.

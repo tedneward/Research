@@ -143,3 +143,6 @@ for o in opcodes:
 ---
 
 [Prologue](https://github.com/planety/prologue): Full-Stack Web Framework written in Nim. [Website](planety.github.io/prologue)
+
+https://github.com/nim-lang/Nim
+Nim is a compiled, garbage-collected systems programming language with a design that focuses on efficiency, expressiveness, and elegance (in that order of priority).

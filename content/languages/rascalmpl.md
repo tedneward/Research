@@ -62,3 +62,6 @@ str compile(Machine m) =
   '}"
 ```
 
+
+https://github.com/usethesource/rascal
+Rascal Metaprogramming Language. Rascal is a programming language; such that meta programs can be created by, understood by, and debugged by programmers. Rascal primitives include immutable data, context-free grammars and algebraic data-types, relations, relational calculus operators, advanced patterns matching, generic type-safe traversal, comprehensions, concrete syntax for objects, lexically scoped backtracking, and string templates for code generation. It has libraries for integrating language front-ends, for reusing analysis algorithms, for getting typed meta-data out of version management systems, for interactive visualization, etc.

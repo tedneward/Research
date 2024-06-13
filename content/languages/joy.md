@@ -34,3 +34,6 @@ So the square function makes a copy of the top element, and then multiplies the 
 * what to do by default (split the list into two halves by comparing each element with the pivot), and finally
 * what to do at the end (insert the pivot between the two sorted halves).
 
+
+https://hypercubed.github.io/joy/joy.html
+The language Joy is a purely functional programming language. Whereas all other functional programming languages are based on the application of functions to arguments, Joy is based on the composition of functions. All such functions take a stack as argument and produce a stack as value. Consequently much of Joy looks like ordinary postfix notation. However, in Joy a function can consume any number of parameters from the stack and leave any number of results on the stack. The concatenation of appropriate programs denotes the composition of the functions which the programs denote. One of the datatypes of Joy is that of quoted programs, of which lists are a special case. Some functions expect quoted programs on top of the stack and execute them in many different ways, effectively by dequoting.

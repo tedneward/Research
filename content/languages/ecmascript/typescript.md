@@ -41,6 +41,7 @@ summary=A superset of JavaScript with strong compile-time typechecking that tran
 * Video: ["Advanced TypeScript tooling at scale"](https://archive.fosdem.org/2019/schedule/event/typescript_advanced_tooling/)
 * ["Using the Compiler API"](https://github.com/Microsoft/TypeScript/wiki/Using-the-Compiler-API)
 * ["Assembly interpreter inside of TypeScript's type system"](https://judehunter.dev/blog/assembly-interpreter-in-typescripts-type-system)
+* [TypeLang](https://github.com/ronami/typelang) - Tiny language interpreter implemented purely in TypeScript's type-system.
 
 ### [Learn TypeScript in Y Minutes](https://learnxinyminutes.com/docs/typescript/)
 

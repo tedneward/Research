@@ -10,3 +10,6 @@ ink (language): [Website](https://www.inklestudios.com/ink/) [Source](https://gi
 ink-library: [Source](https://github.com/inkle/ink-library)
 
 inkle (editor): [Website](https://www.inklestudios.com/ink/) [Source](https://github.com/inkle/inky)
+
+https://github.com/thesephist/ink
+Ink is a minimal programming language inspired by modern JavaScript and Go, with functional style. Ink can be embedded in Go applications with a simple interpreter API.

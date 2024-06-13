@@ -1,5 +1,5 @@
 title=Handel
-tags=language, presentation, browser
+tags=language, presentation, browser, music, sound
 summary=A small procedural programming language for writing songs in the browser.
 ~~~~~~
 

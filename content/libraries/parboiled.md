@@ -1,5 +1,5 @@
 title=parboiled
-tags=library, jvm, langdev
+tags=library, jvm, language development
 summary=A mixed Java/Scala library providing for lightweight and easy-to-use, yet powerful and elegant parsing of arbitrary input text based on Parsing expression grammars (PEGs).
 ~~~~~~
 

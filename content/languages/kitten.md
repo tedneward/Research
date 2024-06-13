@@ -272,3 +272,6 @@ instance = (Cell, Cell -> Bool):
   case occupied -> x: match (cy) case occupied -> y { x = y } else { false }
   case vacant: match (cy) case vacant { true } else { false }
 ```
+
+https://github.com/evincarofautumn/kitten
+A statically typed concatenative systems programming language. Kitten is a statically typed, stack-based functional programming language designed for simplicity, speed, and safety. This is an in-progress implementation of that language, including: An interactive console for testing code; An interpreter; A native-code compiler producing static executables (incomplete).

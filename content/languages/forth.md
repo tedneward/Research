@@ -20,3 +20,6 @@ summary=Entirely stack-oriented programming language.
 * [Thinking Forth](http://thinking-forth.sourceforge.net)
 * [Thoughtful Programming and Forth](http://www.ultratechnology.com/forth.htm)
 
+
+https://forth-standard.org/
+A procedural, stack-oriented programming language and interactive environment. Forth is used in the Open Firmware boot loader, in space applications such as the Philae spacecraft, and in other embedded systems which involve interaction with hardware. Multiple implementaitons, both proprietary and FOSS.

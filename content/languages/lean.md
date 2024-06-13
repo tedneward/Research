@@ -3,7 +3,7 @@ tags=language, functional
 summary=A functional programming language that makes it easy to write correct and maintainable code.
 ~~~~~~
 
-[Website](https://leanprover.github.io/about/) | [Docs](https://leanprover.github.io/lean4/doc/)
+[Website](https://lean-lang.org/) | [Source](https://github.com/leanprover/lean4) | [Docs](https://lean-lang.org/documentation/) | [Theorem Proving in Lean](https://lean-lang.org/theorem_proving_in_lean4/title_page.html) | [Functional Programming in Lean](https://lean-lang.org/functional_programming_in_lean/)
 
 Lean has numerous features, including:
 
@@ -39,3 +39,6 @@ def main : IO Unit :=
 
 ```
 
+
+https://github.com/leanprover/lean4
+Lean is an open source theorem prover and programming language being developed at Microsoft Research. Lean aims to bridge the gap between interactive and automated theorem proving, by situating automated tools and methods in a framework that supports user interaction and the construction of fully specified axiomatic proofs.

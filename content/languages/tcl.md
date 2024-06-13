@@ -561,3 +561,6 @@ coroutine c apply {{} {
 ## Reading
 
 * [Tcl Programming](https://en.wikibooks.org/wiki/Programming%3ATcl) - Richard.Suchenwirth, et. al.
+
+https://en.wikipedia.org/wiki/Tcl
+Tcl is a high-level, general-purpose, interpreted, dynamic programming language. Tcl supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles. It is commonly used embedded into C applications for rapid prototyping, scripted applications, GUIs, and testing.

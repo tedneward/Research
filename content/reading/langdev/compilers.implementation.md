@@ -1,5 +1,5 @@
 title=Compilers Implementation/Optimization Reading
-tags=language, reading, llvm, native, langdev
+tags=language, reading, llvm, native, language development
 summary=Collection of articles on implementing languages.
 ~~~~~~
 

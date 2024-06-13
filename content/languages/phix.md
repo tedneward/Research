@@ -49,3 +49,6 @@ A simple sorting routine
              ? merge_sort(list)
 ```
 
+
+https://github.com/petelomax/Phix
+Phix is a self-hosted hybrid interpreter/compiler, developed by Pete Lomax. It is very easy to use, and similar to Euphoria.

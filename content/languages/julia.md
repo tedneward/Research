@@ -42,6 +42,7 @@ Partly because of run-time type inference (augmented by optional type annotation
 * [Julia Data Science](https://juliadatascience.io) - Jose Storopoli, Rik Huijzer, and Lazaro Alonso
 * [Julia language: a concise tutorial](https://syl1.gitbook.io/julia-language-a-concise-tutorial) - Antonello Lobianco (GitBook)
 * [Learn Julia in Y minutes](https://learnxinyminutes.com/docs/julia) - Leah Hanson
+* [Fundamentals of Numerical Computation (with Julia)](https://tobydriscoll.net/fnc-julia/frontmatter.html)
 * [Quantitative Economics with Julia](https://julia.quantecon.org) - Jesse Perla, Thomas J. Sargent and John Stachurski (HTML, [PDF](https://web.archive.org/web/20210713122108/https://julia.quantecon.org/_downloads/pdf/quantitative_economics_with_julia.pdf))
 * [The Julia Express](http://bogumilkaminski.pl/files/julia_express.pdf) - Bogumił Kamiński (PDF)
 * [Think Julia](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html) - Ben Lauwens and Allen Downey (GitBook)
@@ -958,3 +959,6 @@ code_native(circle_area, (Float64,), syntax = :intel)
 * [Term](https://github.com/FedeClaudi/Term.jl): a package for creating stylized terminal outputs.
 
 * [Genie](https://github.com/GenieFramework/Genie.jl): a "full stack" web framework.
+
+https://github.com/JuliaLang/julia
+Julia is a high-level, high-performance, dynamic programming language. While it is a general-purpose language and can be used to write any application, many of its features are well suited for numerical analysis and computational science.

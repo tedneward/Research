@@ -601,3 +601,6 @@ write-line: a + b // (3, 7)
 ```
 
 So, without adding any complexity to the language, we can define class-like things where that pattern makes sense. But, if all you need as an object, you don't have to deal with that baggage.
+
+https://github.com/munificent/finch
+Finch is a simple bytecode interpreted, purely object-oriented, prototype-based, dynamically-typed programming language. It's mostly inspired by Smalltalk, Self, and Javascript.

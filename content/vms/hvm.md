@@ -3,7 +3,7 @@ tags=vm, functional, native
 summary=A pure functional compile target that is lazy, non-garbage-collected and massively parallel. It is also beta-optimal, meaning that, in several cases, it can be exponentially faster than most functional runtimes, including Haskell's GHC.
 ~~~~~~
 
-[Source](https://github.com/Kindelia/HVM)
+[Source](https://github.com/HigherOrderCO/HVM) | [Paper](https://github.com/HigherOrderCO/HVM/blob/main/paper/PAPER.pdf)
 
 Pretty hyperbolic:
 
@@ -38,3 +38,18 @@ clang -O2 main.c -o main -lpthread # compiles C to BIN
 The program above runs in about 6.4 seconds in a modern 8-core processor, while the identical Haskell code takes about 19.2 seconds in the same machine with GHC. This is HVM: write a functional program, get a parallel C runtime.
 
 Benefits are solely to parallelizable (recursive) work; 
+
+## Example
+HVM is a low-level compile target for high-level languages. It provides a raw syntax for wiring interaction nets. For example:
+
+```
+@main = a
+  & @sum ~ (28 (0 a))
+
+@sum = (?(((a a) @sum__C0) b) b)
+
+@sum__C0 = ({c a} ({$([*2] $([+1] d)) $([*2] $([+0] b))} f))
+  &! @sum ~ (a (b $(:[+] $(e f))))
+  &! @sum ~ (c (d e))
+```
+
