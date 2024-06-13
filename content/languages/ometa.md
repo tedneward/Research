@@ -18,7 +18,7 @@ summary=An object-oriented language for pattern matching, based on a variant of 
 ---
 ## OMeta/JS
 
-[API on Github](http://veged.github.io/ometa-js/) | [npm](https://www.npmjs.com/package/ometajs) | [Source](https://github.com/veged/ometa-js) | [Dissertation](https://web.cs.ucla.edu/~todd/theses/warth_dissertation.pdf)
+[API on Github](http://veged.github.io/ometa-js/) | [npm](https://www.npmjs.com/package/ometajs) | [Source](https://github.com/veged/ometa-js) or [Source](https://github.com/alexwarth/ometa-js) | [Dissertation](https://web.cs.ucla.edu/~todd/theses/warth_dissertation.pdf)
 
 ### Installing
 
