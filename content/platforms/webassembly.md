@@ -26,8 +26,6 @@ Tools: [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) 
 * [SwiftWASM](https://swiftwasm.org/) ([Source](https://github.com/swiftwasm/swift)): SwiftWasm compiles your [Swift](/languages/swift) code to WebAssembly.
 * [wasmlink](https://github.com/bytecodealliance/wit-bindgen/tree/main/crates/wasmlink):  a CLI that allows us to statically link a module and its dependencies using [module linking](https://github.com/WebAssembly/module-linking) and the [Canonical Interface Types ABI](https://github.com/WebAssembly/interface-types/pull/140).
 
-[Wasm3](https://github.com/wasm3/wasm3): "The fastest WebAssembly interpreter (and the most universal wasm runtime)"
-
 [.NET WebAssembly](https://github.com/RyanLamansky/dotnet-webassembly): Create, read, modify, write and execute WebAssembly (WASM) files from .NET-based applications.
 
 [Wasm Debugger](https://github.com/wasm3/wasm-debug): Direct, source-level WebAssembly debugger
@@ -35,8 +33,6 @@ Tools: [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) 
 [An introduction to WebAssembly components](https://radu-matei.com/blog/intro-wasm-components/)
 
 [WebAssembly friendly programming with C/C++](https://github.com/3dgen/cppwasm-book/tree/master/en) - Ending, Chai Shushan, Yushih (HTML, [examples](https://github.com/3dgen/cppwasm-book/tree/master/examples))
-
-[Extism](https://extism.org/) ([Source](https://github.com/extism/extism)): a plug-in system for running WebAssembly extensions within an app
 
 ### Example SDL app compiled to WebAssembly (from https://main.lv/writeup/web_assembly_sdl_example.md):
 

@@ -3,7 +3,7 @@ tags=vm, wasm, linux, macos, windows, android
 summary=A lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications.
 ~~~~~~
 
-[Source](https://github.com/WasmEdge/WasmEdge)
+[Website](https://wasmedge.org/) | [Source](https://github.com/WasmEdge/WasmEdge)
 
 Implemented in C++ using LLVM. Interpreted and AOT compiled.
 

@@ -3,7 +3,7 @@ tags=vm, wasm, linux, macos, windows
 summary=A standalone wasm-only runtime for WebAssembly, using the Cranelift JIT.
 ~~~~~~
 
-[Source](https://github.com/CraneStation/wasmtime)
+[Website](https://wasmtime.dev/) | [Source](https://github.com/bytecodealliance/wasmtime)
 
 Implemented in Rust using Cranelift. JIT compiled. Interops with Python.
 

@@ -3,7 +3,7 @@ tags=vm, wasm, linux, macos, windows, android
 summary=A standalone WebAssembly runtime for running WebAssembly outside of the browser, supporting WASI and Emscripten.
 ~~~~~~
 
-[Source](https://github.com/wasmerio/wasmer)
+[Website](https://wasmer.io/) | [Source](https://github.com/wasmerio/wasmer)
 
 Implemented in C++ and Rust using Singlepass, Cranelift, and LLVM. JIT and AOT compiled.
 
