@@ -44,6 +44,8 @@ Much of this is going to be found in the [reading on memory management](/reading
 ## Sites
 [Awesome Open Source: Top 137 Virtual Machine Open Source Projects](https://awesomeopensource.com/projects/virtual-machine)
 
+[Awesome WASM runtimes](https://github.com/appcypher/awesome-wasm-runtimes)
+
 [GitHub search for "virtual machine"](https://github.com/search?p=34&q=virtual+machine&ref=opensearch&type=Repositories):
 
 * [ARM-VM](https://github.com/jemtucker/arm-vm): "A really basic arm CPU emulator, started as an exploration into C++ when I first started programming."

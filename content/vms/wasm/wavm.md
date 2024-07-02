@@ -1,9 +1,15 @@
 title=WebAssembly Virtual Machine
-tags=vm, wasm
+tags=vm, wasm, linux, macos, windows
 summary=WebAssembly virtual machine designed for use in non-web applications.
 ~~~~~~
 
 [Github](https://github.com/WAVM/WAVM) | [Website](https://wavm.github.io/)
+
+Implemented in C++ and Python using LLVM. JIT compiled.
+
+**Host APIs supported**: WASI, Emscripten, WAVIX
+
+**Non-web standards**: WASI
 
 From the Github page:
 
