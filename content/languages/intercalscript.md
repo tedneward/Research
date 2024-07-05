@@ -5,4 +5,4 @@ summary=Systems programming language for the web that combines a simple and cons
 
 [Source](https://github.com/Storyyeller/IntercalScript)
 
-This one is so borderline useful and esoteric that I can't tell which it's trying to be.
+This one is so borderline useful and esoteric that I can't tell which it's trying to be. Seems like it's genuine, but... the name....

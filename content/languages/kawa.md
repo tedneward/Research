@@ -1,7 +1,0 @@
-title=Kawa
-tags=language
-summary=Kawa is a general-purpose programming language that runs on the Java platform. It aims to combine: the benefits of dynamic scripting languages (non-verbose code with less boiler-plate, fast and easy start-up, a REPL, no required compilation step); with the benefits of traditional compiled languages (fast execution, static error detection, modularity, zero-overhead Java platform integration).
-~~~~~~
-
-[Source](https://gitlab.com/kashell/Kawa)
-
