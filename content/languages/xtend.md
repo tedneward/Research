@@ -23,7 +23,3 @@ Xtend is a statically-typed programming language which translates to comprehensi
 Unlike other JVM languages Xtend has zero interoperability issues with Java: Everything you write interacts with Java exactly as expected. At the same time Xtend is much more concise, readable and expressive. Xtend’s small library is just a thin layer that provides useful utilities and extensions on top of the Java Development Kit (JDK).
 
 Of course, you can call Xtend methods from Java, too, in a completely transparent way. Furthermore, Xtend provides a modern Eclipse-based IDE closely integrated with the Eclipse Java Development Tools (JDT), including features like call-hierarchies, rename refactoring, debugging and many more.
-
-
-https://www.eclipse.org/xtend/
-Xtend is a flexible and expressive dialect of Java, which compiles into readable Java 8 compatible source code. You can use any existing Java library seamlessly. The compiled output is readable and pretty-printed, and tends to run as fast as the equivalent handwritten Java code.
