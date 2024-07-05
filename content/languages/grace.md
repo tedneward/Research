@@ -1,6 +1,6 @@
 title=Grace
 tags=language, object
-summary=The purpose of Grace is to allow novices to discover programming in the simplest possible way. Other famous languages such as Java or Python are widely used by professionals, but may be hard to assimilate for a beginner in programming. That is what the object-oriented Grace language is made for.
+summary=Allow novices to discover programming in the simplest possible way. Other famous languages such as Java or Python are widely used by professionals, but may be hard to assimilate for a beginner in programming. That is what the object-oriented Grace language is made for.
 ~~~~~~
 
 [Website](http://gracelang.org/applications/home/) | [Language Specification](http://gracelang.org/applications/documentation/spec/)

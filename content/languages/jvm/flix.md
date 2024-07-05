@@ -7,7 +7,8 @@ summary=Next-generation reliable, safe, concise, and functional-first programmin
 
 [Website](https://flix.dev/#/) | [Source](https://github.com/flix/flix)
 
-"Features at a Glance:"
+Features at a Glance:
+
 * algebraic data types
 * pattern matching
 * first-class functions

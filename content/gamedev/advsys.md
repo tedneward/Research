@@ -1,5 +1,5 @@
 title=AdvSys
-tags=gamedev, language
+tags=gamedev, language, interactive fiction
 summary=A Language for Writing Text Adventure Games
 ~~~~~~
 

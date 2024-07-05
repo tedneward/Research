@@ -1,9 +1,9 @@
 title=Inweb
 tags=language, literate
-summary=Literate programming language used for Inform7 development.
+summary=A modern system for literate programming used for Inform7 development.
 ~~~~~~
 
-[Source](https://github.com/ganelson/inform)
+[Source](https://github.com/ganelson/inweb)
 
 ## Examples
 
