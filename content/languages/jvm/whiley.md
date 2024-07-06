@@ -15,7 +15,7 @@ Whiley supports reference lifetimes similar to those found in Rust. Lifetimes ca
 
 Whiley has no built-in support for concurrency and no formal memory model to determine how reading/writing to shared mutable state should be interpreted.
 
-[Website](http://whiley.org/) | [Github](http://github.com/Whiley) | [Getting Started](http://whiley.org/download/GettingStartedWithWhiley.pdf) | [Language Spec](http://whiley.org/download/WhileyLanguageSpec.pdf)
+[Website](http://whiley.org/) | [Github](http://github.com/Whiley) | [Code](https://github.com/Whiley/WhileyCompiler) | [Getting Started](http://whiley.org/download/GettingStartedWithWhiley.pdf) | [Language Spec](http://whiley.org/download/WhileyLanguageSpec.pdf)
 
 Website shows last blog post as 2018.
 

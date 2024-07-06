@@ -1,9 +1,9 @@
 title=PowerFX
 tags=language
-summary=Low-code language
+summary=A low-code, strongly typed, declarative, and functional language, with imperative logic and state management available as needed for general purpose programming language based on spreadsheet-like formulas.
 ~~~~~~
 
-[Website](https://docs.microsoft.com/en-us/power-platform/power-fx/overview) [Source](https://github.com/microsoft/power-fx)
+[Website](https://docs.microsoft.com/en-us/power-platform/power-fx/overview) | [Source](https://github.com/microsoft/power-fx)
 
 ## Design principles
 

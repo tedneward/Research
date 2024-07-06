@@ -1,12 +1,12 @@
-title=ReasonML
+title=Reason
 tags=language, functional
-summary=A syntax over OCaml that is easier to get started for programmers who are familiar with C-style syntax like JavaScript.
+summary=Simple, fast & type safe code that leverages the JavaScript & OCaml ecosystems.
 ~~~~~~
 
-[Website](https://reasonml.github.io/) | [Source](https://github.com/facebook/reason)
+[Website](https://reasonml.github.io/) | [Source](https://github.com/reasonml/reason)
 
 - [Official Reason Docs](https://reasonml.github.io/docs/en/what-and-why)
-- [Official BuckleScript Docs](https://bucklescript.github.io/docs/en/what-why)
+- [Official BuckleScript Docs](https://bucklescript.github.io/docs/en/what-why) - later renamed [ReScript](../../ecmascript/rescript/)
 - [Try Reason](https://reasonml.github.io/en/try)
 - [Get Started with Reason by Nik Graf](https://egghead.io/courses/get-started-with-reason)
 
