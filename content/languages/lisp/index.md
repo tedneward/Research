@@ -11,6 +11,7 @@ summary=The original dynamic functional(ish) homoiconic (consistent symbology) l
 * [Allegro Common Lisp](https://franz.com/products/allegro-common-lisp/): Commercial implementation with a free (evaluational, not-timeboxed) download.
 * [CLISP](https://clisp.sourceforge.io/): a high-level, general-purpose, object-oriented, dynamic, functional programming language.
 * [Clozure CL](https://www.clozure.com/ccl): "Clozure CL is available for download from [ccl.clozure.com](http://ccl.clozure.com/)" (Self-hosted compiler, so requires a copy of both the source and bootstrap compilers, which are all available on [Github](https://github.com/Clozure/ccl): "For the latest released version of CCL, please see https://github.com/Clozure/ccl/releases/latest and download the archive for your platform. These archives contain not only the necessary binaries, but also a full clone of the source code. So, to install a complete CCL, all you have to do is download one archive and extract it.")
+* [Emacs Lisp](https://www.gnu.org/software/emacs/manua/html_node/eintr/index.html): a Lisp for an editor
 * [LispWorks](http://www.lispworks.com/documentation/index.html): [Personal Edition](http://www.lispworks.com/downloads/index.html)
 * C: [GCL](https://www.gnu.org/software/gcl/): the official Common Lisp for the GNU project.
 * C: [Embeddable Common Lisp](https://common-lisp.net/project/ecl/) ([Source](https://gitlab.com/embeddable-common-lisp/ecl)): Full Common Lisp implementation, available as a shared library `libecl.so` embeddable in any C, C++ or other application.
@@ -20,8 +21,8 @@ summary=The original dynamic functional(ish) homoiconic (consistent symbology) l
 * C++: [Clasp](https://github.com/drmeister/clasp): Full Common Lisp implementation well integrated with C++, using LLVM for the code generation, to integrate closely with C++ applications or libraries.
 * JVM: [Armed Bear Common Lisp](http://abcl.org/) or [here](https://common-lisp.net/project/armedbear/)
 * JVM: [Kawa](https://www.gnu.org/software/kawa/): R7RS. Supports the javax.script API.
+* Lua: [femtolisp](https://github.com/JeffBezanson/femtolisp): Lua Lisp language
 * Native: [Steel Bank Common Lisp](http://www.sbcl.org/) ([Source](http://www.sbcl.org/platform-table.html))
-* Rust: [Ketos](https://github.com/murarth/ketos): Lisp dialect scripting and extension language for Rust programs. ([HN](https://news.ycombinator.com/item?id=28616475))
 
 ### "A Lisp":
 
@@ -51,11 +52,10 @@ Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/li
 * [Janet](../janet): Functional and imperative programming language and bytecode interpreter.
 * [JESS](https://jess.sandia.gov/): Java Expert System Shell, a CLIPS-inspired expert system rule engine on the JVM
 * [Emacs Lisp](https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html) - dialect of the Lisp programming language used as a scripting language by Emacs with some later influence from Common Lisp. Created by GNU it supports imperative and functional programming methods.
-* [femtolisp](https://github.com/JeffBezanson/femtolisp) - Lightweight, robust, scheme-like lisp implementation.
-* [Fennel](https://github.com/bakpakin/Fennel) - Lua Lisp Language.
-* [Hime](https://github.com/hime-lang/Hime) - A general programming language running on the JVM platform.
-* [Liz](https://github.com/dundalek/liz) - Lisp-flavored general-purpose programming language (based on Zig).
-* [llrl](https://github.com/yubrot/llrl) - Lisp-like programming language powered by Rust + LLVM.
+* [Fennel](../fennel) - Lua Lisp Language.
+* [Hime](../../jvm/hime) - A general programming language running on the JVM platform.
+* [Liz](../liz) - Lisp-flavored general-purpose programming language (based on Zig).
+* [llrl](../llrl) - Lisp-like programming language powered by Rust + LLVM.
 * [Lux](../lux): A functional, statically-typed Lisp that will run on several platforms, such as the Java Virtual Machine and JavaScript interpreters.
 * [PicoLisp](https://picolisp.com/wiki/) - Simple and lightweight and encourages clean, concise code.
 * [Ren](https://github.com/ren-lang/compiler) - Cleaner, clearer JavaScript. Modern scripting language for the Web.
