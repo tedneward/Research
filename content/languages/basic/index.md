@@ -8,7 +8,8 @@ summary=Various notes and implementations of the BASIC programming language.
 * [FreeBASIC](https://freebasic.net/) ([Source](https://github.com/freebasic/fbc)): a completely free, open-source, multi-platform BASIC compiler, with syntax similar to MS-QuickBASIC, that adds new features such as pointers, object orientation, unsigned data types, inline assembly, and many others.
 * [Gambas](../gambas)
 * [NSBasic](https://www.nsbasic.com/): A complete, powerful development environment. Create apps for iOS, Android, Windows, MacOS and Linux. Commercial.
-* [PureBASIC](../purbasic)
+* [PCBasic](../pcbasic) ([Source](https://github.com/robhagemans/pcbasic)): A free, cross-platform emulator for the GW-BASIC family of interpreters
+* [PureBASIC](../purebasic)
 * [RadBASIC](../radbasic)
 * [SmallBASIC](http://smallbasic.github.io/) ([Source](https://github.com/smallbasic/SmallBASIC))
 * [TinyBASIC](../tinybasic)
@@ -31,7 +32,12 @@ summary=Various notes and implementations of the BASIC programming language.
 * [A beginner's guide to Gambas](http://distro.ibiblio.org/vectorlinux/Uelsk8s/GAMBAS/gambas-beginner-guide.pdf) - John W. Rittinghouse (PDF)
 * [Pick/Basic: A Programmer's Guide](http://www.jes.com/pb/) - Jonathan E. Sisk
 
+### Visual Basic P-Code
 
+* [Microsoft's P-Code Implementation](https://archive.ph/2013.09.03-174756/http://www.programmersheaven.com/articles/userarticles/john/vbvm.htm)
+* [P32Dasm: VB5/VB6 PCode Decompiler](https://progress-tools.x10.mx/p32dasm.html)
+* [VB Decompiler: Decompiling P-Code in Your Mind's Eye. The Subtleties of Researching Commands of the VB Virtual Machine.](https://www.vb-decompiler.org/pcode_decompiling.htm)
+* [pcodedmp.py](https://github.com/bontchev/pcodedmp): A VBA p-code disassembler
 
 
 ---

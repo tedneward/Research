@@ -5,6 +5,10 @@ summary=A massively parallel, high-level programming language.
 
 [Website](https://higherorderco.com/) | [Source](https://github.com/HigherOrderCO/Bend)
 
+## Articles
+
+["How Bend Works: A Parallel Programming Language That “Feels Like Python but Scales Like CUDA”."](https://towardsdatascience.com/how-bend-works-a-parallel-programming-language-that-feels-like-python-but-scales-like-cuda-48be5bf0fc2c)
+
 ## Examples
 
 ```

@@ -25,10 +25,14 @@ summary=A dynamic language and platform.
 Not sure if this is a library or an implementation or a tool, it's sort of all three: [VPython](https://vpython.org/), 3D Programming for Ordinary Mortals
 
 ### Articles:
+
 * [WTFPython](https://github.com/satwikkansal/wtfpython): A collection of unintuitive ways Python behaves, with explanations as to why.
+* [bytecode](https://bytecode.readthedocs.io/) ([Source](https://github.com/MatthieuDartiailh/bytecode)): Python module to modify bytecode
 * [Learn Python ASTs, by building your own linter](https://sadh.life/post/ast/)
+* [How To Create a Python GUI To Write Data to a File With PyQt5](https://thenewstack.io/how-to-create-a-python-gui-to-write-data-to-a-file-with-pyqt5/)
 
 ### Interesting examples:
+
 * [Peter Norvig's Collection of Jupyter Notebooks](http://www.norvig.com/ipython/README.html): This makes me consider spending some time with Jupyter Notebooks a lot more.
 
 ### Bridges/FFI:
