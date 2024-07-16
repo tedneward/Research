@@ -18,6 +18,12 @@ Repositories for graphics:
 * [The Noun Project](https://thenounproject.com/): icons and photos for everything.
 * [Unsplash](https://unsplash.com/): The Internet's source for visuals.
 
+### Articles
+
+* ["Programmatic and Direct Manipulation, Together at Last"](http://arxiv.org/pdf/1507.02988): "Direct manipulation interfaces and programmatic systems have distinct and complementary strengths. The former provide intuitive, immediate visual feedback and enable rapid prototyping, whereas the latter enable complex, reusable abstractions. Unfortunately, existing systems typically force users into just one of these two interaction modes. We present a system called SKETCH-N-SKETCH that integrates programmatic and direct manipulation for the particular domain of Scalable Vector Graphics (SVG). In SKETCH-N-SKETCH, the user writes a program to generate an output SVG canvas. Then the user may directly manipulate the canvas while the system immediately infers a program update in order to match the changes to the output, a workflow we call live synchronization. To achieve this, we propose (i) a technique called trace-based program synthesis that takes program execution history into account in order to constrain the search space and (ii) heuristics for dealing with ambiguities. Based on our experience with examples spanning 2,000 lines of code and from the results of a preliminary user study, we believe that SKETCH-N-SKETCH provides a novel workflow that can augment traditional programming systems. Our approach may serve as the basis for live synchronization in other application domains, as well as a starting point for yet more ambitious ways of combining programmatic and direct manipulation."
+
+### User Interface
+
 [ECMA Report on User Interface Taxonomy](https://www.ecma-international.org/wp-content/uploads/ECMA_TR-61_1st_edition_june_1992.pdf) (June 1992): Interesting high-level overview of different ideas around user interface and a taxonomy of that space:
 
 * UI structure
