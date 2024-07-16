@@ -89,9 +89,29 @@ summary=Collection of thoughts/essays/etc on developer relations (DevRel).
         - Give constructive feedback to the product teams and get questions answered
         - Collate outside feedback and convert to constructive feedback
 
+* [builtfor.dev](https://www.builtfor.dev/)
+
+    * [builtfor.dev Content Hub](https://hub.builtfor.dev/public/content)
+    * [Developer Program Stage Calculator](https://www.builtfor.dev/stage-calculator)
+    * [Unlock the Revenue Potential of Your Developer Segment](https://www.builtfor.dev/dev-success)
+
+* [DevRel Strategy](https://nimbinatus.com/2022/10/06/devrel-strategy/)
+
+    * [My DevRel Strategy Breakdown](https://www.tessakriesel.com/devrel-strategy-breakdown/)
+    * [How to craft a great Developer Relations strategy](https://www.leaddevrel.com/p/how-to-craft-a-great-developer-relations)
+    * [The Complete Guide: Developer Relations Strategy](https://www.commonroom.io/blog/assembling-a-devrel-strategy/)
+    * [Planning your team's dev rel strategy](https://developerrelations.com/strategy-and-metrics/planning-your-teams-dev-rel-strategy-naomi-pentrel)
+    * [Introducing the AAARRRP DevRel Framework](https://developerrelations.com/strategy-and-metrics/introducing-aaarrrp-devrel-strategy)
+    * [Most companies are doing DevRel wrong](https://ironhorse.io/blog/companies-doing-devrel-wrong/)
+    * [Measuring the impact of your DevRel team](https://openviewpartners.com/blog/measuring-the-impact-of-your-developer-relations-team/)
+    * [Developer Relations: A Five-Level Maturity Model](https://softwareas.com/developer-relations-a-five-level-maturity-model/)
+    * [Defining Developer Relations](https://www.leggetter.co.uk/2016/02/03/defining-developer-relations.html)
+    * [devrelometer](https://github.com/leggetter/devrelometer)
+
 * [Lunch & Learns](https://www.mattblodgett.com/2023/05/lunch-learns.html)
 
 ## Resources 
+
 *(from [AndyPiper](https://gist.github.com/andypiper/7fdb73f9713b7e1f7e5e7ac373f635cb))*
 
 ### Books 
