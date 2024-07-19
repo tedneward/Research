@@ -87,7 +87,9 @@ Note that while these terms usually are applied most directly to programming lan
 
 	The different ways to combine these three dimensions yield the 8 vertices of the cube, each corresponding to a different kind of typed system. The λ-cube can be generalized into the concept of a pure type system.
 
+## Code/implementations
 
+[From PLZoo](https://github.com/cdiggins/type-inference): Type Inference Library written in TypeScript (used in [Heron](/languages/heron) and [Cat](/languages/cat)).
 
 ## Reading
 
