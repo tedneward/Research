@@ -168,6 +168,42 @@ of a dynamically typed language named smalljs which is almost a subset of JavaSc
 
 [Create Your Own Programming Language with Rust](https://createlang.rs/intro.html): Incomplete but interesting first steps
 
+[Make A Language](https://lunacookies.github.io/lang/):
+
+* [Part Twenty: Testing](https://lunacookies.github.io/lang/20/)
+* [Part Nineteen: Code Representations](https://lunacookies.github.io/lang/19/)
+* [Part Eighteen: Errors](https://lunacookies.github.io/lang/18/)
+* [Part Seventeen: Crates](https://lunacookies.github.io/lang/17/)
+* [Part Sixteen: Refactoring](https://lunacookies.github.io/lang/16/)
+* [Part Fifteen: Markers](https://lunacookies.github.io/lang/15/)
+* [Part Fourteen: Comments](https://lunacookies.github.io/lang/14/)
+* [Part Thirteen: Whitespace & Events](https://lunacookies.github.io/lang/13/)
+* [Part Twelve: Terminology](https://lunacookies.github.io/lang/12/)
+* [Part Eleven: Refinements](https://lunacookies.github.io/lang/11/)
+* [Part Ten: Starting Again](https://lunacookies.github.io/lang/10/)
+* [Part Nine: Function Calls](https://lunacookies.github.io/lang/9/)
+* [Part Eight: Function Definitions](https://lunacookies.github.io/lang/8/)
+* [Part Seven: A REPL](https://lunacookies.github.io/lang/7/)
+* [Part Six: Blocks](https://lunacookies.github.io/lang/6/)
+* [Part Five: Binding Usages](https://lunacookies.github.io/lang/5/)
+* [Part Four: Backtracking](https://lunacookies.github.io/lang/4/)
+* [Part Three: Defining Variables](https://lunacookies.github.io/lang/3/)
+* [Part Two: Whitespace Support](https://lunacookies.github.io/lang/2/)
+* [Part One: A Basic Parser](https://lunacookies.github.io/lang/1/)
+* [Part Zero: Getting set up](https://lunacookies.github.io/lang/0/)
+
+---
+
+## Haskell
+
+[Write You a Haskell](https://github.com/sdiehl/write-you-a-haskell)
+
+---
+
+## Go
+
+[A simple Hindley-Milner type system in Go](https://github.com/chewxy/hm)
+
 ---
 
 ## Learning/AI-related
