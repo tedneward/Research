@@ -19,6 +19,8 @@ Strumenta
 * [Lemon](/tools/lemon)
 * [ANTLR](/tools/antlr)
 * Parser Expression Grammars (PEGs)
+* [myna](https://github.com/cdiggins/myna-parser): Myna is an efficient and easy to use parsing library for JavaScript written using TypeScript 2.0 which targets ECMAScript 5.1.
+
 
 
 
