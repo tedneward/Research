@@ -1,6 +1,6 @@
 title=Lux
 tags=language, jvm, nodejs, functional, static
-summary=Meant to be a functional, statically-typed Lisp that will run on several platforms, such as the Java Virtual Machine and JavaScript interpreters.
+summary=Functional, statically-typed Lisp that will run on several platforms, such as the Java Virtual Machine and JavaScript interpreters.
 ~~~~~~
 
 [Source](https://github.com/LuxLang/lux)

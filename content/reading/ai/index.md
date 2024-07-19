@@ -87,3 +87,8 @@ summary=A collection of language-agnostic links on AI and Machine Learning.
 ## Coding Assistants/Interaction
 
 * ["How to use GPT as a natural language to SQL query engine"](https://www.infoworld.com/article/3700858/how-to-use-gpt-as-a-natural-language-to-sql-query-engine.html)
+
+## Retrieval-Augmented Generation (RAG)
+
+* [Wikipedia: Prompt Engineering - Retrieval Augmented Generation](https://en.wikipedia.org/wiki/Prompt_engineering#Retrieval-augmented_generation)
+* ["Cognita: An Open Source Framework for Building Modular RAG Applications"](https://www.marktechpost.com/2024/05/27/cognita-an-open-source-framework-for-building-modular-rag-applications/)
