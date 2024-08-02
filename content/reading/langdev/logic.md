@@ -1,5 +1,5 @@
 title=Thoughts and reading on logic languages
-title=reading, language
+tags=reading, language
 summary=Articles, links, websites, etc
 ~~~~~~
 
