@@ -1,5 +1,5 @@
 title=ANTLR
-tags=tool, language, jvm, clr, native
+tags=tool, language, jvm, clr, native, language development
 summary=Code-generating parser tool
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=People in language development
-tags=reading, langdev
+tags=reading, language development
 summary=Notable names.
 ~~~~~~
 

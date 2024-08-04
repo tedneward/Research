@@ -1,5 +1,5 @@
 title=Ohm
-tags=language, library, tool, ecmascript, langdev
+tags=language, library, tool, ecmascript, language development
 summary=A library and language for building parsers, interpreters, compilers, etc.
 ~~~~~~
 

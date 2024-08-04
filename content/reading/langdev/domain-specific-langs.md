@@ -1,5 +1,5 @@
 title=Reading on Domain-Specific Languages (DSLs)
-tags=reading, language, langdev
+tags=reading, language, language development
 summary=A collection of articles and other links.
 ~~~~~~
 

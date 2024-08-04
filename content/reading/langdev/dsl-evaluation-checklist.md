@@ -1,5 +1,5 @@
 title=DSL Evaluation Checklist
-tags=langdev
+tags=reading, language development
 summary=A collection of questions for evaluating DSLS.
 ~~~~~~
 
