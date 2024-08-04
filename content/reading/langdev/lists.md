@@ -131,6 +131,7 @@ Benjamin Pierce, the author of TAPL, also has a [similar list](http://www.cis.up
 * may be more...?
 
 Immo Landwerth has done a collection of videos on building a language called Minsk, for the CLR platform, in a live-streaming style: [Source](https://github.com/terrajobst/minsk):
+
 * [Episode 1](https://www.youtube.com/watch?v=wgHIkdUQbp0&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y)
 * [Episode 2](https://www.youtube.com/watch?v=3XM9vUGduhk&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=2)
 * [Episode 3](https://www.youtube.com/watch?v=61dLQNgd9o8&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=3)
@@ -161,6 +162,7 @@ Immo Landwerth has done a collection of videos on building a language called Min
 [Brown CS: CSCI 1730: Programming Languages](http://cs.brown.edu/courses/csci1730/2012/) [Videos](http://cs.brown.edu/courses/cs173/2012/Videos/)
 
 [OPLSS (Oregon Programming Languages Summer School)](https://cs.uoregon.edu/research/summerschool/)
+
 	- 2019-2017, 2003: https://www.youtube.com/channel/UCDe6N9R7U-RYWA57wzJQ2SQ/playlists
 	- 2016-2015: https://www.youtube.com/channel/UCsON_8vogp4nCQFTnfu43kA/playlists
 	- free video lectures available, including the introductory ones based on Practical Foundations for Programming Languages: http://www.cs.cmu.edu/~rwh/pfpl/
@@ -170,12 +172,14 @@ Immo Landwerth has done a collection of videos on building a language called Min
 [Programming Language Implementation Summer School (PLISS)](https://pliss2019.github.io/talks.html) [YouTube](https://www.youtube.com/channel/UCofC5zis7rPvXxWQRDnrTqA/playlists)
 
 University of Utah: Advanced Compilers - John Regehr
+
 	- Weeks 1 and 2: http://blog.regehr.org/archives/1419
 	- Weeks 3-5: http://blog.regehr.org/archives/1428
 
 [UW professor Dan Grossman's teaching materials](https://homes.cs.washington.edu/~djg/teachingMaterials/)
 
 [UW CSE CSEP 501](https://courses.cs.washington.edu/courses/csep501/): Compilers - Hal Perkins
+
 	- Winter 2018
 		- Homepage: https://courses.cs.washington.edu/courses/csep501/18sp/
 		- Lecture Videos: https://courses.cs.washington.edu/courses/csep501/18sp/video/
@@ -187,6 +191,7 @@ University of Utah: Advanced Compilers - John Regehr
 [SFU CMPT 886](http://www.cs.sfu.ca/~wsumner/teaching/886/15/schedule.html): Program Analysis and Reliability - Nick Sumner, Spring 2015 [YouTube playlist](https://www.youtube.com/playlist?list=PLNC6lmsIySCOPjY8IwKBtD2cqe-MMgIGM)
 
 UCSD CSE 131: Compiler Construction
+
 	- Fall 2019; Joseph Gibbs Politz
 		- https://ucsd-cse131-f19.github.io/
 		- https://podcast.ucsd.edu/watch/fa19/cse131_a00
@@ -195,6 +200,7 @@ UCSD CSE 131: Compiler Construction
 		- https://podcast.ucsd.edu/watch/wi18/cse131_a00
 
 UCSD CSE 231: Advanced Compiler Design
+
 	- Winter 2019; Sorin Lerner
 		- https://podcast.ucsd.edu/watch/wi19/cse231_a00
 		- https://ucsd-pl.github.io/cse231/wi19/
@@ -206,6 +212,7 @@ UCSD CSE 231: Advanced Compiler Design
 ## Detection
 
 Pre-defined Compiler Macros - https://sourceforge.net/p/predef/wiki/
+
 	- Architectures - https://sourceforge.net/p/predef/wiki/Architectures/
 	- Compilers - https://sourceforge.net/p/predef/wiki/Compilers/
 	- Endianness - https://sourceforge.net/p/predef/wiki/Endianness/
@@ -214,6 +221,7 @@ Pre-defined Compiler Macros - https://sourceforge.net/p/predef/wiki/
 	- Standard Libraries - https://sourceforge.net/p/predef/wiki/Libraries/
 
 SPY: Friendly Neighborhood C++17 Constexpr Predef Wrapper
+
 	- OS, compiler, libc, stdlib detection
 	- https://github.com/jfalcou/spy
 
