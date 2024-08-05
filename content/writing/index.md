@@ -1,5 +1,7 @@
 title=Writing
-tags=reading, writing
+type=categorypage
+category=writing
+tags=writing
 summary=Notes and links on writing.
 ~~~~~~
 

@@ -21,6 +21,7 @@ Can I still give an effective presentation without a strong vocabulary? Using si
 I know my topic but I feel stuck; what am I missing? Feeling stuck will stop you from taking action. What is the purpose of the presentation (general-purpose (inform, entertain, persuade or inspire), and specific)? A specific purpose should be clear, short and add value to your audience. It is very important to determine your specific purpose. A simple way to formulate your specific purpose is by knowing what you want your audience to feel, think or do after your presentation.
 
 How do I start creating content for my presentation? Basic skeletal structure: an opening, context setting, key points, support points, application, summary, and conclusion.
+
 * Opening is what you say in the first 30/60 seconds.
 * Context setting is explaining what you are going to tell them. Sometimes this part gets merged into your opening.
 * Key points help to reinforce the specific purpose of your talk. 3-4 key points per talk.
@@ -30,6 +31,7 @@ How do I start creating content for my presentation? Basic skeletal structure: a
 * Conclusion is the showstopper for your presentation. Final 30/60 seconds of your talk.
 
 How do I create a killer opening for my talk? The first 30/60 seconds of your presentation determines how well the rest of the presentation will go. Four keys for a killer opening:
+
 1. Start with a current observation about your surroundings and the occasion for which you are speaking.
 2. Start with a question.
 3. Start with a startling statistic.
@@ -38,6 +40,7 @@ How do I create a killer opening for my talk? The first 30/60 seconds of your pr
 Some specific strategies: take a few seconds to scan your audience before uttering the opening words; do not start with fillers like "the weather is good" or "what a sunny day"; build trust, be open to your audience, by using open palms and a gentle voice to open up and start building trust; listen to your audience and acknowledge any response; be relaxed and comfortable; make them like you by not showing a know-it-all attitude; tone down the entertainment factor for a business presentation.
 
 What is a context setting and how do I create one? Telling your audience what you are going to tell them; a promise you will eventually fulfill or a problem that you can solve during your speech. Specific steps:
+
 1. Context should be audience-focused; the audience should feel it is about them.
 2. Context should be clear and specific; the audience should be able to clearly understand your agenda.
 3. Go even further and add a specificity factor.
@@ -47,13 +50,17 @@ How do I select the key points for my presentation? Interview and audience analy
 How do I support the key points of my presentation? Aristotle says that an effective speech has three key elements: ethos (the credibility of the speaker), logos (the reasoning behind the point), and pathos (the emotional attachment between the speaker and the audience). Use stories, statistics, facts, illustration (PowerPoint, Props, Writing board, Questions and facts).
 
 How to create a compelling story? Stories have the ability to transfer emotions. Elements to a powerful story:
+
 * Must-have elements
+
     * Conflict
     * A character with a desire (hero/heroine)
     * Obstacles in that path
     * Overcoming obstacles
     * The point
+
 * Good-to-have elements
+
     * Event setting -- the time and place
     * Character building -- what the characters look like, their vulnerabilities, etc
     * Dialogue -- what the characters say to each other
@@ -65,6 +72,7 @@ How to create a compelling story? Stories have the ability to transfer emotions.
 How do I best use transitions in my speech? Transitions maintain a smooth and clear flow between points in the speech. If the speech is a journey, transitions are the signboards. Transitions can be verbal, non-verbal (movement, pause, prompted gestures), or a combination of the two.
 
 How can I have an effective summary? Do's and Don'ts for effective Q&A:
+
 * Do take a pause and answer straight to the point.
 * Do clarify any question which isn't clear. Reiterate the question to the audience.
 * Do confirm your answer to all questions by saying, "Does that make sense?" or "Does that answer your question?"
@@ -72,6 +80,7 @@ How can I have an effective summary? Do's and Don'ts for effective Q&A:
 * Don't try to be a know-it-all. If you are not sure, say so; but you can always go find out and get back to them.
 
 How do I create a memorable conclusion for my speech? Seven ideas to a memorable conclusion:
+
 1. Best Wishes Close
 2. Gratitude Close
 3. Answer Close -- if your presentation opens with a question, answer it
@@ -81,6 +90,7 @@ How do I create a memorable conclusion for my speech? Seven ideas to a memorable
 7. Circular Close -- bring the audience back to the starting point
 
 How do I refine my speech content? Four tools to refine your content:
+
 1. Choose simple words with the fewest syllables
 2. Use active voice
 3. Repeat key phrases
@@ -90,6 +100,7 @@ How do I refine my speech content? Four tools to refine your content:
 I know my content very well, so do I really need to care about anything else? Yes; what are your miscommunications? Bad (nervous) habits?
 
 How should I move during my presentation? Posture--straighten your back and head, broaden your shoulders, stand with firm footing. Movement--speakers should move only when they want to communicate an idea. Movement helps in the following areas:
+
 * Transition: transition from one point to another
 * Drama: depict the actual movement that happens in a scene
 * Increase impact: putting a strong foot forward to convey an important and strong point, etc
@@ -97,6 +108,7 @@ How should I move during my presentation? Posture--straighten your back and head
 How do I make effective eye contact? While practicing your speech, close your eyes. Imagine your audience in your mind. Divide into quadrants. Imagine talking to one person in the first quadrant, looking them in the eye, for 5 to 10 seconds. Move to the second quadrant: find a person, look them in the eye for 5 to 10 seconds. Third, fourth, repeat.
 
 Is there a simple way to improve the quality of my voice? How to...
+
 * ... sound clear: speak every word with clarity. Make sure you pronounce every syllable of each word. Complete every word before you go on to the next word. Make sure you enunciate the endings of words properly. Make sure you maintain breath and energy throughout the sentence.
 * ... find your optimum tone: Practice your speech in a tone that you would use with a friend. Then gradually increase your tone from soft to loud. When you feel that your voice feels natural and resonant, that's your optimum tone.
 * ... control the pace of your speech: the human ear can grasp words easily when spoken at a range of 120 to 160 words per minute. Find your current pace of speech (start reading content and stop the timer after 1 minute) and adjust accordingly. Note that certain parts of the speech work great if spoken slowly.
@@ -110,6 +122,7 @@ How to create correct facial expressions during the presentation? Facial express
 
 # Chapter 4: Preparation Steps
 How can I create and maintain my connection with the audience? Tools for creating a connection:
+
 * Your introduction. Plays a crucial role to build likability and trust. What expertise you bring to the table; why are you qualified to speak, without ego-boosting. How you can help your audience. An interest apart from the topic or any light remark.
 * Use the pronouns you/we. Have as many "you"-focused sentences as possible. Frame content in such a way that you transition and involve the audience using "you" or "we" so that they understand that you care for them.
 * Speak in the third person. Minimize the use of "I". Unless it is your own original thought, realization, finding, experience or learning, do not use "I". If the idea or teaching is someone else's, use him/her in the reference. My (your) job is to simplify and spread the information. This helps in establishing your credibility.
@@ -122,6 +135,7 @@ Is there a particular strategy to ensure that the audience will continue to list
 What is the final checkpoint, before I freeze my content? The most important part in your content preparation is the clarity of your presentation.
 
 Can the venue affect my presentation? Yes, in various ways:
+
 * Venue type: board room? Classroom-style? Auditorium?
 * Time limit: are you going to be timed by someone else or will you manage it by yourself? 
 * Projector: check if the venue has a projector
@@ -130,6 +144,7 @@ Can the venue affect my presentation? Yes, in various ways:
 * Audibility: verify audibility with a friend/colleague by having them sit in all corners of the room
 
 Can you give me the exact steps to practice my speech? Steps for practice:
+
 * Stand straight with firm footing. Keep your spine and head straight.
 * Keep your hands at your sides with your fingers slightly curled.
 * Keep your feet at around 8-12 inches distant from each other
@@ -158,6 +173,7 @@ How to dress for my presentation? Groom well.
 Is there a checklist for the presentation day? Suggestions:
 
 Before going to the venue:
+
 * Do eat light food. Breads and salads; you need energy to show energy in your presentation
 * Do charge your laptop beforehand. Take your charger. If you have a PPT, have a backup.
 * Do take a cab/car instead of public transport. If you are going to drive, start early to avoid traffic jams and parking problems
@@ -165,6 +181,7 @@ Before going to the venue:
 * Do reach the venue early.
 
 After going to the venue:
+
 * Do chat with the presentation planner and check the venue setting
 * Do check if the projector is working. Try to display your PPT.
 * Do check if you have a proper writing board and a working marker (if you are going to use one)
@@ -179,6 +196,7 @@ After going to the venue:
 * Do converse with your audience after your greetings. Ask questions on what brings them there. Keep it quick and move on; it has to be natural
 
 What if my heart starts pounding, ears get heated and hands become cold, 10 minutes before the presentation? Steps to tackle last-minute anxiety:
+
 * Rub your left palm with your right hand for 10-15 seconds. Reverse.
 * Slowly, breathe in and breathe out.
 * If necessary, go to a private corner where no one is around and do some vigorous punching and kicking in the air. This boosts energy and excitement.
@@ -189,6 +207,7 @@ How do I carry myself from seat to stage, once the anchor calls my name? Get up 
 How do I handle myself during the actual presentation? Be present. Be passionate. Be energetic.
 
 How do I handle any unexpected problems during the actual presentation? Do not get flustered. Know that your audience will empathize if there is a problem and always want you to do well. Some example scenarios:
+
 * Losing train of thought. Strategies for bouncing back: have some stock lines in place that can be used in case you lose your train of thought; even if you forget, do not try to go back and share the missed portion; remember the structure, instead of the words.
 * Power shuts down. Just be cool.
 * Cell phone ringing. Keep a few lines ready to create humor: "Tell your friend that I will call him later."

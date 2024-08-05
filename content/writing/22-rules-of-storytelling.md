@@ -45,7 +45,7 @@ summary=A helpful list for becoming a better storyteller from the world’s anim
 
 20. Exercise. Take the building blocks of a movie you dislike. How would you rearrange them into what you DO like?
 
-21. Identify with your situation/characters. Don’t write “cool.” What would make YOU act that way?
+21. Identify with your situation/characters. Don’t write "cool." What would make YOU act that way?
 
 22. Putting it on paper only allows you to start fixing it. If a perfect idea stays in your head, you’ll never share it with anyone.
 
