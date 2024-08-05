@@ -26,3 +26,5 @@ summary=Notable names.
 - [Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu)
 - [Ronald Garcia](https://www.cs.ubc.ca/~rxg)
 - [TK](https://iamtk.co)
+
+[Interview with Jesper Louis Andsersen](https://medium.com/@unbalancedparen/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#.g4q9w4eqq) about a ton of languages.

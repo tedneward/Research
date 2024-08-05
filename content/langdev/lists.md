@@ -33,6 +33,8 @@ Compiler Design: Theory, Tools, and Examples - Seth D. Bergmann
 
 [Essentials of Programming Languages](http://www.eopl3.com/): EOPL, as it’s better known, introduces readers to the internal workings of programming languages by describing small programming languages and creating an interpreter for each one. The book is very hands-on, with lots of exercises for the reader to modify the interpreters with new features. It touches on the ideas of reasoning about languages and formal semantics, but mostly sticks to the interpreter-as-semantics approach.
 
+[Great Works in Programming Languages](https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml) - a list by Dr. Pierce, the professor who wrote Types and Programming Languages and Software Foundations, about great papers in the PL field
+
 [How to Design Programs](https://htdp.org/)
 
 [Implementing Functional Languages: A Tutorial](http://research.microsoft.com/en-us/um/people/simonpj/Papers/pj-lester-book/) - Simon Peyton Jones, David Lester

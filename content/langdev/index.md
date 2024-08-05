@@ -7,135 +7,89 @@ tags=language, language development
 
 ## Reading
 
-### B:
+[A Generic Framework for Automated QA of Software Models](https://thesai.org/Downloads/Volume5No1/Paper_5-A_Generic_Framework_for_Automated_Quality_Assurance_of_Software_Models.pdf): references the OMG's Generic AST Model (GASTM) which I think is related to Abstract Syntax Tree Metamodeling (ASTM), [here](https://www.omg.org/spec/ASTM/1.0/About-ASTM) ([PDF](https://www.omg.org/spec/ASTM/1.0/PDF)) This kinda looks like the generic AST I was futzing about with.
 
-- [Build Your Own Programming Language](https://github.com/PacktPublishing/Build-Your-Own-Programming-Language) (source)
-
-### C:
-
+- [Basic Type checking](./BasicTypechecking.pdf) (PDF)
 - [The Development of the C Language](https://www.bell-labs.com/usr/dmr/www/chist.pdf)
 - [Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism](https://www.cl.cam.ac.uk/~nk480/bidir.pdf);
 - Creating the Bolt compiler (series):
 
-  - [Part 1: How I wrote my own "proper" programming language](https://mukulrathi.com/create-your-own-programming-language/intro-to-compiler/);
-  - [Part 2: So how do you structure a compiler project?](https://mukulrathi.com/create-your-own-programming-language/compiler-engineering-structure/);
-  - [Part 3: Writing a Lexer and Parser using OCamllex and Menhir](https://mukulrathi.com/create-your-own-programming-language/parsing-ocamllex-menhir/);
-  - [Part 4: An accessible introduction to type theory and implementing a type-checker](https://mukulrathi.com/create-your-own-programming-language/intro-to-type-checking/);
-  - [Part 5: A tutorial on liveness and alias dataflow analysis](https://mukulrathi.com/create-your-own-programming-language/data-race-dataflow-analysis/);
-  - [Part 6: Desugaring - taking our high-level language and simplifying it!](https://mukulrathi.com/create-your-own-programming-language/lower-language-constructs-to-llvm/);
-  - [Part 7: A Protobuf tutorial for OCaml and C++](https://mukulrathi.com/create-your-own-programming-language/protobuf-ocaml-cpp-tutorial/);
-  - [Part 8: A Complete Guide to LLVM for Programming Language Creators](https://mukulrathi.com/create-your-own-programming-language/llvm-ir-cpp-api-tutorial/);
-  - [Part 9: Implementing Concurrency and our Runtime Library](https://mukulrathi.com/create-your-own-programming-language/concurrency-runtime-language-tutorial/);
-  - [Part 10: Generics - adding polymorphism to Bolt](https://mukulrathi.com/create-your-own-programming-language/generics-parametric-polymorphism/);
-  - [Part 11: Adding Inheritance and Method Overriding to Our Language](https://mukulrathi.com/create-your-own-programming-language/inheritance-method-overriding-vtable/);
+    - [Part 1: How I wrote my own "proper" programming language](https://mukulrathi.com/create-your-own-programming-language/intro-to-compiler/);
+    - [Part 2: So how do you structure a compiler project?](https://mukulrathi.com/create-your-own-programming-language/compiler-engineering-structure/);
+    - [Part 3: Writing a Lexer and Parser using OCamllex and Menhir](https://mukulrathi.com/create-your-own-programming-language/parsing-ocamllex-menhir/);
+    - [Part 4: An accessible introduction to type theory and implementing a type-checker](https://mukulrathi.com/create-your-own-programming-language/intro-to-type-checking/);
+    - [Part 5: A tutorial on liveness and alias dataflow analysis](https://mukulrathi.com/create-your-own-programming-language/data-race-dataflow-analysis/);
+    - [Part 6: Desugaring - taking our high-level language and simplifying it!](https://mukulrathi.com/create-your-own-programming-language/lower-language-constructs-to-llvm/);
+    - [Part 7: A Protobuf tutorial for OCaml and C++](https://mukulrathi.com/create-your-own-programming-language/protobuf-ocaml-cpp-tutorial/);
+    - [Part 8: A Complete Guide to LLVM for Programming Language Creators](https://mukulrathi.com/create-your-own-programming-language/llvm-ir-cpp-api-tutorial/);
+    - [Part 9: Implementing Concurrency and our Runtime Library](https://mukulrathi.com/create-your-own-programming-language/concurrency-runtime-language-tutorial/);
+    - [Part 10: Generics - adding polymorphism to Bolt](https://mukulrathi.com/create-your-own-programming-language/generics-parametric-polymorphism/);
+    - [Part 11: Adding Inheritance and Method Overriding to Our Language](https://mukulrathi.com/create-your-own-programming-language/inheritance-method-overriding-vtable/);
 
-- [Crafting Interpreters](http://craftinginterpreters.com/) by Bob Nystrom ([Github](https://github.com/munificent/craftinginterpreters)): A neo-classic book, walking through the construction of an interpreted language.
-
-    - ["My Experience Crafting an Interpreter with Rust"](https://ceronman.com/2021/07/22/my-experience-crafting-an-interpreter-with-rust/): Book material ported to Rust.
-
-### G:
-
-- [Great Works in Programming Languages](https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml) - a list by Dr. Pierce, the professor who wrote Types and Programming Languages and Software Foundations, about great papers in the PL field
-
-### H:
-
-- [How OCaml type checker works -- or what polymorphism and garbage collection have in common](https://okmij.org/ftp/ML/generalization.html);
-
-### L:
-
+- [CS6120: Advanced Compilers: The Self-Guided Online Course](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/): The work consists of reading papers and open-source hacking tasks, which use LLVM and an educational IR invented just for this class.
+- [Dynamic Language Embedding](https://scg.unibe.ch/archive/phd/renggli-phd.pdf)
+- [Flattening ASTs (and Other Compiler Data Structures)](https://www.cs.cornell.edu/~asampson/blog/flattening.html)
+- ["A Generic Abstract Syntax Model for Embedded Languages"](https://www.cs.tufts.edu/~nr/cs257/archive/emil-axelsson/paper.pdf): "Representing a syntax tree using a data type often involves having many similar-looking constructors. Functions operating on such types often end up having many similar-looking cases. Different languages often make use of similar-looking constructions. We propose a generic model of abstract syntax trees capable of representing a wide range of typed languages. Syntactic constructs can be composed in a modular fashion enabling reuse of abstract syntax and syntactic processing within and across languages. Building on previous methods of encoding extensible data types in Haskell, our model is a pragmatic solution to Wadler’s “expression problem". Its practicality has been confirmed by its use in the implementation of the embedded language Feldspar."
+- [Generic Abstract Syntax Tree (geast)](https://angeljavalopez.medium.com/geast-a-generic-abstract-syntax-tree-c7feb681b6b5)
+- ["GAST"](./GAST_A_generic_AST_representation_for_language-ind.pdf) (PDF)
+- [How OCaml type checker works -- or what polymorphism and garbage collection have in common](https://okmij.org/ftp/ML/generalization.html)
+- ["How Big Should a Programming Language Be?"](https://tratt.net/laurie/blog/2023/how_big_should_a_programming_language_be.html): "... a long-held opinion I have about programming language design: we have a tendency to keep adding features to a language until it becomes so big that its sheer size makes it difficult to use reliably." *Yes!*
+- [Intrinsically-Typed Definitional Interpreters for Linear, Session-Typed Languages](https://eelcovisser.org/publications/2020/RouvoetPKV20.pdf)
+- ["Languages I want to write"](https://blog.wesleyac.com/posts/language-todos)
+- ["Less is more: language features"](http://blog.ploeh.dk/2015/04/13/less-is-more-language-features/)
 - [Let Arguments Go First](https://xnning.github.io/papers/let-arguments-go-first.pdf);
-- [Let's Build a Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/): Up to 19 parts up through 2020.
-- [LLVM Tutorial: Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html)
-
-### N:
-
 - [Notation as a Tool of Thought](https://dl.acm.org/doi/pdf/10.1145/358896.358899)
-
-### P:
-
-- [Programming type-safe transformations using higher-order abstract syntax](https://www.cs.mcgill.ca/~bpientka/papers/cc.pdf)
+- [Open, extensible object models](https://piumarta.com/software/cola/objmodel2.pdf): "The artificial distinction between implementation language and end-user language can be eliminated by implementing the language using only end-user objects and messages, making the implementation accessible for arbitrary modification by programmers. We show that three object types and five methods are sufficient to bootstrap an extensible object model and messaging semantics that are described entirely in terms of those same objects and messages."
+- [Practical Foundations for Programming Languages](./practical-foundations.pdf) (PDF)
+- [Principles of Programming Languages (course)](https://bguppl.github.io/interpreters/practice_sessions/ps4.html) ([Source](https://github.com/bguppl/interpreters))
+- [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
 - [PROGRAMMING A PROBLEM-ORIENTED LANGUAGE](http://www.forth.org/POL.pdf)
-
-### R:
-
+- [Programming type-safe transformations using higher-order abstract syntax](https://www.cs.mcgill.ca/~bpientka/papers/cc.pdf)
 - [A Retargetable C Compiler](./a-retargetable-c-compiler-design-and-implementation.pdf); makes use of literate programming (/languages/noweb)
-
-### S:
-
 - [S-Expressions in Javascript](https://www.freecodecamp.org/news/s-expressions-in-javascript/)
-- Subtype Inference by Example (series):
-
-  - [Part 1: Introducing CubiML](https://blog.polybdenum.com/2020/07/04/subtype-inference-by-example-part-1-introducing-cubiml.html);
-  - [Part 2: Parsing and Biunification](https://blog.polybdenum.com/2020/07/11/subtype-inference-by-example-part-2-parsing-and-biunification.html);
-  - [Part 3: The Typechecker Frontend](https://blog.polybdenum.com/2020/07/18/subtype-inference-by-example-part-3-the-typechecker-frontend.html);
-  - [Part 4: The Typechecker Core](https://blog.polybdenum.com/2020/07/25/subtype-inference-by-example-part-4-the-typechecker-core.html);
-  - [Part 5: Incremental Reachability](https://blog.polybdenum.com/2020/08/01/subtype-inference-by-example-part-5-incremental-reachability.html);
-  - [Part 6: Numeric Types and Operators](https://blog.polybdenum.com/2020/08/08/subtype-inference-by-example-part-6-numeric-types-and-operators.html);
-  - [Part 7: Spanned Error Messages](https://blog.polybdenum.com/2020/08/15/subtype-inference-by-example-part-7-spanned-error-messages.html);
-  - [Part 8: Mutability](https://blog.polybdenum.com/2020/08/22/subtype-inference-by-example-part-8-mutability.html);
-  - [Part 9: Match Wildcards, Record Extension and Row Polymorphism](https://blog.polybdenum.com/2020/08/29/subtype-inference-by-example-part-9-nonexhaustive-matching-record-extensions-and-row-polymorphism.html);
-  - [Part 10: Let Polymorphism](https://blog.polybdenum.com/2020/09/05/subtype-inference-by-example-part-10-let-polymorphism.html);
-  - [Part 11: The Value Restriction and Polymorphic Recursion](https://blog.polybdenum.com/2020/09/19/subtype-inference-by-example-part-11-the-value-restriction.html);
-  - [Part 12: Flow Typing and Mixed Comparison Operators](https://blog.polybdenum.com/2020/09/26/subtype-inference-by-example-part-12-flow-typing-and-mixed-comparison-operators.html);
-  - [Part 13: Conditional Flow Constraints, Presence Polymorphism, and Type Level Computation](https://blog.polybdenum.com/2020/10/03/subtype-inference-by-example-part-13-conditional-flow-types-and-type-level-computation.html);
-  - [Part 14: Type Annotations— What are they good for?](https://blog.polybdenum.com/2020/10/10/subtype-inference-by-example-part-14-type-annotation.html);
-  - [Part 15: Monomorphic Type Annotations](https://blog.polybdenum.com/2020/10/17/subtype-inference-by-example-part-15-type-annotations.html);
-
-### W:
-
-- [Write Yourself a Scheme in 48 Hours](https://upload.wikimedia.org/wikipedia/commons/a/aa/Write_Yourself_a_Scheme_in_48_Hours.pdf);
+- ["Three Things I Wish I Knew When I Started Designing Languages"](https://www.youtube.com/watch?v=oa0qq75i9oc)
+- ["The Naked Truth About Writing a Programming Language"](https://www.digitalmars.com/articles/b90.html)
+- ["A wish list for a new programming language"](http://www.drmaciver.com/2015/07/a-wish-list/)
 
 ---
-    
-* [TinyML: A tiny functional language interpreter](https://d3s.mff.cuni.cz/files/teaching/nprg077/02-tinyml.pdf) (Tomas Petricek)
-* [CS6120: Advanced Compilers: The Self-Guided Online Course](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/): The work consists of reading papers and open-source hacking tasks, which use LLVM and an educational IR invented just for this class.
-* [Dynamic Language Embedding](https://scg.unibe.ch/archive/phd/renggli-phd.pdf)
-* [X-expressions in XMLisp: S-expressions and Extensible Markup Language Unite](https://home.cs.colorado.edu/~ralex/papers/PDF/X-expressions.pdf): "XMLisp unites S-expressions with XML into X-expressions that unify the notions of data sharing with computation. Using a combination of the Meta Object Protocol (MOP), readers and printers, X-expressions uniquely integrate XML at a language, not API level, into Lisp in a way that could not be done with other programming languages."
-* [Principles of Programming Languages course](https://bguppl.github.io/interpreters/): [Source](https://github.com/bguppl/interpreters)
-* [Generic Abstract Syntax Tree (geast)](https://angeljavalopez.medium.com/geast-a-generic-abstract-syntax-tree-c7feb681b6b5)
-* ["GAST"](./GAST_A_generic_AST_representation_for_language-ind.pdf) (PDF)
-* [Practical Foundations for Programming Languages](./practical-foundations.pdf) (PDF)
-* ["A Generic Abstract Syntax Model for Embedded Languages"](https://www.cs.tufts.edu/~nr/cs257/archive/emil-axelsson/paper.pdf): "Representing a syntax tree using a data type often involves having many similar-looking constructors. Functions operating on such types often end up having many similar-looking cases. Different languages often make use of similar-looking constructions. We propose a generic model of abstract syntax trees capable of representing a wide range of typed languages. Syntactic constructs can be composed in a modular fashion enabling reuse of abstract syntax and syntactic processing within and across languages. Building on previous methods of encoding extensible data types in Haskell, our model is a pragmatic solution to Wadler’s “expression problem". Its practicality has been confirmed by its use in the implementation of the embedded language Feldspar."
+
+## Teaching/ExampleImplementations
+
+* [Build Your Own Programming Language](https://github.com/PacktPublishing/Build-Your-Own-Programming-Language) (source)
+* [Crafting Interpreters](http://craftinginterpreters.com/) by Bob Nystrom ([Github](https://github.com/munificent/craftinginterpreters)): A neo-classic book, walking through the construction of an interpreted language.
+
+    * ["My Experience Crafting an Interpreter with Rust"](https://ceronman.com/2021/07/22/my-experience-crafting-an-interpreter-with-rust/): Book material ported to Rust.
+
+* [Language Incubator](https://github.com/EarlGray/language-incubator): Repo of language experiments/explorations; "An incubator/sandbox for learning compilers, interpreters, code generation, virtual machines, assemblers, JITs, etc."
+* [Let's Build a Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/): Up to 19 parts up through 2020.
+* [LLVM Tutorial: Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html)
+* [Nanopass](https://legacy.cs.indiana.edu/~dyb/pubs/nano-jfp.pdf): A framework for compiler education | [Source](https://github.com/nanopass/) in Racket or Scheme
+* Subtype Inference by Example (series):
+
+    - [Part 1: Introducing CubiML](https://blog.polybdenum.com/2020/07/04/subtype-inference-by-example-part-1-introducing-cubiml.html);
+    - [Part 2: Parsing and Biunification](https://blog.polybdenum.com/2020/07/11/subtype-inference-by-example-part-2-parsing-and-biunification.html);
+    - [Part 3: The Typechecker Frontend](https://blog.polybdenum.com/2020/07/18/subtype-inference-by-example-part-3-the-typechecker-frontend.html);
+    - [Part 4: The Typechecker Core](https://blog.polybdenum.com/2020/07/25/subtype-inference-by-example-part-4-the-typechecker-core.html);
+    - [Part 5: Incremental Reachability](https://blog.polybdenum.com/2020/08/01/subtype-inference-by-example-part-5-incremental-reachability.html);
+    - [Part 6: Numeric Types and Operators](https://blog.polybdenum.com/2020/08/08/subtype-inference-by-example-part-6-numeric-types-and-operators.html);
+    - [Part 7: Spanned Error Messages](https://blog.polybdenum.com/2020/08/15/subtype-inference-by-example-part-7-spanned-error-messages.html);
+    - [Part 8: Mutability](https://blog.polybdenum.com/2020/08/22/subtype-inference-by-example-part-8-mutability.html);
+    - [Part 9: Match Wildcards, Record Extension and Row Polymorphism](https://blog.polybdenum.com/2020/08/29/subtype-inference-by-example-part-9-nonexhaustive-matching-record-extensions-and-row-polymorphism.html);
+    - [Part 10: Let Polymorphism](https://blog.polybdenum.com/2020/09/05/subtype-inference-by-example-part-10-let-polymorphism.html);
+    - [Part 11: The Value Restriction and Polymorphic Recursion](https://blog.polybdenum.com/2020/09/19/subtype-inference-by-example-part-11-the-value-restriction.html);
+    - [Part 12: Flow Typing and Mixed Comparison Operators](https://blog.polybdenum.com/2020/09/26/subtype-inference-by-example-part-12-flow-typing-and-mixed-comparison-operators.html);
+    - [Part 13: Conditional Flow Constraints, Presence Polymorphism, and Type Level Computation](https://blog.polybdenum.com/2020/10/03/subtype-inference-by-example-part-13-conditional-flow-types-and-type-level-computation.html);
+    - [Part 14: Type Annotations— What are they good for?](https://blog.polybdenum.com/2020/10/10/subtype-inference-by-example-part-14-type-annotation.html);
+    - [Part 15: Monomorphic Type Annotations](https://blog.polybdenum.com/2020/10/17/subtype-inference-by-example-part-15-type-annotations.html);
+
 * [Sudolang: A powerful programming language for LLMs](https://medium.com/javascript-scene/sudolang-a-powerful-pseudocode-programming-language-for-llms-d64d42aa719b)
+* [The Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler) (JS)
+* [TinyML: A tiny functional language interpreter](https://d3s.mff.cuni.cz/files/teaching/nprg077/02-tinyml.pdf) (Tomas Petricek)
+* [Write Yourself a Scheme in 48 Hours](https://upload.wikimedia.org/wikipedia/commons/a/aa/Write_Yourself_a_Scheme_in_48_Hours.pdf);
+* [X-expressions in XMLisp: S-expressions and Extensible Markup Language Unite](https://home.cs.colorado.edu/~ralex/papers/PDF/X-expressions.pdf): "XMLisp unites S-expressions with XML into X-expressions that unify the notions of data sharing with computation. Using a combination of the Meta Object Protocol (MOP), readers and printers, X-expressions uniquely integrate XML at a language, not API level, into Lisp in a way that could not be done with other programming languages."
 
 
-## Articles/Papers
-
-["Three Things I Wish I Knew When I Started Designing Languages"](https://www.youtube.com/watch?v=oa0qq75i9oc)
-
-["The Naked Truth About Writing a Programming Language"](https://www.digitalmars.com/articles/b90.html)
-
-["How Big Should a Programming Language Be?"](https://tratt.net/laurie/blog/2023/how_big_should_a_programming_language_be.html): "... a long-held opinion I have about programming language design: we have a tendency to keep adding features to a language until it becomes so big that its sheer size makes it difficult to use reliably." *Yes!*
-
-[Open, extensible object models](https://piumarta.com/software/cola/objmodel2.pdf): "The artificial distinction between implementation language and end-user language can be eliminated by implementing the language using only end-user objects and messages, making the implementation accessible for arbitrary modification by programmers. We show that three object types and five methods are sufficient to bootstrap an extensible object model and messaging semantics that are described entirely in terms of those same objects and messages."
-
-[Intrinsically-Typed Definitional Interpreters for Linear, Session-Typed Languages](https://eelcovisser.org/publications/2020/RouvoetPKV20.pdf)
-
-[Interview with Jesper Louis Andsersen](https://medium.com/@unbalancedparen/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#.g4q9w4eqq) about a ton of languages.
-
-["Less is more: language features"](http://blog.ploeh.dk/2015/04/13/less-is-more-language-features/)
-
-["Languages I want to write"](https://blog.wesleyac.com/posts/language-todos)
-
-["A wish list for a new programming language"](http://www.drmaciver.com/2015/07/a-wish-list/)
-
-[A Generic Framework for Automated QA of Software Models](https://thesai.org/Downloads/Volume5No1/Paper_5-A_Generic_Framework_for_Automated_Quality_Assurance_of_Software_Models.pdf): references the OMG's Generic AST Model (GASTM) which I think is related to Abstract Syntax Tree Metamodeling (ASTM), [here](https://www.omg.org/spec/ASTM/1.0/About-ASTM) ([PDF](https://www.omg.org/spec/ASTM/1.0/PDF)) This kinda looks like the generic AST I was futzing about with.
-
-[The Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler) (JS)
-
-[Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
-
-[Nanopass](https://legacy.cs.indiana.edu/~dyb/pubs/nano-jfp.pdf): A framework for compiler education | [Source](https://github.com/nanopass/) in Racket or Scheme
-
-[Language Incubator](https://github.com/EarlGray/language-incubator): Repo of language experiments/explorations; "An incubator/sandbox for learning compilers, interpreters, code generation, virtual machines, assemblers, JITs, etc."
-
-[Principles of Programming Languages (course)](https://bguppl.github.io/interpreters/practice_sessions/ps4.html) ([Source](https://github.com/bguppl/interpreters))
-
-[Flattening ASTs (and Other Compiler Data Structures)](https://www.cs.cornell.edu/~asampson/blog/flattening.html)
-
----
-
-## Native/raw
+### Native/raw
 [AsmInterpreter](https://github.com/yekyam/AsmInterpreter): A simple assembly interpreter to help people with understanding the language without the hassle of setup.
 
 [Build your own Lisp](http://www.buildyourownlisp.com/contents) teaches C by building a Lisp.
@@ -148,18 +102,14 @@ tags=language, language development
 
 [Writer your own C compiler from scratch with Python](https://medium.com/@pasi_pyrro/how-to-write-your-own-c-compiler-from-scratch-with-python-90ab84ffe071)
 
----
-
-## LLVM
+### LLVM
 [Writing your own toy language](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/) using flex, bison, LLVM; [code](https://github.com/lsegal/my_toy_compiler)
 
 [Implementing a JIT Compiled Language with Haskell and LLVM](https://www.stephendiehl.com/llvm/)
 
 [A Tutorial on How to Write a Compiler Using LLVM](https://tomassetti.me/a-tutorial-on-how-to-write-a-compiler-using-llvm/)
 
----
-
-## CLR
+### CLR
 [How to Design Worlds (PDF)](https://world.cs.brown.edu/1/htdw-v1.pdf)
 
 [learn-programming-languages](https://github.com/jeanqasaur/learn-programming-languages): Resources for the working programmer to learn more about the fundamentals and theory of programming languages. (Jean Yang)
@@ -172,9 +122,7 @@ Presentation - [Write your own domain specific language with F#](https://www.you
 
 Kaleidoscope: [Implementing a language with LLVM in CSharp](https://ice1000.org/llvm-cs/en/CSharpLangImpl01/): "By the end of the tutorial, we’ll have written a bit less than 1000 lines of non-comment, non-blank, lines of code. With this small amount of code, we’ll have built up a very reasonable compiler for a non-trivial language including a hand-written lexer, parser, AST, as well as code generation support with a JIT compiler. While other systems may have interesting “hello world" tutorials, I think the breadth of this tutorial is a great testament to the strengths of LLVM and why you should consider it if you’re interested in language or compiler design."
 
----
-
-## JVM
+### JVM
 
 [write_your_own_dynamic_language_runtime](https://github.com/forax/write_your_dynamic_language_runtime): How to write interpreters or dynamic compilers for dynamically typed languages on top of the JVM. This repository provides the basis to implement your own
 
@@ -190,9 +138,7 @@ of a dynamically typed language named smalljs which is almost a subset of JavaSc
 
 [Video: Nashorn: implementing a dynamic language runtime on JVM](https://www.youtube.com/watch?v=KKaHkkpdHxg) (Attila Szegedi)
 
----
-
-## Python
+### Python
 
 - https://github.com/menezesd/epic-lang: interpreter for Python-like programming language with braces
 
@@ -217,9 +163,7 @@ of a dynamically typed language named smalljs which is almost a subset of JavaSc
 
 - https://github.com/jszheng/py3antlr4book: Covert ANTLR4 book source code to Python3 version.
 
----
-
-## Rust
+### Rust
 
 [Create Your Own Programming Language with Rust](https://createlang.rs/intro.html): Incomplete but interesting first steps
 
@@ -247,28 +191,19 @@ of a dynamically typed language named smalljs which is almost a subset of JavaSc
 * [Part One: A Basic Parser](https://lunacookies.github.io/lang/1/)
 * [Part Zero: Getting set up](https://lunacookies.github.io/lang/0/)
 
----
-
-## Haskell
+### Haskell
 
 [Write You a Haskell](https://github.com/sdiehl/write-you-a-haskell)
 
----
-
-## Go
+### Go
 
 [A simple Hindley-Milner type system in Go](https://github.com/chewxy/hm)
 
----
+### Learning/AI-related
 
-## Learning/AI-related
+- https://openreview.net/pdf?id=Xh5eMZVONGF : LANGUAGE-AGNOSTIC REPRESENTATION LEARNING OF SOURCE CODE FROM STRUCTURE AND CONTEXT
 
-- https://openreview.net/pdf?id=Xh5eMZVONGF : LANGUAGE-AGNOSTIC REPRESENTATION LEARNING
-OF SOURCE CODE FROM STRUCTURE AND CONTEXT
-
----
-
-## Toy/experimental
+### Toy/experimental
 
 - [jtc](https://github.com/progschj/jtc): A toy programming language interpreter that has no dependencies and sits in a single C++ file. C++11 capable compilers should compile it without extra options other than enabling C++11.
 
