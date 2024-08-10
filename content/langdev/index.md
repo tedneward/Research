@@ -293,8 +293,7 @@ Some links from https://github.com/imteekay/programming-language-research
 
 ## Reading
 
-[A Generic Framework for Automated QA of Software Models](https://thesai.org/Downloads/Volume5No1/Paper_5-A_Generic_Framework_for_Automated_Quality_Assurance_of_Software_Models.pdf): references the OMG's Generic AST Model (GASTM) which I think is related to Abstract Syntax Tree Metamodeling (ASTM), [here](https://www.omg.org/spec/ASTM/1.0/About-ASTM) ([PDF](https://www.omg.org/spec/ASTM/1.0/PDF)) This kinda looks like the generic AST I was futzing about with.
-
+- [A Generic Framework for Automated QA of Software Models](https://thesai.org/Downloads/Volume5No1/Paper_5-A_Generic_Framework_for_Automated_Quality_Assurance_of_Software_Models.pdf): references the OMG's Generic AST Model (GASTM) which I think is related to Abstract Syntax Tree Metamodeling (ASTM), [here](https://www.omg.org/spec/ASTM/1.0/About-ASTM) ([PDF](https://www.omg.org/spec/ASTM/1.0/PDF)) This kinda looks like the generic AST I was futzing about with.
 - [The Development of the C Language](https://www.bell-labs.com/usr/dmr/www/chist.pdf)
 - [Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism](https://www.cl.cam.ac.uk/~nk480/bidir.pdf);
 - [Dynamic Language Embedding](https://scg.unibe.ch/archive/phd/renggli-phd.pdf)
@@ -480,71 +479,50 @@ Some links from https://github.com/imteekay/programming-language-research
 
 ### Toy/experimental
 
-- [jtc](https://github.com/progschj/jtc): A toy programming language interpreter that has no dependencies and sits in a single C++ file. C++11 capable compilers should compile it without extra options other than enabling C++11.
-
-- [Maverick](https://github.com/willianscsilva/interpreter)
-
+- [Bhai](https://github.com/DulLabs/bhai-lang): A toy programming language written in Typescript
+- [Dwarf](https://github.com/nicolasdilley/dwarf-interpreter): A very small scripting language written in Elixir.
 - [Eval](https://github.com/tevelee/Eval): a lightweight interpreter framework written in Swift, evaluating expressions at runtime.
-
-- [Pointless](https://ptls.dev/) ([Source](https://github.com/pointless-lang/pointless)): a scripting language for learning and fun.
-
+- https://github.com/yangtau/hedgehog: a toy programming language
+- https://github.com/mattgreen/hython: Haskell-powered Python 3 interpreter
 - Imp:
 
     - [IMP](https://github.com/jayconrod/imp-interpreter): A minimal interpreter for the toy language, IMP, used as an example for building interpreters.
 
     - https://github.com/nandor/utcn-imp: Imp Language and Interpreter
 
-- [Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/LangImpl01.html): the classic from the LLVM website
-
-- [Dwarf](https://github.com/nicolasdilley/dwarf-interpreter): A very small scripting language written in Elixir.
-
-- [Bhai](https://github.com/DulLabs/bhai-lang): A toy programming language written in Typescript
-
-- https://github.com/hisystems/Interpreter: Simple language interpreter written in pure C#.
-
-- https://github.com/airtrack/luna: A toy interpreter of lua-like language
-
-- https://github.com/sam-astro/Z-Sharp: Custom programming interpreter for ZSharp (Z#), a language I made up.
-
 - https://github.com/proglangclass/interpreter: Language built during the Programming Language Masterclass.
-
-- https://github.com/JohnEarnest/ok: An open-source interpreter for the K5 programming language.
-
-- https://github.com/drmenguin/minilang-interpreter: Interpreter and Read-Eval-Print-Loop for a simple programming language called "MiniLang", written in C++
-
-- https://github.com/bbu/simple-interpreter: A hackable and extensible lexer, parser and interpreter for a minimalistic, imperative, C-like language.
-
-- https://github.com/oriontransfer/PL0-Language-Tools: An implementation of PL/0 including a tree-based interpreter and virtual machine. http://programming.dojo.net.nz/study/pl0-language-tools/index
-
+- https://github.com/hisystems/Interpreter: Simple language interpreter written in pure C#.
 - https://github.com/jamesdhutton/Interpreter: Interpreter for a simple language
-
+- https://github.com/progschj/jtc: A toy programming language interpreter that has no dependencies and sits in a single C++ file. C++11 capable compilers should compile it without extra options other than enabling C++11.
+- [Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/LangImpl01.html): the classic from the LLVM website
+- https://github.com/airtrack/luna: A toy interpreter of lua-like language
+- [Maverick](https://github.com/willianscsilva/interpreter)
 - https://github.com/hijkzzz/mini-interpreter: A simple scripting language (supports anonymous functions and clases)
-
-- https://github.com/mattgreen/hython: Haskell-powered Python 3 interpreter
-
-- https://github.com/yangtau/hedgehog: a toy programming language
-
+- https://github.com/drmenguin/minilang-interpreter: Interpreter and Read-Eval-Print-Loop for a simple programming language called "MiniLang", written in C++
+- https://github.com/JohnEarnest/ok: An open-source interpreter for the K5 programming language.
+- https://github.com/oriontransfer/PL0-Language-Tools: An implementation of PL/0 including a tree-based interpreter and virtual machine. http://programming.dojo.net.nz/study/pl0-language-tools/index
+- [Pointless](https://ptls.dev/) ([Source](https://github.com/pointless-lang/pointless)): a scripting language for learning and fun.
+- https://github.com/bbu/simple-interpreter: A hackable and extensible lexer, parser and interpreter for a minimalistic, imperative, C-like language.
 - https://github.com/totalspectrum/tinyscript
-
-- https://github.com/progschj/jtc: A toy programming language interpreter in a single C++ file
+- https://github.com/sam-astro/Z-Sharp: Custom programming interpreter for ZSharp (Z#), a language I made up.
 
 ### Monkey
 This is the language described by the book ["Writing an Interpreter in Go"](https://interpreterbook.com/). Also has a paired book, ["Writing a Compiler in Go"](https://compilerbook.com/) which appears to include the creation of a virtual machine for executing the compiled code.
 
+* [Source](https://github.com/haifenghuang/monkey) (archived)
 * [C++](https://github.com/zhuzilin/monkey)
 * [C++](https://github.com/yhirose/monkey-cpp)
 * [C++](https://github.com/Imymirror/mirror-monkey)
+* Go: [Monkey in Go](https://github.com/bradford-hamilton/monkey-lang)
 * [Haskell](https://github.com/hatashiro/monkey-hs)
 * [Rust](https://github.com/Rydgel/monkey-rust)
 * [Rust](https://github.com/wadackel/rs-monkey-lang)
-* [Source](https://github.com/haifenghuang/monkey) (archived)
-* [Gadget](https://github.com/vkandola/go-go-gadget): The 'Gadget' interpreter language, implemented in Go, using the Writing An Interpreter In Go book. This language is based off the Monkey interpreter language described in the book, and will be implemented as I progress through the book.
 * Rust: https://github.com/JoshMcguigan/monkey
 * Rust: https://github.com/shuhei/cymbal
 * Rust: https://github.com/hatashiro/monkey-rs
-* Go: [Monkey in Go](https://github.com/bradford-hamilton/monkey-lang)
 * Rust: [Monkey in Rust](https://github.com/bradford-hamilton/monkey_lang_rust)
 * TypeScript: [Monkey in TypeScript](https://github.com/bradford-hamilton/monkey_lang_rust)
+* [Gadget](https://github.com/vkandola/go-go-gadget): The 'Gadget' interpreter language, implemented in Go, using the Writing An Interpreter In Go book. This language is based off the Monkey interpreter language described in the book, and will be implemented as I progress through the book.
 
 ### Lox
 From ["Crafting Interpreters"](http://www.craftinginterpreters.com/):
