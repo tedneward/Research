@@ -20,3 +20,10 @@ summary=A collection of articles and other links.
 [Creating a Ruby DSL: A Guide to Advanced Metaprogramming](https://www.toptal.com/ruby/ruby-dsl-metaprogramming-guide)
 
 [Towards Dynamically Extensible Syntax](https://homepages.cwi.nl/~storm/publications/jh.pdf): introduces CherryLisp -- a Lisp dialect with dynamically user-definable syntax that suffers from neither of [drawbacks listed in the abstract].
+
+Type-safe embedded domain-specific languages:
+
+    - [1/4](https://www.youtube.com/watch?v=4sTeT7poU3g)
+    - [2/4](https://www.youtube.com/watch?v=OM_riJgZF8A)
+    - [3/4](https://www.youtube.com/watch?v=gFJTKJgL2zI)
+    - [4/4](https://www.youtube.com/watch?v=isAu8YuI6SA)

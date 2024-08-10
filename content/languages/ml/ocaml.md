@@ -17,11 +17,10 @@ The OCaml system is the main implementation of the Caml language. It features a 
 The Caml Light system is an older, lightweight implementation of the core Caml language. It is obsolete, no longer actively maintained, and will be removed eventually. We recommend switching immediately to its successor, OCaml.
 
 ### Books
+
 - [Real World OCaml](https://dev.realworldocaml.org/)
 
 ### Workshops
+
 - [Jane Street's Learn OCaml Workshop](https://github.com/janestreet/learn-ocaml-workshop)
-
-
-https://github.com/ocaml/ocaml
-A general-purpose, industrial-strength programming language with an emphasis on expressiveness and safety. OCaml is a multi-paradigm programming language which extends the Caml dialect of ML with object-oriented features.
+- [How Jane Street is making OCaml the new Rust](https://www.efinancialcareers.com/news/2023/06/jane-street-programming-language)

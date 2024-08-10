@@ -105,6 +105,8 @@ Note that while these terms usually are applied most directly to programming lan
 
 * ["Building a Typechecker from scratch"](http://dmitrysoshnikov.com/courses/typechecker/): Untyped programs are often prone to errors, runtime exceptions, and can make debugging much harder. That’s why many production languages implement a static typechecker — an extra module, which is aimed to increase programs safety and make development simpler.
 
+* [Basic Type checking](./BasicTypechecking.pdf) (PDF)
+
 * Subtype Inference by Example: 
 
 	* [Part 1: Introducing CubiML](https://blog.polybdenum.com/2020/07/04/subtype-inference-by-example-part-1-introducing-cubiml.html)
@@ -161,6 +163,56 @@ Note that while these terms usually are applied most directly to programming lan
 
 ## Research
 
-* Hindley-Milner (which is limited by its lack of support for subtyping)
+- [Algebraic Subtyping](https://www.cs.tufts.edu/~nr/cs257/archive/stephen-dolan/thesis.pdf): A new type inference system with full subtyping support.
+- [A brief introduction to type theory and the univalence axiom](https://math.uchicago.edu/~may/REU2015/REUPapers/Macor.pdf)
+- [A Taste of Type Theory](https://www.youtube.com/watch?v=--2jJwdQ5js)
+- [A Type System From Scratch](https://www.youtube.com/watch?v=IbjoA5xVUq0)
+- [An accessible introduction to type theory and implementing a type-checker](https://mukulrathi.com/create-your-own-programming-language/intro-to-type-checking)
+- [Bootstrapping a Type System](http://journal.stuffwithstuff.com/2010/10/29/bootstrapping-a-type-system)
+- [Bringing Types to Elixir by Giuseppe Castagna and Guillaume Duboc](https://www.youtube.com/watch?v=gJJH7a2J9O8&ab_channel=CodeSync)
+- [Building a Typechecker from scratch](https://www.udemy.com/course/typechecker)
+- [Discrete Math — Dr. Trefor Bazett](https://www.youtube.com/playlist?list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS)
+- [Gradual Type Theory](https://www.youtube.com/watch?v=EGKeWg2ES0A&ab_channel=POPL2019)
+- [Gradual Typing: A New Perspective](https://www.youtube.com/watch?v=JuwHDskX7Qg&ab_channel=POPL2019)
+- [Gradual Typing from Theory to Practice](https://blog.sigplan.org/2019/07/12/gradual-typing-theory-practice)
+- Hindley-Milner:
 
-* [Algebraic Subtyping](https://www.cs.tufts.edu/~nr/cs257/archive/stephen-dolan/thesis.pdf): A new type inference system with full subtyping support.
+    - [A reckless introduction to Hindley-Milner type inference](https://www.lesswrong.com/posts/vTS8K4NBSi9iyCrPo/a-reckless-introduction-to-hindley-milner-type-inference)
+    - [Hindley-Milner Type Inference — Part 1](https://www.youtube.com/watch?v=cQf_6NsLp80&ab_channel=AdamDoup%C3%A9)
+    - [Hindley-Milner Type Inference — Part 2](https://www.youtube.com/watch?v=xJXcZp2vgLs&list=PLK06XT3hFPzilgF1mi_hHqcXO1-o_8OEe&index=37&ab_channel=AdamDoup%C3%A9)
+    - [Hindley-Milner Type Checking AST](https://adamdoupe.com/teaching/classes/cse340-principles-of-programming-languages-f15/slides/Hindley-MilnerTypeChecking-Mohsen-Zohrevandi.pdf)
+    - [The Hindley-Milner Type System](https://www.youtube.com/watch?v=OyrByPkiX7s&ab_channel=NicolasLaurent)
+
+- [How should I read type system notation?](https://langdev.stackexchange.com/questions/2692/how-should-i-read-type-system-notation/2693#2693)
+- [How to Evaluate the Performance of Gradual Type Systems](https://www.youtube.com/watch?v=7d6iJdSRFtQ&ab_channel=CambridgeUniversityPress)
+- [How to evaluate the performance of gradual type systems](https://users.cs.utah.edu/~blg/publications/pe4gt/gtnffvf-jfp-2019.pdf)
+- [Introduction to Type Theory](https://www.cs.uoregon.edu/research/summerschool/summer22/topics.php)
+- [Let's build a typesystem in Haskell!](https://www.youtube.com/watch?v=aZFWY6DxX54)
+- [MyPy TypeChecker](https://github.com/python/mypy/wiki/Type-Checker)
+- [Optimizing and Evaluating Transient Gradual Typing](https://dl.acm.org/doi/pdf/10.1145/3359619.3359742)
+- [Propositions as Types](https://www.youtube.com/watch?v=IOiZatlZtGU) - by Philip Wadler
+- [Programming and Programming Languages: Type Inference](https://papl.cs.brown.edu/2018/Type_Inference.html)
+- [Propositions as types: explained](https://lawrencecpaulson.github.io/2023/08/23/Propositions_as_Types.html)
+- [Putting gradual types to work](https://arxiv.org/pdf/2101.12299.pdf)
+- Python internals:
+
+    - [Symbol tables, part 1](https://eli.thegreenplace.net/2010/09/18/python-internals-symbol-tables-part-1)
+    - [Symbol tables, part 2](https://eli.thegreenplace.net/2010/09/20/python-internals-symbol-tables-part-2)
+
+- [Safe & Efficient Gradual Typing for TypeScript](https://www.cs.umd.edu/~aseem/safets.pdf)
+- [Strong arrows: a new approach to gradual typing](https://elixir-lang.org/blog/2023/09/20/strong-arrows-gradual-typing)
+- [Thinking with Types](https://www.youtube.com/playlist?list=PLE-CSy3N6yEeYY5tx1u5IP3d_2xZOmpKO)
+- [Type Checking If Expressions](http://journal.stuffwithstuff.com/2023/01/03/type-checking-if-expressions)
+- [Type inference under the hood](https://www.aleksandra.codes/type-inference)
+- [Type Systems - The Good, Bad and Ugly](https://www.youtube.com/watch?v=SWTWkYbcWU0&t=2s&ab_channel=StrangeLoopConference)
+- [Type Systems](http://lucacardelli.name/papers/typesystems.pdf) - by Luca Cardelli, Microsoft Research
+- [Type Theory Workshop](https://functionalcs.github.io/curriculum/typetheory.html)
+- [Types and Programming Languages Book club](https://www.youtube.com/playlist?list=PLlw1FcLpWd42E0AMWz9fY-oXa_m3DA3SW)
+- [Types are like the Weather, Type Systems are like Weathermen](https://www.youtube.com/watch?v=XTl7Jn_kmio&ab_channel=ClojureTV)
+- [Typing the Untyped: Soundness in Gradual Type Systems](https://www.youtube.com/watch?v=uJHD2xyv7xo)
+- [What is Decidable about Gradual Types?](https://www.youtube.com/watch?v=rPZ7HhyGPh4&ab_channel=ACMSIGPLAN)
+- [Why Static Typing Came Back](https://www.youtube.com/watch?v=Tml94je2edk&ab_channel=GOTOConferences)
+- [What Is Decidable about Gradual Types?](https://dl.acm.org/doi/pdf/10.1145/3371097)
+- [What is Gradual Typing](https://wphomes.soic.indiana.edu/jsiek/what-is-gradual-typing)
+- [Understanding types as sets](https://portal.gitnation.org/contents/understanding-types-as-sets)
+
