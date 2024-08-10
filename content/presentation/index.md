@@ -182,3 +182,52 @@ Repositories for graphics:
 [Web Style Guide Online](https://www.webstyleguide.com/wsg3/index.html) - Patrick J. Lynch and Sarah Horton
 
 [Visual design rules you can safely follow every time](https://anthonyhobday.com/sideprojects/saferules/)
+
+---
+
+## Implementation notes
+
+- [The internet computer](https://www.youtube.com/watch?v=v0160IirdL4&ab_channel=TheBrowserCompany)
+- [Servo: Designing and Implementing a Parallel Browser](https://www.youtube.com/watch?v=67QP8t-89VM)
+- [Servo: A Web View From Somewhere Else](https://www.youtube.com/watch?v=tNWQkNvg3_U&ab_channel=Igalia)
+- [Intro to Rust-lang (Building the Dom and an HTML Parser)](https://www.youtube.com/watch?v=brhuVn91EdY&list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW&index=22&ab_channel=TensorProgramming)
+- [Intro to Rust-lang (Adding a Style Tree to our Browser)](https://www.youtube.com/watch?v=8e37RsyiGSE&list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW&index=25&ab_channel=TensorProgramming)
+- [Intro to Rust-lang (Adding a CSS engine and CSS parsing to our Browser)](https://www.youtube.com/watch?v=dnrEto7adg0&list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW&index=24&ab_channel=TensorProgramming)
+- [Intro to Rust (Building a Browser Engine: Commands and Rendering in OpenGL)](https://www.youtube.com/watch?v=rszgtm7i0n8&list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW&index=27&ab_channel=TensorProgramming)
+- [In The Loop - setTimeout, micro tasks, requestAnimationFrame, requestIdleCallback](https://www.youtube.com/watch?v=cCOL7MC4Pl0&ab_channel=JSConf)
+- [Critical rendering path - Crash course on web performance](https://www.youtube.com/watch?v=PkOBnYxqj3k&ab_channel=IlyaGrigorik)
+- [Chrome University 2018: Life of a Script](https://www.youtube.com/watch?v=voDhHPNMEzg&ab_channel=BlinkOn)
+- [Browser From Scratch Live Streams](https://www.youtube.com/playlist?list=PLgOaDFg2Sml4CG1tYeYhQ6eKqyh0hmyg1)
+- [Web Browser Engineering](https://browser.engineering)
+- [Browser from scratch](https://zerox-dg.github.io/blog/tags/browser-from-scratch)
+- [Browser from Scratch](https://zerox-dg.github.io/blog/tags/browser-from-scratch)
+- [Browser Performance](https://www.kuniga.me/blog/2020/03/28/browser-performance.html)
+- [Building a Rust Web Browser](https://joshondesign.com/tags/browser)
+- [Concurrent JavaScript: It can work!](https://webkit.org/blog/7846/concurrent-javascript-it-can-work)
+- [David Baron's blog: Blink engineer](https://dbaron.org/log)
+- [How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork)
+- [How browsers work](https://web.dev/howbrowserswork)
+- [Key data structures and their roles in RenderingNG](https://developer.chrome.com/articles/renderingng-data-structures)
+- [Let's build a browser engine!](https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html)
+- [Notes on how browsers work](https://www.kuniga.me/blog/2015/10/09/notes-on-how-browsers-work.html)
+- [Notes on JavaScript Interpreters](https://www.kuniga.me/blog/2017/06/01/notes-on-javascript-interpreters.html)
+- [Notes on Javascript Memory Profiling in Google Chrome](https://www.kuniga.me/blog/2015/06/07/notes-on-javascript-memory-profiling-in-google-chrome.html)
+- [Overview of the RenderingNG architecture](https://developer.chrome.com/articles/renderingng-architecture)
+- [reflows & repaints: css performance making your javascript slow?](http://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow)
+- [Rendering: repaint, reflow/relayout, restyle](https://www.phpied.com/rendering-repaint-reflowrelayout-restyle)
+- [RenderingNG deep-dive: LayoutNG](https://developer.chrome.com/articles/layoutng)
+- [RenderingNG: an architecture that makes and keeps Chrome fast for the long term](https://blog.chromium.org/2021/10/renderingng.html)
+- [Round-up of web browser internals resources](https://developer.chrome.com/blog/round-up-of-web-browser-internals-resources)
+- [Understanding Reflow and Repaint in the browser](https://dev.to/gopal1996/understanding-reflow-and-repaint-in-the-browser-1jbg)
+- [Web Browser Engineering](https://browser.engineering)
+- [What forces layout / reflow](https://gist.github.com/paulirish/5d52fb081b3570c81e3a)
+
+### Web UI
+
+- [Algebraic effects, Fibers, Coroutines](https://www.youtube.com/watch?v=vzzOdWj4YyM&ab_channel=YouGottaLoveFrontend)
+- [Algebraic Effects for React Developers](https://blog.reesew.io/algebraic-effects-for-react-developers)
+- [Algebraic Effects for the Rest of Us](https://overreacted.io/algebraic-effects-for-the-rest-of-us)
+- [PL web frameworks](https://twitter.com/sliminality/status/1516175554550018048)
+- [React - Basic Theoretical Concepts](https://github.com/reactjs/react-basic)
+- [React Concurrent mode](https://twitter.com/dan_abramov/status/1120971795425832961)
+- [TypeScript + fp-ts: ReaderTaskEither and React](https://andywhite.xyz/posts/2021-01-28-rte-react)

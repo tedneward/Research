@@ -27,7 +27,7 @@ Official standard name of the language originally appearing in browsers. "Javasc
 * Rust: [Deno](https://github.com/denoland/deno)
 * Zig: [Bun](https://bun.sh/) ([Source](https://github.com/oven-sh/bun)): a fast all-in-one JavaScript runtime, written in [Zig](/languages/zig).
 
-Implementation-related
+## Implementation-related
 
 * [zipline](https://github.com/cashapp/zipline): This library streamlines using Kotlin/JS libraries from Kotlin/JVM and Kotlin/Native programs. It makes it fetching code as easy as fetching data:
 
@@ -38,9 +38,7 @@ Implementation-related
 	
 	Zipline works by embedding the QuickJS JavaScript engine in your Kotlin/JVM or Kotlin/Native program. It's a small and fast JavaScript engine that's well-suited to embedding in applications.
 
-
-
-Module systems
+## Module systems
 
 * [Asynchronous Module Definition API (AMD)](https://github.com/amdjs/amdjs-api/blob/master/AMD.md)
     * [r.js](https://github.com/requirejs/r.js): A command line tool for running JavaScript scripts that use the Asynchronous Module Definition API (AMD) for declaring and using JavaScript modules and regular JavaScript script files. It is part of the RequireJS project, and works with the RequireJS implementation of AMD.
@@ -86,9 +84,30 @@ To any JS engine (not direct FFI)
 
 ## Reading
 
+* [Language learnings](https://github.com/imteekay/programming-language-research/tree/master/language-learning/javascript)
 * [JavaScript Promises... in Wicked Detail](https://mattgreer.dev/articles/promises-in-wicked-detail/)
 * [SICP in ECMAScript](../sicpjs.pdf); see also [js-slang](https://github.com/source-academy/js-slang), implementations of the Source languages, which are small sublanguages of JavaScript designed for SICP JS
 * [Code as Data](../code-as-data)
+* [Create Your Own JavaScript Runtime](https://www.youtube.com/watch?v=ynNDmp7hBdo&ab_channel=ErickWendel)
+* [Ectype - bringing type safety (and more!) to vanilla JavaScript](https://www.youtube.com/watch?v=vyjHRlQrVSA&ab_channel=StrangeLoopConference)
+* [Implementing one feature set in two JavaScript engines](https://www.youtube.com/watch?v=V1Q9iqxhfgU&ab_channel=WebEnginesHackfest)
+* [JavaScript and C++ in Node.js core](https://www.youtube.com/watch?v=GrgMT5zMgF4&ab_channel=NearForm)
+* [Node.js startup performance](https://www.youtube.com/watch?v=G36lrPrF09c&ab_channel=NearForm)
+* [Static Hermes: the Next Generation of Hermes](https://www.youtube.com/watch?v=q-xKYA0EO-c&ab_channel=CallstackEngineers)
+* [TC39 – From the proposal to ECMAScript - Step by Step](https://www.youtube.com/watch?v=ZheFIz4FhXo&ab_channel=FestDevConference)
+* [`SingleEscapeCharacter`](https://262.ecma-international.org/13.0/#prod-SingleEscapeCharacter)
+* [Automatic semicolon insertions in JavaScript](https://articles.wesionary.team/automatic-semicolon-insertions-in-javascript-best-practices-c49ed8222e12)
+* [Deep JavaScript](https://exploringjs.com/deep-js/toc.html)
+* [Empty Statement](https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-empty-statement)
+* [From Research Prototypes to Continuous Integration: Guiding the Design and Implementation of JavaScript](https://blog.sigplan.org/2023/01/12/from-research-prototypes-to-continuous-integration-guiding-the-design-and-implementation-of-javascript)
+* [JavaScript Closures](http://jibbering.com/faq/notes/closures)
+* [JavaScript Garbage Collector](https://javascript.info/garbage-collection)
+* [JavaScript Memory management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_management)
+* [JavaScript Static Analysis for Evolving Language Specifications](https://plrg.korea.ac.kr/assets/data/publication/thesis22-park.pdf)
+* [Relation of Garbage Collector and Closure in JavaScript](https://www.geeksforgeeks.org/relation-of-garbage-collector-and-closure-in-javascript)
+* [V8: full compiler](https://jayconrod.com/posts/51/a-tour-of-v8--full-compiler)
+* [V8: Garbage Collection](https://jayconrod.com/posts/55/a-tour-of-v8-garbage-collection)
+
 
 ## History
 From the Specification home page, a history:
