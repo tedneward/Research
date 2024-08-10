@@ -367,14 +367,12 @@ From https://github.com/imteekay/programming-language-research:
 - [Advanced Programming Languages](http://di002.edv.uniovi.es/~labra/APL.html)
 - [Compiler Engineer Path](http://dmitrysoshnikov.com/courses/compiler-engineer-path)
 - [Learn Type Theory](https://github.com/jozefg/learn-tt)
-- [PLR & Compiler Learning Path](learning-path.md)
 - [Programming Language Theory Path](https://steshaw.org/plt)
 - [So You Want to Be a (Compiler) Wizard](https://belkadan.com/blog/2016/05/So-You-Want-To-Be-A-Compiler-Wizard)
 
 ## Experiments
 
 - [A miniature model of the Typescript compiler](https://github.com/imteekay/mini-typescript)
-- [An interpreter for the Lox programming language](./research/experiments/lox.ts)
 - [An interpreter for the Monkey programming language](https://github.com/imteekay/crafting-an-interpreter)
 - [How the TypeScript compiler works](https://www.iamtk.co/series/the-typescript-compiler)
 
