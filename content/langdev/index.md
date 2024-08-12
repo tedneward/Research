@@ -89,7 +89,6 @@ Some links from https://github.com/imteekay/programming-language-research
 ## Experiments
 
 - [A miniature model of the Typescript compiler](https://github.com/imteekay/mini-typescript)
-- [An interpreter for the Lox programming language](./research/experiments/lox.ts)
 - [An interpreter for the Monkey programming language](https://github.com/imteekay/crafting-an-interpreter)
 - [How the TypeScript compiler works](https://www.iamtk.co/series/the-typescript-compiler)
 
