@@ -5,6 +5,11 @@ summary=A compiler and back-end native compilation/linking toolchain.
 
 [Website](https://llvm.org/) | [Github](https://github.com/llvm/llvm-project)
 
+### Implementations
+
+* .NET: [LLVMSharp](https://github.com/dotnet/llvmsharp/)
+* JVM: [LLJVM](https://github.com/davidar/lljvm)
+
 ### Articles/Books
 [LLVM](http://www.aosabook.org/en/llvm.html) - Chris Lattner, The Architecture of Open Source Applications
 
