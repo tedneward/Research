@@ -28,6 +28,7 @@ Some links from https://github.com/imteekay/programming-language-research
 - [CS019 - Accelerated Introduction to Computer Science](https://cs.brown.edu/courses/cs019/2018/index.html)
 - [CS164 Programming Languages and Compilers](https://www.bilibili.com/video/BV1NW411b79N?p=1)
 - [CS242 - Programming Languages - Stanford](https://web.stanford.edu/class/cs242/coursework.html)
+- [CS520 Theories of Programming Languages — KAIST](https://www.youtube.com/playlist?list=PLvV9DPeJV9xx0NegrG4gNu8WXSXibDICu)
 - [CS2500 - Fundamentals of Computer Science](https://www.ccs.neu.edu/home/nderbinsky/fundies1/m1.html)
 - [CS6120: Advanced Compilers: The Self-Guided Online Course](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/): The work consists of reading papers and open-source hacking tasks, which use LLVM and an educational IR invented just for this class.
 - [CSCI1730 - Programming Languages - Application and Interpretation](https://cs.brown.edu/courses/cs173/2012/Videos)
@@ -106,6 +107,7 @@ Some links from https://github.com/imteekay/programming-language-research
 - [Gradual Type Theory](https://arxiv.org/pdf/1811.02440.pdf)
 - [Gradual Typing for Functional Languages](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b7ca4b0e6d3119aa341af73964dbe38d341061dd)
 - [Gradual Typing: A New Perspective](https://www.irif.fr/~gc/papers/popl19.pdf)
+- [Haai: Reactive programming without lifting](https://soft.vub.ac.be/~boeyen/haai/)
 - [How Statically-Typed Functional Programmers Write Code](./research/papers/how-statically-typed-functional-programmers-write-code)
 - [Migrating Gradual Types](https://dl.acm.org/doi/pdf/10.1145/3158103)
 - [On Model Subtyping](https://hal.inria.fr/hal-00695034/document)
@@ -115,10 +117,12 @@ Some links from https://github.com/imteekay/programming-language-research
 - [Pluggable Type Systems](https://bracha.org/pluggableTypesPosition.pdf)
 - [Programming in Homotopy Type Theory](http://dlicata.web.wesleyan.edu/pubs/lh122tttalks/lh12wg2.8.pdf)
 - [Refined Criteria for Gradual Typing](https://drops.dagstuhl.de/opus/volltexte/2015/5031/pdf/21.pdf)
+- [Simple Programming Languages](https://ryanbrewer.dev/posts/simple-programming-languages.html)
 - [Static Typing Where Possible, Dynamic Typing When Needed: The End of the Cold War Between Programming Languages](https://www.ics.uci.edu/~lopes/teaching/inf212W12/readings/rdl04meijer.pdf)
 - [The Behavior of Gradual Types: A User Study](https://cs.brown.edu/~sk/Publications/Papers/Published/tgpk-beh-grad-types-user-study/paper.pdf)
 - [The Design Principles of the Elixir Type System](https://arxiv.org/pdf/2306.06391.pdf)
 - [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
+- [The Taxonomy of Reactive Programming](https://vsavkin.com/the-taxonomy-of-reactive-programming-d40e2e23dee4): Events and State; Deriving and Executing; Reified and Transparent; Composition; Implicit and Explicit Time; Self and External Observation; 
 - [Towards a theory of type structure](https://www.cis.upenn.edu/~stevez/cis670/pdfs/Reynolds74.pdf)
 - [Towards Practical Gradual Typing](https://www2.ccs.neu.edu/racket/pubs/ecoop2015-takikawa-et-al.pdf)
 - [Type Inference Algorithms](http://www.win.tue.nl/~hzantema/semssm.pdf)
@@ -130,12 +134,13 @@ Some links from https://github.com/imteekay/programming-language-research
 
 ## Programming Language Design / PLT
 
+- [A Frontend Programmer's Guide to Languages](https://thatjdanisso.cool/programming-languages)
 - [A Language Creators' Conversation: Guido van Rossum, James Gosling, Larry Wall & Anders Hejlsberg](https://www.youtube.com/watch?v=csL8DLXGNlU&ab_channel=PyCascades)
 - [A Tale of Two Asyncs: Open Source Language Design in Rust and Node.js](https://www.youtube.com/watch?v=aGJTXdXQN2o)
 - [Another Go at Language Design](https://www.youtube.com/watch?v=7VcArS4Wpqk)
 - [Bjarne Stroustrup : C++: evolving a useful language](https://www.youtube.com/watch?v=6jwOoIywnZE&ab_channel=BrownCS)
+- [Building a Debugger: Code Analysis](https://nan.fyi/debugger)
 - [Concepts of Programming Languages](https://www.youtube.com/playlist?list=PLgybIyDbLkEQUTX00Mazlcb7KhX1UzpXs)
-- [CS520 Theories of Programming Languages — KAIST](https://www.youtube.com/playlist?list=PLvV9DPeJV9xx0NegrG4gNu8WXSXibDICu)
 - [Delimited Continuations, Demystified by Alexis King](https://www.youtube.com/watch?v=TE48LsgVlIU&ab_channel=CodeSync)
 - [Going beyond JavaScript](https://www.youtube.com/watch?v=VwisE497Nsg&ab_channel=Intelligence.ai%3AConcepts-FirstPodcast)
 - [Growing a Language, by Guy Steele](https://www.youtube.com/watch?v=_ahvzDzKdB0)
@@ -145,6 +150,7 @@ Some links from https://github.com/imteekay/programming-language-research
 - [On understanding types, data abstraction and effects](https://www.youtube.com/watch?v=3Cdw5x72k_g&ab_channel=MicrosoftResearch)
 - [Principles of Programming Languages by Robert M. Siegfried](https://www.youtube.com/playlist?list=PLTo1TmBz2ekof8VsYaoTxP-9VgJ9P-dTO)
 - [Principles of Programming Languages](https://www.youtube.com/playlist?list=PLK06XT3hFPzilgF1mi_hHqcXO1-o_8OEe)
+- [Reactive Functions without Functions](https://programming-journal.org/2024/8/11/) ([PDF](https://arxiv.org/pdf/2403.02296))
 - [Rob Pike - What We Got Right, What We Got Wrong](https://www.youtube.com/watch?v=yE5Tpp2BSGw)
 - [So many programming languages so little time](https://www.youtube.com/watch?v=FEjH5VxmDoY&ab_channel=MicrosoftDeveloper)
 - [Stephanie Weirich speaks about Programming Language Design](https://www.youtube.com/watch?v=gLTDyrAY4Hk)
@@ -155,8 +161,6 @@ Some links from https://github.com/imteekay/programming-language-research
 - [Why Programming Languages Matter](https://www.youtube.com/watch?v=JqYCt9rTG8g&ab_channel=StrangeLoopConference)
 - [Programming language semantics: It’s easy as 1,2,3](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EC2C046CF94382B3B408036B84475DC7/S0956796823000072a.pdf/programming-language-semantics-its-easy-as-123.pdf)
 - [Programming Language Semantics](http://www.cs.nott.ac.uk/~pszgmh/123.pdf)
-- [A Frontend Programmer's Guide to Languages](https://thatjdanisso.cool/programming-languages)
-- [Building a Debugger: Code Analysis](https://nan.fyi/debugger)
 - [Concepts of Programming Languages](https://www.ime.usp.br/~alvaroma/ucsp/proglang/book.pdf)
 - [Grammars for programming languages](https://medium.com/@mikhail.barash.mikbar/grammars-for-programming-languages-fae3a72a22c6)
 - [How To Create Your Own Programming Language](https://dev.to/jasonsbarr/how-to-create-your-own-programming-language-2642)
@@ -256,6 +260,7 @@ Some links from https://github.com/imteekay/programming-language-research
 - [How languages work #1: String interpolation](https://martin.janiczek.cz/2023/07/27/how-languages-work-1-string-interpolation.html)
 - [Implementing a Simple Compiler on 25 Lines of JavaScript](https://blog.mgechev.com/2017/09/16/developing-simple-interpreter-transpiler-compiler-tutorial)
 - [Let’s Build A Simple Interpreter](https://ruslanspivak.com/lsbasi-part1)
+- [LittleBasic](https://github.com/mateiw/littlebasic)
 - [Little lisp interpreter](https://maryrosecook.com/blog/post/little-lisp-interpreter)
 - [Little Lisp interpreter](https://www.recurse.com/blog/21-little-lisp-interpreter)
 - [Pratt Parsers: Expression Parsing Made Easy](http://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy)
@@ -330,6 +335,7 @@ Some links from https://github.com/imteekay/programming-language-research
 
 * Creating the Bolt compiler (series):
 
+    - [Source](https://github.com/mukul-rathi/bolt)
     - [Part 1: How I wrote my own "proper" programming language](https://mukulrathi.com/create-your-own-programming-language/intro-to-compiler/);
     - [Part 2: So how do you structure a compiler project?](https://mukulrathi.com/create-your-own-programming-language/compiler-engineering-structure/);
     - [Part 3: Writing a Lexer and Parser using OCamllex and Menhir](https://mukulrathi.com/create-your-own-programming-language/parsing-ocamllex-menhir/);
@@ -344,7 +350,6 @@ Some links from https://github.com/imteekay/programming-language-research
 
 * [Language Incubator](https://github.com/EarlGray/language-incubator): Repo of language experiments/explorations; "An incubator/sandbox for learning compilers, interpreters, code generation, virtual machines, assemblers, JITs, etc."
 * [Let's Build a Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/): Up to 19 parts up through 2020.
-* [LLVM Tutorial: Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html)
 * [mal](https://github.com/kanaka/mal) (Make A Lisp): Steps (and collection of implementations) to make your own Lisp.
 * [Nanopass](https://legacy.cs.indiana.edu/~dyb/pubs/nano-jfp.pdf): A framework for compiler education | [Source](https://github.com/nanopass/) in Racket or Scheme
 * Subtype Inference by Example (series):
@@ -375,20 +380,19 @@ Some links from https://github.com/imteekay/programming-language-research
 ### Native/raw
 
 * [AsmInterpreter](https://github.com/yekyam/AsmInterpreter): A simple assembly interpreter to help people with understanding the language without the hassle of setup.
-
 * [Build your own Lisp](http://www.buildyourownlisp.com/contents) teaches C by building a Lisp.
-
 * [luax](https://github.com/morrow1nd/luax): Lua-like programming language for studying compiler and interpreter courses.
-
 * [Square](https://github.com/square-lang/Square): A tiny programming language under 200kb.
-
 * [Writer your own C compiler from scratch with Python](https://medium.com/@pasi_pyrro/how-to-write-your-own-c-compiler-from-scratch-with-python-90ab84ffe071)
 
 ### LLVM
 
 * [A Tutorial on How to Write a Compiler Using LLVM](https://tomassetti.me/a-tutorial-on-how-to-write-a-compiler-using-llvm/)
 * [Implementing a JIT Compiled Language with Haskell and LLVM](https://www.stephendiehl.com/llvm/)
+* [LLVM Tutorial: Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html)
 * [Writing your own toy language](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/) using flex, bison, LLVM; [code](https://github.com/lsegal/my_toy_compiler)
+* [Mapping high level constructs to LLVM IR](https://mapping-high-level-constructs-to-llvm-ir.readthedocs.io/en/latest/)
+* [Kaleidoscope AST](https://ubiquitydotnet.github.io/Llvm.NET/v8.0.1/articles/Samples/Kaleidoscope-AST.html)
 
 ### CLR
 

@@ -21,6 +21,13 @@ summary=A collection of links and notes on patterns.
 * [Object-Oriented Reengineering Patterns](http://scg.unibe.ch/download/oorp/) - S. Demeyer, S. Ducasse and O. Nierstrasz
 * [Source Making Design Patterns and UML](https://sourcemaking.com/design_patterns)
 
+### Reactive
+[Reactive Extensions](http://reactivex.io/) aren't really patterns but it does fit the idea of categorizing a collection of design approaches
+
+[Reactive Manifesto](http://www.reactivemanifesto.org/)
+
+StackOverflow: [Is it possible to build a Reactive Application using a non-Functional language?](https://stackoverflow.com/questions/20751115/is-it-possible-to-build-a-reactive-application-using-a-non-functional-language)
+
 ### Distributed systems patterns
 
 * [Design Patterns and Principles That Support Large Scale Systems](https://medium.com/everything-full-stack/design-patterns-and-principles-that-support-large-scale-systems-f3c9adf89ad0)
