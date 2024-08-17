@@ -10,7 +10,7 @@
 
 	<hr />
   <#list published_pages?sort_by("title") as page>
-  <#assign hreffedTags = page.tags?map(t -> '<a href="${config.site_host}/tags/${t}/" id="${page.title[0]}">${t}</a>')>
+  <#assign hreffedTags = page.tags?map(t -> '<a href="${config.site_host}/tags/${t}.html" id="${page.title[0]}">${t}</a>')>
   <p><em><a href="/${page.uri}" target="_blank">${page.title}</a> (${hreffedTags?join(",")})</em>: ${(page.summary)!"(No summary)"}</p>
   <p></p>
   </#list>
