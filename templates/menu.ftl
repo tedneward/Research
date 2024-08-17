@@ -12,8 +12,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="${config.site_host}/about/">About</a></li>
-            <li><a href="${config.site_host}/${config.feed_file}">Subscribe (RSS)</a></li>
+            <li><a href="${config.site_host}/all/">All Pages</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories<b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -23,7 +22,7 @@
               </ul>
             </li>
             <li><a href="${config.site_host}/tags">All Tags</a></li>
-            <li><a href="${config.site_host}/all">All Pages</a></li>
+            <li><a href="${config.site_host}/${config.feed_file}">Subscribe (RSS)</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
