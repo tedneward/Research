@@ -12,8 +12,8 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>about.html">About</a></li>
-            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${config.feed_file}">Subscribe (RSS)</a></li>
+            <li><a href="${content.rootpath}about.html">About</a></li>
+            <li><a href="${content.rootpath}${config.feed_file}">Subscribe (RSS)</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories<b class="caret"></b></a>
               <ul class="dropdown-menu">
