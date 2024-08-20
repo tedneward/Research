@@ -9,7 +9,7 @@
 	<!--<ul>-->
 	<ul>
 		<#list tags?sort_by("name") as tag>
-		<li><a href="/${tag.uri}">${tag.name}</a></li>
+		<li><a href="${config.site_host}/${tag.uri}">${tag.name}</a></li>
 		</#list>
 	</ul>
 	
