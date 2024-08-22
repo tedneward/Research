@@ -34,3 +34,7 @@ Some Polyglot implementations:
 * [IMP](http://www.eclipse.org/imp/) –  Eclipse IDE Meta-tooling Platform (Eclipse, IBM TJ Watson Hawthorne)
 * [JCoBox](http://softech.informatik.uni-kl.de/Homepage/JCoBox) –  generalizing active objects to concurrent cooperative tasks (TU Kaiserslautern)
 
+## Articles
+
+["My Experience Working With Polyglot"](https://yangdanny97.github.io/blog/2020/07/15/polyglot) and ["Guide to Writing Polyglot Compiler Extensions"](https://yangdanny97.github.io/blog/2020/07/23/polyglot2)
+

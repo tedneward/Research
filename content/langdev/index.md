@@ -441,6 +441,14 @@ Some links from https://github.com/imteekay/programming-language-research
 
 - https://github.com/maxmalysh/tiny-py-interpreter: Python interpreter written in Python; uses ANTLR4
 
+- Compiler Hacking (using [Chocopy](https://chocopy.org/))
+
+    - Part 1: [Building a Compiler Front-end in Python](https://yangdanny97.github.io/blog/2020/05/29/chocopy-typechecker)
+    - Part 2: [Building a JVM back-end](https://yangdanny97.github.io/blog/2021/08/26/chocopy-jvm-backend)
+    - Part 3: [Building a CIL back-end](https://yangdanny97.github.io/blog/2022/05/22/chocopy-cil-backend)
+    - Part 4: [Building a WASM back-end](https://yangdanny97.github.io/blog/2022/10/11/chocopy-wasm-backend)
+    - Part 5: [Building a LLVM back-end](https://yangdanny97.github.io/blog/2023/07/18/chocopy-llvm-backend)
+
 ### Rust
 
 - [Create Your Own Programming Language with Rust](https://createlang.rs/intro.html): Incomplete but interesting first steps

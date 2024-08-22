@@ -25,6 +25,8 @@ Much of this is going to be found in the [reading on memory management](/reading
 ### Tutorials
 [Creating a VM/Compiler](https://www.youtube.com/watch?v=DUNkdl0Jhgs)
 
+[Building a toy JVM](https://zserge.com/posts/jvm/)
+
 [Virtual machine in C ("felix.engineer")](https://felix.engineer/blogs/virtual-machine-in-c): six-register and stack
 
 [Terrence Parr: Simple Virtual Machine](https://github.com/parrt/simple-virtual-machine): Video and slides
