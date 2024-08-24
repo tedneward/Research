@@ -1,5 +1,5 @@
 title=Programming Language Concepts
-tags=reading, language
+tags=reading, language, books
 summary=Notes and links from the book of the same name.
 ~~~~~~
 
