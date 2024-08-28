@@ -1,5 +1,5 @@
 title=Electra
-tags=language, esolang
+tags=language, esoteric
 summary=An esolang where you code like an electrician. 
 ~~~~~~
 

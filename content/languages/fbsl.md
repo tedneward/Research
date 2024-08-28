@@ -1,7 +1,8 @@
-title=FBSL
+title=FBSL (Freestyle Basic Script Language)
 tags=language
-summary=Freestyle Basic Script Language (FBSL) is a programming language. It's powerful. It's easy to learn. It can produce GUI or console-based applications. It can produce standalone executables. It's free for non-commercial use.
+summary=A Visual Basic clone.
 ~~~~~~
 
-[Source](https://sites.google.com/site/adventuresinfbsl)
+[Website](https://sites.google.com/site/adventuresinfbsl) | [Source?](https://sites.google.com/site/adventuresinfbsl/download)
 
+Not entirely sure if this is legit or not.
