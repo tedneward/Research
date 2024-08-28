@@ -41,6 +41,7 @@
 <li><em>Platforms</em>: Environments in which programs execute (includes native, VMs, mobile-native)</li>
 <li><em>Presentation</em>: Anything and everything to do with the presentation to the user--user interface libraries, data visualization, and so on. Commonly called "front-ends"</li>
 <li><em>Reading</em>: Links to topics that are more conceptual; lots of things will relate to other topics here, but it falls under "reading" if it's a little "meta" or has broader application than just one tool, language, or library.</li>
+<li><em>Security</em>: Operating systems, networking, application security, and more</li>
 <li><em>Speaking</em>: Links and notes about giving talks to technical audiences</li>
 <li><em>Storage</em>: Systems specifically designed to store data (a la "databases" but not always)</li>
 <li><em>Tools</em>: Programs used as part of the software development process/lifecycle. Build tools, performance tools, and so on</li>
