@@ -58,8 +58,6 @@ BUILD SUCCESSFUL in 843ms
 1 actionable task: 1 executed
 ```
 
-
-
 ---
 
 # Awesome Gradle
