@@ -15,6 +15,10 @@ Bytecode interpreted. JIT compiled (depending on implementation). Dynamic code l
 
 - [Java Reference Objects](https://www.kdgregory.com/index.php?page=java.refobj): One of the best articles on the Java "Reference" types (SoftReference, WeakReference, PhantomReference, ReferenceQueue) that I've ever read
 - [General memory mgmt/GC reading and links](/reading/memory-management)
+- [Inside Java](https://inside.java/): News and views from members of the Java team at Oracle
+
+    - [Sip of Java](https://inside.java/sip/): Short takes on interesting Java ideas
+    - [Emulating C# LINQ using Code Reflection](https://openjdk.org/projects/babylon/articles/linq)
 
 ## Implementations:
 
