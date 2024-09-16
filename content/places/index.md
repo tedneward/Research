@@ -72,6 +72,8 @@ Awesomes:
 
 [Red Gate Books](http://www.red-gate.com/community/books/index)
 
+[Register Spill](https://registerspill.thorstenball.com/)
+
 [Rip Tutorials](https://riptutorial.com/ebook)
 
 [TechBeamers.com](http://www.techbeamers.com)
