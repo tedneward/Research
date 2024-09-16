@@ -52,6 +52,3 @@ v.push_back 42;
 println$ *v.stl_begin;
 ```
 
-
-https://github.com/felix-lang/felix
-An advanced, statically typed, high performance scripting language with native C++ embedding.

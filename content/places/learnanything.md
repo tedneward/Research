@@ -13,20 +13,6 @@ This is from the Programming Languages README, for easy reference against my own
 
 ## Other
 
-- [FaCT](https://github.com/PLSysSec/FaCT) - Flexible and Constant Time Programming Language.
-- [Factor](https://factorcode.org/) - Practical stack language. ([Lobsters](https://lobste.rs/s/sv9jw7/factor_programming_language))
-- [fe](https://github.com/rxi/fe) - Tiny, embeddable language implemented in ANSI C. ([HN](https://news.ycombinator.com/item?id=22785137))
-- [Felix](https://github.com/felix-lang/felix) - Advanced, statically typed, high performance scripting language with native C++ embedding.
-- [F--](https://github.com/raviqqe/fmm) - Uncurried minimal functional programming language.
-- [Flax](https://github.com/flax-lang/flax) - Level, general-purpose language with high level syntax and expressibility.
-- [Foolang](https://github.com/nikodemus/foolang) - Smalltalk-inspired language. ([Web](https://foolang.org/#/))
-- [Fractran](https://en.wikipedia.org/wiki/FRACTRAN) - Turing-complete esoteric programming language invented by the mathematician John Conway. ([Notes](https://wiki.xxiivv.com/site/fractran.html)) ([Fractran Interpreter](https://merveilles.town/web/statuses/105357795783765822))
-- [Ghost](https://github.com/ghost-language/ghost) - Small, class-based scripting language. ([Web](https://ghostlang.org/))
-- [GLICOL](https://github.com/chaosprint/glicol) - Graph-oriented live coding language written in Rust. Make music with code. ([Web](https://glicol.org/))
-- [Gosu](https://gosu-lang.github.io/) - Pragmatic language for the JVM. ([Code](https://github.com/gosu-lang/gosu-lang))
-- [Gravity](https://marcobambini.github.io/gravity/#/) - Embeddable programming language. ([Code](https://github.com/marcobambini/gravity)) ([HN](https://news.ycombinator.com/item?id=23467289))
-- [Gwion](https://github.com/Gwion/Gwion) - Strongly-timed language aimed at music creation. Heavily inspired by ChucK.
-- [Hamler](https://www.hamler-lang.org/) - Haskell-style functional programming language running on Erlang VM. ([Code](https://github.com/hamler-lang/hamler)) ([Article](https://www.emqx.io/news/open-source-functional-programming-language-hamler))
 - [Hare](https://harelang.org/) - Systems programming language designed to be simple, stable, and robust. ([Code](https://sr.ht/~sircmpwn/hare/))
 - [Hascal](https://github.com/hascal/hascal) - General purpose and open source programming language designed to build optimal, maintainable, reliable and efficient software.
 - [Hazure](https://github.com/azur1s/hazure) - ML-Inspired programming language that transpiles to Typescript.

@@ -5,6 +5,8 @@ summary=A collection of links and articles on building programming languages.
 tags=language, language development
 ~~~~~~
 
+[Chunks and Beacons](https://agiletechnicalexcellence.com/2024/07/22/chunks-and-beacons.html)
+
 Some links from https://github.com/imteekay/programming-language-research
 
 ## Courses
