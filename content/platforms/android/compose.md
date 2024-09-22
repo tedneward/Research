@@ -391,8 +391,7 @@ summary=The functional-composition way to build UIs in Android; "Jetpack Compose
                 )
                 Spacer(modifier = Modifier.width(8.dp))
 
-                // We keep track if the message is expanded or not in this
-                // variable
+                // We keep track if the message is expanded or not in this variable
                 var isExpanded by remember { mutableStateOf(false) }
 
                 // We toggle the isExpanded variable when we click on this Column
