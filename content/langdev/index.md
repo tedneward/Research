@@ -9,6 +9,8 @@ tags=language, language development
 
 Some links from https://github.com/imteekay/programming-language-research
 
+[Reddit](https://www.reddit.com/r/ProgrammingLanguages/)
+
 ## Courses
 
 - [301 - Organization of Programming Languages](https://www.youtube.com/watch?v=j2pYeKjq_60&list=PLB1enDd0fV0i5SWGe-A1YjmD8MmlGavIj&ab_channel=JayMcCarthy)
