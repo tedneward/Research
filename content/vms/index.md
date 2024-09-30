@@ -7,8 +7,10 @@ tags=vm
 
 Virtual Machines differ from platforms in that a virtual machine may form the core of a platform. Virtual machines typically provide an environment for executing code (either a bytecode set unique to the VM or, in rare cases, compiled machine code) and often provide a set of services to that executing code, such as code-loading, execution access control and security, garbage collection, metadata access, and so on.
 
-## VM Implementation
+## VM Implementation Reading
 [Crafting Interpreters](http://www.craftinginterpreters.com/)
+
+["A Virtual Machine for Functional Logic Computation"](https://web.cecs.pdx.edu/~apt/ifl04.pdf)
 
 ### Bytecode
 
