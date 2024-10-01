@@ -1,5 +1,5 @@
 title=Linear ML
-tags=language, functional, parallel
+tags=language, functional, parallel, ml
 summary=Functional language for parallel programming.
 ~~~~~~
 

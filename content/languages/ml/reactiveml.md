@@ -1,5 +1,5 @@
 title=Reactive ML
-tags=language, functional
+tags=language, functional, ml
 summary=Synchronous reactive language that combines the temporal expressiveness of synchronous languages with the power of functional programming.
 ~~~~~~
 

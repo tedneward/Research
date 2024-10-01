@@ -1,9 +1,16 @@
 title=ML
-tags=language, functional
+tags=language, functional, ml
 summary=A strictly-functional language that later inspired OCaML and others.
 ~~~~~~
 
-[Wikipedia](https://en.wikipedia.org/wiki/ML_(programming_language))
+[Standard ML](http://sml-family.org/)
+
+Wikipedia:
+
+* [ML](https://en.wikipedia.org/wiki/ML_(programming_language))
+* [Standard ML](https://en.wikipedia.org/wiki/Standard_ML)
+
+### Reading
 
 * [Introduction to Standard ML](http://www.pllab.riec.tohoku.ac.jp/smlsharp/smlIntroSlides.pdf) - Atsushi Ohori (PDF)
 * [ML for the Working Programmer, 2nd Edition](https://www.cl.cam.ac.uk/~lp15/MLbook/pub-details.html) - Lawrence C. Paulson
@@ -15,18 +22,20 @@ summary=A strictly-functional language that later inspired OCaML and others.
 * [Notes on Programming Standard ML of New Jersey](http://www.cs.cornell.edu/riccardo/prog-smlnj/notes-011001.pdf) (10 Jan 2001)
 * [Coursera course](https://www.coursera.org/course/proglang)
 
-[Standard ML](http://sml-family.org/) ([Wikipedia](https://en.wikipedia.org/wiki/Standard_ML)) and its implementations:
+### Implementations
 
 * [SML/NJ](http://smlnj.org/), an implementation with extensions for concurrent programming developed at Princeton University and Bell Laboratories
 * [Moscow ML](http://www.itu.dk/people/sestoft/mosml.html), a lightweight implementation of Standard ML
-* [Alice ML](http://www.ps.uni-saarland.de/alice), an extension of Standard ML with support for parallel programming using futures
+* [Alice ML](/languages/ml/aliceml), an extension of Standard ML with support for parallel programming using futures
 * [MLton](https://github.com/MLton/mlton), a powerful whole-program optimizing compiler strictly conforming to the Definition
 * [SML.NET](/languages/dotnet/smlnet), a compiler for Standard ML on the CLR
 * [PolyML](https://www.polyml.org/) ([Source](https://github.com/polyml))
 * [ConcurrentML](http://mlton.org/ConcurrentML)
+* [SMLtoJS](http://www.smlserver.org/smltojs), compile SML to Javascript. Note the website link appears dead, and the source for it is part of [MLKit](/languages/ml/mlkit), [here](https://github.com/melsman/mlkit/blob/master/README_SMLTOJS.md).
 
 Dependent ML, an extension of ML with dependent typing that led to the development of:
-* [ATS](/languages//ats)
+
+* [ATS](/languages/ats)
 
 [Lazy ML](https://users.monash.edu.au/~lloyd/tildeFP/LML/), an experimental lazily evaluated ML dialect from the early 1980s
 

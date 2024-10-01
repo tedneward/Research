@@ -1,5 +1,5 @@
 title=Alice (AliceML)
-tags=language, functional
+tags=language, functional, ml
 summary=A functional programming language based on Standard ML, extended with rich support for concurrent, distributed, and constraint programming.
 ~~~~~~
 

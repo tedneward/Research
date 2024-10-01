@@ -1,5 +1,5 @@
 title=Bright ML
-tags=language, functional
+tags=language, functional, ml
 summary=Statically-typed programming language based on "F-ing modules".
 ~~~~~~
 
