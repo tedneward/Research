@@ -1,5 +1,5 @@
 title=Prolog
-tags=language, logic
+tags=language, logic, prolog
 summary=A recursive-cut, declarative, logic programming language.
 ~~~~~~
 
@@ -97,318 +97,35 @@ Prolog is used in many kinds of applications including:
 
 ## Implementations:
 
-* [SWI-Prolog](http://www.swi-prolog.org/)
+* [SWI-Prolog](/languages/prolog/swi-prolog)
+* [Ciao](/languages/prolog/ciao)
 * [GNU Prolog](http://www.gprolog.org/)
 * [GNU Prolog RH](http://pauillac.inria.fr/~haemmerl/gprolog-rh/): an extension of GNU Prolog with attributed variables, coroutinings and constraint logic programming over reals ([PDF Manual](http://pauillac.inria.fr/~haemmerl/pub/gprolog-rh-doc.pdf))
-* [Visual Prolog](https://www.visual-prolog.com/) ([Wikipedia](https://en.wikipedia.org/wiki/Visual_Prolog))
-* Javascript: [Tau Prolog](http://tau-prolog.org/) (Prolog in JavaScript) | [Source](https://github.com/tau-prolog)
-* JVM: [JIProlog](http://www.jiprolog.com/) | [Source](https://github.com/jiprolog/)
-* JVM: [TuProlog](http://alice.unibo.it/xwiki/bin/view/Tuprolog/)
-* CLR: [P#](https://homepages.inf.ed.ac.uk/stg/research/Psharp/); also [here](http://www.dcs.ed.ac.uk/home/jjc/psharp/psharp-1.1.3/dlpsharp.html)?
-* CLR: [Prolog.NET](https://github.com/Slesa/Prolog.NET) ([NuGet](https://www.nuget.org/packages/Prolog.NET/))
-* [Ciao](https://ciao-lang.org)
-* [Erlang: Erlog](https://github.com/rvirding/erlog): Interprets a subset of standard Prolog.
-* Go: [Golog](https://github.com/mndrix/golog): Implements a subset of standard Prolog.
 * [BProlog](http://www.picat-lang.org/bprolog/)
 * [Quintus](https://quintus.sics.se/) (commercial; last release 2003; extended by SICStus Prolog)
 * [Qu-Prolog](http://staff.itee.uq.edu.au/pjr/HomePages/QuPrologHome.html)
-* [Scryer](https://www.scryer.pl): a free software ISO Prolog system intended to be an
-industrial strength production environment and a testbed for bleeding edge research in logic and constraint programming.
+* [Scryer](/languages/prolog/scryer)
 * [SICStus Prolog](https://sicstus.sics.se/index.html) (commercial)
 * [Trealla](https://github.com/trealla-prolog/trealla)
 * [YAP (Yet Another Prolog)](https://github.com/vscosta/yap-6.3)
 * [Yield Prolog](http://yieldprolog.sourceforge.net/): embed Prolog programs directly in Python, C#, or JavaScript
-* [XSB](http://xsb.sourceforge.net/index.html) "is a Logic Programming and Deductive Database system"; last updated 2017?
+* [XSB](http://xsb.sourceforge.net/index.html) "is a Logic Programming and Deductive Database system" [Source](https://sourceforge.net/p/xsb/code/ci/git-origin/tree/). Seems pretty active, with some interesting related projects:
+
+    * [The Ergo Platform]() is a next-generation inference engine with axioms and facts enterable via English.
+    * [Flora](/languages/flora) is an object-oriented language for building knowledge-intensive applications, which is based on the ideas of F-Logic, HiLog and Transaction Logic.
+    * [Logtalk](/languages/logtalk) is an open source object-oriented logic programming language that can make use of multi-threading.
+
 * [W-Prolog](https://github.com/Web-Prolog): Prolog in the browser
+* [Visual Prolog](https://www.visual-prolog.com/) ([Wikipedia](https://en.wikipedia.org/wiki/Visual_Prolog))
+* CLR: [P#](https://homepages.inf.ed.ac.uk/stg/research/Psharp/); also [here](http://www.dcs.ed.ac.uk/home/jjc/psharp/psharp-1.1.3/dlpsharp.html)?
+* CLR: [Prolog.NET](https://github.com/Slesa/Prolog.NET) ([NuGet](https://www.nuget.org/packages/Prolog.NET/))
+* Erlang: [Erlog](https://github.com/rvirding/erlog): Interprets a subset of standard Prolog.
+* Go: [Golog](https://github.com/mndrix/golog): Implements a subset of standard Prolog.
+* Javascript: [Tau Prolog](http://tau-prolog.org/) (Prolog in JavaScript) | [Source](https://github.com/tau-prolog)
+* JVM: [JIProlog](http://www.jiprolog.com/) | [Source](https://github.com/jiprolog/)
+* JVM: [TuProlog](http://alice.unibo.it/xwiki/bin/view/Tuprolog/)
 
 Many of these are built on the idea of the [Warren Abstract machine](http://en.wikipedia.org/wiki/Warren_abstract_machine), [archived here](http://wambook.sourceforge.net/).
-
-### Scryer Prolog
-Scryer Prolog is implemented in Rust (64%) and Prolog (36%).
-
-- ISO standard compliant
-- integrated Constraint Logic Programming (CLP) libraries
-- supports Definite Clause Grammars (DCGs)
-- coroutine support
-- tabling and SLG resolution
-- compact string representation
-- network libraries (TCP sockets, HTTP server, HTTP client, ...)
-- cryptography predicates
-- WAM-based engine
-- cross-platform
-- implemented in Rust
-
-To install, enter the following commands:
-
-```bash
-git clone https://github.com/mthom/scryer-prolog
-cd scryer-prolog
-curl https://sh.rustup.rs -sSf | sh # if cargo is not yet installed
-cargo build --release
-```
-
-This creates the executable file `target/release/scryer-prolog`.
-Define an alias like `scryerp` or just `scry` to make this easier to run.
-
-To update your version of Scryer Prolog:
-
-1. cd to the directory containing the cloned GitHub repository.
-1. Enter `git pull`
-1. Enter `cargo build --release`
-
-To start a Scryer Prolog top level from a terminal, enter `scry`.
-
-By default, Scryer Prolog only provides built-in predicates
-that are defined in the ISO standard.
-But it bundles many libraries that define non-ISO predicates that can
-easily be made available with `:- use_module(library(library-name)).`
-
-To specify configuration for all top level sessions,
-create the file `$HOME/.scryerrc`.
-
-This file often imports commonly used libraries.
-For example:
-
-```prolog
-:- use_module(library(clpz)).
-:- use_module(library(dcgs)).
-:- use_module(library(format)).
-:- use_module(library(lists)).
-```
-
-There is currently an {% aTargetBlank
-"https://github.com/mthom/scryer-prolog/issues/1775", "issue" %}
-where operators defined in modules that are loaded in `.scryerrc`
-are not available in source files passed to the Scryer interpreter.
-A workaround is to explicitly load the module in the source file
-with `:- use_module(library(library-name)).`
-
-#### Scryer Help
-
-After entering a query, press "h" to get the following help:
-
-```text
-SPACE, "n" or ";": next solution, if any
-RETURN or ".": stop enumeration
-"a": enumerate all solutions
-"f": enumerate the next 5 solutions
-"h": display this help message
-"w": write terms without depth limit
-"p": print terms with depth limit
-```
-
-#### Scryer Common Errors
-
-The following list describes some of the most commonly seen
-error messages that are output by Scryer Prolog.
-
-- <pre>Warning: <b>singleton variable</b> Name at line N of file-name.pl.</pre>
-
-  This means that the variable `Name` either:
-
-  - is an argument of a rule, but is not used by any rule body goal
-  - appears in a rule body goal, but is not an argument
-    and is not set in a previous goal
-
-- <pre>error(<b>existence_error</b>(source_sink,"file-name.pl"),open/4).</pre>
-
-  This error occurs when Scryer Prolog is started with a file path
-  and the file is not found.
-
-- <pre>error(syntax_error(inconsistent_entry),load/1).</pre>
-
-  This error can occur when there is a typo in a compiler directive.
-
-- <pre>error(permission_error(access,private_procedure,module_does_not_contain_claimed_export),load/1).</pre>
-
-  This error means that a module is being defined and the list of exports
-  contains a functor that is not defined in the file.
-  Sadly, the error does not indicate which function is undefined.
-
-- <pre>error(<b>permission_error</b>(modify,static_procedure,(',')/2),load/1).</pre>
-
-  This error means that the source file contains a term with invalid syntax.
-  Often the cause is a rule body that contains a goal which is
-  not the last goal and is terminated by a period instead of a comma.
-
-- <pre>error(<b>syntax_error</b>(incomplete_reduction),read_term/3:line-number).</pre>
-
-  This error means that the source file contains a term with invalid syntax.
-  Often the cause is
-  a rule body whose last goal is terminated by a comma instead of a period or
-  a rule body goal that is not the last one and is not followed by a comma.
-
-  This error can also occur when a goal uses a non-built-in operator
-  that has not been loaded.
-  For example, using the `#=` requires loading the `clpz` library.
-
-- <pre>error(<b>type_error</b>(list,6),must_be/2).</pre>
-
-  This error can occur when a predicate argument is
-  expected to be a list, but is some other type.
-  For example, this happens when the second argument to `format` is not a list.
-
-### SWI-Prolog
-
-> SWI-Prolog offers a comprehensive free Prolog environment.
-> Since its start in 1987, SWI-Prolog development has been
-> driven by the needs of real world applications.
-> SWI-Prolog is widely used in research and education
-> as well as commercial applications."
-
-> Its main author is Jan Wielemaker.
-> The name SWI is derived from Sociaal-Wetenschappelijke Informatica
-> ("Social Science Informatics"), the former name of the group at
-> the University of Amsterdam, where Wielemaker is employed.
-
-{% aTargetBlank "https://www.swi-prolog.org", "SWI-Prolog" %}
-is implemented in C (48%) and Prolog (39%).
-
-To install the terminal command `swipl` in macOS,
-enter `brew install swi-prolog`
-
-To start a SWI-Prolog top level from a terminal, enter `swipl`.
-
-To specify configuration for all top level sessions,
-create the file `$HOME/.config/swi-prolog/init.pl`.
-For example, this file might set [prolog flags](#prolog-flags).
-
-#### SWI-Prolog Execution
-
-To enter and run Prolog code in a web browser using SWI-Prolog,
-browse [SWISH](https://swish.swi-prolog.org).
-
-Enter facts and rules in the left pane.
-Enter a query in the lower-right pane.
-Press the "Run!" button or ctrl-return to execute the query.
-
-#### SWI-Prolog Conformance
-
-SWI-Prolog adds features beyond the ISO standard,
-some of which contradict the standard, making it non-conforming.
-One example is the addition of a string type.
-Many dedicated predicates are needed to operate on these strings
-rather than using list predicates.
-Another example is the addition of a custom dict type.
-
-It is very easy to write code that runs in SWI-Prolog,
-but does not run in other Prolog implementations.
-In addition, some code that is valid according to the ISO standard
-does not run in SWI-Prolog.
-
-For a detailed take on this issue, see {% aTargetBlank
-"https://www.youtube.com/watch?v=kGQNeeRp4sM", "Preparing Prolog" %}.
-
-Also see {% aTargetBlank
-"https://www.complang.tuwien.ac.at/ulrich/iso-prolog/SWI7_and_ISO",
-"SWI7 and ISO Prolog" %}.
-
-#### SWI-Prolog Packs
-
-Packs are add-on libraries.
-
-To see a list of known packages, browse {% aTargetBlank
-"https://www.swi-prolog.org/pack/list",
-"Packs (add-ons) for SWI-Prolog" %}.
-Alternatively, enter `pack_list(substring)` where
-substring is part of one or more pack names.
-
-To install a pack, enter `pack_install(name)`.
-This will download the code and install it.
-
-The "reif" pack (reified if) implements the `if_` predicate
-which is similar to the `->` operator, but has some advantages.
-See the section "Higher-order Predicates" for examples.
-
-The {% aTargetBlank "https://www.swi-prolog.org/pack/list?p=gvterm",
-"gvterm" %} pack generates a graphviz file from a Prolog term.
-This is useful for visualizing the tree structure of a term.
-
-#### SWI-Prolog Debugging
-
-For information on using the debugger in SWI-Prolog, see {% aTargetBlank
-"https://www.swi-prolog.org/pldoc/man?section=debugoverview",
-"Overview of the Debugger" %}.
-
-The `trace` predicate enables tracing of the search to find a query solution.
-
-The following code defines fact about my family and a rule about grandfathers.
-
-```prolog
-female(amanda).
-female(judi).
-female(tami).
-
-male(jeremy).
-male(mark).
-male(richard).
-
-father(richard, mark).
-father(mark, amanda).
-father(mark, jeremy).
-
-mother(judi, mark).
-mother(tami, amanda).
-mother(tami, jeremy).
-
-grandfather_of(X, Y) :-
-  father(X, P),
-  (father(P, Y); mother(P, Y)).
-```
-
-To trace the execution of the query `grandfather_of(richard, X).`,
-enter `trace.` and then the query.
-The screenshot below shows the output.
-After each line in the trace, press the spacebar
-to advance to the next term to be evaluated.
-After a solution is found, press the semicolon key or the spacebar
-to begin searching for the next solution.
-
-<img alt="SWI-Prolog trace" style="width: 60%"
-  src="/blog/assets/swi-prolog-trace.png?v={{pkg.version}}"
-  title="SWI-Prolog trace">
-
-The `trace` predicate enables both the trace and debug modes.
-To disable these, enter `notrace.` and `nodebug.`
-
-#### SWI-Prolog Executables
-
-To compile a Prolog source file to an executable,
-enter `swipl -o {exe-name} -c {source-name}.pl`.
-For example, `swipl -o sukuko -c suduko.pl`.
-Running this executable with `./suduko` starts a top level session
-and loads the compiled facts and rules.
-
-### Other SWI-Prolog-related
-
-[Web-Prolog](https://github.com/Web-Prolog/swi-web-prolog) | [Book](https://github.com/Web-Prolog/swi-web-prolog/blob/master/book/web-prolog.pdf)
-
-["Creating Web Applications in SWI-Prolog"](http://www.pathwayslms.com/swipltuts/html/index.html)
-
-["yet another web applications tutorial"](https://swi-prolog.discourse.group/t/yet-another-web-applications-tutorial/566/16) | ["Writing a blog using SWI Prolog"](https://github.com/roblaing/swipl-webapp-howto) storing to Postgresql as the storage.
-
-["How to create a web service easily?"](https://www.swi-prolog.org/howto/http/)
-
-### Ciao Prolog
-
-A modern Prolog implementation that builds up from a
-logic-based simple kernel designed to be portable, extensible, and modular.
-
-Ciao is implemented in Prolog (72%) and C (23%).
-
-To install:
-
-1. Install emacs. In macOS, this can be done by entering `brew install emacs`
-1. Enter `curl https://ciao-lang.org/boot -sSfL | sh`
-1. Create an alias to the executable. For example:
-
-   ```bash
-   alias ciao="$HOME/.ciaoroot/v1.22.0-m5/build/bin/ciao"
-   ```
-
-To start a Ciao top level from a terminal, enter `ciao`.
-
----
 
 
 ## Reading
