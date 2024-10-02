@@ -25,6 +25,7 @@ Wikipedia:
 ### Implementations
 
 * [SML/NJ](http://smlnj.org/), an implementation with extensions for concurrent programming developed at Princeton University and Bell Laboratories
+* [MLKit](/languages/ml/mlkit)
 * [Moscow ML](http://www.itu.dk/people/sestoft/mosml.html), a lightweight implementation of Standard ML
 * [Alice ML](/languages/ml/aliceml), an extension of Standard ML with support for parallel programming using futures
 * [MLton](https://github.com/MLton/mlton), a powerful whole-program optimizing compiler strictly conforming to the Definition
