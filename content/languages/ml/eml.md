@@ -1,5 +1,5 @@
 title=EML
-tags=language
+tags=language, functional, ml
 summary=A framework for specification and formal development of Standard ML (SML) programs. 
 ~~~~~~
 

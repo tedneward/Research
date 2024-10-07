@@ -1,12 +1,12 @@
 title=Reason
-tags=language, functional
+tags=language, functional, ml
 summary=Simple, fast & type safe code that leverages the JavaScript & OCaml ecosystems.
 ~~~~~~
 
 [Website](https://reasonml.github.io/) | [Source](https://github.com/reasonml/reason)
 
 - [Official Reason Docs](https://reasonml.github.io/docs/en/what-and-why)
-- [Official BuckleScript Docs](https://bucklescript.github.io/docs/en/what-why) - later renamed [ReScript](../../ecmascript/rescript/)
+- [Official BuckleScript Docs](https://bucklescript.github.io/docs/en/what-why) - later renamed [ReScript](/languages/ecmascript/rescript/)
 - [Try Reason](https://reasonml.github.io/en/try)
 - [Get Started with Reason by Nik Graf](https://egghead.io/courses/get-started-with-reason)
 
@@ -33,9 +33,9 @@ let greeting = person =>
     * [ReScript](https://rescript-lang.org/) (formerly BuckleScript)
     * [Js_of_ocaml](https://ocsigen.org/js_of_ocaml/)
 
-Considers itself a peer to [Rust](../rust), [Elm](../elm), [PureScript](../ecmascript/purescript), F# via Fable, ClojureScript, [Swift](../swift), and [Haxe](../haxe).
+Considers itself a peer to [Rust](/languages/rust), [Elm](/languages/elm), [PureScript](/languages/ecmascript/purescript), [F#](/languages/dotnet/fsharp) via Fable, ClojureScript, [Swift](/languages/swift), and [Haxe](/languages/haxe).
 
-### [Learn X in Y minutes Quick Intro]()
+### [Learn X in Y minutes Quick Intro](https://learnxinyminutes.com/docs/reason/)
 
 Reason is a syntax over OCaml that is easier to get started for programmers who are familiar with C-style syntax like JavaScript. BuckleScript is part of the toolchain which compiles Reason to JavaScript so you can write statically typed code for anywhere that JavaScript runs.
 

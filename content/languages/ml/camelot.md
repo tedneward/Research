@@ -1,5 +1,5 @@
 title=Camelot
-tags=language
+tags=language, functional, object, ml
 summary=A language of the ML family. `
 ~~~~~~
 

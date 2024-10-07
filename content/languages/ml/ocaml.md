@@ -1,5 +1,5 @@
 title=OCaml
-tags=language, object, functional, native
+tags=language, object, functional, native, ml
 summary=An object-functional hybrid language and platform.
 ~~~~~~
 

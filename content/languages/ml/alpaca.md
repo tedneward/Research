@@ -1,5 +1,5 @@
 title=Alpaca
-tags=language
+tags=language, functional, ml, beam
 summary=Functional programming inspired by ML for the Erlang VM.
 ~~~~~~
 
