@@ -3,7 +3,7 @@ tags=vm, functional
 summary=A highly influential virtual machine and abstract machine intended as a target for functional programming language compilers. 
 ~~~~~~
 
-[Wikipedia](https://en.wikipedia.org/wiki/SECD_machine) | ["The next 700 programming languages"](https://web.archive.org/web/20100620004154/http://fsl.cs.uiuc.edu/images/e/ef/P157-landin.pdf)
+[Wikipedia](https://en.wikipedia.org/wiki/SECD_machine) | ["The next 700 programming languages"](https://web.archive.org/web/20100620004154/http://fsl.cs.uiuc.edu/images/e/ef/P157-landin.pdf) | [SECD Machine](https://pqnelson.github.io/org-notes/comp-sci/abstract-machines/secd.html)
 
 The letters stand for Stack, Environment, Control, Dump--the internal registers of the machine. The registers Stack, Control, and Dump point to (some realizations of) stacks, and Environment points to (some realization of) an associative array.
 
