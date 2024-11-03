@@ -1,5 +1,5 @@
 title=Atom
-tags=vm
+tags=vm, register, win32
 summary=A programmable, register based virtual machine for Win32 computers.
 ~~~~~~
 
@@ -16,3 +16,7 @@ Atom is written in Delphi. It is released under the GPL and the source code can 
 I created Atom as a learning exercise in building a virtual machine. See my article Why Atom, for more details. At some point in time, after the VM is feature complete, I plan on creating a high-level language (named Atom of course) that will interface with the VM.
 
 I hope that eventually, Atom will become useful. Even if it doesn't though, it will have served the purpose of being a vehicle for learning the intricacies of creating a programming language.
+
+---
+
+Includes Screen Opcodes (!) and File Opcodes, not to mention Widgets. Not your typical VM.

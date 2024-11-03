@@ -351,6 +351,7 @@ Some links from https://github.com/imteekay/programming-language-research
     - [Part 10: Generics - adding polymorphism to Bolt](https://mukulrathi.com/create-your-own-programming-language/generics-parametric-polymorphism/);
     - [Part 11: Adding Inheritance and Method Overriding to Our Language](https://mukulrathi.com/create-your-own-programming-language/inheritance-method-overriding-vtable/);
 
+* [How to Compile Your Language](https://isuckatcs.github.io/how-to-compile-your-language/)
 * [Language Incubator](https://github.com/EarlGray/language-incubator): Repo of language experiments/explorations; "An incubator/sandbox for learning compilers, interpreters, code generation, virtual machines, assemblers, JITs, etc."
 * [Let's Build a Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/): Up to 19 parts up through 2020.
 * [mal](https://github.com/kanaka/mal) (Make A Lisp): Steps (and collection of implementations) to make your own Lisp.
@@ -408,7 +409,7 @@ Some links from https://github.com/imteekay/programming-language-research
 
 ### JVM
 
-* [joeq: A Virtual Machine and Compiler Infrastructure](https://joeq.sourceforge.net/) ([PDF](https://suif.stanford.edu/~jwhaley/papers/ivme03.pdf)) ([Source](https://sourceforge.net/projects/joeq/)): entirely implemented in JavaTM, leading to greater reliability, portability, maintainability, and efficiency. It is also language-independent, so code from any supported language can be seamlessly compiled, linked, and executed --- all dynamically!
+* [joeq: A Virtual Machine and Compiler Infrastructure](https://joeq.sourceforge.net/) ([PDF](https://suif.stanford.edu/~jwhaley/papers/ivme03.pdf)) ([Source](https://sourceforge.net/projects/joeq/)): entirely implemented in Java, leading to greater reliability, portability, maintainability, and efficiency. It is also language-independent, so code from any supported language can be seamlessly compiled, linked, and executed --- all dynamically!
 * Video - [Nashorn: implementing a dynamic language runtime on JVM](https://www.youtube.com/watch?v=KKaHkkpdHxg) (Attila Szegedi)
 * [Scripting and Dynamic Interaction in Java](http://alumni.media.mit.edu/~mt/skij/dynjava/dynjava.html)
 * [write_your_own_dynamic_language_runtime](https://github.com/forax/write_your_dynamic_language_runtime): How to write interpreters or dynamic compilers for dynamically typed languages on top of the JVM. This repository provides the basis to implement your own

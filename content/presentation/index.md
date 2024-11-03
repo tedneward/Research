@@ -9,6 +9,8 @@ tags=presentation
 
 [Project LightSpeed](https://engineering.fb.com/2020/03/02/data-infrastructure/messenger/): "... using the native OS wherever possible, reusing the UI with dynamic templates powered by SQLite, using SQLite as a universal system, and building a server broker to operate as a universal gateway between Messenger and its server features." In many respects, sounds like part of what they did was adopt a partial [Naked Objects](../nakedobjects.html)-like approach to their UI, storing the UI description in data and building that UI at runtime.
 
+"Build a Dev Portfolio as a 2D Game" - [Video](https://www.youtube.com/watch?v=wy_fSStEgMs) and [Source](https://github.com/JSLegendDev/2d-portfolio-kaboom). Cute idea.
+
 ["The Balance has Shifted Away from SPAs"](https://nolanlawson.com/2022/05/21/the-balance-has-shifted-away-from-spas/)
 
 ["A Whole Website in a Single JavaScript File"](https://deno.com/blog/a-whole-website-in-a-single-js-file)
@@ -17,6 +19,7 @@ Repositories for graphics:
 
 * [The Noun Project](https://thenounproject.com/): icons and photos for everything.
 * [Unsplash](https://unsplash.com/): The Internet's source for visuals.
+* [Happy Little Tileset](https://momen-games.itch.io/happy-la-v2-ts): Some tiles for 2D/retro games/graphics.
 
 ### Articles
 

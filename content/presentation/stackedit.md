@@ -1,5 +1,5 @@
 title=StackEdit
-tags=presentation, editor, browser
+tags=presentation, editor, browser, markdown
 summary=Add StackEdit to any website.
 ~~~~~~
 

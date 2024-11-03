@@ -21,6 +21,10 @@ tags=management
 
 [Biases and Fallacies Lead to Smol Thinking](https://ceklog.kindel.com/2023/06/02/biases-and-fallacies-lead-to-smol-thinking/)
 
+## Project Management
+
+[Project Management Antipatterns](https://sourcemaking.com/antipatterns/software-project-management-antipatterns) *(I don't think this is a list of project management antipatterns as much as a general list of project antipatterns. AND they forgot to credit Neal as the source of the term Blowhard Jamboree.)*
+
 ## Organizational Design
 
 [Building Organizational Resilience through Documentation and InnerSource Practices](https://www.infoq.com/podcasts/documentation-innersource-practices-build-resilience/)
