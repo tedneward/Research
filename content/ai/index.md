@@ -28,3 +28,5 @@ tags=ai
 
 ## Machine Learning
 
+* [Machine Learning for Software Engineering](https://github.com/saltudelft/ml4se): A curated list of papers, theses, datasets, and tools related to the application of Machine Learning for Software Engineering.
+

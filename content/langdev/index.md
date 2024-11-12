@@ -220,6 +220,7 @@ Some links from https://github.com/imteekay/programming-language-research
 - [Flattening ASTs (and Other Compiler Data Structures)](https://www.cs.cornell.edu/~asampson/blog/flattening.html)
 - [Fredrik Lundh - Simple Town-Down Parsing In Python](https://11l-lang.org/archive/simple-top-down-parsing)
 - [Garbage Collection Algorithms](https://www.dmitrysoshnikov.education/p/essentials-of-garbage-collectors)
+- [How to Compile Your Language](https://isuckatcs.github.io/how-to-compile-your-language/)
 - [How to implement a programming language in JavaScript](http://lisperator.net/pltut)
 - [IU Compiler Course](https://iucompilercourse.github.io/IU-P423-P523-E313-E513-Fall-2020)
 - [Jack W. Crenshaw - Let’s Build a Compiler!](http://compilers.iecc.com/crenshaw/tutorfinal.pdf)
@@ -377,7 +378,8 @@ Some links from https://github.com/imteekay/programming-language-research
 * [Sudolang: A powerful programming language for LLMs](https://medium.com/javascript-scene/sudolang-a-powerful-pseudocode-programming-language-for-llms-d64d42aa719b)
 * [The Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler) (JS)
 * [TinyML: A tiny functional language interpreter](https://d3s.mff.cuni.cz/files/teaching/nprg077/02-tinyml.pdf) (Tomas Petricek)
-* [Write Yourself a Scheme in 48 Hours](https://upload.wikimedia.org/wikipedia/commons/a/aa/Write_Yourself_a_Scheme_in_48_Hours.pdf);
+* [Write Yourself a Scheme in 48 Hours](https://upload.wikimedia.org/wikipedia/commons/a/aa/Write_Yourself_a_Scheme_in_48_Hours.pdf)
+* [Write Yourself a Scheme in 48 Hours using F#](https://write-yourself-a-scheme.pangwa.com/#/)
 * [X-expressions in XMLisp: S-expressions and Extensible Markup Language Unite](https://home.cs.colorado.edu/~ralex/papers/PDF/X-expressions.pdf): "XMLisp unites S-expressions with XML into X-expressions that unify the notions of data sharing with computation. Using a combination of the Meta Object Protocol (MOP), readers and printers, X-expressions uniquely integrate XML at a language, not API level, into Lisp in a way that could not be done with other programming languages."
 
 

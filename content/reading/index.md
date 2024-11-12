@@ -9,6 +9,8 @@ Collections of articles and on various topics. Liberal crosslinking expected.
 
 ["My parents are dead. What now?"](https://www.deadparentswhatnow.com)
 
+["Why COBOL isn't the problem"](https://lucid.co/techblog/2020/11/13/why-cobol-isnt-the-problem)
+
 [Paperlist](https://paperlist.io/): Read and share research papers
 
 [25 years of Personal Knowledge Management](https://dsebastien.net/blog/2022-04-03-25-years-of-personal-knowledge-management):

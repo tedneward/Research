@@ -22,4 +22,4 @@ Features
 * ToolJet acts only as a proxy and doesn't store any data.
 * Support for OAuth
 
-
+["Meet ToolJet"](https://www.marktechpost.com/2023/10/13/meet-tooljet-an-open-source-low-code-framework-to-build-and-deploy-internal-tools-with-minimal-engineering-effort/)

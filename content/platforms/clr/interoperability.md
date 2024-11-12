@@ -9,3 +9,5 @@ summary=Links for the interoperability between the Common Language Runtime (CLR)
 ## CLR-native bindings/libraries/tools
 [CppAst](https://github.com/xoofx/CppAst): a .NET library providing a C/C++ parser for header files powered by Clang/libclang with access to the full AST, comments and macros; also see [CppAst.CodeGen](https://github.com/xoofx/CppAst.CodeGen)
 
+## CLR-NodeJS
+[node-api-dotnet](https://github.com/microsoft/node-api-dotnet): Advanced interoperability between .NET and JavaScript in the same process.
