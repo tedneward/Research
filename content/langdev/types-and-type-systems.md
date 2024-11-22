@@ -70,6 +70,8 @@ When a program is considered not type-safe, there is no single standard course o
 
 Note that while these terms usually are applied most directly to programming languages, there's a strong case to be made that they apply to other areas of programming, too, like storage. A relational database, for example, could be said to be a strongly-type-safe (because it insists on only integers in INTEGER columns) and statically-type-checked (since it parses SQL and does type-checking).
 
+["Type tailoring"](https://users.cs.utah.edu/~blg/publications/tt/wcfg-ecoop-2024.pdf): Type systems evolve too slowly to keep up with the quick evolution of libraries – especially libraries that introduce abstractions. Type tailoring offers a lightweight solution by equipping the core language with an API for modifying the elaboration of surface code into the internal language of the typechecker. Through user-programmable elaboration, tailoring rules appear to improve the precision and expressiveness of the underlying type system. Furthermore, type tailoring cooperates with the host type system by expanding to code that the host then typechecks. In the context of a hygienic metaprogramming system, tailoring rules can even harmoniously compose with one another. Type tailoring has emerged as a theme across several languages and metaprogramming systems, but never with direct support and rarely in the same shape twice. For example, both OCaml and Typed Racket enable forms of tailoring, but in quite different ways. This paper identifies key dimensions of type tailoring systems and tradeoffs along each dimension. It demonstrates the usefulness of tailoring with examples that cover sized vectors, database queries, and optional types. Finally, it outlines a vision for future research at the intersection of types and metaprogramming.
+
 ### Type-safety
 
 * Strong: A strongly-typed language is one in which variables are bound to specific data types, and will result in type errors if types to not match up as expected in the expression. A simple way to think of strong typing is to consider it to be a guarantor of high degrees of type safety. 
@@ -79,6 +81,8 @@ Note that while these terms usually are applied most directly to programming lan
 Note that while these terms usually are applied most directly to programming languages, there's a strong case to be made that they apply to other areas of programming, too, like storage. A relational database, for example, could be said to be a strongly-type-safe (because it insists on only integers in INTEGER columns) and statically-type-checked (since it parses SQL and does type-checking).
 
 ## Type inference
+
+* ["Damas-Hindley-Milner inference two ways"](https://bernsteinbear.com/blog/type-inference/): Damas-Hindley-Milner (HM) is a type system for Standard ML and the ML-family languages with parametric polymorphism, aka generic functions. It sits at a sweet spot in PL design: the type system is quite expressive, and there are well known type inference algorithms that require absolutely no annotations from the programmer.
 
 ## Type theory
 

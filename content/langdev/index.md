@@ -95,6 +95,7 @@ Some links from https://github.com/imteekay/programming-language-research
 - [A miniature model of the Typescript compiler](https://github.com/imteekay/mini-typescript)
 - [An interpreter for the Monkey programming language](https://github.com/imteekay/crafting-an-interpreter)
 - [How the TypeScript compiler works](https://www.iamtk.co/series/the-typescript-compiler)
+- [Compiling Lisp to bytecode](https://healeycodes.com/compiling-lisp-to-bytecode-and-running-it)
 
 ### Papers
 
