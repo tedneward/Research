@@ -42,6 +42,10 @@ A key paper to read before reading any academic papers: https://blog.acolyer.org
 
 [The Joy of Computer History Books](https://fabiensanglard.net/joy/index.html): A collection of the author's favorite books on computer industry history. (TODO: Go through here, extract the book links, put them on a to-read list.)
 
+Individual collections of articles/essays:
+
+* [Oren Golan](https://oren.github.io/articles/)
+
 ---
 
 "A cultural universal is an element, pattern, or trait that is common to all known human cultures worldwide. These include: Personal names, sexual jealousy, music, dance, proverbs, and poetry." --[UberFacts](https://twitter.com/UberFacts/status/1509115472163356686)

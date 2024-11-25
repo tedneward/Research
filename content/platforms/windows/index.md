@@ -11,3 +11,13 @@ summary=The Microsoft operating system that has gone through several iterations 
 ## Development
 
 [The Great Win32 Computer Language Shootout](http://dada.perl.it/shootout/)
+
+## Package Managers
+
+UniGetUI:
+
+    * ["UniGetUI is the ultimate package manager for Windows PCs"](https://www.xda-developers.com/unigetui-hands-on-ultimate-package-manager/)
+
+winget:
+
+    * ["How to use winget"](https://www.xda-developers.com/how-use-winget-windows-11/)

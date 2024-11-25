@@ -9,7 +9,7 @@ tags=language, language development
 
 Some links from https://github.com/imteekay/programming-language-research
 
-[Reddit](https://www.reddit.com/r/ProgrammingLanguages/)
+[Reddit r/ProgrammingLanguages](https://www.reddit.com/r/ProgrammingLanguages/)
 
 ## Courses
 
@@ -122,6 +122,7 @@ Some links from https://github.com/imteekay/programming-language-research
 - [Pluggable Type Systems](https://bracha.org/pluggableTypesPosition.pdf)
 - [Programming in Homotopy Type Theory](http://dlicata.web.wesleyan.edu/pubs/lh122tttalks/lh12wg2.8.pdf)
 - [Refined Criteria for Gradual Typing](https://drops.dagstuhl.de/opus/volltexte/2015/5031/pdf/21.pdf)
+- [Relational operators in Apache Calcite](https://www.querifylabs.com/blog/relational-operators-in-apache-calcite)
 - [Simple Programming Languages](https://ryanbrewer.dev/posts/simple-programming-languages.html)
 - [Static Typing Where Possible, Dynamic Typing When Needed: The End of the Cold War Between Programming Languages](https://www.ics.uci.edu/~lopes/teaching/inf212W12/readings/rdl04meijer.pdf)
 - [The Behavior of Gradual Types: A User Study](https://cs.brown.edu/~sk/Publications/Papers/Published/tgpk-beh-grad-types-user-study/paper.pdf)
