@@ -1,5 +1,5 @@
 title=Functional reading
-tags=reading, functional
+tags=language, concept, reading, functional
 summary=Ideas and concepts around functional programming.
 ~~~~~~
 

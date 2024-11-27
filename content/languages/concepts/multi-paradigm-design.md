@@ -1,5 +1,5 @@
 title=Multi-Paradigm Design in C++
-tags=reading, books, object
+tags=language, concept, reading, books, object
 summary=Some ways to think about object-oriented design and design in general.
 ~~~~~~
 *(by James O. Coplien, Addison-Wesley, 1999)*

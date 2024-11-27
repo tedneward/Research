@@ -1,5 +1,5 @@
 title=Object Thinking
-tags=reading, books, object
+tags=language, concept, reading, books, object
 summary=Approaches to object-oriented design and thinking.
 ~~~~~~
 *(by (author), (publisher info))* 

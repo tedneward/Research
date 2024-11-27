@@ -1,7 +1,5 @@
 title=Monads
-type=page
-tags=reading, functional
-status=published
+tags=language, reading, functional
 summary=Collection of articles on monads (and monoids and related subjects).
 ~~~~~~
 

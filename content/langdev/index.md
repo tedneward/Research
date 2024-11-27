@@ -98,9 +98,10 @@ Some links from https://github.com/imteekay/programming-language-research
 - [How the TypeScript compiler works](https://www.iamtk.co/series/the-typescript-compiler)
 - [Compiling Lisp to bytecode](https://healeycodes.com/compiling-lisp-to-bytecode-and-running-it)
 
-### Papers
+### Essays/Papers
 
 - [10 papers that all PhD students in programming languages ought to know](https://github.com/nuprl/10PL)
+- [A case for feminism in PL design](https://dl.acm.org/doi/pdf/10.1145/3689492.3689809)
 - [A syntactic approach to type soundness](https://web.eecs.umich.edu/~weimerw/2008-615/reading/wright92syntactic.pdf)
 - [A Theory of Type Polymorphism in Programming](https://homepages.inf.ed.ac.uk/wadler/papers/papers-we-love/milner-type-polymorphism.pdf)
 - [Abstracting Gradual Typing](https://www.cs.ubc.ca/~rxg/agt.pdf)

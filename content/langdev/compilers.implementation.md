@@ -75,3 +75,6 @@ Escape analysis is an optimization for identifying objects which do not escape t
 - Superoptimizing Compilers - http://superoptimization.org/wiki/Superoptimizing_Compilers
 - Superoptimization - James Pallister - FOSDEM 2015 - https://archive.fosdem.org/2015/schedule/event/superoptimization/
 
+### Scheduling languages
+
+- Scheduling Languages: A Past, Present, and Future Taxonomy - https://arxiv.org/pdf/2410.19927
