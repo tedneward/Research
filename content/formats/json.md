@@ -1,5 +1,5 @@
 title=JavaScript Object Notation (JSON)
-tags=format, specification, ecmascript, browser, nodejs, storage
+tags=format, storage, specification, ecmascript, browser, nodejs, storage
 summary=Object literal syntax from ECMAScript that's since taken off as a data storage and wire transfer format.
 ~~~~~~
 
@@ -7,3 +7,4 @@ summary=Object literal syntax from ECMAScript that's since taken off as a data s
 
 Libraries for JSON processing are too numerous to count; it's almost a rite of passage for any new language to have one.
 
+Text-based, human-readable, schema-optional, (some assert) self-describing, no schema evolution, optional compression
