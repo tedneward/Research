@@ -1,5 +1,5 @@
 title=Avro
-tags=format, storage, binary, schema
+tags=format, storage, binary, schema, serialization
 summary=A data serialization system.
 ~~~~~~
 

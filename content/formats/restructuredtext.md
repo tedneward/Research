@@ -1,5 +1,5 @@
 title=reStructuredText (reST)
-tags=format, documentation
+tags=format, text, documentation
 summary=Plaintext markup syntax and parser system.
 ~~~~~~
 

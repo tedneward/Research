@@ -1,5 +1,5 @@
 title=Parquet
-tags=format, storage, binary, columnar, schema
+tags=format, storage, binary, columnar, schema, serialization
 summary=An open source, column-oriented data file format designed for efficient data storage and retrieval.
 ~~~~~~
 

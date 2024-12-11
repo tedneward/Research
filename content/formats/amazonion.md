@@ -1,5 +1,5 @@
 title=Amazon Ion
-tags=format, native, jvm, clr, python, nodejs, browser
+tags=format, storage, serialization, binary, text, native, jvm, clr, python, nodejs, browser
 summary=A richly-typed, self-describing, hierarchical data serialization format offering interchangeable binary and text representations.
 ~~~~~~
 

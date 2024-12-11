@@ -1,5 +1,5 @@
 title=JavaScript Object Notation (JSON)
-tags=format, storage, specification, ecmascript, browser, nodejs, storage
+tags=format, storage, specification, ecmascript, browser, nodejs, serialization
 summary=Object literal syntax from ECMAScript that's since taken off as a data storage and wire transfer format.
 ~~~~~~
 
