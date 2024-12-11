@@ -5,6 +5,8 @@ summary=A successor to Pascal with some interesting elements.
 
 [Website](https://oberon-lang.github.io/) | [Source](https://github.com/oberon-lang/specification)
 
+The most important features of Oberon+ are block structure, modularity, separate compilation, static typing with strong type checking, generic programming, garbage collection, and type extension with type-bound procedures.
+
 Procedural Programming
 ```
 module Fibonacci

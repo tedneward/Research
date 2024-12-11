@@ -3,13 +3,13 @@ tags=language, esoteric
 summary=A two-dimensional, hexagonal programming language.
 ~~~~~~
 
-[Source](https://github.com/m-ender/hexagony)
+[Source](https://esolangs.org/wiki/Hexagony) | [Hexagony IDE](https://hexagony.net/)
 
 This is just fucking *twisted*.
 
 ## README contents:
 
-Hexagony is (to the best of the author's knowledge) the first two-dimensional [esoteric programming language](https://esolangs.org/wiki/Main_Page) on a hexagonal grid. Furthermore, the memory layout *also* resembles a (separate) hexagonal grid. The name is a portmanteau of "hexagon" and "agony", because… well, give programming in it a go.
+Hexagony is (to the best of the author's knowledge) the first two-dimensional [esoteric programming language](https://esolangs.org/wiki/Main_Page) on a hexagonal grid. Furthermore, the memory layout *also* resembles a (separate) hexagonal grid. The name is a portmanteau of "hexagon" and "agony", because... well, give programming in it a go.
 
 Hexagony is Turing-complete.
 

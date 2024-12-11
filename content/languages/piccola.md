@@ -1,7 +1,8 @@
 title=Piccola
 tags=language
-summary=Piccola is a small, pure language for building applications from software components. Piccola is small in the sense that its syntax is tiny, and it is pure in the sense that it provides only compositional features — computation is performed entirely by components of the host programming language. The semantics of Piccola is defined in terms of a process calculus, an extension of Milner's pi calculus in which values communicated are forms, rather than tuples. A "form" is essentially an extensible nested record which also serves as a namespace in which expressions may be evaluated. This simple mechanism is responsible for much of the expressive power of Piccola.
+summary=A small, pure language for building applications from software components.
 ~~~~~~
 
-[Source](https://scg.unibe.ch/research/piccola)
+Piccola is small in the sense that its syntax is tiny, and it is pure in the sense that it provides only compositional features — computation is performed entirely by components of the host programming language. The semantics of Piccola is defined in terms of a process calculus, an extension of Milner's pi calculus in which values communicated are forms, rather than tuples. A "form" is essentially an extensible nested record which also serves as a namespace in which expressions may be evaluated. This simple mechanism is responsible for much of the expressive power of Piccola.
 
+[Source](https://scg.unibe.ch/research/piccola)

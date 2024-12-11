@@ -5,12 +5,13 @@ status=published
 summary=Extensible compiler front end framework for language implementation on the JVM.
 ~~~~~~
 
-[Website](https://research.cs.cornell.edu/polyglot/) | [Github](https://github.com/polyglot-compiler/polyglot)
+[Website](https://www.cs.cornell.edu/projects/polyglot/) | [Github](https://github.com/polyglot-compiler/polyglot)
 
 From the website:
 > Polyglot is a highly extensible compiler front end for the Java programming language. It is implemented as a Java class framework using design patterns to promote extensibility. Using Polyglot, language extensions can be implemented without duplicating code from the framework itself. Polyglot has been used to implement domain-specific languages, to explore language design ideas, to simplify Java for pedagogical purposes, and for various code transformations such as optimization and fault injection. Polyglot has been used for both major and minor language extensions; our experience suggests that the cost of implementing an extension scales well with the degree to which it modifies Java.
 
 Some Polyglot implementations:
+
 * [Jif](https://research.cs.cornell.edu/jif) – information flow and program transformations for security
 * [JMatch](https://research.cs.cornell.edu/Projects/jmatch) – abstract iterable pattern matching for Java
 * [Jx/J&](http://www.cs.cornell.edu/Projects/jx) –  nested inheritance for extensible, composable frameworks.
@@ -32,4 +33,8 @@ Some Polyglot implementations:
 * [SessionJ](http://www.doc.ic.ac.uk/~rhu/sessionj.html) – session-based distributed programming in Java (Imperial)
 * [IMP](http://www.eclipse.org/imp/) –  Eclipse IDE Meta-tooling Platform (Eclipse, IBM TJ Watson Hawthorne)
 * [JCoBox](http://softech.informatik.uni-kl.de/Homepage/JCoBox) –  generalizing active objects to concurrent cooperative tasks (TU Kaiserslautern)
+
+## Articles
+
+["My Experience Working With Polyglot"](https://yangdanny97.github.io/blog/2020/07/15/polyglot) and ["Guide to Writing Polyglot Compiler Extensions"](https://yangdanny97.github.io/blog/2020/07/23/polyglot2)
 

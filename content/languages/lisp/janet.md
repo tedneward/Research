@@ -1,7 +1,9 @@
 title=Janet
-tags=language, native
-summary=A functional and imperative programming language and bytecode interpreter. It is a lisp-like language, but lists are replaced by other data structures (arrays, tables (hash table), struct (immutable hash table), tuples). The language also supports bridging to native code written in C, meta-programming with macros, and bytecode assembly.
+tags=language, lisp, native
+summary=A functional and imperative Lisp and bytecode interpreter, where lists are replaced by other data structures (arrays, tables (hash table), struct (immutable hash table), tuples).
 ~~~~~~
+
+The language also supports bridging to native code written in C, meta-programming with macros, and bytecode assembly.
 
 [Website](https://janet-lang.org/) | [Source](https://github.com/janet-lang/janet) | [Janet for Mortals](https://janet.guide/)
 

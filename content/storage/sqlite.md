@@ -11,6 +11,10 @@ How does SQLite work? [Part 1](https://jvns.ca/blog/2014/09/27/how-does-sqlite-w
 
 [How the SQLite VM works](https://fly.io/blog/sqlite-virtual-machine/)
 
+### Typescript
+
+* [Kysely](https://kysely.dev/) ([Source](https://github.com/kysely-org/kysely)): The type-safe SQL query builder for TypeScript
+
 ### Swift/iOS
 By default, SQLite from Swift/iOS is an exercise in C integration. Numerous wrappers are available.
 

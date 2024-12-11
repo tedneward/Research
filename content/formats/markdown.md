@@ -11,6 +11,8 @@ summary=Text-based markup language originally intended for easy HTML creation.
 
 [Hyperdeck](https://docs.hyperdeck.io/): Beautiful Markdown Slides for iPad and Mac; [Presentation Markdown](https://docs.hyperdeck.io/markdown/general.html)
 
+[Awesome-Markdown](https://project-awesome.org/BubuAnabelas/awesome-markdown)
+
 ## [Cheat sheet](https://github.com/Randy8080/reference/blob/main/markdown.md)
 
 ### Headers (atx style)

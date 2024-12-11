@@ -1,5 +1,5 @@
 title=LLVM (toolchain)
-tags=tool, language, library, llvm
+tags=tool, language, library, llvm, language development
 summary=A collection of tools and libraries for building languages (and language-related tools).
 ~~~~~~
 

@@ -3,6 +3,8 @@ tags=language, storage, native
 summary=Portable, xBase compatible programming language and environment.
 ~~~~~~
 
+Harbour consists of a compiler and runtime libraries with multiple UI and database backends, its own make system and a large collection of libraries and interfaces to many popular APIs.
+
 [Website](https://harbour.github.io/) | [Source](https://github.com/harbour/core) | [Wiki](https://harbour.wiki/)
 
 Last stable release (3.0.0), in 2011.

@@ -1,7 +1,9 @@
 title=Quirrel
-tags=language
-summary=Quirrel - Gaijin Entertainment dynamic script language (former Squirrel).
+tags=language, gamedev, native
+summary=Dynamic script language.
 ~~~~~~
 
-[Source](https://github.com/GaijinEntertainment/quirrel)
+[Website](https://quirrel.io/doc/index.html) | [Source](https://github.com/GaijinEntertainment/quirrel)
+
+Renamed from Squirrel. Used in Gaijin game projects.
 

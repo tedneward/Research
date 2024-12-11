@@ -9,7 +9,7 @@
 	<!--<ul>-->
 	<ul>
 		<#list tagged_documents?sort_by("title") as doc>
-		<li><a href="/${doc.uri}" target="_blank">${doc.title}</a></li>
+		<li><a href="${config.site_host}/${doc.uri}" target="_blank">${doc.title}</a></li>
 		</#list>
 	</ul>
 	

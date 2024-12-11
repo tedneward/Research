@@ -6,4 +6,3 @@ summary=Simple, maintainable, compiled language for developing WebAssembly softw
 [Source](https://github.com/wa-lang/wa) | [Website](https://wa-lang.github.io/) | [Manual](https://wa-lang.github.io/man/en/)
 
 
-

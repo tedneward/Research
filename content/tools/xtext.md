@@ -1,5 +1,5 @@
 title=Xtext
-tags=tool, language, dsl, parser
+tags=tool, language, dsl, parser, language development
 summary=A framework for development of programming languages and domain-specific languages.
 ~~~~~~
 

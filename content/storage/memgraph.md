@@ -3,7 +3,7 @@ tags=storage, graph
 summary=A streaming graph application platform that helps you wrangle your streaming data, build sophisticated models that you can query in real-time.
 ~~~~~~
 
-[Website](https://memgraph.com/) | [Source](https://github.com/memgraph) | [Docs](https://memgraph.com/docs)
+[Website](https://memgraph.com/) | [Source](https://github.com/memgraph/memgraph) | [Docs](https://memgraph.com/docs)
 
 Docker run instructions:
 

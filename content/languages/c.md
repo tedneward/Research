@@ -27,6 +27,7 @@ Numerous languages seek to supplant or replace C as the ubiquitous system langua
 * [Pacific C for DOS](http://www.grifo.com/SOFT/Pacific/uk_pacific.html) : Freeware version for MSDOS of a professional C IDE/compiler shareware
 * [Dev86 / BCC](https://github.com/lkundrak/dev86) : 8086 C/Assembler development tools (C compiler, assembler, linker). Open Source.
 * [Extended C Development Kit](http://openecdk.sourceforge.net/)
+* [CuikC](https://cuik.handmade.network/): The plan is a modern C11 compiler which can mostly work with Clang, GCC, and MSVC while also introducing some new ideas. Warning: unfinished
 * [C compiler written in untyped lambda calculus](https://github.com/woodrush/lambda-8cc):
     * Compile C to:
         * x86 executable (a.out)

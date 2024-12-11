@@ -1,7 +1,25 @@
 title=Crow
-tags=language
-summary=  - Crow programs can be run directly from source. You can also build your program to a standalone executable. In either case, you don't need a build system. You can directly call C functions. Data is garbage collected. Don't worry about what's by-reference or by-value. Crow is statically typed. There's no subtyping or implicit conversion. There are no null references. Overload resolution is unambiguous. I/O is controlled. Normal functions can't do I/O except by invoking a lambda from a parameter. You can launch parallel tasks and get the result as a future. Mutability is controlled. The type system tracks whether a type allows access to mutable data. This ensures that mutable data is not shared across threads. Syntax is expression-based. Function bodies are expressions with no return needed. Even if and for are expressions. Code is flat. Most declarations are not nested inside of anything. Expressions are type-checked with an expected type. The same syntax like (1, 2) could be a list, tuple, vector, etc. This saves you from having to write new Foo(). There are discriminated unions, including option types. There are templates; these are type-checked abstractly, not at each instantiation. All crow code goes in modules. There are no global declarations.
+tags=language, native
+summary=An upcoming general-purpose, high-level programming language.
 ~~~~~~
 
-[Source](https://crow-lang.org)
+[Website](https://crow-lang.org/) | [Source](https://github.com/andy-hanson/crow)
 
+Features:
+
+* Crow programs can be run directly or build to a standalone executable.
+* Crow code can directly call C functions. (But typically code is higher-level and safe.)
+* Crow has IDE support. The IDE uses the same compiler as on the command line, giving it complete information.
+* Syntax is expression-based and uses indentation. Function bodies are expressions with no return needed. Even if and for are expressions.
+* Code is flat. Declarations are not nested. (For example, a function doesn't "belong" to a type and so doesn't go inside of it.)
+* A 100 character per line limit is realistic.
+* All code goes in modules. There are no global declarations, and what you don't import can't hurt you.
+* Crow is strongly typed with no subtyping, implicit conversion, or null values.
+* Overload resolution is unambiguous; there are no "better" matches.
+* Expressions are type-checked with an expected type.
+* The same syntax 1, 2 could be a list, tuple, vector, etc., inferred by where it is used. This saves you from having to write something like new List<int>(1, 2).
+* Data is garbage collected. Don't worry about what's by-reference or by-value.
+* Mutability is controlled. Types track what is safe to share between parallel tasks. It's also easy to use mutable data and ensure that tasks using it wait their turn. Data structures are immutable by default (with efficient immutable updates).
+* I/O is controlled. Functions are pure by default and can't do I/O except through parameters.
+* Templates are statically checked to work for all possible types.
+* Specs allow you to call functions provided by the caller's context.

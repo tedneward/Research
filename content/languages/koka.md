@@ -1,5 +1,5 @@
 title=Koka
-tags=language, research
+tags=language, functional, research
 summary=A function-oriented programming language that seperates pure values from side-effecting computations, where the effect of every function is automatically inferred; Koka has many features that help programmers to easily change their data types and code organization correctly, while having a small language core with a familiar JavaScript like syntax.
 ~~~~~~
 

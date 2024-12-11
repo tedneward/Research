@@ -1,0 +1,9 @@
+title=Patterns around testing software
+tags=pattern, software, testing
+summary=Pattern languages and ideas around software testing (usually unit testing).
+~~~~~~
+
+["The CHECKS Pattern Language of Information Integrity"](https://c2.com/ppr/checks.html): The language has eleven patterns presented in three sections. The first section describes values as they should be captured by the user-interface and used within the domain model. The second and third sections discuss detecting and correcting mistakes, first during data entry and then after posting or publication. The patterns draw from the author's experience developing financial software in Smalltalk. They are written as if part of a larger language and therefor may seem sketchy or incomplete. This paper is as much an experiment in the selection and linking of patterns as an attempt to communicate practical knowledge.
+
+["Nullables: Testing without Mocks"](https://www.jamesshore.com/v2/projects/nullables/testing-without-mocks): Bad tests are a sign of bad design, so some people use techniques such as Hexagonal Architecture and functional core, imperative shell to separate logic from infrastructure. (Infrastructure is code that involves external systems or state.) It fixes the problem... for logic. But infrastructure is often left untested, and it requires architectural changes that are out of reach for people with existing code. This pattern language1 describes a fourth option. It avoids all the above problems: it doesn’t use broad tests, doesn’t use mocks, doesn’t ignore infrastructure, and doesn’t require architectural changes. It has the speed, reliability, and maintainability of unit tests and the power of broad tests. But it’s not without tradeoffs of its own. ... For more resources related to Nullables and the “Testing Without Mocks” patterns, including screencasts, self-guided training, and more, see the [Nullables Hub](https://www.jamesshore.com/v2/projects/nullables).
+

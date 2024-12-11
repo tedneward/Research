@@ -1,6 +1,6 @@
 title=Inko
-tags=language
-summary=A statically-typed, safe, object-oriented programming language for writing concurrent programs. Thanks to the use of lightweight processes, concurrency is easily achieved and data races are impossible.
+tags=language, object, concurrent
+summary=A statically-typed, safe, object-oriented programming language for writing concurrent programs.
 ~~~~~~
 
 [Website](https://inko-lang.org/) | [Docs](https://inko-lang.org/documentation) | [Source](https://gitlab.com/inko-lang)
@@ -11,6 +11,8 @@ Inko is an object-oriented programming language, focusing on making it fun and e
 
 Inko draws inspiration from several other languages, such as: Smalltalk, Self, Ruby, Erlang, and Rust. Some of Inko's features are borrowed from these languages. For example, the concurrency model is heavily inspired by Erlang, and the use of message passing for `if` and the likes is taken from Smalltalk.
 
+Thanks to the use of lightweight processes, concurrency is easily achieved and data races are impossible.
+ 
 ## Features
 
 Inko has a variety of features that make it stand out compared to other programming languages.

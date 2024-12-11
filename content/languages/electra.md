@@ -1,7 +1,8 @@
 title=Electra
-tags=language
-summary=Electra is an esolang where you code like an electrician. Electra is inspired by AsciiDots. It uses instruction pointers that acts like currents in electricity. [eso]
+tags=language, esoteric
+summary=An esolang where you code like an electrician. 
 ~~~~~~
 
 [Source](https://github.com/DolphyWind/Electra-Lang)
 
+Electra is inspired by AsciiDots. It uses instruction pointers that acts like currents in electricity. [eso]

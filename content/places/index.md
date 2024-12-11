@@ -5,6 +5,19 @@ summary=Some sites collect things of interest, like corporate research sites, de
 tags=place
 ~~~~~~
 
+Awesomes:
+
+* List of awesomes:
+
+    * [Awesomes (list of)](https://github.com/jnv/lists)
+    * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - awesome-* or *-awesome lists.
+
+* [Analytics](https://github.com/0xnr/awesome-analytics)
+* [PHP](https://github.com/ziadoz/awesome-php)
+* [Python](https://github.com/vinta/awesome-python)
+* [Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+* [Sysadmin](https://github.com/awesome-foss/awesome-sysadmin)
+
 [Apple Open-Source](https://opensource.apple.com/)
 
 [The Programming Languages Laboratory at Johns Hopkins](https://pl.cs.jhu.edu/): Variety of inactive projects and papers, including BigBang, TinyBang, FeatherweightJava (FJ), and a few more. Most only of interest for background research.
@@ -58,6 +71,8 @@ tags=place
 [Programming](https://en.wikibooks.org/wiki/Category%3aComputer_programming) - Wikibooks
 
 [Red Gate Books](http://www.red-gate.com/community/books/index)
+
+[Register Spill](https://registerspill.thorstenball.com/)
 
 [Rip Tutorials](https://riptutorial.com/ebook)
 

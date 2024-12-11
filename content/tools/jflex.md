@@ -1,5 +1,5 @@
 title=JFlex
-tags=tool, language, jvm
+tags=tool, language, jvm, language development
 summary=A lexical analyzer generator (also known as scanner generator) for Java, written in Java.
 ~~~~~~
 

@@ -1,9 +1,9 @@
 title=Cakelisp
-tags=language
+tags=language, gamedev
 summary=A metaprogrammable, hot-reloadable, non-garbage-collected language ideal for high performance, iteratively-developed programs (especially games).
 ~~~~~~
 
-[Source](https://macoy.me/code/macoy/cakelisp) | [Archived Source](https://github.com/makuto/cakelisp)
+[Website](https://cakelisp.handmade.network/) | [Source](https://macoy.me/code/macoy/cakelisp) | [Archived Source](https://github.com/makuto/cakelisp) | [Article](https://macoy.me/blog/programming/CakelispIntro)
 
 It is implemented as a transpiler which generates C or C++ from an S-expression syntax.
 

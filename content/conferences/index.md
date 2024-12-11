@@ -12,6 +12,12 @@ Sources:
 * https://dev.java/community/events/
 * [SeeCFP](https://seecfp.com/)
 
+1. Sessionize .com Discover tab (http://Sessionize.com)
+2. Confs .tech
+3. cfp. watch
+5. TechDailyCFP @TechDailyCFP 
+6. ConfNerds Slack channel
+
 ---
 
 # Other conference links/data

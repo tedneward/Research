@@ -114,8 +114,12 @@ summary=The functional-composition way to build UIs in Android; "Jetpack Compose
 
 ## Articles
 
+* ["Using Views in Compose"](https://developer.android.com/develop/ui/compose/migrate/interoperability-apis/views-in-compose): Using the legacy View-based components in a Compose UI.
+* ["Using Compose in Views"](https://developer.android.com/develop/ui/compose/migrate/interoperability-apis/compose-in-views): Using Compose UI components in a legacy View-based UI.
+
 ## Blog posts
 
+* ["Jetpack Compose vs View System: Comparing UI containers"](https://medium.com/@dobri.kostadinov/jetpack-compose-vs-view-system-comparing-ui-containers-4c423c341898): side-by-side comparisons between the two
 
 
 ---
@@ -387,8 +391,7 @@ summary=The functional-composition way to build UIs in Android; "Jetpack Compose
                 )
                 Spacer(modifier = Modifier.width(8.dp))
 
-                // We keep track if the message is expanded or not in this
-                // variable
+                // We keep track if the message is expanded or not in this variable
                 var isExpanded by remember { mutableStateOf(false) }
 
                 // We toggle the isExpanded variable when we click on this Column

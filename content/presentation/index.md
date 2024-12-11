@@ -9,6 +9,8 @@ tags=presentation
 
 [Project LightSpeed](https://engineering.fb.com/2020/03/02/data-infrastructure/messenger/): "... using the native OS wherever possible, reusing the UI with dynamic templates powered by SQLite, using SQLite as a universal system, and building a server broker to operate as a universal gateway between Messenger and its server features." In many respects, sounds like part of what they did was adopt a partial [Naked Objects](../nakedobjects.html)-like approach to their UI, storing the UI description in data and building that UI at runtime.
 
+"Build a Dev Portfolio as a 2D Game" - [Video](https://www.youtube.com/watch?v=wy_fSStEgMs) and [Source](https://github.com/JSLegendDev/2d-portfolio-kaboom). Cute idea.
+
 ["The Balance has Shifted Away from SPAs"](https://nolanlawson.com/2022/05/21/the-balance-has-shifted-away-from-spas/)
 
 ["A Whole Website in a Single JavaScript File"](https://deno.com/blog/a-whole-website-in-a-single-js-file)
@@ -17,6 +19,15 @@ Repositories for graphics:
 
 * [The Noun Project](https://thenounproject.com/): icons and photos for everything.
 * [Unsplash](https://unsplash.com/): The Internet's source for visuals.
+* [Happy Little Tileset](https://momen-games.itch.io/happy-la-v2-ts): Some tiles for 2D/retro games/graphics.
+
+### Articles
+
+* ["Programmatic and Direct Manipulation, Together at Last"](http://arxiv.org/pdf/1507.02988): "Direct manipulation interfaces and programmatic systems have distinct and complementary strengths. The former provide intuitive, immediate visual feedback and enable rapid prototyping, whereas the latter enable complex, reusable abstractions. Unfortunately, existing systems typically force users into just one of these two interaction modes. We present a system called SKETCH-N-SKETCH that integrates programmatic and direct manipulation for the particular domain of Scalable Vector Graphics (SVG). In SKETCH-N-SKETCH, the user writes a program to generate an output SVG canvas. Then the user may directly manipulate the canvas while the system immediately infers a program update in order to match the changes to the output, a workflow we call live synchronization. To achieve this, we propose (i) a technique called trace-based program synthesis that takes program execution history into account in order to constrain the search space and (ii) heuristics for dealing with ambiguities. Based on our experience with examples spanning 2,000 lines of code and from the results of a preliminary user study, we believe that SKETCH-N-SKETCH provides a novel workflow that can augment traditional programming systems. Our approach may serve as the basis for live synchronization in other application domains, as well as a starting point for yet more ambitious ways of combining programmatic and direct manipulation."
+
+* ["The Market for Lemons"](https://infrequently.org/2023/02/the-market-for-lemons/): "Not only are new services being built to a self-defeatingly low UX and performance standard, existing experiences are pervasively re-developed on unspeakably slow, JS-taxed stacks. At a business level, this is a disaster, raising the question: "why are new teams buying into stacks that have failed so often before?" In other words, "why is this market so inefficient?"" A rather scathing takedown of the evolution of the web interface. Can't say I disagree too much.
+
+### User Interface
 
 [ECMA Report on User Interface Taxonomy](https://www.ecma-international.org/wp-content/uploads/ECMA_TR-61_1st_edition_june_1992.pdf) (June 1992): Interesting high-level overview of different ideas around user interface and a taxonomy of that space:
 
@@ -176,3 +187,52 @@ Repositories for graphics:
 [Web Style Guide Online](https://www.webstyleguide.com/wsg3/index.html) - Patrick J. Lynch and Sarah Horton
 
 [Visual design rules you can safely follow every time](https://anthonyhobday.com/sideprojects/saferules/)
+
+---
+
+## Implementation notes
+
+- [The internet computer](https://www.youtube.com/watch?v=v0160IirdL4&ab_channel=TheBrowserCompany)
+- [Servo: Designing and Implementing a Parallel Browser](https://www.youtube.com/watch?v=67QP8t-89VM)
+- [Servo: A Web View From Somewhere Else](https://www.youtube.com/watch?v=tNWQkNvg3_U&ab_channel=Igalia)
+- [Intro to Rust-lang (Building the Dom and an HTML Parser)](https://www.youtube.com/watch?v=brhuVn91EdY&list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW&index=22&ab_channel=TensorProgramming)
+- [Intro to Rust-lang (Adding a Style Tree to our Browser)](https://www.youtube.com/watch?v=8e37RsyiGSE&list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW&index=25&ab_channel=TensorProgramming)
+- [Intro to Rust-lang (Adding a CSS engine and CSS parsing to our Browser)](https://www.youtube.com/watch?v=dnrEto7adg0&list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW&index=24&ab_channel=TensorProgramming)
+- [Intro to Rust (Building a Browser Engine: Commands and Rendering in OpenGL)](https://www.youtube.com/watch?v=rszgtm7i0n8&list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW&index=27&ab_channel=TensorProgramming)
+- [In The Loop - setTimeout, micro tasks, requestAnimationFrame, requestIdleCallback](https://www.youtube.com/watch?v=cCOL7MC4Pl0&ab_channel=JSConf)
+- [Critical rendering path - Crash course on web performance](https://www.youtube.com/watch?v=PkOBnYxqj3k&ab_channel=IlyaGrigorik)
+- [Chrome University 2018: Life of a Script](https://www.youtube.com/watch?v=voDhHPNMEzg&ab_channel=BlinkOn)
+- [Browser From Scratch Live Streams](https://www.youtube.com/playlist?list=PLgOaDFg2Sml4CG1tYeYhQ6eKqyh0hmyg1)
+- [Web Browser Engineering](https://browser.engineering)
+- [Browser from scratch](https://zerox-dg.github.io/blog/tags/browser-from-scratch)
+- [Browser from Scratch](https://zerox-dg.github.io/blog/tags/browser-from-scratch)
+- [Browser Performance](https://www.kuniga.me/blog/2020/03/28/browser-performance.html)
+- [Building a Rust Web Browser](https://joshondesign.com/tags/browser)
+- [Concurrent JavaScript: It can work!](https://webkit.org/blog/7846/concurrent-javascript-it-can-work)
+- [David Baron's blog: Blink engineer](https://dbaron.org/log)
+- [How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork)
+- [How browsers work](https://web.dev/howbrowserswork)
+- [Key data structures and their roles in RenderingNG](https://developer.chrome.com/articles/renderingng-data-structures)
+- [Let's build a browser engine!](https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html)
+- [Notes on how browsers work](https://www.kuniga.me/blog/2015/10/09/notes-on-how-browsers-work.html)
+- [Notes on JavaScript Interpreters](https://www.kuniga.me/blog/2017/06/01/notes-on-javascript-interpreters.html)
+- [Notes on Javascript Memory Profiling in Google Chrome](https://www.kuniga.me/blog/2015/06/07/notes-on-javascript-memory-profiling-in-google-chrome.html)
+- [Overview of the RenderingNG architecture](https://developer.chrome.com/articles/renderingng-architecture)
+- [reflows & repaints: css performance making your javascript slow?](http://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow)
+- [Rendering: repaint, reflow/relayout, restyle](https://www.phpied.com/rendering-repaint-reflowrelayout-restyle)
+- [RenderingNG deep-dive: LayoutNG](https://developer.chrome.com/articles/layoutng)
+- [RenderingNG: an architecture that makes and keeps Chrome fast for the long term](https://blog.chromium.org/2021/10/renderingng.html)
+- [Round-up of web browser internals resources](https://developer.chrome.com/blog/round-up-of-web-browser-internals-resources)
+- [Understanding Reflow and Repaint in the browser](https://dev.to/gopal1996/understanding-reflow-and-repaint-in-the-browser-1jbg)
+- [Web Browser Engineering](https://browser.engineering)
+- [What forces layout / reflow](https://gist.github.com/paulirish/5d52fb081b3570c81e3a)
+
+### Web UI
+
+- [Algebraic effects, Fibers, Coroutines](https://www.youtube.com/watch?v=vzzOdWj4YyM&ab_channel=YouGottaLoveFrontend)
+- [Algebraic Effects for React Developers](https://blog.reesew.io/algebraic-effects-for-react-developers)
+- [Algebraic Effects for the Rest of Us](https://overreacted.io/algebraic-effects-for-the-rest-of-us)
+- [PL web frameworks](https://twitter.com/sliminality/status/1516175554550018048)
+- [React - Basic Theoretical Concepts](https://github.com/reactjs/react-basic)
+- [React Concurrent mode](https://twitter.com/dan_abramov/status/1120971795425832961)
+- [TypeScript + fp-ts: ReaderTaskEither and React](https://andywhite.xyz/posts/2021-01-28-rte-react)

@@ -7,19 +7,68 @@ summary=A superset of JavaScript with strong compile-time typechecking that tran
 
 ### Reading
 
+* [A horrifically deep dive into TypeScript module resolution](https://www.youtube.com/watch?v=MEl2R7mEAP8&ab_channel=MichiganTypeScript)
+* [A Trip into the Compiler](https://www.youtube.com/watch?v=oNtz0fx_z_A&ab_channel=SitePen)
+* [Advanced Types in TypeScript](https://www.youtube.com/playlist?list=PLw5h0DiJ-9PBIgIyd2ZA1CVnJf0BLFJg2)
+* ["Advanced TypeScript Types with Examples"](https://levelup.gitconnected.com/advanced-typescript-types-with-examples-1d144e4eda9e)
+* ["Advanced TypeScript patterns"](https://medium.com/@dhruvrajvanshi/advanced-typescript-patterns-6cf8826c7944)
+* Video: ["Advanced TypeScript tooling at scale"](https://archive.fosdem.org/2019/schedule/event/typescript_advanced_tooling/)
+* ["Advanced TypeScript type FTW!"](https://www.pulumi.com/blog/advanced-typescript-type-ftw/)
 * [Anders Hejlsberg - Introducing TypeScript on Channel 9] (http://channel9.msdn.com/posts/Anders-Hejlsberg-Introducing-TypeScript)
+* [AreTheTypesWrong with Andrew Branch](https://www.youtube.com/watch?v=8pOi1ccd280&ab_channel=MichiganTypeScript)
+* ["Assembly interpreter inside of TypeScript's type system"](https://judehunter.dev/blog/assembly-interpreter-in-typescripts-type-system)
+* [Code for "Advanced Static Types in TypeScript" course on egghead.io](https://github.com/mariusschulz/egghead-advanced-static-types-in-typescript)
+* [Debugging the TypeScript Codebase](https://blog.andrewbran.ch/debugging-the-type-script-codebase)
 * [Definitely Typed - repository for type definitions] (http://definitelytyped.org/)
+* [Designing with types: Making illegal states unrepresentable](https://fsharpforfunandprofit.com/posts/designing-with-types-making-illegal-states-unrepresentable)
+* [A preview of Ezno's checker](https://kaleidawave.github.io/posts/a-preview-of-the-checker)
+* [Hidden Gems of TypeScript compiler](https://www.youtube.com/watch?v=WkJagE7b5U0&t=12s&ab_channel=NG-BE)
+* [How safe is "safe enough" for TypeScript](https://www.youtube.com/watch?v=ZwoPLuSB94I&ab_channel=MichiganTypeScript)
+* [How the TypeScript Compiler Compiles](https://www.youtube.com/watch?v=X8k_4tZ16qU&ab_channel=ortatherox)
+* [How to master advanced TypeScript patterns](https://www.freecodecamp.org/news/typescript-curry-ramda-types-f747e99744ab/)
+* [An Introduction To Type Programming In TypeScript](https://www.zhenghao.io/posts/type-programming)
+* [Investigating TypeScript compiler APIs](https://blog.scottlogic.com/2015/01/20/typescript-compiler-api.html)
+* [JavaScript scope, Closures, and the TypeScript compiler](https://iamtk.co/javascript-scope-closures-and-the-typescript-compiler)
+* [Making sense of TypeScript using set theory](https://blog.thoughtspile.tech/2023/01/23/typescript-sets)
+* [Modules in TypeScript](https://gist.github.com/andrewbranch/79f872a8b9f0507c9c5f2641cfb3efa6)
+* [Optimizing TypeScript Memory Usage](https://swatinem.de/blog/optimizing-tsc)
+* [Practical Advanced TypeScript](https://egghead.io/courses/practical-advanced-typescript)
+* Reconstructing TypeScript:
+
+    - [Part 0: intro and background](https://jaked.org/blog/2021-09-07-Reconstructing-TypeScript-part-0)
+    - [Part 1: bidirectional type checking](https://jaked.org/blog/2021-09-15-Reconstructing-TypeScript-part-1)
+    - [Part 2: functions and function calls](https://jaked.org/blog/2021-09-27-Reconstructing-TypeScript-part-2)
+    - [Part 3: operators and singleton types](https://jaked.org/blog/2021-10-06-Reconstructing-TypeScript-part-3)
+    - [Part 4: union types](https://jaked.org/blog/2021-10-14-Reconstructing-TypeScript-part-4)
+    - [Part 5: intersection types](https://jaked.org/blog/2021-10-28-Reconstructing-TypeScript-part-5)
+    - [Part 6: narrowing](https://jaked.org/blog/2021-11-11-Reconstructing-TypeScript-part-6)
+
+* [The Road to Private Methods](https://www.youtube.com/watch?v=wpgBdN9ZwkQ&ab_channel=SitePen)
+* [Static TypeScript](https://www.microsoft.com/en-us/research/uploads/prod/2019/09/mplr19main-id10-p-41a6cf2-42682-final.pdf)
 * [Tackling TypeScript: Upgrading from JavaScript](https://exploringjs.com/tackling-ts/toc.html) - Dr. Axel Rauschmayer
+* [Type Level Programming in TypeScript](https://www.youtube.com/watch?v=vGVvJuazs84)
+* [Type level programming in TypeScript](https://mjj.io/2021/03/29/type-level-programming-in-typescript)
+* [Types as axioms, or: playing god with static types](https://lexi-lambda.github.io/blog/2020/08/13/types-as-axioms-or-playing-god-with-static-types)
+* [TypeLang](https://github.com/ronami/typelang) - Tiny language interpreter implemented purely in TypeScript's type-system.
+* [TypeScript / How the compiler compiles](https://www.huy.rocks/everyday/04-01-2022-typescript-how-the-compiler-compiles)
+* [TypeScript and the dawn of gradual types](https://github.com/readme/featured/typescript-gradual-types)
+* [TypeScript AST Resources](https://twitter.com/grow_love/status/1585711764565811201)
+* [TypeScript Bytecode Interpreter / Runtime Types](https://github.com/microsoft/TypeScript/issues/47658)
+* [TypeScript Compiler API: Improve API Integrations Using Code Generation](https://blog.appsignal.com/2021/08/18/improve-api-integrations-using-code-generation.html)
+* [TypeScript Compiler Internals](https://basarat.gitbook.io/typescript/overview)
+* [TypeScript Compiler Manual](https://sandersn.github.io/manual/Typescript-compiler-implementation.html)
+* [TypeScript Modules - Theory](https://www.typescriptlang.org/docs/handbook/modules/theory.html)
+* [TypeScript Performance Tracing](https://github.com/microsoft/TypeScript/wiki/Performance-Tracing)
+* [TypeScript Performance](https://github.com/microsoft/TypeScript/wiki/Performance)
+* [TypeScript's type-independent output](https://neugierig.org/software/blog/2016/04/typescript-types.html)
 * [TypeScript Accelerated](https://accelerated.amimetic.co.uk) - James Porter
+* [Typescript Performance: Going Beyond The Surface](https://www.youtube.com/watch?v=lJ63-j0OHG0&ab_channel=BeJS)
+* [TypeScript Performance](https://www.youtube.com/watch?v=ZL3z1oBZntk&ab_channel=MattPocock)
+* [Typescript Type System](https://www.youtube.com/watch?v=svQnyVny-Hw&ab_channel=HansSchenker)
 * [TypeScript Deep Dive](https://basarat.gitbooks.io/typescript/)
 * [TypeScript for C# Programmers](http://www.infoq.com/minibooks/typescript-c-sharp-programmers)
 * [TypeScript Succinctly, Syncfusion](https://www.syncfusion.com/resources/techportal/ebooks/typescript) (PDF, Kindle) (email address *requested*, not required)
-* ["Advanced TypeScript Types with Examples"](https://levelup.gitconnected.com/advanced-typescript-types-with-examples-1d144e4eda9e)
-* ["Advanced TypeScript patterns"](https://medium.com/@dhruvrajvanshi/advanced-typescript-patterns-6cf8826c7944)
-* ["Practical Advanced TypeScript"](https://egghead.io/courses/practical-advanced-typescript)
-* ["Advanced TypeScript type FTW!"](https://www.pulumi.com/blog/advanced-typescript-type-ftw/)
-* ["How to master advanced TypeScript patterns"](https://www.freecodecamp.org/news/typescript-curry-ramda-types-f747e99744ab/)
-* ["The Ultimate TypeScript Thread"](https://twitter.com/mpocock1/status/1509964736275927042):
+* [The Ultimate TypeScript Thread](https://twitter.com/mpocock1/status/1509964736275927042):
 
     * Learn how to derive a union type from an object - an incredibly useful switcheroo that's at the heart of most TS magic out there
     * Transform a union to another union, using the `in` operator as a kind of for-loop.
@@ -37,11 +86,8 @@ summary=A superset of JavaScript with strong compile-time typechecking that tran
     * Globals in TS? declare global is a useful tool for when you want to allow types to cross module boundaries.
     * You can use generics to dynamically specify the number, and type, of arguments to functions.
 
-* [Code for "Advanced Static Types in TypeScript" course on egghead.io](https://github.com/mariusschulz/egghead-advanced-static-types-in-typescript)
-* Video: ["Advanced TypeScript tooling at scale"](https://archive.fosdem.org/2019/schedule/event/typescript_advanced_tooling/)
-* ["Using the Compiler API"](https://github.com/Microsoft/TypeScript/wiki/Using-the-Compiler-API)
-* ["Assembly interpreter inside of TypeScript's type system"](https://judehunter.dev/blog/assembly-interpreter-in-typescripts-type-system)
-* [TypeLang](https://github.com/ronami/typelang) - Tiny language interpreter implemented purely in TypeScript's type-system.
+* [Using the Compiler API](https://github.com/Microsoft/TypeScript/wiki/Using-the-Compiler-API)
+- [@typescript/analyze-trace](https://github.com/microsoft/typescript-analyze-trace)
 
 ### [Learn TypeScript in Y Minutes](https://learnxinyminutes.com/docs/typescript/)
 

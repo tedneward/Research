@@ -1,7 +1,0 @@
-title=Pizza
-tags=language
-summary=The Pizza language is an extension to Java with three new features: Generics (aka Parametric polymorphism) Function pointers (aka First-class functions) Class cases and pattern matching (aka Algebraic types) Furthermore you can use the Pizza compiler embedded into other applications. 
-~~~~~~
-
-[Source](https://pizzacompiler.sourceforge.net/)
-

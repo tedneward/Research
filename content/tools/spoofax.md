@@ -1,5 +1,5 @@
 title=Spoofax Language Workbench
-tags=tool, language, platform
+tags=tool, language, dsl, platform, language development
 summary=A platform for developing textual (domain-specific) programming languages.
 ~~~~~~
 

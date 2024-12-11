@@ -1,5 +1,5 @@
 title=JLex
-tags=tool, language
+tags=tool, language, language development
 summary=A Lexical Analyzer Generator for Java.
 ~~~~~~
 

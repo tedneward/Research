@@ -1,9 +1,9 @@
 title=Astro
 tags=language, native, wasm
-summary=Multiparadigm language with Python syntax compiling to WASM and native code
+summary=Multiparadigm language with Python-ish syntax compiling to WASM and native code
 ~~~~~~
 
-[Website](https://astrolang.org/) | [Github](https://github.com/appcypher/astro)
+[Website](https://astrolang.org/) | [Source](https://github.com/astrolang/astro)
 
 ## What is Astro?
 Astro is a fun programming language designed for safe high-performance applications. It is essentially a statically-typed systems language that
@@ -41,3 +41,4 @@ fun times(a, b) {
 ```
 
 Astro is supposed to be high-level enough to write python-like scripts but also low-level enough to write an operating system kernel. Therefore, it doesn't have a traditional garbage collector instead it relies on lifetime analysis at compile-time that free memory once they are no longer referenced.
+

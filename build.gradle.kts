@@ -4,5 +4,4 @@ plugins {
 
 jbake {
     srcDirName  = "."
-    destDirName = "output"
 }

@@ -21,7 +21,3 @@ main =
 Try running this with:
 
 `roc dev`
-
-
-https://github.com/roc-lang/roc
-Roc is a language for making delightful software.

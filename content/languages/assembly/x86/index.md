@@ -27,15 +27,18 @@ summary=The native assembly language of the Intel x86 family.
 
 ## Reading
 
+[x86 Assembly Guide](https://www.cs.virginia.edu/~evans/cs216/guides/x86.html): This guide describes the basics of 32-bit x86 assembly language programming, covering a small but useful subset of the available instructions and assembler directives. There are several different assembly languages for generating x86 machine code. The one we will use ... is the Microsoft Macro Assembler (MASM) assembler. MASM uses the standard Intel syntax for writing x86 assembly code.
+
 [A fundamental introduction to x86 assembly prorgamming](https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming) - Project Nayuki (HTML)
 
 ["The faker's guide to reading (x86) assembly language"](https://www.timdbg.com/posts/fakers-guide-to-assembly/)
 
 "The Art of Assembly Language", in several editions:
-	* [Windows](http://www.plantation-productions.com/Webster/www.artofasm.com/Windows/HTML/AoATOC.html) or [PDF](http://www.plantation-productions.com/Webster/www.artofasm.com/Windows/aoapdf.zip)
-	* [Linux](http://www.plantation-productions.com/Webster/www.artofasm.com/Linux/HTML/AoATOC.html) or [PDF](http://www.plantation-productions.com/Webster/www.artofasm.com/Linux/aoapdf.tar.gz)
-	* [DOS (16-bit)](http://www.plantation-productions.com/Webster/www.artofasm.com/DOS/AoADosIndex.html) or [PDF](http://www.plantation-productions.com/Webster/www.artofasm.com/DOS/pdf/0_AoAPDF.html)
-	* alternative link: [The Art of Assembly Language (2003)](https://web.archive.org/web/20120525102637/http://maven.smith.edu/~thiebaut/ArtOfAssembly/artofasm.html) - Randall Hyde (PDF)
+
+* [Windows](http://www.plantation-productions.com/Webster/www.artofasm.com/Windows/HTML/AoATOC.html) or [PDF](http://www.plantation-productions.com/Webster/www.artofasm.com/Windows/aoapdf.zip)
+* [Linux](http://www.plantation-productions.com/Webster/www.artofasm.com/Linux/HTML/AoATOC.html) or [PDF](http://www.plantation-productions.com/Webster/www.artofasm.com/Linux/aoapdf.tar.gz)
+* [DOS (16-bit)](http://www.plantation-productions.com/Webster/www.artofasm.com/DOS/AoADosIndex.html) or [PDF](http://www.plantation-productions.com/Webster/www.artofasm.com/DOS/pdf/0_AoAPDF.html)
+* alternative link: [The Art of Assembly Language (2003)](https://web.archive.org/web/20120525102637/http://maven.smith.edu/~thiebaut/ArtOfAssembly/artofasm.html) - Randall Hyde (PDF)
 
 ["How to read assembly language"](https://wolchok.org/posts/how-to-read-assembly-language/)
 

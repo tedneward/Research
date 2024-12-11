@@ -20,6 +20,9 @@ Collection of links about and around hardware.
 
 [Slimbook](https://slimbook.com/en/)
 
+## Desktops
+[Skytech Gaming](https://skytechgaming.com/custom-pc-builder/)
+
 ## Storage
 [High Speed Portable SSD](https://miatine.com/speed)
 
@@ -30,9 +33,5 @@ Collection of links about and around hardware.
 [Rent a Mac in the Cloud](http://www.macincloud.com/)
 
 ## Others
-"Hacking the reMarkable e-Ink Tablet"
 
-1. [Intro to reMarkable; Motivation; Getting Started](https://stachu.net/hacking-the-remarkable-eink-tablet/); includes links to popular cases (I like the one he calls out in particular)
-2. [The reMarkable Hacking Ecosystem](https://stachu.net/the-remarkable-hacking-ecosystem/)
-3. [reMarkable.fs](https://stachu.net/remarkable-fs/): an F# framework (work-in-progress) [Source](https://github.com/StachuDotNet/reMarkable.fs/)
-
+[ANKER docking station](https://www.cultofmac.com/news/macbook-pro-and-anker-dock-setup)
