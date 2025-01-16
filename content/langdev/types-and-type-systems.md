@@ -94,6 +94,10 @@ Note that while these terms usually are applied most directly to programming lan
 
 	The different ways to combine these three dimensions yield the 8 vertices of the cube, each corresponding to a different kind of typed system. The λ-cube can be generalized into the concept of a pure type system.
 
+## Beyond
+
+* ["Moving beyond type systems"](https://vhyrro.github.io/posts/effect-systems/): Types and [effects](https://overreacted.io/algebraic-effects-for-the-rest-of-us/), where effects are hard to model in types (witness monads!). "What I was quick to realize is that there are two distinct ways of implementing an effect system — static and dynamic. What present day research is trying to figure out are dynamic effects. You create callbacks that handle different state changes in the program accordingly (see that blog post linked earlier if you’re not familiar). A static effect system would be something akin to Rust’s borrow checker but for effects — instead of being able to interact and handle effects through functions, the programming language instead has an effect checker that statically analyzes the program and makes sure that everything holds. This would mean making sure that all effects are annotated properly and that no side effects occur where they shouldn’t. Contrary to the dynamic approach, in a static system you have to prove to the effect checker that your code doesn’t do anything funky. If you can’t prove that some function doesn’t have a side effect, that’s an error. Drawing parallels to the borrow checker once more: if you can’t prove that a variable will be used only once in a closure, the borrow checker will complain. The rest of this post will now focus on implementing a static effect system and how it might be beneficial to future programming languages."
+
 ## Code/implementations
 
 [From PLZoo](https://github.com/cdiggins/type-inference): Type Inference Library written in TypeScript (used in [Heron](/languages/heron) and [Cat](/languages/cat)).

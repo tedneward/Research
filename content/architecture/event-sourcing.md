@@ -7,3 +7,5 @@ summary=An approach to building storage systems that tracks events rather than "
 
 [Examples and Tutorials of Event Sourcing in .NET](https://github.com/oskardudycz/EventSourcing.NetCore)
 
+[Understanding Eventsourcing](https://leanpub.com/eventmodeling-and-eventsourcing): The book by Martin Dilger
+
