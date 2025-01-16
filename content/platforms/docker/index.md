@@ -115,3 +115,7 @@ docker ps -a
 
 docker rm nifty_goldwasser
 ```
+
+## Articles
+
+["Run GUI Applications as Containers with x11docker"](https://thenewstack.io/run-gui-applications-as-containers-with-x11docker/): x11docker 

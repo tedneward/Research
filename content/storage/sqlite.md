@@ -65,6 +65,10 @@ using (var connection = new SqliteConnection("Data Source=hello.db"))
 
 ## Plugins/additions/enhancements
 
+[cr-sqlite](https://github.com/vlcn-io/cr-sqlite): a loadable SQLite extension by Matt Wonlaw that "allows merging different SQLite databases together that have taken independent writes".
+
+    * [Trying cr-sqlite out on macOS](https://til.simonwillison.net/sqlite/cr-sqlite-macos)
+
 [Marmot](https://github.com/maxpert/marmot): A distributed SQLite replicator built on top of NATS.
 
 [SQLCypher](https://www.zetetic.net/sqlcipher/) is an extension to SQLite adding encryption. Open-source and commercial.
