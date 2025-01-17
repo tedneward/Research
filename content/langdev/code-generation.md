@@ -49,6 +49,25 @@ Link to slides?
     - generate switch tables
     - emit genned code
 
+* (Example from DMD)
+* Register Allocated: compute "live range" of each variable (bit vector of the basic blocks, bit set for ecah block a variable is live in); Codegen sets a bit for each reg used in each block; variable mapped to a register if that register is not used in any of the blocks the variable is live in (more bitmasking); done in a loop until no more variables can be enregistered
+* Finishing Things Up: write code bytes to buffer; write fixups; write obj code to file (ELF, Mach, MS COFF, obsolete Win32/Intel OMF)
+* Fixups: delayed-resolution determination of addresses; has the following:
+
+    - location of the fixup
+    - name of the symbol
+    - offset from that symbol
+    - relative or absolute
+    - confusing and poorly documented
+
+* Inherent Limitations (of this code generator):
+
+    - Can't use the *H registers (not independent registers)
+    - 64-bit bitmask registers means no more registers can fit in them
+    - cannot have loops inside of expression tree; limits inlining possibilities
+    - x87 is "giant kludge"; uses its own code generator
+
+* Why is Codegen So Complicated: 8-bit CPUs had ~40 instructions; AArch64 has 2000+ instructions each with variations
 
 
 

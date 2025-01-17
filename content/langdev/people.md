@@ -10,6 +10,10 @@ summary=Notable names.
 - [Gavin Bierman](https://gavinbierman.github.io)
 - [Gilad Bracha](https://bracha.org/Site/Home.html)
 - [Graham Hutton](https://www.cs.nott.ac.uk/~pszgmh)
+- Jesper Louis Andersen
+
+    - [Interview](https://medium.com/@unbalancedparen/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#.g4q9w4eqq) about a ton of languages.
+
 - [Jihyeok Park](https://plrg.korea.ac.kr/members/jihyeok.park)
 - [Lexi Lambda](https://lexi-lambda.github.io)
 - [Mads Torgersen](https://twitter.com/madstorgersen)
@@ -26,5 +30,5 @@ summary=Notable names.
 - [Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu)
 - [Ronald Garcia](https://www.cs.ubc.ca/~rxg)
 - [TK](https://iamtk.co)
+- Walter Bright
 
-[Interview with Jesper Louis Andsersen](https://medium.com/@unbalancedparen/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#.g4q9w4eqq) about a ton of languages.
