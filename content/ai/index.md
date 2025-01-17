@@ -7,7 +7,7 @@ tags=ai
 
 ## Definitions
 
-## Expert Systems/Rules Engines
+## [Expert Systems](/tags/expert%20system.html)/[Rules Engines](/tags/rules.html)
 
 ## Fuzzy Logic
 
@@ -31,6 +31,8 @@ tags=ai
 
 * ["How to Build a Large Language Model from Scratch Using Python"](https://www.freecodecamp.org/news/how-to-build-a-large-language-model-from-scratch-using-python/)
 
+* ["How to build knowledge graphs using LLMs"](https://www.geeky-gadgets.com/building-knowledge-graphs-using-llms/)
+
 ## Small Language Models (SLMs)
 
 ## Coding Assistants
@@ -40,8 +42,11 @@ tags=ai
 ## Generative AI
 
 * [Generative AI exists because of the transformer](https://ig.ft.com/generative-ai/)
+* ["Stable Diffusion in Java (SD4J) Enables Generating Images with Deep Learning"](https://www.infoq.com/news/2023/12/stable-diffusion-in-java/)
+* [Stable Diffusion in C#](https://github.com/cassiebreviu/StableDiffusion/) (mentioned in the SD4J article)
 
 ## Machine Learning
 
 * [Machine Learning for Software Engineering](https://github.com/saltudelft/ml4se): A curated list of papers, theses, datasets, and tools related to the application of Machine Learning for Software Engineering.
+* [Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2023.pdf)
 

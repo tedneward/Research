@@ -20,14 +20,14 @@ summary=A collection of articles and resources about public (technical) speaking
 
 ["8 Talk Title Mistakes We've All Made"](https://hollycummins.com/presentation-titles/):
 
-    1. Your title has to work hard, because people will select a talk based only on the title
-    2. Avoid ambiguous terms
-    3. Avoid cute plays on words
-    4. Avoid cute plays on politically-loaded words
-    5. Avoid flab
-    6. Avoid cliché
-    7. Don’t disguise product pitches
-    8. Don’t have the same talk titles as everyone else
+1. Your title has to work hard, because people will select a talk based only on the title
+2. Avoid ambiguous terms
+3. Avoid cute plays on words
+4. Avoid cute plays on politically-loaded words
+5. Avoid flab
+6. Avoid cliché
+7. Don’t disguise product pitches
+8. Don’t have the same talk titles as everyone else
 
 ## Books
 
