@@ -1,0 +1,218 @@
+title=Compiler Verification
+tags=language development
+summary=Verifying compiler correctness and compilation of functional programs.
+~~~~~~
+
+- A Higher-Order Abstract Syntax Approach to the Verified Compilation of Functional Programs
+	- 2016 PhD thesis; Yuting Wang 
+	- https://arxiv.org/abs/1702.03363
+	- http://www.cs.yale.edu/homes/wang-yuting/files/phd_thesis.pdf
+- A Verified Compiler for a Linear Function/Imperative Intermediate Language
+	- 2018 PhD Thesis; Sigurd Schneider
+	- https://www.ps.uni-saarland.de/Publications/documents/Schneider_2018_PhDThesis.pdf
+	- LVC - Linear Verified Compiler: https://www.ps.uni-saarland.de/~sdschn/LVC.html
+- A Verified Packrat Parser Interpreter for Parsing Expression Grammars
+	- Conference on Certified Programs and Proofs (CPP) 2020 
+	- Clement Blaudeau, Natarajan Shankar
+	- https://arxiv.org/abs/2001.04457
+	- https://www.youtube.com/watch?v=hLjRcMAMuts
+- ALIVe: Automatic LLVM InstCombine Verifier
+	- https://github.com/nunoplopes/alive
+	- online: http://rise4fun.com/Alive
+	- blog post: http://blog.regehr.org/archives/1170
+	- slides: http://llvm.org/devmtg/2014-10/Slides/Menendez-Alive.pdf
+	- Alive-FP: Automated Verification of Floating Point Based Peephole Optimizations in LLVM
+		- SAS 2016; David Menendez, Santosh Nagarakatte, Aarti Gupta
+		- https://www.cs.rutgers.edu/research/technical_reports/report.php?series_id=1&report_id=723
+	- Alive-Loops: https://github.com/rutgers-apl/alive-loops
+		- Termination checking for LLVM peephole optimizations
+		- ICSE 2016; David Menendez, Santosh Nagarakatte
+		- https://www.cs.rutgers.edu/~sn349/papers/icse2016-alive-loops.pdf
+	- Alive-NJ - https://github.com/rutgers-apl/alive-nj
+	- LifeJacket: Verifying precise floating-point optimizations in LLVM
+		- SOAP 2016, EuroLLVM 2017; Andres Nötzli, Fraser Brown
+		- http://export.arxiv.org/abs/1603.09290
+		- https://github.com/4tXJ7f/alive
+		- http://llvm.org/devmtg/2017-03/2017/02/20/accepted-sessions.html#25
+	- Practical Formal Techniques and Tools for Developing LLVM's Peephole Optimizations
+		- 2018 PhD Thesis; David Menendez
+		- https://www.cs.rutgers.edu/~santosh.nagarakatte/david-menendez-phd-thesis.pdf
+	- Precondition Inference for Peephole Optimizations in LLVM
+		- PLDI 2017
+		- David Menendez, Santosh Nagarakatte
+		- http://export.arxiv.org/abs/1611.05980
+		- https://www.cs.rutgers.edu/~santosh.nagarakatte/papers/pldi2017-alive-infer.pdf
+		- PLDI 2017 talk, David Menendez - https://pldi17.sigplan.org/event/pldi-2017-papers-precondition-inference-for-peephole-optimizations-in-llvm
+	- Provably Correct Peephole Optimizations with Alive
+		- PLDI 2015
+		- Nuno P. Lopes, David Menendez, Santosh Nagarakatte, John Regehr
+		- https://www.cs.utah.edu/~regehr/papers/pldi15.pdf
+		- http://web.ist.utl.pt/nuno.lopes/pubs.php?id=alive-pldi15
+	- AliveInLean: A Verified LLVM Peephole Optimization Verifier
+		- Computer-Aided Verification (CAV) 2019
+		- Juneyoung Lee, Chung-Kil Hur, Nuno P. Lopes
+		- https://sf.snu.ac.kr/aliveinlean/
+		- https://github.com/Microsoft/AliveInLean
+- Alive2: Automatic verification of LLVM optimizations
+	- https://github.com/AliveToolkit/alive2
+	- Alive2: Verifying Existing Optimizations
+		- 2019 LLVM Developers’ Meeting; Nuno Lopes, John Regehr
+		- https://www.youtube.com/watch?v=paJhdBp_iA4
+		- https://llvm.org/devmtg/2019-10/slides/Lopes-Regehr-Alive2.pdf
+	- Alive 2 Part 1: Introduction
+		- https://blog.regehr.org/archives/1722
+- An Abstract Stack Based Approach to Verified Compositional Compilation to Machine Code
+	- POPL 2019
+	- Yuting Wang, Pierre Wilke, Zhong Shao
+	- https://popl19.sigplan.org/event/popl-2019-research-papers-an-abstract-stack-based-approach-to-verified-compositional-compilation-to-machine-code
+- Blackbox Equivalence Checking of Program Optimizations
+	- 2019 Ph.D. Dissertation; Berkeley Roshan Churchill
+	- https://theory.stanford.edu/~aiken/publications/theses/churchill.pdf
+- CakeML: A Verified Implementation of ML
+	- https://cakeml.org/
+	- https://github.com/CakeML/cakeml
+	- Verified Compilation of CakeML to Multiple Machine-Code Targets
+		- Certified Programs and Proofs (CPP) 2017
+		- Anthony Fox, Magnus O. Myreen, Yong Kiam Tan, Ramana Kumar.
+		- http://www.cl.cam.ac.uk/~mom22/cpp17.pdf
+		- http://www.cl.cam.ac.uk/~mom22/publications.html
+	- Verified Compilation on a Verified Processor
+		- PLDI 2019
+		- Andreas Lööw, Ramana Kumar, Yong Kiam Tan, Magnus O. Myreen, Michael Norrish, Oskar Abrahamsson, Anthony Fox
+		- https://cakeml.org/pldi19.pdf
+	- The Verified CakeML Compiler Backend
+		- JFP 2019
+		- Yong Kiam Tan, Magnus O. Myreen, Ramana Kumar, Anthony Fox, Scott Owens, Michael Norrish
+		- https://www.cs.cmu.edu/~yongkiat/files/cakeml-jfp.pdf
+	- Icing: Supporting Fast-math Style Optimizations in a Verified Compiler
+		- Computer-Aided Verification (CAV) 2019
+		- Heiko Becker, Eva Darulova, Magnus O. Myreen, Zachary Tatlock
+		- https://cakeml.org/cav19.pdf
+- CompCert: formally-verified C compiler
+	- http://compcert.inria.fr/
+	- https://github.com/AbsInt/CompCert 
+	- The formal verification of compilers - Xavier Leroy - DeepSpec Summer School 2017
+		- https://deepspec.org/event/dsss17/lecture_leroy.html
+		- http://gallium.inria.fr/~xleroy/courses/DSSS-2017/
+	- A Verified CompCert Front-End for a Memory Model Supporting Pointer Arithmetic and Uninitialised Data
+		- Journal of Automated Reasoning 62(4) (2019)
+		- Frédéric Besson, Sandrine Blazy, Pierre Wilke
+		- https://doi.org/10.1007/s10817-017-9439-z
+		- https://hal.inria.fr/hal-01656895
+	- An Abstract Stack Based Approach to Verified Compositional Compilation to Machine Code
+		- POPL 2019
+		- Yuting Wang, Pierre Wilke, Zhong Shao
+		- https://www.youtube.com/watch?v=AK3wP1BK-K8
+		- https://popl19.sigplan.org/event/popl-2019-research-papers-an-abstract-stack-based-approach-to-verified-compositional-compilation-to-machine-code
+		- Stack-Aware CompCert and CompCert MC - https://certikos.github.io/compcertmc/
+		- http://flint.cs.yale.edu/flint/publications/sacc.html
+	- Closing the Gap – The Formally Verified Optimizing Compiler CompCert
+		- SSS'17: Safety-critical Systems Symposium 2017
+		- https://hal.inria.fr/hal-01399482/
+	- CompCertM: CompCert with Lightweight Modular Verification and Multi-Language Linking
+		- POPL 2020
+		- Youngju Song, Minki Cho, Dongjoo Kim, Yonghyun Kim, Jeehoon Kang, Chung-Kil Hur 
+		- https://sf.snu.ac.kr/compcertm/
+	- CompCertS: A Memory-Aware Verified C Compiler Using a Pointer as Integer Semantics
+		- Journal of Automated Reasoning 63(2) (2019)
+		- Frédéric Besson, Sandrine Blazy, Pierre Wilke
+		- https://doi.org/10.1007/s10817-018-9496-y
+		- https://hal.inria.fr/hal-01656875
+	- Compositional CompCert
+		- POPL 2015
+		- Stewart, G., Beringer, L., Cuellar, S., Appel, A.W.
+		- https://github.com/PrincetonUniversity/compcomp
+	- Formal Verification of a Constant-Time Preserving C Compiler
+		- Principles of Programming Languages (POPL) 2020
+		- Gilles Barthe, Sandrine Blazy, Benjamin Grégoire, Rémi Hutin, Vincent Laporte, David Pichardie, Alix Trieu
+		- https://eprint.iacr.org/2019/926
+		- http://cs.au.dk/%7Etrieu/POPL20/
+		- Slides (Verified Software Workshop): https://vetss.org.uk/wp-content/uploads/sites/122/2019/10/Blazy-Formal-Verification-of-a-Constant-Time.pdf
+		- https://vetss.org.uk/verified-software-workshop-programme/
+		- https://doi.org/10.1145/3371075
+		- A CompCert Compiler that Preserves Cryptographic Constant-time
+			- Sandrine Blazy, Rémi Hutin, David Pichardie
+			- PriSC 2020 Principles of Secure Compilation
+			- https://popl20.sigplan.org/details/prisc-2020-papers/10/A-CompCert-Compiler-that-Preserves-Cryptographic-Constant-time
+			- https://www.youtube.com/watch?v=eci48EC4v4o
+	- Lightweight Verification of Separate Compilation
+		- POPL 2016
+		- Jeehoon Kang, Yoonseung Kim, Chung-Kil Hur, Derek Dreyer, Viktor Vafeiadis
+		- https://sf.snu.ac.kr/sepcompcert/
+	- Reconciling Low-Level Features of C with Compiler Optimizations
+		- 2019 Ph.D. Dissertation; Jeehoon Kang
+		- https://sf.snu.ac.kr/jeehoon.kang/thesis/
+		- Chapter I, Section 2, Background: A Brief Tour of CompCert
+		- Chapter III, Separate Compilation and Linking
+		- Chapter IV, Cast between Integers and Pointers
+	- Verified Peephole Optimizations for CompCert
+		- PLDI 2016
+		- Eric Mullen, Daryl Zuniga, Zachary Tatlock, Dan Grossman
+		- http://peek.uwplse.org/
+		- https://conf.researchr.org/event/pldi-2016/pldi-2016-papers-verified-peephole-optimizations-for-compcert-
+		- Peek: a verified peephole optimizer for CompCert - https://github.com/uwplse/peek
+- Compilation Using Correct-by-Construction Program Synthesis
+	- 2016 Master's Thesis; Clément Pit-Claudel
+	- http://pit-claudel.fr/clement/MSc/
+	- https://dspace.mit.edu/bitstream/handle/1721.1/107293/973557793-MIT.pdf?sequence=1
+	- http://pit-claudel.fr/clement/MSc/FiatToFacade_Pit-Claudel_2016.pdf
+- Compositional Verification of Compiler Optimisations on Relaxed Memory
+	- ESOP 2018
+	- Mike Dodds, Mark Batty, Alexey Gotsman
+	- https://arxiv.org/abs/1802.05918
+- Crellvm: Verified Credible Compilation for LLVM
+	- Programming Languages Design and Implementation (PLDI) 2018
+	- Jeehoon Kang, Yoonseung Kim, Youngju Song, Juneyoung Lee, Sanghoon Park, Mark Dongyeon Shin, Yonghyun Kim, Sungkeun Cho, Joonwon Choi,Chung-Kil Hur, Kwangkeun Yi
+	- a verified credible compilation (or equivalently, verified translation validation) framework for LLVM
+	- http://sf.snu.ac.kr/crellvm/
+	- http://sf.snu.ac.kr/gil.hur/publications/crellvm.pdf
+	- http://sf.snu.ac.kr/gil.hur/publications/crellvm.zip
+	- https://github.com/snu-sf/crellvm-tests-parallel
+- Mechanized Semantics and Verified Compilation for a Dataflow Synchronous Language with Reset
+	- POPL 2020
+	- Timothy Bourke, Lélio Brun, Marc Pouzet
+	- https://popl20.sigplan.org/details/POPL-2020-Research-Papers/20/Mechanized-Semantics-and-Verified-Compilation-for-a-Dataflow-Synchronous-Language-wit
+	- https://github.com/INRIA/velus
+- Pilsner: A Compositionally Verified Compiler for a Higher-Order Imperative Language
+	- International Conference on Functional Programming (ICFP) 2015
+	- Georg Neis, Chung-Kil Hur, Jan-Oliver Kaiser, Craig McLaughlin, Derek Dreyer, Viktor Vafeiadis
+	- https://people.mpi-sws.org/~dreyer/papers/pilsner/paper.pdf
+	- http://plv.mpi-sws.org/pils/
+- Pushing the Limits of Compiler Verification
+	- 2018 PhD Thesis; Eric Mullen
+	- https://homes.cs.washington.edu/~djg/theses/mullen_thesis.pdf
+	- Œuf: Verified Coq Extraction in Coq - https://github.com/uwplse/oeuf
+	- Peek: Verified Peephole Optimizations for CompCert - https://github.com/uwplse/peek
+- Self-compilation and self-verification
+	- 2017 Ph.D. Dissertation; Ramana Kumar
+	- http://www.sigplan.org/Awards/Dissertation/2017_kumar.pdf
+	- https://cakeml.org/
+- The Correctness of a Code Generator for a Functional Language
+	- Verification, Model Checking, and Abstract Interpretation (VMCAI) 2020
+	- Nathanaël Courant, Antoine Séré, Natarajan Shankar
+	- https://doi.org/10.1007/978-3-030-39322-9_4
+- Towards Formally Verified Just-In-Time Compilation
+	- CoqPL 2020
+	- Aurèle Barrière, Sandrine Blazy, David Pichardie
+	- https://www.youtube.com/watch?v=Be-CwSREJOI
+	- https://popl20.sigplan.org/details/CoqPL-2020-papers/4/Towards-Formally-Verified-Just-in-Time-compilation
+- Vale (Verified Assembly Language for Everest)
+	- USENIX Security Symposium 2017
+	- Barry Bond and Chris Hawblitzel, Manos Kapritsos, K. Rustan M. Leino, Jacob R. Lorch, Bryan Parno, Ashay Rane, Srinath Setty, Laure Thompson
+	- https://github.com/project-everest/vale
+	- https://www.microsoft.com/en-us/research/publication/vale-verifying-high-performance-cryptographic-assembly-code/
+	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/bond
+- Vellvm: Verifying the LLVM
+	- http://www.cis.upenn.edu/~stevez/vellvm/
+	- https://github.com/vellvm
+	- DeepSpec Summer School 2017; Steve Zdancewic - https://deepspec.org/event/dsss17/lecture_zdancewic.html
+	- Galois, Inc. Tech Talk 2018; Steve Zdancewic
+		- https://galois.com/blog/2018/07/vellvm-verifying-the-llvm/
+		- https://www.youtube.com/watch?v=qGpRKkP8gec
+	- Strange Loop 2018; Steve Zdancewic
+		- https://www.youtube.com/watch?v=q6gSC3OxB_8
+		- https://thestrangeloop.com/2018/vellvm---verifying-the-llvm.html
+- Verified Compilers for a Multi-Language World
+	- Summit on Advances in Programming Languages (SNAPL) 2015
+	- Amal Ahmed
+	- http://www.ccs.neu.edu/home/amal/papers/verifcomp.pdf

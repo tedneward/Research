@@ -1,0 +1,64 @@
+title=Compiler Validation
+tags=language development
+summary=Links on translation validation, equivalence checking, and more.
+~~~~~~
+
+- Black-Box Equivalence Checking Across Compiler Optimizations
+	- APLAS 2017
+	- Manjeet Dahiya, Sorav Bansal
+	- http://www.cse.iitd.ac.in/~sbansal/pubs/aplas17.pdf
+- Modeling undefined behaviour semantics for checking equivalence across compiler optimizations
+	- HVC 2017; Manjeet Dahiya, Sorav Bansal
+	- http://www.cse.iitd.ernet.in/~sbansal/pubs/hvc17.pdf
+	- http://www.cse.iitd.ac.in/~dahiya/hvc17.pdf
+- Evaluating value-graph translation validation for LLVM
+	- Programming and Language Design Implementation (PLDI) 2011
+	- Jean-Baptiste Tristan, Paul Govereau, Greg Morrisett
+	- https://dl.acm.org/citation.cfm?id=1993498.1993533
+- Formally Verified Compilation of Low-Level C code
+	- 2016 PhD Dissertation; Pierre Wilke
+	- https://tel.archives-ouvertes.fr/tel-01483676
+- Proving the correctness of heuristically optimized code
+	- CACM 1978; Hanan Samet
+	- http://www.cs.umd.edu/~hjs/pubs/compilers/proving-correctness.pdf
+- Semantic Program Alignment for Equivalence Checking
+	- PLDI 2019
+	- Berkeley Churchill, Oded Padon, Rahul Sharma, Alex Aiken
+	- https://www.youtube.com/watch?v=FJGvInzaiAQ
+	- https://raw.githubusercontent.com/bchurchill/pldi19-equivalence-checker/master/pldi2019.pdf
+	- https://pldi19.sigplan.org/details/pldi-2019-papers/14/Semantic-Program-Alignment-for-Equivalence-Checking
+	- Semantic Alignment Equivalence Checker
+		- https://github.com/bchurchill/pldi19-equivalence-checker
+- Translation validation
+	- TACAS 1998
+	- Amir Pnueli, Michael Siegel, Eli Singerman
+	- https://dl.acm.org/citation.cfm?id=349314
+	- "We present the notion of _translation validation_ as a new approach to the verification of translators (compilers, code generators). Rather than proving in advance that the compiler always produces a target code which correctly implements the source code (compiler verification), each individual translation (i.e. a run of the compiler) is followed by a validation phase which verifies that the target code produced on this run correctly implements the submitted source program."
+- Translation Validation: Automatically Proving the Correctness of Translations Involving Optimized Code
+	- [Hanan Samet](http://www.cs.umd.edu/~hjs/)
+	- translation validation - http://www.cs.umd.edu/~hjs/hjscat.html#sectiontranslationvalidation
+	- compiler testing - http://www.cs.umd.edu/~hjs/hjscat.html#sectioncompilertesting
+	- http://www.cs.umd.edu/~hjs/pubs/compilers/CS-TR-75-498.pdf
+	- http://www.cs.umd.edu/~hjs/slides/translation-validation-slides.pdf
+- Translation Validation: From DC+ to C*
+	- FM-Trends 1998
+	- Amir Pnueli, Ofer Shtrichman, Michael Siegel
+	- https://dl.acm.org/citation.cfm?id=729871
+	- "Translation validation is an alternative to the verification of translators (compilers, code generators). Rather than proving in advance that the compiler always produces a target code which correctly implements the source code (compiler verification), each individual translation (i.e. a run of the compiler) is followed by a validation phase which verifies that the target code produced on this run correctly implements the submitted source program."
+- Translation validation for an optimizing compiler
+	- PLDI 2000
+	- George C. Necula
+	- https://dl.acm.org/citation.cfm?id=349314
+- Translation Validation for Verified, Efficient and Timely Operating Systems
+	- 2017 PhD Dissertation; Thomas Sewell
+	- http://handle.unsw.edu.au/1959.4/58861
+	- https://ts.data61.csiro.au/publications/papers/Sewell:phd
+	- https://ts.data61.csiro.au/projects/TS/compiler-correctness.pml
+- Translation Validation of Bounded Exhaustive Test Cases
+	- 2017; Nuno Lopes, John Regehr
+	- https://blog.regehr.org/archives/1510
+	- Translation Validation with Alive - https://github.com/nunoplopes/alive/tree/newsema/tv
+- Validating Optimizations of Concurrent C/C++ Programs
+	- CGO 2016
+	- Soham Chakraborty, Viktor Vafeiadis
+	- https://plv.mpi-sws.org/validc/paper.pdf
