@@ -1,5 +1,5 @@
 title=ChocoPy
-tags=language, python, static, langdev
+tags=language, python, static, language development
 summary=A restricted subset of Python 3 designed for classroom use in undergraduate compilers courses.
 ~~~~~~
 

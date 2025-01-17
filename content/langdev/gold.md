@@ -1,5 +1,5 @@
 title=GOLD (Parser)
-tags=tool, language, jvm, clr, native, language development
+tags=tool, language development, language, jvm, clr, native, language development
 summary=Code-generating parser tool
 ~~~~~~
 

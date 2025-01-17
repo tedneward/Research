@@ -1,5 +1,5 @@
 title=QBE
-tags=langdev, language, intermediate language, native
+tags=language development, language, intermediate language, native
 summary=Compiler backend that offers 90% of LLVM with about 10% of the complexity.
 ~~~~~~
 

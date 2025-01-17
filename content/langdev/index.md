@@ -1,5 +1,5 @@
 title=Language Development
-category=langdev
+category=language development
 type=categorypage
 summary=A collection of links and articles on building programming languages.
 tags=language, language development

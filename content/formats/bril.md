@@ -1,5 +1,5 @@
 title=BRIL (Big Red Intermediate Language)
-tags=format, language, langdev, tool
+tags=format, language, language development, tool
 summary=A programming language for learning about compilers.
 ~~~~~~
 

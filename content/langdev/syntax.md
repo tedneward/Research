@@ -1,5 +1,5 @@
 title=Language Development Syntax
-tags=langdev, language
+tags=language development, language
 summary=A collection of language syntax examples.
 ~~~~~~
 
