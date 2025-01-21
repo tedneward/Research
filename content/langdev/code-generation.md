@@ -3,7 +3,7 @@ tags=language development,language,reading
 summary=Information on how to generate code (binary or source)
 ~~~~~~
 
-Notes from a Walter Bright [talk at Northwest C++ Group](https://nwcpp.org/talks/2025/codgen.pdf) (16 Jan 2025):
+Notes from a Walter Bright [talk at Northwest C++ Group](https://nwcpp.org/talks/2025/codgen.pdf) (16 Jan 2025) ([Video](https://youtu.be/I_FOkqI_xUY)):
 
 * No real reading material out in the world for CodeGen (as opposed to parsing/lexing, semantics, etc)
 * Talking about DMD's CodeGen; not based on any prior art (LLVM, Gnu, etc); Boost-licensed
@@ -15,7 +15,7 @@ Notes from a Walter Bright [talk at Northwest C++ Group](https://nwcpp.org/talks
 * Local optimizations: doing expression reshuffling to save a register
 
     - two pairs of addition expressions, results added to each other (a + b) + (c + d), rewrite it to (((a + b) + c) + d) we can just keep accumulating in the one register
-    - Is this term rewriting?
+    - *(Is this term rewriting?)*
     - common subexpressions: (2 * b) / (3 + (2 * b)) can point the two (2 * b) nodes to point to one w/reference counting
 
 * Register Masks (integer, FP, XMM, regs preserved by fn, regs we'd like to save); makes for a very fast codegenerator
