@@ -1,6 +1,15 @@
-title=occam-pi
+title=Occam-pi
 tags=language, concurrency, native
-summary=Occam-pi and KRoC are the result of on-going research extending the (CSP) ideas of occam by judicious inclusion of the mobility features of the pi-calculus. In the interests of proveability, we have been careful to preserve the distinction between the original simple static point-to-point synchronised communication of occam and the dynamic asynchronous multiplexed communication of the pi-calculus; in this we have been prepared to sacrifice the elegant sparsity of the pi-calculus. We conjecture that the extra complexity (and discipline) introduced will make the task of proving concurrent and distributed programs easier.
+summary=A concurrent programming language using the process-oriented programming model, which aims to make it straightforward to write correct, expressive concurrent programs.
 ~~~~~~
 
-[Website](https://www.cs.kent.ac.uk/projects/ofa/kroc/)
+[Website](http://occam-pi.org/)
+
+## Implementations
+
+[KRoC](http://projects.cs.kent.ac.uk/projects/kroc/trac/) (the Kent Retargetable occam Compiler) is an open-source collection of tools and libraries for occam-π development. Currently, KRoC can run occam-π programs using two different approaches:
+
+* Using IA32 native-code compilation and CCSP, an extremely efficient scheduler that dynamically schedules lightweight processes across multiple processor cores.
+* Using the Transterpreter, a highly-portable, lightweight virtual machine for occam-π programs that works on both conventional machines and small microcontrollers.
+
+Work in progress includes developing a new occam-π compiler, and generating more efficient code for multiple platforms using LLVM.

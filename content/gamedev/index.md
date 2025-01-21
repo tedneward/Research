@@ -25,6 +25,8 @@ tags=gamedev
 
 - [Building Roguerrants: Insights into 2.5D Roguelike Development with Squeak](https://news.squeak.org/2024/10/18/building-roguerrants-insights-into-2-5d-roguelike-development-with-squeak/)
 
+- [Heroes of Might and Magic 2 clone](https://ihhub.github.io/fheroes2/) ([Source](https://github.com/ihhub/fheroes2))
+
 ## Engines too esoteric to rate their own page
 [M.U.G.E.N](http://www.elecbyte.com/mugendocs-11b1/mugen.html): 2D fighting game engine
 

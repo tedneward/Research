@@ -5,6 +5,8 @@ summary=A collection of links around artificial intelligence (and all the differ
 tags=ai
 ~~~~~~
 
+## General
+
 ## Definitions
 
 ## [Expert Systems](/tags/expert%20system.html)/[Rules Engines](/tags/rules.html)
@@ -41,12 +43,13 @@ tags=ai
 
 ## Generative AI
 
+* ["Godot isn't making it"](https://www.wheresyoured.at/godot-isnt-making-it/): "What if what we're seeing today isn't a glimpse of the future, but the new terms of the present? What if artificial intelligence isn't actually capable of doing much more than what we're seeing today, and what if there's no clear timeline when it'll be able to do more? What if this entire hype cycle has been built, goosed by a compliant media ready and willing to take career-embellishers at their word? (March 2024) The reason I'm repeating myself is that it's important to note how obvious the problems with generative AI have been, and for how long."
 * [Generative AI exists because of the transformer](https://ig.ft.com/generative-ai/)
 * ["Stable Diffusion in Java (SD4J) Enables Generating Images with Deep Learning"](https://www.infoq.com/news/2023/12/stable-diffusion-in-java/)
 * [Stable Diffusion in C#](https://github.com/cassiebreviu/StableDiffusion/) (mentioned in the SD4J article)
 
 ## Machine Learning
 
+* [10 Github Repositories to Master Reinforcement Learning](https://www.kdnuggets.com/10-github-repositories-master-reinforcement-learning)
 * [Machine Learning for Software Engineering](https://github.com/saltudelft/ml4se): A curated list of papers, theses, datasets, and tools related to the application of Machine Learning for Software Engineering.
 * [Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2023.pdf)
-

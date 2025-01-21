@@ -1,6 +1,7 @@
 title=Gluon
-tags=tool, nodejs, browser
-summary=A new framework for creating desktop apps from websites, using system installed browsers and NodeJS.
+tags=tool, jvm, browser, windows, macos, linux, ios, android
+summary=Java OpenFX framework for creating cross-platform apps.
 ~~~~~~
 
-[Website](https://gluonjs.org/) | [Source](https://github.com/gluon-framework/gluon)
+[Website](https://gluonhq.com/) | [Source](https://github.com/gluonhq) | [Docs](https://docs.gluonhq.com/#_introduction)
+
