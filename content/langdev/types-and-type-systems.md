@@ -70,6 +70,8 @@ When a program is considered not type-safe, there is no single standard course o
 
 Note that while these terms usually are applied most directly to programming languages, there's a strong case to be made that they apply to other areas of programming, too, like storage. A relational database, for example, could be said to be a strongly-type-safe (because it insists on only integers in INTEGER columns) and statically-type-checked (since it parses SQL and does type-checking).
 
+["Type tailoring"](https://users.cs.utah.edu/~blg/publications/tt/wcfg-ecoop-2024.pdf): Type systems evolve too slowly to keep up with the quick evolution of libraries – especially libraries that introduce abstractions. Type tailoring offers a lightweight solution by equipping the core language with an API for modifying the elaboration of surface code into the internal language of the typechecker. Through user-programmable elaboration, tailoring rules appear to improve the precision and expressiveness of the underlying type system. Furthermore, type tailoring cooperates with the host type system by expanding to code that the host then typechecks. In the context of a hygienic metaprogramming system, tailoring rules can even harmoniously compose with one another. Type tailoring has emerged as a theme across several languages and metaprogramming systems, but never with direct support and rarely in the same shape twice. For example, both OCaml and Typed Racket enable forms of tailoring, but in quite different ways. This paper identifies key dimensions of type tailoring systems and tradeoffs along each dimension. It demonstrates the usefulness of tailoring with examples that cover sized vectors, database queries, and optional types. Finally, it outlines a vision for future research at the intersection of types and metaprogramming.
+
 ### Type-safety
 
 * Strong: A strongly-typed language is one in which variables are bound to specific data types, and will result in type errors if types to not match up as expected in the expression. A simple way to think of strong typing is to consider it to be a guarantor of high degrees of type safety. 
@@ -80,6 +82,8 @@ Note that while these terms usually are applied most directly to programming lan
 
 ## Type inference
 
+* ["Damas-Hindley-Milner inference two ways"](https://bernsteinbear.com/blog/type-inference/): Damas-Hindley-Milner (HM) is a type system for Standard ML and the ML-family languages with parametric polymorphism, aka generic functions. It sits at a sweet spot in PL design: the type system is quite expressive, and there are well known type inference algorithms that require absolutely no annotations from the programmer.
+
 ## Type theory
 
 * ["Lambda cube"](https://en.wikipedia.org/wiki/Lambda_cube): In mathematical logic and type theory, the λ-cube (also written lambda cube) is a framework introduced by Henk Barendregt[1] to investigate the different dimensions in which the calculus of constructions is a generalization of the simply typed λ-calculus. Each dimension of the cube corresponds to a new kind of dependency between terms and types. Here, "dependency" refers to the capacity of a term or type to bind a term or type. The respective dimensions of the λ-cube correspond to:
@@ -89,6 +93,10 @@ Note that while these terms usually are applied most directly to programming lan
 	* z-axis: types that can bind types, corresponding to (binding) type operators.
 
 	The different ways to combine these three dimensions yield the 8 vertices of the cube, each corresponding to a different kind of typed system. The λ-cube can be generalized into the concept of a pure type system.
+
+## Beyond
+
+* ["Moving beyond type systems"](https://vhyrro.github.io/posts/effect-systems/): Types and [effects](https://overreacted.io/algebraic-effects-for-the-rest-of-us/), where effects are hard to model in types (witness monads!). "What I was quick to realize is that there are two distinct ways of implementing an effect system — static and dynamic. What present day research is trying to figure out are dynamic effects. You create callbacks that handle different state changes in the program accordingly (see that blog post linked earlier if you’re not familiar). A static effect system would be something akin to Rust’s borrow checker but for effects — instead of being able to interact and handle effects through functions, the programming language instead has an effect checker that statically analyzes the program and makes sure that everything holds. This would mean making sure that all effects are annotated properly and that no side effects occur where they shouldn’t. Contrary to the dynamic approach, in a static system you have to prove to the effect checker that your code doesn’t do anything funky. If you can’t prove that some function doesn’t have a side effect, that’s an error. Drawing parallels to the borrow checker once more: if you can’t prove that a variable will be used only once in a closure, the borrow checker will complain. The rest of this post will now focus on implementing a static effect system and how it might be beneficial to future programming languages."
 
 ## Code/implementations
 

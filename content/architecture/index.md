@@ -28,6 +28,7 @@ Tomas Petricek's writings on the subject:
 [Platform Engineering Teams Done Right...](https://adrianco.medium.com/platform-engineering-teams-done-right-b3b3d4a8ad23)
 
 [The 12-Factor App](https://12factor.net/):
+
 * I. Codebase: One codebase tracked in revision control, many deploys
 * II. Dependencies: Explicitly declare and isolate dependencies
 * III. Config: Store config in the environment
@@ -53,6 +54,7 @@ Tomas Petricek's writings on the subject:
 * ["Architecture vs Model"](https://kalele.io/architecture-vs-model/): "One of the biggest problems with business software is that architecture gets promoted more than the domain model. Further, most domain models are ordinary, and could be implemented by school students for a lot less cost than the 7-9 figures often spent. Yet, often the software architecture supporting a model—almost certainly anemic—is generally over engineered."
 * [Best Kept Secrets of Peer Code Review](http://smartbear.com/lp/ebook/collaborator/secrets-of-peer-code-review/)
 * [Building Secure & Reliable Systems](./building_secure_and_reliable_systems.pdf) - Heather Adkins, Betsy Beyer, Paul Blankinship, Piotr Lewandowski, Ana Oprea & Adam Stubblefield (PDF)
+* [Control Flow - The Other Half of Integration Patterns](https://www.enterpriseintegrationpatterns.com/ramblings/queues_control_flow.html): "When Bobby and I wrote Enterprise Integration Patterns, we naturally spent most of the time on the data flow of messaging systems: how messages are generated, transformed, and routed. Some patterns, especially Endpoint Patterns such as Polling Consumer or Event-Driven Consumer clearly have a ring of control flow to it, but we never actually mention the term in the entire book (funnily there is one occurrence in Recipient List, but it's actually a verb and object: "In order for the Recipient List to control flow of information"). The term gets a few mentions in the blog, although we conclude that "Message-oriented API's steer towards a data flow architecture". So, it's time to make control flow a first-class citizen."
 * [Domain Driven Design Quickly](http://www.infoq.com/minibooks/domain-driven-design-quickly)
 * [Domain-Driven Design Reference](https://www.domainlanguage.com/ddd/reference) - Eric Evans
 * [Domain-Driven Design: The First 15 Years. Essays from the DDD community](https://dddeurope.com/15years/) - Domain-Driven Design Europe ([HTML, PDF, ePub](https://leanpub.com/ddd_first_15_years/)) *(Leanpub account or valid email requested)*

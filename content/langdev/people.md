@@ -10,6 +10,10 @@ summary=Notable names.
 - [Gavin Bierman](https://gavinbierman.github.io)
 - [Gilad Bracha](https://bracha.org/Site/Home.html)
 - [Graham Hutton](https://www.cs.nott.ac.uk/~pszgmh)
+- Jesper Louis Andersen
+
+    - [Interview](https://medium.com/@unbalancedparen/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#.g4q9w4eqq) about a ton of languages.
+
 - [Jihyeok Park](https://plrg.korea.ac.kr/members/jihyeok.park)
 - [Lexi Lambda](https://lexi-lambda.github.io)
 - [Mads Torgersen](https://twitter.com/madstorgersen)
@@ -18,6 +22,7 @@ summary=Notable names.
 - [Patrick Walton](https://pcwalton.github.io)
 - [Paulette Koronkevich](https://koronkevi.ch)
 - [Programming Linnguistics](https://pling.jondgoodwin.com)
+- [Ray Toal](https://cs.lmu.edu/~ray/), Loyola Marymount
 - [Researchers in Programming Languages and Compilers](https://www.cs.cmu.edu/~mleone/language-people.html)
 - [Roberto Giacobazzi](http://profs.sci.univr.it/~giaco)
 - [Simon Peyton Jones](https://simon.peytonjones.org)
@@ -26,5 +31,5 @@ summary=Notable names.
 - [Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu)
 - [Ronald Garcia](https://www.cs.ubc.ca/~rxg)
 - [TK](https://iamtk.co)
+- Walter Bright
 
-[Interview with Jesper Louis Andsersen](https://medium.com/@unbalancedparen/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#.g4q9w4eqq) about a ton of languages.

@@ -1,5 +1,5 @@
 title=rst (ReStructured Text)
-tags=format, python
+tags=format, text, python
 summary=A file format created by the Python community to write documentation. A markdown language like HTML but is much more lightweight and easier to read.
 ~~~~~~
 

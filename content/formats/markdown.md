@@ -1,5 +1,5 @@
 title=Markdown
-tags=format, presentation
+tags=format, text, presentation
 summary=Text-based markup language originally intended for easy HTML creation.
 ~~~~~~
 

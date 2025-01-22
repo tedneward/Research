@@ -1,5 +1,5 @@
 title=Cool
-tags=language, langdev, objects, static
+tags=language, language development, objects, static
 summary=A small language designed for use in an undergraduate compiler course project. 
 ~~~~~~
 

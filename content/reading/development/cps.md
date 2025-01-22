@@ -1,5 +1,5 @@
 title=Continuation-passing style
-tags=reading, language
+tags=reading, language, language development
 summary=Readings and links on CPS.
 ~~~~~~
 

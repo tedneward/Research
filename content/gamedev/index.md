@@ -5,25 +5,27 @@ summary=Collection of video game development links.
 tags=gamedev
 ~~~~~~
 
-Video game development links.
+- [Github list of Game Engines](https://github.com/collections/game-engines) | [HTML5 Game Engines/Frameworks](http://techslides.com/html5-game-engines-and-frameworks) (from 2012) | [Wikipedia list](https://en.wikipedia.org/wiki/List_of_game_engines)
 
-[Github list of Game Engines](https://github.com/collections/game-engines) | [HTML5 Game Engines/Frameworks](http://techslides.com/html5-game-engines-and-frameworks) (from 2012) | [Wikipedia list](https://en.wikipedia.org/wiki/List_of_game_engines)
+- [Amit's Thoughts on Grids](http://www-cs-students.stanford.edu/~amitp/game-programming/grids/) | [Grid Parts](https://www.redblobgames.com/grids/parts/)
 
-[Amit's Thoughts on Grids](http://www-cs-students.stanford.edu/~amitp/game-programming/grids/) | [Grid Parts](https://www.redblobgames.com/grids/parts/)
+- [DOS Development Templates](https://github.com/badlogic/dos-dev-template): Template project for developing DOS games/apps with DJGPP, including source-level remote debugging with GDB and DOSBox. ([Toot](https://mastodon.gamedev.place/@badlogic/109560027107569705), [Tweet](https://twitter.com/badlogicgames/status/1609902906165141504))
 
-[DOS Development Templates](https://github.com/badlogic/dos-dev-template): Template project for developing DOS games/apps with DJGPP, including source-level remote debugging with GDB and DOSBox. ([Toot](https://mastodon.gamedev.place/@badlogic/109560027107569705), [Tweet](https://twitter.com/badlogicgames/status/1609902906165141504))
+- [Unreal Engine Scripting Languages](https://benui.ca/unreal/scripting-languages/)
 
-[Unreal Engine Scripting Languages](https://benui.ca/unreal/scripting-languages/)
+- ["Procedural Worlds from Simple Tiles"](https://ijdykeman.github.io/ml/2017/10/12/wang-tile-procedural-generation.html)
 
-["Procedural Worlds from Simple Tiles"](https://ijdykeman.github.io/ml/2017/10/12/wang-tile-procedural-generation.html)
+- ["Lands of Lore Engine in Javascript"](https://levelup.gitconnected.com/i-tried-to-code-the-engine-of-1993-rpg-game-lands-of-lore-in-javascript-c78368d1e2f0) ([Source](https://github.com/stephan-romhart/Lands-of-Lore-Engine-in-Javascript)): Nice front-end for Apartum, maybe?
 
-["Lands of Lore Engine in Javascript"](https://levelup.gitconnected.com/i-tried-to-code-the-engine-of-1993-rpg-game-lands-of-lore-in-javascript-c78368d1e2f0) ([Source](https://github.com/stephan-romhart/Lands-of-Lore-Engine-in-Javascript)): Nice front-end for Apartum, maybe?
+- ["An Android game using JavaFX and GraalVM"](https://www.metacodes.pro/blog/write_one_run_anywhere_an_android_game_using_javafx_and_the_graalvm/)
 
-["An Android game using JavaFX and GraalVM"](https://www.metacodes.pro/blog/write_one_run_anywhere_an_android_game_using_javafx_and_the_graalvm/)
+- AI for Game Development: [Part 1](https://huggingface.co/blog/ml-for-games-1) [Part 2](https://huggingface.co/blog/ml-for-games-2) | [Part 3](https://huggingface.co/blog/ml-for-games-3) | [Part 4](https://huggingface.co/blog/ml-for-games-4) | [Part 5](https://huggingface.co/blog/ml-for-games-5)
 
-AI for Game Development: [Part 1](https://huggingface.co/blog/ml-for-games-1) [Part 2](https://huggingface.co/blog/ml-for-games-2) | [Part 3](https://huggingface.co/blog/ml-for-games-3) | [Part 4](https://huggingface.co/blog/ml-for-games-4) | [Part 5](https://huggingface.co/blog/ml-for-games-5)
+- [Build a Tetris game with SwiftUI](https://betterprogramming.pub/build-a-tetris-game-using-swiftui-c8c9b1722259)
 
-[Build a Tetris game with SwiftUI](https://betterprogramming.pub/build-a-tetris-game-using-swiftui-c8c9b1722259)
+- [Building Roguerrants: Insights into 2.5D Roguelike Development with Squeak](https://news.squeak.org/2024/10/18/building-roguerrants-insights-into-2-5d-roguelike-development-with-squeak/)
+
+- [Heroes of Might and Magic 2 clone](https://ihhub.github.io/fheroes2/) ([Source](https://github.com/ihhub/fheroes2))
 
 ## Engines too esoteric to rate their own page
 [M.U.G.E.N](http://www.elecbyte.com/mugendocs-11b1/mugen.html): 2D fighting game engine
@@ -42,6 +44,7 @@ AI for Game Development: [Part 1](https://huggingface.co/blog/ml-for-games-1) [P
 ---
 
 # [The Ultimate Game Hacking Resource](https://github.com/dsasmblr/game-hacking/)
+
 ***A curated list of tools, tutorials, and much more for reverse engineering video games!***
 
 Finally, if **hacking online games** is a topic of interest for you, I'm also maintaining an extensive curated repository for that subject alone: [The Ultimate Online Game Hacking Resource](https://github.com/dsasmblr/hacking-online-games). You may note a negligible amount of overlap between these two repositories, but by and large, they are complementary to one another. And now, on with the game-hacking goodness!

@@ -1,5 +1,5 @@
 title=FlatBuffers
-tags=format, library, serialization
+tags=format, binary, storage, library, serialization
 summary=An efficient OSS cross platform serialization library for a lot of mainstream programming languages. It was originally created at Google for game development and other performance-critical applications.
 ~~~~~~
 

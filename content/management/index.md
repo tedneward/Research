@@ -9,6 +9,14 @@ tags=management
 
 ["The Worst Tool for the Job"](https://www.johndcook.com/blog/2020/07/25/worst-tool-for-the-job/): if you need a tool, buy the cheapest one you can find. If it’s inadequate, or breaks, or you use it a lot, then buy the best one you can afford. If you follow this strategy, you’ll sometimes waste a little money by buying a cheap tool before buying a good one. But you won’t waste money buying expensive tools that you rarely use. And you won’t waste money by buying a sequence of incrementally better tools until you finally buy a good one.
 
+[Ask A Manager](https://www.askamanager.org/): "Some of my biases —
+
+- I believe the whole point of managing is to get things done. Everything else follows from there.
+- I believe that employers and employees should just be straightforward with each other and not let things fester. Unless you’re deluded or a jerk, candor usually leads you someplace good. (And if you are deluded or a jerk, you have bigger problems anyway.)
+- I believe that job searches and hiring processes are two-way streets; candidates should be evaluating employers just as much as employers are evaluating candidates. And candidates should be screening for jobs where they’ll excel and be happy, not just trying to get any offer they can.
+- I believe that you should take criticism gracefully, even when you disagree with it. If nothing else, you’re learning something valuable about how someone else sees you.
+- I believe in being brutally honest with yourself — about what matters to you and how much, about what you can and can’t change, about how you’re going to respond to the things that you can’t or won’t change, and about reality in general. This is the recipe for a happy career and a happy life."
+
 [Servant Leadership](https://responsiveadvisors.com/blog/servant-leadership/) - Jason Malmstadt
 
 [Questionable Advice: “How can I drive change and influence teams... without power?”](https://charity.wtf/2023/06/05/drive-change-and-influence-teams-without-power/) - Charity Majors

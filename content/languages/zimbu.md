@@ -8,6 +8,7 @@ summary=Language experiment around wide-scope system-to-application programming.
 From the website:
 
 Goals:
+
 * easy to read back - code is read N times more often than it is written
 * avoid common mistakes - make it difficult to write bad code (but you can write hacks if you really want to)
 * keep it short and clear, don't state the same thing twice - no header files, do not repeat type specs
@@ -18,6 +19,7 @@ Goals:
 * many standard data types, modules and classes - most things you need are already there
 
 Choices:
+
 * convert the program to C and use the C compiler to produce machine code (could be something else later)
 * also produce Javascript, so that Zimbu code can be run in a web browser.
 * mainly use static type checking, also support runtime type checking

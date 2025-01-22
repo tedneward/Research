@@ -11,3 +11,6 @@ summary=Collection of links and ideas around tech intervews.
 
 ["Backend challenges"](https://github.com/CollabCodeTech/backend-challenges): A public list of open-source challenges from jobs around the world.
 
+## Companies
+
+[Companies hiring without whiteboards](https://github.com/poteto/hiring-without-whiteboards)

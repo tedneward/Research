@@ -1,0 +1,344 @@
+title=Compiler Testing
+tags=language development
+summary=A collection of links and reading on compiler testing.
+~~~~~~
+
+See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
+
+- A Survey of Compiler Testing
+	- ACM Computing Surveys (CSUR) 2019
+	- Junjie Chen, Jibesh Patra, Michael Pradel, Yingfei Xiong, Hongyu Zhang, Dan Hao, Lu Zhang
+	- https://software-lab.org/publications/csur2019_compiler_testing.pdf
+- Dagstuhl Seminar 17502 – Testing and Verification of Compilers
+	- December 2017
+	- http://dagstuhl.de/17502
+	- Materials: http://materials.dagstuhl.de/index.php?semnr=17502
+- EMI-based Compiler Testing - http://web.cs.ucdavis.edu/~su/emi-project/
+
+## Readings
+
+- An empirical comparison of compiler testing techniques
+	- International Conference on Software Engineering (ICSE 2016)
+	- Junjie Chen, Wenxiang Hu, Dan Hao, Yingfei Xiong, Hongyu Zhang, Lu Zhang, Bing Xie
+	- http://sei.pku.edu.cn/~xiongyf04/papers/ICSE16.pdf
+	- http://emponcc.github.io/
+	- https://github.com/emponcc/emponcc.github.io/blob/master/CompilerTestingComparison.md
+	- https://dl.acm.org/citation.cfm?id=2884878
+- Automatic Test Case Reduction for OpenCL
+	- IWOCL 2016
+	- Moritz Pflanzer, Alastair F. Donaldson, Andrei Lascu
+	- https://dl.acm.org/citation.cfm?id=2909439
+	- paper: https://spiral.imperial.ac.uk/handle/10044/1/39576
+	- slides: http://www.iwocl.org/wp-content/uploads/iwocl-2016-automatic-test-case-reduction.pdf
+- Automated Testing of Graphics Shader Compilers
+	- SPLASH 2017 OOPSLA
+	- Alastair F. Donaldson, Hugues Evrard, Andrei Lascu, Paul Thomson
+	- https://dl.acm.org/citation.cfm?id=3152284.3133917
+	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2017/OOPSLA.pdf
+	- Overview of the GLFuzz transformations - https://medium.com/@afd_icl/overview-of-the-glfuzz-transformations-d530540a5a18
+- Automatic Testing of Symbolic Execution Engines via Program Generation and Differential Testing
+	- ASE 2017
+	- Timotej Kapus, Cristian Cadar
+	- https://srg.doc.ic.ac.uk/files/papers/symex-engine-tester-ase-17.pdf
+- Causal Distance-Metric-Based Assistance for Debugging After Compiler Fuzzing
+	- IEEE International Symposium on Software Reliability Engineering (ISSRE) 2018
+	- Josie Holmes and Alex Groce
+	- https://agroce.github.io/issre18.pdf
+- Checking Correctness of Code Generator Architecture Specifications 
+	- Code Generation and Optimization (CGO) 2015
+	- N. Hasabnis, R. Qiao, R. Sekar 
+	- http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15.pdf
+	- http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15_talk.pdf
+- Compiler fuzzing, part 1
+	- http://www.vegardno.net/2018/06/compiler-fuzzing.html
+- Compiler Fuzzing through Deep Learning
+	- International Symposium on Software Testing and Analysis (ISSTA) 2018
+	- Chris Cummins, Pavlos Petoumenos, Hugh Leather and Alastair Murray
+	- http://homepages.inf.ed.ac.uk/hleather/publications/2018_deepfuzzing_issta.pdf
+	- https://chriscummins.cc/deepsmith
+- Compiler Fuzzing: How Much Does It Matter?
+	- OOPSLA 2019
+	- Michael Marcozzi, Qiyi Tang, Alastair Donaldson, Cristian Cadar
+	- https://srg.doc.ic.ac.uk/projects/compiler-bugs/
+	- https://sites.google.com/view/michaelmarcozzi/software-tools/compiler-bugs-impact
+	- A Systematic Impact Study for Fuzzer-Found Compiler Bugs
+		- 2019 arXiv (pre-print)
+		- https://arxiv.org/abs/1902.09334
+		- https://sites.google.com/view/michaelmarcozzi/compiler-bugs
+	- PapersWeLove London 2020
+		- Michael Marcozzi
+		- https://www.youtube.com/watch?v=CUBmXYahTb0
+- Coverage Prediction for Accelerating Compiler Testing
+	- IEEE Transactions on Software Engineering (2019)
+	- Junjie Chen, Guancheng Wang, Dan Hao, Yingfei Xiong, Hongyu Zhang, Lu Zhang, Bing Xie
+	- https://ieeexplore.ieee.org/abstract/document/8588375
+- CUDAsmith: A Fuzzer for CUDA Compilers
+	- Computers, Software and Applications Conference (COMPSAC) 2020
+	- Bo Jiang, Xiaoyan Wang, W. K. Chan, T. H. Tse, Na Li, Yongfeng Yin, Zhenyu Zhang
+	- https://www.cs.hku.hk/data/techreps/document/TR-2020-05.pdf
+	- https://github.com/gongbell/CUDAsmith
+- DATm: Diderot's Automated Testing Model.
+	- 39th International Conference on Software Engineering ICSE (12th International Workshop on Automation of Software Test AST) 2017
+	- C. Chiw, G. Kindlmann, J. Reppy
+	- https://www.researchgate.net/publication/317836930_DATm_Diderot%27s_Automated_Testing_Model
+	- https://www.dropbox.com/s/5twsrp12vg4or7t/datm_talk.key?dl=0
+- Deep Differential Testing of JVM Implementations
+	- ICSE 2019
+	- Yuting Chen, Ting Su, Zhendong Su
+	- https://tingsu.github.io/files/icse19-classming.pdf
+- DeepFuzz: Automatic Generation of Syntax Valid C Programs for Fuzz Testing
+	- AAAI Conference on Artificial Intelligence (AAAI) 2019
+	- Xiao Liu, Xiaoting Li, Rupesh Prajapati, Dinghao Wu
+	- https://faculty.ist.psu.edu/wu/papers/DeepFuzz.pdf
+	- https://github.com/s3team/DeepFuzz
+- Differential Testing for Software
+	- Digital Technical Journal 10, 1 (1998)
+	- William M. McKeeman
+	- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.83.445
+- Effect-Driven QuickChecking of Compilers
+	- ICFP 2017
+	- Jan Midtgaard, Mathias Nygaard Justesen, Patrick Kasting, Flemming Nielson, Hanne Riis Nielson
+	- paper: http://janmidtgaard.dk/papers/Midtgaard-al%3AICFP17-full.pdf
+	- implementation: https://github.com/jmid/efftester
+	- talk
+		- http://podcasts.ox.ac.uk/effect-driven-quickchecking-compilers
+		- https://www.youtube.com/watch?v=_KrZzaShDew&list=PLnqUlCo055hW7kU-SBQEhC_87etA5Gqlq&index=15
+- Extending Equivalence Transformation Based Program Generator for Random Testing of C Compilers
+	- A-TEST 2018
+	- Shogo Takakura, Mitsuyoshi Iwatsuji, Nagisa Ishiura
+	- https://dl.acm.org/citation.cfm?doid=3278186.3278188
+	- https://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2018-11a.pdf
+- Finding and Analyzing Compiler Warning Defects
+	- ICSE 2016
+	- Chengnian Sun, Vu Le, Zhendong Su
+	- http://ieeexplore.ieee.org/document/7886904/
+	- https://web.cs.ucdavis.edu/~su/publications/icse16-warning.pdf
+- Finding and Understanding Bugs in C Compilers
+	- PLDI 2011
+	- Xuejun Yang, Yang Chen, Eric Eide, John Regehr
+	- http://www.cs.utah.edu/~regehr/papers/pldi11-preprint.pdf
+	- https://www.flux.utah.edu/download?uid=114
+	- https://blog.regehr.org/archives/492
+	- http://lambda-the-ultimate.org/node/4241
+- Fuzzing with Grammars
+	- In "The Fuzzing Book" - https://www.fuzzingbook.org/
+	- Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, Christian Holler
+	- https://www.fuzzingbook.org/html/Grammars.html
+- Fuzzing the .NET JIT Compiler
+	- http://mattwarren.org/2018/08/28/Fuzzing-the-.NET-JIT-Compiler/
+	- Fuzzlyn: Fuzzer for the .NET toolchains
+		- https://github.com/jakobbotsch/Fuzzlyn
+- History-Guided Configuration Diversification for Compiler Test-Program Generation
+	- Automated Software Engineering (ASE) 2019
+	- Junjie Chen, Guancheng Wang, Dan Hao, Yingfei Xiong, Hongyu Zhang, Lu Zhang
+	- https://xiongyingfei.github.io/publications.html#ASE19b
+- Improving the Utility of Compiler Fuzzers
+	- 2014 Ph.D. Dissertation; Yang Chen
+	- http://www.cs.utah.edu/~chenyang/papers/thesis_draft.pdf
+	- https://search.proquest.com/openview/4799de27b7f7d50c7d4f1d2335316065/1?pq-origsite=gscholar&cbl=18750&diss=y
+- K-CONFIG: Using Failing Test Cases to Generate Test Cases in GCC Compilers
+	- Automated Software Engineering (ASE 2019) Late Breaking Research-Track
+	- Md Rafiqul Islam Rabin, Mohammad Amin Alipour
+	- https://arxiv.org/abs/1908.10481
+- Learning to Accelerate Compiler Testing
+	- International Conference on Software Engineering (ICSE), Doctoral Symposium, 2018
+	- [Junjie Chen](https://sites.google.com/site/junjiechen08/)
+	- https://www.icse2018.org/event/icse-2018-doctoral-symposium-learning-to-accelerate-compiler-testing
+	- Slides (2017): http://materials.dagstuhl.de/files/17/17502/17502.JunjieChen.Slides.pdf
+- Learning to Prioritize Test Programs for Compiler Testing
+	- International Conference on Software Engineering (ICSE 2017)
+	- Junjie Chen, Yanwei Bai, Dan Hao, Yingfei Xiong, Hongyu Zhang, Bing Xie
+	- http://sei.pku.edu.cn/~xiongyf04/papers/ICSE17b.pdf
+- Nautilus: Fishing for Deep Bugs with Grammars
+	- Network and Distributed System Security Symposium (NDSS) 2019
+	- Cornelius Aschermann, Tommaso Frassetto, Thorsten Holz, Patrick Jauernig, Ahmad-Reza Sadeghi, Daniel Teuchert
+	- https://www.syssec.ruhr-uni-bochum.de/research/publications/nautilus/
+	- https://github.com/RUB-SysSec/nautilus
+	- testing applications: ChakraCore (the JavaScript engine of Microsoft Edge), PHP, mruby, and Lua
+- RandIR: Differential Testing for Embedded Compilers
+	- SCALA 2016
+	- Georg Ofenbeck, Tiark Rompf, Markus Püschel
+	- https://www.cs.purdue.edu/homes/rompf/papers/ofenbeck-scala16.pdf
+- ReduKtor: How We Stopped Worrying About Bugs in Kotlin Compiler
+	- Automated Software Engineering (ASE) 2019
+	- Daniil Stepanov, Marat Akhin, Mikhail Belyaev
+	- https://arxiv.org/abs/1909.07331
+- System Under Test: LLVM - https://systemundertest.org/llvm/
+- Taming compiler fuzzers
+	- PLDI 2013
+	- Y. Chen, A. Groce, C. Zhang, W.-K. Wong, X. Fern, E. Eide, J. Regehr
+	- https://www.cs.utah.edu/~regehr/papers/pldi13.pdf
+	- Fuzzers Need Taming - https://blog.regehr.org/archives/925
+- Test-Case Reduction for C Compiler Bugs
+	- PLDI 2012
+	- John Regehr, Yang Chen, Pascal Cuoq, Eric Eide, Chucky Ellison, Xuejun Yang
+	- https://www.cs.utah.edu/~regehr/papers/pldi12-preprint.pdf
+- Testing LLVM - http://blog.regehr.org/archives/1450
+- Testing Static Analyses for Precision and Soundness
+	- Code Generation and Optimization (CGO) 2020
+	- Jubi Taneja, Zhengyang Liu, John Regehr
+	- http://www.cs.utah.edu/~regehr/cgo20.pdf
+	- https://github.com/jubitaneja/souper-cgo20-artifact
+	- Testing Dataflow Analyses for Precision and Soundness
+		- https://blog.regehr.org/archives/1709
+		- LLVM Dataflow Info Printer Pass
+			- https://github.com/regehr/llvm-dataflow-info
+- The problem with differential testing is that at least one of the compilers must get it right
+	- http://blog.frama-c.com/index.php?post/2013/09/25/The-problem-with-differential-testing-is-that-at-least-one-of-the-compilers-must-get-it-right
+
+### Performance Optimization
+
+- Compiler Testing via a Theory of Sound Optimisations in the C11/C++11 Memory Model
+	- Programming Language Design and Implementation (PLDI) 2013
+	- Robin Morisset, Pankaj Pawan, Francesco Zappa Nardelli
+	- https://www.di.ens.fr/~zappa/readings/pldi13.pdf
+- Detecting Arithmetic Optimization Opportunities for C Compilers by Randomly Generated Equivalent Programs
+	- IPSJ Transactions on System LSI Design Methodology, vol. 9, 2016; A. Hashimoto and N. Ishiura
+	- <https://www.jstage.jst.go.jp/article/ipsjtsldm/9/0/9_21/_article>
+- Detecting Missed Arithmetic Optimization in C Compilers by Differential Random Testing
+	- The 20th Workshop on Synthesis And System Integration of Mixed Information technologies (SASIMI 2016)
+	- Mitsuyoshi Iwatsuji, Atsushi Hashimoto, Nagisa Ishiura
+	- http://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2016-10a.pdf
+- Evaluating the Effects of Compiler Optimizations on Mutation Testing at the Compiler IR Level
+	- ISSRE 2016
+	- http://mir.cs.illinois.edu/farah/presentations/issre16_presentation.pdf
+	- http://mir.cs.illinois.edu/marinov/publications/HaririETAL16CompilerIRMutation.pdf
+	- https://www.researchgate.net/publication/311529837_Evaluating_the_Effects_of_Compiler_Optimizations_on_Mutation_Testing_at_the_Compiler_IR_Level
+- Finding Missed Compiler Optimizations by Differential Testing
+	- Compiler Construction (CC) 2018
+	- Gergö Barany
+	- https://github.com/gergo-/missed-optimizations/raw/master/missed_optimizations_preprint.pdf
+	- Missed optimizations in C compilers: https://github.com/gergo-/missed-optimizations/
+	- https://hal.inria.fr/hal-01682683
+- Lost in translation: Exposing hidden compiler optimization opportunities
+	- 2019 arXiv
+	- Kyriakos Georgiou, Zbigniew Chamski, Andres Amaya Garcia, David May, Kerstin Eder 
+	- https://arxiv.org/abs/1903.11397
+	- https://github.com/TrustworthySystemLab/LostInTranslation
+- Random Testing of Compilers’ Performance Based on Mixed Static and Dynamic Code Comparison
+	- A-TEST 2018
+	- Kota Kitaura, Nagisa Ishiura
+	- https://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2018-11b.pdf
+	- https://dl.acm.org/citation.cfm?id=3278192
+- Reinforcing Random Testing of Arithmetic Optimization of C Compilers by Scaling up Size and Number of Expressions
+	- IPSJ Transactions on System LSI Design Methodology, vol. 7, 2014
+	- E. Nagai, A. Hashimoto, N. Ishiura
+	- <https://www.jstage.jst.go.jp/article/ipsjtsldm/7/0/7_91/_article>
+- Scaling up Size and Number of Expressions in Random Testing of Arithmetic Optimization of C Compilers
+	- SASIMI 2013
+	- E. Nagai, A. Hashimoto, N. Ishiura
+	- http://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2013-10.pdf
+- The Correctness-Security Gap in Compiler Optimization
+	- LangSec 2015, IEEE SPW
+	- Vijay D'Silva, Mathias Payer, Dawn Song
+	- paper: https://research.google.com/pubs/pub43856.html
+	- slides: https://nebelwelt.net/publications/files/15LangSec-presentation.pdf
+	- talk: https://www.youtube.com/watch?v=g6LCtHz_MDc&list=PL0pRF4xvoD0kuECJuowraVIIHlT3pN1Cm&index=3
+
+## Software
+
+- CF3: Test suite for arithmetic optimization of C compilers
+	- https://ist.ksc.kwansei.ac.jp/~ishiura/pub/CF3/
+	- https://github.com/ishiura-compiler/CF3
+- Csmith, a random generator of C programs
+	- https://github.com/csmith-project/csmith
+	- https://embed.cs.utah.edu/csmith/
+	- Csmith testing - http://blog.frama-c.com/index.php?pages/Csmith-testing
+- C-Reduce, a C program reducer
+	- https://embed.cs.utah.edu/creduce/
+	- https://github.com/csmith-project/creduce
+	- https://github.com/zjturner/creduce-windows
+	- Design and Evolution of C-Reduce
+		- Part 1: https://blog.regehr.org/archives/1678
+		- Part 2: https://blog.regehr.org/archives/1679
+- Fuzzing LLVM libraries and tools - https://llvm.org/docs/FuzzingLLVM.html
+	- Adventures in Fuzzing Instruction Selection
+		- 2017 EuroLLVM Developers’ Meeting; Justin Bogner
+		- http://llvm.org/devmtg/2017-03/assets/slides/adventures_in_fuzzing_instruction_selection.pdf
+		- https://www.youtube.com/watch?v=UBbQ_s6hNgg
+	- Structure-aware fuzzing for Clang and LLVM with libprotobuf-mutator
+		- 2017 LLVM Developers’ Meeting; Kostya Serebryany, Vitaly Buka, Matt Morehouse
+		- https://www.youtube.com/watch?v=U60hC16HEDY
+- gcc-for-llvm-testing: A modified GCC test suite suitable for testing non-GCC compilers
+	- https://github.com/embecosm/gcc-for-llvm-testing
+	- Using the GCC regression test suite for LLVM (and other compilers)
+		- GNU Tools Cauldron 2018; Simon Cook
+		- https://speakerdeck.com/simonpcook/using-the-gcc-regression-test-suite-for-llvm-and-other-compilers
+	- Repurposing GCC Regression for LLVM Based Tool Chains
+		- 2018 LLVM Developers’ Meeting; Jeremy Bennett
+		- https://www.youtube.com/watch?v=GV4PoWu0UZ0
+- GraphicsFuzz: A testing framework for automatically finding and simplifying bugs in graphics shader compilers.
+	- https://github.com/google/graphicsfuzz
+	- GraphicsFuzz: Metamorphic Testing for Graphics Shader Compilers
+		- VF Conference 2019; Alastair Donaldson
+		- https://www.youtube.com/watch?v=r2GHwhCbcKo
+- kscope
+	- a library which recursively generates randomized code while keeping it 100% equivalent to the original one
+	- http://ithare.com/c17-compiler-bug-hunt-very-first-results-12-bugs-reported-3-already-fixed/
+	- https://github.com/ITHare/kscope
+- lang_tester: Rust testing framework for compilers and VMs
+	- https://crates.io/crates/lang_tester
+- ldrgen: Liveness-driven random C code generator - https://github.com/gergo-/ldrgen
+- llvm-mutate – mutate LLVM IR - http://eschulte.github.io/llvm-mutate/
+- opt-fuzz: a simple implementation of bounded exhaustive testing for LLVM programs
+	- https://github.com/regehr/opt-fuzz
+- Orange3
+	- a tool to test C compilers with randomly generated programs; mainly targets arithmetic optimization such as constant folding.
+	- https://ist.ksc.kwansei.ac.jp/~ishiura/pub/orange3/
+	- https://github.com/ishiura-compiler/Orange3
+- Orange4
+	- a tool to test C compilers by randomly generated programs; based on equivalent transformations on C programs and can generate wider class of C test programs than Orange3.
+	- https://ist.ksc.kwansei.ac.jp/~ishiura/pub/orange4/
+	- https://github.com/ishiura-compiler/Orange4
+- OutputCheck: A tool for checking tool output inspired by LLVM's FileCheck
+	- https://github.com/stp/OutputCheck/
+- prog-fuzz: Compiler/source code fuzzing tool using AFL instrumentation
+	- https://github.com/vegard/prog-fuzz
+- Quest: A tool for testing C compilers - https://github.com/lindig/quest
+- shader-compiler-bugs: A collection of shader compiler bugs - https://github.com/mc-imperial/shader-compiler-bugs
+- yarpgen: Yet Another Random Program Generator
+	- a random C/C++ program generator, which produces correct runnable C/C++ programs
+	- specifically designed to trigger compiler optimization bugs and is intended for compiler testing
+	- https://github.com/intel/yarpgen
+
+## Talks
+
+- A Year of Experience with Broad Based Continuous Testing with GCC
+	- GNU Tools Cauldron 2019; Jeff Law
+	- https://www.youtube.com/watch?v=DznwK2ht0qc&list=PL_GiHdX17Wtx2Bu1O_bREetZZv4moIaRi&index=27
+	- https://gcc.gnu.org/wiki/cauldron2019#cauldron2019talks.A_year_of_experience_with_broad_based_continuous_testing_with_GCC
+- Adventures in Fuzzing Instruction Selection
+	- EuroLLVM 2017; Justin Bogner
+	- https://www.youtube.com/watch?v=UBbQ_s6hNgg
+	- http://llvm.org/devmtg/2017-03//assets/slides/adventures_in_fuzzing_instruction_selection.pdf
+- Coverage-Directed Differential Testing of JVM Implementations
+	- PLDI 2016; Yuting Chen
+	- https://www.youtube.com/watch?v=2Reaqfp4v-g
+	- http://cse.sjtu.edu.cn/~zhao/pub/pdf/pldi2016.pdf
+- Exposing Difficult Compiler Bugs With Random Testing
+	- GCC Developers' Summit 2010; John Regehr, Xuejun Yang, Yang Chen, Eric Eide
+	- https://gcc.gnu.org/wiki/summit2010?action=AttachFile&do=get&target=regehr_gcc_summit_2010.pdf
+- FileCheck
+	- FileCheck Follies
+		- 2016 LLVM Developers’ Meeting; Paul Robinson
+		- https://www.youtube.com/watch?v=4rhW8knj0L8
+		- http://www.llvm.org/devmtg/2016-11/Slides/Robinson-FilecheckFollies.pdf
+	- FileCheck: learning arithmetic
+		- 2019 LLVM Developers’ Meeting; Thomas Preud'homme
+		- https://www.youtube.com/watch?v=mcrQ5f-mASw
+		- https://llvm.org/devmtg/2019-10/slides/Preudhomme-FileCheck.pdf
+- Finding Missed Optimizations in LLVM (and other compilers)
+	- EuroLLVM 2018; Gergö Barany
+	- https://www.youtube.com/watch?v=V6ug3e3jC54
+	- http://llvm.org/devmtg/2018-04/slides/Barany-Finding%20Missed%20Optimizations%20in%20LLVM.pdf
+	- https://github.com/gergo-/missed-optimizations/
+- Getting Started with the LLVM Testing Infrastructure
+	- 2019 LLVM Developers’ Meeting; Brian Homerding, Michael Kruse
+	- https://www.youtube.com/watch?v=isVQ8kYqaSA
+	- https://llvm.org/devmtg/2019-10/slides/Homerding-Kruse-LLVMTestingInfrastructureTutorial.pdf
+- Testing and Qualification of Optimizing Compilers for Functional Safety
+	- 2019 EuroLLVM Developers’ Meeting; José Luis March Cabrelles
+	- https://www.youtube.com/watch?v=nSfT4oND9dU
+- Testing Language Implementations
+	- Programming Language Implementation Summer School (PLISS) 2017; Alastair Donaldson
+	- https://www.youtube.com/watch?v=ZJUk8_k1HbY

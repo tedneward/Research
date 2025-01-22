@@ -12,6 +12,7 @@ summary=A collection of links on parsers, parser generators, parsing algorithms,
 * Parser Expression Grammars (PEGs)
 * [myna](https://github.com/cdiggins/myna-parser): Myna is an efficient and easy to use parsing library for JavaScript written using TypeScript 2.0 which targets ECMAScript 5.1.
 * [syntax](https://github.com/DmitrySoshnikov/syntax): Syntactic analysis toolkit, language-agnostic parser generator.
+* [Gold](./gold.md)
 
 ## Articles
 

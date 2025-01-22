@@ -1,5 +1,5 @@
 title=JVM Language Summit
-tags=conference, jvm, language, langdev
+tags=conference, jvm, language, language development
 summary=An open technical collaboration among language designers, compiler writers, tool builders, runtime engineers, and VM architects.
 ~~~~~~
 

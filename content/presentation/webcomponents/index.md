@@ -20,3 +20,7 @@ summary=A set of web platform APIs that allow you to create new custom, reusable
     * [Polymer](https://www.polymer-project.org/) provides a set of features for creating custom elements.
     * [Slim.js](http://slimjs.com/) is an opensource lightweight web component library that provides data-binding and extended capabilities for components, using es6 native class inheritance.
     * [Stencil](https://stenciljs.com/) is an opensource compiler that generates standards-compliant web components.
+
+## Articles/Blog Posts
+
+["WebComponents are not the future"](https://dev.to/ryansolid/web-components-are-not-the-future-48bh)
