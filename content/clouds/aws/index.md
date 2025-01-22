@@ -16,7 +16,11 @@ summary=Huge collection of cloud-hosted services.
 
 [Amazon's DynamoDB, 10 yeras later](https://www.amazon.science/latest-news/amazons-dynamodb-10-years-later)
 
-## Messaging
+## Features
+
+- [Mobile Hub](https://aws.amazon.com/mobile): AWS Mobile Hub lets you easily add and configure features for your mobile apps, including user authentication, data storage, backend logic, push notifications, content delivery, and analytics. After you build your app, AWS Mobile Hub gives you easy access to testing on real devices, as well as analytics dashboards to track usage of your app.
+
+### Messaging
 AWS has a fleet of messaging services which reflects very similar architectural considerations as the Azure services.
 
 * [SQS](https://aws.amazon.com/en/sqs/) corresponds to Azure Storage Queues and Service Bus Queues (FIFO)

@@ -1,5 +1,5 @@
 title=Temporal
-tags=cloud, tool
+tags=backend, cloud, tool
 summary=A developer-first, open source platform that ensures the successful execution of services and applications (using workflows).
 ~~~~~~
 
