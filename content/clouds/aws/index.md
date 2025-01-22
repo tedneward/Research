@@ -19,9 +19,11 @@ summary=Huge collection of cloud-hosted services.
 ## Messaging
 AWS has a fleet of messaging services which reflects very similar architectural considerations as the Azure services.
 
-* [Amazon SQS](https://aws.amazon.com/en/sqs/) corresponds to Azure Storage Queues and Service Bus Queues (FIFO)
-* [Amazon MQ](https://aws.amazon.com/en/amazon-mq) corresponds to Azure Service Bus, albeit at far smaller scale and less managed
-* [Amazon Kinesis](https://aws.amazon.com/en/kinesis/) corresponds to Azure Event Hubs
-* [Amazon EventBridge](https://aws.amazon.com/de/eventbridge/) corresponds to Azure Event Grid
-* [Amazon IoT Core](https://aws.amazon.com/en/iot-core/) corresponds to Azure IoT Hub.
-  
+* [SQS](https://aws.amazon.com/en/sqs/) corresponds to Azure Storage Queues and Service Bus Queues (FIFO)
+* [MQ](https://aws.amazon.com/en/amazon-mq) corresponds to Azure Service Bus, albeit at far smaller scale and less managed
+* [Kinesis](https://aws.amazon.com/en/kinesis/) corresponds to Azure Event Hubs
+* [EventBridge](https://aws.amazon.com/de/eventbridge/) corresponds to Azure Event Grid
+* [IoT Core](https://aws.amazon.com/en/iot-core/) corresponds to Azure IoT Hub.
+* [Simple Notification Service (SNS)](https://aws.amazon.com/sns)** 
+Amazon Simple Notification Service (SNS) is a fast, flexible, fully managed publish-subscribe based messaging service for mobile and enterprise messaging that is used by several leading brands and startups to send billions of messages every day. With Amazon SNS, you can send push notifications to iOS, Android, Windows, FireOS, Baidu and MacOS devices. Additionally, you can deliver messages to other destinations such as Amazon Simple Queueing Service (SQS) queues, HTTP endpoints, email, SMS and AWS Lambda functions. With Amazon SNS you can make 1M requests, 1M mobile push delivery attempts and send 1GB of data out of any AWS region at no-charge every month.
+

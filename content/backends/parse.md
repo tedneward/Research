@@ -13,18 +13,6 @@ The original. Open-sourced when Parse was bought by Facebook and then later shut
 
 ##Parse alternatives
 
-###What features are we looking for?
-- Data Storage
-- Push Notifications
-- Usage Analytics
-- Dashboard
-- Social Integration
-- User Administration
-- Cloud Code Integration
-- Multiple Mobile Platform SDKs
-- Background Jobs
-- Crash Report
-
 ###General purpose providers
 
 - **[AnyPresence](http://www.anypresence.com/solutions/mbaas)**
@@ -35,9 +23,6 @@ ApiOmat enables your enterprise processes to function as mobile applications. We
 
 - **[Appcelerator Arrow](http://www.appcelerator.com/mobile-app-development-products/mbaas-arrow)** 
 A next-gen MBaaS, Arrow consists of two primary components, Builder and Cloud. Arrow Builder lets developers rapidly assemble APIs, data models and data connectors either via visual wizard or programmatically. Arrow Cloud delivers an instant, elastically scalable cloud service for running APIs and analyzing their use, as well as full support for rich push notifications and 20+ other services (e.g. geo, photo storage, etc) along with ArrowDB, which provides a schema-less data store.
-
-- **[Appery.io](https://appery.io/backendservices)**
-Integrated mobile backend services (MBaaS), so you can focus on your apps, not infrastructure, including database, push, and server code.
 
 - **[Appmobi](https://appmobi.com)**
 Secure Mobile Security as a Service (MSaaS) platform. Configurable encryption, authentication and encrypted data stores all from one platform. Includes Secure Live Update, Secure Push, Secure Push Messaging, and Secure Analytics.
@@ -60,9 +45,6 @@ Apstrata is a powerful back-end as a Service that provides multiple APIs coverin
 - **[AWS Mobile Hub](https://aws.amazon.com/mobile)**
 AWS Mobile Hub lets you easily add and configure features for your mobile apps, including user authentication, data storage, backend logic, push notifications, content delivery, and analytics. After you build your app, AWS Mobile Hub gives you easy access to testing on real devices, as well as analytics dashboards to track usage of your app.
 
-- **[back{4}app](https://back4app.com)**
-Parse lovers can keep using Parse for new and existent apps! back{4}app is the hub for backend and APIs. It empowers the developers with visual tools to build and host APIs for mobile, web and IoT apps. The platform uses Parse open source framework to make it happen and let the developers to continue using powerful Parse features such as SDKs, Cloud Code, Push Notifications and more. The solution allows a complete and quick migration from Parse through a wizard tool. Once we use Parse Server to generate the backend, it requires almost no changes in the frontend after the migration.
-
 - **[Backand](http://backand.com)** 
 Backand is a powerful backend-as-a-service for AngularJS that provides out-of-the-box social login, push notifications, Ionic integration and much more.
 
@@ -78,12 +60,6 @@ A lightweight, fast and flexible platform for collecting and processing IoT data
 - **[Built.io](https://www.built.io/products/backend/overview)** 
 Built.io's award-winning mobile Backend-as-a-Service (mBaaS) allows companies to create applications without the hassle of designing, building, and maintaining a custom backend technology stack. Built.io Backend provides a proven, enterprise-grade platform that powers engaging applications for web, mobile and loT — built in weeks or days, instead of months.
 
-- **[CloudBoost.io](https://www.cloudboost.io)** 
-CloudBoost.io is a mobile Backend-as-a-Service (mBaaS) which lets you implement realtime, search and more in your app in minutes. Think of CloudBoost as Parse + Firebase + Algolia all combined into one. CloudBoost is an open platform, which is available on docker and can be installed on any server and on any cloud. It is also available as a managed service.
-
-- **[CloudKit](https://developer.apple.com/icloud)**
-CloudKit is a framework that replaces back-end web services like old-school databases, file storage, and user authentication systems. CloudKit offers tons of APIs to access iCloud. You can create a user model inside your application linked to a user’s iCloud account. Meanwhile, you can have a public global database to store application-level data. You can also save large files and bulk data into iCloud Drive, so your users can use their data from their other devices. This works just like working on local files, but with all the operations sent to the cloud.
-
 - **[CloudMine](https://cloudmine.me)**
 Instantly embed mobile services such as: push notification, geolocation, social, SMS and personal fitness data with out-of-box support for mission critical APIs & web services. Make sure your mobile experience is enjoyed across all devices with support for iOS, Android, Microsoft, mobile web (HTML5), and cross-platform UI toolsets.
 
@@ -92,9 +68,6 @@ Cosmic JS is a cloud-hosted content platform that makes it easy to add dynamic c
 
 - **[FatFractal](http://fatfractal.com)**
 FatFractal lets you get started quickly with schema-less collection and object creation, and builds on that with advanced features including: local development; advanced query language; bi-directional datagraph traversal; declarative permissions; push notifications; event-, endpoint- and schedule-triggered backend code; pluggable authentication; and much more. Offers native iOS, Android/Java, and HTML5/JavaScript SDKs.
-
-- **[Firebase](https://firebase.google.com)** 
-You can store & sync data with Firebase NoSQL cloud database. Data is stored as JSON, synced to all connected clients in realtime, and available when your app goes offline. You can also authenticate users with email & password, Facebook, Twitter, GitHub, Google, anonymous auth, or easily integrate with your existing authentication system.
 
 - **[Flybase](https://flybase.io)** 
 Flybase's clustered NoSQL cloud services let's you easily store and sync data. Data is stored as JSON, easily queryable using a mongo-like query language to quickly retrieve only data you need, and synced to all connected clients in real-time.
@@ -108,32 +81,17 @@ An alternative backend-as-a-service (BaaS) provider very similar to Parse. Like 
 - **[Kumulos](https://www.kumulos.com)**
 Kumulos is built for mobile app development businesses and agencies to allow you to manage all of your clients and their apps from one single-pane-of-glass. Kumulos can be white-labelled with your agencies branding and you can invite your clients to join. Kumulos has features for each stage of the app lifecycle starting with Gartner recognised mBaaS technology. In addition to SQL based storage, this includes Hookup (to connect to other MySQL databases), KScript (for server-side Javascript jobs), a RESTful API and client SDKs for iOS, Android, Windows, PHP and more.
 
-- **[Microsoft Azure Mobile App Service](https://azure.microsoft.com/en-us/services/app-service/mobile)**
-This service comes close to Parse with its online/offline data syncing, user authentication, push notifications and cloud code.It’s easy to rapidly build engaging cross-platform and native apps for iOS, Android, Windows, or Mac.
-
 - **[MoBack](https://www.moback.com)** 
 MoBack is a mobile as a back end service that specializes in push notifications, data storage, REST API, analytics, user management, iOS, .Net, SDK, Android, Unity, Javascript, and Custom code.
 
 - **[PubNub](https://www.pubnub.com)** 
 PubNub powers low-latency messaging across any device, any platform, anywhere in the world. Use our simple APIs and SDKs to connect, build, and scale realtime applications on the PubNub Data Stream Network. Focus on shipping a great product instead of building and managing expensive data streaming infrastructure.
 
-- **[RapidAPI](https://rapidapi.com)** 
-RapidAPI is a BaaS providing many different features and APIs. User can use visual blocks to create the backend without writing a single line of code. You can do basic data storage, send push notifications, emails and text messages even integrate with Social APIs like Facebook, Google, Twitter and LinkedIn. 
-
 - **[Reindex](https://www.reindex.io)**
 Backend as a service with a GraphQL API. Reindex offers data storage, authentication, permissions, hooks for integrating with third-party services and custom code, and an open source SDK.
 
-- **[Restdb.io](https://restdb.io)**
-Backend-as-a-service focused on a powerful interface for creating your database models and providing a JSON REST API.
-
-- **[Red Hat Mobile Platform](https://www.redhat.com/en/technologies/mobile/application-platform)**
-BaaS specially dedicated to the enterprise. Formerly known as **FeedHenry**. Open Source projects on http://feedhenry.org. Allows backend integration (based on Node.js). Comes with tooling for both native iOS, Android and Windows as well as HTML5 based apps. SSO, OAuth, LDAP security integration. Collaboration features and lifecycle management. Push Notifications. Analytics built in. Can run dedicated, on public and private clouds and in hybrid configurations. Dedicated commercial cloud offering available.
-
 - **[ShepHertz App42](http://api.shephertz.com)**
 ShepHertz provides a Omni-Channel Platform (mobile, social, gaming, TV, IoT, wearables etc.) to build Apps and Games. Deployed in 9 countries, processing 25+ Billion API Calls and trusted by thousands of Indie developers, App Studios and Enterprises across the world, App42 offers 25+ mBaaS modules such as Push Notifications, NoSQL Storage, Cloud Code, User Management, File Upload, Advanced Actionable Analytics, Gaming Backend APIs and much more.
-
-- **[Syncano](https://www.syncano.io)** 
-Syncano is a highly customizable BaaS that greatly reduces the need for backend code and middleware so developers can focus on building exceptional user experiences.
 
 - **[Telerik](http://www.telerik.com/platform/backend-services)**
 Telerik Backend Services is equipped with a robust set of security measures to encrypt and securely transport data from all communications. As your business needs grow, you can be sure that Telerik Backend Services will scale to meet your requirements.
@@ -142,15 +100,6 @@ Telerik Backend Services is equipped with a robust set of security measures to e
 ZetaPush is a realtime BaaS providing out of the box authentications and services. You can use noSQL database, file storage, search, mail, sms, etc, everything as a service. ZetaPush provides SDKs for mobile, web and IoT.
 
 ###Push notification providers
-
-- **[Accengage](http://www.accengage.com)** 
-Accengage is the European leader in Push Notification Technology for mobile apps & websites. Available as a SaaS solution, Accengage has an intuitive user interface to set-up, launch, analyse and optimise your CRM Strategy on mobile devices and desktops. Over 300 international customers rely on the Accengage solution to communicate in a targeted, personalized, automated and synchronized way with their app & website users. Key figures: 60 Months of R&D, 500 Million installed apps with the Accengage SDK, 3 Billion push notifications sent per Month.
-
-- **[Amazon Simple Notification Service (SNS)](https://aws.amazon.com/sns)** 
-Amazon Simple Notification Service (SNS) is a fast, flexible, fully managed publish-subscribe based messaging service for mobile and enterprise messaging that is used by several leading brands and startups to send billions of messages every day. With Amazon SNS, you can send push notifications to iOS, Android, Windows, FireOS, Baidu and MacOS devices. Additionally, you can deliver messages to other destinations such as Amazon Simple Queueing Service (SQS) queues, HTTP endpoints, email, SMS and AWS Lambda functions. With Amazon SNS you can make 1M requests, 1M mobile push delivery attempts and send 1GB of data out of any AWS region at no-charge every month.
-
-- **[Appboy](https://www.appboy.com)**
-Appboy is an industry-leading customer relationship suite for mobile marketers. Thousands of global brands use Appboy's robust audience segmentation and advanced multi-channel messaging system to create highly personalized lifecycle marketing campaigns in every relevant channel -- from push, in-app, and web to email, wearables, and emerging technologies -- across billions of user profiles worldwide to better engage, retain, and monetize their customers.
 
 - **[Batch](https://batch.com)**
 Batch is a push notification platform built around predictive analytics and smart segmentation algorithms. With Batch, you can efficiently send transactional (one to one) and marketing notifications (one to many) while leveraging our other modules to run a successful retention strategy.
@@ -282,9 +231,6 @@ We provide you with a powerful realtime crash reporter, with minimum footprint. 
 
 ###User Administration providers
 
-- **[Auth0](https://auth0.com)**
-Single sign on services for your apps. Supports OAuth via over 34 different identity providers, passwordless login, and more.
-
 - **[AuthRocket](https://authrocket.com)**
 Versatile authentication API that allows you to integrate logins, social sign in, and user management into your app.
 
@@ -293,9 +239,6 @@ Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and w
 
 - **[Digits](https://get.digits.com)**
 Twitter's mobile-first sign in solution. Allows users to easily sign in and sign up using their phone number, manages the user graph, and free for unlimited users.
-
-- **[Stormpath](https://stormpath.com)**
-Identity layer for your apps with integrations for popular backend frameworks and user databases. Easily manage user permissions, API keys, and user tokens.
 
 - **[Tapglue](https://www.tapglue.com)**
 Tapglue provides a social layer including user-management for app developers. You can signup and login users, create social graphs (friend & follower model) and build feeds on top of it.
@@ -331,14 +274,8 @@ SmartFoxServer is a comprehensive SDK for rapidly developing multiplayer games a
 - **[AeroGear](https://aerogear.org)**
 We make cross-platform enterprise mobile development easy. Aerogear provides flexible, extensible libraries and server side components that will simplify your mobile development and infrastructure setup across platforms.
 
-- **[Apache Usergrid](http://usergrid.apache.org)**
-tgfrUsergrid is an open-source Backend-as-a-Service ("BaaS" or "mBaaS") composed of an integrated distributed NoSQL database, application layer and client tier with SDKs for developers looking to rapidly build web and/or mobile applications. It provides elementary services (user registration & management, data storage, file storage, queues) and retrieval features (full text search, geolocation search, joins) to power common app features.
-
 - **[BaasBox](http://www.baasbox.com)**
 BaasBox provides a web administrative console, user management API and signup with Facebook and Google+, content management with grant/revoke permissions on documents on user and roles, geospatial queries, store big file, file custom metadata and file links, integrated friendship APIs based on "following" concept, push notification for iOS and Android, Server scripting for extending the features via plugins.
-
-- **[Couchbase Mobile](http://developer.couchbase.com/mobile)** 
-A full-stack open-source NoSQL database. It includes an embedded database (for iOS, OS X, tvOS, watchOS, Android, Linux, Windows, Unity, Xamarin, PhoneGap/Cordova, and HTML5), a database server, multi-master replication with automatic and custom conflict resolution, fine-grained user/role based security, pluggable authentication, web-hooks, REST APIs, and Stream/Batch APIs. Apps using Couchbase Mobile work offline with data being automatically synchronized between the embedded databases and database server. It is designed to be easily integrated with other systems.
 
 - **[DreamFactory](https://dreamfactory.com)**
 DreamFactory is an open source REST API automation platform for mobile, IoT, and web applications. Built on the Laravel framework, DreamFactory automatically creates REST APIs for SQL, NoSQL, file storage, email, and push notifications. Connect to your data sources, script business logic with Javascript or PHP, secure your APIs with built-in access control, JWT, OAuth, and AD/LDAP, and get started with sample apps for Objective-C, Swift, Android, Angular 1 and 2, React, Javascript, Titanium, and .NET.
@@ -348,15 +285,6 @@ GUN is a highly modular, open-source, real-time, offline-first, distributed cach
 
 - **[hook](http://github.com/doubleleft/hook)** 
 hook is a backend as a service written in PHP. It was designed by real needs of a digital agency. It provides a powerful REST API, which allows developers to create many applications in the same backend endpoint. It has client implementations to many languages like [JavaScript](https://github.com/doubleleft/hook-javascript), [C#](https://github.com/doubleleft/hook-csharp), [Corona SDK](https://github.com/doubleleft/hook-corona-sdk), [iOS](https://github.com/doubleleft/hook-swift), [Java](https://github.com/doubleleft/hook-android), etc.
-
-- **[Kinto](https://github.com/Kinto/kinto)**
-Kinto is a lightweight JSON storage service with synchronisation and sharing abilities. It is meant to be easy to use and easy to self-host. Kinto is used at Mozilla and released under the Apache v2 license.
-
-- **[Kuzzle](http://kuzzle.io)** 
-Kuzzle is an open-source back-end as a service (BaaS). Kuzzle combines a high level API, a database, a real-time engine, subscription and notification mechanisms as well as some advanced search features. The API is accessible through several standard protocols.
-
-- **[LoopBack](http://loopback.io)** 
-LoopBack is an open-source Node.js framework built on top of Express optimized for building APIs for mobile, web, and other devices. Connect to multiple data sources, write business logic in Node.js, glue on top of your existing services and data, connect using JS, iOS & Android SDKs.
 
 - **[Marlin](https://github.com/atmb4u/marlin)** 
 Marlin is a fast (2000+ requests per second) REST API library built on top of redis server. Its has no specific clients like Android or iOS. But it has got developer API for custom APIs which can be written in Python. ([docs](http://atmb4u.github.io/marlin))
@@ -369,9 +297,6 @@ Piwik is the leading open-source analytics platform that gives you more than jus
 
 - **[Serverless Framework](http://www.serverless.com)**
 The application framework for building web, mobile and IoT backends exclusively on Amazon Web Services' Lambda and API Gateway.
-
-- **[Strapi](http://strapi.io)**
-Strapi is an open-source Node.js rich framework for building applications and services built on top of Koa. Strapi enables developers to focus on writing reusable application logic instead of spending time building infrastructure either through a user interface or directly in the code. 
 
 ###Parse Server hosting providers
 
@@ -389,17 +314,8 @@ SashiDo (formerly ParseGround) takes care for the server management, so you can 
 
 ###Parse Server infrastructure providers
 
-- **[AWS](https://aws.amazon.com)**
-AWS is Amazon's cloud infrastructure service. It supports running Node.js apps both on VMs and docker container as well as running Mongo and AWS's own DynamoDB.
-
-- **[Azure](https://azure.microsoft.com)**
-Microsoft cloud service. Supports both Node.js and Mongo via MongoLab.
-
 - **[Clever Cloud](https://www.clever-cloud.com)**
 Clever Cloud is a Europe-based PaaS company with bulletproof infrastructure, automatic scaling, fair pricing and an integration with Github for app deployment and hosting. Clever Cloud comes with a Node.js runtime and a native MongoDB add-on to run Parse.
-
-- **[Google Cloud Platform](https://cloud.google.com/nodejs/resources/frameworks/parse-server)**
-You can migrate your app from the hosted Parse backend to Google App Engine by running Node.js on App Engine Managed VMs and using MongoDB preinstalled on a Compute Engine VM instance or by using MongoLab.
 
 - **[Heroku](https://www.heroku.com)**
 Heroku is a cloud platform that lets companies build, deliver, monitor and scale apps — we're the fastest way to go from idea to URL, bypassing all those infrastructure headaches.

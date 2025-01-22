@@ -1,9 +1,14 @@
 title=Azure
-tags=cloud
+tags=cloud, backend
 summary=Huge collection of cloud services.
 ~~~~~~
 
 [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/)
+
+## Features
+
+- **[Microsoft Azure Mobile App Service](https://azure.microsoft.com/en-us/services/app-service/mobile)**
+This service comes close to Parse with its online/offline data syncing, user authentication, push notifications and cloud code.It’s easy to rapidly build engaging cross-platform and native apps for iOS, Android, Windows, or Mac.
 
 ### Basics 
 

@@ -20,8 +20,9 @@ tags=backend
     * Social Media Integration (Twitter, FB, others)
 * Logic
     * Some form of backend-hosted custom code functionality
+    * Background/async execution functionality
 * Security
-    * Account management
+    * User/Account management
     * Authentication
     * Authorization
 * Infrastructure
@@ -29,6 +30,11 @@ tags=backend
     * Logs
     * Scaling
     * Backup
+* Analytics
+    * Dashboard
+    * Usage
+    * Crash reporting
+* End-use SDKs (mobile, web, desktop, etc)
 
 ["What is BaaS?"](https://blog.back4app.com/backend-as-a-service-baas/): "you will outsource the responsibilities of running and maintaining servers to a third party and focus on the frontend or client-side development. On top of that, a BaaS will provide tools to help you create a backend code and speed up the development process. It has ready to use features like scalable databases, APIs, cloud code functions, social media integrations, file storage, and push notifications." "A backend as a service will provide you with features that can be deployed across all types of applications:
 

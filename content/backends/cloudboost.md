@@ -1,5 +1,5 @@
 title=Cloudboost
-tags=backend, platform, storage
+tags=backend, cloud, platform, storage
 summary=Cloud platform for your app; similar to Parse + Firebase + Algolia + Iron.io all combined into one.
 ~~~~~~
 
