@@ -1,6 +1,6 @@
 title=Hood.ie
 tags=backend, nodejs
-summary=A fast, simple and self-hosted backend as a service for your (web) apps, Open Source and free. No need to write server-side code or database schemas. Makes building offline-capable software a breeze.
+summary=A fast, simple and self-hosted backend as a service for your (web) apps, Open Source and free.
 ~~~~~~
 
 "Hoodie is a free and Open Source Software for building applications for the web and iOS. It is a complete backend for your apps, ready for you to get creative. It works immediately out-of-the-box: develop your frontend code, plug it into Hoodie’s frontend-friendly API and your app is ready.
@@ -16,4 +16,6 @@ The benefits of Hoodie are:
 * Focus on Node.JS developers that want to extend the product.
 * Offline first concept. That is, users’ data are stored locally.
 * Runs on Apache CouchDB.
+
+No need to write server-side code or database schemas. Makes building offline-capable software a breeze.
 

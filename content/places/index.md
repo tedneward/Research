@@ -10,6 +10,7 @@ Awesomes:
 * List of awesomes:
 
     * [Awesomes (list of)](https://github.com/jnv/lists)
+    * [Curated list](https://github.com/sindresorhus/awesome)
     * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - awesome-* or *-awesome lists.
 
 * [Analytics](https://github.com/0xnr/awesome-analytics)
