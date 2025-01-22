@@ -13,6 +13,9 @@ See also [macOS](../macos)
 - [Performance](../performance)
 - [Threads, Queues, GCD](../threads_and_queues)
 - [UI](../ui)
+- **[CloudKit](https://developer.apple.com/icloud)**: CloudKit is a framework that replaces back-end web services like old-school databases, file storage, and user authentication systems. CloudKit offers tons of APIs to access iCloud. You can create a user model inside your application linked to a user’s iCloud account. Meanwhile, you can have a public global database to store application-level data. You can also save large files and bulk data into iCloud Drive, so your users can use their data from their other devices. This works just like working on local files, but with all the operations sent to the cloud.
+
+
 
 ## General resources
 

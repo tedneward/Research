@@ -22,6 +22,7 @@ summary=Notable names.
 - [Patrick Walton](https://pcwalton.github.io)
 - [Paulette Koronkevich](https://koronkevi.ch)
 - [Programming Linnguistics](https://pling.jondgoodwin.com)
+- [Ray Toal](https://cs.lmu.edu/~ray/), Loyola Marymount
 - [Researchers in Programming Languages and Compilers](https://www.cs.cmu.edu/~mleone/language-people.html)
 - [Roberto Giacobazzi](http://profs.sci.univr.it/~giaco)
 - [Simon Peyton Jones](https://simon.peytonjones.org)

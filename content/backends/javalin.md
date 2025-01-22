@@ -1,5 +1,5 @@
 title=Javalin
-tags=backend, jvm
+tags=backend, distribution, jvm
 summary=A simple Web framework for Java and Kotlin.
 ~~~~~~
 
