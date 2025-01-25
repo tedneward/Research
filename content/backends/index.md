@@ -153,9 +153,6 @@ We provide you with a powerful realtime crash reporter, with minimum footprint. 
 - **[AuthRocket](https://authrocket.com)**
 Versatile authentication API that allows you to integrate logins, social sign in, and user management into your app.
 
-- **[Amazon Cognito](https://aws.amazon.com/cognito/)** 
-Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps. Gives the option to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your an individual identity system. In addition, Amazon Cognito allows saving data locally on users devices, even when the devices are offline. Data synchronization amongst several user devices possible.
-
 - **[Digits](https://get.digits.com)**
 Twitter's mobile-first sign in solution. Allows users to easily sign in and sign up using their phone number, manages the user graph, and free for unlimited users.
 
