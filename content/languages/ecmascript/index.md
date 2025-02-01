@@ -14,8 +14,8 @@ Official standard name of the language originally appearing in browsers. "Javasc
 * C/C++: [QuickJS](https://bellard.org/quickjs/): a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
 * C/C++: [V8](/vms/v8): The engine below NodeJS from Google.
 * CLR: [jint](../jint)
-* CLR: [Yantra](../yantra)
-* CLR: [Jurassic](../jurassic)
+* CLR: [Yantra](https://yantrajs.com/index.html) ([Source](https://github.com/yantrajs/yantra)): Compiles JavaScript to .Net Assembly; Strict Mode Only JavaScript; Subclassable built-ins; Module support; Optional property chain `identifier?.[]`, `identifier?.(`, `identifier?.identifier`; Many ES5 + ES6 features; CommonJS Module Support; Easily marshal CLR Object to JavaScript and other way around; CSX Module support; Mixed module system, YantraJS supports `require` and `import`.
+* CLR: [Jurassic](https://github.com/paulbartrum/jurassic): Jurassic is an implementation of the ECMAScript language and runtime. It aims to provide the best performing and most standards-compliant implementation of JavaScript for .NET. Jurassic is not intended for end-users; instead it is intended to be integrated into .NET programs. If you are the author of a .NET program, you can use Jurassic to compile and execute JavaScript code.
 * CLR: [IronJS](../ironjs)
 * Go: [Elsa](https://github.com/elsaland/elsa) | [HN](https://news.ycombinator.com/item?id=24626655): Fast/secure QuickJS wrapper in Go
 * JVM: Nashorn: [Nashorn Blog](https://blogs.oracle.com/nashorn/) is at Oracle but Nashorn appears to have moved to JetBrains ownership/development [here](https://github.com/JetBrains/jdk8u_nashorn)
@@ -23,8 +23,8 @@ Official standard name of the language originally appearing in browsers. "Javasc
 * JVM: [Graal.js](https://github.com/graalvm/graaljs) part of [GraalVM](/vms/graalvm.html)
 * JVM: [RingoJS](https://ringojs.org/) ([Source](https://github.com/ringo/ringojs/))
 * JVM: Kotlin: [Reeva](https://github.com/ReevaJS/reeva)
-* Rust: [Boa](https://github.com/boa-dev/boa)
 * Rust: [Deno](https://github.com/denoland/deno)
+* Rust: [Boa](https://github.com/boa-dev/boa)
 * Zig: [Bun](https://bun.sh/) ([Source](https://github.com/oven-sh/bun)): a fast all-in-one JavaScript runtime, written in [Zig](/languages/zig).
 
 ## Implementation-related
