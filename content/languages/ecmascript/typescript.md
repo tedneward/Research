@@ -87,7 +87,12 @@ summary=A superset of JavaScript with strong compile-time typechecking that tran
     * You can use generics to dynamically specify the number, and type, of arguments to functions.
 
 * [Using the Compiler API](https://github.com/Microsoft/TypeScript/wiki/Using-the-Compiler-API)
-- [@typescript/analyze-trace](https://github.com/microsoft/typescript-analyze-trace)
+* [@typescript/analyze-trace](https://github.com/microsoft/typescript-analyze-trace)
+
+### Libraries
+
+* [neverthrow](https://github.com/supermacro/neverthrow): Type-Safe Errors for JS & TypeScript
+
 
 ### [Learn TypeScript in Y Minutes](https://learnxinyminutes.com/docs/typescript/)
 
@@ -360,9 +365,4 @@ interface Foo {
 let foo = {} as Foo; // Type assertion here
 foo.bar = 123;
 foo.baz = 'hello world'
-
 ```
-
-## Language-related libraries
-
-* [neverthrow](https://github.com/supermacro/neverthrow): Type-Safe Errors for JS & TypeScript

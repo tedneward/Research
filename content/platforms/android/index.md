@@ -63,4 +63,7 @@ App resources: [Overview](https://developer.android.com/guide/topics/resources/p
 * [Styling Android](https://blog.stylingandroid.com)
 * [The Busy Coder's Guide to Android Development](https://commonsware.com/Android/4-2-free) (PDF - older versions)
 
+### Articles
+
+* [Deploy Android Apps on Play Store Using GitHub Actions](https://yogeshpaliyal.com/posts/deploy-android-app-on-play-store-using-github-action/)
 
