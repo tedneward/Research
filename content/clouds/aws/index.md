@@ -14,9 +14,16 @@ summary=Huge collection of cloud-hosted services.
 
 [Hosting a static website in S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
 
-[Amazon's DynamoDB, 10 yeras later](https://www.amazon.science/latest-news/amazons-dynamodb-10-years-later)
+[Amazon's DynamoDB, 10 years later](https://www.amazon.science/latest-news/amazons-dynamodb-10-years-later)
 
-## Messaging
+## Features
+
+- [Mobile Hub](https://aws.amazon.com/mobile): AWS Mobile Hub lets you easily add and configure features for your mobile apps, including user authentication, data storage, backend logic, push notifications, content delivery, and analytics. After you build your app, AWS Mobile Hub gives you easy access to testing on real devices, as well as analytics dashboards to track usage of your app.
+- [Cognito](https://aws.amazon.com/cognito/): Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps. Gives the option to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your an individual identity system. In addition, Amazon Cognito allows saving data locally on users devices, even when the devices are offline. Data synchronization amongst several user devices possible.
+
+
+
+### Messaging
 AWS has a fleet of messaging services which reflects very similar architectural considerations as the Azure services.
 
 * [SQS](https://aws.amazon.com/en/sqs/) corresponds to Azure Storage Queues and Service Bus Queues (FIFO)
