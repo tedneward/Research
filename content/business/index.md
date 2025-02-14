@@ -11,6 +11,8 @@ tags=business
 
 [ProPublica](https://projects.propublica.org/claimfile/): Find out why your health insurer denied your claim. ProPublica’s Claim File Helper lets you customize a letter requesting the notes and documents your insurer used when deciding to deny you coverage. Get your claim file before submitting an appeal.
 
+[TheOrg](https://theorg.com/): Find the right person to contact in any organization. (Commercial?)
+
 ## Articles/Blogs
 
 [Tech debt metaphor maximalism](https://apenwarr.ca/log/20230605): "I really like the "tech debt" metaphor. A lot of people don't, but I think that's because they either don't extend the metaphor far enough, or because they don't properly understand financial debt." *Really* good read on how to think about tech debt as a direct extension of financial debt.

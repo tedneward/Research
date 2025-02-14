@@ -116,6 +116,11 @@ summary=The functional-composition way to build UIs in Android; "Jetpack Compose
 
 * ["Using Views in Compose"](https://developer.android.com/develop/ui/compose/migrate/interoperability-apis/views-in-compose): Using the legacy View-based components in a Compose UI.
 * ["Using Compose in Views"](https://developer.android.com/develop/ui/compose/migrate/interoperability-apis/compose-in-views): Using Compose UI components in a legacy View-based UI.
+* ["Decomposing Jetpack Compose"](https://proandroiddev.com/decomposing-jetpack-compose-7b7abcd6c81b) -- uses [Decomposer](https://github.com/composexy/decomposer), a tool for visualizing the internals of a Compose app: "The pain points:
+
+    * "The Compose framework relies on a Kotlin compiler plugin to rewrite and add metadata to the Kotlin codebase in your project. Most of the plugin’s work occurs at the IR (Intermediate Representation) stage of the Kotlin compilation pipeline, a transient data structure in the compiler’s backend. This plugin is far from trivial, and the result is that the semantics of the IR tree deviate significantly from the original Kotlin source code. For debugging purposes, it would be incredibly helpful to view the IR tree in a Kotlin-like fashion.
+    
+    * "The Compose runtime uses an internal data structure called the SlotTable to store composition data. Although the SlotTable holds a tree structure, its payload is flattened into two arrays to reduce runtime memory allocations. In the old View-based framework, developers could attach a debugger to investigate the View tree structure. However, with Compose, debugging the UI tree has become much more challenging due to its reliance on internal data structures like the SlotTable. A tool that provides a visual representation of the composition tree within a user-friendly UI would be invaluable."
 
 ## Blog posts
 
