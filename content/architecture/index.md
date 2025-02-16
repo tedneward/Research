@@ -21,7 +21,7 @@ Tomas Petricek's writings on the subject:
 
 ["Don't Call It a Platform"](https://samnewman.io/blog/2023/02/08/dont-call-it-a-platform/): "Habitability, in the broadest sense, describes how nice (or not) the experience is for the people who have to live in a system. ... I make the argument that we ignore habitability at our peril. Those of us in a place to shape the lived experiences of our colleagues have a duty of care to ensure that we take their needs to heart."
 
-["DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together"](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/)
+["DDD, Hexagonal, Onion, Clean, CQRS, ... How I put it all together"](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/)
 
 ["The cloudy layers of modern-day programming"](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/)
 
@@ -69,8 +69,8 @@ Tomas Petricek's writings on the subject:
 * [Serverless Design Patterns and Best Practices](https://www.packtpub.com/free-ebooks/serverless-design-patterns-and-best-practices) - Brian Zambrano (Packt account *required*)
 * [Shape Up - Stop Running in Circles and Ship Work that Matters](https://basecamp.com/shapeup) - Ryan Singer (PDF)
 * [Site Reliability Engineering](https://landing.google.com/sre/book/index.html)
-* Six Event-Driven Archicture Patterns: [Part 1]](https://medium.com/wix-engineering/6-event-driven-architecture-patterns-part-1-93758b253f47) [Part 2](https://medium.com/wix-engineering/6-event-driven-architecture-patterns-part-2-455cc73b22e1)
-* [Software Architecture Patterns](http://www.oreilly.com/programming/free/software-architecture-patterns.csp) (email address *requested*, not required)
+* Six Event-Driven Archicture Patterns: [Part 1](https://medium.com/wix-engineering/6-event-driven-architecture-patterns-part-1-93758b253f47) [Part 2](https://medium.com/wix-engineering/6-event-driven-architecture-patterns-part-2-455cc73b22e1)
+* [Software Architecture Patterns](http://www.oreilly.com/programming/free/software-architecture-patterns.csp) (email address *requested*, not required) - Mark Richards
 * [Software Engineering for Internet Applications](http://philip.greenspun.com/seia/)
 * [Source Making Design Patterns and UML](https://sourcemaking.com/design_patterns)
 * [Test Driven Development, Extensive Tutorial](https://github.com/grzesiek-galezowski/tdd-ebook) - Grzegorz Gałęzowski
@@ -78,6 +78,7 @@ Tomas Petricek's writings on the subject:
 * [The Site Reliability Workbook](https://landing.google.com/sre/workbook/toc/) - Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara and Stephen Thorne
 * [Why a programmer might actually be a good urban planner](https://b1z0n.pro/why-the-programmers-might-be-good-urban-planners1/)
 * [WSO2 Reference Architecture](https://github.com/wso2/reference-architecture):
+
     * [Cell-Based Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-architecture-cell-based.md)
     * [Event-Driven APIs in Microservice Architectures](https://github.com/wso2/reference-architecture/blob/master/event-driven-api-architecture.md)
     * [Layered and Segmented Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-architecture-layered-segmented.md)
