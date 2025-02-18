@@ -67,8 +67,6 @@ Notes from a Walter Bright [talk at Northwest C++ Group](https://nwcpp.org/talks
 
 * Why is Codegen So Complicated: 8-bit CPUs had ~40 instructions; AArch64 has 2000+ instructions each with variations
 
-
-
 Research terms:
 
 - "peephole" optimizations: replace an instruction or set of instructions w/simpler instruction
