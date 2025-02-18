@@ -10,10 +10,6 @@ Collection of links about and around hardware.
 ## Laptops
 [Apple MacBookPro](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-space-gray-10-core-cpu-32-core-gpu-1tb#)
 
-[Dell XPS17](https://www.dell.com/en-us/shop/laptops/17-new/spd/xps-17-9710-laptop): I'm really hoping Dell doesn't screw these up with their recent slate of changes
-
-[System76 laptops](https://system76.com/laptops): I'm liking the Galaga Pro as a lightweight Linux dev machine
-
 [KFocus](https://kfocus.org)
 
 [Framework](): Replaceable parts? Kinda want to get one just to see how well it holds up.
