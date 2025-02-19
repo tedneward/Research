@@ -19,3 +19,8 @@ summary=Reading and notes about effects and effect systems in programming langua
 ## Libraries
 
 * [Algebraic Effects](../libraries/algebraic-effects.md)
+* TypeScript: [fx-ts](https://github.com/briancavalier/fx-ts)
+* JavaScript: [creed](https://github.com/briancavalier/creed): Sophisticated and functionally-minded async with advanced features: coroutines, promises, ES2015 iterables, fantasy-land
+* JavaScript: [forgefx](https://github.com/briancavalier/forgefx): Algebraic effects and handlers using generators
+
+

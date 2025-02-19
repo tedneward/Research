@@ -144,3 +144,8 @@ Some storage engines also allow for code-hosting, in which code executes inside 
 * ["How to build a relational database from scratch"](https://medium.com/swlh/how-to-build-a-relational-database-from-scratch-e208061027c7) (Medium members only)
 * [Build a NoSQL database from scratch in 1000 lines of code](https://betterprogramming.pub/build-a-nosql-database-from-the-scratch-in-1000-lines-of-code-8ed1c15ed924) (in Go)
 * [Building BerkeleyDB](https://transactional.blog/building-berkeleydb/)
+
+### DBaaS: Database-as-a-Service
+
+* ["Building an Open-Source Private DBaaS"](https://thenewstack.io/building-an-open-source-private-dbaas/)
+
