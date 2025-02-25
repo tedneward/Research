@@ -27,6 +27,8 @@ Repositories for graphics:
 
 * ["The Market for Lemons"](https://infrequently.org/2023/02/the-market-for-lemons/): "Not only are new services being built to a self-defeatingly low UX and performance standard, existing experiences are pervasively re-developed on unspeakably slow, JS-taxed stacks. At a business level, this is a disaster, raising the question: "why are new teams buying into stacks that have failed so often before?" In other words, "why is this market so inefficient?"" A rather scathing takedown of the evolution of the web interface. Can't say I disagree too much.
 
+* ["Beyond Page Objects: Testing Web Applications with State Objects"](https://queue.acm.org/detail.cfm?id=2793039)
+
 ### User Interface
 
 [ECMA Report on User Interface Taxonomy](https://www.ecma-international.org/wp-content/uploads/ECMA_TR-61_1st_edition_june_1992.pdf) (June 1992): Interesting high-level overview of different ideas around user interface and a taxonomy of that space:

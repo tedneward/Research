@@ -61,4 +61,4 @@ StackOverflow: [Is it possible to build a Reactive Application using a non-Funct
 ### Web application patterns
 
 * [Webapp patterns](https://www.patterns.dev/): Collection of patterns and web-app idioms. Mix of GOF and some very specific-to-browsers idioms.
-
+* [SAM (State-Action-Model)](https://sam.js.org/): a software engineering pattern that helps manage the application state and reason about temporal aspects with precision and clarity. Modern Software Engineering practices are essentially based on Functions (Actions) and Types which encourage a sprawl of unstructured assignments and event handlers. SAM's founding principle is that State Mutations must be first class citizens of the programming model. Once that principle is accepted, proper temporal semantics can be articulated.
