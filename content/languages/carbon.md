@@ -3,7 +3,7 @@ tags=native, object, llvm
 summary=An experimental successor to C++.
 ~~~~~~
 
-[Source](https://github.com/carbon-language/carbon-lang)
+[Website](https://emlai.github.io/) | [Source](https://github.com/carbon-language/carbon-lang)
 
 Quoting from README:
 

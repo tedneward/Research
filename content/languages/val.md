@@ -1,9 +1,13 @@
 title=Val
-tags=language
+tags=language, archived
 summary=A programming language that leverages mutable value semantics and generic programming for high-level systems programming.
 ~~~~~~
 
+***This is now [Hylo](./hylo)***
+
 [Website](https://www.val-lang.dev/) | [Source](https://github.com/val-lang/val) | [Language tour](https://tour.val-lang.dev/)
+
+Val is an open source, general-purpose programming language designed around on the concept of (mutable) value semantics. The language aims to be safe and efficient, yet expressive enough to support multiple programming paradigms and implement concurrent algorithms safely and efficiently.
 
 ## Examples
 Simple program:
@@ -27,5 +31,4 @@ public fun main() {
 ## Articles
 
 * ["Meet Val: A New Language Alternative to C++, Rust"](https://thenewstack.io/meet-val-a-new-language-alternative-to-c-rust/)
-https://github.com/val-lang/val
-Val is an open source, general-purpose programming language designed around on the concept of (mutable) value semantics. The language aims to be safe and efficient, yet expressive enough to support multiple programming paradigms and implement concurrent algorithms safely and efficiently.
+

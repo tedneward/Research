@@ -167,6 +167,23 @@ Jim Weirich offers two great rules"
 
 ## Ch 4: Architectural Characteristics Defined
 
+Structural design consists of two activities:
+
+- architectural characteristics analysis
+- logical component design (Ch 8)
+
+Problem domain: list of requirements for the system; architectural characteristics are independent of the domain
+
+"To be considered an architectural characteristic, a requirement must meet three criteria. It must specify a nondomain design consideration, influence some structural aspect of the design, and be critical or important to the application’s success."
+
+*An architecture characteristic specifies a nondomain design consideration*: Structural design in software architecture consists of two activities by an architect: understanding the problem domain and uncovering what kinds of capabilities the system needs to support to be successful. The domain design considerations cover the behavior of the system, and architectural characteristics define the capabilities. Taken together, these two activities define structural design. While design requirements specify what the application should do, architectural characteristics specify how to implement the requirements and why certain choices were made: in short, the operational and design criteria for the project to succeed. For example, specific levels of performance are often an important architectural characteristic, but often don’t appear in requirements documents. Even more pertinent: no requirements document actually states that a design must “prevent technical debt,” but it is a common design consideration. We cover this distinction between explicit and implicit characteristics in depth in “Extracting Architectural Characteristics from Domain Concerns”.
+
+*An architecture characteristic influences some structural aspect of the design*: The primary reason architects try to describe architectural characteristics on projects is to tease out important design considerations. Can the architect implement it via design, or does this architectural characteristic require special structural consideration to succeed? For example, security is a concern in virtually every project, and all systems must take certain baseline precautions during design and coding. However, security rises to the level of an architectural characteristic when the architect determines that the architecture needs special structure to support it. Consider two common architectural characteristics: security and scalability. Architects can accommodate security in a monolithic system by using good coding hygiene, including well-known techniques such as encryption, hashing, and salting. Conversely, in a distributed architecture such as microservices, the architect would build a more hardened service with stricter access protocol--a structural approach. Thus, architects can accommodate security via either design or structure. On the other hand, consider scalability: no amount of clever design will allow a monolithic architecture to scale beyond a certain point. *(I'm not sure I entirely believe that.)* Beyond that, the system must change to a distributed architectural style. Architects pay close attention to operational architectural characteristics (discussed in “Operational Architectural Characteristics”) because they are the characteristics that most often require special structural support.
+
+*An architecture characteristic must be critical or important to application success*: Applications can support a huge number of architectural characteristics... but they shouldn’t. Each architectural characteristic a system supports adds complexity to its design. That’s why architects should strive to choose the fewest possible architectural characteristics rather than the most.
+
+
+
 ## Ch 5: Identifying Architectural Characteristics
 
 ## Ch 6: Measuring and Governing Architecture Characteristics
