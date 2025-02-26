@@ -4,8 +4,10 @@ summary=A game of warrior vs warrior, programmed by two opponents, and placed in
 ~~~~~~
 
 [koth (King of the Hill) Website](http://www.koth.org/index.html):
+
 * [info](http://www.koth.org/info.html)
 * [links](http://www.koth.org/links.html)
+* [official simulator](http://www.koth.org/pmars/)
 
 [Core War: the Ultimate Programming Game](https://corewar.co.uk/):
 > Core War is a played between two or more programs written in Redcode, a low-level language similar to assembly. Players write a program to eliminate all opponents in the memory of the MARS virtual computer. Core War is also used as a platform to experiment with genetic programming.

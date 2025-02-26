@@ -19,6 +19,10 @@ Collection of links about and around hardware.
 
 Beepy: [Review: Beepy, a palm-sized Linux hacking playground](https://hackaday.com/2023/08/07/review-beepy-a-palm-sized-linux-hacking-playground/)
 
+## Monitors
+
+[AOC](https://aoc.com/us/)
+
 ## Storage
 [High Speed Portable SSD](https://miatine.com/speed)
 
