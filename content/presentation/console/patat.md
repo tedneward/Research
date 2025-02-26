@@ -1,5 +1,5 @@
 title=Patat (Presentations Atop The ANSI Terminal)
-tags=presentation, console
+tags=presentation, console, slides
 summary=Terminal-based presentations using Pandoc.
 ~~~~~~
 

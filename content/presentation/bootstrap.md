@@ -1,7 +1,7 @@
 title=Bootstrap
 tags=presentation, browser
-summary=A design framework/CSS library for building websites that don't look like programmer-built websites.
-~~~~~
+summary=A design framework-slash-CSS library for building websites that don't look like programmer-built websites.
+~~~~~~
 
 [Website](http://www.getbootstrap.com/)
 

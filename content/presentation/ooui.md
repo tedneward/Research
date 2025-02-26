@@ -1,6 +1,6 @@
 title=OOUI
 tags=presentation, clr, browser
-summary=a small cross-platform UI library for .NET that uses web technologies; presents a classic object-oriented UI API that controls a dumb browser.
+summary=A small cross-platform UI library for .NET that uses web technologies; presents a classic object-oriented UI API that controls a dumb browser.
 ~~~~~~
 
 [Source](https://github.com/praeclarum/Ooui) | [Interactive examples](http://ooui.mecha.parts/) and [source](https://github.com/praeclarum/Ooui/tree/master/Samples)

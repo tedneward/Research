@@ -1,6 +1,6 @@
 title=Elmish
 tags=presentation, functional, browser
-summary=(Nothing yet)
+summary=Bringing the Elm language to the Fable world.
 ~~~~~~
 
 Bringing [Elm](../languages/elm)-like constructs to the [Fable](../languages/fable) world.

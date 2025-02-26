@@ -1,5 +1,5 @@
 title=RevealJS
-tags=presentation, browser
+tags=presentation, browser, slides
 summary=An open source HTML presentation framework tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free.
 ~~~~~~
 

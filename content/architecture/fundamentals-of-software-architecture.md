@@ -182,6 +182,79 @@ Problem domain: list of requirements for the system; architectural characteristi
 
 *An architecture characteristic must be critical or important to application success*: Applications can support a huge number of architectural characteristics... but they shouldn’t. Each architectural characteristic a system supports adds complexity to its design. That’s why architects should strive to choose the fewest possible architectural characteristics rather than the most.
 
+Architectural characteristics divided into implicit vs explicit, depending on whether they often appear in requirements.
+
+#### Partial List of Architectural Characteristics
+
+**Operational**
+Term | Definition
+---- | -------------------
+Availability | How much of the time the system will need to be available; if that’s 24/7, steps need to be in place to allow the system to be up and running quickly in case of any failure.
+Continuity | The system’s disaster-recovery capability.
+Performance | How well the system performs; ways to measure this include stress testing, peak analysis, analysis of the frequency of functions used and response times.
+Recoverability | Business continuity requirements: in case of a disaster, how quickly the system must get back online. This includes backup strategies and requirements for duplicate hardware.
+Reliability/safety | Whether the system needs to be fail-safe, or if it is mission critical in a way that affects lives. If it fails, will it cost the company large sums of money? This is often a spectrum rather than a binary.
+Robustness | The system’s ability to handle error and boundary conditions while running: for example, if the internet connection or power fails.
+Scalability | The system’s ability to perform and operate as the number of users or requests increases.
+
+**Structural**
+Term | Definition
+---- | -----------
+Configurability | How easily end users can change aspects of the software’s configuration through interfaces.
+Extensibility | How well the architecture accommodates changes that extend its existing functionality.
+Installability | How easy it is to install the system on all necessary platforms.
+Leverageability/reuse | The extent to which the system’s common components can be leveraged across multiple products.
+Localization | Support for multiple languages on entry/query screens in data fields.
+Maintainability | How easy it is to apply changes and enhance the system.
+Portability | The system’s ability to run on more than one platform (such as Oracle and SAP DB)?
+Upgradeability | How easy and quick it is to upgrade to a newer version on servers and clients.
+
+**Cloud**
+Term | Definition
+---- | ---------------
+On-demand scalability | The cloud provider’s ability to scale up resources dynamically based on demand.
+On-demand elasticity | The cloud provider’s flexibility as resource demands spike; similar to scalability.
+Zone-based availability | The cloud provider’s ability to separate resources by computing zones to make for more resilient systems.
+Region-based privacy and security | The cloud provider’s legal ability to store data from various countries and regions. Many countries have laws governing where their citizens’ data may reside (and often restricting it from storage outside their region).
+
+**Cross-cutting**
+Term | Definition
+---- | ---------------
+Accessibility | How easily all users can access the system, including those with disabilities like colorblindness or hearing loss.
+Archivability | The system’s constraints around archiving or deleting data after a specified period of time.
+Authentication | Security requirements to ensure users are who they say they are.
+Authorization | Security requirements to ensure users can access only certain functions within the application (by use case, subsystem, webpage, business rule, field level, etc.).
+Legal | The legislative constraints in which the system operates, such as data protection laws like GDPR or financial-records laws like Sarbanes-Oxley in the US, or any regulations regarding the way the application is to be built or deployed. This includes what reservation rights the company requires.
+Privacy | The system’s ability to encrypt and hide transactions from internal company employees, even DBAs and network architects.
+Security | Rules and constraints about encryption (in the database or for network communication between internal systems; authentication for remote user access, and other security measures.
+Supportability | The level of technical support the application needs; how much logging and other facilities are required to debug errors in the system?
+Usability/achievability | The level of training required for users to achieve their goals with the application/solution.
+
+**[ISO partial list](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)**
+
+Performance efficiency: Measure of the performance relative to the amount of resources used under known conditions. This includes time behavior (measure of response, processing times, and/or throughput rates), resource utilization (amounts and types of resources used), and capacity (degree to which the maximum established limits are exceeded).
+
+Compatibility: Degree to which a product, system, or component can exchange information with other products, systems, or components and/or perform its required functions while sharing the same hardware or software environment. It includes coexistence (can perform its required functions efficiently while sharing a common environment and resources with other products) and interoperability (degree to which two or more systems can exchange and utilize information).
+
+Usability: Users can use the system effectively, efficiently, and satisfactorily for its intended purpose. It includes appropriateness recognizability (users can recognize whether the software is appropriate for their needs), learnability (how easily users can learn how to use the software), user error protection (protection against users making errors), and accessibility (make the software available to people with the widest range of characteristics and capabilities).
+
+Reliability: Degree to which a system functions under specified conditions for a specified period of time. This characteristic includes subcategories such as maturity (does the software meet the reliability needs under normal operation), availability (software is operational and accessible), fault tolerance (does the software operate as intended despite hardware or software faults), and recoverability (can the software recover from failure by recovering any affected data and reestablish the desired state of the system.
+
+Security: Degree to which the software protects information and data so that people or other products or systems have the degree of data access appropriate to their types and levels of authorization. This family of characteristics includes confidentiality (data is accessible only to those authorized to have access), integrity (the software prevents unauthorized access to or modification of software or data), nonrepudiation, (can actions or events be proven to have taken place), accountability (can user actions of a user be traced), and authenticity (proving the identity of a user).
+
+Maintainability: Represents the degree of effectiveness and efficiency to which developers can modify the software to improve it, correct it, or adapt it to changes in environment and/or requirements. This characteristic includes modularity (degree to which the software is composed of discrete components), reusability (degree to which developers can use an asset in more than one system or in building other assets), analyzability (how easily developers can gather concrete metrics about the software), modifiability (degree to which developers can modify the software without introducing defects or degrading existing product quality), and testability (how easily developers and others can test the software).
+
+Portability: Degree to which developers can transfer a system, product, or component from one hardware, software, or other operational or usage environment to another. This characteristic includes the subcharacteristics of adaptability (can developers effectively and efficiently adapt the software for different or evolving hardware, software, or other operational or usage environments), installability (can the software be installed and/or uninstalled in a specified environment), and replaceability (how easily developers can replace the functionality with other software).
+
+Functional suitability: This characteristic represents the degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions. This characteristic is composed of the following subcharacteristics:
+
+Functional completeness: Degree to which the set of functions covers all the specified tasks and user objectives.
+
+Functional correctness: Degree to which a product or system provides the correct results with the needed degree of precision.
+
+Functional appropriateness: Degree to which the functions facilitate the accomplishment of specified tasks and objectives.
+
+Architectures can't support all of the architecture characteristics (cost; some work against one another; ambiguity) so only support those that are critical or important
 
 
 ## Ch 5: Identifying Architectural Characteristics

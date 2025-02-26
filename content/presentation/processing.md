@@ -1,5 +1,5 @@
 title=Processing
-tags=library, presentation, jvm, browser, python, android
+tags=presentation, library, jvm, browser, python, android
 summary=An open-source graphical library and integrated development environment (IDE) built for the electronic arts, new media art, and visual design communities with the purpose of teaching non-programmers the fundamentals of computer programming in a visual context.
 ~~~~~~
 

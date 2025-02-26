@@ -1,5 +1,5 @@
 title=Marp
-tags=presentation
+tags=presentation, slides
 summary=Markdown presentation ecosystem.
 ~~~~~~
 

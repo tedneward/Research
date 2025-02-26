@@ -1,6 +1,6 @@
 title=Wired Elements
 tags=presentation, browser
-summary=
+summary=Web components.
 ~~~~~~
 
 [Website](https://wiredjs.com/) | [Source](https://github.com/rough-stuff/wired-elements) | [Component Showcase](https://wiredjs.com/showcase)

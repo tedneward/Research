@@ -1,11 +1,9 @@
-title=Presentation/UI patterns
+title=UI patterns
 tags=presentation, pattern
 summary=A collection of links and notes on commonly-recurring elements in UI design.
 ~~~~~~
 
 ## Articles
-
-[40+ Helpful Resources on UI Design Patterns](https://www.smashingmagazine.com/2009/06/40-helpful-resources-on-user-interface-design-patterns/)
 
 [Taking Pattern Libraries to the Next Level](https://www.smashingmagazine.com/taking-pattern-libraries-next-level/)
 

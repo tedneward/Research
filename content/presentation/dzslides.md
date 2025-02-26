@@ -1,5 +1,5 @@
 title=DZSlides
-tags=presentation, slides
+tags=presentation, browser, slides
 summary=A one-file HTML template to build slides in HTML5 and CSS3.
 ~~~~~~
 

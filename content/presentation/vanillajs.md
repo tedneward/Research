@@ -8,11 +8,12 @@ summary=Articles and links about using no Web framework at all.
 ["A Framework Author's Case Against Frameworks"](https://youtu.be/VvOsegaN9Wk): Adrian Holovaty, dotJS 2017
 
 ["Design: #noFramework"](https://javarome.medium.com/design-noframework-bbc00a02d9b3):
-    *Article speaks principally to Web frameworks, but I'd argue that this can be true of any framework (thinking Java server-side Web frameworks, C++ GUI frameworks, server-side transaction processing frameworks, ...).*
 
-    *Article brings to mind Vlissides' pattern of [evolving frameworks](/reading/patterns/evolving-frameworks)*
+    * speaks principally to Web frameworks, but I'd argue that this can be true of any framework (thinking Java server-side Web frameworks, C++ GUI frameworks, server-side transaction processing frameworks, ...).*
 
-    *Also brings to mind the Windows++ story: build your own to understand what's going on underneath--not quite the same point as this author, but certainly a viable line of thought/approach.*
+    * brings to mind Vlissides' pattern of [evolving frameworks](/reading/patterns/evolving-frameworks)*
+
+    * Also brings to mind the Windows++ story: build your own to understand what's going on underneath--not quite the same point as this author, but certainly a viable line of thought/approach.*
 
     * Drawbacks of frameworks:
 

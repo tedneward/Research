@@ -1,6 +1,6 @@
 title=DerbyJS
 tags=presentation, browser
-summary=MVC framework for writing realtime, collaborative applications that run i both NodeJS and browsers.
+summary=MVC framework for writing realtime, collaborative applications that run in both NodeJS and browsers.
 ~~~~~~
 
 "Derby includes a powerful data synchronization engine called Racer that automatically syncs data among browsers, servers, and a database. Models subscribe to changes on specific objects, enabling granular control of data propagation without defining channels. Racer supports offline usage and conflict resolution out of the box, which greatly simplifies writing multi-user applications.
