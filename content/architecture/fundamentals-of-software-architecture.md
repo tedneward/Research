@@ -256,6 +256,7 @@ Functional appropriateness: Degree to which the functions facilitate the accompl
 
 Architectures can't support all of the architecture characteristics (cost; some work against one another; ambiguity) so only support those that are critical or important
 
+> "Never shoot for the best architecture; shoot for the least worst architecture."
 
 ## Ch 5: Identifying Architectural Characteristics
 
