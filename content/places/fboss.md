@@ -5,3 +5,8 @@ summary=Facebook's home page for open-source projects.
 
 [Website](https://opensource.fb.com/)
 
+Projects:
+
+* Docusaurus
+* React
+* PyTorch
