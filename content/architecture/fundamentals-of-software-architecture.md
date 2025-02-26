@@ -260,7 +260,59 @@ Architectures can't support all of the architecture characteristics (cost; some 
 
 ## Ch 5: Identifying Architectural Characteristics
 
+At least three places to uncover architectural characteristics: domain concerns, project requirements, your implicit domain knowledge
+
+Domain concern | Architectural characteristics
+-------------- | -----------------------------
+Mergers and acquisitions | Interoperability, scalability, adaptability, extensibility
+Time to market | Agility, testability, deployability
+User satisfaction | Performance, availability, fault tolerance, testability, deployability, agility, security
+Competitive advantage | Agility, testability, deployability, scalability, availability, fault tolerance
+Time and budget | Simplicity, feasibility
+
+A *composite architectural characteristic* is one that has no single objective definition but rather is composed of other measurable things
+
+*(They walk through a kata here)*
+
+**_Architecture Characteristics Worksheet**_
+```
+System/Project: _________________
+Architect/Team: _________________
+
+Top 3  Driving Characteristics    Implicit Characteristics
+ [ ]   _______________________    ________________________
+ [ ]   _______________________    ________________________
+ [ ]   _______________________    ________________________
+ [ ]   _______________________    ________________________
+ [ ]   _______________________    ________________________
+ [ ]   _______________________    Others Considered
+ [ ]   _______________________    ________________________
+                                  ________________________
+```
+
+Seven slots on the left, deliberately, to force prioritization
+
 ## Ch 6: Measuring and Governing Architecture Characteristics
+
+**Measuring Architecture Characteristics**
+
+Struggles
+
+* They aren't physics
+* Wildly varying definitions
+* Too composite
+
+Forms
+
+* Operational measures (response times, etc)
+* Structural measures (cyclomatic complexity, etc)
+* Process measures (testability, deployability, etc)
+
+#### Governance and Fitness Functions
+
+Governance covers any aspect of the software development process that architects want to influence. Use tools whenever possible; these are *fitness functions*: "any mechanism that provides an objective integrity assessment of some architecture characteristic or combination of architecture characteristics."
+
+Analyze modularity via cyclic dependencies
 
 ## Ch 7: The Scope of Architectural Characteristics
 

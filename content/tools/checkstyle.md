@@ -1,5 +1,5 @@
 title=Checkstyle
-tags=tool, jvm, java, static
+tags=tool, jvm, java, static, metrics
 summary=A development tool to help programmers write Java code that adheres to a coding standard by automating the process of checking Java code to spare humans of this boring (but important) task.
 ~~~~~~
 
