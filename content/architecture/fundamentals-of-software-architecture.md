@@ -187,6 +187,7 @@ Architectural characteristics divided into implicit vs explicit, depending on wh
 #### Partial List of Architectural Characteristics
 
 **Operational**
+
 Term | Definition
 ---- | -------------------
 Availability | How much of the time the system will need to be available; if that’s 24/7, steps need to be in place to allow the system to be up and running quickly in case of any failure.
@@ -198,6 +199,7 @@ Robustness | The system’s ability to handle error and boundary conditions whil
 Scalability | The system’s ability to perform and operate as the number of users or requests increases.
 
 **Structural**
+
 Term | Definition
 ---- | -----------
 Configurability | How easily end users can change aspects of the software’s configuration through interfaces.
@@ -210,6 +212,7 @@ Portability | The system’s ability to run on more than one platform (such as O
 Upgradeability | How easy and quick it is to upgrade to a newer version on servers and clients.
 
 **Cloud**
+
 Term | Definition
 ---- | ---------------
 On-demand scalability | The cloud provider’s ability to scale up resources dynamically based on demand.
@@ -218,6 +221,7 @@ Zone-based availability | The cloud provider’s ability to separate resources b
 Region-based privacy and security | The cloud provider’s legal ability to store data from various countries and regions. Many countries have laws governing where their citizens’ data may reside (and often restricting it from storage outside their region).
 
 **Cross-cutting**
+
 Term | Definition
 ---- | ---------------
 Accessibility | How easily all users can access the system, including those with disabilities like colorblindness or hearing loss.
