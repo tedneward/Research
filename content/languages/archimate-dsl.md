@@ -1,4 +1,4 @@
-title=Archimate
+title=Archimate DSL
 tags=language, architecture
 summary=A DSL for generating Archimate diagrams from source.
 ~~~~~~

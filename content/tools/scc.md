@@ -1,5 +1,5 @@
 title=scc (Sloc, Cloc, and Code)
-tags=tool, static
+tags=tool, static, metrics
 summary=A very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go
 ~~~~~~
 
