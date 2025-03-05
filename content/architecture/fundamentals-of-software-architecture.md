@@ -379,6 +379,36 @@ flowchart LR
     id5 --> id2
 ```
 
+1. **Identify core components.** One mistake many software architects make is spending too much effort trying to get the initial logical components perfect the first time. A better approach is to make a “best guess” as to what the initial core components might look like, based on the core functionalities of the system, and refine them through the workflow above. In other words, it’s better to iterate over the logical components as you learn more about the system than to try to get it all perfect the first time, when you know least about the system and its specific requirements.
+
+    * **The Workflow Approach.** As the name suggests, this approach leverages the major happy-path (non-error) workflows a user might take through the system (or its main request-processing workflow). If the architect has some sense of the general flow, they can develop components based on those steps.
+
+    * **The Actor/Action Approach.** This approach is particularly useful when a system has multiple actors. With this approach, the architect identifies the major actions a user can perform in the system (such as placing an order). The system itself is always an actor, too, performing automated functions such as billing and replenishing stock.
+
+    * **The Entity Trap.** It’s all too tempting for an architect to start identifying components by focusing on the entities involved with the system, then deriving components from those entities. The names of the logical components are ambiguous and don’t describe the role of the component. Components become dumping grounds for domain-related functionalities. When components become too coarse-grained, they do too much and lose their purpose.
+
+2. **Assign user stories.** This is an iterative process, since most user stories or requirements are not completely known up front; they evolve as the system evolves. This step is meant to start filling those empty buckets *(a metaphor for the potentially-identified core components)*, giving the components specific roles and responsibilities.
+
+3. **Analyzing roles and responsibilities.** This is how the architect ensures that the requirements or user stories assigned to those components belong there and that the components are not doing too much. What the architect is concerned about in this step is cohesion: how, and how much, a component’s operations interrelate. Over time, components can get too big, even though their operations allinterrelate.
+
+4. **Analyzing architectural characteristics.** Some architectural characteristics, such as scalability, reliability, availability, fault tolerance, elasticity, and agility (the ability to respond quickly to change), may influence the size of a logical component.
+
+Restructuring components: Feedback is king. Architects must continually iterate on their component designs in collaboration with developers. Architects should expect to restructure components frequently throughout the lifecycle of a system or product–not only in greenfield systems, but in any that undergo frequent maintenance.
+
+#### Component Coupling
+The more coupled a system’s components are, the harder it is to maintain and test the system.
+
+***Static Coupling.*** occurs when components communicate synchronously with each other. Architects need to be concerned about two types of coupling: afferent and efferent.
+
+* *Afferent coupling* (also known as incoming or fan-in coupling) is the degree to which other components depend on a target component.
+* *Efferent coupling* (also known as outgoing or fan-out coupling) is the degree to which a target component depends on other components.
+
+***Temporal Coupling.*** describes nonstatic dependencies, usually those based on timing or transactions (single units of work). Difficult to detect.
+
+> **The Law of Demeter:** A component or service should have limited knowledge of other components or services. The idea behind the Law of Demeter is to limit each component’s knowledge about the rest of the system. NOTE: Applying the Law of Demeter does not necessarily reduce the systemwide level of coupling; rather, it usually redistributes that coupling to different parts of the system.
+
+*(Here they go through the Going Going Gone kata)*
+
 # Part 2: Architecture Styles
 
 ## Ch 9: Foundations
