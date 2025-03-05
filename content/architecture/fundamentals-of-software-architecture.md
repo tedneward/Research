@@ -492,8 +492,8 @@ Layered architectures don’t support fault tolerance, due to their monolithic d
 **Architecture Sinkhole:** This antipattern occurs when requests are simply passed through from layer to layer, with no business logic performed. For example, suppose the Presentation layer responds to a user’s simple request to retrieve basic customer data (such as name and address). The Presentation layer passes the request to the Business layer, which does nothing but pass the request on to the Rules layer, which in turn does nothing but pass it on to the Persistence layer, which then makes a simple SQL call to the Database layer to retrieve the customer data. The data is then passed all the way back up the stack with no additional processing or logic to aggregate, calculate, apply rules to, or transform any of it. This results in unnecessary object instantiation and processing, draining both memory consumption and performance. The key to determining whether this antipattern is at play is to analyze the percentage of requests that fall into this category. The 80-20 rule is usually a good practice to follow. For example, it is acceptable if only 20 percent of the requests are sinkholes; however, if it’s 80 percent, that’s a good indicator that the layered architecture is not the correct architecture style for the problem domain. Another approach to solving the Architecture Sinkhole antipattern is to make all the layers in the architecture open--realizing, of course, that the trade-off is increased difficulty in managing change.
 
 
-Concern | Architectural characteristics | Rating
-------- | ----------------------------- | ------
+Architectural characteristics | Rating
+----------------------------- | ------
 Overall cost | $
 Partitioning type | Technical
 Number of quanta | 1
@@ -534,8 +534,8 @@ Another risk is going overboard with code reuse. Code reuse and sharing are a ne
 
 Too much intermodule communication is another risk in this architectural style. Ideally, modules should be independent and self-contained. As we’ve noted, it’s normal (and sometimes necessary) for some modules to communicate with others, particularly within a complex workflow. However, if there’s too much intercommunication between modules, it’s a good indication that the domains may have been ill-defined in the first place. In such cases, it’s worth putting additional thought into redefining the domains to accommodate complex workflows and interdependencies.
 
-Concern | Architectural characteristics | Rating
-------- | ----------------------------- | ------
+Architectural characteristics | Rating
+------- | -----------------------------
 Overall cost | $
 Partitioning type | Domain
 Number of quanta | 1
@@ -583,8 +583,8 @@ Pipes, in this architecture, form the communication channel between filters. Eac
 * Handling error conditions: If an error occurs within a pipeline, it is often difficult to determine how to properly exit the pipeline and recover once the pipeline is started. For this reason, it’s important for architects to determine any possible fatal-error conditions within the pipeline before defining the architecture.
 * Pipeline shape: Each pipe has a contract representing the data (and possibly the corresponding types) that it sends to the next filter. Changing a contract between filters requires strict governance and testing to ensure that other filters receiving the contract don’t break. *(This presumes that each filter has a separate contract for its inputs and its outputs; if these are normalized into an accepted shape across the entire pipeline, this becomes less of a concern, at the tradeoff of being more generalized and possibly wasteful and/or slightly out-of-phase to the filters' purpose.)*
 
-Concern | Architectural characteristics | Rating
-------- | ----------------------------- | ------
+Architectural characteristics | Rating
+----------------------------- | ------
 Overall cost | $
 Partitioning type | Technical
 Number of quanta | 1
