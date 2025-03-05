@@ -556,6 +556,55 @@ Modular monolith architectures’ elasticity and scalability rate very low (one 
 Modular monolith architectures’ monolithic deployments don’t support fault tolerance. If one small part of the architecture causes an out-of-memory condition, the entire application unit crashes. Furthermore, as in most monolithic applications, overall availability is affected by the high mean time to recovery (MTTR), with startup times usually measured in minutes.
 
 ## Ch 12: Pipeline Architectural Style
+One of the fundamental styles in software architecture is the pipeline architecture (also known as the pipes and filters architecture). As soon as developers and architects decided to split functionality into discrete parts, this style of architecture followed. Developers in many functional programming languages will see parallels between language constructs and elements of this architecture. In fact, many tools that use the MapReduce programming model follow this basic topology.
+
+The topology of the pipeline architecture consists of two main component types, pipes and filters. Filters contain the system functionality and perform a specific business function, and pipes transfer data to the next filter (or filters) in the chain. They coordinate in a specific fashion, with pipes forming one-way, usually point-to-point communication between filters.
+
+The isomorphic “shape” of the pipeline architecture is thus a single deployment unit, with functionality contained within filters connected by unidirectional pipes. *(I disagree fundamentally with the idea that this is a single deployment unit; one of the most powerful points of variability here is the ability to independently version and deploy a filter anywhere along the pipeline without adjusting or affecting any of the other elements in the chain. Key requirement to being able to do that, though, is the agreement on a unified shape to the pipeline--in other words, we all agree on what we're sending and consuming.)*
+
+Filters are self-contained pieces of functionality that are independent from other filters. They are generally stateless, and should perform one task only. Composite tasks are typically handled by a sequence of filters rather than a single one. There are four types of filters in the pipeline architecture style:
+
+* Producer: The starting point of a process, producer filters are outbound only. They are sometimes called the source. A user interface and an external request to the system are both examples of producer filters.
+* Transformer: Transformer filters accept input, optionally perform a transformation on some or all of the data, then forward the data to the outbound pipe. Functional-programming advocates will recognize this feature as map. Transformer filters might, for example, enhance data, transform data, or perform some sort of calculation.
+* Tester: Tester filters accept input, test it according to one or more criteria, and then optionally produces output based on the test. Functional programmers will recognize this as similar to reduce. A Tester filter might check that all data is valid and entered correctly, or to act as a switch to determine if processing should move forward (for example, “don’t forward the data to the next filter if the order amount is less than five dollars”).
+* Consumer: The termination point for the pipeline flow, consumer filters sometimes persist the final result of the pipeline process to a database or display the final results on a UI screen.
+
+*(Technically, I can also think of a filter being a "splitter", passing data into two distinct pipelines from here, but still flowing data unidirectionally down the pipeline. If it incorporates testing as part of the splitter, it becomes a "valve".)*
+
+Pipes, in this architecture, form the communication channel between filters. Each pipe is typically unidirectional and point-to-point, accepting input from one source and directing output to another. Their payload can be any data format, but architects typically favor smaller amounts of data to enable high performance. If a filter (or group of filters) is deployed as a separate service in a distributed fashion, the pipes issue a unidirectional remote call using REST, messaging, streaming, or some other remote communication protocol. Whether their deployment topology is monolithic or distributed, pipes can be either synchronous or asynchronous. In monolithic deployments, architects use threads or embedded messaging for asynchronous communication to a filter.
+
+#### Common Risks
+
+* Overloading filters: The primary goal behind the pipeline architecture is to separate functionality into single-purpose filters, where each filter performs one specific action on the data and then hands it off to another filter for further processing. As such, one of its most common risks is overloading filters with too much responsibility. Good governance helps teams mitigate this risk by identifying the purpose behind each filter component.
+* Violation of the unidirectional flow: Another common risk with this architecture style is introducing bidirectional communication between filters. Pipes are meant to be unidirectional only, providing a clear separation of concerns between filters to avoid collaboration between them. If bidirectional communication turns out to be necessary, this is a good indication that the pipeline architecture might not be the right style to use, or that the filters' functionality isn’t demarcated correctly.
+* Handling error conditions: If an error occurs within a pipeline, it is often difficult to determine how to properly exit the pipeline and recover once the pipeline is started. For this reason, it’s important for architects to determine any possible fatal-error conditions within the pipeline before defining the architecture.
+* Pipeline shape: Each pipe has a contract representing the data (and possibly the corresponding types) that it sends to the next filter. Changing a contract between filters requires strict governance and testing to ensure that other filters receiving the contract don’t break. *(This presumes that each filter has a separate contract for its inputs and its outputs; if these are normalized into an accepted shape across the entire pipeline, this becomes less of a concern, at the tradeoff of being more generalized and possibly wasteful and/or slightly out-of-phase to the filters' purpose.)*
+
+ | Architectural characteristics | Rating
+-- | ----------------------------- | ------
+Overall cost | $
+Partitioning type | Technical
+Number of quanta | 1
+Simplicity | *****
+Modularity | **
+Maintainability | **
+Testability | ***
+Deployability | **
+Evolvability | ***
+Responsiveness | ***
+Scalability | *
+Elasticity | *
+Fault tolerance | *
+
+Overall cost, simplicity, and modularity are the primary strengths of the pipeline architecture style. Being monolithic, pipeline architectures don’t have the complexities associated with distributed architecture styles--they’re simple and easy to understand, and are relatively low cost to build and maintain. Architectural modularity is achieved through separating concerns between the various filter types and transformers: any filter can be modified or replaced without affecting the other filters. *(Again, this is a little subject to the uniformity of pipeline shape--if the filters each expect different inputs and outputs, then filters must decide on a reader-makes-right vs writer-makes-right strategy to align the outputs of one filter to the inputs of another. Technically, though, that could be solved via the introduction of a new filter, but that can add to the overall complexity of the pipeline as a whole.)*
+
+Deployability and testability, while only average, rate slightly higher than in the layered architecture due to the level of modularity filters can achieve. However, pipeline architectures are still typically monolithic, so their downsides include ceremony, risk, frequency of deployment, and completeness of testing. *(Again, not sure I buy the "typically monolithic" argument, but it depends I suppose on the degree implied in "typically".)*
+
+Elasticity and scalability rate very low (one star) in the pipeline architecture, primarily due to monolithic deployments. Implementing this architecture style as a distributed architecture using asynchronous communication can significantly improve these characteristics, but the trade-off is a blow to overall cost and simplicity. *(Multiple pipelines could be run in parallel, each handling different load, so I think scalability is greater than they imply here.)*
+
+Pipeline architectures don’t support fault tolerance because they are typically deployed as monolithic systems. If one small part of a pipeline architecture causes an out-of-memory condition to occur, the entire application unit is impacted and crashes. Furthermore, overall availability is affected by the high mean time to recovery (MTTR) common in most monolithic applications, with startup times measured in minutes. As with elasticity and scalability, implementing this architecture style as a distributed architecture using asynchronous communication can significantly improve fault tolerance, again paying the price with cost and complexity.
+
+Most of the low-scoring operational characteristics can be raised by making this a distributed architecture with asynchronous communication, where each filter is a separate deployment unit and the pipes are remote calls. However, doing so will negatively affect other attributes such as simplicity and cost, illustrating one of the classic trade-offs of software architecture.
 
 ## Ch 13: Microkernel Architectural Style
 
