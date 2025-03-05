@@ -3,6 +3,12 @@ tags=architecture, reading, book
 summary=Notes from the book
 ~~~~~~
 
+<!-- Let's use some MermaidJS for some diagrams here, shall we? -->
+<script type="module">
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+mermaid.initialize({ startOnLoad: true });
+</script>
+
 *(Mark Richards, Neal Ford; OReilly; ISBN 978-1-098-17545-0)* Notes from the Early Release as of 15 Feb 2025
 
 ## Ch 1: Introduction
@@ -316,7 +322,58 @@ Analyze modularity via cyclic dependencies
 
 ## Ch 7: The Scope of Architectural Characteristics
 
+Many of the outdated frameworks for determining architectural characteristics had a fatal flaw: assuming one set of architectural characteristics for the entire system. The scope of architectural characteristics is a useful measure for architects, especially in determining the most appropriate architecture style to use as a starting point for implementation. Failing to find a good measure of scope, we developed one. We call it architecture quantum.
+
+***Architectural Quanta and Granularity***: Component-level coupling isn’t the only thing that binds software together. Many business concepts bind parts of the system together semantically, creating *functional cohesion*. To design, analyze, and evolve software successfully, architects and developers must consider all the coupling points that could break. An *architecture quantum* is “the smallest part of the system that runs independently.” (Microservice: a service can run independently within the architecture, including its own data and other dependencies.) This:
+
+* *establishes the scope for a set of architectural characteristics*: Architects use the architecture quantum as a boundary delineating a set of architectural characteristics, particularly operational ones. Because it is independently deployable and has high functional cohesion (discussed next), the architecture quantum provides a useful measure of architecture modularity.
+* *independent deployment from other parts of the architecture*: For example, if an application uses a database, that database is part of the quantum, because the system won’t function without it. This requirement means that virtually all legacy systems that are deployed using a single database, by definition, form a quantum of one. However, in the microservices architecture style, each service includes its own database (part of the bounded context driving philosophy, described in detail in Chapter 18). This creates multiple quanta within that architecture, because each service has its own architectural characteristics scope.
+* *high functional cohesion*: Cohesion in component design refers to how unified the contained code is in its purpose. High functional cohesion implies that an architecture quantum does something purposeful. This distinction matters little in traditional monolithic applications with a single database, where the cohesion is essentially the entire system. However, in distributed architectures like event-driven or microservices, architects are more likely to design each service to match a single workflow (a bounded context), so that service would exhibit high functional cohesion.
+* *low-external-implementation static coupling*: The level of implementation coupling between architecture quanta should be low. This characteristic is also derived from the DDD philosophy of low coupling between bounded contexts. Quanta form the operational building blocks of architecture that sit one level of abstraction higher than components. They often overlap with service boundaries. This goal reflects architects’ general preference for loose coupling between different parts of the architecture. ***(Higher coupling is allowed for narrower scopes; the broader the scope, the looser the coupling should be.)***
+* *synchronous communication with other quanta*: Synchronous communication is unforgiving in distributed architectures. 
+
+Types of coupling:
+
+* ***Semantic coupling*** describes the natural coupling of the problem for which an architect is building a solution. For example, an order-processing application’s inherent coupling includes things like inventory, catalogs, shopping carts, customers, and sales. The nature of the problem that motivates building a software solution defines this coupling. Architects have few techniques that prevent changes to the domain from rippling out through the system: a change to the domain (and therefore the semantics) means we’re changing the requirements for the system. While architects can adapt to that, no magical architecture pattern prevents changing the core problem from affecting architecture.
+* ***Implementation coupling*** describes how an architect and team decide to implement particular dependencies. In an order-processing application, the team must consider a variety of constraints in setting domain boundaries. For example, should all the data reside in a single database, or should some of it be split apart for better scalability or availability? Should we build a monolith or a distributed architecture? The answers to these questions have little effect on the system’s semantic coupling, but greatly affect architectural decisions.
+* ***Static coupling*** refers to the “wiring” of an architecture—​how services depend upon one another. Two services are part of the same architecture quantum if they both depend on the same coupling point. For example, let’s say that two microservices, Catalog and Shipping, need to share address information, so they both create a dependency to a shared component. Because both services are coupled to that dependency, they are part of the same architecture quantum. Here’s an easy way to think about coupling in software architecture: two things are coupled if changing one might break the other. Static coupling defines the scope dependencies in an architecture. For example, if several services use the same relational database, they are part of the same quantum.
+* ***Dynamic coupling*** describes the forces involved when architecture quanta must communicate with each other. For example, when two services are running, they must communicate to form workflows and perform tasks within the system. Architects must consider the trade-offs when communicating between services in a distributed architecture.
+
+Flowchart:
+
+1. Choose architecture characteristics (1 set => Monolithic architecture, or more than 1 set => Distributed architecture)
+2. Choose quanta
+3. Determine persistence
+4. Determine communication styles between quanta
+
+*(Here they jump into the "Going Green" kata as an example of more-than-1 architecture characteristics)*
+
 ## Ch 8: Component-Based Thinking
+
+Module: collection of related code. *Logical components*: the building blocks of a system. Identifying/managing logical components is a part of *architectural thinking*, so much that we call this *component-based thinking*: seeing the structure of a system as a set of logical components, all interacting to perform certain business functions. It's at this level that an architect "sees" the system.
+
+Logical components in software architecture are usually manifested through a namespace or a directory structure containing the source code that implements that particular functionality. Typically, the leaf nodes of the directory structure or namespace containing source code represent the logical components in the architecture, and higher-level directories or namespace nodes represent the system’s domains and subdomains. 
+
+#### Logical vs Physical Architecture
+*(A little self-explanatory)* A logical architecture diagram doesn’t typically show a user interface, databases, services, or other physical artifacts. Rather, it shows the logical components and how they interact, which should match the directory structures and namespaces that organize the code. A physical architecture, on the other hand, includes such physical artifacts as services, user interfaces, databases, and so on. Physical architecture should closely represent one (or more) of the architectural styles documented.
+
+Generally, a system’s logical architecture is independent of its physical architecture. In other words, when creating a logical architecture, the focus is more on what the system does, how that functionality is demarcated, and how the functional parts of the system interact, rather than on its physical structure.
+
+Creating a logical architecture involves continuously identifying and restructuring logical components. Component identification works best as an iterative process. It involves producing candidate components, then refining them through a feedback loop:
+
+```
+flowchart LR
+    id1(identify initial core components)
+    id2(assign user stories to components)
+    id3(analyze roles and responsibility statements)
+    id4(analyze architecture characteristics)
+    id5(refactor or add components as needed)
+    id1 --> id2
+    id2 --> id3
+    id3 --> id4
+    id4 --> id5
+    id5 --> id2
+```
 
 # Part 2: Architecture Styles
 

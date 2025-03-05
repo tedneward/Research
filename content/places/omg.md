@@ -7,7 +7,14 @@ summary=An international (27 countries), membership-driven (230+ organizations) 
 
 [Catalog](https://www.omg.org/spec/):
 
+Some notation specifications
+
 * [Business Process Modeling Notation (BPMN)](http://www.bpmn.org/)
+* [Decision Model and Notation (DMN)](https://www.omg.org/dmn/)
+* [Case Management Model and Notation (CMMN)](https://www.omg.org/cmmn/)
+
+Other specs
+
 * [Common Object Request Broker Architecture (CORBA)](https://www.omg.org/spec/CORBA)
 * [Model-Driven Architecture (MDA)](https://www.omg.org/mda/index.htm)
 * [Meta Object Facility (MOF)](https://www.omg.org/mof/index.htm)
