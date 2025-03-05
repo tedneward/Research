@@ -371,7 +371,7 @@ flowchart LR
     id2(assign user stories to components)
     id3(analyze roles and responsibility statements)
     id4(analyze architecture characteristics)
-    id5(refactor or add components as needed)
+    id5(refactor as needed)
     id1 --> id2
     id2 --> id3
     id3 --> id4
@@ -393,7 +393,7 @@ flowchart LR
 
 4. **Analyzing architectural characteristics.** Some architectural characteristics, such as scalability, reliability, availability, fault tolerance, elasticity, and agility (the ability to respond quickly to change), may influence the size of a logical component.
 
-Restructuring components: Feedback is king. Architects must continually iterate on their component designs in collaboration with developers. Architects should expect to restructure components frequently throughout the lifecycle of a system or product–not only in greenfield systems, but in any that undergo frequent maintenance.
+5. **Refactor as needed.** Feedback is king. Architects must continually iterate on their component designs in collaboration with developers. Architects should expect to restructure components frequently throughout the lifecycle of a system or product–not only in greenfield systems, but in any that undergo frequent maintenance.
 
 #### Component Coupling
 The more coupled a system’s components are, the harder it is to maintain and test the system.
@@ -474,7 +474,86 @@ Fallcies of Distributed Computing
 
 ## Ch 10: Layered Architectural Style
 
+Also known as *n-tier*.
+
+Components within the layered architecture style are organized into logical horizontal layers, with each layer performing a specific role within the application (such as presentation logic or business logic). Although there are no specific restrictions in terms of the number and types of layers that must exist, most layered architectures consist of four standard layers: Presentation, Business, Persistence, and Database. Some architectures combine the Business and Persistence layers, particularly when the persistence logic (such as SQL or HSQL) is embedded within the Business layer components. Smaller applications may have only three layers, whereas larger and more complex business applications may contain five or more.
+
+Each layer has a specific role and responsibility, and forms an abstraction around the work that needs to be done to satisfy a particular business request. For example, the Presentation layer is responsible for handling all UI and browser communication logic, whereas the Business layer is responsible for executing specific business rules associated with the request. The Presentation layer doesn’t need to know or worry about how to get customer data; it only needs to display that information on a screen in a particular format. Similarly, the Business layer doesn’t need to be concerned about how to format customer data for display on a screen or even where that data is coming from; it only needs to get the data from the Persistence layer, perform business logic against it (such as calculating values or aggregating data), and pass that information up to the Presentation layer.
+
+This separation of concerns within the layered architecture style makes it easy to build effective role and responsibility models. Components within a specific layer are limited in scope, dealing only with the logic that pertains to that layer. For example, components in the Presentation layer only handle presentation logic, whereas components residing in the Business layer only handle business logic. This allows developers to leverage their particular technical expertise to focus on the technical aspects of the domain (such as presentation logic or persistence logic). The trade-off of this benefit, however, is a lack of overall holistic agility (the entire system’s ability to respond quickly to change).
+
+The layered architecture is a technically partitioned architecture (as opposed to domain-partitioned). This means, as you learned in Chapter 9, that components, by their technical role in the architecture (such as presentation or business) rather than by domain (such as customer). As a result, any particular business domain is spread throughout all of the layers of the architecture. For example, the domain of “customer” is contained in the Presentation layer, Business layer, Rules layer, Services layer, and Database layer, making it difficult to apply changes to that domain. As a result, a DDD approach does not fit particularly well with the layered architecture style.
+
+Each layer can be either closed or open. If a layer is closed, then as a request moves from the top layer down to the bottom layer, the request cannot skip any layers. It must go through the layer immediately beneath to get to the next layer. It would be much faster and easier for any layer to access a lower layer directly for simple retrieval requests, bypassing any unnecessary layers (what used to be known in the early 2000s as the Fast-Lane Reader pattern). For this to happen, the intermediate layers would have to be open, allowing requests to bypass other layers. Which is better—open layers or closed layers? The answer to this question lies in a key concept known as *layers of isolation*: changes made in one layer of the architecture generally don’t impact or affect components in other layers, providing the contracts between those layers remain unchanged. Each layer is independent of the other layers, with little or no knowledge of their inner workings. However, to support layers of isolation, layers involved with the major flow of a request have to be closed. If the Presentation layer can access the Persistence layer directly, then changes made to the Persistence layer would impact both the Business layer and the Presentation layer, producing a very tightly coupled application with layer interdependencies between components. This makes a layered architecture very brittle, as well as difficult and expensive to change. Leveraging the concept of open and closed layers helps define the relationship between architecture layers and request flows. It also provides developers with the necessary information and guidance to understand layer-access restrictions within the architecture. Failure to document or properly communicate which layers in the architecture are open and closed (and why) usually results in tightly coupled, brittle architectures that are very difficult to test, maintain, and deploy.
+
+**Architecture Sinkhole:** This antipattern occurs when requests are simply passed through from layer to layer, with no business logic performed. For example, suppose the Presentation layer responds to a user’s simple request to retrieve basic customer data (such as name and address). The Presentation layer passes the request to the Business layer, which does nothing but pass the request on to the Rules layer, which in turn does nothing but pass it on to the Persistence layer, which then makes a simple SQL call to the Database layer to retrieve the customer data. The data is then passed all the way back up the stack with no additional processing or logic to aggregate, calculate, apply rules to, or transform any of it. This results in unnecessary object instantiation and processing, draining both memory consumption and performance. The key to determining whether this antipattern is at play is to analyze the percentage of requests that fall into this category. The 80-20 rule is usually a good practice to follow. For example, it is acceptable if only 20 percent of the requests are sinkholes; however, if it’s 80 percent, that’s a good indicator that the layered architecture is not the correct architecture style for the problem domain. Another approach to solving the Architecture Sinkhole antipattern is to make all the layers in the architecture open--realizing, of course, that the trade-off is increased difficulty in managing change.
+
+
+XX | Architectural characteristics | Rating
+-- | ----------------------------- | ------
+Overall cost | $
+Partitioning type | Technical
+Number of quanta | 1
+Simplicity | *****
+Modularity | *
+Maintainability | *
+Testability | **
+Deployability | *
+Evolvability | *
+Responsiveness | ***
+Scalability | *
+Elasticity | *
+Fault tolerance | *
+
+Overall cost and simplicity are the primary strengths of the layered architecture style. Being monolithic, layered architectures aren’t as complex as distributed architecture styles; they’re simpler, easier to understand, and relatively low-cost to build and maintain. Use caution, though, because these ratings diminish quickly as the monolithic layered architecture gets bigger and consequently more complex.
+
+Neither deployability and testability rate well for this architecture style. Deployability is low because deployments are high risk, infrequent, and involve a lot of ceremony and effort. For example, to make a simple three-line change to a class file, the entire deployment unit must be redeployed–introducing the potential for changes to the database, configuration, or other aspects of the code to sneak in alongside the original change. Furthermore, this simple three-line change is usually bundled with dozens of other changes, each of which further increases the risk and frequency of deployments. The low testability rating also reflects this scenario; with a simple three-line change, most developers are not going to spend hours executing the entire regression test suite for a simple three-line change (assuming they even have such a test suite). We give testability a two-star rating (rather than one star) because this style offers the ability to mock or stub components or even an entire layer, which eases the overall testing effort.
+
+The engineering characteristics of the layered architecture style reflect the dynamic mentioned above: they all start well, but degrade as the size of the code base grows.
+
+Elasticity and scalability rate very low (one star) for the layered architecture, primarily due to its monolithic deployments and lack of architectural modularity. Although it is possible to make certain functions within a monolith scale more than other functions, this effort usually requires very complex design techniques for which this architecture isn’t well suited, such as multithreading, internal messaging, and other parallel processing practices. However, because a layered system’s architecture quantum is always 1 (due to its monolithic UI and database and its backend processing), applications can only scale to a certain point.
+
+Architects can achieve high responsiveness in a layered architecture with careful design, and increase it further through techniques such as caching and multithreading. We give this style three stars overall, because it does suffer from a lack of inherent parallel processing, as well as from closed layering and the Architecture Sinkhole antipattern.
+
 ## Ch 11: Modular Monolith Architectural Style
+
+As the name suggests, the modular monolith architecture style is a monolithic architecture. As such, it’s deployed as a single unit of software: a web archive (WAR) file, a single assembly in .NET, an enterprise archive file (EAR) in the Java platform, and so on. Because modular monolith is considered a domain-partitioned architecture (one organized by business domains rather than technical capabilities), its isomorphic shape is defined as a single deployment unit with functionality grouped by domain area.
+
+#### Common Risks
+As with any monolithic system, the primary risk with the modular monolith architectural style is that it can get too big to properly maintain, test, and deploy. Monolithic architectures in and of themselves aren’t bad; it’s when they get too big that problems start to occur. What “too big” means varies from system to system, but here are some of the warning signs that the system might be too big:
+
+* Changes take too long to make.
+* When one area of the system is changed, other areas unexpectedly break.
+* Team members get in each other’s way when applying changes.
+* It takes too long for the system to start up.
+
+Another risk is going overboard with code reuse. Code reuse and sharing are a necessary part of software development, but in this architecture style, too much code reuse blurs the module boundaries, leading the architecture into the risky territory of the unstructured monolith: a monolithic architecture with such highly interdependent code that it cannot be unraveled.
+
+Too much intermodule communication is another risk in this architectural style. Ideally, modules should be independent and self-contained. As we’ve noted, it’s normal (and sometimes necessary) for some modules to communicate with others, particularly within a complex workflow. However, if there’s too much intercommunication between modules, it’s a good indication that the domains may have been ill-defined in the first place. In such cases, it’s worth putting additional thought into redefining the domains to accommodate complex workflows and interdependencies.
+
+XX | Architectural characteristics | Rating
+-- | ----------------------------- | ------
+Overall cost | $
+Partitioning type | Domain
+Number of quanta | 1
+Simplicity | *****
+Modularity | **
+Maintainability | **
+Testability | **
+Deployability | **
+Evolvability | **
+Responsiveness | ****
+Scalability | *
+Elasticity | *
+Fault tolerance | *
+
+Overall cost, simplicity, and modularity are the primary strengths of the modular monolith architecture style. Being monolithic in nature, these architectures don’t have the complexities associated with distributed architecture styles. They’re simpler and easier to understand, and relatively low-cost to build and maintain. Architectural modularity is achieved through the separation of concerns between the various modules, representing domains and subdomains.
+
+Deployability and testability, while only two stars, rate slightly higher in modular monolith than the layered architecture due to its level of modularity. That said, this architecture style is still a monolith: as such, ceremony, risk, frequency of deployment, and completeness of testing negatively impact these scores.
+
+Modular monolith architectures’ elasticity and scalability rate very low (one star), primarily due to monolithic deployments. Although it is possible to make certain functions within a monolith scale more than others, this effort usually requires very complex design techniques (such as multithreading, internal messaging, and other parallel-processing practices) for which this architecture isn’t well suited.
+
+Modular monolith architectures’ monolithic deployments don’t support fault tolerance. If one small part of the architecture causes an out-of-memory condition, the entire application unit crashes. Furthermore, as in most monolithic applications, overall availability is affected by the high mean time to recovery (MTTR), with startup times usually measured in minutes.
 
 ## Ch 12: Pipeline Architectural Style
 
