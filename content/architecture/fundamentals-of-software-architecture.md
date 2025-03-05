@@ -413,6 +413,65 @@ The more coupled a system’s components are, the harder it is to maintain and t
 
 ## Ch 9: Foundations
 
+An architecture's style describes several different characteristics:
+
+* Component topology
+* Physical architecture
+* Deployment
+* Communication style
+* Data topology
+
+Fundamental patterns
+
+* ***Big Ball of Mud*** (Foote/Yoder): "A Big Ball of Mud is a haphazardly structured, sprawling, sloppy, duct-tape-and-baling-wire, spaghetti-code jungle. These systems show unmistakable signs of unregulated growth, and repeated, expedient repair. Information is shared promiscuously among distant elements of the system, often to the point where nearly all the important information becomes global or duplicated. The overall structure of the system may never have been well defined. If it was, it may have eroded beyond recognition. Programmers with a shred of architectural sensibility shun these quagmires. Only those who are unconcerned about architecture, and, perhaps, are comfortable with the inertia of the day-to-day chore of patching the holes in these failing dikes, are content to work on such systems." Generally one to avoid, usually the result of neglect and/or failure to achieve vision/insight.
+* ***Unitary Architecture***: "In the beginning, there was only the computer, and software ran on it. The two started as a single entity, then split as they evolved and the need grew for more sophisticated capabilities."
+* ***Client/Server***: Comes in several flavors
+
+    * Desktop and database server. Old-school early-PC style.
+    * Browser and web server.
+    * Single-page Javascript Applications.
+    * Three-tier. *(Honestly I think three-tier emerged long before the CORBA/DCOM wars, but maybe this is splitting hairs.)*
+
+#### Architecture Partitioning
+Layered monolith vs modular monolith.
+
+An interesting side effect of layered architecture’s predominance relates to how companies often organized the seating in their physical offices according to different project roles. Because of Conway’s Law, when using a layered architecture, it makes some sense to have all the backend developers sit together in one department, the DBAs in another, the presentation team in another, and so on.
+
+Organizing architecture based on its technical capabilities, like the layered monolith style does, represents technical top-level partitioning (Presentation, Business Rules, Service, Persistence):
+
+* Clearly separates customization code.
+* Aligns more closely to the layered architecture pattern.
+* Higher degree of global coupling. Changes to the Common or Local component will likely affect all the other components.
+* Developers may have to duplicate domain concepts in both the Common and Local layers.
+* Typically, higher coupling at the data level. In a system like this, the application architects and the data architects would likely collaborate to create a single database, including customization and domains. That in turn would create difficulties in untangling the data relationships later, if the architects eventually want to migrate this architecture to a distributed system.
+
+Domain top-level partitioning: grouping based on domain concepts (CatalogCheckout, Reporting, ShipToCustomer, ...) rather than technical purpose :
+
+* Modeled more closely on how the business functions rather than on an implementation detail
+* Easier to build cross-functional teams around domains
+* Aligns more closely to the modular monolith and microservices architecture styles
+* Message flow matches the problem domain
+* Easy to migrate data and components to a distributed architecture
+* Customization code appears in multiple places
+
+Monolithic architecture styles:
+
+* Layered
+* Pipeline
+* Microkernel
+
+Distributed:
+
+* Service-based
+* Event-driven
+* Space-based
+* Service-oriented
+* Microservices
+
+*(Oh, I don't like this breakdown much, though I don't have one better to offer yet. Pipelines can definitely be distributed, and service-based, service-oriented, and microservices feels like very fine-lined segregation.)*
+
+Fallcies of Distributed Computing
+
 ## Ch 10: Layered Architectural Style
 
 ## Ch 11: Modular Monolith Architectural Style
@@ -434,6 +493,68 @@ The more coupled a system’s components are, the harder it is to maintain and t
 ## Ch 19: Choosing the Appropriate Architectural Style
 
 ## Ch 20: Architectural Patterns
+
+#### Reuse: Separating domain and operational coupling
+One of the design goals of microservices architectures is a high degree of decoupling, often manifested in the advice “Duplication is preferable to coupling.”
+
+Hexagonal (Ports & Adapters) vs Sidecar and Service Mesh
+
+Sidecar
+
+Advantages | Disadvantages
+---------- | --------------
+Offers a consistent way to create isolated coupling | Must implement a sidecar per platform
+Allows consistent infrastructure coordination | Sidecar component may grow large/complex
+Ownership per team, centralized, or some combination | Implementation “drift” between independent teams
+
+#### Communication: Orchestration vs Choreography
+Orchestration (mediation) is centralized invocation of dependencies; choreography is decentralized, each dependency passing on to the next
+
+Orchestration:
+
+* *Centralized workflow*:As complexity goes up, architects benefit from utilizing a unified component for state, behavior, and boundary conditions.
+* *Error handling*: Error handling, a major part of many domain workflows, is assisted by having a state owner for the workflow.
+* *Recoverability*: Because an orchestrator monitors the state of the workflow, if one or more domain services suffers from a short-term outage, the architect can add logic to retry.
+* *State management*: Having an orchestrator makes the state of the workflow queryable, providing a place for other workflows and other transient states.
+* *Responsiveness*: All communication must go through the orchestrator, which has the potential to create a throughput bottleneck that can harm responsiveness.
+* *Fault tolerance*: While orchestration enhances recoverability for domain services, it creates a potential single point of failure for the workflow. This can be addressed with redundancy, but that also adds more complexity.
+* *Scalability*: This communication style doesn’t scale as well as choreography because the orchestrator adds more coordination points, which cuts down on potential parallelism.
+* *Service coupling*: Having a central orchestrator creates tighter coupling between it and the domain components, which is sometimes necessary but is frowned upon in microservices architectures.
+
+Choreography:
+
+* *Responsiveness*: This communication style has fewer single chokepoints, thus offering more opportunities for parallelism.
+* *Scalability*: The lack of coordination points like orchestrators allows more independent scaling.
+* *Fault tolerance*: The lack of a single orchestrator allows the architect to use multiple instances to enhance fault tolerance. They could, of course, create multiple orchestrators, but because all communication must go through them, multiple orchestrators are more sensitive to the workflow’s overall level of fault tolerance.
+* *Service decoupling*: No orchestrator means less coupling.
+* *Distributed workflow*: Having no workflow owner makes managing errors and other boundary conditions more difficult.
+* *State management*: Having no centralized state holder hinders ongoing state management.
+* *Error handling*: Error handling is more difficult without an orchestrator because the domain services must have more workflow knowledge.
+* *Recoverability*: Recoverability becomes more difficult without an orchestrator to attempt retries and other remediation efforts.
+
+CQRS: CQRS isolates writes into one datastore (usually a database; sometimes another infrastructure, such as a durable message queue), which synchronizes the data to another database (usually asynchronously), which services read requests. By separating reads and writes, architects can isolate different architectural characteristics depending on the data. This also allows them to use different data models for each database if necessary. CQRS is a good example of a data communication pattern that facilitates differing architectural characteristics for different types of data capabilities, security concerns, or other factors that benefit from physical separation.
+
+*(No pros/cons list for CQRS? Fie, gentlmen, fie!)*
+
+### Infrastructure
+
+Event-driven architecture uses events to communicate between services, so event handlers need to subscribe to the proper services to build the workflow. Event handlers are implemented by brokers, which are part of the infrastructure of the architecture. In EDA, the topic or queue is typically owned by the sender. If a system uses only one broker for all communication, all of its services depend on a single part of the infrastructure; potential failure point. Alternative is to treat infrastructure in a similar manner to the granularity of domains; each group of related services shares a broker, reflecting the architecture's overall domain partitioning.
+
+Single-broker:
+
+* Centralized discovery
+* fault tolerance
+* Least possible infrastructure
+* throughput limits
+
+Domain-broker:
+
+* Better isolation
+* More difficult discovery of queues/topics
+* Matches domain boundaries
+* more infrastructure = more expensive
+* More scalable
+* More moving parts to maintain
 
 # Part 3: Techniques and Soft Skills
 
