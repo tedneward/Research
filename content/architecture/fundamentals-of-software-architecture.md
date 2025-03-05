@@ -365,7 +365,7 @@ Generally, a system’s logical architecture is independent of its physical arch
 
 Creating a logical architecture involves continuously identifying and restructuring logical components. Component identification works best as an iterative process. It involves producing candidate components, then refining them through a feedback loop:
 
-```
+<pre class="mermaid">
 flowchart LR
     id1(identify initial core components)
     id2(assign user stories to components)
@@ -377,7 +377,7 @@ flowchart LR
     id3 --> id4
     id4 --> id5
     id5 --> id2
-```
+</pre>
 
 1. **Identify core components.** One mistake many software architects make is spending too much effort trying to get the initial logical components perfect the first time. A better approach is to make a “best guess” as to what the initial core components might look like, based on the core functionalities of the system, and refine them through the workflow above. In other words, it’s better to iterate over the logical components as you learn more about the system than to try to get it all perfect the first time, when you know least about the system and its specific requirements.
 
