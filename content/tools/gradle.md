@@ -3,7 +3,9 @@ tags=tool, jvm, android, build
 summary=Build tool for JVM and Android environments using Groovy (later Kotlin) as build language.
 ~~~~~~
 
-[Website](https://gradle.org/) | [Source](https://github.com/gradle/gradle)
+[Website](https://gradle.org/) | [Source](https://github.com/gradle/gradle) | [Plugin Portal](https://plugins.gradle.org/)
+
+Docs: [User Guide](https://docs.gradle.org/current/userguide/userguide.html) | [DSL Reference](https://docs.gradle.org/current/dsl/) | [Forums](https://discuss.gradle.org/)
 
 [Introduction into C++ Builds with Gradle](https://thoughts-on-cpp.com/2019/04/10/introduction-into-c-builds-with-gradle/)
 
@@ -58,13 +60,9 @@ BUILD SUCCESSFUL in 843ms
 1 actionable task: 1 executed
 ```
 
----
-
-# Awesome Gradle
-
 ## Plugins
 
-> Notice: in the following descriptions, "Official plugin" means that it's provided as a builtin plugin by Gradle.
+> "Official plugin" means that it's provided as a builtin plugin by Gradle.
 
 ### Language
 
@@ -255,6 +253,22 @@ BUILD SUCCESSFUL in 843ms
 - [palantir/gradle-docker](https://github.com/palantir/gradle-docker) - Build and push Docker images.
 - [Transmode/gradle-docker](https://github.com/Transmode/gradle-docker) - Build Docker images.
 
+---
+
+## Customizing
+
+### Custom Task inside the build script
+
+
+### Custom Task compiled as part of the build
+
+
+### Custom Task in a standalone JAR
+
+
+
+---
+
 ## Boilerplates
 
 - [android-gradle-template](https://github.com/nenick/android-gradle-template) - Template project for developing Android app.
@@ -264,13 +278,3 @@ BUILD SUCCESSFUL in 843ms
 
 ## Resources
 
-### General Resources
-
-- [GitHub Repository](https://github.com/gradle/gradle)
-- [Gradle Forums](https://discuss.gradle.org/)
-- [Gradle Plugin Portal](https://plugins.gradle.org/)
-
-### Official Documentation
-
-- [User Guide](https://docs.gradle.org/current/userguide/userguide.html)
-- [DSL Reference](https://docs.gradle.org/current/dsl/)
