@@ -13,3 +13,5 @@ A curated set of user interface interactions, effects, widgets, and themes built
 
 # jQuery Mobile -- No longer supported
 [Website](https://jquerymobile.com/) | [Source](https://github.com/jquery/jquery-mobile)
+
+* [jQuery Fundamentals](http://jqfundamentals.com) - Bocoup (HTML)

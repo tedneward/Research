@@ -25,7 +25,7 @@ Official standard name of the language originally appearing in browsers. "Javasc
 * JVM: Kotlin: [Reeva](https://github.com/ReevaJS/reeva)
 * Rust: [Deno](https://github.com/denoland/deno)
 * Rust: [Boa](https://github.com/boa-dev/boa)
-* Zig: [Bun](https://bun.sh/) ([Source](https://github.com/oven-sh/bun)): a fast all-in-one JavaScript runtime, written in [Zig](/languages/zig).
+* Zig: [Bun](https://bun.sh/) ([Source](https://github.com/oven-sh/bun)): a fast all-in-one JavaScript runtime
 
 ## Implementation-related
 
@@ -84,29 +84,186 @@ To any JS engine (not direct FFI)
 
 ## Reading
 
-* [Language learnings](https://github.com/imteekay/programming-language-research/tree/master/language-learning/javascript)
-* [JavaScript Promises... in Wicked Detail](https://mattgreer.dev/articles/promises-in-wicked-detail/)
-* [SICP in ECMAScript](../sicpjs.pdf); see also [js-slang](https://github.com/source-academy/js-slang), implementations of the Source languages, which are small sublanguages of JavaScript designed for SICP JS
+* [`SingleEscapeCharacter`](https://262.ecma-international.org/13.0/#prod-SingleEscapeCharacter)
+* [Airbnb JavaScript Style Guide](https://airbnb.io/javascript/) - Airbnb (HTML)
+* [Automatic semicolon insertions in JavaScript](https://articles.wesionary.team/automatic-semicolon-insertions-in-javascript-best-practices-c49ed8222e12)
+* [Basic JavaScript for the impatient programmer](http://www.2ality.com/2013/06/basic-javascript.html) - Dr. Axel Rauschmayer (HTML)
+* [Book of Modern Frontend Tooling](https://github.com/tooling/book-of-modern-frontend-tooling) - Various (HTML)
+* [Building Front-End Web Apps with Plain JavaScript](https://web-engineering.info/JsFrontendApp-Book) - Gerd Wagner (HTML,PDF)
+* [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript) - Ryan McDermott (HTML)
 * [Code as Data](../code-as-data)
 * [Create Your Own JavaScript Runtime](https://www.youtube.com/watch?v=ynNDmp7hBdo&ab_channel=ErickWendel)
+* [Crockford's JavaScript](http://www.crockford.com/javascript/) - Douglas Crockford (HTML)
+* [Deep JavaScript: Theory and techniques](https://exploringjs.com/deep-js) - Dr. Axel Rauschmayer (HTML)
+* [Designing Scalable JavaScript Applications](https://www.manning.com/books/designing-scalable-javascript-applications) - Emmit Scott (PDF+livebook)
+* [Dev Docs](https://devdocs.io/javascript/) - Various (HTML)
 * [Ectype - bringing type safety (and more!) to vanilla JavaScript](https://www.youtube.com/watch?v=vyjHRlQrVSA&ab_channel=StrangeLoopConference)
+* [Eloquent JavaScript 3rd edition](http://eloquentjavascript.net) - Marijn Haverbeke (HTML, PDF, EPUB, MOBI)
+* [Empty Statement](https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-empty-statement)
+* [Exploring ES6](http://exploringjs.com/es6/) - Dr. Axel Rauschmayer (HTML)
+* [From Research Prototypes to Continuous Integration: Guiding the Design and Implementation of JavaScript](https://blog.sigplan.org/2023/01/12/from-research-prototypes-to-continuous-integration-guiding-the-design-and-implementation-of-javascript)
+* [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml) - Aaron Whyte, Bob Jervis, Dan Pupius, Erik Arvidsson, Fritz Schneider, & Robby Walker (HTML)
+* [Human JavaScript](http://read.humanjavascript.com/ch01-introduction.html) - Henrik Joreteg (HTML)
 * [Implementing one feature set in two JavaScript engines](https://www.youtube.com/watch?v=V1Q9iqxhfgU&ab_channel=WebEnginesHackfest)
+* [JavaScript Allongé](https://leanpub.com/javascript-allonge/read) - Reginald Braithwaite (HTML)
 * [JavaScript and C++ in Node.js core](https://www.youtube.com/watch?v=GrgMT5zMgF4&ab_channel=NearForm)
-* [Node.js startup performance](https://www.youtube.com/watch?v=G36lrPrF09c&ab_channel=NearForm)
+* [JavaScript Bible](http://media.wiley.com/product_ancillary/28/07645334/DOWNLOAD/all.pdf) - Danny Goodman (PDF)
+* [JavaScript Challenges Book](https://tcorral.github.io/javascript-challenges-book/) - Tomás Corral Casas (HTML)
+* [JavaScript Closures](http://jibbering.com/faq/notes/closures)
+* [JavaScript Enlightenment](http://www.javascriptenlightenment.com) - Cody Lindley (HTML)
+* [JavaScript ES6 and beyond](https://github.com/AlbertoMontalesi/JavaScript-es6-and-beyond-ebook) - Alberto Montalesi (PDF, epub)
+* [JavaScript For Cats](http://jsforcats.com) - Maxwell Ogden (HTML)
+* [JavaScript for Impatient Programmers (ES2020 edition)](https://exploringjs.com/impatient-js/toc.html) - Dr. Axel Rauschmayer (HTML)
+* [JavaScript from ES5 to ESNext](https://flaviocopes.com/page/es5-to-esnext/) - Flavio Copes (PDF, EPUB, Kindle) *(email address requested)*
+* [JavaScript Fundamentals, Plus a Dash Of JQuery - for dinner ladies](http://nicholasjohnson.com/javascript-book/) - Nicholas Johnson (HTML)
+* [JavaScript Garbage Collector](https://javascript.info/garbage-collection)
+* [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/) Maintained by Tim Ruffles (HTML)
+* [JavaScript Interview #35](https://gumroad.com/l/javascript-interview-35) - Coderslang Master (PDF, email address *requested*, not required)
+* [JavaScript Memory management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_management)
+* [JavaScript Notes for Professionals](https://goalkicker.com/JavaScriptBook/) - Compiled from StackOverflow documentation (PDF)
+* [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/) - Shi Chuan (HTML)
+* [JavaScript Promises... in Wicked Detail](https://mattgreer.dev/articles/promises-in-wicked-detail/)
+* [JavaScript Spessore](https://web.archive.org/web/20160325064800/https://leanpub.com/javascript-spessore/read) - Reginald Braithwaite (HTML)
+* [JavaScript Static Analysis for Evolving Language Specifications](https://plrg.korea.ac.kr/assets/data/publication/thesis22-park.pdf)
+* [JavaScript Succinctly](https://www.syncfusion.com/resources/techportal/ebooks/javascript) - Cody Lindley (PDF, Kindle; email address *requested*, not required)
+* [JavaScript the Right Way](https://github.com/braziljs/js-the-right-way) - William Oliveira & Allan Esquina (HTML)
+* [JS Robots](https://web.archive.org/web/20201029045339/http://markdaggett.com/images/ExpertJavaScript-ch6.pdf) - Mark Daggett (PDF) *(:card_file_box: archived)*
+* [Language learnings](https://github.com/imteekay/programming-language-research/tree/master/language-learning/javascript)
+* [Leaflet Tips and Tricks: Interactive Maps Made Easy](https://leanpub.com/leaflet-tips-and-tricks/read) - Malcolm Maclean (HTML)
+* [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/) - Addy Osmani (HTML)
+* [Let's Learn ES6](https://bubblin.io/cover/let-s-learn-es6-by-ryan-christiani#frontmatter) - Ryan Christiani (Superbook format)
+* [Managing Space and Time with JavaScript - Book 1: The Basics](http://www.noelrappin.com) - Noel Rappin (dead link)
+* [Marionette Exposé: Learn to write modular Javascript applications using Backbone Marionette and RequireJS/AMD](https://leanpub.com/marionetteexpose) - Jack Killilea  (HTML, PDF, EPUB, MOBI; Leanpub account or valid email requested)
+* [Mozilla Developer Network's JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) - Mozilla Developer Network contributors (HTML)
+* [Neural Networks with JavaScript Succinctly](https://www.syncfusion.com/ebooks/neural-networks-with-javascript-succinctly) - James McCaffrey (PDF, EPUB, MOBI)
+* [Oh My JS](https://web.archive.org/web/20150317231950/https://leanpub.com/ohmyjs/read) - Azat Mardanov (HTML)
+* [Patterns For Large-Scale JavaScript Application Architecture](http://addyosmani.com/largescalejavascript/) - Addy Osmani (HTML)
+* [Practical Modern JavaScript](https://github.com/mjavascript/practical-modern-javascript) - Nicolas Bevacqua (HTML)
+* [Professor Frisby’s Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/content/) - Brian Lonsdorf (HTML)
+* [Relation of Garbage Collector and Closure in JavaScript](https://www.geeksforgeeks.org/relation-of-garbage-collector-and-closure-in-javascript)
+* [Robust Client-Side JavaScript](https://molily.de/robust-javascript/) - Matthias Schäfer (HTML, EPUB)
+* [SICP in ECMAScript](../sicpjs.pdf); see also [js-slang](https://github.com/source-academy/js-slang), implementations of the Source languages, which are small sublanguages of JavaScript designed for SICP JS
+* [Single page apps in depth](http://singlepageappbook.com) - Mixu (HTML)
+* [Speaking JavaScript](http://speakingjs.com/es5/) - Dr. Axel Rauschmayer
 * [Static Hermes: the Next Generation of Hermes](https://www.youtube.com/watch?v=q-xKYA0EO-c&ab_channel=CallstackEngineers)
 * [TC39 – From the proposal to ECMAScript - Step by Step](https://www.youtube.com/watch?v=ZheFIz4FhXo&ab_channel=FestDevConference)
-* [`SingleEscapeCharacter`](https://262.ecma-international.org/13.0/#prod-SingleEscapeCharacter)
-* [Automatic semicolon insertions in JavaScript](https://articles.wesionary.team/automatic-semicolon-insertions-in-javascript-best-practices-c49ed8222e12)
-* [Deep JavaScript](https://exploringjs.com/deep-js/toc.html)
-* [Empty Statement](https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-empty-statement)
-* [From Research Prototypes to Continuous Integration: Guiding the Design and Implementation of JavaScript](https://blog.sigplan.org/2023/01/12/from-research-prototypes-to-continuous-integration-guiding-the-design-and-implementation-of-javascript)
-* [JavaScript Closures](http://jibbering.com/faq/notes/closures)
-* [JavaScript Garbage Collector](https://javascript.info/garbage-collection)
-* [JavaScript Memory management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_management)
-* [JavaScript Static Analysis for Evolving Language Specifications](https://plrg.korea.ac.kr/assets/data/publication/thesis22-park.pdf)
-* [Relation of Garbage Collector and Closure in JavaScript](https://www.geeksforgeeks.org/relation-of-garbage-collector-and-closure-in-javascript)
-* [V8: full compiler](https://jayconrod.com/posts/51/a-tour-of-v8--full-compiler)
-* [V8: Garbage Collection](https://jayconrod.com/posts/55/a-tour-of-v8-garbage-collection)
+* [The JavaScript Beginner's Handbook](https://flaviocopes.com/page/javascript-handbook/) - Flavio Copes (PDF, EPUB, Kindle) *(email address requested)*
+* [The JavaScript Tutorial](http://javascript.info) - Ilya Kantor (HTML)
+* [The JavaScript Way](https://github.com/bpesquet/thejsway) - Baptiste Pesquet
+* [The Problem with Native JavaScript APIs](https://www.oreilly.com/programming/free/native-javascript-apis.csp) - Nicholas C. Zakas (PDF, email address *requested*)
+* [Thinking in JavaScript](https://www.amazon.com/Thinking-JavaScript-Aravind-Shenoy-ebook/dp/B00JUI6LUQ) - Aravind Shenoy (Kindle)
+* [Understanding ECMAScript 6](https://leanpub.com/understandinges6/read) - Nicholas C. Zakas (HTML)
+* [Understanding JavaScript OOP](http://robotlolita.me/2011/10/09/understanding-javascript-oop.html) - Quil (HTML)
+* [Understanding the DOM — Document Object Model](https://www.digitalocean.com/community/books/understanding-the-dom-document-object-model-ebook) - Tania Rascia (PDF, EPUB)
+* [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) - Kyle Simpson (HTML, PDF, EPUB, MOBI)
+
+
+#### Aurelia
+
+* [Beginning Aurelia](https://leanpub.com/beginning-of-aurelia) - behzad  *(Leanpub account or valid email requested)*
+
+
+#### Backbone.js
+
+* [A pragmatic guide to Backbone.js apps](http://pragmatic-backbone.com)
+* [Backbone Tutorials: Beginner, Intermediate and Advanced](https://leanpub.com/backbonetutorials) - Thomas Davis   *(Leanpub account or valid email requested)*
+* [Backbonejs Tutorials](https://cdnjs.com/libraries/backbone.js/tutorials/)
+* [Building Single Page Web Apps with Backbone.js](https://singlepagebook.supportbee.com) (:construction: *in process*)
+* [Developing Backbone.js Applications](http://addyosmani.github.io/backbone-fundamentals/)
+* [Getting Started with Backbone.js](http://net.tutsplus.com/tutorials/javascript-ajax/getting-started-with-backbone-js/)
+* [How to share Backbone.js models with node.js](http://amirmalik.net/2010/11/27/how-to-share-backbonejs-models-with-nodejs)
+
+
+#### Booty5.js
+
+* [The Booty5 HTML5 Game Maker Manual](http://booty5.com/booty5-free-html-game-maker-e-book-manual/)
+
+
+#### D3.js
+
+* [D3 Tips and Tricks](https://leanpub.com/D3-Tips-and-Tricks/read) - Malcolm Maclean
+* [Dashing D3.js Tutorial](https://www.dashingd3js.com/d3-tutorial)
+* [Interactive Data Visualization with D3](http://alignedleft.com/tutorials/d3)
+
+
+#### Dojo
+
+* [Dojo: The Definitive Guide](https://www.oreilly.com/library/view/dojo-the-definitive/9780596516482/) - Matthew A. Russell
+
+
+#### Electron
+
+* [Electron Succinctly, Syncfusion](https://www.syncfusion.com/succinctly-free-ebooks/electron-succinctly) (PDF, Kindle) (email address requested, not required)
+
+
+#### Ember.js
+
+* [AngularJs vs EmberJs](https://angularjs-emberjs-compare.bguiz.com) - Brendan Graetz (HTML, [PDF, EPUB, Kindle](https://leanpub.com/angularjs-emberjs-compare)) (Leanpub account / email address *not required*)
+* [DockYard Ember.js Style Guide](https://github.com/DockYard/styleguides/blob/master/engineering/ember.md)
+* [Ember App with RailsApi](https://dockyard.com/blog/ember/2013/01/07/building-an-ember-app-with-rails-api-part-1)
+* [Ember.js - Getting started](https://guides.emberjs.com/release/)
+* [Vic Ramon's Ember Tutorial](http://ember.vicramon.com)
+* [yoember.com](https://yoember.com)
+
+
+#### Express.js
+
+* [Express.js Guide](https://web.archive.org/web/20140621124403/https://leanpub.com/express/read) - Azat Mardanov
+* [The Express.js Handbook](https://flaviocopes.com/page/express-handbook/) - Flavio Copes (HTML, PDF) *(email required for PDF)*
+
+
+#### Fastify
+
+* [Fastify - Latest Documentation](https://www.fastify.io/docs/latest) (HTML)
+
+
+#### Ionic
+
+* [Ionic 4 Succinctly](https://www.syncfusion.com/ebooks/ionic-4-succinctly) - Ed Freitas
+
+
+#### jQuery
+
+* [JavaScript Fundamentals, Plus a Dash Of JQuery - for dinner ladies](http://nicholasjohnson.com/javascript-book/)
+* [jQuery Notes for Professionals](https://goalkicker.com/jQueryBook/) - Compiled from StackOverflow Documentation (PDF)
+* [jQuery Novice to Ninja](http://mediatheque.cite-musique.fr/MediaComposite/Debug/Dossier-Orchestre/ressources/jQuery.Novice.to.Ninja.2nd.Edition.pdf) (PDF)
+* [jQuery Succinctly, Syncfusion](https://www.syncfusion.com/resources/techportal/ebooks/jquery) (PDF, Kindle) (email address *requested*, not required)
+
+
+#### Meteor
+
+* [Your First Meteor Application, A Complete Beginner’s Guide to the Meteor JavaScript Framework](http://meteortips.com/book/)
+
+
+#### Next.js
+
+* [Mastering Next.js](https://masteringnextjs.com)
+* [Next.js Crash Course 2021](https://www.youtube.com/watch?v=mTz0GXj8NN0) - Brad Traversy (Traversy Media)
+* [The Next.js Handbook](https://flaviocopes.com/page/nextjs-handbook/) - Flavio Copes (HTML, PDF) *(email required for PDF)*
+
+
+#### Node.js
+
+* [An Introduction to libuv](https://nikhilm.github.io/uvbook/) - Nikhil Marathe  ([PDF](http://nikhilm.github.io/uvbook/An%20Introduction%20to%20libuv.pdf) - [ePub](http://nikhilm.github.io/uvbook/An%20Introduction%20to%20libuv.epub))
+* [From Containers to Kubernetes with Node.js](https://www.digitalocean.com/community/books/from-containers-to-kubernetes-with-node-js-ebook) - Kathleen Juell (PDF, EPUB)
+* [Full Stack JavaScript: Learn Backbone.js, Node.js and MongoDB](https://github.com/azat-co/fullstack-javascript) - Azat Mardan
+* [How To Code in Node.js - eBook](https://www.digitalocean.com/community/books/how-to-code-in-node-js-ebook) - David Landup, Marcus Sanatan @ Stack Abuse, Digital Ocean (PDF, EPUB)
+* [Introduction to Node.js](https://nodejs.dev/learn) (HTML)
+* [Mastering Node](https://github.com/visionmedia/masteringnode) - visionmedia ([PDF](https://github.com/visionmedia/masteringnode/blob/master/book.pdf))
+* [Mixu's Node Book](http://book.mixu.net/node/)
+* [Module Patterns](https://leanpub.com/modulepatterns) - Pedro Teixeira (HTML, PDF, EPUB, Kindle) *(Leanpub account or valid email requested)*
+* [Node Documentation](https://nodejs.org/en/docs/)
+* [Node: Up and Running](https://www.oreilly.com/library/view/node-up-and/9781449332235/) - Tom Hughes-Croucher
+* [Node.js Notes for Professionals](http://goalkicker.com/NodeJSBook) - Compiled from StackOverflow Documentation (PDF)
+* [Node.js Succinctly, Syncfusion](https://www.syncfusion.com/resources/techportal/ebooks/nodejs) (PDF, Kindle) (email address *requested*, not required)
+* [Practical Node.js: Building Real-World Scalable Web Apps](https://github.com/azat-co/practicalnode) - Azat Mardan
+* [The Node Beginner Book](http://nodebeginner.org)
+* [The Node.js Handbook](https://flaviocopes.com/page/node-handbook/) - Flavio Copes (HTML, PDF) *(email required for PDF)*
+
+
+#### Om
+
+* [Om Tutorial](http://awkay.github.io/om-tutorial/)
 
 
 ## History

@@ -35,6 +35,9 @@ summary=Scripting language often embedded into game engines for extensibility.
 * <a href="http://lua-users.org/wiki/MathLibraryTutorial">math library</a>
 * <a href="http://lua-users.org/wiki/IoLibraryTutorial">io library</a>
 * <a href="http://lua-users.org/wiki/OsLibraryTutorial">os library</a>
+* [Lua 5.3 Reference Manual](http://www.lua.org/manual/5.3/)
+* [Lua Programming](https://en.wikibooks.org/wiki/Lua_Programming) - Wikibooks
+* [Programming in Lua (first edition)](https://www.lua.org/pil/contents.html)
 
 ### Inspired by Lua
 
@@ -439,6 +442,3 @@ g()  -- Prints out 343; nothing printed before now.
     - [Scripting at the Speed of Thought](https://www.youtube.com/watch?v=xQAmGBfKnas): Lua and C++ with sol3 - CppCon 2018; JeanHeyd Meneide (video)
 
 - Lua in the Stingray 3D game engine - Niklas Frykholm - https://www.youtube.com/watch?v=wTjyM7d7_YA
-
-https://github.com/lua/lua
-Lua is a powerful, efficient, lightweight, embeddable scripting language. It supports procedural programming, object-oriented programming, functional programming, data-driven programming, and data description. Lua combines simple procedural syntax with powerful data description constructs based on associative arrays and extensible semantics. Lua is dynamically typed, runs by interpreting bytecode with a register-based virtual machine, and has automatic memory management with incremental garbage collection, making it ideal for configuration, scripting, and rapid prototyping.

@@ -241,6 +241,15 @@ for `EXPLAIN`, that also provides performance tips (Commercial Software).
 * [Robert Haas' blog](http://rhaas.blogspot.com/search/label/postgresql/)
 * [select * from depesz;](https://www.depesz.com/tag/postgresql/) - Hubert Lubaczewski's blog.
 
+### Books
+
+* [Postgres Official Documentation](http://www.postgresql.org/docs/)
+* [Postgres Succinctly](https://www.syncfusion.com/resources/techportal/ebooks/postgres) (PDF, Kindle) (email address *requested*, not required)
+* [PostgreSQL Notes for Professionals](https://goalkicker.com/PostgreSQLBook/) - Compiled from StackOverflow documentation (PDF)
+* [PostgreSQL Tutorial](https://www.tutorialspoint.com/postgresql) - Tutorials Point
+* [Practical PostgreSQL](http://www.faqs.org/docs/ppbook/book1.htm)
+* [The Internals of PostgreSQL for database administrators and system developers](http://www.interdb.jp/pg)
+
 ### Articles
 
 * What PostgreSQL has over other open source SQL databases: [Part I](https://www.compose.com/articles/what-postgresql-has-over-other-open-source-sql-databases/) | [Part II](https://www.compose.com/articles/what-postgresql-has-over-other-open-source-sql-databases-part-ii/)

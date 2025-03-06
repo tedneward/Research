@@ -21,10 +21,12 @@ summary=A design framework-slash-CSS library for building websites that don't lo
 
 ## Articles
 
-[How to Customize Bootstrap](https://www.smashingmagazine.com/2013/03/customizing-bootstrap/)
+* [How to Customize Bootstrap](https://www.smashingmagazine.com/2013/03/customizing-bootstrap/)
+* [Extend Boostrap JS plugins](https://www.queness.com/post/13029/extend-twitter-bootstrap-javascript-plugins)
+* [18 Useful Bootstrap Goodies You Should Know](https://www.queness.com/post/11632/18-useful-twitter-boostrap-goodies-you-should-know)
 
-[Extend Boostrap JS plugins](https://www.queness.com/post/13029/extend-twitter-bootstrap-javascript-plugins)
+## Books
 
-[18 Useful Bootstrap Goodies You Should Know](https://www.queness.com/post/11632/18-useful-twitter-boostrap-goodies-you-should-know)
-
-
+* [Twitter Bootstrap 3 Succinctly](https://www.syncfusion.com/resources/techportal/details/ebooks/twitterbootstrap3) - Peter Shaw
+* [Twitter Bootstrap 4 Succinctly](https://www.syncfusion.com/ebooks/twitterbootstrap4-succinctly) - Peter Shaw
+* [Twitter Bootstrap Succinctly](https://www.syncfusion.com/resources/techportal/details/ebooks/twitterbootstrap) - Peter Shaw

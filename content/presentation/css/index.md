@@ -26,3 +26,36 @@ From [the CSS Snapshot doc](https://www.w3.org/TR/CSS/):
 
 [Flexbox Froggy](https://flexboxfroggy.com/): A cute Frogger-themed series of exercises practicing with CSS Flexbox styling.
 
+## Books
+
+* [A beginner's guide to HTML&CSS](http://learn.shayhowe.com/html-css/)
+* [A free guide to learn HTML and CSS](http://marksheet.io)
+* [Adaptive Web Design](http://adaptivewebdesign.info/1st-edition/) - Aaron Gustafson
+* [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css) - Airbnb
+* [Airbnb CSS-in-JavaScript Style Guide](https://airbnb.io/javascript/css-in-javascript/) - Airbnb
+* [An advanced guide to HTML&CSS](http://learn.shayhowe.com/advanced-html-css/)
+* [Atomic Design](https://atomicdesign.bradfrost.com) - Brad Frost
+* [Canvassing](https://web.archive.org/web/20160505010319/http://learnjs.io/canvassing/read/)
+* [Code Guide: Standards for developing flexible, durable, and sustainable HTML and CSS](http://mdo.github.io/code-guide/) - Mark Otto
+* [CSS Animation 101](https://github.com/cssanimation/css-animation-101)
+* [CSS Notes for Professionals](http://goalkicker.com/CSSBook) - Compiled from StackOverflow Documentation (PDF)
+* [DOM Enlightenment](http://domenlightenment.com) - Cody Lindley (HTML)
+* [GA Dash](https://dash.generalassemb.ly)
+* [Google's HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+* [How To Build a Website with HTML](https://www.digitalocean.com/community/books/how-to-build-a-website-with-html-ebook) - Erin Glass (PDF, EPUB)
+* [How to Code in HTML5 and CSS3](https://web.archive.org/web/20180816174417/http://howtocodeinhtml.com/HowToCodeInHTML5AndCSS3.pdf) - Damian Wielgosik (PDF)
+* [Interneting is Hard (But it Doesn't Have to Be)](https://www.internetingishard.com) - Oliver James
+* [Learn CSS Layout](http://learnlayout.com)
+* [Learn CSS Layout the pedantic way](http://book.mixu.net/css/)
+* [Learn to Code HTML & CSS](https://learn.shayhowe.com) - Shay Howe
+* [Magic of CSS](https://adamschwartz.co/magic-of-css/) - Adam Schwartz (HTML) (:construction: *in process*)
+* [MaintainableCSS](http://maintainablecss.com)
+* [Pocket Guide to Writing SVG](https://svgpocketguide.com) - Joni Trythall
+* [Resilient Web Design](https://resilientwebdesign.com/#Resilientweb%20design) - Jeremy Keith
+* [RTL Styling 101](https://rtlstyling.com) - Ahmad Shadeed
+* [Scalable and Modular Architecture for CSS](https://web.archive.org/web/20191116073929/http://smacss.com/) - Jonathan Snook
+* [The CSS Handbook](https://flaviocopes.com/page/css-handbook/) - Flavio Copes (PDF, EPUB, Kindle) *(email address requested)*
+* [Understanding Flexbox: Everything you need to know](https://ohansemmanuel.github.io/uf_download.html) - Ohans Emmanuel
+* [W3.CSS Succinctly](https://www.syncfusion.com/ebooks/w3_css_succinctly) - Joseph D. Booth
+* [Web Audio API](http://chimera.labs.oreilly.com/books/1234000001552) - Boris Smus
+* [Web Visual Effects with CSS3](https://leanpub.com/web-visual-effects-with-css3/read) - Thomas Mak

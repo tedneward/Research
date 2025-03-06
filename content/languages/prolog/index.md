@@ -130,16 +130,35 @@ Many of these are built on the idea of the [Warren Abstract machine](http://en.w
 
 ## Reading
 
-* [The Power of Prolog](https://www.metalevel.at/prolog)
+* [Adventure in Prolog](http://www.amzi.com/AdventureInProlog/) - Dennis Merritt
+* [Art of Prolog, Second Edition](https://mitpress.mit.edu/books/art-prolog-second-edition) - Leon S. Sterling, Ehud Y. Shapiro (Open Access)
+* [Coding Guidelines for Prolog](http://arxiv.org/abs/0911.2899) - Michael A. Covington, Roberto Bagnara, Richard A. O'Keefe, Jan Wielemaker, Simon Price
+* [Concise Intro to Prolog](https://www.cis.upenn.edu/~matuszek/Concise%20Guides/Concise%20Prolog.html) - David Matuszek
+* [Expert Systems in Prolog](http://www.amzi.com/ExpertSystemsInProlog/) - David Matuszek
+* [GNU Prolog Manual](http://www.gprolog.org/manual/gprolog.pdf) - Daniel Diaz (PDF)
+* [Introduction to Prolog for Mathematicians](http://www.j-paine.org/prolog/mathnotes/files/pms/pms.html) - J. Ireson-Ireson-Paine
+* [Learn Prolog Now!](http://www.learnprolognow.org)
+* [Logic, Programming and Prolog (2ed)](https://www.ida.liu.se/~ulfni53/lpp/) - Ulf Nilsson and Jan Maluszynski
 * [Logic, Programming and Prolog](https://www.ida.liu.se/~ulfni53/lpp/bok/bok.pdf)
-* [Adventures in Prolog](http://www.amzi.com/AdventureInProlog/index.php)
-* [Building Expert Systems in Prolog](http://www.amzi.com/ExpertSystemsInProlog/xsipfrtop.htm)
-* [Sports Scheduler Sample Application](http://www.amzi.com/manuals/samples/prolog/ssched/doc.html)
+* [Natural Language Processing Techniques in Prolog](http://cs.union.edu/~striegnk/courses/nlp-with-prolog/html/) - P. Blackburn, K. Striegnitz
 * [Prolog: The Standard: Reference Manual (Amazon)](https://www.amazon.com/Prolog-Standard-Reference-Manual-ebook/dp/B000QEDG92/ref=sr_1_1_bnp_1_kin)
+* [Prolog and Natural - Language Analysis](http://www.mtome.com/Publications/PNLA/pnla-digital.html) - Fernando C. N. Pereira, Stuart M. Shieber
+* [Prolog for Programmers](https://sites.google.com/site/prologforprogrammers/) - Feliks Kluźniak, Stanisław Szpakowicz & Janusz S. Bień
+* [Prolog Problems](https://sites.google.com/site/prologsite/prolog-problems) - Werner Hett
+* [Prolog Tutorial](https://www.cpp.edu/~jrfisher/www/prolog_tutorial/contents.html) - J. R. Fisher
 * [Prolog Wikibook](https://en.wikibooks.org/wiki/Prolog)
-* [List of Prolog references](https://www.univ-orleans.fr/lifo/software/stdprolog/prolog_refs.html)
+* [Simply Logical: Intelligent Reasoning by Example](https://book.simply-logical.space) - Peter Flach
 * ["Solving a Dungeons & Dragons riddle using prolog"](https://gist.github.com/Spuffynism/446c7c2d498477491d8137e8f234d4a9)
+* [Sports Scheduler Sample Application](http://www.amzi.com/manuals/samples/prolog/ssched/doc.html)
+* [The First 10 Prolog Programming Contests](https://dtai.cs.kuleuven.be/ppcbook) - Bart Demoen, Phuong-Lan Nguyen, Tom Schrijvers, Remko Tronçon
+* [The Power of Prolog](https://www.metalevel.at/prolog) - Markus Triska
+* [Warren's Abstract Machine: A Tutorial Reconstruction](http://wambook.sourceforge.net) - Hassan Ait-Kaci
+* [List of Prolog references](https://www.univ-orleans.fr/lifo/software/stdprolog/prolog_refs.html)
 * [Mark Volkmann's notes](https://mvolkmann.github.io/blog/topics/#/blog/prolog/)
+
+### Constraint Logic Programming (extended Prolog)
+
+* [A Gentle Guide to Constraint Logic Programming via ECLiPSe](http://anclp.pl)
 
 ### Visual Prolog
 

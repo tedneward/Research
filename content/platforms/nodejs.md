@@ -14,3 +14,4 @@ summary=A platform built around the V8 (Javascript) engine.
 ## Interoperability
 [node-api-dotnet](https://github.com/microsoft/node-api-dotnet): Advanced interoperability between .NET and JavaScript in the same process.
 
+* [Node.js startup performance](https://www.youtube.com/watch?v=G36lrPrF09c&ab_channel=NearForm)

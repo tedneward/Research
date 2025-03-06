@@ -7,7 +7,7 @@ summary=“When people say Agile today, they mean something different today than
 
 Agile has changed. In the [words of Jeff Patton](https://produxlabs.com/product-thinking-blog/episode-15-jeff-patton),
 
-> “When people say Agile today, they mean something different today than they did in 2001…it’s come to mean something else.”
+> “When people say Agile today, they mean something different today than they did in 2001... it's come to mean something else.”
 
 Unfortunately, some members of the Agile community are stuck in the past. They still believe early Agile myths and dogma such as:
 

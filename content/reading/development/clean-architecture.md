@@ -103,9 +103,7 @@ Power of polymorphism lies in being able to abstract without details. [Example o
 # 13: Component Cohesion
 
 * **REP: The Reuse/Release Equivalence Principle** (The granule of reuse is the granule of release)
-
 * **CCP: The Common Closure Principle**
-
 * **CRP: The Common Reuse Principle**
 
 
