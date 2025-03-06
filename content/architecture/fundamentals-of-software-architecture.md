@@ -617,7 +617,7 @@ Most of the low-scoring operational characteristics can be raised by making this
 
 ## Ch 16: Space-Based Architectural Style
 
-## Ch 17: Orcehstration-Driven Service-Oriented Architecture
+## Ch 17: Orchestration-Driven Service-Oriented Architecture
 
 ## Ch 18: Microservices Architecture
 

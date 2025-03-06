@@ -11,3 +11,7 @@ summary=A collection of resources on blockchain. Mostly for pedagogical purposes
 * [Getting Started with Enterprise Blockchain: A Guide to Design and Development](https://www.ibm.com/downloads/cas/RYWXAR0M) - Michael Bradley, David Gorman, Matt Lucas, Matthew Golby-Kirk (PDF)
 * [IBM Blockchain: The Founder’s Handbook, Third Edition](https://www.ibm.com/downloads/cas/GZPPMWM5) - Antonio Banda, Matthew Hamilton, Eileen Lowry, John Widdifield et al. (PDF)
 * [Playtime with Hyperledger Composer](https://schadokar.dev/ebooks/playtime-with-hyperledger-composer/) - Shubham Chadokar (PDF)
+* [The Difficulty in Scaling Blockchains: A Simple Explanation](https://www.distributed-systems.net/my-data/papers/2021.blockchains.pdf) - Maarten van Steen - " In this paper, we provide a laymen's description of what may turn out to be a fundamental hurdle in attaining blockchains that combine scalability, high transaction processing capabilities, and are indeed fully decentralized."
+
+
+

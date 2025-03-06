@@ -7,6 +7,8 @@ tags=distribution
 
 Distributed systems are the means by which programs on one machine communicate with another. Differ from architectures in that while an architecture may have a distributed system at its center, it's not a requirement, and while distributed systems may incorporate an architecture as part of their implementation, that architecture usually isn't imposed on the user of the distributed system. Includes networking topics, for example.
 
+["An introduction to distributed systems"](https://www.distributed-systems.net/my-data/papers/2016.computing.pdf): "A distributed system is a collection of autonomous computing elements that appears to its users as a single coherent system."
+
 ## Technology stacks/stack-related links:
 
 * [Stack on a budget (Free-Tier Driven Development)](https://github.com/255kb/stack-on-a-budget): A collection of services with great free tiers for developers on a budget.
@@ -34,9 +36,8 @@ Distributed systems are the means by which programs on one machine communicate w
 
 ### Proprietary/Cloud
 
-* Auth0
 * [FusionAuth](https://fusionauth.io/): User authentication and session management framework [Source](https://github.com/FusionAuth/fusionauth-containers)
-* Okta
+* [Okta](https://www.okta.com/): Identity provider; bought up Auth0 a few years back
 
 ### Open Source
 
