@@ -1,5 +1,5 @@
 title=Aeron
-tags=distribution
+tags=distribution, messaging
 summary=Efficient reliable UDP unicast, UDP multicast, and IPC message transport.
 ~~~~~~
 

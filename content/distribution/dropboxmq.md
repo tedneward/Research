@@ -1,5 +1,5 @@
 title=DropboxMQ
-tags=distribution
+tags=distribution, messaging, jvm
 summary=Filesystem-based JMS implementation.
 ~~~~~~
 

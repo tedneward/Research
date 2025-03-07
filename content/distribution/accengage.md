@@ -1,5 +1,5 @@
 title=Accengage
-tags=distribution, push notification, cloud
+tags=distribution, notification, cloud
 summary=European leader in Push Notification Technology for mobile apps & websites.
 ~~~~~~
 

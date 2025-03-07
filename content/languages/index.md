@@ -131,31 +131,29 @@ Programming languages are (generally) human-friendly means of getting a computer
 
 ## Concepts
 
-[Multi-paradigm design](./concepts/multi-paradigm-design)
+[Multi-paradigm design](/languages/concepts/multi-paradigm-design)
 
-[Aspect-Oriented](./concepts/aspect-oriented)
+[Aspect-Oriented](/languages/concepts/aspect-oriented)
 
-[Functional](./concepts/functional)
+[Functional](/languages/concepts/functional)
 
-* [Monads](./concepts/monads)
+* [Monads](/languages/concepts/monads)
 
-Literate
+[Literate](/languages/concepts/literate)
 
 * [nuweb](/languages/nuweb)
 
-Logic
+[Logic](/languages/concepts/logic)
 
-* [A Very Gentle Intro to Logic Programming](./concepts/avergentleintrotologicprog.html)
+* [A Very Gentle Intro to Logic Programming](/languages/concepts/avergentleintrotologicprog.html) link broken/not found?
 
-[Meta-object protocols (MOP)](./concepts/metaobjectprotocol.html)
-
-[Multi-paradigm Design](./concepts/multi-paradigm-design.html)
+[Meta-object protocols (MOP)](/languages/concepts/metaobjectprotocol.html)
 
 Object-oriented
 
 * [Object capabilities](./concepts/object-capability.html)
 * [Object thinking](./concepts/object-thinking.html)
-* [Foundations of Object Oriented Languages](https://www.cs.cmu.edu/~aldrich/FOOL/FOOL1/FOOL1-report.pdf) ([PDF](./concepts/FOOL1-report.pdf))
+* [Foundations of Object Oriented Languages](https://www.cs.cmu.edu/~aldrich/FOOL/FOOL1/FOOL1-report.pdf) ([PDF](/languages/concepts/FOOL1-report.pdf))
 
 Miscellaneous
 

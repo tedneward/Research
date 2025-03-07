@@ -1,5 +1,5 @@
 title=Present-RPC
-tags=distribution
+tags=distribution, rpc
 summary=Simple, idiomatic RPCs for Java, Javascript, Android, iOS, and more
 ~~~~~~
 

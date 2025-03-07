@@ -1,5 +1,5 @@
 title=0MQ (Zero-MQ)
-tags=distribution
+tags=distribution, messaging
 summary=An open-source universal messaging library.
 ~~~~~~
 

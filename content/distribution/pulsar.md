@@ -1,5 +1,5 @@
 title=Apache Pulsar
-tags=distribution, message-passing, jvm, python, go
+tags=distribution, messaging, jvm, python, go
 summary=An open-source distributed pub-sub messaging system.
 ~~~~~~
 

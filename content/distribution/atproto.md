@@ -1,5 +1,5 @@
 title=ATProto
-tags=distribution
+tags=distribution, protocol
 summary=An open, decentralized network for building social applications.
 ~~~~~~
 

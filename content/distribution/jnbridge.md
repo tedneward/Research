@@ -1,5 +1,5 @@
 title=CORBA (Common Object Request Broker Architecture)
-tags=distribution, jvm, clr, native, object, specification
+tags=distribution, jvm, clr, native, object, specification, rpc
 summary=A Java/.NET interoperability-via-distribution platform.
 ~~~~~~
 

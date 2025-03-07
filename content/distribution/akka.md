@@ -1,5 +1,5 @@
 title=Akka
-tags=distribution, jvm, clr, actors, concurrency
+tags=distribution, jvm, clr, actor, concurrency
 summary=A toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications.
 ~~~~~~
 

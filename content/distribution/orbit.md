@@ -1,5 +1,5 @@
 title=Orbit
-tags=library, distribution, actors, jvm
+tags=library, distribution, actor, jvm
 summary=Virtual actor framework for building distributed systems.
 ~~~~~~
 

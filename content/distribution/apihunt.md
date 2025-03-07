@@ -1,5 +1,5 @@
 title=APIHunt
-tags=distribution,place
+tags=distribution, place
 summary=Explore Top APIs and Tech Resources. Discover the Building Blocks for Your Digital Transformation Journey.
 ~~~~~~
 

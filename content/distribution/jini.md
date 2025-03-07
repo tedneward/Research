@@ -1,5 +1,5 @@
 title=Jini (Apache River)
-tags=distribution, library, jvm
+tags=distribution, library, jvm, rpc
 summary=A programming model to build adaptive network systems that are scalable, evolvable, and flexible.
 ~~~~~~
 

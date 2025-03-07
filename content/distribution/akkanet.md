@@ -1,5 +1,5 @@
 title=Akka.NET
-tags=distribution, library, clr, actors
+tags=distribution, library, clr, actor
 summary=A port of the Akka framework to the CLR.
 ~~~~~~
 

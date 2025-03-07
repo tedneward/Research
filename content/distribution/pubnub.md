@@ -1,5 +1,5 @@
 title=PubNub
-tags=distribution, cloud
+tags=distribution, cloud, notification
 summary=Cloud platform for realtime message broadcast/consumption.
 ~~~~~~
 

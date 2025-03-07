@@ -1,5 +1,5 @@
 title=CalDAV
-tags=distribution, specification
+tags=distribution, specification, protocol
 summary=Defines extensions to the Web Distributed Authoring and Versioning (WebDAV) protocol to specify a standard way of accessing, managing, and sharing calendaring and scheduling information based on the iCalendar format.
 ~~~~~~
 

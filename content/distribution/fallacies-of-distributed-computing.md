@@ -5,6 +5,8 @@ summary=The set of mistakes that everybody makes when thinking about distributed
 
 L. Peter Deutsch, 1994, a presentation given at Sun Microsystems. Started with a few (4 or 5?) and others have added to the list over time.
 
+[Wikipedia](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+
 # The network is reliable
 Developers and architects alike assume that the network is reliable, but it is not. While networks have become more reliable over time, the fact of the matter is that networks still remain generally unreliable. This is significant for all distributed architecture styles, because they rely on the network for communicating to, from, and between services.
 

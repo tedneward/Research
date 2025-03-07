@@ -1,5 +1,5 @@
 title=Asynchronous Javascript And XML (AJAX)
-tags=distribution
+tags=distribution, rpc
 summary=A term coined that describes an approach to using HTML or XHTML, CSS, JavaScript, DOM, XML, XSLT, and most importantly the XMLHttpRequest object to make quick, incremental updates to the UI without reloading the entire browser page.
 ~~~~~~
 

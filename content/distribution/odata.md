@@ -1,5 +1,5 @@
 title=OData
-tags=distribution, library
+tags=distribution, library, specification
 summary=OASIS standard for data over HTTP-based communication.
 ~~~~~~
 

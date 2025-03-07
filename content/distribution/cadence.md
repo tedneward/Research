@@ -1,5 +1,5 @@
 title=Cadence
-tags=distribution, workflow, state management
+tags=distribution, backend, platform, workflow, state management
 summary=Fault-Tolerant Stateful Code Platform
 ~~~~~~
 

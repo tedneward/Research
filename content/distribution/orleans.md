@@ -1,5 +1,5 @@
 title=Orleans
-tags=distribution, library, actors, clr
+tags=distribution, library, actor, clr, shared space
 summary=Actors-based implementation for distributed systems implementation.
 ~~~~~~
 

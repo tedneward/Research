@@ -1,5 +1,5 @@
 title=pSpaces
-tags=distribution, library, jvm, clr, go, nodejs, browser
+tags=distribution, library, jvm, clr, go, nodejs, browser, shared space
 summary=Implementations of Tuple Spaces (aka object spaces) across several languages/platforms.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=Appboy
-tags=distribution, push notification, cloud
+tags=distribution, notification, cloud
 summary=Customer relationship suite for mobile marketers.
 ~~~~~~
 [Website](https://www.appboy.com)

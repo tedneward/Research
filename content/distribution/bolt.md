@@ -1,5 +1,5 @@
 title=Bolt protocol
-tags=distribution, storage
+tags=distribution, storage, protocol
 summary=A highly efficient, lightweight client-server protocol designed for database applications.
 ~~~~~~
 
