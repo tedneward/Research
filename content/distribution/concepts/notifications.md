@@ -3,6 +3,12 @@ tags=distribution, concept, notifications
 summary=Notes and reading on the subject.
 ~~~~~~
 
+In order to achieve synchronization decoupling, a synchronous remote invocation is sometimes split into two asynchronous invocations: the first one sent by the client to the server—accompanied by the invocation arguments and a callback reference to the client—and the second one sent by the server to the client to return the reply. This scheme can be easily extended to return several replies by having the server make several callbacks to the client. Such notification-based interaction is widely used to ensure consistency of Web caches [Wessels 1995]: upon download of Web contents, Web proxies receive a promise to be notified if any change occurs at the Web server. This implements a limited form of publish/subscribe interaction in which Web proxies act as subscribers and the Web server as the publisher.
+
+This type of interaction—where subscribers register their interest directly with publishers, which manage subscriptions and send events—corresponds to the so-called observer design pattern [Gamma et al. 1995]. It is generally implemented using asynchronous invocations in order to enforce synchronization decoupling. Although publishers notify subscribers asynchronously, they both remain coupled in time and in space. Furthermore the communication management is left to the publisher and can become burdensome as the system grows in size.
+
+( Notifications: producers and consumers communicate using asynchronous invocations flowing in both directions.)
+
 ### Push notification providers
 
 - **[Batch](https://batch.com)**: Batch is a push notification platform built around predictive analytics and smart segmentation algorithms. With Batch, you can efficiently send transactional (one to one) and marketing notifications (one to many) while leveraging our other modules to run a successful retention strategy.
