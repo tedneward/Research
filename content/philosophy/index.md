@@ -1,5 +1,7 @@
 title=Philosophy and Psychology
-tags=reading, psych, philosophy
+category=philosophy
+type=categorypage
+tags=philosophy, psych
 summary=A collection of links (usually to articles) about the various forms of thinking we do.
 ~~~~~~
 
