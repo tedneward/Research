@@ -1,5 +1,5 @@
 title=Economics
-tags=reading, thinking
+tags=reading, philosophy, thinking
 summary=Collections of articles and books on economics.
 ~~~~~~
 

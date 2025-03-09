@@ -1,5 +1,5 @@
 title=Thinking Fast and Slow
-tags=reading, thinking, management, business
+tags=reading, thinking, management, business, psychology
 summary=System 1 and System 2 types of thinking and how to move from one to another.
 ~~~~~~
 *(by Daniel Kahneman)*

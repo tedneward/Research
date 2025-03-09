@@ -1,5 +1,5 @@
 title=Superforecasting: The Art and Science of Prediction
-tags=reading, thinking, decision-making
+tags=reading, thinking, decision-making, psychology
 summary=Notes on the book, about how non-experts can often outpredict the experts by following some remarkably straightforward approaches.
 ~~~~~~
 *(Tetlock, Gardner; Crown Publishers, 2015)*

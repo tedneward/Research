@@ -1,5 +1,5 @@
 title=Inverted Computer Culture
-tags=philosophy, thought experiment
+tags=philosophy, thinking, thought experiment
 summary=A thought experiment.
 ~~~~~~
 

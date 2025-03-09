@@ -1,5 +1,5 @@
 title=The Subtle Art of Not Giving a F*ck
-tags=reading, thinking, people
+tags=reading, thinking, people, philosophy, psychology
 summary=Interesting modern take on Stoic thought and philosophy.
 ~~~~~~
 

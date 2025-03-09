@@ -1,5 +1,5 @@
 title=Quit
-tags=reading, philosophy
+tags=reading, philosophy, psychology
 summary=Notes from the book.
 ~~~~~~
 
