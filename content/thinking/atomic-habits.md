@@ -1,5 +1,5 @@
 title=Atomic Habits
-tags=reading, psychology
+tags=reading, thinking, psychology
 summary=Notes from the book.
 ~~~~~~
 *(???)*

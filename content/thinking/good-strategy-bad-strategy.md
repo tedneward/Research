@@ -1,5 +1,5 @@
 title=Good Strategy Bad Strategy
-tags=reading, thinking, business, management
+tags=reading, thinking, business, management, strategy
 summary=A book on how to differentiate good strategy from bad strategy.
 ~~~~~~
 

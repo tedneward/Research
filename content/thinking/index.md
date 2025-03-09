@@ -161,7 +161,7 @@ summary=A collection of links (usually to articles) about the various forms of t
 
 ## Fallacies
 
-["Characteristics of Pseudoscience"](https://twitter.com/ShannyGasm/status/1485005991628341250):
+["Characteristics of Pseudoscience"](https://twitter.com/ShannyGasm/status/1485005991628341250) ([graphic](https://pbs.twimg.com/media/FJvNFFWVQAMhn4f?format=jpg&name=900x900)):
 
 1. Is UNFALSIFIABLE (can't be proven wrong); makes vague or unobservable claims.
 2. Relies heavily on ANECDOTES, personal experiences, and testimonials.
@@ -174,8 +174,6 @@ summary=A collection of links (usually to articles) about the various forms of t
 9. Commits LOGICAL FALLACIES: Arguments contain errors in reasoning.
 10. Lacks PEER REVIEW: Goes directly to the public, avoiding scientific scrutiny.
 11. Claims there's a CONSPIRACY to suppress their ideas.
-
-![](https://pbs.twimg.com/media/FJvNFFWVQAMhn4f?format=jpg&name=900x900)
 
 ["It was safer back in my day" takedown](https://www.psypost.org/2023/06/psychologists-have-identified-a-pervasive-illusion-that-has-existed-for-at-least-70-years-166017): "The findings ... suggest there is a pervasive illusion of moral decline that is the result, at least in part, of two common psychological biases." ... "Mastroianni also noted that a study published last year, which analyzed 511 studies conducted over the course of 61 years, found evidence that cooperative behavior had actually increased over time." -- [Study: "The illusion of moral decline"](https://www.nature.com/articles/s41586-023-06137-x)
 
