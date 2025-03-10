@@ -211,9 +211,40 @@ Sasha Cohen's figure-skating career and the idea that quitting on something is q
 
 ## Ch 7: You Own What You've Bought and What You've Thought: Endowment and Status Quo Bias
 
+**Summary:**
+
+* The endowment effect is a cognitive bias where we value something we own more than we would if we didn’t own it. 
+* We can be endowed to objects but also to our own ideas and beliefs. 
+* Endowment is an obstacle to quitting because when we irrationally value things we own, we miscalculate their expected value. We might think the company we started or the project we devised or the belief we have is worth more than it actually is. 
+* We prefer to stick with the status quo. 
+* We are more tolerant of bad outcomes that come from sticking with what we are already doing than bad outcomes that come from switching to something new. This phenomenon is part of omission-commission bias. 
+* When you say, “I’m just not ready to decide yet,” what you are really saying is, “For now, I am choosing the status quo.” 
+* Even in highly data-rich environments like professional sports, sunk cost, endowment, and status quo bias distort decision-making.
+
 ## Ch 8: The Hardest Thing to Quit is Who You Are: Identity and Dissonance
 
+**Summary:**
+
+* When it comes to quitting, the most painful thing to quit is who you are. Our ideas, beliefs, and actions are part of our identity.
+* When new information conflicts with a belief, we experience cognitive dissonance.
+* To resolve the conflict, we can either change the belief or rationalize away the new information. Too often, we choose the latter.
+* Dissonance can also result from new information coming into conflict with our past actions.
+* We have a desire to maintain internal consistency, where our past beliefs and actions line up with our present beliefs and actions.
+* We also want others to view us as consistent. We worry that if others see inconsistency between our present and past decisions, beliefs, or actions, they will judge us as being wrong, irrational, capricious, and prone to mistakes.
+* When we know or believe our decisions are being evaluated by others, our intuition is that we will be more rational, but the opposite is true. External validity *increases* escalation of commitment.
+* The more extreme a position is, the more cognitive gymnastics we’ll do to defend it. The facts are more likely to persuade you away from the consensus opinion than a fringe view.
+* Fears about how others will view us if we quit are usually overblown.
+
 ## Ch 9: Find Someone Who Loves You but Doesn't Care About Hurt Feelings
+
+**Summary:**
+
+* Optimism makes you less likely to walk away while not actually increasing your chances of success. That means that being overly optimistic will make you stick to things longer that aren’t worthwhile. Better to be well calibrated.
+* Life’s too short to spend your time on opportunities that are no longer worthwhile.
+* When someone is on the outside looking in, they can usually see your situation more rationally than you can.
+* The best quitting coach is a person who loves you enough to look out for your long-term well-being. They are willing to tell you the hard truth even if it means risking hurt feelings in the short term.
+* Decisions about when to quit improve when the people who make the decisions to start things are different from the people who make the decisions to stop those things.
+* Getting the most out of a quitting coach requires permission to speak the truth.
 
 # Interlude III: The Ants Go Marching... Mostly
 
@@ -221,5 +252,25 @@ Sasha Cohen's figure-skating career and the idea that quitting on something is q
 
 ## Ch 10: Lessons from Forced Quitting
 
+**Summary:**
+
+* Being forced to quit forces you to start exploring new options and opportunities. But you should start exploring before you’re forced to.
+* Even after you have found a path that you want to stick to, keep doing some exploration. Things change, and whatever you are doing now may not be the best path for you to pursue in the future. Having more options gives you something to switch to when the time is right.
+* Exploration helps you to diversify your portfolio of skills, interests, and opportunities.
+* A diversified portfolio helps to protect you against uncertainty.
+* Backup plans are good to have especially because some backup plans can turn out to be better than what we’re already pursuing.
+
 ## Ch 11: The Myopia of Goals
+
+**Summary:**
+
+* Goals can make it possible to achieve worthwhile things, but goals can also increase the chances that we will escalate commitment when we should quit. 
+* Goals are pass-fail in nature. You either reach the finish line or you don’t, and progress along the way matters very little.
+* Don’t just measure whether you hit the goal, ask what you have achieved and learned along the way.
+* Set intermediate goals and prioritize goals that allow you to recognize progress along the way or acquire something valuable even if you don’t reach the goal.
+* Goals, when set, are a proxy for an expected-value equation, balancing the benefits that you’re trying to gain against the costs you’re willing to bear.
+* Inflexible goals aren’t a good fit for a flexible world.
+* With better advance planning (like identifying monkeys and pedestals and kill criteria) and the help of a good quitting coach, you can make goals more flexible, setting at least one “unless” and planning regular check-ins on the analysis that initially led to setting the goal.
+* In general, when we quit, we fear two things: that we’ve failed and that we’ve wasted our time, effort, or money.
+* Waste is a forward-looking problem, not a backward-looking one.
 
