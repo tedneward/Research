@@ -9,6 +9,7 @@ summary=Generation of diagram and flowchart from text in a similar manner as mar
 To create a Mermaid diagram in these pages, use `<pre class="mermaid">` ... `</pre>` to enclose the diagram text.
 
 Frontmatter configuration: The entire mermaid configuration (except the secure configs) can be overridden by the diagram author in the frontmatter of the diagram. The frontmatter is a YAML block at the top of the diagram.
+
 ```
 ---
 title: Hello Title
@@ -20,6 +21,7 @@ config:
 flowchart
     Hello --> World
 ```
+
 <pre class="mermaid">
 ---
 title: Hello Title
@@ -32,11 +34,15 @@ flowchart
     Hello --> World
 </pre>
 
+---
+
 [Flowchart](https://mermaid.js.org/syntax/flowchart.html)
 ```
 ```
 <pre class="mermaid">
 </pre>
+
+---
 
 [Sequence diagram](https://mermaid.js.org/syntax/sequenceDiagram.html)
 ```
@@ -54,7 +60,10 @@ sequenceDiagram
     John-->>-Alice: I feel great!
 </pre>
 
+---
+
 [Class diagram](https://mermaid.js.org/syntax/classDiagram.html)
+
 ```
 ---
 title: Animal example
@@ -102,6 +111,7 @@ classDiagram
     classM ..|> classN : Realization
     classO .. classP : Link(Dashed)
 ```
+
 <pre class="mermaid">
 ---
 title: Animal example
@@ -147,14 +157,33 @@ classDiagram
     classK ..> classL : Dependency
     classM ..|> classN : Realization
     classO .. classP : Link(Dashed)
-
 </pre>
+
+---
 
 [State diagram](https://mermaid.js.org/syntax/stateDiagram.html)
+
 ```
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
 ```
+
 <pre class="mermaid">
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
 </pre>
+
+---
 
 [Quadrant chart]()
 ```
@@ -176,6 +205,7 @@ quadrantChart
   classDef class2 color: #908342, radius : 10, stroke-color: #310085, stroke-width: 10px
   classDef class3 color: #f00fff, radius : 10
 ```
+
 <pre class="mermaid">
 quadrantChart
   title Reach and engagement of campaigns
