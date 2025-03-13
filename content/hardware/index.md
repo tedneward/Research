@@ -12,6 +12,10 @@ Collection of links about and around hardware.
 
 [Slimbook](https://slimbook.com/en/)
 
+[Starlabs](https://us.starlabs.systems/)
+
+[TUXEDO](https://www.tuxedocomputers.com/index.php): European-based (prices in EUR)
+
 ## Desktops
 [Skytech Gaming](https://skytechgaming.com/custom-pc-builder/)
 
