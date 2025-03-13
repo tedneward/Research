@@ -3,7 +3,7 @@ tags=platform, linux
 summary=The original open-source operating system.
 ~~~~~~
 
-Distributions:
+Distributions ([DistroWatch](https://distrowatch.com/)):
 
 * [Ubuntu](https://ubuntu.com/)
 * [Pop! OS](https://pop.system76.com/)
