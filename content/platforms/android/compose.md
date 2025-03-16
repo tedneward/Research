@@ -122,9 +122,8 @@ summary=The functional-composition way to build UIs in Android; "Jetpack Compose
     
     * "The Compose runtime uses an internal data structure called the SlotTable to store composition data. Although the SlotTable holds a tree structure, its payload is flattened into two arrays to reduce runtime memory allocations. In the old View-based framework, developers could attach a debugger to investigate the View tree structure. However, with Compose, debugging the UI tree has become much more challenging due to its reliance on internal data structures like the SlotTable. A tool that provides a visual representation of the composition tree within a user-friendly UI would be invaluable."
 
-## Blog posts
-
 * ["Jetpack Compose vs View System: Comparing UI containers"](https://medium.com/@dobri.kostadinov/jetpack-compose-vs-view-system-comparing-ui-containers-4c423c341898): side-by-side comparisons between the two
+* ["Designing Effective UI Components in Jetpack Compose"](https://proandroiddev.com/designing-effective-ui-components-in-jetpack-compose-cb8d18f7f888)
 
 
 ---

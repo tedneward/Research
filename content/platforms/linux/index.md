@@ -12,6 +12,7 @@ Distributions ([DistroWatch](https://distrowatch.com/)):
 * [MX Linux](https://mxlinux.org/): a family of operating systems (and a cooperative venture between the antiX and MX Linux communities) that are designed to combine elegant and efficient desktops with high stability and solid performance.
 * [VanillaOS](../vanillaos)
 * [Bazzite](https://bazzite.gg/): a custom Fedora Atomic image built with cloud native technology that brings the best of Linux gaming to all of your devices - including your favorite handheld.
+* [CachyOS](https://cachyos.org/): performance-minded distribution
 * [Damn Small Linux](https://www.damnsmalllinux.org/): for older machines [ISO](https://www.damnsmalllinux.org/download/dsl-2024.alpha.iso)
 * [ttylinux](http://www.minimalinux.org/ttylinux/): a small GNU/Linux system available for several CPU architectures. This small system has an 8 MB file system and runs on i486 computers within 28 MB of RAM, but provides a complete command line environment and is ready for Internet access.
 * [4MLinux](https://4mlinux.com): feature-oriented, lightweight portable distribution; "Maintenance, Multimedia, Miniserver, and Mystery"
@@ -20,6 +21,10 @@ Distributions ([DistroWatch](https://distrowatch.com/)):
 * [Bodhi Linux](https://bodhilinux.com): lightweight distro fork of Enlightenment
 * [BunsenLabs](https://bunsenlabs.org): lightweight distro continuation of CrunchBang Linux using a Debian base, OpenBox window manager, the tint2 panel, Conky, and jgmenu
 * [Lubuntu](https://lubuntu.me): lightweight distro based on Ubutu, using the LXQt desktop
+* [Alpine](https://alpinelinux.org/): lightweight; minimalist, security-oriented distribution known for its lightweight footprint and fast performance.
+* [Puppy](https://puppylinux-woof-ce.github.io/): lightweight; an incredibly lightweight Linux distribution that is easy to use while still being fast, efficient and can run entirely from RAM, meaning that once booted, you can remove the boot medium (USB or CD).
+* [SliTaz](https://slitaz.org/en/): lightweight; a very lightweight Linux distro known for its small size and fast performance.
+* [Tiny Core Linux](http://tinycorelinux.net/): lightweight; one of the most minimal Linux distributions available, ideal for those who want a highly customizable and lightweight operating system.
 * [Wikipedia list](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
 
 "lightweight": good for older computers
@@ -28,9 +33,8 @@ Distributions ([DistroWatch](https://distrowatch.com/)):
 
 ---
 
-[Linux Assembly programming](https://www.randallhyde.com/AssemblyLanguage/LinuxAsm/index.html)
 
-[Bottles](https://usebottles.com/) ([Source](https://github.com/bottlesdevs/Bottles)): Run Windows software and games on Linux
+[Linux Assembly programming](https://www.randallhyde.com/AssemblyLanguage/LinuxAsm/index.html)
 
 [Cassoway](https://github.com/casualsnek/cassowary): Run Windows Applications on Linux as if they are native, Use linux applications to launch files files located in windows vm without needing to install applications on vm. With easy to use configuration GUI
 
@@ -43,6 +47,7 @@ Video - [Building Your Own Linux Kernel Might Not Be As Hard As You Think](https
 ## Using
 
 * ["7 steps to make Linux look more like macOS"](https://www.xda-developers.com/steps-make-linux-look-macos/)
+* ["7 tools to make your Linux desktop look amazing"](https://www.xda-developers.com/make-your-linux-desktop-look-amazing/)
 
 ## Books
 

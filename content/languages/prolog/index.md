@@ -125,6 +125,8 @@ Prolog is used in many kinds of applications including:
 * JVM: [JIProlog](http://www.jiprolog.com/) | [Source](https://github.com/jiprolog/)
 * JVM: [TuProlog](http://alice.unibo.it/xwiki/bin/view/Tuprolog/)
 
+Here's a weird one: [C+P: Combining the Usefulness of C with the Excellence of Prolog](https://hackaday.com/2025/03/14/cp-combining-the-usefulness-of-c-with-the-excellence-of-prolog/) Basically it's a Prolog program system that transpiles C code? [Source](https://github.com/needleful/c_plus_prolog)
+
 Many of these are built on the idea of the [Warren Abstract machine](http://en.wikipedia.org/wiki/Warren_abstract_machine), [archived here](http://wambook.sourceforge.net/).
 
 

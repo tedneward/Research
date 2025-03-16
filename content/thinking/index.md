@@ -5,6 +5,8 @@ tags=thinking, philosophy, psychology
 summary=A collection of links (usually to articles) about the various forms of thinking we do.
 ~~~~~~
 
+[Not entirely sure what this is](https://moebio.com/mind/) but it's definitely something interactive and interesting
+
 # Mathematics
 
 ## Essays/Tweet threads
@@ -140,11 +142,17 @@ summary=A collection of links (usually to articles) about the various forms of t
 
 # Philosophy
 
+## General
+
+* ["What is the relationship between philosophy and the history of philosophy?"](https://www.onbeyondzarathustra.com/flowchart) (Interactive flowchart)
+
 ## Software
 
 * ["A closer look at Software Development"](http://www.pyrrho.com/en/philosophy.htm): Purportedly offers a "solution" to some of the problems with software dev. References UBizz, which seems like a product from the company hosting this page. May need to relocate this to "tools" sometime in the future.
 
 # Psychology
+
+["The conceptual structure of human relationships across modern and historical cultures"](https://www.nature.com/articles/s41562-025-02122-8): "A defining characteristic of social complexity in Homo sapiens is the diversity of our relationships. We build connections of various types in our families, workplaces, neighbourhoods and online communities. How do we make sense of such complex systems of human relationships? The basic organization of relationships has long been studied in the social sciences, but no consensus has been reached. Here, by using online surveys, laboratory cognitive tasks and natural language processing in diverse modern cultures across the world (n = 20,427) and ancient cultures spanning 3,000 years of history, we examined universality and cultural variability in the ways that people conceptualize relationships. We discovered a universal representational space for relationship concepts, comprising five principal dimensions (**formality, activeness, valence, exchange and equality**) and three core categories (**hostile, public, and private** relationships). Our work reveals the fundamental cognitive constructs and cultural principles of human relationship knowledge and advances our understanding of human sociality."
 
 ["That is not how your brain works"](https://nautil.us/that-is-not-how-your-brain-works-2-13339/): Debunking certain psychological myths:
 1. ... that specific parts of the human brain have specific psychological jobs.

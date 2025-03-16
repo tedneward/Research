@@ -7,6 +7,8 @@ tags=ai
 
 ## General
 
+["The Open-Source Toolkit for Building AI agents"](https://www.aitidbits.ai/p/open-source-agents)
+
 ## Definitions
 
 ## [Expert Systems](/tags/expert%20system.html)/[Rules Engines](/tags/rules.html)

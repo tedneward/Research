@@ -17,6 +17,24 @@ Storage is typically data, but the degree of structure is flexible. Unstructured
 
 ## "Shapes" to data
 
+* ["15 Databases, 15 Use Cases--Stop Using the Wrong Database for the Right Problem"](https://hackernoon.com/15-databases-15-use-casesstop-using-the-wrong-database-for-the-right-problem):
+
+    1. Relational
+    2. Wide Column (Cassandra)
+    3. Time-Series (InfluxDB, Prometheus, Kdb+, etc)
+    4. Ledger (Amazon Quantum)
+    5. Graph (Neo4j, ArangoDB, Amazon Neptune, etc)
+    6. OODBMS (ObjectDB, db4o, etc) *(Sadly these are more or less extinct at this point)*
+    7. Hierarchical (IMS, Windows Registry, Filesystems, etc)
+    8. Document (MongoDB, ArangoDB, CouchDB)
+    9. Key-Value (Couchbase, DataStax, Redis)
+    10. Blob (Amazon S3)
+    11. In-Memory (Redis, Memcached, Apache Ignite, Aerospike, Hazlecast)
+    12. Text Search (Elastic Search)
+    13. Spatial (PostGIS, Oracle Spatial, SpatiaLite)
+    14. Vector (Pinecone, Chroma)
+    15. Embedded (SQLite, RocksDB, BerkeleyDB)
+
 ### [Relational](/tags/relational.html)
 
 Built, more or less, on the Codd model of relationships between tuples of data.
