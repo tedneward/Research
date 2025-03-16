@@ -45,6 +45,26 @@ summary=A collection of books and articles on algorithms and data structures. La
 * [The Kademlia Protocol Succinctly](https://www.syncfusion.com/ebooks/kademlia_protocol_succinctly) - Marc Clifton
 * [Think Complexity](https://greenteapress.com/wp/think-complexity-2e/) - Allen B. Downey (2nd Edition) (PDF, HTML)
 
+Others not linked:
+
+Introduction to Algorithms (4th Ed) by Corman
+
+Grokking Algorithms (2nd Ed) by Bhargava
+
+The Algorithm Design Manual (3rd Ed) by Skiena
+
+Algorithms in a Nutshell by Heineman, Police and Selkow
+
+Introduction to Algorithms: A Creative Approach by Manber
+
+The Design and Analysis of Algorithms by Levitin
+
+Data Structures and Algorithms by Aho, Ullman & Hopcroft
+
+Python Algorithms: Mastering the Basic Algorithms in the Python Language by Hetland
+
+
+
 Papers:
 
 * [An Introduction to Bε (B-epsilon) trees and Write-Optimization](http://supertech.csail.mit.edu/papers/BenderFaJa15.pdf): "A Bε-tree is an example of a write-optimized data structure and can be used to organize on-disk storage for an application such as a database or filesystem. A Bε-tree provides a key-value API, similar to a B-tree, but with better performance, particularly for inserts, range queries, and key-value updates. This article describes the Bε-tree,compares its asymptotic performance to B-trees and Log-Structured Merge trees (LSM-trees), and presents real-world performance measurements. After finishing this article, a reader should have a basic understanding of how a Bε-treeworks, its performance characteristics, how it compares to other key-value stores, and how to design applications to gain the most performance from a Bε-tree."
