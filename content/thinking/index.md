@@ -44,6 +44,7 @@ summary=A collection of links (usually to articles) about the various forms of t
 * [Calculus in Context](http://www.math.smith.edu/~callahan/intromine.html) - James Callahan
 * [Calculus Made Easy](http://www.gutenberg.org/ebooks/33283) - Silvanus P. Thompson (PDF)
 * [Category Theory for the Sciences](https://mitpress.ublish.com/ereader/77/?preview#page/Cover) - David I. Spivak
+* [Choose your own adventure Calculus](https://tomasp.net/blog/2025/adventure-calculus/) - Tomas Petricek
 * [CK-12 Probability and Statistics - Advanced](http://www.ck12.org/book/Probability-and-Statistics---Advanced-%2528Second-Edition%2529/)
 * [CLP-1 Differential Calculus](https://www.math.ubc.ca/~CLP/CLP1/) - Joel Feldman, Andrew Rechnitzer, and Elyse Yeager
 * [CLP-2 Integral Calculus](https://www.math.ubc.ca/~CLP/CLP2/) - Joel Feldman, Andrew Rechnitzer, and Elyse Yeager
@@ -185,3 +186,6 @@ summary=A collection of links (usually to articles) about the various forms of t
 
 ["It was safer back in my day" takedown](https://www.psypost.org/2023/06/psychologists-have-identified-a-pervasive-illusion-that-has-existed-for-at-least-70-years-166017): "The findings ... suggest there is a pervasive illusion of moral decline that is the result, at least in part, of two common psychological biases." ... "Mastroianni also noted that a study published last year, which analyzed 511 studies conducted over the course of 61 years, found evidence that cooperative behavior had actually increased over time." -- [Study: "The illusion of moral decline"](https://www.nature.com/articles/s41586-023-06137-x)
 
+## Random shit that I find interesting but not high priority
+
+* ["Learn sailing mechanics without leaving dry land"](https://hackaday.com/2024/01/20/learn-sailing-mechanics-without-leaving-dry-land/)

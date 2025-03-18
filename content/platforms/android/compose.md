@@ -124,6 +124,7 @@ summary=The functional-composition way to build UIs in Android; "Jetpack Compose
 
 * ["Jetpack Compose vs View System: Comparing UI containers"](https://medium.com/@dobri.kostadinov/jetpack-compose-vs-view-system-comparing-ui-containers-4c423c341898): side-by-side comparisons between the two
 * ["Designing Effective UI Components in Jetpack Compose"](https://proandroiddev.com/designing-effective-ui-components-in-jetpack-compose-cb8d18f7f888)
+* ["Migrate your Android Project to Compose"](https://proandroiddev.com/migrate-your-android-project-to-compose-multiplatform-project-0708897caea3)
 
 
 ---

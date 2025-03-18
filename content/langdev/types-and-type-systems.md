@@ -83,6 +83,7 @@ Note that while these terms usually are applied most directly to programming lan
 ## Type inference
 
 * ["Damas-Hindley-Milner inference two ways"](https://bernsteinbear.com/blog/type-inference/): Damas-Hindley-Milner (HM) is a type system for Standard ML and the ML-family languages with parametric polymorphism, aka generic functions. It sits at a sweet spot in PL design: the type system is quite expressive, and there are well known type inference algorithms that require absolutely no annotations from the programmer.
+- ["How to implement type inference"](https://www.reddit.com/r/ProgrammingLanguages/comments/1gkjkz4/how_to_implement_local_type_inference/)
 
 ## Type theory
 
