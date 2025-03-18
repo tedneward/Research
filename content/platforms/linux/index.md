@@ -7,8 +7,8 @@ Distributions ([DistroWatch](https://distrowatch.com/)):
 
 * [Ubuntu](https://ubuntu.com/)
 * [Pop! OS](https://pop.system76.com/)
-* [Zorin](https://zorin.com/os/)
 * [Mint](https://linuxmint.com/)
+* [Zorin](https://zorin.com/os/)
 * [MX Linux](https://mxlinux.org/): a family of operating systems (and a cooperative venture between the antiX and MX Linux communities) that are designed to combine elegant and efficient desktops with high stability and solid performance.
 * [VanillaOS](../vanillaos)
 * [Bazzite](https://bazzite.gg/): a custom Fedora Atomic image built with cloud native technology that brings the best of Linux gaming to all of your devices - including your favorite handheld.
