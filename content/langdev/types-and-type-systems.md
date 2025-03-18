@@ -105,6 +105,8 @@ Note that while these terms usually are applied most directly to programming lan
 
 ## Reading
 
+* [Type Theory for All](https://www.typetheoryforall.com/): podcasts about type theory and applications
+
 * [Type Systems for Memory Safety](https://borretti.me/article/type-systems-memory-safety): "Manual memory management and memory safety used to be incompatible. But it is possible to design programming languages and type systems that provide memory safety at compile time, combining the safety of high-level languages with the performance and low-level control of languages like C." ... "Memory safety is a bundle of things: *Null Safety*: dereferencing a NULL pointer is bad. This causes a segfault or a NullPointerException or undefined is not a function, depending on your language. This is the easiest one to solve and arguably isn’t about memory at all. *Buffer Overflow*: indexing past the end of a contiguous chunk of memory. This is solved by storing the length of arrays and checking it. *No Use-After-Free*: using a chunk of memory after it has been deallocated. This is a source of too many security vulnerabilities to count. *Leak Freedom*: all memory that is allocated is freed. *Data Race Freedom*: memory can be used by multiple threads without complex runtime access checks (locks, mutexes etc.) Null safety and buffer overflows are solved by quotidian solutions: option types and range checks. Use-after-free and leak freedom are harder to enforce, and require potentially a lot more compile time machinery."
 
 * ["How to Write a type checker/type inferrer with good error message"](https://lambdaland.org/posts/2022-07-27_how_to_write_a_type_checker/) ([Source](https://git.sr.ht/~ashton314/type-error-research))

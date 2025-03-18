@@ -26,6 +26,7 @@ summary=A collection of links on parsers, parser generators, parsing algorithms,
 * [Demystifying Pratt Parsers](https://martin.janiczek.cz/2023/07/03/demystifying-pratt-parsers.html)
 * [Rewriting the Ruby parser](https://railsatscale.com/2023-06-12-rewriting-the-ruby-parser)
 * [A Guide to Parsing: Algorithms and Terminology](https://tomassetti.me/guide-parsing-algorithms-terminology/)
+* ["Runtime-Extensible Parsers"](https://duckdb.org/pdf/CIDR2025-muehleisen-raasveldt-extensible-parsers.pdf)
 
 ## Theory and approaches
 

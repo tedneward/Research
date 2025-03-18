@@ -104,6 +104,8 @@ Programming languages are (generally) human-friendly means of getting a computer
 
     **History.** APL began as a mathematical notation created by Kenneth Iverson in the 1960’s. He then implemented it on a computer. It has enjoyed a niche following ever since among people doing heavy calculations. Its descendant, K, was very popular in financial settings.
 
+    [Using an array DSL to explain APL ideas](https://okmij.org/ftp/Computation/ARPL.html)
+
 * Prolog (logic languages)
 
     **Characteristics.** Programs consist of facts, either “ground” facts such as Bob is Ed and Jane’s father,
