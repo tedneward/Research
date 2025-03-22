@@ -1,4 +1,4 @@
-title=CreateDB
+title=CrateDB
 tags=storage, relational
 summary=Open-source, distributed SQL database.
 ~~~~~~
