@@ -42,3 +42,7 @@ nocodb/nocodb:latest`
     cd nocodb/docker-compose/mssql
     docker-compose up -d
 
+## Articles
+
+* ["I replaced Airtable with NocoDb; here's how"](https://www.xda-developers.com/nocodb-guide/)
+
