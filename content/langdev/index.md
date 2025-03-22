@@ -38,6 +38,8 @@ tags=language, language development
 - [An interpreter for the Monkey programming language](https://github.com/imteekay/crafting-an-interpreter)
 - [How the TypeScript compiler works](https://www.iamtk.co/series/the-typescript-compiler)
 - [Compiling Lisp to bytecode](https://healeycodes.com/compiling-lisp-to-bytecode-and-running-it)
+- [uza](https://github.com/msanlop/uza): a simple statically-typed programming language
+- [miniUni](https://github.com/gidra5/miniUni): A concurrent scripting language
 
 ### Essays/Papers
 
@@ -68,6 +70,7 @@ tags=language, language development
 - [Simple Programming Languages](https://ryanbrewer.dev/posts/simple-programming-languages.html)
 - [Static Typing Where Possible, Dynamic Typing When Needed: The End of the Cold War Between Programming Languages](https://www.ics.uci.edu/~lopes/teaching/inf212W12/readings/rdl04meijer.pdf)
 - [The Behavior of Gradual Types: A User Study](https://cs.brown.edu/~sk/Publications/Papers/Published/tgpk-beh-grad-types-user-study/paper.pdf)
+- [The Calculated Typer](https://bahr.io/pubs/entries/calctyper.html): We present a calculational approach to the design of type checkers, showing how they can be derived from behavioural specifications using equational reasoning. In addition, we show how the calculations can be simplified by taking an algebraic approach based on fold fusion, and further improved by taking a constraint-based approach to solving and composing fusion preconditions. We illustrate our methodology with three examples of increasing complexity, starting with a simple expression language, then adding support for exceptions, and finally considering a version of the lambda calculus.
 - [The Design Principles of the Elixir Type System](https://arxiv.org/pdf/2306.06391.pdf)
 - [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
 - [The Taxonomy of Reactive Programming](https://vsavkin.com/the-taxonomy-of-reactive-programming-d40e2e23dee4): Events and State; Deriving and Executing; Reified and Transparent; Composition; Implicit and Explicit Time; Self and External Observation; 

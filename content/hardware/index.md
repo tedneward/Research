@@ -30,6 +30,8 @@ Beepy: [Review: Beepy, a palm-sized Linux hacking playground](https://hackaday.c
 ## Storage
 [High Speed Portable SSD](https://miatine.com/speed)
 
+[SSD Storage Docking Station](https://www.zdnet.com/article/this-ssd-docking-station-is-one-of-the-best-investments-ive-made-for-my-pc-heres-why/) (Sabrent USB SSD 4-bay docking station: [Amazon](https://www.amazon.com/dp/B0711L68MS/ref=asc_df_B0711L68MS1741950000000))
+
 ## Input Devices
 [GATERON Mechanical Keyboard](https://www.amazon.com/dp/B01E57PUNA/?th=1)
 

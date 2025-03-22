@@ -1,5 +1,5 @@
 title=Bootstrap
-tags=presentation, browser
+tags=presentation, browser, css
 summary=A design framework-slash-CSS library for building websites that don't look like programmer-built websites.
 ~~~~~~
 

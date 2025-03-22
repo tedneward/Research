@@ -1,5 +1,5 @@
 title=langcc
-tags=tool, language development, native
+tags=tool, langdev, native
 summary=A collection of tools for language development.
 ~~~~~~
 

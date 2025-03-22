@@ -1,5 +1,5 @@
 title=GUILE
-tags=language, lisp, functional, dynamic, ecmascript
+tags=language, lisp, functional, dynamic, ecmascript, wasm
 summary=The GNU Ubiquitous Intelligent Language for Extensions.
 ~~~~~~
 

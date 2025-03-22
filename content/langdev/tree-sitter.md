@@ -14,3 +14,4 @@ It can build a concrete syntax tree for a source file and efficiently update the
 
 Complete list of parsers is at https://github.com/tree-sitter/tree-sitter/wiki/List-of-parsers 
 
+* tree-sitter-plantuml: https://github.com/lyndsysimon/tree-sitter-plantuml

@@ -12,6 +12,8 @@ Awesomes:
     * [Awesomes (list of)](https://github.com/jnv/lists)
     * [Curated list](https://github.com/sindresorhus/awesome)
     * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - awesome-* or *-awesome lists.
+    * [awesome-cms](https://github.com/postlight/awesome-cms)
+    * [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - self-hosted systems (Analytics, Blogging Platforms, CMS, DNS, Games, a huge list)
 
 * [Analytics](https://github.com/0xnr/awesome-analytics)
 * [PHP](https://github.com/ziadoz/awesome-php)

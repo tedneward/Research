@@ -3,9 +3,9 @@ tags=language, windows
 summary=The ultimate automation scripting language for Windows.
 ~~~~~~
 
-[Website](https://www.autohotkey.com/) | [Source](https://ahkscript.github.io/) | [Docs](https://www.autohotkey.com/docs/AutoHotkey.htm) ([CHM](https://autohotkey.com/download/1.1/AutoHotkeyHelp.zip))
+[Website](https://www.autohotkey.com/) | [Source](https://ahkscript.github.io/) | [Docs](https://www.autohotkey.com/docs/v2/) ([CHM](https://autohotkey.com/download/1.1/AutoHotkeyHelp.zip))
 
-There's some really interesting ideas here, and the whole language appears to be one giant Windows systemwide keyboard hook. Love the simplicity of the idea.
+There's some really interesting ideas here, and the whole language appears to be one giant Windows systemwide keyboard hook. Love the simplicity of the idea. Note that v1.1 and v2 are syntactically similar but not backwards-compatible, as 1.1 had a lot of inconsistencies to it.
 
 [AHKbook - the book for AutoHotkey](http://ahkscript.github.io/ahkbook/index.html)
 
@@ -15,39 +15,43 @@ There's some really interesting ideas here, and the whole language appears to be
 ::btw::By the way
 
 ; hotkeys - press winkey-z to go to Google
-#z::
-Run http://google.com
-Return
+#z::Run "http://google.com"
 ```
 
 ```
 ; copy text to the clipboard, modify it, paste it back
 ^+k:: ; ctrl-shift-k
-ClipSave:=ClipboardAll ; store current clipboard
-Send ^c ; copy selected text
-clipboard:="<i>" clipboard "</i>" ; wrap it in html-tags
-Send ^v ; paste
-Clipboard:=ClipSave ; restore old clipboard content
-ClipSave:="" ; clear variable
-Return
+{
+    ClipSave := ClipboardAll() ; store current clipboard
+    A_Clipboard := "" ; clear the clipboard
+    Send "^c" ; copy selected text
+    if ClipWait(1) ; wait up to a second for content
+    {
+        ; wrap it in html-tags
+        A_Clipboard := "<i>" A_Clipboard "</i>"
+        Send "^v" ; paste
+        Sleep 500 ; wait for Windows to complete paste
+    }
+    A_Clipboard := ClipSave ; restore old clipboard content
+    ClipSave := "" ; clear variable
+}
 ```
 
 ```
 ; Easy to make GUIs
-Gui, Add, Text, , Enter your name
-Gui, Add, Edit, vName w150
-Gui, Add, Button, , OK
-Gui, Show
+MyGui := Gui()
+MyGui.Add("Text",, "Enter your name")
+MyGui.Add("Edit", "w150 vName")
+MyGui.Add("Button",, "OK").OnEvent("Click", SayHello)
+MyGui.Show()
 Return
 
-ButtonOK:
-Gui, Submit, Destroy
-MsgBox Hello %Name%
-Return
-
-Esc::
-GuiClose:
-ExitApp
+SayHello(*)
+{
+    Saved := MyGui.Submit()
+    MsgBox "Hello " Saved.Name
+    ExitApp
+}
 ```
 
 ```

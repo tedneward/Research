@@ -6,9 +6,10 @@ summary=A collection of links on parsers, parser generators, parsing algorithms,
 
 ## Tools
 
-* [Bison](/tools/bison)/yacc
-* [Lemon](/tools/lemon)
-* [ANTLR](/tools/antlr)
+* [Bison](/langdev/bison)/yacc
+* [Lemon](/langdev/lemon)
+* [ANTLR](/langdev/antlr)
+* [Tree-sitter](/langdev/tree-sitter)
 * Parser Expression Grammars (PEGs)
 * [myna](https://github.com/cdiggins/myna-parser): Myna is an efficient and easy to use parsing library for JavaScript written using TypeScript 2.0 which targets ECMAScript 5.1.
 * [syntax](https://github.com/DmitrySoshnikov/syntax): Syntactic analysis toolkit, language-agnostic parser generator.
@@ -25,6 +26,7 @@ summary=A collection of links on parsers, parser generators, parsing algorithms,
 * [Demystifying Pratt Parsers](https://martin.janiczek.cz/2023/07/03/demystifying-pratt-parsers.html)
 * [Rewriting the Ruby parser](https://railsatscale.com/2023-06-12-rewriting-the-ruby-parser)
 * [A Guide to Parsing: Algorithms and Terminology](https://tomassetti.me/guide-parsing-algorithms-terminology/)
+* ["Runtime-Extensible Parsers"](https://duckdb.org/pdf/CIDR2025-muehleisen-raasveldt-extensible-parsers.pdf)
 
 ## Theory and approaches
 

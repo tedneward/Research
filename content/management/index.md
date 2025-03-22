@@ -121,6 +121,8 @@ tags=management
 
 [Why Executives Leave](https://henrysward.medium.com/executive-departures-25bc7d935813)
 
+[A CTO's Interview Journey](https://lonbinder.com/2022/08/15/cto-interview-journey/)
+
 [What Team Structure is Right for DevOps to Flourish?](https://web.devopstopologies.com/#)
 
 [5 Tips for Being an Effective Tech Lead](https://www.thoughtworks.com/insights/blog/5-tips-being-effective-tech-lead)

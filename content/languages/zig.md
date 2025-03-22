@@ -3,7 +3,7 @@ tags=language, native
 summary=Robust, optimal, and clear programming language.
 ~~~~~~
 
-[Website](https://ziglang.org/) | [Source](https://github.com/zig-lang/zig) | [Docs](https://ziglang.org/documentation/0.5.0/)
+[Website](https://ziglang.org/) | [Source](https://github.com/zig-lang/zig) | [Docs](https://ziglang.org/documentation/0.5.0/) | [Zig Book](https://github.com/pedropark99/zig-book)
 
 [Zig at a glance](https://andrewshitov.com/2019/12/22/zig-at-a-glance/)
 
@@ -199,7 +199,3 @@ pub fn main() void {
     p.info(); // John is 42 years old.
 }
 ```
-
-
-https://github.com/ziglang/zig
-General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.

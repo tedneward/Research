@@ -5,6 +5,8 @@ tags=thinking, philosophy, psychology
 summary=A collection of links (usually to articles) about the various forms of thinking we do.
 ~~~~~~
 
+[Not entirely sure what this is](https://moebio.com/mind/) but it's definitely something interactive and interesting
+
 # Mathematics
 
 ## Essays/Tweet threads
@@ -42,6 +44,7 @@ summary=A collection of links (usually to articles) about the various forms of t
 * [Calculus in Context](http://www.math.smith.edu/~callahan/intromine.html) - James Callahan
 * [Calculus Made Easy](http://www.gutenberg.org/ebooks/33283) - Silvanus P. Thompson (PDF)
 * [Category Theory for the Sciences](https://mitpress.ublish.com/ereader/77/?preview#page/Cover) - David I. Spivak
+* [Choose your own adventure Calculus](https://tomasp.net/blog/2025/adventure-calculus/) - Tomas Petricek
 * [CK-12 Probability and Statistics - Advanced](http://www.ck12.org/book/Probability-and-Statistics---Advanced-%2528Second-Edition%2529/)
 * [CLP-1 Differential Calculus](https://www.math.ubc.ca/~CLP/CLP1/) - Joel Feldman, Andrew Rechnitzer, and Elyse Yeager
 * [CLP-2 Integral Calculus](https://www.math.ubc.ca/~CLP/CLP2/) - Joel Feldman, Andrew Rechnitzer, and Elyse Yeager
@@ -140,11 +143,17 @@ summary=A collection of links (usually to articles) about the various forms of t
 
 # Philosophy
 
+## General
+
+* ["What is the relationship between philosophy and the history of philosophy?"](https://www.onbeyondzarathustra.com/flowchart) (Interactive flowchart)
+
 ## Software
 
 * ["A closer look at Software Development"](http://www.pyrrho.com/en/philosophy.htm): Purportedly offers a "solution" to some of the problems with software dev. References UBizz, which seems like a product from the company hosting this page. May need to relocate this to "tools" sometime in the future.
 
 # Psychology
+
+["The conceptual structure of human relationships across modern and historical cultures"](https://www.nature.com/articles/s41562-025-02122-8): "A defining characteristic of social complexity in Homo sapiens is the diversity of our relationships. We build connections of various types in our families, workplaces, neighbourhoods and online communities. How do we make sense of such complex systems of human relationships? The basic organization of relationships has long been studied in the social sciences, but no consensus has been reached. Here, by using online surveys, laboratory cognitive tasks and natural language processing in diverse modern cultures across the world (n = 20,427) and ancient cultures spanning 3,000 years of history, we examined universality and cultural variability in the ways that people conceptualize relationships. We discovered a universal representational space for relationship concepts, comprising five principal dimensions (**formality, activeness, valence, exchange and equality**) and three core categories (**hostile, public, and private** relationships). Our work reveals the fundamental cognitive constructs and cultural principles of human relationship knowledge and advances our understanding of human sociality."
 
 ["That is not how your brain works"](https://nautil.us/that-is-not-how-your-brain-works-2-13339/): Debunking certain psychological myths:
 1. ... that specific parts of the human brain have specific psychological jobs.
@@ -177,3 +186,6 @@ summary=A collection of links (usually to articles) about the various forms of t
 
 ["It was safer back in my day" takedown](https://www.psypost.org/2023/06/psychologists-have-identified-a-pervasive-illusion-that-has-existed-for-at-least-70-years-166017): "The findings ... suggest there is a pervasive illusion of moral decline that is the result, at least in part, of two common psychological biases." ... "Mastroianni also noted that a study published last year, which analyzed 511 studies conducted over the course of 61 years, found evidence that cooperative behavior had actually increased over time." -- [Study: "The illusion of moral decline"](https://www.nature.com/articles/s41586-023-06137-x)
 
+## Random shit that I find interesting but not high priority
+
+* ["Learn sailing mechanics without leaving dry land"](https://hackaday.com/2024/01/20/learn-sailing-mechanics-without-leaving-dry-land/)
