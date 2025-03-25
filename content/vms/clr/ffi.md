@@ -3,6 +3,8 @@ tags=vm, clr, native
 summary=A collection of notes and links on .NET/CLR platform interop and native bindings.
 ~~~~~~
 
+-ClrDebug: Managed wrappers around the Unmanaged API
+	- https://github.com/lordmilko/ClrDebug
 - CoreRTDemo: Building a native library in C# and calling it from C++
 	- https://github.com/encrypt0r/CoreRTDemo
 	- Writing Native Libraries in C# and using them in other languages

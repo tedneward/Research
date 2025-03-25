@@ -17,4 +17,6 @@ summary=A predecessor "Ur-language" to most of the world's mainstream languages.
 
 ## Articles/Blog Posts
 
+[Algol68 comes to GCC](https://www.theregister.com/2025/01/07/algol_68_comes_to_gcc/)
+
 [Announcement of GCC-Algol](https://lwn.net/ml/all/20250101020952.18404-1-jose.marchesi@oracle.com/)

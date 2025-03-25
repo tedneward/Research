@@ -49,6 +49,7 @@ Tomas Petricek's writings on the subject:
 ## Reading
 
 * [10 Most Popular Software Architectural Patterns](https://nix-united.com/blog/10-common-software-architectural-patterns-part-1/)
+* [The Architect's Guide to Open Table Formats and Object Storage](https://thenewstack.io/the-architects-guide-to-open-table-formats-and-object-storage/)
 * [Architectural Patterns](https://books.google.com/books/about/Architectural_Patterns.html?id=RvNFDwAAQBAJ&printsec=frontcover&source=kp_read_button&hl=en&newbks=1&newbks_redir=0&gboemv=1#v=onepage&q&f=false) (Book)
 * [Architectural Styles and the Design of Network-based Software Architectures](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) - Roy Thomas Fielding
 * ["Architecture vs Model"](https://kalele.io/architecture-vs-model/): "One of the biggest problems with business software is that architecture gets promoted more than the domain model. Further, most domain models are ordinary, and could be implemented by school students for a lot less cost than the 7-9 figures often spent. Yet, often the software architecture supporting a model—almost certainly anemic—is generally over engineered."

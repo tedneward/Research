@@ -1,5 +1,5 @@
 title=Jank
-tags=language
+tags=language, native, llvm
 summary=A general-purpose programming language which embraces the interactive, value-oriented nature of Clojure as well as the desire for native compilation and minimal runtimes.
 ~~~~~~
 
@@ -9,4 +9,6 @@ summary=A general-purpose programming language which embraces the interactive, v
 
 ## Articles/Blog Posts
 
-["I quit my job..."](https://jank-lang.org/blog/2025-01-10-i-quit-my-job/)
+* ["I quit my job..."](https://jank-lang.org/blog/2025-01-10-i-quit-my-job/)
+* ["From C++ to Clojure: New Language Promises Best of Both Worlds"](https://thenewstack.io/from-c-to-clojure-new-language-promises-best-of-both/)
+

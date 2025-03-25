@@ -90,6 +90,7 @@ Transactions and commits
 * [Gamestonk Terminal](https://github.com/GamestonkTerminal/GamestonkTerminal): Investment research for everyone [Source](https://github.com/GamestonkTerminal/GamestonkTerminal) (open-source alternative to [Bloomberg](https://www.bloomberg.com/))
 * [State of APIs](https://stateofapis.com/): Survey results on a yearly (2021, 2022, beyond?) basis.
 * [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
+* [100 Free APIs for Developers in 2024](https://dev.to/hanzla-baig/100-free-apis-for-developers-in-2024-1jfi)
 
 ## Interesting tools based on network APIs
 

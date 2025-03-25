@@ -7,21 +7,25 @@ tags=vm
 
 Virtual Machines differ from platforms in that a virtual machine may form the core of a platform. Virtual machines typically provide an environment for executing code (either a bytecode set unique to the VM or, in rare cases, compiled machine code) and often provide a set of services to that executing code, such as code-loading, execution access control and security, garbage collection, metadata access, and so on.
 
+## News/Articles
+* ["State of WebAssembly - 2024 and 2025"](https://platform.uno/blog/state-of-webassembly-2024-2025/)
+* ["State of WebAssembly - 2023 and 2024"](https://platform.uno/blog/state-of-webassembly-2023-2024/)
+* ["State of WebAssembly - 2022 and 2023"](https://platform.uno/blog/the-state-of-webassembly-2022-and-2023/)
+* ["State of WebAssembly - 2021 and 2022"](https://platform.uno/blog/the-state-of-webassembly-2021-and-2022/)
+
+
 ## VM Implementation Reading
 [Crafting Interpreters](http://www.craftinginterpreters.com/)
 
 ["A Virtual Machine for Functional Logic Computation"](https://web.cecs.pdx.edu/~apt/ifl04.pdf)
 
 ### Bytecode
-
 See http://www.complang.tuwien.ac.at/forth/threaded-code.html for an introduction to threading techniques, including a performance comparison at http://www.complang.tuwien.ac.at/forth/threading/
 
 ### Stack-based vs Register-based
-
 This is often abstract variations of the register-vs-stack debate that CPUs engage in; generally a VM will either be entirely stack-based (using a virtual stack that may or may not correspond to the real stack), or entirely register-based (though often a stack is still present in a register VM, for other purposes).
 
 ### Garbage collection
-
 Much of this is going to be found in the [reading on memory management](/reading/software/memory-management). VMs typically offer some form of automatic memory management, since they can slightly intervene around raw pointer references and add either additional bookkeeping or indirection or "pointer fixups" to allow for objects to move around in memory w/o programmer awareness/knowledge.
 
 ### Tutorials

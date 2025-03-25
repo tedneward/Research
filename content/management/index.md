@@ -19,6 +19,21 @@ tags=management
 
 [Servant Leadership](https://responsiveadvisors.com/blog/servant-leadership/) - Jason Malmstadt
 
+[Why Consensus Leadership is Killing Innovation](https://www.forbes.com/sites/cherylrobinson/2025/01/03/why-consensus-leadership-is-killing-innovation/)
+
+[Modern Books for Software Engineering Managers](https://dev.to/sibprogrammer/modern-books-for-software-engineering-managers-199p) (a list):
+
+* [Become an Effective Software Engineering Manager](https://www.amazon.com/Become-Effective-Software-Engineering-Manager/dp/1680507249/)
+* [Debugging Teams: Better Productivity through Collaboration](https://www.amazon.com/Debugging-Teams-Productivity-through-Collaboration/dp/1491932058)
+* [An Elegant Puzzle: Systems of Engineering Management](https://www.amazon.com/Elegant-Puzzle-Systems-Engineering-Management/dp/1732265186/)
+* [Engineering Management for the Rest of Us](https://www.amazon.com/Engineering-Management-Rest-Sarah-Drasner/dp/B0BHX6NLGZ/)
+* [Leading Effective Engineering Teams](https://www.amazon.com/Leading-Effective-Engineering-Teams-Contributors/dp/109814824X/)
+* [The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/)
+* [Managing Humans: Biting and Humorous Tales of a Software Engineering Manager](https://www.amazon.com/dp/1484271157/)
+* [The Missing README: A Guide for the New Software Engineer](https://www.amazon.com/Missing-README-Guide-Software-Engineer/dp/1718501838/)
+* [No Rules Rules: Netflix and the Culture of Reinvention](https://www.amazon.com/No-Rules-Netflix-Culture-Reinvention/dp/1984877860/)
+* [Radical Candor](https://www.amazon.com/Radical-Candor-Revised-Kick-Ass-Humanity/dp/1250235375/)
+
 [Questionable Advice: “How can I drive change and influence teams... without power?”](https://charity.wtf/2023/06/05/drive-change-and-influence-teams-without-power/) - Charity Majors
 
 [A few words on communication](https://event-driven.io/en/a_few_words_on_communication/) - Oskar Dudycz
