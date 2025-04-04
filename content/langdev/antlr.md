@@ -19,13 +19,11 @@ summary=Code-generating parser tool
 
 ## Reading
 
-[How to Create a Programming Language Using ANTLR4](https://progur.com/2016/09/how-to-create-language-using-antlr4.html) | 
-
-[A Simple ANTLR Parser](https://courses.ics.hawaii.edu/ReviewICS312/morea/Compiling/reading-ANTLR_grammar.html)
-
-[Easy intro to writing a BASIC compiler](https://mateiw.github.io/antlr-intro/)
-
-[The Language from the Dragon Book in ANTLR](https://www1.cs.columbia.edu/~sedwards/classes/2006/w4115-fall/dragonbook-language.pdf)
+- [Adaptive LL(*) Parsing: The Power of Dynamic Analysis](http://www.antlr.org/papers/allstar-techreport.pdf)
+- [How to Create a Programming Language Using ANTLR4](https://progur.com/2016/09/how-to-create-language-using-antlr4.html) | 
+- [A Simple ANTLR Parser](https://courses.ics.hawaii.edu/ReviewICS312/morea/Compiling/reading-ANTLR_grammar.html)
+- [Easy intro to writing a BASIC compiler](https://mateiw.github.io/antlr-intro/)
+- [The Language from the Dragon Book in ANTLR](https://www1.cs.columbia.edu/~sedwards/classes/2006/w4115-fall/dragonbook-language.pdf)
 
 Strumenta:
 

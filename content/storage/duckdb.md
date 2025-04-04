@@ -1,5 +1,5 @@
 title=DuckDB
-tags=storage, relational
+tags=storage, relational, tool, embedded
 summary=An in-process SQL OLAP database management system.
 ~~~~~~
 

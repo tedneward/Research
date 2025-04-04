@@ -1,5 +1,5 @@
 title=Docker
-tags=tool, platform, containers
+tags=container, tool, platform
 summary=Virtualization tool for containerizing code, configuration, and sometimes data as part of a deployment.
 ~~~~~~
 

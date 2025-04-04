@@ -20,8 +20,8 @@ summary=Approaches to object-oriented design and thinking.
 
 # "Greek and Roman" * Robert Glass (p64)
 
-* Greek: individual acts as his own agent*you are an individual, an independent contractor
-* Roman: one's first duty was to the group, clan, class or faction upon which one depended for status: gravitas. This meant sacrificing oneself for the good of the organization, and giving up one's individuality and identifying closely with the group. You are not an individual*you are owned by the organization body and mind, 24 hours a day. Rewards: the organization provides you with security, money and power.
+* Greek: individual acts as his own agent: you are an individual, an independent contractor
+* Roman: one's first duty was to the group, clan, class or faction upon which one depended for status: *gravitas*. This meant sacrificing oneself for the good of the organization, and giving up one's individuality and identifying closely with the group. You are not an individual--you are owned by the organization body and mind, 24 hours a day. Rewards: the organization provides you with security, money and power.
 
 
 # 4 Presuppositions
@@ -33,6 +33,7 @@ summary=Approaches to object-oriented design and thinking.
 
 
 # Essential terms
+
 ## Object
 
 * responsibility

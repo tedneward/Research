@@ -12,7 +12,7 @@ Programming languages are (generally) human-friendly means of getting a computer
 
 ["The 7 ur-languages"](https://madhadron.com/programming/seven_ur_languages.html): ALGOL, Lisp, ML, Self, Forth, APL, Prolog
 
-* ALGOL
+* ***ALGOL***
 
     **Characteristics.** Programs consist of sequences of assignments, conditionals, and loops, organized into functions. Many languages add module systems, ways of defining new data types, polymorphism, or alternate control flow constructs like exceptions or coroutines.
 
@@ -22,7 +22,7 @@ Programming languages are (generally) human-friendly means of getting a computer
 
     Over time, members of this family accrete features taken from other ur-languages. In the 1980’s, notions from the Self ur-language were grafted onto many of these language in the form of classes as a way to define data types and do polymorphism. Since 2010, ideas from the ML ur-language have been appearing.
 
-* Lisp
+* ***Lisp***
 
     **Characteristics.** Lisp consists of prefix expressions enclosed in parentheses. This syntax seems bizarre, but the language also has a built-in representation of lists as a data structure as parentheses around the space separated items (e.g., (1 2 3 4)). Thus the code is in the form of a list, and Lisp systems let you define macros that take a list, modify it, and pass that modified code to the compiler.
 
@@ -34,7 +34,7 @@ Programming languages are (generally) human-friendly means of getting a computer
 
     There was a period in the late 1970’s and early 1980’s when machines were specially built to run Lisp from the ground up. Much of today’s integrated development environments was invented on those machines. Lisp itself was the vehicle of choice for most artificial intelligence research in that period, and when artifical intelligence’s hype in the 1980’s failed to deliver, the field, and Lisp with it, crashed into what is called the “AI Winter.” Lisps remain stubbornly alive to this day, especially as computers gained power and other languages adopted many of the features that originally made them awkward to implement.
 
-* ML (functional languages)
+* ***ML*** (functional languages)
 
     **Characteristics.** ML languages are defined by functions being first class values and a type system in the Hindley-Milner family that is adequate to represent different kinds of functions and tagged unions. All iteration is done by recursion, as in
 
@@ -54,7 +54,7 @@ Programming languages are (generally) human-friendly means of getting a computer
 
     **History.** ML was the metalanguage (thus the name) for a theorem proving program developed in Cambridge, England. The language escaped from that context and was popular in Europe, particularly in England and France.
 
-* Self (object-oriented languages)
+* ***Self*** (object-oriented languages)
 
     **Characteristics.** A program consists of a set of objects that can receive and send messages to each other. All behavior is implemented in this way. You create a new object by sending a message to an existing object. You do conditionals by having a variable which refers to either the true object or the false object. Both take a message with two parameters, a function to run on true, and a function to run on false. The true object runs the first function. The false object runs the second. The calling code does not know which it is sending to, only that it is sending a message. Loops are the same. Indeed, by creating and inserting appropriate objects into the right places you can entirely redefine the semantics of the language.
 
@@ -74,7 +74,7 @@ Programming languages are (generally) human-friendly means of getting a computer
 
     Smalltalk inherited the notion of a value and its type from earlier languages, and implemented the idea of a class. All objects had a class that gave their type, and the class was used to construct objects of that type. Self disposed of the notion of class and worked solely with objects. As this is a purer form, I have chosen Self as the type specimen for this ur-language.
 
-* Forth (stack languages)
+* ***Forth*** (stack languages)
 
     **Characteristics.** Stack languages are an inverse of Lisp, and share the grammar of Hewlett Packard reverse Polish notation calculators. They have a data stack. When you write a literal like the number 42, it is pushed to the stack. When you write the name of a function, it takes no explicit parameters. Instead it operates on the stack. Simple arithmetic looks quite backwards
 
@@ -94,7 +94,7 @@ Programming languages are (generally) human-friendly means of getting a computer
 
     PostScript emerged in the 1980’s as a flexible means to describe documents to printers. It is much more limited in many ways than Forth, but defines primitives related to graphical layouts in the language.
 
-* APL (array languages)
+* ***APL*** (array languages)
 
     **Characteristics.** Everything in the language is an (n dimensional) array. Operators are one or two symbols long, and implement high level operations over these arrays. The result is so terse that the sequences of symbols become the label for an operation rather than giving it another name. For example, to calculate the average of an array in variable x, you would write
 
@@ -106,7 +106,7 @@ Programming languages are (generally) human-friendly means of getting a computer
 
     [Using an array DSL to explain APL ideas](https://okmij.org/ftp/Computation/ARPL.html)
 
-* Prolog (logic languages)
+* ***Prolog*** (logic languages)
 
     **Characteristics.** Programs consist of facts, either “ground” facts such as Bob is Ed and Jane’s father,
 
@@ -151,11 +151,14 @@ Programming languages are (generally) human-friendly means of getting a computer
 
 [Meta-object protocols (MOP)](/languages/concepts/metaobjectprotocol.html)
 
-Object-oriented
+[Object-oriented](/languages/concepts/object-oriented)
 
-* [Object capabilities](./concepts/object-capability.html)
-* [Object thinking](./concepts/object-thinking.html)
-* [Foundations of Object Oriented Languages](https://www.cs.cmu.edu/~aldrich/FOOL/FOOL1/FOOL1-report.pdf) ([PDF](/languages/concepts/FOOL1-report.pdf))
+* [Object capabilities](/languages/concepts/object-capability)
+* [Object thinking](/languages/concepts/object-thinking)
+* [Foundations of Object Oriented Languages](https://www.cs.cmu.edu/~aldrich/FOOL/FOOL1/FOOL1-report.pdf) ([local PDF](/languages/concepts/FOOL1-report.pdf))
+* [Open, Reusable Object Models](/languages/concepts/Open_Reusable_Object_Models.pdf) ([2-col](/languages/concepts/Open_Reusable_Object_Models-2col.pdf))
+
+[Phi-Calculus](/languages/concepts/phi-calculus.pdf)
 
 Miscellaneous
 
