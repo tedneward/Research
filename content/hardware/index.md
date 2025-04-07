@@ -7,29 +7,15 @@ tags=hardware
 
 Collection of links about and around hardware.
 
-## Laptops
-[KFocus](https://kfocus.org)
-
-[Slimbook](https://slimbook.com/en/)
-
-[Starlabs](https://us.starlabs.systems/)
-
-[TUXEDO](https://www.tuxedocomputers.com/index.php): European-based (prices in EUR)
+## Remote access-in-the-cloud
+[Rent a Mac in the Cloud](http://www.macincloud.com/)
 
 ## Desktops
 [Skytech Gaming](https://skytechgaming.com/custom-pc-builder/)
 
-## Other portable computing
-
-Beepy: [Review: Beepy, a palm-sized Linux hacking playground](https://hackaday.com/2023/08/07/review-beepy-a-palm-sized-linux-hacking-playground/)
-
 ## Phones/tablets
 
 [Light](https://www.thelightphone.com/shop/products/light-phone-iii): A "dumbphone" that still does text, email, etc.
-
-## Monitors
-
-[AOC](https://aoc.com/us/)
 
 ## Storage
 [High Speed Portable SSD](https://miatine.com/speed)
@@ -41,9 +27,6 @@ Beepy: [Review: Beepy, a palm-sized Linux hacking playground](https://hackaday.c
 
 [ProtoArc Foldable Keyboard/Mouse Combo](https://www.amazon.com/dp/B0DHVTDR1M) and laptop stand
 
-## Cloud
-[Rent a Mac in the Cloud](http://www.macincloud.com/)
-
 ## Others
 
 [ANKER docking station](https://www.cultofmac.com/news/macbook-pro-and-anker-dock-setup)
@@ -53,7 +36,7 @@ Beepy: [Review: Beepy, a palm-sized Linux hacking playground](https://hackaday.c
 ["How to get wired Internet at home without running ethernet cable"](https://www.zdnet.com/home-and-office/networking/weak-wi-fi-how-to-get-wired-internet-at-home-without-running-ethernet/) - use Multimedia over Coax ([MoCA](https://en.wikipedia.org/wiki/Multimedia_over_Coax_Alliance))
 
 ## KVM Switches
-Top Gaming KVM Switches for 2025
+[Top Gaming KVM Switches for 2025](https://www.avaccess.com/blogs/guides/best-kvm-switch-for-gaming/)
 
 8KSW21-KVM: 8K HDMI KVM Switch for 1 Monitor
 Device Connectivity: Connects two desktops (e.g., a gaming PC and workstation) to a single monitor and shared peripherals.
@@ -84,4 +67,12 @@ Fast Switching: Switch effortlessly using panel buttons, keyboard hotkeys, or a 
 Peripheral Connectivity: Comes with 5 USB-A ports, 1 USB-C port, an SD card slot, and a headphone jack for maximum versatility.
 
 The AV Access iDock D23 is a game-changer for gamers and multitaskers. Its ability to support triple monitors with high resolutions and refresh rates makes it the ultimate choice for high-end setups.
+
+[Best 5 KVM Switches for IT Managers](https://www.atera.com/blog/best-kvm-switches/):
+
+1. Level1Techs Dual Monitor KVM Switch – Best overall KVM switch
+2. Adder INFINITY 4000 4K – Best enterprise KVM switch
+3. TRENDnet TK-441DP – Best single-monitor KVM switch
+4. TESmart HCK402-P – Best dual-monitor KVM switch
+5. Level1Techs Quad Monitor KVM Switch – Best heavy-duty KVM switch
 
