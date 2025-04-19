@@ -112,6 +112,12 @@ tags=devrel
 
 * [Lunch & Learns](https://www.mattblodgett.com/2023/05/lunch-learns.html)
 
+* Documentation
+
+    * [Diataxis](https://diataxis.fr/) (tutorials/learning, how-to guides/goals, explanation/understanding, reference/information)
+    * [My Problem with the Four-Document Model](https://www.hillelwayne.com/post/problems-with-the-4doc-model/): Two more kinds of documentation you want--conceptual overviews, and snippets/examples.
+
+
 ## Resources 
 
 *(from [AndyPiper](https://gist.github.com/andypiper/7fdb73f9713b7e1f7e5e7ac373f635cb))*

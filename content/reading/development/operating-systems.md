@@ -16,7 +16,7 @@ summary=Collection of links and notes on reading on operating systems.
 * [Project Oberon: The Design of an Operating System, a Compiler, and a Computer](http://people.inf.ethz.ch/wirth/ProjectOberon/index.html) - Niklaus Wirth & Jürg Gutknecht (PDF)
 * [The Art of Unix Programming](http://catb.org/esr/writings/taoup/html/) - Eric S. Raymond
 * [The Design and Implementation of the Anykernel and Rump Kernels](http://www.fixup.fi/misc/rumpkernel-book/) - Antti Kantee
-* [The little book about OS development](https://littleosbook.github.io) - Erik Helin, Adam Renberg
+* [The little book about OS development](https://littleosbook.github.io) ([PDF](https://littleosbook.github.io/book.pdf))- Erik Helin, Adam Renberg - This is not your typical dry academic textbook. It’s a hands-on, step-by-step guide aimed at hackers, tinkerers, and developers who want to demystify kernel programming. The book walks you through setting up your environment, bootstrapping your OS, handling interrupts, implementing virtual memory, and even tackling system calls and multitasking. It provides just enough detail to get you started but leaves room for exploration – because, let’s be honest, half the fun is in figuring things out yourself.
 * [The Little Book of Semaphores](http://greenteapress.com/semaphores/) - Allen B. Downey
 * [Think OS: A Brief Introduction to Operating Systems](http://www.greenteapress.com/thinkos/index.html) - Allen B. Downey (PDF)
 * [UNIX Application and System Programming, lecture notes](http://www.compsci.hunter.cuny.edu/~sweiss/course_materials/unix_lecture_notes.php) - Prof. Stewart Weiss (PDF)

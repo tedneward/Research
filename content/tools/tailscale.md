@@ -8,4 +8,4 @@ summary=Makes creating software-defined networks easy: securely connecting users
 ## Articles
 
 * ["How to set up a home VPN with Tailscale"](https://www.xda-developers.com/how-setup-powerful-tailscale/)
-
+* ["I use Tailscale to remotely access my self-hosted services - here's how"](https://www.xda-developers.com/tailscale-guide/)
