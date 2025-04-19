@@ -1,5 +1,5 @@
 title=Textual
-tags=presentation, console, python
+tags=presentation, library, console, python
 summary=A framework for building terminal-based applications with interactive and visually appealing text interfaces.
 ~~~~~~
 

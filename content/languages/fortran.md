@@ -1,7 +1,11 @@
 title=FORTRAN (FORmula TRANslator)
 tags=language
-summary=An older language focused on mathematics.
+summary=A general-purpose, compiled imperative programming language that is especially suited to numeric computation and scientific computing.
 ~~~~~~
+
+[Website](https://fortran-lang.org/) | [Tutorial]()
+
+It has been in use for over six decades in computationally intensive areas such as numerical weather prediction, finite element analysis, computational fluid dynamics, geophysics, computational physics, crystallography and computational chemistry. It is a popular language for high-performance computing and is used for programs that benchmark and rank the world's fastest supercomputers.
 
 ### Implementations
 * [OpenWatcom](https://sourceforge.net/projects/openwatcom) : Open Watcom is a joint effort to bring the Sybase Watcom C/C++ and Fortran compiler products to the Open Source community.
@@ -23,5 +27,3 @@ summary=An older language focused on mathematics.
 
 
 
-https://fortran-lang.org/
-A general-purpose, compiled imperative programming language that is especially suited to numeric computation and scientific computing. It has been in use for over six decades in computationally intensive areas such as numerical weather prediction, finite element analysis, computational fluid dynamics, geophysics, computational physics, crystallography and computational chemistry. It is a popular language for high-performance computing and is used for programs that benchmark and rank the world's fastest supercomputers.

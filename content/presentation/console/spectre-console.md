@@ -1,5 +1,5 @@
 title=Spectre Console
-tags=library, presentation, clr, windows, macos, linux
+tags=presentation, library, console, clr, windows, macos, linux
 summary=A .NET library that makes it easier to create beautiful console applications.
 ~~~~~~
 
