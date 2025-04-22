@@ -9,6 +9,8 @@ summary=A collection of interesting Docker containers/images.
 
 [Jellyfin](https://jellyfin.org/docs/general/installation/container/): Centralized hub for movies, TV shows, music, and photos.
 
+[Mealie](https://www.xda-developers.com/five-reasons-i-self-host-my-recipe-tracker/): 
+
 [ownCloud](https://owncloud.com/): Personal data storage
 
 [Prometheus](https://prometheus.io/): Robust monitoring

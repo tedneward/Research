@@ -18,20 +18,14 @@ tags=cloud
 
 ### Parse Server infrastructure providers
 
-- **[Clever Cloud](https://www.clever-cloud.com)**
-Clever Cloud is a Europe-based PaaS company with bulletproof infrastructure, automatic scaling, fair pricing and an integration with Github for app deployment and hosting. Clever Cloud comes with a Node.js runtime and a native MongoDB add-on to run Parse.
+- **[Clever Cloud](https://www.clever-cloud.com)**: Clever Cloud is a Europe-based PaaS company with bulletproof infrastructure, automatic scaling, fair pricing and an integration with Github for app deployment and hosting. Clever Cloud comes with a Node.js runtime and a native MongoDB add-on to run Parse.
 
-- **[IBM Bluemix](https://developer.ibm.com/clouddataservices/2016/01/29/parse-on-ibm-bluemix)**
-Bluemix is IBM's platform service, built with Cloud Foundry and running on IBM SoftLayer. It supports the Node.js runtime required for Parse Server. Bluemix also comes with many database options, including MongoDB from IBM's Compose.io acquisition. Link includes migration instructions.
+- **[IBM Bluemix](https://developer.ibm.com/clouddataservices/2016/01/29/parse-on-ibm-bluemix)**: Bluemix is IBM's platform service, built with Cloud Foundry and running on IBM SoftLayer. It supports the Node.js runtime required for Parse Server. Bluemix also comes with many database options, including MongoDB from IBM's Compose.io acquisition. Link includes migration instructions.
 
-- **[Nitrous](https://www.nitrous.io)**
-Nitrous is a cloud-based code editor with collaboration, one-click installs and snapshots.
+- **[Nitrous](https://www.nitrous.io)**: Nitrous is a cloud-based code editor with collaboration, one-click installs and snapshots.
 
-- **[ObjectRocket](https://objectrocket.com)**
-ObjectRocket is a leading MongoDB-as-a-service provider specializing in extremely fast performance and friendly expertise. ObjectRocket offers Parse migration-specific support and also has direct connections to AWS, if you want your app tier to live there.
+- **[ObjectRocket](https://objectrocket.com)**: ObjectRocket is a leading MongoDB-as-a-service provider specializing in extremely fast performance and friendly expertise. ObjectRocket offers Parse migration-specific support and also has direct connections to AWS, if you want your app tier to live there.
 
-- **[RAX](https://www.rackspace.com)**
-Cloud provider with support for it's own cloud, aws and azure. Supports running Node.js in both VMs and docker containers.
+- **[RAX](https://www.rackspace.com)**: Cloud provider with support for it's own cloud, aws and azure. Supports running Node.js in both VMs and docker containers.
 
-- **[Triton](https://www.joyent.com)**
-Joyent's elastic container infrastructure backed by bare metal. It allows you to run Node.js apps and Mongo and provide a lot of tools for production debugging of Node.js apps.
+- **[Triton](https://www.joyent.com)**: Joyent's elastic container infrastructure backed by bare metal. It allows you to run Node.js apps and Mongo and provide a lot of tools for production debugging of Node.js apps.
