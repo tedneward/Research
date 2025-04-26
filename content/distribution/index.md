@@ -7,6 +7,8 @@ tags=distribution
 
 Distributed systems are the means by which programs on one machine communicate with another. Differ from architectures in that while an architecture may have a distributed system at its center, it's not a requirement, and while distributed systems may incorporate an architecture as part of their implementation, that architecture usually isn't imposed on the user of the distributed system. Includes networking topics, for example.
 
+- ["Distributed System Models in the Real World"](https://sookocheff.com/post/distributed-systems/distributed-system-models-in-the-real-world/): "There are three primary components that make up a complete system model: *processes* that execute operations, communication *links* that facilitate the passing of messages between processes, and *timing* assumptions that model the reliability and time bounds on operations and message passing within the system."
+
 ## Concepts
 
 ["An introduction to distributed systems"](https://www.distributed-systems.net/my-data/papers/2016.computing.pdf): "A distributed system is a collection of autonomous computing elements that appears to its users as a single coherent system."
@@ -34,7 +36,9 @@ Distributed systems are the means by which programs on one machine communicate w
 * [Lazy Replication: Exploiting the Semantics of Distributed Services](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.17.469)
 * [Scalable Agreement - Towards Ordering as a Service](https://www.usenix.org/legacy/event/hotdep10/tech/full_papers/Kapritsos.pdf)
 * [Scalable Eventually Consistent Counters over Unreliable Networks](https://arxiv.org/pdf/1307.3207v1.pdf) - Scalable counting is tough in an unreliable world
-  
+* [Models of Distributed Systems](https://www.ida.liu.se/~TDDD25/lectures/02-Models.pdf)
+* [Distributed Computing Models](https://www.cs.usfca.edu/~srollins/courses/cs682-s08/web/notes/models.html)
+
 Pat Helland's works
 
 * [Data on the Outside versus Data on the Inside](http://cidrdb.org/cidr2005/papers/P12.pdf) - Pat Helland

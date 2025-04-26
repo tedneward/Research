@@ -54,8 +54,6 @@ Introduction to Algorithms (4th Ed) by Corman
 
 Grokking Algorithms (2nd Ed) by Bhargava
 
-The Algorithm Design Manual (3rd Ed) by Skiena
-
 Algorithms in a Nutshell by Heineman, Police and Selkow
 
 Introduction to Algorithms: A Creative Approach by Manber

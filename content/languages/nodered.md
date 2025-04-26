@@ -1,5 +1,5 @@
 title=Node-RED
-tags=language, platform, low-code, no-code
+tags=language, platform, low-code, no-code, flow
 summary=An open-source flow-based development tool for visual programming developed originally by IBM for wiring together hardware devices, APIs and online services as part of the Internet of Things. Node-RED provides a web browser-based flow editor, which can be used to create JavaScript functions.
 ~~~~~~
 
