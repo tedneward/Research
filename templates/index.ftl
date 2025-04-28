@@ -51,14 +51,19 @@
 
 <p>Hopefully you find this collection of notes and links useful, and feel free to <a href="https://twitter.com/tedneward">drop me a Tweet</a> if you find some interesting things you'd like to add</p>
 
+<p>Please note that I assert no copyright over any of the material contained within; this is a collection of notes and materials from a variety of sources, and my own thoughts. Please do the right thing and respect copyright/licensing.
+
 <p>Ted Neward</p>
 <p>(1 May 2020)</p>
 
-<h2>Acknowledgements and Sources</h2>
-<p>After picking up a ton of links and source material from https://github.com/MattPD/cpplinks, I realized I need to have a place to acknowledge where material comes from when I incorporate it. So, in chronological order of discovery and incorporation:
-<ul>
-  <li><a href="https://github.com/MattPD/cpplinks">https://github.com/MattPD/cpplinks</a>: Just a ton of hardware-, operating system-, and language (C/C++)-level links and research. The "Reading" section alone pretty much exploded thanks to MattPD's material, and that doesn't even begin to cover all the C++-related stuff. I wish there were an easier way to Git-submodule the collection, but frankly I'll probably never even know if anything gets added--it'll take me decades just to try to incorporate it all into my head.</li>
-</ul>
-<p>Please note that I assert no copyright over any of the material contained within; this is a collection of notes and materials from a variety of sources, and my own thoughts. Please do the right thing and respect copyright/licensing.
+<h3>How I use this site</h3>
+<p>Our former Secretary of Defense, Donald Rumsfeld, once opined that there's three categories of knowledge: the things you know that you know, the things you know that you don't know, and the things that you don't know that you don't know. This site primarily serves as a way for me to move things from category three ("things you don't know you don't know") into category two ("things you know you don't know") by capturing links and very quick overview of each thing. That way, if I ever want to move something from category two into category one ("things you know you know", or to be more honest, "things you know you know a little more than you did before"), I can then go back and research them more deeply, taking notes on the page as seems appropriate.</p>
+
+<p>How might you use this? That's really not something I can say--I built this for me and my study habits. If yours are like mine, you could fork the repo, then head off in your own direction and find more things and build it up. Or, fork the repo, completely nuke everything under "content" (except for `all.md`, since that's just a placeholder page), and build one up for yourself. Or, just passive ride along with me while I study stuff, and pull from my notes as I go.</p>
+
+<p>(At some point, I will figure out a browser-only search function.)</p>
+
+<p>Ted Neward</p>
+<p>(27 April 2025)</p>
 
 <#include "footer.ftl">
