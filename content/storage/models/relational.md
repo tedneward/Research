@@ -1,7 +1,9 @@
-title=Relational Model
+title=Relational storage model
 tags=storage, relational, model
 summary=Thoughts/articles on the relational model of storage.
 ~~~~~~
+
+Built, more or less, on the Codd model of relationships between tuples of data.
 
 [Codd's original paper](./codd.pdf)
 
@@ -39,3 +41,21 @@ Codd's Twelve (Thirteen) Rules:
 * ***Rule 11:*** **Distribution independence:** The end-user must not be able to see that the data is distributed over various locations. Users should always get the impression that the data is located at one site only.
 
 * ***Rule 12:*** **The nonsubversion rule:** If a relational system has a low-level (single-record-at-a-time) language, that low level cannot be used to subvert or bypass the integrity rules and constraints expressed in the higher level relational language (multiple-records-at-a-time).
+
+## Reading
+
+* [Database Design – 2nd Edition](https://opentextbc.ca/dbdesign01/) - Adrienne Watt, Nelson Eng @ BCcampus Open Pressbooks (HTML, PDF, EPUB, Kindle)
+* [Database Explorations](http://www.dcs.warwick.ac.uk/~hugh/TTM/Database-Explorations-revision-2.pdf) (PDF)
+* [Database Fundamentals](http://public.dhe.ibm.com/software/dw/db2/express-c/wiki/Database_fundamentals.pdf) (PDF)
+* [Databases, Types, and The Relational Model: The Third Manifesto](http://www.dcs.warwick.ac.uk/~hugh/TTM/DTATRM.pdf) (PDF)
+* [Foundations of Databases](http://webdam.inria.fr/Alice/)
+* [Readings in Database Systems, 5th Ed.](http://www.redbook.io)
+* [Temporal Database Management](http://people.cs.aau.dk/~csj/Thesis/) - Christian S. Jensen
+* [The Theory of Relational Databases](http://web.cecs.pdx.edu/~maier/TheoryBook/TRD.html)
+* [The Third Manifesto](http://www.thethirdmanifesto.com/)
+* [Why Are There No Relational DBMSs?](https://www.dcs.warwick.ac.uk/~hugh/TTM/Why-Are-There-No-Relational-DBMSs.pdf) - Hugh Darwen
+
+Some interesting relational-oriented sites
+
+* [PokemonSQLTutorial](https://github.com/decentralion/PokemonSQLTutorial)
+
