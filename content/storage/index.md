@@ -23,34 +23,36 @@ Feels like a database implementation is made up of primarily three components:
 * a "storage" (storage engine) where the raw data lives (disk, in-memory, distributed disk)
 * a topology (network, embedded, hosting, distributed/clustered)
 
-## Models/"Shapes" to data
+### Models/"Shapes" to data
 
-### [Relational](/tags/relational.html)
+* [Document-oriented](/storage/models/document)
+* [Event-Sourcing](/storage/models/event-sourcing)
+* [Graph-oriented](/storage/models/graph)
+* [Hierarchical](/storage/models/hierarchical)
+* [Key-value store](/storage/models/key-value)
+* [Object](/storage/models/object)
+* [Raw](/storage/models/raw): "Bring your own format/structure"
+* [Relational](/storage/models/relational)
+* [Spatial](/storage/models/spatial)
+* [Text](/storage/models/text): Usually user-facing or user-accessible prose data
+* [Time-series](/storage/models/time-series)
+* [Vector](/storage/models/vector)
+* [Wide Column-oriented (columnar)](/storage/models/columnar)
 
-### [Document-oriented](/storage/models/document.html)
+### Storage
 
-### [Graph-oriented](/storage/models/graph.html)
+* In-memory: disappears whenever the database process(es) go away
+* Disk: data is written to the underlying disk
+* Distributed disk: data is written to one of a number of disks, perhaps redundantly (for resiliency)
+* Cloud: data is written to a cloud host (?)
 
-### [Column-oriented (columnar)](/storage/models/columnar.html)
+### Topology options
 
-* Cassandra
+* [Network](/tags/network.html) access: One makes network calls to access the storage engine. Most storage engines follow this model, whether inside of the same network (a la "on-prem") or cloud.
 
-### [Key-value store](/storage/models/key-value.html)
+* [Embedded](/tags/embedded.html): The storage engine is accessed in-process inside of the using program. Often cannot be accessed by other running programs. Often managing files directly, and the storage engine shuts down when the host process does. Excellent for standalone, self-contained installations that have no external dependencies beyond the fileystem. Fastest of all the relationships, with possible exception of code hosted inside the database (a la stored procedures).
 
-* Redis
-
-### [Event-Sourcing](/storage/models/event-sourcing.html)
-
-## Topology options
-
-### [Network](/tags/network.html) access
-One makes network calls to access the storage engine. Most storage engines follow this model, whether inside of the same network (a la "on-prem") or cloud.
-
-### [Embedded](/tags/embedded.html)
-The storage engine is access in-process inside of the using program. Often cannot be accessed by other running programs. Often managing files directly, and the storage engine shuts down when the host process does. Excellent for standalone, self-contained installations that have no external dependencies beyond the fileystem. Fastest of all the relationships, with possible exception of code hosted inside the database (a la stored procedures).
-
-### [Code hosting](/tags/code-hosting.html)
-Some storage engines also allow for code-hosting, in which code executes inside the same process(es) as the storage engine itself, a la "stored procedures".
+* [Code hosting](/tags/code-hosting.html): Some storage engines also allow for code-hosting, in which code executes inside the same process(es) as the storage engine itself, a la "stored procedures". The difference between this and embedding is simply which starts up first: the hosting program or the database.
 
 ## Automation
 
@@ -80,7 +82,7 @@ Some storage engines also allow for code-hosting, in which code executes inside 
 
 ## Storage and retrieval
 
-["Don't use your ORM entities for everything--embrace the SQL!"](https://www.blackparrotlabs.io/post/architecture-pitfalls-dont-use-your-orm-entities-for-everything)
+* ["Don't use your ORM entities for everything--embrace the SQL!"](https://www.blackparrotlabs.io/post/architecture-pitfalls-dont-use-your-orm-entities-for-everything)
 
 ### DBaaS: Database-as-a-Service
 
@@ -90,12 +92,12 @@ Some storage engines also allow for code-hosting, in which code executes inside 
 
 * ["15 Databases, 15 Use Cases--Stop Using the Wrong Database for the Right Problem"](https://hackernoon.com/15-databases-15-use-casesstop-using-the-wrong-database-for-the-right-problem):
 
-    1. Relational
-    2. Wide Column (Cassandra)
-    3. Time-Series (InfluxDB, Prometheus, Kdb+, etc)
+    1. [Relational](/storage/models/relational/)
+    2. [Wide Column](/storage/models/wide-column/) (Cassandra)
+    3. [Time-Series](/storage/models/time-series/) (InfluxDB, Prometheus, Kdb+, etc)
     4. Ledger (Amazon Quantum)
-    5. Graph (Neo4j, ArangoDB, Amazon Neptune, etc)
-    6. OODBMS (ObjectDB, db4o, etc) *(Sadly these are more or less extinct at this point)*
+    5. [Graph](/storage/models/graph/) (Neo4j, ArangoDB, Amazon Neptune, etc)
+    6. [OODBMS](/storage/models/object/) (ObjectDB, db4o, etc) *(Sadly these are more or less extinct at this point)*
     7. Hierarchical (IMS, Windows Registry, Filesystems, etc)
     8. Document (MongoDB, ArangoDB, CouchDB)
     9. Key-Value (Couchbase, DataStax, Redis)
@@ -108,10 +110,5 @@ Some storage engines also allow for code-hosting, in which code executes inside 
 
 ## Books
 
-* [CouchDB: The Definitive Guide](http://guide.couchdb.org)
 * [Extracting Data from NoSQL Databases: A Step towards Interactive Visual Analysis of NoSQL Data](http://publications.lib.chalmers.se/records/fulltext/155048.pdf) - Petter Nasholm (PDF)
-* [Graph Databases](http://graphdatabases.com)
-* [How To Manage a Redis Database](https://www.digitalocean.com/community/books/how-to-manage-a-redis-database-ebook) - Mark Drake (PDF, EPUB)
 * [NoSQL Databases](http://www.christof-strauch.de/nosqldbs.pdf) - Christof Strauch (PDF)
-* [Redis in Action](https://redis.com/ebook/redis-in-action/) - Josiah L. Carlson
-* [The Little Redis Book](http://openmymind.net/2012/1/23/The-Little-Redis-Book/) - K. Seguin (PDF, Epub)

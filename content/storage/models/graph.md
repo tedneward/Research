@@ -13,6 +13,7 @@ List of graph dbs to add (from TinkerPop page):
 
 * [Alibaba Graph Database](https://cn.aliyun.com/product/gdb) - A real-time, reliable, cloud-native graph database service that supports property graph model.
 * [Amazon Neptune](https://aws.amazon.com/neptune/) - Fully-managed graph database service.
+* [Apache S2Graph](https://s2graph.apache.org/) - OLTP graph database running on Apache HBase.
 * [Bitsy](https://github.com/lambdazen/bitsy/wiki) - A small, fast, embeddable, durable in-memory graph database.
 * [Blazegraph](https://github.com/blazegraph) - RDF graph database with OLTP support.
 * [ChronoGraph](https://github.com/MartinHaeusler/chronos/tree/master/org.chronos.chronograph) - A versioned graph database.
@@ -23,8 +24,13 @@ List of graph dbs to add (from TinkerPop page):
 * [Huawei Graph Engine Service](https://www.huaweicloud.com/en-us/product/ges.html) - Fully-managed, distributed, at-scale graph query and analysis service that provides a visualized interactive analytics platform.
 * [IBM Graph](https://console.ng.bluemix.net/catalog/services/ibm-graph/) - OLTP graph database as a service.
 * [neo4j-gremlin-bolt](https://github.com/SteelBridgeLabs/neo4j-gremlin-bolt) - OLTP graph database (using Bolt Protocol).
-* [Apache S2Graph](https://s2graph.apache.org/) - OLTP graph database running on Apache HBase.
 * [Sqlg](https://github.com/pietermartin/sqlg) - OLTP implementation on SQL databases.
 * [Stardog](https://stardog.com/) - RDF graph database with OLTP and OLAP support.
 * [TinkerGraph](https://tinkerpop.apache.org/docs/current/reference/#tinkergraph-gremlin) - In-memory OLTP and OLAP reference implementation.
 * [Unipop](https://github.com/rmagen/unipop) - OLTP Elasticsearch and JDBC backed graph.
+
+## Reading
+
+### Books
+
+* [Graph Databases](http://graphdatabases.com)
