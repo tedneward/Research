@@ -7,6 +7,7 @@ summary=Thoughts and links.
 
 ## Implementations
 
+* [Pinecone](https://www.pinecone.io/) (Commercial?)
 * [Chroma](https://www.trychroma.com/) [Source](https://github.com/chroma-core/chroma): the open-source AI application database. Batteries included.
 * [turbopuffer](https://turbopuffer.com/) - Commercial?
 * [Weaviate](https://github.com/weaviate/weaviate) ([Docs](https://weaviate.io/developers/weaviate)): an open source, AI-native vector database.
