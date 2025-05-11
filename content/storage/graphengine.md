@@ -1,5 +1,5 @@
 title=GraphEngine
-tags=storage, graph, 
+tags=storage, graph
 summary=A distributed in-memory data processing engine, underpinned by a strongly-typed RAM store and a general distributed computation engine.
 ~~~~~~
 

@@ -66,3 +66,11 @@ To extend the features provided by the included data types, use one of these opt
 * Custom Redis modules using the modules API or check out the community-supported modules.
 * Use JSON, querying, time series, and other capabilities provided by Redis Stack.
 
+## Reading
+
+### Books
+
+* [Redis in Action](https://redis.com/ebook/redis-in-action/) - Josiah L. Carlson
+* [The Little Redis Book](http://openmymind.net/2012/1/23/The-Little-Redis-Book/) - K. Seguin (PDF, Epub)
+* [How To Manage a Redis Database](https://www.digitalocean.com/community/books/how-to-manage-a-redis-database-ebook) - Mark Drake (PDF, EPUB)
+

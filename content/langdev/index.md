@@ -27,6 +27,7 @@ tags=language, language development
     - in C - [Amazon](https://www.amazon.com/Modern-Compiler-Implementation-Andrew-Appel/dp/0521607655)
 - Parsing Techniques: A Practical Guide - [Goodreads](https://www.goodreads.com/en/book/show/1756599) | [Amazon](https://www.amazon.com/Parsing-Techniques-Practical-Monographs-Computer-ebook/dp/B0017AMLL8/ref=sr_1_1)
 - Practical Foundations for Programming Languages - [Amazon](https://www.amazon.com/Practical-Foundations-Programming-Languages-Professor/dp/1107029570)
+- [SOFTLANG team](http://www.softlang.org/book), Uni Koblenz-Landau - [Github](https://github.com/softlang)
 - The Elements Of Computing Systems - [Amazon](https://www.amazon.com/Elements-Computing-Systems-second-Principles/dp/0262539802/ref=sr_1_1)
 - Thinking with Types: Type-Level Programming in Haskell - [Leanpub](https://leanpub.com/thinking-with-types)
 - Type Theory and Formal Proof: An Introduction - [Goodreads](https://www.goodreads.com/book/show/21442441-type-theory-and-formal-proof)

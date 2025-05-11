@@ -32,5 +32,7 @@ summary=Legacy business language that refuses to die.
 * [Micro Focus: OO Programming with Object COBOL for UNIX (1999)](https://www.microfocus.com/documentation/object-cobol/oc41books/oppubb.htm) - MERANT International Ltd. (HTML)
 * [OpenCOBOL 1.1 - Programmer's Guide](http://open-cobol.sourceforge.net/guides/OpenCOBOL%20Programmers%20Guide.pdf) (PDF)
 
+## Projects
 
+* [COBOL Streamhouse](https://github.com/deltastreaminc/cobol-streamhouse) (Archived April 2025)
 

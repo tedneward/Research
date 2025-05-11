@@ -3,7 +3,27 @@ tags=vm, functional, native
 summary=A pure functional compile target that is lazy, non-garbage-collected and massively parallel. It is also beta-optimal, meaning that, in several cases, it can be exponentially faster than most functional runtimes, including Haskell's GHC.
 ~~~~~~
 
-[Source](https://github.com/HigherOrderCO/HVM) | [Paper](https://github.com/HigherOrderCO/HVM/blob/main/paper/PAPER.pdf)
+[Source](https://github.com/HigherOrderCO/HVM) | [HVM1 Source](https://github.com/HigherOrderCO/HVM1) | [Paper](https://github.com/HigherOrderCO/HVM/blob/main/paper/PAPER.pdf)
+
+This repository provides a low-level IR language for specifying the HVM2 nets and a compiler from that language to C and CUDA. It is not meant for direct human usage. If you're looking for a high-level language to interface with HVM2, check Bend instead.
+
+HVM is a low-level compile target for high-level languages. It provides a raw syntax for wiring interaction nets. For example:
+
+```
+@main = a
+  & @sum ~ (28 (0 a))
+
+@sum = (?(((a a) @sum__C0) b) b)
+
+@sum__C0 = ({c a} ({$([*2] $([+1] d)) $([*2] $([+0] b))} f))
+  &! @sum ~ (a (b $([+] $(e f))))
+  &! @sum ~ (c (d e))
+```
+
+The file above implements a recursive sum.
+
+--- 
+# HVM1
 
 Pretty hyperbolic:
 

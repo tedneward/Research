@@ -28,6 +28,10 @@ summary=A collection of language-agnostic links on AI and Machine Learning.
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Expert_system)
 
+## Large Language Models
+
+* ["On the Biology of a Large Language Model"](https://transformer-circuits.pub/2025/attribution-graphs/biology.html): "We investigate the internal mechanisms used by Claude 3.5 Haiku — Anthropic's lightweight production model — in a variety of contexts, using our circuit tracing methodology."
+
 ## Natural Language Processing
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Natural_language_processing)

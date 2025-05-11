@@ -56,6 +56,7 @@ summary=Collection of assembly language resources that don't fit in one of the o
 ## Other generic assembler resources
 
 * [Easy 6502](http://skilldrick.github.io/easy6502/) - Nick Morgan
+* [FFmpeg School of Assembly Language](https://github.com/FFmpeg/asm-lessons)
 * [Machine Code for Beginners [Z80 and 6502 CPUs]](https://usborne.com/us/books/computer-and-coding-books) - Lisa Watts and Mike Wharton ([PDF](https://drive.google.com/file/d/0Bxv0SsvibDMTcHNXalEtYkVtU00/view?resourcekey=0-YtCcUG7ytBL-ls8gciJ7ig))
 * [Machine Language for Beginners](https://archive.org/details/ataribooks-machine-language-for-beginners) - Richard Mansfield [6502 CPU]
 * [The Second Book of Machine Language](http://www.atariarchives.org/2bml/)

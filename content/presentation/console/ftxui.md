@@ -1,5 +1,5 @@
 title=FTXUI
-tags=presentation, console
+tags=presentation, library, console
 summary=C++ Functional Terminal User Interface.
 ~~~~~~
 

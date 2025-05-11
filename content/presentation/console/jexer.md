@@ -1,5 +1,5 @@
 title=Jexer
-tags=library, presentation, jvm
+tags=presentation, library, jvm, console
 summary=An open-source 100% Java Text User Interface (TUI) originally designed to outwardly resemble the DOS-era Turbo Vision library--an advanced text windowing system framework to help new applications take full advantage of the terminal.
 ~~~~~~
 

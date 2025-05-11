@@ -3,7 +3,11 @@ tags=distribution, architecture
 summary=Collection of links and reading and notes on Fielding's dissertation.
 ~~~~~~
 
-[Fielding's dissertation](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) ([PDF](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf))
+[Fielding's dissertation](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) ([PDF](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)) | ["Roy Fielding on Versioning, Hypermedia, and REST"](https://www.infoq.com/articles/roy-fielding-on-versioning/)
+
+---
+# Resources from people other than Roy Fielding
+... which may mean they're not 100% aligned with Roy's vision/goals/dissertation.
 
 [RESTful Web Services](http://restfulwebapis.org/RESTful_Web_Services.pdf) (PDF)
 

@@ -15,125 +15,44 @@ Storage is typically data, but the degree of structure is flexible. Unstructured
 
 * [NoSQL](https://hostingdata.co.uk/nosql-database/)
 
-## "Shapes" to data
+## Conceptual thoughts
 
-* ["15 Databases, 15 Use Cases--Stop Using the Wrong Database for the Right Problem"](https://hackernoon.com/15-databases-15-use-casesstop-using-the-wrong-database-for-the-right-problem):
+Feels like a database implementation is made up of primarily three components:
 
-    1. Relational
-    2. Wide Column (Cassandra)
-    3. Time-Series (InfluxDB, Prometheus, Kdb+, etc)
-    4. Ledger (Amazon Quantum)
-    5. Graph (Neo4j, ArangoDB, Amazon Neptune, etc)
-    6. OODBMS (ObjectDB, db4o, etc) *(Sadly these are more or less extinct at this point)*
-    7. Hierarchical (IMS, Windows Registry, Filesystems, etc)
-    8. Document (MongoDB, ArangoDB, CouchDB)
-    9. Key-Value (Couchbase, DataStax, Redis)
-    10. Blob (Amazon S3)
-    11. In-Memory (Redis, Memcached, Apache Ignite, Aerospike, Hazlecast)
-    12. Text Search (Elastic Search)
-    13. Spatial (PostGIS, Oracle Spatial, SpatiaLite)
-    14. Vector (Pinecone, Chroma)
-    15. Embedded (SQLite, RocksDB, BerkeleyDB)
+* a model/"shape" for its data (relational, document, etc)
+* a "storage" (storage engine) where the raw data lives (disk, in-memory, distributed disk)
+* a topology (network, embedded, hosting, distributed/clustered)
 
-### [Relational](/tags/relational.html)
+### Models/"Shapes" to data
 
-Built, more or less, on the Codd model of relationships between tuples of data.
+* [Document-oriented](/storage/models/document)
+* [Event-Sourcing](/storage/models/event-sourcing)
+* [Graph-oriented](/storage/models/graph)
+* [Hierarchical](/storage/models/hierarchical)
+* [Key-value store](/storage/models/key-value)
+* [Object](/storage/models/object)
+* [Raw](/storage/models/raw): "Bring your own format/structure"
+* [Relational](/storage/models/relational)
+* [Spatial](/storage/models/spatial)
+* [Text](/storage/models/text): Usually user-facing or user-accessible prose data
+* [Time-series](/storage/models/time-series)
+* [Vector](/storage/models/vector)
+* [Wide Column-oriented (columnar)](/storage/models/columnar)
 
-* [Database Design – 2nd Edition](https://opentextbc.ca/dbdesign01/) - Adrienne Watt, Nelson Eng @ BCcampus Open Pressbooks (HTML, PDF, EPUB, Kindle)
-* [Database Explorations](http://www.dcs.warwick.ac.uk/~hugh/TTM/Database-Explorations-revision-2.pdf) (PDF)
-* [Database Fundamentals](http://public.dhe.ibm.com/software/dw/db2/express-c/wiki/Database_fundamentals.pdf) (PDF)
-* [Databases, Types, and The Relational Model: The Third Manifesto](http://www.dcs.warwick.ac.uk/~hugh/TTM/DTATRM.pdf) (PDF)
-* [Foundations of Databases](http://webdam.inria.fr/Alice/)
-* [Readings in Database Systems, 5th Ed.](http://www.redbook.io)
-* [Temporal Database Management](http://people.cs.aau.dk/~csj/Thesis/) - Christian S. Jensen
-* [The Theory of Relational Databases](http://web.cecs.pdx.edu/~maier/TheoryBook/TRD.html)
-* [The Third Manifesto](http://www.thethirdmanifesto.com/)
-* [Why Are There No Relational DBMSs?](https://www.dcs.warwick.ac.uk/~hugh/TTM/Why-Are-There-No-Relational-DBMSs.pdf) - Hugh Darwen
+### Storage
 
-Some interesting relational-oriented sites
+* In-memory: disappears whenever the database process(es) go away
+* Disk: data is written to the underlying disk
+* Distributed disk: data is written to one of a number of disks, perhaps redundantly (for resiliency)
+* Cloud: data is written to a cloud host (?)
 
-* [PokemonSQLTutorial](https://github.com/decentralion/PokemonSQLTutorial)
+### Topology options
 
-### [Document-oriented](/tags/document.html)
+* [Network](/tags/network.html) access: One makes network calls to access the storage engine. Most storage engines follow this model, whether inside of the same network (a la "on-prem") or cloud.
 
-Structure is conceptually "star"-like, with minimal (or no) relationships outside of the document recognized by the storage system. (Developers can, and usually will, store unique data elements across documents as a way of putting structure in at the application level, but this is typically unrecognized by the storage system itself.)
+* [Embedded](/tags/embedded.html): The storage engine is accessed in-process inside of the using program. Often cannot be accessed by other running programs. Often managing files directly, and the storage engine shuts down when the host process does. Excellent for standalone, self-contained installations that have no external dependencies beyond the fileystem. Fastest of all the relationships, with possible exception of code hosted inside the database (a la stored procedures).
 
-### [Graph-oriented](/tags/graph.html)
-[Wikipedia](https://en.wikipedia.org/wiki/Graph_database)
-
-"A graph is a structure composed of vertices and edges. Both vertices and edges can have an arbitrary number of key/value-pairs called properties. Vertices denote discrete objects such as a person, a place, or an event. Edges denote relationships between vertices. For instance, a person may know another person, have been involved in an event, and/or have recently been at a particular place. Properties express non-relational information about the vertices and edges. Example properties include a vertex having a name and an age, and an edge having a timestamp and/or a weight.
-
-"If a user's domain is composed of a heterogeneous set of objects (vertices) that can be related to one another in a multitude of ways (edges), then a graph may be the right representation to use. In a graph, each vertex is seen as an atomic entity (not simply a "row in a table") that can be linked to any other vertex or have properties added or removed at will. This empowers the data modeler to think in terms of actors within a world of complex relations as opposed to, in relational databases, statically-typed tables joined in aggregate. Once a domain is modeled, that model must then be exploited in order to yield novel, differentiating information. Graph computing has a rich history that includes not only query languages devoid of table-join semantics, but also algorithms that support complex reasoning: path analysis, vertex clustering and ranking, subgraph identification, and more. The world of applied graph computing offers a flexible, intuitive data structure along with a host of algorithms able to effectively leverage that structure." -- from [Apache TinkerPop](http://tinkerpop.apache.org/)
-
-List of graph dbs to add (from TinkerPop page):
-
-* [Alibaba Graph Database](https://cn.aliyun.com/product/gdb) - A real-time, reliable, cloud-native graph database service that supports property graph model.
-* [Amazon Neptune](https://aws.amazon.com/neptune/) - Fully-managed graph database service.
-* [Bitsy](https://github.com/lambdazen/bitsy/wiki) - A small, fast, embeddable, durable in-memory graph database.
-* [Blazegraph](https://github.com/blazegraph) - RDF graph database with OLTP support.
-* [ChronoGraph](https://github.com/MartinHaeusler/chronos/tree/master/org.chronos.chronograph) - A versioned graph database.
-* [DSEGraph](https://www.datastax.com/products/datastax-enterprise-graph) - DataStax graph database with OLTP and OLAP support.
-* [GRAKN.AI](https://grakn.ai/) - Distributed OLTP/OLAP knowledge graph system.
-* Hadoop (Spark) - OLAP graph processor using Spark.
-* [HGraphDB](https://github.com/rayokota/hgraphdb) - OLTP graph database running on Apache HBase.
-* [Huawei Graph Engine Service](https://www.huaweicloud.com/en-us/product/ges.html) - Fully-managed, distributed, at-scale graph query and analysis service that provides a visualized interactive analytics platform.
-* [IBM Graph](https://console.ng.bluemix.net/catalog/services/ibm-graph/) - OLTP graph database as a service.
-* [neo4j-gremlin-bolt](https://github.com/SteelBridgeLabs/neo4j-gremlin-bolt) - OLTP graph database (using Bolt Protocol).
-* [Apache S2Graph](https://s2graph.apache.org/) - OLTP graph database running on Apache HBase.
-* [Sqlg](https://github.com/pietermartin/sqlg) - OLTP implementation on SQL databases.
-* [Stardog](https://stardog.com/) - RDF graph database with OLTP and OLAP support.
-* [TinkerGraph](https://tinkerpop.apache.org/docs/current/reference/#tinkergraph-gremlin) - In-memory OLTP and OLAP reference implementation.
-* [Unipop](https://github.com/rmagen/unipop) - OLTP Elasticsearch and JDBC backed graph.
-
-### [Column-oriented (columnar)](/tags/columnar.html)
-
-* Cassandra
-
-### [Key-value store](/tags/keyvalue.html)
-
-* Redis
-
-### [Event-Sourcing](/tags/event%20store.html)
-
-A storage approach that stores a system’s state as an append-only sequence of events. Instead of updating the current state directly, each change to the system is recorded as an event. These events are then used to reconstruct the system’s state at any point in time.
-
-Important Considerations for Event Sourcing
-
-* Event Immutability: Events should be immutable. Once created, they cannot be changed.
-* Event Sourcing vs. Event-Driven Architecture: While closely related, Event Sourcing is a pattern for storing and reconstructing state, while Event-Driven Architecture is a pattern for loosely coupling components.
-* Eventual Consistency: Event Sourcing often leads to eventual consistency, meaning the system’s state may not be immediately updated after an event is recorded.
-* Performance: Event Sourcing can be performance-intensive, especially for systems with high write loads or complex state transitions.
-* Complexity: Implementing Event Sourcing can be more complex than traditional approaches due to the need for event handling, storage, and reconstruction.
-* When to Use Event Sourcing
-
-Event Sourcing is well-suited for:
-
-* Systems that require a complete audit trail of changes.
-* Systems with complex state transitions or business rules.
-* Systems that need to be able to replay past events to recover from failures or explore different scenarios.
-* Systems that benefit from eventual consistency.
-
-Event Sourcing vs. Event-Driven Architecture: While Event-Driven Architecture and Event Sourcing are often used together, they are distinct concepts:
-
-* Event-Driven Architecture: Focuses on decoupling components using events as a communication mechanism.
-* Event Sourcing: Focuses on storing and reconstructing state using events.
-
-[Introduction to Event Sourcing Workshop](https://github.com/oskardudycz/EventSourcing.NetCore/tree/main/Workshops/IntroductionToEventSourcing)
-
-[Examples and Tutorials of Event Sourcing in .NET](https://github.com/oskardudycz/EventSourcing.NetCore)
-
-[Understanding Eventsourcing](https://leanpub.com/eventmodeling-and-eventsourcing): The book by Martin Dilger
-
-## Topology options
-
-### [Network](/tags/network.html) access
-One makes network calls to access the storage engine. Most storage engines follow this model, whether inside of the same network (a la "on-prem") or cloud.
-
-### [Embedded](/tags/embedded.html)
-The storage engine is access in-process inside of the using program. Often cannot be accessed by other running programs. Often managing files directly, and the storage engine shuts down when the host process does. Excellent for standalone, self-contained installations that have no external dependencies beyond the fileystem. Fastest of all the relationships, with possible exception of code hosted inside the database (a la stored procedures).
-
-### [Code hosting](/tags/code-hosting.html)
-Some storage engines also allow for code-hosting, in which code executes inside the same process(es) as the storage engine itself, a la "stored procedures".
+* [Code hosting](/tags/code-hosting.html): Some storage engines also allow for code-hosting, in which code executes inside the same process(es) as the storage engine itself, a la "stored procedures". The difference between this and embedding is simply which starts up first: the hosting program or the database.
 
 ## Automation
 
@@ -163,47 +82,33 @@ Some storage engines also allow for code-hosting, in which code executes inside 
 
 ## Storage and retrieval
 
-["Don't use your ORM entities for everything--embrace the SQL!"](https://www.blackparrotlabs.io/post/architecture-pitfalls-dont-use-your-orm-entities-for-everything)
-
-## Implementation
-
-* [Mini-LSM](https://skyzh.github.io/mini-lsm/): Build a simple key-value storage engine in a week. Extend it in the second and third weeks.
-* [LibraDB](https://github.com/amit-davidson/LibraDB): "... a simple, persistent key/value store written in pure Go. The project aims to provide a working yet simple example of a working database."
-* [simpledb](https://github.com/awelm/simpledb): A simple database built from scratch that has some the basic RDBMS features (SQL query parser, transactions, query optimizer)
-* C: [Let's Write a Database](https://cstack.github.io/db_tutorial/) (a SQLite clone in C)
-* C++: [Build Your Own Redis from Scratch](https://build-your-own.org/redis)
-* C#: [Build Your Own Database](https://www.codeproject.com/Articles/1029838/Build-Your-Own-Database)
-* Clojure: [An Archaeology-Inspired Database](http://aosabook.org/en/500L/an-archaeology-inspired-database.html)
-* Crystal: [Why you should build your own NoSQL Database](https://medium.com/@marceloboeira/why-you-should-build-your-own-nosql-database-9bbba42039f5)
-* Go: [Build Your Own Database from Scratch: Persistence, Indexing, Concurrency](https://build-your-own.org/database/)
-* Go: [Build Your Own Redis from Scratch](https://www.build-redis-from-scratch.dev/)
-* Go: [gosqldb](https://github.com/krasun/gosqldb): A key-value persistent database that supports SQL queries over B+ and LSM trees
-* JavaScript: [Dagoba: an in-memory graph database](http://aosabook.org/en/500L/dagoba-an-in-memory-graph-database.html)
-* Python: [DBDB: Dog Bed Database](http://aosabook.org/en/500L/dbdb-dog-bed-database.html)
-* Python: [Write your own miniature Redis with Python](http://charlesleifer.com/blog/building-a-simple-redis-server-with-python/)
-* Ruby: [Build your own fast, persistent KV store in Ruby](https://dineshgowda.com/posts/build-your-own-persistent-kv-store/)
-* Rust: [Build your own Redis client and server](https://tokio.rs/tokio/tutorial/setup)
-* Rust: [YourSQL](https://github.com/yywe/yoursql)
-* Rust: [OxidSQL](https://github.com/mzinsmeister/OxidSQL)
-* Rust: [erdb](https://github.com/radogost/erdb): An educational relational database
-* [Subreddit: /r/databasedevelopment](https://www.reddit.com/r/databasedevelopment/)
-* [B-Tree Implementation](https://www.codeproject.com/Articles/7410/Implementation-of-a-B-Tree-Database-Class)
-* [The SimpleDB Data System](http://cs.bc.edu/~sciore/simpledb/): "... a multi-user transactional database server written in Java, which interacts with Java client programs via JDBC. The system is intended for pedagogical use only. The code is clean and compact. The APIs are straightforward. The learning curve is relatively small.  Everything about it is geared towards improving the experience of a database system internals course.  Consequently, the system is intentionally bare-bones. It implements only a small fraction of SQL and JDBC, and does little or no error checking. The SimpleDB code is an integral part of my textbook [Database Design and Implementation](https://www.amazon.com/dp/3030338355/), published by Springer."
-* [Building a NoSQL database from zero](https://github.com/amit-davidson/Building-a-NoSQL-database-from-zero)
-* ["How to build a relational database from scratch"](https://medium.com/swlh/how-to-build-a-relational-database-from-scratch-e208061027c7) (Medium members only)
-* [Build a NoSQL database from scratch in 1000 lines of code](https://betterprogramming.pub/build-a-nosql-database-from-the-scratch-in-1000-lines-of-code-8ed1c15ed924) (in Go)
-* [Building BerkeleyDB](https://transactional.blog/building-berkeleydb/)
+* ["Don't use your ORM entities for everything--embrace the SQL!"](https://www.blackparrotlabs.io/post/architecture-pitfalls-dont-use-your-orm-entities-for-everything)
 
 ### DBaaS: Database-as-a-Service
 
 * ["Building an Open-Source Private DBaaS"](https://thenewstack.io/building-an-open-source-private-dbaas/)
 
+## Articles
+
+* ["15 Databases, 15 Use Cases--Stop Using the Wrong Database for the Right Problem"](https://hackernoon.com/15-databases-15-use-casesstop-using-the-wrong-database-for-the-right-problem):
+
+    1. [Relational](/storage/models/relational/)
+    2. [Wide Column](/storage/models/wide-column/) (Cassandra)
+    3. [Time-Series](/storage/models/time-series/) (InfluxDB, Prometheus, Kdb+, etc)
+    4. Ledger (Amazon Quantum)
+    5. [Graph](/storage/models/graph/) (Neo4j, ArangoDB, Amazon Neptune, etc)
+    6. [OODBMS](/storage/models/object/) (ObjectDB, db4o, etc) *(Sadly these are more or less extinct at this point)*
+    7. Hierarchical (IMS, Windows Registry, Filesystems, etc)
+    8. Document (MongoDB, ArangoDB, CouchDB)
+    9. Key-Value (Couchbase, DataStax, Redis)
+    10. Blob (Amazon S3)
+    11. In-Memory (Redis, Memcached, Apache Ignite, Aerospike, Hazlecast)
+    12. Text Search (Elastic Search)
+    13. Spatial (PostGIS, Oracle Spatial, SpatiaLite)
+    14. Vector (Pinecone, Chroma)
+    15. Embedded (SQLite, RocksDB, BerkeleyDB)
+
 ## Books
 
-* [CouchDB: The Definitive Guide](http://guide.couchdb.org)
 * [Extracting Data from NoSQL Databases: A Step towards Interactive Visual Analysis of NoSQL Data](http://publications.lib.chalmers.se/records/fulltext/155048.pdf) - Petter Nasholm (PDF)
-* [Graph Databases](http://graphdatabases.com)
-* [How To Manage a Redis Database](https://www.digitalocean.com/community/books/how-to-manage-a-redis-database-ebook) - Mark Drake (PDF, EPUB)
 * [NoSQL Databases](http://www.christof-strauch.de/nosqldbs.pdf) - Christof Strauch (PDF)
-* [Redis in Action](https://redis.com/ebook/redis-in-action/) - Josiah L. Carlson
-* [The Little Redis Book](http://openmymind.net/2012/1/23/The-Little-Redis-Book/) - K. Seguin (PDF, Epub)
