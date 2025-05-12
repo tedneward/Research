@@ -3,7 +3,7 @@ tags=gamedev, language, vm, interactive fiction
 summary=Authoring system for writing Interactive Fiction.
 ~~~~~~
 
-[Website](https://www.tads.org/)
+[Website](https://www.tads.org/) | [Downloads](https://www.tads.org/tads3.htm#) | 
 
 Language is strongly object-like (C++-like) in syntax, but with declarative overtones and implementation rules hiding underneath.
 
