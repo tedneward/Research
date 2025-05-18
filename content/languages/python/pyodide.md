@@ -5,5 +5,11 @@ summary=Python with the scientific stack, compiled to WebAssembly; may be used i
 
 [Website](https://pyodide.org/en/stable/index.html) | [Source](https://github.com/pyodide/pyodide)
 
-"Pyodide brings the Python 3.9 runtime to the browser via WebAssembly, thanks to Emscripten. It builds the Python scientific stack including NumPy, Pandas, Matplotlib, SciPy, and scikit-learn. Over 75 packages are currently available. In addition, it’s possible to install pure Python wheels from PyPI. Pyodide provides transparent conversion of objects between Javascript and Python. When used inside a browser, Python has full access to the Web APIs."
+Pyodide is a port of CPython to WebAssembly/Emscripten.
+
+Pyodide makes it possible to install and run Python packages in the browser with micropip. Any pure Python package with a wheel available on PyPi is supported. Many packages with C, C++, and Rust extensions have also been ported for use with Pyodide. These include many general-purpose packages such as regex, PyYAML, and cryptography, and scientific Python packages including NumPy, pandas, SciPy, Matplotlib, and scikit-learn.
+
+Pyodide comes with a robust Javascript <--> Python foreign function interface so that you can freely mix these two languages in your code with minimal friction. This includes full support for error handling, async/await, and much more.
+
+When used inside a browser, Python has full access to the Web APIs.
 
