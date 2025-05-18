@@ -5,7 +5,7 @@ summary=A programming language for creating interactive fiction, using natural l
 
 "Using natural language and drawing on ideas from linguistics and from literate programming, Inform is widely used as a medium for literary writing, as a prototyping tool in the games industry, and in education, both at school and university level (where Inform is often assigned material for courses on digital narrative). It has several times ranked in the top 100 most influential programming languages according to the TIOBE index."
 
-[Source](https://github.com/ganelson/inform) | [Source](https://ganelson.github.io/inform-website/)
+[Source](https://github.com/ganelson/inform) | [Source](https://ganelson.github.io/inform-website/) | [Inform7 Resources](https://intfiction.org/t/inform-7-documentation-and-resources/3311)
 
 ## [Learn X in Y minutes Quick Intro](https://learnxinyminutes.com/docs/inform7/)
 
