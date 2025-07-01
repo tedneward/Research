@@ -60,7 +60,46 @@ BUILD SUCCESSFUL in 843ms
 1 actionable task: 1 executed
 ```
 
+## Common tasks
+
+### Execute "run" with command-line arguments
+`gradle run --args="one two three \"four is a collection of words\" five"` (must have all arguments in a single double-quoted string)
+
 ## Customizing
+
+### Keyword Expansion
+Found in Chapter 1 of *Gradle Beyond the Basics* (OReilly, Tim Berglund)
+
+```
+// I think this is Groovy syntax
+versionId = '1.6'
+
+task copyProductionConfig(type: Copy) {
+  from 'source'
+  include 'config.properties'
+  into 'build/war/WEB-INF/config'
+  expand([
+    databaseHostname: 'db.company.com',
+    version: versionId,
+    buildNumber: (int)(Math.random() * 1000),
+    date: new Date()
+  ])
+}
+```
+This will replace placeholders like the following:
+```
+#
+# Application configuration file
+#
+hostname: ${databaseHostname}
+appVersion: ${version}
+locale: en_us
+initialConnections: 10
+transferThrottle: 5400
+queueTimeout: 30000
+buildNumber: ${buildNumber}
+buildDate: ${date.format("yyyyMMdd'T'HHmmssZ")}
+```
 
 ### Custom Task inside the build script
 Wrote a custom task that invokes `javap` on compiled class files ([here](https://github.com/tedneward/Demo-JVM-Bytecode/blob/main/JavaExamples/app/build.gradle.kts)):
