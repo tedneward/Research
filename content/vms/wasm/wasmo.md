@@ -1,10 +1,7 @@
 title=Wasmo
-tags=vm, wasm, 
-summary=
+tags=vm, wasm, llvm
+summary=A WebAssembly runtime and compiler based on LLVM.
 ~~~~~~
-
-## <a name="wasmo"></a>[Wasmo](https://github.com/appcypher/wasmo) <sup>[top⇈](#contents)</sup>
-> A WebAssembly Runtime and Compiler based on LLVM.
 
 * **Languages written in**
 

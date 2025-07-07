@@ -1,5 +1,5 @@
 title=Wa
-tags=language, wasm, webassembly
+tags=language, wasm
 summary=Simple, maintainable, compiled language for developing WebAssembly software.
 ~~~~~~
 

@@ -1,38 +1,9 @@
-title=WebAssembly
-tags=platform, browser
-summary=A portable multi-environment-targeting bytecode format for the Web.
+title=Emscripten
+tags=language, native, wasm
+summary=C++ compiler that generates Javascript "assembly" for execution by any JS engine.
 ~~~~~~
 
-[Website](https://webassembly.org/) | [Bytecode Alliance](https://bytecodealliance.org/)
-
-[Specifications page](https://webassembly.github.io/spec/) ([Source](https://github.com/WebAssembly/spec/)):
-
-* [Core](https://webassembly.github.io/spec/core/_download/WebAssembly.pdf)
-* [JavaScript Embedding](https://webassembly.github.io/spec/js-api/index.html)
-* [Web Embedding](https://webassembly.github.io/spec/web-api/index.html)
-* [Proposals](https://github.com/WebAssembly/proposals)
-* [Component model](https://github.com/WebAssembly/component-model)
-* [WebAssembly System Interface](https://wasi.dev/)
-* [Common WebAssembly](https://github.com/CommonWA/cwa-spec)
-
-Tools: [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) | [binaryen](https://github.com/WebAssembly/binaryen)
-
-[Awesome WASM languages](https://github.com/appcypher/awesome-wasm-langs):
-
-* [AssemblyScript](/languages/wasm/assemblyscript): An assembler for WebAssembly.
-* [Astro](/languages/wasm/astro): a fun safe language for rapid prototyping and high performance applications.
-* [Cheerp](/languages/cplusplus/cheerp): an open-source, commercial C/C++ compiler for Web applications. It can compile virtually any C/C++ code (up to C++14) to WebAssembly, JavaScript, asm.js or a combination thereof.
-* [Duktape](https://github.com/svaarala/duktape): embeddable JS engine capable of being run in the browser via WebAssembly
-* [SwiftWASM](https://swiftwasm.org/) ([Source](https://github.com/swiftwasm/swift)): SwiftWasm compiles your [Swift](/languages/swift) code to WebAssembly.
-* [wasmlink](https://github.com/bytecodealliance/wit-bindgen/tree/main/crates/wasmlink):  a CLI that allows us to statically link a module and its dependencies using [module linking](https://github.com/WebAssembly/module-linking) and the [Canonical Interface Types ABI](https://github.com/WebAssembly/interface-types/pull/140).
-
-[.NET WebAssembly](https://github.com/RyanLamansky/dotnet-webassembly): Create, read, modify, write and execute WebAssembly (WASM) files from .NET-based applications.
-
-[Wasm Debugger](https://github.com/wasm3/wasm-debug): Direct, source-level WebAssembly debugger
-
-[An introduction to WebAssembly components](https://radu-matei.com/blog/intro-wasm-components/)
-
-[WebAssembly friendly programming with C/C++](https://github.com/3dgen/cppwasm-book/tree/master/en) - Ending, Chai Shushan, Yushih (HTML, [examples](https://github.com/3dgen/cppwasm-book/tree/master/examples))
+[Website](https://emscripten.org/)
 
 ### Example SDL app compiled to WebAssembly (from https://main.lv/writeup/web_assembly_sdl_example.md):
 
@@ -233,3 +204,11 @@ Host:
     </body>
 </html>
 ```
+
+### FFI
+- Embind: Emscripten's tool to generate JavaScript bindings for C++ code
+	- https://developers.google.com/web/updates/2018/08/embind
+	- https://kripken.github.io/emscripten-site/docs/porting/connecting_cpp_and_javascript/embind.html
+- Emmagic
+	- Easily transport your data structures between C++ and Javascript
+	- https://github.com/manaflair/emmagic
