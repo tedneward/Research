@@ -11,6 +11,7 @@ Distributions ([DistroWatch](https://distrowatch.com/)):
 * [Zorin](https://zorin.com/os/)
 * [MX Linux](https://mxlinux.org/): a family of operating systems (and a cooperative venture between the antiX and MX Linux communities) that are designed to combine elegant and efficient desktops with high stability and solid performance.
 * [VanillaOS](../vanillaos)
+* [AnduinOS](https://anduinos.com): looks just like Windows, built by a Microsoft engineer
 * [Bazzite](https://bazzite.gg/): a custom Fedora Atomic image built with cloud native technology that brings the best of Linux gaming to all of your devices - including your favorite handheld.
 * [CachyOS](https://cachyos.org/): performance-minded distribution
 * [Damn Small Linux](https://www.damnsmalllinux.org/): for older machines [ISO](https://www.damnsmalllinux.org/download/dsl-2024.alpha.iso)
@@ -30,6 +31,10 @@ Distributions ([DistroWatch](https://distrowatch.com/)):
 "lightweight": good for older computers
 
 "portable": Installable on a USB stick
+
+Window Managers
+
+* XFCE
 
 ---
 

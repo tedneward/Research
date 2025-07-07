@@ -3,7 +3,7 @@ tags=language, native
 summary=Designed with the intent of creating an alternative to C around simplicity, high performance, built for modern systems, and joy of programming.
 ~~~~~~
 
-[Website](https://odin-lang.org/) | [Source](https://github.com/odin-lang/Odin) | [Language Specification](https://odin-lang.org/docs/spec/) | [Core Library Docs]() | [Vendor Library Docs](https://pkg.odin-lang.org/vendor/) (including CommonMark, DirectX, Lua 5.4, OpenGL, SDL2, ...)
+[Website](https://odin-lang.org/) | [Source](https://github.com/odin-lang/Odin) | [Language Specification](https://odin-lang.org/docs/spec/) | [Core Library Docs](https://pkg.odin-lang.org/) | [Vendor Library Docs](https://pkg.odin-lang.org/vendor/) (including CommonMark, DirectX, Lua 5.4, OpenGL, SDL2, ...)
 
 ### Examples:
 ```
@@ -2533,5 +2533,13 @@ main :: proc() {
 	}
 }
 ```
-https://github.com/odin-lang/Odin
-The Odin programming language is designed with the intent of creating an alternative to C.
+
+## Reading
+
+[Downloadable book](https://zylinski.itch.io/odinbook)
+
+[No-engine gamedev using Odin and Raylib](https://zylinski.se/posts/no-engine-gamedev-using-odin-and-raylib/)
+
+## Links
+
+https://github.com/karl-zylinski/odin-raylib-web - Make games using Odin + Raylib that work in the browser
