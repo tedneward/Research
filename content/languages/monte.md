@@ -5,6 +5,8 @@ summary=A nascent dynamic programming language reminiscent of Python and E; it i
 
 Monte is designed for agoric systems, promotes secure distributed computation, and is focused on readability and clarity.
 
+[Website](http://www.monte-language.org/)
+
 Monte's design incorporates:
 
 * Guard-based Type System
@@ -21,8 +23,6 @@ Additional boons of Monte include:
 * Immutable and persistent core data structures
 * Parameterized modules
  Audition-based proving of customized object behaviors
-
-[Website](http://www.monte-language.org/)
 
 Example syntax:
 ```
