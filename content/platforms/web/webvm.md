@@ -1,5 +1,5 @@
 title=WebVM
-tags=platform, browser
+tags=platform, linux, browser
 summary=A server-less virtual Linux environment running fully client-side in HTML5/WebAssembly. 
 ~~~~~~
 
