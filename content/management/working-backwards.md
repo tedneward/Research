@@ -22,6 +22,33 @@ summary=An insider look at Amazon's internal practices and philosophies.
 13. **Have Backbone; Disagree and Commit.** Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting.Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly.
 14. **Deliver Results.** Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle.
 
+From https://commoncog.com/working-backwards/:
+
+> It is true that the list of principles are unique to Amazon, and that they cannot be copied wholesale to your org. But the list serves two purposes:
+
+> 1. It helps explain the organisational context in which the mechanisms are used (this achieves the book’s first goal, as an explanation of how Amazon works).
+> 2. More importantly, the authors use Amazon’s leadership principles to make a larger, more critical point: the leadership principles are made explicit because it is used as an organisational design tool.
+
+> One way of reading Working Backwards is that it is a book about organisational design. Why is Amazon able to do what it does? Well, the glib answer to that is that Amazon, as an organisation, is designed in a way that makes it easier for it to accomplish its goals. Working Backwards is partly a story of that org design in action: it contains multiple case studies of how Bezos and crew iteratively developed the five mechanisms that take up most of the book. But hidden in those stories is a meta-mechanism: that is, the methods and principles Bezos and others used to come up with new mechanisms in the first place.
+
+> Bryar and Carr do not explicitly describe their principles — they just tell you stories of what they (and Bezos) thought, what they tried, and what worked in those early years. But the one explicit thing that they do describe, that belongs in this category of ‘meta-mechanism’, are the leadership principles. By making these leadership principles explicit, Amazon makes it possible to scale the culture of its organisation, even as it expands to multiple new industries, and multiple new locations around the globe.
+
+> The gist of the method are as follows:
+
+> 1. First, Amazon distils a set of principles from what its best leaders already do. (In a 2015 shareholder letter, Bezos wrote: “You can write down your corporate culture, but when you do so, you’re discovering it, uncovering it — not creating it.”) The first iteration of the leadership principles was done by Robin Andrulevich, an early member of Amazon’s HR team (and eventual Head of HR).
+
+> 2. This is then followed by a laborious process where leadership settles on the exact wording of every principle. Bryar describes the period as a series of intense meetings (“I remember one particularly intense debate that centred on the proposed phrase ‘Leaders do not believe their own body odour smells of perfume’ ... Was it ok to use quirky language when communicating with a wide audience?”)
+
+> 3. Finally, Bezos emails the list of principles to every manager in Amazon, to formally announce the leadership principles. Of course, this wasn’t the end of things — over time, Amazon leadership refined and added to the original list of ten principles, in order to better capture what Amazonian culture had become. There are now 14 principles. Presumably there may be more in the future.
+
+> It may seem a little bizarre that Amazon takes so much time to refine and update its list of leadership principles. But a better way to understand it is to see it as a form of cultural technology. With these leadership principles made explicit, for example, Amazon is able to do three things:
+
+> First, it drills these principles into every new hire, with a multi-month process that can best be described as ‘cultural indoctrination’. ... the principles are a form of cultural defence — a method of ensuring that a very specific way of working and seeing the world is maintained throughout the entire company. (The authors note that the principles are not memorised — they are internalised. So the principles are somewhat reflexive: they describe the culture, but they also help keep the culture in place). ... In practice, the leadership principles are so heavily enforced that they become a ‘rules of engagement’ type thing, used in every meeting.
+
+> Second, Amazon uses these leadership principles to guide their hiring. We'll talk more about this in the next section (on the Bar Raiser program), but suffice to say, Amazon tries its hardest to hire people who are a natural fit for their leadership principles. They have carefully tuned incentives in their hiring process to ensure bad fit employees rarely get through. In this manner Amazon is able to defend their culture from invasive cultural change — which is, by the way, a real thing: you don’t want to hire a whole bunch of ex-Googlers, only to find that a part of your org is now effectively a mini-Google.
+
+> Third, and most importantly, Amazon uses these leadership principles to design new mechanisms. There’s a famous saying in Amazon that goes: “Good intentions don’t work. Mechanisms do.” Sure, your existing culture is one way you can control organisational behaviour. But when you see deviation from your desired behaviour, you don’t want to let things lie; you want to change your systems to ensure that such deviation doesn’t happen again. What do you do? Well, you do incentive systems design, or process design; you create what Amazon calls ‘mechanisms’.
+
 ### Annual Planning: OP1 and OP2
 Autonomous, single-threaded teams keep the company nimble, moving quickly with a minimum of external friction, but their autonomy must be paired with precise goal-setting to align each team's independent plans with the company's overarching goals. Planning for the calendar year beings in the summer, a painstaking process that requires four to eight weeks of intensive work.
 
@@ -52,6 +79,7 @@ Eight steps in the hiring process:
 * **Resume Review:** if the candidates are off-target, the JD probably needs work.
 * **Phone Screen:** have a rubric ahead of time; solicit examples of the candidate's past behavior; focus on a subset of the Amazon Leadership Principles. Decide on bringing the candidate in for an interview; if on the fence, the answer is no. One in four is a reasonable success rate at this stage.
 * **In-House Interview:** 5 - 7 hours to complete, involving expensive people, so must be carefully planned, prepared, and executed. The most important goals of the interview process became clear: to assess how well a candidate's past behavior and ways of working map to the Amazon Leadership Principles; soon learned that the basic info about the candidate are less reliable predictors of such. Two distinctive features in an Amazon in-house interview:
+
     1. Behavioral Interviewing: assigning one or more of the 14 Principles to each member of the interview panel, who in turn poses questions that map to their assigned leadership principle, seeking to elicit two kinds of data. First, the interviewer wants the candidate to provide detailed examples of *what* they personally contributed to solving hard problems or how they performed in work situations similar to those at Amazon. Second, the interviewer wants to learn *how* the candidate accomplished their goals and whether their methods align with the Principles. The method that Amazon interviewers use goes by the acronym STAR:
 
           * **Situation** "What was the situation?"
@@ -62,6 +90,7 @@ Eight steps in the hiring process:
     Some interviews may focus on specific functional skills that are necessary for the role. Interviewers are also trained to maintain control of the interview--to politely cut the candidate short and move on to the next question.
 
     2. The Bar Raiser: Involved in every interview loop, and ensures the process is followed and bad hiring decisions are avoided. Bar Raisers are trained to become experts in every aspect of the interviewing process. There is a group of senior Bar Raisers that manages the program (Bar Raiser Core), composed mostly of VPs and directors. Members have participated in hundreds of interviews, and demonstrated their mastery of interviewing, managing debriefs, making decisions, and teaching and training other Bar Raisers. There is no extra merit pay for becoming a Bar Raiser, and you retain all the duties of your day job. The only public recognition you get for being a Bar Raiser is an icon next to your name in the company directory.
+
 * **Written Feedback:** Every interviewer must take detailed notes--as close to verbatim as possible. Use these notes to develop the written feedback you'll give your fellow interviewers; if you do not take complete and detailed notes, expect a visit from your Bar Raiser. Written feedback is expected to be specific, detailed, and filled with examples from the interview to address the Principles assigned to the interviewer. The write-up should be thorough and clear enough that the author need not be present for their conclusions to be understood. This is not an optional exercise: oral feedback offered in lieu of the written is simply unacceptable.
 * **Debrief/Hiring Meeting:** Interviewers gather in person or via video conference to debrief and make the decision. Bar Raiser leads the meeting, which should be held as soon as possible, no more than a few days after the interviews have been completed. The meeting begins with everyone reading all the interview feedback. Once down, ask the group, "Now that everyone has read the feedback, would anyone like to change their vote?", where the vote is the individual interviewer's own (limited) personal view of the candidate.
 * **Reference Check:** De-emphasized in today's process since it has rarely affected a hiring decision.
@@ -70,9 +99,31 @@ Eight steps in the hiring process:
 Track and report on the volume and rate at which candidates pass through the funnel and use this data to make process changes as well as to coach and train recruiters and hiring managers.
 
 # Chapter 3: Organizing (Separable, Single-Threaded Leadership)
+
 > "The best way to fail at inventing something is by making it somebody's part-time job."
 
 "Single-threaded leadership": a single person, unencumbered by competing responsibilities, owns a single major initiative and heads up a separable, largely autonomous team to deliver its goals.
+
+From the book:
+
+> "Speed, or more accurately velocity, which measures both speed and direction, matters in business. With all other things being equal, the organisation that moves faster will innovate more, simply because it will be able to conduct a higher number of experiments per unit of time. Yet many companies find themselves struggling against their own bureaucratic drag, which appears in the form of layer upon layer of permission, ownership, and accountability, all working against fast, decisive forward progress.
+
+> "We are often asked how Amazon has managed to buck that trend by innovating so rapidly, especially across so many businesses—online retail, cloud computing, digital goods, devices, cashierless stores, and many more—while growing from fewer than ten employees to nearly one million. How has the company managed to stay nimble, not stuck struggling to find common ground, as happens with most companies of such size?
+
+> "The answer lies in an Amazon innovation called “single-threaded leadership,” in which a single person, unencumbered by competing responsibilities, owns a single major initiative and heads up a separable, largely autonomous team to deliver its goals. In this chapter we’ll explain what these terms mean, how they came to be, and why they lie at the heart of the Amazon approach to innovation and high-velocity decision-making."
+
+From https://commoncog.com/working-backwards/:
+
+> The book goes into great detail on every version of this idea before they settled on ‘single threaded leadership’, but the actual single threaded leadership process is simple enough to articulate:
+
+> 1. **Each team must be headed by a ‘single threaded leader’.** A single threaded leader means a leader with no other responsibilities apart from the team’s charter.
+> 2. **The team must be separable.** The team must be autonomous, with little to no dependencies. In Jeff Wilke’s words: “Separable means almost as separable organisationally as APIs are for software.” (Amazon admits that certain teams can’t help but have dependencies on other teams, e.g. the Payments team, or the Order Pipeline team, so those are evaluated differently).
+> 3. **Each team must be established with a composition, charter, and set of evaluation metrics.** This is because autonomous teams can move quickly, so leadership must check that they’re moving in the right direction before they let them off to execute. As an example of each of these requirements:
+> 4. **The team must have a well-defined purpose.** One example of a team purpose is the Inventory Planning team’s — “This team intends to answer the question, ‘how much inventory should Amazon buy of a given product and when should we buy it?’”
+> 5. **The boundaries of ownership are well understood.** For example, the Inventory Planning team may ask the Forecasting team what the demand will be for a particular product at a given time, and then uses that answer as an input to make a buying decision.
+> 6. **The metrics used to measure progress are agreed upon in the beginning.** The Inventory Planning team’s initial set of evaluation metrics was In-stock Product Pages Displayed divided by Total Product Pages Displayed and Inventory Holding Cost.
+
+From the book: "It took us a while to arrive at the approach of single-threaded leaders and separable, single-threaded teams, and we went through a number of solutions along the way that ultimately didn’t last—like NPIs and two-pizza teams. But it was worth it, because where we landed was an approach to innovation that is so fundamentally sound and adaptable that it survives at Amazon to this day. This journey is also a great example of another phrase you’ll hear at Amazon: be stubborn on the vision but flexible on the details."
 
 ### Technical Dependencies
 Dependency discoveries inside of Amazon on Obidos, a monolithic massive executable:
