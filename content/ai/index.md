@@ -7,7 +7,12 @@ tags=ai
 
 ## General
 
-["The Open-Source Toolkit for Building AI agents"](https://www.aitidbits.ai/p/open-source-agents)
+- ["The Open-Source Toolkit for Building AI agents"](https://www.aitidbits.ai/p/open-source-agents)
+- Rob Conery's posts exploring using AI in a dev setting:
+
+    - ["Using Gemini CLI to Learn Something New"](https://thenext.dev/articles/all/using-gemini-cli-to-learn-something-new/)
+    - ["Creating a Markdown Compiler"](https://thenext.dev/articles/copilot/creating-a-markdown-compiler/) (video)
+    - ["Turning a Markdown Spec into a Database - With Test Data!"](https://thenext.dev/articles/video/turning-a-markdown-spec-into-a-database-with-test-data/)
 
 ## Definitions
 
@@ -29,16 +34,15 @@ tags=ai
     * Reason: rely on a language model to reason (about how to answer based on provided context, what actions to take, etc.)
 
 * ["Understanding the Dark Side of Large Language Models: A Comprehensive Guide to Security Threats and Vulnerabilities"](https://www.marktechpost.com/2023/09/01/understanding-the-dark-side-of-large-language-models-a-comprehensive-guide-to-security-threats-and-vulnerabilities/)
-
 * ["Use of LLMs for Illicit Purposes: Threats, Prevention Measures, and Vulnerabilities"](https://arxiv.org/abs/2308.12833)
-
 * ["Researchers from Virginia Tech and Microsoft Introduce Algorithm of Thoughts: An AI Approach That Enhances Exploration of Ideas And Power of Reasoning In Large Language Models (LLMs)"](https://www.marktechpost.com/2023/08/31/researchers-from-virginia-tech-and-microsoft-introduce-algorithm-of-thoughts-an-ai-approach-that-enhances-exploration-of-ideas-and-power-of-reasoning-in-large-language-models-llms/)
-
 * ["How to Build a Large Language Model from Scratch Using Python"](https://www.freecodecamp.org/news/how-to-build-a-large-language-model-from-scratch-using-python/)
-
 * ["How to build knowledge graphs using LLMs"](https://www.geeky-gadgets.com/building-knowledge-graphs-using-llms/)
+* ["Boost your AI Apps with DSLs"](https://www.typefox.io/blog/boost-your-ai-apps-with-dsls/)
 
 ## Small Language Models (SLMs)
+
+## Retrieval Augmented Generation (RAG)
 
 ## Coding Assistants
 

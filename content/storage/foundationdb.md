@@ -7,6 +7,12 @@ summary=An open source, distributed, transactional key-value store.
 
 FoundationDB is a distributed database designed to handle large volumes of structured data across clusters of commodity servers. It organizes data as an ordered key-value store and employs ACID transactions for all operations. It is especially well-suited for read/write workloads but also has excellent performance for write-intensive workloads. Users interact with the database using a API language binding. You can begin local development today.
 
+## Reading
+
+### Articles
+
+* ["FoundationDB: A Distributed Database that Can't Be Killed"](https://thenewstack.io/foundationdb-a-distributed-database-that-cant-be-killed/#)
+
 # Data Modeling
 FoundationDB's core provides a simple data model coupled with powerful transactions. This combination allows building richer data models and libraries that inherit the scalability, performance, and integrity of the database. The goal of data modeling is to design a mapping of data to keys and values that enables effective storage and retrieval. Good decisions will yield an extensible, efficient abstraction. This document covers the fundamentals of data modeling with FoundationDB.
 

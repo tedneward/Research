@@ -39,8 +39,9 @@ Frequently conjoined with [C](/languages/c); Bjarne wanted C++ to be "as close a
 * Writing GCC plugins
 	* https://gabrieleserra.ml/blog/2020-08-27-an-introduction-to-gcc-and-gccs-plugins.html
 	* https://stephanfr.blog/2013/05/19/building-gcc-plugins-part-1-c-11-generalized-attributes/
-* [GCC Design-by-Contract invariant plugin](https://github.com/GavinRay97/gcc-invariant-plugin) and [related blog post](https://gavinray97.github.io/blog/adding-invariant-to-cpp-design-by-contract):
-	
+* [GCC Design-by-Contract invariant plugin](https://github.com/GavinRay97/gcc-invariant-plugin) and [related blog post](https://gavinray97.github.io/blog/adding-invariant-to-cpp-design-by-contract)
+* [The architecture of Montana: an open and extensible programming environment with an incremental C++ compiler](https://dl.acm.org/doi/10.1145/291252.288284)
+* [OpenC++](https://chibash.github.io/public/opencxx/): a version of C++ with a Metaobject Protocol. [Source](https://opencxx.sourceforge.net/)
 
 ## References
 - https://cppreference.com/
