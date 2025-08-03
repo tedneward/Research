@@ -1,9 +1,11 @@
 title=Lobster
-tags=language, native
-summary=A statically typed programming language with a Python-esque syntax that combines the advantages of an expressive type system and compile-time memory management with a very lightweight, friendly and terse syntax, by doing most of the heavy lifting for you. While it is a general purpose language, its current implementation is biased towards games and other graphical things, with plenty of “batteries included” functionality.
+tags=language, native, gamedev
+summary=A statically typed programming language with a Python-esque syntax that combines the advantages of an expressive type system and compile-time memory management with a very lightweight, friendly and terse syntax, by doing most of the heavy lifting for you.
 ~~~~~~
 
 [Website](https://strlen.com/lobster/) | [Source](https://github.com/aardappel/lobster) | [Docs](http://aardappel.github.io/lobster/README_FIRST.html) | [Language Reference](https://aardappel.github.io/lobster/language_reference.html)
+
+While it is a general purpose language, its current implementation is biased towards games and other graphical things, with plenty of “batteries included” functionality.
 
 Features have been picked for their suitability in a game programming language, and in particular to make code terse, quick to write and refactor. It is meant to not hold you back to get an idea going quickly.
 
@@ -26,6 +28,7 @@ Features have been picked for their suitability in a game programming language, 
     * Relatively fast (order of magnitude faster than Python, significantly faster than Lua (benchmark), not yet a C competitor, but can be eventually) and economical (low overhead memory allocation)
     * Easy to deploy (engine/interpreter exe + compressed bytecode file)
     * Modularly extendable with your own library of C++ functions
+    
 * Engine
     * Portable (mostly courtesy of OpenGL/SDL/Freetype), allowing your games to be run on Windows, Linux, Mac OS X, iOS, Android and WebAssembly (in that order of maturity, currently).
     * High level interface to OpenGL functionality, very quick to get going with simple 2D geometric primitives

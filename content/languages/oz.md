@@ -1,9 +1,11 @@
 title=Oz (language) and Mozart (programming system)
 tags=language, functional, object, concurrency, logic, metaobject
-summary=The Mozart Programming System combines ongoing research in programming language design and implementation, constraint logic programming, distributed computing, and human-computer interfaces. Mozart implements the Oz language and provides both expressive power and advanced functionality. Oz is a multiparadigm programming language including logic, functional (both lazy evaluation and eager evaluation), imperative, object-oriented, constraint, distributed, and concurrent programming.
+summary=A multiparadigm programming language including logic, functional (both lazy evaluation and eager evaluation), imperative, object-oriented, constraint, distributed, and concurrent programming.
 ~~~~~~
 
 [Website](http://mozart2.org/) | [Source](https://github.com/mozart/mozart2)
+
+The Mozart Programming System combines ongoing research in programming language design and implementation, constraint logic programming, distributed computing, and human-computer interfaces. Mozart implements the Oz language and provides both expressive power and advanced functionality. 
 
 ### Data structures
 Oz is based on a core language with very few datatypes that can be extended into more practical ones through syntactic sugar.
@@ -131,6 +133,3 @@ local C in
    {C browse}
 end
 ```
-
-https://github.com/mozart/mozart2
-Oz is a multiparadigm programming language, developed in the Programming Systems Lab at Université catholique de Louvain, for programming language education. It has a canonical textbook: Concepts, Techniques, and Models of Computer Programming.

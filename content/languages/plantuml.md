@@ -1,11 +1,12 @@
 title=PlantUML
-tags=language
+tags=language, tool, dsl
 summary=Language for defining UML diagrams.
 ~~~~~~
 
 [Website](https://plantuml.com) | [Reference Guide](http://plantuml.com/guide)
 
 Component that allows to quickly write :
+
 * Sequence diagram
 * Usecase diagram
 * Class diagram
@@ -17,6 +18,7 @@ Component that allows to quickly write :
 * Timing diagram 
 
 The following non-UML diagrams are also supported:
+
 * Wireframe graphical interface
 * Archimate diagram
 * [Specification and Description Language (SDL)](/languages/sdl.html).

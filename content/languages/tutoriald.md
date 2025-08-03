@@ -1,6 +1,6 @@
-title=D (Tutorial D)
+title=Tutorial D (aka D)
 tags=language, storage
-summary=D is a set of prescriptions for what Christopher J. Date and Hugh Darwen believe a relational database management system ought to be like.
+summary=A set of prescriptions for what Christopher J. Date and Hugh Darwen believe a relational database management system ought to be like.
 ~~~~~~
 
 [Wikipedia](https://en.m.wikipedia.org/wiki/D_(data_language_specification)) | [Specification]()
