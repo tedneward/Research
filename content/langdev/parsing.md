@@ -16,17 +16,17 @@ summary=A collection of links on parsers, parser generators, parsing algorithms,
 * [CUP](http://www2.cs.tum.edu/projects/cup/) (Untouched in 2016)
 * [Funcj.parser](https://github.com/typemeta/funcj/tree/master/parser): a Java parser combinator framework for constructing LL(1) parsers. It’s based primarily on the “Deterministic, error-correcting combinator parsers” paper by S.D. Swierstra & L. Duponcheel, and draws inspiration from various parsers in the Haskell world, as well as the ParsecJ library. It is part of [a framework of functional Java libraries](https://github.com/typemeta/funcj). The library wants to provide a simple internal Domain Specific Language to express grammar languages.
 * [Gold](/langdev/gold)
-* [Grammatica](https://grammatica.percederberg.net/index.html)
+* [Grammatica](/langdev/grammatica)
 * [Jacc](https://github.com/zipwith/jacc)
 * [JavaCC](https://javacc.org/)
-* [JParsec](https://github.com/jparsec/jparsec): the port of the parsec library of Haskell.
+* [JParsec](/langdev/jparsec): the port of the parsec library of Haskell.
 * [JFlex](http://jflex.de/)
 * [Lambda PEG parser](https://github.com/ruediste/lambda-peg-parser): This is a Java library providing easy-to-use, powerful and elegant parsing of arbitrary text. It is based on Parsing Expression Grammars (PEGs), which are similar to simple recursive descent parsers, as you would write them by hand, with the addition of backtracking (try something, if it fails, try something else) and support for left recursion. This project is similar to parboiled, with the important difference that the rule methods are executed directly and can return any value. This reduces the conceptual difference to hand coded parsers and thus makes learning to use the parser easier.
 * [Lemon](/langdev/lemon)
 * [ModelCC](http://www.modelcc.org/)
-* [Mouse](http://mousepeg.sourceforge.net/): a tool to transcribe PEG into an executable parser written in Java
+* [Mouse](/langdev/mousepeg): a tool to transcribe PEG into an executable parser written in Java
 * [myna](https://github.com/cdiggins/myna-parser): Myna is an efficient and easy to use parsing library for JavaScript written using TypeScript 2.0 which targets ECMAScript 5.1.
-* [Parboiled](https://github.com/sirthias/parboiled): a recursive descent PEG parser implementation that operates on PEG rules you specify.
+* [Parboiled](/langdev/parboiled): a recursive descent PEG parser implementation that operates on PEG rules you specify.
 * [PetitParser](https://github.com/petitparser/java-petitparser): combines ideas from scannerless parsing, parser combinators, parsing expression grammars and packrat parsers to model grammars and parsers as objects that can be reconfigured dynamically. All the information is written in the source code, but the source code is divided in two files. In one file you define the grammar, while in the other one you define the actions corresponding to the various elements. The idea is that it should allow you to dynamically redefine grammars. While it is smartly engineered, it is debatable if it is also smartly designed.
 * [Rats!](http://cs.nyu.edu/rgrimm/xtc/): Parser generator part of xtc. (Appears down.)
 * [Rekex](https://github.com/zhong-j-yu/rekex): a new parser generator with a novel approach that flips writing a parser on its head. With traditional parser generators you write a grammar and then the generated parser produces a parse tree. One issue with this approach is that the parse tree is rarely what you want. So, you need to post-process the parse tree to create a data structure that fits your program. This can be a long process in itself. Particularly if you are dealing with a large grammar. You might be forced to optimize the grammar for performance during parsing, but this leads to a convoluted parse tree. Therefore you then have to spend more time in creating a sensible AST for your end users. Rekex changes the process of designing a parser starting from the desired AST. 

@@ -63,6 +63,14 @@ summary=A collection of Gradle plugins.
 - [gradle-web-resource-plugin](https://github.com/ksoichiro/gradle-web-resource-plugin) - Use CoffeeScript, LESS and Bower libraries without Node.js/npm.
 - [gradle-compass](https://github.com/robfletcher/gradle-compass) - Compile and watche SASS files.
 - [rest-gradle-plugin](https://github.com/noamt/rest-gradle-plugin) - Perform REST requests.
+- [Gretty](https://plugins.gradle.org/plugin/org.gretty) - Advanced gradle plugin for running web-apps on jetty and tomcat. https://gretty-gradle-plugin.github.io/gretty-doc/  Add this plugin to your build using the plugins DSL:
+
+    ```
+    plugins {
+      id("org.gretty") version "4.1.7"
+    }
+    ```
+
 
 ### Android application development
 
