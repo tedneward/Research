@@ -1,6 +1,7 @@
 title=PAIP
 tags=language
-summary=A universal filter application that uses plugins to transmit and convert data. ~~~~~~
+summary=A universal filter application that uses plugins to transmit and convert data.
+~~~~~~
 
 [Source](https://sourceforge.net/projects/paip/)
 

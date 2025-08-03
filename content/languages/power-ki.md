@@ -1,6 +1,7 @@
 title=POWER-KI
 tags=language
-summary=Allows hybrid programming, i.e. the development of applications with components created with different languages in a single package, making the most of each of them. ~~~~~~
+summary=Allows hybrid programming, i.e. the development of applications with components created with different languages in a single package, making the most of each of them.
+~~~~~~
 
 [Source](https://github.com/POWER-KI/POWER-KI)
 
