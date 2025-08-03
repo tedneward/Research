@@ -47,6 +47,7 @@ summary=A collection of links on parsers, parser generators, parsing algorithms,
 * [A Guide to Parsing: Algorithms and Terminology](https://tomassetti.me/guide-parsing-algorithms-terminology/)
 * ["Runtime-Extensible Parsers"](https://duckdb.org/pdf/CIDR2025-muehleisen-raasveldt-extensible-parsers.pdf)
 * ["Packrat Parsers Can Support Left Recursion"](https://github.com/ruediste/lambda-peg-parser/blob/master/www.vpri.org/pdf/tr2007002_packrat.pdf)
+* [Incremental recursive descent parsing](https://www.academia.edu/29004707/Incremental_recursive_descent_parsing) (1990)
 
 ## Theory and approaches
 

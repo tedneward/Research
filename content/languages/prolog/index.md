@@ -25,8 +25,7 @@ father(mark, jeremy).
 
 1. Describe a relationship that is conditionally true ... a rule.
 
-   For example, the following rule states that `G` is a grandfather of `C`
-   if `G` is the father of `P` AND `P` is either the father or mother of `C`:
+   For example, the following rule states that `G` is a grandfather of `C` if `G` is the father of `P` AND `P` is either the father or mother of `C`:
 
    ```prolog
    grandfather(G, C) :=
@@ -38,8 +37,7 @@ father(mark, jeremy).
 
    For example, `?- grandfather(richard, amanda).` outputs `true`.
 
-1. Ask for values for which a relationship is true
-   using a query with variables.
+1. Ask for values for which a relationship is true using a query with variables.
 
    For example, `?- grandfather(G, amanda).` sets `G` to `richard`
    Sometimes there are multiple values for which a query holds.
@@ -48,25 +46,13 @@ father(mark, jeremy).
    Note how a rule can be used to find values for any of its arguments,
    searching in multiple directions.
 
-Queries (aka questions) perform "unification" which basically means
-finding values for variables that cause a relationship to hold.
-This requires pattern matching search and backtracking.
-Unification relies on the properties of {% aTargetBlank
-"https://en.wikipedia.org/wiki/Horn_clause", "Horn clauses" %}.
-A related term is "ground" which refers to an expression
-that contains no uninstantiated variables.
+Queries (aka questions) perform "unification" which basically means finding values for variables that cause a relationship to hold. This requires pattern matching search and backtracking. Unification relies on the properties of {% aTargetBlank "https://en.wikipedia.org/wiki/Horn_clause", "Horn clauses" %}. A related term is "ground" which refers to an expression that contains no uninstantiated variables.
 
-The set of facts and rules supplied to the Prolog engine
-is called the knowledge base (or database).
-Prolog is highly optimized to handle searching large knowledge bases.
+The set of facts and rules supplied to the Prolog engine is called the knowledge base (or database). Prolog is highly optimized to handle searching large knowledge bases.
 
-Prolog is a homoiconic language, which means its code can be treated as data.
-Everything in Prolog is some kind of "term".
-A program is a list of clauses.
-A list and a clause can both be represented as terms.
+Prolog is a homoiconic language, which means its code can be treated as data. Everything in Prolog is some kind of "term". A program is a list of clauses. A list and a clause can both be represented as terms.
 
-Prolog has many uses including artificial intelligence,
-abstract problem solving, symbolic equation solving, and more.
+Prolog has many uses including artificial intelligence, abstract problem solving, symbolic equation solving, and more.
 
 ## Use Cases
 
@@ -157,6 +143,7 @@ Many of these are built on the idea of the [Warren Abstract machine](http://en.w
 * [Warren's Abstract Machine: A Tutorial Reconstruction](http://wambook.sourceforge.net) - Hassan Ait-Kaci
 * [List of Prolog references](https://www.univ-orleans.fr/lifo/software/stdprolog/prolog_refs.html)
 * [Mark Volkmann's notes](https://mvolkmann.github.io/blog/topics/#/blog/prolog/)
+* [Stack Overflow: Good Beginner's Material on Prolog](https://stackoverflow.com/questions/401635/good-beginners-material-on-prolog)
 
 ### Constraint Logic Programming (extended Prolog)
 

@@ -17,6 +17,8 @@ Native refers to a variety of different hardware/OS combinations, including:
 * Android/ARM
 * Android/x86
 
+[Platform as a runtime](https://www.infoq.com/articles/platform-runtime-engineering/)
+
 ### Other platform-like links:
 
 * [Sliksafe](https://www.sliksafe.com/): a Dropbox alternative where all your data is first encrypted on your own device and then stored on decentralized storage. [Whitepaper](https://sliksafe.com/whitepaper.pdf). [Web app](https://app.sliksafe.com), [macOS app](https://sliksafe.com/downloads). [HackerNews](https://news.ycombinator.com/item?id=29637188)
