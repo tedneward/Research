@@ -10,7 +10,7 @@ summary=A collection of links on parsers, parser generators, parsing algorithms,
 * [APG](http://sabnf.com/): a recursive-descent parser using a variation of Augmented BNF, that they call Superset Augmented BNF. ABNF is a particular variant of BNF designed to better support bidirectional communications protocol. APG also support additional operators, like syntactic predicates and custom user defined matching functions. It can generate parsers in C/C++, Java e JavaScript. Support for the last language seems superior and more up to date: it has a few more features and seems more updated. In fact the documentation says it is designed to have the look and feel of JavaScript RegExp.
 * [Bison](/langdev/bison)/yacc
 * [BYACC/J](http://byaccj.sourceforge.net/)
-* [Canopy](http://canopy.jcoglan.com/): PEG parser compiler targeting Java, JavaScript, Python and Ruby. It takes a file describing a parsing expression grammar and compiles it into a parser module in the target language. The generated parsers have no runtime dependency on Canopy itself.
+* [Canopy](/langdev/canopy): PEG parser compiler targeting Java, JavaScript, Python and Ruby. It takes a file describing a parsing expression grammar and compiles it into a parser module in the target language. The generated parsers have no runtime dependency on Canopy itself.
 * [Coco/R](https://ssw.jku.at/Research/Projects/Coco/)
 * [CookCC](https://github.com/coconut2015/cookcc)
 * [CUP](http://www2.cs.tum.edu/projects/cup/) (Untouched in 2016)
