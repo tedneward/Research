@@ -1,9 +1,21 @@
 title=FreeBSD
-tags=platform, os
+tags=platform, os, bsd
 summary=An operating system used to power modern servers, desktops, and embedded platforms.
 ~~~~~~
 
 [Website](https://www.freebsd.org/) | [Download](https://www.freebsd.org/where/) | [Source](https://cgit.freebsd.org/)
+
+## Implementations
+FreeBSD is widely used as a building block for other commercial and open-source operating systems. The projects below are of particular interest.
+
+* [TrueNAS](https://www.truenas.com/) is network attached storage (NAS) software that shares and protects data from modern-day threats like ransomware and malware. TrueNAS makes it easy for users and client devices to access shared data through virtually any sharing protocol.
+* [GhostBSD](https://www.ghostbsd.org/) is derived from FreeBSD, and uses the GTK environment to provide a beautiful look and a comfortable experience on a modern BSD platform offering a natural and native UNIX®-like work environment.
+
+    - https://www.xda-developers.com/i-tried-using-a-freebsd-distro-as-my-daily-driver-in-2025/
+
+* [MidnightBSD](https://www.midnightbsd.org/) was forked from FreeBSD 6.1 beta, and continues to use parts of more recent FreeBSD code bases. Developed with desktop users in mind, MidnightBSD includes everything that you would expect for your daily tasks: mail, web browsing, word processing, gaming, and much more.
+* [NomadBSD](https://www.nomadbsd.org/) is a persistent live system for USB flash drives, based on FreeBSD. Together with automatic hardware detection and setup, it is configured to be used as a desktop system that works out of the box, but can also be used for data recovery, for educational purposes, or to test FreeBSD hardware compatibility.
+* [pfSense](https://www.pfsense.org/) is a FreeBSD-based customized distribution tailored for use as a firewall and router.
 
 ## Articles
 

@@ -17,7 +17,10 @@ Native refers to a variety of different hardware/OS combinations, including:
 * Android/ARM
 * Android/x86
 
-[Platform as a runtime](https://www.infoq.com/articles/platform-runtime-engineering/)
+### Internal Developer Platform
+
+* [Platform as a runtime](https://www.infoq.com/articles/platform-runtime-engineering/)
+* [MVP or TVP? Why your Internal Developer Platform Needs Both](https://thenewstack.io/mvp-or-tvp-why-your-internal-developer-platform-needs-both/)
 
 ### Other platform-like links:
 
