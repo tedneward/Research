@@ -3,6 +3,12 @@ tags=architecture, event
 summary=An approach to building systems via events.
 ~~~~~~
 
+## Reading
+
+### Articles
+
+[The What, Why, and How of Event-Driven Programming](https://quix.io/blog/what-why-how-of-event-driven-programming)
+
 Rahul Krishnan's blog:
 
 * [Overview](https://solutionsarchitecture.medium.com/event-driven-architecture-an-overview-00f5967385e6)
