@@ -1,5 +1,5 @@
 title=HocusPocus
-tags=distribution, real-time
+tags=distribution, real-time, crdt
 summary=A CRDT Yjs WebSocket backend for conflict-free real-time collaboration in your app.
 ~~~~~~
 

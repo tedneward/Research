@@ -5,7 +5,7 @@ summary=A dynamic language and platform.
 
 [Website](https://www.python.org/) | [Docs (Python3)](https://docs.python.org/3/)
 
-### Implementations:
+## Implementations:
 
 * C: [CPython](/languages/python/cpython): native implementation
 
@@ -27,6 +27,14 @@ summary=A dynamic language and platform.
 * Rust: [Cannoli](https://github.com/joncatanio/cannoli): a compiler for a subset of Python 3.6.5.
 
 Not sure if this is a library or an implementation or a tool, it's sort of all three: [VPython](https://vpython.org/), 3D Programming for Ordinary Mortals
+
+## Language extensions and/or libraries close to the language
+
+* [metap](https://github.com/baziotis/metap): Metaprogramming in Python. Automatic augmentation/rewrite of Python code.
+* [bytecode](https://bytecode.readthedocs.io/) ([Source](https://github.com/MatthieuDartiailh/bytecode)): Python module to modify bytecode
+* [`dis`: Disassembler for Python bytecode](https://docs.python.org/3/library/dis.html): package in the Python distribution, contains a list of all the Python VM bytecodes
+
+## Reading
 
 ### Books
 
@@ -196,12 +204,12 @@ Not sure if this is a library or an implementation or a tool, it's sort of all t
 ### Articles:
 
 * [WTFPython](https://github.com/satwikkansal/wtfpython): A collection of unintuitive ways Python behaves, with explanations as to why.
-* [bytecode](https://bytecode.readthedocs.io/) ([Source](https://github.com/MatthieuDartiailh/bytecode)): Python module to modify bytecode
 * [Language learnings](https://github.com/imteekay/programming-language-research/tree/master/language-learning/python)
 * [Learn Python ASTs, by building your own linter](https://sadh.life/post/ast/)
 * [How To Create a Python GUI To Write Data to a File With PyQt5](https://thenewstack.io/how-to-create-a-python-gui-to-write-data-to-a-file-with-pyqt5/)
 * [A JIT Compiler for CPython](https://www.youtube.com/watch?v=HxSHIpEQRjs&ab_channel=encukou)
 * [Python's type system explained: Static vs dynamic typing | Guido van Rossum](https://www.youtube.com/watch?v=kSXZHRsWXfU)
+* [metap: A Meta-Programming Layer for Python](https://sbaziotis.com/compilers/metap.html)
 
 ### Interesting examples:
 
@@ -210,8 +218,4 @@ Not sure if this is a library or an implementation or a tool, it's sort of all t
 ### Bridges/FFI:
 
 * [pyobjc](https://pyobjc.readthedocs.io/en/latest/) ([Source](https://github.com/ronaldoussoren/pyobjc)): The Python-to-Objective-C bridge
-
----
-
-[`dis`: Disassembler for Python bytecode](https://docs.python.org/3/library/dis.html): package in the Python distribution, contains a list of all the Python VM bytecodes
 

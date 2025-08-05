@@ -5,5 +5,5 @@ summary=A unifying system of families of languages for Web rules specified, in p
 
 [Website](http://wiki.ruleml.org/index.php/RuleML_Home)
 
-Appears to build off of [Datalog](../datalog).
+Appears to build off of [Datalog](/languages/datalog).
 

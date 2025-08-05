@@ -1,9 +1,11 @@
 title=Pluvo
 tags=language, functional, windows, linux
-summary=A functional and imperative programming language intended to be highly practical for scripting and CGIs, interpreted using a just-in-time compiler. Its hybrid dynamic and strict typing is flexible enough to allow duck typing. Its functions are, more specifically, closures, and it allows object orientation using prototypes.
+summary=A functional and imperative programming language intended to be highly practical for scripting and CGIs, interpreted using a just-in-time compiler.
 ~~~~~~
 
 [Website](http://inamidst.com/pluvo/) | [Source](http://inamidst.com/list/pluvo/)
+
+Its hybrid dynamic and strict typing is flexible enough to allow duck typing. Its functions are, more specifically, closures, and it allows object orientation using prototypes.
 
 Hello World example:
 ```

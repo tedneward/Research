@@ -12,3 +12,4 @@ This is what powers BlueSky.
 ## Articles
 
 - ["How Decentralized is BlueSky?"](https://dustycloud.org/blog/how-decentralized-is-bluesky/)
+- ["How to Create Your Own Bluesky Domain and Why I Recommend It"](https://www.zdnet.com/article/how-to-create-your-own-bluesky-domain-and-why-i-recommend-it/)

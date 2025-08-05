@@ -1,6 +1,7 @@
 title=MIX-MIXAL
 tags=language
-summary=Donald Knuth's mythical computer as described in his monumental work The Art Of Computer Programming. ~~~~~~
+summary=Donald Knuth's mythical computer as described in his monumental work The Art Of Computer Programming.
+~~~~~~
 
 [Source](https://www.gnu.org/software/mdk/mdk.html)
 

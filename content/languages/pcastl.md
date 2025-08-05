@@ -1,6 +1,6 @@
 title=PCASTL
 tags=language
-summary=an interpreted high level programming language which makes writing self-modifying code easier.
+summary=An interpreted high level programming language which makes writing self-modifying code easier.
 ~~~~~~
 
 [Website](https://pcosmos.ca/m/pcastl/) | [Source](https://github.com/phil-de-choc/pcastli) *(Last update 2018)*

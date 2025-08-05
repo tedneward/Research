@@ -23,3 +23,4 @@ We see that edge is a .input relation, and so will be read from disk. Also, path
 The last two lines say that 1) “there is a path from x to y if there is an edge from x to y”, and 2) “there is a path from x to y if there is a path from x to some z, and there is an edge from that z to y”.
 
 So if the input edge relation is pairs of vertices in a graph, by these two rules the output path relation will give us all pairs of vertices x and y for which a path exists in that graph from x to y.
+

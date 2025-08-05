@@ -1,6 +1,6 @@
 title=Rivescript
 tags=language, web
-summary=A RiveScript interpreter for JavaScript. RiveScript is a scripting language for chatterbots.
+summary=A scripting language for chatterbots.
 ~~~~~~
 
 [Website](https://www.rivescript.com/) | [Language Definition](https://github.com/aichaos/rivescript-wd)

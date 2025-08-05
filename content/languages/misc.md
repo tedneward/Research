@@ -1,6 +1,7 @@
 title=Misc
 tags=language
-summary=A simple but powerful programming language, designed especially for performing efficient calculations. ~~~~~~
+summary=A simple but powerful programming language, designed especially for performing efficient calculations.
+~~~~~~
 
 [Source](https://sourceforge.net/projects/miscengine/)
 

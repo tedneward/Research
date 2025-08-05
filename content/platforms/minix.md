@@ -9,4 +9,4 @@ From the book ["Operating Systems: Design and Implementation"](https://www.amazo
 
 Generally considered the starting point for most classic operating systems study. At some point I want to pull down the Minix ISO and install it into a VirtualBox so that I can hack on an OS for a while. *sigh* Someday....
 
-
+Dormant since 2018.

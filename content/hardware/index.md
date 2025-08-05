@@ -31,6 +31,8 @@ Collection of links about and around hardware.
 
 [ANKER docking station](https://www.cultofmac.com/news/macbook-pro-and-anker-dock-setup)
 
+[Activo P1](https://www.activostyle.com/p1) - [Tom's Guide Review](https://www.tomsguide.com/audio/im-bringing-the-ipod-back-with-my-new-luxury-mp3-player#)
+
 ## Networking
 
 ["How to get wired Internet at home without running ethernet cable"](https://www.zdnet.com/home-and-office/networking/weak-wi-fi-how-to-get-wired-internet-at-home-without-running-ethernet/) - use Multimedia over Coax ([MoCA](https://en.wikipedia.org/wiki/Multimedia_over_Coax_Alliance))

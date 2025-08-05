@@ -22,15 +22,16 @@ input_data(Tri) =>
     end.
 ```
 
-The function read_file_lines/1, which is imported by default from the io module, reads all of the lines from a file as a list of strings. For each Line in Lines, the foreach loop splits Line into tokens (using the function split/1, which is imported from the util module), maps the tokens to integers (map(to_integer)), and converts the list to an array (to_array). As illustrated in this example, Picat, as a scripting language, is as powerful as Python and Ruby.
+The function `read_file_lines/1`, which is imported by default from the `io` module, reads all of the lines from a file as a list of strings. For each Line in Lines, the foreach loop splits Line into tokens (using the function `split/1`, which is imported from the `util` module), maps the tokens to integers (`map(to_integer)`), and converts the list to an array (`to_array`). As illustrated in this example, Picat, as a scripting language, is as powerful as Python and Ruby.
 
 Example 2: The following function, perms(L), returns a list of all of the permutations of L.
 
 ```
 perms([]) = [[]].
 perms(Lst) = [[E|P] : E in Lst, P in perms(Lst.delete(E))].
-Picat provides functional programming features, such as pattern-matching, recursion, and list comprehension, for composing functions.
 ```
+
+Picat provides functional programming features, such as pattern-matching, recursion, and list comprehension, for composing functions.
 
 Example 3: Given a triangle stored in an array, the following tabled predicate finds the maximum total sum from top to bottom. This is the second part of the Picat solution for the Euler Project, problem #67.
 
