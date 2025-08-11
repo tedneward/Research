@@ -34,6 +34,10 @@ Not sure if this is a library or an implementation or a tool, it's sort of all t
 * [bytecode](https://bytecode.readthedocs.io/) ([Source](https://github.com/MatthieuDartiailh/bytecode)): Python module to modify bytecode
 * [`dis`: Disassembler for Python bytecode](https://docs.python.org/3/library/dis.html): package in the Python distribution, contains a list of all the Python VM bytecodes
 
+## FFI
+
+* [JPype](https://jpype.readthedocs.io/en/latest/userguide.html): A Python module that provides seamless access to Java libraries from Python using JNI. ([Source](https://github.com/jpype-project/jpype))
+
 ## Reading
 
 ### Books
