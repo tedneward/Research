@@ -25,6 +25,7 @@ Philip Wadler [A critique of Abelson and Sussman or why calculating is better th
 
 #### Monads
 
+* ["Functional Programming: Beyond the Vampire Castle"](https://www.ooloi.org/home/functional-programming-beyond-the-vampire-castle)
 * ["This is not a monad tutorial"](https://johnazariah.github.io/2022/12/06/this-is-not-a-monad-tutorial.html)
 * ["Monad Comprehensions: A Versatile Representation for Queries"](https://db.in.tum.de/~grust/files/monad-comprehensions.pdf)
 * ["Why do monads matter?"](https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/)

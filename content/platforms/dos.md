@@ -7,6 +7,7 @@ summary=The original desktop operating system.
 
 * [DosBox](https://www.dosbox.com/): an open-source DOS emulator for running DOS applications and games.
 * [Dosbox-X](https://dosbox-x.com/): an open-source DOS emulator for running DOS applications and games.
+* [FreeDOS](https://www.freedos.org): a modern, fully supported DOS.
 
 # Misc links
 

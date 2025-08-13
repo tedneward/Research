@@ -3,9 +3,15 @@ tags=language, services
 summary=A startup effort around a service-oriented language and web development environment.
 ~~~~~~
 
-[Website](https://darklang.com/) | [Source](https://github.com/darklang/dark)
+[Website](https://darklang.com/) | [Source](https://github.com/darklang)
 
-Appears to be being rewritten in F#, but docs are sketchy.
+From the blog:
+
+"Dark Inc has officially run out of money. Dark Inc is the company we founded in 2017 to build Darklang, a statically-typed functional programming language built to strip all of the bullshit from backend coding.
+
+"To ensure continuity for users and fans, as well as to continue building what we regard as an important technology, Dark Inc has sold the assets – the Darklang language, the blog, the hosted service, the Discord, etc, darklang.com, etc – to a new company started by Dark Inc's former employees.
+
+"The new company, Darklang Inc, was started recently by Stachu and Feriel to continue building Darklang in its new exciting direction. Rather than be tied to a single proprietary cloud backend and editing environment, Darklang will be open sourced, and designed to safely run anywhere - your laptop, your cloud, our cloud, etc."
 
 ----
 

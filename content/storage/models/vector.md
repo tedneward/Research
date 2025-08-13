@@ -23,3 +23,8 @@ summary=Thoughts and links.
 * Valkey
 * [CockroachDB](../../cockroachdb)
 
+## Reading
+
+### Articles
+
+- https://thenewstack.io/how-to-master-vector-databases/

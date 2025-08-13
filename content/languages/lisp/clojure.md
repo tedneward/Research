@@ -16,6 +16,8 @@ From the website:
 [Magic](http://nas.sr/magic/): The Morgan And Grand Iron Clojure Compiler
 A high-performance Clojure compiler library targeting the Common Language Runtime.
 
+[Ooloi](https://www.ooloi.org/): a modern, open-source music notation software designed to handle complex musical scores with ease. It is designed to be a flexible and powerful music notation software tool providing professional, high-quality results. The core functionality includes inputting music notation, formatting scores and their parts, and printing them. Additional features can be added as plugins, allowing for a modular and customizable user experience.​
+
 ### Implementations
 
 * [sci](https://github.com/borkdude/sci): An interpreter for a subset of Clojure for Clojure and ClojureScript.

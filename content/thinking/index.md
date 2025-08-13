@@ -170,6 +170,16 @@ summary=A collection of links (usually to articles) about the various forms of t
 
 [Picbreeder](https://nbenko1.github.io/#/): Picbreeder is a collaborative art application based on an idea called evolutionary art, which is a technique that allows pictures to be bred almost like animals. Picbreeder generates a population of images that a user can choose. The selected images are then used to evolve a new generation via Compositional Pattern Producing Networks (CPPNs). CPPNs are neural networks that contain activation functions which allow them to create and evolve images.
 
+## Language
+
+- ["How language shapes thought"](https://www.scientificamerican.com/article/how-language-shapes-thought/)
+- https://en.m.wikipedia.org/wiki/Linguistic_relativity
+- ["How language shapes the way we think"](https://irl.umsl.edu/oer/13/)
+- ["Why Learning a Language Transforms Who You Are"](https://medium.com/@krys_stories/why-learning-a-language-transforms-who-you-are-ddb8775797d3)
+- ["Bilinguial people may make different choices based on the language they're thinking in"](https://www.washingtonpost.com/lifestyle/wellness/bilingual-people-may-make-different-choices-based-on-the-language-theyre-thinking-in-heres-why/2020/02/17/4565d4b8-413b-11ea-b5fc-eefa848cde99_story.html) (WaPo, paywall)
+- ["How speaking multiple languages changes your brain:](https://www.dw.com/en/language-learning-brain-impact-explained-v2/a-72218512)
+- ["Linguists Find Proof of Sweeping Language Pattern Once Deemed a ‘Hoax’"](https://www.scientificamerican.com/article/linguists-find-proof-of-sweeping-language-pattern-once-deemed-a-hoax/)
+
 ## Fallacies
 
 ["Characteristics of Pseudoscience"](https://twitter.com/ShannyGasm/status/1485005991628341250) ([graphic](https://pbs.twimg.com/media/FJvNFFWVQAMhn4f?format=jpg&name=900x900)):

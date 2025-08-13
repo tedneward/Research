@@ -42,6 +42,12 @@ summary=Open-source relational database.
 * [citusdata/citus](https://hub.docker.com/r/citusdata/citus/) - Citus official images with citus extensions. Based on the official Postgres container.
 * [mdillon/postgis](https://hub.docker.com/r/mdillon/postgis/) - PostGIS 2.3 on Postgres 9. Based on the official Postgres container.
 
+## Reading
+
+### Articles
+
+* ["Postgres is Too Good (And Why That's Actually a Problem)"](https://dev.to/shayy/postgres-is-too-good-and-why-thats-actually-a-problem-4imc)
+
 ## Access Tools
 
 ### Language bindings
@@ -200,7 +206,7 @@ for `EXPLAIN`, that also provides performance tips (Commercial Software).
 * [pgsync](https://github.com/ankane/pgsync) - Tool to sync PostgreSQL data to your local machine.
 * [PGXN client](https://github.com/pgxn/pgxnclient) - Command line tool to interact with the PostgreSQL Extension Network
 * [postgresql-metrics](https://github.com/spotify/postgresql-metrics) - Tool that extracts and provides metrics for your PostgreSQL database.
-* [PostgREST](https://github.com/PostgREST/postgrest) - Serves a fully RESTful API from any existing PostgreSQL database.
+* [PostgREST](https://github.com/PostgREST/postgrest) - Serves a fully RESTful API from any existing PostgreSQL database. [Docs](https://docs.postgrest.org/en/v13/index.html)
 * [pREST](https://github.com/prest/prest) - Serve a RESTful API from any PostgreSQL database (Golang)
 * [PostGraphile](https://github.com/graphile/postgraphile) - Instant GraphQL API or GraphQL schema for your PostgreSQL database
 * [yoke](https://github.com/nanopack/yoke) - PostgreSQL high-availability cluster with auto-failover and automated cluster recovery.

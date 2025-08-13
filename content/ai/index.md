@@ -14,7 +14,13 @@ tags=ai
     - ["Using Gemini CLI to Learn Something New"](https://thenext.dev/articles/all/using-gemini-cli-to-learn-something-new/)
     - ["Creating a Markdown Compiler"](https://thenext.dev/articles/copilot/creating-a-markdown-compiler/) (video)
     - ["Turning a Markdown Spec into a Database - With Test Data!"](https://thenext.dev/articles/video/turning-a-markdown-spec-into-a-database-with-test-data/)
+
 - ["You're Building AI Apps Backwards: The Model-Product Problem"](https://thenewstack.io/youre-building-ai-apps-backwards-the-model-product-problem/)
+- ["The Copilot Delusion"](https://deplet.ing/the-copilot-delusion/)
+
+## Tools
+
+* [Lovable](https://lovable.dev/): Create apps and websites by chatting with AI
 
 ## Definitions
 

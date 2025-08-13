@@ -5,7 +5,9 @@ summary=The OG.
 
 [Standard](https://html.spec.whatwg.org/multipage/) ([PDF](https://html.spec.whatwg.org/print.pdf))
 
-## Books
+## Reading
+
+### Books
 
 * [A beginner's guide to HTML&CSS](http://learn.shayhowe.com/html-css/)
 * [A free guide to learn HTML and CSS](http://marksheet.io)
@@ -39,4 +41,7 @@ summary=The OG.
 * [Web Audio API](http://chimera.labs.oreilly.com/books/1234000001552) - Boris Smus
 * [Web Visual Effects with CSS3](https://leanpub.com/web-visual-effects-with-css3/read) - Thomas Mak
 
+### Articles
+
+* ["HTML5 Elements You Didn't Know You Need"](https://dev.to/maxprilutskiy/html5-elements-you-didnt-know-you-need-gan)
 

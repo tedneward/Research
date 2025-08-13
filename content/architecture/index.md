@@ -48,6 +48,7 @@ Tomas Petricek's writings on the subject:
 
 ## Reading
 
+* ["You're Slicing your Architecture Wrong!"](https://dev.to/somedood/youre-slicing-your-architecture-wrong-4ob9)
 * [10 Most Popular Software Architectural Patterns](https://nix-united.com/blog/10-common-software-architectural-patterns-part-1/)
 * [The Architect's Guide to Open Table Formats and Object Storage](https://thenewstack.io/the-architects-guide-to-open-table-formats-and-object-storage/)
 * [Architectural Patterns](https://books.google.com/books/about/Architectural_Patterns.html?id=RvNFDwAAQBAJ&printsec=frontcover&source=kp_read_button&hl=en&newbks=1&newbks_redir=0&gboemv=1#v=onepage&q&f=false) (Book)
@@ -69,6 +70,7 @@ Tomas Petricek's writings on the subject:
 * [Serverless apps: Architecture, patterns, and Azure implementation](https://docs.microsoft.com/en-us/dotnet/standard/serverless-architecture/)
 * [Serverless Design Patterns and Best Practices](https://www.packtpub.com/free-ebooks/serverless-design-patterns-and-best-practices) - Brian Zambrano (Packt account *required*)
 * [Shape Up - Stop Running in Circles and Ship Work that Matters](https://basecamp.com/shapeup) - Ryan Singer (PDF)
+* [Sharding vs Partitioning](https://blog.algomaster.io/p/sharding-vs-partitioning)
 * [Site Reliability Engineering](https://landing.google.com/sre/book/index.html)
 * Six Event-Driven Archicture Patterns: [Part 1](https://medium.com/wix-engineering/6-event-driven-architecture-patterns-part-1-93758b253f47) [Part 2](https://medium.com/wix-engineering/6-event-driven-architecture-patterns-part-2-455cc73b22e1)
 * [Software Architecture Patterns](http://www.oreilly.com/programming/free/software-architecture-patterns.csp) (email address *requested*, not required) - Mark Richards
@@ -92,3 +94,6 @@ Tomas Petricek's writings on the subject:
 * [UK Ministry of Justice Cloud Platform](https://github.com/ministryofjustice/cloud-platform)
 * [UK Ministry of Justice "template repository"](https://github.com/ministryofjustice/template-repository): Github "template" repository, from which to create new MoJ Repositories with organisation defaults
 
+## Interesting challenges
+
+* [Gringotts](https://github.com/ssdug/Gringotts)

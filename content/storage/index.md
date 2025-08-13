@@ -54,6 +54,10 @@ Feels like a database implementation is made up of primarily three components:
 
 * [Code hosting](/tags/code-hosting.html): Some storage engines also allow for code-hosting, in which code executes inside the same process(es) as the storage engine itself, a la "stored procedures". The difference between this and embedding is simply which starts up first: the hosting program or the database.
 
+* Serverless?
+
+    - ["How to Build a Database Without a Server"](https://www.infoq.com/news/2025/05/serverless-database-seaton/)
+
 ## Automation
 
 * ["Database Gyms"](https://www.cidrdb.org/cidr2023/papers/p27-lim.pdf): "In the past decade, academia and industry have embraced machine learning (ML) for database management system (DBMS) automation. These efforts have focused on designing ML models that predict DBMS behavior to support picking actions (e.g., building indexes) that improve the system’s performance. Recent developments in ML have created automated methods for finding good models. Such advances shift the bottleneck from DBMS model design to obtaining the training data necessary for building these models. But generating good training data is challenging and requires encoding subject matter expertise into DBMS instrumentation.

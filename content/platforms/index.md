@@ -21,6 +21,7 @@ Native refers to a variety of different hardware/OS combinations, including:
 
 * [Platform as a runtime](https://www.infoq.com/articles/platform-runtime-engineering/)
 * [MVP or TVP? Why your Internal Developer Platform Needs Both](https://thenewstack.io/mvp-or-tvp-why-your-internal-developer-platform-needs-both/)
+* [Infrastructure from Code](https://www.shuttle.dev/blog/2022/05/09/ifc)
 
 ### Other platform-like links:
 

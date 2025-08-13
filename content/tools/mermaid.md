@@ -6,6 +6,9 @@ summary=Generation of diagram and flowchart from text in a similar manner as mar
 [Website](https://mermaid-js.github.io/mermaid/#/) | [Source](https://github.com/mermaid-js) | [CLI](https://github.com/mermaid-js/mermaid-cli) | [Live Editor](https://mermaid.live/edit)
 
 
+- ["Use Mermaid JS library to create flowcharts"](https://www.freecodecamp.org/news/use-mermaid-javascript-library-to-create-flowcharts/)
+- ["How to Become an Analytical Programmer – Solve the "Rock, Paper, Scissors" Game 5 Ways Using JavaScript & Mermaid.js"](https://www.freecodecamp.org/news/how-to-become-an-analytical-programmer-compare-five-projects/)
+
 To create a Mermaid diagram in these pages, use `<pre class="mermaid">` ... `</pre>` to enclose the diagram text.
 
 Frontmatter configuration: The entire mermaid configuration (except the secure configs) can be overridden by the diagram author in the frontmatter of the diagram. The frontmatter is a YAML block at the top of the diagram.

@@ -7,6 +7,8 @@ tags=hardware
 
 Collection of links about and around hardware.
 
+- https://9to5mac.com/2025/08/05/get-a-new-macbook-or-ipad-every-2-years-with-this-subscription/
+
 ## Remote access-in-the-cloud
 [Rent a Mac in the Cloud](http://www.macincloud.com/)
 
@@ -17,19 +19,52 @@ Collection of links about and around hardware.
 
 [Light](https://www.thelightphone.com/shop/products/light-phone-iii): A "dumbphone" that still does text, email, etc.
 
+[Supernote Nomad](https://supernote.com/products/supernote-nomad?variant=44112947380460): Remarkable competitor
+
+[BOOX Note Air4C](https://shop.boox.com/products/noteair4c): The Color ePaper Notebook for Bold Thinkers and Creators.
+
+[BOOX Palma](https://shop.boox.com/products/palma): Phone-sized e-paper tablet.
+
+[Lenovo Legion Tab 3](https://www.lenovo.com/us/en/p/tablets/legion-tab-series/lenovo-legion-tab-gen-3/zaef0068us)
+
+- https://www.notebookcheck.net/The-super-lightweight-tablet-with-two-USB-ports-covers-all-bases-thanks-to-a-stylus-Lenovo-Legion-Tab-3-review.1005405.0.html
+- https://www.tomsguide.com/computing/tablets/i-thought-the-ipad-mini-was-the-perfect-small-tablet-until-i-tried-the-lenovo-legion-tab-3-heres-why
+
+[RedMagic ASTRA Gaming Tablet](https://intl.redmagic.gg/products/redmagic-astra-gaming-tablet?variant=45575230849202)
+
+### Accessories
+
+[HyperDrive USB C Hub](https://www.amazon.com/HyperDrive-Shortcut-Headphone-Endless-Entertainment/dp/B09KBT8FFW/ref=pd_rhf_d_se_s_bmx_gp_313n5ahn_sccl_1_7/146-0866395-2934750): Transform your USB-C iPad (10th generation), iPad Pro, Air, or mini into a powerhouse workspace with an HDMI port, USB-C 5Gbps 60W Power Delivery port, MicroSD/SD slots, USB-A 5Gbps port, and a 3.5mm audio jack.
+
 ## Storage
 [High Speed Portable SSD](https://miatine.com/speed)
 
-[SSD Storage Docking Station](https://www.zdnet.com/article/this-ssd-docking-station-is-one-of-the-best-investments-ive-made-for-my-pc-heres-why/) (Sabrent USB SSD 4-bay docking station: [Amazon](https://www.amazon.com/dp/B0711L68MS/ref=asc_df_B0711L68MS1741950000000))
+[SSD Storage Docking Station](https://www.zdnet.com/article/this-ssd-docking-station-is-one-of-the-best-investments-ive-made-for-my-pc-heres-why/) (Sabrent USB SSD 4-bay docking station: [Amazon](https://www.amazon.com/dp/B0711L68MS/ref=asc_df_B0711L68MS1741950000000)) 
+
+- https://www.zdnet.com/article/why-this-ssd-docking-station-is-one-of-the-best-investments-ive-made-for-my-pc/
+
+## Docks
+
+- https://www.caldigit.com/introducing-the-caldigit-ts5-ts5-plus/
+
+    - https://www.caldigit.com/thunderbolt-5-dock-ts5/
+    - https://www.caldigit.com/thunderbolt-5-dock-ts5-plus/
+
+- [ANKER docking station](https://www.cultofmac.com/news/macbook-pro-and-anker-dock-setup)
+- https://appleinsider.com/articles/25/05/19/owcs-thunderbolt-5-dock-arrives-with-8k-display-support
 
 ## Input Devices
-[GATERON Mechanical Keyboard](https://www.amazon.com/dp/B01E57PUNA/?th=1)
+[GATERON Mechanical Keyboard](https://www.amazon.com/dp/B01E57PUNA/?th=1) also https://www.amazon.com/nuphy-Air75-V2-Mechanical-Systems-Gateron/dp/B0CMXBMVT1 ?
 
 [ProtoArc Foldable Keyboard/Mouse Combo](https://www.amazon.com/dp/B0DHVTDR1M) and laptop stand
 
-## Others
+[Keyview 13" Touch](https://us.aura-displays.com/products/keyview-13-touch): versatile foldable touchscreen keyboard that doubles as a second screen. With a high-definition 1920x720 resolution and a 0-90° adjustable screen, it’s perfect for work, entertainment, or gaming. Offering seamless compatibility with desktops, laptops, and devices including MAC, Windows, Android, and more.
 
-[ANKER docking station](https://www.cultofmac.com/news/macbook-pro-and-anker-dock-setup)
+- https://www.cnet.com/deals/my-favorite-wireless-keyboard-is-worth-every-penny-of-the-100-it-costs/ (Logitech MX Keys Mini)
+
+- https://www.yankodesign.com/2025/08/05/remember-apples-touch-bar-you-can-now-buy-a-keyboard-with-a-foldable-12-8-touchscreen-monitor/ (KeyGo 12.8" touch screen keyboard combo) - Kickstarter
+
+## Others
 
 [Activo P1](https://www.activostyle.com/p1) - [Tom's Guide Review](https://www.tomsguide.com/audio/im-bringing-the-ipod-back-with-my-new-luxury-mp3-player#)
 
@@ -37,7 +72,13 @@ Collection of links about and around hardware.
 
 ["How to get wired Internet at home without running ethernet cable"](https://www.zdnet.com/home-and-office/networking/weak-wi-fi-how-to-get-wired-internet-at-home-without-running-ethernet/) - use Multimedia over Coax ([MoCA](https://en.wikipedia.org/wiki/Multimedia_over_Coax_Alliance))
 
-## KVM Switches
+## Power
+
+- https://www.amazon.com/UGREEN-25000mAh-Portable-Charging-Compatible/dp/B0BJQ7F16T/
+- https://www.amazon.com/UGREEN-Charger-Charging-Compatible-MacBook/dp/B0CYZ52VPX/
+- https://www.theverge.com/reviews/656183/kuxius-semi-solid-state-power-bank-costs-a-little-more-but-lasts-much-longer
+
+## KVM
 [Top Gaming KVM Switches for 2025](https://www.avaccess.com/blogs/guides/best-kvm-switch-for-gaming/)
 
 8KSW21-KVM: 8K HDMI KVM Switch for 1 Monitor
@@ -78,3 +119,6 @@ The AV Access iDock D23 is a game-changer for gamers and multitaskers. Its abili
 4. TESmart HCK402-P – Best dual-monitor KVM switch
 5. Level1Techs Quad Monitor KVM Switch – Best heavy-duty KVM switch
 
+## Reading
+
+["Slow WiFi? Add a wired network to your home without an Ethernet cable - here's how"](https://www.zdnet.com/home-and-office/networking/slow-wi-fi-add-a-wired-network-to-your-home-without-an-ethernet-cable-heres-how/)

@@ -50,8 +50,7 @@ Some random links I've found:
 * [Whitespace](http://compsoc.dur.ac.uk/whitespace/): language designed to make use of whitespace characters exclusively
 * There's some languages--hard to tell if they're serious or not--at [p-and-q.com](http://p-nand-q.com/programming/languages/index.html).
 * There's a whole host more of them [here](https://catseye.tc/article/Languages.md), along with [formats](https://catseye.tc/article/Formats.md) and [automatons](https://catseye.tc/article/Automata.md), the distinction between which is not always clear
-
-
+* [DuckDB-DOOM](https://github.com/patricktrainer/duckdb-doom): A Doom-like game using DuckDB-WASM. "The entire game logic, including 3D raycasting, enemy AI, collision detection, and rendering is implemented using SQL queries running in DuckDB's WebAssembly build."
 
 Some ideas I have for esoteric languages:
 

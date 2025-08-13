@@ -3,6 +3,8 @@ tags=platform, linux
 summary=The original open-source operating system.
 ~~~~~~
 
+- https://www.howtogeek.com/i-turned-a-usb-drive-into-a-linux-app-swiss-army-knife/
+
 Distributions ([DistroWatch](https://distrowatch.com/)):
 
 * [Ubuntu](https://ubuntu.com/)
@@ -12,6 +14,7 @@ Distributions ([DistroWatch](https://distrowatch.com/)):
 * [MX Linux](https://mxlinux.org/): a family of operating systems (and a cooperative venture between the antiX and MX Linux communities) that are designed to combine elegant and efficient desktops with high stability and solid performance.
 * [VanillaOS](../vanillaos)
 * [Siduction](https://siduction.org/): an operating system based on the Linux kernel and the GNU project. In addition, there are applications and libraries from Debian. The name siduction is a play on two words. The word sid, which is the codename of Debian Unstable, and seduction in the sense of seduce.
+* [CommodoreOS](https://www.commodoreos.net/): A Commodore-themed talking Linux desktop, complete with hundreds of games, makes for the biggest distro we've seen yet.
 * [AnduinOS](https://anduinos.com): looks just like Windows, built by a Microsoft engineer
 * [Bazzite](https://bazzite.gg/): a custom Fedora Atomic image built with cloud native technology that brings the best of Linux gaming to all of your devices - including your favorite handheld.
 * [CachyOS](https://cachyos.org/): performance-minded distribution

@@ -68,6 +68,7 @@ tags=backend
 * ["How I Write Backends"](https://github.com/fpereiro/backendlore): A fpereiro knowledge base on how to write backends, packed with practical advice, patterns, and lessons learned from real-world experience. It is a great resource for understanding the nuances of backend engineering.
 * [Backend Best Practices](https://github.com/futurice/backend-best-practices): A collection of best practices for backend development, including code quality, testing, deployment, and security. This living document is maintained by industry professionals and is a must-read for backend engineers aiming for excellence.
 * [Backend Challenges](https://github.com/CollabCodeTech/backend-challenges): A public list of backend challenges sourced from real job interviews around the world. Use these challenges to test your skills, build your portfolio, or prepare for your next backend developer interview. This resource is highly recommended for final-year students, job seekers, and professionals looking to excel in their careers.
+* [Infrastructure from Code: What Went Wrong?](https://thenewstack.io/infrastructure-from-code-what-went-wrong/)
 
 ["10 GitHub repositories to Master Backend Development"](https://www.kdnuggets.com/10-github-repositories-to-master-backend-development):
 

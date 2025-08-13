@@ -15,3 +15,6 @@ summary=A collection of topics and notes on the subject.
 
 - https://www.kdnuggets.com/agentic-ai-hands-on-in-python-a-video-tutorial
 
+#### Java
+
+- https://www.infoq.com/news/2025/06/introducing-embabel-ai-agent/

@@ -14,6 +14,7 @@ summary=A dynamic language and platform.
 
 * JVM: [GraalPython](https://github.com/graalvm/graalpython): part of [GraalVM](/vms/graalvm.html)
 * JVM: [Jython](http://www.jython.org/)
+* Javascript: [Skulpt](https://github.com/skulpt/skulpt): a Javascript implementation of Python 2.x.
 * CLR: [IronPython3](https://github.com/IronLanguages/ironpython3) and [IronPython2](https://github.com/IronLanguages/ironpython2)
 * [Nuitka](https://nuitka.net/): optimizing Python compiler written in Python that creates executables that run without a separate installer. ([Source](https://github.com/Nuitka/Nuitka))
 * C: [Stackless](https://github.com/stackless-dev/stackless): Stackless implementation (fork of CPython)
@@ -23,7 +24,7 @@ summary=A dynamic language and platform.
 * C: [CircuitPython](/languages/python/circuitpython): fork of micropython
 * Web: [Jupyter Notebooks](https://jupyter.org/): installable locally via `pip install notebook`
 * Web: [JupyterLab](https://jupyter.org/): "latest web-based interactive development environment for notebooks, code, and data ... allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning... extensions expand and enrich functionality."
-* Javascript: [Skulpt](https://github.com/skulpt/skulpt): a Javascript implementation of Python 2.x.
+* WASM: py2wasm: converts your Python programs to WebAssembly (`$ pip install py2wasm; py2wasm myprogram.py -o myprogram.wasm; wasmer run myprogram.wasm`)
 * Rust: [Cannoli](https://github.com/joncatanio/cannoli): a compiler for a subset of Python 3.6.5.
 
 Not sure if this is a library or an implementation or a tool, it's sort of all three: [VPython](https://vpython.org/), 3D Programming for Ordinary Mortals

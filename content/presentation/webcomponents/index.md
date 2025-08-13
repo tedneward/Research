@@ -24,3 +24,7 @@ summary=A set of web platform APIs that allow you to create new custom, reusable
 ## Articles/Blog Posts
 
 ["WebComponents are not the future"](https://dev.to/ryansolid/web-components-are-not-the-future-48bh)
+
+["The Hidden Power of WebComponents"](https://dev.to/besworks/the-hidden-power-of-web-components-1jei)
+
+["The Problem with WebComponents"](https://dev.to/besworks/the-problem-with-web-components-4f8)
