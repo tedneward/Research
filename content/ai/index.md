@@ -32,11 +32,11 @@ Java:
 
 ## Natural Language Processing
 
-## Large Language Models (LLMs)
+## [Large Language Models (LLMs)](/ai/llm/)
 
-## Small Language Models (SLMs)
+## [Small Language Models (SLMs)](/ai/slm/)
 
-## Retrieval Augmented Generation (RAG)
+## [Retrieval Augmented Generation (RAG)](/ai/rag)
 
 ## Coding Assistants
 
