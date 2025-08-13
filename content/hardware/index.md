@@ -30,6 +30,10 @@ Collection of links about and around hardware.
 - https://www.notebookcheck.net/The-super-lightweight-tablet-with-two-USB-ports-covers-all-bases-thanks-to-a-stylus-Lenovo-Legion-Tab-3-review.1005405.0.html
 - https://www.tomsguide.com/computing/tablets/i-thought-the-ipad-mini-was-the-perfect-small-tablet-until-i-tried-the-lenovo-legion-tab-3-heres-why
 
+Legion Go
+
+- https://www.windowscentral.com/hardware/handheld-gaming-pc/lenovo-legion-go-s-steamos-review
+
 [RedMagic ASTRA Gaming Tablet](https://intl.redmagic.gg/products/redmagic-astra-gaming-tablet?variant=45575230849202)
 
 ### Accessories

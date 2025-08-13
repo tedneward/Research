@@ -30,6 +30,8 @@ Repositories for graphics:
 
 * ["Beyond Page Objects: Testing Web Applications with State Objects"](https://queue.acm.org/detail.cfm?id=2793039)
 
+* ["How I accidentally came up with a reactive JS UI library"](https://dev.to/abtahitajwar/how-i-accidentally-came-up-with-a-reactive-js-ui-library-33ma)
+
 ### User Interface
 
 [Guidebook Gallery](https://guidebookgallery.org/): Graphical user interface gallery *(up until 2006, right before the mobile/smartphone revolution!)*

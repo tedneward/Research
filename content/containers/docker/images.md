@@ -226,6 +226,8 @@ The [File Browser](https://github.com/gtsteffaniak/filebrowser) Docker container
     grafana_data:
     ```
 
+[HomeBox](https://homebox.software/en/): As the name suggests, you can think of HomeBox as a digital catalog for everything you own, from small tools and electronics to seasonal decorations. Its primary goal is to help you keep track of your belongings, know where they are, and remember every important detail about them. With HomeBox, you can basically eliminate the frustration of disorganization and create a centralized, searchable, and customizable record of your household possessions.
+
 [Jellyfin](https://jellyfin.org/docs/general/installation/container/): Centralized hub for movies, TV shows, music, and photos.
 
 [Kavita](): Private book library
