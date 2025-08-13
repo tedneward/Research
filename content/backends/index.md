@@ -63,11 +63,26 @@ tags=backend
 
 ---
 
-["How I write backends"](https://github.com/fpereiro/backendlore)
+## Reading
 
-["Backend best practices"](https://github.com/futurice/backend-best-practices): An evolving description of general best practices for backend development.
+* ["How I Write Backends"](https://github.com/fpereiro/backendlore): A fpereiro knowledge base on how to write backends, packed with practical advice, patterns, and lessons learned from real-world experience. It is a great resource for understanding the nuances of backend engineering.
+* [Backend Best Practices](https://github.com/futurice/backend-best-practices): A collection of best practices for backend development, including code quality, testing, deployment, and security. This living document is maintained by industry professionals and is a must-read for backend engineers aiming for excellence.
+* [Backend Challenges](https://github.com/CollabCodeTech/backend-challenges): A public list of backend challenges sourced from real job interviews around the world. Use these challenges to test your skills, build your portfolio, or prepare for your next backend developer interview. This resource is highly recommended for final-year students, job seekers, and professionals looking to excel in their careers.
+
+["10 GitHub repositories to Master Backend Development"](https://www.kdnuggets.com/10-github-repositories-to-master-backend-development):
+
+1. **[Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability) Patterns for Building Large-Scale Systems** This repository is a goldmine of resources, articles, and case studies on designing scalable, reliable, and performant systems. It covers everything from architecture principles and database design to real-world examples from tech giants, making it essential for mastering backend scalability and reliability .
+3. **[Awesome System Design Resources](https://github.com/ashishps1/awesome-system-design-resources): Master System Design Concepts**  A list of resources to help you learn system design concepts and prepare for interviews. This repo includes articles, videos, and guides on distributed systems, scalability, and architectural best practices. 
+6. **[Web Skills](https://github.com/andreasbm/web-skills): Visual Guide to Web Development Competencies**  This repository provides a visual overview of essential web development skills, including backend technologies, databases, APIs, and more. The interactive roadmap helps you identify what to learn next and allows you to track your progress as a backend developer. Simply click on the link provided in the repository to explore this interactive approach to navigating the web development roadmap.
+7. **[.NET Backend Developer Roadmap](https://github.com/Elfocrash/.NET-Backend-Developer-Roadmap): Microservices and Beyond**  A comprehensive roadmap for .NET backend developers, focusing on microservices, cloud-native patterns, and modern backend practices. Ideal for anyone working in the Microsoft ecosystem or looking to expand their backend expertise.
+8. **[Simple Bank](https://github.com/techschool/simplebank): Backend Masterclass in Go**  Learn backend development by building a simple bank service in Go. This repository is a hands-on masterclass covering REST APIs, database integration, authentication, Docker, and testing, perfect for those wanting to master backend fundamentals.
+9. **[Backend Cheats](https://github.com/cheatsnake/backend-cheats): White Paper for Backend Developers** A concise white paper and cheat sheet for backend developers, summarizing key concepts, best practices, and architectural patterns. Great for quick reference and interview preparation.
 
 ---
+
+## Template Stacks
+
+* [Full Stack FastAPI Template](https://github.com/fastapi/full-stack-fastapi-template): Kickstart your next project with this full-stack template featuring FastAPI for the backend, React for the frontend, SQLModel, PostgreSQL, Docker, GitHub Actions, and more. It is production-ready, secure by default, and includes CI/CD, authentication, and deployment guides, perfect for building robust backend services. 
 
 ## Parse alternatives
 *(Those still standing, anyway)*

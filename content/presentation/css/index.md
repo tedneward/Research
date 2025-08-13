@@ -26,7 +26,9 @@ From [the CSS Snapshot doc](https://www.w3.org/TR/CSS/):
 
 [Flexbox Froggy](https://flexboxfroggy.com/): A cute Frogger-themed series of exercises practicing with CSS Flexbox styling.
 
-## Books
+## Reading
+
+### Books
 
 * [A beginner's guide to HTML&CSS](http://learn.shayhowe.com/html-css/)
 * [A free guide to learn HTML and CSS](http://marksheet.io)
@@ -59,3 +61,7 @@ From [the CSS Snapshot doc](https://www.w3.org/TR/CSS/):
 * [W3.CSS Succinctly](https://www.syncfusion.com/ebooks/w3_css_succinctly) - Joseph D. Booth
 * [Web Audio API](http://chimera.labs.oreilly.com/books/1234000001552) - Boris Smus
 * [Web Visual Effects with CSS3](https://leanpub.com/web-visual-effects-with-css3/read) - Thomas Mak
+
+### Articles
+
+* https://www.howtogeek.com/add-a-smooth-typewriter-animation-to-your-website-without-any-javascript/

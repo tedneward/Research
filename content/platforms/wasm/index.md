@@ -33,7 +33,10 @@ Tools: [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) 
 * [SwiftWASM](https://swiftwasm.org/) ([Source](https://github.com/swiftwasm/swift)): SwiftWasm compiles your [Swift](/languages/swift) code to WebAssembly.
 * [wasmlink](https://github.com/bytecodealliance/wit-bindgen/tree/main/crates/wasmlink):  a CLI that allows us to statically link a module and its dependencies using [module linking](https://github.com/WebAssembly/module-linking) and the [Canonical Interface Types ABI](https://github.com/WebAssembly/interface-types/pull/140).
 
-[.NET WebAssembly](https://github.com/RyanLamansky/dotnet-webassembly): Create, read, modify, write and execute WebAssembly (WASM) files from .NET-based applications.
+CLR:
+
+- [.NET WebAssembly](https://github.com/RyanLamansky/dotnet-webassembly): Create, read, modify, write and execute WebAssembly (WASM) files from .NET-based applications.
+- ["Running .NET in the browser without Blazor"](https://andrewlock.net/running-dotnet-in-the-browser-without-blazor/)
 
 [Wasm Debugger](https://github.com/wasm3/wasm-debug): Direct, source-level WebAssembly debugger
 

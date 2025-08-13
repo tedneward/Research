@@ -25,6 +25,8 @@ summary=A collection of interesting Docker containers/images.
 
 [Excalidraw](https://excalidraw.com/): Excalidraw is a free, open-source, and highly flexible virtual whiteboard tool to create diagrams, sketches, and wireframes. Whether you want to brainstorm complex ideas, simplify research, or simply map out team strategy on a giant canvas, you can’t go wrong with Excalidraw. It offers one of the best toolbars to create an engaging diagram. The interface is clean and straightforward, making it easy for users of all skill levels to get started. You can change the canvas background, tweak the theme, explore different shapes, use text editing tools, play with frame tools, and more. It also supports real-time collaboration for remote meetings and collaborative design work. You can head to the Docker hub, search for Excalidraw, pull an image, and start designing a diagram.
 
+The [File Browser](https://github.com/gtsteffaniak/filebrowser) Docker container provides a user-friendly, web-based interface for managing files on my server. Instead of a command-line interface or a complex FTP client, I can use and manage a clean and modern browser-based file manager from anywhere.
+
 [FusionAuth]():
 
     ```
@@ -127,6 +129,8 @@ summary=A collection of interesting Docker containers/images.
         restart: always
     ```
 
+[Grocy](https://grocy.info/): Home management tool [Source](https://github.com/grocy/grocy)
+
 [Homarr](https://homarr.dev/): Dashboard for self-hosted services
 
 [Home Assistant](https://www.home-assistant.io/):
@@ -223,6 +227,10 @@ summary=A collection of interesting Docker containers/images.
     ```
 
 [Jellyfin](https://jellyfin.org/docs/general/installation/container/): Centralized hub for movies, TV shows, music, and photos.
+
+[Kavita](): Private book library
+
+[LinkWarden](https://linkwarden.app/): a powerful, self-hosted bookmark and web archiving solution. While your browser’s built-in bookmark manager is fine for a few dozen links, Linkwarden takes the entire experience to the next level. [Source](https://github.com/linkwarden/linkwarden)
 
 [Mealie](https://www.xda-developers.com/five-reasons-i-self-host-my-recipe-tracker/): 
 
@@ -328,6 +336,8 @@ summary=A collection of interesting Docker containers/images.
     openwebui:
     ```
 
+[Outline](https://www.getoutline.com/): Notes management (compare to Blinko) [Source](https://github.com/outline)
+
 [ownCloud](https://owncloud.com/): Personal data storage
 
 [PenPot](https://penpot.app/): Figma replacement
@@ -378,6 +388,8 @@ summary=A collection of interesting Docker containers/images.
         - WATCHTOWER_POLL_INTERVAL=300
         restart: always
     ```
+
+[YouTrack](https://www.jetbrains.com/youtrack/#): Self-hosted project management (JetBrains)
 
 ## Reading
 

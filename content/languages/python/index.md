@@ -37,6 +37,95 @@ Not sure if this is a library or an implementation or a tool, it's sort of all t
 ## FFI
 
 * [JPype](https://jpype.readthedocs.io/en/latest/userguide.html): A Python module that provides seamless access to Java libraries from Python using JNI. ([Source](https://github.com/jpype-project/jpype))
+* [pyobjc](https://pyobjc.readthedocs.io/en/latest/) ([Source](https://github.com/ronaldoussoren/pyobjc)): The Python-to-Objective-C bridge
+
+## Build tools
+
+### Makefiles
+
+- https://www.kdnuggets.com/the-case-for-makefiles-in-python-projects-and-how-to-get-started
+- Complete Makefile for Flask app
+
+        # Variables
+        PYTHON := python3
+        APP_NAME := myapp
+        TEST_PATH := tests/
+
+        .PHONY: help
+        help:  ## Show this help message
+          @echo "Available commands for $(APP_NAME):"
+          @grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-20s\033[0m %s\n", $$1, $$2}'
+
+        .DEFAULT_GOAL := help
+
+        # Environment setup
+        .PHONY: install
+        install:  ## Install all dependencies
+          $(PYTHON) -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -r requirements-dev.txt
+
+        .PHONY: dev-setup
+        dev-setup: install  ## Complete development setup
+          pre-commit install
+          @echo "✅ Development environment ready!"
+
+        # Code quality
+        .PHONY: format
+        format:  ## Format code
+          black $(APP_NAME) $(TEST_PATH)
+          isort $(APP_NAME) $(TEST_PATH)
+
+        .PHONY: lint
+        lint:  ## Run linting
+          flake8 $(APP_NAME) $(TEST_PATH)
+          black --check $(APP_NAME) $(TEST_PATH)
+          isort --check-only $(APP_NAME) $(TEST_PATH)
+
+        # Testing
+        .PHONY: test
+        test:  ## Run tests
+          $(PYTHON) -m pytest $(TEST_PATH) -v
+
+        .PHONY: test-watch
+        test-watch:  ## Run tests in watch mode
+          $(PYTHON) -m pytest $(TEST_PATH) -v --looponfail
+
+        .PHONY: coverage
+        coverage:  ## Run tests with coverage
+          $(PYTHON) -m pytest $(TEST_PATH) --cov=$(APP_NAME) --cov-report=html --cov-report=term
+
+        # Development
+        .PHONY: serve
+        serve:  ## Start development server
+          flask --app $(APP_NAME) run --debug --reload
+
+        .PHONY: shell
+        shell:  ## Start application shell
+          flask --app $(APP_NAME) shell
+
+        # Database
+        .PHONY: db-migrate
+        db-migrate:  ## Create database migration
+          flask --app $(APP_NAME) db migrate
+
+        .PHONY: db-upgrade
+        db-upgrade:  ## Apply database migrations
+          flask --app $(APP_NAME) db upgrade
+
+        # Cleanup
+        .PHONY: clean
+        clean:  ## Clean up generated files
+          find . -type f -name "*.pyc" -delete
+          find . -type d -name "__pycache__" -delete
+          rm -rf build/ dist/ *.egg-info/ htmlcov/ .coverage .pytest_cache/
+
+        # All-in-one commands
+        .PHONY: check
+        check: lint test  ## Run all checks
+
+        .PHONY: fresh-start
+        fresh-start: clean install  ## Clean everything and reinstall
 
 ## Reading
 
@@ -51,14 +140,13 @@ Not sure if this is a library or an implementation or a tool, it's sort of all t
 * [A Whirlwind Tour of Python](http://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf) - Jake VanderPlas (PDF) [(EPUB, MOBI)](http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp?download=yes)
 * [Architecture Patterns with Python](https://www.cosmicpython.com/book/preface.html) - Harry J.W. Percival & Bob Gregory (HTML)
 * [Automate the Boring Stuff with Python, 2nd Edition: Practical Programming for Total Beginners](https://automatetheboringstuff.com/2e/chapter0/) - Al Sweigart (3.8)
-  * [Automate the Boring Stuff with Python: Practical Programming for Total Beginners](https://automatetheboringstuff.com/chapter0/) - Al Sweigart (3.4)
 * [Beej's Guide to Python Programming - For Beginners](http://beej.us/guide/bgpython/) - B. Hall (HTML,PDF)
 * [Beyond the Basic Stuff with Python](https://inventwithpython.com/beyond/) - Al Sweigart (3.x)
 * [Biopython Tutorial and Cookbook](https://biopython.org/DIST/docs/tutorial/Tutorial.pdf) (PDF)
 * [Build applications in Python the antitextbook](http://github.com/thewhitetulip/build-app-with-python-antitextbook) (3.x) (HTML, PDF, EPUB, Mobi)
 * [Building Skills in Object-Oriented Design, V4](https://slott56.github.io/building-skills-oo-design-book/build/html/) - Steven F. Lott (3.7)
-  * [Building Skills in Object-Oriented Design, Release 2.2.1](https://web.archive.org/web/20150824204101/http://buildingskills.itmaybeahack.com/book/oodesign-python-2.2/latex/BuildingSkillsinOODesign.pdf) - Steven F. Lott (PDF) (2.2.1)
-  * [Building Skills in Object-Oriented Design, Release 3.1](https://web.archive.org/web/20160322093622/http://buildingskills.itmaybeahack.com/book/oodesign-3.1/latex/BuildingSkillsinObject-OrientedDesign.pdf) - Steven F. Lott (PDF) (3.1)
+    * [Building Skills in Object-Oriented Design, Release 2.2.1](https://web.archive.org/web/20150824204101/http://buildingskills.itmaybeahack.com/book/oodesign-python-2.2/latex/BuildingSkillsinOODesign.pdf) - Steven F. Lott (PDF) (2.2.1)
+    * [Building Skills in Object-Oriented Design, Release 3.1](https://web.archive.org/web/20160322093622/http://buildingskills.itmaybeahack.com/book/oodesign-3.1/latex/BuildingSkillsinObject-OrientedDesign.pdf) - Steven F. Lott (PDF) (3.1)
 * [Building Skills in Python](https://web.archive.org/web/20190918094202/http://www.itmaybeahack.com/book/python-2.6/latex/BuildingSkillsinPython.pdf) - Steven F. Lott (PDF) (2.6)
 * [Clean Architectures in Python](https://www.pycabook.com) - Leonardo Giordani (3.x)
 * [Code Like a Pythonista: Idiomatic Python](https://web.archive.org/web/20180411011411/http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html) - David Goodger
@@ -103,7 +191,7 @@ Not sure if this is a library or an implementation or a tool, it's sort of all t
 * [Natural Language Processing (NLP) with Python — Tutorial](https://medium.com/towards-artificial-intelligence/natural-language-processing-nlp-with-python-tutorial-for-beginners-1f54e610a1a0) (PDF)
 * [Natural Language Processing with Python](http://www.nltk.org/book/) (3.x)
 * [Non-Programmer's Tutorial for Python 3](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3) - Wikibooks (3.3)
-  * [Non-Programmer's Tutorial for Python 2.6](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_2.6) - Wikibooks (2.6)
+    * [Non-Programmer's Tutorial for Python 2.6](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_2.6) - Wikibooks (2.6)
 * [Official NumPy Reference](https://numpy.org/doc/stable/numpy-ref.pdf) - The NumPy Community (PDF)
 * [Picking a Python Version: A Manifesto](https://www.oreilly.com/ideas/picking-a-python-version) - David Mertz
 * [Porting to Python 3: An In-Depth Guide](http://python3porting.com) (2.6 - 2.x & 3.1 - 3.x)
@@ -155,9 +243,10 @@ Not sure if this is a library or an implementation or a tool, it's sort of all t
 * [Think Complexity](https://greenteapress.com/wp/think-complexity-2e/) - Allen B. Downey (2nd Edition) (PDF, HTML)
 * [Think DSP - Digital Signal Processing in Python](https://greenteapress.com/wp/think-dsp/) - Allen B. Downey (PDF, HTML)
 * [Think Python 2nd Edition](https://greenteapress.com/wp/think-python-2e/) - Allen B. Downey (3.x) (HTML, PDF)
-  * [Think Python First Edition](https://greenteapress.com/wp/think-python/) - Allen B. Downey (2.x) (HTML, PDF)
+    * [Think Python First Edition](https://greenteapress.com/wp/think-python/) - Allen B. Downey (2.x) (HTML, PDF)
 * [Tiny Python 3.6 Notebook](https://github.com/mattharrison/Tiny-Python-3.6-Notebook) - Matt Harrison (3.6)
 * [Web2py: Complete Reference Manual, 6th Edition (pre-release)](http://web2py.com/book) (2.5 - 2.x)
+* ["What are Mixin classes in Python?"](https://realpython.com/python-mixin/)
 
 
 #### Django
@@ -218,8 +307,3 @@ Not sure if this is a library or an implementation or a tool, it's sort of all t
 ### Interesting examples:
 
 * [Peter Norvig's Collection of Jupyter Notebooks](http://www.norvig.com/ipython/README.html): This makes me consider spending some time with Jupyter Notebooks a lot more.
-
-### Bridges/FFI:
-
-* [pyobjc](https://pyobjc.readthedocs.io/en/latest/) ([Source](https://github.com/ronaldoussoren/pyobjc)): The Python-to-Objective-C bridge
-

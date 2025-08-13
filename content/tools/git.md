@@ -51,7 +51,7 @@ summary=Distributed version-control system.
 
 * [SalesForce Cheat Sheet](http://res.cloudinary.com/hy4kyit2a/image/upload/SF_git_cheatsheet.pdf)
 
-### Reading
+## Reading
 
 * [Atlassian Git - Tutorials & Workflows](https://www.atlassian.com/git/)
 * [A git Primer](https://danielmiessler.com/study/git/) - Daniel Miessler
@@ -84,6 +84,7 @@ summary=Distributed version-control system.
 * [Pro Git Reedited](https://leanpub.com/progitreedited/read) - Jon Forrest
 * [Ry's Git Tutorial](https://web.archive.org/web/20161121145226/http://rypress.com:80/tutorials/git/index) - Ryan Hodson
 * [Think Like (a) Git: A Guide for the Perplexed](http://think-like-a-git.net)
+* https://blog.stackademic.com/git-rebase-explained-like-youre-new-to-git-263c19fa86ec
 
 ### Websites
 

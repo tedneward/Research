@@ -19,6 +19,8 @@ From JetBrains.
 ## Articles
 
 * ["Coroutrine Suspension Mechanics: The Finite State Machine Within"](https://proandroiddev.com/coroutine-suspension-mechanics-the-finite-state-machine-within-58edac6dfb2e)
+* ["Understanding Kotlin Coroutines"](https://proandroiddev.com/understanding-kotlin-coroutines-a-deep-dive-into-blocking-vs-non-blocking-and-concurrent-vs-7667dfe77fbb)
+* [Advanced Kotlin Coroutine Cheat Sheet for Android Developers](https://medium.com/@galou.minisini/advanced-kotlin-coroutine-cheat-sheet-for-android-engineer-15e0d180fc1f)
 
 ---
 

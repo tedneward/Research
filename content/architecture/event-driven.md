@@ -7,7 +7,8 @@ summary=An approach to building systems via events.
 
 ### Articles
 
-[The What, Why, and How of Event-Driven Programming](https://quix.io/blog/what-why-how-of-event-driven-programming)
+- [The What, Why, and How of Event-Driven Programming](https://quix.io/blog/what-why-how-of-event-driven-programming)
+- [What do commands do in Event Sourcing](https://ismaelcelis.com/posts/what-do-commands-do-in-event-sourcing/)
 
 Rahul Krishnan's blog:
 

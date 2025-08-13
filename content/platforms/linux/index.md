@@ -11,6 +11,7 @@ Distributions ([DistroWatch](https://distrowatch.com/)):
 * [Zorin](https://zorin.com/os/)
 * [MX Linux](https://mxlinux.org/): a family of operating systems (and a cooperative venture between the antiX and MX Linux communities) that are designed to combine elegant and efficient desktops with high stability and solid performance.
 * [VanillaOS](../vanillaos)
+* [Siduction](https://siduction.org/): an operating system based on the Linux kernel and the GNU project. In addition, there are applications and libraries from Debian. The name siduction is a play on two words. The word sid, which is the codename of Debian Unstable, and seduction in the sense of seduce.
 * [AnduinOS](https://anduinos.com): looks just like Windows, built by a Microsoft engineer
 * [Bazzite](https://bazzite.gg/): a custom Fedora Atomic image built with cloud native technology that brings the best of Linux gaming to all of your devices - including your favorite handheld.
 * [CachyOS](https://cachyos.org/): performance-minded distribution
