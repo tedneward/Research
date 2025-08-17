@@ -5,7 +5,7 @@ summary=A cross-platform development library designed to provide low level acces
 
 [Website](https://www.libsdl.org/) | [Source](https://github.com/libsdl-org/SDL)
 
-Bindings
+## Bindings
 
 * Ada
     - SDLAda - https://github.com/Lucretia/sdlada
@@ -31,6 +31,12 @@ Bindings
 * [Rust](/languages/rust)
     - Rust-SDL2 - https://github.com/AngryLawyer/rust-sdl2
 
-Tutorials
+## Reading
+
+### Tutorials
 
 * [Hello SDL](https://lazyfoo.net/tutorials/SDL)
+
+### Blogs
+
+- https://gamefromscratch.com/sdl-3-released/

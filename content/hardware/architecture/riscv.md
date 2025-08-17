@@ -5,6 +5,11 @@ summary=A collection of resources and reading around the RISC-V CPU/assembly pla
 
 https://riscv.org/publications/
 
+- Instruction Sets Should Be Free: The Case For RISC-V - https://www.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-146.html
+- The Case for Open Instruction Sets - http://www.linleygroup.com/mpr/article.php?id=11267
+- The Renewed Case for the Reduced Instruction Set Computer: Avoiding ISA Bloat with Macro-Op Fusion for RISC-V
+	- https://arxiv.org/abs/1607.02318
+	- https://www.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-130.html
 - A Bug-Free RISC-V Core without Simulation - https://tomverbeure.github.io/risc-v/2018/11/19/A-Bug-Free-RISC-V-Core-without-Simulation.html
 - A Highly Productive Implementation of an Out-of-Order Processor Generator
 	- 2018 PhD Thesis; Christopher Celio
@@ -14,7 +19,6 @@ https://riscv.org/publications/
 - Design of the RISC-V Instruction Set Architecture - http://www.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-1.html
 - GRVI Phalanx: A Massively Parallel RISC-V FPGA Accelerator Accelerator - https://arxiv.org/abs/1606.01037
 - How Genode came to RISC-V - https://genode.org/documentation/articles/riscv
-- Instruction Sets Should Be Free: The Case For RISC-V - https://www.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-146.html
 - ISA Semantics for ARMv8-A, RISC-V, and CHERI-MIPS - https://alastairreid.github.io/papers/POPL_19/
 - Proprietary versus Open Instruction Sets - http://research.cs.wisc.edu/multifacet/papers/ieeemicro16_card_isa.pdf
 - RISC-V development plans - https://groups.google.com/a/groups.riscv.org/d/msg/isa-dev/sUQk6pFG0eA/AGNF44e4AAAJ
@@ -31,10 +35,6 @@ https://riscv.org/publications/
 - The Berkeley Out-of-Order Machine (BOOM): An Industry-Competitive, Synthesizable, Parameterized RISC-V Processor
 	- https://www.eecs.berkeley.edu/Pubs/TechRpts/2015/EECS-2015-167.html
 	- BOOM v2: an open-source out-of-order RISC-V core - https://www2.eecs.berkeley.edu/Pubs/TechRpts/2017/EECS-2017-157.html
-- The Case for Open Instruction Sets - http://www.linleygroup.com/mpr/article.php?id=11267
-- The Renewed Case for the Reduced Instruction Set Computer: Avoiding ISA Bloat with Macro-Op Fusion for RISC-V
-	- https://arxiv.org/abs/1607.02318
-	- https://www.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-130.html
 - The VexRiscV CPU - A New Way to Design - https://tomverbeure.github.io/rtl/2018/12/06/The-VexRiscV-CPU-A-New-Way-To-Design.html
 - Towards a High-Performance RISC-V Emulator
 	- WSCAD 2018

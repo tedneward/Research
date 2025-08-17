@@ -30,6 +30,186 @@ tags=gamedev
 ## Engines too esoteric to rate their own page
 [M.U.G.E.N](http://www.elecbyte.com/mugendocs-11b1/mugen.html): 2D fighting game engine
 
+## List of game engines by language/platform
+TODO: sort into pages or categories
+
+### C/C++
+
+3D
+
+- C4Engine https://c4engine.com
+- Dagor Engine https://github.com/GaijinEntertainment/DagorEngine
+- Esenthel Titan Engine https://www.esenthel.com – [Learn More](https://gamefromscratch.com/esenthel-titan-engine/)
+- ezEngine https://github.com/ezEngine/ezEngine – [Learn More](https://gamefromscratch.com/ezengine-free-and-open-source-3d-game-engine/)
+- Flax Engine https://flaxengine.com – [Learn More](https://gamefromscratch.com/flax-engine-for-unity-game-developers/)
+- The Forge https://theforge.dev
+- G3D Inovation Engine https://casual-effects.com/g3d/www/index.html – [Learn More](https://gamefromscratch.com/g3d-innovation-engine/)
+- gzDoom https://github.com/ZDoom/gzdoom
+- Hazel Engine https://hazelengine.com
+- idTech Engines https://github.com/id-software
+- Leadwerks https://www.leadwerks.com/programming
+- Limon Engine https://github.com/enginmanap/limonEngine
+- Lumix Engine https://github.com/nem0/LumixEngine
+- Nau Engine https://nauengine.org/en
+- Ogre3D https://www.ogre3d.org
+- Open Scene Graph https://openscenegraph.github.io/openscenegraph.io/
+- RavEngine https://github.com/RavEngine/RavEngine – [Learn More](https://gamefromscratch.com/ravengine-c-game-engine/)
+- Rbfx (Urho3D Fork) https://github.com/rbfx/rbfx – [Learn More](https://gamefromscratch.com/urho3d-is-dead-ish/)
+- Source Engine https://developer.valvesoftware.com/wiki/Source
+- Spartan Engine https://github.com/PanosK92/SpartanEngine – [Learn More](https://gamefromscratch.com/spartan-game-engine-hands-on/)
+- SpringRTS https://springrts.com
+- StormEngine https://github.com/storm-devs/storm-engine – [Learn More](https://gamefromscratch.com/storm-engine-open-sourced/)
+- Torque Engine https://torque3d.org/torque3d/
+- Ultra Engine https://www.ultraengine.com – [Learn More](https://gamefromscratch.com/ultra-engine-released-in-early-access/)
+- Unigine https://unigine.com
+- Unreal Engine https://www.unrealengine.com/
+- Vulkan Scene Graph https://vsg-dev.github.io/vsg-dev.io/
+- Wicked Engine https://wickedengine.net – [Learn More](https://gamefromscratch.com/wicked-engine-in-2023/)
+
+2D
+
+- Axmol https://github.com/axmolengine/axmol
+- ORX https://orx-project.org – [Learn More](https://gamefromscratch.com/orx-data-driven-c-c-game-framework/)
+- Oxygine https://oxygine.org
+- SFML https://www.sfml-dev.org – [Learn More](https://gamefromscratch.com/sfml-3-released/)
+
+### JavaScript/TypeScript
+3D
+
+- Wonderland – https://wonderlandengine.com/
+- Cocos Creator https://www.cocos.com/en/creator [Learn More]
+- Blend4Web https://www.blend4web.com/en/
+- Verge 3D https://www.soft8soft.com/verge3d/
+- Hology Engine https://hology.app/
+- ThreeJS https://threejs.org/
+- Threlte https://threlte.xyz/
+- A Frame https://aframe.io/
+- Godot JS https://github.com/godotjs/GodotJS [Other Godot Languages]
+- PlayCanvas https://playcanvas.com/ [Learn More]
+- BabylonJS https://www.babylonjs.com/
+- Galacean https://www.galacean.com/engine/en/
+- Layaair https://www.layaair.com/#/
+- CopperCube https://www.ambiera.com/coppercube/ [Learn More]
+
+2D
+
+- MelonJS https://melonjs.org/
+- GDevelop https://gdevelop.io/
+- ctJS https://ctjs.rocks/ [Learn More]
+- Construct 3 https://www.construct.net/en
+- ExcaliburJS https://excaliburjs.com/
+- RPG Maker MV https://www.rpgmakerweb.com/products/rpg-maker-mv
+- MicroStudio https://microstudio.dev/
+- Microsoft MakeCode Arcade https://arcade.makecode.com/ [Learn More]
+- KAPLAY https://github.com/kaplayjs/kaplay
+- StageJS https://github.com/piqnt/stage.js
+
+MISC
+
+- PixiJS https://pixijs.com/
+- Matter 2D Physics Engine https://github.com/liabru/matter-js
+- Ammo Physics https://github.com/kripken/ammo.js/
+- ZimJS https://github.com/danzen/zimjs
+
+### Lua
+
+3D
+
+- GameGuru / GameGuru MAX – https://www.game-guru.com/
+- Launti (Previously Minetest) – https://www.luanti.org/
+- Leadwerks – https://www.leadwerks.com/
+- LÖVR – https://lovr.org/
+- Menori – https://github.com/rozenmad/Menori
+- Overlord Engine – https://overloadengine.org/
+- Spring Engine – https://springrts.com/
+- Wicked Engine – https://wickedengine.net/
+
+Misc
+
+- Codea – https://codea.io/
+- Core – https://www.coregames.com/create
+- Roblox – https://create.roblox.com/
+- Pico-8 – https://www.lexaloffle.com/pico-8.php
+
+### Python
+
+2D
+
+- Python Arcade – https://api.arcade.academy/en/latest/#
+- Pyglet – https://pyglet.org
+
+3D
+
+- Cave Engine – https://unidaystudio.itch.io/cave-engine
+- Panda 3D – https://www.panda3d.org/
+- Range Engine – https://rangeengine.tech/
+- UPBGE – https://upbge.org/#/
+- Ursina Engine – https://www.ursinaengine.org
+
+Bindings
+
+- PyOgre – https://wiki.ogre3d.org/PyOgre
+- PySFML2 – https://pysfml2-cython.readthedocs.io/en/latest/
+- PyOpenGL – https://pyopengl.sourceforge.net
+
+### C#
+
+- CryEngine https://www.cryengine.com/
+- Defold* https://forum.defold.com/t/defold-c-support/79479
+- Evergine https://evergine.com/
+- Falco Engine https://falco3d.com/
+- Flat Red Ball https://github.com/vchelaru/FlatRedBall
+- Flax Engine https://flaxengine.com/
+- FNA https://fna-xna.github.io/
+- GameMaker* https://gamemaker.io/en/blog/winter-update-2024
+- Godot https://godotengine.org/
+- Hazel Engine https://hazelengine.com
+- NeoAxis https://www.neoaxis.com/
+- MonoGame https://monogame.net/
+- Moonworks https://github.com/MoonsideGames/MoonWorks
+- Murder Engine ‘https://github.com/isadorasophia/murder
+- Osu! Framework https://github.com/ppy/osu-framework
+- Prowl Engine https://github.com/ProwlEngine/Prowl
+- Rebel Fork RBFX https://github.com/rbfx/rbfx
+- S&box https://sbox.game/about
+- ShapeEngine https://github.com/DaveGreen-Games/ShapeEngine
+- SharpGDX https://github.com/SharpGDX/SharpGDX
+- StereoKit https://stereokit.net
+- Stride https://www.stride3d.net/
+- Unigine https://unigine.com/
+- Unity https://unity.com/
+
+Bindings
+
+- SFML https://www.sfml-dev.org/download/bindings/
+- Ogre https://www.ogre3d.org/
+- Unreal Engine https://github.com/UnrealSharp/UnrealSharp
+
+### Rust
+3D
+
+- Bevy Engine https://bevyengine.org/
+- Space Editor for Bevy https://github.com/rewin123/space_editor
+- Fyrox https://fyrox.rs/
+- Piston https://www.piston.rs/
+- Blue Engine https://github.com/AryanpurTech/BlueEngine
+- Notan https://github.com/Nazariglez/notan
+- Ambient https://ambient.run/
+- Godot Rust https://godot-rust.github.io/
+
+2D
+
+- Chuột https://github.com/tversteeg/chuot
+- ggez https://github.com/ggez/ggez
+- macroquad https://github.com/not-fl3/macroquad
+- 
+Binding
+
+- raylib https://github.com/raylib-rs/raylib-rs
+- SDL2 https://github.com/Rust-SDL2/rust-sdl2
+- SDL3 https://github.com/vhspace/sdl3-rs
+- SFML https://github.com/jeremyletang/rust-sfml
+
 ## Asset websites
 [OpenGameArt](https://opengameart.org/)
 

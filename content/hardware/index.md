@@ -19,23 +19,6 @@ Collection of links about and around hardware.
 
 [Light](https://www.thelightphone.com/shop/products/light-phone-iii): A "dumbphone" that still does text, email, etc.
 
-[Supernote Nomad](https://supernote.com/products/supernote-nomad?variant=44112947380460): Remarkable competitor
-
-[BOOX Note Air4C](https://shop.boox.com/products/noteair4c): The Color ePaper Notebook for Bold Thinkers and Creators.
-
-[BOOX Palma](https://shop.boox.com/products/palma): Phone-sized e-paper tablet.
-
-[Lenovo Legion Tab 3](https://www.lenovo.com/us/en/p/tablets/legion-tab-series/lenovo-legion-tab-gen-3/zaef0068us)
-
-- https://www.notebookcheck.net/The-super-lightweight-tablet-with-two-USB-ports-covers-all-bases-thanks-to-a-stylus-Lenovo-Legion-Tab-3-review.1005405.0.html
-- https://www.tomsguide.com/computing/tablets/i-thought-the-ipad-mini-was-the-perfect-small-tablet-until-i-tried-the-lenovo-legion-tab-3-heres-why
-
-Legion Go
-
-- https://www.windowscentral.com/hardware/handheld-gaming-pc/lenovo-legion-go-s-steamos-review
-
-[RedMagic ASTRA Gaming Tablet](https://intl.redmagic.gg/products/redmagic-astra-gaming-tablet?variant=45575230849202)
-
 ### Accessories
 
 [HyperDrive USB C Hub](https://www.amazon.com/HyperDrive-Shortcut-Headphone-Endless-Entertainment/dp/B09KBT8FFW/ref=pd_rhf_d_se_s_bmx_gp_313n5ahn_sccl_1_7/146-0866395-2934750): Transform your USB-C iPad (10th generation), iPad Pro, Air, or mini into a powerhouse workspace with an HDMI port, USB-C 5Gbps 60W Power Delivery port, MicroSD/SD slots, USB-A 5Gbps port, and a 3.5mm audio jack.

@@ -7,17 +7,25 @@ summary=The original open-source operating system.
 
 Distributions ([DistroWatch](https://distrowatch.com/)):
 
-* [Ubuntu](https://ubuntu.com/)
-* [Pop! OS](https://pop.system76.com/)
-* [Mint](https://linuxmint.com/)
-* [Zorin](https://zorin.com/os/)
-* [MX Linux](https://mxlinux.org/): a family of operating systems (and a cooperative venture between the antiX and MX Linux communities) that are designed to combine elegant and efficient desktops with high stability and solid performance.
-* [VanillaOS](../vanillaos)
-* [Siduction](https://siduction.org/): an operating system based on the Linux kernel and the GNU project. In addition, there are applications and libraries from Debian. The name siduction is a play on two words. The word sid, which is the codename of Debian Unstable, and seduction in the sense of seduce.
-* [CommodoreOS](https://www.commodoreos.net/): A Commodore-themed talking Linux desktop, complete with hundreds of games, makes for the biggest distro we've seen yet.
+Popular
+
 * [AnduinOS](https://anduinos.com): looks just like Windows, built by a Microsoft engineer
 * [Bazzite](https://bazzite.gg/): a custom Fedora Atomic image built with cloud native technology that brings the best of Linux gaming to all of your devices - including your favorite handheld.
-* [CachyOS](https://cachyos.org/): performance-minded distribution
+* [CachyOS](https://cachyos.org/): performance-minded distribution ([Review](https://fossforce.com/2025/08/cachyos-distrowatchs-top-distro-has-speed-polish-and-features/))
+* [CommodoreOS](https://www.commodoreos.net/): A Commodore-themed talking Linux desktop, complete with hundreds of games, makes for the biggest distro we've seen yet.
+* [Mint](https://linuxmint.com/)
+* [MX Linux](https://mxlinux.org/): a family of operating systems (and a cooperative venture between the antiX and MX Linux communities) that are designed to combine elegant and efficient desktops with high stability and solid performance.
+* [Omarchy Linux](https://omarchy.org/): Linux image used by 37signals developers ("a clone of DHH's desktop") -- "an opinionated Arch + Hyprland Setup by DHH"
+* [Pop! OS](https://pop.system76.com/)
+* [RefreshOS](https://sourceforge.net/projects/refreshos/): has been known historically for its user-friendliness, speed, and elegant design that focuses on stability and customization. ([Review](https://fossforce.com/2025/08/refreshos-2-5-smooth-stylish-and-almost-spotless-linux/))
+* [Siduction](https://siduction.org/): an operating system based on the Linux kernel and the GNU project. In addition, there are applications and libraries from Debian. The name siduction is a play on two words. The word sid, which is the codename of Debian Unstable, and seduction in the sense of seduce.
+* [SparkyLinux](https://sparkylinux.org/download/stable/): a GNU/Linux distribution based on the Debian GNU/Linux operating system.
+* [Ubuntu](https://ubuntu.com/)
+* [VanillaOS](../vanillaos)
+* [Zorin](https://zorin.com/os/)
+
+Tiny/lightweight
+
 * [Damn Small Linux](https://www.damnsmalllinux.org/): for older machines [ISO](https://www.damnsmalllinux.org/download/dsl-2024.alpha.iso)
 * [ttylinux](http://www.minimalinux.org/ttylinux/): a small GNU/Linux system available for several CPU architectures. This small system has an 8 MB file system and runs on i486 computers within 28 MB of RAM, but provides a complete command line environment and is ready for Internet access.
 * [4MLinux](https://4mlinux.com): feature-oriented, lightweight portable distribution; "Maintenance, Multimedia, Miniserver, and Mystery"

@@ -5,6 +5,7 @@ summary=Collection of links and notes about self-contained portable computers.
 
 ## Linux pre-installed
 [KFocus](https://kfocus.org)
+- https://kfocus.org/order/order-ir16.html 16" (with numeric keypad)
 
 [Slimbook](https://slimbook.com/en/)
 

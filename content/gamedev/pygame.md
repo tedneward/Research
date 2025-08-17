@@ -1,9 +1,11 @@
-title=Pygame
+title=Pygame, Pygame CE
 tags=gamedev, python
 summary=A commonly-cited/-quoted Python game toolkit.
 ~~~~~~
 
-[Website](https://www.pygame.org/news) | [Source](https://github.com/pygame/)
+[Website](https://www.pygame.org/news) | [Source](https://github.com/pygame/) 
+
+> Pygame Community Edition: [Website](https://pyga.me/) | [Source](https://github.com/pygame-community/pygame-ce): a FOSS Python library for multimedia applications (like games). Built on top of the excellent SDL library. It is a fork of the upstream pygame project by its former core developers, and was created after impossible challenges prevented them from continuing development upstream. The new distribution aims to offer more frequent releases, continuous bugfixes and enhancements, and a more democratic governance model.
 
 [RealPython Tutorial](https://realpython.com/pygame-a-primer/)
 
