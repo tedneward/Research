@@ -5,6 +5,11 @@ summary=The definitive listing of Static Site Generators.
 
 [Website](https://staticsitegenerators.net/)
 
+### JVM
+
+* [jbake](https://github.com/jbake-org/jbake)
+* [jssg](https://github.com/agrison/jssg)
+
 ### Blogs
 
 *   [11ty](https://www.11ty.io/) - Eleventy is a simpler static site generator. - `#JavaScript` `#Node.js`

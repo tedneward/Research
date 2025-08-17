@@ -7,22 +7,23 @@ summary=Huge collection of cloud services.
 
 ## Features
 
-- **[Microsoft Azure Mobile App Service](https://azure.microsoft.com/en-us/services/app-service/mobile)**
-This service comes close to Parse with its online/offline data syncing, user authentication, push notifications and cloud code.It’s easy to rapidly build engaging cross-platform and native apps for iOS, Android, Windows, or Mac.
-
 ### Basics 
 
 [Static HTML site in Azure](https://docs.microsoft.com/en-us/azure/app-service/quickstart-html): Using Azure Cloud Shell or CLI
 
+- https://learn.microsoft.com/en-us/azure/static-web-apps/add-authentication Add authentication to your static site in Azure Static Web Apps
+
 [Map DNS](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain)
 
-[Azure for Architects, Third Edition](https://azure.microsoft.com/en-us/resources/azure-for-architects/) (PDF) *(email address or account required)*
+## Reading
 
-[Azure Functions Succinctly, Syncfusion](https://www.syncfusion.com/ebooks/azure-functions-succinctly) (PDF, Kindle) (email address requested, not required)
+### Books
+- [Azure for Architects, Third Edition](https://azure.microsoft.com/en-us/resources/azure-for-architects/) (PDF) *(email address or account required)*
+- [Azure Functions Succinctly, Syncfusion](https://www.syncfusion.com/ebooks/azure-functions-succinctly) (PDF, Kindle) (email address requested, not required)
+- [Learn Azure in a Month of Lunches](https://azure.microsoft.com/mediahandler/files/resourcefiles/learn-azure-in-a-month-of-lunches/Learn_Azure_in_a_Month_of_Lunches.pdf) - Iain Foulds (PDF)
+- [The Developer’s Guide to Azure](https://azure.microsoft.com/en-us/campaigns/developer-guide/)
 
-[Learn Azure in a Month of Lunches](https://azure.microsoft.com/mediahandler/files/resourcefiles/learn-azure-in-a-month-of-lunches/Learn_Azure_in_a_Month_of_Lunches.pdf) - Iain Foulds (PDF)
-
-[The Developer’s Guide to Azure](https://azure.microsoft.com/en-us/campaigns/developer-guide/)
+## Notes
 
 #### What is an Azure account?
 *(from https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide)*
