@@ -3,19 +3,13 @@ tags=gamedev, patterns, reading, architecture
 summary=A common architecture/design pattern for building games.
 ~~~~~~
 
-[Entity Systems Project](http://entity-systems.wikidot.com/)
+[Entity Systems Project](http://entity-systems.wikidot.com/) | [Wikipedia](https://en.wikipedia.org/wiki/Entity%E2%80%93component%E2%80%93system)
 
-## Reading
-
-* ["How to Build an Entity Component System Game in JavaScript"](http://vasir.net/blog/game-development/how-to-build-entity-component-system-in-javascript) ([Code](https://github.com/erikhazzard/RectangleEater/blob/master/scripts/game.js))
-* ["Introducing ECSY"](https://blog.mozvr.com/introducing-ecsy/)
-* ["Entity Component System (ECS) in A-Frame and Javascript"](https://pancy.medium.com/entity-component-system-ecs-in-a-frame-and-javascript-f5b7cdba7248)
-* ["How I Built a TypeScript Entity Component System"](https://blog.marco-alka.de/how-i-built-a-typescript-entity-component-system-ck98i5iqp00eqcxs1m1xol9d5)
-* [Entity systems approaches](http://entity-systems.wikidot.com/es-approaches)
+* [Approaches](http://entity-systems.wikidot.com/es-approaches)
 * [Designing a game that uses entity systems](http://entity-systems.wikidot.com/designing-a-game-that-uses-an-entity-system)
-* "Entity Systems are the future of MMOG development": [Part 1](http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/), [Part 2](http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-2/), [Part 3](http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-3/), [Part 4](http://t-machine.org/index.php/2008/03/13/entity-systems-are-the-future-of-mmos-part-4/), [Part 5](http://t-machine.org/index.php/2009/10/26/entity-systems-are-the-future-of-mmos-part-5/)
 
-Existing libraries:
+## Implementations:
+
 * [A-Frame](https://github.com/aframevr/aframe/) (Javascript): [Website](https://aframe.io/) "A web framework for building 3D/AR/VR experiences. Make 3D worlds with HTML and Entity-Component. For Quest, Rift, WMR, SteamVR, mobile, desktop." [Docs](https://aframe.io/docs/1.2.0/introduction/)
 * [Artemis (C#)](https://thelinuxlich.github.io/artemis_CSharp/)/[Artemis (Java)](https://gamadu.com/artemis/)
 * [Ape-ECS](https://github.com/fritzy/ape-ecs) (Javascript): "Entity-Component-System library for JavaScript."
@@ -24,6 +18,15 @@ Existing libraries:
 * [javascript-entity-component-system](https://www.npmjs.com/package/javascript-entity-component-system?activeTab=readme) (Javascript): Lightweight ECS
 * [Legion](https://github.com/TomGillen/legion) (Rust)
 * [SPECS](https://github.com/amethyst/specs) (Rust)
+
+## Reading
+
+* ["How to Build an Entity Component System Game in JavaScript"](http://vasir.net/blog/game-development/how-to-build-entity-component-system-in-javascript) ([Code](https://github.com/erikhazzard/RectangleEater/blob/master/scripts/game.js))
+* ["Introducing ECSY"](https://blog.mozvr.com/introducing-ecsy/)
+* ["Entity Component System (ECS) in A-Frame and Javascript"](https://pancy.medium.com/entity-component-system-ecs-in-a-frame-and-javascript-f5b7cdba7248)
+* ["How I Built a TypeScript Entity Component System"](https://blog.marco-alka.de/how-i-built-a-typescript-entity-component-system-ck98i5iqp00eqcxs1m1xol9d5)
+* "Entity Systems are the future of MMOG development": [Part 1](http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/), [Part 2](http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-2/), [Part 3](http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-3/), [Part 4](http://t-machine.org/index.php/2008/03/13/entity-systems-are-the-future-of-mmos-part-4/), [Part 5](http://t-machine.org/index.php/2009/10/26/entity-systems-are-the-future-of-mmos-part-5/)
+* [Evolve Your Hierarchy](http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/)
 
 #### From "How to Build an Entity Component System Game in JavaScript":
 With ECS, entities are just collections of components; just a collection of data.

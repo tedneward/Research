@@ -5,6 +5,9 @@ summary=A collection of links around artificial intelligence (and all the differ
 tags=ai
 ~~~~~~
 
+## Uncategorized (yet)
+- https://towardsdatascience.com/langgraph-101-lets-build-a-deep-research-agent/ : Learn LangGraph fundamentals from Google’s open-source full-stack implementation
+
 ## General
 
 - ["The Open-Source Toolkit for Building AI agents"](https://www.aitidbits.ai/p/open-source-agents)
