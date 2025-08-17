@@ -3,7 +3,7 @@ tags=ai, engine
 summary=Host (?) for multiple open-source LLMs.
 ~~~~~~
 
-[Website]() | [Source]() | [Search (models)](https://ollama.com/search)
+[Website](https://ollama.com/) | [Source](https://github.com/ollama/ollama) | [Search (models)](https://ollama.com/search)
 
 ## Using
 
