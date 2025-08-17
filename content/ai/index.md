@@ -53,6 +53,7 @@ Java:
 
 ## Generative AI
 
+* https://www.kdnuggets.com/generative-ai-a-self-study-roadmap
 * ["Godot isn't making it"](https://www.wheresyoured.at/godot-isnt-making-it/): "What if what we're seeing today isn't a glimpse of the future, but the new terms of the present? What if artificial intelligence isn't actually capable of doing much more than what we're seeing today, and what if there's no clear timeline when it'll be able to do more? What if this entire hype cycle has been built, goosed by a compliant media ready and willing to take career-embellishers at their word? (March 2024) The reason I'm repeating myself is that it's important to note how obvious the problems with generative AI have been, and for how long."
 * [Generative AI exists because of the transformer](https://ig.ft.com/generative-ai/)
 * ["Stable Diffusion in Java (SD4J) Enables Generating Images with Deep Learning"](https://www.infoq.com/news/2023/12/stable-diffusion-in-java/)

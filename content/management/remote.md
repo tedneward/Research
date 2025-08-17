@@ -19,3 +19,4 @@ summary=Topics and links around remote management of teams.
 
 ["How to make hybrid work a success"](https://www.economist.com/business/2022/04/09/how-to-make-hybrid-work-a-success) "Clarity of expectations is the key" (The Economist, 9 Apr 2022)
 
+["The 3-2-1 Remote Rule: How Senior Devs Stay Productive Working From Home"](https://dev.to/teamcamp/the-3-2-1-remote-rule-how-senior-devs-stay-productive-working-from-home-on0)

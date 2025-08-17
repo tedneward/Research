@@ -8,6 +8,7 @@ summary=An engine for creating turn-based games using JavaScript.
 Write simple functions that describe how the game state changes when a particular move is made. This is automatically converted into a playable game complete with online multiplayer features, all without requiring you to write a single line of networking or storage code.
 
 Features: 
+
 * State Management: Game state is managed seamlessly across clients, server and storage automatically.
 * Multiplayer: Game state is kept in sync in realtime and across platforms.
 * AI: Automatically generated bots that can play your game.

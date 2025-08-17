@@ -33,6 +33,8 @@ Awesomes:
 
 [Bitsavers.org](http://bitsavers.trailing-edge.com)
 
+[Paul Hammond's "dotfiles"](https://github.com/citypaul/.dotfiles/): Paul's personal collection of configuration files; became popular because of his [Development Guidelines for Claude](https://github.com/citypaul/.dotfiles/blob/main/claude/.claude/CLAUDE.md) config file.
+
 [Code Catalog: A Collection of Code Examples from Prominent Open Source Projects](https://codecatalog.org) (HTML)
 
 [conceptf1.blogspot.com](http://conceptf1.blogspot.com/2013/11/list-of-freely-available-programming.html)

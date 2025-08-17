@@ -1,9 +1,9 @@
 title=Git
-tags=tool
+tags=tool, revision control
 summary=Distributed version-control system.
 ~~~~~~
 
-(Just the tool itself; considered separate from [Github](github.html) since it is used by a variety of other source-control providers like [Bitbucket](bitbucket.html).)
+Just the tool itself; considered separate from [Github](/clouds/github) since it is used by a variety of other source-control providers like Bitbucket.
 
 [Website](https://www.git-scm.com) | [Docs](http://git-scm.com/docs)
 
@@ -85,6 +85,7 @@ summary=Distributed version-control system.
 * [Ry's Git Tutorial](https://web.archive.org/web/20161121145226/http://rypress.com:80/tutorials/git/index) - Ryan Hodson
 * [Think Like (a) Git: A Guide for the Perplexed](http://think-like-a-git.net)
 * https://blog.stackademic.com/git-rebase-explained-like-youre-new-to-git-263c19fa86ec
+* [Working with Stacked Branches in Git](https://andrewlock.net/working-with-stacked-branches-in-git-part-1/)
 
 ### Websites
 
@@ -99,11 +100,20 @@ summary=Distributed version-control system.
 
 ### Libraries
 
+### C/Native
 * [libgit2](https://libgit2.org/): a portable, pure C implementation of the Git core methods
+
+### JVM
 * [Gitblit](https://www.gitblit.com/): an [open-source](https://github.com/gitblit-org/gitblit), pure Java stack for managing, viewing, and serving Git repositories
 * [jgit](https://github.com/eclipse-jgit/jgit): the Java implementation of git
+
+### Python
 * [Git-Python](https://github.com/gitpython-developers/GitPython): Python library used to interact with Git repositories
+
+### CLR
 * [libgit2sharp](https://github.com/libgit2/libgit2sharp): Git + .NET
+
+### ECMAscript
 * [isomorphic-git](https://isomorphic-git.org/) ([Source](https://github.com/isomorphic-git/isomorphic-git)): A pure JavaScript implementation of git for node and browsers
 
 ------

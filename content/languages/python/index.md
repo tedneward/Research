@@ -34,6 +34,7 @@ Not sure if this is a library or an implementation or a tool, it's sort of all t
 * [metap](https://github.com/baziotis/metap): Metaprogramming in Python. Automatic augmentation/rewrite of Python code.
 * [bytecode](https://bytecode.readthedocs.io/) ([Source](https://github.com/MatthieuDartiailh/bytecode)): Python module to modify bytecode
 * [`dis`: Disassembler for Python bytecode](https://docs.python.org/3/library/dis.html): package in the Python distribution, contains a list of all the Python VM bytecodes
+* [Pyrefly](https://pyrefly.org/): A faster Python type checker written in Rust
 
 ## FFI
 

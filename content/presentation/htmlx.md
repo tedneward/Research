@@ -6,7 +6,7 @@ htmx allows you to access AJAX, CSS Transitions, WebSockets and Server Sent Even
 
 htmx is the successor to [intercooler.js](http://intercoolerjs.org/).
 
-[Website](https://htmx.org/) | [Source](https://github.com/bigskysoftware/htmx)
+[Website](https://htmx.org/) | [Source](https://github.com/bigskysoftware/htmx) | [Essays](https://htmx.org/essays/)
 
 ### AJAX
 The core of htmx is a set of attributes that allow you to issue AJAX requests directly from HTML:

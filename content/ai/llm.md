@@ -5,10 +5,13 @@ summary=Collection of links, notes, and models.
 
 ## Reading
 
-* [Getting Started with LangChain: A Beginner’s Guide to Building LLM-Powered Applications](https://towardsdatascience.com/getting-started-with-langchain-a-beginners-guide-to-building-llm-powered-applications-95fc8898732c)
-* [A Practical Guide to Building Local RAG Applications with LangChain](https://machinelearningmastery.com/a-practical-guide-to-building-local-rag-applications-with-langchain/)
-* [Guidance](https://github.com/guidance-ai/guidance): "Guidance is an efficient programming paradigm for steering language models. With Guidance, you can control how output is structured and get high-quality output for your use case—while reducing latency and cost vs. conventional prompting or fine-tuning. It allows users to constrain generation (e.g. with regex and CFGs) as well as to interleave control (conditionals, loops, tool use) and generation seamlessly."
-* [How to run a local LLM via LocalAI, an Open Source project](https://thenewstack.io/how-to-run-a-local-llm-via-localai-an-open-source-project/)
+* Sebastian Raschka:
+
+    * [Understanding Reasoning LLMs](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms)
+    * [The Big LLM Architecture Comparison](https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison)
+    * [Understanding Multimodal LLMs](https://magazine.sebastianraschka.com/p/understanding-multimodal-llms)
+    * [Coding LLMs from Scratch: The Complete Course](https://magazine.sebastianraschka.com/p/coding-llms-from-the-ground-up) [Source](https://github.com/rasbt/LLMs-from-scratch)
+
 * ["Understanding the Dark Side of Large Language Models: A Comprehensive Guide to Security Threats and Vulnerabilities"](https://www.marktechpost.com/2023/09/01/understanding-the-dark-side-of-large-language-models-a-comprehensive-guide-to-security-threats-and-vulnerabilities/)
 * ["Use of LLMs for Illicit Purposes: Threats, Prevention Measures, and Vulnerabilities"](https://arxiv.org/abs/2308.12833)
 * ["Researchers from Virginia Tech and Microsoft Introduce Algorithm of Thoughts: An AI Approach That Enhances Exploration of Ideas And Power of Reasoning In Large Language Models (LLMs)"](https://www.marktechpost.com/2023/08/31/researchers-from-virginia-tech-and-microsoft-introduce-algorithm-of-thoughts-an-ai-approach-that-enhances-exploration-of-ideas-and-power-of-reasoning-in-large-language-models-llms/)
@@ -31,9 +34,19 @@ summary=Collection of links, notes, and models.
 * llma-guard3: An LLM for safe prompts. "When working with LLMs, it’s crucial that our interactions are safe and responsible. While we can’t control an LLM’s response, we can ensure our prompts are appropriate. That’s exactly why I self-hosted llama-guard 3. This powerful model acts as a dedicated content moderation tool for all my other local LLMs. The llama-guard 3's job is to classify every interaction against a set of safety categories. It checks our prompts for 13 different categories. When we give a prompt to this LLM, it will respond with a message stating whether the prompt message was safe or unsafe. If it is unsafe, it flags it with a specific reason, such as S1 (Hate Speech) or S2 (Sexual Content), etc."
 * Gemma 3: My local Gemini experience. "ChatGPT and Gemini are two key benchmarks that made everyone accustomed to AI and LLMs. While self-hosting LLMs, I also did not want to compromise my experience with those platforms. That’s why I self-hosted Gemma 3. This model is built on the same research as Gemini. It provides a premium experience with the flexibility of running locally. It is basically my local ChatGPT / Gemini. Gemma 3 is available in various sizes. It can handle a massive 128k context window, processes both text and images, and understands over 140 languages. This makes it my personal go-to AI for creative tasks. I use it to generate ideas for social media content, draft captions, and research topics for my blog."
 
-## Integrations
+## Integrations/Implementations
 
-- https://www.infoq.com/news/2025/08/google-langextract-python/
+* [How to run a local LLM via LocalAI, an Open Source project](https://thenewstack.io/how-to-run-a-local-llm-via-localai-an-open-source-project/)
+* [Guidance](https://github.com/guidance-ai/guidance): "Guidance is an efficient programming paradigm for steering language models. With Guidance, you can control how output is structured and get high-quality output for your use case—while reducing latency and cost vs. conventional prompting or fine-tuning. It allows users to constrain generation (e.g. with regex and CFGs) as well as to interleave control (conditionals, loops, tool use) and generation seamlessly."
+
+### LangChain
+
+* [Getting Started with LangChain: A Beginner’s Guide to Building LLM-Powered Applications](https://towardsdatascience.com/getting-started-with-langchain-a-beginners-guide-to-building-llm-powered-applications-95fc8898732c)
+* [A Practical Guide to Building Local RAG Applications with LangChain](https://machinelearningmastery.com/a-practical-guide-to-building-local-rag-applications-with-langchain/)
+
+### Python
+
+* https://www.infoq.com/news/2025/08/google-langextract-python/
 * [Python Langchain](https://python.langchain.com/docs/get_started/introduction): LangChain is a framework for developing applications powered by language models. It enables applications that:
     
     * Are context-aware: connect a language model to sources of context (prompt instructions, few shot examples, content to ground its response in, etc.)
