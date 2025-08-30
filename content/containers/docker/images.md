@@ -3,6 +3,19 @@ tags=container, docker, tool
 summary=A collection of interesting Docker containers/images.
 ~~~~~~
 
+## OS'es / Base platforms
+
+* [Debian bookworm](https://hub.docker.com/r/ich777/debian-bookworm) (which comes with the Xfce4 Desktop environment with a noVNC webGUI and all the basic tools pre-installed)
+* Java
+    * [OpenJDK](https://hub.docker.com/_/openjdk) (officially deprecated yet still being updated?)
+    * [Amazon Corretto](https://hub.docker.com/_/amazoncorretto)
+    * [Eclipse Temurin](https://hub.docker.com/_/eclipse-temurin)
+* [macOS in Docker](https://github.com/sickcodes/Docker-OSX) (which will let you run Apple's operating system with near native performance, even let you connect your iPhone via USB. You can run almost any version of MacOS, right up to the latest Sonoma release, although getting services such as iMessage and iCloud running could prove to be a challenge)
+* [Steam Headless](https://github.com/Steam-Headless/docker-steam-headless)
+* [Ubuntu](https://hub.docker.com/_/ubuntu)
+* [Virtual DSM](https://github.com/vdsm/virtual-dsm) (which allows you to install Synology Disk Station Manager (DSM) in a container)
+* [Windows](https://hub.docker.com/r/dockurr/windows) = courtesy of https://github.com/dockur/windows
+
 ## Uncategorized sources
 
 - https://www.xda-developers.com/self-hosted-finance-apps-export-excel/
@@ -456,10 +469,7 @@ The [File Browser](https://github.com/gtsteffaniak/filebrowser) Docker container
 
 ### Articles
 
-- [5 OSs that work perfectly in a Docker container](https://www.notebookcheck.net/5-complete-operating-systems-that-work-perfectly-in-a-docker-container-including-macOS-and-Steam-Headless.879397.0.html): [Steam Headless](https://github.com/Steam-Headless/docker-steam-headless), [Windows on Docker](https://github.com/dockur/windows?tab=readme-ov-file#how-do-i-select-the-windows-version), [Debian bookworm](https://hub.docker.com/r/ich777/debian-bookworm) (which comes with the Xfce4 Desktop environment with a noVNC webGUI and all the basic tools pre-installed), [Virtual DSM](https://github.com/vdsm/virtual-dsm) (which allows you to install Synology Disk Station Manager (DSM) in a container), [macOS in Docker](https://github.com/sickcodes/Docker-OSX) (which will let you run Apple's operating system with near native performance, even let you connect your iPhone via USB. You can run almost any version of MacOS, right up to the latest Sonoma release, although getting services such as iMessage and iCloud running could prove to be a challenge)
-
-    macOS in Docker!!!
-
+- [5 OSs that work perfectly in a Docker container](https://www.notebookcheck.net/5-complete-operating-systems-that-work-perfectly-in-a-docker-container-including-macOS-and-Steam-Headless.879397.0.html) 
 - https://www.virtualizationhowto.com/2025/08/10-docker-projects-you-can-build-in-a-weekend-and-actually-use/: Gitea, Netdata, Nginx Proxy Manager, Vaultwarden, Watchtower, Dozzle, Portainer, OpenWebUI + Ollama, Home Assistant, N8N
 - https://www.xda-developers.com/docker-containers-i-wish-i-knew-earlier/: Actual Budget, Excalidraw, Shiori, Pi-hole, Wallos, Jellyfin, Penpot
 

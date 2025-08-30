@@ -9,6 +9,8 @@ tags=language, language development
 
 [Reddit r/ProgrammingLanguages](https://www.reddit.com/r/ProgrammingLanguages/)
 
+[Protos are Wrong](https://reasonablypolymorphic.com/blog/protos-are-wrong/): Protobuffers were obviously built by amateurs because they offer bad solutions to widely-known and already-solved problems. ... What’s so frustrating about all of this is a little understanding of how modern type-systems work would be enough to drastically simplify the protobuffer spec and simultaneously remove all of the arbitrary restrictions. The solution is as follows: Make all fields in a message required. This makes messages product types; Promote oneof fields to instead be standalone data types. These are coproduct types; Give the ability to parameterize product and coproduct types by other types. That’s it! These three features are all you need in order to define any possible piece of data. With these simpler pieces, we can re-implement the rest of the protobuffer spec in terms of them.
+
 ## Books
 
 - [Compiler Construction](https://c9x.me/compile/bib/wirthcc.pdf)
