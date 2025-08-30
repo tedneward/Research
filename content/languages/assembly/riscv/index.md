@@ -77,6 +77,14 @@ https://riscv.org/specifications/ | https://riscv.org/technical/specifications/
 
 ---
 
+## Reading
+
+### Articles, blogs, etc
+
+* [Understanding Assembly Part I: RISC-V](https://mcyoung.xyz/2021/11/29/assembly-1/#diving-in)
+
+---
+
 ## Talks
 
 ### 2019
