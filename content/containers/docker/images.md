@@ -304,6 +304,8 @@ The [File Browser](https://github.com/gtsteffaniak/filebrowser) Docker container
 
 [LinkWarden](https://linkwarden.app/): a powerful, self-hosted bookmark and web archiving solution. While your browser’s built-in bookmark manager is fine for a few dozen links, Linkwarden takes the entire experience to the next level. [Source](https://github.com/linkwarden/linkwarden)
 
+[LinuxServer](https://www.linuxserver.io/our-images): a collection of different Linux desktop flavors, using noVNC as the GUI connector protocol. To run Webtop `docker run -d --name webtop-xfce -e PUID=1000 -e PGID=1000 -e TZ=Etc/UTC -p 3000:3000 --shm-size=1gb lscr.io/linuxserver/webtop:latest`
+
 [Mealie](https://www.xda-developers.com/five-reasons-i-self-host-my-recipe-tracker/): 
 
 [Netdata](https://netdata.cloud/):
