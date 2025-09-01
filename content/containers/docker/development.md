@@ -16,7 +16,9 @@ summary=Links and notes
 
 ### VSCode: 
 
+* [Attach to a running container](https://code.visualstudio.com/docs/devcontainers/attach-container)
 * [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
+* [Create a dev container](https://code.visualstudio.com/docs/devcontainers/create-dev-container)
 * [Developing inside a Docker container in VSCode](https://francescopochetti.com/developing-inside-a-docker-container-in-visual-studio-code/)
 
 The Dev Containers extension uses the files in the `.devcontainer` folder, namely `devcontainer.json`, and an optional `Dockerfile` or `docker-compose.yml`, to create your dev containers.
@@ -142,3 +144,5 @@ echo "✅ Built dev-base:latest and dev-base:$BUILD_DATE"
 
 echo "cleaning up temp dotfiles directory"
 ```
+
+* [Developing inside a Docker container in VSCode](https://francescopochetti.com/developing-inside-a-docker-container-in-visual-studio-code/)

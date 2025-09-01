@@ -1,5 +1,5 @@
 title=bison
-tags=tool, language, langdev
+tags=tool, language, langdev, gnu
 summary=Classic implementation (of yacc) for language development
 ~~~~~~
 
