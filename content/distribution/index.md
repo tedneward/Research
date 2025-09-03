@@ -307,6 +307,7 @@ for effective programming abstractions and informative program analysis tools.
 * [SIGPLAN](http://www.sigplan.org/) `Special Interest Group on Programming Languages`
 
 ### General Theory of Computer Science
+
 #### Conferences
 * [FOCS: Foundations of Computer Science](http://dblp.uni-trier.de/db/conf/focs/)
 * [STOC: Symposium on the Theory of Computing](http://dblp.uni-trier.de/db/conf/stoc/)
@@ -484,8 +485,7 @@ for effective programming abstractions and informative program analysis tools.
 
 ### English
 * [SYSLOG: the Cambridge System Research Group???s blog](http://www.syslog.cl.cam.ac.uk/)
-* [All Things Distributed](http://www.allthingsdistributed.com/)
-``Werner Vogels' weblog on building scalable and robust distributed systems.``
+* [All Things Distributed](http://www.allthingsdistributed.com/): Werner Vogels' weblog on building scalable and robust distributed systems.
 * [Paper Trail: Wading through academic treacle](http://the-paper-trail.org/blog/)
 * [Perspectives: James Hamilton's Blog](http://perspectives.mvdirona.com/)
 * [CSE 708 Seminar on Distributed Systems and Distributed Computing](http://cse708.blogspot.com/)
@@ -496,7 +496,7 @@ for effective programming abstractions and informative program analysis tools.
 * [High Scalability: Building bigger, faster, more reliable websits](http://highscalability.com/all-posts/)
 * [Operational Dynamics on Storage](http://blogs.operationaldynamics.com/)
 * [Riak on Distributed Storage](http://docs.basho.com/index.html)
-* [The Fallacies of Distributed Computing Reborn: The Cloud Era](http://blog.newrelic.com/2011/01/06/the-fallacies-of-distributed-computing-reborn-the-cloud-era/)
+* [Why REST and JDBC are killing your data stack](https://motherduck.com/blog/flight-sql-vs-rest-vs-jdbc/)
 
 ### Other Articles
 * [OSDI, SOSP and CS departments](http://blog.csdn.net/celestialwy/article/details/2766402)

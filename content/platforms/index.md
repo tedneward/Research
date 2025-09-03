@@ -29,6 +29,8 @@ Native refers to a variety of different hardware/OS combinations, including:
 
 #### [Awesome OSS Alternatives to SaaS](https://github.com/RunaCapital/awesome-oss-alternatives):
 
+[5 best self-hosted services for bibliophiles](https://www.xda-developers.com/best-self-hosted-services-for-bibliophiles/)
+
 Business Intelligence (alternatives to [PowerBI](https://powerbi.microsoft.com/), [Tableau](https://www.tableau.com/), [Mode Analytics](https://mode.com/), [DataStudio](https://datastudio.google.com/)):
 
 * [Preset](https://www.preset.io): Modern BI platform powered by Apache Superset [Source](https://github.com/apache/superset); 

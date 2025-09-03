@@ -25,7 +25,7 @@ LABEL MAINTAINER="Ted Neward"
 # The last line is to keep the image size down by removing the apt cache. It means
 # that if you want to install more packages later, you'll need to run `apt-get update`
 # again first.
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
     git \
     curl wget \
     nano \
