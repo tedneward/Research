@@ -3,6 +3,12 @@ tags=container, development
 summary=Links and notes
 ~~~~~~
 
+Dev container Dockerfile
+
+```
+
+```
+
 ## Reading
 
 * [Docker-first local development](https://brandon-hoffman.is-a.dev/posts/docker-first-local-development/)

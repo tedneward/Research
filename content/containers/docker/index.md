@@ -5,9 +5,66 @@ summary=Virtualization tool for containerizing code, configuration, and sometime
 
 [Website](https://docker.com/) | [Docker Hub](https://hub.docker.com/) | [Getting Started](https://docs.docker.com/get-started/)
 
+## Installation
+
+### [Ubuntu](https://docs.docker.com/engine/install/ubuntu/) (incl. Pop!OS)
+
+#### Option 1: Use apt-get
+
+Set up `apt`:
+```
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+```
+
+Run apt install:
+```
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+#### Option 2: Use the convenience script
+
+```
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh ./get-docker.sh
+```
+
+Use `--dry-run` on the script if there's concerns.
+
+#### Run Docker as non-privileged user
+
+```
+sudo sh -eux <<EOF
+apt-get install -y uidmap
+EOF
+```
+
+Then
+
+```
+dockerd-rootless-setuptool.sh install
+```
+
+#### Test docker
+
+```
+docker run hello-world
+```
+
 ## Reading
 
-## Articles
+### Articles
 
 * [CI/CD for Monorepos: Effectively building, testing, and deploying code with monorepos](https://github.com/semaphoreci/book-monorepo-cicd) - Pablo Tomas Fernandez Zavalia, Marko Anastasov, SemaphoreCI (PDF, EPUB, Kindle)
 * [CI/CD with Docker and Kubernetes Book](https://github.com/semaphoreci/book-cicd-docker-kubernetes) - Marko Anastasov, Jérôme Petazzoni, Pablo Tom F. Zavalia, SemaphoreCI (PDF, EPUB, Kindle)
