@@ -3,11 +3,109 @@ tags=container, development
 summary=Links and notes
 ~~~~~~
 
-Dev container Dockerfile
+Goal is to create consistent development environments with all the tools and dependencies all cooked into a ready-to-use shell.
 
+- for my own projects, assume an off-the-root `docker` directory will contain the Dockerfile and any dependencies, along with a `build.sh` and `run.sh` scripts to make it easy.
+- these are dev-only environments, not production/deploy environments. Deploy environments would live elsewhere and get built as part of a build process.
+
+    - can a Docker image use Docker to build Docker images on the host?
+
+- assume CLI-only for now; I know we can run GUIs out of Docker using xrdp, if necessary, but focus on CLI builds for now
+- To be tested: classic n-layer applications (web/api/database), probably using docker-compose?
+
+--- 
+
+## Dockerfile(s)
+
+### Base/starting
+```
+FROM debian:trixie-slim
+LABEL MAINTAINER="Ted Neward"
+
+# The last line is to keep the image size down by removing the apt cache. It means
+# that if you want to install more packages later, you'll need to run `apt-get update`
+# again first.
+RUN apt-get update && apt-get install -y \
+    git \
+    curl wget \
+    nano \
+    build-essential \
+    zip unzip \
+    ca-certificates \
+    sudo \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create a non-root user to do our work
+# (This is a best practice for Docker containers, and also necessary to run SDKMAN)
+ARG USERNAME=devuser
+ARG USER_UID=1000
+ARG USER_GID=$USER_UID
+RUN groupadd --gid $USER_GID $USERNAME \
+    && useradd --uid $USER_UID --gid $USER_GID -m $USERNAME \
+    && echo "$USERNAME ALL=(ALL) NOPASSWD: /usr/bin/apt-get, /usr/bin/apt" > /etc/sudoers.d/$USERNAME
+USER $USERNAME
+WORKDIR /home/$USERNAME
+
+# Create a workspace directory for our work
+RUN mkdir -p /home/$USERNAME/workspace
+WORKDIR /home/$USERNAME/workspace
+
+# Set up host current directory as workspace
+VOLUME /home/$USERNAME/workspace
+
+# Bring in our dotfiles for bash customization/standardization
+COPY --chown=$USERNAME:$USERNAME docker/dotfiles/.bashrc /home/$USERNAME/.bashrc
+COPY --chown=$USERNAME:$USERNAME docker/dotfiles/.dircolors /home/$USERNAME/.dircolors
 ```
 
+> **NOTE** "dotfiles" used above are listed as part of [bash](/tools/bash) page.
+
+### Java build environment
+Use SDKMAN to manage the JVM dependencies. Remember that Gradle's `gradlew` top-level script will download Gradle on demand. All other JVM dependencies should either be pulled through SDKMAN or from within the Gradle script.
 ```
+# Get SDKMAN set up
+RUN curl -s "https://get.sdkman.io" | bash \
+    && bash -c "source /home/$USERNAME/.sdkman/bin/sdkman-init.sh && sdk update"
+ENV SDKMAN_DIR="/home/$USERNAME/.sdkman"
+ENV PATH="$SDKMAN_DIR/bin:$PATH"
+
+# Install OpenJDK 17
+RUN bash -c "source /home/$USERNAME/.sdkman/bin/sdkman-init.sh && sdk install java 17-open"
+ENV JAVA_HOME="/home/$USERNAME/.sdkman/candidates/java/current"
+ENV PATH="$JAVA_HOME/bin:$PATH"
+
+CMD ["/bin/bash"]
+```
+
+### Python environment
+Use `uv`.
+
+```
+```
+
+### Node environment
+Use `nvm`
+
+```
+```
+
+### Ruby environment
+Use `rv` (is this ARM64-only? Brew thinks so....)
+```
+```
+
+### C++ environment
+CMake, g++/gcc, LLVM?, what else?
+
+```
+```
+
+### Usage
+If DOCKER_IMAGE = base-antlr:dev then:
+
+Build with `docker build -t $DOCKER_IMAGE .` (or specify Dockerfile location using `-f `*dir(s)*`/Dockerfile`)
+
+Run with `docker run -it --rm -v "$(pwd)":/home/devuser/workspace $DOCKER_IMAGE
 
 ## Reading
 
@@ -18,7 +116,6 @@ Dev container Dockerfile
     3. Mount your source code so changes sync instantly between container and host.
     4. Use helper scripts to automate the build and run process for one-command setup.
     5. Enjoy consistent environments across all projects, team members, and machines.
-
 
 ### VSCode: 
 
@@ -68,7 +165,7 @@ The devcontainer.json is basically a config file ([full list of options](https:/
         // "remoteUser": "root"
     }
 
-## Dev-Base container
+## Examples
 
 Dockerfile:
 ```
