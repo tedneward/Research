@@ -10,6 +10,7 @@ summary=Virtualization tool for containerizing code, configuration, and sometime
 * [CI/CD with Docker and Kubernetes Book](https://github.com/semaphoreci/book-cicd-docker-kubernetes) - Marko Anastasov, Jérôme Petazzoni, Pablo Tom F. Zavalia, SemaphoreCI (PDF, EPUB, Kindle)
 * [Docker Jumpstart](http://odewahn.github.io/docker-jumpstart/) - Andrew Odewahn
 * [build-image](https://github.com/tmds/build-image): Containerize .NET apps without writing Dockerfiles.
+* [I Run a Full Linux Desktop in Docker Just Because I Can](https://www.howtogeek.com/i-run-a-full-linux-desktop-in-docker-just-because-i-can/)
 
 From @Nick_Craver (Twitter):
 > `docker run --rm -it $(docker build -q .)`

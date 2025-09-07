@@ -281,14 +281,14 @@ The [File Browser](https://github.com/gtsteffaniak/filebrowser) Docker container
 
 
     networks:
-    homenet:
-        driver: macvlan
-        driver_opts:
-        parent: eth0
-        ipam:
-        config:
-            - subnet: 192.168.1.0/24
-            gateway: 192.168.1.1
+        homenet:
+            driver: macvlan
+            driver_opts:
+            parent: eth0
+            ipam:
+            config:
+                - subnet: 192.168.1.0/24
+                  gateway: 192.168.1.1
 
     volumes:
     homeassistant_db:
