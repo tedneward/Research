@@ -46,6 +46,12 @@ tags=language, language development
 
 ### Essays/Papers
 
+- 10 Myths About Scalable Parallel Programming Languages (Redux): 
+    - [Part 1: Productivity and Performance](https://chapel-lang.org/blog/posts/10myths-part1/)
+    - [Part 2: Past Failures and Future Attempts](https://chapel-lang.org/blog/posts/10myths-part2/)
+    - [Part 3: New Languages vs Language Extensions](https://chapel-lang.org/blog/posts/10myths-part3/)
+    - [Part 4: Syntax Matters](https://chapel-lang.org/blog/posts/10myths-part4/)
+    - [Part 5: Productivity and Magic Compilers](https://chapel-lang.org/blog/posts/10myths-part5/)
 - [10 papers that all PhD students in programming languages ought to know](https://github.com/nuprl/10PL)
 - [A case for feminism in PL design](https://dl.acm.org/doi/pdf/10.1145/3689492.3689809)
 - [A syntactic approach to type soundness](https://web.eecs.umich.edu/~weimerw/2008-615/reading/wright92syntactic.pdf)
