@@ -11,6 +11,7 @@ tags=ai
 ## General
 
 - ["The Open-Source Toolkit for Building AI agents"](https://www.aitidbits.ai/p/open-source-agents)
+- Apple: [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf)
 - [Is Complexity an Illusion?](https://arxiv.org/pdf/2404.07227): "Simplicity is held by many to be the key to general intelligence. Simpler models tend to “generalise”, identifying the cause or generator of data with greater sample efficiency. The implications of the correlation between simplicity and generalisation extend far beyond computer science, addressing questions of physics and even biology. Yet simplicity is a property of form, while generalisation is of function. In interactive settings, any correlation between the two depends on interpretation. In theory there could be no correlation and yet in practice, there is. Previous theoretical work showed generalisation to be a consequence of “weak” constraints implied by function, not form. Experiments demonstrated choosing weak constraints over simple forms yielded a 110 − 500% improvement in generalisation rate. Here we show that all constraints can take equally simple forms, regardless of weakness. However if forms are spatially extended, then function is represented using a finite subset of forms. If function is represented using a finite subset of forms, then we can force a correlation between simplicity and generalisation by making weak constraints take simple forms. If function is determined by a goal directed process that favours versatility (e.g. natural selection), then efficiency demands weak constraints take simple forms. Complexity has no causal influence on generalisation, but appears to due to confounding."
 - Rob Conery's posts exploring using AI in a dev setting:
 
@@ -20,6 +21,12 @@ tags=ai
 
 - ["You're Building AI Apps Backwards: The Model-Product Problem"](https://thenewstack.io/youre-building-ai-apps-backwards-the-model-product-problem/)
 - ["The Copilot Delusion"](https://deplet.ing/the-copilot-delusion/)
+- ["My new hobby: watching AI slowly drive Microsoft employees insane"](https://www.reddit.com/r/ExperiencedDevs/comments/1krttqo/my_new_hobby_watching_ai_slowly_drive_microsoft/)
+- Where's Your Ed At?
+
+    - [Reality Check](https://www.wheresyoured.at/reality-check/)
+    - [AI Bubble 2027](https://www.wheresyoured.at/ai-bubble-2027/)
+    - [How to Argue with an AI Booster](https://www.wheresyoured.at/how-to-argue-with-an-ai-booster/)
 
 ## Tools
 
@@ -40,6 +47,8 @@ Java:
 - https://mvnrepository.com/artifact/com.github.cschen1205/java-fuzzy-logic/1.0.1
 
 ## Natural Language Processing
+
+* [You Don't Need Backpropagation To Train Neural Networks Anymore](https://ai.gopubby.com/you-dont-need-backpropagation-to-train-neural-networks-anymore-e989d75564cb)
 
 ## [Large Language Models (LLMs)](/ai/llm/)
 

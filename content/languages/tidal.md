@@ -3,7 +3,7 @@ tags=language, presentation
 summary=A free/OSS that allows you to make (musical) patterns with code, whether live coding music at algoraves or composing in the studio.
 ~~~~~~
 
-[Website](https://tidalcycles.org/index.php/Welcome)
+[Website](https://tidalcycles.org/) | [Source](https://codeberg.org/uzu/tidal)
 
 Installation requires a "SuperDirt synthesizer" which I think is a software package?
 

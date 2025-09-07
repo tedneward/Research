@@ -16,6 +16,10 @@ summary=A collection of interesting Docker containers/images.
 * [Virtual DSM](https://github.com/vdsm/virtual-dsm) (which allows you to install Synology Disk Station Manager (DSM) in a container)
 * [Windows](https://hub.docker.com/r/dockurr/windows) = courtesy of https://github.com/dockur/windows
 
+### Tools-in-containers
+
+* [ANTLR4](https://github.com/antlr/antlr4/blob/master/docker/README.md): `wget https://raw.githubusercontent.com/antlr/grammars-v4/master/json/JSON.g4; docker run --rm -u $(id -u ${USER}):$(id -g ${USER}) -v `pwd`:/work antlr/antlr4 -Dlanguage=Go JSON.g4`
+
 ## Uncategorized sources
 
 - https://www.xda-developers.com/self-hosted-finance-apps-export-excel/

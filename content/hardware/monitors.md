@@ -15,3 +15,8 @@ summary=Collection of links about displays that rest on your desk or mount on th
 * [USB-C Monitor List](https://www.displayninja.com/usb-c-monitor-list/): We maintain this list of all USB-C monitors in the world. These are great for work and creative use, as they feature the popular USB-C connector with at least 60W Power Delivery.
 
 * [KnowledgeBase](https://www.displayninja.com/knowledge-base/)
+
+## AR/MR glasses
+
+* [These XR glasses gave me a 200-inch screen to work with - and now I might ditch my monitors](https://www.zdnet.com/article/these-xr-glasses-gave-me-a-200-inch-screen-to-work-with-and-now-i-might-ditch-my-monitors/): Xreal One Pro AR - [link](https://us.shop.xreal.com/products/xreal-one-pro) *(As of 1 Sep 2025, ~USD$650)*
+
