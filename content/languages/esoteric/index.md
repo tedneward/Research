@@ -52,6 +52,22 @@ Some random links I've found:
 * There's a whole host more of them [here](https://catseye.tc/article/Languages.md), along with [formats](https://catseye.tc/article/Formats.md) and [automatons](https://catseye.tc/article/Automata.md), the distinction between which is not always clear
 * [DuckDB-DOOM](https://github.com/patricktrainer/duckdb-doom): A Doom-like game using DuckDB-WASM. "The entire game logic, including 3D raycasting, enemy AI, collision detection, and rendering is implemented using SQL queries running in DuckDB's WebAssembly build."
 
+Some "Gen-Z" programming languages:
+
+* [Cursed](https://cursed-lang.org/?ref=ghuntley.com) [Source](https://github.com/ghuntley/cursed): Feature list includes
+
+    * Gen Z Slang Keywords: Core programming constructs use contemporary slang (`slay` for function, `sus` for variable, `vibe` for package, `stan` for goroutine)
+    * Among Us Pointer Syntax: First programming language to use ඞ (U+0D9E) for pointer operations
+    * Go-like Semantics: Familiar control flow and typing for experienced developers
+    * Built-in Concurrency: Goroutines (`stan`) and channels (`dm`) for concurrent programming
+    * Advanced Memory Management: Generational garbage collector with performance monitoring
+    * Comprehensive Error Handling: `yikes`/`fam`/`shook` error system with panic recovery
+
+* [Boner++](https://esolangs.org/wiki/Boner%2B%2B) [Source](https://github.com/xbrq/bonerplusplus)
+* [VibeScript](https://dev.to/grahamthedev/vibescript-genz-programming-language-2l0b)
+* [S-Lang](https://github.com/sagarpatel211/S-Lang) (pretty incomplete)
+* [Z-Lang](https://github.com/naghim/ZLang): "...Ahem *clears throat* Yo, minna! Welcome to ZLang - the sickest project in town! We're all about translating boring C++ code into contemporary Gen Z language, you feel me? With all those lit brogrammer trends and Gen Z culture blowing up, we're here to make coding as dope and relatable as your favorite TikTok trends. Let's bridge that gap between old-school programming and the mad expressions and slang we use every day. Get ready to vibe with us and make coding as lit as it can be! 🔥💯 *drops mic*"
+
 Some ideas I have for esoteric languages:
 
 * A language built around the synonyms and antonyms of "other", so we can call it that "Other" programming language.
