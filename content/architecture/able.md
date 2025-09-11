@@ -1,6 +1,6 @@
 title=Able (or ABLE)
 tags=architecture, language, modeling
-summary=
+summary=An architecture approach research group and assorted artifacts.
 ~~~~~~
 
 [Website](https://www.cs.cmu.edu/afs/cs/project/able/www/)

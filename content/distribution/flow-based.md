@@ -5,6 +5,8 @@ summary=A programming paradigm, discovered/invented by J. Paul Rodker Morrison i
 
 [Website](https://jpaulm.github.io/fbp/index.html) | [Book: "Flow-Based Programming"](https://jpaulm.github.io/fbp/book.html) | [fbp Protocol](https://flowbased.github.io/fbp-protocol/)
 
+*(The book spends most of its time in the early chapters praising the author's point of view and condemning anything that doesn't follow; rather than actually discussing what flow-based programming is, it spends most of its early time describing what it isn't. Not a highly-recommended read.)*
+
 FBP defines applications as networks of "black box" processes, which communicate via data chunks (called Information Packets) travelling across predefined connections (think "conveyor belts"), where the connections are specified externally to the processes. These black box processes can be reconnected endlessly to form different applications without having to be changed internally. FBP is thus naturally component-oriented.
 
 FBP is a special case of dataflow programming characterized by asynchronous, concurrent processes "under the covers", Information Packets with defined lifetimes, named ports, "bounded buffer" connections, and definition of connections external to the components - it has been found to support improved development time and maintainability, reusability, rapid prototyping, simulation, improved performance, and good communication among developers, maintenance staff, users, systems people, and management - not to mention that FBP naturally takes advantage of multiple cores... without the programmer having to struggle with the intricacies of multitasking!

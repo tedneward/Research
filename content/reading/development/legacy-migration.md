@@ -1,6 +1,6 @@
 title=Legacy code migration
 tags=reading, development, business
-summary=
+summary=Notes and thoughts on the topic.
 ~~~~~~
 
 ## Reading

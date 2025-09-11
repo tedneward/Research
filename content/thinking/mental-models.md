@@ -1,6 +1,6 @@
 title=Mental models
 tags=reading, thinking, philosophy
-summary=
+summary=A "simplified explanation of how something works"; any idea, belief, or concept, boiled down to its essence.
 ~~~~~~
 
 [Farnam Street Blog](https://fs.blog/mental-models/)
