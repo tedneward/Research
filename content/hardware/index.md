@@ -9,6 +9,16 @@ Collection of links about and around hardware.
 
 - https://9to5mac.com/2025/08/05/get-a-new-macbook-or-ipad-every-2-years-with-this-subscription/
 
+["7 software tools in my keychain USB to help out family and friends"](https://www.xda-developers.com/software-tools-usb-troubleshooting-debug/):
+
+    1. TreeSize - https://www.jam-software.com/treesize_free
+    2. R-Photo - https://www.r-undelete.com/free_photo_recovery/
+    3. LatencyMon - https://www.resplendence.com/latencymon
+    4. EaseUS Partition Master - https://www.easeus.com/partition-manager/epm-free.html
+    5. Revo Uninstaller - https://www.revouninstaller.com/revo-uninstaller-free-download/
+    6. BlueScreenView - https://www.nirsoft.net/utils/blue_screen_view.html
+    7. Hiren's BootCD PE - https://www.hirensbootcd.org/
+
 ## Remote access-in-the-cloud
 [Rent a Mac in the Cloud](http://www.macincloud.com/)
 
@@ -38,6 +48,7 @@ Collection of links about and around hardware.
     - https://www.caldigit.com/thunderbolt-5-dock-ts5-plus/
 
 - [ANKER docking station](https://www.cultofmac.com/news/macbook-pro-and-anker-dock-setup)
+- [I tested the Anker Prime TB5 Docking Station...](https://www.techradar.com/pro/anker-prime-docking-station-14-in-1-8k-thunderbolt-5-review)
 - https://appleinsider.com/articles/25/05/19/owcs-thunderbolt-5-dock-arrives-with-8k-display-support
 
 ## Input Devices

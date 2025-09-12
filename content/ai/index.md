@@ -19,6 +19,9 @@ tags=ai
     - ["Turning a Markdown Spec into a Database - With Test Data!"](https://thenext.dev/articles/video/turning-a-markdown-spec-into-a-database-with-test-data/)
 
 - ["You're Building AI Apps Backwards: The Model-Product Problem"](https://thenewstack.io/youre-building-ai-apps-backwards-the-model-product-problem/)
+
+### Criticism
+
 - ["The Copilot Delusion"](https://deplet.ing/the-copilot-delusion/)
 - ["My new hobby: watching AI slowly drive Microsoft employees insane"](https://www.reddit.com/r/ExperiencedDevs/comments/1krttqo/my_new_hobby_watching_ai_slowly_drive_microsoft/)
 - Where's Your Ed At?
@@ -26,16 +29,35 @@ tags=ai
     - [Reality Check](https://www.wheresyoured.at/reality-check/)
     - [AI Bubble 2027](https://www.wheresyoured.at/ai-bubble-2027/)
     - [How to Argue with an AI Booster](https://www.wheresyoured.at/how-to-argue-with-an-ai-booster/)
+- [We need to stop pretending AI is intelligent -- here's how](https://theconversation.com/we-need-to-stop-pretending-ai-is-intelligent-heres-how-254090)
+- [Aritificial intelligence is not intelligent at all](https://www.basicthinking.com/artificial-intelligence-is-not-intelligent-at-all-say-researchers/)
+- [AI: Not That Smart](https://columbiacommunityconnection.com/the-dalles/column-ai-not-that-smart)
+- 
 
 ## Tools
 
 * [Lovable](https://lovable.dev/): Create apps and websites by chatting with AI
 
+## Tutorials
+
+* [LangGraph 101: Let's build a deep research agent](https://towardsdatascience.com/langgraph-101-lets-build-a-deep-research-agent/)
+
+## Reading
+
+* [Himanshu](https://www.linkedin.com/posts/himanshu1707_generativeai-journey-through-paperbacks-activity-7357857323756761088-elA4/):
+
+    1. *Natural Language Processing with Transformers*: Start with a thorough understanding of Transformers architecture and it's ecosystem through HuggingFace with Lewis Tunstall Leandro von Werra Thomas Wolf . Personally, There cannot be a better starting point. MUST follow their blogs.
+    2. *Build a Large Language Model (From Scratch)*: Build your own Decoder Transformer(Architecture for "almost" all modern LLMs) from scratch with Sebastian Raschka, PhD . MUST follow his blogs too for the latest updates. Also, lucky he keeps his GitHub repo updated.
+    3. Get acquainted with the GenerativeAI ecosystem with Jay Alammar Maarten Grootendorst building LLM pipelines for various tasks and learning nitty gritty details of Fine-Tuning and PEFT. *Hands-On Language Models*
+    4. Explore *Generative AI on AWS* with Chris Fregly Antje Barth Shelbee Eigenbrode for an enterprise level challenges.
+    5. Dive into the beauty of engineering a GenAI Application with *AI Engineering* by Chip Huyen . It will level you up to think from the whole system perspective.
+    6. *Build Generative AI Services with FastAPI* with Ali Parandeh, CEng . A very practical book to knot all you have learnt and will help you in building a GenAI system.
+
 ## Definitions
 
-## [Expert Systems](/tags/expert%20system.html)/[Rules Engines](/tags/rules.html)
+### [Expert Systems](/tags/expert%20system.html)/[Rules Engines](/tags/rules.html)
 
-## Fuzzy Logic
+### Fuzzy Logic
 
 Java:
 
@@ -45,21 +67,21 @@ Java:
 - https://commons.apache.org/sandbox/commons-text/jacoco/org.apache.commons.text.similarity/FuzzyScore.java.html
 - https://mvnrepository.com/artifact/com.github.cschen1205/java-fuzzy-logic/1.0.1
 
-## Natural Language Processing
+### Natural Language Processing
 
 * [You Don't Need Backpropagation To Train Neural Networks Anymore](https://ai.gopubby.com/you-dont-need-backpropagation-to-train-neural-networks-anymore-e989d75564cb)
 
-## [Large Language Models (LLMs)](/ai/llm/)
+### [Large Language Models (LLMs)](/ai/llm/)
 
-## [Small Language Models (SLMs)](/ai/slm/)
+### [Small Language Models (SLMs)](/ai/slm/)
 
-## [Retrieval Augmented Generation (RAG)](/ai/rag)
+### [Retrieval Augmented Generation (RAG)](/ai/rag)
 
-## Coding Assistants
+### Coding Assistants
 
 * [Create a Coding Assistant with StarCoder](https://huggingface.co/blog/starchat-alpha)
 
-## Generative AI
+### Generative AI
 
 * https://www.kdnuggets.com/generative-ai-a-self-study-roadmap
 * ["Godot isn't making it"](https://www.wheresyoured.at/godot-isnt-making-it/): "What if what we're seeing today isn't a glimpse of the future, but the new terms of the present? What if artificial intelligence isn't actually capable of doing much more than what we're seeing today, and what if there's no clear timeline when it'll be able to do more? What if this entire hype cycle has been built, goosed by a compliant media ready and willing to take career-embellishers at their word? (March 2024) The reason I'm repeating myself is that it's important to note how obvious the problems with generative AI have been, and for how long."
@@ -67,7 +89,7 @@ Java:
 * ["Stable Diffusion in Java (SD4J) Enables Generating Images with Deep Learning"](https://www.infoq.com/news/2023/12/stable-diffusion-in-java/)
 * [Stable Diffusion in C#](https://github.com/cassiebreviu/StableDiffusion/) (mentioned in the SD4J article)
 
-## Machine Learning
+### Machine Learning
 
 * [10 Github Repositories to Master Reinforcement Learning](https://www.kdnuggets.com/10-github-repositories-master-reinforcement-learning)
 * [Machine Learning for Software Engineering](https://github.com/saltudelft/ml4se): A curated list of papers, theses, datasets, and tools related to the application of Machine Learning for Software Engineering.

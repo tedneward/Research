@@ -24,7 +24,7 @@ summary=A collection of interesting Docker containers/images.
 
 - https://www.xda-developers.com/self-hosted-finance-apps-export-excel/
 
-## List
+## Application containers/images
 
 [Actual Budget](https://actualbudget.org/): Actual Budget focuses on privacy and user control and works on an envelope budgeting method, a proven technique for managing finances effectively. Actual budget interface is quite straightforward. Unlike many popular budgeting apps that rely on cloud storage, Actual Budget prioritizes local data storage and offers optional end-to-end encryption. The list of features includes detailed reports, schedules to manage your future expenses, bank sync (in the US, UK, and Canada), rules, and more.
 
@@ -304,7 +304,11 @@ The [File Browser](https://github.com/gtsteffaniak/filebrowser) Docker container
 
 [Jellyfin](https://jellyfin.org/docs/general/installation/container/): Centralized hub for movies, TV shows, music, and photos.
 
+[Kanboard](https://kanboard.org/): self-hosted Kanban-style project tracker that rivals Trello.
+
 [Kavita](): Private book library
+
+[Kiwix](https://github.com/kiwix): a knowledge aggregator that lets you store offline copies of online resources. "Imagine if you had access to any online resource at any time, irrespective of whether you were connected to the internet or not? That's exactly what Kiwix provides. It's a knowledge aggregator that lets you store offline versions of online resources. This is extremely handy for students who don't have access to the internet at all times. You can access every single page on Wikipedia offline, or quickly refer to the Python handbook for the right syntax. It's like your personal library that can be accessed anytime, from anywhere."
 
 [LinkWarden](https://linkwarden.app/): a powerful, self-hosted bookmark and web archiving solution. While your browser’s built-in bookmark manager is fine for a few dozen links, Linkwarden takes the entire experience to the next level. [Source](https://github.com/linkwarden/linkwarden)
 
@@ -340,6 +344,8 @@ The [File Browser](https://github.com/gtsteffaniak/filebrowser) Docker container
     -e NETDATA_CLAIM_ROOMS=<your claim room> \
     netdata/netdata:stable
     ```
+
+[Nextcloud](https://nextcloud.com/athome/): Your personal storage and collaboration solution. 
 
 [Nginx Proxy Manager](https://nginxproxymanager.com/):
 
@@ -417,6 +423,8 @@ The [File Browser](https://github.com/gtsteffaniak/filebrowser) Docker container
 [Outline](https://www.getoutline.com/): Notes management (compare to Blinko) [Source](https://github.com/outline)
 
 [ownCloud](https://owncloud.com/): Personal data storage
+
+[Paperless-ngx](https://docs.paperless-ngx.com/): lets you digitize your notes and then uses OCR to allow users to search using natural language.
 
 [PenPot](https://penpot.app/): Figma replacement
 

@@ -1,5 +1,5 @@
 title=Flow-based Programming (fbp)
-tags=distribution, protocol, architecture
+tags=distribution, protocol, architecture, language, jvm, clr, native
 summary=A programming paradigm, discovered/invented by J. Paul Rodker Morrison in the late '60s, that uses a "data processing factory" metaphor for designing and building applications.
 ~~~~~~
 
@@ -33,4 +33,6 @@ FBP involves a significant "paradigm shift" from conventional programming, as it
 
 * Javascript: [NoFlo](https://noflojs.org/) [Source](https://github.com/noflo/noflo)
 * [Flowhub](https://flowhub.io/)
-
+* [javafbp](https://github.com/jpaulm/javafbp)
+* [csharpfbp](https://github.com/jpaulm/csharpfbp)
+* [C++ fbp](https://github.com/jpaulm/cppfbp)
