@@ -7,6 +7,14 @@ A compiled language.
 
 ### Java Language Specification(s)
 
+* [Java SE 24](https://docs.oracle.com/javase/specs/jls/se24/html/index.html) [PDF](https://docs.oracle.com/javase/specs/jls/se24/jls24.pdf) ([JSR 399](https://jcp.org/en/jsr/summary?id=399))
+* [Java SE 23](https://docs.oracle.com/javase/specs/jls/se23/html/index.html) [PDF](https://docs.oracle.com/javase/specs/jls/se23/jls23.pdf) ([JSR 398](https://jcp.org/en/jsr/summary?id=398))
+* [Java SE 22](https://docs.oracle.com/javase/specs/jls/se22/html/index.html) [PDF](https://docs.oracle.com/javase/specs/jls/se22/jls22.pdf) ([JSR 397](https://jcp.org/en/jsr/summary?id=397))
+* [Java SE 21](https://docs.oracle.com/javase/specs/jls/se21/html/index.html) [PDF](https://docs.oracle.com/javase/specs/jls/se21/jls21.pdf) ([JSR 396](https://jcp.org/en/jsr/summary?id=396))
+* [Java SE 20](https://docs.oracle.com/javase/specs/jls/se20/html/index.html) [PDF](https://docs.oracle.com/javase/specs/jls/se20/jls20.pdf) ([JSR 395](https://jcp.org/en/jsr/summary?id=395))
+* [Java SE 19](https://docs.oracle.com/javase/specs/jls/se19/html/index.html) [PDF](https://docs.oracle.com/javase/specs/jls/se19/jls19.pdf) ([JSR 394](https://jcp.org/en/jsr/summary?id=394))
+* [Java SE 18](https://docs.oracle.com/javase/specs/jls/se18/html/index.html) [PDF](https://docs.oracle.com/javase/specs/jls/se18/jls18.pdf) ([JSR 393](https://jcp.org/en/jsr/summary?id=393))
+* [Java SE 17](https://docs.oracle.com/javase/specs/jls/se17/html/index.html) [PDF](https://docs.oracle.com/javase/specs/jls/se17/jls17.pdf) ([JSR 392](https://jcp.org/en/jsr/summary?id=392))
 * [Java SE 16](https://docs.oracle.com/javase/specs/jls/se16/html/index.html) [PDF](https://docs.oracle.com/javase/specs/jls/se16/jls16.pdf) ([JSR 391](https://jcp.org/en/jsr/summary?id=391))
 * [Java SE 15](https://docs.oracle.com/javase/specs/jls/se15/html/index.html) [PDF](https://docs.oracle.com/javase/specs/jls/se15/jls15.pdf)([JSR 390](https://jcp.org/en/jsr/summary?id=390))
 * [Java SE 14](https://docs.oracle.com/javase/specs/jls/se14/html/index.html) [PDF](https://docs.oracle.com/javase/specs/jls/se14/jls14.pdf)([JSR 389](https://jcp.org/en/jsr/summary?id=389))
@@ -21,9 +29,10 @@ A compiled language.
 
 ### Implementations:
 
-* [CheerpJ](https://www.leaningtech.com/pages/cheerpj.html): A Java-to-WebAssembly compiler. [Github](https://github.com/leaningtech/cheerpj-meta)
-* [gcj](https://en.wikipedia.org/wiki/GNU_Compiler_for_Java): GCC Java front-end
-* [Jsweet](http://www.jsweet.org/): A Java to Javascript transpiler.
+* WebAssembly: [CheerpJ](https://www.leaningtech.com/pages/cheerpj.html): A Java-to-WebAssembly compiler. [Github](https://github.com/leaningtech/cheerpj-meta)
+* WebAssembly: [JWebAssembly](https://github.com/i-net-software/JWebAssembly): Java bytecode to WebAssembly compiler.
+* Native: [gcj](https://en.wikipedia.org/wiki/GNU_Compiler_for_Java): GCC Java front-end
+* JS: [Jsweet](http://www.jsweet.org/): A Java to Javascript transpiler.
 
 ### Reading
 
