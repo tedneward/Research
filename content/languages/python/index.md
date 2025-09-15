@@ -29,17 +29,31 @@ summary=A dynamic language and platform.
 
 Not sure if this is a library or an implementation or a tool, it's sort of all three: [VPython](https://vpython.org/), 3D Programming for Ordinary Mortals
 
-## Language extensions and/or libraries close to the language
+### Language extensions and/or libraries close to the language
 
 * [metap](https://github.com/baziotis/metap): Metaprogramming in Python. Automatic augmentation/rewrite of Python code.
 * [bytecode](https://bytecode.readthedocs.io/) ([Source](https://github.com/MatthieuDartiailh/bytecode)): Python module to modify bytecode
 * [`dis`: Disassembler for Python bytecode](https://docs.python.org/3/library/dis.html): package in the Python distribution, contains a list of all the Python VM bytecodes
 * [Pyrefly](https://pyrefly.org/): A faster Python type checker written in Rust
 
-## FFI
+### FFI
 
 * [JPype](https://jpype.readthedocs.io/en/latest/userguide.html): A Python module that provides seamless access to Java libraries from Python using JNI. ([Source](https://github.com/jpype-project/jpype))
 * [pyobjc](https://pyobjc.readthedocs.io/en/latest/) ([Source](https://github.com/ronaldoussoren/pyobjc)): The Python-to-Objective-C bridge
+
+### Debugging
+
+- Let's Create a Debugger Together [Source](https://github.com/parttimenerd/python-dbg)
+
+    - Part 1: https://mostlynerdless.de/blog/2023/09/20/lets-create-a-python-debugger-together-part-1/
+    - Part 2: https://mostlynerdless.de/blog/2023/10/06/lets-create-a-python-debugger-together-part-2/
+    - Part 3: https://mostlynerdless.de/blog/2023/11/06/lets-create-a-python-debugger-together-part-3-refactoring/
+
+## Reading
+
+### Articles/Blogs/Essays
+
+- https://www.freecodecamp.org/news/build-smart-expense-tracker-with-python-and-llms/
 
 ## Build tools
 

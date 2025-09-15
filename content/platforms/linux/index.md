@@ -16,6 +16,7 @@ Popular
 * [Mint](https://linuxmint.com/)
 * [MX Linux](https://mxlinux.org/): a family of operating systems (and a cooperative venture between the antiX and MX Linux communities) that are designed to combine elegant and efficient desktops with high stability and solid performance.
 * [Omarchy Linux](https://omarchy.org/): Linux image used by 37signals developers ("a clone of DHH's desktop") -- "an opinionated Arch + Hyprland Setup by DHH"
+* [Q4OS](https://q4os.org/): fast and friendly, desktop oriented operating system based on Debian Linux.
 * [Pop! OS](https://pop.system76.com/)
 * [RefreshOS](https://sourceforge.net/projects/refreshos/): has been known historically for its user-friendliness, speed, and elegant design that focuses on stability and customization. ([Review](https://fossforce.com/2025/08/refreshos-2-5-smooth-stylish-and-almost-spotless-linux/))
 * [Siduction](https://siduction.org/): an operating system based on the Linux kernel and the GNU project. In addition, there are applications and libraries from Debian. The name siduction is a play on two words. The word sid, which is the codename of Debian Unstable, and seduction in the sense of seduce.

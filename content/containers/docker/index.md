@@ -62,6 +62,11 @@ dockerd-rootless-setuptool.sh install
 docker run hello-world
 ```
 
+### [WinBoat](https://github.com/TibixDev/winboat/releases)
+WinBoat is a lightweight, containerized tool that makes it easy to run Windows environments on Linux using Docker. It's like a portable Windows sandbox, but unlike traditional VMs, it doesn't bloat my system and, surprisingly, isn't resource-hungry. To put it simply, the Windows OS runs as a VM inside a Docker container, and it uses WinBoat Guest Server to fetch the necessary data from Windows. You can access it via FreeRDP (or a browser-based interface). This makes it flexible, efficient, and user-friendly.
+
+- https://www.xda-developers.com/winboat-free-open-source-runs-windows-app-on-linux/
+
 ## Reading
 
 ### Articles

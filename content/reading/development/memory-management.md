@@ -7,6 +7,10 @@ Primary reading: [*Garbage Collection Handbook*](https://gchandbook.org/), [*Gar
 
 ## Concepts/terminology
 
+### Memory
+
+- [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf) (PDF): "As CPU cores become both faster and more numerous, the limiting factor for most programs is now, and will be for some time, memory access. Hardware designers have come up with ever more sophisticated memory handling and acceleration techniques–such as CPU caches–but these cannot work optimally without some help from the programmer. Unfortunately, neither the structure nor the cost of using the memory subsystem of a computer or the caches on CPUs is well understood by most programmers. This paper explains the structure of memory subsystems in use on modern commodity hardware, illustrating why CPU caches were developed, how they work, and what programs should do to achieve optimal performance by utilizing them."
+
 ### Memory Allocation schemes (high-level)
 
 * **Static**: The compiler, at the time of compilation (or the program's startup, either approach can work) has knowledge of the desired allocations, and creates space for them out of somewhere in the process' available space. These locations are fixed throughout the lifetime of the program, and cannot be expanded or shrunk--they are literally static throughout the entirety of the application's life. This is how C/C++ handle `static`-modified variable declarations, for example. Most C/C++ globals fall into this category.

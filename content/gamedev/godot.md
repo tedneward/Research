@@ -18,3 +18,8 @@ The officially supported languages for Godot are GDScript, Visual Scripting, C#,
 
 [Fox](https://github.com/uralys/fox): CLI and Components for your Godot app
 
+## Reading
+
+### Articles/Blogs/Essays
+
+- https://www.freecodecamp.org/news/learn-game-development-by-building-your-first-platformer-with-godot/

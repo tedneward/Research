@@ -3,9 +3,13 @@ tags=hardware
 summary=Collection of links and notes about self-contained portable computers.
 ~~~~~~
 
+## ASUS
+
+- ProArt P16 https://www.asus.com/us/laptops/for-creators/proart/proart-p16-h7606/
+
 ## Linux pre-installed
-[KFocus](https://kfocus.org)
-- https://kfocus.org/order/order-ir16.html 16" (with numeric keypad)
+
+[KFocus](https://kfocus.org) - https://kfocus.org/order/order-ir16.html 16" (with numeric keypad)
 
 [Slimbook](https://slimbook.com/en/)
 
@@ -18,4 +22,3 @@ summary=Collection of links and notes about self-contained portable computers.
 ## Other portable computing
 
 Beepy: [Review: Beepy, a palm-sized Linux hacking playground](https://hackaday.com/2023/08/07/review-beepy-a-palm-sized-linux-hacking-playground/)
-

@@ -246,7 +246,7 @@ My ontology:
 * Lua: Imperative, prototypal, scripting
 * Python: imperative, glue, dynamic, scripting
 
-### [Memory management](/reading/software/memory-management.html)
+### [Memory management](/reading/development/memory-management.html)
 Languages often break down to automatically-managed memory vs. manually-managed, but most of the time that means heap management; static and stack allocation are (almost?) always automatically managed by virtue of their allocation schemes.
 
 ### Language execution types
