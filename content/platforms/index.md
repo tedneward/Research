@@ -74,6 +74,39 @@ E-commerce (alternatives to [Shopify](https://www.shopify.com/), [Ecwid](https:/
 * [Vendure](https://www.vendure.io/): Headless e-commerce platform [Source](https://github.com/vendure-ecommerce/vendure)
 * [Vue Storefront](https://www.vuestorefront.io/): Frontend for e-commerce platform [Source](https://github.com/vuestorefront/vue-storefront)
 
+| Name                                                       |                                        Description                                         | Framework |
+| :--------------------------------------------------------- | :----------------------------------------------------------------------------------------: | :-------: |
+| C#: [Grandnode](https://github.com/grandnode/grandnode)        | A free and Open Source Ecommerce Shopping Cart solution based on ASP.NET CORE and MongoDB. |  ASP.NET  |
+| C#: [nopCommerce](https://github.com/nopSolutions/nopCommerce) |                 A free open-source ecommerce shopping cart (ASP.NET Core).                 |  ASP.NET  |
+| Elixir: [Avia](https://github.com/aviacommerce/avia) | Avia is written in Elixir and leverages all the benefits of the Erlang runtime. It comes with ElasticSearch and Kibana out of the box. |  Phoenix  |
+| Go: [QOR](https://github.com/qor/qor) | QOR is a set of libraries written in Go that abstracts common features needed for business applications, CMSs, and E-commerce systems. |   None    |
+| Java: [Shopizer](https://github.com/shopizer-ecommerce/shopizer) | An open customizable e-commerce solution to help you create secure, fast and reliable online stores, marketplaces and B2B applications. |  Spring   |
+| JS: [Reaction](https://github.com/reactioncommerce/reaction)       |   Reaction is a customizable, real-time reactive, JavaScript commerce platform.    |  Meteor   |
+| JS: [Vue Storefront](https://github.com/DivanteLtd/vue-storefront) | PWA for eCommerce. 100% offline, platform agnostic, headless, Magento 2 supported. |  Magento  |
+| JS: [Svelte Commerce](https://github.com/itswadesh/svelte-commerce) |             eCommerce storefront for Litekart.in, Shopify, MedusaJs               |   Node    |
+| JS: [Vendure](https://github.com/vendure-ecommerce/vendure) | Headless commerce platform built with customization and developer experience in mind.     |   Nest.js |
+| JS: [MedusaJS](https://github.com/medusajs/medusa) | A customizable headless commerce platform focused on delivering an exceptional developer experience.| Express.js |
+| JS: [Evershop](https://evershop.io/) | Your All-in-One open source ecommerce solution. | Express.js |
+| PHP: [Aimeos-Laravel](https://github.com/aimeos/aimeos-laravel)              |                  Aimeos is a professional, full-featured and ultra fast e-commerce package for Laravel                   |   Laravel   |
+| PHP: [Avored](https://github.com/avored/laravel-ecommerce)                   |                                      Avored is a Laravel Open Source Shopping Cart                                       |   Laravel   |
+| PHP: [Bagisto](https://github.com/bagisto/bagisto)                           |            A Free and Opensource laravel eCommerce framework built for all to build and scale your business.             |   Laravel   |
+| PHP: [Magento Open source](https://magento.com/products/magento-open-source) | Magento Open Source eCommerce delivers the features you need to build and grow a unique online store from the ground up. |   Magento   |
+| PHP: [Opencart](https://github.com/opencart/opencart)                        |              A free shopping cart system. OpenCart is an open source PHP-based online e-commerce solution.               |  Opencart   |
+| PHP: [OroCommerce](https://github.com/oroinc/orocommerce-application)        |                                  An open-source Business to Business Commerce platform.                                  | OroCommerce |
+| PHP: [PrestaShop](https://github.com/PrestaShop/PrestaShop)                  |                            PrestaShop offers a fully scalable open source ecommerce solution.                            | PrestaShop  |
+| PHP: [Sylius](https://github.com/Sylius/Sylius)                              |                             Sylius is an Open Source eCommerce Framework on top of Symfony.                              |   Symfony   |
+| PHP: [Thelia](https://github.com/thelia/thelia)                              |               Thelia is an open source tool for creating e-business websites and managing online content.                |   Symfony   |
+| PHP: [Vvveb](https://github.com/givanz/Vvveb)                                |              Powerful and easy to use CMS to build websites, blogs or eCommerce stores.                                  |  Vvvveb     |
+| PHP: [Yupe](https://github.com/yupe/yupe)                                    |                          Yupe! is an open source Yiiframework-based online e-commerce solution.                          |     Yii     |
+| PHP: [WooCommerce](https://github.com/woocommerce/woocommerce)                              |               A customizable, open-source ecommerce platform built on WordPress.                |   WordPress   |
+| Python: [Django-Oscar](https://github.com/django-oscar/django-oscar) |                               A domain-driven e-commerce for Django                                |  Django   |
+| Python: [Saleor](https://github.com/mirumee/saleor)                  | A modular, high performance e-commerce storefront built with Python, GraphQL, Django, and ReactJS. |  Django   |
+| Python: [Shuup](https://github.com/shuup/shuup)                      |                          A Django-based open source e-commerce platform.                           |  Django   |
+| Ruby: [Sharetribe](https://github.com/sharetribe/sharetribe) | Sharetribe Go is an open source marketplace platform, also available with SaaS model. See also Sharetribe Flex, a headless marketplace solution. | Ruby on Rails |
+| Ruby: [Solidus](https://github.com/solidusio/solidus)        |       Solidus is a complete open source ecommerce solution built with Ruby on Rails. It is a fork of [Spree](https://spreecommerce.org/).        | Ruby on Rails |
+| Ruby: [Spree](https://github.com/spree/spree)                |                           Spree is a complete, modular & API-driven open source ecommerce solution for Ruby on Rails.                            | Ruby on Rails |
+
+
 ELT / ETL (alternatives to [Fivetran](https://fivetran.com/)):
 
 * [Airbyte](https://airbyte.io/): Data integration platform [Source](https://github.com/airbytehq/airbyte)
