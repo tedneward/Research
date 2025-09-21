@@ -22,7 +22,7 @@ tags=ai
 
 - ["You're Building AI Apps Backwards: The Model-Product Problem"](https://thenewstack.io/youre-building-ai-apps-backwards-the-model-product-problem/)
 
-### Criticism
+## Criticism
 
 - ["The Copilot Delusion"](https://deplet.ing/the-copilot-delusion/)
 - ["My new hobby: watching AI slowly drive Microsoft employees insane"](https://www.reddit.com/r/ExperiencedDevs/comments/1krttqo/my_new_hobby_watching_ai_slowly_drive_microsoft/)
@@ -34,7 +34,14 @@ tags=ai
 - [We need to stop pretending AI is intelligent -- here's how](https://theconversation.com/we-need-to-stop-pretending-ai-is-intelligent-heres-how-254090)
 - [Aritificial intelligence is not intelligent at all](https://www.basicthinking.com/artificial-intelligence-is-not-intelligent-at-all-say-researchers/)
 - [AI: Not That Smart](https://columbiacommunityconnection.com/the-dalles/column-ai-not-that-smart)
-- 
+- AI Anthropomorphism
+
+    - [Why do Humans Anthropomorphize AI?](https://www.sciencefriday.com/segments/ai-human-personification/)
+    - [Are You ...?](https://blog.apaonline.org/2024/08/20/are-you-anthropomorphizing-ai-2/)
+    - [We need to stop ...](https://www.reddit.com/r/singularity/comments/1845l4p/we_need_to_stop_anthropomorphizing_ai/)
+    - [The Four Degrees of ...](https://www.nngroup.com/articles/anthropomorphism/)
+    - [Why Human-like is not human](https://www.copyright.com/blog/anthropomorphizing-ai-why-human-like-is-not-human/)
+    - [Anthropomorphism and AI: hype and fallacy](https://link.springer.com/article/10.1007/s43681-024-00419-4) ([PDF](./s43681-024-00419-4.pdf)): "As a form of hype, anthropomorphism is shown to exaggerate AI capabilities and performance by attributing human-like traits to systems that do not possess them. As a fallacy, anthropomorphism is shown to distort moral judgments about AI, such as those concerning its moral character and status, as well as judgments of responsibility and trust. By focusing on these two dimensions of anthropomorphism in AI, the essay highlights negative ethical consequences of the phenomenon in this field."
 
 ## Tools
 
@@ -96,3 +103,8 @@ Java:
 * [10 Github Repositories to Master Reinforcement Learning](https://www.kdnuggets.com/10-github-repositories-master-reinforcement-learning)
 * [Machine Learning for Software Engineering](https://github.com/saltudelft/ml4se): A curated list of papers, theses, datasets, and tools related to the application of Machine Learning for Software Engineering.
 * [Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2023.pdf)
+
+### Semantic Entity Resolution (Knowledge Graphs) (?)
+
+* [The Rise of Semantic Entity Resolution](https://towardsdatascience.com/the-rise-of-semantic-entity-resolution/)
+
