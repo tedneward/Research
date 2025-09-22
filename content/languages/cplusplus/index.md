@@ -42,8 +42,17 @@ Frequently conjoined with [C](/languages/c); Bjarne wanted C++ to be "as close a
 * [GCC Design-by-Contract invariant plugin](https://github.com/GavinRay97/gcc-invariant-plugin) and [related blog post](https://gavinray97.github.io/blog/adding-invariant-to-cpp-design-by-contract)
 * [The architecture of Montana: an open and extensible programming environment with an incremental C++ compiler](https://dl.acm.org/doi/10.1145/291252.288284)
 * [OpenC++](https://chibash.github.io/public/opencxx/): a version of C++ with a Metaobject Protocol. [Source](https://opencxx.sourceforge.net/)
+* [Proxy](https://github.com/microsoft/proxy): "Proxy" is a modern C++ library that helps you use polymorphism (a way to use different types of objects interchangeably) without needing inheritance. "Proxy" was created by Microsoft engineers and has been used in the Windows operating system since 2022. For many years, using inheritance was the main way to achieve polymorphism in C++. However, new programming languages like Rust offer better ways to do this. We have improved our understanding of object-oriented programming and decided to use pointers in C++ as the foundation for "Proxy". Specifically, the "Proxy" library is designed to be:
+
+	* Portable: "Proxy" was implemented as a header-only library in standard C++20. It can be used on any platform while the compiler supports C++20. The majority of the library is freestanding, making it feasible for embedded engineering or kernel design of an operating system.
+	* Non-intrusive: An implementation type is no longer required to inherit from an abstract binding.
+	* Well-managed: "Proxy" provides a GC-like capability that manages the lifetimes of different objects efficiently without the need for an actual garbage collector.
+	* Fast: With typical compiler optimizations, "Proxy" produces high-quality code that is as good as or better than hand-written code. In many cases, "Proxy" performs better than traditional inheritance-based approaches, especially in managing the lifetimes of objects.
+	* Accessible: Learned from user feedback, accessibility has been significantly improved with intuitive syntax, good IDE compatibility, and accurate diagnostics.
+	* Flexible: Not only member functions, the "abstraction" of "Proxy" allows any expression to be polymorphic, including free functions, operators, conversions, etc. Different abstractions can be freely composed on demand. Performance tuning is supported for experts to balance between extensibility and performance.
 
 ## References
+
 - https://cppreference.com/
 	- cppman: C++ manual pages for Linux/MacOS
 		- https://github.com/aitjcize/cppman

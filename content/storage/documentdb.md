@@ -15,4 +15,4 @@ The project comprises of two PostgreSQL primary components, which work together 
 ## Articles
 
 - ["DocumentDB: Open-Source Announcement"](https://opensource.microsoft.com/blog/2025/01/23/documentdb-open-source-announcement/)
-
+- https://venturebeat.com/data-infrastructure/aws-microsoft-and-google-unite-behind-linux-foundation-documentdb-database-to-cut-enterprise-costs-and-limit-vendor-lock-in

@@ -16,6 +16,12 @@ summary=Collection of links about displays that rest on your desk or mount on th
 
 * [KnowledgeBase](https://www.displayninja.com/knowledge-base/)
 
+## Half-height "control" monitors
+
+- https://www.corsair.com/us/en/p/monitors/cc-9011306-ww/xeneon-edge-14-5-lcd-touchscreen-cc-9011306-ww (Reviewed, led to the next two as well)
+- https://www.bhphotovideo.com/c/product/1736938-REG/asus_proart_pa147cdv_14_full.html
+- https://www.amazon.com/VSDISPLAY-Touchscreen-2560x720-Stretched-Autocopy/dp/B0CPKYBZYN
+
 ## AR/MR glasses
 
 * [These XR glasses gave me a 200-inch screen to work with - and now I might ditch my monitors](https://www.zdnet.com/article/these-xr-glasses-gave-me-a-200-inch-screen-to-work-with-and-now-i-might-ditch-my-monitors/): Xreal One Pro AR - [link](https://us.shop.xreal.com/products/xreal-one-pro) *(As of 1 Sep 2025, ~USD$650)*

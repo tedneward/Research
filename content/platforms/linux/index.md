@@ -10,6 +10,7 @@ Distributions ([DistroWatch](https://distrowatch.com/)):
 Popular
 
 * [AnduinOS](https://anduinos.com): looks just like Windows, built by a Microsoft engineer
+* [Asmi Linux](https://teejeetech.com/asmi/): bringing Xfce desktop to a more manageable state
 * [Bazzite](https://bazzite.gg/): a custom Fedora Atomic image built with cloud native technology that brings the best of Linux gaming to all of your devices - including your favorite handheld.
 * [CachyOS](https://cachyos.org/): performance-minded distribution ([Review](https://fossforce.com/2025/08/cachyos-distrowatchs-top-distro-has-speed-polish-and-features/))
 * [CommodoreOS](https://www.commodoreos.net/): A Commodore-themed talking Linux desktop, complete with hundreds of games, makes for the biggest distro we've seen yet.

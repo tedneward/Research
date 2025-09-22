@@ -6,7 +6,6 @@ tags=ai
 ~~~~~~
 
 ## Uncategorized (yet)
-- https://towardsdatascience.com/langgraph-101-lets-build-a-deep-research-agent/ : Learn LangGraph fundamentals from Google’s open-source full-stack implementation
 
 ## General
 
@@ -21,19 +20,24 @@ tags=ai
     - ["Turning a Markdown Spec into a Database - With Test Data!"](https://thenext.dev/articles/video/turning-a-markdown-spec-into-a-database-with-test-data/)
 
 - ["You're Building AI Apps Backwards: The Model-Product Problem"](https://thenewstack.io/youre-building-ai-apps-backwards-the-model-product-problem/)
+- ["AI Models Need a Virtual Machine"](https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/)
 
 ## Criticism
 
 - ["The Copilot Delusion"](https://deplet.ing/the-copilot-delusion/)
+- [The Hidden Costs of Coding With Generative AI](https://sloanreview.mit.edu/article/the-hidden-costs-of-coding-with-generative-ai/)
 - ["My new hobby: watching AI slowly drive Microsoft employees insane"](https://www.reddit.com/r/ExperiencedDevs/comments/1krttqo/my_new_hobby_watching_ai_slowly_drive_microsoft/)
 - Where's Your Ed At?
 
     - [Reality Check](https://www.wheresyoured.at/reality-check/)
     - [AI Bubble 2027](https://www.wheresyoured.at/ai-bubble-2027/)
     - [How to Argue with an AI Booster](https://www.wheresyoured.at/how-to-argue-with-an-ai-booster/)
+    - [The Haters Guide to The AI Bubble](https://www.wheresyoured.at/the-haters-gui/)
+
 - [We need to stop pretending AI is intelligent -- here's how](https://theconversation.com/we-need-to-stop-pretending-ai-is-intelligent-heres-how-254090)
 - [Aritificial intelligence is not intelligent at all](https://www.basicthinking.com/artificial-intelligence-is-not-intelligent-at-all-say-researchers/)
 - [AI: Not That Smart](https://columbiacommunityconnection.com/the-dalles/column-ai-not-that-smart)
+- [Building AI Products In The Probabilistic Era](https://giansegato.com/essays/probabilistic-era): "Just as physics underwent a conceptual revolution when we moved past Newton's deterministic universe, and into a strange and counterintuitive place made by wave functions, software too is undergoing its own quantum shift. We're leaving a world where code reliably and deterministically takes certain inputs to produce specific outputs, and entering a very different one where machines now produce statistical distributions instead. *Building probabilistic software is like nothing we've done before.*"
 - AI Anthropomorphism
 
     - [Why do Humans Anthropomorphize AI?](https://www.sciencefriday.com/segments/ai-human-personification/)
@@ -49,7 +53,7 @@ tags=ai
 
 ## Tutorials
 
-* [LangGraph 101: Let's build a deep research agent](https://towardsdatascience.com/langgraph-101-lets-build-a-deep-research-agent/)
+- https://towardsdatascience.com/langgraph-101-lets-build-a-deep-research-agent/ : Learn LangGraph fundamentals from Google’s open-source full-stack implementation
 
 ## Reading
 
@@ -61,6 +65,8 @@ tags=ai
     4. Explore *Generative AI on AWS* with Chris Fregly Antje Barth Shelbee Eigenbrode for an enterprise level challenges.
     5. Dive into the beauty of engineering a GenAI Application with *AI Engineering* by Chip Huyen . It will level you up to think from the whole system perspective.
     6. *Build Generative AI Services with FastAPI* with Ali Parandeh, CEng . A very practical book to knot all you have learnt and will help you in building a GenAI system.
+
+* [LangGraph101: Let's build a deep research agent](https://towardsdatascience.com/langgraph-101-lets-build-a-deep-research-agent/)
 
 ## Definitions
 
@@ -79,6 +85,12 @@ Java:
 ### Natural Language Processing
 
 * [You Don't Need Backpropagation To Train Neural Networks Anymore](https://ai.gopubby.com/you-dont-need-backpropagation-to-train-neural-networks-anymore-e989d75564cb)
+
+### Natural Language Programming
+
+* [Extract, Edit, Apply](https://githubnext.com/projects/extract-edit-apply/)
+* [A design pattern for AI](https://dsyme.net/2025/02/12/extract-edit-apply/)
+* [On natural language programming](https://dsyme.net/2025/08/27/on-natural-language-programming/)
 
 ### [Large Language Models (LLMs)](/ai/llm/)
 

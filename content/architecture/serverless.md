@@ -3,6 +3,13 @@ tags=architecture, cloud, distribution
 summary=The serverless architecture, usually implying smaller atoms of functionality executing on cloud servers.
 ~~~~~~
 
+## Reading
+
+### Articles/Blogs/Essays
+
+* [Serverless apps: Architecture, patterns, and Azure implementation](https://docs.microsoft.com/en-us/dotnet/standard/serverless-architecture/)
+* [Serverless Design Patterns and Best Practices](https://www.packtpub.com/free-ebooks/serverless-design-patterns-and-best-practices) - Brian Zambrano (Packt account *required*)
+
 [Serverless Patterns](https://medium.com/@taibi.davide/serverless-patterns-e1fb3f1d753e) ([Publication](https://www.researchgate.net/publication/340121613_Serverless_Cloud_Computing_Function-as-a-Service_Patterns_A_Multivocal_Literature_Review)):
 * Orchestration and Aggregation
     * Aggregator (aka "durable functions")
@@ -40,3 +47,4 @@ summary=The serverless architecture, usually implying smaller atoms of functiona
 * Authorization Patterns
     * The Gatekeeper
     * Valet Key
+

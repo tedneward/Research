@@ -25,6 +25,9 @@ Collection of links about and around hardware.
 ## Desktops
 [Skytech Gaming](https://skytechgaming.com/custom-pc-builder/)
 
+### Mini PCs
+[HIGOLEPC](https://www.amazon.com/stores/HIGOLEPC/page/AD7311E1-0B35-432D-A921-5E5D4B2C7AA9)
+
 ## Phones/tablets
 
 [Light](https://www.thelightphone.com/shop/products/light-phone-iii): A "dumbphone" that still does text, email, etc.

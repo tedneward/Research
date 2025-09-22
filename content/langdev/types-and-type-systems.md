@@ -3,7 +3,7 @@ tags=reading, language, language development
 summary=Reading and notes about types and type systems in programming languages (and related).
 ~~~~~~
 
-A [type](https://en.wikipedia.org/wiki/Type_system), also known as a data type, is a classification identifying one of various types of "things" used within a programming language or platform. More prosaically, a type describes the possible values of a "thing" (such as a variable), the semantic meaning of that "thing", and how the values of that "thing" can be stored in memory.
+A [type](https://en.wikipedia.org/wiki/Type_system), also known as a data type, is a classification identifying one of various types of "things" used within a programming language or platform. More prosaically, a type describes the possible values of a "thing" (such as a variable), the semantic meaning of that "thing", and how the values of that "thing" can be stored in memory. This can often help make programs more solid and easily understood: ["I think programmers who doubt that type systems help are basically the tech equivalent of an anti-vaxxer"](https://danluu.com/empirical-pl/)
 
 A type system is a collection of rules that assign a property called type to various constructs in a computer program, such as variables, expressions, functions or modules, with the end goal of reducing the number of bugs by verifying that data is represented properly throughout a program. 
 
@@ -104,6 +104,8 @@ Note that while these terms usually are applied most directly to programming lan
 [From PLZoo](https://github.com/cdiggins/type-inference): Type Inference Library written in TypeScript (used in [Heron](/languages/heron) and [Cat](/languages/cat)).
 
 ## Reading
+
+* [A large scale study of programming languages and code quality in github](https://dl.acm.org/doi/10.1145/2635868.2635922): "What is the effect of programming languages on software quality? This question has been a topic of much debate for a very long time. In this study, we gather a very large data set from GitHub (729 projects, 80 Million SLOC, 29,000 authors, 1.5 million commits, in 17 languages) in an attempt to shed some empirical light on this question. This reasonably large sample size allows us to use a mixed-methods approach, combining multiple regression modeling with visualization and text analytics, to study the effect of language features such as static v.s. dynamic typing, strong v.s. weak typing on software quality. By triangulating findings from different methods, and controlling for confounding effects such as team size, project size, and project history, we report that language design does have a significant, but modest effect on software quality. Most notably, it does appear that strong typing is modestly better than weak typing, and among functional languages, static typing is also somewhat better than dynamic typing. We also find that functional languages are somewhat better than procedural languages. It is worth noting that these modest effects arising from language design are overwhelmingly dominated by the process factors such as project size, team size, and commit size. However, we hasten to caution the reader that even these modest effects might quite possibly be due to other, intangible process factors, e.g., the preference of certain personality types for functional, static and strongly typed languages." 
 
 * [Type Theory for All](https://www.typetheoryforall.com/): podcasts about type theory and applications
 

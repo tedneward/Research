@@ -1,15 +1,18 @@
-title=Event-Driven Architecture
+title=Event-Driven/Event-Sourcing Architecture
 tags=architecture, event
 summary=An approach to building systems via events.
 ~~~~~~
 
 ## Reading
 
-### Articles
+### Articles/Blogs/Essays
 
+- [Compilers Aren't Just for Programming Languages](https://www.architecture-weekly.com/p/compilation-isnt-just-for-programming)
+- [Exploring CQRS and Event Sourcing](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/jj554200(v=pandp.10)) - Dominic Betts, Julián Domínguez, Grigori Melnik, Mani Subramanian, Fernando Simonazzi ([EPUB, PDF](http://www.microsoft.com/en-us/download/details.aspx?id=34774) - [code samples](http://go.microsoft.com/fwlink/p/?linkid=258571))
+- Six Event-Driven Archicture Patterns: [Part 1](https://medium.com/wix-engineering/6-event-driven-architecture-patterns-part-1-93758b253f47) [Part 2](https://medium.com/wix-engineering/6-event-driven-architecture-patterns-part-2-455cc73b22e1)
+- ["The Case for Event-Driven Architecture with Mediator Topology"](https://www.infoq.com/articles/eda-mediator/)
 - [The What, Why, and How of Event-Driven Programming](https://quix.io/blog/what-why-how-of-event-driven-programming)
 - [What do commands do in Event Sourcing](https://ismaelcelis.com/posts/what-do-commands-do-in-event-sourcing/)
-- [Compilers Aren't Just for Programming Languages](https://www.architecture-weekly.com/p/compilation-isnt-just-for-programming)
 
 Rahul Krishnan's blog:
 

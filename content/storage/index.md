@@ -112,6 +112,8 @@ Feels like a database implementation is made up of primarily three components:
     14. Vector (Pinecone, Chroma)
     15. Embedded (SQLite, RocksDB, BerkeleyDB)
 
+* [Why Semantic Layers Matter — and How to Build One with DuckDB](https://motherduck.com/blog/semantic-layer-duckdb-tutorial/)
+
 ## Books
 
 * [Extracting Data from NoSQL Databases: A Step towards Interactive Visual Analysis of NoSQL Data](http://publications.lib.chalmers.se/records/fulltext/155048.pdf) - Petter Nasholm (PDF)
