@@ -57,10 +57,16 @@ tags=ai
 
         "And that’s it."
 
+- [OpenAI Realizes It Made a Terrible Mistake](https://futurism.com/openai-mistake-hallucinations): "In a [paper](https://arxiv.org/abs/2509.04664) published last week, a team of OpenAI researchers attempted to come up with an explanation. They suggest that large language models hallucinate because when they're being created, they're incentivized to guess rather than admit they simply don't know the answer. ... In simple terms, in other words, guessing is rewarded — because it might be right — over an AI admitting it doesn't know the answer, which will be graded as incorrect no matter what. As a result, through "natural statistical pressures," LLMs are far more prone to hallucinate an answer instead of "acknowledging uncertainty.""
+- [Hallucinations getting worse as AI models get more capable](https://futurism.com/ai-industry-problem-smarter-hallucinating)
 
 ## Tools
 
 * [Lovable](https://lovable.dev/): Create apps and websites by chatting with AI
+* ChatGPT-5
+
+    - https://futurism.com/gpt-5-disaster
+    - [ChatGPT Is Blowing Up Marriages as Spouses Use AI to Attack Their Partners](https://futurism.com/chatgpt-marriages-divorces)
 
 ## Tutorials
 
