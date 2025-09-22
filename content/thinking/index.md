@@ -205,3 +205,5 @@ summary=A collection of links (usually to articles) about the various forms of t
 ## Random shit that I find interesting but not high priority
 
 * ["Learn sailing mechanics without leaving dry land"](https://hackaday.com/2024/01/20/learn-sailing-mechanics-without-leaving-dry-land/)
+* ["Fundamental Theories of Intent Science"](https://chrisbora.substack.com/p/fundamental-theories-of-intent-science) -- I really have little idea what this is or what these theories collapse to
+

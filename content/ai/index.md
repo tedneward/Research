@@ -26,6 +26,7 @@ tags=ai
 
 - ["The Copilot Delusion"](https://deplet.ing/the-copilot-delusion/)
 - [The Hidden Costs of Coding With Generative AI](https://sloanreview.mit.edu/article/the-hidden-costs-of-coding-with-generative-ai/)
+- [The Hidden Costs of AI Coding Assistants: Insights from a Senior Developer](https://blog.devgenius.io/the-hidden-costs-of-ai-coding-assistants-insights-from-a-senior-developer-76274fe6b345)
 - ["My new hobby: watching AI slowly drive Microsoft employees insane"](https://www.reddit.com/r/ExperiencedDevs/comments/1krttqo/my_new_hobby_watching_ai_slowly_drive_microsoft/)
 - Where's Your Ed At?
 
@@ -46,6 +47,16 @@ tags=ai
     - [The Four Degrees of ...](https://www.nngroup.com/articles/anthropomorphism/)
     - [Why Human-like is not human](https://www.copyright.com/blog/anthropomorphizing-ai-why-human-like-is-not-human/)
     - [Anthropomorphism and AI: hype and fallacy](https://link.springer.com/article/10.1007/s43681-024-00419-4) ([PDF](./s43681-024-00419-4.pdf)): "As a form of hype, anthropomorphism is shown to exaggerate AI capabilities and performance by attributing human-like traits to systems that do not possess them. As a fallacy, anthropomorphism is shown to distort moral judgments about AI, such as those concerning its moral character and status, as well as judgments of responsibility and trust. By focusing on these two dimensions of anthropomorphism in AI, the essay highlights negative ethical consequences of the phenomenon in this field."
+    - [A Vaccine](https://commoncog.com/vaccine-anthropomorphism-of-ai/): "Here is an explanation that I finally settled on, based on a tweet by prominent AI researcher and educator Andrej Karpathy. When I first tried it out on my dad, he kept quiet for a little bit, and then shifted the way he saw and used LLMs. I’ve tested this on a few friends since, of varying levels of technical sophistication, and am pleased to report that it works quite well. This explanation is useful but not accurate. I’ll give you the explanation, explain why it works, and then give a brief sketch on how it is not true. Finally, I’ll argue that even if it is not accurate, this explanation points you towards more productive mental models of LLMs.
+        1. "Imagine that you can visualise words like stars in the sky. The position of the words relative to other words are based on the relationships between each of the words in your language (that is: how closely and how frequently a word appears next to another word in all the sentences ever written). What is important to know is that you can draw arrows from one star to another! These arrows have some surprising properties. One property is that the arrow from the word ‘king’ to the word ‘queen’ is the same as ‘king - boy + girl’. On top of that, let’s imagine that you throw up a starfield for English and a starfield for Spanish. It turns out that if you can draw a one-to-one mapping between the two starfields, the king to queen arrow is the same in both languages! This was a very surprising finding when it first came out!
+        2. " What a Large Language Model is is that it is a very sophisticated auto complete. But it is a bit more than that.
+        3. "When you ask “what are the 10 best places to visit in Bali” the AI will give you a plausible-sounding answer. But the way it gives you that answer is that during the AI’s training, some human somewhere wrote an answer like “the top 10 places to visit in London” and “the top 10 places to visit in Tokyo” and “the top 10 places to visit in New York” based on some cursory research and Google searches. Then the AI took those written examples, and memorised the statistical relationships between the sentences, which you can imagine like the arrows between large clusters of stars. Then when you ask “what are the 10 best places in Bali or Singapore or Lisbon”, it just moves the arrows it learnt over to the part of its starfield that has concepts related to Bali, Singapore and Lisbon, and spits out something similar to what the human trainer wrote.
+        4. "Notice that this is not thinking. The LLM is doing autocomplete, but using this ‘arrow in the starfield’ property to give you very good, plausible-sounding, novel answers.
+        5. "But because it writes so eloquently, and answers you like a human would, you think that it’s actually intelligent and sentient. I suppose you could say that it is ‘intelligent’ (by some definition of ‘intelligent’) but it is not a person. It doesn’t understand concepts the way a human does. What it is relying on is some complex version of this ‘arrow in a starfield’ property.
+        6. "You may get better answers by constraining it to a smaller set of documents. So if you give it a bunch of papers, and ask it for themes or a summary of those papers, it may give you better answers than if you assumed those papers were in its original training corpus.
+
+        "And that’s it."
+
 
 ## Tools
 
@@ -91,6 +102,7 @@ Java:
 * [Extract, Edit, Apply](https://githubnext.com/projects/extract-edit-apply/)
 * [A design pattern for AI](https://dsyme.net/2025/02/12/extract-edit-apply/)
 * [On natural language programming](https://dsyme.net/2025/08/27/on-natural-language-programming/)
+* [Why Kind of Programming is Natural Language Programming?](https://dsyme.net/2025/09/02/what-kind-of-programming-is-natural-language-programming/)
 
 ### [Large Language Models (LLMs)](/ai/llm/)
 

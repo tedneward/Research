@@ -80,7 +80,7 @@ Tomas Petricek's writings on the subject:
 * [Control Flow - The Other Half of Integration Patterns](https://www.enterpriseintegrationpatterns.com/ramblings/queues_control_flow.html): "When Bobby and I wrote Enterprise Integration Patterns, we naturally spent most of the time on the data flow of messaging systems: how messages are generated, transformed, and routed. Some patterns, especially Endpoint Patterns such as Polling Consumer or Event-Driven Consumer clearly have a ring of control flow to it, but we never actually mention the term in the entire book (funnily there is one occurrence in Recipient List, but it's actually a verb and object: "In order for the Recipient List to control flow of information"). The term gets a few mentions in the blog, although we conclude that "Message-oriented API's steer towards a data flow architecture". So, it's time to make control flow a first-class citizen."
 * [Software Architecture Patterns](http://www.oreilly.com/programming/free/software-architecture-patterns.csp) (email address *requested*, not required) - Mark Richards
 * [Source Making Design Patterns and UML](https://sourcemaking.com/design_patterns)
-
+* [Building a Plugin System (for Rust): Native Libraries vs Scripting Language vs WebAssembly vs Expression Engine](https://kerkour.com/rust-plugins): Weighing different plugin styles/designs against one another
 
 ## Interesting exemplars/templates/links
 

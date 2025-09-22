@@ -123,3 +123,8 @@ The AV Access iDock D23 is a game-changer for gamers and multitaskers. Its abili
 ## Reading
 
 ["Slow WiFi? Add a wired network to your home without an Ethernet cable - here's how"](https://www.zdnet.com/home-and-office/networking/slow-wi-fi-add-a-wired-network-to-your-home-without-an-ethernet-cable-heres-how/)
+
+## Miscellaneous
+
+TUO Circadian Healthy Light (bulbs) - https://www.thetuolife.com/?rfsn=7479865.7959934
+

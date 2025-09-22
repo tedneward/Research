@@ -3,11 +3,32 @@ tags=reading, language, language development
 summary=Reading and notes about types and type systems in programming languages (and related).
 ~~~~~~
 
-A [type](https://en.wikipedia.org/wiki/Type_system), also known as a data type, is a classification identifying one of various types of "things" used within a programming language or platform. More prosaically, a type describes the possible values of a "thing" (such as a variable), the semantic meaning of that "thing", and how the values of that "thing" can be stored in memory. This can often help make programs more solid and easily understood: ["I think programmers who doubt that type systems help are basically the tech equivalent of an anti-vaxxer"](https://danluu.com/empirical-pl/)
+A [type](https://en.wikipedia.org/wiki/Type_system), also known as a data type, is a classification identifying one of various types of "things" used within a programming language or platform. More prosaically, a type describes the possible values of a "thing" (such as a variable), the semantic meaning of that "thing", and how the values of that "thing" can be stored in memory.
 
 A type system is a collection of rules that assign a property called type to various constructs in a computer program, such as variables, expressions, functions or modules, with the end goal of reducing the number of bugs by verifying that data is represented properly throughout a program. 
 
 > See ["What is a type system, anyway"](https://lambdaland.org/posts/2023-01-17_what_is_a_type_system_really/): "Type systems provide a way of writing down properties of our programs that we would like to be true, and then mechanically checking that those properties hold. Type systems come in all shapes and sizes; some are more expressive than others. Types are also a great tool to use when actually writing code. Static type systems provide strong guarantees about program behavior at the expense of some friction in programming: dynamic languages make it easy to throw together a prototype, but can become unwieldy or difficult to maintain once the codebase grows. Gradual typing is an increasingly popular method to get the best of both worlds."
+
+Important caveat: A [literature review on the benefits of static types](https://danluu.com/empirical-pl/). Reviews multiple papers: "The summary of the summary is that most studies find very small effects, if any. However, the studies probably don't cover contexts you're actually interested in. If you want the gory details, here's each study, with its abstract, and a short blurb about the study. ...
+
+	* [A Large Scale Study of Programming Languages and Code Quality in Github; Ray, B; Posnett, D; Filkov, V; Devanbu, P](http://dl.acm.org/citation.cfm?id=2635922)
+	* [Do Static Type Systems Improve the Maintainability of Software Systems? An Empirical Study Kleinschmager, S.; Hanenberg, S.; Robbes, R.; Tanter, E.; Stefik, A.](http://pleiad.dcc.uchile.cl/papers/2012/kleinschmagerAl-icpc2012.pdf)
+	* [A controlled experiment to assess the benefits of procedure argument type checking, Prechelt, L.; Tichy, W.F.](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=677186)
+	* [An empirical comparison of C, C++, Java, Perl, Python, Rexx, and Tcl, Prechelt, L.](http://page.mi.fu-berlin.de/prechelt/Biblio/jccpprt_computer2000.pdf)
+	* [Static type systems (sometimes) have a positive impact on the usability of undocumented software; Mayer, C.; Hanenberg, S.; Robbes, R.; Tanter, E.; Stefik, A.](http://swp.dcc.uchile.cl/TR/2012/TR_DCC-20120418-005.pdf)
+	* [How Do API Documentation and Static Typing Affect API Usability? Endrikat, S.; Hanenberg, S.; Robbes, Romain; Stefik, A.](http://users.dcc.uchile.cl/~rrobbes/p/ICSE2014-docstypes.pdf)
+	* [An Experiment About Static and Dynamic Type Systems; Hanenberg, S.](http://courses.cs.washington.edu/courses/cse590n/10au/hanenberg-oopsla2010.pdf)
+	* [Work In Progress: an Empirical Study of Static Typing in Ruby; Daly, M; Sazawal, V; Foster, J.](http://www.cs.umd.edu/~jfoster/papers/plateau09-ruby.pdf)
+	* [Haskell vs. Ada vs. C++ vs. Awk vs. ... An Experiment in Software Prototyping Productivity; Hudak, P; Jones, M.](http://haskell.cs.yale.edu/?post_type=publication&p=366)
+	* [Unit testing isn't enough. You need static typing too; Farrer, E](http://evanfarrer.blogspot.com/2012/06/unit-testing-isnt-enough-you-need.html)
+	* [Gradual Typing of Erlang Programs: A Wrangler Experience; Sagonas, K; Luna, D](http://www.it.uu.se/research/group/hipe/dialyzer/publications/wrangler.pdf)
+	* [0install: Replacing Python; Leonard, T., pt2, pt3](http://roscidus.com/blog/blog/2013/06/09/choosing-a-python-replacement-for-0install/)
+	* [Verilog vs. VHDL design competition; Cooley, J](https://danluu.com/verilog-vs-vhdl/)
+	* [Comparing mathematical provers; Wiedijk, F](http://www.cs.ru.nl/F.Wiedijk/comparison/diffs.pdf)
+	* [Do Programming Languages Affect Productivity? A Case Study Using Data from Open Source Projects; Delory, D; Knutson, C; Chun, S](http://sequoia.cs.byu.edu/lab/files/pubs/Delorey2007a.pdf)
+	* [The Unreasonable Effectiveness of Dynamic Typing for Practical Programs; Smallshire, R](http://vimeo.com/74354480)
+
+	"I like types. I find ML-like languages really pleasant to program in, and if I were king of the world, we'd all use F# as our default managed language. The situation with unmanaged languages is a bit messier. I certainly prefer C++ to C because std::unique_ptr and friends make C++ feel a lot safer than C. I suspect I might prefer Rust once it's more stable. But while I like languages with expressive type systems, I haven't noticed that they make me more productive or less bug prone. Now that you know what my biases are, let me give you my interpretation of the studies. Of the controlled experiments, only three show an effect large enough to have any practical significance. The Prechelt study comparing C, C++, Java, Perl, Python, Rexx, and Tcl; the Endrikat study comparing Java and Dart; and Cooley's experiment with VHDL and Verilog. Unfortunately, they all have issues that make it hard to draw a really strong conclusion."
 
 Most types break out into the following categories:
 

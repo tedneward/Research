@@ -5,7 +5,28 @@ summary=A collection of articles and links on the business side of life.
 tags=business
 ~~~~~~
 
-## Websites
+## Reading
+
+### Websites
+
+[Commoncog](https://commoncog.com/): Commoncog helps business leaders and investors make better decisions in uncertain times, by expanding the set of business scenarios that they recognise in their heads. We research and publish business cases that help you do better, organised according to business concepts, using a theory of accelerated expertise that’s proven to work.
+
+- [Commoncog Syllabus](https://commoncog.com/syllabus/): This syllabus is the recommended path to consume Commoncog’s exploration of business expertise. Start Here.
+- [Goodhart's Law Isn't as Useful as you might think](https://commoncog.com/goodharts-law-not-useful/): "It is descriptive; it tells you of the existence of a phenomenon, but it doesn’t tell you what to do about it or how to solve it. ... The first step is to turn Goodhart’s Law as a narrower, more actionable formulation. The one that I like the most is from Deming contemporary Donald Wheeler, who writes, in [Understanding Variation](https://www.goodreads.com/book/show/63859):
+
+        > When people are pressured to meet a target value there are three ways they can proceed:
+        > 
+        > 1) They can work to improve the system
+        > 2) They can distort the system
+        > 3) Or they can distort the data
+
+    Joiner’s list suggests a number of solutions:
+
+        * Make it difficult to distort the system.
+        * Make it difficult to distort the data, and
+        * Give people the slack necessary to improve the system (a tricky thing to do, which we’ve covered elsewhere).
+
+    The third point is really important. Preventing distortions is just one half of the solution. Avoiding Goodhart’s Law requires you to also give people the space to improve the system."
 
 [Pragmatic Engineer](https://newsletter.pragmaticengineer.com/)
 
@@ -13,7 +34,7 @@ tags=business
 
 [TheOrg](https://theorg.com/): Find the right person to contact in any organization. (Commercial?)
 
-## Articles/Blogs
+### Articles/Blogs
 
 [Tech debt metaphor maximalism](https://apenwarr.ca/log/20230605): "I really like the "tech debt" metaphor. A lot of people don't, but I think that's because they either don't extend the metaphor far enough, or because they don't properly understand financial debt." *Really* good read on how to think about tech debt as a direct extension of financial debt.
 

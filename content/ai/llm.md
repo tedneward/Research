@@ -31,6 +31,7 @@ summary=Collection of links, notes, and models.
 
 - [10 Common Misconceptions about LLMs](https://machinelearningmastery.com/10-common-misconceptions-about-large-language-models/): LLMs Actually Understand Language Like Humans Do; More Parameters Always Mean Better Performance; LLMs Are Just Autocomplete on Steroids; LLMs Remember Everything They’ve Learned; Fine-Tuning Always Makes Models Better; LLMs Are Deterministic: Same Input, Same Output; Bigger Context Windows Are Always Better; LLMs Can Replace Traditional Machine Learning for All Language Tasks; Prompt Engineering Is Just Trial and Error; LLMs Will Soon Replace All Software Developers
 - Apple: [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf)
+- [A knockout blow for LLMs?](https://garymarcus.substack.com/p/a-knockout-blow-for-llms) (responding to the Apple paper above)
 - https://leaddev.com/velocity/writing-code-was-never-the-bottleneck
 - https://zed.dev/blog/why-llms-cant-build-software
 * ["LLMs are not like you and me--and never will be](https://garymarcus.substack.com/p/llms-are-not-like-you-and-meand-never)
