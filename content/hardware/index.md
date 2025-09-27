@@ -128,3 +128,7 @@ The AV Access iDock D23 is a game-changer for gamers and multitaskers. Its abili
 
 TUO Circadian Healthy Light (bulbs) - https://www.thetuolife.com/?rfsn=7479865.7959934
 
+Kardia - https://kardia.com/: "Our Kardia devices are the most clinically validated personal EKGs in the world, providing accurate EKG results and a wider range of arrhythmia detections than any other smart device."
+- Mobile - https://kardia.com/products/kardiamobile6l
+- Kardia MobileCard - https://kardia.com/products/kardiamobile-card
+

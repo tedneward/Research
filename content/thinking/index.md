@@ -174,6 +174,8 @@ summary=A collection of links (usually to articles) about the various forms of t
 
 * [Picbreeder](https://nbenko1.github.io/#/): Picbreeder is a collaborative art application based on an idea called evolutionary art, which is a technique that allows pictures to be bred almost like animals. Picbreeder generates a population of images that a user can choose. The selected images are then used to evolve a new generation via Compositional Pattern Producing Networks (CPPNs). CPPNs are neural networks that contain activation functions which allow them to create and evolve images.
 
+* [The role of passion in sustainable psychological well-being](https://psywb.springeropen.com/articles/10.1186/2211-1522-2-1)
+
 ## Language
 
 - ["How language shapes thought"](https://www.scientificamerican.com/article/how-language-shapes-thought/)
