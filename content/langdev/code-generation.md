@@ -3,6 +3,11 @@ tags=language development,language,reading
 summary=Information on how to generate code (binary or source)
 ~~~~~~
 
+- [JITing a stack machine](https://bullno1.com/blog/jiting-a-stack-machine)
+- [Compiling with Continuations](https://swatson555.github.io/posts/2025-09-16-compiling-with-continuations.html) (a blog post, not the book)
+
+---
+
 Notes from a Walter Bright [talk at Northwest C++ Group](https://nwcpp.org/talks/2025/codgen.pdf) (16 Jan 2025) ([Video](https://youtu.be/I_FOkqI_xUY)):
 
 * No real reading material out in the world for CodeGen (as opposed to parsing/lexing, semantics, etc)

@@ -1,9 +1,9 @@
 title=Nature
 tags=language
-summary=The modern systems programming language and compiler, striving for elegant and concise syntax while prioritizing the writing and reading experience for developers.
+summary=A general-purpose open-source programming language and compiler designed to provide developers with an elegant and concise development experience, enabling them to build secure and reliable cross-platform software simply and efficiently.
 ~~~~~~
 
-[Source](https://github.com/nature-lang/nature)
+[Website](https://nature-lang.org/) | [Source](https://github.com/nature-lang/nature) | [Syntax](https://nature-lang.org/docs/syntax)
 
 Key features of nature at the language level include:
 

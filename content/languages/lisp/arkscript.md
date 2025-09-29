@@ -18,35 +18,27 @@ ArkScript is
 
 Example: More-or-less game:
 ```
-# more or less game
-(print "More or less game!")
+(let number (random 0 10000))
 
-(import "random.arkm")
-(import "Math/Arithmetic.ark")
+(let game (fun () {
+  (let impl (fun (tries) {
+    (let guess (toNumber (input "Input a numeric value: ")))
+    (if (< guess number)
+      {
+        (print (format "It's more than {}!" guess))
+        (impl (+ tries 1)) }
+      (if (= guess number)
+        {
+          (print "You found it!")
+          tries }
+        {
+          (print (format "It's less than {}!" guess))
+          (impl (+ tries 1)) }))}))
 
-(let number (mod (abs (random)) 10000))
-(print number)
-(mut value 0)
-(mut tries 0)
+  (let count (impl 0))
+  (print (format "You won in {} guesses." count)) }))
 
-(mut continue true)
-
-(while continue {
-    (set value (toNumber (input "Input a numeric value: ")))
-
-    (if (< value number)
-        # then
-        (print "More!")
-        # else
-        (if (= value number)
-            # then
-            { (print "Bingo!") (set continue false) }
-            # else
-            (print "Less!")))
-
-    (set tries (+ 1 tries))})
-
-(print "You won in" tries "tries")
+(game)
 ```
 
 * [Implementing an IR for ArkScript](https://lexp.lt/posts/implementing_an_intermediate_representation/)

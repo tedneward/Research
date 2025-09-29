@@ -144,6 +144,8 @@ Note that while these terms usually are applied most directly to programming lan
 
 * [Basic Type checking](./BasicTypechecking.pdf) (PDF)
 
+* [Thoughts on ad-hoc polymorphism](https://alonsozamorano.me/thoughts-on-ad-hoc-polymorphism/)
+
 * Subtype Inference by Example: 
 
 	* [Part 1: Introducing CubiML](https://blog.polybdenum.com/2020/07/04/subtype-inference-by-example-part-1-introducing-cubiml.html)
