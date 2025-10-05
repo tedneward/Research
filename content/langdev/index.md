@@ -11,7 +11,9 @@ tags=language, language development
 
 [Protos are Wrong](https://reasonablypolymorphic.com/blog/protos-are-wrong/): Protobuffers were obviously built by amateurs because they offer bad solutions to widely-known and already-solved problems. ... What’s so frustrating about all of this is a little understanding of how modern type-systems work would be enough to drastically simplify the protobuffer spec and simultaneously remove all of the arbitrary restrictions. The solution is as follows: Make all fields in a message required. This makes messages product types; Promote oneof fields to instead be standalone data types. These are coproduct types; Give the ability to parameterize product and coproduct types by other types. That’s it! These three features are all you need in order to define any possible piece of data. With these simpler pieces, we can re-implement the rest of the protobuffer spec in terms of them.
 
-## Books
+## Reading
+
+### Books
 
 - [Compiler Construction](https://c9x.me/compile/bib/wirthcc.pdf)
 - [Compiler Design](https://www.goodreads.com/book/show/5205564-compiler-design-mar-15-2006-chattopadhyay-santanu)
@@ -35,14 +37,12 @@ tags=language, language development
 - Type Theory and Formal Proof: An Introduction - [Goodreads](https://www.goodreads.com/book/show/21442441-type-theory-and-formal-proof)
 - Type Theory and Functional Programming - [Goodreads](https://www.goodreads.com/book/show/11364683-type-theory-and-functional-programming)
 
-## Experiments
+### Language Learnings
 
-- [A miniature model of the Typescript compiler](https://github.com/imteekay/mini-typescript)
-- [An interpreter for the Monkey programming language](https://github.com/imteekay/crafting-an-interpreter)
-- [How the TypeScript compiler works](https://www.iamtk.co/series/the-typescript-compiler)
-- [Compiling Lisp to bytecode](https://healeycodes.com/compiling-lisp-to-bytecode-and-running-it)
-- [uza](https://github.com/msanlop/uza): a simple statically-typed programming language
-- [miniUni](https://github.com/gidra5/miniUni): A concurrent scripting language
+- [Ruby](https://github.com/imteekay/programming-language-research/tree/master/language-learning/ruby)
+- [Haskell](https://github.com/imteekay/programming-language-research/tree/master/language-learning/haskell)
+- [Elixir](https://github.com/imteekay/programming-language-research/tree/master/language-learning/elixir)
+- [Clojure](https://github.com/imteekay/programming-language-research/tree/master/language-learning/clojure)
 
 ### Essays/Papers
 
@@ -54,18 +54,36 @@ tags=language, language development
     - [Part 5: Productivity and Magic Compilers](https://chapel-lang.org/blog/posts/10myths-part5/)
 - [10 papers that all PhD students in programming languages ought to know](https://github.com/nuprl/10PL)
 - [A case for feminism in PL design](https://dl.acm.org/doi/pdf/10.1145/3689492.3689809)
+- [A Frontend Programmer's Guide to Languages](https://thatjdanisso.cool/programming-languages)
+- [A Generic Framework for Automated QA of Software Models](https://thesai.org/Downloads/Volume5No1/Paper_5-A_Generic_Framework_for_Automated_Quality_Assurance_of_Software_Models.pdf): references the OMG's Generic AST Model (GASTM) which I think is related to Abstract Syntax Tree Metamodeling (ASTM), [here](https://www.omg.org/spec/ASTM/1.0/About-ASTM) ([PDF](https://www.omg.org/spec/ASTM/1.0/PDF)) This kinda looks like the generic AST I was futzing about with.
+- [A Language Creators' Conversation: Guido van Rossum, James Gosling, Larry Wall & Anders Hejlsberg](https://www.youtube.com/watch?v=csL8DLXGNlU&ab_channel=PyCascades)
 - [A syntactic approach to type soundness](https://web.eecs.umich.edu/~weimerw/2008-615/reading/wright92syntactic.pdf)
+- [A Tale of Two Asyncs: Open Source Language Design in Rust and Node.js](https://www.youtube.com/watch?v=aGJTXdXQN2o)
 - [A Theory of Type Polymorphism in Programming](https://homepages.inf.ed.ac.uk/wadler/papers/papers-we-love/milner-type-polymorphism.pdf)
+- [A wish list for a new programming language](http://www.drmaciver.com/2015/07/a-wish-list/)
 - [Abstracting Gradual Typing](https://www.cs.ubc.ca/~rxg/agt.pdf)
 - [An Axiomatic Basis for Computer Programming](http://sunnyday.mit.edu/16.355/Hoare-CACM-69.pdf)
+- [Another Go at Language Design](https://www.youtube.com/watch?v=7VcArS4Wpqk)
+- [Bjarne Stroustrup : C++: evolving a useful language](https://www.youtube.com/watch?v=6jwOoIywnZE&ab_channel=BrownCS)
+- [Building a Debugger: Code Analysis](https://nan.fyi/debugger)
 - [Call-by-name, call-by-value, and the λ-calculus](https://www.sciencedirect.com/science/article/pii/0304397575900171?ref=pdf_download&fr=RR-2&rr=795ba8dc2acd4edd)
 - [Classic Papers in Programming Languages and Logic](https://www.cs.cmu.edu/~crary/819-f09)
+- [Concepts of Programming Languages](https://www.youtube.com/playlist?list=PLgybIyDbLkEQUTX00Mazlcb7KhX1UzpXs)
+- [Delimited Continuations, Demystified by Alexis King](https://www.youtube.com/watch?v=TE48LsgVlIU&ab_channel=CodeSync)
 - [Efficient Gradual Typing](https://arxiv.org/pdf/1802.06375.pdf)
 - [Fundamental concepts in programming languages](https://www.math.pku.edu.cn/teachers/qiuzy/plan/lits/FundamentalConceptOfPL.pdf)
+- ["A Generic Abstract Syntax Model for Embedded Languages"](https://www.cs.tufts.edu/~nr/cs257/archive/emil-axelsson/paper.pdf): "Representing a syntax tree using a data type often involves having many similar-looking constructors. Functions operating on such types often end up having many similar-looking cases. Different languages often make use of similar-looking constructions. We propose a generic model of abstract syntax trees capable of representing a wide range of typed languages. Syntactic constructs can be composed in a modular fashion enabling reuse of abstract syntax and syntactic processing within and across languages. Building on previous methods of encoding extensible data types in Haskell, our model is a pragmatic solution to Wadler’s “expression problem". Its practicality has been confirmed by its use in the implementation of the embedded language Feldspar."
+- [Generic Abstract Syntax Tree (geast)](https://angeljavalopez.medium.com/geast-a-generic-abstract-syntax-tree-c7feb681b6b5)
+- ["GAST"](./GAST_A_generic_AST_representation_for_language-ind.pdf) (PDF)
+- [Going beyond JavaScript](https://www.youtube.com/watch?v=VwisE497Nsg&ab_channel=Intelligence.ai%3AConcepts-FirstPodcast)
 - [Gradual Type Theory](https://arxiv.org/pdf/1811.02440.pdf)
 - [Gradual Typing for Functional Languages](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b7ca4b0e6d3119aa341af73964dbe38d341061dd)
 - [Gradual Typing: A New Perspective](https://www.irif.fr/~gc/papers/popl19.pdf)
+- [Growing a Language](https://www.youtube.com/watch?v=_ahvzDzKdB0), by Guy Steele
 - [Haai: Reactive programming without lifting](https://soft.vub.ac.be/~boeyen/haai/)
+- [How Big Should a Programming Language Be?](https://tratt.net/laurie/blog/2023/how_big_should_a_programming_language_be.html): "... a long-held opinion I have about programming language design: we have a tendency to keep adding features to a language until it becomes so big that its sheer size makes it difficult to use reliably." *Yes!*
+- [How OCaml type checker works -- or what polymorphism and garbage collection have in common](https://okmij.org/ftp/ML/generalization.html)
+- [How Rust does OSS](https://www.youtube.com/watch?v=m0rakUuPXFM)
 - [How Statically-Typed Functional Programmers Write Code](./research/papers/how-statically-typed-functional-programmers-write-code)
 - [Migrating Gradual Types](https://dl.acm.org/doi/pdf/10.1145/3158103)
 - [On Model Subtyping](https://hal.inria.fr/hal-00695034/document)
@@ -73,6 +91,15 @@ tags=language, language development
 - [Papers on programming languages: ideas from 70's for today](https://medium.com/@mikhail.barash.mikbar/papers-on-programming-languages-ideas-from-70s-for-today-2931891d4dbd)
 - [Papers to read](https://github.com/haskellcamargo/papers-to-read)
 - [Pluggable Type Systems](https://bracha.org/pluggableTypesPosition.pdf)
+- [Practical Foundations for Programming Languages](./practical-foundations.pdf) (PDF)
+- [Principles of Programming Languages](https://www.youtube.com/playlist?list=PLTo1TmBz2ekof8VsYaoTxP-9VgJ9P-dTO) by Robert M. Siegfried
+- [Principles of Programming Languages](https://www.youtube.com/playlist?list=PLK06XT3hFPzilgF1mi_hHqcXO1-o_8OEe)
+- [Principles of Programming Languages (course)](https://bguppl.github.io/interpreters/practice_sessions/ps4.html) ([Source](https://github.com/bguppl/interpreters))
+- [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
+- [Programming language semantics: It’s easy as 1,2,3](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EC2C046CF94382B3B408036B84475DC7/S0956796823000072a.pdf/programming-language-semantics-its-easy-as-123.pdf)
+- [Programming Language Semantics](http://www.cs.nott.ac.uk/~pszgmh/123.pdf)
+- [PROGRAMMING A PROBLEM-ORIENTED LANGUAGE](http://www.forth.org/POL.pdf)
+- [Programming type-safe transformations using higher-order abstract syntax](https://www.cs.mcgill.ca/~bpientka/papers/cc.pdf)
 - [Programming in Homotopy Type Theory](http://dlicata.web.wesleyan.edu/pubs/lh122tttalks/lh12wg2.8.pdf)
 - [Refined Criteria for Gradual Typing](https://drops.dagstuhl.de/opus/volltexte/2015/5031/pdf/21.pdf)
 - [Relational operators in Apache Calcite](https://www.querifylabs.com/blog/relational-operators-in-apache-calcite)
@@ -92,26 +119,9 @@ tags=language, language development
 - [What every compiler writer should know about programmers](https://www.complang.tuwien.ac.at/kps2015/proceedings/KPS_2015_submission_29.pdf)
 - [Why Dependent Types Matter](http://www.cs.nott.ac.uk/~psztxa/publ/ydtm.pdf)
 
-## Programming Language Design / PLT
-
-- [A Frontend Programmer's Guide to Languages](https://thatjdanisso.cool/programming-languages)
-- [A Language Creators' Conversation: Guido van Rossum, James Gosling, Larry Wall & Anders Hejlsberg](https://www.youtube.com/watch?v=csL8DLXGNlU&ab_channel=PyCascades)
-- [A Tale of Two Asyncs: Open Source Language Design in Rust and Node.js](https://www.youtube.com/watch?v=aGJTXdXQN2o)
-- [Another Go at Language Design](https://www.youtube.com/watch?v=7VcArS4Wpqk)
-- [Bjarne Stroustrup : C++: evolving a useful language](https://www.youtube.com/watch?v=6jwOoIywnZE&ab_channel=BrownCS)
-- [Building a Debugger: Code Analysis](https://nan.fyi/debugger)
-- [Concepts of Programming Languages](https://www.youtube.com/playlist?list=PLgybIyDbLkEQUTX00Mazlcb7KhX1UzpXs)
-- [Delimited Continuations, Demystified by Alexis King](https://www.youtube.com/watch?v=TE48LsgVlIU&ab_channel=CodeSync)
-- [Going beyond JavaScript](https://www.youtube.com/watch?v=VwisE497Nsg&ab_channel=Intelligence.ai%3AConcepts-FirstPodcast)
-- [Growing a Language, by Guy Steele](https://www.youtube.com/watch?v=_ahvzDzKdB0)
-- [How Rust does OSS](https://www.youtube.com/watch?v=m0rakUuPXFM)
 - [JavaScript Static Analysis for Evolving Language Specifications](https://www.youtube.com/watch?v=3Jlu_jnHB8g&ab_channel=PLRGKAIST)
 - [Linguistics and Compilers](https://www.youtube.com/watch?v=Ix6M9Nj_Dug&ab_channel=FunctionalSC)
 - [On understanding types, data abstraction and effects](https://www.youtube.com/watch?v=3Cdw5x72k_g&ab_channel=MicrosoftResearch)
-- [Principles of Programming Languages by Robert M. Siegfried](https://www.youtube.com/playlist?list=PLTo1TmBz2ekof8VsYaoTxP-9VgJ9P-dTO)
-- [Principles of Programming Languages](https://www.youtube.com/playlist?list=PLK06XT3hFPzilgF1mi_hHqcXO1-o_8OEe)
-- [Programming language semantics: It’s easy as 1,2,3](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EC2C046CF94382B3B408036B84475DC7/S0956796823000072a.pdf/programming-language-semantics-its-easy-as-123.pdf)
-- [Programming Language Semantics](http://www.cs.nott.ac.uk/~pszgmh/123.pdf)
 - [Reactive Functions without Functions](https://programming-journal.org/2024/8/11/) ([PDF](https://arxiv.org/pdf/2403.02296))
 - [Rob Pike - What We Got Right, What We Got Wrong](https://www.youtube.com/watch?v=yE5Tpp2BSGw)
 - [So many programming languages so little time](https://www.youtube.com/watch?v=FEjH5VxmDoY&ab_channel=MicrosoftDeveloper)
@@ -137,11 +147,26 @@ tags=language, language development
 - [The Programming Language Enthusiast](http://www.pl-enthusiast.net)
 - [The Study of Programming Languages](https://cs.lmu.edu/~ray/notes/plstudy)
 - [Why Study Programming Languages](https://rachit.pl/post/why-study-programming-languages)
+- [The Development of the C Language](https://www.bell-labs.com/usr/dmr/www/chist.pdf)
+- [Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism](https://www.cl.cam.ac.uk/~nk480/bidir.pdf);
+- [Dynamic Language Embedding](https://scg.unibe.ch/archive/phd/renggli-phd.pdf)
+- [Flattening ASTs (and Other Compiler Data Structures)](https://www.cs.cornell.edu/~asampson/blog/flattening.html)
+- [Intrinsically-Typed Definitional Interpreters for Linear, Session-Typed Languages](https://eelcovisser.org/publications/2020/RouvoetPKV20.pdf)
+- ["Languages I want to write"](https://blog.wesleyac.com/posts/language-todos)
+- ["Less is more: language features"](http://blog.ploeh.dk/2015/04/13/less-is-more-language-features/)
+- [Let Arguments Go First](https://xnning.github.io/papers/let-arguments-go-first.pdf);
+- [Notation as a Tool of Thought](https://dl.acm.org/doi/pdf/10.1145/358896.358899)
+- [Open, extensible object models](https://piumarta.com/software/cola/objmodel2.pdf): "The artificial distinction between implementation language and end-user language can be eliminated by implementing the language using only end-user objects and messages, making the implementation accessible for arbitrary modification by programmers. We show that three object types and five methods are sufficient to bootstrap an extensible object model and messaging semantics that are described entirely in terms of those same objects and messages."
+- [A Retargetable C Compiler](./a-retargetable-c-compiler-design-and-implementation.pdf); makes use of literate programming (/languages/noweb)
+- [S-Expressions in Javascript](https://www.freecodecamp.org/news/s-expressions-in-javascript/)
+- ["Three Things I Wish I Knew When I Started Designing Languages"](https://www.youtube.com/watch?v=oa0qq75i9oc)
+- ["The Naked Truth About Writing a Programming Language"](https://www.digitalmars.com/articles/b90.html)
 
 ## Implementations
 
 ### Compiler
 
+- [A miniature model of the Typescript compiler](https://github.com/imteekay/mini-typescript)
 - [Anders Hejlsberg on Modern Compiler Construction](https://www.youtube.com/watch?v=wSdV1M7n4gQ)
 - [Building a parser in C#, from first principles](https://www.youtube.com/watch?v=klHyc9HQnNQ&ab_channel=NDCConferences)
 - [Compiler Design course](https://www.youtube.com/playlist?list=PLDAE55AEE0731D729&feature=plcp)
@@ -177,6 +202,7 @@ tags=language, language development
 - [Flattening ASTs (and Other Compiler Data Structures)](https://www.cs.cornell.edu/~asampson/blog/flattening.html)
 - [Fredrik Lundh - Simple Town-Down Parsing In Python](https://11l-lang.org/archive/simple-top-down-parsing)
 - [Garbage Collection Algorithms](https://www.dmitrysoshnikov.education/p/essentials-of-garbage-collectors)
+- [How the TypeScript compiler works](https://www.iamtk.co/series/the-typescript-compiler)
 - [How to Compile Your Language](https://isuckatcs.github.io/how-to-compile-your-language/)
 - [How to implement a programming language in JavaScript](http://lisperator.net/pltut)
 - [IU Compiler Course](https://iucompilercourse.github.io/IU-P423-P523-E313-E513-Fall-2020)
@@ -204,6 +230,12 @@ tags=language, language development
 - [Write you a Haskell](http://dev.stephendiehl.com/fun)
 - [Dual-Language General-Purpose Self-Hosted Visual Language and new Textual Programming Language for Applications](https://arxiv.org/abs/2509.20426) ([PDF](../2509.20426v1.pdf)): "Most visual programming languages (VPLs) are domain-specific, with few general-purpose VPLs like Programming Without Coding Technology (PWCT). These general-purpose VPLs are developed using textual programming languages and improving them requires textual programming. In this thesis, we designed and developed PWCT2, a dual-language (Arabic/English), general-purpose, self-hosting visual programming language. Before doing so, we specifically designed a textual programming language called Ring for its development. Ring is a dynamically typed language with a lightweight implementation, offering syntax customization features. It permits the creation of domain-specific languages through new features that extend object-oriented programming, allowing for specialized languages resembling Cascading Style Sheets (CSS) or Supernova language. The Ring Compiler and Virtual Machine are designed using the PWCT visual programming language where the visual implementation is composed of 18,945 components that generate 24,743 lines of C code, which increases the abstraction level and hides unnecessary details. Using PWCT to develop Ring allowed us to realize several issues in PWCT, which led to the development of the PWCT2 visual programming language using the Ring textual programming language. PWCT2 provides approximately 36 times faster code generation and requires 20 times less storage for visual source files. It also allows for the conversion of Ring code into visual code, enabling the creation of a self-hosting VPL that can be developed using itself. PWCT2 consists of approximately 92,000 lines of Ring code and comes with 394 visual components." [Source](https://github.com/PWCT/PWCT2)
 
+### Experiments
+
+- [Lepton](https://github.com/gingerBill/Lepton): Simple Programming Language
+- [miniUni](https://github.com/gidra5/miniUni): A concurrent scripting language
+- [uza](https://github.com/msanlop/uza): a simple statically-typed programming language
+
 ### PL Paradigms
 
 - [Compiling with Continuations or without? Whatever](https://www.youtube.com/watch?v=cPBr59ECiRU&ab_channel=ACMSIGPLAN)
@@ -212,13 +244,15 @@ tags=language, language development
 
 ### Interpreter
 
-- [Cheaply writing a fast interpreter](https://www.youtube.com/watch?v=V8dnIw3amLA&ab_channel=PerformanceSummit)
+- [A Python Interpreter Written in Python](http://aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
+- [An interpreter for the Monkey programming language](https://github.com/imteekay/crafting-an-interpreter)
+- [Building an Interpreter](https://www.iamtk.co/series/building-an-interpreter)
 - [Building an Interpreter from scratch](https://www.dmitrysoshnikov.education/p/essentials-of-interpretation)
+- [Cheaply writing a fast interpreter](https://www.youtube.com/watch?v=V8dnIw3amLA&ab_channel=PerformanceSummit)
+- [Compiling Lisp to bytecode](https://healeycodes.com/compiling-lisp-to-bytecode-and-running-it)
+- [Crafting Interpreters](http://craftinginterpreters.com/contents.html)
 - [Crafting an Interpreter](https://github.com/imteekay/crafting-an-interpreter)
 - [(How to Write a (Lisp) Interpreter (in Python))](http://norvig.com/lispy.html)
-- [A Python Interpreter Written in Python](http://aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
-- [Building an Interpreter](https://www.iamtk.co/series/building-an-interpreter)
-- [Crafting Interpreters](http://craftinginterpreters.com/contents.html)
 - [How languages work #1: String interpolation](https://martin.janiczek.cz/2023/07/27/how-languages-work-1-string-interpolation.html)
 - [Implementing a Simple Compiler on 25 Lines of JavaScript](https://blog.mgechev.com/2017/09/16/developing-simple-interpreter-transpiler-compiler-tutorial)
 - [Let’s Build A Simple Interpreter](https://ruslanspivak.com/lsbasi-part1)
@@ -248,42 +282,5 @@ tags=language, language development
 - [The Art of Multiprocessor Programming](https://cs.ipm.ac.ir/asoc2016/Resources/Theartofmulticore.pdf)
 - [The Parallel Event Loop Model and Runtime](https://design.inf.usi.ch/sites/default/files/biblio/daniele-bonetta-phd-parallel-javascript.pdf)
 
-## Language Learnings
-
-- [Ruby](https://github.com/imteekay/programming-language-research/tree/master/language-learning/ruby)
-- [Haskell](https://github.com/imteekay/programming-language-research/tree/master/language-learning/haskell)
-- [Elixir](https://github.com/imteekay/programming-language-research/tree/master/language-learning/elixir)
-- [Clojure](https://github.com/imteekay/programming-language-research/tree/master/language-learning/clojure)
-
----
-
-## Reading
-
-- [A Generic Framework for Automated QA of Software Models](https://thesai.org/Downloads/Volume5No1/Paper_5-A_Generic_Framework_for_Automated_Quality_Assurance_of_Software_Models.pdf): references the OMG's Generic AST Model (GASTM) which I think is related to Abstract Syntax Tree Metamodeling (ASTM), [here](https://www.omg.org/spec/ASTM/1.0/About-ASTM) ([PDF](https://www.omg.org/spec/ASTM/1.0/PDF)) This kinda looks like the generic AST I was futzing about with.
-- [The Development of the C Language](https://www.bell-labs.com/usr/dmr/www/chist.pdf)
-- [Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism](https://www.cl.cam.ac.uk/~nk480/bidir.pdf);
-- [Dynamic Language Embedding](https://scg.unibe.ch/archive/phd/renggli-phd.pdf)
-- [Flattening ASTs (and Other Compiler Data Structures)](https://www.cs.cornell.edu/~asampson/blog/flattening.html)
-- ["A Generic Abstract Syntax Model for Embedded Languages"](https://www.cs.tufts.edu/~nr/cs257/archive/emil-axelsson/paper.pdf): "Representing a syntax tree using a data type often involves having many similar-looking constructors. Functions operating on such types often end up having many similar-looking cases. Different languages often make use of similar-looking constructions. We propose a generic model of abstract syntax trees capable of representing a wide range of typed languages. Syntactic constructs can be composed in a modular fashion enabling reuse of abstract syntax and syntactic processing within and across languages. Building on previous methods of encoding extensible data types in Haskell, our model is a pragmatic solution to Wadler’s “expression problem". Its practicality has been confirmed by its use in the implementation of the embedded language Feldspar."
-- [Generic Abstract Syntax Tree (geast)](https://angeljavalopez.medium.com/geast-a-generic-abstract-syntax-tree-c7feb681b6b5)
-- ["GAST"](./GAST_A_generic_AST_representation_for_language-ind.pdf) (PDF)
-- [How OCaml type checker works -- or what polymorphism and garbage collection have in common](https://okmij.org/ftp/ML/generalization.html)
-- ["How Big Should a Programming Language Be?"](https://tratt.net/laurie/blog/2023/how_big_should_a_programming_language_be.html): "... a long-held opinion I have about programming language design: we have a tendency to keep adding features to a language until it becomes so big that its sheer size makes it difficult to use reliably." *Yes!*
-- [Intrinsically-Typed Definitional Interpreters for Linear, Session-Typed Languages](https://eelcovisser.org/publications/2020/RouvoetPKV20.pdf)
-- ["Languages I want to write"](https://blog.wesleyac.com/posts/language-todos)
-- ["Less is more: language features"](http://blog.ploeh.dk/2015/04/13/less-is-more-language-features/)
-- [Let Arguments Go First](https://xnning.github.io/papers/let-arguments-go-first.pdf);
-- [Notation as a Tool of Thought](https://dl.acm.org/doi/pdf/10.1145/358896.358899)
-- [Open, extensible object models](https://piumarta.com/software/cola/objmodel2.pdf): "The artificial distinction between implementation language and end-user language can be eliminated by implementing the language using only end-user objects and messages, making the implementation accessible for arbitrary modification by programmers. We show that three object types and five methods are sufficient to bootstrap an extensible object model and messaging semantics that are described entirely in terms of those same objects and messages."
-- [Practical Foundations for Programming Languages](./practical-foundations.pdf) (PDF)
-- [Principles of Programming Languages (course)](https://bguppl.github.io/interpreters/practice_sessions/ps4.html) ([Source](https://github.com/bguppl/interpreters))
-- [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
-- [PROGRAMMING A PROBLEM-ORIENTED LANGUAGE](http://www.forth.org/POL.pdf)
-- [Programming type-safe transformations using higher-order abstract syntax](https://www.cs.mcgill.ca/~bpientka/papers/cc.pdf)
-- [A Retargetable C Compiler](./a-retargetable-c-compiler-design-and-implementation.pdf); makes use of literate programming (/languages/noweb)
-- [S-Expressions in Javascript](https://www.freecodecamp.org/news/s-expressions-in-javascript/)
-- ["Three Things I Wish I Knew When I Started Designing Languages"](https://www.youtube.com/watch?v=oa0qq75i9oc)
-- ["The Naked Truth About Writing a Programming Language"](https://www.digitalmars.com/articles/b90.html)
-- ["A wish list for a new programming language"](http://www.drmaciver.com/2015/07/a-wish-list/)
 
 **NOTE:** Some links from https://github.com/imteekay/programming-language-research
