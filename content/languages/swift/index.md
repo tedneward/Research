@@ -19,6 +19,7 @@ Swift combines powerful type inference and pattern matching with a modern, light
 * [Essential Swift](https://www.programming-books.io/essential/swift/) - Krzysztof Kowalczyk (Compiled from StackOverflow Documentation)
 * [Hacking with Swift](https://www.hackingwithswift.com)
 * [Swift Notes for Professionals](https://goalkicker.com/SwiftBook/) - Compiled from StackOverflow Documentation (PDF)
+* [Embedded Swift](https://docs.swift.org/embedded/documentation/embedded/): a compilation and language mode that enables development of baremetal, embedded and standalone software in Swift
 
 Interesting repositories: [swift](https://github.com/swiftlang/swift) the language | [swift-testing](https://github.com/swiftlang/swift-testing) a modern expressive testing package for Swift | [swift-build](https://github.com/swiftlang/swift-build) a high-level build system based on libuild | [swift-for-wasm-examples](https://github.com/swiftlang/swift-for-wasm-examples) | [swiftly](https://github.com/swiftlang/swiftly) a Swift toolchain installer and manager
 
