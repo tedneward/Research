@@ -1,28 +1,32 @@
-title=Basic (and variants)
+title=BASIC (Beginners' All-purpose Symbolic Instruction Code)
 tags=language
 summary=Various notes and implementations of the BASIC programming language.
 ~~~~~~
 
-### Implementations
+[Wikipedia](https://en.wikipedia.org/wiki/BASIC)
+
+## Implementations
 
 * [FreeBASIC](https://freebasic.net/) ([Source](https://github.com/freebasic/fbc)): a completely free, open-source, multi-platform BASIC compiler, with syntax similar to MS-QuickBASIC, that adds new features such as pointers, object orientation, unsigned data types, inline assembly, and many others.
-* [Gambas](../gambas)
-* [NSBasic](https://www.nsbasic.com/): A complete, powerful development environment. Create apps for iOS, Android, Windows, MacOS and Linux. Commercial.
-* [PCBasic](../pcbasic) ([Source](https://github.com/robhagemans/pcbasic)): A free, cross-platform emulator for the GW-BASIC family of interpreters
-* [PureBASIC](../purebasic)
-* [RadBASIC](../radbasic)
-* [SmallBASIC](http://smallbasic.github.io/) ([Source](https://github.com/smallbasic/SmallBASIC))
-* [TinyBASIC](../tinybasic)
-* [TMBasic](https://tmbasic.com/) ([Source](https://github.com/electroly/tmbasic)): a programming language for writing console programs, from simple command line tools to sophisticated mouse-driven user interfaces. The BASIC language is beginner-friendly, and experienced programmers will find it familiar and easy to use.
-* [QB64](https://qb64.com/): a modern extended BASIC programming language that retains QBasic/QuickBASIC 4.5 compatibility and compiles native binaries for Windows, Linux, and macOS. (Source is in flux; abandoned project [here](https://github.com/QB64Team/qb64) but reboot happening [here](https://github.com/QB64Official/qb64).)
+* [Gambas](/languages/basic/gambas)
+* [GWBasic](/languages/basic/gwbasic)
 * [My_Basic](https://github.com/paladin-t/my_basic)
-* [ScriptBasic](http://www.scriptbasic.com/) : Free embedded and extendable scripting Basic interpreter with full C source code. Tested on Windows NT and on Linux.
-* [Yabasic](http://www.yabasic.de/) : Small basic interpreter (with source code for Visual C++ 6) for Windows and Linux
-* [XBasic](http://www.maxreason.com/software/xbasic/xbasic.html) : interactive program development environment, advanced 32-bit/64-bit BASIC, interactive graphical GuiDesigner, multi-platform portable source code, Windows95 - Windows98 - WindowsNT - Linux - UNIX
-* [Rapid-Q](http://rapidq.phatcode.net/) : Rapid-Q is a free IDE and BASIC op-code compiler system for Win32, Linux, Unix...  It is very easy to use and to integrate with many other goodies like mySQL, cgi, DirectX, Direct3D, GTK ...
+* [NSBasic](https://www.nsbasic.com/): A complete, powerful development environment. Create apps for iOS, Android, Windows, MacOS and Linux. Commercial.
+* [QB64](https://qb64.com/): a modern extended BASIC programming language that retains QBasic/QuickBASIC 4.5 compatibility and compiles native binaries for Windows, Linux, and macOS. (Source is in flux; abandoned project [here](https://github.com/QB64Team/qb64) but reboot happening [here](https://github.com/QB64Official/qb64).)
+* [PCBasic](/languages/basic/pcbasic) ([Source](https://github.com/robhagemans/pcbasic)): A free, cross-platform emulator for the GW-BASIC family of interpreters
 * [Phoenix/Envelop](http://www.biz-wise.nl/phoenix_download.html) : Rapid Development under Basic.
+* [PureBASIC](/languages/basic/purebasic)
+* [RadBASIC](/languages/basic/radbasic)
+* [Rapid-Q](http://rapidq.phatcode.net/) : Rapid-Q is a free IDE and BASIC op-code compiler system for Win32, Linux, Unix/languages/basic.  It is very easy to use and to integrate with many other goodies like mySQL, cgi, DirectX, Direct3D, GTK ...
+* [ScriptBasic](http://www.scriptbasic.com/) : Free embedded and extendable scripting Basic interpreter with full C source code. Tested on Windows NT and on Linux.
+* [SmallBASIC](http://smallbasic.github.io/) ([Source](https://github.com/smallbasic/SmallBASIC))
+* [TinyBASIC](/languages/basic/tinybasic)
+* [TMBasic](https://tmbasic.com/) ([Source](https://github.com/electroly/tmbasic)): a programming language for writing console programs, from simple command line tools to sophisticated mouse-driven user interfaces. The BASIC language is beginner-friendly, and experienced programmers will find it familiar and easy to use.
+* [XBasic](http://www.maxreason.com/software/xbasic/xbasic.html) : interactive program development environment, advanced 32-bit/64-bit BASIC, interactive graphical GuiDesigner, multi-platform portable source code, Windows95 - Windows98 - WindowsNT - Linux - UNIX
+* [Yabasic](http://www.yabasic.de/) : Small basic interpreter (with source code for Visual C++ 6) for Windows and Linux
 
 ### Transpilers
+
 * [BCX](http://bcx-basic.sourceforge.net/) : Basic to C compiler, generates C source files compatible with Lcc-Win32 and MingW (or Dev-C++) without any modification.  It also comes with a resource translator which can read MS resource code and produce code in C (Win32).
 * [B++](https://sourceforge.net/projects/b-plus-plus/) : B++ is a BASIC compiler built on top of C++ - it converts BASIC code to C++, and then calls C++ compiler to produce EXE (or DLL). Source code is in Free Pascal.
 
@@ -101,7 +105,7 @@ Print add2(5,5)
 sub print_it(it)
   print it
 end
-print_it "IT...."
+print_it "IT/languages/basic"
 
 REM Display lines and pixels
 At 0,ymax/2+txth("Q")

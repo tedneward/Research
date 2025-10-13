@@ -1,5 +1,5 @@
 title=GWBasic
-tags=platform, language, windows, gamedev
+tags=language, windows, gamedev
 summary=Ancient predecessor to modern BASIC, for DOS.
 ~~~~~~
 
@@ -10,4 +10,3 @@ summary=Ancient predecessor to modern BASIC, for DOS.
 [Gary Peek's BASIC Source Code Archive](http://www.garypeek.com/basic/): Includes links for PowerBasic and GWBASIC [Libraries](http://www.garypeek.com/basic/gwroutines.htm), [Applciations](http://www.garypeek.com/basic/gwprograms.htm), and [Programs/Tutorials](http://www.garypeek.com/basic/gwtutorials.htm).
 
 [Interactive Fiction collection of BASIC games](https://ifarchive.org/indexes/if-archive/games/source/basic/)
-

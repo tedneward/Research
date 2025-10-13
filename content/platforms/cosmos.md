@@ -4,6 +4,3 @@ summary=Cosmos is an operating system "construction kit". Build your own OS usin
 ~~~~~~
 
 [Website](https://www.gocosmos.org/) | [Source](https://github.com/CosmosOS/Cosmos)
-
-
-
