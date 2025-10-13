@@ -133,25 +133,23 @@ Programming languages are (generally) human-friendly means of getting a computer
 
 ## Concepts
 
-[Multi-paradigm design](/languages/concepts/multi-paradigm-design)
+[Multi-paradigm design](/languages/concepts/multi-paradigm-design): The idea that a languaeg can offer multiple paradigms, simultaneously.
 
-[Aspect-Oriented](/languages/concepts/aspect-oriented)
+[Aspect-Oriented](/languages/concepts/aspect-oriented): Attempting to capture as first-class citizens the code that "cuts across the inheritance tree" of object-oriented languages.
 
-[Functional](/languages/concepts/functional)
+[Functional](/languages/concepts/functional): Functions as first-class citizens; incorporating more maths-like concepts into the language.
 
 * [Monads](/languages/concepts/monads)
 
-[Literate](/languages/concepts/literate)
+[Literate](/languages/concepts/literate): Code as documentation as code.
 
 * [nuweb](/languages/nuweb)
 
-[Logic](/languages/concepts/logic)
+[Logic](/languages/concepts/logic): Defines the meaning of a program as its unique smallest model: the deductive closure of its inference rules.
 
-* [A Very Gentle Intro to Logic Programming](/languages/concepts/avergentleintrotologicprog.html) link broken/not found?
+[Meta-object protocols (MOP)](/languages/concepts/metaobjectprotocol.html): A series of ideas about how objects relate to one another through means other than inheritance trees.
 
-[Meta-object protocols (MOP)](/languages/concepts/metaobjectprotocol.html)
-
-[Object-oriented](/languages/concepts/object-oriented)
+[Object-oriented](/languages/concepts/object-oriented): The union of state and behavior in a first-class construct.
 
 * [Object capabilities](/languages/concepts/object-capability)
 * [Object thinking](/languages/concepts/object-thinking)
@@ -172,14 +170,14 @@ Miscellaneous
 - [Making Sense of Stream Processing](https://assets.confluent.io/m/2a60fabedb2dfbb1/original/20190307-EB-Making_Sense_of_Stream_Processing_Confluent.pdf) - Martin Kleppmann (PDF)
 - [Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/content/) - Mostly Adequate Core Team
 - [The Pure Function Pipeline Data Flow v3.0 ---- the Grand Unified Programming Theory](https://github.com/linpengcheng/PurefunctionPipelineDataflow) - Lin Pengcheng
-- [ProLaLa2022](https://github.com/dsyme/ProLaLa2022): "Archival material for "Programming Languages and the Law" 2022 Keynote" (DSyme); [@dsymetweets](https://twitter.com/dsymetweets/status/1482835211582906374): "Before I ever programmed in a functional language, while still a student, I worked as a C and Prolog programmer on a set of tools called STATUTE for modelling and automating adminstrative law. STATUTE eventually became Oracle Policy Modelling now Oracle Intelligent Advisor today / STATUTE made key design decisions about using limited natural language to achieve "practical isomorphism" between legislation/policy structure and the rules that form the implementation as a program. / This decision - made in a garage in Australia in 1989 by David Mead - cut programmers out of the loop, creating a form of end-user programming for those trained in law and policy. / This decision - made in a garage in Australia in 1989 by David Mead - cut programmers out of the loop, creating a form of end-user programming for those trained in law and policy. / If you feel like you're a PL guru and you've "seen it all" in how programming+logic can be delivered as a usable tool, I'd encourage you to watch Davin's demo from [the keynote](https://youtu.be/bLob9Ah1004). Conceptually it opens up a different kind of tooling for domains dominated by language and policy."
+- [ProLaLa2022](https://github.com/dsyme/ProLaLa2022): "Archival material for "Programming Languages and the Law" 2022 Keynote" (DSyme); [@dsymetweets](https://twitter.com/dsymetweets/status/1482835211582906374): "Before I ever programmed in a functional language, while still a student, I worked as a C and Prolog programmer on a set of tools called STATUTE for modelling and automating adminstrative law. STATUTE eventually became Oracle Policy Modelling now Oracle Intelligent Advisor today / STATUTE made key design decisions about using limited natural language to achieve "practical isomorphism" between legislation/policy structure and the rules that form the implementation as a program. / This decision - made in a garage in Australia in 1989 by David Mead - cut programmers out of the loop, creating a form of end-user programming for those trained in law and policy. / If you feel like you're a PL guru and you've "seen it all" in how programming+logic can be delivered as a usable tool, I'd encourage you to watch Davin's demo from [the keynote](https://youtu.be/bLob9Ah1004). Conceptually it opens up a different kind of tooling for domains dominated by language and policy."
 - [SXML](https://en.m.wikipedia.org/wiki/SXML)
 - [X-expressions-in-XMLisp](https://www.semanticscholar.org/paper/X-expressions-in-XMLisp%3A-S-expressions-and-markup-Repenning-Ioannidou/7da9239a5a365593ba5437dca58b2ffc4620062e)
 
 ### Syntax/paradigms
 [Toward a better programming](https://www.chris-granger.com/2014/03/27/toward-a-better-programming/)
 
-["Programming Paradigms for Dummies: What Every Programmer Should Know"](../paradigms-for-dummies); includes a [chart of the major programming paradigms](http://www.info.ucl.ac.be/people/PVR/paradigmsDIAGRAMeng108.pdf):
+["Programming Paradigms for Dummies: What Every Programmer Should Know"](/languages/concepts/paradigms-for-dummies); includes a [chart of the major programming paradigms](http://www.info.ucl.ac.be/people/PVR/paradigmsDIAGRAMeng108.pdf):
 
 * Descriptive declarative programming **[XML](/formats/xml), [S-expression](/languages/s-expressions)**
 * First-order functional programming
@@ -246,7 +244,7 @@ My ontology:
 * Lua: Imperative, prototypal, scripting
 * Python: imperative, glue, dynamic, scripting
 
-### [Memory management](/reading/development/memory-management.html)
+### [Memory management](/reading/development/memory-management)
 Languages often break down to automatically-managed memory vs. manually-managed, but most of the time that means heap management; static and stack allocation are (almost?) always automatically managed by virtue of their allocation schemes.
 
 ### Language execution types
@@ -259,7 +257,7 @@ Languages often break down to automatically-managed memory vs. manually-managed,
 
 	* **Bytecode**: This is usually a binary output format that is some level of abstraction higher than native CPU assembly language, but not much more. The intent is to provide an easier format for either direct execution or transformation into native assembly (Just-In-Time compilation) within a virtual machine. Some bytecode formats are well-documented and "external" (like the JVM and CLR formats). In many cases, however, an interpreter is actually doing an on-the-fly compilation of source to an internal bytecode format at runtime, since most bytecode formats are easier to JIT, and/or the bytecode provides a layer of abstraction from the language syntax to the underlying runtime.
 
-* **Interpreted**: Generally this means that source is not pre-examined until the moment it is asked to run. At that point, validity-checking is done, whether "just" syntactical verification or an additional deeper type-based analysis.
+* **Interpreted**: Generally this means that source is not pre-examined until the moment it is asked to run. At that point, validity-checking is done, whether "just" syntactical verification or an additional deeper type-based analysis. Often after interpretation it is stored in a more terse/compressed/accessible form, like a tree or even an intermediate representation or bytecode form for easier execution; sometimes it is compiled to binary/assembly for direct execution.
 
 Note that the lines are significantly blurring; several "interpreted" languages internally compile the source into an AST or bytecode format for faster execution, and several "compiled" languages are available to run at the command-line a la shell scripts or REPLs by internally taking source through their compilation pipeline and executing the result.
 
@@ -283,5 +281,17 @@ If the types can be manipulated/changed at runtime, then the language is often s
 
 ---
 
-- [Shen/C](https://github.com/otabat/shen-c) - C port of the Shen programming language.
-- [Shen/Go](https://github.com/tiancaiamao/shen-go) - Go port of the Shen language.
+- [100 Languages Speedrun](https://dev.to/taw/series/15607)
+
+    - [100 Languages Speedrun: Episode 01: Python](https://dev.to/taw/100-languages-speedrun-episode-01-python-22c3)
+    - [100 Languages Speedrun: Episode 02: Emojicode](https://dev.to/taw/100-languages-speedrun-episode-02-emojicode-1lbh)
+    - [100 Languages Speedrun: Episode 03: CSS](https://dev.to/taw/100-languages-speedrun-episode-03-css-a62)
+    - [100 Languages Speedrun: Episode 04: Lua](https://dev.to/taw/100-languages-speedrun-episode-04-lua-1ofm)
+    - [100 Languages Speedrun: Episode 05: Kotlin](https://dev.to/taw/100-languages-speedrun-episode-05-kotlin-47p3)
+    - [100 Languages Speedrun: Episode 06: Tcl/Tk](https://dev.to/taw/100-languages-speedrun-episode-06-tcltk-50kl)
+    - [100 Languages Speedrun: Episode 07: Sed and Regular Expression FizzBuzz](https://dev.to/taw/100-languages-speedrun-episode-07-sed-and-regular-expression-fizzbuzz-23l9)
+    - [100 Languages Speedrun: Episode 08: Reverse Polish Notation Calculator](https://dev.to/taw/100-languages-speedrun-episode-08-reverse-polish-notation-calculator-3c3)
+    - [100 Languages Speedrun: Episode 09: Ada](https://dev.to/taw/100-languages-speedrun-episode-09-ada-34og)
+    - [100 Languages Speedrun: Episode 10: Befunge](https://dev.to/taw/100-languages-speedrun-episode-10-befunge-656)
+    - ...
+

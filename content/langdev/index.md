@@ -9,7 +9,7 @@ tags=language, language development
 
 [Reddit r/ProgrammingLanguages](https://www.reddit.com/r/ProgrammingLanguages/)
 
-[Protos are Wrong](https://reasonablypolymorphic.com/blog/protos-are-wrong/): Protobuffers were obviously built by amateurs because they offer bad solutions to widely-known and already-solved problems. ... What’s so frustrating about all of this is a little understanding of how modern type-systems work would be enough to drastically simplify the protobuffer spec and simultaneously remove all of the arbitrary restrictions. The solution is as follows: Make all fields in a message required. This makes messages product types; Promote oneof fields to instead be standalone data types. These are coproduct types; Give the ability to parameterize product and coproduct types by other types. That’s it! These three features are all you need in order to define any possible piece of data. With these simpler pieces, we can re-implement the rest of the protobuffer spec in terms of them.
+[Protos are Wrong](https://reasonablypolymorphic.com/blog/protos-are-wrong/): Protobuffers were obviously built by amateurs because they offer bad solutions to widely-known and already-solved problems. ... What’s so frustrating about all of this is a little understanding of how modern type-systems work would be enough to drastically simplify the protobuffer spec and simultaneously remove all of the arbitrary restrictions. The solution is as follows: Make all fields in a message required. This makes messages product types; Promote `oneof` fields to instead be standalone data types. These are coproduct types; Give the ability to parameterize product and coproduct types by other types. That’s it! These three features are all you need in order to define any possible piece of data. With these simpler pieces, we can re-implement the rest of the protobuffer spec in terms of them.
 
 ## Reading
 
@@ -21,7 +21,7 @@ tags=language, language development
 - [Concepts of Programming Languages](https://www.goodreads.com/book/show/603257.Concepts_of_Programming_Languages)
 - [Concepts of Programming Languages](https://www.ime.usp.br/~alvaroma/ucsp/proglang/book.pdf)
 - [Discrete Mathematics for Computing](https://www.amazon.com/gp/product/0230216110/ref=sw_img_1?smid=ATVPDKIKX0DER&psc=1)
-- Engineering a Compiler - [Amazon](https://www.amazon.com/Engineering-Compiler-Keith-D-Cooper/dp/0128154128/ref=sr_1_1?keywords=Engineering+a+Compiler&qid=1675768541&s=books&sr=1-1)
+- Engineering a Compiler - [Amazon](https://www.amazon.com/Engineering-Compiler-Keith-D-Cooper/dp/0128154128/ref=sr_1_1)
 - Homotopy Type Theory - [Goodreads](https://www.goodreads.com/book/show/18106978-homotopy-type-theory)
 - [How to Design Programs](https://htdp.org/2020-8-1/Book/index.html) - [Goodreads](https://www.goodreads.com/book/show/1119079.How_to_Design_Programs)
 - [Human-Centered Programming Languages](https://bookish.press/hcpl)
@@ -40,10 +40,10 @@ tags=language, language development
 
 ### Language Learnings
 
-- [Ruby](https://github.com/imteekay/programming-language-research/tree/master/language-learning/ruby)
-- [Haskell](https://github.com/imteekay/programming-language-research/tree/master/language-learning/haskell)
-- [Elixir](https://github.com/imteekay/programming-language-research/tree/master/language-learning/elixir)
 - [Clojure](https://github.com/imteekay/programming-language-research/tree/master/language-learning/clojure)
+- [Elixir](https://github.com/imteekay/programming-language-research/tree/master/language-learning/elixir)
+- [Haskell](https://github.com/imteekay/programming-language-research/tree/master/language-learning/haskell)
+- [Ruby](https://github.com/imteekay/programming-language-research/tree/master/language-learning/ruby)
 
 ### Essays/Papers
 
@@ -78,7 +78,7 @@ tags=language, language development
 - [Fundamental concepts in programming languages](https://www.math.pku.edu.cn/teachers/qiuzy/plan/lits/FundamentalConceptOfPL.pdf)
 - ["A Generic Abstract Syntax Model for Embedded Languages"](https://www.cs.tufts.edu/~nr/cs257/archive/emil-axelsson/paper.pdf): "Representing a syntax tree using a data type often involves having many similar-looking constructors. Functions operating on such types often end up having many similar-looking cases. Different languages often make use of similar-looking constructions. We propose a generic model of abstract syntax trees capable of representing a wide range of typed languages. Syntactic constructs can be composed in a modular fashion enabling reuse of abstract syntax and syntactic processing within and across languages. Building on previous methods of encoding extensible data types in Haskell, our model is a pragmatic solution to Wadler’s “expression problem". Its practicality has been confirmed by its use in the implementation of the embedded language Feldspar."
 - [Generic Abstract Syntax Tree (geast)](https://angeljavalopez.medium.com/geast-a-generic-abstract-syntax-tree-c7feb681b6b5)
-- ["GAST"](./GAST_A_generic_AST_representation_for_language-ind.pdf) (PDF)
+- ["GAST"](../GAST_A_generic_AST_representation_for_language-ind.pdf) (PDF)
 - [Going beyond JavaScript](https://www.youtube.com/watch?v=VwisE497Nsg&ab_channel=Intelligence.ai%3AConcepts-FirstPodcast)
 - [Gradual Type Theory](https://arxiv.org/pdf/1811.02440.pdf)
 - [Gradual Typing for Functional Languages](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b7ca4b0e6d3119aa341af73964dbe38d341061dd)
@@ -252,7 +252,25 @@ tags=language, language development
 - [(How to Write a (Lisp) Interpreter (in Python))](http://norvig.com/lispy.html)
 - [How languages work #1: String interpolation](https://martin.janiczek.cz/2023/07/27/how-languages-work-1-string-interpolation.html)
 - [Implementing a Simple Compiler on 25 Lines of JavaScript](https://blog.mgechev.com/2017/09/16/developing-simple-interpreter-transpiler-compiler-tutorial)
-- [Let’s Build A Simple Interpreter](https://ruslanspivak.com/lsbasi-part1)
+- Let’s Build A Simple Interpreter:
+    - [Part 1](https://ruslanspivak.com/lsbasi-part1)
+    - [Part 2](https://ruslanspivak.com/lsbasi-part2)
+    - [Part 3](https://ruslanspivak.com/lsbasi-part3)
+    - [Part 4](https://ruslanspivak.com/lsbasi-part4)
+    - [Part 5](https://ruslanspivak.com/lsbasi-part5)
+    - [Part 6](https://ruslanspivak.com/lsbasi-part6)
+    - [Part 7](https://ruslanspivak.com/lsbasi-part7)
+    - [Part 8](https://ruslanspivak.com/lsbasi-part8)
+    - [Part 9](https://ruslanspivak.com/lsbasi-part9)
+    - [Part 10](https://ruslanspivak.com/lsbasi-part10)
+    - [Part 11](https://ruslanspivak.com/lsbasi-part11)
+    - [Part 12](https://ruslanspivak.com/lsbasi-part12)
+    - [Part 13](https://ruslanspivak.com/lsbasi-part13)
+    - [Part 14](https://ruslanspivak.com/lsbasi-part14)
+    - [Part 15](https://ruslanspivak.com/lsbasi-part15)
+    - [Part 16](https://ruslanspivak.com/lsbasi-part16)
+    - [Part 17](https://ruslanspivak.com/lsbasi-part17)
+    - [Part 18](https://ruslanspivak.com/lsbasi-part18)
 - [LittleBasic](https://github.com/mateiw/littlebasic)
 - [Little lisp interpreter](https://maryrosecook.com/blog/post/little-lisp-interpreter)
 - [Little Lisp interpreter](https://www.recurse.com/blog/21-little-lisp-interpreter)
