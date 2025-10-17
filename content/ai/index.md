@@ -154,6 +154,7 @@ Java:
 * ["Natural language processing: an introduction"](https://academic.oup.com/jamia/article/18/5/544/829676)
 * ["Natural language processing: an annual review" (2003)](https://strathprints.strath.ac.uk/2611/1/strathprints002611.pdf)
 * ["Advances in natural language processing"](https://nlp.stanford.edu/~manning/xyzzy/Hirschberg-Manning-Science-2015.pdf)
+* ["Google Launched LangExtract, a Python Library for Structured Data Extraction from Unstructured Text"](https://www.infoq.com/news/2025/08/google-langextract-python/)
 
 ### Natural Language Programming
 
@@ -242,6 +243,7 @@ An AI model designed to handle specific tasks, using fewer parameters and less c
 * [The Python Game Book](https://web.archive.org/web/20210308080726/https://thepythongamebook.com/en%3Astart) - Horst Jens *(:card_file_box: archived)*
 * [Top 10 Machine Learning Algorithms Every Engineer Should Know](https://www.dezyre.com/article/top-10-machine-learning-algorithms/202) - Binny Mathews and Omair Aasim
 * [Understanding Machine Learning: From Theory to Algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning) - Shai Shalev-Shwartz, Shai Ben-David
+* [You Don't Need Backpropagation To Train Neural Networks Anymore](https://ai.gopubby.com/you-dont-need-backpropagation-to-train-neural-networks-anymore-e989d75564cb)
 
 ### Semantic Entity Resolution (Knowledge Graphs) (?)
 

@@ -1,6 +1,6 @@
 title=Hare
 tags=language, static, native
-summary=A systems programming language designed to be simple, stable, and robust. Hare uses a static type system, manual memory management, and a minimal runtime.
+summary=A systems programming language (a static type system, manual memory management, and a minimal runtime) designed to be simple, stable, and robust.
 ~~~~~~
 
 [Website](https://harelang.org/) | [Source](https://sr.ht/~sircmpwn/hare/) | [Docs](https://harelang.org/documentation/index.html)

@@ -13,5 +13,5 @@ summary=HTML 5 game engine.
 
 * [Infinite Jumper with Phaser 3](https://ourcade.co/books/infinite-jumper-phaser3/)
 * [Phaser 3 Experiment for Drawing Cards](http://html5gamedevelopment.com/phaser-3-experiment-for-drawing-cards/)
-
+* [How to Build a Tic Tac Toe Game with Phaser.js](https://www.freecodecamp.org/news/how-to-build-a-tic-tac-toe-game-with-phaserjs/)
 
