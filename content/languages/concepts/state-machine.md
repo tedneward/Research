@@ -94,6 +94,12 @@ A Moore machine is a machine where the output is determined by only its current 
 - [Moore Finite State Machine](https://www.electronics-tutorial.net/finite-state-machines/State-Machine-Fundamentals/Moore-Finite-State-Machine/)
 - [Moore and Mealy Machine Design Procedure](http://www2.elo.utfsm.cl/~lsb/elo211/aplicaciones/katz/chapter8/chapter08.doc4.html)
 
+## Reading
+
+### Books
+
+* [Programming-Based Formal Languages and Automata Theory](https://link.springer.com/book/10.1007/978-3-031-43973-5)
+
 ## Formal representation
 
 ### SMC
@@ -118,6 +124,16 @@ Statecharts also bring us a few extra features such as actions, entry and exit a
 - [Statecharts: A Visual Formalism for Complex Systems](http://www.inf.ed.ac.uk/teaching/courses/seoc/2005_2006/resources/statecharts.pdf)
 - [Statecharts](https://help.anylogic.com/index.jsp?topic=%2Fcom.anylogic.help%2Fhtml%2Fstatecharts%2FStatecharts.html)
 - [The Statecharts Perspective](http://homepage.cs.uiowa.edu/~fleck/181content/statecharts.pdf)
+
+## Languages
+
+* [states-language](https://states-language.net/): Amazon States Language. A JSON-based language used to describe state machines declaratively. The state machines thus defined may be executed by software. In this document, the software is referred to as "the interpreter".
+* [Coyote](/languages/dotnet/coyote)
+* [fsm](https://github.com/morazanm/fsm): A DSL for the Automata Theory Classroom
+* [P](/languages/p) and/or [P#](/languages/dotnet/psharp)
+* [Plaid](/languages/plaid)
+* [Ragel](/languages/ragel)
+* Archived [Hume](https://web.archive.org/web/20120722084226/http://www-fp.cs.st-andrews.ac.uk/hume/index.shtml): Hume combines functional programming ideas with ideas from finite state automata. Automata are used to structure communicating programs into a series of "boxes", where each box maps inputs to outputs in a purely functional way using high-level pattern-matching. It is structured as a series of levels, each of which exposes different machine properties.
 
 ## Libraries
 
@@ -160,26 +176,27 @@ Statecharts also bring us a few extra features such as actions, entry and exit a
 ### JavaScript
 
 * [XState](https://github.com/davidkpiano/xstate)
+* [finity](https://github.com/nickuraltsev/finity)
+* [fsm-as-promised](https://github.com/vstirbu/fsm-as-promised)
 * [jssm](https://github.com/StoneCypher/jssm) 
 * [JavaScript State Machine](https://github.com/jakesgordon/javascript-state-machine)
+* [kingly](https://github.com/brucou/kingly)
 * [Machina](https://github.com/ifandelse/machina.js)
+* [maquinaria](https://github.com/tomas2387/maquinaria)
+* [mood](https://github.com/bredele/mood)
+* [nanostate](https://github.com/choojs/nanostate)
 * [React Automata](https://github.com/MicheleBertoli/react-automata)
 * [Robot](https://github.com/matthewp/robot)
+* [redux-dsm](https://github.com/ericelliott/redux-dsm)
+* [redux-machine](https://github.com/mheiber/redux-machine)
+* [state](https://github.com/steelbreeze/state)
+* [State Machine](https://github.com/davestewart/javascript-state-machine)
+* [Statebot](https://github.com/shuckster/statebot)
 * [Stately](https://github.com/fschaefer/Stately.js)
 * [Stent](https://github.com/krasimir/stent)
-* [fsm-as-promised](https://github.com/vstirbu/fsm-as-promised)
-* [redux-machine](https://github.com/mheiber/redux-machine)
-* [State Machine](https://github.com/davestewart/javascript-state-machine)
-* [redux-dsm](https://github.com/ericelliott/redux-dsm)
-* [nanostate](https://github.com/choojs/nanostate)
-* [kingly](https://github.com/brucou/kingly)
-* [state](https://github.com/steelbreeze/state)
-* [finity](https://github.com/nickuraltsev/finity)
-* [mood](https://github.com/bredele/mood)
-* [maquinaria](https://github.com/tomas2387/maquinaria)
-* [Statebot](https://github.com/shuckster/statebot)
 
 ### Kotlin
+
 * [KStateMachine](https://github.com/KStateMachine/kstatemachine)
 * https://open.jumpco.io/projects/kfsm.html
 

@@ -12,6 +12,7 @@ summary=Collection of links, notes, and models.
     * [Understanding Multimodal LLMs](https://magazine.sebastianraschka.com/p/understanding-multimodal-llms)
     * [Coding LLMs from Scratch: The Complete Course](https://magazine.sebastianraschka.com/p/coding-llms-from-the-ground-up) [Source](https://github.com/rasbt/LLMs-from-scratch)
 
+* [The Large Language Model Course](https://huggingface.co/blog/mlabonne/llm-course)
 * ["Understanding the Dark Side of Large Language Models: A Comprehensive Guide to Security Threats and Vulnerabilities"](https://www.marktechpost.com/2023/09/01/understanding-the-dark-side-of-large-language-models-a-comprehensive-guide-to-security-threats-and-vulnerabilities/)
 * ["Use of LLMs for Illicit Purposes: Threats, Prevention Measures, and Vulnerabilities"](https://arxiv.org/abs/2308.12833)
 * ["Researchers from Virginia Tech and Microsoft Introduce Algorithm of Thoughts: An AI Approach That Enhances Exploration of Ideas And Power of Reasoning In Large Language Models (LLMs)"](https://www.marktechpost.com/2023/08/31/researchers-from-virginia-tech-and-microsoft-introduce-algorithm-of-thoughts-an-ai-approach-that-enhances-exploration-of-ideas-and-power-of-reasoning-in-large-language-models-llms/)

@@ -3,7 +3,7 @@ tags=storage
 summary=Resources on how to build a database
 ~~~~~~
 
-[Subreddit: /r/databasedevelopment](https://www.reddit.com/r/databasedevelopment/)
+[/r/databasedevelopment](https://www.reddit.com/r/databasedevelopment/)
 
 ## Build your own....
 
@@ -46,6 +46,7 @@ summary=Resources on how to build a database
 * [B-trees: More than I thought I'd want to know](https://benjamincongdon.me/blog/2021/08/17/B-Trees-More-Than-I-Thought-Id-Want-to-Know/)
 * [B-tree](https://www.programiz.com/dsa/b-tree)
 * [Data Replication Design Spectrum](https://transactional.blog/blog/2024-data-replication-design-spectrum)
+* [Foundations of Databases](http://webdam.inria.fr/Alice/) (PDF available)
 * [How Databases Store and Retrieve Data with B-Trees](https://www.lucavall.in/blog/how-databases-store-and-retrieve-data-with-b-trees)
 * [Introduction of B-tree](https://www.geeksforgeeks.org/introduction-of-b-tree-2/)
 

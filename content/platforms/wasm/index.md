@@ -23,7 +23,13 @@ summary=A portable multi-environment-targeting bytecode format for the Web.
 * [Common WebAssembly](https://github.com/CommonWA/cwa-spec)
 * Announcements [2.0](https://webassembly.org/news/2025-03-20-wasm-2.0/), [3.0](https://webassembly.org/news/2025-09-17-wasm-3.0/)
 
-Tools: [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) | [binaryen](https://github.com/WebAssembly/binaryen)
+## Tools
+
+- [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) | [binaryen](https://github.com/WebAssembly/binaryen)
+
+## Examples
+
+- [Chip-8 Emulator](https://emuchip.com/) [Source](https://github.com/Timmoth/EmuChip): A lightweight interpreted virtual machine originally designed for 8-bit microcomputers. It features a 4K memory space, 16 8-bit registers, a 64×32 monochrome display, a stack for subroutines, and simple timers for delay and sound. This emulator replicates the CHIP-8 architecture in software, written in C# and compiled into WebAssembly for execution directly in the browser.
 
 Features:
 
