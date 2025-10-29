@@ -302,6 +302,91 @@ The [File Browser](https://github.com/gtsteffaniak/filebrowser) Docker container
 
 [HomeBox](https://homebox.software/en/): As the name suggests, you can think of HomeBox as a digital catalog for everything you own, from small tools and electronics to seasonal decorations. Its primary goal is to help you keep track of your belongings, know where they are, and remember every important detail about them. With HomeBox, you can basically eliminate the frustration of disorganization and create a centralized, searchable, and customizable record of your household possessions.
 
+[HomeHub](https://github.com/surajverma/homehub): a lightweight, self-hosted web app that turns any computer (even a Raspberry Pi!) into a central hub for shared notes, shopping lists, chores, a media downloader, and even a family expense tracker:
+
+    Config.yml
+    ```
+    instance_name: "My Home Hub"
+        password: "" #leave blank for password less access
+        admin_name: "Administrator"
+        feature_toggles:
+        shopping_list: true
+        media_downloader: true
+        pdf_compressor: true
+        qr_generator: true
+        notes: true
+        shared_cloud: true
+        who_is_home: true
+        personal_status: true
+        chores: true
+        recipes: true
+        expiry_tracker: true
+        url_shortener: true
+        expense_tracker: true
+
+        family_members:
+        - Mom
+        - Dad
+        - Dipanshu
+        - Vivek
+        - India
+
+        reminders:
+        # time_format controls how reminder times are displayed in the UI.
+        # Allowed values: "12h" (default) or "24h". Remove or leave blank to fall back to 12h.
+        time_format: 12h
+
+        # calendar_start_day controls which day the reminders calendar starts on.
+        # Accepts full weekday names (sunday, saturday).  
+        calendar_start_day: monday #default is Sunday, comment this line to switch to default
+
+        # Example reminder categories (keys lowercase no spaces recommended)
+        categories:
+            - key: health
+            label: Health
+            color: "#dc2626"
+            - key: bills
+            label: Bills
+            color: "#0d9488"
+            - key: school
+            label: School
+            color: "#7c3aed"
+            - key: family
+            label: Family
+            color: "#2563eb"
+        theme:
+        primary_color: "#1d4ed8"
+        secondary_color: "#a0aec0"
+        background_color: "#f7fafc"
+        card_background_color: "#fff"
+        text_color: "#333"
+        sidebar_background_color: "#2563eb"
+        sidebar_text_color: "#ffffff"
+        sidebar_link_color: "rgba(255,255,255,0.95)"
+        sidebar_link_border_color: "rgba(255,255,255,0.18)"
+        sidebar_active_color: "#3b82f6"
+    ```
+
+    Compose.yml
+    ```
+    # compose.yml
+    services:
+        homehub:
+            container_name: homehub
+            image: ghcr.io/surajverma/homehub:latest
+            ports:
+            - "5000:5000" #app listens internally on port 5000
+            environment:
+            - FLASK_ENV=production
+            - SECRET_KEY=${SECRET_KEY:-} # set via .env; falls back to random if not provided
+            volumes:
+            - ./uploads:/app/uploads
+            - ./media:/app/media
+            - ./pdfs:/app/pdfs
+            - ./data:/app/data
+            - ./config.yml:/app/config.yml:ro    
+    ```
+
 [Jellyfin](https://jellyfin.org/docs/general/installation/container/): Centralized hub for movies, TV shows, music, and photos.
 
 [Kanboard](https://kanboard.org/): self-hosted Kanban-style project tracker that rivals Trello.
