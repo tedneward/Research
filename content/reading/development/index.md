@@ -1,6 +1,6 @@
-title=Reading in software
+title=Software reading
 tags=reading, language, tool, library, vm, architecture
-summary=A collection of links and articles on software and development.
+summary=A collection of links and articles on software development.
 ~~~~~~
 
 [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) (Not sure where else this belongs.)

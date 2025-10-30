@@ -1,8 +1,6 @@
 title=Business Reading
-category=business
-type=categorypage
 summary=A collection of articles and links on the business side of life.
-tags=business
+tags=business, reading
 ~~~~~~
 
 ## Reading
