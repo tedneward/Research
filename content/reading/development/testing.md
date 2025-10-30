@@ -7,7 +7,7 @@ summary=A collection of links and resources around testing
 
 ["Testing Without Mocks: A Pattern Language"](https://www.jamesshore.com/v2/projects/nullables/testing-without-mocks)
 
-See also: [Fuzzing](../fuzzing) || [Compilers Correctness](../languages/compilers.correctness)
+See also: [Fuzzing](/reading/development/fuzzing) || [Compilers Correctness](/languages/compilers.correctness)
 
 - [ACM Special Interest Group on Software Engineering (SIGSOFT)](https://www.sigsoft.org/)
 	- Open Table of Contents (TOC) Resources - https://www.sigsoft.org/resources/opentoc.html
