@@ -44,7 +44,7 @@ Tracking technical debt with metrics: Keeping track of technical debt is essenti
     * Dashboards: Create dashboards that visualize technical debt metrics. This helps in quickly assessing the health of the project and identifying areas that need attention.
 
 
-##### Tech Debt Index (TDI)
+#### Tech Debt Index (TDI)
 *Measurement: Metric* (Goal will depend on how the metric is calcuated)
 
 A composite metric that combines various indicators of technical debt into a single index.
@@ -65,7 +65,7 @@ The construction of the index can be subjective, depending on which metrics are 
 May oversimplify complex aspects of technical debt.
 
 
-##### Tech Debt Ratio (TDR)
+#### Tech Debt Ratio (TDR)
 *Goal: Low* *Measurement: percentage*
 
 TDR is a measure of the cost to fix the technical debt relative to the size of the codebase. Use TDR to assess and communicate the overall health of the codebase to both technical and non-technical stakeholders.
@@ -95,7 +95,7 @@ Calculation: For the investment portfolio manager, the ratio is ($1,200 / $30,00
 * Might not reflect the impact of non-quantifiable aspects of debt.
 
 
-##### Defect count
+#### Defect count
 *Goal: Low* *Measurement: Instances of defects within a system*
 
 This metric tracks the number of open bugs. High numbers can indicate underlying quality issues contributing to technical debt.
@@ -113,7 +113,7 @@ Use a defect tracker or other system (spreadsheet).
 * Bug counts alone don't give a complete picture of the software's health.
 
 
-##### Defect age
+#### Defect age
 *Goal: Low* *Measurement: Time per defect*
 
 Bugs that have been open for a long time can indicate that technical debt is being neglected. This can lead to a deteriorating codebase and user experience.
@@ -132,7 +132,7 @@ Use a defect tracker or other system (spreadsheet). Timestamps must be present f
 * The severity and impact of bugs vary; not all bugs contribute equally to technical debt.
 
 
-##### Defect growth rate
+#### Defect growth rate
 *Goal: Low, preferably negative* *Measurement: instance delta (number of new bugs reported versus the number of bugs that have been resolved or closed over a specific period)*
 
 ***Mechanism:***
@@ -156,7 +156,7 @@ Track the number of new bugs reported and the number of bugs closed in your issu
 * **Does Not Reflect Underlying Causes:** While this metric can signal potential problems, it doesn't directly point to the causes of technical debt.
 
 
-##### Defect ratio, Defect density
+#### Defect ratio, Defect density
 *Goal: Low* *Measurement: number of defects in a software system relative to its size*
 
 Helps in tracking the quality of the software over time, indicating whether technical debt is causing an increase in defects. Can guide decisions about where to focus development efforts, particularly in identifying areas of the codebase that may be contributing disproportionately to the defect count. Assists in prioritizing technical debt reduction strategies, especially when correlated with other metrics like code complexity or code churn.
@@ -185,13 +185,13 @@ Project Health Assessment: It provides a quick snapshot of the current state of 
 * Size of the Software could be measured in different units, such as lines of code, function points, or number of modules/components.
 
 
-##### Cycle Time
+#### Cycle Time
 *Goal: Low* *Measurement: Time*
 
 Measures the time it takes for a unit of work to be completed from start to finish. Unlike throughput, which measures the amount of work completed in a given time period, cycle time focuses on the amount of time. This metric is useful for understanding how long it takes to complete a specific task, and can be useful for identifying bottlenecks or inefficiencies in the development process.
 
 
-##### Lead time for changes, Time to Market (TTM)
+#### Lead time for changes, Time to Market (TTM)
 *Goal: Low* *Measurement: Time*
 
 Lead time for changes is the time it takes to go from code committed to code successfully running in production. TTM is typically customer-facing and at largerscale than a single feature. This metric is important for measuring the speed and agility of your software delivery process. Lead time takes into account the time it takes to plan, prioritize, and start work on a unit of work, as well as the time it takes to complete it. It can be useful for understanding how long it takes to deliver new features or improvements to customers.
@@ -216,7 +216,7 @@ Measure the duration from when a feature is planned to when it is available to u
 * Not all delays are due to technical debt.
 
 
-##### Code Churn
+#### Code Churn
 *Goal: Low* *Measurement: percentage of a developer's own code that is recently edited (added, modified, deleted) after being written.*
 
 Code churn can be indicative of indecision, lack of clarity, or misunderstanding – all of which contribute to technical debt. High code churn, especially late in a development cycle, can be a red flag that code may be less reliable or harder to maintain. High churn may indicate unstable or problematic areas in the codebase. Helps identify features or modules that are frequently changed and might be accumulating debt.
@@ -237,7 +237,7 @@ Code churn can be indicative of indecision, lack of clarity, or misunderstanding
 * Doesn’t directly measure code quality.
 
 
-##### Development Throughput, Velocity
+#### Development Throughput, Velocity
 *Goal: High* *Measurement: Instances (stories, features, etc) within time*
 
 Throughput is a way of measuring how much work your team is able to complete in a specific period of time. It's a way of tracking progress and understanding how well your processes are working. By keeping an eye on throughput, you can make changes to improve the efficiency of your team’s work. Tracking throughput is like keeping a pulse on the health of the development process. 
@@ -268,7 +268,7 @@ Example: Development team of 5 people completed a total of 20 user stories in 4 
 * **Must still be conscious while assessing performance.** Assessing the performance of individual developers is controversial. Throughput as a single source of truth also isn't good for that goal since it doesn’t refer to quality and complexity of tasks. That way, developers who complete a lot of small tasks and do it carelessly would have higher results than the ones who deliver the code of the highest quality and work with complex tasks. 
 
 
-##### Pull Request Size
+#### Pull Request Size
 *Goal: Low* *Measurement: bytes, lines of code, # of files*
 
 Pull request size refers to the extent of code changes introduced within a single pull request, typically measured by the number of files modified and lines of code added or removed.
@@ -276,7 +276,7 @@ Pull request size refers to the extent of code changes introduced within a singl
 Measuring pull request size helps streamline code reviews, accelerate feedback cycles, and improve code quality by breaking down changes into manageable units and facilitating efficient collaboration among team members.
 
 
-##### Code Duplication
+#### Code Duplication
 *Goal: Low* *Measurement: percentage*
 
 Code duplication often leads to maintenance challenges. If a bug is found in a piece of duplicated code, it needs to be fixed in all instances. This increases the likelihood of missed defects and future issues.
@@ -297,7 +297,7 @@ Analyze the codebase using static code analysis tools to identify and quantify d
 * Doesn’t measure other quality aspects like code complexity.
 
 
-##### Cyclomatic Complexity
+#### Cyclomatic Complexity
 *Goal: Low* *Measurement: instances of linearly independent paths through a unit of code*
 
 High cyclomatic complexity indicates that the code may be harder to test thoroughly and more prone to defects. It can also be harder to read and understand, increasing the likelihood of introducing errors during future changes. ‍Use this metric to identify complex code that may be harder to maintain and more prone to defects. Analyzing cyclomatic complexity at a method, class, and module level can help identify specific areas that may benefit most from refactoring.
@@ -321,7 +321,7 @@ High cyclomatic complexity indicates that the code may be harder to test thoroug
 * Doesn't indicate other aspects of code quality.
 
 
-##### Test Coverage
+#### Test Coverage
 *Goal: High* *Measurement: percentage over lines of code and/or files*
 
 It measures the extent to which the modified code is covered by automated tests. Higher test coverage indicates more confidence in the changes and reduces the risk of regressions. Test coverage analysis helps ensure code quality and stability. While high test coverage is not a guarantee of code quality, inadequate test coverage can mean that the codebase is not well-protected against regressions, making it riskier to address technical debt through refactoring.
@@ -343,7 +343,7 @@ Use testing tools and frameworks to calculate the percentage of code executed du
 * Can lead to a false sense of security if tests are not well-designed.
 
 
-##### Deployment Frequency
+#### Deployment Frequency
 *Goal: High* *Measurement: Instances within time*
 
 Deployment frequency is the number of times code is deployed to production in a given period of time. This metric is important for measuring the speed and agility of a software delivery process. 
@@ -353,7 +353,7 @@ For example, if your team is able to deploy code to production frequently, it ca
 A high deployment frequency indicates that teams are able to deliver changes quickly, responding to the needs of the business.
 
 
-##### Changed Failure Rate
+#### Changed Failure Rate
 *Goal: Low* *Measurement: percentage (of changes (e.g., deployments or code commits) that fail and require immediate remediation (like a hotfix or rollback))*
 
 ***Mechanism:***
@@ -371,7 +371,7 @@ Tracking the success and failure rates of deployments and code changes.
 * Doesn't capture the underlying causes of the failures.
 
 
-##### Number of Failed CI/CD Events
+#### Number of Failed CI/CD Events
 *Goal: Low* *Measurement: instances (number of times continuous integration (CI) or continuous deployment (CD) processes fail.)*
 
 ***Mechanism:***
@@ -387,7 +387,7 @@ Tracking the success and failure rates of deployments and code changes.
 * Doesn't provide insights into the nature of the issues causing the failures.
 
 
-##### Mean time to recovery (MTTR)
+#### Mean time to recovery (MTTR)
 *Goal: Low* *Measurement: Time*
 
 MTTR is the average time it takes to repair a system after a failure. This metric is important for measuring the reliability and availability of a system. 
@@ -397,7 +397,7 @@ For example, let's say your company has a web application that experiences a fai
 A low MTTR indicates a system that is reliable and easy to recover from failures.
 
 
-##### Mean time between failures (MTBF)
+#### Mean time between failures (MTBF)
 *Goal: High* *Measurement: Time*
 
 MTBF is the average time between failures in a system. This metric is important for measuring the reliability and availability of a system.
@@ -407,7 +407,7 @@ For example, if your web application has a high MTBF, it means that your users w
 A high MTBF indicates a system that is reliable and has fewer failures.
 
 
-##### Mean time to detect (MTTD)
+#### Mean time to detect (MTTD)
 *Goal: Low* *Measurement: Time*
 
 MTTD is the average time it takes to detect a failure in a system. This metric is important for measuring the effectiveness of monitoring and alerting systems. 
@@ -417,13 +417,13 @@ For example, if you have a monitoring system set up to detect issues with your w
 A low MTTD indicates that failures are detected quickly, allowing teams to respond and recover more quickly.
 
 
-##### User value and impact
+#### User value and impact
 *Goal: High* *Measurement: opinion/human analysis*
 
 It involves considering factors like user feedback, customer requests, or business goals. By prioritizing value-driven changes, your team will ensure that their efforts align with the needs and expectations of stakeholders. 
 
 
-##### Peer review
+#### Peer review
 *Goal: High* *Measurement: opinion/human analysis*
 
 Instead of relying solely on metrics, emphasize the feedback and insights provided during peer code reviews. Human judgment and expertise play a crucial role in evaluating code changes. Peer reviews provide an opportunity for knowledge sharing, identifying potential issues, and enhancing overall code quality. 
