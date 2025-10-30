@@ -127,6 +127,30 @@ Use a defect tracker or other system (spreadsheet). Timestamps must be present f
 * The severity and impact of bugs vary; not all bugs contribute equally to technical debt.
 
 
+##### Defect growth rate
+*Goal: Low, preferably negative* *Measurement: instance delta (number of new bugs reported versus the number of bugs that have been resolved or closed over a specific period)*
+
+***Mechanism:***
+
+Track the number of new bugs reported and the number of bugs closed in your issue tracking or project management software over regular intervals (e.g., weekly, monthly).
+
+***Benefits:***
+
+* **Balance of Bug Creation and Resolution:** A high number of new bugs compared to closed ones could indicate growing technical debt, as it suggests issues are being introduced faster than they are being resolved.
+* **Software Stability:** A sudden spike in new bugs might indicate problems introduced in recent updates, reflecting the impact of rushed development or insufficient testing, both of which can contribute to technical debt.
+* **Project Health Monitoring:** Regularly comparing new and closed bugs can help in assessing the health and progress of a project. A project with decreasing technical debt should ideally show a trend of decreasing new bugs or an increasing rate of bug closure.
+* **Prioritization and Resource Allocation:** This metric can help in prioritizing bug fixing and allocating resources effectively, which is crucial for managing and reducing technical debt.
+* Helps in understanding the dynamics of bug occurrence and resolution in a project.
+* Can signal when technical debt might be increasing, requiring attention to areas of the codebase that are generating new bugs.
+* Assists in resource planning for bug fixing and technical debt reduction efforts.
+
+***Risks:***
+
+* **Not All Bugs are Equal:** This metric doesn't account for the severity or complexity of the bugs. Therefore, the raw numbers might be misleading without the context of bug impact.
+* **Quality of Bug Reporting:** The reliability of this metric depends on the consistency and quality of bug reporting practices. Inconsistent reporting can skew the data.
+* **Does Not Reflect Underlying Causes:** While this metric can signal potential problems, it doesn't directly point to the causes of technical debt.
+
+
 ##### Defect ratio, Defect density
 *Goal: Low* *Measurement: number of defects in a software system relative to its size*
 
