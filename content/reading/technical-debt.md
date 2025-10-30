@@ -5,6 +5,10 @@ summary=Notes and links about the subject.
 
 ## Thoughts
 
+### High-level categories
+
+
+
 ### Metrics
 
 Tracking technical debt with metrics: Keeping track of technical debt is essential for maintaining the health and sustainability of a software project.
@@ -38,6 +42,7 @@ Tracking technical debt with metrics: Keeping track of technical debt is essenti
 
     * Use Metrics: Track key metrics to get a quantitative view of your technical debt.
     * Dashboards: Create dashboards that visualize technical debt metrics. This helps in quickly assessing the health of the project and identifying areas that need attention.
+
 
 ##### Tech Debt Index (TDI)
 *Measurement: Metric* (Goal will depend on how the metric is calcuated)

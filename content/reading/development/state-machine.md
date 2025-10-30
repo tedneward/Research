@@ -1,14 +1,30 @@
 title=State Machine (FSM)
-tags=language, concept
+tags=language, reading, concept
 summary=Links and notes on the subject.
 ~~~~~~
 
-[r/statemachines](https://www.reddit.com/r/statemachines/)
+[Wikipedia](http://en.wikipedia.org/wiki/Finite-state_machine) | [r/statemachines](https://www.reddit.com/r/statemachines/)
 
-## Introduction
+## Overview
 
-You might have not heard the term "finite state machines" before, but humanity has been using this concept every day for a long time. Not only in the programming world, but in real life too, we have a lot of systems that rely upon the concept of finite state machines.
+### An introduction
+From [here](https://excalidraw.com/) there is a really nice summary of FSMs:
 
+1. What is a state machine?
+
+    A state machine is an abstract concept that describes
+
+    * being in only one 'finite state' at any time
+    * where there is an "initial state"
+    * and "transitions" between states triggered by "events"
+
+2. States: A finite state describes some "mode" or "status" that a system (e.g., an app or component) is in. State machines always start in an initial state. Final states mark that a machine is "done". Extended state describes contextual data that is not finite, but relevant to the machine. Don't confuse finite ("countable") states with extended ("infinite") states!
+
+3. Events & Transitions: An event is a "signal" that something happened. Events can trigger "transitions" between states. Transitions are always zero-time; they happen instantaneously. (Promises & async can still be modeled as a state machine. Just think of "awaiting" as a finite state.) Events are distinguished by a finite set of types and sometimes carry extra data.
+
+4. Actions: Actions are side-effects that are executed due to events. Transition ("do") actions are executed due to transitions. (These are characterisitic of Mealy machines). Entry actions are executed whenever a state is entered. Exit actions are executed whenever a state is exited. (These are characteristic of Moore machines.)
+    
+### Another introduction
 Finite state machines are a computation model, it consists of a machine with a finite number of states. A finite state machine has a finite number of events, to move from one state to another we have something called transitions. These transitions are triggered after a specific event, each transition expects an input, after its triggered, it will change to a specific state depending on the current state and the event.
 
 We can simplify a finite state machine in 4 parts: 
@@ -95,6 +111,10 @@ A Moore machine is a machine where the output is determined by only its current 
 - [Moore and Mealy Machine Design Procedure](http://www2.elo.utfsm.cl/~lsb/elo211/aplicaciones/katz/chapter8/chapter08.doc4.html)
 
 ## Reading
+
+### Articles/Blogs/Essays
+
+* [Modeling AI](http://blog.manuvra.com/modeling-a-simple-ai-behavior-using-a-finite-state-machine/)
 
 ### Books
 
