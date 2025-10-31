@@ -11,25 +11,36 @@ Causes of technical debt:
 * Unintentional mistakes: Inexperienced developers, poor architectural choices, or insufficient knowledge can lead to debt.
 * Insufficient documentation: Lack of documentation makes it difficult for others to understand and maintain the code.
 * Lack of refactoring: Not regularly addressing and improving existing code can lead to it becoming outdated and difficult to manage.
-* Rapid changes: Unforeseen or last-minute changes to features can introduce bugs and complexities that are not properly addressed. 
+* Rapid changes: Unforeseen or last-minute changes to features can introduce bugs and complexities that are not properly addressed.
+* Pressure to minimize development time/schedule pressure
+* Unexpected and ill-defined features and changes: The implementation of last-minute specification changes or changes that are insufficiently documented or tested
+* Gaps in knowledge or skills. May manifest as a lack of process understanding, insufficient knowledge, poor technological leadership, or inadequate mentoring or knowledge sharing practices.
+* Issues in the development process: Such as sub-optimal solutions, insufficient requirements (from process inefficiencies), conflicting requirements on parallel branches, deferred refactoring, or delayed upstream contributions.
+* Non-compliance with best practice: Such as insufficient software documentation, poor collaboration practices, lack of ownership, rewrites for outsourced software, inadequate attention to code quality, tightly coupled components, lack of a test suite, or failure to align to standards (including ignoring industry standard frameworks).
 
 Fowler's thoughts:
 
     * [Technical Debt](https://martinfowler.com/bliki/TechnicalDebt.html)
     * [Technical Debt Quadrant](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html)
 
-
-
 ## Thoughts
 
 ### High-level categories
 
-* Architectural debt: Issues in the software architecture, such as strongly coupled components, non-scalability of the components, and poor performance, are considered architectural debts. These debts mostly result from hurried decisions or lack of foresight.
-* Design debt: Design debt refers to all those UI or UX issues: inconsistency in styling, bad usability, and a lack of accessibility. It usually occurs when design decisions or designs are made hastily and without proper user research.
-* Code debt: Code debt is the problem in the source code. It includes bad structuring, duplication, or a lack of comments. Common reasons for code debt include rapid developments or not correctly following the best practices for coding.
-* Testing debt: Testing debt means the need for more extensive and automated testing. When a project has testing debt, the software is unreliable, and there will be more manual testing activities. This might be because of rushed development or poor emphasis on testing.
-* Documentation debt: Missing or outdated documentation is commonly referred to as documentation debt, which makes it hard for a newcomer to the team to understand the codebase. It generally happens when development is rushed or when documentation is not prioritized.
-* Infrastructure Debt: Infrastructure debt refers to problems in the infrastructure itself, such as underpowered servers, unautomated tasks, and a lack of good monitoring. This debt generally results from hurried decisions about infrastructure or from maintaining infrastructure taking a backseat.
+* **Requirement Debt:**
+* **People Debt:**
+* **Architectural debt:** Issues in the software architecture, such as strongly coupled components, non-scalability of the components, and poor performance, are considered architectural debts. These debts mostly result from hurried decisions or lack of foresight.
+* **Design debt:** Design debt refers to all those UI or UX issues: inconsistency in styling, bad usability, and a lack of accessibility. It usually occurs when design decisions or designs are made hastily and without proper user research.
+* **Process debt:** stems from poor collaboration, unclear workflows and missing documentation, causing delays in feature delivery and increasing onboarding challenges. Companies that neglect agile methodologies or fail to integrate scrum principles often struggle with backlog accumulation, making it difficult to track and resolve issues efficiently.
+* **Build Debt:**
+* **Code debt:** Code debt is the problem in the source code. It includes bad structuring, duplication, or a lack of comments. Common reasons for code debt include rapid developments or not correctly following the best practices for coding.
+* **Testing debt:** Testing debt means the need for more extensive and automated testing. When a project has testing debt, the software is unreliable, and there will be more manual testing activities. This might be because of rushed development or poor emphasis on testing.
+* **Test Automation Debt:** *(Could be seen as a subcategory of Testing Debt)*
+* **Defect Debt:**
+* **Documentation debt:** Missing or outdated documentation is commonly referred to as documentation debt, which makes it hard for a newcomer to the team to understand the codebase. It generally happens when development is rushed or when documentation is not prioritized.
+* **Infrastructure Debt:** Infrastructure debt refers to problems in the infrastructure itself, such as underpowered servers, unautomated tasks, and a lack of good monitoring. This debt generally results from hurried decisions about infrastructure or from maintaining infrastructure taking a backseat.
+* **Service Debt:**
+* **Security debt:** Arises when teams cut corners on encryption, authentication or vulnerability patching, leaving software exposed to cyberthreats and compliance risks. A lack of automated security testing increases the burden on teams, making it more difficult to maintain secure systems. *(Could be seen as a subcategory of Infrastructure.)*
 
 ### Metrics
 
@@ -477,6 +488,8 @@ Instead of relying solely on metrics, emphasize the feedback and insights provid
 ## Reading
 
 ### Articles/Blogs/Essays
+
+* "Towards an Ontology of Terms on Technical Debt": "Technical debt is a term that has been used to describe the increased cost of changing or maintaining a system due to shortcuts taken during its development. As technical debt is a recent research area, its different types and their indicators are not organized yet. Therefore, this paper proposes an ontology of terms on technical debt in order to organize a common vocabulary for the area. The organized concepts derived from the results of a systematic literature mapping. The proposed ontology was evaluated in two steps. In the first one, some ontology design quality criteria were used. For the second one, a specialist in the area performed an initial evaluation. This work contributes to evolve the Technical Debt Landscape through the organization of the different types of technical debt and their indicators. We consider this an important contribution for both researchers and practitioners because this information was spread out in the literature hindering their use in research and development activities." [ResearchGate](https://www.researchgate.net/publication/286010286_Towards_an_Ontology_of_Terms_on_Technical_Debt) [PDF](/reading/development/Towards_an_Ontology_of_Terms_on_Technical_Debt.pdf) [slides](https://pdfs.semanticscholar.org/3ab6/bd6fd72110a18f2d9d442cab03369a6017c5.pdf)
 
 * Martin Fowler:
 
