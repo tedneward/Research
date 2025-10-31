@@ -3,11 +3,33 @@ tags=reading, development, business
 summary=Notes and links about the subject.
 ~~~~~~
 
+Technical debt is the implied cost of rework caused by choosing an easier, quicker solution now instead of a better approach that would take longer. While it can speed up initial delivery, this "debt" slows down future development, increases costs, and lowers software quality over time, similar to financial debt. It can be incurred intentionally for short-term gains or unintentionally through poor practices, and includes issues like inadequate code, design, or documentation. 
+
+Causes of technical debt:
+
+* Intentional shortcuts: Making a quick decision to meet a deadline, even if a better but longer solution exists.
+* Unintentional mistakes: Inexperienced developers, poor architectural choices, or insufficient knowledge can lead to debt.
+* Insufficient documentation: Lack of documentation makes it difficult for others to understand and maintain the code.
+* Lack of refactoring: Not regularly addressing and improving existing code can lead to it becoming outdated and difficult to manage.
+* Rapid changes: Unforeseen or last-minute changes to features can introduce bugs and complexities that are not properly addressed. 
+
+Fowler's thoughts:
+
+    * [Technical Debt](https://martinfowler.com/bliki/TechnicalDebt.html)
+    * [Technical Debt Quadrant](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html)
+
+
+
 ## Thoughts
 
 ### High-level categories
 
-
+* Architectural debt: Issues in the software architecture, such as strongly coupled components, non-scalability of the components, and poor performance, are considered architectural debts. These debts mostly result from hurried decisions or lack of foresight.
+* Design debt: Design debt refers to all those UI or UX issues: inconsistency in styling, bad usability, and a lack of accessibility. It usually occurs when design decisions or designs are made hastily and without proper user research.
+* Code debt: Code debt is the problem in the source code. It includes bad structuring, duplication, or a lack of comments. Common reasons for code debt include rapid developments or not correctly following the best practices for coding.
+* Testing debt: Testing debt means the need for more extensive and automated testing. When a project has testing debt, the software is unreliable, and there will be more manual testing activities. This might be because of rushed development or poor emphasis on testing.
+* Documentation debt: Missing or outdated documentation is commonly referred to as documentation debt, which makes it hard for a newcomer to the team to understand the codebase. It generally happens when development is rushed or when documentation is not prioritized.
+* Infrastructure Debt: Infrastructure debt refers to problems in the infrastructure itself, such as underpowered servers, unautomated tasks, and a lack of good monitoring. This debt generally results from hurried decisions about infrastructure or from maintaining infrastructure taking a backseat.
 
 ### Metrics
 
@@ -43,6 +65,7 @@ Tracking technical debt with metrics: Keeping track of technical debt is essenti
     * Use Metrics: Track key metrics to get a quantitative view of your technical debt.
     * Dashboards: Create dashboards that visualize technical debt metrics. This helps in quickly assessing the health of the project and identifying areas that need attention.
 
+---
 
 #### Tech Debt Index (TDI)
 *Measurement: Metric* (Goal will depend on how the metric is calcuated)
@@ -64,6 +87,7 @@ Combining various technical debt metrics (like code complexity, bug count, etc.)
 The construction of the index can be subjective, depending on which metrics are included.
 May oversimplify complex aspects of technical debt.
 
+---
 
 #### Tech Debt Ratio (TDR)
 *Goal: Low* *Measurement: percentage*
@@ -94,6 +118,7 @@ Calculation: For the investment portfolio manager, the ratio is ($1,200 / $30,00
 * Doesn't capture non-code aspects of technical debt (like architectural issues).
 * Might not reflect the impact of non-quantifiable aspects of debt.
 
+---
 
 #### Defect count
 *Goal: Low* *Measurement: Instances of defects within a system*
@@ -112,6 +137,7 @@ Use a defect tracker or other system (spreadsheet).
 
 * Bug counts alone don't give a complete picture of the software's health.
 
+---
 
 #### Defect age
 *Goal: Low* *Measurement: Time per defect*
@@ -131,6 +157,7 @@ Use a defect tracker or other system (spreadsheet). Timestamps must be present f
 
 * The severity and impact of bugs vary; not all bugs contribute equally to technical debt.
 
+---
 
 #### Defect growth rate
 *Goal: Low, preferably negative* *Measurement: instance delta (number of new bugs reported versus the number of bugs that have been resolved or closed over a specific period)*
@@ -155,6 +182,7 @@ Track the number of new bugs reported and the number of bugs closed in your issu
 * **Quality of Bug Reporting:** The reliability of this metric depends on the consistency and quality of bug reporting practices. Inconsistent reporting can skew the data.
 * **Does Not Reflect Underlying Causes:** While this metric can signal potential problems, it doesn't directly point to the causes of technical debt.
 
+---
 
 #### Defect ratio, Defect density
 *Goal: Low* *Measurement: number of defects in a software system relative to its size*
@@ -184,12 +212,14 @@ Project Health Assessment: It provides a quick snapshot of the current state of 
 * Number of Defects is the total number of defects found in the software.
 * Size of the Software could be measured in different units, such as lines of code, function points, or number of modules/components.
 
+---
 
 #### Cycle Time
 *Goal: Low* *Measurement: Time*
 
 Measures the time it takes for a unit of work to be completed from start to finish. Unlike throughput, which measures the amount of work completed in a given time period, cycle time focuses on the amount of time. This metric is useful for understanding how long it takes to complete a specific task, and can be useful for identifying bottlenecks or inefficiencies in the development process.
 
+---
 
 #### Lead time for changes, Time to Market (TTM)
 *Goal: Low* *Measurement: Time*
@@ -215,6 +245,7 @@ Measure the duration from when a feature is planned to when it is available to u
 * Influenced by many factors beyond technical debt, such as team size and resource allocation.
 * Not all delays are due to technical debt.
 
+---
 
 #### Code Churn
 *Goal: Low* *Measurement: percentage of a developer's own code that is recently edited (added, modified, deleted) after being written.*
@@ -236,6 +267,7 @@ Code churn can be indicative of indecision, lack of clarity, or misunderstanding
 * High churn isn’t always negative; it can reflect healthy iterative development.
 * Doesn’t directly measure code quality.
 
+---
 
 #### Development Throughput, Velocity
 *Goal: High* *Measurement: Instances (stories, features, etc) within time*
@@ -267,6 +299,7 @@ Example: Development team of 5 people completed a total of 20 user stories in 4 
 * **Over-reliance on metrics.** Relying too heavily on throughput metrics can result in a lack of attention to other important indicators of performance, such as customer satisfaction and employee engagement.
 * **Must still be conscious while assessing performance.** Assessing the performance of individual developers is controversial. Throughput as a single source of truth also isn't good for that goal since it doesn’t refer to quality and complexity of tasks. That way, developers who complete a lot of small tasks and do it carelessly would have higher results than the ones who deliver the code of the highest quality and work with complex tasks. 
 
+---
 
 #### Pull Request Size
 *Goal: Low* *Measurement: bytes, lines of code, # of files*
@@ -275,6 +308,7 @@ Pull request size refers to the extent of code changes introduced within a singl
 
 Measuring pull request size helps streamline code reviews, accelerate feedback cycles, and improve code quality by breaking down changes into manageable units and facilitating efficient collaboration among team members.
 
+---
 
 #### Code Duplication
 *Goal: Low* *Measurement: percentage*
@@ -296,6 +330,7 @@ Analyze the codebase using static code analysis tools to identify and quantify d
 * Some duplication might be necessary or intentional.
 * Doesn’t measure other quality aspects like code complexity.
 
+---
 
 #### Cyclomatic Complexity
 *Goal: Low* *Measurement: instances of linearly independent paths through a unit of code*
@@ -320,6 +355,7 @@ High cyclomatic complexity indicates that the code may be harder to test thoroug
 * Some level of duplication might be unavoidable or even preferable in certain cases.
 * Doesn't indicate other aspects of code quality.
 
+---
 
 #### Test Coverage
 *Goal: High* *Measurement: percentage over lines of code and/or files*
@@ -342,6 +378,7 @@ Use testing tools and frameworks to calculate the percentage of code executed du
 * High coverage doesn't guarantee high-quality tests or code.
 * Can lead to a false sense of security if tests are not well-designed.
 
+---
 
 #### Deployment Frequency
 *Goal: High* *Measurement: Instances within time*
@@ -352,6 +389,7 @@ For example, if your team is able to deploy code to production frequently, it ca
 
 A high deployment frequency indicates that teams are able to deliver changes quickly, responding to the needs of the business.
 
+---
 
 #### Changed Failure Rate
 *Goal: Low* *Measurement: percentage (of changes (e.g., deployments or code commits) that fail and require immediate remediation (like a hotfix or rollback))*
@@ -370,6 +408,7 @@ Tracking the success and failure rates of deployments and code changes.
 * Some failures are normal and not indicative of technical debt.
 * Doesn't capture the underlying causes of the failures.
 
+---
 
 #### Number of Failed CI/CD Events
 *Goal: Low* *Measurement: instances (number of times continuous integration (CI) or continuous deployment (CD) processes fail.)*
@@ -386,6 +425,7 @@ Tracking the success and failure rates of deployments and code changes.
 * Some failures might be due to external factors unrelated to technical debt.
 * Doesn't provide insights into the nature of the issues causing the failures.
 
+---
 
 #### Mean time to recovery (MTTR)
 *Goal: Low* *Measurement: Time*
@@ -396,6 +436,7 @@ For example, let's say your company has a web application that experiences a fai
 
 A low MTTR indicates a system that is reliable and easy to recover from failures.
 
+---
 
 #### Mean time between failures (MTBF)
 *Goal: High* *Measurement: Time*
@@ -406,6 +447,7 @@ For example, if your web application has a high MTBF, it means that your users w
 
 A high MTBF indicates a system that is reliable and has fewer failures.
 
+---
 
 #### Mean time to detect (MTTD)
 *Goal: Low* *Measurement: Time*
@@ -416,12 +458,14 @@ For example, if you have a monitoring system set up to detect issues with your w
 
 A low MTTD indicates that failures are detected quickly, allowing teams to respond and recover more quickly.
 
+---
 
 #### User value and impact
 *Goal: High* *Measurement: opinion/human analysis*
 
 It involves considering factors like user feedback, customer requests, or business goals. By prioritizing value-driven changes, your team will ensure that their efforts align with the needs and expectations of stakeholders. 
 
+---
 
 #### Peer review
 *Goal: High* *Measurement: opinion/human analysis*
@@ -438,6 +482,8 @@ Instead of relying solely on metrics, emphasize the feedback and insights provid
 
     * [Technical Debt](https://martinfowler.com/bliki/TechnicalDebt.html)
     * [Technical Debt Quadrant](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html)
+
+* SQALE ([Wikipedia](https://en.wikipedia.org/wiki/SQALE)): (Software Quality Assessment based on Lifecycle Expectations) is a method to support the evaluation of a software application source code. It is a generic method, independent of the language and source code analysis tools. The method is based on 4 main concepts: The quality model; The analysis model; The indices; The indicators. *(Website appears down--Wikipedia links go to 404s)*
 
 * LeadDev:
 
