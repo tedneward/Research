@@ -483,7 +483,7 @@ It involves considering factors like user feedback, customer requests, or busine
 
 Instead of relying solely on metrics, emphasize the feedback and insights provided during peer code reviews. Human judgment and expertise play a crucial role in evaluating code changes. Peer reviews provide an opportunity for knowledge sharing, identifying potential issues, and enhancing overall code quality. 
 
-
+---
 
 ## Reading
 
