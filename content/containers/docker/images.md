@@ -23,6 +23,7 @@ summary=A collection of interesting Docker containers/images.
 ## Uncategorized sources
 
 - https://www.xda-developers.com/self-hosted-finance-apps-export-excel/
+- https://www.kdnuggets.com/5-docker-containers-for-your-ai-infrastructure: JupyterLab: Your AI Command Center; Airflow: The Orchestrator That Keeps Everything Moving; MLflow: Version Control for Models and Experiments; Redis: The Memory Layer Behind Fast AI; FastAPI: Lightweight Inference Serving at Scale
 
 ## Application containers/images
 

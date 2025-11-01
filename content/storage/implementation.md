@@ -12,6 +12,8 @@ summary=Resources on how to build a database
 * [Building a NoSQL database from zero](https://github.com/amit-davidson/Building-a-NoSQL-database-from-zero)
 * [Build a NoSQL database from scratch in 1000 lines of code](https://betterprogramming.pub/build-a-nosql-database-from-the-scratch-in-1000-lines-of-code-8ed1c15ed924) (in Go)
 * [Building a Distributed Database](https://blog.rajdeep-das.com/building-a-distributed-database-step-by-step-part-1-abc7d944e52d) [Source](https://github.com/Prashant47/distributed-database)
+* [Build your own database](https://www.nan.fyi/database): build a key-value database from the ground up
+* [Build a Database server](https://technicaldeft.com/build-a-database-server): Book ($34, with 14-day refund)
 * [Mini-LSM](https://skyzh.github.io/mini-lsm/): Build a simple key-value storage engine in a week. Extend it in the second and third weeks.
 * [LibraDB](https://github.com/amit-davidson/LibraDB): "... a simple, persistent key/value store written in pure Go. The project aims to provide a working yet simple example of a working database."
 * [simpledb](https://github.com/awelm/simpledb): A simple database built from scratch that has some the basic RDBMS features (SQL query parser, transactions, query optimizer)

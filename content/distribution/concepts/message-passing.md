@@ -8,4 +8,3 @@ Message passing can be viewed as the ancestor of distributed interactions. Messa
 ## Reading
 
 * [In-memory mesasage bus in type-safe Typescript](https://event-driven.io/en/inmemory_message_bus_in_typescript/)
-

@@ -10,6 +10,7 @@ summary=Collection of links, notes, and models.
     * [Understanding Reasoning LLMs](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms)
     * [The Big LLM Architecture Comparison](https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison)
     * [Understanding Multimodal LLMs](https://magazine.sebastianraschka.com/p/understanding-multimodal-llms)
+    * [Understanding the 4 Main Approaches to LLM Evaluation (From Scratch)](https://magazine.sebastianraschka.com/p/llm-evaluation-4-approaches): Multiple-Choice Benchmarks, Verifiers, Leaderboards, and LLM Judges
     * [Coding LLMs from Scratch: The Complete Course](https://magazine.sebastianraschka.com/p/coding-llms-from-the-ground-up) [Source](https://github.com/rasbt/LLMs-from-scratch)
 
 * [The Large Language Model Course](https://huggingface.co/blog/mlabonne/llm-course)

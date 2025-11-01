@@ -550,5 +550,5 @@ The lesson: don’t assume all tech debt deserves your best engineering. Sometim
     * [Mean Time to Detect (MTTD)](https://brainhub.eu/library/mean-time-to-detect-mttd-explained)
     * [Pull Request Size](https://brainhub.eu/library/pull-request-size-best-practices)
 
-
+* [Assessing the Viability of Open Source Projects](https://fastwonderblog.com/2025/10/23/assessing-the-viability-of-open-source-projects/): "Open source software is found in almost every codebase, but some open source projects are more viable than others over the long term. Many companies don’t have a rigorous process for selecting the most viable dependencies. Often product teams, or even individual software developers, select open source projects because they fill a particular technical need without any assessment of the viability of the project or the risks they might be taking by using it. Assessing the viability of open source projects, especially ones that have the potential to impact your business, is a good first step toward managing risk and reducing the chances of potential business disruptions." 
 

@@ -12,7 +12,13 @@ Officially joins IBM as of 28 Feb 2025.
 * 101: https://woodruff.dev/terraform-101-your-first-steps-into-infrastructure-as-code/
 * Crash course in HCL: https://woodruff.dev/speaking-terraform-a-crash-course-in-hcl/
 
-## Books
+## Reading
+
+### Articles/Blogs/Essays
+
+* [My First Week with Terraform: The Struggles Nobody Talks About (And How I Overcame Them)](https://dev.to/arbythecoder/my-first-week-with-terraform-the-struggles-nobody-talks-about-and-how-i-overcame-them-4m32)
+
+### Books
 
 * [Terraform: Up & Running](https://learning.oreilly.com/library/view/terraform-up-and/9781098116736/)
 

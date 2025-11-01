@@ -75,6 +75,8 @@ Tomas Petricek's writings on the subject:
     * [Layered and Segmented Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-architecture-layered-segmented.md)
     * [Cloud-Native Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-cloud-native-architecture-digital-enterprise.md) 
 
+* [Producing a Better Architecture with Residuality Theory](https://www.infoq.com/news/2025/10/architectures-residuality-theory/): "Residuality assumes that a random simulation of stress on a naive architecture will produce a better architecture than the traditional methods around requirements engineering, risk management, or reacting to change as it happens."
+
 ## Patterns/Styles
 
 * [10 Most Popular Software Architectural Patterns](https://nix-united.com/blog/10-common-software-architectural-patterns-part-1/)
