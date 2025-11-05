@@ -1,5 +1,5 @@
 title=Swift
-tags=language, native, macos, ios, object, metaobject, functional
+tags=language, native, macos, ios, object, metaobject, functional, web assembly
 summary=A second-generation object-oriented language with functional overtones.
 ~~~~~~
 
