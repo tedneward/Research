@@ -1,5 +1,5 @@
 title=QuestDB
-tags=storage, timeseries
+tags=storage, timeseries, jvm
 summary=A high performance, open-source, time-series database.
 ~~~~~~
 

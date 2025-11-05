@@ -19,6 +19,8 @@ Collection of links about and around hardware.
     6. BlueScreenView - https://www.nirsoft.net/utils/blue_screen_view.html
     7. Hiren's BootCD PE - https://www.hirensbootcd.org/
 
+[10 Portable Apps That I Always Keep On a Flash Drive](https://www.howtogeek.com/10-portable-apps-that-i-always-carry-with-me-on-a-flash-drive/): LibreOffice Portable; Notepad++; ShareX (screen capture); Everything (a search utility); CrystalDiskInfo; FixWin11; HWMonitor; 7-Zip; Krita; VLC
+
 ## Remote access-in-the-cloud
 [Rent a Mac in the Cloud](http://www.macincloud.com/)
 
@@ -27,6 +29,8 @@ Collection of links about and around hardware.
 
 ### Mini PCs
 [HIGOLEPC](https://www.amazon.com/stores/HIGOLEPC/page/AD7311E1-0B35-432D-A921-5E5D4B2C7AA9)
+
+[KAMRUI Essenx E1 Mini PC](https://www.amazon.com/KAMRUI-AK1PLUS-Processor-Computer-Ethernet/dp/B0CGD9F533?tag=kotaku01-20&th=1)
 
 ## Phones/tablets
 

@@ -148,6 +148,10 @@ summary=A collection of links (usually to articles) about the various forms of t
 * ["What is the relationship between philosophy and the history of philosophy?"](https://www.onbeyondzarathustra.com/flowchart) (Interactive flowchart)
 * [Studying philosophy does make people better thinkers, according to new research on more than 600,000 college grads](https://theconversation.com/studying-philosophy-does-make-people-better-thinkers-according-to-new-research-on-more-than-600-000-college-grads-262681)
 
+### Individuals
+
+* https://aeon.co/essays/why-reading-martha-c-nussbaums-philosophy-is-pure-pleasure
+
 ## Software
 
 * ["A closer look at Software Development"](http://www.pyrrho.com/en/philosophy.htm): Purportedly offers a "solution" to some of the problems with software dev. References UBizz, which seems like a product from the company hosting this page. May need to relocate this to "tools" sometime in the future.

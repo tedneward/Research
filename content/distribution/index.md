@@ -38,6 +38,7 @@ Distributed systems are the means by which programs on one machine communicate w
 * [Scalable Eventually Consistent Counters over Unreliable Networks](https://arxiv.org/pdf/1307.3207v1.pdf) - Scalable counting is tough in an unreliable world
 * [Models of Distributed Systems](https://www.ida.liu.se/~TDDD25/lectures/02-Models.pdf)
 * [Distributed Computing Models](https://www.cs.usfca.edu/~srollins/courses/cs682-s08/web/notes/models.html)
+* [Spire: A Cooperative, Phase-Symmetric Solution to Distributed Consensus](https://ieeexplore.ieee.org/ielx7/6287639/9312710/09481103.pdf)
 
 Pat Helland's works
 

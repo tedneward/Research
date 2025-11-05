@@ -1,5 +1,5 @@
 title=sljit
-tags=langdev, jit compiler, native
+tags=langdev, library, jit compiler, native
 summary=Platform independent low-level JIT compiler.
 ~~~~~~
 

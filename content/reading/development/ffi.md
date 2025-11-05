@@ -1,9 +1,9 @@
-title=Foreign Function Interfaces (FFI)
-tags=language, reading, windows, macos, linux, android, ios
+title=Foreign Function Interface (FFI)
+tags=language, reading, windows, macos, linux, android, ios, native
 summary=A collection of links and research on how various languages/vms handle interoperability with their host environment.
 ~~~~~~
 
-The concept of an FFI is fairly straightforward: How does a language/platform "bind" (in other words, be able to call) to underlying APIs of the host environment? Examples include Java code, running on top of the JVM, being able to "call out to" native C code, such as operating system APIs or native libraries; game engines being able to call out to libraries that aren't a part of the game engine itself; and so on.
+The concept of an FFI is fairly straightforward: How does a language/platform "bind" (in other words, be able to call) to underlying APIs of the host environment or other libraries/languages/platforms? Examples include Java code, running on top of the JVM, being able to "call out to" native C code, such as operating system APIs or native libraries; game engines being able to call out to libraries that aren't a part of the game engine itself; and so on.
 
 Most of the time this requires several pieces of knowledge:
 
@@ -27,6 +27,13 @@ How do we name the exported entry point? Does the entry point have any metadata 
 #### [C](/languages/c)
 
 C generally mapped the name of a function directly to the exported ABI name, usually with a prefixed `_`. (Not sure of the reason for that prefix, to be honest.) "an identifier beginning with an underscore followed by a capital letter is a [reserved identifier](https://en.wikipedia.org/wiki/Reserved_word) in C, so conflict with user identifiers is avoided"
+
+Element | Implementation
+------- | --------------
+Argument-passing order | Right to left.
+Stack-maintenance responsibility | Calling function pops the arguments from the stack.
+Name-decoration convention | Underscore character (_) is prefixed to names, except when __cdecl functions that use C linkage are exported.
+Case-translation convention | No case translation performed.
 
 #### [C++](/languages/cplusplus)
 
@@ -82,6 +89,77 @@ SunPro CC | `__1cBh6Fi_v_` | `__1cBh6Fic_v_` | `__1cBh6F_v_`
 Tru64 C++ v6.5 (ARM mode) | `h__Xi` | `h__Xic` | `h__Xv`
 Tru64 C++ v6.5 (ANSI mode) | `__7h__Fi` | `__7h__Fic` | `__7h__Fv`
 Watcom C++ 10.6 | `W?h$n(i)v` | `W?h$n(ia)v` | `W?h$n()v`
+
+
+#### [Windows](/content/platforms/windows/index.md)
+
+Windows developed a number of different calling conventions.
+
+##### [`__cdecl`]()
+
+The C calling convention, above. Generally used solely for C-compiled libraries that weren't a core part of the Windows OS (a la the C standard library).
+
+##### [`__thiscall`](https://learn.microsoft.com/en-us/cpp/cpp/thiscall)
+
+The (Microsoft-specific) `__thiscall` calling convention is used on C++ class member functions on the x86 architecture. It's the default calling convention used by member functions that don't use variable arguments (vararg functions).
+
+Under `__thiscall`, the callee cleans the stack, which is impossible for vararg functions. Arguments are pushed on the stack from right to left. The this pointer is passed via register ECX, and not on the stack.
+
+On ARM, ARM64, and x64 machines, `__thiscall` is accepted and ignored by the compiler. That's because they use a register-based calling convention by default.
+
+One reason to use `__thiscall` is in classes whose member functions use __clrcall by default. In that case, you can use `__thiscall` to make individual member functions callable from native code.
+
+When compiling with /clr:pure, all functions and function pointers are __clrcall unless specified otherwise. The /clr:pure and /clr:safe compiler options are deprecated in Visual Studio 2015 and unsupported in Visual Studio 2017.
+
+vararg member functions use the __cdecl calling convention. All function arguments are pushed on the stack, with the this pointer placed on the stack last.
+
+Because this calling convention applies only to C++, it doesn't have a C name decoration scheme.
+
+When you define a non-static class member function out-of-line, specify the calling convention modifier only in the declaration. You don't have to specify it again on the out-of-line definition. The compiler uses the calling convention specified during declaration at the point of definition.
+
+##### [`__stdcall`](https://learn.microsoft.com/en-us/cpp/cpp/stdcall)
+
+This is the original Win32 API calling convention. The callee cleans the stack, so the compiler makes vararg functions __cdecl.
+
+Element | Implementation
+------- | --------------
+Argument-passing order | Right to left.
+Argument-passing convention | By value, unless a pointer or reference type is passed.
+Stack-maintenance responsibility | Called function pops its own arguments from the stack.
+Name-decoration convention | An underscore (_) is prefixed to the name. The name is followed by the at sign (@) followed by the number of bytes (in decimal) in the argument list. Therefore, the function declared as int func( int a, double b ) is decorated as follows: _func@12
+Case-translation convention	None
+
+##### [`_fastcall`](https://learn.microsoft.com/en-us/cpp/cpp/fastcall)
+
+The __fastcall calling convention specifies that arguments to functions are to be passed in registers, when possible. This calling convention only applies to the x86 architecture. The following list shows the implementation of this calling convention.
+
+Element | Implementation
+------- | --------------
+Argument-passing order | The first two DWORD or smaller arguments that are found in the argument list from left to right are passed in ECX and EDX registers; all other arguments are passed on the stack from right to left.
+Stack-maintenance responsibility | Called function pops the arguments from the stack.
+Name-decoration convention | At sign (@) is prefixed to names; an at sign followed by the number of bytes (in decimal) in the parameter list is suffixed to names.
+Case-translation convention | No case translation performed.
+Classes, structs, and unions | Treated as "multibyte" types (regardless of size) and passed on the stack.
+Enums and enum classes | Passed by register if their underlying type is passed by register. For example, if the underlying type is int or unsigned int of size 8, 16, or 32 bits.
+
+##### [`_clrcall`](https://learn.microsoft.com/en-us/cpp/cpp/clrcall)
+
+Specifies that a function can only be called from [managed code](/content/vms/clr/). Use __clrcall for all virtual functions that will only be called from managed code. However this calling convention cannot be used for functions that will be called from native code.
+
+Use __clrcall to improve performance when calling from a managed function to a virtual managed function or from managed function to managed function through pointer.
+
+Entry points are separate, compiler-generated functions. If a function has both native and managed entry points, one of them will be the actual function with the function implementation. The other function will be a separate function (a thunk) that calls into the actual function and lets the common language runtime perform PInvoke. When marking a function as __clrcall, you indicate the function implementation must be MSIL and that the native entry point function will not be generated.
+
+When taking the address of a native function if __clrcall is not specified, the compiler uses the native entry point. __clrcall indicates that the function is managed and there is no need to go through the transition from managed to native. In that case the compiler uses the managed entry point.
+
+When /clr (not /clr:pure or /clr:safe) is used and __clrcall is not used, taking the address of a function always returns the address of the native entry point function. When __clrcall is used, the native entry point function is not created, so you get the address of the managed function, not an entry point thunk function. For more information, see Double Thunking. The /clr:pure and /clr:safe compiler options are deprecated in Visual Studio 2015 and unsupported in Visual Studio 2017.
+
+/clr (Common Language Runtime Compilation) implies that all functions and function pointers are __clrcall and the compiler will not permit a function inside the compiland to be marked anything other than __clrcall. When /clr:pure is used, __clrcall can only be specified on function pointers and external declarations.
+
+You can directly call __clrcall functions from existing C++ code that was compiled by using /clr as long as that function has an MSIL implementation. __clrcall functions cannot be called directly from functions that have inline asm and call CPU-specific intrinsics, for example, even if those functions are compiled with /clr.
+
+__clrcall function pointers are only meant to be used in the application domain in which they were created.
+
 
 **Readings**
 
@@ -295,18 +373,12 @@ References:
 
 ## Application Binary Interfaces (ABI) in general
 
-- `[[trivial_abi]]` 101
-	- https://quuxplusone.github.io/blog/2018/05/02/trivial-abi-101/
-- ABI Breaks: Not just about rebuilding
-	- https://www.reddit.com/r/cpp/comments/fc2qqv/abi_breaks_not_just_about_rebuilding/
-- ABI Policy and Guidelines - The GNU C++ Library Manual
-	- https://gcc.gnu.org/onlinedocs/libstdc++/manual/abi.html
-- ABIs, linkers and other animals - Stephen Kell (2014)
-	- https://www.cl.cam.ac.uk/~srk31/research/talks/kell14abis-slides.pdf
-- Binary Compatibility Examples
-	- https://community.kde.org/Policies/Binary_Compatibility_Examples
-- Binary Compatibility Issues With C++
-	- https://community.kde.org/Policies/Binary_Compatibility_Issues_With_C%2B%2B
+- `[[trivial_abi]]` 101: https://quuxplusone.github.io/blog/2018/05/02/trivial-abi-101/
+- ABI Breaks: Not just about rebuilding: https://www.reddit.com/r/cpp/comments/fc2qqv/abi_breaks_not_just_about_rebuilding/
+- ABI Policy and Guidelines - The GNU C++ Library Manual: https://gcc.gnu.org/onlinedocs/libstdc++/manual/abi.html
+- ABIs, linkers and other animals - Stephen Kell (2014): https://www.cl.cam.ac.uk/~srk31/research/talks/kell14abis-slides.pdf
+- Binary Compatibility Examples: https://community.kde.org/Policies/Binary_Compatibility_Examples
+- Binary Compatibility Issues With C++: https://community.kde.org/Policies/Binary_Compatibility_Issues_With_C%2B%2B
 - Binary Compatibility of Shared Libraries Implemented in C++ on GNU/Linux Systems
 	- SYRCoSE 2009; Pavel Shved, Denis Silakov
 	- http://syrcose.ispras.ru/2009/files/02_paper.pdf
@@ -327,12 +399,9 @@ References:
 	- http://files.rsdn.org/4539/cud94.htm
 	- https://blogs.msdn.microsoft.com/xiangfan/2012/02/06/c-under-the-hood/
 	- https://www.openrce.org/articles/files/jangrayhood.pdf
-- Calling conventions for different C++ compilers and operating systems
-	- http://www.agner.org/optimize/calling_conventions.pdf
-- Describing the MSVC ABI for Structure Return Types
-	- http://blog.aaronballman.com/2012/02/describing-the-msvc-abi-for-structure-return-types/
-- How C array sizes become part of the binary interface of a library
-	- https://developers.redhat.com/blog/2019/05/06/how-c-array-sizes-become-part-of-the-binary-interface-of-a-library/
+- Calling conventions for different C++ compilers and operating systems: http://www.agner.org/optimize/calling_conventions.pdf
+- Describing the MSVC ABI for Structure Return Types: http://blog.aaronballman.com/2012/02/describing-the-msvc-abi-for-structure-return-types/
+- How C array sizes become part of the binary interface of a library: https://developers.redhat.com/blog/2019/05/06/how-c-array-sizes-become-part-of-the-binary-interface-of-a-library/
 - Itanium C++ ABI
 	- https://itanium-cxx-abi.github.io/cxx-abi/
 	- https://github.com/itanium-cxx-abi/cxx-abi
@@ -342,8 +411,7 @@ References:
 - Some thoughts on calling convention - http://blog.qt.io/blog/2009/08/15/some-thoughts-on-calling-convention/
 - The Importance of Calling Conventions - http://blog.aaronballman.com/2011/04/the-importance-of-calling-conventions/
 - The value of passing by value - https://www.macieira.org/blog/2012/02/the-value-of-passing-by-value/
-- X86-64 System V Application Binary Interface
-	- https://github.com/hjl-tools/x86-psABI/wiki/X86-psABI
+- X86-64 System V Application Binary Interface: https://github.com/hjl-tools/x86-psABI/wiki/X86-psABI
 
 #### Software
 

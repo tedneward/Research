@@ -7,6 +7,8 @@ tags=architecture
 
 ["Software Architecture as a Set of Architectural Design Decisions"](https://www.ics.uci.edu/~andre/ics223w2006/jansenbosch.pdf): "Software architectures have high costs for change, are complex, and erode during evolution. We believe these problems are partially due to knowledge vaporization. Currently, almost all the knowledge and information about the design decisions the architecture is based on are implicitly embedded in the architecture, but lack a first-class representation. Consequently, knowledge about these design decisions disappears into the architecture, which leads to the aforementioned problems. In this paper, a new perspective on software architecture is presented, which views software architecture as a composition of a set of explicit design decisions. This perspective makes architectural design decisions an explicit part of a software architecture. Consequently, knowledge vaporization is reduced, thereby alleviating some of the fundamental problems of software architecture."
 
+[Architectural Metapatterns](https://metapatterns.io/introduction/): *Nice collection, though I'm not sure about the term "metapatterns" here...*
+
 Tomas Petricek's writings on the subject:
 
 * [Where programs live?](https://tomasp.net/blog/2023/vague-spaces/)
@@ -48,7 +50,7 @@ Tomas Petricek's writings on the subject:
 
 ## Reading
 
-* ["You're Slicing your Architecture Wrong!"](https://dev.to/somedood/youre-slicing-your-architecture-wrong-4ob9)
+* ["You're Slicing your Architecture Wrong!"](https://dev.to/somedood/youre-slicing-your-architecture-wrong-4ob9); ["Screaming Architecture: Not Driven By Entities"](https://codeopinion.com/screaming-architecture-not-driven-by-entities/)
 * [The Architect's Guide to Open Table Formats and Object Storage](https://thenewstack.io/the-architects-guide-to-open-table-formats-and-object-storage/)
 * ["Architecture vs Model"](https://kalele.io/architecture-vs-model/): "One of the biggest problems with business software is that architecture gets promoted more than the domain model. Further, most domain models are ordinary, and could be implemented by school students for a lot less cost than the 7-9 figures often spent. Yet, often the software architecture supporting a model—almost certainly anemic—is generally over engineered."
 * [Best Kept Secrets of Peer Code Review](http://smartbear.com/lp/ebook/collaborator/secrets-of-peer-code-review/)
@@ -62,6 +64,7 @@ Tomas Petricek's writings on the subject:
 * [Sharding vs Partitioning](https://blog.algomaster.io/p/sharding-vs-partitioning)
 * [Site Reliability Engineering](https://landing.google.com/sre/book/index.html)
 * [Software Engineering for Internet Applications](http://philip.greenspun.com/seia/)
+* [Software Architecture Is Finally Fixing Its Biggest Problem: Developer Experience](https://thenewstack.io/software-architecture-is-finally-fixing-its-biggest-problem-developer-experience/)
 * [Test Driven Development, Extensive Tutorial](https://github.com/grzesiek-galezowski/tdd-ebook) - Grzegorz Gałęzowski
 * [The Site Reliability Workbook](https://landing.google.com/sre/workbook/toc/) - Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara and Stephen Thorne
 * [Why a programmer might actually be a good urban planner](https://b1z0n.pro/why-the-programmers-might-be-good-urban-planners1/)
@@ -71,6 +74,8 @@ Tomas Petricek's writings on the subject:
     * [Event-Driven APIs in Microservice Architectures](https://github.com/wso2/reference-architecture/blob/master/event-driven-api-architecture.md)
     * [Layered and Segmented Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-architecture-layered-segmented.md)
     * [Cloud-Native Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-cloud-native-architecture-digital-enterprise.md) 
+
+* [Producing a Better Architecture with Residuality Theory](https://www.infoq.com/news/2025/10/architectures-residuality-theory/): "Residuality assumes that a random simulation of stress on a naive architecture will produce a better architecture than the traditional methods around requirements engineering, risk management, or reacting to change as it happens."
 
 ## Patterns/Styles
 

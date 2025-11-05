@@ -21,6 +21,7 @@ summary=Collection of links about displays that rest on your desk or mount on th
 - https://www.corsair.com/us/en/p/monitors/cc-9011306-ww/xeneon-edge-14-5-lcd-touchscreen-cc-9011306-ww (Reviewed, led to the next two as well)
 - https://www.bhphotovideo.com/c/product/1736938-REG/asus_proart_pa147cdv_14_full.html
 - https://www.amazon.com/VSDISPLAY-Touchscreen-2560x720-Stretched-Autocopy/dp/B0CPKYBZYN
+- https://www.yankodesign.com/2025/10/11/forget-portable-monitors-this-foldable-keyboard-has-a-built-in-12-8-inch-touchscreen/
 
 ## AR/MR glasses
 

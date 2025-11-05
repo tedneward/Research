@@ -5,7 +5,13 @@ summary=A visual novel engine that helps you use words, images, and sounds to te
 
 [Website](https://www.renpy.org/) | [Source](http://www.github.com/renpy/renpy)
 
-### Examples
+## Reading
+
+### Articles
+
+* [Coding with Ray: First Build Released!](https://erebuswulfe.itch.io/coding-with-ray/devlog/1068616/coding-with-ray-first-build-released)
+
+## Examples
 [Simple game "The Question"](https://github.com/renpy/renpy/tree/master/the_question):
 ```
 define s = Character(_("Sylvie"), color="#c8ffc8")

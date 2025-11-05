@@ -17,8 +17,6 @@ Native refers to a variety of different hardware/OS combinations, including:
 * Android/ARM
 * Android/x86
 
-["Writing an operating system kernel from scratch"](https://popovicu.com/posts/writing-an-operating-system-kernel-from-scratch/)
-
 ### Internal Developer Platform
 
 * [Platform as a runtime](https://www.infoq.com/articles/platform-runtime-engineering/)
