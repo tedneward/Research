@@ -36,6 +36,8 @@ Repositories for graphics:
 
 [Guidebook Gallery](https://guidebookgallery.org/): Graphical user interface gallery *(up until 2006, right before the mobile/smartphone revolution!)*
 
+[Component Gallery](https://component.gallery/): an up-to-date repository of interface components based on examples from the world of design systems, designed to be a reference for anyone building user interfaces.
+
 [ECMA Report on User Interface Taxonomy](https://www.ecma-international.org/wp-content/uploads/ECMA_TR-61_1st_edition_june_1992.pdf) (June 1992): Interesting high-level overview of different ideas around user interface and a taxonomy of that space:
 
 * UI structure
