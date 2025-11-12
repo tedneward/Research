@@ -37,6 +37,7 @@ tags=language, language development
 - Thinking with Types: Type-Level Programming in Haskell - [Leanpub](https://leanpub.com/thinking-with-types)
 - Type Theory and Formal Proof: An Introduction - [Goodreads](https://www.goodreads.com/book/show/21442441-type-theory-and-formal-proof)
 - Type Theory and Functional Programming - [Goodreads](https://www.goodreads.com/book/show/11364683-type-theory-and-functional-programming)
+- Control structures in programming languages: from goto to algebraic effects - https://xavierleroy.org/control-structures/
 
 ### Language Learnings
 
@@ -91,6 +92,7 @@ tags=language, language development
 - [How Rust does OSS](https://www.youtube.com/watch?v=m0rakUuPXFM)
 - [How Statically-Typed Functional Programmers Write Code](./research/papers/how-statically-typed-functional-programmers-write-code)
 - [How To Create Your Own Programming Language](https://dev.to/jasonsbarr/how-to-create-your-own-programming-language-2642)
+- How to Implement Local Type Inference - https://www.reddit.com/r/ProgrammingLanguages/comments/1gkjkz4/how_to_implement_local_type_inference/
 - [JavaScript Static Analysis for Evolving Language Specifications](https://www.youtube.com/watch?v=3Jlu_jnHB8g&ab_channel=PLRGKAIST)
 - [Language-oriented software engineering](https://parametri.city/blog/2018-12-23-language-oriented-software-engineering/index.html)
 - [Let’s Build a Programming Language](https://medium.com/hackernoon/lets-build-a-programming-language-2612349105c6)
@@ -219,6 +221,11 @@ tags=language, language development
 - [Understanding GC in JSC From Scratch](https://webkit.org/blog/12967/understanding-gc-in-jsc-from-scratch)
 - [Which Interpreters are Faster, AST or Bytecode?](https://stefan-marr.de/2023/10/ast-vs-bytecode-interpreters)
 - [Write you a Haskell](http://dev.stephendiehl.com/fun)
+- The Pipefish Type System [Part 1](https://www.reddit.com/r/ProgrammingLanguages/comments/1kbhftn/the_pipefish_type_system_part_i_what_is_it_for/) | [part 2](https://www.reddit.com/r/ProgrammingLanguages/comments/1lr7dit/the_pipefish_type_system_part_ii_what_i_actually/) | [Compiler Implementation](https://www.reddit.com/r/ProgrammingLanguages/comments/1d71e37/how_the_pipefish_compiler_works/)
+
+### Unclear
+
+- Reference N19 compiler implementation (x86 only for simplicity) - https://mid.net.ua/git/mid/nctref 
 
 ### Experiments
 
