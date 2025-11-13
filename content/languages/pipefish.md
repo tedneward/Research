@@ -1,5 +1,5 @@
 title=Pipefish
-tags=language
+tags=language, langdev
 summary=A data-oriented scripting language.
 ~~~~~~
 
@@ -69,3 +69,4 @@ Here are some of Pipefish's more distinctive features:
 * [Style guide](https://github.com/tim-hardcastle/Pipefish/blob/main/docs/style-guide.md). This gives best practices for the style in which one should write Pipefish code.
 * [Functional core, imperative shell](https://github.com/tim-hardcastle/Pipefish/blob/main/docs/functional-core-imperative-shell.md). A synopsis of the language paradigm.
 * [The whys of Pipefish](https://github.com/tim-hardcastle/Pipefish/blob/main/docs/the-whys-of-.md). This explains the reasoning behind some lower-level design choices which are sufficiently unusual as to need explanation.
+* The Pipefish Type System [Part 1](https://www.reddit.com/r/ProgrammingLanguages/comments/1kbhftn/the_pipefish_type_system_part_i_what_is_it_for/) | [part 2](https://www.reddit.com/r/ProgrammingLanguages/comments/1lr7dit/the_pipefish_type_system_part_ii_what_i_actually/) | [Compiler Implementation](https://www.reddit.com/r/ProgrammingLanguages/comments/1d71e37/how_the_pipefish_compiler_works/)
