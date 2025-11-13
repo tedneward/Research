@@ -13,3 +13,8 @@ Pyodide comes with a robust Javascript <--> Python foreign function interface so
 
 When used inside a browser, Python has full access to the Web APIs.
 
+## Reading
+
+### Articles
+
+* [Rapid Python GUI development with HTML5 and Pyodide](https://www.tu.berlin/en/cmt/rapid-python-gui-development-with-html5-and-pyodide)
