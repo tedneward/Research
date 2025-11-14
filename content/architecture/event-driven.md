@@ -30,5 +30,20 @@ Rahul Krishnan's blog:
 * [Theoretical Design--Event-Driven Architecture for a Financial Trading Platform](https://solutionsarchitecture.medium.com/mastering-event-driven-architecture-part-13-v-theoretical-design-event-driven-architecture-6902bd364fd2)
 * [Introducing the Saga Pattern](https://solutionsarchitecture.medium.com/mastering-event-driven-architecture-part-14-introducing-the-saga-pattern-ef68a8712088)
 
+"The Laws of Event Sourcing" - [Real World Event Sourcing](https://pragprog.com/titles/khpes/real-world-event-sourcing/)
+
+- All Events are Immutable and Past Tense
+- Applying a Failure Event Must Always Return the Previous State
+- All Data Required for a Project Must Be on the Events
+- Work Is a Side Effect
+- All Projects must Stem from Events
+- Never Manage More than One Flow per Process Manager
+- Process Managers Must Not Read from Projections
+- Event Schemas Are Immutable
+- Different Projectors Cannot Share Projections
+- Never Test Internal State
+
+---
+
 Complex Event Processing (CEP)
 
