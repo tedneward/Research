@@ -1,9 +1,9 @@
 title=Nelua
-tags=language, static
+tags=language, static, web assembly
 summary=Minimal, simple, efficient, statically typed, compiled, meta programmable, safe and extensible systems programming language with a Lua flavor.
 ~~~~~~
 
-[Website](https://nelua.io/) | [Source](https://github.com/edubart/nelua-lang)
+[Website](https://nelua.io/) | [Source](https://github.com/edubart/nelua-lang) | [Nelua on the Web](https://github.com/edubart/nelua-lang/discussions/11)
 
 Nelua (stands for Native Extensible Lua) is a minimal, efficient, statically-typed and meta-programmable systems programming language heavily inspired by Lua, which compiles to C and native code.
 

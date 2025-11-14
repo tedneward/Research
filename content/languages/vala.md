@@ -5,7 +5,6 @@ summary=a programming language that aims to bring modern programming language fe
 
 [Website](https://wiki.gnome.org/Projects/Vala) | [Source](https://gitlab.gnome.org/GNOME/vala)
 
-
 Vala is a programming language that aims to bring modern programming language features to GNOME developers without imposing any additional runtime requirements and without using a different ABI compared to applications and libraries written in C.
 
 valac, the Vala compiler, is a self-hosting compiler that translates Vala source code into C source and header files. It uses the GObject type system to create classes and interfaces declared in the Vala source code.

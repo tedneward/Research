@@ -1,7 +1,8 @@
 title=Victim
 tags=language
-summary=Victim is dynamically typed interpreted scripting language written in Haskell. The name is inspired by source code of [malloc](https://code.woboq.org/userspace/glibc/malloc/malloc.c.html#3038).
+summary=A dynamically typed interpreted scripting language written in Haskell.
 ~~~~~~
 
 [Source](https://github.com/Sekomer/Victim)
 
+The name is inspired by source code of [malloc](https://code.woboq.org/userspace/glibc/malloc/malloc.c.html#3038).

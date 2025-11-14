@@ -3,7 +3,9 @@ tags=language, web assembly, browser
 summary=Functional-ish language designed for use in web-based AI IDE, compiling to browser-centric targets (JS, WASM, native).
 ~~~~~~
 
-[Website](https://www.moonbitlang.com/) | [Source](https://github.com/moonbitlang) | [Docs](https://docs.moonbitlang.com/en/latest/)
+[Website](https://www.moonbitlang.com/) | [Source](https://github.com/moonbitlang) | [Docs](https://docs.moonbitlang.com/en/latest/) | [Core library](https://github.com/moonbitlang/core) - open-sourced standard library, compiler source code is not available yet.
+
+MoonBit is an end-to-end programming language toolchain for cloud and edge computing using WebAssembly. The language is like Rust with GC support. The fast compiler is optimized to produce very compact WASM binaries. 
 
 ## Getting Started
 As of 6 Oct 2025, installation is via VSCode extension ("Moonbit Language") or manual (via `curl`): `curl -fsSL https://cli.moonbitlang.com/install/unix.sh | bash` (macOS/Linux) or `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser; irm https://cli.moonbitlang.com/install/powershell.ps1 | iex` (POSH)

@@ -1,5 +1,5 @@
 title=Voyd
-tags=language
+tags=language, web assembly
 summary=A WebAssembly Language For Full Stack Web Development.
 ~~~~~~
 

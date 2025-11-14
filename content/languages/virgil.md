@@ -1,5 +1,5 @@
 title=Virgil
-tags=language, native, jvm, wasm
+tags=language, native, jvm, web assembly
 summary=Fast and lightweight native programming language designed for fast, dependency-free programs.
 ~~~~~~
 
