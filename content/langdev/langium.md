@@ -4,3 +4,4 @@ summary=An open source language engineering tool with first-class support for th
 ~~~~~~
 
 [Website](https://langium.org/) | [Source](https://github.com/eclipse-langium/langium)
+
