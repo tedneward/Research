@@ -1,62 +1,34 @@
 title=SWI-Prolog
-tags=language, logic, prolog
+tags=language, logic, prolog, web assembly
 summary=A comprehensive Prolog environment, probably the gold standard of such.
 ~~~~~~
 
-[Website](http://www.swi-prolog.org/)
+[Website](http://www.swi-prolog.org/) | [Source](https://github.com/SWI-Prolog/) [SWI-Prolog port to WebAssembly](https://github.com/SWI-Prolog/swipl-wasm)
 
-> SWI-Prolog offers a comprehensive free Prolog environment.
-> Since its start in 1987, SWI-Prolog development has been
-> driven by the needs of real world applications.
-> SWI-Prolog is widely used in research and education
-> as well as commercial applications."
+SWI-Prolog offers a comprehensive free Prolog environment. Since its start in 1987, SWI-Prolog development has been driven by the needs of real world applications. SWI-Prolog is widely used in research and education as well as commercial applications.
 
-> Its main author is Jan Wielemaker.
-> The name SWI is derived from Sociaal-Wetenschappelijke Informatica
-> ("Social Science Informatics"), the former name of the group at
-> the University of Amsterdam, where Wielemaker is employed.
+Its main author is Jan Wielemaker. The name SWI is derived from Sociaal-Wetenschappelijke Informatica ("Social Science Informatics"), the former name of the group at the University of Amsterdam, where Wielemaker is employed.
 
-{% aTargetBlank "https://www.swi-prolog.org", "SWI-Prolog" %}
-is implemented in C (48%) and Prolog (39%).
+{% aTargetBlank "https://www.swi-prolog.org", "SWI-Prolog" %} is implemented in C (48%) and Prolog (39%).
 
-To install the terminal command `swipl` in macOS,
-enter `brew install swi-prolog`
+## Installation
 
+* macOS: To install the terminal command `swipl` in macOS, enter `brew install swi-prolog`
+
+## Getting Started
 To start a SWI-Prolog top level from a terminal, enter `swipl`.
 
-To specify configuration for all top level sessions,
-create the file `$HOME/.config/swi-prolog/init.pl`.
-For example, this file might set [prolog flags](#prolog-flags).
+To specify configuration for all top level sessions, create the file `$HOME/.config/swi-prolog/init.pl`. For example, this file might set [prolog flags](#prolog-flags).
 
-#### SWI-Prolog Execution
-
-To enter and run Prolog code in a web browser using SWI-Prolog,
-browse [SWISH](https://swish.swi-prolog.org).
-
-Enter facts and rules in the left pane.
-Enter a query in the lower-right pane.
-Press the "Run!" button or ctrl-return to execute the query.
+To enter and run Prolog code in a web browser using SWI-Prolog, browse [SWISH](https://swish.swi-prolog.org). Enter facts and rules in the left pane. Enter a query in the lower-right pane. Press the "Run!" button or ctrl-return to execute the query.
 
 #### SWI-Prolog Conformance
 
-SWI-Prolog adds features beyond the ISO standard,
-some of which contradict the standard, making it non-conforming.
-One example is the addition of a string type.
-Many dedicated predicates are needed to operate on these strings
-rather than using list predicates.
-Another example is the addition of a custom dict type.
+SWI-Prolog adds features beyond the ISO standard, some of which contradict the standard, making it non-conforming. One example is the addition of a string type. Many dedicated predicates are needed to operate on these strings rather than using list predicates. Another example is the addition of a custom dict type. It is very easy to write code that runs in SWI-Prolog, but does not run in other Prolog implementations. In addition, some code that is valid according to the ISO standard does not run in SWI-Prolog.
 
-It is very easy to write code that runs in SWI-Prolog,
-but does not run in other Prolog implementations.
-In addition, some code that is valid according to the ISO standard
-does not run in SWI-Prolog.
+For a detailed take on this issue, see {% aTargetBlank "https://www.youtube.com/watch?v=kGQNeeRp4sM", "Preparing Prolog" %}.
 
-For a detailed take on this issue, see {% aTargetBlank
-"https://www.youtube.com/watch?v=kGQNeeRp4sM", "Preparing Prolog" %}.
-
-Also see {% aTargetBlank
-"https://www.complang.tuwien.ac.at/ulrich/iso-prolog/SWI7_and_ISO",
-"SWI7 and ISO Prolog" %}.
+Also see {% aTargetBlank "https://www.complang.tuwien.ac.at/ulrich/iso-prolog/SWI7_and_ISO", "SWI7 and ISO Prolog" %}.
 
 #### SWI-Prolog Packs
 

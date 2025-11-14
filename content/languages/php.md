@@ -1,18 +1,23 @@
 title=PHP
-tags=language, object
+tags=language, object, web assembly, jvm, beam, clr
 summary=Language designed for building web page generators/servers.
 ~~~~~~
 
 [Website](https://www.php.net/) | [Source](https://github.com/php/php-src)
 
-### Implementations
+## Implementations
 
 * Erlang: [ephp](https://github.com/bragful/ephp): Implements a subset of PHP 5.5.
 * [Phalanger](https://github.com/DEVSENSE/Phalanger): *Archived*; "predecessor to the PeachPie project"
 * [PeachPie](http://www.peachpie.io/): .NET development platform for PHP
 * JVM: [jphp](https://github.com/jphp-group/jphp): an implementation of PHP on Java VM
+* WASM: [PIB](https://github.com/oraoto/pib) - a PHP runtime in the browser.
+* WASM: [PHP WASM](https://github.com/soyuka/php-wasm) - maintained fork of PIB with PHP 8 support based on the work of [seanmorris](https://github.com/seanmorris/php-wasm).
+* WASM: [WebAssembly Language Runtimes](https://github.com/vmware-labs/webassembly-language-runtimes) - up-to-date PHP (including php-cgi) prebuilt for WASI
 
-## Books
+## Reading
+
+### Books
 
 * [Clean Code PHP](https://github.com/jupeter/clean-code-php)
 * [PHP 5 Power Programming](http://www.informit.com/content/images/013147149X/downloads/013147149X_book.pdf) (PDF)

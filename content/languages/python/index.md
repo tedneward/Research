@@ -1,5 +1,5 @@
 title=Python
-tags=platform, language, functional, dynamic, object, metaobject
+tags=platform, language, functional, dynamic, object, metaobject, windows, macos, linux, web assembly
 summary=A dynamic language and platform.
 ~~~~~~
 
@@ -26,6 +26,12 @@ summary=A dynamic language and platform.
 * Web: [JupyterLab](https://jupyter.org/): "latest web-based interactive development environment for notebooks, code, and data ... allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning... extensions expand and enrich functionality."
 * WASM: py2wasm: converts your Python programs to WebAssembly (`$ pip install py2wasm; py2wasm myprogram.py -o myprogram.wasm; wasmer run myprogram.wasm`)
 * Rust: [Cannoli](https://github.com/joncatanio/cannoli): a compiler for a subset of Python 3.6.5.
+* WASM: [Pyodide](/languages/python/pyodide) - a port of Python to WebAssembly that includes the core packages of the scientific Python stack (Numpy, Pandas, matplotlib).  Objects transparently convert and share between Python and Javascript.
+* [MicroPython](/languages/python/micropython)
+* Rust: [RustPython](https://github.com/RustPython/RustPython) - A Python 3 interpreter written in Rust. Check the demo [here](https://rustpython.github.io/demo/)
+* WASM: [RPython](https://github.com/soIu/rpython) - A RPython (PyPy's Restricted Python) to WebAssembly compiler
+* WASM: [TPython](https://github.com/soIu/tpython) - Pythonic++ (a "dialect" of C++) to WebAssembly compiler
+* WASM: [WebAssembly Language Runtimes](https://github.com/vmware-labs/webassembly-language-runtimes) - up-to-date CPython prebuilt for WASI
 
 Not sure if this is a library or an implementation or a tool, it's sort of all three: [VPython](https://vpython.org/), 3D Programming for Ordinary Mortals
 
@@ -38,8 +44,11 @@ Not sure if this is a library or an implementation or a tool, it's sort of all t
 
 ### FFI
 
+FFI for the standard CPython implementation
+
 * [JPype](https://jpype.readthedocs.io/en/latest/userguide.html): A Python module that provides seamless access to Java libraries from Python using JNI. ([Source](https://github.com/jpype-project/jpype))
 * [pyobjc](https://pyobjc.readthedocs.io/en/latest/) ([Source](https://github.com/ronaldoussoren/pyobjc)): The Python-to-Objective-C bridge
+* [pydotnet](https://github.com/sadhbh-c0d3/pydotnet): Direct interop between Python and .NET assemblies via Microsoft C++/CLR and Boost.Python.
 
 ### Debugging
 

@@ -1,5 +1,5 @@
 title=Ciao Prolog
-tags=language, logic, prolog
+tags=language, logic, prolog, web assembly
 summary=A modern Prolog implementation that builds up from a logic-based simple kernel designed to be portable, extensible, and modular.
 ~~~~~~
 
@@ -20,3 +20,5 @@ To install:
    ```
 
 To start a Ciao top level from a terminal, enter `ciao`.
+
+Includes a WebAssembly compilation target based on Emscripten. Ciao Prolog is a modern Prolog implementation designed to be portable, extensible and modular. Check the playground [here](https://ciao-lang.org/playground).

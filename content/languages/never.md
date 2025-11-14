@@ -1,10 +1,7 @@
 title=Never
-tags=language, functional, static
+tags=language, functional, static, web assembly
 summary=A statically typed functional programming language.
 ~~~~~~
 
-[Source](https://github.com/never-lang/never)
+[Source](https://github.com/never-lang/never) | [Never on the Web](https://never-lang.readthedocs.io/en/latest/never-web/)
 
-
-https://github.com/never-lang/never
-Never is a simple functional programming language. Technically it may be classified as syntactically scoped, strongly typed, call by value, functional programming language.

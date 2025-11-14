@@ -25,6 +25,8 @@ Fowler's thoughts:
 
 ## Thoughts
 
+* Capturing tribal and tacit knowledge - https://leaddev.com/software-quality/building-knowledge-transfer-strategy-manage-technical-debt
+
 ### High-level categories
 
 * **Requirement Debt:**

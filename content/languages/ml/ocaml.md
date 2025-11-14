@@ -1,5 +1,5 @@
 title=OCaml
-tags=language, object, functional, native, ml
+tags=language, object, functional, native, ml, web assembly
 summary=An object-functional hybrid language and platform.
 ~~~~~~
 
@@ -15,6 +15,11 @@ The OCaml system is the main implementation of the Caml language. It features a 
 
 ### Caml Light
 The Caml Light system is an older, lightweight implementation of the core Caml language. It is obsolete, no longer actively maintained, and will be removed eventually. We recommend switching immediately to its successor, OCaml.
+
+### WASM
+
+* [Ocaml](https://github.com/SanderSpies/ocaml/tree/wasm/wasmcomp) - a fork of main repo containing work on OCaml to wasm compilation.
+* ~[OcamlRun](https://github.com/sebmarkbage/ocamlrun-wasm) - a build script for compiling OCaml bytecode interpreter to wasm using emscripten [Unmaintained]~
 
 ### Books
 

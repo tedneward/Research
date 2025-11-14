@@ -1,5 +1,5 @@
 title=Nim
-tags=language
+tags=language, native, object, functional, web assembly
 summary=A compiled, garbage-collected systems programming language with a design that focuses on efficiency, expressiveness, and elegance (in that order of priority).
 ~~~~~~
 
@@ -20,6 +20,13 @@ Nim is a statically typed compiled systems programming language. It combines suc
     * Macros cannot change Nim's syntax because there is no need for it — the syntax is flexible enough.
     * Modern type system with local type inference, tuples, generics and sum types.
     * Statements are grouped by indentation but can span multiple lines.
+
+## Implementations
+
+* [nlvm](https://github.com/arnetheduck/nlvm) - LLVM-based compiler for Nim with a WebAssembly target supported out of the box
+* [nwasm](https://github.com/stisa/nwasm) - a webassembly backend for nim.
+* [Nim wasm helpers](https://github.com/Feneric/nim-wasm-helpers) - a helper to set up a VM configured to build WebAssembly code using Nim.
+
 
 ## Examples
 

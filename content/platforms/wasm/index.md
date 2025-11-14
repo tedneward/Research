@@ -173,90 +173,26 @@ Features:
 
 * [Nelua](/languages/nelua) - Minimal, simple, efficient, statically typed, compiled, metaprogrammable, safe, and extensible systems programming language with a Lua flavor.
 
---------------------
+* [Nerd](/languages/nerd)
 
-### <a name="nerd"></a>Nerd <sup>[top⇈](#contents)</sup>
-> NerdLang is a substract of JS with some additions, focus on efficiency.
-> Nerd is a JavaScript native compiler aiming to make JavaScript universal, Nerd is able to compile native apps for Windows, Mac, Linux, iOS, Android, Raspberry, STM32, Arduino, Web (including WASM), and more.
-* [Nerd](https://github.com/NerdLang/nerd) - main repository.
+* [Never](/languages/never)
 
---------------------
+* [Nim](/languages/nim)
 
-### <a name="never"></a>Never <sup>[top⇈](#contents)</sup>
-> Never is a simple functional programming language. Technically it may be classified as syntactically scoped, strongly typed, call by value, functional programming language.
-* [Never](https://github.com/never-lang/never) - project repository
-* [Never on the Web](https://never-lang.readthedocs.io/en/latest/never-web/) - Never language demo
+* [Ocaml](/languages/ml/ocaml) - the main implementation of the programming language Caml, created by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez and others in 1996. A member of the ML language family, OCaml extends the core Caml language with object-oriented programming constructs.
 
---------------------
+* [Pascal](/languages/pascal) - Pascal is a general purpose imperative, procedural and object-oriented static typing programming language. The Free Pascal compiler targets many processor architectures, including wasm32; operating systems, including WASI; and embedded platforms.
 
-### <a name="nim"></a>Nim <sup>[top⇈](#contents)</sup>
-> A fringe language with some beautiful design patterns.
-* [nlvm](https://github.com/arnetheduck/nlvm) - LLVM-based compiler for Nim with a WebAssembly target supported out of the box
-* [nwasm](https://github.com/stisa/nwasm) - a webassembly backend for nim.
-* [Nim wasm helpers](https://github.com/Feneric/nim-wasm-helpers) - a helper to set up a VM configured to build WebAssembly code using Nim.
+* [PHP](/languages/php) - PHP is a general-purpose scripting language that is especially suited to server-side web development, in which case PHP generally runs on a web server. Any PHP code in a requested file is executed by the PHP runtime, usually to create dynamic web page content or dynamic images used on websites or elsewhere.
 
---------------------
+* [Plorth](/languages/plorth) - Plorth is stack based, concatenative, strongly typed functional scripting language which is easy to embed to applications written in C++. It's inspired by Forth and Factor programming languages.
 
-### <a name="ocaml"></a>Ocaml <sup>[top⇈](#contents)</sup>
-> OCaml, originally named Objective Caml, is the main implementation of the programming language Caml, created by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez and others in 1996. A member of the ML language family, OCaml extends the core Caml language with object-oriented programming constructs.
-* [Ocaml](https://github.com/SanderSpies/ocaml/tree/wasm/wasmcomp) - a fork of main repo containing work on OCaml to wasm compilation.
-* ~[OcamlRun](https://github.com/sebmarkbage/ocamlrun-wasm) - a build script for compiling OCaml bytecode interpreter to wasm using emscripten [Unmaintained]~
+* [Poetry](/languages/wasm/poetry) - Poetry is a poetically dynamic and simple programming language that compiles to WebAssembly. It has a minimalisting syntax akin to CoffeeScript and gives you full control over wasm imports and exports.
 
---------------------
+* [Python](/languages/python)
 
-### <a name="pascal"></a>Pascal <sup>[top⇈](#contents)</sup>
-> Pascal is a general purpose imperative, procedural and object-oriented
-> static typing programming language. The Free Pascal compiler targets many
-> processor architectures, including wasm32; operating systems, including
-> WASI; and embedded platforms.
-* [Free Pascal](https://wiki.freepascal.org/WebAssembly) - Free Pascal compilation target and Pascal-to-Javascript runtime.
+* [Prolog](/languages/prolog) - Prolog is a general-purpose logic programming language associated with artificial intelligence and computational linguistics. Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is intended primarily as a declarative programming language: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations.
 
---------------------
-
-### <a name="perl"></a>Perl <sup>[top⇈](#contents)</sup>
-> Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.
-* [WebPerl](https://github.com/haukex/webperl) - Perl 5 in the browser.
-
---------------------
-
-
-### <a name="php"></a>PHP <sup>[top⇈](#contents)</sup>
-> PHP is a general-purpose scripting language that is especially suited to server-side web development, in which case PHP generally runs on a web server. Any PHP code in a requested file is executed by the PHP runtime, usually to create dynamic web page content or dynamic images used on websites or elsewhere.
-* [PIB](https://github.com/oraoto/pib) - a PHP runtime in the browser.
-* [PHP WASM](https://github.com/soyuka/php-wasm) - maintained fork of PIB with PHP 8 support based on the work of [seanmorris](https://github.com/seanmorris/php-wasm).
-* [WebAssembly Language Runtimes](https://github.com/vmware-labs/webassembly-language-runtimes) - up-to-date PHP (including php-cgi) prebuilt for WASI
-
---------------------
-
-### <a name="plorth"></a>Plorth <sup>[top⇈](#contents)</sup>
-> Plorth is stack based, concatenative, strongly typed functional scripting language which is easy to embed to applications written in C++. It's inspired by Forth and Factor programming languages.
-* [Plorth](https://github.com/RauliL/plorth-webassembly) - main repository.
-
---------------------
-
-### <a name="poetry"></a>Poetry <sup>[top⇈](#contents)</sup>
-> Poetry is a poetically dynamic and simple programming language that compiles to WebAssembly. It has a minimalisting syntax akin to CoffeeScript and gives you full control over wasm imports and exports.
-* [Poetry](https://github.com/FantasyInternet/poetry) - main repository.
-
---------------------
-
-### <a name="python"></a>Python <sup>[top⇈](#contents)</sup>
-> Python is an open source interpreted high-level programming language for general-purpose programming. Created by Guido van Rossum and first released in 1991, Python has a design philosophy that emphasizes code readability, notably using significant whitespace. It provides constructs that enable clear programming on both small and large scales.
-* [Pyodide](https://github.com/iodide-project/pyodide) - a port of Python to WebAssembly that includes the core packages of the scientific Python stack (Numpy, Pandas, matplotlib).  Objects transparently convert and share between Python and Javascript.
-* [MicroPython](https://github.com/micropython/micropython/tree/master/ports/webassembly) - a lean and efficient Python implementation for microcontrollers and constrained systems.
-* [RustPython](https://github.com/RustPython/RustPython) - A Python 3 interpreter written in Rust. Check the demo [here](https://rustpython.github.io/demo/)
-* [RPython](https://github.com/soIu/rpython) - A RPython (PyPy's Restricted Python) to WebAssembly compiler
-* [TPython](https://github.com/soIu/tpython) - Pythonic++ (a "dialect" of C++) to WebAssembly compiler
-* [micropython-wasm](https://github.com/rafi16jan/micropython-wasm) - MicroPython build which features wide JS interop, e.g. waiting for JS promises.
-* [WebAssembly Language Runtimes](https://github.com/vmware-labs/webassembly-language-runtimes) - up-to-date CPython prebuilt for WASI
-
---------------------
-
-### <a name="prolog"></a>Prolog <sup>[top⇈](#contents)</sup>
-
-> Prolog is a general-purpose logic programming language associated with artificial intelligence and computational linguistics. Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is intended primarily as a declarative programming language: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations.
-* [SWI-Prolog port to WebAssembly](https://github.com/SWI-Prolog/swipl-wasm) - a port of SWI-Prolog to WebAssembly. SWI-Prolog is a free implementation of the programming language Prolog commonly used for teaching and semantic web applications.
-* [Ciao Prolog](https://github.com/ciao-lang/ciao) - includes a WebAssembly compilation target based on Emscripten. Ciao Prolog is a modern Prolog implementation designed to be portable, extensible and modular. Check the playground [here](https://ciao-lang.org/playground).
 
 --------------------
 
