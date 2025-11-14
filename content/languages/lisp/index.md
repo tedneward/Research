@@ -23,12 +23,15 @@ summary=The original dynamic functional(ish) homoiconic (consistent symbology) l
 * JVM: [Kawa](https://www.gnu.org/software/kawa/): R7RS. Supports the javax.script API.
 * Lua: [femtolisp](https://github.com/JeffBezanson/femtolisp): Lua Lisp language
 * Native: [Steel Bank Common Lisp](http://www.sbcl.org/) ([Source](http://www.sbcl.org/platform-table.html))
+* WASM: [Femto Emacs](https://github.com/FemtoEmacs/wasCm) - translates Low Level Lisp into WebAssembly.
+* WASM: [Wisp](https://github.com/mbrock/wisp) - Wisp is a Lisp system for WebAssembly and native execution.
+
 
 ### "A Lisp":
 
-* JVM: [Clojure](../clojure): a Lisp on the JVM
+* JVM: [Clojure](/languages/lisp/clojure): a Lisp on the JVM
 * Native: [newLISP](http://www.newlisp.org/): "newLISP is a scripting language designed not to be compiled but to be fully dynamic and introspective. Many of the differences to other LISPs result from this distinction."
-* [Ferret](https://ferret-lang.org/): appears to compile [Clojure](/languages/clojure.html) into native code
+* [Ferret](https://ferret-lang.org/): appears to compile [Clojure](/languages/clojure) into native code
 * [zygomys](https://github.com/glycerine/zygomys): An embedded Lisp for Go. Inspired by Clojure, but more oriented towards imperative programming. Has an infix syntax layer that looks like a subset of Go.
 * [L++](https://bitbucket.org/ktg/l/src/master/): a programming language that transcompiles to C++. It uses Lisp-like syntax.
 * [ligo](https://github.com/aki237/ligo): scheme like language interpreter in golang

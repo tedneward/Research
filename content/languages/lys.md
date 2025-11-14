@@ -1,5 +1,5 @@
 title=Lys
-tags=language, wasm
+tags=language, web assembly
 summary=A language that compiles to WebAssembly.
 ~~~~~~
 

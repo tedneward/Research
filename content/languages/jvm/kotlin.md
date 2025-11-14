@@ -3,8 +3,8 @@ tags=jvm, browser, language, functional, static, object, metaobject
 summary=An object language originally for JVM and later adopted for Android.
 ~~~~~~
 
-From JetBrains.
-
+Kotlin is a modern but already mature programming language aimed to make developers happier. It's concise, safe, interoperable with Java and other languages, and provides many ways to reuse code between multiple platforms for productive programming.
+ 
 [Source](https://github.com/JetBrains/kotlin) | [Kotlin tutorials](https://kotlinlang.org/docs/tutorials/) | [A list of Kotlin resources](http://kotlin.link/)
 
 [Kotlin Multiplatform Mobile](https://kotlinlang.org/docs/kmm-overview.html) and some [community content](https://twitter.com/kotlin/status/1474309782169432067)
@@ -16,11 +16,19 @@ From JetBrains.
 * [Kotlin Quick Reference](https://kotlin-quick-reference.com) - Alvin Alexander (gitbook)
 * [Learning Kotlin](https://riptutorial.com/Download/kotlin.pdf) (PDF)
 
-## Articles
+### Articles
 
 * ["Coroutrine Suspension Mechanics: The Finite State Machine Within"](https://proandroiddev.com/coroutine-suspension-mechanics-the-finite-state-machine-within-58edac6dfb2e)
 * ["Understanding Kotlin Coroutines"](https://proandroiddev.com/understanding-kotlin-coroutines-a-deep-dive-into-blocking-vs-non-blocking-and-concurrent-vs-7667dfe77fbb)
 * [Advanced Kotlin Coroutine Cheat Sheet for Android Developers](https://medium.com/@galou.minisini/advanced-kotlin-coroutine-cheat-sheet-for-android-engineer-15e0d180fc1f)
+
+## Implementations
+
+Kotlin/Wasm is the new target and toolchain in the Kotlin family. It has a few special properties:
+- It compiles to Wasm directly without any additional layers, to compile as fast as possible, including incrementally in the future.
+- It uses experimental/fresh proposals like GC, Typed Function References, Exception Handling, and Stringref.
+* [Kotlin/Wasm (Kotlin WebAssembly)](https://kotl.in/wasm)
+* [Kotlin/Wasm examples](https://github.com/Kotlin/kotlin-wasm-examples)
 
 ---
 

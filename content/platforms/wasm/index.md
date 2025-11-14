@@ -135,123 +135,34 @@ Features:
 
 * [Idris](/languages/idris) - a general purpose pure functional programming language with dependent types. Dependent types allow types to be predicated on values, meaning that some aspects of a program’s behaviour can be specified precisely in the type. It is compiled, with eager evaluation. Its features are influenced by Haskell and ML.
 
---------------------
+* [Janet](/languages/lisp/janet) - a good system scripting language, or a language to embed in other programs. 
 
-### <a name="janet"></a>Janet <sup>[top⇈](#contents)</sup>
-> Janet makes a good system scripting language, or a language to embed in other programs. It's like a "modern Lisp", featuring great and easy C interop and a variety of data types like arrays, structs, tables, etc. 
-* [Janet](https://github.com/janet-lang/janet) - main repository. You can try it out [here](https://janet-lang.org/#Try-It).
+* [Java](/languages/jvm/java)
 
---------------------
+* [JavaScript](/languages/ecmascript) - a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
 
-### <a name="java"></a>Java <sup>[top⇈](#contents)</sup>
-> Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.
-> Java was originally developed by James Gosling at Sun Microsystems and released in 1995 as a core component of Sun Microsystems' Java platform. The language derives much of its syntax from C and C++, but it has fewer low-level facilities than either of them.
-* [TeaVM](https://github.com/konsoletyper/teavm) - an ahead-of-time translating compiler (transpiler) of Java bytecode, that's capable of emitting JavaScript and WebAssembly.
-* [JWebAssembly](https://github.com/i-net-software/JWebAssembly) - A Java bytecode to WebAssembly compiler. It can generate the WebAssembly binary or text format. It is written in Java itself and can be integrated with other Java build tools.
-* [Bytecoder](https://github.com/mirkosertic/Bytecoder) - A Rich Domain Model for Java Bytecode and Framework to interpret and transpile it to other languages such as JavaScript, OpenCL or WebAssembly.
-* [CheerpJ](https://github.com/leaningtech/cheerpj-meta) - A Java compiler for the web that converts any Java client application into standard HTML5/WebAssembly/JavaScript.
-* [Rise JVM](https://github.com/AmazingRise/rise-jvm) - Rise JVM is a minimal Java VM based on WASM. You can try it out [here](https://risehere.net/rise-jvm).
+* [Julia](/languages/julia) - Julia was designed from the beginning for high performance. Julia programs compile to efficient native code for multiple platforms via LLVM.
 
---------------------
+* [KCL](/languages/kcl)
 
-### <a name="javascript"></a>JavaScript <sup>[top⇈](#contents)</sup>
-> JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
-* [Duktape](https://github.com/svaarala/duktape) - an embeddable Javascript engine, with a focus on portability and compact footprint that's capable of being run in the browser via WebAssembly.
-* [Javy](https://github.com/bytecodealliance/javy) - a JavaScript to WebAssembly toolchain, capable of generating WASI-compatible modules from JS by embedding the QuickJS engine.
-* [SpiderMonkey](https://github.com/bytecodealliance/spidermonkey-wasm-rs) - experimental Rust bindings and generic builtins for SpiderMonkey for building WASI-compatible modules from JavaScript.
-* [quickjs-emscripten](https://github.com/justjake/quickjs-emscripten) - Safely execute untrusted Javascript in your JS/TS, and execute synchronous code that uses async functions.
-* [wasmedge-quickjs](https://github.com/second-state/wasmedge-quickjs) - A high-performance, secure, extensible, and OCI-complaint JavaScript runtime for WasmEdge.  Features TCP/UDP support via WasmEdge Sockets.
-* [Boa](https://github.com/boa-dev/boa) - an embeddable and experimental Javascript engine written in Rust. You can try it out [here](https://boajs.dev/boa/playground/).
-* [goja](https://github.com/dop251/goja) - an implementation of ECMAScript 5.1 in pure Go with emphasis on standard compliance and performance.
-* [otto](https://github.com/robertkrimen/otto) - a JavaScript parser and interpreter written natively in Go.
-* [hermes](https://github.com/facebook/hermes) - Hermes is a JavaScript engine optimized for fast start-up of React Native apps. It features ahead-of-time static optimization and compact bytecode. [Emscripten](https://github.com/facebook/hermes/blob/main/doc/Emscripten.md) and [WASI](https://github.com/guest271314/hermes/blob/shermes-wasm/doc/WASI.md) support.
-* [Jint](https://github.com/sebastienros/jint) - an embeddable Javascript interpreter for .NET which can run on any modern .NET platform as it supports .NET Standard 2.0 and .NET 4.6.2 targets (and later).
-* [Porffor](https://github.com/CanadaHonk/porffor) - a from-scratch experimental AOT optimizing JS/TS -> Wasm/C engine/compiler/runtime. You can try it out [here](https://porffor.dev/).
-* [sebastianwessel-quickjs](https://github.com/sebastianwessel/quickjs) - a typescript package to execute JavaScript and TypeScript code in a webassembly quickjs sandbox. You can try it out [here](https://sebastianwessel.github.io/quickjs/playground.html).
+* [Kotlin](/languages/jvm/kotlin)
 
---------------------
+* [Kou](/languages/wasm/kou)
 
-### <a name="julia"></a>Julia <sup>[top⇈](#contents)</sup>
-> Julia was designed from the beginning for high performance. Julia programs compile to efficient native code for multiple platforms via LLVM.
-* [julia-wasm](https://github.com/Keno/julia-wasm) - Emscripten & LLVM Julia to WASM compiler.
-* ~[Charlotte.jl](https://github.com/MikeInnes/Charlotte.jl) - a Julia to WebAssembly/Javascript compiler~ `Unmaintained`
-* [WebAssemblyCompiler.jl](https://tshort.github.io/WebAssemblyCompiler.jl/stable/) - Julia to Wasm GC compiler via Binaryen
+* LabVIEW is a development environment for the G dataflow graphical programming language used for data acquisition, instrument control, and industrial automation.
 
---------------------
+    * [G Web Development Software](https://www.ni.com/en/shop/electronic-test-instrumentation/programming-environments-for-electronic-test-and-instrumentation/what-is-g-web-development-software.html) - A standalone development environment implementing a subset of the G dataflow graphical programming language to create web-based user interfaces for test and measurement applications.
+    * [Vireo](https://github.com/ni/vireosdk) - An open-source runtime capable of running the virtual instrument assembly representation of the G dataflow graphical programming language created by G Web Development Software.
 
-### <a name="kcl"></a>KCL <sup>[top⇈](#contents)</sup>
-> KCL is a constraint-based record & functional language mainly used in configuration and policy scenarios.
-* [KCLVM](https://github.com/KusionStack/KCLVM) - LLVM-based KCL compiler, which can generate WASM.
+* [Lisp](/languages/lisp) - Lisp (historically LISP) is a family of programming languages with a long history and a distinctive, fully parenthesized prefix notation.
 
---------------------
+* [Lobster](/languages/lobster) - a statically typed language with flow-sensitive type inference and specialization, compile time reference counting (lifetime analysis) that looks a bit like Python. It was originally intended specifically for games.
 
-### <a name="kotlin"></a>Kotlin <sup>[top⇈](#contents)</sup>
-> Kotlin is a modern but already mature programming language aimed to make developers happier. It's concise, safe, interoperable with Java and other languages, and provides many ways to reuse code between multiple platforms for productive programming.
-> 
-> Kotlin/Wasm is the new target and toolchain in the Kotlin family. It has a few special properties:
-> - It compiles to Wasm directly without any additional layers, to compile as fast as possible, including incrementally in the future.
-> - It uses experimental/fresh proposals like GC, Typed Function References, Exception Handling, and Stringref.
-* [Kotlin/Wasm (Kotlin WebAssembly)](https://kotl.in/wasm)
-* [Kotlin/Wasm examples](https://github.com/Kotlin/kotlin-wasm-examples)
+* [Lox](/languages/lox) - a language created by Bob Nystrom, used to teach compilers in the book Crafting Interpreters. It is dynamically typed, and supports classes, closures, and first-class functions.
 
---------------------
+* [Lua](/languages/lua) -  a lightweight, multi-paradigm programming language designed primarily for embedded systems and clients. Lua is cross-platform, since the interpreter is written in ANSI C, and has a relatively simple C API.
 
-### <a name="kou"></a>Kou <sup>[top⇈](#contents)</sup>
-> A minimal language compiled into wasm bytecode.
-* [Kou](https://github.com/utatti/kou) - main repository.
-
---------------------
-
-### <a name="labview"></a>LabVIEW <sup>[top⇈](#contents)</sup>
-> LabVIEW is a development environment for the G dataflow graphical programming language used for data acquisition, instrument control, and industrial automation.
-* [G Web Development Software](https://www.ni.com/en/shop/electronic-test-instrumentation/programming-environments-for-electronic-test-and-instrumentation/what-is-g-web-development-software.html) - A standalone development environment implementing a subset of the G dataflow graphical programming language to create web-based user interfaces for test and measurement applications.
-* [Vireo](https://github.com/ni/vireosdk) - An open-source runtime capable of running the virtual instrument assembly representation of the G dataflow graphical programming language created by G Web Development Software.
-
---------------------
-
-### <a name="lisp"></a>Lisp <sup>[top⇈](#contents)</sup>
-> Lisp (historically LISP) is a family of programming languages with a long history and a distinctive, fully parenthesized prefix notation.
-* [Femto Emacs](https://github.com/FemtoEmacs/wasCm) - translates Low Level Lisp into WebAssembly.
-* [Wisp](https://github.com/mbrock/wisp) - Wisp is a Lisp system for WebAssembly and native execution.
-
---------------------
-
-### <a name="lobster"></a>Lobster <sup>[top⇈](#contents)</sup>
-> Lobster is a statically typed language with flow-sensitive type inference and specialization, compile time reference counting (lifetime analysis) that looks a bit like Python. It was originally intended specifically for games.
-> Lobster has its own Wasm backend that compiles directly to linkable (with LLD) .wasm files.
-* [Lobster home](http://strlen.com/lobster/).
-* [Lobster docs](http://aardappel.github.io/lobster/README_FIRST.html)
-* [Lobster github](https://github.com/aardappel/lobster)
-* [Compile to Wasm](http://aardappel.github.io/lobster/implementation.html) - how to compile.
-* [Wasm backend details](http://aardappel.github.io/lobster/implementation_wasm.html) - how it is implemented, useful for other language implementors.
-
---------------------
-
-### <a name="lox"></a>Lox <sup>[top⇈](#contents)</sup>
-> Lox is a language created by Bob Nystrom, used to teach compilers in the book Crafting Interpreters. It is dynamically typed, and supports classes, closures, and first-class functions.
-* [loxcraft](https://github.com/ajeetdsouza/loxcraft) uses WebAssembly for its [online playground](https://ajeetdsouza.github.io/loxcraft/).
-
---------------------
-
-### <a name="lua"></a>Lua <sup>[top⇈](#contents)</sup>
-> Lua is a lightweight, multi-paradigm programming language designed primarily for embedded systems and clients.[2] Lua is cross-platform, since the interpreter is written in ANSI C, and has a relatively simple C API.
-> Lua was originally designed in 1993 as a language for extending software applications to meet the increasing demand for customization at the time.
-* [WasmLua](https://github.com/vvanders/wasm_lua) - a Lua VM running in the browser.
-* [Luwa](https://github.com/serprex/luwa) - a Lua-to-wasm JIT compiler.
-* [Wasmoon](https://github.com/ceifa/wasmoon) - a high level Lua VM with JS bindings.
-* [Wasm2Lua](https://github.com/SwadicalRag/wasm2lua) - can compile WebAssembly modules to pure Lua (or with FFI LuaJIT for extra speed).
-* [DCLua](https://github.com/milochristiansen/lua) - a Lua 5.3 VM and compiler written in Go. It's intended to allow easy embedding into Go programs, with minimal fuss and bother.
-* [erdian718/lua](https://github.com/erdian718/lua) (aka ofunc/lua) - a fork of DCLua, featuring IO capabilities, HTTP client, IoC, and more.
-* [GopherLua](https://github.com/yuin/gopher-lua) - a Lua5.1(+ goto statement in Lua5.2) VM and compiler written in Go. It provides Go APIs that allow you to easily embed a scripting language to your Go host programs.
-* [Pluto](https://github.com/PlutoLang/Pluto) - a superset of Lua 5.4 with a focus on general-purpose programming. You can try it out [here](https://pluto-lang.org/web/).
-* [PlutoScript](https://github.com/PlutoLang/PlutoScript) - Pluto's extension aimed for web scripting. Provides JS interop and ability to use Pluto anywhere JavaScript works.  
-
---------------------
-
-### <a name="lys"></a>Lys <sup>[top⇈](#contents)</sup>
-> Lys is a typed functional language that compiles directly to WebAssembly.
-
-* [Lys](https://github.com/lys-lang/lys) - main repository.
+* [Lys](/languages/lys) - a typed functional language that compiles directly to WebAssembly.
 
 --------------------
 

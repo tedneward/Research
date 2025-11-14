@@ -136,6 +136,7 @@ What do we see:
 
 [How to build a 2D shooter](https://aardappel.github.io/lobster/shooter_tutorial.html)
 
+Lobster has its own Wasm backend that compiles directly to linkable (with LLD) .wasm files.
 
-https://github.com/aardappel/lobster
-Lobster is a statically typed programming language with a Python-esque syntax that combines the advantages of an expressive type system and compile-time memory management with a very lightweight, friendly and terse syntax, by doing most of the heavy lifting for you.
+* [Compile to Wasm](http://aardappel.github.io/lobster/implementation.html) - how to compile.
+* [Wasm backend details](http://aardappel.github.io/lobster/implementation_wasm.html) - how it is implemented, useful for other language implementors.

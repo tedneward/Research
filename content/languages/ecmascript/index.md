@@ -13,8 +13,9 @@ Official standard name of the language originally appearing in browsers. "Javasc
 * C/C++: [Duktape](https://github.com/svaarala/duktape): embeddable JS engine capable of being run in the browser via WebAssembly
 * C/C++: [mjs](https://github.com/cesanta/mjs) Embedded JavaScript for C/C++, designed for microcontrollers with limited resources. Implements a strict subset of ES6.
 * C/C++: [QuickJS](https://bellard.org/quickjs/): a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
+* WASM: [quickjs-emscripten](https://github.com/justjake/quickjs-emscripten) - Safely execute untrusted Javascript in your JS/TS, and execute synchronous code that uses async functions.
 * C/C++: [V8](/vms/v8): The engine below NodeJS from Google.
-* CLR: [jint](/languages/ecmascript/jint)
+* CLR: [jint](/languages/ecmascript/jint) - an embeddable Javascript interpreter for .NET which can run on any modern .NET platform as it supports .NET Standard 2.0 and .NET 4.6.2 targets (and later).
 * CLR: [Yantra](https://yantrajs.com/index.html) ([Source](https://github.com/yantrajs/yantra)): Compiles JavaScript to .Net Assembly; Strict Mode Only JavaScript; Subclassable built-ins; Module support; Optional property chain `identifier?.[]`, `identifier?.(`, `identifier?.identifier`; Many ES5 + ES6 features; CommonJS Module Support; Easily marshal CLR Object to JavaScript and other way around; CSX Module support; Mixed module system, YantraJS supports `require` and `import`.
 * CLR: [Jurassic](https://github.com/paulbartrum/jurassic): Jurassic is an implementation of the ECMAScript language and runtime. It aims to provide the best performing and most standards-compliant implementation of JavaScript for .NET. Jurassic is not intended for end-users; instead it is intended to be integrated into .NET programs. If you are the author of a .NET program, you can use Jurassic to compile and execute JavaScript code.
 * CLR: [IronJS](/languages/ecmascript/ironjs)
@@ -27,6 +28,15 @@ Official standard name of the language originally appearing in browsers. "Javasc
 * Rust: [Deno](https://github.com/denoland/deno)
 * Rust: [Boa](https://github.com/boa-dev/boa)
 * Zig: [Bun](https://bun.sh/) ([Source](https://github.com/oven-sh/bun)): a fast all-in-one JavaScript runtime
+* [Javy](https://github.com/bytecodealliance/javy) - a JavaScript to WebAssembly toolchain, capable of generating WASI-compatible modules from JS by embedding the QuickJS engine.
+* [SpiderMonkey](https://github.com/bytecodealliance/spidermonkey-wasm-rs) - experimental Rust bindings and generic builtins for SpiderMonkey for building WASI-compatible modules from JavaScript.
+* [wasmedge-quickjs](https://github.com/second-state/wasmedge-quickjs) - A high-performance, secure, extensible, and OCI-complaint JavaScript runtime for WasmEdge.  Features TCP/UDP support via WasmEdge Sockets.
+* [Boa](https://github.com/boa-dev/boa) - an embeddable and experimental Javascript engine written in Rust. You can try it out [here](https://boajs.dev/boa/playground/).
+* [goja](https://github.com/dop251/goja) - an implementation of ECMAScript 5.1 in pure Go with emphasis on standard compliance and performance.
+* [otto](https://github.com/robertkrimen/otto) - a JavaScript parser and interpreter written natively in Go.
+* [hermes](https://github.com/facebook/hermes) - Hermes is a JavaScript engine optimized for fast start-up of React Native apps. It features ahead-of-time static optimization and compact bytecode. [Emscripten](https://github.com/facebook/hermes/blob/main/doc/Emscripten.md) and [WASI](https://github.com/guest271314/hermes/blob/shermes-wasm/doc/WASI.md) support.
+* [Porffor](https://github.com/CanadaHonk/porffor) - a from-scratch experimental AOT optimizing JS/TS -> Wasm/C engine/compiler/runtime. You can try it out [here](https://porffor.dev/).
+* [sebastianwessel-quickjs](https://github.com/sebastianwessel/quickjs) - a typescript package to execute JavaScript and TypeScript code in a webassembly quickjs sandbox. You can try it out [here](https://sebastianwessel.github.io/quickjs/playground.html).
 
 ## Implementation-related
 
@@ -42,20 +52,21 @@ Official standard name of the language originally appearing in browsers. "Javasc
 ## Module systems
 
 * [Asynchronous Module Definition API (AMD)](https://github.com/amdjs/amdjs-api/blob/master/AMD.md)
+
     * [r.js](https://github.com/requirejs/r.js): A command line tool for running JavaScript scripts that use the Asynchronous Module Definition API (AMD) for declaring and using JavaScript modules and regular JavaScript script files. It is part of the RequireJS project, and works with the RequireJS implementation of AMD.
 
 ### Transpilers
 [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS)
 
-* [Babel](../babel): Babel is a JS-to-JS transpiler to support new features on older implementations.
-* [Coco](../coco): Last commit 2014
-* [CoffeeScript](../coffeescript)
-* [Lightscript](../lightscript)
-* [Livescript](../livescript): Last commit 2018
-* [PureScript](../purescript)
-* [Rescript](../rescript)
-* [TypeScript](../typescript)
-* [SweetJS](../sweetjs): Syntactic sugar (semantic macros) on top of JS
+* [Babel](/languages/ecmascript/babel): Babel is a JS-to-JS transpiler to support new features on older implementations.
+* [Coco](/languages/ecmascript/coco): Last commit 2014
+* [CoffeeScript](/languages/ecmascript/coffeescript)
+* [Lightscript](/languages/ecmascript/lightscript)
+* [Livescript](/languages/ecmascript/livescript): Last commit 2018
+* [PureScript](/languages/ecmascript/purescript)
+* [Rescript](/languages/ecmascript/rescript)
+* [SweetJS](/languages/ecmascript/sweetjs): Syntactic sugar (semantic macros) on top of JS
+* [TypeScript](/languages/ecmascript/typescript)
 
 ### FFI bindings
 To any JS engine (not direct FFI)

@@ -17,13 +17,19 @@ summary=Scripting language often embedded into game engines for extensibility.
 * CLR: [MoonSharp](https://www.moonsharp.org/): CLR Based Lua implementation that is 99% compatible with Lua 5.2.
 * CLR: [Lua.NET](https://www.codeproject.com/Articles/4723/LuaDotNet-a-thin-wrapper-around-Lua-and-Luabind-fo): A thin wrapper around Lua and Luabind.
 * Erlang: [luerl](https://github.com/rvirding/luerl): An implementation of Lua 5.2 in pure Erlang with some features like goto absent.
+* Go: [DCLua](https://github.com/milochristiansen/lua) - a Lua 5.3 VM and compiler written in Go. It's intended to allow easy embedding into Go programs, with minimal fuss and bother.
+* [erdian718/lua](https://github.com/erdian718/lua) (aka ofunc/lua) - a fork of DCLua, featuring IO capabilities, HTTP client, IoC, and more.
 * Go: [Go-Lua](https://github.com/Shopify/go-lua): Implements a subset of Lua 5.2.
-* Go: [GopherLua](https://github.com/yuin/gopher-lua): Implements Lua 5.1 with the added support for Go's channels. Lacks the debug hooks and several functions from the C version.
+* Go: [GopherLua](https://github.com/yuin/gopher-lua): Implements Lua 5.1 with the added support for Go's channels. Lacks the debug hooks and several functions from the C version. A Lua5.1(+ goto statement in Lua5.2) VM and compiler written in Go. It provides Go APIs that allow you to easily embed a scripting language to your Go host programs.
 * [ljs](https://github.com/mingodad/ljs): Lua 5.3, Lua 5.1, and LuaJIT with a C/C++/Java/JavaScript syntax. Can convert Lua source code to ljs.
 * JVM: [LuaJ](https://sourceforge.net/projects/luaj/): A Lua 5.2 spec-compliant interpreter written in Java for JME and JSE. Compiles Lua directly to JVM bytecode.
 * OCaml: [LuaML](https://github.com/lindig/lua-ml): Embeddable Lua 2.5 reimplementation that integrates with OCaml type and module system. It's possible to extend or even replace the standard library with your own modules.
-* Swift: [lua4swift](https://github.com/weyhan/lua4swift)
 * Rust: [Luster](https://github.com/kyren/luster): Experimental Lua VM implemented in pure Rust.
+* Swift: [lua4swift](https://github.com/weyhan/lua4swift)
+* WASM: [Luwa](https://github.com/serprex/luwa) - a Lua-to-wasm JIT compiler.
+* WASM: [WasmLua](https://github.com/vvanders/wasm_lua) - a Lua VM running in the browser.
+* WASM: [Wasmoon](https://github.com/ceifa/wasmoon) - a high level Lua VM with JS bindings.
+* WASM: [Wasm2Lua](https://github.com/SwadicalRag/wasm2lua) - can compile WebAssembly modules to pure Lua (or with FFI LuaJIT for extra speed).
 
 
 ### Resources
@@ -43,9 +49,9 @@ summary=Scripting language often embedded into game engines for extensibility.
 
 * [MetaLua](https://github.com/fab13n/metalua): Metalua is a Lua code analysis tool, as well as a compiler for a superset of Lua 5.1 supporting Compile-Time Meta-Programming. It's separated into two LuaRocks, metalua-parser and metalua-compiler.
 * [Shine](https://github.com/richardhundt/shine): A language based on Lua with additional safety and expressiveness features implemented as a fork of LuaJIT.
-* [Squirrel](../squirrel)
+* [Squirrel](/languages/squirrel)
 * [SquiLu](https://github.com/mingodad/squilu): A fork of Squirrel. Changes the syntax to accept a subset of JavaScript and C/C++. Implements Lua's features like string pattern matching and global table manipulation functions. Adds extensions for database access (SQLite3, MySQL, PostgreSQL), sockets, and other features.
-* [Wu](../wu)
+* [Wu](/languages/wu)
 
 ## [Learn X in Y Minutes Quick Intro](https://learnxinyminutes.com/docs/lua/):
 

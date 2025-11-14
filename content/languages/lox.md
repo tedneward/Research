@@ -5,3 +5,4 @@ summary=jlox & clox implementations of educational Lox language from great book 
 
 [Source](https://github.com/munificent/craftinginterpreters)
 
+* [loxcraft](https://github.com/ajeetdsouza/loxcraft) uses WebAssembly for its [online playground](https://ajeetdsouza.github.io/loxcraft/).
