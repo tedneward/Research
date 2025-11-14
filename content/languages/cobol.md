@@ -17,13 +17,15 @@ summary=Legacy business language that refuses to die.
 
 ---
 
-## Articles
+## Reading
+
+### Articles
 
 * ["Learning COBOL: A Journey for the Modern Programmer"](https://monadical.com/posts/cobol.html)
 * ["The Beauty of COBOL"](https://devops.com/the-beauty-of-the-cobol-programming-language-v2/)
 * ["Mastering the COBOL Programming Language"](https://dev.to/github20k/alien-hunter-series-pt-1-mastering-the-cobol-programming-language-3kmh) (Really more a collection of links to other COBOL-related stuff)
 
-## Books
+### Books
 
 * ["Beginning COBOL for Programmers"](https://www.amazon.com/Beginning-COBOL-Programmers-Michael-Coughlan/dp/1430262532)
 * [COBOL Programming Fundamental](http://yusman.staff.gunadarma.ac.id/Downloads/files/33460/COBOL_Programming_Fundamental.pdf) (PDF)
@@ -35,4 +37,6 @@ summary=Legacy business language that refuses to die.
 ## Projects
 
 * [COBOL Streamhouse](https://github.com/deltastreaminc/cobol-streamhouse) (Archived April 2025)
+
+* [Cobaul](https://github.com/cloudflare/cobaul) - toolchain used to [support COBOL in CloudFlare workers](https://blog.cloudflare.com/cloudflare-workers-now-support-cobol/)
 

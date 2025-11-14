@@ -7,8 +7,12 @@ summary=Various notes and implementations of the BASIC programming language.
 
 ## Implementations
 
-* [FreeBASIC](https://freebasic.net/) ([Source](https://github.com/freebasic/fbc)): a completely free, open-source, multi-platform BASIC compiler, with syntax similar to MS-QuickBASIC, that adds new features such as pointers, object orientation, unsigned data types, inline assembly, and many others.
+* [basic_rs](https://github.com/yiransheng/basic_rs) - a BASIC Interpreter/Compiler for the Original Dartmouth Version written in Rust. Also provides `basic2wasm` tool which compiles BASIC to WebAssembly using binaryen.
+* [basicwasm](https://github.com/navionguy/basicwasm) - a GWBasic interpreter compiled to WASM with a Web UI.
+* [EndBASIC](/languages/basic/endbasic)
+* [FreeBASIC](/languages/basic/freebasic) ([Source](https://github.com/freebasic/fbc)): a completely free, open-source, multi-platform BASIC compiler, with syntax similar to MS-QuickBASIC, that adds new features such as pointers, object orientation, unsigned data types, inline assembly, and many others.
 * [Gambas](/languages/basic/gambas)
+* [gobasic](https://github.com/skx/gobasic) - a BASIC interpreter written in Golang.
 * [GWBasic](/languages/basic/gwbasic)
 * [My_Basic](https://github.com/paladin-t/my_basic)
 * [NSBasic](https://www.nsbasic.com/): A complete, powerful development environment. Create apps for iOS, Android, Windows, MacOS and Linux. Commercial.
@@ -24,6 +28,8 @@ summary=Various notes and implementations of the BASIC programming language.
 * [TMBasic](https://tmbasic.com/) ([Source](https://github.com/electroly/tmbasic)): a programming language for writing console programs, from simple command line tools to sophisticated mouse-driven user interfaces. The BASIC language is beginner-friendly, and experienced programmers will find it familiar and easy to use.
 * [XBasic](http://www.maxreason.com/software/xbasic/xbasic.html) : interactive program development environment, advanced 32-bit/64-bit BASIC, interactive graphical GuiDesigner, multi-platform portable source code, Windows95 - Windows98 - WindowsNT - Linux - UNIX
 * [Yabasic](http://www.yabasic.de/) : Small basic interpreter (with source code for Visual C++ 6) for Windows and Linux
+
+
 
 ### Transpilers
 

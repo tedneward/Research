@@ -54,7 +54,6 @@ Features:
 
 [Awesome WASM languages](https://github.com/appcypher/awesome-wasm-langs):
 
-* [Duktape](https://github.com/svaarala/duktape): embeddable JS engine capable of being run in the browser via WebAssembly
 * [SwiftWASM](https://swiftwasm.org/) ([Source](https://github.com/swiftwasm/swift)): SwiftWasm compiles your [Swift](/languages/swift) code to WebAssembly.
 * [wasmlink](https://github.com/bytecodealliance/wit-bindgen/tree/main/crates/wasmlink):  a CLI that allows us to statically link a module and its dependencies using [module linking](https://github.com/WebAssembly/module-linking) and the [Canonical Interface Types ABI](https://github.com/WebAssembly/interface-types/pull/140).
 * .NET
@@ -72,14 +71,8 @@ Features:
 
 * [AssemblyScript](/languages/wasm/assemblyscript): An assembler for WebAssembly.
 * [Astro](/languages/wasm/astro): a fun safe language for rapid prototyping and high performance applications.
-* Ballerina - [Main repository](https://github.com/ballerina-platform/nballerina/tree/wasm) - Ballerina-to-wasm compiler 
-* BASIC
-
-    * [basic_rs](https://github.com/yiransheng/basic_rs) - a BASIC Interpreter/Compiler for the Original Dartmouth Version written in Rust. Also provides `basic2wasm` tool which compiles BASIC to WebAssembly using binaryen.
-    * [basicwasm](https://github.com/navionguy/basicwasm) - a GWBasic interpreter compiled to WASM with a Web UI.
-    * [EndBASIC](https://github.com/endbasic/endbasic) - BASIC environment with a REPL, a web interface, a graphical console, and RPi support written in Rust. You can try it out [here](https://repl.endbasic.dev/).
-    * [gobasic](https://github.com/skx/gobasic) - a BASIC interpreter written in Golang.
-
+* [Ballerina](/languages/jvm/ballerina) - [Main repository](https://github.com/ballerina-platform/nballerina/tree/wasm) - Ballerina-to-wasm compiler 
+* [BASIC](/languages/basic)
 * Berry: an ultra-lightweight dynamically typed embedded scripting language. It's designed for lower-performance embedded devices, fast, multi-paradigm, simple, flexible, and has very small RAM footprint.
 
     * [berry](https://github.com/berry-lang/berry) - main repo.
@@ -102,63 +95,27 @@ Features:
 
 * [Clean](/languages/clean) - a general purpose, state-of-the-art, pure and lazy functional programming language designed for making real-world applications.
 
-    * [ABC interpreter](https://gitlab.com/clean-and-itasks/abc-interpreter) - interpreter for Clean's intermediate language ABC, with a WebAssembly version.
-    * [iTasks](https://gitlab.com/clean-and-itasks/itasks-sdk) - integration of the above ABC interpreter with browser applications.
-
 * [Co](/languages/co): A programming language similar to Go and TypeScript. [main repo](https://github.com/rsms/co)
 
---------------------
+* [COBOL](/languages/cobol)
 
-### <a name="cobol"></a>COBOL <sup>[top⇈](#contents)</sup>
-> COBOL is a compiled English-like programming language designed for business use.
-> It is imperative, procedural, and object-oriented. COBOL is primarily used in business, finance, and administrative systems.
-* [Cobaul](https://github.com/cloudflare/cobaul) - toolchain used to [support COBOL in CloudFlare workers](https://blog.cloudflare.com/cloudflare-workers-now-support-cobol/)
+* [Crystal](/languages/crystal)
 
---------------------
+* [Cyber](/languages/cyber) - Fast, efficient, and concurrent scripting. Dynamic and gradual types; Concurrency with fibers; Multithreaded; Memory safe; FFI and Embeddable.
 
-### <a name="crystal"></a>Crystal <sup>[top⇈](#contents)</sup>
-> Crystal is a programming language with the following goals:
-> 
-> - Have a syntax similar to Ruby (but compatibility with it is not a goal)
-> - Statically type-checked but without having to specify the type of variables or method arguments.
-> - Be able to call C code by writing bindings to it in Crystal.
-> - Have compile-time evaluation and generation of code, to avoid boilerplate code.
-> - Compile to efficient native code.
-    
-* [Crystal](https://github.com/crystal-lang/crystal) - main repository
-* [POC PR](https://github.com/crystal-lang/crystal/pull/10870) - PR adding initial support for WebAssembly
+* [D](/languages/d) - D is a general-purpose programming language with static typing, systems-level access, and C-like syntax.
 
---------------------
+* [Dart](/languages/dart) - An approachable, portable, and productive language for high-quality apps on any platform
 
-### <a name="cyber"></a>Cyber <sup>[top⇈](#contents)</sup>
-> Fast, efficient, and concurrent scripting. Dynamic and gradual types; Concurrency with fibers; Multithreaded; Memory safe; FFI and Embeddable.
-* [Cyber](https://github.com/fubark/cyber) - project repository
+    * [sdk](https://github.com/dart-lang/sdk) - The Dart SDK, including the VM, dart2js, core libraries, and more.
+    * [language](https://github.com/dart-lang/language) - Design of the Dart language
+    * [Use via Flutter](https://flutter.dev/wasm) - How to compile Dart to WebAssembly for a Flutter Web application
 
---------------------
+* [Duktape](/languages/ecmascript): embeddable JS engine capable of being run in the browser via WebAssembly
 
-### <a name="d"></a>D <sup>[top⇈](#contents)</sup>
-> D is a general-purpose programming language with static typing, systems-level access, and C-like syntax.
-* [LDC](https://github.com/ldc-developers/ldc) - LLVM-based D compiler, which can generate WASM since version 1.11.0.
+* [Eclair](/languages/eclair): Eclair is a minimal, fast Datalog implementation that compiles to LLVM IR and WASM.
 
---------------------
-
-### <a name="dart"></a>Dart <sup>[top⇈](#contents)</sup>
-> An approachable, portable, and productive language for high-quality apps on any platform
-* [sdk](https://github.com/dart-lang/sdk) - The Dart SDK, including the VM, dart2js, core libraries, and more.
-* [language](https://github.com/dart-lang/language) - Design of the Dart language
-* [Use via Flutter](https://flutter.dev/wasm) - How to compile Dart to WebAssembly for a Flutter Web application
-
---------------------
-
-### <a name="eclair"></a>Eclair <sup>[top⇈](#contents)</sup>
-> Eclair is a minimal, fast Datalog implementation that compiles to LLVM IR and WASM.
-* [eclair-lang](https://github.com/luc-tielen/eclair-lang) - The Eclair compiler, which can compile Eclair code to LLVM IR and WASM.
-
---------------------
-
-### <a name="eel"></a>Eel <sup>[top⇈](#contents)</sup>
-> Eel is a small language used for, among other things, writing visualizer "presets" for [Milkdrop](http://www.geisswerks.com/milkdrop/), the music visualization program which came with [Winamp](https://en.wikipedia.org/wiki/Winamp).
-* [eel-wasm](https://github.com/captbaritone/eel-wasm) - Compiles Milkdrop flavored Eel to Wasm in the browser. Intended to become a component of [Butterchurn](https://github.com/jberg/butterchurn), a WebGL implementation of the Milkdrop Visualizer.
+* [Eel](/languages/eel)
 
 ------------------
 
@@ -203,6 +160,7 @@ Features:
 * [TinyGo](https://github.com/aykevl/tinygo) - a subset of Go targeted to embedded devices and WebAssembly.
 
 --------------------
+
 ### <a name="grain"></a>Grain <sup>[top⇈](#contents)</sup>
 > Grain is a strongly-typed functional programming language built for the modern web.
 * [Grain](https://github.com/grain-lang/grain) - main repository.

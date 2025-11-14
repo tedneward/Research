@@ -3,9 +3,13 @@ tags=language, native, object, metaobject
 summary=General-purpose programming language with static typing, systems-level access, and C-like syntax.
 ~~~~~~
 
-[Website](https://dlang.org/index.html) | [dmd Source](https://github.com/dlang/dmd) | [Language Specificaion](https://dlang.org/spec/spec.html)
+[Website](https://dlang.org/index.html) | [dmd Source](https://github.com/dlang/dmd) | [Language Specification](https://dlang.org/spec/spec.html)
 
-### Reading
+## Implementations
+
+* [LDC](https://github.com/ldc-developers/ldc) - LLVM-based D compiler, which can generate WASM since version 1.11.0.
+
+## Reading
 
 * [D Templates Tutorial](https://github.com/PhilippeSigaud/D-templates-tutorial)
 * [Programming in D](http://ddili.org/ders/d.en/)

@@ -4,4 +4,3 @@ summary=BASIC environment with a REPL, a web interface, a graphical console, and
 ~~~~~~
 
 [Website](https://www.endbasic.dev/) | [Source](https://github.com/endbasic/endbasic)
-

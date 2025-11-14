@@ -550,3 +550,7 @@ end
 
 ex #=> "ex2"
 ```
+
+## Implementations
+
+* [POC PR](https://github.com/crystal-lang/crystal/pull/10870) - PR adding initial support for WebAssembly
