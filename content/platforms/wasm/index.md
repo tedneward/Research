@@ -117,71 +117,23 @@ Features:
 
 * [Eel](/languages/eel)
 
-------------------
+* [Elixir](/languages/elixir)
 
-### <a name="elixir"></a>Elixir <sup>[top⇈](#contents)</sup>
-> Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
-> Elixir builds on top of Erlang and shares the same abstractions for building distributed, fault-tolerant applications.
-* ~[Firefly](https://github.com/GetFirefly/firefly) - An alternative BEAM implementation (with AOT compiler) designed for WebAssembly. [Unmaintained]~
-* ~[ElixirWasm](https://github.com/jamen/elixir-wasm) - an elixir compiler for wasm. [Unmaintained]~
+* [F#](/languages/dotnet/fsharp): F# is a mature, open source, cross-platform, functional-first programming language. It empowers users and organizations to tackle complex computing problems with simple, maintainable and robust code. WebAssembly support is achieved through [Bolero](https://fsbolero.io/), a set of free and open-source libraries and tools built on top of [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor).
 
---------------------
+* [Faust](/languages/faust) - Faust (Functional Audio Stream) is a functional programming language specifically designed for real-time signal processing and synthesis. A distinctive characteristic of Faust is to be fully compiled.
 
-### <a name="fsharp"></a>F# <sup>[top⇈](#contents)</sup>
-> F# is a mature, open source, cross-platform, functional-first programming language. It empowers users and organizations to tackle complex computing problems with simple, maintainable and robust code.
-> WebAssembly support is achieved through [Bolero](https://fsbolero.io/), a set of free and open-source libraries and tools built on top of [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor).
-> F# was mainly conceived by Don Syme of Microsoft Research but it's now maintained by the [F# Foundation](http://foundation.fsharp.org/) and its community.
-* See [.Net](#dotnet)
+* [Forest](/languages/forest) - a functional programming language that compiles to WebAssembly. The main repo contains the compiler and core syntaxes, currently implemented in Haskell.
 
---------------------
+* [Forth](/languages/forth) - an interactive, extensible, imperative, untyped, stack-based programming language.
 
-### <a name="faust"></a>Faust <sup>[top⇈](#contents)</sup>
-> Faust (Functional Audio Stream) is a functional programming language specifically designed for real-time signal processing and synthesis. A distinctive characteristic of Faust is to be fully compiled.
-* [Faust](https://github.com/grame-cncm/faust) - main repository.
+* [Go](/languages/go) - a statically typed compiled language in the tradition of C, with memory safety, garbage collection, structural typing, and CSP-style concurrent programming features added.
 
---------------------
+* [Grain](/languages/grain) - a strongly-typed functional programming language built for the modern web.
 
-### <a name="forest"></a>Forest <sup>[top⇈](#contents)</sup>
-> Forest is a functional programming language that compiles to WebAssembly. The main repo contains the compiler and core syntaxes, currently implemented in Haskell.
-* [ForestLang](https://github.com/forest-lang/core) - main repository.
+* [Haskell](/languages/haskell) - a standardized, general-purpose purely functional programming language, with non-strict semantics and strong static typing. It is named after logician Haskell Curry. The latest standard of Haskell is Haskell 2010. As of May 2016, a group is working on the next version, Haskell 2020.
 
---------------------
-
-### <a name="forth"></a>Forth <sup>[top⇈](#contents)</sup>
-> Forth is an interactive, extensible, imperative, untyped, stack-based programming language.
-* [WASM Forth](https://github.com/stefano/wasm-forth) - Forth implementation for wasm.
-* [WAForth](https://github.com/remko/waforth) - Bootstrapping Dynamic Forth Interpreter/Compiler for & in WebAssembly.
-
---------------------
-
-### <a name="go"></a>Go <sup>[top⇈](#contents)</sup>
-> Go is a statically typed compiled language in the tradition of C, with memory safety, garbage collection, structural typing, and CSP-style concurrent programming features added.
-* [Go](https://github.com/golang/go) - main repository.
-* [TinyGo](https://github.com/aykevl/tinygo) - a subset of Go targeted to embedded devices and WebAssembly.
-
---------------------
-
-### <a name="grain"></a>Grain <sup>[top⇈](#contents)</sup>
-> Grain is a strongly-typed functional programming language built for the modern web.
-* [Grain](https://github.com/grain-lang/grain) - main repository.
-* [GrainWeb](https://grain-lang.org/) - Web page.
-
---------------------
-
-### <a name="haskell"></a>Haskell <sup>[top⇈](#contents)</sup>
-> Haskell is a standardized, general-purpose purely functional programming language, with non-strict semantics and strong static typing. It is named after logician Haskell Curry.[1] The latest standard of Haskell is Haskell 2010. As of May 2016, a group is working on the next version, Haskell 2020.
-* ~[Asterius](https://github.com/tweag/asterius) - a Haskell to WebAssembly compiler. [Unmaintained]~
-* ~[DHC](https://github.com/dfinity/dhc) - a Haskell compiler that accepts only a tiny subset of the language and produces WebAssembly binaries. [Unmaintained]~
-* [GHC WASM](https://gitlab.haskell.org/haskell-wasm/ghc-wasm-meta) - GHC's wasm backend.
-* ~[HaskellWasm](https://github.com/haskell-wasm/wasm) - a Haskell compiler infrastructure for generating WebAssembly. [Unmaintained]~
-* [haskell-wasm](https://github.com/SPY/haskell-wasm) - Haskell WebAssembly Toolkit. It includes Language helpers and a fully spec-compatible WASM interpreter.
-* [wasm-cross](https://github.com/WebGHC/wasm-cross) - A toolchain for cross compiling C and Haskell to WebAssembly, using the WebGHC and LLVM.
-
---------------------
-
-### <a name="idris"></a>Idris <sup>[top⇈](#contents)</sup>
-> Idris is a general purpose pure functional programming language with dependent types. Dependent types allow types to be predicated on values, meaning that some aspects of a program’s behaviour can be specified precisely in the type. It is compiled, with eager evaluation. Its features are influenced by Haskell and ML.
-* ~[Idris-codegen-WASM](https://github.com/SPY/idris-codegen-wasm) - WASM codegen repository.~ `Unmaintained`
+* [Idris](/languages/idris) - a general purpose pure functional programming language with dependent types. Dependent types allow types to be predicated on values, meaning that some aspects of a program’s behaviour can be specified precisely in the type. It is compiled, with eager evaluation. Its features are influenced by Haskell and ML.
 
 --------------------
 

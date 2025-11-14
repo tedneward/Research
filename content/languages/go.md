@@ -5,7 +5,7 @@ summary=Compiled, statically typed in the tradition of Algol and C, with garbage
 
 [Source](https://github.com/golang/go)
 
-### Reading
+## Reading
 
 * [An Introduction to Programming in Go](http://www.golang-book.com)
 * [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/)
@@ -29,6 +29,11 @@ summary=Compiled, statically typed in the tradition of Algol and C, with garbage
 * [The Little Go Book](https://github.com/karlseguin/the-little-go-book) - Karl Seguin ([PDF](https://www.openmymind.net/assets/go/go.pdf), [ePUB](https://www.openmymind.net/assets/go/go.epub))
 * [Web apps in Go, the anti textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)
 
-### Libraries
+## Implementations
+
+* WASM: [TinyGo](https://github.com/aykevl/tinygo) - a subset of Go targeted to embedded devices and WebAssembly.
+
+## Libraries
+
 * [sqlc](https://docs.sqlc.dev/en/latest/index.html): generates fully type-safe idiomatic Go code from SQL.
 

@@ -3,6 +3,16 @@ tags=language, functional
 summary=Pure-functional language.
 ~~~~~~
 
+## Implementations
+
+* ~[Asterius](https://github.com/tweag/asterius) - a Haskell to WebAssembly compiler. [Unmaintained]~
+* ~[DHC](https://github.com/dfinity/dhc) - a Haskell compiler that accepts only a tiny subset of the language and produces WebAssembly binaries. [Unmaintained]~
+* [GHC WASM](https://gitlab.haskell.org/haskell-wasm/ghc-wasm-meta) - GHC's wasm backend.
+* ~[HaskellWasm](https://github.com/haskell-wasm/wasm) - a Haskell compiler infrastructure for generating WebAssembly. [Unmaintained]~
+* [haskell-wasm](https://github.com/SPY/haskell-wasm) - Haskell WebAssembly Toolkit. It includes Language helpers and a fully spec-compatible WASM interpreter.
+* [wasm-cross](https://github.com/WebGHC/wasm-cross) - A toolchain for cross compiling C and Haskell to WebAssembly, using the WebGHC and LLVM.
+
+
 ### Notes
 (Much quoted from [Learn You a Haskell](http://learnyouahaskell.com).)
 

@@ -1,6 +1,6 @@
 title=Faust (Functional Audio Stream)
 tags=language, audio
-summary=Faust  is a functional programming language for sound synthesis and audio processing with a strong focus on the design of synthesizers, musical instruments, audio effects, etc.
+summary=A functional programming language for sound synthesis and audio processing with a strong focus on the design of synthesizers, musical instruments, audio effects, etc.
 ~~~~~~
 
 [Website](https://faust.grame.fr/) | [Source](https://github.com/grame-cncm/faust)

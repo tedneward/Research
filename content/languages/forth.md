@@ -3,13 +3,18 @@ tags=language
 summary=Entirely stack-oriented programming language.
 ~~~~~~
 
-[Website](http://www.forth.com/)
+[Website](http://www.forth.com/) | [Website](https://forth-standard.org/)
 
-### Implementations
+A procedural, stack-oriented programming language and interactive environment. Forth is used in the Open Firmware boot loader, in space applications such as the Philae spacecraft, and in other embedded systems which involve interaction with hardware. Multiple implementaitons, both proprietary and FOSS.
+
+## Implementations
+
 * [Holon Forth](http://www.holonforth.com/new/holon.html) | [Language](http://www.holonforth.com/tools/java/javaforth.htm)
 * [StrongForth](http://home.vrweb.de/stephan.becher/forth/)
 * [Retro](http://retroforth.org/): A minimalistic Forth
 * [Jones Forth](https://github.com/AlexandreAbreu/jonesforth): A backup of the very nice Richard W.M. Jones Forth interpreter
+* [WASM Forth](https://github.com/stefano/wasm-forth) - Forth implementation for wasm.
+* [WAForth](https://github.com/remko/waforth) - Bootstrapping Dynamic Forth Interpreter/Compiler for & in WebAssembly.
 
 ### Reading
 
@@ -20,7 +25,3 @@ summary=Entirely stack-oriented programming language.
 * [Starting Forth](http://home.iae.nl/users/mhx/sf.html) | [Another link?](http://www.forth.com/starting-forth/)
 * [Thinking Forth](http://thinking-forth.sourceforge.net)
 * [Thoughtful Programming and Forth](http://www.ultratechnology.com/forth.htm)
-
-
-https://forth-standard.org/
-A procedural, stack-oriented programming language and interactive environment. Forth is used in the Open Firmware boot loader, in space applications such as the Philae spacecraft, and in other embedded systems which involve interaction with hardware. Multiple implementaitons, both proprietary and FOSS.
