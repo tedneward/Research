@@ -54,6 +54,7 @@ Codd's Twelve (Thirteen) Rules:
 * [The Theory of Relational Databases](http://web.cecs.pdx.edu/~maier/TheoryBook/TRD.html)
 * [The Third Manifesto](http://www.thethirdmanifesto.com/)
 * [Why Are There No Relational DBMSs?](https://www.dcs.warwick.ac.uk/~hugh/TTM/Why-Are-There-No-Relational-DBMSs.pdf) - Hugh Darwen
+* [The Entity-Relationship Model-Toward a Unified View of Data](/storage/models/ERModel-Chen.pdf) - Peter Pin-Shan Chen
 
 Some interesting relational-oriented sites
 
