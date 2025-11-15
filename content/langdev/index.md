@@ -49,11 +49,13 @@ tags=language, language development
 ### Essays/Papers
 
 - 10 Myths About Scalable Parallel Programming Languages (Redux): 
+
     - [Part 1: Productivity and Performance](https://chapel-lang.org/blog/posts/10myths-part1/)
     - [Part 2: Past Failures and Future Attempts](https://chapel-lang.org/blog/posts/10myths-part2/)
     - [Part 3: New Languages vs Language Extensions](https://chapel-lang.org/blog/posts/10myths-part3/)
     - [Part 4: Syntax Matters](https://chapel-lang.org/blog/posts/10myths-part4/)
     - [Part 5: Productivity and Magic Compilers](https://chapel-lang.org/blog/posts/10myths-part5/)
+
 - [10 papers that all PhD students in programming languages ought to know](https://github.com/nuprl/10PL)
 - [A case for feminism in PL design](https://dl.acm.org/doi/pdf/10.1145/3689492.3689809)
 - [A Frontend Programmer's Guide to Languages](https://thatjdanisso.cool/programming-languages)
@@ -76,10 +78,11 @@ tags=language, language development
 - [Dual-Language General-Purpose Self-Hosted Visual Language and new Textual Programming Language for Applications](https://arxiv.org/abs/2509.20426) ([PDF](../2509.20426v1.pdf)): "Most visual programming languages (VPLs) are domain-specific, with few general-purpose VPLs like Programming Without Coding Technology (PWCT). These general-purpose VPLs are developed using textual programming languages and improving them requires textual programming. In this thesis, we designed and developed PWCT2, a dual-language (Arabic/English), general-purpose, self-hosting visual programming language. Before doing so, we specifically designed a textual programming language called Ring for its development. Ring is a dynamically typed language with a lightweight implementation, offering syntax customization features. It permits the creation of domain-specific languages through new features that extend object-oriented programming, allowing for specialized languages resembling Cascading Style Sheets (CSS) or Supernova language. The Ring Compiler and Virtual Machine are designed using the PWCT visual programming language where the visual implementation is composed of 18,945 components that generate 24,743 lines of C code, which increases the abstraction level and hides unnecessary details. Using PWCT to develop Ring allowed us to realize several issues in PWCT, which led to the development of the PWCT2 visual programming language using the Ring textual programming language. PWCT2 provides approximately 36 times faster code generation and requires 20 times less storage for visual source files. It also allows for the conversion of Ring code into visual code, enabling the creation of a self-hosting VPL that can be developed using itself. PWCT2 consists of approximately 92,000 lines of Ring code and comes with 394 visual components." [Source](https://github.com/PWCT/PWCT2)
 - [Dynamic Language Embedding](https://scg.unibe.ch/archive/phd/renggli-phd.pdf)
 - [Efficient Gradual Typing](https://arxiv.org/pdf/1802.06375.pdf)
+- [From Lisp S-Expressions to Java](/langdev/From_Lisp_S-expressions_to_Java_source_code.pdf)
 - [Fundamental concepts in programming languages](https://www.math.pku.edu.cn/teachers/qiuzy/plan/lits/FundamentalConceptOfPL.pdf)
 - ["A Generic Abstract Syntax Model for Embedded Languages"](https://www.cs.tufts.edu/~nr/cs257/archive/emil-axelsson/paper.pdf): "Representing a syntax tree using a data type often involves having many similar-looking constructors. Functions operating on such types often end up having many similar-looking cases. Different languages often make use of similar-looking constructions. We propose a generic model of abstract syntax trees capable of representing a wide range of typed languages. Syntactic constructs can be composed in a modular fashion enabling reuse of abstract syntax and syntactic processing within and across languages. Building on previous methods of encoding extensible data types in Haskell, our model is a pragmatic solution to Wadler’s “expression problem". Its practicality has been confirmed by its use in the implementation of the embedded language Feldspar."
 - [Generic Abstract Syntax Tree (geast)](https://angeljavalopez.medium.com/geast-a-generic-abstract-syntax-tree-c7feb681b6b5)
-- ["GAST"](../GAST_A_generic_AST_representation_for_language-ind.pdf) (PDF)
+- ["GAST"](/langdev/GAST_A_generic_AST_representation_for_language-ind.pdf) (PDF)
 - [Going beyond JavaScript](https://www.youtube.com/watch?v=VwisE497Nsg&ab_channel=Intelligence.ai%3AConcepts-FirstPodcast)
 - [Gradual Type Theory](https://arxiv.org/pdf/1811.02440.pdf)
 - [Gradual Typing for Functional Languages](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b7ca4b0e6d3119aa341af73964dbe38d341061dd)
