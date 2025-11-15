@@ -1,5 +1,5 @@
 title=C
-tags=language, native
+tags=language, native, windows, macos, linux, web assembly, ios, android
 summary=General-purpose, imperative, supporting structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations.
 ~~~~~~
 
@@ -11,21 +11,21 @@ Numerous languages seek to supplant or replace C as the ubiquitous system langua
 
 ### Implementations:
 
-* [gcc](https://gcc.gnu.org/projects/cxx-status.html)
-* [clang](http://clang.llvm.org/cxx_status.html) from [LLVM](/platforms/llvm.html)
-* [lcc](https://drh.github.io/lcc/) ([Source](https://github.com/drh/lcc)): A retargetable C compiler
-* [Emscripten](https://emscripten.org/)
-* [TinyC](https://bellard.org/tcc/): [Website](http://savannah.nongnu.org/projects/tinycc) and [Git repo](https://repo.or.cz/w/tinycc.git) | [Single-page](http://www.iro.umontreal.ca/~felipe/IFT2030-Automne2002/Complements/tinyc.c)
-* [OpenWatcom](http://www.openwatcom.org/)
 * [Cheerp](https://leaningtech.com/pages/cheerp.html): C to WASM bytecode
-* [PicoC](https://github.com/zsaleeba/picoc): Statically typed. Interprets a subset of C.
+* [clang](http://clang.llvm.org/cxx_status.html) from [LLVM](/platforms/llvm.html)
 * [Dev-C++](http://www.bloodshed.net/) : Free IDE and compiler for the C and C++ languages. Delphi and C source code available.
-* [SmallC](http://www.bloodshed.net/downloads/smallc22.zip) : Small C compiler written by J. E. Hendrix. C source code included.
+* [Emscripten](https://emscripten.org/)
+* [gcc](https://gcc.gnu.org/projects/cxx-status.html)
+* [lcc](https://drh.github.io/lcc/) ([Source](https://github.com/drh/lcc)): A retargetable C compiler
+* [OpenWatcom](http://www.openwatcom.org/)
+* [TinyC](https://bellard.org/tcc/): [Website](http://savannah.nongnu.org/projects/tinycc) and [Git repo](https://repo.or.cz/w/tinycc.git) | [Single-page](http://www.iro.umontreal.ca/~felipe/IFT2030-Automne2002/Complements/tinyc.c)
+* [PicoC](https://github.com/zsaleeba/picoc): Statically typed. Interprets a subset of C.
+* [SmallC](http://www.bloodshed.net/downloads/smallc22.zip): Small C compiler written by J. E. Hendrix. C source code included.
 * [Djgpp](http://www.delorie.com/djgpp/) : Free compiler for c, c++, forth, pascal and more including C sources.
-* [lcc](http://www.cs.princeton.edu/software/lcc/index.html) : lcc is a retargetable compiler for ISO Standard C. It generates code for the ALPHA, SPARC, MIPS R3000, and Intel x86 and its successors.
-* [LCC-Win32](https://lcc-win32.services.net/) : a free compiler system for Windows by Jacob Navia.
-* [Pacific C for DOS](http://www.grifo.com/SOFT/Pacific/uk_pacific.html) : Freeware version for MSDOS of a professional C IDE/compiler shareware
-* [Dev86 / BCC](https://github.com/lkundrak/dev86) : 8086 C/Assembler development tools (C compiler, assembler, linker). Open Source.
+* [lcc](http://www.cs.princeton.edu/software/lcc/index.html): lcc is a retargetable compiler for ISO Standard C. It generates code for the ALPHA, SPARC, MIPS R3000, and Intel x86 and its successors.
+* [LCC-Win32](https://lcc-win32.services.net/): a free compiler system for Windows by Jacob Navia.
+* [Pacific C for DOS](http://www.grifo.com/SOFT/Pacific/uk_pacific.html): Freeware version for MSDOS of a professional C IDE/compiler shareware
+* [Dev86 / BCC](https://github.com/lkundrak/dev86): 8086 C/Assembler development tools (C compiler, assembler, linker). Open Source.
 * [Extended C Development Kit](http://openecdk.sourceforge.net/)
 * [CuikC](https://cuik.handmade.network/): The plan is a modern C11 compiler which can mostly work with Clang, GCC, and MSVC while also introducing some new ideas. Warning: unfinished
 * [C compiler written in untyped lambda calculus](https://github.com/woodrush/lambda-8cc):

@@ -72,7 +72,7 @@ Features:
 
     * [adawebpack](https://github.com/godunko/adawebpack) - GNAT-LLVM compiler for WebAssembly target, GNAT Run Time Library and AdaWebPack bindings for Web API.
     * [adagl](https://github.com/godunko/adagl) - Multiplatform Ada/OpenGL bindings (ported to native/OpenGL, A2JS/WebGL and WASM/WebGL).
-    * [adawebui](https://github.com/godunko/adawebui) - GUI based on adawebpack.\
+    * [adawebui](https://github.com/godunko/adawebui) - GUI based on adawebpack.
 
 * [AssemblyScript](/languages/wasm/assemblyscript): An assembler for WebAssembly.
 * [Astro](/languages/wasm/astro): a fun safe language for rapid prototyping and high performance applications.
@@ -83,33 +83,15 @@ Features:
     * [berry](https://github.com/berry-lang/berry) - main repo.
     * [berry_web](https://github.com/berry-lang/berry_web/) - Berry web playground. The project contains port of the Berry to Emscripten platform.
 
-* Brainfuck 
-
-    * [BrainfuckWebassembly](https://github.com/serprex/brainwebfuckassembly) - a simple Brainfuck-to-wasm compiler in one function.
-    * [Brainfuck2Wasm](https://github.com/verdie-g/brainfuck2wasm) - a Brainfuck-to-wasm compiler and playground.
-    * [BrainfuckRsWasm](https://github.com/shritesh/brainfuck-rs-wasm) - a Brainfuck interpreter written in Rust and compiled to WebAssembly.
-    * [Brainfuck Wa-lang](https://github.com/wa-lang/wa/tree/master/waroot/examples/brainfuck) - a Brainfuck interpreter written in [凹语言/Wa-lang](https://github.com/wa-lang/wa) and compiled to WebAssembly.
-    * [bfwasm](https://github.com/surma/bfwasm) - A non-optimizing Brainf_ck to WebAssembly compiler with WASI support.
-
-* C
-
-    * [Emscripten](/languages/wasm/emscripten) - an LLVM-to-JavaScript/Webassembly compiler. It takes LLVM bitcode - which can be generated from C/C++, using llvm-gcc (DragonEgg) or clang, or any other language that can be converted into LLVM - and compiles that into JavaScript or wasm.
-    * [Cheerp](/languages/wasm/cheerp): an open-source, commercial C/C++ compiler for Web applications. It can compile virtually any C/C++ code (up to C++14) to WebAssembly, JavaScript, asm.js or a combination thereof.
-
-* [c4wa](https://github.com/kign/c4wa) - main repository.
-
+* [Brainfuck](/languages/esoteric/brainfuck)
+* [C](/languages/c)
+* [c4wa](https://github.com/kign/c4wa)
 * [Clean](/languages/clean) - a general purpose, state-of-the-art, pure and lazy functional programming language designed for making real-world applications.
-
 * [Co](/languages/co): A programming language similar to Go and TypeScript. [main repo](https://github.com/rsms/co)
-
 * [COBOL](/languages/cobol)
-
 * [Crystal](/languages/crystal)
-
 * [Cyber](/languages/cyber) - Fast, efficient, and concurrent scripting. Dynamic and gradual types; Concurrency with fibers; Multithreaded; Memory safe; FFI and Embeddable.
-
 * [D](/languages/d) - D is a general-purpose programming language with static typing, systems-level access, and C-like syntax.
-
 * [Dart](/languages/dart) - An approachable, portable, and productive language for high-quality apps on any platform
 
     * [sdk](https://github.com/dart-lang/sdk) - The Dart SDK, including the VM, dart2js, core libraries, and more.
@@ -117,82 +99,46 @@ Features:
     * [Use via Flutter](https://flutter.dev/wasm) - How to compile Dart to WebAssembly for a Flutter Web application
 
 * [Duktape](/languages/ecmascript): embeddable JS engine capable of being run in the browser via WebAssembly
-
 * [Eclair](/languages/eclair): Eclair is a minimal, fast Datalog implementation that compiles to LLVM IR and WASM.
-
 * [Eel](/languages/eel)
-
 * [Elixir](/languages/elixir)
-
 * [F#](/languages/dotnet/fsharp): F# is a mature, open source, cross-platform, functional-first programming language. It empowers users and organizations to tackle complex computing problems with simple, maintainable and robust code. WebAssembly support is achieved through [Bolero](https://fsbolero.io/), a set of free and open-source libraries and tools built on top of [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor).
-
 * [Faust](/languages/faust) - Faust (Functional Audio Stream) is a functional programming language specifically designed for real-time signal processing and synthesis. A distinctive characteristic of Faust is to be fully compiled.
-
 * [Forest](/languages/forest) - a functional programming language that compiles to WebAssembly. The main repo contains the compiler and core syntaxes, currently implemented in Haskell.
-
 * [Forth](/languages/forth) - an interactive, extensible, imperative, untyped, stack-based programming language.
-
 * [Go](/languages/go) - a statically typed compiled language in the tradition of C, with memory safety, garbage collection, structural typing, and CSP-style concurrent programming features added.
-
 * [Grain](/languages/grain) - a strongly-typed functional programming language built for the modern web.
-
 * [Haskell](/languages/haskell) - a standardized, general-purpose purely functional programming language, with non-strict semantics and strong static typing. It is named after logician Haskell Curry. The latest standard of Haskell is Haskell 2010. As of May 2016, a group is working on the next version, Haskell 2020.
-
 * [Idris](/languages/idris) - a general purpose pure functional programming language with dependent types. Dependent types allow types to be predicated on values, meaning that some aspects of a program’s behaviour can be specified precisely in the type. It is compiled, with eager evaluation. Its features are influenced by Haskell and ML.
-
 * [Janet](/languages/lisp/janet) - a good system scripting language, or a language to embed in other programs. 
-
 * [Java](/languages/jvm/java)
-
 * [JavaScript](/languages/ecmascript) - a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
-
 * [Julia](/languages/julia) - Julia was designed from the beginning for high performance. Julia programs compile to efficient native code for multiple platforms via LLVM.
-
 * [KCL](/languages/kcl)
-
 * [Kotlin](/languages/jvm/kotlin)
-
 * [Kou](/languages/wasm/kou)
-
 * LabVIEW is a development environment for the G dataflow graphical programming language used for data acquisition, instrument control, and industrial automation.
 
     * [G Web Development Software](https://www.ni.com/en/shop/electronic-test-instrumentation/programming-environments-for-electronic-test-and-instrumentation/what-is-g-web-development-software.html) - A standalone development environment implementing a subset of the G dataflow graphical programming language to create web-based user interfaces for test and measurement applications.
     * [Vireo](https://github.com/ni/vireosdk) - An open-source runtime capable of running the virtual instrument assembly representation of the G dataflow graphical programming language created by G Web Development Software.
 
 * [Lisp](/languages/lisp) - Lisp (historically LISP) is a family of programming languages with a long history and a distinctive, fully parenthesized prefix notation.
-
 * [Lobster](/languages/lobster) - a statically typed language with flow-sensitive type inference and specialization, compile time reference counting (lifetime analysis) that looks a bit like Python. It was originally intended specifically for games.
-
 * [Lox](/languages/lox) - a language created by Bob Nystrom, used to teach compilers in the book Crafting Interpreters. It is dynamically typed, and supports classes, closures, and first-class functions.
-
 * [Lua](/languages/lua) -  a lightweight, multi-paradigm programming language designed primarily for embedded systems and clients. Lua is cross-platform, since the interpreter is written in ANSI C, and has a relatively simple C API.
-
 * [Lys](/languages/lys) - a typed functional language that compiles directly to WebAssembly.
-
 * [Moonbit](/languages/moonbit)
-
 * [Nelua](/languages/nelua) - Minimal, simple, efficient, statically typed, compiled, metaprogrammable, safe, and extensible systems programming language with a Lua flavor.
-
 * [Nerd](/languages/nerd)
-
 * [Never](/languages/never)
-
 * [Nim](/languages/nim)
-
 * [Ocaml](/languages/ml/ocaml) - the main implementation of the programming language Caml, created by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez and others in 1996. A member of the ML language family, OCaml extends the core Caml language with object-oriented programming constructs.
-
 * [Pascal](/languages/pascal) - Pascal is a general purpose imperative, procedural and object-oriented static typing programming language. The Free Pascal compiler targets many processor architectures, including wasm32; operating systems, including WASI; and embedded platforms.
-
 * [PHP](/languages/php) - PHP is a general-purpose scripting language that is especially suited to server-side web development, in which case PHP generally runs on a web server. Any PHP code in a requested file is executed by the PHP runtime, usually to create dynamic web page content or dynamic images used on websites or elsewhere.
-
 * [Plorth](/languages/plorth) - Plorth is stack based, concatenative, strongly typed functional scripting language which is easy to embed to applications written in C++. It's inspired by Forth and Factor programming languages.
-
 * [Poetry](/languages/wasm/poetry) - Poetry is a poetically dynamic and simple programming language that compiles to WebAssembly. It has a minimalisting syntax akin to CoffeeScript and gives you full control over wasm imports and exports.
-
 * [Python](/languages/python)
-
 * [Prolog](/languages/prolog) - Prolog is a general-purpose logic programming language associated with artificial intelligence and computational linguistics. Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is intended primarily as a declarative programming language: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations.
-
 
 --------------------
 
