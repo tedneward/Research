@@ -15,6 +15,3 @@ Virgil focuses on balancing these main features in a statically-typed language:
 * Tuples - for efficient aggregation and uniform treatment of multi-argument functions
 * Type parameters - for powerful and clean abstraction over types
 * Algebraic data types - for easy building and matching of data structures
-
-https://github.com/titzer/virgil
-A Fast and Lightweight Programming Language. Its design blends functional and object-oriented programming paradigms for expressiveness without a lot of overhead, either syntactically or at runtime. Its implementation is focused primarily on static compilation to produce native executables that are standalone. It is well-suited to writing small and fast programs. That makes it ideal for building certain kinds of programs like compilers and virtual machines. It is currently being used for virtual machine and programming language research.

@@ -22,6 +22,27 @@ Tcl was created by [John Ousterhout](https://wiki.tcl-lang.org/page/John+Ousterh
 
 Tcl has much in common with Lisp, but instead of lists, Tcl uses strings as the currency of the language.  All values are strings.  A list is a string with a defined format, and the body of a procedure (a script) is also a string rather than a block.  To achieve performance, Tcl internally caches structured representations of these values.  list routines, for example, operate on the internal cached representation, and Tcl takes care of updating the string representation if it is ever actually needed in the script.  The copy-on-write design of Tcl allows script authors to pass around large data values without actually incurring additional memory overhead.  Procedures are automatically byte-compiled unless they use the more dynamic routines such as "uplevel", "upvar", and "trace".
 
+## Implementations:
+
+* C: [Jim Tcl](http://jim.tcl-lang.org/): Largely compatible with Tcl 8.5 with its own additions.
+* C: [Picol](https://chiselapp.com/user/dbohdan/repository/picol/): A header-only library interpreter for a limited dialect of Tcl.
+* JVM: [JTcl](https://github.com/jtcl-project/jtcl): Tcl 8.4 with some 8.5 features for the JVM.
+* Rust: [Molt](https://github.com/wduquette/molt): A minimal Tcl implementation for Rust applications and libraries.
+* WASM: [Wacl](https://github.com/ecky-l/wacl) - A Tcl distibution for WebAssembly or Javascript. Features JS/DOM bindings. You can try it out [here](https://ecky-l.github.io/wacl/).
+
+## Inspired by Tcl: 
+
+* [LIL](http://runtimeterror.com/tech/lil/): A Tcl-like language incompatible with mainline Tcl.
+
+## Extensions to Tcl:
+
+* [Poet](http://poet.sourceforge.net/): Poet extends the Tcl language with objects featuring dynamic, prototype-based inheritance, persistence, and one-way constraints. Poet includes wrappers around the Tk, Ttk, and BWidget widgets and object and code editors.
+
+## Reading
+
+* [Tcl Programming](https://en.wikibooks.org/wiki/Programming%3ATcl) - Richard.Suchenwirth, et. al.
+
+
 ```tcl
 #! /bin/env tclsh
 
@@ -543,24 +564,6 @@ coroutine c apply {{} {
 }}
 ```
 
-## Implementations:
-
-* C: [Jim Tcl](http://jim.tcl-lang.org/): Largely compatible with Tcl 8.5 with its own additions.
-* C: [Picol](https://chiselapp.com/user/dbohdan/repository/picol/): A header-only library interpreter for a limited dialect of Tcl.
-* JVM: [JTcl](https://github.com/jtcl-project/jtcl): Tcl 8.4 with some 8.5 features for the JVM.
-* Rust: [Molt](https://github.com/wduquette/molt): A minimal Tcl implementation for Rust applications and libraries.
-
-## Inspired by Tcl: 
-
-* [LIL](http://runtimeterror.com/tech/lil/): A Tcl-like language incompatible with mainline Tcl.
-
-## Extensions to Tcl:
-
-* [Poet](http://poet.sourceforge.net/): Poet extends the Tcl language with objects featuring dynamic, prototype-based inheritance, persistence, and one-way constraints. Poet includes wrappers around the Tk, Ttk, and BWidget widgets and object and code editors.
-
-## Reading
-
-* [Tcl Programming](https://en.wikibooks.org/wiki/Programming%3ATcl) - Richard.Suchenwirth, et. al.
 
 https://en.wikipedia.org/wiki/Tcl
 Tcl is a high-level, general-purpose, interpreted, dynamic programming language. Tcl supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles. It is commonly used embedded into C applications for rapid prototyping, scripted applications, GUIs, and testing.

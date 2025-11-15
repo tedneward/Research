@@ -135,10 +135,9 @@ tags=language, language development
 - [The Calculated Typer](https://bahr.io/pubs/entries/calctyper.html): We present a calculational approach to the design of type checkers, showing how they can be derived from behavioural specifications using equational reasoning. In addition, we show how the calculations can be simplified by taking an algebraic approach based on fold fusion, and further improved by taking a constraint-based approach to solving and composing fusion preconditions. We illustrate our methodology with three examples of increasing complexity, starting with a simple expression language, then adding support for exceptions, and finally considering a version of the lambda calculus.
 - [The Design Principles of the Elixir Type System](https://arxiv.org/pdf/2306.06391.pdf)
 - [The Economics of Programming Languages](https://www.youtube.com/watch?v=XZ3w_jec1v8&ab_channel=StrangeLoopConference)
-- [The Mess We're In - Joe Armstrong](https://www.youtube.com/watch?v=lKXe3HUG2l4)
-- [The Next Programming Language - Douglas Crockford](https://www.youtube.com/watch?v=R2idkNdKqpQ&ab_channel=code%3A%3Adiveconference)
+- [The Mess We're In](https://www.youtube.com/watch?v=lKXe3HUG2l4) - Joe Armstrong
+- [The Next Programming Language](https://www.youtube.com/watch?v=R2idkNdKqpQ&ab_channel=code%3A%3Adiveconference) - Douglas Crockford
 - [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
-- [The Programming Language Enthusiast](http://www.pl-enthusiast.net)
 - [The Slow March of Progress](https://earthly.dev/blog/programming-language-improvements/)
 - [The Study of Programming Languages](https://cs.lmu.edu/~ray/notes/plstudy)
 - [The Taxonomy of Reactive Programming](https://vsavkin.com/the-taxonomy-of-reactive-programming-d40e2e23dee4): Events and State; Deriving and Executing; Reified and Transparent; Composition; Implicit and Explicit Time; Self and External Observation; 
@@ -262,6 +261,7 @@ tags=language, language development
 - [How languages work #1: String interpolation](https://martin.janiczek.cz/2023/07/27/how-languages-work-1-string-interpolation.html)
 - [Implementing a Simple Compiler on 25 Lines of JavaScript](https://blog.mgechev.com/2017/09/16/developing-simple-interpreter-transpiler-compiler-tutorial)
 - Let’s Build A Simple Interpreter:
+
     - [Part 1](https://ruslanspivak.com/lsbasi-part1)
     - [Part 2](https://ruslanspivak.com/lsbasi-part2)
     - [Part 3](https://ruslanspivak.com/lsbasi-part3)
@@ -280,6 +280,7 @@ tags=language, language development
     - [Part 16](https://ruslanspivak.com/lsbasi-part16)
     - [Part 17](https://ruslanspivak.com/lsbasi-part17)
     - [Part 18](https://ruslanspivak.com/lsbasi-part18)
+
 - [LittleBasic](https://github.com/mateiw/littlebasic)
 - [Little lisp interpreter](https://maryrosecook.com/blog/post/little-lisp-interpreter)
 - [Little Lisp interpreter](https://www.recurse.com/blog/21-little-lisp-interpreter)

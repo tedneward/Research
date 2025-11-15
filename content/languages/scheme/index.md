@@ -7,27 +7,31 @@ summary=Homoiconic dynamic functional(ish) language derived from Lisp.
 
 Older specifications: [R5RS](http://www-swiss.ai.mit.edu/~jaffer/r5rs_toc.html) | [R4RS](http://www.cs.indiana.edu/scheme-repository/R4RS/r4rs_toc.html)
 
-### Implementations
+## Implementations
 
 * [Bones](http://www.call-with-current-continuation.org/bones/bones.html): Another Scheme compiler, targets x86_64
 * [Gambit Scheme](https://gambitscheme.org/) ([Source](https://github.com/gambit/gambit)): an efficient implementation of the Scheme programming language.
 * [Larceny](http://www.larcenists.org/)
 * [MIT/GNU Scheme](https://www.gnu.org/software/mit-scheme/)
-* [GNU Guile Scheme](../guile)
+* [GNU Guile Scheme](/languages/lisp/guile)
     - FFI bindings: [SCHeMe UnterstüTZung](https://sinusoid.es/schmutz) — easy Guile Scheme C++ bindings ([Source](https://github.com/arximboldi/schmutz))
-* [C: Chibi Scheme](https://github.com/ashinn/chibi-scheme): Implements R7RS small.
-* [C: Chicken Scheme](https://call-cc.org/): Implements R5RS (with some changes). R7RS support is a work in progress.
-* [C: s7](https://ccrma.stanford.edu/software/snd/snd/s7.html)
-* [CLR: IronScheme](https://github.com/IronScheme/IronScheme)
-* [JVM: Bigloo](http://www-sop.inria.fr/mimosa/fp/Bigloo/bigloo.html#Bigloo-homepage)
-* [JVM: Kawa](https://en.wikipedia.org/wiki/Kawa_(Scheme_implementation))
-* [JVM: SISC](https://sisc-scheme.org/): SISC is an extensible Java based interpreter of the algorithmic language Scheme. SISC uses modern interpretation techniques, and handily outperforms all existing JVM interpreters (often by more than an order of magnitude). (Not updated since 2007 but still available.)
-* [JVM: JScheme](http://jscheme.sourceforge.net/jscheme/main.html) and [here](http://norvig.com/jscheme.html)
+* C: [Chibi Scheme](https://github.com/ashinn/chibi-scheme): Implements R7RS small.
+* C: [Chicken Scheme](https://call-cc.org/): Implements R5RS (with some changes). R7RS support is a work in progress.
+* C: [s7](https://ccrma.stanford.edu/software/snd/snd/s7.html)
+* CLR: [IronScheme](https://github.com/IronScheme/IronScheme)
+* JVM: [Bigloo](http://www-sop.inria.fr/mimosa/fp/Bigloo/bigloo.html#Bigloo-homepage)
+* JVM: [Kawa](https://en.wikipedia.org/wiki/Kawa_(Scheme_implementation))
+* JVM: [SISC](https://sisc-scheme.org/): SISC is an extensible Java based interpreter of the algorithmic language Scheme. SISC uses modern interpretation techniques, and handily outperforms all existing JVM interpreters (often by more than an order of magnitude). (Not updated since 2007 but still available.)
+* JVM: [JScheme](http://jscheme.sourceforge.net/jscheme/main.html) and [here](http://norvig.com/jscheme.html)
 * [Scheme in One Day (siod)](https://github.com/gjcarrette/siod)
 * [Inlab Scheme](https://scheme.inlab.net/)
 * [Femtolisp](https://github.com/JeffBezanson/femtolisp): a lightweight, robust, scheme-like lisp implementation
+* WASM: [Schism](https://github.com/schism-lang/schism) - Schism is an experimental self-hosting compiler from a subset of R6RS Scheme to WebAssembly. Development so far has focused on features necessary for self-hosting. The compiler itself is written in, and compiles, a very small subset of Scheme.
+* WASM: [scheme.wasm](https://github.com/pollrobots/scheme) - An R7RS Scheme implemented in WebAssembly. You can try it out [here](https://pollrobots.com/scheme/).
+* WASM: [Guile Hoot](https://gitlab.com/spritely/guile-hoot) - a Scheme to WebAssembly compiler backend for GNU Guile and a general purpose WASM toolchain.
 
-### Reading
+## Reading
+
 * [The Scheme Programming Language (4th Ed)](https://www.scheme.com/tspl4/), by Dybvig ([3rd Ed](https://www.scheme.com/tspl3/), [2nd Ed](https://www.scheme.com/tspl2/))
 * [Structured Interpretation of Computer Programming (SICP)](https://mitpress.mit.edu/sicp/); [JS edition](https://sourceacademy.org/sicpjs/index) ([PDF](https://sicp.sourceacademy.org/sicpjs.pdf)) ([Source](https://github.com/source-academy/sicp))
 * [A Pamphlet Against R. Computational Intelligence in Guile Scheme](https://panicz.github.io/pamphlet/)

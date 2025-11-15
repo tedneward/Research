@@ -38,6 +38,7 @@ Numerous languages seek to supplant or replace C as the ubiquitous system langua
     * Compile ELVM assembly to:
         * x86/lambda calculus/BLC/SKI combinator calculus (all of the above)
 * [Fil-C](https://github.com/pizlonator/llvm-project-deluge): a fanatically compatible memory-safe implementation of C and C++. Lots of software compiles and runs with Fil-C with zero or minimal changes. All memory safety errors are caught as Fil-C panics. Fil-C achieves this using a combination of concurrent garbage collection and invisible capabilities (each pointer in memory has a corresponding capability, not visible to the C address space). Every fundamental C operation (as seen in LLVM IR) is checked against the capability. Fil-C has no unsafe escape hatch of any kind.
+* [xcc](https://github.com/tyfkda/xcc) - Toy C compiler for x86-64 and wasm
 
 [Cosmopolitan](https://github.com/jart/cosmopolitan) Libc: "makes C a build-once run-anywhere language, like Java, except it doesn't need an interpreter or virtual machine. Instead, it reconfigures stock GCC and Clang to output a POSIX-approved polyglot format that runs natively on Linux + Mac + Windows + FreeBSD + OpenBSD + NetBSD + BIOS with the best possible performance and the tiniest footprint imaginable."
 

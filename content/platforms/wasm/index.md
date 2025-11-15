@@ -131,132 +131,19 @@ summary=A portable multi-environment-targeting bytecode format for the Web.
 * [Roc](/languages/roc) - A fast, friendly, functional language. Compiles to machine code or WASM.
 * [Ruby](/languages/ruby) - Ruby is an open source interpreted high-level programming language for general-purpose programming. Created by Matz. Ruby has a design philosophy that emphasizes code readability, notably using as few sigils (special chars`:.{}%[]&=>;`) as possible.
 * [Rust](/languages/rust) - Rust is a systems programming language sponsored by Mozilla Research, which describes it as a "safe, concurrent, practical language,"supporting functional and imperative-procedural paradigms. Rust is syntactically similar to C++, but its designers intend it to provide better memory safety while maintaining performance.
-
---------------------
-
-### <a name="scheme"></a>Scheme <sup>[top⇈](#contents)</sup>
-> Scheme is a programming language that supports multiple paradigms, including functional programming and imperative programming, and is one of the two main dialects of Lisp. Unlike Common Lisp, the other main dialect, Scheme follows a minimalist design philosophy specifying a small standard core with powerful tools for language extension..
-* [Schism](https://github.com/schism-lang/schism) - Schism is an experimental self-hosting compiler from a subset of R6RS Scheme to WebAssembly. Development so far has focused on features necessary for self-hosting. The compiler itself is written in, and compiles, a very small subset of Scheme.
-* [scheme.wasm](https://github.com/pollrobots/scheme) - An R7RS Scheme implemented in WebAssembly. You can try it out [here](https://pollrobots.com/scheme/).
-* [Guile Hoot](https://gitlab.com/spritely/guile-hoot) - a Scheme to WebAssembly compiler backend for GNU Guile and a general purpose WASM toolchain.
-
---------------------
-
-### <a name="speedyjs"></a>Speedy.js <sup>[top⇈](#contents)</sup>
-> Speedy.js is a compiler for a well considered, performance pitfalls free subset of JavaScript targeting WebAssembly. Because WebAssembly is statically-typed, the project uses TypeScript as type-checker and to resolve the types of the program symbols.
-* ~[Speedy.js](https://github.com/MichaReiser/speedy.js) - main repository.~ `Unmaintained`
-
---------------------
-
-### <a name="swift"></a>Swift <sup>[top⇈](#contents)</sup>
-> Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, macOS, watchOS, tvOS, Linux, and z/OS.
-* [SwiftWasm](https://github.com/swiftwasm) - GitHub organization.
-
---------------------
-
-### <a name="tcl"></a>Tcl <sup>[top⇈](#contents)</sup>
-> Tcl (Tool Command Language) is a very powerful but easy to learn dynamic programming language, mature but evolving, highly extensible and suitable for a very wide range of uses.
-* [Wacl](https://github.com/ecky-l/wacl) - A Tcl distibution for WebAssembly or Javascript. Features JS/DOM bindings. You can try it out [here](https://ecky-l.github.io/wacl/).
-
---------------------
-
-### <a name="theta"></a>Theta <sup>[top⇈](#contents)</sup>
-> Theta is a modern, general purpose, functional programming language with a strong type system and expressive syntax. It features a modular design and supports pattern matching, function overloading, and other goodies.
-* [ThetaLang](https://github.com/alexdovzhanyn/ThetaLang) - main repository.
-
---------------------
-
-### <a name="turboscript"></a>TurboScript <sup>[top⇈](#contents)</sup>
-> TurboScript is an experimental programming language for parallel programming for web which compiles to JavaScript (asm.js) and WebAssembly (targeting post-MVP). The syntax is similar to TypeScript and the compiler is open source and written in TypeScript. TurboScript has zero dependencies.
-* [TurboScript](https://github.com/01alchemist/TurboScript) - main repository.
-
---------------------
-
-### <a name="typescript"></a>TypeScript <sup>[top⇈](#contents)</sup>
-> TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language.
-* See [AssemblyScript](#assemblyscript)
-
---------------------
-
-### <a name="v"></a>V <sup>[top⇈](#contents)</sup>
-
-> V is a statically typed compiled programming language designed for building maintainable software.
-
-* [V](https://github.com/vlang/v) - main repository. You can try it out [here](https://play.vlang.io/)
-
---------------------
-
-### <a name="virgil"></a>Virgil <sup>[top⇈](#contents)</sup>
-
-> A fast and lightweight safe, garbage-collected systems programming language. Its compiler produces optimized, standalone native executables, WebAssembly modules, or JARs for the JVM.
-
-* [Virgil](https://github.com/titzer/virgil) - main repository.
-
---------------------
-
-### <a name="wa"></a>Wa <sup>[top⇈](#contents)</sup>
-
-> Wa is a general-purpose programming language designed for developing robustness and maintainability WebAssembly software. Instead of requiring complex toolchains to set up, you can simply go install it - or run it in a browser.
-
-> 凹语言™（凹读音“Wa”）是 针对 WASM 平台设计的的通用编程语言，支持 Linux、macOS 和 Windows 等主流操作系统和 Chrome 等浏览器环境，同时也支持作为独立Shell脚本和被嵌入脚本模式执行。
-
-* [Wa/凹语言(English)](https://wa-lang.github.io/) - Design for WebAssembly.
-* [Wa/凹语言(简体中文)](https://wa-lang.org/) - 凹语言 - 为 WebAssembly 而生.
-* [Wa/凹语言(仓库)](https://github.com/wa-lang/wa) - main repository.
-
---------------------
-
-### <a name="wah"></a>Wah <sup>[top⇈](#contents)</sup>
-> Wah is a slightly higher level language that is a superset of WebAssembly. It aims to make WebAssembly's text format slightly more friendly to humans, without introducing new syntax or datatypes.
-* ~[Wah](https://github.com/tmcw/wah) - main repository.~ `Unmaintained`
-
---------------------
-
-### <a name="walt"></a>WAlt <sup>[top⇈](#contents)</sup>
-> WAlt is an alternative syntax for WebAssembly text format. It's an experiment for using JavaScript syntax to write to as 'close to the metal' as possible. It's JavaScript with rules. .walt files compile directly to WebAssembly binary format.
-* ~[Walt](https://github.com/ballercat/walt) - main repository.~ `Unmaintained`
-
---------------------
-
-### <a name="wam"></a>Wam <sup>[top⇈](#contents)</sup>
-> WebAssembly Macro language: Wam syntax is a near superset of wast syntax that is more convenient for human developers to write directly.
-* ~[Wam](https://github.com/kanaka/wam) - main repository.~ `Unmaintained`
-
---------------------
-
-### <a name="wase"></a>Wase <sup>[top⇈](#contents)</sup>
-> WASE: WebAssembly made easy. Wase is a language, which tries to make WASM easy to write. The language maps closely to WebAssembly, and compiles directly to Wasm bytecode. Has strong typing with type inference.
-* [Wase](https://github.com/area9innovation/wase) - main repository.
-
---------------------
-
-### <a name="webassembly"></a>WebAssembly <sup>[top⇈](#contents)</sup>
-> Yes, WebAssembly. `Wasm3` is the fastest WebAssembly interpreter, that enables WebAssembly self-hosting.
-* [Wasm3](https://github.com/wasm3/wasm3) - main repository.
-* [Wasm3 on WAPM](https://wapm.io/package/vshymanskyy/wasm3) - WAPM package.
-
---------------------
-
-### <a name="wonkey"></a>Wonkey <sup>[top⇈](#contents)</sup>
-> Wonkey is an easy to learn, object-oriented, modern and cross-platform programming language for creating cross-platform video games, highly inspired by the "BlitzBasic" range of languages.
-* [Wonkey](https://github.com/wonkey-coders/wonkey) - main repository. Check the demo games [here](https://wonkey-coders.github.io/examples/).
-
---------------------
-
-### <a name="wracket"></a>Wracket <sup>[top⇈](#contents)</sup>
-> A lisp-like language that compiles to WebAssembly, written in racket
-* ~[Wracket](https://github.com/sschauss/wracket) - main repository.~ `Unmaintained`
-
---------------------
-
-### <a name="xcc"></a>xcc <sup>[top⇈](#contents)</sup>
-> Toy C compiler for x86-64 and wasm
-* [xcc](https://github.com/tyfkda/xcc) - main repository.
-* [Online demo](https://tyfkda.github.io/xcc/).
-
---------------------
-
-### <a name="zig"></a>Zig <sup>[top⇈](#contents)</sup>
-> Zig is a general-purpose programming language designed for robustness, optimality, and maintainability.
-* [Zig WebAssembly](https://ziglang.org/documentation/master/#WebAssembly) - documentation on WebAssembly
-
+* [Scheme](/languages/scheme) - Scheme is a programming language that supports multiple paradigms, including functional programming and imperative programming, and is one of the two main dialects of Lisp. Unlike Common Lisp, the other main dialect, Scheme follows a minimalist design philosophy specifying a small standard core with powerful tools for language extension.
+* Speedy.js - Speedy.js is a compiler for a well considered, performance pitfalls free subset of JavaScript targeting WebAssembly. Because WebAssembly is statically-typed, the project uses TypeScript as type-checker and to resolve the types of the program symbols. ~[Source](https://github.com/MichaReiser/speedy.js)~ `Unmaintained`
+* [Swift](/languages/swift) - Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, macOS, watchOS, tvOS, Linux, and z/OS.
+* [Tcl](/languages/tcl) - Tcl (Tool Command Language) is a very powerful but easy to learn dynamic programming language, mature but evolving, highly extensible and suitable for a very wide range of uses.
+* [Theta](/languages/wasm/theta) - Theta is a modern, general purpose, functional programming language with a strong type system and expressive syntax. It features a modular design and supports pattern matching, function overloading, and other goodies.
+* [TurboScript](https://github.com/01alchemist/TurboScript) - TurboScript is an experimental programming language for parallel programming for web which compiles to JavaScript (asm.js) and WebAssembly (targeting post-MVP). The syntax is similar to TypeScript and the compiler is open source and written in TypeScript. TurboScript has zero dependencies. `Unmaintained` since 2018
+* [V](/languages/v) - V is a statically typed compiled programming language designed for building maintainable software.
+* [Virgil](/languages/virgil) - A fast and lightweight safe, garbage-collected systems programming language. Its compiler produces optimized, standalone native executables, WebAssembly modules, or JARs for the JVM.
+* [Wa](/languages/wasm/wa) - Wa is a general-purpose programming language designed for developing robustness and maintainability WebAssembly software. Instead of requiring complex toolchains to set up, you can simply go install it - or run it in a browser.
+* [Wah](https://github.com/tmcw/wah) - Wah is a slightly higher level language that is a superset of WebAssembly. It aims to make WebAssembly's text format slightly more friendly to humans, without introducing new syntax or datatypes. `Unmaintained`
+* [WAlt](https://github.com/ballercat/walt) - WAlt is an alternative syntax for WebAssembly text format. It's an experiment for using JavaScript syntax to write to as 'close to the metal' as possible. It's JavaScript with rules. .walt files compile directly to WebAssembly binary format. `Unmaintained`
+* [Wam](https://github.com/kanaka/wam) - WebAssembly Macro language: Wam syntax is a near superset of wast syntax that is more convenient for human developers to write directly. `Unmaintained`
+* [Wase](/languages/wasm/wase) - WASE: WebAssembly made easy. Wase is a language, which tries to make WASM easy to write. The language maps closely to WebAssembly, and compiles directly to Wasm bytecode. Has strong typing with type inference.
+* [Wonkey](/languages/wonkey) - Wonkey is an easy to learn, object-oriented, modern and cross-platform programming language for creating cross-platform video games, highly inspired by the "BlitzBasic" range of languages.
+* [xcc](/languages/c) - Toy C compiler for x86-64 and wasm - [Source](https://github.com/tyfkda/xcc), [Online demo](https://tyfkda.github.io/xcc/).
+* [Zig](/languages/zig) - Zig is a general-purpose programming language designed for robustness, optimality, and maintainability. [Documentation on WebAssembly](https://ziglang.org/documentation/master/#WebAssembly)
