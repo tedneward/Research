@@ -15,17 +15,17 @@ tags=language, language development
 
 ### Books
 
-- [Compiler Construction](https://c9x.me/compile/bib/wirthcc.pdf)
+- [Compiler Construction](https://c9x.me/compile/bib/wirthcc.pdf) (PDF)
 - [Compiler Design](https://www.goodreads.com/book/show/5205564-compiler-design-mar-15-2006-chattopadhyay-santanu)
 - [Compiling with Continuations](https://www.goodreads.com/book/show/2079575.Compiling_with_Continuations)
-- [Concepts of Programming Languages](https://www.goodreads.com/book/show/603257.Concepts_of_Programming_Languages)
-- [Concepts of Programming Languages](https://www.ime.usp.br/~alvaroma/ucsp/proglang/book.pdf)
-- [Discrete Mathematics for Computing](https://www.amazon.com/gp/product/0230216110/ref=sw_img_1?smid=ATVPDKIKX0DER&psc=1)
-- Engineering a Compiler - [Amazon](https://www.amazon.com/Engineering-Compiler-Keith-D-Cooper/dp/0128154128/ref=sr_1_1)
+- [Concepts of Programming Languages](/langdev/Concepts_of_Programming_Languages.pdf) (PDF)
+- Control structures in programming languages: from goto to algebraic effects - https://xavierleroy.org/control-structures/
+- [Discrete Mathematics for Computing](https://www.amazon.com/gp/product/0230216110/ref=sw_img_1)
+- Engineering a Compiler - [Amazon](https://www.amazon.com/Engineering-Compiler-Keith-D-Cooper/dp/0128154128/ref=sr_1_1) ([PDF](/langdev/Keith_Cooper_Linda_Torczon-Engineering_a_Compiler-EN.pdf))
 - Homotopy Type Theory - [Goodreads](https://www.goodreads.com/book/show/18106978-homotopy-type-theory)
 - [How to Design Programs](https://htdp.org/2020-8-1/Book/index.html) - [Goodreads](https://www.goodreads.com/book/show/1119079.How_to_Design_Programs)
 - [Human-Centered Programming Languages](https://bookish.press/hcpl)
-- [Introduction to Compilers and Language Design](https://www3.nd.edu/~dthain/compilerbook/compilerbook.pdf)
+- [Introduction to Compilers and Language Design](https://www3.nd.edu/~dthain/compilerbook/compilerbook.pdf) ([PDF](/langdev/Intro_to_Compilers_and_Language_Design.pdf))
 - Modern Compiler Design - [Amazon](https://www.amazon.com/Modern-Compiler-Design-Dick-Grune/dp/1461446988/ref=sr_1_1)
 - Modern Compiler Implementation:
     - in C - [Amazon](https://www.amazon.com/Modern-Compiler-Implementation-Andrew-Appel/dp/0521607655)
@@ -37,7 +37,6 @@ tags=language, language development
 - Thinking with Types: Type-Level Programming in Haskell - [Leanpub](https://leanpub.com/thinking-with-types)
 - Type Theory and Formal Proof: An Introduction - [Goodreads](https://www.goodreads.com/book/show/21442441-type-theory-and-formal-proof)
 - Type Theory and Functional Programming - [Goodreads](https://www.goodreads.com/book/show/11364683-type-theory-and-functional-programming)
-- Control structures in programming languages: from goto to algebraic effects - https://xavierleroy.org/control-structures/
 
 ### Language Learnings
 
