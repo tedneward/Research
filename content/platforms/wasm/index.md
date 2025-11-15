@@ -23,15 +23,7 @@ summary=A portable multi-environment-targeting bytecode format for the Web.
 * [Common WebAssembly](https://github.com/CommonWA/cwa-spec)
 * Announcements [2.0](https://webassembly.org/news/2025-03-20-wasm-2.0/), [3.0](https://webassembly.org/news/2025-09-17-wasm-3.0/)
 
-## Tools
-
-- [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) | [binaryen](https://github.com/WebAssembly/binaryen)
-
-## Examples
-
-- [Chip-8 Emulator](https://emuchip.com/) [Source](https://github.com/Timmoth/EmuChip): A lightweight interpreted virtual machine originally designed for 8-bit microcomputers. It features a 4K memory space, 16 8-bit registers, a 64×32 monochrome display, a stack for subroutines, and simple timers for delay and sound. This emulator replicates the CHIP-8 architecture in software, written in C# and compiled into WebAssembly for execution directly in the browser.
-
-Features:
+## Features:
 
 * 3.0
 
@@ -51,11 +43,18 @@ Features:
 
   With these new features, Wasm has much better support for compiling high-level programming languages. Enabled by this, we have seen various new languages popping up to target Wasm, such as [Java](https://github.com/google/j2cl/blob/master/docs/getting-started-j2wasm.md), [OCaml](https://dune.readthedocs.io/en/stable/wasmoo.html), [Scala](https://www.scala-js.org/doc/project/webassembly.html), [Kotlin](https://kotlinlang.org/docs/wasm-overview.html), [Scheme](https://spritely.institute/hoot/), or [Dart](https://dart.dev/web/wasm), all of which use the new GC feature. On top of all these goodies, Wasm 3.0 also is the first version of the standard that has been produced with the new [SpecTec](https://webassembly.org/news/2025-03-27-spectec/) tool chain. We believe that this makes for an even more reliable specification.
 
-[Wasm Debugger](https://github.com/wasm3/wasm-debug): Direct, source-level WebAssembly debugger
+## Tools
 
-[WebAssembly friendly programming with C/C++](https://github.com/3dgen/cppwasm-book/tree/master/en) - Ending, Chai Shushan, Yushih (HTML, [examples](https://github.com/3dgen/cppwasm-book/tree/master/examples))
+- [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt) | [binaryen](https://github.com/WebAssembly/binaryen)
+- [Wasm Debugger](https://github.com/wasm3/wasm-debug): Direct, source-level WebAssembly debugger
+- [wasmlink](https://github.com/bytecodealliance/wit-bindgen/tree/main/crates/wasmlink):  a CLI that allows us to statically link a module and its dependencies using [module linking](https://github.com/WebAssembly/module-linking) and the [Canonical Interface Types ABI](https://github.com/WebAssembly/interface-types/pull/140).
 
-[wasmlink](https://github.com/bytecodealliance/wit-bindgen/tree/main/crates/wasmlink):  a CLI that allows us to statically link a module and its dependencies using [module linking](https://github.com/WebAssembly/module-linking) and the [Canonical Interface Types ABI](https://github.com/WebAssembly/interface-types/pull/140).
+## Examples
+
+- [Chip-8 Emulator](https://emuchip.com/) [Source](https://github.com/Timmoth/EmuChip): A lightweight interpreted virtual machine originally designed for 8-bit microcomputers. It features a 4K memory space, 16 8-bit registers, a 64×32 monochrome display, a stack for subroutines, and simple timers for delay and sound. This emulator replicates the CHIP-8 architecture in software, written in C# and compiled into WebAssembly for execution directly in the browser.
+- [WebAssembly friendly programming with C/C++](https://github.com/3dgen/cppwasm-book/tree/master/en) - Ending, Chai Shushan, Yushih (HTML, [examples](https://github.com/3dgen/cppwasm-book/tree/master/examples))
+
+## Languages
 
 [Awesome WASM languages](https://github.com/appcypher/awesome-wasm-langs):
 
