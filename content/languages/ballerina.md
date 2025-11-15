@@ -1,9 +1,9 @@
 title=Ballerina
-tags=language, distribution, services, jvm, concurrency
+tags=language, distribution, services, jvm, concurrency, web assembly
 summary=A service-oriented programming language.
 ~~~~~~
 
-[Website](https://ballerina.io/) | [Project Github](https://github.com/ballerina-platform): [Spec](https://github.com/ballerina-platform/ballerina-spec) [Language](https://github.com/ballerina-platform/ballerina-lang) | [Examples](https://ballerina.io/learn/by-example/introduction/) | [Language Walkthrough](https://ballerina.io/learn/language-walkthrough/) | [Reference Examples](https://ballerina.io/learn/by-example/)
+[Website](https://ballerina.io/) | [Project Github](https://github.com/ballerina-platform): [Spec](https://github.com/ballerina-platform/ballerina-spec) [Language](https://github.com/ballerina-platform/ballerina-lang) | [Examples](https://ballerina.io/learn/by-example/introduction/) | [Language Walkthrough](https://ballerina.io/learn/language-walkthrough/) | [Reference Examples](https://ballerina.io/learn/by-example/) | [Ballerina-to-wasm compiler](https://github.com/ballerina-platform/nballerina/tree/wasm)
 
 ### Articles
 ["GraphQL Made Easy With Ballerina"](https://dzone.com/articles/graphql-made-easy-with-ballerina)

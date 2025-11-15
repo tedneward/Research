@@ -1,9 +1,19 @@
 title=Rego
-tags=language, policy, configuration
+tags=language, policy, configuration, web assembly
 summary=A language used for defining policies and querying (assertions) on data stored in structured document models.
 ~~~~~~
 
 [Website](https://www.openpolicyagent.org/docs/policy-language) | [Source](https://github.com/open-policy-agent/opa) (part of Open Policy Agent)
+
+## Implementations
+
+* [OPA-Wasm](https://github.com/open-policy-agent/opa/tree/main/wasm) - Compilation and evaluation of Rego policies using Wasm.
+* [npm-opa-wasm](https://github.com/open-policy-agent/npm-opa-wasm) - NPM module providing an SDK for using Wasm compiled OPA policies.
+* [rust-opa-wasm](https://github.com/matrix-org/rust-opa-wasm) - A crate to use OPA policies compiled to Wasm.
+* [dotnet-opa-wasm](https://github.com/christophwille/dotnet-opa-wasm) - Call OPA policies in Wasm from C# .NET Core.
+* [python-opa-wasm](https://github.com/a2d24/python-opa-wasm) - OPA Wasm SDK for Python.
+* [java-opa-wasm](https://github.com/sangkeon/java-opa-wasm) - OPA Wasm SDK for Java.
+
 
 ## What is Rego?
 

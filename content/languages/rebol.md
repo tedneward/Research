@@ -1,9 +1,15 @@
 title=Rebol
-tags=language, platform, presentation, native
+tags=language, platform, presentation, native, web assembly
 summary=A lean, extensible platform that operates over a variety of operating systems and devices.
 ~~~~~~
 
 [Website](http://www.rebol.com/) [Rebol 3.0 (Development)](http://www.rebol.com/rebol3/) | [Docs](http://www.rebol.com/docs.html)
+
+## Implementations
+
+* [Ren-C](https://github.com/metaeducation/ren-c) - Ren-C is a deeply redesigned derivative of the Rebol 3 codebase. Features "user-friendly" API for C and JavaScript. It has WASM-powered [Ren-C's replpad-js](https://github.com/hostilefork/replpad-js) - interactive Web Console for Rebol language (Ren-C branch). 
+* [Rye](https://github.com/refaktor/rye) - Rye is a high level, dynamic programming language based on ideas from Rebol, flavored by Factor, *nix shells and Golang. Implemented in Golang. You can try it out [here](https://ryelang.org/).
+
 
 Clock example:
 ```

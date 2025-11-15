@@ -1,5 +1,5 @@
 title=Ada
-tags=language, object, native
+tags=language, object, native, web assembly
 summary=General-purpose, strongly typed, performant, readable and safe language.
 ~~~~~~
 
@@ -8,6 +8,9 @@ summary=General-purpose, strongly typed, performant, readable and safe language.
 ### Implementations
 
 * [GNAT](http://www.getadanow.com/): GNAT is an Ada95 compiler with the source code available in Ada95.
+* [adawebpack](https://github.com/godunko/adawebpack) - GNAT-LLVM compiler for WebAssembly target, GNAT Run Time Library and AdaWebPack bindings for Web API.
+* [adagl](https://github.com/godunko/adagl) - Multiplatform Ada/OpenGL bindings (ported to native/OpenGL, A2JS/WebGL and WASM/WebGL).
+* [adawebui](https://github.com/godunko/adawebui) - GUI based on adawebpack.
 
 ### Reading
 

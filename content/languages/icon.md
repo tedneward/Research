@@ -2,8 +2,14 @@ title=Icon (and Unicon)
 tags=language, object
 summary=Icon is a high-level, general-purpose programming language novel features including string scanning and goal-directed evaluation. Unicon is Icon with portable, platform-independent access to hardware and software features that have become ubiquitous in modern applications development, such as objects, networks, and databases. 
 ~~~~~~
+
 # Icon
 
+[Website](https://www2.cs.arizona.edu/icon/) | [Source](https://github.com/gtownsend/icon) | [Language Reference](https://www2.cs.arizona.edu/icon/refernce/ref.htm)
+
+## Reading
+
+### Introduction
 > It is interesting to compare Icon and Unicon with the competition. Mainstream programming languages such as C, C++, and Java, like the assembler languages that were mainstream before them, are ideal tools for writing all sorts of programs, so long as vast amounts of programmer time are available. Throwing more programmers at a big project does not work well, and programmers are getting more expensive while computing resources continue to become cheaper. These pressures inexorably lead to the use of higher-level languages and the development of better design and development methods. Such human changes are incredibly slow compared to technological changes, but they are visibly occurring nevertheless. Today, the most productive programmers are using extra CPU cycles and memory to reduce the time it takes to develop useful programs.
 
 > There is a subcategory of mainstream languages, marketed as rapid application development languages, whose stated goals seem to address this phenomenon. Languages such as Visual Basic or PowerBuilder provide graphical interface builders and integrated database connectivity, giving productivity increases in the domain of data entry and presentation. The value added in these products are in their programming environments, not their languages. The integrated development environments and tools provided with these languages are to be acclaimed and emulated, but they do not provide productivity gains that are equally relevant to all application domains. They are only a partial solution to the needs of complex applications.
@@ -12,14 +18,11 @@ summary=Icon is a high-level, general-purpose programming language novel feature
 
 > Icon is an applications language with roots in text processing and linguistics. Icon programs tend to be more readable than similar programs written in other very high-level languages, making Icon well-suited to the aims of literate programming. For example, Icon was used to implement Norman Ramsey's literate programming tool noweb (Ramsey, 1994). Literate programming is the practice of writing programs and their supporting textual description together in a single document.
 
-> Unicon makes the core contributions of Icon useful for a broader range of applications: Programmer time must be minimized; Maintainable, concise source code is desired; The program includes complex data structures or experimental algorithms; The program involves a mixture of text processing and analysis, custom graphics, data manipulation, network or file system operations; The program must run on several operating systems and have a nearly identical graphical user interface with little or no source code dierences. 
+> Unicon makes the core contributions of Icon useful for a broader range of applications: Programmer time must be minimized; Maintainable, concise source code is desired; The program includes complex data structures or experimental algorithms; The program involves a mixture of text processing and analysis, custom graphics, data manipulation, network or file system operations; The program must run on several operating systems and have a nearly identical graphical user interface with little or no source code differences. 
 
-> Unicon is not the last word in programming. You probably should not use Unicon if your program has one or more of the following requirements: The fastest possible performance is needed; The program has hard real-time constraints; The program must perform low-level or platform-specic interactions with the hardware or operating system.
+> Unicon is not the last word in programming. You probably should not use Unicon if your program has one or more of the following requirements: The fastest possible performance is needed; The program has hard real-time constraints; The program must perform low-level or platform-specific interactions with the hardware or operating system.
 
-Programming languages play a key role in software development. The Unicon language is a very high level object-oriented language with a unique combination of expressive power and scalable rapid development.
-
-[Website](https://www2.cs.arizona.edu/icon/ | [Source](https://github.com/gtownsend/icon) | [Language Reference](https://www2.cs.arizona.edu/icon/refernce/ref.htm)
-
+### Books
 ["The Icon Programming Language"](https://www2.cs.arizona.edu/icon/ftp/doc/lb1up.pdf) | ["Graphics Programming in Icon"](http://www2.cs.arizona.edu/icon/ftp/doc/gb1up.pdf) | ["Icon Programming for Humanists"](http://unicon.org/books/humanist.pdf) | ["The Implementation of the Icon Programming Language"](https://www2.cs.arizona.edu/icon/ftp/doc/ib1up.pdf)
 
 #### [From:](https://www2.cs.arizona.edu/icon/intro.htm)
@@ -127,9 +130,10 @@ end
 This program prints the k most commonly used words. Line 2 sets k to the command-line argument, if there is one and it is a legal integer, or to 10. Line 3 assigns an associative table to words; the argument to table specifies each entry's initial value. This table accumulates the frequency counts. Line 4 reads in lines and uses getword to generate the words in each line, which index words. The operator +:= increments its left operand. sort(words, 4) in line 5 returns the contents of the table words in a list sorted in increasing order by the frequency counts. Indices and their count values alternate in this list, which is assigned to words. Line 6 prints the counts and words for the k most frequently used words by pulling them off the end of the list, which also shortens the list. pull fails when the list is empty, in case there are not k words.
 
 ---
+
 # Unicon
 
-[Website](http://unicon.org/) | Source: `git clone git://git.code.sf.net/p/unicon/unicon`
+[Website](http://unicon.org/) | [Source](https://github.com/uniconproject/unicon) | Source: `git clone git://git.code.sf.net/p/unicon/unicon`
 
 ["Programming in Unicon"](http://unicon.org/book/ub.pdf) | ["The Implementation of Icon and Unicon: a Compendium"](http://unicon.org/book/ib-nightly.pdf)
 

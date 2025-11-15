@@ -1,5 +1,5 @@
 title=Ruby
-tags=language, functional, dynamic, object, metaobject
+tags=language, functional, dynamic, object, metaobject, web assembly, jvm, clr, native
 summary=A dynamic language.
 ~~~~~~
 
@@ -13,8 +13,20 @@ summary=A dynamic language.
 * IronRuby (appears to be stalled)
 * [mRuby](https://github.com/mruby/mruby): A lightweight implementation of Ruby. Has a compile-time package manager.
 * [mruby/c](https://github.com/mrubyc/mrubyc): An even smaller implementation of Ruby for microcontrollers with limited memory.
-* [Opal](../opal): A Ruby-to-JS transpiler.
-* [Sorbet](../sorbet): Type-checker for Ruby.
+* [Opal](/languages/ruby/opal): A Ruby-to-JS transpiler.
+* [Sorbet](/languages/ruby/sorbet): Type-checker for Ruby.
+* [Wruby](https://github.com/pannous/wruby) Web ruby - a port of minimal ruby (mruby).
+* [run.rb](https://github.com/jasoncharnes/run.rb) run.rb - allows you to run Ruby code in the browser
+* [Artichoke](https://github.com/artichoke/artichoke/blob/f8e9881403a50c3ba7e2b1ffc16f205c0b5e0255/VISION.md#design-and-goals) - a Ruby implementation written in Rust and Ruby. You can try it out here: https://artichoke.run
+* [ruby.wasm](https://github.com/ruby/ruby.wasm/) - a collection of "official" WebAssembly ports of the CRuby. You can
+  try it out [here](https://try.ruby-lang.org/playground/#code=puts+RUBY_DESCRIPTION&engine=cruby-3.2.0)
+* [rlang](https://github.com/ljulliar/rlang) Rlang - a (subset of) Ruby to WebAssembly compiler
+* [cry-wasm](https://github.com/kojix2/cry-wasm) - speeds up Ruby code using Crystal. By applying simple type restrictions to Ruby code, convert it to Crystal code, compile it to WebAssembly, and call it with Wasmer or Wasmtime.
+* [Ruvy](https://github.com/Shopify/ruvy) - toolchain for bundling ruby.wasm pre-initialized and bundled with Ruby code
+* [WebAssembly Language Runtimes](https://github.com/vmware-labs/webassembly-language-runtimes) - up-to-date MRI Ruby prebuilt for WASI
+
+
+## Reading
 
 ### Books
 

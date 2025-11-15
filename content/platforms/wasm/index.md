@@ -68,21 +68,12 @@ Features:
     * [Bolero](https://fsbolero.io/) - Bolero brings Blazor to F# developers with an easy to use Model-View-Update architecture, HTML combinators, hot reloaded templates, type-safe endpoints, advanced routing and remoting capabilities, and more.
     * [NativeAOT-LLVM](https://github.com/dotnet/runtimelab/tree/feature/NativeAOT-LLVM) - an experimental fork of the CoreCLR .NET runtime that compiles .NET applications into single-file executables, with the primary target being WASM
 
-* Ada
-
-    * [adawebpack](https://github.com/godunko/adawebpack) - GNAT-LLVM compiler for WebAssembly target, GNAT Run Time Library and AdaWebPack bindings for Web API.
-    * [adagl](https://github.com/godunko/adagl) - Multiplatform Ada/OpenGL bindings (ported to native/OpenGL, A2JS/WebGL and WASM/WebGL).
-    * [adawebui](https://github.com/godunko/adawebui) - GUI based on adawebpack.
-
+* [Ada](/languages/ada)
 * [AssemblyScript](/languages/wasm/assemblyscript): An assembler for WebAssembly.
 * [Astro](/languages/wasm/astro): a fun safe language for rapid prototyping and high performance applications.
-* [Ballerina](/languages/jvm/ballerina) - [Main repository](https://github.com/ballerina-platform/nballerina/tree/wasm) - Ballerina-to-wasm compiler 
+* [Ballerina](/languages/jvm/ballerina) 
 * [BASIC](/languages/basic)
-* Berry: an ultra-lightweight dynamically typed embedded scripting language. It's designed for lower-performance embedded devices, fast, multi-paradigm, simple, flexible, and has very small RAM footprint.
-
-    * [berry](https://github.com/berry-lang/berry) - main repo.
-    * [berry_web](https://github.com/berry-lang/berry_web/) - Berry web playground. The project contains port of the Berry to Emscripten platform.
-
+* [Berry](/languages/berry): an ultra-lightweight dynamically typed embedded scripting language. It's designed for lower-performance embedded devices, fast, multi-paradigm, simple, flexible, and has very small RAM footprint.
 * [Brainfuck](/languages/esoteric/brainfuck)
 * [C](/languages/c)
 * [c4wa](https://github.com/kign/c4wa)
@@ -93,11 +84,6 @@ Features:
 * [Cyber](/languages/cyber) - Fast, efficient, and concurrent scripting. Dynamic and gradual types; Concurrency with fibers; Multithreaded; Memory safe; FFI and Embeddable.
 * [D](/languages/d) - D is a general-purpose programming language with static typing, systems-level access, and C-like syntax.
 * [Dart](/languages/dart) - An approachable, portable, and productive language for high-quality apps on any platform
-
-    * [sdk](https://github.com/dart-lang/sdk) - The Dart SDK, including the VM, dart2js, core libraries, and more.
-    * [language](https://github.com/dart-lang/language) - Design of the Dart language
-    * [Use via Flutter](https://flutter.dev/wasm) - How to compile Dart to WebAssembly for a Flutter Web application
-
 * [Duktape](/languages/ecmascript): embeddable JS engine capable of being run in the browser via WebAssembly
 * [Eclair](/languages/eclair): Eclair is a minimal, fast Datalog implementation that compiles to LLVM IR and WASM.
 * [Eel](/languages/eel)
@@ -139,82 +125,13 @@ Features:
 * [Poetry](/languages/wasm/poetry) - Poetry is a poetically dynamic and simple programming language that compiles to WebAssembly. It has a minimalisting syntax akin to CoffeeScript and gives you full control over wasm imports and exports.
 * [Python](/languages/python)
 * [Prolog](/languages/prolog) - Prolog is a general-purpose logic programming language associated with artificial intelligence and computational linguistics. Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is intended primarily as a declarative programming language: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations.
-
---------------------
-
-### <a name="r"></a>R <sup>[top⇈](#contents)</sup>
-
-> R is a language and environment for statistical computing and graphics.
-
-* [WebR](https://github.com/georgestagg/webR) - R in the Browser. You can try it out [here](https://webr.r-wasm.org/latest/)
-
---------------------
-
-### <a name="rebol"></a>Rebol <sup>[top⇈](#contents)</sup>
-
-> Homoiconic ("data is code" and vice-versa) dynamic programming language and data-format (representing data and metadata) language.
-> 
-> By its author, "Rebol rebels against the idea that modern software must be large and complex".
-
-* [Ren-C](https://github.com/metaeducation/ren-c) - Ren-C is a deeply redesigned derivative of the Rebol 3 codebase. Features "user-friendly" API for C and JavaScript. It has WASM-powered [Ren-C's replpad-js](https://github.com/hostilefork/replpad-js) - interactive Web Console for Rebol language (Ren-C branch). 
-* [Rye](https://github.com/refaktor/rye) - Rye is a high level, dynamic programming language based on ideas from Rebol, flavored by Factor, *nix shells and Golang. Implemented in Golang. You can try it out [here](https://ryelang.org/).
-
---------------------
-
-### <a name="rego"></a>Rego <sup>[top⇈](#contents)</sup>
-
-> Open Policy Agent (OPA) is an open source, general-purpose policy engine that unifies policy enforcement across the stack. Rego is a high-level declarative policy language purpose-built for expressing policies over complex hierarchical data structures.
-
-* [OPA-Wasm](https://github.com/open-policy-agent/opa/tree/main/wasm) - Compilation and evaluation of Rego policies using Wasm.
-* [npm-opa-wasm](https://github.com/open-policy-agent/npm-opa-wasm) - NPM module providing an SDK for using Wasm compiled OPA policies.
-* [rust-opa-wasm](https://github.com/matrix-org/rust-opa-wasm) - A crate to use OPA policies compiled to Wasm.
-* [dotnet-opa-wasm](https://github.com/christophwille/dotnet-opa-wasm) - Call OPA policies in Wasm from C# .NET Core.
-* [python-opa-wasm](https://github.com/a2d24/python-opa-wasm) - OPA Wasm SDK for Python.
-* [java-opa-wasm](https://github.com/sangkeon/java-opa-wasm) - OPA Wasm SDK for Java.
-
---------------------
-
-### <a name="ring"></a>Ring <sup>[top⇈](#contents)</sup>
-
-> Ring is a Simple, Small, and Flexible practical general-purpose multi-paradigm language. The supported programming paradigms are Imperative, Procedural, Object-Oriented, Functional, Metaprogramming, Declarative programming using nested structures, and Natural programming.
-> The language is portable (MS-DOS, Windows, Linux, macOS, Android, WebAssembly, etc.) and can be used to create Console, GUI, Web, Games, and Mobile applications.
-* [Ring](https://github.com/ring-lang/ring) - main repository. You can try it out [here](https://tio.run/#ring).
-* [WASM apps in Ring](https://ring-lang.github.io/doc1.19/qtwebassembly.html#online-applications) - list of demo web applications implemented in Ring.
-
---------------------
-
-### <a name="roc"></a>Roc <sup>[top⇈](#contents)</sup>
-
-> A fast, friendly, functional language. Compiles to machine code or WASM. Roc is a direct descendant of the Elm programming language.
-
-* [roc](https://github.com/roc-lang/roc) - main repository. You can try it out [here](https://www.roc-lang.org/#try-roc).
-* [basic-cli](https://github.com/roc-lang/basic-cli) - a Roc [platform](https://github.com/roc-lang/roc/wiki/Roc-concepts-explained#platform) to work with files, commands, HTTP, TCP, command line arguments, etc.
-* [basic-webserver](https://github.com/roc-lang/basic-webserver) - a basic Web Server for Roc.
-
---------------------
-
-### <a name="ruby"></a>Ruby <sup>[top⇈](#contents)</sup>
-> Ruby is an open source interpreted high-level programming language for general-purpose programming. Created by Matz. Ruby has a design philosophy that emphasizes code readability, notably using as few sigils (special chars`:.{}%[]&=>;`) as possible.
-* [Wruby](https://github.com/pannous/wruby) Web ruby - a port of minimal ruby (mruby).
-* [run.rb](https://github.com/jasoncharnes/run.rb) run.rb - allows you to run Ruby code in the browser
-* [Artichoke](https://github.com/artichoke/artichoke/blob/f8e9881403a50c3ba7e2b1ffc16f205c0b5e0255/VISION.md#design-and-goals) - a Ruby implementation written in Rust and Ruby. You can try it out here: https://artichoke.run
-* [ruby.wasm](https://github.com/ruby/ruby.wasm/) - a collection of "official" WebAssembly ports of the CRuby. You can
-  try it out [here](https://try.ruby-lang.org/playground/#code=puts+RUBY_DESCRIPTION&engine=cruby-3.2.0)
-* [rlang](https://github.com/ljulliar/rlang) Rlang - a (subset of) Ruby to WebAssembly compiler
-* [cry-wasm](https://github.com/kojix2/cry-wasm) - speeds up Ruby code using Crystal. By applying simple type restrictions to Ruby code, convert it to Crystal code, compile it to WebAssembly, and call it with Wasmer or Wasmtime.
-* [Ruvy](https://github.com/Shopify/ruvy) - toolchain for bundling ruby.wasm pre-initialized and bundled with Ruby code
-* [WebAssembly Language Runtimes](https://github.com/vmware-labs/webassembly-language-runtimes) - up-to-date MRI Ruby prebuilt for WASI
-
---------------------
-
-### <a name="rust"></a>Rust <sup>[top⇈](#contents)</sup>
-> Rust is a systems programming language sponsored by Mozilla Research, which describes it as a "safe, concurrent, practical language,"supporting functional and imperative-procedural paradigms. Rust is syntactically similar to C++, but its designers intend it to provide better memory safety while maintaining performance.
-* [Rust `wasm32-unknown-unknown` target](https://www.hellorust.com/setup/wasm-target/) - Rust compiler backend for WebAssembly (without the need for Emscripten).
-* [Wargo](https://github.com/lord/wargo) - a simple npm package that makes compiling Rust to WebAssembly easy on macOS or Linux.
-* [RustWasmLoader](https://github.com/ianjsikes/rust-wasm-loader) - A simple Webpack loader that shells out to cargo to build a Rust project targeting WebAssembly.
-* [CargoWeb](https://github.com/koute/cargo-web) - This cargo subcommand aims to make it easy and convenient to build, develop and deploy client-side Web applications written in Rust.
-* [Wasm-Bindgen](https://github.com/rustwasm/wasm-bindgen) - A library and a CLI for Rust that facilitate high-level interactions between wasm modules and JavaScript.
-* [Woz](https://github.com/alexkehayias/woz) - Woz is a WebAssembly progressive web app (PWA) toolchain for building and deploying performant mobile apps with Rust. Distributing your app is as simple as sharing a hyperlink.
+* [R](/languages/r) - R is a language and environment for statistical computing and graphics.
+* [Rebol](/languages/rebol) - Homoiconic ("data is code" and vice-versa) dynamic programming language and data-format (representing data and metadata) language.
+* [Rego](/languages/rego) - Open Policy Agent (OPA) is an open source, general-purpose policy engine that unifies policy enforcement across the stack. Rego is a high-level declarative policy language purpose-built for expressing policies over complex hierarchical data structures.
+* [Ring](/languages/ring) - Ring is a Simple, Small, and Flexible practical general-purpose multi-paradigm language. The supported programming paradigms are Imperative, Procedural, Object-Oriented, Functional, Metaprogramming, Declarative programming using nested structures, and Natural programming.
+* [Roc](/languages/roc) - A fast, friendly, functional language. Compiles to machine code or WASM.
+* [Ruby](/languages/ruby) - Ruby is an open source interpreted high-level programming language for general-purpose programming. Created by Matz. Ruby has a design philosophy that emphasizes code readability, notably using as few sigils (special chars`:.{}%[]&=>;`) as possible.
+* [Rust](/languages/rust) - Rust is a systems programming language sponsored by Mozilla Research, which describes it as a "safe, concurrent, practical language,"supporting functional and imperative-procedural paradigms. Rust is syntactically similar to C++, but its designers intend it to provide better memory safety while maintaining performance.
 
 --------------------
 
