@@ -18,7 +18,7 @@ Numerous languages seek to supplant or replace C as the ubiquitous system langua
 * [gcc](https://gcc.gnu.org/projects/cxx-status.html)
 * [lcc](https://drh.github.io/lcc/) ([Source](https://github.com/drh/lcc)): A retargetable C compiler
 * [OpenWatcom](http://www.openwatcom.org/)
-* [TinyC](https://bellard.org/tcc/): [Website](http://savannah.nongnu.org/projects/tinycc) and [Git repo](https://repo.or.cz/w/tinycc.git) | [Single-page](http://www.iro.umontreal.ca/~felipe/IFT2030-Automne2002/Complements/tinyc.c)
+* [TinyC](https://bellard.org/tcc/): [Website](http://savannah.nongnu.org/projects/tinycc) | [Git repo](https://repo.or.cz/w/tinycc.git) | [Single-page](http://www.iro.umontreal.ca/~felipe/IFT2030-Automne2002/Complements/tinyc.c) 
 * [PicoC](https://github.com/zsaleeba/picoc): Statically typed. Interprets a subset of C.
 * [SmallC](http://www.bloodshed.net/downloads/smallc22.zip): Small C compiler written by J. E. Hendrix. C source code included.
 * [Djgpp](http://www.delorie.com/djgpp/) : Free compiler for c, c++, forth, pascal and more including C sources.
