@@ -1,5 +1,5 @@
 title=Conan
-tags=tool, native
+tags=tool, native, build
 summary=C++ package manager
 ~~~~~~
 

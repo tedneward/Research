@@ -1,5 +1,5 @@
 title=Crab
-tags=tool, native, llvm
+tags=tool, native, llvm, static analysis
 summary=A Language-Agnostic Library for Static Analysis
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=Clover
-tags=tool, jvm, metrics
+tags=tool, jvm, metrics, static analysis
 summary=Atlassian's open-sourced static analysis tool.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=Co
-tags=language, parsing, haskell, concurrency
+tags=language, langdev, parsing, haskell, concurrency
 summary=Let’s explore some of these concepts in detail by implementing a programming language with support for coroutines and Go-style channels.
 ~~~~~~
 

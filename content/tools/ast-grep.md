@@ -1,5 +1,5 @@
 title=AST-grep
-tags=tool, language, library
+tags=tool, language, library, static analysis
 summary=A code tool for structural search and replace.
 ~~~~~~
 

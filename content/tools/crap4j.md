@@ -1,5 +1,5 @@
 title=Crap4j
-tags=tool, architecture, jvm, metrics
+tags=tool, architecture, jvm, metrics, static analysis
 summary=A Java implementation of the CRAP (Change Risk Anti-Patterns) software metric.
 ~~~~~~
 

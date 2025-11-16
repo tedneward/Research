@@ -1,5 +1,5 @@
 title=Cppcheck
-tags=tool, native
+tags=tool, native, static analysis
 summary=A tool for static C/C++ code analysis
 ~~~~~~
 

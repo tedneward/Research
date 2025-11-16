@@ -3,7 +3,11 @@ tags=tool, native, windows, macos, linux, ios, android
 summary=A C/C++ (and other languages) compiler toolchain. g++, gcc, objdump, nm
 ~~~~~~
 
-[Static analyzer options](./static-analyzer.html)
+[Website](https://gcc.gnu.org/)
+
+[C++ Status](https://gcc.gnu.org/projects/cxx-status.html)
+
+[Static analyzer options](/tools/gcc/static-analyzer)
 
 [GCC Front-end HOWTO](https://tldp.org/HOWTO/GCC-Frontend-HOWTO.html): How to build a GCC front-end (so GCC can take care of the rest)
 

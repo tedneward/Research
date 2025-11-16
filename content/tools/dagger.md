@@ -6,6 +6,7 @@ summary=A portable devkit for CI/CD pipelines.
 [Website](https://dagger.io/) | [Source](https://github.com/dagger/dagger)
 
 Features:
+
 * Use [CUE](/languages/cuelang) (a config language), not Yaml
 * CUE is all about actions
 * #Dagger helps create custom actions in any language
@@ -14,6 +15,7 @@ Features:
 * Run Dagger pipelines on any Docker compatible runtimes
 
 Run sample TODO app
+
 * Clone & run the following
     ```
     git clone https://github.com/dagger/dagger

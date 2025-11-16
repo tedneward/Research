@@ -1,5 +1,5 @@
 title=Compiler Explorer (Godbolt)
-tags=tool, language development, educational
+tags=tool, langdev, educational
 summary=Run compilers interactively from your web browser and interact with the assembly.
 ~~~~~~
 

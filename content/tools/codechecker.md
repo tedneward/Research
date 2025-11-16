@@ -1,5 +1,5 @@
 title=CodeChecker
-tags=tool, native, clang
+tags=tool, native, clang, static analysis
 summary=An analyzer tooling, defect database and viewer extension for the Clang Static Analyzer and Clang Tidy
 ~~~~~~
 
