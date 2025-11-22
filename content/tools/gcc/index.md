@@ -3,7 +3,7 @@ tags=tool, native, windows, macos, linux, ios, android
 summary=A C/C++ (and other languages) compiler toolchain. g++, gcc, objdump, nm
 ~~~~~~
 
-[Website](https://gcc.gnu.org/)
+[Website](https://gcc.gnu.org/) | [An Introduction to GCC](https://web.archive.org/web/20170326232435/http://www.network-theory.co.uk/docs/gccintro/index.html) - Brian Gough
 
 [C++ Status](https://gcc.gnu.org/projects/cxx-status.html)
 

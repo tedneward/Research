@@ -5,6 +5,8 @@ summary=The original, "standard", C-based implementation of the Python language/
 
 [Source](https://github.com/python/cpython)
 
+[CPython Internals](https://devguide.python.org/internals/exploring/)
+
 ## Perf
 
 [memray](https://github.com/bloomberg/memray): Memray is a memory profiler for Python. It can track memory allocations in Python code, in native extension modules, and in the Python interpreter itself. It can generate several different types of reports to help you analyze the captured memory usage data. While commonly used as a CLI tool, it can also be used as a library to perform more fine-grained profiling tasks.

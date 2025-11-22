@@ -10,6 +10,8 @@ Programming languages are (generally) human-friendly means of getting a computer
 
 [Every simple language will eventually end up Turing complete](https://solutionspace.blog/2021/12/04/every-simple-language-will-eventually-end-up-turing-complete/)
 
+## Core concepts
+
 ["The 7 ur-languages"](https://madhadron.com/programming/seven_ur_languages.html): ALGOL, Lisp, ML, Self, Forth, APL, Prolog
 
 * ***ALGOL***
@@ -133,6 +135,9 @@ Programming languages are (generally) human-friendly means of getting a computer
 
 ## Concepts
 
+* [Concepts of Programming Languages](https://www.youtube.com/playlist?list=PLgybIyDbLkEQUTX00Mazlcb7KhX1UzpXs) (video)
+* [Concepts of Programming Languages](/languages/concepts/Concepts_of_Programming_Languages.pdf) (PDF)
+
 [Multi-paradigm design](/languages/concepts/multi-paradigm-design): The idea that a languaeg can offer multiple paradigms, simultaneously.
 
 [Aspect-Oriented](/languages/concepts/aspect-oriented): Attempting to capture as first-class citizens the code that "cuts across the inheritance tree" of object-oriented languages.
@@ -158,13 +163,11 @@ Programming languages are (generally) human-friendly means of getting a computer
 
 [Phi-Calculus](/languages/concepts/phi-calculus.pdf)
 
-Miscellaneous
+## Miscellaneous
 
-- [Syntax across languages](http://rigaux.org/language-study/syntax-across-languages.html): One large page of comprehensive syntax across languages
-- [Hyperpolyglot](https://hyperpolyglot.org/): commonly used features in a side-by-side format
 - [Concurrency is not Parallelism](https://vimeo.com/49718712)
 - ["Dimensional Analysis in Programming Languages: A survey of existing designs/implementations for automatic conversion and verification of units of measurement in computer programs"](https://gmpreussner.com/research/dimensional-analysis-in-programming-languages)
-- [CS 7194 - Great works in Programming Languages](https://www.cs.cornell.edu/courses/cs7194/2019sp/): A course on examining the "great works" (written) about programming languages
+- [Hyperpolyglot](https://hyperpolyglot.org/): commonly used features in a side-by-side format
 - [Great Works in Programming Languages](https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml) Collected by Benjamin C. Pierce
 - [Flow based Programming](http://jpaulmorrison.com/fbp/) - J Paul Morrison
 - [Making Sense of Stream Processing](https://assets.confluent.io/m/2a60fabedb2dfbb1/original/20190307-EB-Making_Sense_of_Stream_Processing_Confluent.pdf) - Martin Kleppmann (PDF)
