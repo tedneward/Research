@@ -3,7 +3,7 @@ tags=reading, language, antlr, ruby, python, language development
 summary=Notes on the book "Create Your Own Programming Language"
 ~~~~~~
 
-[PDF](../CYOPL.pdf)
+[PDF](/langdev/CYOPL.pdf)
 
 Builds out Awesome:
 

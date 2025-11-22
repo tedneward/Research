@@ -126,6 +126,12 @@ Note that while these terms usually are applied most directly to programming lan
 
 ## Reading
 
+* **Type systems and type safety**
+
+	* [Luca Cardelli: Type Systems](http://lucacardelli.name/Papers/TypeSystems.pdf)
+	* [Type Safety in Three Easy Lemmas](https://siek.blogspot.com/2013/05/type-safety-in-three-easy-lemmas.html)
+	* [Type Systems](https://www.cl.cam.ac.uk/teaching/1819/Types/materials.html) ([Handout](https://www.cl.cam.ac.uk/teaching/1819/Types/handout.pdf)) - Neel Krishnaswami
+
 * [A large scale study of programming languages and code quality in github](https://dl.acm.org/doi/10.1145/2635868.2635922): "What is the effect of programming languages on software quality? This question has been a topic of much debate for a very long time. In this study, we gather a very large data set from GitHub (729 projects, 80 Million SLOC, 29,000 authors, 1.5 million commits, in 17 languages) in an attempt to shed some empirical light on this question. This reasonably large sample size allows us to use a mixed-methods approach, combining multiple regression modeling with visualization and text analytics, to study the effect of language features such as static v.s. dynamic typing, strong v.s. weak typing on software quality. By triangulating findings from different methods, and controlling for confounding effects such as team size, project size, and project history, we report that language design does have a significant, but modest effect on software quality. Most notably, it does appear that strong typing is modestly better than weak typing, and among functional languages, static typing is also somewhat better than dynamic typing. We also find that functional languages are somewhat better than procedural languages. It is worth noting that these modest effects arising from language design are overwhelmingly dominated by the process factors such as project size, team size, and commit size. However, we hasten to caution the reader that even these modest effects might quite possibly be due to other, intangible process factors, e.g., the preference of certain personality types for functional, static and strongly typed languages." 
 
 * [Type Theory for All](https://www.typetheoryforall.com/): podcasts about type theory and applications
@@ -134,35 +140,15 @@ Note that while these terms usually are applied most directly to programming lan
 
 * ["How to Write a type checker/type inferrer with good error message"](https://lambdaland.org/posts/2022-07-27_how_to_write_a_type_checker/) ([Source](https://git.sr.ht/~ashton314/type-error-research))
 
-* Creating the Bolt Compiler: [Part 4: An accessible introduction to type theory and implementing a type-checker](https://mukulrathi.com/create-your-own-programming-language/intro-to-type-checking/): This post is split into 2 halves: the first half explains the theory behind type-checkers, and the second half gives you a detailed deep-dive into how it’s implemented in our compiler for our language Bolt. Even if you aren’t interested in writing your own language, the first half is useful if you’ve ever heard about type systems and want to know how they even work!
-
 * [Type Theory and Functional Programming](https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/) | [Crash Course on Notation in Programming Language Theory](http://siek.blogspot.com/2012/07/crash-course-on-notation-in-programming.html), Jeremy G. Siek; LambdaConf 2018 [Part 1](https://www.youtube.com/watch?v=vU3caZPtT2I), [Part 2](https://www.youtube.com/watch?v=MhuK_aepu1Y) [Slides](https://www.dropbox.com/s/joaq7m9v75blrw5/pl-notation-lambdaconf-2018.pdf?dl=1)
 
 * [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl/): TAPL (rhymes with “apple”), as it’s better known, has a solid introduction to formal semantics in the first few chapters and would be my pick for a starting point on formal semantics. The remainder of the book deals with type systems, which form only one part of programming languages, but it’s the canonical reference if you’re looking to learn about types.
 
 * ["Building a Typechecker from scratch"](http://dmitrysoshnikov.com/courses/typechecker/): Untyped programs are often prone to errors, runtime exceptions, and can make debugging much harder. That’s why many production languages implement a static typechecker — an extra module, which is aimed to increase programs safety and make development simpler.
 
-* [Basic Type checking](./BasicTypechecking.pdf) (PDF)
+* [Basic Type checking](/langdev/BasicTypechecking.pdf) (PDF)
 
 * [Thoughts on ad-hoc polymorphism](https://alonsozamorano.me/thoughts-on-ad-hoc-polymorphism/)
-
-* Subtype Inference by Example: 
-
-	* [Part 1: Introducing CubiML](https://blog.polybdenum.com/2020/07/04/subtype-inference-by-example-part-1-introducing-cubiml.html)
-	* [Part 2: Parsing and Biunification](https://blog.polybdenum.com/2020/07/11/subtype-inference-by-example-part-2-parsing-and-biunification.html)
-	* [Part 3: The Typechecker Frontend](https://blog.polybdenum.com/2020/07/18/subtype-inference-by-example-part-3-the-typechecker-frontend.html)
-	* [Part 4: The Typechecker Core](https://blog.polybdenum.com/2020/07/25/subtype-inference-by-example-part-4-the-typechecker-core.html)
-	* [Part 5: Incremental Reachability](https://blog.polybdenum.com/2020/08/01/subtype-inference-by-example-part-5-incremental-reachability.html)
-	* [Part 6: Numeric Types and Operators](https://blog.polybdenum.com/2020/08/08/subtype-inference-by-example-part-6-numeric-types-and-operators.html)
-	* [Part 7: Spanned Error Messages](https://blog.polybdenum.com/2020/08/15/subtype-inference-by-example-part-7-spanned-error-messages.html)
-	* [Part 8: Mutability](https://blog.polybdenum.com/2020/08/22/subtype-inference-by-example-part-8-mutability.html)
-	* [Part 9: Match Wildcards, Record Extension, and Row Polymorphism](https://blog.polybdenum.com/2020/08/29/subtype-inference-by-example-part-9-nonexhaustive-matching-record-extensions-and-row-polymorphism.html)
-	* [Part 10: Let Polymorphism](https://blog.polybdenum.com/2020/09/05/subtype-inference-by-example-part-10-let-polymorphism.html)
-	* [Part 11: The Value Restriction and Polymorphic Recursion](https://blog.polybdenum.com/2020/09/19/subtype-inference-by-example-part-11-the-value-restriction.html)
-	* [Part 12: Flow Typing and Mixed Comparison Operators](https://blog.polybdenum.com/2020/09/26/subtype-inference-by-example-part-12-flow-typing-and-mixed-comparison-operators.html)
-	* [Part 13: Conditional Flow Constraints, Presence Polymorphism, and Type Level Computation](https://blog.polybdenum.com/2020/10/03/subtype-inference-by-example-part-13-conditional-flow-types-and-type-level-computation.html)
-	* [Part 14: Type Annotations -- what are they good for?](https://blog.polybdenum.com/2020/10/10/subtype-inference-by-example-part-14-type-annotation.html)
-	* [Part 15: Monomorphic Type Annotations](https://blog.polybdenum.com/2020/10/17/subtype-inference-by-example-part-15-type-annotations.html)
 
 * [What are GADTs (generic abstract data types) and why do they make type inference sad?](https://blog.polybdenum.com/2024/03/03/what-are-gadts-and-why-do-they-make-type-inference-sad.html)
 
@@ -199,6 +185,10 @@ Note that while these terms usually are applied most directly to programming lan
 * ["Implementing Type Systems with Macros"](https://lambdaland.org/posts/2023-08-14_types_with_macros/), which works off of...
 
 * ["Type Systems as Macros"](https://doi.org/10.1145/3009837.3009886) Cited as Chang, S., Knauth, A. and Greenman, B. 2017. Type systems as macros. Proceedings of the 44th ACM SIGPLAN Symposium on Principles of Programming Languages - POPL 2017 (Paris, France, 2017), 694–705.
+
+* Thinking with Types: Type-Level Programming in Haskell - [Leanpub](https://leanpub.com/thinking-with-types)
+* Type Theory and Formal Proof: An Introduction - [Goodreads](https://www.goodreads.com/book/show/21442441-type-theory-and-formal-proof)
+* Type Theory and Functional Programming - [Goodreads](https://www.goodreads.com/book/show/11364683-type-theory-and-functional-programming)
 
 ## Research
 

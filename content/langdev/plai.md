@@ -23,3 +23,4 @@ summary=Notes on the book.
 16. Checking Program Invariants Dynamically: Contracts
 17. Alternate Application Semantics
 
+

@@ -3,66 +3,28 @@ tags=language development,place,language
 summary=A collection of links to (mostly academic) courses on how to build programming languages.
 ~~~~~~
 
-- [301 - Organization of Programming Languages](https://www.youtube.com/watch?v=j2pYeKjq_60&list=PLB1enDd0fV0i5SWGe-A1YjmD8MmlGavIj&ab_channel=JayMcCarthy)
-- [Accelerated 1](https://course.ccs.neu.edu/cs2500accelf17/index.html)
-- [All the courses Matthias Felleisen teach](https://felleisen.org/matthias/teaching.html)
-- [Benjamin Pierce - Software foundations](https://www.youtube.com/playlist?list=PLGCr8P_YncjUT7gXUVJWSoefQ40gTOz89)
-- [CIS 341 - Compilers](https://www.seas.upenn.edu/~cis3410/20sp/)
-- [CIS352 - Principles of Programming Languages](https://www.youtube.com/watch?v=2jrwXpUZW7k&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&ab_channel=KristopherMicinski)
-- [CMSC330 - Organization of Programming Languages](https://www.cs.umd.edu/class/spring2022/cmsc330/#schedule)
-- [CMSC 430: Design and Implementation of Programming Languages](https://www.youtube.com/watch?v=KTWq1XAfuMQ&list=PLsg0tbEwZlcz0Xzv1rACy7xcQZiBcQ_iE&ab_channel=cmsc430)
-- [CMU - CS6120 - Advanced Compilers](https://www.cs.cornell.edu/courses/cs6120/2022sp/lesson)
-- [Compilers — Stanford](https://online.stanford.edu/courses/soe-ycscs1-compilers)
-- [Compilers Design Recipe](https://soft.vub.ac.be/compilers/book_sec_recipe.html)
-- [Compilers: Theory and Practice — Udacity](https://www.udacity.com/course/compilers-theory-and-practice--ud168)
-- [Concepts in Programming Languages](https://www.cl.cam.ac.uk/teaching/1617/ConceptsPL/materials.html)
-- [COP4020 - Programming Languages I](https://www.cs.ucf.edu/~leavens/COP4020/resources.shtml)
-- [COS326 - Functional Programming](https://mediacentral.princeton.edu/channel/COS+326+Functional+Programming/174748251)
-- [CS242: Programming Languages, Fall 2019](https://stanford-cs242.github.io/f19)
-- [CS019 - Accelerated Introduction to Computer Science](https://cs.brown.edu/courses/cs019/2018/index.html)
-- [CS164 Programming Languages and Compilers](https://www.bilibili.com/video/BV1NW411b79N?p=1)
-- [CS242 - Programming Languages - Stanford](https://web.stanford.edu/class/cs242/coursework.html)
-- [CS520 Theories of Programming Languages — KAIST](https://www.youtube.com/playlist?list=PLvV9DPeJV9xx0NegrG4gNu8WXSXibDICu)
-- [CS2500 - Fundamentals of Computer Science](https://www.ccs.neu.edu/home/nderbinsky/fundies1/m1.html)
-- [CS6120: Advanced Compilers: The Self-Guided Online Course](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/): The work consists of reading papers and open-source hacking tasks, which use LLVM and an educational IR invented just for this class.
-- [CSCI1730 - Programming Languages - Application and Interpretation](https://cs.brown.edu/courses/cs173/2012/Videos)
-- [CSE 131 - Compiler Construction](https://podcast.ucsd.edu/watch/SP17/cse131_sp17/23)
-- [CSE230 - Principles/Programming Languages](https://podcast.ucsd.edu/watch/fa18/cse230_b00/24)
-- [Essentials of Programming Languages](http://proglang.informatik.uni-freiburg.de/teaching/proglang/2020ws)
-- [Fundamentals 1](https://course.ccs.neu.edu/cs2500f16/index.html)
-- [Fundamentals 2](https://course.ccs.neu.edu/cs2510)
-- [Hack Your Own Language](https://felleisen.org/matthias/4620-s18/index.html)
-- [History of Programming Languages](https://felleisen.org/matthias/7480-s17/index.html)
-- [Indiana University Compiler Course](https://iu.mediaspace.kaltura.com/media/Compiler+Course/1_hwlujpzd)
-- [Introduction to Compiler Construction](https://www.students.cs.ubc.ca/~cs-411/2020w2/index.html)
-- [Jay McCarthy - 406 Compiler Construction](https://youtu.be/4tUj8BuC0qM)
-- [LINFO1131 - Advanced programming language concepts](https://www.youtube.com/playlist?list=PLw454N-VXALROTZ_phkQ-D4QDU5w3x4R8)
-- [Matthias Felleisen - Intensive Principles of Programming Languages](https://felleisen.org/matthias/7400-s14/Problem_Sets.html)
-- [Matthias Felleisen - Principles of Programming Languages](https://felleisen.org/matthias/4400-s20/lectures.html) - in Racket
-- [Principles of Compiler Design](https://www.bilibili.com/video/BV1qt41167uU?p=1)
-- [Programming Language Foundations in Agda](https://cs.uwaterloo.ca/~plragde/747/notes/index.html)
-- [Programming Languages and Logic](https://www.cs.cornell.edu/courses/cs4110/2021fa)
-- [Programming Languages Course given by DCC-UFMG](https://hanielb.github.io/2021.2-lp)- text:["Modern Programming Languages: A Practical Introduction"](http://www.webber-labs.com/mpl/)
-- [Programming Languages Ⅰ](https://www.coursera.org/learn/programming-languages-1)
-- [Programming Languages Ⅱ](https://www.coursera.org/learn/programming-languages2)
-- [Theory of Programming Language (Graduate course, Spr 2020)](http://staff.ustc.edu.cn/~yuzhang/tpl/2020s/index.html)
+## Uncategorized
 
-## Learning Paths
+- [Nanopass](https://legacy.cs.indiana.edu/~dyb/pubs/nano-jfp.pdf): A framework for compiler education | [Source](https://github.com/nanopass/) in Racket or Scheme
+- Reference N19 compiler implementation (x86 only for simplicity) - https://mid.net.ua/git/mid/nctref 
 
-- [Advanced Programming Languages](http://di002.edv.uniovi.es/~labra/APL.html)
-- [Compiler Engineer Path](http://dmitrysoshnikov.com/courses/compiler-engineer-path)
-- [Learn Type Theory](https://github.com/jozefg/learn-tt)
-- [Programming Language Theory Path](https://steshaw.org/plt)
-- [So You Want to Be a (Compiler) Wizard](https://belkadan.com/blog/2016/05/So-You-Want-To-Be-A-Compiler-Wizard)
+## Teaching
 
-## Teaching/ExampleImplementations
+- [FreeCompilerCamp.org](http://freecompilercamp.org/): Online Training for Extending Compilers [Github](https://github.com/freeCompilerCamp):
+    
+    - Clang/LLVM Tutorials - http://freecompilercamp.org/clang-llvm-landing - Alok Mishra, Anjia Wang, Chunhua Liao, Yonghong Yan, Barbara Chapman - https://sc19.supercomputing.org/proceedings/tech_poster/tech_poster_pages/rpost138.html
+    - FreeCompilerCamp.org: Training for OpenMP Compiler Development from Cloud - https://sc19.supercomputing.org/proceedings/workshops/workshop_pages/ws_bphpcte103.html
 
-* [Build Your Own Programming Language](https://github.com/PacktPublishing/Build-Your-Own-Programming-Language) (source)
-* [Crafting Interpreters](http://craftinginterpreters.com/) by Bob Nystrom ([Github](https://github.com/munificent/craftinginterpreters)): A neo-classic book, walking through the construction of an interpreted language.
+- [What do people mean when they say “transpiler”?](https://decomposition.al/blog/2017/07/30/what-do-people-mean-when-they-say-transpiler)
 
-    * ["My Experience Crafting an Interpreter with Rust"](https://ceronman.com/2021/07/22/my-experience-crafting-an-interpreter-with-rust/): Book material ported to Rust.
+## Tutorials/Walkthroughs
 
-* Creating the Bolt compiler (series):
+- [Build Your Own Programming Language](https://github.com/PacktPublishing/Build-Your-Own-Programming-Language) (source)
+- [How languages work #1: String interpolation](https://martin.janiczek.cz/2023/07/27/how-languages-work-1-string-interpolation.html)
+
+### Compilers
+
+- Creating the Bolt compiler (series):
 
     - [Source](https://github.com/mukul-rathi/bolt)
     - [Part 1: How I wrote my own "proper" programming language](https://mukulrathi.com/create-your-own-programming-language/intro-to-compiler/);
@@ -77,12 +39,46 @@ summary=A collection of links to (mostly academic) courses on how to build progr
     - [Part 10: Generics - adding polymorphism to Bolt](https://mukulrathi.com/create-your-own-programming-language/generics-parametric-polymorphism/);
     - [Part 11: Adding Inheritance and Method Overriding to Our Language](https://mukulrathi.com/create-your-own-programming-language/inheritance-method-overriding-vtable/);
 
-* [How to Compile Your Language](https://isuckatcs.github.io/how-to-compile-your-language/)
-* [Language Incubator](https://github.com/EarlGray/language-incubator): Repo of language experiments/explorations; "An incubator/sandbox for learning compilers, interpreters, code generation, virtual machines, assemblers, JITs, etc."
-* [Let's Build a Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/): Up to 19 parts up through 2020.
-* [mal](https://github.com/kanaka/mal) (Make A Lisp): Steps (and collection of implementations) to make your own Lisp.
-* [Nanopass](https://legacy.cs.indiana.edu/~dyb/pubs/nano-jfp.pdf): A framework for compiler education | [Source](https://github.com/nanopass/) in Racket or Scheme
-* Subtype Inference by Example (series):
+- [Implementing a Simple Compiler on 25 Lines of JavaScript](https://blog.mgechev.com/2017/09/16/developing-simple-interpreter-transpiler-compiler-tutorial)
+- [LLVM Tutorial: Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html)
+- [Let's build a compiler](https://generalproblem.net)
+- [Let’s Build a Compiler!](http://compilers.iecc.com/crenshaw/tutorfinal.pdf) - Jack W. Crenshaw
+- Let's make a Teeny Tiny compiler
+
+    - [Part 1](https://austinhenley.com/blog/teenytinycompiler1.html)
+    - [Part 2](https://austinhenley.com/blog/teenytinycompiler2.html)
+    - [Part 3](https://austinhenley.com/blog/teenytinycompiler3.html)
+
+- Let’s Build a Programming Language (Series):
+
+    - [Part 1](https://medium.com/hackernoon/lets-build-a-programming-language-2612349105c6)
+    - [Compilers and Interpreters](https://medium.com/hackernoon/compilers-and-interpreters-3e354a2e41cf)
+    - [Lexical Analysis](https://medium.com/hackernoon/lexical-analysis-861b8bfe4cb0)
+
+- Minsk: Immo Landwerth has done a collection of videos on building a language for the CLR platform in a live-streaming style: [Source](https://github.com/terrajobst/minsk):
+
+	* [Episode 1](https://www.youtube.com/watch?v=wgHIkdUQbp0&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y)
+	* [Episode 2](https://www.youtube.com/watch?v=3XM9vUGduhk&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=2)
+	* [Episode 3](https://www.youtube.com/watch?v=61dLQNgd9o8&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=3)
+	* [Episode 4](https://www.youtube.com/watch?v=xF-8rWeqV1A&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=4)
+	* [Episode 5](https://www.youtube.com/watch?v=EEzuO9XWmUY&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=5)
+	* [Episode 6](https://www.youtube.com/watch?v=EEzuO9XWmUY&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=6)
+	* [Episode 7](https://www.youtube.com/watch?v=SJE_gUnJl2Y&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=7)
+	* [Episode 8](https://www.youtube.com/watch?v=PfpayNvfu20&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=8)
+	* [Episode 9](https://www.youtube.com/watch?v=QwZuY1dExAc&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=9)
+	* [Episode 10](https://www.youtube.com/watch?v=QwZuY1dExAc&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=10)
+	* [Episode 11](https://www.youtube.com/watch?v=QwZuY1dExAc&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=11)
+	* [Episode 12](https://www.youtube.com/watch?v=psTZi6xpTlM&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=12)
+	* [Episode 13](https://www.youtube.com/watch?v=NvVc8erZpeI&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=13)
+	* [Episode 14](https://www.youtube.com/watch?v=NvVc8erZpeI&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=14)
+	* [Episode 15](https://www.youtube.com/watch?v=NvVc8erZpeI&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=15)
+	* [Episode 16](https://www.youtube.com/watch?v=Ecrv8sCYEbA&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=16)
+	* [Episode 17](https://www.youtube.com/watch?v=Ecrv8sCYEbA&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=17)
+	* [Episode 18](https://www.youtube.com/watch?v=Ecrv8sCYEbA&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=18)
+	* [Episode 19](https://www.youtube.com/watch?v=Ecrv8sCYEbA&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y&index=19)
+	* ... more are likely on the way
+
+- Subtype Inference by Example (series):
 
     - [Part 1: Introducing CubiML](https://blog.polybdenum.com/2020/07/04/subtype-inference-by-example-part-1-introducing-cubiml.html);
     - [Part 2: Parsing and Biunification](https://blog.polybdenum.com/2020/07/11/subtype-inference-by-example-part-2-parsing-and-biunification.html);
@@ -100,13 +96,49 @@ summary=A collection of links to (mostly academic) courses on how to build progr
     - [Part 14: Type Annotations— What are they good for?](https://blog.polybdenum.com/2020/10/10/subtype-inference-by-example-part-14-type-annotation.html);
     - [Part 15: Monomorphic Type Annotations](https://blog.polybdenum.com/2020/10/17/subtype-inference-by-example-part-15-type-annotations.html);
 
-* [Sudolang: A powerful programming language for LLMs](https://medium.com/javascript-scene/sudolang-a-powerful-pseudocode-programming-language-for-llms-d64d42aa719b)
-* [The Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler) (JS)
-* [TinyML: A tiny functional language interpreter](https://d3s.mff.cuni.cz/files/teaching/nprg077/02-tinyml.pdf) (Tomas Petricek)
-* [Write Yourself a Scheme in 48 Hours](https://upload.wikimedia.org/wikipedia/commons/a/aa/Write_Yourself_a_Scheme_in_48_Hours.pdf)
-* [Write Yourself a Scheme in 48 Hours using F#](https://write-yourself-a-scheme.pangwa.com/#/)
-* [X-expressions in XMLisp: S-expressions and Extensible Markup Language Unite](https://home.cs.colorado.edu/~ralex/papers/PDF/X-expressions.pdf): "XMLisp unites S-expressions with XML into X-expressions that unify the notions of data sharing with computation. Using a combination of the Meta Object Protocol (MOP), readers and printers, X-expressions uniquely integrate XML at a language, not API level, into Lisp in a way that could not be done with other programming languages."
+### Interpreters
 
+- [Building an Interpreter](https://www.iamtk.co/series/building-an-interpreter)
+- [Building an Interpreter from scratch](https://www.dmitrysoshnikov.education/p/essentials-of-interpretation)
+- [Cheaply writing a fast interpreter](https://www.youtube.com/watch?v=V8dnIw3amLA&ab_channel=PerformanceSummit)
+- [Compiling Lisp to bytecode](https://healeycodes.com/compiling-lisp-to-bytecode-and-running-it)
+- [Crafting an Interpreter](https://github.com/imteekay/crafting-an-interpreter)
+- [Crafting Interpreters](http://craftinginterpreters.com/) by Bob Nystrom ([Github](https://github.com/munificent/craftinginterpreters)): A neo-classic book, walking through the construction of an interpreted language, Lox:
+
+    * C++: [CppLox](https://github.com/the-lambda-way/CppLox)
+    * Rust: [rlox](https://github.com/cwbriones/rlox)
+    * Rust: ["My Experience Crafting an Interpreter with Rust"](https://ceronman.com/2021/07/22/my-experience-crafting-an-interpreter-with-rust/): Book material ported to Rust.
+    * Swift: [slox](https://github.com/alexito4/slox)
+
+- [Let's Build an Interpreter](https://github.com/hisystems/Interpreter/tree/master/Engine): 
+
+	* [Part 1](https://ruslanspivak.com/lsbasi-part1/)
+	* [Part 2](https://ruslanspivak.com/lsbasi-part2/)
+	* [Part 3](https://ruslanspivak.com/lsbasi-part3/)
+	* [Part 4](https://ruslanspivak.com/lsbasi-part4/)
+	* [Part 5](https://ruslanspivak.com/lsbasi-part5/)
+	* [Part 6](https://ruslanspivak.com/lsbasi-part6/)
+	* [Part 7](https://ruslanspivak.com/lsbasi-part7/)
+	* [Part 8](https://ruslanspivak.com/lsbasi-part8/)
+	* [Part 9](https://ruslanspivak.com/lsbasi-part9/)
+	* [Part 10](https://ruslanspivak.com/lsbasi-part10/)
+	* [Part 11](https://ruslanspivak.com/lsbasi-part11/)
+	* [Part 12](https://ruslanspivak.com/lsbasi-part12/)
+	* [Part 13](https://ruslanspivak.com/lsbasi-part13/)
+	* [Part 14](https://ruslanspivak.com/lsbasi-part14/)
+	* [Part 15](https://ruslanspivak.com/lsbasi-part15/)
+	* [Part 16](https://ruslanspivak.com/lsbasi-part16/)
+	* [Part 17](https://ruslanspivak.com/lsbasi-part17/)
+	* [Part 18](https://ruslanspivak.com/lsbasi-part18/)
+	* [Part 19](https://ruslanspivak.com/lsbasi-part19/)
+	* may be more...?
+
+- [LittleBasic](https://github.com/mateiw/littlebasic)
+- [Little lisp interpreter](https://maryrosecook.com/blog/post/little-lisp-interpreter)
+- [Little Lisp interpreter](https://www.recurse.com/blog/21-little-lisp-interpreter)
+- [mal](https://github.com/kanaka/mal) (Make A Lisp): Steps (and collection of implementations) to make your own Lisp.
+- [Write Yourself a Scheme in 48 Hours](https://upload.wikimedia.org/wikipedia/commons/a/aa/Write_Yourself_a_Scheme_in_48_Hours.pdf)
+- [Write Yourself a Scheme in 48 Hours using F#](https://write-yourself-a-scheme.pangwa.com/#/)
 
 ### Native/raw
 
@@ -114,13 +146,12 @@ summary=A collection of links to (mostly academic) courses on how to build progr
 * [Build your own Lisp](http://www.buildyourownlisp.com/contents) teaches C by building a Lisp.
 * [luax](https://github.com/morrow1nd/luax): Lua-like programming language for studying compiler and interpreter courses.
 * [Square](https://github.com/square-lang/Square): A tiny programming language under 200kb.
-* [Writer your own C compiler from scratch with Python](https://medium.com/@pasi_pyrro/how-to-write-your-own-c-compiler-from-scratch-with-python-90ab84ffe071)
+* [Write your own C compiler from scratch with Python](https://medium.com/@pasi_pyrro/how-to-write-your-own-c-compiler-from-scratch-with-python-90ab84ffe071)
 
 ### LLVM
 
 * [A Tutorial on How to Write a Compiler Using LLVM](https://tomassetti.me/a-tutorial-on-how-to-write-a-compiler-using-llvm/)
 * [Implementing a JIT Compiled Language with Haskell and LLVM](https://www.stephendiehl.com/llvm/)
-* [LLVM Tutorial: Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html)
 * [Writing your own toy language](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/) using flex, bison, LLVM; [code](https://github.com/lsegal/my_toy_compiler)
 * [Mapping high level constructs to LLVM IR](https://mapping-high-level-constructs-to-llvm-ir.readthedocs.io/en/latest/)
 * [Kaleidoscope AST](https://ubiquitydotnet.github.io/Llvm.NET/v8.0.1/articles/Samples/Kaleidoscope-AST.html)
@@ -150,12 +181,8 @@ summary=A collection of links to (mostly academic) courses on how to build progr
 ### Python
 
 - [ast](https://docs.python.org/3/library/ast.html): The Python official documentation of the `ast` module that ships as part of Python. "The ast module helps Python applications to process trees of the Python abstract syntax grammar. The abstract syntax itself might change with each Python release; this module helps to find out programmatically what the current grammar looks like. An abstract syntax tree can be generated by passing ast.PyCF_ONLY_AST as a flag to the compile() built-in function, or using the parse() helper provided in this module. The result will be a tree of objects whose classes all inherit from ast.AST. An abstract syntax tree can be compiled into a Python code object using the built-in compile() function."
-
 - [Code Transformer](https://github.com/danielzuegner/code-transformer): "The CodeTransformer is a Transformer based architecture that jointly learns from source code (Context) and parsed abstract syntax trees (AST; Structure). It does so by linking source code tokens to AST nodes and using pairwise distances (e.g., Shortest Paths, PPR) between the nodes to represent the AST. This combined representation is processed in the model by adding the contributions of each distance type to the raw self-attention score between two input tokens (See the paper for more details)."
 
-- [CPython Internals](https://devguide.python.org/internals/exploring/)
-
-- https://github.com/menezesd/epic-lang: interpreter for Python-like programming language with braces
 
 - [Green Tree Snakes: The Missing Python AST docs](https://greentreesnakes.readthedocs.io/en/latest/index.html). Points out a few projects using the Python AST:
 
@@ -171,6 +198,8 @@ summary=A collection of links to (mostly academic) courses on how to build progr
 - https://github.com/jszheng/py3antlr4book: Covert ANTLR4 book source code to Python3 version.
 
 - https://github.com/maxmalysh/tiny-py-interpreter: Python interpreter written in Python; uses ANTLR4
+
+- [A Python Interpreter Written in Python](http://aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
 
 - Compiler Hacking (using [Chocopy](https://chocopy.org/))
 
@@ -218,37 +247,49 @@ summary=A collection of links to (mostly academic) courses on how to build progr
 ### Learning/AI-related
 
 - https://openreview.net/pdf?id=Xh5eMZVONGF : LANGUAGE-AGNOSTIC REPRESENTATION LEARNING OF SOURCE CODE FROM STRUCTURE AND CONTEXT
+- [Sudolang: A powerful programming language for LLMs](https://medium.com/javascript-scene/sudolang-a-powerful-pseudocode-programming-language-for-llms-d64d42aa719b)
 
 ### Toy/experimental
 
+- [Language Incubator](https://github.com/EarlGray/language-incubator): Repo of language experiments/explorations; "An incubator/sandbox for learning compilers, interpreters, code generation, virtual machines, assemblers, JITs, etc."
+
 - [Bhai](https://github.com/DulLabs/bhai-lang): A toy programming language written in Typescript
+- [Blink](https://github.com/ftchirou/blink)
+- [Bob: A Tiny Object-Oriented Language](https://jacobfilipp.com/DrDobbs/articles/DDJ/1994/9415/9415e/9415e.htm)
 - [Dwarf](https://github.com/nicolasdilley/dwarf-interpreter): A very small scripting language written in Elixir.
+- [Epic](https://github.com/menezesd/epic-lang): interpreter for Python-like programming language with braces
 - [Eval](https://github.com/tevelee/Eval): a lightweight interpreter framework written in Swift, evaluating expressions at runtime.
-- https://github.com/yangtau/hedgehog: a toy programming language
-- https://github.com/mattgreen/hython: Haskell-powered Python 3 interpreter
 - Imp:
 
     - [IMP](https://github.com/jayconrod/imp-interpreter): A minimal interpreter for the toy language, IMP, used as an example for building interpreters.
-
     - https://github.com/nandor/utcn-imp: Imp Language and Interpreter
 
+- [Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/LangImpl01.html): the classic from the LLVM website
+- [Lepton](https://github.com/gingerBill/Lepton): Simple Programming Language
+- [Maverick](https://github.com/willianscsilva/interpreter)
+- [miniUni](https://github.com/gidra5/miniUni): A concurrent scripting language
+- [Pointless](https://ptls.dev/) ([Source](https://github.com/pointless-lang/pointless)): a scripting language for learning and fun.
+- [The Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler) (JS)
+- [TinyML: A tiny functional language interpreter](https://d3s.mff.cuni.cz/files/teaching/nprg077/02-tinyml.pdf) (Tomas Petricek)
+- [uza](https://github.com/msanlop/uza): a simple statically-typed programming language
+- [X-expressions in XMLisp: S-expressions and Extensible Markup Language Unite](https://home.cs.colorado.edu/~ralex/papers/PDF/X-expressions.pdf): "XMLisp unites S-expressions with XML into X-expressions that unify the notions of data sharing with computation. Using a combination of the Meta Object Protocol (MOP), readers and printers, X-expressions uniquely integrate XML at a language, not API level, into Lisp in a way that could not be done with other programming languages."
+
+- https://github.com/yangtau/hedgehog: a toy programming language
+- https://github.com/mattgreen/hython: Haskell-powered Python 3 interpreter
 - https://github.com/proglangclass/interpreter: Language built during the Programming Language Masterclass.
 - https://github.com/hisystems/Interpreter: Simple language interpreter written in pure C#.
 - https://github.com/jamesdhutton/Interpreter: Interpreter for a simple language
 - https://github.com/progschj/jtc: A toy programming language interpreter that has no dependencies and sits in a single C++ file. C++11 capable compilers should compile it without extra options other than enabling C++11.
-- [Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/LangImpl01.html): the classic from the LLVM website
 - https://github.com/airtrack/luna: A toy interpreter of lua-like language
-- [Maverick](https://github.com/willianscsilva/interpreter)
 - https://github.com/hijkzzz/mini-interpreter: A simple scripting language (supports anonymous functions and clases)
 - https://github.com/drmenguin/minilang-interpreter: Interpreter and Read-Eval-Print-Loop for a simple programming language called "MiniLang", written in C++
 - https://github.com/JohnEarnest/ok: An open-source interpreter for the K5 programming language.
 - https://github.com/oriontransfer/PL0-Language-Tools: An implementation of PL/0 including a tree-based interpreter and virtual machine. http://programming.dojo.net.nz/study/pl0-language-tools/index
-- [Pointless](https://ptls.dev/) ([Source](https://github.com/pointless-lang/pointless)): a scripting language for learning and fun.
 - https://github.com/bbu/simple-interpreter: A hackable and extensible lexer, parser and interpreter for a minimalistic, imperative, C-like language.
 - https://github.com/totalspectrum/tinyscript
 - https://github.com/sam-astro/Z-Sharp: Custom programming interpreter for ZSharp (Z#), a language I made up.
 
-### Monkey
+#### Monkey
 This is the language described by the book ["Writing an Interpreter in Go"](https://interpreterbook.com/). Also has a paired book, ["Writing a Compiler in Go"](https://compilerbook.com/) which appears to include the creation of a virtual machine for executing the compiled code.
 
 * [Source](https://github.com/haifenghuang/monkey) (archived)
@@ -265,14 +306,161 @@ This is the language described by the book ["Writing an Interpreter in Go"](http
 * Rust: [Monkey in Rust](https://github.com/bradford-hamilton/monkey_lang_rust)
 * TypeScript: [Monkey in TypeScript](https://github.com/bradford-hamilton/monkey_lang_rust)
 * [Gadget](https://github.com/vkandola/go-go-gadget): The 'Gadget' interpreter language, implemented in Go, using the Writing An Interpreter In Go book. This language is based off the Monkey interpreter language described in the book, and will be implemented as I progress through the book.
-
-### Lox
-From ["Crafting Interpreters"](http://www.craftinginterpreters.com/):
-
-* C++: [CppLox](https://github.com/the-lambda-way/CppLox)
-* Rust: [rlox](https://github.com/cwbriones/rlox)
-* Swift: [slox](https://github.com/alexito4/slox)
+* [An interpreter for the Monkey programming language](https://github.com/imteekay/crafting-an-interpreter)
 
 ### Esolangs
 
 - https://github.com/nickdesaulniers/bf_interpreter_jit_compiler: Teach myself about interpreters, JITs, and compilers using the Brainfuck language as the toy language -- https://nickdesaulniers.github.io/blog/2015/05/25/interpreter-compiler-jit/
+
+
+---
+
+### Compiler
+
+- [A miniature model of the Typescript compiler](https://github.com/imteekay/mini-typescript)
+- [Alias analysis](https://en.wikipedia.org/wiki/Alias_analysis)
+- [An Introduction to Interpreters and JIT Compilation](https://stefan-marr.de/2023/09/pliss-summer-school)
+- [AST (Abstract Syntax Tree)](https://medium.com/@dinis.cruz/ast-abstract-syntax-tree-538aa146c53b)
+- [Anders Hejlsberg on Modern Compiler Construction](https://www.youtube.com/watch?v=wSdV1M7n4gQ)
+- [Compilers Resources](https://glyphack.com/blog/compiler-resources)
+- [Compilers: Nuts and bolts of Programming Languages](https://pgrandinetti.github.io/compilers)
+- [Compiling Scheme to C with closure conversion](https://matt.might.net/articles/compiling-scheme-to-c)
+- [Compiling to Java](https://matt.might.net/articles/compiling-to-java)
+- [Compiling to lambda-calculus](https://matt.might.net/articles/compiling-up-to-lambda-calculus)
+- [Flattening ASTs (and Other Compiler Data Structures)](https://www.cs.cornell.edu/~asampson/blog/flattening.html)
+- [Fredrik Lundh - Simple Town-Down Parsing In Python](https://11l-lang.org/archive/simple-top-down-parsing)
+- [Garbage Collection Algorithms](https://www.dmitrysoshnikov.education/p/essentials-of-garbage-collectors)
+- [How the TypeScript compiler works](https://www.iamtk.co/series/the-typescript-compiler)
+- [How To Build A Programming Language From Scratch](https://www.youtube.com/watch?v=8VB5TY1sIRo&list=PL_2VhOvlMk4UHGqYCLWc6GO8FaPl8fQTh&ab_channel=tylerlaceby)
+- [How to Compile Your Language](https://isuckatcs.github.io/how-to-compile-your-language/)
+- [How to implement a programming language in JavaScript](http://lisperator.net/pltut)
+- [How would compilers change in the next 10 years?](https://www.youtube.com/watch?v=p15qRHZ_Leg&ab_channel=CompilerConstruction)
+- [Implementing a bignum calculator](https://www.youtube.com/watch?v=PXoG0WX0r_E)
+- [Interpreter, Compiler, JIT](https://nickdesaulniers.github.io/blog/2015/05/25/interpreter-compiler-jit) - Nick Desaulniers
+- [IU Compiler Course](https://iucompilercourse.github.io/IU-P423-P523-E313-E513-Fall-2020)
+- [JavaScript ∩ WebAssembly](https://www.youtube.com/watch?v=PP5r_b3Ws8s&ab_channel=ReactEurope)
+- [JavaScript implementation in SpiderMonkey](https://www.youtube.com/playlist?list=PLo3w8EB99pqJVPhmYbYdInBvAGarDavh-)
+- [KAIST CS420: Compiler Design](https://www.youtube.com/playlist?list=PL5aMzERQ_OZ8RWqn-XiZLXm1IJuaQbXp0)
+- [Language grammar](https://stackoverflow.com/a/4726662/11314146)
+- [Lessons from Writing a Compiler](https://borretti.me/article/lessons-writing-compiler)
+- [Lexical Scanning in Go](https://www.youtube.com/watch?v=HxaD_trXwRE)
+- [Lexing in JS style](https://areknawo.com/the-lexer-in-js)
+- [Mozilla Hacks Compiler Compiler](https://www.youtube.com/playlist?list=PLo3w8EB99pqKF1FQllRsxyQh3sA7V2Hc-)
+- [Quick look at the TypeScript Compiler API](https://www.youtube.com/watch?v=AnjfW633e8o%E2%80%8E.%E2%80%8Edev)
+- [Pursuit of Performance on Building a JavaScript Compiler](https://rustmagazine.org/issue-3/javascript-compiler)
+- [Rethinking compiler technology in a heterogeneous world](https://www.youtube.com/watch?v=6Ncnx0bT4lk&ab_channel=HiPEACTV)
+- [Scheme from Scratch - Introduction](http://peter.michaux.ca/articles/scheme-from-scratch-introduction)
+- [The business of selling compilers](https://www.youtube.com/watch?v=JRyv2oyWIbA&ab_channel=HiPEACTV)
+- [Top Down Operator Precedence](http://javascript.crockford.com/tdop/tdop.html) - Douglas Crockford
+- [Typescript Compiler explained by the Author Anders Hejlsberg](https://www.youtube.com/watch?v=f6TCB61fDwY)
+- [TypeScript Compiler Notes](https://github.com/microsoft/TypeScript-Compiler-Notes)
+- [Understanding compiler optimization](https://www.youtube.com/watch?v=haQ2cijhvhE)
+- [Understanding GC in JSC From Scratch](https://webkit.org/blog/12967/understanding-gc-in-jsc-from-scratch)
+- [Which Interpreters are Faster, AST or Bytecode?](https://stefan-marr.de/2023/10/ast-vs-bytecode-interpreters)
+- [Write you a Haskell](http://dev.stephendiehl.com/fun)
+- The Pipefish Type System [Part 1](https://www.reddit.com/r/ProgrammingLanguages/comments/1kbhftn/the_pipefish_type_system_part_i_what_is_it_for/) | [part 2](https://www.reddit.com/r/ProgrammingLanguages/comments/1lr7dit/the_pipefish_type_system_part_ii_what_i_actually/) | [Compiler Implementation](https://www.reddit.com/r/ProgrammingLanguages/comments/1d71e37/how_the_pipefish_compiler_works/)
+
+
+## Academia and Related
+
+- [Compiler Design course](https://www.youtube.com/playlist?list=PLDAE55AEE0731D729&feature=plcp)
+
+- [301 - Organization of Programming Languages](https://www.youtube.com/watch?v=j2pYeKjq_60&list=PLB1enDd0fV0i5SWGe-A1YjmD8MmlGavIj&ab_channel=JayMcCarthy)
+- [Accelerated 1](https://course.ccs.neu.edu/cs2500accelf17/index.html)
+- [All the courses Matthias Felleisen teach](https://felleisen.org/matthias/teaching.html)
+- [Benjamin Pierce - Software foundations](https://www.youtube.com/playlist?list=PLGCr8P_YncjUT7gXUVJWSoefQ40gTOz89)
+- [Brown CS: CSCI 1730: Programming Languages](http://cs.brown.edu/courses/csci1730/2012/) [Videos](http://cs.brown.edu/courses/cs173/2012/Videos/)
+- [CIS 341 - Compilers](https://www.seas.upenn.edu/~cis3410/20sp/)
+- [CIS352 - Principles of Programming Languages](https://www.youtube.com/watch?v=2jrwXpUZW7k&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&ab_channel=KristopherMicinski)
+- [CMSC330 - Organization of Programming Languages](https://www.cs.umd.edu/class/spring2022/cmsc330/#schedule)
+- [CMSC 430: Design and Implementation of Programming Languages](https://www.youtube.com/watch?v=KTWq1XAfuMQ&list=PLsg0tbEwZlcz0Xzv1rACy7xcQZiBcQ_iE&ab_channel=cmsc430)
+- [CMU - CS6120 - Advanced Compilers](https://www.cs.cornell.edu/courses/cs6120/2022sp/lesson)
+- [Compilers — Stanford](https://online.stanford.edu/courses/soe-ycscs1-compilers)
+- [Compilers Design Recipe](https://soft.vub.ac.be/compilers/book_sec_recipe.html)
+- [Compilers: Theory and Practice — Udacity](https://www.udacity.com/course/compilers-theory-and-practice--ud168)
+- [Concepts in Programming Languages](https://www.cl.cam.ac.uk/teaching/1617/ConceptsPL/materials.html)
+- [COP4020 - Programming Languages I](https://www.cs.ucf.edu/~leavens/COP4020/resources.shtml)
+- [COS326 - Functional Programming](https://mediacentral.princeton.edu/channel/COS+326+Functional+Programming/174748251)
+- [CS242: Programming Languages, Fall 2019](https://stanford-cs242.github.io/f19)
+- [CS019 - Accelerated Introduction to Computer Science](https://cs.brown.edu/courses/cs019/2018/index.html)
+- [CS164 Programming Languages and Compilers](https://www.bilibili.com/video/BV1NW411b79N?p=1)
+- [CS242 - Programming Languages - Stanford](https://web.stanford.edu/class/cs242/coursework.html)
+- [CS520 Theories of Programming Languages — KAIST](https://www.youtube.com/playlist?list=PLvV9DPeJV9xx0NegrG4gNu8WXSXibDICu)
+- [CS2500 - Fundamentals of Computer Science](https://www.ccs.neu.edu/home/nderbinsky/fundies1/m1.html)
+- [CS6120: Advanced Compilers: The Self-Guided Online Course](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/): The work consists of reading papers and open-source hacking tasks, which use LLVM and an educational IR invented just for this class.
+- [CSCI1730 - Programming Languages - Application and Interpretation](https://cs.brown.edu/courses/cs173/2012/Videos)
+- [CSE 131 - Compiler Construction](https://podcast.ucsd.edu/watch/SP17/cse131_sp17/23)
+- [CSE230 - Principles/Programming Languages](https://podcast.ucsd.edu/watch/fa18/cse230_b00/24)
+- [Essentials of Programming Languages](http://proglang.informatik.uni-freiburg.de/teaching/proglang/2020ws)
+- [Functional programming and type systems](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:c-2-4-2); [supplemental repo](https://gitlab.inria.fr/fpottier/mpri-2.4-public)
+- [Fundamentals 1](https://course.ccs.neu.edu/cs2500f16/index.html)
+- [Fundamentals 2](https://course.ccs.neu.edu/cs2510)
+- [Indiana University Compiler Course](https://iu.mediaspace.kaltura.com/media/Compiler+Course/1_hwlujpzd)
+- [Introduction to Compiler Construction](https://www.students.cs.ubc.ca/~cs-411/2020w2/index.html)
+- [Jay McCarthy - 406 Compiler Construction](https://youtu.be/4tUj8BuC0qM)
+- [LINFO1131 - Advanced programming language concepts](https://www.youtube.com/playlist?list=PLw454N-VXALROTZ_phkQ-D4QDU5w3x4R8)
+- Matthias Felleisen
+
+    - [Hack Your Own Language](https://felleisen.org/matthias/4620-s18/index.html)
+    - [History of Programming Languages](https://felleisen.org/matthias/7480-s17/index.html)
+    - [Intensive Principles of Programming Languages](https://felleisen.org/matthias/7400-s14/Problem_Sets.html)
+    - [Principles of Programming Languages](https://felleisen.org/matthias/4400-s20/lectures.html) - in Racket
+
+- [NPTEL: Compiler Design](https://nptel.ac.in/courses/106108052/) ([YouTube playlist](https://www.youtube.com/playlist?list=PL3690D679B876DE6A)): 2011; Y.N. Srikant
+- [OPLSS (Oregon Programming Languages Summer School)](https://cs.uoregon.edu/research/summerschool/)
+
+	- 2019-2017, 2003: https://www.youtube.com/channel/UCDe6N9R7U-RYWA57wzJQ2SQ/playlists
+	- 2016-2015: https://www.youtube.com/channel/UCsON_8vogp4nCQFTnfu43kA/playlists
+	- free video lectures available, including the introductory ones based on Practical Foundations for Programming Languages: http://www.cs.cmu.edu/~rwh/pfpl/
+
+- [Principles of Compiler Design](https://www.bilibili.com/video/BV1qt41167uU?p=1)
+- [Principles of Programming Languages](https://felleisen.org/matthias/4400-s20/lectures.html)
+- [Programming Language Foundations in Agda](https://cs.uwaterloo.ca/~plragde/747/notes/index.html)
+- [Programming Languages and Logic](https://www.cs.cornell.edu/courses/cs4110/2021fa)
+- [Programming Languages Course given by DCC-UFMG](https://hanielb.github.io/2021.2-lp)- text:["Modern Programming Languages: A Practical Introduction"](http://www.webber-labs.com/mpl/)
+- [Programming Languages Ⅰ](https://www.coursera.org/learn/programming-languages-1)
+- [Programming Languages Ⅱ](https://www.coursera.org/learn/programming-languages2)
+- [Programming Language Implementation Summer School (PLISS)](https://pliss2019.github.io/talks.html) [YouTube](https://www.youtube.com/channel/UCofC5zis7rPvXxWQRDnrTqA/playlists)
+- [SFU CMPT 886](http://www.cs.sfu.ca/~wsumner/teaching/886/15/schedule.html): Program Analysis and Reliability - Nick Sumner, Spring 2015 [YouTube playlist](https://www.youtube.com/playlist?list=PLNC6lmsIySCOPjY8IwKBtD2cqe-MMgIGM)
+- [Stanford OpenEdX: Compilers - Alex Aiken](http://online.stanford.edu/course/compilers-0)
+- [Theory of Programming Language (Graduate course, Spr 2020)](http://staff.ustc.edu.cn/~yuzhang/tpl/2020s/index.html)
+- UCSD CSE 131: Compiler Construction
+
+	- Fall 2019; Joseph Gibbs Politz
+		- https://ucsd-cse131-f19.github.io/
+		- https://podcast.ucsd.edu/watch/fa19/cse131_a00
+	- Winter 2018; Ranjit Jhala
+		- https://ucsd-progsys.github.io/131-web/
+		- https://podcast.ucsd.edu/watch/wi18/cse131_a00
+
+- UCSD CSE 231: Advanced Compiler Design
+
+	- Winter 2019; Sorin Lerner
+		- https://podcast.ucsd.edu/watch/wi19/cse231_a00
+		- https://ucsd-pl.github.io/cse231/wi19/
+
+- University of Utah: Advanced Compilers - John Regehr
+
+	- Weeks 1 and 2: http://blog.regehr.org/archives/1419
+	- Weeks 3-5: http://blog.regehr.org/archives/1428
+
+- [UW professor Dan Grossman's teaching materials](https://homes.cs.washington.edu/~djg/teachingMaterials/)
+- [UW CSE CSEP 501](https://courses.cs.washington.edu/courses/csep501/): Compilers - Hal Perkins
+
+	- Winter 2018
+		- Homepage: https://courses.cs.washington.edu/courses/csep501/18sp/
+		- Lecture Videos: https://courses.cs.washington.edu/courses/csep501/18sp/video/
+	- Winter 2016
+		- Homepage: https://courses.cs.washington.edu/courses/csep501/16wi/
+		- Playlist: https://www.youtube.com/playlist?list=PLTPQEx-31JXhfAWGnGzwbfhB2zUB7Jd4C
+		- Topics: https://courses.cs.washington.edu/courses/csep501/16wi/calendar/lecturelist.html
+
+
+## Learning Paths
+
+- [Advanced Programming Languages](http://di002.edv.uniovi.es/~labra/APL.html)
+- [Compiler Engineer Path](http://dmitrysoshnikov.com/courses/compiler-engineer-path)
+- [Learn Type Theory](https://github.com/jozefg/learn-tt)
+- [Programming Language Theory Path](https://steshaw.org/plt)
+- [So You Want to Be a (Compiler) Wizard](https://belkadan.com/blog/2016/05/So-You-Want-To-Be-A-Compiler-Wizard)
+
