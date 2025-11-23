@@ -1,25 +1,3 @@
-title=LET'S BUILD A COMPILER! (Pt 1)
-tags=langdev
-summary=Crenshaw, pt1
-~~~~~~
-
-                            Jack W. Crenshaw, Ph.D.
-
-                                  24 July 1988
-
-
-                              Part I: INTRODUCTION
-
-
-*****************************************************************
-*                                                               *
-*                        COPYRIGHT NOTICE                       *
-*                                                               *
-*   Copyright (C) 1988 Jack W. Crenshaw. All rights reserved.   *
-*                                                               *
-*****************************************************************
-
-
 INTRODUCTION
 
 
