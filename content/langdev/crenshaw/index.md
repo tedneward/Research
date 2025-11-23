@@ -3,7 +3,7 @@ tags=language, reading, language development
 summary=A very good tutorial on writing a simple compiler in 16 articles. By Jack W. Crenshaw.
 ~~~~~~
 
-[PDF](http://www.stack.nl/~marcov/compiler.pdf)
+[PDF](http://www.stack.nl/~marcov/compiler.pdf) [ZIP](/langdev/crenshaw/crenshaw-txt.zip)
 
 - [F# Version](https://github.com/craigstuntz/lbac)
 

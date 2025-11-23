@@ -5,6 +5,13 @@ summary=A C/C++ (and other languages) compiler toolchain. g++, gcc, objdump, nm
 
 [Website](https://gcc.gnu.org/) | [An Introduction to GCC](https://web.archive.org/web/20170326232435/http://www.network-theory.co.uk/docs/gccintro/index.html) - Brian Gough
 
+- GCC online documentation - https://gcc.gnu.org/onlinedocs/
+	- Cynbe's GCC Debugging Hints - http://muq.org/~cynbe/gcc/
+		- Debugging Resources - http://muq.org/~cynbe/gcc/offsite-resources.html
+		- Comments on the Internals Manual - http://muq.org/~cynbe/gcc/gccint.html
+	- GCC Wiki - https://gcc.gnu.org/wiki
+
+
 [C++ Status](https://gcc.gnu.org/projects/cxx-status.html)
 
 [Static analyzer options](/tools/gcc/static-analyzer)

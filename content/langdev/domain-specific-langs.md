@@ -27,3 +27,4 @@ Type-safe embedded domain-specific languages:
     - [2/4](https://www.youtube.com/watch?v=OM_riJgZF8A)
     - [3/4](https://www.youtube.com/watch?v=gFJTKJgL2zI)
     - [4/4](https://www.youtube.com/watch?v=isAu8YuI6SA)
+

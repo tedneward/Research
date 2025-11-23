@@ -3,7 +3,7 @@ tags=langdev, reading
 summary=Notes and links on the topic of "colored" functions.
 ~~~~~~
 
-This seems to be related to [effects](./effects) at a high conceptual level.
+This seems to be related to [effects](/langdev/effects) at a high conceptual level.
 
 ## Articles
 

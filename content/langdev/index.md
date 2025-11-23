@@ -133,7 +133,7 @@ Resources: [Courses](/langdev/courses)
 
 ### Books
 
-- [A Retargetable C Compiler](/langdev/a-retargetable-c-compiler-design-and-implementation.pdf); makes use of literate programming (/languages/noweb)
+- [A Retargetable C Compiler](/langdev/a-retargetable-c-compiler); makes use of literate programming (/languages/noweb)
 - [A Compiler Writing Journey](https://github.com/DoctorWkt/acwj)
 - [Basics of Compiler Design (Anniversary Edition)](http://www.diku.dk/~torbenm/Basics/) - Torben Mogensen
 - [Compiler Construction](https://c9x.me/compile/bib/wirthcc.pdf) (PDF)
@@ -148,16 +148,16 @@ Resources: [Courses](/langdev/courses)
 - [Compiling Scala for the Java Virtual Machine](http://lampwww.epfl.ch/~schinz/thesis-final-A4.pdf) - Michel Schinz (PDF)
 - [Compiling Techniques (1969)](http://www.chilton-computing.org.uk/acl/literature/books/compilingtechniques/overview.htm) - F.R.A. Hopgood, Macdonald
 - [Computer Language Notes: Compilers and Interpreters](https://github.com/melling/ComputerLanguages/blob/master/compilers.md)
-- [Concepts of Programming Languages](/langdev/Concepts_of_Programming_Languages.pdf) (PDF)
+- [Concepts of Programming Languages](/langdev/concepts-of-programming-languages)
 - Control structures in programming languages: from goto to algebraic effects - https://xavierleroy.org/control-structures/
 - [Discrete Mathematics for Computing](https://www.amazon.com/gp/product/0230216110/ref=sw_img_1)
-- Engineering a Compiler - [Amazon](https://www.amazon.com/Engineering-Compiler-Keith-D-Cooper/dp/0128154128/ref=sr_1_1) ([PDF](/langdev/Keith_Cooper_Linda_Torczon-Engineering_a_Compiler-EN.pdf))
-- [Essentials of Compilation: An Incremental Approach](https://github.com/IUCompilerCourse/Essentials-of-Compilation) by Siek, Newton: A book about compiling Racket to x86-64 assembly
-- [Essentials of Programming Languages](http://www.eopl3.com/): EOPL, as it’s better known, introduces readers to the internal workings of programming languages by describing small programming languages and creating an interpreter for each one. The book is very hands-on, with lots of exercises for the reader to modify the interpreters with new features. It touches on the ideas of reasoning about languages and formal semantics, but mostly sticks to the interpreter-as-semantics approach.
+- [Engineering a Compiler](/langdev/engineering-a-compiler)
+- [Essentials of Compilation: An Incremental Approach](/langdev/essentials-of-compilation) - by Siek, Newton: A book about compiling Racket to x86-64 assembly
+- [Essentials of Programming Languages](/langdev/essentials-of-programming-languages)
 - Homotopy Type Theory - [Goodreads](https://www.goodreads.com/book/show/18106978-homotopy-type-theory)
 - [How to Compile Your Language](https://isuckatcs.github.io/how-to-compile-your-language/)
-- [How to Design Programs](https://htdp.org/2020-8-1/Book/index.html) - [Goodreads](https://www.goodreads.com/book/show/1119079.How_to_Design_Programs)
-- [Human-Centered Programming Languages](https://bookish.press/hcpl) ([PDF](/langdev/hcpl.pdf))
+- [How to Design Programs](https://htdp.org/) [Website](https://htdp.org/2020-8-1/Book/index.html)
+- [Human-Centered Programming Languages](https://bookish.press/hcpl)
 - [Introduction to Compilers and Language Design](https://www3.nd.edu/~dthain/compilerbook/compilerbook.pdf) ([PDF](/langdev/Intro_to_Compilers_and_Language_Design.pdf))
 - Modern Compiler Design - [Amazon](https://www.amazon.com/Modern-Compiler-Design-Dick-Grune/dp/1461446988/ref=sr_1_1)
 - Modern Compiler Implementation:
@@ -175,7 +175,7 @@ Resources: [Courses](/langdev/courses)
 
 
 
-[How to Design Programs](https://htdp.org/)
+
 
 [Implementing Functional Languages: A Tutorial](http://research.microsoft.com/en-us/um/people/simonpj/Papers/pj-lester-book/) - Simon Peyton Jones, David Lester
 

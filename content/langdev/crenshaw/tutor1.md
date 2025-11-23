@@ -1,33 +1,7 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                            LET'S BUILD A COMPILER!
-
-                                       By
+title=LET'S BUILD A COMPILER! (Pt 1)
+tags=langdev
+summary=Crenshaw, pt1
+~~~~~~
 
                             Jack W. Crenshaw, Ph.D.
 
@@ -383,16 +357,3 @@ end.
 That's it for this introduction.  Copy the code above into TP and
 compile it.  Make sure that it compiles and runs  correctly. Then
 proceed to the first lesson, which is on expression parsing.
-
-
-*****************************************************************
-*                                                               *
-*                        COPYRIGHT NOTICE                       *
-*                                                               *
-*   Copyright (C) 1988 Jack W. Crenshaw. All rights reserved.   *
-*                                                               *
-*****************************************************************
-
-
-
-

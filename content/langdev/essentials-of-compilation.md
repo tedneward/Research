@@ -3,5 +3,8 @@ tags=langdev
 summary=Notes and links on the book of the same name.
 ~~~~~~
 
-[PDF](./Essentials of Compilation.pdf)
+[PDF](/langdev/essentials-of-compilation.pdf) | [GitHub](https://github.com/IUCompilerCourse/Essentials-of-Compilation)
+
+*Essentials of Compilation: An Incremental Approach in Racket* by Jeremy G Siek
+
 

@@ -72,18 +72,6 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 * Summit on Advances in Programming Languages (SNAPL)
 
 
-## Documentation
-
-- GCC online documentation - https://gcc.gnu.org/onlinedocs/
-	- Cynbe's GCC Debugging Hints - http://muq.org/~cynbe/gcc/
-		- Debugging Resources - http://muq.org/~cynbe/gcc/offsite-resources.html
-		- Comments on the Internals Manual - http://muq.org/~cynbe/gcc/gccint.html
-	- GCC Wiki - https://gcc.gnu.org/wiki
-- Visual C++ documentation
-	- https://docs.microsoft.com/en-us/cpp/
-	- https://github.com/Microsoft/cpp-docs
-	- https://msdn.microsoft.com/en-us/library/60k1461a.aspx
-
 ## Talks
 
 ### 2019
