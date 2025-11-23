@@ -170,6 +170,7 @@ The roles a write barrier can play in GC are a little trickier to explain to a n
 - [Memory Management Reference (site)](https://www.memorymanagement.org/)
 - [CS 4120/5120 Lecture notes](https://www.cs.cornell.edu/courses/cs4120/2018sp/lectures/39gc/lec39-sp18.pdf) (Andrew Myers)
 - [Visualizing garbage collection algorithms](https://spin.atomicobject.com/2014/09/03/visualizing-garbage-collection-algorithms/) ([Source](https://github.com/kenfox/gc-viz)): Demonstrates NoGC, ref-counting, mark-sweep, mark-compact, and copying.
+- [Garbage Collection Algorithms](https://www.dmitrysoshnikov.education/p/essentials-of-garbage-collectors)
 
 ### C/C++
 

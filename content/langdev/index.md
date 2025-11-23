@@ -40,8 +40,6 @@ Resources: [Courses](/langdev/courses)
 - [Abstracting Gradual Typing](https://www.cs.ubc.ca/~rxg/agt.pdf)
 - [An Axiomatic Basis for Computer Programming](http://sunnyday.mit.edu/16.355/Hoare-CACM-69.pdf)
 - [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf):  Scheme and Functional Programming 2006; Abdulaziz Ghuloum -- [Github](https://github.com/namin/inc) Step-by-step development of a Scheme-to-x86 compiler
-- [Another Go at Language Design](https://www.youtube.com/watch?v=7VcArS4Wpqk)
-- [Bjarne Stroustrup : C++: evolving a useful language](https://www.youtube.com/watch?v=6jwOoIywnZE&ab_channel=BrownCS)
 - [Building a Debugger: Code Analysis](https://nan.fyi/debugger)
 - [Call-by-name, call-by-value, and the λ-calculus](https://www.sciencedirect.com/science/article/pii/0304397575900171?ref=pdf_download&fr=RR-2&rr=795ba8dc2acd4edd)
 - [Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism](https://www.cl.cam.ac.uk/~nk480/bidir.pdf);
@@ -55,9 +53,6 @@ Resources: [Courses](/langdev/courses)
 - [Generic Abstract Syntax Tree (geast)](https://angeljavalopez.medium.com/geast-a-generic-abstract-syntax-tree-c7feb681b6b5)
 - ["GAST"](/langdev/GAST_A_generic_AST_representation_for_language-ind.pdf) (PDF)
 - [Going beyond JavaScript](https://www.youtube.com/watch?v=VwisE497Nsg&ab_channel=Intelligence.ai%3AConcepts-FirstPodcast)
-- [Gradual Type Theory](https://arxiv.org/pdf/1811.02440.pdf)
-- [Gradual Typing for Functional Languages](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b7ca4b0e6d3119aa341af73964dbe38d341061dd)
-- [Gradual Typing: A New Perspective](https://www.irif.fr/~gc/papers/popl19.pdf)
 - [Growing a Language](https://www.youtube.com/watch?v=_ahvzDzKdB0), by Guy Steele
 - [Haai: Reactive programming without lifting](https://soft.vub.ac.be/~boeyen/haai/)
 - [How Big Should a Programming Language Be?](https://tratt.net/laurie/blog/2023/how_big_should_a_programming_language_be.html): "... a long-held opinion I have about programming language design: we have a tendency to keep adding features to a language until it becomes so big that its sheer size makes it difficult to use reliably." *Yes!*
@@ -94,7 +89,6 @@ Resources: [Courses](/langdev/courses)
 - [Reactive Functions without Functions](https://programming-journal.org/2024/8/11/) ([PDF](https://arxiv.org/pdf/2403.02296))
 - [Refined Criteria for Gradual Typing](https://drops.dagstuhl.de/opus/volltexte/2015/5031/pdf/21.pdf)
 - [Relational operators in Apache Calcite](https://www.querifylabs.com/blog/relational-operators-in-apache-calcite)
-- [Rob Pike - What We Got Right, What We Got Wrong](https://www.youtube.com/watch?v=yE5Tpp2BSGw)
 - [Simple Programming Languages](https://ryanbrewer.dev/posts/simple-programming-languages.html)
 - [So many programming languages so little time](https://www.youtube.com/watch?v=FEjH5VxmDoY&ab_channel=MicrosoftDeveloper)
 - [Static Typing Where Possible, Dynamic Typing When Needed: The End of the Cold War Between Programming Languages](https://www.ics.uci.edu/~lopes/teaching/inf212W12/readings/rdl04meijer.pdf)
@@ -122,7 +116,6 @@ Resources: [Courses](/langdev/courses)
 - [Why Dependent Types Matter](http://www.cs.nott.ac.uk/~psztxa/publ/ydtm.pdf)
 - [Why Programming Languages Matter](https://www.youtube.com/watch?v=JqYCt9rTG8g&ab_channel=StrangeLoopConference)
 - [Why Study Programming Languages](https://rachit.pl/post/why-study-programming-languages)
-- [The Development of the C Language](https://www.bell-labs.com/usr/dmr/www/chist.pdf)
 
 - [Languages I want to write](https://blog.wesleyac.com/posts/language-todos)
 - [Less is more: language features](http://blog.ploeh.dk/2015/04/13/less-is-more-language-features/)
@@ -171,38 +164,29 @@ Resources: [Courses](/langdev/courses)
 - [SOFTLANG team](http://www.softlang.org/book), Uni Koblenz-Landau - [Github](https://github.com/softlang)
 - The Elements Of Computing Systems - [Amazon](https://www.amazon.com/Elements-Computing-Systems-second-Principles/dp/0262539802/ref=sr_1_1)
 
+### Object-Oriented
 
+* ["The concept of class invariant in object-oriented programming"](https://arxiv.org/pdf/2109.06557.pdf): "Class invariants — consistency constraints preserved by every operation on objects of a given type — are fundamental to building, understanding and verifying object-oriented programs. For verification, however, they raise difficulties, which have not yet received a generally accepted solution. The present work introduces a proof rule meant to address these issues and allow verification tools to benefit from invariants."
 
+### Gradual Typing
 
-
-
-
-[Implementing Functional Languages: A Tutorial](http://research.microsoft.com/en-us/um/people/simonpj/Papers/pj-lester-book/) - Simon Peyton Jones, David Lester
-
-[Introduction to Compilers and Language Design](https://www3.nd.edu/~dthain/compilerbook/compilerbook.pdf) | [Introduction to Compilers and Language Design](http://compilerbook.org/) - Douglas Thain (PDF)
-
-[Let's Build a Compiler](http://www.stack.nl/~marcov/compiler.pdf) (PDF)
-
-[Practical and Theoretical Aspects of Compiler Construction](http://web.stanford.edu/class/archive/cs/cs143/cs143.1128/) (class lectures and slides)
-
-[Resources for Amateur Compiler Writers](http://c9x.me/compile/bib/)
-
-[Semantics Engineering with PLT Redex](http://redex.racket-lang.org/): The PhD-level programming languages course at Northeastern uses the Redex book, and I found it to be a good introduction. The tool itself ([Redex](http://docs.racket-lang.org/redex/index.html)) is a great way to experiment with semantics, including reduction relations (roughly, the part of the semantics that says how the program runs) and type systems. You could use this book as a substitute for TAPL (at least for learning the basics of formal semantics), or you could use Redex to experiment with the languages described in TAPL.
-
-[mpri-2.4-public](https://gitlab.inria.fr/fpottier/mpri-2.4-public): Resources for course MPRI 2-4 on functional programming and type systems.
-
-["Bits of History, Words of Advice"](http://gbracha.blogspot.com/2020/05/bits-of-history-words-of-advice.html): The creator of [Newspeak](/languages/smalltalk/newspeak) and one of the core developers working on [Java](/languages/jvm/java) and the [JVM](/platforms/jvm) offers some advice about Smalltalk's lack of success in the mainstream.
-
-* **Runtime Semantics**:
-	* ["Open, Extensible Object Models"](https://www.piumarta.com/software/cola/objmodel2.pdf): "We show that three object types and five methods are sufficient to bootstrap an extensible object model and messaging semantics that are described entirely in terms of those same objects and messages." ([Source](https://www.piumarta.com/oopsla07/))
-
+- [Gradual Type Theory](https://arxiv.org/pdf/1811.02440.pdf)
+- [Gradual Typing for Functional Languages](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b7ca4b0e6d3119aa341af73964dbe38d341061dd)
+- [Gradual Typing: A New Perspective](https://www.irif.fr/~gc/papers/popl19.pdf)
 
 ### Language Learnings
 
+- [Another Go at Language Design](https://www.youtube.com/watch?v=7VcArS4Wpqk)
+- [Bjarne Stroustrup : C++: evolving a useful language](https://www.youtube.com/watch?v=6jwOoIywnZE&ab_channel=BrownCS)
 - [Clojure](https://github.com/imteekay/programming-language-research/tree/master/language-learning/clojure)
 - [Elixir](https://github.com/imteekay/programming-language-research/tree/master/language-learning/elixir)
 - [Haskell](https://github.com/imteekay/programming-language-research/tree/master/language-learning/haskell)
 - [Ruby](https://github.com/imteekay/programming-language-research/tree/master/language-learning/ruby)
+- [The Development of the C Language](https://www.bell-labs.com/usr/dmr/www/chist.pdf)
+- [Rob Pike - What We Got Right, What We Got Wrong](https://www.youtube.com/watch?v=yE5Tpp2BSGw)
+- [Typescript Compiler explained by the Author Anders Hejlsberg](https://www.youtube.com/watch?v=f6TCB61fDwY)
+- [TypeScript Compiler Notes](https://github.com/microsoft/TypeScript-Compiler-Notes)
+- [How the TypeScript compiler works](https://www.iamtk.co/series/the-typescript-compiler)
 
 ### PL Paradigms
 
@@ -230,3 +214,23 @@ Resources: [Courses](/langdev/courses)
 - [The Art of Multiprocessor Programming](https://cs.ipm.ac.ir/asoc2016/Resources/Theartofmulticore.pdf)
 - [The Parallel Event Loop Model and Runtime](https://design.inf.usi.ch/sites/default/files/biblio/daniele-bonetta-phd-parallel-javascript.pdf)
 
+---
+
+[Implementing Functional Languages: A Tutorial](http://research.microsoft.com/en-us/um/people/simonpj/Papers/pj-lester-book/) - Simon Peyton Jones, David Lester
+
+[Introduction to Compilers and Language Design](https://www3.nd.edu/~dthain/compilerbook/compilerbook.pdf) | [Introduction to Compilers and Language Design](http://compilerbook.org/) - Douglas Thain (PDF)
+
+[Let's Build a Compiler](http://www.stack.nl/~marcov/compiler.pdf) (PDF)
+
+[Practical and Theoretical Aspects of Compiler Construction](http://web.stanford.edu/class/archive/cs/cs143/cs143.1128/) (class lectures and slides)
+
+[Resources for Amateur Compiler Writers](http://c9x.me/compile/bib/)
+
+[Semantics Engineering with PLT Redex](http://redex.racket-lang.org/): The PhD-level programming languages course at Northeastern uses the Redex book, and I found it to be a good introduction. The tool itself ([Redex](http://docs.racket-lang.org/redex/index.html)) is a great way to experiment with semantics, including reduction relations (roughly, the part of the semantics that says how the program runs) and type systems. You could use this book as a substitute for TAPL (at least for learning the basics of formal semantics), or you could use Redex to experiment with the languages described in TAPL.
+
+[mpri-2.4-public](https://gitlab.inria.fr/fpottier/mpri-2.4-public): Resources for course MPRI 2-4 on functional programming and type systems.
+
+["Bits of History, Words of Advice"](http://gbracha.blogspot.com/2020/05/bits-of-history-words-of-advice.html): The creator of [Newspeak](/languages/smalltalk/newspeak) and one of the core developers working on [Java](/languages/jvm/java) and the [JVM](/platforms/jvm) offers some advice about Smalltalk's lack of success in the mainstream.
+
+* **Runtime Semantics**:
+	* ["Open, Extensible Object Models"](https://www.piumarta.com/software/cola/objmodel2.pdf): "We show that three object types and five methods are sufficient to bootstrap an extensible object model and messaging semantics that are described entirely in terms of those same objects and messages." ([Source](https://www.piumarta.com/oopsla07/))
