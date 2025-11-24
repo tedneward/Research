@@ -109,10 +109,6 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
     - https://futurism.com/gpt-5-disaster
     - [ChatGPT Is Blowing Up Marriages as Spouses Use AI to Attack Their Partners](https://futurism.com/chatgpt-marriages-divorces)
 
-## Tutorials
-
-- https://towardsdatascience.com/langgraph-101-lets-build-a-deep-research-agent/ : Learn LangGraph fundamentals from Google’s open-source full-stack implementation
-
 ## Reading
 
 * [Himanshu](https://www.linkedin.com/posts/himanshu1707_generativeai-journey-through-paperbacks-activity-7357857323756761088-elA4/):

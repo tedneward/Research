@@ -3,7 +3,7 @@ tags=language, functional, dynamic, native
 summary=A flexible dynamic language, appropriate for scientific and numerical computing, with performance comparable to traditional statically-typed languages.
 ~~~~~~
 
-[Website](https://julialang.org/) | [Docs](https://docs.julialang.org/en/v1/) | [Source](https://github.com/JuliaLang/julia) | [Style Guide](https://docs.julialang.org/en/v1/manual/style-guide/#Style-Guide) | [Data Science in Julia book](https://juliadatascience.io/)
+[Website](https://julialang.org/) | [Docs](https://docs.julialang.org/en/v1/) | [Source](https://github.com/JuliaLang/julia) | [Style Guide](https://docs.julialang.org/en/v1/manual/style-guide/#Style-Guide) | [Data Science in Julia book](https://juliadatascience.io/) | [The "criticisms post"](https://danluu.com/julialang/) (which is a pretty scathing takedown that seems to have some legs to it)
 
 ### Julia in a Nutshell
 
