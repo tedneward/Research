@@ -5,7 +5,7 @@ summary=Notes and thoughts from the book of the same name.
 
 *(Nicole Forsgren, Abi Noda; Shift Key Press Nov 2025; ISBN 978-1662966378)*
 
-As a general rule, this book is following the social media style of authorship, at a slightly larger scale: Instead of one sentence paragraphs, they're doing one- or two-page chapters. Overall, I'm not entirely impressed so far, particularly since I think a good chunk of the "seven steps" are just a retelling of Kotter's Change Management steps. Actually, as I go through the material, I begin to suspect a good chunk of it was written by an LLM. The case studies and examples probably aren't, but a lot of the prose in between feels very LLM-ish.
+As a general rule, this book is following the social media style of authorship, at a slightly larger scale: Instead of one sentence paragraphs, they're doing one- or two-page chapters. Overall, I'm not entirely impressed so far, particularly since I think a good chunk of the "seven steps" are just a retelling of Kotter's Change Management steps. Actually, as I go through the material, I begin to suspect a good chunk of it was written by an LLM. The case studies and examples probably aren't, but a lot of the prose in between feels very LLM-ish. Stuff in Step 3 feels more genuine and additive.
 
 # PART I Understanding DevEx 
 
@@ -333,8 +333,68 @@ Find early insights from existing data. Once you find and document your existing
 "Measure value with the Sean Ellis Test. While active user metrics and satisfaction scores provide valuable signals, occasionally you need a more direct assessment of how essential your solution—or an existing tool—has become to users. The Sean Ellis Test offers a simple and powerful method that startup companies use to determine product-market fit, and it works equally well for internal developer tools. The test centers on a single powerful question: *“How would you feel if you could no longer use [your platform/tool]?”* With just three possible responses: Very disappointed; Somewhat disappointed ;Not disappointed (it isn’t that useful). Through extensive work with startups, Ellis found that products with strong market fit consistently have at least 40 percent of users answering they would be “very disappointed” if they could no longer use the tool. This threshold has become a reliable benchmark for product success." ... "However, be cautious when interpreting results for mandated tools where users have no alternatives. In these cases, consider adapting the question. For example: *“**If you had a choice of developer tools**, how would you feel if you could no longer use [current tool]?”* This framing helps distinguish between genuine tool value and organizational dependency. You can also pair the Ellis Test with satisfaction questions to better understand whether high disappointment scores reflect tool love or job necessity."
 
 ### Chapter 22 - Invest in System Metrics Over Time
+
+When starting out, you might rely heavily on surveys (around 80 percent) with some system data (around 20 percent), giving you quick, broad insights into developer pain points. As you progress in your initiative and you instrument more systems, this balance shifts along an S-curve pattern—system data gradually increases, then ramps up significantly as you build more automated collection capabilities. In mature DevEx programs, system data often comprises the majority of your information simply due to the volume you can collect automatically. Surveys remain crucial throughout your journey and never disappear entirely. Even in mature programs, you’ll continue using survey data for instrumentation decisions, uncovering hidden friction points, and measuring developer satisfaction. The key is that while system data provides precision and continuous monitoring, survey data provides the context and human perspective that systems can’t capture. 
+
+**Beware survey fatigue.** 
+We all know this but it’s worth repeating: Bombard your developers with surveys and they’ll stop giving you the insights you actually need. You need to be realistic about what data you can get, what you can’t get, and how often you can get it. 
+**Developers only have so much attention, and work is their priority.** Your developers are solving complex problems all day. When you ask them to stop that work to fill out a survey, you’re making a withdrawal from a limited attention bank. Make too many withdrawals, and the account closes. Here are some tips for survey success: 
+
+    * The 15-minute maximum. If your survey takes longer than 15 minutes to complete, you’ve already lost. Developers will either abandon it halfway through or rush answers just to finish. 
+
+    * The timing sweet spot. Forget monthly surveys. We’ve seen dramatically better results with a three- or six-month cadence. Why? Because that’s roughly how long it takes to implement meaningful changes based on previous feedback, and it’s minimal interruption to developer’s work. Show progress before asking for more input. 
+
+    * The importance of consolidation. If your organization already has a developer survey but it’s not giving you what you need, don’t launch a competing survey. That’s positioning yourself against an established player (bad move) and introducing additional work for devs (another bad move). Instead, partner with the existing survey team and position your questions as complementary. 
+
+    * The differentiation requirement. Multiple surveys can coexist, but they’re most successful when they have clear, distinct positioning in developers’ minds. A culture survey and a technical workflow survey can both succeed if they’re properly positioned and spaced several weeks or months apart. 
+    
+**Do a final check.** Before you hit “send” on that survey, ask yourself: “If I were in my developers’ shoes, would I stop what I’m doing to answer these questions?” and “Would I care about the results of this survey? Would I want to share the results with someone else?” If the answers aren’t obvious yeses, you need to reposition your approach. ***The teams that win at developer feedback aren’t the ones with the most surveys—they’re the ones who respect the context their developers operate in and position their feedback requests accordingly.*** 
+
+Survey data can be very useful when you don’t have good system data, but don’t fall into the trap of waiting for perfect system data before taking action. Perfect is the enemy of progress. The transition to more system data happens organically as you identify data sources with reasonable quality and coverage across your organization. For instance, if pull requests are a point of friction, you’ll want to analyze metrics like PR cycle time (how long it takes to complete a PR) and PR dwell time (a component of overall cycle time, focusing on how long a PR waits before it is acted on). These objective measures provide precise data about specific friction points. 
+
+When considering your data, beware of common fallacies that can mislead your DevEx efforts. The *streetlight effect* occurs when you focus exclusively on areas where you already have strong system data. Don’t limit your attention to what’s easy to measure. Even in mature DevEx improvement programs, surveys continue to provide crucial insights about emerging issues, subjective experiences, and areas that are difficult to instrument. This is why maintaining some survey component remains valuable even as system data grows to dominate your overall metrics portfolio. Equally important is avoiding the *snapshot fallacy*. Don’t treat a single survey or data collection as permanent truth. DevEx needs evolve as your organization changes, technologies advance, and developers gain experience. Plan for regular pulse surveys and ongoing system data analysis to maintain an accurate, current picture of developer experience.
+
 ### Chapter 23 - Make Sure You Capture the Right Data
+
+"The most effective data strategies work backward from problems to metrics. Start with the pain points your surveys reveal, then identify what specific data would help you understand and track improvements in those areas."
+
+"We suggest you also consider the dimensions of developer experience your metrics represent. Frameworks like SPACE (satisfaction, performance, activity, communication, and efficiency and flow) can help ensure you’re capturing a complete picture rather than just what’s easy to measure."
+
+"Don’t forget to collect data to build a strong business case. Many DevEx improvement initiatives stumble because they focus too narrowly on technical metrics like build times and test effectiveness. While these measurements are essential, they often don’t resonate with all stakeholders or clearly demonstrate business value."
+
+"As you get more data, you’ll need to be more careful about analyzing and drawing conclusions from it."
+
+"Get representative data to understand what’s happening. To build an accurate picture, collect data from across your organization. Your data collection strategy—whether for interviews, surveys, or system logs—directly impacts your conclusions."
+
+"Get enough data to understand what’s happening. Your goal is to get enough data to feel confident about insights and next steps, without getting bogged down in academic-level statistical significance. Here are some good rules of thumb for when you’re just getting started. 
+
+* For surveys, shoot for at least 30-50 responses. More is better, but you’ll start getting good insights at this level. Getting 100+ responses often gives you pretty stable findings for practical purposes. Depending on your organization—for example, how it’s structured, how technology platforms are used, org-wide cultural differences—we suggest getting enough responses (30-50) per business unit or product team.27 
+
+* For interviews, start with 5-8 people. Keep going until you’re not hearing many new things—usually around 12-15 interviews for focused topics. (You may hear this called “reaching saturation.”) If every interview brings totally new information, you’re still learning and probably need more. 
+
+* For system data, aim for comprehensive coverage—ideally data from at least 80 percent of your target systems or population. Make sure your data definitions are consistent and well-documented (e.g., what counts as a “build failure” or “deployment”). Watch out for data quality issues such as missing timestamps, incomplete logs, or inconsistent formatting. If you’re measuring over time, collect at least a few weeks of data to account for typical variations in usage patterns. Be especially careful about seasonality--collecting data during a holiday period or major release cycle might not represent typical patterns."
+
+"Get enough data from enough people to understand what’s happening. For surveys, a response rate above 30 percent is pretty good for most organizational contexts. However, 20-30 percent is fairly typical and usually gives you workable data. If you’re below 15 percent, that’s when you should start wondering if there might be issues with your distribution approach or if the survey itself might be too long or overly complicated."
+
+"When analyzing developer feedback, focus on representation over raw numbers. A 30 percent response rate from developers across different teams, roles, and experience levels will tell you more about patterns across the organization than a 70 percent response rate that’s mostly from one group. This principle applies to both survey data and behavioral metrics."
+
+"Building high response rates. You can achieve surprisingly high participation rates over time by building trust and demonstrating impact. For example, Amazon’s annual developer survey achieved over 90 percent response rates despite taking an hour to complete—a remarkable achievement that came from consistently showing developers how their feedback drove real changes and transparently reporting results back to them. Similarly, hundreds of companies using the DX platform see response rates over 90 percent, thanks to thoughtful survey design, transparent dashboards, and follow-up action that the companies take on the data. The key insight: ***Response rates aren’t just about the survey itself, but about the broader culture of feedback and action.*** When developers see their input driving real changes, they’re willing to invest more time in future surveys."
+
 ### Chapter 24 - Turn Data Into Actionable Insights
+
+"When you’re diving into DevEx data, start with the basics."
+
+"Performance bottlenecks emerge when your statistical measures don’t align. The gap between median and average in the build time example points to infrastructure inconsistencies or problematic edge cases that are dragging down the development process."
+
+"Usage patterns show up in frequency counts and trends over time. A trend line of deployment frequencies could reveal that teams deploy less often on Mondays—sparking questions about team workflows, meeting schedules, or even weekend incident recovery patterns."
+
+"Friction points can become visible through distributions and frequency counts. When you analyze where developers spend the most time or encounter the most errors, you can spot the bottlenecks."
+
+"Visualizations are your friend--they transform abstract numbers into patterns that people can quickly grasp. A histogram of build times might immediately show you have a “long tail” of problematic builds, while a trend line of deployment frequencies could reveal that teams deploy less often on Mondays or the end of the fiscal year. These visual patterns often spark the right questions: “Why do we see this dip here?” or “What changed when this metric improved?” Even better, visualizations make it easier to share insights with stakeholders who might get lost in raw numbers."
+
+"You can do much of the analysis yourself, but sometimes it’s best to partner with a data scientist."
+
+"Privacy and security are important to consider when sharing results and visualizations." ... "A good rule is the Rule of 5: Never show data for groups smaller than five developers. This prevents someone from figuring out, say, which specific developer is struggling with a particular API or deployment system. Also, be extra careful with free-text comments in surveys—they can accidentally contain sensitive information."
 
 ## STEP 4 Decide Strategy and Priority
 
