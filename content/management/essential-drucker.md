@@ -1,8 +1,7 @@
-title=Essential Drucker
+title=The Essential Drucker
 tags=reading, books, management
 summary=Selections from the management works of Peter F Drucker
 ~~~~~~
-## The Essential Drucker
 *(by Peter F Drucker, ISBN ...)*
 
 # I. Management
@@ -98,7 +97,7 @@ Markets are not created by God, nature, or economic forces, but by businesspeopl
 
 ## 20. Principles of Innovation
 
-## <a name="second-half-of-your-life"></a> 21. The Second Half of Your Life
+## 21. The Second Half of Your Life
 We live longer, we generally maximize our careers out somewhere after 20-25 years of work. Second careers are becoming much more commonplace.
 
 Three ways to develop a second career:
