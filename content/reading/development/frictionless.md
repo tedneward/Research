@@ -259,8 +259,11 @@ Van Buren and Safferstone studied 5,400 leaders implementing new initiatives in 
 
 There are a few kinds of data to think about, and they overlap a bit.
 
-* Qualitative data is descriptive, and includes things like interview transcripts and open-text responses in surveys. Your listening tour from Step 1 provides your first qualitative dataset, which you’ll continue to build upon. 
-* Quantitative data is numerical, specifically in ways that can be calculated, for example a response on a 1-5 survey scale, or statistics from version control system use. We will also talk about self-report and system data. Both self-report and system data can be either qualitative or quantitative. 
+* Qualitative data is descriptive, and includes things like interview transcripts and open-text responses in surveys.
+* Quantitative data is numerical, specifically in ways that can be calculated, for example a response on a 1-5 survey scale, or statistics from version control system use.
+
+We will also talk about self-report and system data, each of which can be either qualitative or quantitative.
+
 * Self-report data comes from people’s perceptions and experiences. It can be qualitative (like interviews or open-text responses) or quantitative (like 1-5 scale survey responses). 
 * System data can be observed and measured externally. This is also called objective data. It’s typically quantitative (such as number of commits or turnaround time on a PR) but can also be qualitative (such as error messages).
 
@@ -274,7 +277,61 @@ System Data | Error messages; Log entries; Documentation content; User flow | Bu
 "The most successful DevEx initiatives use both self-report and system data."
 
 ### Chapter 20 - Identify and Use the Data You Already Have
+
+"Most organizations have untapped metrics that can provide valuable insights into developer experience."
+
+For example: 
+
+* Development activity. Version control metrics, pull request patterns, code review times, AI assistant adoption and code generation. 
+* Build and test performance. CI/CD pipeline metrics, test coverage, build times, failure rates—both for traditional and AI-assisted development. 
+* Operations. Deployment frequency, infrastructure costs, monitoring and logging information. 
+* Process. Ticket resolution times, incident response data, feature delivery cycles. 
+* Feedback. Existing developer surveys, retrospective notes, onboarding feedback.
+
+Find early insights from existing data. Once you find and document your existing data sources, here are some ways to extract valuable insights: 
+
+* Development history analysis. 
+
+    * Analyze commit patterns: Look for frequency trends, time-of-day patterns, and areas with high churn. 
+
+    * Examine pull request metrics: Review time-to-merge, review cycles, and comment patterns. 
+
+    * Track feature lifecycles: Identify abandoned projects, reverted changes, and their contexts. 
+
+    * Compare AI vs. non-AI development patterns: Review metrics between developers using AI tools and those using traditional approaches. Look for learning curves, productivity changes, and new friction points. 
+
+* Incident and failure analysis. 
+
+    * Connect code changes to incidents: Map specific commits or deployment patterns to system failures. Look for correlations with AI-assisted coding and AI-enabled toolchains. 
+
+    * Study incident reports: Identify recurring issues, response times, and root causes. 
+
+    * Review postmortem documentation: Extract lessons learned and improvement recommendations, and note any recurring patterns. 
+
+* Project documentation mining. 
+
+    * Analyze archived project specs: Understand reasons for project cancellations or pivots. 
+
+    * Review technical debt notes: Identify areas where shortcuts were taken and why. 
+
+    * Examine architecture decision documents: Learn from past decisions and their outcomes. 
+
+* Tool and platform usage. 
+
+    * Monitor CI/CD pipeline performance: Track build times, failure rates, and bottlenecks across both traditional and AI-assisted workflows. 
+
+    * Review platform support ticket patterns: Identify recurring developer pain points.
+
+    * Analyze tool adoption data: Understand which tools developers actually use vs. available tools.
+
 ### Chapter 21 - Use Surveys for Fast Insights
+
+"You can get actionable insights now through surveys."
+
+"A powerful DevEx survey doesn’t need to be long—and it shouldn’t be."
+
+"Measure value with the Sean Ellis Test. While active user metrics and satisfaction scores provide valuable signals, occasionally you need a more direct assessment of how essential your solution—or an existing tool—has become to users. The Sean Ellis Test offers a simple and powerful method that startup companies use to determine product-market fit, and it works equally well for internal developer tools. The test centers on a single powerful question: *“How would you feel if you could no longer use [your platform/tool]?”* With just three possible responses: Very disappointed; Somewhat disappointed ;Not disappointed (it isn’t that useful). Through extensive work with startups, Ellis found that products with strong market fit consistently have at least 40 percent of users answering they would be “very disappointed” if they could no longer use the tool. This threshold has become a reliable benchmark for product success." ... "However, be cautious when interpreting results for mandated tools where users have no alternatives. In these cases, consider adapting the question. For example: *“**If you had a choice of developer tools**, how would you feel if you could no longer use [current tool]?”* This framing helps distinguish between genuine tool value and organizational dependency. You can also pair the Ellis Test with satisfaction questions to better understand whether high disappointment scores reflect tool love or job necessity."
+
 ### Chapter 22 - Invest in System Metrics Over Time
 ### Chapter 23 - Make Sure You Capture the Right Data
 ### Chapter 24 - Turn Data Into Actionable Insights
