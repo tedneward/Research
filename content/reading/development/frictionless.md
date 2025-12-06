@@ -5,33 +5,33 @@ summary=Notes and thoughts from the book of the same name.
 
 *(Nicole Forsgren, Abi Noda; Shift Key Press Nov 2025; ISBN 978-1662966378)*
 
-As a general rule, this book is following the social media style of authorship, at a slightly larger scale: Instead of one sentence paragraphs, they're doing one- or two-page chapters. Overall, I'm not entirely impressed so far, particularly since I think a good chunk of the "seven steps" are just a retelling of Kotter's Change Management steps. Actually, as I go through the material, I begin to suspect a good chunk of it was written by an LLM. The case studies and examples probably aren't, but a lot of the prose in between feels very LLM-ish. Stuff in Step 3 feels more genuine and additive.
+*(As a general rule, this book is following the social media style of authorship, at a slightly larger scale: Instead of one sentence paragraphs, they're doing one- or two-page chapters. Overall, I'm not entirely impressed so far, particularly since I think a good chunk of the "seven steps" are just a retelling of Kotter's Change Management steps. Actually, as I go through the material, I begin to suspect a good chunk of it was written by an LLM. The case studies and examples probably aren't, but a lot of the prose in between feels very LLM-ish. Stuff in Step 3 feels more genuine and additive.)*
 
 # PART I Understanding DevEx 
 
 ## Chapter 1 - What is Developer Experience?
 
-"Developer experience isn’t just about making developers happy--it’s about removing friction that slows down your entire business."
+Developer experience isn’t just about making developers happy--it’s about removing friction that slows down your entire business.
 
 ## Chapter 2 - Why Developer Experience Matters 
 
-"Poor developer experience isn’t just about productivity--it can hide catastrophic business risks in plain sight."
+Poor developer experience isn’t just about productivity--it can hide catastrophic business risks in plain sight.
 
-"One morning in 2012, a developer at Knight Capital pushed a routine update. Nothing seemed off--until the system started hemorrhaging money. In just 45 minutes, a single change triggered $460 million in losses. The culprit? An old feature flag, long retired, accidentally reactivated by a deployment script. But the real problem wasn’t the bug--it was a development environment that made problems impossible to detect and fix quickly, turning a routine mistake into a company-ending disaster." -- Dolfing, Henrico. “Case Study 4: The $440 Million Software Error at Knight Capital.” 5 June 2019, www.henricodolfing.com/2019/06/project-failure-case-study-knight-capital.html.
+One morning in 2012, a developer at Knight Capital pushed a routine update. Nothing seemed off--until the system started hemorrhaging money. In just 45 minutes, a single change triggered $460 million in losses. The culprit? An old feature flag, long retired, accidentally reactivated by a deployment script. But the real problem wasn’t the bug--it was a development environment that made problems impossible to detect and fix quickly, turning a routine mistake into a company-ending disaster. (Dolfing, Henrico. “Case Study 4: The $440 Million Software Error at Knight Capital.” 5 June 2019, www.henricodolfing.com/2019/06/project-failure-case-study-knight-capital.html).
 
-"Fast-forward to July 2025: Jason Lemkin was using Replit’s AI coding assistant to build a database for his company SaaStr.AI. He explicitly set a “code freeze”—no changes to live data. But the AI ignored his instructions and deleted his entire production database." -- https://www.pcmag.com/news/vibe-coding-fiasco-replite-ai-agent-goes-rogue-deletes-company-database
+Fast-forward to July 2025: Jason Lemkin was using Replit’s AI coding assistant to build a database for his company SaaStr.AI. He explicitly set a “code freeze”—no changes to live data. But the AI ignored his instructions and deleted his entire production database. (https://www.pcmag.com/news/vibe-coding-fiasco-replite-ai-agent-goes-rogue-deletes-company-database)
 
-* "AI acceleration makes existing friction even more costly."
-* "Poor DevEx creates a competitive disadvantage that compounds over time."
-* "Developer experience has a positioning problem."
-* "Good developer experience isn’t just about making developers happy--it’s about removing friction to accelerate business outcomes."
-* "Developer experience acts as a force multiplier."
+* AI acceleration makes existing friction even more costly.
+* Poor DevEx creates a competitive disadvantage that compounds over time.
+* Developer experience has a positioning problem.
+* Good developer experience isn’t just about making developers happy--it’s about removing friction to accelerate business outcomes.
+* Developer experience acts as a force multiplier.
 
 ## Chapter 3 - Friction: The Value Killer 
 
-"Friction can slow any progress, especially in software, which is why improving DevEx is so important."
+Friction can slow any progress, especially in software, which is why improving DevEx is so important.
 
-"Friction is anything that slows down or gets in the way of completing work:
+Friction is anything that slows down or gets in the way of completing work:
 
 * *Onboarding friction.* New developers spend days or weeks struggling with incomplete documentation, waiting for system access approvals, and learning unintuitive toolsets before writing a single line of productive code. Even experienced developers face similar friction during laptop refreshes or system reimaging—losing valuable time during active sprints when their contributions are most needed. Remote developers struggle to find answers in documentation because reaching out for help means scheduling a meeting. 
 * *Codebase friction.* Insufficient abstractions force developers to touch many places to make simple changes, brittle monolithic fixtures accumulate over time making tests hard to extend, and patterns that once served the code well become obstacles as the system evolves. 
@@ -39,11 +39,11 @@ As a general rule, this book is following the social media style of authorship, 
 * *Process friction.* Multi-step approval processes, several iterations of review, and bureaucratic requirements often delay actual development work. The cost of this friction often becomes apparent during hackathons when process requirements are relaxed and innovation happens quickly. 
 * *Review friction.* Code reviews that should take hours stretch into days due to inefficient PR assignment, unclear code or module ownership (especially in monorepo environments), multiple review cycles caused by unclear requirements, and large and complicated PRs due to developers working in isolation. 
 * *Development friction.* Painfully slow build times, test suites that are unreliable and take ages to complete, incomplete test coverage, and flaky tests that fail intermittently without real issues waste developers’ time and break concentration during active coding sessions. 
-* *Deployment friction.* Rather than one-click deploys, developers write custom scripts for every code push because automation is incomplete, or spend hours manually gathering data from disparate systems to make deployment decisions."
+* *Deployment friction.* Rather than one-click deploys, developers write custom scripts for every code push because automation is incomplete, or spend hours manually gathering data from disparate systems to make deployment decisions.
 
-"Eliminating these friction points creates immediate business value."
+Eliminating these friction points creates immediate business value.
 
-"“Productivity” sets off alarm bells--”Experience” opens conversations."
+“Productivity” sets off alarm bells--”Experience” opens conversations.
 
 # PART II The Three Essential Elements of DevEx 
 
@@ -382,30 +382,157 @@ When considering your data, beware of common fallacies that can mislead your Dev
 
 ### Chapter 24 - Turn Data Into Actionable Insights
 
-"When you’re diving into DevEx data, start with the basics."
+When you’re diving into DevEx data, start with the basics.
 
-"Performance bottlenecks emerge when your statistical measures don’t align. The gap between median and average in the build time example points to infrastructure inconsistencies or problematic edge cases that are dragging down the development process."
+Performance bottlenecks emerge when your statistical measures don’t align. The gap between median and average in the build time example points to infrastructure inconsistencies or problematic edge cases that are dragging down the development process.
 
-"Usage patterns show up in frequency counts and trends over time. A trend line of deployment frequencies could reveal that teams deploy less often on Mondays—sparking questions about team workflows, meeting schedules, or even weekend incident recovery patterns."
+Usage patterns show up in frequency counts and trends over time. A trend line of deployment frequencies could reveal that teams deploy less often on Mondays—sparking questions about team workflows, meeting schedules, or even weekend incident recovery patterns.
 
-"Friction points can become visible through distributions and frequency counts. When you analyze where developers spend the most time or encounter the most errors, you can spot the bottlenecks."
+Friction points can become visible through distributions and frequency counts. When you analyze where developers spend the most time or encounter the most errors, you can spot the bottlenecks.
 
-"Visualizations are your friend--they transform abstract numbers into patterns that people can quickly grasp. A histogram of build times might immediately show you have a “long tail” of problematic builds, while a trend line of deployment frequencies could reveal that teams deploy less often on Mondays or the end of the fiscal year. These visual patterns often spark the right questions: “Why do we see this dip here?” or “What changed when this metric improved?” Even better, visualizations make it easier to share insights with stakeholders who might get lost in raw numbers."
+Visualizations are your friend--they transform abstract numbers into patterns that people can quickly grasp. A histogram of build times might immediately show you have a “long tail” of problematic builds, while a trend line of deployment frequencies could reveal that teams deploy less often on Mondays or the end of the fiscal year. These visual patterns often spark the right questions: “Why do we see this dip here?” or “What changed when this metric improved?” Even better, visualizations make it easier to share insights with stakeholders who might get lost in raw numbers.
 
-"You can do much of the analysis yourself, but sometimes it’s best to partner with a data scientist."
+You can do much of the analysis yourself, but sometimes it’s best to partner with a data scientist.
 
-"Privacy and security are important to consider when sharing results and visualizations." ... "A good rule is the Rule of 5: Never show data for groups smaller than five developers. This prevents someone from figuring out, say, which specific developer is struggling with a particular API or deployment system. Also, be extra careful with free-text comments in surveys—they can accidentally contain sensitive information."
+Privacy and security are important to consider when sharing results and visualizations. ... A good rule is the Rule of 5: Never show data for groups smaller than five developers. This prevents someone from figuring out, say, which specific developer is struggling with a particular API or deployment system. Also, be extra careful with free-text comments in surveys—they can accidentally contain sensitive information.
 
 ## STEP 4 Decide Strategy and Priority
 
+Every item on your ever-growing list is important to someone, but may not resonate with someone else.
+
 ### Chapter 25 - Focus Your DevEx Efforts
+
+Use RICE criteria to clarify decisions and create buy-in—now with real data.
+
+An important part of prioritizing is saying no. ... RICE helps you say no systematically by forcing you to evaluate the full picture—not just the loudest complaints or the most interesting technical challenges.
+
 ### Chapter 26 - Use Relevant Criteria to Set Priority for Developer Experience
+
+RICE can help you tease out projects that have a higher likelihood of success, targeting those with high reach, high impact, and high confidence, while keeping effort low.
+
+RICE = (Reach x Impact x Confidence) / Effort
+
+Reach measures how many developers are affected and how often. This is your foundation for understanding true impact scale. Possible questions to ask: 
+
+* How many developers does this affect? 
+* What’s the frequency of impact? (Daily friction usually trumps quarterly pain.) 
+* Does this affect high-leverage developers disproportionately? 
+
+Use consistent units across all calculations. For example, don’t mix “daily impacts” for some items with “number of developers affected” for others. This ensures a fair comparison across different types of improvements. 
+
+Impact assesses how significantly this change will improve developers’ daily experience. Questions to ask: 
+
+* Will developers immediately feel this improvement? 
+* How significantly will this change their daily experience? 
+* Does this remove a major constraint or just reduce minor friction? When scoring impact, use a simple 1-3 scale: 
+
+    * 1 = Low impact: Minor improvement to workflow. 
+    * 2 = Moderate impact: Noticeable productivity gain. 
+    * 3 = High impact: Major bottleneck elimination or significant time savings. 
+
+Confidence reflects how certain you are that the initiative will succeed as planned, and is typically estimated as a percentage (e.g., 80% confident). Consider: 
+
+* Technical feasibility and known solutions. 
+* Team expertise and capacity. 
+* Dependencies and potential blockers. 
+* Past experience with similar initiatives. 
+
+Effort measures the total investment needed, typically in person-months. Be sure to include: 
+
+* Development time. 
+* Testing and deployment. 
+* Documentation and training. 
+* Ongoing maintenance considerations.
+
+Look for business impact and strategic alignment. Start by asking, “Is it easy for me to talk about this challenge in terms of metrics that business leaders care about?” Equally important is considering, “How does this initiative align with or leverage existing work to maximize business value?”
+
+Think about collective vs. local action.
+
+Consider timelines, urgency, and organizational readiness. Key questions here include: 
+
+* “What challenge is best to tackle first because it is the fastest to complete?” 
+* “Do we have the right skills internally, or will this require external expertise?” 
+* “Can we address this challenge with our current resources and capabilities?” 
+* “Which challenges will get worse if we wait, and what problems will that create?” 
+* “How does this initiative align with our organization’s natural business rhythm?”
+
+Use constraints and risks. Great questions to ask here include: 
+
+* “What challenge should we tackle first because it represents a critical bottleneck in our development flow?” 
+* “Do we have control over the key dependencies needed for success?” 
+* “Can we implement this change with minimal disruption to existing workflows?”
+
+Don’t forget team and organizational factors. Ask yourself, “Which challenge allows us to strengthen our people and organization while solving technical problems?” Look for projects where team members can make meaningful contributions that showcase their expertise while creating opportunities for growth and recognition. The most successful initiatives align with teams’ professional development interests and incentives.
+
+Don’t forget other considerations. The examples above aren’t comprehensive–you’ll want to include criteria specific to your organization.
+
 ### Chapter 27 - See the Bigger Picture: Use a Quick Rubric
+
+Avoid getting lost in the weeds by looking at the big picture.
+
+Create your rubric. Start with the criteria that matter most for your organization. Common DevEx prioritization criteria include: 
+
+* RICE analysis 
+* Can be mapped to business value. 
+* Requires collective action. 
+* Aligns with timelines and rhythm of business. 
+* Is a constraint. 
+* Aligns with team goals. 
+* [Your context-specific questions here.]
+
+Make the most of your analysis. The combination of RICE scoring and strategic rubrics gives you perspective: 
+
+* Use RICE scores for quantitative justification, ROI calculations, and detailed resource planning. 
+* Use the rubric for strategic communication, stakeholder alignment, and big-picture decision making. 
+* When they conflict, consider whether your RICE inputs need adjustment or whether strategic factors (such as timeline or team capacity) should override pure numerical optimization.
 
 ## STEP 5 Sell Your Strategy
 
+Many DevEx teams underestimate the importance of strategic communications.
+
 ### Chapter 28 - Leverage Your Stakeholder Analysis for Effective Communication
+
+The relationships you’ve built and insights you’ve gathered during your listening tour will help you craft messages that resonate with each group.
+
+Remember your stakeholders are more than just developers.
+
+Tailor your approach based on stakeholder characteristics.
+
+Refine your stakeholder list with communication-specific details. "We often find it helpful to list key stakeholders and information in a table or a spreadsheet. This is handy for organization as well as identifying any information you may be missing for certain stakeholder groups. Your stakeholders—and the information you decide to collect—will differ. Here, you’ll identify major stakeholders, their motivation (why they care), what support level they need (skeptical, neutral, enthusiastic), your engagement strategy (inform, convince, collaborate), their information needs, their engagement strategy, and their preferred communication channels."
+
+Your stakeholders need to know what the problem is and why they should care. Don’t assume everyone sees the DevEx problems faced by your organization as clearly as you do. People come to the table with diverse backgrounds, shaping their views on what’s good, bad, or even possible in your systems. Some stakeholders may also have preconceived solutions—for instance, leadership might assume that adopting AI tools will automatically solve developer productivity challenges, without understanding the limitations of AI or the specific friction points that need addressing first.
+
+Use the EMI framework for stakeholder communications. When crafting DevEx communications, apply the EMI framework to ensure messages resonate with each stakeholder group:
+
+* E = Educate: Address knowledge gaps specific to their role and perspective.
+* M = Motivate: Connect DevEx improvements to their priorities and pain points.
+* I = Inform: Provide actionable details relevant to their involvement.
+
+Think of your DevEx initiative like a product—and “sell” it to your stakeholders. When communicating about your DevEx improvement initiative, adopt a product mindset to make your message more compelling. This approach helps you: 
+
+* Focus on solving specific problems rather than just implementing technology. 
+
+* Clearly articulate value in terms stakeholders understand. 
+
+* Create a coherent narrative about your initiative’s purpose and benefits. 
+
+For “investors” (leaders who fund your work), you’ll need to be able to briefly outline the business case, competitive landscape, and expected returns. For “customers” (developers and engineering managers), you’ll need to emphasize how your solution addresses their specific pain points. This product-based framing transforms abstract concepts like “improving developer experience” into concrete solutions that stakeholders can easily understand and support. For a more detailed approach to treating your DevEx tooling and automation ecosystem as a product, see the Third Practice: Make Technology Sustainable and Effective.
+
 ### Chapter 29 - Effective Messaging Takes Customization and Repetition
+
+*Psych 101.*
+
+Tell people what’s going on—and say it more than once.
+
+Give your DevEx initiative an identity.
+
+You’ll want more materials to help others confidently spread the word without always needing you.
+
+Build capability, not just awareness. "Effective DevEx communication goes beyond informing people—it builds their capability to understand, engage with, and champion your initiatives. Design your materials to move stakeholders through a three-stage progression: 
+
+* Understand. They grasp the big picture, value, why DevEx matters, and core terminology. 
+* Try. They use what they’ve learned to engage with the ideas and actively look for ways to support and enable your work. 
+* Activate. They mentor others, build capabilities in their teams, and provide recommendations for sustaining and improving DevEx initiatives.
 
 ## STEP 6 Drive Change at (Your) Scale
 
