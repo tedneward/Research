@@ -3,7 +3,7 @@ tags=language, reading, books, language development
 summary=This book covers compiler theory, design, and implementation.
 ~~~~~~
 
-[ML](https://www.cs.princeton.edu/~appel/modern/ml/) | [Java](https://www.cs.princeton.edu/~appel/modern/java) | [C](https://www.cs.princeton.edu/~appel/modern/c)
+[ML](https://www.cs.princeton.edu/~appel/modern/ml/) [PDF](/langdev/Modern_Compiler_Implementation_in_ML.pdf) | [Java](https://www.cs.princeton.edu/~appel/modern/java) | [C](https://www.cs.princeton.edu/~appel/modern/c) [PDF](/langdev/Modern_Compiler_Implementation_in_C.pdf)
 
 It is a textbook in two parts, each of about 12 chapters. Part I covers the implementation of "basic, hi-tech, modern" compilers, and is suitable for a one-semester undergraduate course. Part II will cover advanced material, and is suitable for a second semester course or a graduate course. The preliminary edition, published in 1997, contains only five chapters of Part II.
 
