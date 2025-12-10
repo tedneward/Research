@@ -284,7 +284,7 @@ If the types can be manipulated/changed at runtime, then the language is often s
 
 ---
 
-- [100 Languages Speedrun](https://dev.to/taw/series/15607)
+- [100 Languages Speedrun](https://dev.to/taw/series/15607) [Source](https://github.com/taw/100-languages-speedrun)
 
     - [100 Languages Speedrun: Episode 01: Python](https://dev.to/taw/100-languages-speedrun-episode-01-python-22c3)
     - [100 Languages Speedrun: Episode 02: Emojicode](https://dev.to/taw/100-languages-speedrun-episode-02-emojicode-1lbh)
