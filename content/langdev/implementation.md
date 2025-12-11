@@ -293,6 +293,7 @@ summary=Collection of articles and tutorials on implementing languages.
 
 - [Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/LangImpl01.html): the classic from the LLVM website
 - [Lepton](https://github.com/gingerBill/Lepton): Simple Programming Language
+- [ModLang](https://github.com/pranavmodx/modlang): A minimal, toy programming language implemented in C++ and STL
 - [Maverick](https://github.com/willianscsilva/interpreter)
 - [miniUni](https://github.com/gidra5/miniUni): A concurrent scripting language
 - [Pointless](https://ptls.dev/) ([Source](https://github.com/pointless-lang/pointless)): a scripting language for learning and fun.
