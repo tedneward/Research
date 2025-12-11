@@ -16,6 +16,7 @@ Popular
 * [CommodoreOS](https://www.commodoreos.net/): A Commodore-themed talking Linux desktop, complete with hundreds of games, makes for the biggest distro we've seen yet.
 * [Mint](https://linuxmint.com/)
 * [MX Linux](https://mxlinux.org/): a family of operating systems (and a cooperative venture between the antiX and MX Linux communities) that are designed to combine elegant and efficient desktops with high stability and solid performance.
+* [ObsidianOS](https://files.obsidianos.xyz/): ObsidianOS is a UEFI‑only, systemd‑based operating system for x86_64 systems, designed with an A/B partition layout for reliability. (At its core, ObsidianOS is a UEFI‑only, systemd‑based operating system for x86_64 systems, designed with an A/B partition layout for reliability. The A/B partition scheme means your root filesystem exists twice, partition A and partition B. When you update, the system writes to the inactive slot. If something goes wrong, you reboot into the previously working one.)
 * [Omarchy Linux](https://omarchy.org/): Linux image used by 37signals developers ("a clone of DHH's desktop") -- "an opinionated Arch + Hyprland Setup by DHH"
 * [Q4OS](https://q4os.org/): fast and friendly, desktop oriented operating system based on Debian Linux.
 * [Pop! OS](https://pop.system76.com/)

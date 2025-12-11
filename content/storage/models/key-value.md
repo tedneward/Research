@@ -7,3 +7,9 @@ summary=Thoughts and links.
 
 Triple-stores, a la RDF, go in here?
 
+## Reading
+
+### Articles/Blogs/Essays
+
+* ["Build Your Own Database"](https://www.nan.fyi/database): A step-by-step guide to building a key-value database from scratch.
+
