@@ -26,6 +26,12 @@ From [the CSS Snapshot doc](https://www.w3.org/TR/CSS/):
 
 [Flexbox Froggy](https://flexboxfroggy.com/): A cute Frogger-themed series of exercises practicing with CSS Flexbox styling.
 
+## Features
+
+### CSS Masonry
+
+- ["Masonry: Things Won't Need a Library For Anymore"](https://www.smashingmagazine.com/2025/12/masonry-things-you-wont-need-library-anymore/)
+
 ## Reading
 
 ### Books
@@ -65,3 +71,4 @@ From [the CSS Snapshot doc](https://www.w3.org/TR/CSS/):
 ### Articles
 
 * https://www.howtogeek.com/add-a-smooth-typewriter-animation-to-your-website-without-any-javascript/
+* [Crafting Generative CSS Worlds: Learn how stacked grids and 3D transforms can bring heightmaps to life using nothing but the power of CSS.](https://tympanus.net/codrops/2025/11/10/crafting-generative-css-worlds/)

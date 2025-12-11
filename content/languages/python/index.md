@@ -328,6 +328,7 @@ FFI for the standard CPython implementation
 * [A JIT Compiler for CPython](https://www.youtube.com/watch?v=HxSHIpEQRjs&ab_channel=encukou)
 * [Python's type system explained: Static vs dynamic typing | Guido van Rossum](https://www.youtube.com/watch?v=kSXZHRsWXfU)
 * [metap: A Meta-Programming Layer for Python](https://sbaziotis.com/compilers/metap.html)
+* [Building a Simple Data Quality DSL in Python](https://www.kdnuggets.com/building-a-simple-data-quality-dsl-in-python)
 
 ### Interesting examples:
 
