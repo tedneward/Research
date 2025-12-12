@@ -1,5 +1,5 @@
 title=FastAPI
-tags=library, python, http, browser
+tags=library, distribution, python, http, browser
 summary=A modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints.
 ~~~~~~
 
@@ -22,4 +22,10 @@ Disadvantages:
 
 * Small community: One of the major drawbacks of FastAPI is its small community. A small community can hinder Fast API Python development because there is less supporting documentation available freely. 
 * Lacks inbuilt security system: FastAPI lacks an inbuilt security system but uses fast API.security module. 
+
+## Reading
+
+### Articles, Blogs, Essays
+
+- [How to Implement HATEOAS in FastAPI (And Why Your API Needs It)](https://medium.com/@benothman.lotfi/how-to-implement-hateoas-in-fastapi-and-why-your-api-needs-it-7be5fac3a37d)
 

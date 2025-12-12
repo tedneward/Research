@@ -122,7 +122,6 @@ Transactions and commits
 
 ## Ideas and theory
 
-
 #### Languages and Tools
 
 * [Programming Distributed Erlang Applications: Pitfalls and Recipes](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.137.9417&rep=rep1&type=pdf) - Building reliable distributed applications isn't "just" using Erlang/OTP.
@@ -130,6 +129,10 @@ Transactions and commits
 #### Infrastructure
 
 * [Principles of Robust Timing over the Internet](https://queue.acm.org/detail.cfm?id=1773943) - Managing clocks is essential for even basics such as debugging
+
+#### Versioning
+
+* [API Versioning: A Deep Dive](https://irina.codes/api-versioning-a-deep-dive/)
 
 #### Storage
 

@@ -21,6 +21,13 @@ Collection of links about and around hardware.
 
 [10 Portable Apps That I Always Keep On a Flash Drive](https://www.howtogeek.com/10-portable-apps-that-i-always-carry-with-me-on-a-flash-drive/): LibreOffice Portable; Notepad++; ShareX (screen capture); Everything (a search utility); CrystalDiskInfo; FixWin11; HWMonitor; 7-Zip; Krita; VLC
 
+## Smart TVs
+
+[2 Accessories that add HDMI ports to your Smart TV](https://www.bgr.com/2034272/accessories-add-hdmi-ports-smart-tv/): 
+
+- AV receivers (provide additional functionality), such as [Denon AVR-S670H 5.2 Ch Home Theater Receiver, 8K UHD HDMI Receiver (75W x 5), Streaming via Built-in HEOS Bluetooth & Wi-Fi, Dolby TrueHD, Dolby Pro Logic II DTS HD Surround Sound System for TV](https://www.amazon.com/dp/B0CCQM6BNG?th=1)
+- "plain" HDMI splitter, such as [UGREEN HDMI 5-in-1 Switch](https://www.amazon.com/dp/B09Y14JSFH?th=1)
+
 ## Remote access-in-the-cloud
 [Rent a Mac in the Cloud](http://www.macincloud.com/)
 

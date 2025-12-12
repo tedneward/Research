@@ -19,6 +19,10 @@ summary=Collection of links and notes about self-contained portable computers.
 
 [TUXEDO](https://www.tuxedocomputers.com/index.php): European-based (prices in EUR)
 
+[XMG](https://www.xmg.gg/en/): Assembled in Germany; gaming laptop focus
+
+- [XMG EVO 14 E25](https://www.xmg.gg/en/xmg-evo-14-e25/)
+
 ## Other portable computing
 
 Beepy: [Review: Beepy, a palm-sized Linux hacking playground](https://hackaday.com/2023/08/07/review-beepy-a-palm-sized-linux-hacking-playground/)

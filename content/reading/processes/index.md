@@ -16,6 +16,8 @@ summary=A collection of links to papers about the process of building software (
 
 "The combination of Agile principles and Scrum practices is disastrous for startups. These are operational directives from management; designers, PM’s, and engineers are not self-organizing and choosing to work this way. It’s all in the name of an "MVP" and time to market; this is what happens. *Every. Time.*"
 
+["Real options" underlie agile practices](https://www.infoq.com/articles/real-options-enhance-agility/): Whether people realise it or not, "freedom to choose" is the underlying principle behind many of the agile practices. We call this principle Real Options. An understanding of Real Options allows us to develop and refine new agile practices and take agile into directions it hasn't gone before. Real Options also help us understand why some people resist some of the practices. *(I disagree with the premise, but the rest of the article has some good weight to it.)*
+
 ["Software Development Waste"](https://www.researchgate.net/publication/313360479_Software_Development_Waste): "The purpose of this paper is to identify and describe different kinds of waste in software development."
 
 [Agile Planning: From Ideas to Story Cards](https://launchschool.com/books/agile_planning) - Launch School

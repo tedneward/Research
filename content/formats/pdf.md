@@ -1,6 +1,6 @@
 title=Portable Document Format (PDF)
 summary=A cross-platform format for rendering pixel-correct pages.
-tags=format, presentation, language
+tags=format, presentation, language, tool
 ~~~~~~
 
 A file format developed by Adobe in the 1990s to present documents, including text formatting and images, in a manner independent of application software, hardware, and operating systems. Based on the [PostScript](PostScript) language, each PDF file encapsulates a complete description of a fixed-layout flat document, including the text, fonts, vector graphics, raster images and other information needed to display it. PDF was standardized as ISO 32000 in 2008, and no longer requires any royalties for its implementation.
@@ -13,7 +13,7 @@ The PDF combines three technologies:
 * A font-embedding/replacement system to allow fonts to travel with the documents.
 * A structured storage system to bundle these elements and any associated content into a single file, with data compression where appropriate.
 
-Extensions:
+## Extensions:
 
 * **PDF/A** ([Part 1](http://www.iso.org/iso/catalogue_detail?csnumber=38920) [Part 2](http://www.iso.org/iso/catalogue_detail?csnumber=50655) [Part 3](http://www.iso.org/iso/catalogue_detail?csnumber=57229)): an ISO-standardized version of the Portable Document Format (PDF) specialized for use in the archiving and long-term preservation of electronic documents. PDF/A differs from PDF by prohibiting features unsuitable for long-term archiving, such as font linking (as opposed to font embedding) and encryption.
 
@@ -28,4 +28,11 @@ Extensions:
     * [PDF/X-3:2003](https://www.iso.org/standard/39940.html)
     * [PDF/X-4](https://www.iso.org/standard/42876.html)
     * [PDF/X-5](https://www.iso.org/standard/42877.html)
+
+## Tools
+
+- [Bento PDF](https://bentopdf.com/) [Source](https://github.com/alam00000/bentopdf): BentoPDF covers everything from basic organization to more advanced professional tasks. Core features include the ability to reorganize, rotate, and delete pages within a document.
+- [Okular](https://okular.kde.org/): Lightweight, open-source (Windows, macOS, Linux)
+- [Small PDF](https://smallpdf.com/): A web-based PDF editor
+- [Stirling PDF](https://www.stirlingpdf.com/) [Source](https://github.com/Stirling-Tools/Stirling-PDF): A self-hosting PDF editor
 

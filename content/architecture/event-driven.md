@@ -1,7 +1,11 @@
-title=Event-Driven/Event-Sourcing Architecture
+title=Event-Driven/Event-Sourcing/Event Modeling Architecture
 tags=architecture, event
 summary=An approach to building systems via events.
 ~~~~~~
+
+## Tools
+
+- [Miro Event Modeling Toolkit](https://www.eventmodelers.de/): Build event-driven systems with visual Event Modeling directly in Miro. Design, collaborate, and generate code from your event models.
 
 ## Reading
 

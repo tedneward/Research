@@ -28,3 +28,5 @@ summary=Thoughts and links.
 ### Articles
 
 - https://thenewstack.io/how-to-master-vector-databases/
+- [Vector databases: Shiny object syndrome and the case of a missing unicorn](https://venturebeat.com/ai/vector-databases-shiny-object-syndrome-and-the-case-of-a-missing-unicorn)
+- [From shiny object to sober reality: The vector database story, two years later](https://venturebeat.com/ai/from-shiny-object-to-sober-reality-the-vector-database-story-two-years-later)

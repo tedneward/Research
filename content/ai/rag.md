@@ -3,6 +3,9 @@ tags=ai
 summary=Concepts, notes, links, reading
 ~~~~~~
 
+## Reading
+
+### Articles
 [Reduce AI Hallucinations with Retrieval Augmented Generation](https://thenewstack.io/reduce-ai-hallucinations-with-retrieval-augmented-generation/):
 
 In the rapidly evolving world of AI, large language models have come a long way, boasting impressive knowledge of the world around us. Yet LLMs, as intelligent as they are, often struggle to recognize the boundaries of their own knowledge, a shortfall that often leads them to “hallucinate” to fill in the gaps. A newly devised technique, known as retrieval augmented generation (RAG), shows promise in efficiently increasing the knowledge of these LLMs and reducing the impact of hallucination by enabling prompts to be augmented with proprietary data.
@@ -18,4 +21,6 @@ In a simple world, the answer would be to provide the model with relevant propri
 ***RAG Versus Fine-Tuning*** Fine-tuning offers many benefits for optimizing LLMs. But it’s also got some limitations. For one, it doesn’t allow for dynamic integration of new or proprietary data. The model’s knowledge remains static post-training, leading it to hallucinate when asked about data outside of its training set. RAG, on the other hand, dynamically retrieves and incorporates up-to-date and proprietary data from an external database, mitigating the hallucination issue and providing more contextually accurate responses. RAG gives you query-time control over exactly what information is provided to the model, allowing prompts to be tailored to specific users at the exact time a query is made. RAG is also more computationally efficient and flexible than fine-tuning. Fine-tuning requires the entire model to be retrained for each dataset update, a time-consuming and resource-intensive task. Conversely, RAG only requires updating the document vectors, enabling easier and more efficient information management. RAG’s modular approach also allows for the fine-tuning of the retrieval mechanism separately, permitting adaptation to different tasks or domains without altering the base language model. RAG enhances the power and accuracy of large language models, making it a compelling alternative to fine-tuning. In practice, enterprises tend to use RAG more often than fine-tuning.
 
 ***Changing the Role of LLMs with RAG*** Integrating RAG into LLMs doesn’t only improve the accuracy of their responses, but it also maximizes their potential. The process enables LLMs to focus on what they excel at: intelligently generating content from a prompt. The model is no longer the sole source of information because RAG provides it with relevant proprietary knowledge when required, and the corpus of knowledge accessible to the model can be expanded and updated without expensive model-training jobs. In essence, RAG acts as a bridge, connecting the LLM to a reservoir of knowledge that goes beyond its internal capabilities. As a result, it drastically reduces the LLM’s tendency to “hallucinate” and provides a more accurate and efficient model for users.
+
+[Building a RAG system that runs completely offline](https://hackernoon.com/building-a-rag-system-that-runs-completely-offline)
 

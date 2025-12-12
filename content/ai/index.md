@@ -35,6 +35,7 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 
 ## Criticism
 
+- [AI Underpants Gnomes: The Missing Step in Your Strategy](https://www.jsnover.com/blog/2025/11/18/ai-underpants-gnomes-the-missing-step-in-your-strategy/)
 - ["The Copilot Delusion"](https://deplet.ing/the-copilot-delusion/)
 - [The Hidden Costs of Coding With Generative AI](https://sloanreview.mit.edu/article/the-hidden-costs-of-coding-with-generative-ai/)
 - [The Hidden Costs of AI Coding Assistants: Insights from a Senior Developer](https://blog.devgenius.io/the-hidden-costs-of-ai-coding-assistants-insights-from-a-senior-developer-76274fe6b345)
@@ -48,10 +49,8 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
     - [Pop Culture](https://www.wheresyoured.at/pop-culture/)
 
 - [We need to stop pretending AI is intelligent -- here's how](https://theconversation.com/we-need-to-stop-pretending-ai-is-intelligent-heres-how-254090)
-- [Aritificial intelligence is not intelligent at all](https://www.basicthinking.com/artificial-intelligence-is-not-intelligent-at-all-say-researchers/)
 - [AI: Not That Smart](https://columbiacommunityconnection.com/the-dalles/column-ai-not-that-smart)
 - [Building AI Products In The Probabilistic Era](https://giansegato.com/essays/probabilistic-era): "Just as physics underwent a conceptual revolution when we moved past Newton's deterministic universe, and into a strange and counterintuitive place made by wave functions, software too is undergoing its own quantum shift. We're leaving a world where code reliably and deterministically takes certain inputs to produce specific outputs, and entering a very different one where machines now produce statistical distributions instead. *Building probabilistic software is like nothing we've done before.*"
-- ["The LLMentalist Effect: how chat-based Large Language Models replicate the mechanisms of a psychic’s con"](https://softwarecrisis.dev/letters/llmentalist/)
 - ["AI coding tools make developers slower but they think they're faster, study finds"](https://www.theregister.com/2025/07/11/ai_code_tools_slow_down/)
 - [Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/): "We conduct a randomized controlled trial (RCT) to understand how early-2025 AI tools affect the productivity of experienced open-source developers working on their own repositories. Surprisingly, we find that when developers use AI tools, they take 19% longer than without—AI makes them slower. We view this result as a snapshot of early-2025 AI capabilities in one relevant setting; as these systems continue to rapidly evolve, we plan on continuing to use this methodology to help estimate AI acceleration from AI R&D automation." ([full paper](https://arxiv.org/abs/2507.09089))
 
@@ -174,6 +173,9 @@ An AI model designed to handle specific tasks, using fewer parameters and less c
 * [Wikipedia: Prompt Engineering - Retrieval Augmented Generation](https://en.wikipedia.org/wiki/Prompt_engineering#Retrieval-augmented_generation)
 * ["Cognita: An Open Source Framework for Building Modular RAG Applications"](https://www.marktechpost.com/2024/05/27/cognita-an-open-source-framework-for-building-modular-rag-applications/)
 
+### AI Agent Knowledge Base
+
+* [Anatomy of an AI Agent Knowledge Base](https://www.infoworld.com/article/4091400/anatomy-of-an-ai-agent-knowledge-base.html)
 
 ### Coding Assistants
 

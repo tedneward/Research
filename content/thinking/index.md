@@ -12,8 +12,10 @@ summary=A collection of links (usually to articles) about the various forms of t
 ### Articles/Blogs/Essays/Tweet threads
 
 * ["5 Life Lessons from 'Gambler's Ruin'"](https://mem.ai/p/IF6JxsnWgyLoIEJsVytu)
+* [Survivorship Bias: The exact backstory to that picture of an airplane with red dots on top of it.](https://yuxi.ml/logs/posts/2025-survivorship-bias/)
 
 ## Reading
+
 * [A Computational Introduction to Number Theory and Algebra](https://shoup.net/ntb/) - Victor Shoup
 * [A Computational Logic (1979)](https://www.cs.utexas.edu/users/boyer/acl.pdf) - Robert S. Boyer and J Strother Moore (PDF)
 * [A First Course in Complex Analysis](http://math.sfsu.edu/beck/complex.html) - Matthias Beck, Gerald Marchesi, Dennis Pixton, Lucas Sabalka
