@@ -5,8 +5,6 @@ summary=A collection of links around artificial intelligence (and all the differ
 tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 ~~~~~~
 
-## Uncategorized (yet)
-
 ## General
 
 - [The 10+1 Commandments of Human AI Co-Existence](https://10plus1.ai/): "The 10+1 is a standard. Not everyone will adopt it - but those who do will lead the next era. If you're a policymaker, don't wait for regulation to catch up. If you're a CEO, don't wait for PR fallout to act with integrity. If you're building AI, don't just ask if it works - ask if it's worthy. We don't need more frameworks. We need a philosophical backbone. This is it."
@@ -123,7 +121,7 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 
 ## Definitions
 
-### [Expert Systems](/tags/expert%20system.html)/[Rules Engines](/tags/rules.html)
+### [Expert Systems](/tags/expert%20system.html) / [Rules Engines](/tags/rules.html)
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Expert_system)
 
@@ -141,22 +139,11 @@ Java:
 - https://commons.apache.org/sandbox/commons-text/jacoco/org.apache.commons.text.similarity/FuzzyScore.java.html
 - https://mvnrepository.com/artifact/com.github.cschen1205/java-fuzzy-logic/1.0.1
 
-### Natural Language Processing
+### Neural Networks
 
 * [You Don't Need Backpropagation To Train Neural Networks Anymore](https://ai.gopubby.com/you-dont-need-backpropagation-to-train-neural-networks-anymore-e989d75564cb)
-* [Wikipedia](https://en.wikipedia.org/wiki/Natural_language_processing)
-* [HBR: "The Power of Natural Language Processing"](https://hbr.org/2022/04/the-power-of-natural-language-processing)
-* ["Natural language processing: an introduction"](https://academic.oup.com/jamia/article/18/5/544/829676)
-* ["Natural language processing: an annual review" (2003)](https://strathprints.strath.ac.uk/2611/1/strathprints002611.pdf)
-* ["Advances in natural language processing"](https://nlp.stanford.edu/~manning/xyzzy/Hirschberg-Manning-Science-2015.pdf)
-* ["Google Launched LangExtract, a Python Library for Structured Data Extraction from Unstructured Text"](https://www.infoq.com/news/2025/08/google-langextract-python/)
 
-### Natural Language Programming
-
-* [Extract, Edit, Apply](https://githubnext.com/projects/extract-edit-apply/)
-* [A design pattern for AI](https://dsyme.net/2025/02/12/extract-edit-apply/)
-* [On natural language programming](https://dsyme.net/2025/08/27/on-natural-language-programming/)
-* [Why Kind of Programming is Natural Language Programming?](https://dsyme.net/2025/09/02/what-kind-of-programming-is-natural-language-programming/)
+### [Natural Language](/ai/natural-language)
 
 ### [Large Language Models (LLMs)](/ai/llm/)
 
@@ -172,10 +159,6 @@ An AI model designed to handle specific tasks, using fewer parameters and less c
 
 * [Wikipedia: Prompt Engineering - Retrieval Augmented Generation](https://en.wikipedia.org/wiki/Prompt_engineering#Retrieval-augmented_generation)
 * ["Cognita: An Open Source Framework for Building Modular RAG Applications"](https://www.marktechpost.com/2024/05/27/cognita-an-open-source-framework-for-building-modular-rag-applications/)
-
-### AI Agent Knowledge Base
-
-* [Anatomy of an AI Agent Knowledge Base](https://www.infoworld.com/article/4091400/anatomy-of-an-ai-agent-knowledge-base.html)
 
 ### Coding Assistants
 
@@ -246,4 +229,9 @@ An AI model designed to handle specific tasks, using fewer parameters and less c
 ### Semantic Entity Resolution (Knowledge Graphs) (?)
 
 * [The Rise of Semantic Entity Resolution](https://towardsdatascience.com/the-rise-of-semantic-entity-resolution/)
+
+### AI Agent Knowledge Base
+
+* [Anatomy of an AI Agent Knowledge Base](https://www.infoworld.com/article/4091400/anatomy-of-an-ai-agent-knowledge-base.html)
+* [Graphiti](https://help.getzep.com/graphiti/getting-started/welcome) ([Source](https://github.com/getzep/graphiti)): a Python framework for building temporally-aware knowledge graphs designed for AI agents. It enables real-time incremental updates to knowledge graphs without batch recomputation, making it suitable for dynamic environments where relationships and information evolve over time.
 
