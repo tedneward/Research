@@ -5,6 +5,8 @@ summary=Collection of links, notes, and models.
 
 ## Reading
 
+### General
+
 * Sebastian Raschka:
 
     * [Understanding Reasoning LLMs](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms)
@@ -13,12 +15,8 @@ summary=Collection of links, notes, and models.
     * [Understanding the 4 Main Approaches to LLM Evaluation (From Scratch)](https://magazine.sebastianraschka.com/p/llm-evaluation-4-approaches): Multiple-Choice Benchmarks, Verifiers, Leaderboards, and LLM Judges
     * [Coding LLMs from Scratch: The Complete Course](https://magazine.sebastianraschka.com/p/coding-llms-from-the-ground-up) [Source](https://github.com/rasbt/LLMs-from-scratch)
 
-* [The Large Language Model Course](https://huggingface.co/blog/mlabonne/llm-course)
-* ["Understanding the Dark Side of Large Language Models: A Comprehensive Guide to Security Threats and Vulnerabilities"](https://www.marktechpost.com/2023/09/01/understanding-the-dark-side-of-large-language-models-a-comprehensive-guide-to-security-threats-and-vulnerabilities/)
-* ["Use of LLMs for Illicit Purposes: Threats, Prevention Measures, and Vulnerabilities"](https://arxiv.org/abs/2308.12833)
+* [BUILDING AN INTELLIGENT ARCHITECTURE AGENT: LEVERAGING LLMS FOR AUTOMATED DIAGRAM GENERATION AND DOCUMENTATION](https://stal.blogspot.com/2025/09/building-intelligent-architecture-agent.html?m=1)
 * ["Researchers from Virginia Tech and Microsoft Introduce Algorithm of Thoughts: An AI Approach That Enhances Exploration of Ideas And Power of Reasoning In Large Language Models (LLMs)"](https://www.marktechpost.com/2023/08/31/researchers-from-virginia-tech-and-microsoft-introduce-algorithm-of-thoughts-an-ai-approach-that-enhances-exploration-of-ideas-and-power-of-reasoning-in-large-language-models-llms/)
-* ["How to Build a Large Language Model from Scratch Using Python"](https://www.freecodecamp.org/news/how-to-build-a-large-language-model-from-scratch-using-python/)
-* ["How to build knowledge graphs using LLMs"](https://www.geeky-gadgets.com/building-knowledge-graphs-using-llms/)
 * ["Language Models are Few-Shot Learners"](https://dl.acm.org/doi/pdf/10.5555/3495724.3495883): "We demonstrate that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even becoming competitive with prior state-ofthe-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous nonsparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks. We also identify some datasets where GPT3’s few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora."
 * ["Boost your AI Apps with DSLs"](https://www.typefox.io/blog/boost-your-ai-apps-with-dsls/)
 * "Why LLMs get called “stochastic parrots”: That label (from Bender et al., 2021) was meant as a caution: Mimicry over meaning: LLMs are trained to predict the next word, not to “understand.”; Surface fluency: They can generate convincing text that looks like knowledge without grounding in truth.; Bias and error risks: Because they remix training data, they can reinforce biases or produce confident nonsense.
@@ -28,7 +26,14 @@ summary=Collection of links, notes, and models.
 * [How to Choose the Best Open Source LLM for Your Project in 2025](https://huggingface.co/blog/dvilasuero/choosing-best-open-source-ai-models)
 * [A Survey of Reinforcement Learning for Large Reasoning Models](https://huggingface.co/papers/2509.08827): "In this paper, we survey recent advances in Reinforcement Learning (RL) for reasoning with Large Language Models (LLMs). RL has achieved remarkable success in advancing the frontier of LLM capabilities, particularly in addressing complex logical tasks such as mathematics and coding. As a result, RL has emerged as a foundational methodology for transforming LLMs into LRMs. With the rapid progress of the field, further scaling of RL for LRMs now faces foundational challenges not only in computational resources but also in algorithm design, training data, and infrastructure. To this end, it is timely to revisit the development of this domain, reassess its trajectory, and explore strategies to enhance the scalability of RL toward Artificial SuperIntelligence (ASI). In particular, we examine research applying RL to LLMs and LRMs for reasoning abilities, especially since the release of DeepSeek-R1, including foundational components, core problems, training resources, and downstream applications, to identify future opportunities and directions for this rapidly evolving area. We hope this review will promote future research on RL for broader reasoning models. Github: https://github.com/TsinghuaC3I/Awesome-RL-for-LRMs"
 * [How to Enrich LLM Context to Significantly Enhance Capabilities](https://towardsdatascience.com/how-to-enrich-llm-context-to-significantly-enhance-capabilities/)
+
+### Implementation
+
 * [Deploy an AI Analyst in Minutes: Connect Any LLM to Any Data Source with Bag of Words](https://www.kdnuggets.com/deploy-an-ai-analyst-in-minutes-connect-any-llm-to-any-data-source-with-bag-of-words)
+* ["How to Build a Large Language Model from Scratch Using Python"](https://www.freecodecamp.org/news/how-to-build-a-large-language-model-from-scratch-using-python/)
+* ["How to build knowledge graphs using LLMs"](https://www.geeky-gadgets.com/building-knowledge-graphs-using-llms/)
+* [The Large Language Model Course](https://huggingface.co/blog/mlabonne/llm-course)
+* [Developing LLM-Based Text Adventure Games](https://stal.blogspot.com/2025/09/developing-llm-based-text-adventure.html)
 
 ### Critique
 
@@ -47,6 +52,11 @@ summary=Collection of links, notes, and models.
 - [Aritificial intelligence is not intelligent at all](https://www.basicthinking.com/artificial-intelligence-is-not-intelligent-at-all-say-researchers/)
 - [Researchers discover a shortcoming that makes LLMs less reliable](https://news.mit.edu/2025/shortcoming-makes-llms-less-reliable-1126)
 - ["The LLMentalist Effect: how chat-based Large Language Models replicate the mechanisms of a psychic’s con"](https://softwarecrisis.dev/letters/llmentalist/)
+
+### Security
+
+* ["Understanding the Dark Side of Large Language Models: A Comprehensive Guide to Security Threats and Vulnerabilities"](https://www.marktechpost.com/2023/09/01/understanding-the-dark-side-of-large-language-models-a-comprehensive-guide-to-security-threats-and-vulnerabilities/)
+* ["Use of LLMs for Illicit Purposes: Threats, Prevention Measures, and Vulnerabilities"](https://arxiv.org/abs/2308.12833)
 
 ## Models
 

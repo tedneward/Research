@@ -17,6 +17,7 @@ summary=An approach to building systems via events.
 - ["The Case for Event-Driven Architecture with Mediator Topology"](https://www.infoq.com/articles/eda-mediator/)
 - [The What, Why, and How of Event-Driven Programming](https://quix.io/blog/what-why-how-of-event-driven-programming)
 - [What do commands do in Event Sourcing](https://ismaelcelis.com/posts/what-do-commands-do-in-event-sourcing/)
+- [Handling events coming in an unknown order](https://event-driven.io/en/strict_ordering_in_event_handling/)
 
 Rahul Krishnan's blog:
 

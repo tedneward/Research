@@ -19,6 +19,8 @@ summary=Random collection of long-form thoughts.
 
 - [The Rise of "Worse is Better"](http://doc.cat-v.org/programming/worse_is_better) by Richard P. Gabriel
 
+- [The Price of Mandatory Code Reviews](https://workweave.dev/blog/the-price-of-mandatory-code-reviews)
+
 ## Steve Yegge's rants
 
 - [Universal Design Pattern](http://steve-yegge.blogspot.com/2008/10/universal-design-pattern.html): "Today I thought I'd talk about a neat design pattern that doesn't seem to get much love: the Properties Pattern. In its fullest form it's also sometimes called the Prototype Pattern." Talks about three forms of modeling:
