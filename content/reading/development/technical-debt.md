@@ -487,6 +487,74 @@ Instead of relying solely on metrics, emphasize the feedback and insights provid
 
 ---
 
+## Table of Tech Debt ideas
+
+```
+Metric Name,Description,Category,Primary Source,Probability of Existing,Ease of Collection,Importance (Why track this?)
+1. Cyclomatic Complexity,A quantitative measure of the number of linearly independent paths through a program's source code.,Engineering,SonarQube,High,Easy (Out of box),High complexity increases defect probability and makes testing/refactoring exponentially harder.
+2. Cognitive Complexity,"A measure of how difficult a unit of code is to intuitively understand (unlike Cyclomatic, which measures structural logic).",Engineering,SonarQube,Medium,Easy (Out of box),"Directly correlates to ""time to read"" and onboarding costs for new developers."
+3. Code Coverage,The percentage of code lines executed by automated unit/integration tests.,Engineering,SonarQube / JaCoCo,High,Easy (CI Integration),"Low coverage implies ""Blind Spots"" where regressions can occur without detection."
+4. Code Duplication %,The percentage of code blocks that appear identical or nearly identical in multiple places.,Engineering,SonarQube,High,Easy (Out of box),Violates DRY (Don't Repeat Yourself); a bug fix in one spot must be manually replicated.
+5. SQALE Rating (Debt Ratio),An aggregated rating (A-E) based on the estimated time required to fix all maintainability issues.,Engineering,SonarQube,Medium,Easy (Config needed),"Provides a high-level ""Credit Score"" for codebases that executives can easily understand."
+6. Code Churn,"The volume of lines added, modified, or deleted over a specific time period.",Engineering,GitHub Ent.,High,Medium (Git mining),"High churn in legacy files often indicates ""Hotspots"" of instability or unclear requirements."
+7. TODO/FIXME Count,The count of code comments explicitly flagged as temporary workarounds or deferred maintenance.,Engineering,SonarQube / Grep,High,Easy (Regex search),"A literal ""IOU"" list developers have left in the code; indicates rushed features."
+8. Deployment Frequency,How often an organization successfully releases to production.,Delivery (DORA),Jenkins / GitHub,Medium,Medium (Log parsing),"Low frequency often implies brittle pipelines, manual gates, or fear of breaking production."
+9. Lead Time for Changes,The amount of time it takes a commit to get into production.,Delivery (DORA),Jira / GitHub,Low,Hard (Correlating tools),"Long lead times indicate pipeline bottlenecks, slow code reviews, or manual testing debt."
+10. Change Failure Rate,The percentage of deployments causing a failure in production.,Delivery (DORA),ServiceNow / Jira,Medium,Hard (Manual tagging),"High failure rates indicate ""Quality Debt""—lack of automated testing or reliable staging."
+11. Mean Time to Recovery,How long it takes to restore service after a failure.,Delivery (DORA),PagerDuty,High,Medium (Incident tools),"High MTTR suggests ""Observability Debt""—it takes too long to diagnose and patch issues."
+12. Flaky Test Ratio,The percentage of automated tests that fail and pass without code changes.,Delivery,CI Tool,Low,Hard (Log analysis),"Destroys trust in the CI/CD pipeline, causing developers to ignore red builds."
+13. Build Duration,The time it takes for a full CI/CD pipeline to run.,Delivery,CI Tool,High,Easy (CI Logs),"Slow builds break flow state and discourage frequent commits, leading to larger riskier merges."
+14. Library Freshness,A measurement of how many versions behind the current stable release your dependencies are.,Cyber / Platform,Snyk / Dependabot,Medium,Easy (SaaS Tools),Outdated libraries prevent using new features and eventually become security liabilities.
+15. Critical/High CVEs,Count of known security vulnerabilities in code or dependencies.,Cyber,Snyk / Veracode,High,Easy (Scanners),"Immediate risk of breach; represents ""Security Debt"" that must be paid immediately."
+16. Secret Leaks Count,"Number of hardcoded secrets (API keys, passwords) detected in the codebase.",Cyber,TruffleHog,Low,Medium (Scanners),"Indicates poor security practices and requires immediate, expensive rotation of credentials."
+17. IAM Over-provisioning,Percentage of permissions granted vs. permissions actually used by services.,Cyber,AWS IAM Analyzer,Low,Hard (Cloud audit),"""Least Privilege"" debt; increases blast radius if a service is compromised."
+18. Infrastructure Drift,The delta between the defined IaC (Terraform) and the actual state of the cloud environment.,Infrastructure,Terraform / Driftctl,Low,Medium (State diffs),"Indicates ""ClickOps"" (manual changes) are happening, making disaster recovery unreliable."
+19. Cloud Asset Utilization,"Measure of provisioned CPU/RAM vs. actual usage (e.g., idle instances).",Infrastructure,AWS Cost Explorer,High,Easy (Cloud Native),Financial debt; paying for resources that aren't delivering value due to poor optimization.
+20. Legacy OS Instances,Count of servers running on End-of-Life (EOL) Operating Systems.,Infrastructure,CMDB / Console,Medium,Medium (Inventory),High operational risk; EOL systems cannot be patched against new exploits.
+21. IaC Coverage %,Percentage of cloud infrastructure managed via code vs. manual console creation.,Infrastructure,Terraform,Low,Hard (Manual Audit),Low coverage means environments cannot be easily replicated or restored.
+22. Cyclic Dependencies,"Number of cycles between packages/modules (A depends on B, B depends on A).",Architecture,SonarQube,Low,Medium (Static Analysis),Makes code tightly coupled; you cannot change one module without breaking the other.
+23. God Class Count,"Classes that exceed a high threshold of Lines of Code (e.g., >2000 LOC) or methods.",Architecture,SonarQube,High,Easy (Static Analysis),"These classes know too much, are hard to test, and usually become the bottleneck for changes."
+24. API Contract Breaking,Frequency of backward-incompatible changes to internal/external APIs.,Architecture,Pact / Swagger,Low,Hard (Diffing specs),High frequency breaks downstream consumers and forces unplanned refactoring work.
+25. Afferent/Efferent Coupling,Measures stability (how many rely on you) vs. instability (how many you rely on).,Architecture,ArchUnit,Low,Medium (Tooling req.),High coupling makes the architecture rigid; changing one component ripples through the system.
+26. Monolith Size (LOC),Total Lines of Code in a single deployable unit (if microservices strategy is desired).,Architecture,SonarQube / Git,High,Easy (LOC Count),"If the goal is decoupling, a growing monolith represents negative architectural progress."
+27. Bus Factor,The minimum number of developers required to hit by a bus before the project stalls.,Process,Git Analytics,Low,Hard (Algo required),"Low bus factor (e.g., 1) indicates knowledge silos and ""Knowledge Debt."""
+28. Defect Backlog Age,The average time known non-critical bugs sit in the backlog.,Product,Jira,High,Medium (JQL Query),"Old bugs are rarely fixed; they clutter the view and represent ""Product Debt."""
+29. Onboarding Time,"Time from ""Day 1"" to ""First PR Merged"" for a new engineer.",Process,HR + GitHub,Low,Hard (Manual data),Proxy for documentation quality and environment complexity. Long onboarding = high complexity.
+30. DB Schema Version Lag,Difference between production schema version and migration scripts.,Data,Flyway,Medium,Medium (DB Tools),Indicates manual DB patches or dangerous divergence between code and database state.
+31. Dead Code / Unused Tables,Methods or DB tables that have zero usage references.,Data,Sonar / Logs,Medium,Hard (Usage analysis),Clutter that confuses developers and wastes backup/storage resources.
+32. Documentation Staleness,Average age of files in the /docs or Wiki compared to current date.,Process,Confluence,Medium,Medium (API Metadata),Outdated docs are worse than no docs; they mislead engineers and cause outages.
+33. PR Review Time,Average time elapsed between a Pull Request being opened and merged/closed.,Process,GitHub,High,Easy (API available),Long review times block value delivery and increase merge conflicts (Process Debt).
+34. Branch Lifespan,The duration a feature branch exists before being merged.,Delivery,GitHub / Git,High,Easy (Git logs),"Long-lived branches drift from main, leading to ""Merge Hell"" and integration debt."
+35. Merge Conflict Rate,Percentage of PRs that require manual conflict resolution.,Delivery,GitHub / Git,Low,Medium (Git stats),High rates indicate poor communication or architectural coupling.
+36. Test Execution Time,Total time to run the full test suite (local or CI).,Delivery,CI Tool,High,Easy (CI Timestamps),"If tests take 1 hour, devs won't run them locally, leading to ""Feedback Loop Debt."""
+37. Environment Parity Gap,Count of configuration differences between Staging and Production.,Infrastructure,Terraform,Low,Hard (Deep diffs),"""It worked on my machine"" syndrome; parity gaps cause production-only bugs."
+38. Untagged Cloud Assets,Percentage of cloud assets missing cost allocation/owner tags.,Infrastructure,AWS Config,High,Medium (Policy scan),"""FinOps Debt""—impossible to attribute costs or identify owners of zombie resources."
+39. Orphaned Storage,Count/Size of EBS volumes or snapshots not attached to any compute instance.,Infrastructure,Cloud Custodian,High,Easy (API Query),Pure waste; paying for storage that is technically disconnected from the application.
+40. Container Image Size,Size of the Docker/Container images being deployed.,Platform,Artifactory,High,Easy (Registry API),Bloated images slow down scaling (autoscaling latency) and increase vulnerability surface area.
+41. Pod Restart Rate,"Frequency of containers crashing and restarting (OOMKilled, etc.).",Platform,Prometheus,High,Easy (Metrics),"Indicates instability, memory leaks, or improper resource limits (Configuration Debt)."
+42. Serverless Cold Starts,Average latency added when a function scales from zero.,Platform,Datadog,Medium,Medium (APM),High latency here indicates poor optimization of runtimes or dependencies.
+43. License Risk,"Count of dependencies with restrictive (e.g., GPL) or unknown licenses.",Legal,FOSSA,Medium,Easy (Scanners),"""Legal Debt""—risk of having to open-source proprietary code or face lawsuits."
+44. TLS Protocol Lag,Percentage of endpoints supporting deprecated protocols (TLS 1.0/1.1).,Cyber,Qualys,Medium,Medium (Net scan),Security compliance debt; modern browsers/clients will eventually reject connections.
+45. Missing Security Headers,"Endpoints missing standard headers (HSTS, CSP, X-Frame-Options).",Cyber,OWASP ZAP,Medium,Easy (Curl/Scan),"Low-hanging fruit for attackers; indicates lack of ""Security by Design."""
+46. Dependency Tree Depth,The average depth of transitive dependencies in the project.,Architecture,Maven / npm,Low,Medium (Graph analysis),Deep trees make vulnerability patching difficult (you rely on a library that relies on a library...).
+47. Layer Violations,"Instances where lower layers call upper layers (e.g., Domain layer calling UI).",Architecture,ArchUnit,Low,Hard (Custom rules),Breaks separation of concerns; creates spaghetti code that is hard to refactor.
+48. Interface Segregation,Classes forced to implement methods they do not use (bloated interfaces).,Architecture,SonarQube,Low,Medium (Static Analysis),Indicates poor abstraction; makes mocking and testing specific behaviors difficult.
+49. Slow Query Ratio,Percentage of database queries exceeding a specific latency threshold.,Data,DB Insights,High,Medium (DB Logs),"""Performance Debt""—often due to missing indexes or N+1 query problems."
+50. Data Null Rate,Percentage of unexpected nulls or format errors in critical data columns.,Data,dbt,Low,Hard (Data testing),"""Data Trust Debt""—if data is dirty, downstream analytics and ML models are worthless."
+51. ETL Failure Rate,Frequency of data pipeline job failures requiring manual retry.,Data,Airflow,High,Easy (Orchestrator),High failure rates indicate fragile data ingestion and lack of idempotency.
+52. Core Web Vitals,"Scores for LCP (Loading), FID (Interactivity), CLS (Visual Stability).",Engineering,Lighthouse,Medium,Easy (CI or Browser),"""Frontend Debt""—poor scores hurt SEO and user retention."
+53. Accessibility Violations,"Count of automated accessibility errors (missing alt tags, contrast).",Engineering,axe-core,Low,Easy (Scanner),Legal and ethical debt; excludes users with disabilities and risks lawsuits.
+54. App Binary Size,Total size of the IPA/APK downloaded by users.,Mobile,Store Connect,High,Easy (Store Metadata),"Bloat leads to lower install conversion rates, especially in low-bandwidth markets."
+55. Crash-Free Sessions,Percentage of mobile/web sessions that do not end in a crash.,Mobile,Crashlytics,High,Easy (SDK),The ultimate measure of stability; low rates destroy brand reputation.
+56. API 5xx Error Rate,Percentage of server-side errors returned to clients.,Platform,Load Balancer,High,Easy (Logs),Indicates unhandled exceptions and poor error management in backend services.
+57. Log Coverage %,Percentage of critical business paths that emit traceable logs.,Platform,Splunk / ELK,Low,Hard (Manual Audit),"""Observability Debt""—if you can't see it, you can't debug it during an outage."
+58. Mean Time To Detection,Average time between an issue starting and an alert firing.,Delivery,PagerDuty,Low,Hard (Incident Review),"If MTTD is high, your customers are your monitoring system."
+59. Sprint Spillover %,Percentage of story points committed vs. completed in a sprint.,Process,Jira,High,Medium (Jira Reports),"High spillover indicates ""Planning Debt""—poor estimation or unclear requirements."
+60. Meeting Load,Average hours per day engineers spend in meetings vs. coding blocks.,Process,Calendar API,Low,Medium (API Integration),"""Focus Debt""—engineers cannot pay down technical debt if they have no deep work time."
+```
+
+---
+
 ## Reading
 
 ### Articles/Blogs/Essays
