@@ -1,16 +1,18 @@
-title=RealWorld
+title=RealWorld (example app/benchmark)
 tags=distribution
-summary=Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, ... multiple front-ends, multiple back-ends, all operating off of the same API specification.
+summary="The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more.
 ~~~~~~
 
-[Website](https://realworld.io/) | [Source](https://github.com/gothinkster/realworld)
+[Website](https://docs.realworld.show/) | [Source](https://github.com/gothinkster/realworld) | Specifications: [UI](https://github.com/gothinkster/realworld/tree/master/spec), [API](https://github.com/gothinkster/realworld/tree/main/api)
 
-The app: a Medium.com clone called [Conduit](https://demo.realworld.io/).
+While most "todo" demos provide an excellent cursory glance at a framework's capabilities, they typically don't convey the knowledge & perspective required to actually build real applications with it. That's why we, with the help of open source experts, design and serve as exemplary real world applications for each framework. See how _the exact same_ Medium.com clone is built using different [frontends](https://codebase.show/projects/realworld?category=frontend) and [backends](https://codebase.show/projects/realworld?category=backend). Yes, you can mix and match them, because **they all adhere to the same [API spec](https://docs.realworld.show/specifications/backend/introduction)**
 
-The [UI](https://github.com/gothinkster/realworld/tree/master/spec) and [API](https://github.com/gothinkster/realworld/tree/master/api) specifications in question.
+The app: a Medium.com clone called [Conduit](https://demo.realworld.show/#/).
 
 ## Frontends
+
 * Web
+
     * [Angular](https://github.com/gothinkster/angular-realworld-example-app)
     * [Angular + ngrx + rx](https://github.com/stefanoslig/angular-ngrx-nx-realworld-example-app)
     * [Aurelia](https://github.com/gothinkster/aurelia-realworld-example-app)
@@ -38,10 +40,13 @@ The [UI](https://github.com/gothinkster/realworld/tree/master/spec) and [API](ht
     * [Hyperapp 1](https://github.com/kwasniew/hyperapp-realworld-example-app)
     * [Dojo 2](https://github.com/gothinkster/dojo2-realworld-example-app)
     * [San](https://github.com/ecomfe/san-realworld-app)
+
 * Mobile
+
     * [NativeScript/Angular](https://github.com/nea/nativescript-realworld-example-app)
 
 ## Backends
+
 * Cloud
     * [AWS Lambda/DynamoDB](https://github.com/anishkny/realworld-dynamodb-lambda)
     * [AWS Lambda Go + DynamoDB](https://github.com/chrisxue815/realworld-aws-lambda-dynamodb-go)
