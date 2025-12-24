@@ -1,0 +1,54 @@
+title=Panel
+tags=presentation, browser, python
+summary=An open-source Python library designed to streamline the development of robust tools, dashboards, and complex applications entirely within Python.
+~~~~~~
+
+[Website](https://panel.holoviz.org/index.html) | [Source](https://github.com/holoviz/panel)
+
+## [Using Pyodide and Panel](https://panel.holoviz.org/how_to/wasm/standalone.html)
+
+Create a file called script.html with the following content:
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.28.2/full/pyodide.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.8.1.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.8.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.8.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@holoviz/panel@1.8.4/dist/panel.min.js"></script>
+  </head>
+  <body>
+    <div id="simple_app"></div>
+    <script type="text/javascript">
+      async function main() {
+        let pyodide = await loadPyodide();
+        await pyodide.loadPackage("micropip");
+        const micropip = pyodide.pyimport("micropip");
+        await micropip.install([
+          "https://cdn.holoviz.org/panel/1.8.4/dist/wheels/bokeh-3.8.1-py3-none-any.whl",
+          "https://cdn.holoviz.org/panel/1.8.4/dist/wheels/panel-1.8.4-py3-none-any.whl"
+        ]);
+        pyodide.runPython(`
+          import panel as pn
+          pn.extension(sizing_mode="stretch_width")
+          slider = pn.widgets.FloatSlider(start=0, end=10, name='Amplitude')
+          def callback(new):
+              return f'Amplitude is: {new}'
+
+          pn.Row(slider, pn.bind(callback, slider)).servable(target='simple_app');
+      `);
+      }
+      main();
+    </script>
+  </body>
+</html>
+```
+
+Serve the app with: `python -m http.server`
+
+Open the app in your browser at http://localhost:8000/script.html.
+
