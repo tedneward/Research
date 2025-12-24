@@ -1,4 +1,4 @@
-title=Event-Driven/Event-Sourcing/Event Modeling Architecture
+title=Event-Driven/Event-Sourcing Architecture
 tags=architecture, event
 summary=An approach to building systems via events.
 ~~~~~~
