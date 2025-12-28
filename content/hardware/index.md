@@ -143,3 +143,8 @@ Kardia - https://kardia.com/: "Our Kardia devices are the most clinically valida
 - Mobile - https://kardia.com/products/kardiamobile6l
 - Kardia MobileCard - https://kardia.com/products/kardiamobile-card
 
+https://techwriteredc.com/best-leatherman-multitools/
+
+https://www.gearpatrol.com/outdoors/tacray-mp1/
+
+https://www.yankodesign.com/2025/12/09/xteink-x4-is-a-wallet-sized-ereader-that-snaps-onto-your-phone/

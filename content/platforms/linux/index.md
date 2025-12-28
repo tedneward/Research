@@ -14,11 +14,14 @@ Popular
 * [Bazzite](https://bazzite.gg/): a custom Fedora Atomic image built with cloud native technology that brings the best of Linux gaming to all of your devices - including your favorite handheld.
 * [CachyOS](https://cachyos.org/): performance-minded distribution ([Review](https://fossforce.com/2025/08/cachyos-distrowatchs-top-distro-has-speed-polish-and-features/))
 * [CommodoreOS](https://www.commodoreos.net/): A Commodore-themed talking Linux desktop, complete with hundreds of games, makes for the biggest distro we've seen yet.
+* [KoliboroOS](https://kolibrios.org/en): A graphical OS that boots in seconds
+* [MenuetOS](https://menuetos.net/): An entire operating system written in assembly
 * [Mint](https://linuxmint.com/)
 * [MX Linux](https://mxlinux.org/): a family of operating systems (and a cooperative venture between the antiX and MX Linux communities) that are designed to combine elegant and efficient desktops with high stability and solid performance.
 * [ObsidianOS](https://files.obsidianos.xyz/): ObsidianOS is a UEFI‑only, systemd‑based operating system for x86_64 systems, designed with an A/B partition layout for reliability. (At its core, ObsidianOS is a UEFI‑only, systemd‑based operating system for x86_64 systems, designed with an A/B partition layout for reliability. The A/B partition scheme means your root filesystem exists twice, partition A and partition B. When you update, the system writes to the inactive slot. If something goes wrong, you reboot into the previously working one.)
 * [Omarchy Linux](https://omarchy.org/): Linux image used by 37signals developers ("a clone of DHH's desktop") -- "an opinionated Arch + Hyprland Setup by DHH"
 * [Q4OS](https://q4os.org/): fast and friendly, desktop oriented operating system based on Debian Linux.
+* [pearOS](https://pearos.xyz/): an Arch-based Linux Distro made to look different than the current pearOS versions.
 * [Pop! OS](https://pop.system76.com/)
 * [RavynOS](https://ravynos.com/) [Source](https://github.com/ravynsoft/ravynos): By taking FreeBSD as its core, and crafting a macOS-like UI on top, it intends to provide the Mac UI experience without locking the user into the Apple ecosystem.
 * [RefreshOS](https://sourceforge.net/projects/refreshos/): has been known historically for its user-friendliness, speed, and elegant design that focuses on stability and customization. ([Review](https://fossforce.com/2025/08/refreshos-2-5-smooth-stylish-and-almost-spotless-linux/))
@@ -35,6 +38,15 @@ Special-purpose
 * [Nix OS](https://nixos.org/): Functional-programming principles brought to the OS level
 * [Qubes OS](https://www.qubes-os.org/): "When you hear the word virtualization, you’d probably think of a home server platform like Proxmox, XCP-ng, or Harvester. However, Qubes OS uses this neat technology in a different way. Rather than excelling in self-hosted projects, Qubes OS is designed to compartmentalize your apps inside isolated environments of varying access privileges to enhance the security of your system. Similar to virtual machines, these compartments, or qubes, are armed with their own templates, which are based on different operating systems. You also get to modify everything from the packages and binaries to the network interfaces and I/O devices for your qubes, making it amazing for security-conscious users. Unfortunately, the virtualization-heavy nature of Qubes OS makes it a bit hard to get accustomed to the distro. You’ll also have to contend with the performance issues of running multiple OS templates inside the same OS. That’s before you include the sheer pain of passing GPUs to the qubes."
 * [Talos Linux](https://www.talos.dev/): For Kubernetes lovers
+* [TurnKey Linux](https://www.turnkeylinux.org/): a collection of pre-configured, ready-to-use Linux appliances that make deploying common server software fast and hassle-free.
+
+Immutable
+
+* [Fedora Silverblue](https://fedoraproject.org/atomic-desktops/silverblue/)
+* [CachyOS](https://cachyos.org/): gaming
+* [Linux Mint](https://linuxmint.com/)
+* [ZorinOS](https://zorin.com/os/)
+
 
 Gaming
 

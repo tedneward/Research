@@ -26,7 +26,25 @@ An agent generally consists of these core components:
 
 ### Articles, Blogs, Essays
 
+- [How to write a great agents.md: Lessons from over 2,500 repositories](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/)
+- [Agent Engineering: A New Discipline](https://blog.langchain.com/agent-engineering-a-new-discipline/)
 - [Practical Guide on how to build an Agent from scratch with Gemini 3](https://www.philschmid.de/building-agents): The core of an Agent is surprisingly simple: It is a Large Language Model (LLM) running in a loop, equipped with tools it can choose to use. If you can write a loop in Python, you can build an agent. This guide will walk you through the process, from a simple API call to a functioning CLI Agent.
+- [Meet SDialog: An Open-Source Python Toolkit for Building, Simulating, and Evaluating LLM-based Conversational Agents End-to-End](https://www.marktechpost.com/2025/11/14/meet-sdialog-an-open-source-python-toolkit-for-building-simulating-and-evaluating-llm-based-conversational-agents-end-to-end/): "Meet SDialog, an open sourced Python toolkit for synthetic dialogue generation, evaluation, and interpretability that targets the full conversational pipeline from agent definition to analysis. It standardizes how a Dialog is represented and gives engineers a single workflow to build, simulate, and inspect LLM based conversational agents."
+- [How to Keep LLM Outputs Predictable Using Pydantic Validation](https://www.freecodecamp.org/news/how-to-keep-llm-outputs-predictable-using-pydantic-validation/)
+- [A Coding Guide to Build a Procedural Memory Agent That Learns, Stores, Retrieves, and Reuses Skills as Neural Modules Over Time](https://www.marktechpost.com/2025/12/09/a-coding-guide-to-build-a-procedural-memory-agent-that-learns-stores-retrieves-and-reuses-skills-as-neural-modules-over-time/) [Source](https://github.com/Marktechpost/AI-Tutorial-Codes-Included/blob/main/Agentic%20AI%20Memory/procedural_memory_agent_skill_learning_Marktechpost.ipynb)
+- [Stop Building God Agents](https://tyingshoelaces.com/blog/unlocking-a2a-aggressive-context-curation-agentic-mesh)
+
+### Implementation
+
+- [CREATING LLM AGENTS FOR DOMAIN-SPECIFIC LANGUAGE GENERATION AND PROCESSING](https://stal.blogspot.com/2025/10/creating-llm-agents-for-domain-specific.html?m=1)
+
+## Languages/Libraries
+
+- Java: [Agentscope](https://java.agentscope.io/) [Source](https://github.com/agentscope-ai/agentscope-java): Agent-Oriented Programming for Building LLM Applications
+
+## Tools
+
+- [AnyTool](https://github.com/HKUDS/AnyTool): Universal Tool-Use Layer for AI Agents
 
 ---
 

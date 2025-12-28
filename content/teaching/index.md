@@ -13,3 +13,4 @@ tags=teaching
 
 * ["5 Fun Python Projects for Absolute Beginners"](https://www.kdnuggets.com/5-fun-python-projects-for-absolute-beginners): Pomodoro Timer App; Note Taking App with Speech Recognition; AI Virtual Painter; PyPhotoshop; Tower Defense Game
 
+* [Relocation Advisor - Junior Developer Training Project](https://github.com/robfosterdotnet/RelocationAdvisorSpecs)

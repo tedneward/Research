@@ -17,6 +17,14 @@ tags=management
 - I believe that you should take criticism gracefully, even when you disagree with it. If nothing else, you’re learning something valuable about how someone else sees you.
 - I believe in being brutally honest with yourself — about what matters to you and how much, about what you can and can’t change, about how you’re going to respond to the things that you can’t or won’t change, and about reality in general. This is the recipe for a happy career and a happy life."
 
+[5 Engineering Manager Archetypes](https://www.patkua.com/blog/5-engineering-manager-archetypes/):
+
+1. The Tech Lead EM
+2. The Team Lead EM
+3. The Delivery EM
+4. The Product EM
+5. The Lead of Leads EM
+
 [Servant Leadership](https://responsiveadvisors.com/blog/servant-leadership/) - Jason Malmstadt
 
 [Why Consensus Leadership is Killing Innovation](https://www.forbes.com/sites/cherylrobinson/2025/01/03/why-consensus-leadership-is-killing-innovation/)

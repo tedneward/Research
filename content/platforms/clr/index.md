@@ -30,6 +30,10 @@ There used to be multiple CLR implementations, but all have more or less fallen 
 
 [Infographics](https://leveluppp.ghost.io/net-infographics/): Collection of "isn't this surprising" infographics about .NET
 
+[Silhouette](https://github.com/kevingosse/Silhouette):
+
+Reading: [Creating a .NET CLR profiler using C# and NativeAOT with Silhouette](https://andrewlock.net/creating-a-dotnet-profiler-using-csharp-with-silhouette/), https://minidump.net/writing-a-net-profiler-in-c-part-5/
+
 ## Tools
 [PowerUp](https://github.com/badamczewski/PowerUp): Decompilation Tools and High Productivity Utilities. The purpose of this library is to provide productivity utilities and tools such as: Live IDE Watcher. JIT Dissasembler. IL Compiler. Quick Benchmark. Console with rich formatting.
 

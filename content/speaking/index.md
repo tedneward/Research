@@ -5,6 +5,10 @@ tags=speaking
 summary=A collection of articles and resources about public (technical) speaking.
 ~~~~~~
 
+[Codosaurus](https://www.codosaur.us/speaking/cfps-ending-soon): CfPs Ending Soon
+
+---
+
 "Over the past 15 years, I have co-written more than 200 papers... I use the same strategy (to write abstracts) every time. Remember, aim at 150-200 words (never use citations in your abstract) and describe what was done and found! Always end with a bang. What is your main contribution? How is your paper of value to peers? 1. Lay of the land (and the context of your problem): One or two sentence sthat provide an essential introduction to your subfield, understandable to a scientist in any discipline. Expand to a more detailed background if you must. 2. Problem: State your current exact research problem. What is the problem you are solving? One sentence that clearly states the main problem being addressed by this particular study/research. Why is your problem relevant and matters? In one sentence or less. 3. Solution: How are you addressing the research gap or problem? What is your proposed solution? A brief sentence or two summarizing the methods you used to solve your problem. Explain what the main results reveal compared to what was previously thought to be the case. 4. Contribution(s): How do your main results add to previous knowledge? How does your idea stand out from the most relevant related work? Why would your peers consider it a contribution? What are the broader implications of your work?" --[@acagamic](https://twitter.com/acagamic/status/1506724487169036301)
 
 ["6 Useful Things Learned from speaking"](https://twitter.com/coles_nicholas_/status/1511052555995934721):

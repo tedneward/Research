@@ -1,5 +1,5 @@
 title=Gemini
-tags=ai
+tags=ai, agent
 summary=Google's AI agent.
 ~~~~~~
 

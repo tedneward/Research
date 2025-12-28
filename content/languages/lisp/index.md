@@ -5,6 +5,8 @@ summary=The original dynamic functional(ish) homoiconic (consistent symbology) l
 
 [Scheme](../scheme)s are often spoken synonymously as Lisps.
 
+[Hexstream's Common Lisp pitch thing](https://www.hexstreamsoft.com/articles/cl-pitch-thing/): Why and how to get started with Common Lisp in 2025.
+
 ### Common Lisp Implementations:
 
 * [Common Lisp](https://lisp-lang.org/): A dialect of the Lisp programming language, published in ANSI standard document ANSI INCITS 226-1994. Common Lisp is not an implementation, but rather a language specification. Several implementations of the Common Lisp standard are available, including free and open-source software and proprietary products. Common Lisp is a general-purpose, multi-paradigm programming language. It supports a combination of procedural, functional, and object-oriented programming paradigms.

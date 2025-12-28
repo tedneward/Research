@@ -39,6 +39,7 @@ Distributed systems are the means by which programs on one machine communicate w
 * [Models of Distributed Systems](https://www.ida.liu.se/~TDDD25/lectures/02-Models.pdf)
 * [Distributed Computing Models](https://www.cs.usfca.edu/~srollins/courses/cs682-s08/web/notes/models.html)
 * [Spire: A Cooperative, Phase-Symmetric Solution to Distributed Consensus](https://ieeexplore.ieee.org/ielx7/6287639/9312710/09481103.pdf)
+* [Distributed Systems: A Deep Dive](https://newsletter.systemdesign.one/p/distributed-systems)
 
 Pat Helland's works
 
