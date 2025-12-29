@@ -24,7 +24,8 @@ An agent generally consists of these core components:
 
 ## Examples
 
-[Sculpt3D - Logs of the Claude Code session that lead to the current software](https://github.com/marmelab/sculpt-3D/blob/main/claude_code_logs.md)
+- [Sculpt3D - Logs of the Claude Code session that lead to the current software](https://github.com/marmelab/sculpt-3D/blob/main/claude_code_logs.md)
+- [Agent Skills for Context Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/)
 
 ## Reading
 

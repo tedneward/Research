@@ -473,38 +473,7 @@ The [File Browser](https://github.com/gtsteffaniak/filebrowser) Docker container
         restart: always
     ```
 
-[OpenWebUI](https://github.com/open-webui/open-webui) plus [Ollama](/ai/ollama): This is a pair of solutions I have been playing around with the past few months and I have to say that self-hosting your own AI server is totally awesome. You don’t have to worry about API costs to the major cloud AI providers, and you keep control of your own data.
-
-    ```
-    version: '3.8'
-
-    services:
-    ollama:
-        image: ollama/ollama
-        container_name: ollama
-        volumes:
-        - ollama:/root/.ollama
-        ports:
-        - "11434:11434"
-        restart: unless-stopped
-
-    openwebui:
-        image: ghcr.io/open-webui/open-webui:main
-        container_name: openwebui
-        depends_on:
-        - ollama
-        environment:
-        - OLLAMA_BASE_URL=http://ollama:11434
-        ports:
-        - "3000:3000"
-        volumes:
-        - openwebui:/app/backend/data
-        restart: unless-stopped
-
-    volumes:
-    ollama:
-    openwebui:
-    ```
+[OpenCloud](https://opencloud.eu/en) ([Source](https://github.com/opencloud-eu)): OpenCloud is an open-source project that gives you a secure and private way to store, access, and share your files.
 
 [Outline](https://www.getoutline.com/): Notes management (compare to Blinko) [Source](https://github.com/outline)
 
@@ -521,6 +490,8 @@ The [File Browser](https://github.com/gtsteffaniak/filebrowser) Docker container
 [Prometheus](https://prometheus.io/): Robust monitoring
 
 [Shiori](https://github.com/go-shiori/shiori): Shiori is an open-source bookmark manager that helps you save and organize your favorite web pages. Its lightweight nature and focus on essential features make it a strong contender for a productivity-boosting Docker container. Unlike some of its rivals, Shiori focuses on simplicity and offers an easy-to-use interface for managing bookmarks. You can import and export bookmarks from and to Netscape Bookmark files. There is even an option to import bookmarks from the Pocket service. By centralizing your bookmarks in a single, organized location, Shiori helps you avoid the clutter of scattered browser tabs and bookmarks. You can focus on information that truly matters.
+
+[Syncthing](https://syncthing.net/) ([Source](https://github.com/syncthing/)): a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes. Your data is your data alone and you deserve to choose where it is stored, whether it is shared with some third party, and how it’s transmitted over the internet.
 
 [Vaultwarden](https://www.vaultwarden.net/):
 
@@ -570,4 +541,7 @@ The [File Browser](https://github.com/gtsteffaniak/filebrowser) Docker container
 - [5 OSs that work perfectly in a Docker container](https://www.notebookcheck.net/5-complete-operating-systems-that-work-perfectly-in-a-docker-container-including-macOS-and-Steam-Headless.879397.0.html) 
 - https://www.virtualizationhowto.com/2025/08/10-docker-projects-you-can-build-in-a-weekend-and-actually-use/: Gitea, Netdata, Nginx Proxy Manager, Vaultwarden, Watchtower, Dozzle, Portainer, OpenWebUI + Ollama, Home Assistant, N8N
 - https://www.xda-developers.com/docker-containers-i-wish-i-knew-earlier/: Actual Budget, Excalidraw, Shiori, Pi-hole, Wallos, Jellyfin, Penpot
+- https://www.xda-developers.com/only-installed-docker-containers-but-they-completely-replaced-cloud-bill/
+- https://www.xda-developers.com/self-hosted-tool-proof-that-best-open-source-apps-are-the-simplest/
+- https://www.xda-developers.com/free-open-source-app-only-utility-need-for-managing-hundreds-of-pdfs/
 

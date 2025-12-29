@@ -12,6 +12,7 @@ summary=The AI agent.
 ## Example Logs
 
 - https://github.com/marmelab/sculpt-3D/blob/main/claude_code_logs.md
+- ["My current global CLAUDE.md"](https://gist.github.com/ctoth/d8e629209ff1d9748185b9830fa4e79f): "Working with Q — Coding Agent Protocol"
 
 ## Skills
 

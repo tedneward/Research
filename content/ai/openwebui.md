@@ -170,3 +170,39 @@ If you are running Open WebUI in an offline environment, you can set the `HF_HUB
 ```bash
 export HF_HUB_OFFLINE=1
 ```
+
+---
+
+Docker-compose setup
+
+```
+version: '3.8'
+
+services:
+ollama:
+    image: ollama/ollama
+    container_name: ollama
+    volumes:
+    - ollama:/root/.ollama
+    ports:
+    - "11434:11434"
+    restart: unless-stopped
+
+openwebui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: openwebui
+    depends_on:
+    - ollama
+    environment:
+    - OLLAMA_BASE_URL=http://ollama:11434
+    ports:
+    - "3000:3000"
+    volumes:
+    - openwebui:/app/backend/data
+    restart: unless-stopped
+
+volumes:
+ollama:
+openwebui:
+```
+
