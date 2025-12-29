@@ -13,4 +13,4 @@ Also references LangGraph, LangSmith
 - [Using a Knowledge Graph to Implement a DevOps RAG application](https://blog.langchain.dev/using-a-knowledge-graph-to-implement-a-devops-rag-application/)
 - [Introducing Polly: Your AI Agent Engineer](https://blog.langchain.com/introducing-polly-your-ai-agent-engineer/)
 - [Skills](https://docs.langchain.com/oss/python/langchain/multi-agent/skills)
-
+- [How to Build an AI Agent with LangChain and LangGraph: Build an Autonomous Starbucks Agent](https://www.freecodecamp.org/news/how-to-build-a-starbucks-ai-agent-with-langchain/)

@@ -21,14 +21,15 @@ Popular
 * [ObsidianOS](https://files.obsidianos.xyz/): ObsidianOS is a UEFI‑only, systemd‑based operating system for x86_64 systems, designed with an A/B partition layout for reliability. (At its core, ObsidianOS is a UEFI‑only, systemd‑based operating system for x86_64 systems, designed with an A/B partition layout for reliability. The A/B partition scheme means your root filesystem exists twice, partition A and partition B. When you update, the system writes to the inactive slot. If something goes wrong, you reboot into the previously working one.)
 * [Omarchy Linux](https://omarchy.org/): Linux image used by 37signals developers ("a clone of DHH's desktop") -- "an opinionated Arch + Hyprland Setup by DHH"
 * [Q4OS](https://q4os.org/): fast and friendly, desktop oriented operating system based on Debian Linux.
-* [pearOS](https://pearos.xyz/): an Arch-based Linux Distro made to look different than the current pearOS versions.
+* [ParrotGS](https://www.parrotsec.org/): The operating system for hackers.
+* [pearOS](https://pearos.xyz/) [Source](https://github.com/pearOS-archlinux): an Arch-based Linux Distro made to look different than the current pearOS versions. "The new pearOS distro is a Romanian project that picks up the concepts behind the original Pear Linux from 2011 and updates them. It's not going to turn the distro world upside down, but it's fun, interesting, and a showcase for the versatility and customizability of the Linux desktop."
 * [Pop! OS](https://pop.system76.com/)
 * [RavynOS](https://ravynos.com/) [Source](https://github.com/ravynsoft/ravynos): By taking FreeBSD as its core, and crafting a macOS-like UI on top, it intends to provide the Mac UI experience without locking the user into the Apple ecosystem.
 * [RefreshOS](https://sourceforge.net/projects/refreshos/): has been known historically for its user-friendliness, speed, and elegant design that focuses on stability and customization. ([Review](https://fossforce.com/2025/08/refreshos-2-5-smooth-stylish-and-almost-spotless-linux/))
 * [Siduction](https://siduction.org/): an operating system based on the Linux kernel and the GNU project. In addition, there are applications and libraries from Debian. The name siduction is a play on two words. The word sid, which is the codename of Debian Unstable, and seduction in the sense of seduce.
 * [SparkyLinux](https://sparkylinux.org/download/stable/): a GNU/Linux distribution based on the Debian GNU/Linux operating system.
 * [Ubuntu](https://ubuntu.com/)
-* [VanillaOS](../vanillaos)
+* [VanillaOS](/platforms/linux/vanillaos)
 * [Zorin](https://zorin.com/os/)
 
 Special-purpose

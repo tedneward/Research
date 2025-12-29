@@ -36,6 +36,8 @@ summary=A set of web platform APIs that allow you to create new custom, reusable
     -   [slotted-pseudo-element](https://github.com/mdn/web-components-examples/blob/main/slotted-pseudo-element). A very simple example that shows how the `::slotted` pseudo-element works. [See slotted-pseudo-element live](https://mdn.github.io/web-components-examples/slotted-pseudo-element/).
     -   [word-count-web-component](https://github.com/mdn/web-components-examples/blob/main/word-count-web-component) — `<word-count>`. When added to an element, counts all the words inside that element and displays them inside an attached shadow DOM. It also contains an interval that periodically updates the word count as it changes. Provides an example of a customized built-in element (the class inherits from `HTMLParagraphElement` rather than `HTMLElement`). [See word-count live](https://mdn.github.io/web-components-examples/word-count-web-component/).
 
+* [My HTML Web Component boilerplate](https://gomakethings.com/my-html-web-component-boilerplate-for-2026/): the [boilerplate](https://gomakethings.com/snippets/boilerplates/web-component/) 
+
 * Components ("Standalones")
 
     * ["Generic"](https://genericcomponents.netlify.app/):
@@ -164,3 +166,5 @@ summary=A set of web platform APIs that allow you to create new custom, reusable
 * ["The Hidden Power of WebComponents"](https://dev.to/besworks/the-hidden-power-of-web-components-1jei)
 * ["The Problem with WebComponents"](https://dev.to/besworks/the-problem-with-web-components-4f8)
 * ["A Complete Introduction to WebComponents"](https://kinsta.com/blog/web-components/)
+* ["Web Components are the Comback Nobody Saw Coming"](https://thenewstack.io/web-components-are-the-comeback-nobody-saw-coming/)
+

@@ -35,6 +35,10 @@ summary=Command-line shell and associated shell-scripting language.
 * [The Linux Command Line](http://linuxcommand.org/tlcl.php)
 * [Writing Shell Scripts](http://linuxcommand.org/lc3_writing_shell_scripts.php)
 
+### Articles/Blogs/Essays
+
+* [7 Bash variables I use in almost every script](https://www.howtogeek.com/bash-variables-i-use-in-almost-every-script/): 
+
 ## Supporting tools/projects
 
 * [direnv](https://direnv.net/) ([Source](https://github.com/direnv/direnv)): unclutter your .profile

@@ -22,6 +22,10 @@ An agent generally consists of these core components:
 
 <img src="https://github.com/e2b-dev/awesome-ai-agents/blob/main/assets/landscape-latest.png" width="100%" alt="Chart of AI Agents Landscape" />
 
+## Examples
+
+[Sculpt3D - Logs of the Claude Code session that lead to the current software](https://github.com/marmelab/sculpt-3D/blob/main/claude_code_logs.md)
+
 ## Reading
 
 ### Articles, Blogs, Essays
@@ -33,6 +37,12 @@ An agent generally consists of these core components:
 - [How to Keep LLM Outputs Predictable Using Pydantic Validation](https://www.freecodecamp.org/news/how-to-keep-llm-outputs-predictable-using-pydantic-validation/)
 - [A Coding Guide to Build a Procedural Memory Agent That Learns, Stores, Retrieves, and Reuses Skills as Neural Modules Over Time](https://www.marktechpost.com/2025/12/09/a-coding-guide-to-build-a-procedural-memory-agent-that-learns-stores-retrieves-and-reuses-skills-as-neural-modules-over-time/) [Source](https://github.com/Marktechpost/AI-Tutorial-Codes-Included/blob/main/Agentic%20AI%20Memory/procedural_memory_agent_skill_learning_Marktechpost.ipynb)
 - [Stop Building God Agents](https://tyingshoelaces.com/blog/unlocking-a2a-aggressive-context-curation-agentic-mesh)
+- [How I wrote JustHTML using coding agents](https://friendlybit.com/python/writing-justhtml-with-coding-agents/)
+- [JustHTML is a fascinating example of vibe engineering in action](https://simonwillison.net/2025/Dec/14/justhtml/)
+
+### Resources
+
+- [Intelligent automation and multi-agent orchestration for Claude Code](https://github.com/wshobson/agents): "This unified repository provides everything needed for intelligent automation and multi-agent orchestration across modern software development: 67 Focused Plugins - Granular, single-purpose plugins optimized for minimal token usage and composability; 99 Specialized Agents - Domain experts with deep knowledge across architecture, languages, infrastructure, quality, data/AI, documentation, business operations, and SEO; 107 Agent Skills - Modular knowledge packages with progressive disclosure for specialized expertise; 15 Workflow Orchestrators - Multi-agent coordination systems for complex operations like full-stack development, security hardening, ML pipelines, and incident response; 71 Development Tools - Optimized utilities including project scaffolding, security scanning, test automation, and infrastructure setup"
 
 ### Implementation
 

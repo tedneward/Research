@@ -15,6 +15,10 @@ Awesomes:
     * [awesome-cms](https://github.com/postlight/awesome-cms)
     * [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - self-hosted systems (Analytics, Blogging Platforms, CMS, DNS, Games, a huge list)
 
+* Other research guides:
+
+    * [Chris Ferdinandi](https://gomakethings.com/guides/)
+
 * [Analytics](https://github.com/0xnr/awesome-analytics)
 * [PHP](https://github.com/ziadoz/awesome-php)
 * [Python](https://github.com/vinta/awesome-python)

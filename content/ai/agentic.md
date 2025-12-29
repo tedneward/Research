@@ -3,6 +3,10 @@ tags=ai
 summary=A collection of topics and notes on the subject.
 ~~~~~~
 
+## Resources
+
+- [Agentic Coding Flywheel Setup](https://agent-flywheel.com/) / [Source](https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup): System setup tool for beginners wanting agentic engineering capabilities - transforms a fresh VPS into a fully-armed agentic coding environment in under an hour.
+
 ## Reading
 
 ### Articles
