@@ -3,9 +3,10 @@ tags=platform, presentation, browser
 summary=Standardized web browser programming.
 ~~~~~~
 
-The Web browsers ([Chrome](../chrome), [Safari](../safari), IE, [Firefox](../firefox), etc) form a platform in of themselves, given how much is targeted specifically to them. That said, there is a great deal of overlap between the browser ecosystem and the [NodeJS](../nodejs) platform, owing to the ECMAScript-based nature of each.
+The Web browsers ([Chrome](/platforms/chrome), [Safari](/platforms/safari), IE, [Firefox](/platforms/firefox), etc) form a platform in of themselves, given how much is targeted specifically to them. That said, there is a great deal of overlap between the browser ecosystem and the [NodeJS](/platforms/nodejs) platform, owing to the ECMAScript-based nature of each.
 
 Other browsers:
+
 * [Orion](https://browser.kagi.com/) (macOS, iOS/iPadOS)
 
 ## Browser insights
