@@ -48,11 +48,13 @@ Collection of links about and around hardware.
 [HyperDrive USB C Hub](https://www.amazon.com/HyperDrive-Shortcut-Headphone-Endless-Entertainment/dp/B09KBT8FFW/ref=pd_rhf_d_se_s_bmx_gp_313n5ahn_sccl_1_7/146-0866395-2934750): Transform your USB-C iPad (10th generation), iPad Pro, Air, or mini into a powerhouse workspace with an HDMI port, USB-C 5Gbps 60W Power Delivery port, MicroSD/SD slots, USB-A 5Gbps port, and a 3.5mm audio jack.
 
 ## Storage
-[High Speed Portable SSD](https://miatine.com/speed)
+- [High Speed Portable SSD](https://miatine.com/speed)
 
-[SSD Storage Docking Station](https://www.zdnet.com/article/this-ssd-docking-station-is-one-of-the-best-investments-ive-made-for-my-pc-heres-why/) (Sabrent USB SSD 4-bay docking station: [Amazon](https://www.amazon.com/dp/B0711L68MS/ref=asc_df_B0711L68MS1741950000000)) 
+- [SSD Storage Docking Station](https://www.zdnet.com/article/this-ssd-docking-station-is-one-of-the-best-investments-ive-made-for-my-pc-heres-why/) (Sabrent USB SSD 4-bay docking station: [Amazon](https://www.amazon.com/dp/B0711L68MS/ref=asc_df_B0711L68MS1741950000000)) 
 
 - https://www.zdnet.com/article/why-this-ssd-docking-station-is-one-of-the-best-investments-ive-made-for-my-pc/
+
+- [External CD/DVD Drive](https://www.amazon.com/SUIDEK-External-Portable-Interface-Compatible/dp/B0FRFCKL4S)
 
 ## Docks
 
@@ -82,7 +84,7 @@ Collection of links about and around hardware.
 
 ## Networking
 
-["How to get wired Internet at home without running ethernet cable"](https://www.zdnet.com/home-and-office/networking/weak-wi-fi-how-to-get-wired-internet-at-home-without-running-ethernet/) - use Multimedia over Coax ([MoCA](https://en.wikipedia.org/wiki/Multimedia_over_Coax_Alliance))
+["How to get wired Internet at home without running ethernet cable"](https://www.zdnet.com/home-and-office/networking/weak-wi-fi-how-to-get-wired-internet-at-home-without-running-ethernet/) - use Multimedia over Coax ([MoCA](https://en.wikipedia.org/wiki/Multimedia_over_Coax_Alliance)) - also https://www.zdnet.com/home-and-office/networking/how-to-get-wired-network-without-ethernet/
 
 ## Power
 
@@ -142,4 +144,10 @@ TUO Circadian Healthy Light (bulbs) - https://www.thetuolife.com/?rfsn=7479865.7
 Kardia - https://kardia.com/: "Our Kardia devices are the most clinically validated personal EKGs in the world, providing accurate EKG results and a wider range of arrhythmia detections than any other smart device."
 - Mobile - https://kardia.com/products/kardiamobile6l
 - Kardia MobileCard - https://kardia.com/products/kardiamobile-card
+
+https://techwriteredc.com/best-leatherman-multitools/
+
+[This Affordable Bolt-Action EDC Pen Is a Highly Compact Multi-Tool in Disguise](https://www.gearpatrol.com/outdoors/tacray-mp1/)
+
+https://www.yankodesign.com/2025/12/09/xteink-x4-is-a-wallet-sized-ereader-that-snaps-onto-your-phone/
 

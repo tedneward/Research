@@ -3,6 +3,8 @@ tags=language, dsl
 summary=A collection of reading and links on the implementation of DSLs.
 ~~~~~~
 
+- [CREATING LLM AGENTS FOR DOMAIN-SPECIFIC LANGUAGE GENERATION AND PROCESSING](https://stal.blogspot.com/2025/10/creating-llm-agents-for-domain-specific.html?m=1)
+
 - Writing your First Domain Specific Language [Part 1](https://www.codeproject.com/Articles/26975/Writing-Your-First-Domain-Specific-Language-Part-1) | [Part 2](https://www.codeproject.com/Articles/29058/Writing-your-first-Domain-Specific-Language-Part-2) | [Visual Studio Language Service](https://www.codeproject.com/Articles/33250/Writing-Your-First-Visual-Studio-Language-Service)
 
 - [DSLs - A powerful Scala feature](http://www.scala-lang.org/node/1403)

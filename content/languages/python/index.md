@@ -22,6 +22,7 @@ summary=A dynamic language and platform.
 * C: [tinypy](http://www.tinypy.org/): a minimalist implementation of python in 64k of code. [Source](https://github.com/philhassey/tinypy)
 * C: [micropython](/languages/python/micropython): lean and efficient Python for microcontrollers and constrained systems
 * C: [CircuitPython](/languages/python/circuitpython): fork of micropython
+* C: [PythoC](https://github.com/1flei/PythoC) (See https://www.infoworld.com/article/4101101/pythoc-a-new-way-to-generate-c-code-from-python.html for article)
 * Web: [Jupyter Notebooks](https://jupyter.org/): installable locally via `pip install notebook`
 * Web: [JupyterLab](https://jupyter.org/): "latest web-based interactive development environment for notebooks, code, and data ... allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning... extensions expand and enrich functionality."
 * WASM: py2wasm: converts your Python programs to WebAssembly (`$ pip install py2wasm; py2wasm myprogram.py -o myprogram.wasm; wasmer run myprogram.wasm`)

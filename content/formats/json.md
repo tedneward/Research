@@ -60,3 +60,5 @@ The example above describes a person whose name is John Lennon. The difference b
 
 - [What is JSONC and is it any better than JSON?](https://www.howtogeek.com/what-is-jsonc-and-is-it-any-better-than-json/): The fastfetch code uses [yyjson](https://github.com/ibireme/yyjson), a C library that handles JSONC comments as well as trailing commas and more besides. Microsoft’s [node-jsonc-parser](https://github.com/microsoft/node-jsonc-parser) does a similar thing for JavaScript and also supports trailing commas
 
+- [JSON Structure: A JSON schema language you'll love](https://techcommunity.microsoft.com/blog/messagingonazureblog/json-structure-a-json-schema-language-youll-love/4476852)
+

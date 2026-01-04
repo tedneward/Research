@@ -3,6 +3,8 @@ tags=reading
 summary=Random collection of long-form thoughts.
 ~~~~~~
 
+- [A Great Programmer Removes, Doesn’t Add](https://www.codemotion.com/magazine/dev-life/a-great-programmer-removes-doesnt-add/?ref=dailydev)
+
 - [4 Lessons I wish I knew earlier on in my professional career](https://jv-la.com/journal/2022/lessons-earlier-professional-career/)
 
 - [Why we can't have nice software](https://andrewkelley.me/post/why-we-cant-have-nice-software.html): We keep improving past perfection.

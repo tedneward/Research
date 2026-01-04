@@ -92,6 +92,7 @@ Just the tool itself; considered separate from [Github](/clouds/github) since it
 * [GitGuys](http://www.gitguys.com/)
 * [Learn Git Branching - the most visual and interactive way to learn Git on the web](http://learngitbranching.js.org/)
 * [tryGit - A fun interactive way to learn Git.](http://try.github.io/levels/1/challenges/1)
+* [GitJin](https://gitjin.com/t)
 
 ### Videos
 

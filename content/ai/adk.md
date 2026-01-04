@@ -13,3 +13,11 @@ Agent Development Kit (ADK) is a flexible and modular framework for developing a
 * **Code-First Development**: Define agent logic, tools, and orchestration directly in Java for ultimate flexibility, testability, and versioning.
 * **Modular Multi-Agent Systems**: Design scalable applications by composing multiple specialized agents into flexible hierarchies.
 
+## Reading
+
+### Articles/Blogs/Essays
+
+* [Developer’s guide to multi-agent patterns in ADK](https://developers.googleblog.com/developers-guide-to-multi-agent-patterns-in-adk/)
+* [Building agents with the ADK and the new Interactions API](https://developers.googleblog.com/building-agents-with-the-adk-and-the-new-interactions-api/)
+* [Introducing Agent Development Kit for TypeScript: Build AI Agents with the Power of a Code-First Approach](https://developers.googleblog.com/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/)
+

@@ -11,4 +11,10 @@ summary=Host (?) for multiple open-source LLMs.
 `ollama pull ` *model name*: Download the given model
 `ollama serve ` *model name*: Run the downloaded model
 
+### Using from Python
 
+[Python](https://github.com/ollama/ollama-python) | [JS](https://github.com/ollama/ollama-js) | 
+
+### Using from VSCode
+
+Install Continue.dev extension; 

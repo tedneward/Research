@@ -1,0 +1,20 @@
+title=Claude Code
+tags=ai, development
+summary=The AI agent.
+~~~~~~
+
+## Reading
+
+### Articles/Blogs/Essays
+
+- https://scottrfrancis.wordpress.com/2025/09/07/programming-claude-code-an-object-oriented-approach-to-ai-development-workflows/
+
+## Example Logs
+
+- https://github.com/marmelab/sculpt-3D/blob/main/claude_code_logs.md
+- ["My current global CLAUDE.md"](https://gist.github.com/ctoth/d8e629209ff1d9748185b9830fa4e79f): "Working with Q — Coding Agent Protocol"
+
+## Skills
+
+- [dev-browser](https://github.com/SawyerHood/dev-browser): A Claude Skill to give your agent the ability to use a web browser
+

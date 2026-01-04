@@ -12,6 +12,7 @@ summary=A background browser task that can be created via script, which can send
 
         //main.js
         worker.postMessage("hello world"); // Send this to the worker script.
+
         //worker.js
         postMessage("hi from worker"); // Send this back to the main script.
 

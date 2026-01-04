@@ -5,6 +5,10 @@ summary=A collection of links to academic courses and/or tutorials on AI.
 
 ## Courses
 
+### Harvard
+
+- CS249r - Introduction to Machine Learning Systems - http://mlsysbook.ai/ - https://github.com/harvard-edge/cs249r_book
+
 ### Stanford
 
 - CS221 – Artificial Intelligence: Principles & Techniques (Core AI foundations) - https://www.youtube.com/watch?v=ZiwogMtbjr4&list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2&index=2

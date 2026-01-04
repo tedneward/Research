@@ -30,37 +30,55 @@ There used to be multiple CLR implementations, but all have more or less fallen 
 
 [Infographics](https://leveluppp.ghost.io/net-infographics/): Collection of "isn't this surprising" infographics about .NET
 
+[Silhouette](https://github.com/kevingosse/Silhouette):
+
+Reading: [Creating a .NET CLR profiler using C# and NativeAOT with Silhouette](https://andrewlock.net/creating-a-dotnet-profiler-using-csharp-with-silhouette/), https://minidump.net/writing-a-net-profiler-in-c-part-5/
+
 ## Tools
 [PowerUp](https://github.com/badamczewski/PowerUp): Decompilation Tools and High Productivity Utilities. The purpose of this library is to provide productivity utilities and tools such as: Live IDE Watcher. JIT Dissasembler. IL Compiler. Quick Benchmark. Console with rich formatting.
 
 [realmon](https://github.com/maoni0/realmon): A monitoring tool that tells you when GCs happen in a process and some characteristics about these GCs
 
-## Articles
+## Reading
+
+### Articles
+.NET Internals:
+- [A brief introduction to the .NET muxer (dotnet.exe)](https://www.stevejgordon.co.uk/a-brief-introduction-to-the-dotnet-muxer)
+- [How dotnet.exe resolves and loads the hostfxr library – Exploring the .NET muxer](https://www.stevejgordon.co.uk/how-dotnet-muxer-resolves-and-loads-the-hostfxr-library)
+
+[Exploring the .NET Boot Process via host tracing](https://andrewlock.net/exploring-the-dotnet-boot-process-via-host-tracing/)
+
+Exploring the .NET 10 Preview:
+- Part 8: [Supporting platform-specific .NET tools on old .NET SDKs](https://andrewlock.net/exploring-dotnet-10-preview-features-8-supporting-platform-specific-dotnet-tools-on-old-sdks/)
+- Part 9: [Easier Reflection with UnsafeAccessorType in .NET 10](https://andrewlock.net/exploring-dotnet-10-preview-features-9-easier-reflection-with-unsafeaccessortype/)
+
 [Using Named Pipes in C# for Interprocess Communication](https://dev.to/volkanalkilic/using-named-pipes-in-c-for-interprocess-communication-4kp1): 
 
-Named Pipe server:
-```c#
-using (var server = new NamedPipeServerStream("my_pipe_name"))
-{
-    Console.WriteLine("Waiting for client connection...");
-    server.WaitForConnection();
-    Console.WriteLine("Client connected.");
+- Named Pipe server:
 
-    // Read and write data through the pipe
-}
-```
+    ```c#
+    using (var server = new NamedPipeServerStream("my_pipe_name"))
+    {
+        Console.WriteLine("Waiting for client connection...");
+        server.WaitForConnection();
+        Console.WriteLine("Client connected.");
 
-Client:
-```c#
-using (var client = new NamedPipeClientStream(".", "my_pipe_name", PipeDirection.InOut))
-{
-    Console.WriteLine("Connecting to server...");
-    client.Connect();
-    Console.WriteLine("Connected to server.");
+        // Read and write data through the pipe
+    }
+    ```
 
-    // Read and write data through the pipe
-}
-```
+- Client:
+
+    ```c#
+    using (var client = new NamedPipeClientStream(".", "my_pipe_name", PipeDirection.InOut))
+    {
+        Console.WriteLine("Connecting to server...");
+        client.Connect();
+        Console.WriteLine("Connected to server.");
+
+        // Read and write data through the pipe
+    }
+    ```
 
 [Programmatically Convert HTML to PDF in .NET Core C# Without Dependencies](https://dev.to/grapecity/programmatically-convert-html-to-pdf-in-net-core-c-without-dependencies-76f): "... we will learn about the new GcHtml package, tips for migrating from the old to the new GcHtml package, and finally, explore how to use the new GcHtml package for converting HTML to PDF. GcHtml uses a Chrome or Edge browser (already installed in the current system or downloaded from a public website) in headless mode and interacts with it using the WebSocket protocol."
 

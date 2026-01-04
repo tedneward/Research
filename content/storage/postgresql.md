@@ -47,6 +47,7 @@ summary=Open-source relational database.
 ### Articles
 
 * ["Postgres is Too Good (And Why That's Actually a Problem)"](https://dev.to/shayy/postgres-is-too-good-and-why-thats-actually-a-problem-4imc)
+* [Go ahead, self-host Postgres](https://pierce.dev/notes/go-ahead-self-host-postgres)
 
 ## Access Tools
 

@@ -27,6 +27,7 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 - [On the Path to AI: Law’s prophecies and the conceptual foundations of the machine learning age](https://link.springer.com/book/10.1007/978-3-030-43582-0) - Thomas D. Grant, Damon J. Wischik (PDF)
 - [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/) - Cam Davidson-Pilon (HTML, Jupyter Notebook)
 - [MIT researchers propose a new model for legible, modular software](https://news.mit.edu/2025/mit-researchers-propose-new-model-for-legible-modular-software-1106?utm_source=Iterable&utm_medium=email&utm_campaign=newsletter-20251113): Their new approach breaks systems into “concepts,” separate pieces of a system, each designed to do one job well, and “synchronizations,” explicit rules that describe exactly how those pieces fit together. The result is software that’s more modular, transparent, and easier to understand. A small domain-specific language (DSL) makes it possible to express synchronizations simply, in a form that LLMs can reliably generate. In a real-world case study, the team showed how this method can bring together features that would otherwise be scattered across multiple services. The team, including Daniel Jackson, an MIT professor of electrical engineering and computer science (EECS) and CSAIL associate director, and Eagon Meng, an EECS PhD student, CSAIL affiliate, and designer of the new synchronization DSL, explore this approach in their paper “[What You See Is What It Does: A Structural Pattern for Legible Software](https://arxiv.org/abs/2508.14511),” which they presented at the Splash Conference in Singapore in October. The challenge, they explain, is that in most modern systems, a single feature is never fully self-contained. Adding a “share” button to a social platform like Instagram, for example, doesn’t live in just one service. Its functionality is split across code that handles posting, notification, authenticating users, and more. All these pieces, despite being scattered across the code, must be carefully aligned, and any change risks unintended side effects elsewhere. ... A concept bundles up a single, coherent piece of functionality, like sharing, liking, or following, along with its state and the actions it can take. Synchronizations, on the other hand, describe at a higher level how those concepts interact. Rather than writing messy low-level integration code, developers can use a small domain-specific language to spell out these connections directly. In this DSL, the rules are simple and clear: one concept’s action can trigger another, so that a change in one piece of state can be kept in sync with another. “Think of concepts as modules that are completely clean and independent. Synchronizations then act like contracts — they say exactly how concepts are supposed to interact. That’s powerful because it makes the system both easier for humans to understand and easier for tools like LLMs to generate correctly,” says Jackson. “Why can’t we read code like a book? We believe that software should be legible and written in terms of our understanding: our hope is that concepts map to familiar phenomena, and synchronizations represent our intuition about what happens when they come together,” says Meng. 
+- [DORA 2025: Measuring Software Delivery After AI](https://redmonk.com/rstephens/2025/12/18/dora2025/): "Historically, DORA split metrics into two categories: Throughput (Lead Time for Changes, Deployment Frequency), and Stability (Time to Restore, Change Failure Rate). The problem was that Change Failure Rate consistently behaved like an outlier and didn’t load cleanly with the other metrics. So in 2024, DORA made a methodological adjustment: Time to Restore moved from stability to throughput; and Rework Rate was introduced as a stability metric. Rework Rate is about the number of unplanned deployments caused by production issues compared to total deployments. Change Failure Rate compares failed deployments to total deployments. You would typically expect more unplanned deployments than outright failed deployments, which makes Rework Rate a secondary proxy for measuring instability in systems. This metric shift was small potatoes compared to what the report introduced in 2025. In 2025, the DORA report moved away from low / medium / high / elite clusters entirely. Now the report introduces seven archetypes, based on eight measures: Throughput; Stability; Team performance; Product performance; Individual effectiveness; Time spent on valuable work; Friction; and Burnout"
 
 ## History
 
@@ -34,8 +35,11 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 
 ## Criticism
 
+- [How NOT to use AI](https://www.axios.com/2025/12/25/ai-tips-how-not-to-use)
 - [AI Underpants Gnomes: The Missing Step in Your Strategy](https://www.jsnover.com/blog/2025/11/18/ai-underpants-gnomes-the-missing-step-in-your-strategy/)
 - ["The Copilot Delusion"](https://deplet.ing/the-copilot-delusion/)
+- [The Eternal Return of Abstraction: Why Programming Was Never About Code](https://generativeai.pub/the-eternal-return-of-abstraction-why-programming-was-never-about-code-18412033b517): "In which a mid-career developer discovers that LLMs are just the latest swing of a pendulum that’s been moving since before computers existed, GUI hatred is merely a phase in an endless cycle, and that we’re all just cosplaying as engineers while the universe laughs. ... Here’s the uncomfortable truth: programming is the human act of structuring intent into executable form. Code? Code is just the latest notation we’ve invented for this ancient practice. It’s younger than democracy, younger than calculus, younger than the sandwich. Yes, the sandwich (1762). Your profession is literally younger than putting meat between bread."
+- [Why We've Tried to Replace Developers Every Decade Since 1969](https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html)
 - [The Hidden Costs of Coding With Generative AI](https://sloanreview.mit.edu/article/the-hidden-costs-of-coding-with-generative-ai/)
 - [The Hidden Costs of AI Coding Assistants: Insights from a Senior Developer](https://blog.devgenius.io/the-hidden-costs-of-ai-coding-assistants-insights-from-a-senior-developer-76274fe6b345)
 - ["My new hobby: watching AI slowly drive Microsoft employees insane"](https://www.reddit.com/r/ExperiencedDevs/comments/1krttqo/my_new_hobby_watching_ai_slowly_drive_microsoft/)
@@ -119,6 +123,7 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
     6. *Build Generative AI Services with FastAPI* with Ali Parandeh, CEng . A very practical book to knot all you have learnt and will help you in building a GenAI system.
 
 * [LangGraph101: Let's build a deep research agent](https://towardsdatascience.com/langgraph-101-lets-build-a-deep-research-agent/)
+* [Quantifying AI-Human Strategy](https://osf.io/preprints/psyarxiv/vbkmt_v1): "We introduce a novel Bayesian Item Response Theory framework to quantify human–AI  synergy, separating individual and  collaborative ability while controlling for task difficulty in interactive settings. Unlike standard static benchmarks, our approach models human–AI performance as a joint process, capturing both user-specific factors and moment-to-moment fluctuations. We validate the frame-work by applying it to human–AI benchmark data (n=667) and find significant synergy. We demonstrate that collaboration  ability is distinct from individual problem-solving ability. Users better able to infer and adapt to others’ perspectives achieve superior collaborative performance with AI--but not when working alone. Moreover, moment-to-moment fluctuations in perspective taking influence AI response quality, highlighting the role of dynamic user factors in collaboration. By introducing a principled framework to analyze data from human-AI collaboration, interactive benchmarks can better complement current single-task bench-marks and crowd-assessment methods. This work informs the design and training of language models that transcend static prompt benchmarks to achieve adaptive,socially aware collaboration with diverse and dynamic human partners."
 
 ## Definitions
 
@@ -235,4 +240,64 @@ An AI model designed to handle specific tasks, using fewer parameters and less c
 
 * [Anatomy of an AI Agent Knowledge Base](https://www.infoworld.com/article/4091400/anatomy-of-an-ai-agent-knowledge-base.html)
 * [Graphiti](https://help.getzep.com/graphiti/getting-started/welcome) ([Source](https://github.com/getzep/graphiti)): a Python framework for building temporally-aware knowledge graphs designed for AI agents. It enables real-time incremental updates to knowledge graphs without batch recomputation, making it suitable for dynamic environments where relationships and information evolve over time.
+
+### Optical Character Recognition (Models)
+
+[Top 7 Open Source OCR Models](https://www.kdnuggets.com/top-7-open-source-ocr-models)
+
+* [olmOCR-2-7B-1025](https://huggingface.co/allenai/olmOCR-2-7B-1025) is a vision-language model optimized for optical character recognition on documents.
+
+    -   **Adaptive Content-Aware Processing**: Automatically classifies document content types including tables, diagrams, and mathematical equations to apply specialized OCR strategies for enhanced accuracy
+    -   **Reinforcement Learning Optimization**: GRPO RL training specifically enhances accuracy on mathematical equations, tables, and other difficult OCR cases
+    -   **Excellent Benchmark Performance**: Scores 82.4 overall on olmOCR-bench with strong results across arXiv documents, old scans, headers, footers, and multi-column layouts
+    -   **Specialized Document Processing**: Optimized for document images with longest dimension of 1288 pixels and requires specific metadata prompts for best results
+    -   **Scalable Toolkit Support**: Designed to work with the olmOCR toolkit for efficient VLLM-based inference capable of processing millions of documents
+
+* [PaddleOCR VL](https://huggingface.co/PaddlePaddle/PaddleOCR-VL) is an ultra-compact vision-language model specifically designed for efficient multilingual document parsing.
+
+    -   **Ultra-Compact 0.9B Architecture**: Combines a NaViT-style dynamic resolution visual encoder with ERNIE-4.5-0.3B language model for resource-efficient inference while maintaining high accuracy
+    -   **State-of-the-Art Document Parsing**: Achieves leading performance on OmniDocBench v1.5 and v1.0 for overall document parsing, text recognition, formula extraction, table understanding, and reading order detection
+    -   **Extensive Multilingual Support**: Recognizes 109 languages covering major global languages and diverse scripts including Cyrillic, Arabic, Devanagari, and Thai for truly global document processing
+    -   **Comprehensive Element Recognition**: Excels at identifying and extracting text, tables, mathematical formulas, and charts including complex layouts and challenging content like handwritten text and historical documents
+    -   **Flexible Deployment Options**: Supports multiple inference backends including native PaddleOCR toolkit, transformers library, and vLLM server for optimized performance across different deployment scenarios
+
+* [OCRFlux-3B](https://huggingface.co/ChatDOC/OCRFlux-3B) is a preview release of a multimodal large language model fine-tuned from Qwen2.5-VL-3B-Instruct for converting PDFs and images into clean, readable Markdown text.
+
+    -   **Exceptional Single-Page Parsing Accuracy**: Achieves an Edit Distance Similarity of 0.967 on OCRFlux-bench-single, significantly outperforming olmOCR-7B-0225-preview, Nanonets-OCR-s, and MonkeyOCR
+    -   **Native Cross-Page Structure Merging**: First open-source project to natively support detecting and merging tables and paragraphs that span multiple pages, achieving 0.986 F1 score on cross-page detection
+    -   **Efficient 3B Parameter Architecture**: Compact model design enables deployment on GTX 3090 GPUs while maintaining high performance through vLLM-optimized inference for processing millions of documents
+    -   **Comprehensive Benchmarking Suite**: Provides extensive evaluation frameworks including OCRFlux-bench-single and cross-page benchmarks with manually labeled ground truth for reliable performance measurement
+    -   **Scalable Production-Ready Toolkit**: Includes Docker support, Python API, and a complete pipeline for batch processing with configurable workers, retries, and error handling for enterprise deployment
+
+* [MiniCPM-V 4.5](https://huggingface.co/openbmb/MiniCPM-V-4_5) is the latest model in the MiniCPM-V series, offering advanced optical character recognition and multimodal understanding capabilities.
+
+    -   **Exceptional Benchmark Performance:** State of the art vision language performance with a 77.0 average score on OpenCompass, surpassing larger models like GPT-4o-latest and Gemini-2.0 Pro
+    -   **Revolutionary Video Processing:** Efficient video understanding using a unified 3D-Resampler that compresses video tokens 96 times, enabling high-FPS processing up to 10 frames per second
+    -   **Flexible Reasoning Modes:** Controllable hybrid fast and deep thinking modes for switching between quick responses and complex reasoning
+    -   **Advanced Text Recognition:** Strong OCR and document parsing that processes high resolution images up to 1.8 million pixels, achieving leading scores on OCRBench and OmniDocBench
+    -   **Versatile Platform Support:** Easy deployment across platforms with llama.cpp and ollama support, 16 quantized model sizes, SGLang and vLLM integration, fine tuning options, WebUI demo, iOS app, and online web demo
+
+* [InternVL2.5-4B](https://huggingface.co/OpenGVLab/InternVL2_5-4B) is a compact multimodal large language model from the InternVL 2.5 series, combining a 300 million parameter InternViT vision encoder with a 3 billion parameter Qwen2.5 language model.
+
+    -   **Dynamic High Resolution Processing:** Handles single images, multiple images, and video frames by dividing them into adaptive 448 by 448 pixel tiles with intelligent token reduction through pixel unshuffle operations
+    -   **Efficient Three Stage Training:** Features a carefully designed pipeline with MLP warmup, optional vision encoder incremental learning for specialized domains, and full model instruction tuning with strict data quality controls
+    -   **Progressive Scaling Strategy:** Trains the vision encoder with smaller language models first before transferring to larger ones, using less than one tenth of the tokens required by comparable models
+    -   **Advanced Data Quality Filtering:** Employs a comprehensive pipeline with LLM based quality scoring, repetition detection, and heuristic rule based filtering to remove low quality samples and prevent model degradation
+    -   **Strong Multimodal Performance:** Delivers competitive results on OCR, document parsing, chart understanding, multi image comprehension, and video analysis while preserving pure language capabilities through improved data curation
+
+* [Granite Vision 3.3 2b](https://huggingface.co/ibm-granite/granite-vision-3.3-2b) is a compact and efficient vision-language model released on June 11th, 2025, designed specifically for visual document understanding tasks.
+
+    -   **Superior Document Understanding Performance:** Achieves improved scores across key benchmarks including ChartQA, DocVQA, TextVQA, and OCRBench, outperforming previous granite-vision versions
+    -   **Enhanced Safety Alignment:** Features improved safety scores on RTVLM and VLGuard datasets, with better handling of political, racial, jailbreak, and misleading content
+    -   **Experimental Multipage Support:** Trained to handle question answering tasks using up to 8 consecutive pages from a document, enabling long context processing
+    -   **Advanced Document Processing Features:** Introduces novel capabilities including image segmentation and doctags generation for parsing documents into structured text formats
+    -   **Efficient Enterprise-Focused Design:** Compact 2 billion parameter architecture optimized for visual document understanding tasks while maintaining 128 thousand token context length
+
+* The [TrOCR](https://huggingface.co/microsoft/trocr-large-printed) large-sized model fine-tuned on SROIE is a specialized transformer-based optical character recognition system designed for extracting text from single-line images.
+
+    -   **Transformer Based Architecture**: Encoder-decoder design with image Transformer encoder and text Transformer decoder for end-to-end optical character recognition
+    -   **Pretrained Component Initialization**: Leverages BEiT weights for image encoder and RoBERTa weights for text decoder for better performance
+    -   **Patch Based Image Processing**: Processes images as fixed-size 16 by 16 patches with linear embedding and position embeddings
+    -   **Autoregressive Text Generation**: Decoder generates text tokens sequentially for accurate character recognition
+    -   **SROIE Dataset Specialization**: Fine-tuned on the SROIE dataset for enhanced performance on printed text recognition tasks
 
