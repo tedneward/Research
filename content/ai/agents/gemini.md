@@ -3,6 +3,8 @@ tags=ai, agent
 summary=Google's AI agent.
 ~~~~~~
 
+[Website](https://docs.cloud.google.com/gemini/docs/codeassist/gemini-cli) | [Source](https://github.com/google-gemini/gemini-cli)
+
 ## Reading
 
 ### Articles/Blogs/Essays
