@@ -63,9 +63,13 @@ Collection of links about and around hardware.
     - https://www.caldigit.com/thunderbolt-5-dock-ts5/
     - https://www.caldigit.com/thunderbolt-5-dock-ts5-plus/
 
+- https://appleinsider.com/articles/25/05/19/owcs-thunderbolt-5-dock-arrives-with-8k-display-support
+
+ANKER:
+
 - [ANKER docking station](https://www.cultofmac.com/news/macbook-pro-and-anker-dock-setup)
 - [I tested the Anker Prime TB5 Docking Station...](https://www.techradar.com/pro/anker-prime-docking-station-14-in-1-8k-thunderbolt-5-review)
-- https://appleinsider.com/articles/25/05/19/owcs-thunderbolt-5-dock-arrives-with-8k-display-support
+- [Anker launches Nano 13-in-1 Dock with detachable 6-in-1 hub, triple display support & 100W charging](https://www.gizmochina.com/2025/12/03/anker-nano-13-in-1-docking-station-launched-specs-price/)
 
 ## Input Devices
 [GATERON Mechanical Keyboard](https://www.amazon.com/dp/B01E57PUNA/?th=1) also https://www.amazon.com/nuphy-Air75-V2-Mechanical-Systems-Gateron/dp/B0CMXBMVT1 ?
