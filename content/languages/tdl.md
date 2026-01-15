@@ -3,7 +3,7 @@ tags=language, events
 summary=A prototype-based event-driven language with influences from ooc, Ruby, and Ioke.
 ~~~~~~
 
-[Source](https://github.com/duckinator/TDL)
+Source used to be at https://github.com/duckinator/TDL but 404s now. Found again: [Source](https://github.com/nealcao/TDL) but is lacking the README (which I have below):
 
 ### From the README
 TDL is a prototype-based event-driven language.
