@@ -19,6 +19,8 @@ summary=Collection of links and notes about self-contained portable computers.
 
 [TUXEDO](https://www.tuxedocomputers.com/index.php): European-based (prices in EUR)
 
+- https://www.tuxedocomputers.com/en/TUXEDO-InfinityBook-Pro-14-Gen10.tuxedo
+
 [XMG](https://www.xmg.gg/en/): Assembled in Germany; gaming laptop focus
 
 - [XMG EVO 14 E25](https://www.xmg.gg/en/xmg-evo-14-e25/)

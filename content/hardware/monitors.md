@@ -27,3 +27,7 @@ summary=Collection of links about displays that rest on your desk or mount on th
 
 * [These XR glasses gave me a 200-inch screen to work with - and now I might ditch my monitors](https://www.zdnet.com/article/these-xr-glasses-gave-me-a-200-inch-screen-to-work-with-and-now-i-might-ditch-my-monitors/): Xreal One Pro AR - [link](https://us.shop.xreal.com/products/xreal-one-pro) *(As of 1 Sep 2025, ~USD$650)*
 
+## Projectors
+
+* [Aurzen Roku TV Smart Projector with Wifi and Bluetooth, D1R Cube Roku Streaming Experience Built-in, Sealed Optical Engine, 1080P FHD, Dolby Audio, Portable Mini Projector for Home/Outdoor Movies](https://www.amazon.com/Aurzen-Projector-Bluetooth-Streaming-Experience/dp/B0FDGLZKKM/)
+* https://www.zdnet.com/home-and-office/home-entertainment/aurzen-d1r-cube-roku-projector-review/

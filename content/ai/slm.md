@@ -3,4 +3,9 @@ tags=ai
 summary=Collection of links and notes.
 ~~~~~~
 
-(Nothing captured yet)
+## Resources
+
+### Articles, Blogs, Essays
+
+* [The Optimal Architecture for Small Language Models](https://huggingface.co/blog/codelion/optimal-model-architecture)
+

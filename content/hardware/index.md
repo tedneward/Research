@@ -93,6 +93,14 @@ Collection of links about and around hardware.
 - https://www.theverge.com/reviews/656183/kuxius-semi-solid-state-power-bank-costs-a-little-more-but-lasts-much-longer
 
 ## KVM
+[IP KVM](https://www.gl-inet.com/products/gl-rm10rc/):
+
+- https://www.hackster.io/news/the-ip-kvm-that-never-goes-offline-5ade056a9055
+
+https://www.crowdsupply.com/techxartisan/openterface-kvm-go: Openterface’s KVM-GO is a pocket-sized, open source tool for hardware-level access to headless computers.
+
+- https://www.hackster.io/news/a-kvm-that-fits-on-your-keychain-e2adb39f7a2b
+
 [Top Gaming KVM Switches for 2025](https://www.avaccess.com/blogs/guides/best-kvm-switch-for-gaming/)
 
 8KSW21-KVM: 8K HDMI KVM Switch for 1 Monitor

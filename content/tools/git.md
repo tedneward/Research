@@ -87,6 +87,10 @@ Just the tool itself; considered separate from [Github](/clouds/github) since it
 * https://blog.stackademic.com/git-rebase-explained-like-youre-new-to-git-263c19fa86ec
 * [Working with Stacked Branches in Git](https://andrewlock.net/working-with-stacked-branches-in-git-part-1/)
 
+### Articles, Blogs, Essays
+
+* [How to sync files between two local machines using Git](https://www.howtogeek.com/i-turned-git-into-a-private-github-free-sync-system-between-my-own-machines-and-it-completely-changed-how-i-work/) - Basic git hosting over SSH
+
 ### Websites
 
 * [GitGuys](http://www.gitguys.com/)

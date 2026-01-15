@@ -44,4 +44,4 @@ summary=The OG.
 ### Articles
 
 * ["HTML5 Elements You Didn't Know You Need"](https://dev.to/maxprilutskiy/html5-elements-you-didnt-know-you-need-gan)
-
+* [Replacing JS with just HTML](https://www.htmhell.dev/adventcalendar/2025/27/) (Accordions / Expanding Content Panels; Input with Autofilter Suggestions Dropdown; Modals / Popovers; Offscreen Nav / Content)

@@ -5,6 +5,8 @@ summary=A collection of links around artificial intelligence (and all the differ
 tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 ~~~~~~
 
+[AI Hands-On](https://github.com/Ramakm/ai-hands-on): A group of notebooks and other files which can help you learn AI from scratch.
+
 ## General
 
 - [The 10+1 Commandments of Human AI Co-Existence](https://10plus1.ai/): "The 10+1 is a standard. Not everyone will adopt it - but those who do will lead the next era. If you're a policymaker, don't wait for regulation to catch up. If you're a CEO, don't wait for PR fallout to act with integrity. If you're building AI, don't just ask if it works - ask if it's worthy. We don't need more frameworks. We need a philosophical backbone. This is it."
@@ -53,6 +55,7 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 
 - [We need to stop pretending AI is intelligent -- here's how](https://theconversation.com/we-need-to-stop-pretending-ai-is-intelligent-heres-how-254090)
 - [AI: Not That Smart](https://columbiacommunityconnection.com/the-dalles/column-ai-not-that-smart)
+- [The Problem With Letting AI Do the Grunt Work](https://www.theatlantic.com/ideas/2025/12/ai-entry-level-creative-jobs/685297/)
 - [Building AI Products In The Probabilistic Era](https://giansegato.com/essays/probabilistic-era): "Just as physics underwent a conceptual revolution when we moved past Newton's deterministic universe, and into a strange and counterintuitive place made by wave functions, software too is undergoing its own quantum shift. We're leaving a world where code reliably and deterministically takes certain inputs to produce specific outputs, and entering a very different one where machines now produce statistical distributions instead. *Building probabilistic software is like nothing we've done before.*"
 - ["AI coding tools make developers slower but they think they're faster, study finds"](https://www.theregister.com/2025/07/11/ai_code_tools_slow_down/)
 - [Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/): "We conduct a randomized controlled trial (RCT) to understand how early-2025 AI tools affect the productivity of experienced open-source developers working on their own repositories. Surprisingly, we find that when developers use AI tools, they take 19% longer than without—AI makes them slower. We view this result as a snapshot of early-2025 AI capabilities in one relevant setting; as these systems continue to rapidly evolve, we plan on continuing to use this methodology to help estimate AI acceleration from AI R&D automation." ([full paper](https://arxiv.org/abs/2507.09089))
@@ -124,8 +127,13 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 
 * [LangGraph101: Let's build a deep research agent](https://towardsdatascience.com/langgraph-101-lets-build-a-deep-research-agent/)
 * [Quantifying AI-Human Strategy](https://osf.io/preprints/psyarxiv/vbkmt_v1): "We introduce a novel Bayesian Item Response Theory framework to quantify human–AI  synergy, separating individual and  collaborative ability while controlling for task difficulty in interactive settings. Unlike standard static benchmarks, our approach models human–AI performance as a joint process, capturing both user-specific factors and moment-to-moment fluctuations. We validate the frame-work by applying it to human–AI benchmark data (n=667) and find significant synergy. We demonstrate that collaboration  ability is distinct from individual problem-solving ability. Users better able to infer and adapt to others’ perspectives achieve superior collaborative performance with AI--but not when working alone. Moreover, moment-to-moment fluctuations in perspective taking influence AI response quality, highlighting the role of dynamic user factors in collaboration. By introducing a principled framework to analyze data from human-AI collaboration, interactive benchmarks can better complement current single-task bench-marks and crowd-assessment methods. This work informs the design and training of language models that transcend static prompt benchmarks to achieve adaptive,socially aware collaboration with diverse and dynamic human partners."
+* [The New Operational Stack: From IaC to Platforms to AI Agents](https://thenewstack.io/the-new-operational-stack-from-iac-to-platforms-to-ai-agents/)
 
 ## Definitions
+
+### Assistants
+
+* [DeepTutor: AI-Powered Personalized Learning Assistant](https://hkuds.github.io/DeepTutor/) [Source](https://github.com/HKUDS/DeepTutor): Your AI Learning Companion - Transform any document into an interactive learning experience
 
 ### [Expert Systems](/tags/expert%20system.html) / [Rules Engines](/tags/rules.html)
 
