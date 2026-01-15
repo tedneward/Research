@@ -1,5 +1,5 @@
 title=Event Modeling
-tags=architecture, event
+tags=architecture, events
 summary=Thinking about your system in terms of events.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=Event-Driven/Event-Sourcing Architecture
-tags=architecture, event
+tags=architecture, events
 summary=An approach to building systems via events.
 ~~~~~~
 

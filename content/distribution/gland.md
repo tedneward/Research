@@ -1,5 +1,5 @@
 title=Gland
-tags=distribution, ecmascript
+tags=distribution, events, ecmascript, library, framework, nodejs
 summary=A lightweight, modular framework for event-driven applications.
 ~~~~~~
 

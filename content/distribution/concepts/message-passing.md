@@ -1,5 +1,5 @@
 title=Message-passing
-tags=distribution, concept, messaging
+tags=distribution, concept, messaging, events
 summary=Notes and reading on the subject.
 ~~~~~~
 

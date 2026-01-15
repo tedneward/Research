@@ -1,5 +1,5 @@
 title=Event-sourcing storage model
-tags=storage, model, event-sourced
+tags=storage, model, events, event store
 summary=Thoughts and links.
 ~~~~~~
 
