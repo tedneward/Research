@@ -32,6 +32,8 @@ Repositories for graphics:
 
 * ["How I accidentally came up with a reactive JS UI library"](https://dev.to/abtahitajwar/how-i-accidentally-came-up-with-a-reactive-js-ui-library-33ma)
 
+* [I built an app in every frontend framework](https://dev.to/lissy93/i-built-an-app-in-every-frontend-framework-4a9g): React, Vue, Svelte, Angular, Lit, Marko, jQuery, Alpine, Solid, Astro, Van.js, Qwik, 
+
 ### User Interface
 
 [Guidebook Gallery](https://guidebookgallery.org/): Graphical user interface gallery *(up until 2006, right before the mobile/smartphone revolution!)*

@@ -13,5 +13,3 @@ summary=Articles and links on building self-hosted hardware systems.
 - [Setting up and leveling up your HomeLab - a comprehensive guide](https://chriskirby.net/setting-up-and-leveling-up-your-homelab-a-comprehensive-guide/)
 - [The Self-Hosting Starter Pack: 5 Simple Tools I Recommend To Get Started With Your Homelab](https://itsfoss.com/self-hosting-starting-projects/)
 
-
-

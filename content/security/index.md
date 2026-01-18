@@ -9,6 +9,10 @@ summary=Computer (network, operating system, application, etc) security.
 
 * [The Web Authentication Arms Race](https://blog.slaks.net/2015-10-13/web-authentication-arms-race-a-tale-of-two-security-experts/)
 
+## Network
+
+- [Port scanning your own network should be a monthly ritual](https://www.xda-developers.com/port-scanning-your-own-network-should-be-a-monthly-ritual/)
+
 ## Threat Intelligence
 
 - [abuse.ch](https://www.abuse.ch/) - ZeuS Tracker / SpyEye Tracker / Palevo Tracker / Feodo Tracker tracks Command&Control servers (hosts) around the world and provides you a domain- and an IP-blocklist.

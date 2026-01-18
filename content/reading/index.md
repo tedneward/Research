@@ -46,6 +46,10 @@ Individual collections of articles/essays:
 
 * [Oren Golan](https://oren.github.io/articles/)
 
+## Amazon Kindle (cloud system)
+
+* [How to remove Amazon's DRM from your Kindle books](https://www.howtogeek.com/how-to-remove-amazon-drm-from-your-kindle-books/)
+
 ---
 
 "A cultural universal is an element, pattern, or trait that is common to all known human cultures worldwide. These include: Personal names, sexual jealousy, music, dance, proverbs, and poetry." --[UberFacts](https://twitter.com/UberFacts/status/1509115472163356686)

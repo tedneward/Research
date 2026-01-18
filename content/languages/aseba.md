@@ -1,5 +1,5 @@
 title=Aseba
-tags=language
+tags=language, events
 summary=Event-driven programming language for driving robots in an educational environment.
 ~~~~~~
 

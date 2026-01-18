@@ -82,6 +82,10 @@ TODO: sort into pages or categories
 - Verge 3D https://www.soft8soft.com/verge3d/
 - Hology Engine https://hology.app/
 - ThreeJS https://threejs.org/
+
+    - [Rollercoaster.js](https://github.com/mrdoob/three.js/blob/master/examples/jsm/misc/RollerCoaster.js)
+    - [How to Create Never-Ending Fun (🎢RollerCoaster.js + React Three Fiber + AI)](https://dev.to/webdeveloperhyper/how-to-create-never-ending-fun-rollercoasterjs-react-three-fiber-ai-57c5)
+
 - Threlte https://threlte.xyz/
 - A Frame https://aframe.io/
 - Godot JS https://github.com/godotjs/GodotJS [Other Godot Languages]

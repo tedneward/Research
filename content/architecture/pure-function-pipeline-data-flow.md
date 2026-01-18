@@ -1,5 +1,5 @@
-title=The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model
-tags=reading, articles, distribution, language
+title=The Grand Unified Programming Theory
+tags=reading, articles, distribution, language, events
 summary=The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model.
 ~~~~~~
 
@@ -103,22 +103,16 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 ## Key innovative ideas
 
-- [Software and hardware are factories that manufacture data, 
-  so they have the same "warehouse/workshop model" and management methods 
-  as the manufacturing industry.](#Warehouse-Workshop-Model)
+- [Software and hardware are factories that manufacture data, so they have the same "warehouse/workshop model" and management methods as the manufacturing industry.](#Warehouse-Workshop-Model)
 
 - [Software and hardware are a unified architecture: "warehouse/workshop model".](#The-unification-with-Computer-Hardware-Architecture)
   - From a static point of view, it is a star.
   - From the perspective of dynamic runtime, it is a dynamic tree Gantt chart, like a rushing river system. 
-  - the "Warehouse/Workshop Model" will surely replace the "von Neumann architecture" 
-    and become the first architecture in the computer field, 
-    and it is the first architecture to achieve a unified software and hardware.
+  - the "Warehouse/Workshop Model" will surely replace the "von Neumann architecture" and become the first architecture in the computer field, and it is the first architecture to achieve a unified software and hardware.
     - [Follower: Apple M1 chip](#Follower-Case-Apple-M1-chip)
     - [HPE Cray Supercomputer likes it twice at twitter in 2021-04](#HPE-Cray-Supercomputer-likes-it-at-twitter-in-2021-04)
 
-- [The scheduler (scheduling function) dynamically plans the order of completion of tasks 
-  according to the Gantt chart algorithm, and calls the workshop to complete the assigned tasks. 
-  This approach is the most efficient, and there is no resource competition and transaction conflict.](#Single-Leader-and-Unified-Scheduling)
+- [The scheduler (scheduling function) dynamically plans the order of completion of tasks according to the Gantt chart algorithm, and calls the workshop to complete the assigned tasks. This approach is the most efficient, and there is no resource competition and transaction conflict.](#Single-Leader-and-Unified-Scheduling)
 
 - [From the perspective of system architecture, it is a warehouse/workshop model fractal system.](#Overview-of-the-model)
   - [10 Principles of the model](#Principles-of-the-model)
@@ -141,43 +135,30 @@ Keep it Simple and Unified.
         ---- Lin Pengcheng
 
 NASA’s 10 rules for writing mission-critical code: 
-1.Restrict all code to very simple control flow constructs.
+
+1. Restrict all code to very simple control flow constructs.
+
         ---- Gerard J. Holzmann, NASA JPL lead scientist.
         
-Minimize control flow complexity and "area under ifs", 
-favoring consistent execution paths and times over "optimally" avoiding unnecessary work.
+Minimize control flow complexity and "area under ifs", favoring consistent execution paths and times over "optimally" avoiding unnecessary work.
         ---- John Carmack
 
-Clojure Aphorism: A tangled web of mutation means any change to 
-your code potentially occurs in the large. 
+Clojure Aphorism: A tangled web of mutation means any change to your code potentially occurs in the large. 
         ---- The Joy of Clojure (2nd Edition, Chapter 10)
         
-Bad programmers worry about the code. 
-Good programmers worry about data structures and their relationships.
+Bad programmers worry about the code. Good programmers worry about data structures and their relationships.
         ---- Linus Torvalds
         
-Data dominates. If you’ve chosen the right data structures and organized things well, 
-the algorithms will almost always be self-evident. 
-Data structures, not algorithms, are central to programming. 
+Data dominates. If you’ve chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming. 
         ---- Rob Pike
         
-It’s better to have 100 functions operate on one data structure 
-than 10 functions on 10 data structures.        
-        ---- Alan Perlis
-             the first recipient of the Turing Award (1966)
-             A founding father of Computer Science as a separate discipline
+It’s better to have 100 functions operate on one data structure than 10 functions on 10 data structures.        
+        ---- Alan Perlis, the first recipient of the Turing Award (1966); A founding father of Computer Science as a separate discipline
              
-Show me your flowcharts and conceal your tables, 
-and I shall continue to be mystified. Show me your tables, 
-and I won’t usually need your flowcharts; they’ll be obvious.
+Show me your flowcharts and conceal your tables, and I shall continue to be mystified. Show me your tables, and I won’t usually need your flowcharts; they’ll be obvious.
         ---- Fred Brooks, Turing Award (1999), The Mythical Man-Month
            
-Even the simplest procedural logic is hard for humans to verify, 
-but quite complex data structures are fairly easy to model and reason about. 
-...
-Data is more tractable than program logic. It follows that where you see a choice 
-between complexity in data structures and complexity in code, choose the former. 
-More: in evolving a design, you should actively seek ways to shift complexity from code to data.
+Even the simplest procedural logic is hard for humans to verify, but quite complex data structures are fairly easy to model and reason about. ... Data is more tractable than program logic. It follows that where you see a choice between complexity in data structures and complexity in code, choose the former. More: in evolving a design, you should actively seek ways to shift complexity from code to data.
         ---- Eric Steven Raymond, The Art of Unix Programming, Basics of the Unix Philosophy
         
 Metaphors for a Richer Understanding of Software Development.

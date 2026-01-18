@@ -1,5 +1,5 @@
 title=Ambient-oriented programming
-tags=language, concept, actor
+tags=language, concept, actor, event
 summary=An approach to programming whose details I'm still figuring out.
 ~~~~~~
 

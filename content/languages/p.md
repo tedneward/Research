@@ -1,5 +1,5 @@
 title=P
-tags=language
+tags=language, state machine
 summary=A state machine based statically-compiled research programming language from Microsoft for formally modeling and specifying complex distributed systems.
 ~~~~~~
 

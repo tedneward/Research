@@ -70,3 +70,5 @@ Much of this is going to be found in the [reading on memory management](/reading
 ## Practice/Experiment implementations
 
 * [PCL](https://github.com/sal55/pcl)
+* [DOS](https://stal.blogspot.com/2025/12/building-complete-dos-emulator-in-go.html) [Source](https://github.com/ms1963/dos-emulator): When I started my university studies, the most used operating system had been Microsoft‘s MS-DOS - though some had serious doubts whether DOS (Disk Operating System) really was an operating system or not. In that era memory capacity was calculated in Kilobytes instead of Gigabytes. It was hard to live and work with these constraints, but somehow we managed to write ressource-efficient programs. As a homage to these ancient times I wrote a DOS emulator.
+

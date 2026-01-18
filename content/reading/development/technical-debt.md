@@ -26,6 +26,20 @@ Fowler's thoughts:
 ## Thoughts
 
 * Capturing tribal and tacit knowledge - https://leaddev.com/software-quality/building-knowledge-transfer-strategy-manage-technical-debt
+* [On Fragmentation: Tech Debt Is a Coherence Problem](https://systemic.engineering/on-fragmentation-tech-debt-coherence/)
+
+## Tools/Tooling
+
+* [I Built a Tool to Stop Wasting Time on Toxic OSS Projects](https://dev.to/elshadhu/i-built-a-tool-to-stop-wasting-time-on-toxic-open-source-projects-5h12) [Source](https://github.com/ElshadHu/repo-health): My system uses a Hybrid Approach that combines a deterministic formula grounded in industry standards with a qualitative Language Model Judge to account for real-world context. The Algorithm (0-100 Score) is calculated using a custom weighted average that I designed, inspired by standardized CHAOSS Metrics. I tuned the weights myself based on what I believe indicates a healthy modern project:
+
+        Score = (0.3 × Activity) + (0.25 × Maintenance) + (0.2 × Community) + (0.25 × Docs)
+
+    Activity (30%): Frequency of commits + Recency of updates + Unique authors.
+    Maintenance (25%): Issue response time + Open issue ratio + Repository age.
+    Community (20%): Logarithmic scale of Stars & Forks.
+    Documentation (25%): Existence of README, LICENSE, and CONTRIBUTING files. 
+
+
 
 ### High-level categories
 

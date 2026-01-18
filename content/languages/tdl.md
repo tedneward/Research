@@ -1,14 +1,15 @@
 title=TDL
-tags=language, event
+tags=language, events
 summary=A prototype-based event-driven language with influences from ooc, Ruby, and Ioke.
 ~~~~~~
 
-[Source](https://github.com/duckinator/TDL)
+Source used to be at https://github.com/duckinator/TDL but 404s now. Found again: [Source](https://github.com/nealcao/TDL) but is lacking the README (which I have below):
 
 ### From the README
 TDL is a prototype-based event-driven language.
 
 Syntax for event actions:
+
     ObjName: ObjInheritedFrom {
       EvtName: Event {
         ACTION1
@@ -21,6 +22,7 @@ Events can have multiple actions. You can declare events multiple times, they'll
 
 
 Syntax for event triggering:
+
     OBJECT EVENT()
 
 `OBJECT` can be a literal (string, number, etc).
@@ -56,6 +58,7 @@ All events without a receiver are ran on the `Ground` object.
 #### Predefined events
 
 The following predefined events are defined on the `Predefined` object:
+
     clone(this)
     print(this)
     string_size(this)
@@ -85,6 +88,7 @@ The following predefined events are defined on the `Predefined` object:
 #### Predefined constructs
 
 The following predefined constructs are defined on the `Predefined` object:
+
     while(condition, block)
     if(condition, block)
     hash_each(block)
@@ -96,9 +100,11 @@ The `Ground` object starts as a clone of `Object`. It is the object which all un
 #### Defining objects
 
 To set `A` as a copy of `B`:
+
     A: B
 
 To add new events to `A` that are not in `B` while defining the object:
+
     A: B {
       foo: Event {
         "hai"
@@ -106,6 +112,7 @@ To add new events to `A` that are not in `B` while defining the object:
     }
 
 To add create a new object, and add new events later:
+
     A: B {
       foo: Event {
         "hai"
@@ -123,6 +130,7 @@ To add create a new object, and add new events later:
 Arguments to events and constructs inherit from the `Argument` object (which should not used directly), and are not evaluated until you invoke the `call()` method
 
 Events - despite being objects - work as what most languages would call methods, very straight-forward:
+
     A: Object {
       foo: Event {
         # Everything here is ran when you do `A foo()`
@@ -130,7 +138,9 @@ Events - despite being objects - work as what most languages would call methods,
     }
 
 Constructs are like events but the last argument is always a _block_ and none of the arguments are evaluated until you raise the `call()` event on them.
+
 There is a `call!()` event (defined in core.tdl) which is the same as `argName = argName call()`
+
     Number {
       upto: Construct(limit, block) {
         i: this
@@ -153,6 +163,7 @@ There is a `call!()` event (defined in core.tdl) which is the same as `argName =
 A property, also known by about a million other names, is a variable which references an object.  There are no other variables in TDL.
 
 Properties are per-object, since code is never actually executed outside of events (the obvious limitations of this are mentioned in "Object Initialization").
+
     A: Object {
       b: Event {
         asdf = "fdsa"
@@ -166,6 +177,7 @@ The `init` event is called when the object is created. The object is created as 
 `Ground init()` is called when the program starts.
 
 For instance, in the following example, `A` is created before `B`.
+
     A: Object {
       init: Event {
         foo = "bar"
@@ -181,6 +193,7 @@ For instance, in the following example, `A` is created before `B`.
 #### this, This, parent, and Parent
 
 `this` returns a reference to the current object.
+
     A: Object {
       foo: Event {
         "meep"
@@ -191,6 +204,7 @@ For instance, in the following example, `A` is created before `B`.
     }
 
 `This` returns a clone of the current object.
+
     B: Object {
       clone: Event {
         This // returns a clone of `B`
@@ -198,6 +212,7 @@ For instance, in the following example, `A` is created before `B`.
     }
 
 `parent` returns a reference to the object the current object is a clone of.
+
     C: Object {
       p: Event {
         parent // I couldn't think of a real use for this, but it fits with this/This
@@ -205,6 +220,7 @@ For instance, in the following example, `A` is created before `B`.
     }
 
 `Parent` returns a clone of the object the current object is a clone of.
+
     D: Object {
       reset: Event {
         this = Parent /* replace the current object with a new clone of
@@ -215,6 +231,7 @@ For instance, in the following example, `A` is created before `B`.
 #### Object
 
 All objects inherit from Object. 
+
     Object {
       foo: Event {
         // "foo" can be run on all objects
@@ -227,6 +244,7 @@ All objects inherit from Object.
 Any object following a colon is considered an object or attribute reference.
 
 The original reasoning for adding this was to allow for objects that would otherwise be interpreted as numbers.
+
     A: Object {
       init: Event {
         FOO = "meep"
@@ -244,6 +262,7 @@ The original reasoning for adding this was to allow for objects that would other
 #### Comments
 
 Any line starting with `//` is a comment, and data contained within `/*` and `*/` are comments
+
     // This is one comment
     /* And this,
        is yet another */

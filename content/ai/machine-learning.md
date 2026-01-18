@@ -5,6 +5,14 @@ summary=Links and notes on the topic.
 
 Much of this needs further movement into other areas of the garden.
 
+## Reading
+
+### Articles, Blogs, Essays
+
+## "MLOps"
+
+- [Part 1: Designing a Production-Grade Agentic MLOps System](https://kmeanskaran.substack.com/p/part-1-designing-an-agentic-mlops): A practical guide to combining LSTM forecasting, transfer learning, and AI agents in real-world ML systems
+
 # Papers
 
 ## Type Inference

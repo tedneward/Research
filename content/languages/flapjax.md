@@ -1,5 +1,5 @@
 title=Flapjax
-tags=language, platform, browser, nodejs
+tags=language, platform, browser, nodejs, events
 summary=A new programming language designed around the demands of modern, client-based Web applications.
 ~~~~~~
 

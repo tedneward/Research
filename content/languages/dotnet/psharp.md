@@ -1,5 +1,5 @@
 title=P#
-tags=clr, language
+tags=clr, language, event
 summary=A statically-compiled research language from Microsoft around explicit state machine management.
 ~~~~~~
 

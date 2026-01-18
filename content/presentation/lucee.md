@@ -1,5 +1,5 @@
 title=Lucee
-tags=presentation, browser, jvm
+tags=presentation, language, browser, jvm
 summary=CFML application server/engine. Lucee provides a lot of functionality (tags and functions) to deal with all kinds of web related actions. Manipulating images, PDF files, XML, string, numbers, dates and a lot more.
 ~~~~~~
 
