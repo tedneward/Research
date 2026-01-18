@@ -12,4 +12,4 @@ summary=A collection of notebooks for LLMs.
 * [How NotebookLM made self-hosting an LLM easier than I ever expected](https://www.xda-developers.com/learn-how-to-self-host-llm-with-notebooklm/)
 * [The complete guide to NotebookLM](https://www.fastcompany.com/91467915/notebooklm-guide-google-docs)
 * [I gave in and tried NotebookLM's popular features and it forever changed how I learn](https://www.makeuseof.com/i-tried-audio-video-overviews-notebooklm/)
-
+* [The NotebookLM Workflow That Changed How I Learn Any Technology](https://pub.towardsai.net/the-notebooklm-workflow-that-changed-how-i-learn-any-technology-373f430a17e5)
