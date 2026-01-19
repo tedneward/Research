@@ -29,3 +29,21 @@ We want to change that - we believe the only way is to provide a solution that h
 
 We also believe in the principle of least vendor lock-in. Your having full control of your user's data means that you can switch away from SuperTokens without forcing your existing users to logout, reset their passwords, or in the worst case, sign up again.
 
+---
+
+# SuperTokens and "vanilla" JS
+
+[Docs](https://supertokens.com/docs/web-js/index.html) | [Source](https://github.com/supertokens/supertokens-web-js)
+
+Using SuperTokens with vanilla JS involves two main parts: the frontend using the `supertokens-web-js` SDK and a backend that uses a SuperTokens Backend SDK (for Node.js, Python, Go, etc.). 
+
+Installation: `npm i -s supertokens-website`
+
+Usage:
+```
+supertokens.init({
+    apiDomain: "<URL to your auth backend>"
+});
+```
+
+
