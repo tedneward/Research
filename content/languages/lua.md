@@ -3,11 +3,31 @@ tags=language, native, gamedev, object
 summary=Scripting language often embedded into game engines for extensibility.
 ~~~~~~
 
-[Website](https://www.lua.org/)
+[Website](https://www.lua.org/) | [Lua 5.3 Reference Manual](http://www.lua.org/manual/5.3/)
 
 [Good, bad, and ugly parts](http://notebook.kulchenko.com/programming/lua-good-different-bad-and-ugly-parts)
 
-### Tools
+## Resources
+
+### Books
+
+* [Programming in Lua](http://www.lua.org/pil/contents.html)
+* [Lua Programming](https://en.wikibooks.org/wiki/Lua_Programming) - Wikibooks
+* [Programming in Lua (first edition)](https://www.lua.org/pil/contents.html)
+
+### References
+
+* <a href="http://lua-users.org/wiki/StringLibraryTutorial">string library</a>
+* <a href="http://lua-users.org/wiki/TableLibraryTutorial">table library</a>
+* <a href="http://lua-users.org/wiki/MathLibraryTutorial">math library</a>
+* <a href="http://lua-users.org/wiki/IoLibraryTutorial">io library</a>
+* <a href="http://lua-users.org/wiki/OsLibraryTutorial">os library</a>
+
+### Papers
+
+* [The Implementation of Lua 5.0](https://www.lua.org/doc/jucs05.pdf)
+
+## Tools
 
 * [Zero Brane Studio](https://studio.zerobrane.com/): A Lua IDE ([Source](https://github.com/pkulchenko/ZeroBraneStudio/))
 
@@ -31,19 +51,9 @@ summary=Scripting language often embedded into game engines for extensibility.
 * WASM: [Wasmoon](https://github.com/ceifa/wasmoon) - a high level Lua VM with JS bindings.
 * WASM: [Wasm2Lua](https://github.com/SwadicalRag/wasm2lua) - can compile WebAssembly modules to pure Lua (or with FFI LuaJIT for extra speed).
 
-
-### Resources
+### Gamedev
 
 * [Love 2D game engine](http://love2d.org/)
-* [Programming in Lua](http://www.lua.org/pil/contents.html) book.
-* <a href="http://lua-users.org/wiki/StringLibraryTutorial">string library</a>
-* <a href="http://lua-users.org/wiki/TableLibraryTutorial">table library</a>
-* <a href="http://lua-users.org/wiki/MathLibraryTutorial">math library</a>
-* <a href="http://lua-users.org/wiki/IoLibraryTutorial">io library</a>
-* <a href="http://lua-users.org/wiki/OsLibraryTutorial">os library</a>
-* [Lua 5.3 Reference Manual](http://www.lua.org/manual/5.3/)
-* [Lua Programming](https://en.wikibooks.org/wiki/Lua_Programming) - Wikibooks
-* [Programming in Lua (first edition)](https://www.lua.org/pil/contents.html)
 
 ### Inspired by Lua
 
