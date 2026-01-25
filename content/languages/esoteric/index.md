@@ -54,15 +54,7 @@ Some random links I've found:
 
 Some "Gen-Z" programming languages:
 
-* [Cursed](https://cursed-lang.org/?ref=ghuntley.com) [Source](https://github.com/ghuntley/cursed): Feature list includes
-
-    * Gen Z Slang Keywords: Core programming constructs use contemporary slang (`slay` for function, `sus` for variable, `vibe` for package, `stan` for goroutine)
-    * Among Us Pointer Syntax: First programming language to use ඞ (U+0D9E) for pointer operations
-    * Go-like Semantics: Familiar control flow and typing for experienced developers
-    * Built-in Concurrency: Goroutines (`stan`) and channels (`dm`) for concurrent programming
-    * Advanced Memory Management: Generational garbage collector with performance monitoring
-    * Comprehensive Error Handling: `yikes`/`fam`/`shook` error system with panic recovery
-
+* [Cursed](/languages/esoteric/cursed): Millennial programming
 * [Boner++](https://esolangs.org/wiki/Boner%2B%2B) [Source](https://github.com/xbrq/bonerplusplus)
 * [VibeScript](https://dev.to/grahamthedev/vibescript-genz-programming-language-2l0b)
 * [S-Lang](https://github.com/sagarpatel211/S-Lang) (pretty incomplete)

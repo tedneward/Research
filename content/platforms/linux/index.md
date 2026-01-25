@@ -17,6 +17,10 @@ Popular
     * [Review](https://fossforce.com/2025/08/cachyos-distrowatchs-top-distro-has-speed-polish-and-features/)
     
 * [CommodoreOS](https://www.commodoreos.net/): A Commodore-themed talking Linux desktop, complete with hundreds of games, makes for the biggest distro we've seen yet.
+* [EndeavorOS](https://endeavouros.com/):
+
+    * https://www.zdnet.com/article/endeavoros-offers-a-new-release-with-a-beautiful-look-and-a-game-changing-feature/
+
 * [Fedora Silverblue](https://fedoraproject.org/atomic-desktops/silverblue/) *immutable*
 * [KoliboroOS](https://kolibrios.org/en): A graphical OS that boots in seconds
 * [MenuetOS](https://menuetos.net/): An entire operating system written in assembly

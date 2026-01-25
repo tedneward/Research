@@ -200,7 +200,8 @@ tags=management
 
 ## Leadership/You as the leader
 
-["5 Things That Change When You Become a Leader"](https://hbr.org/2022/01/5-things-that-change-when-you-become-a-leader) (HBR, Jan 18 2022): 
+* [How to Articulate your Contributions as a Senior Leader](https://hbr.org/2026/01/how-to-articulate-your-contributions-as-a-senior-leader): Use “We-then-Me”; Speak to Scale; Show Strategic Judgement; Name the Invisible Work; Highlight your Stewardship
+
 * [People don't work as much as you think](https://drmaciver.substack.com/p/people-dont-work-as-much-as-you-think):
 
 * ["The Tyranny of The Plan"](https://chrisgagne.com/1255/mary-poppendiecks-the-tyranny-of-the-plan/)
@@ -231,7 +232,8 @@ tags=management
 
 * ["Developer Productivity at Google"](https://newsletter.abinoda.com/p/developer-productivity-at-google); discusses the paper ["What improves developer productivity at google? code quality"](https://dl.acm.org/doi/10.1145/3540250.3558940)
 
-* ["5 Things That Change When You Become a Leader"](https://hbr.org/2022/01/5-things-that-change-when-you-become-a-leader) (HBR, Jan 18 2022): 
+* ["5 Things That Change When You Become a Leader"](https://hbr.org/2022/01/5-things-that-change-when-you-become-a-leader) (HBR, Jan 18 2022):
+
     1. **Your friends are no longer your friends.** Effective leadership demands that you be even-handed in your treatment of every team member. The rule of thumb is to be *friendly, not friends* with your people.
     2. **You have a duty of care.** You used to be responsible only for your own behavior and performance; now that responsibility extends to every individual on the team. You have to ensure that your people have clear objectives; that their physical and mental well-being are safeguarded; that they're given clear feedback and strong direction.
     3. **You're entrusted to manage resources.** Managerial diligence demands that every decision you make optimizes the resources entrusted to you. This stewardship must take precedence over your own popularity, fear, and self-interest.
