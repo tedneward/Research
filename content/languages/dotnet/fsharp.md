@@ -15,6 +15,10 @@ F# was originally a CLR-based variant of [OCaml](../ocaml). Since F# 3.0, it has
 
 [Wikibook](https://en.wikibooks.org/wiki/F_Sharp_Programming)
 
+#### Uses
+
+- [F# Companies](https://github.com/fsprojects/fsharp-companies)
+
 #### Areas of use
 [Cloud](https://fsharp.org/guides/cloud/): Cloud and SOA are places where F# has made some strong plays. | [Azure functions](https://blog.tamizhvendan.in/blog/2016/09/19/scale-up-azure-functions-in-f-number-using-suave/) | [Fog](https://github.com/dmohl/Fog) for creating Azure apps
 

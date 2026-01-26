@@ -189,6 +189,10 @@ An AI model designed to handle specific tasks, using fewer parameters and less c
 * ["Stable Diffusion in Java (SD4J) Enables Generating Images with Deep Learning"](https://www.infoq.com/news/2023/12/stable-diffusion-in-java/)
 * [Stable Diffusion in C#](https://github.com/cassiebreviu/StableDiffusion/) (mentioned in the SD4J article)
 
+### Science
+
+- [Making large language models reliable data science programming copilots for biomedical research](https://www.nature.com/articles/s41551-025-01587-2): "Large language models (LLMs) can generate impressive data visualizations from simple requests, yet their accuracy remains underexplored. Here we present a benchmark of 293 coding tasks derived from 39 studies across 7 biomedical research areas, including biomarkers, integrative analysis, genomic profiling, molecular characterization, therapeutic response, translational research and pan-cancer analysis. Benchmarking eight proprietary and eight open-source LLMs under various prompting strategies reveals an overall accuracy below 40%. This low accuracy raises serious concerns about the risk of propagating incorrect scientific findings when blindly relying on AI-generated analyses. Therefore, we develop an AI agent that begins with and iteratively refines an analysis plan before generating code, achieving 74% accuracy. We embody this insight in a platform that enables users to codevelop analysis plans with LLMs and execute them within an integrated environment. In a user study with five medical researchers, the platform enabled users to complete over 80% of the analysis code for three studies."
+
 ## [Machine Learning](/ai/machine-learning)
 
 * [10 Github Repositories to Master Reinforcement Learning](https://www.kdnuggets.com/10-github-repositories-master-reinforcement-learning)

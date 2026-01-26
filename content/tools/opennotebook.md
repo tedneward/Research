@@ -90,3 +90,11 @@ services:
       - OLLAMA_NUM_GPU=0
     restart: always
 ```
+
+NOTE: If you want to run Ollama locally (to more easily use GPUs, I think), make sure `OLLAMA_API_BASE=http://host.docker.internal:11434`
+
+## Reading
+
+### Articles
+
+- https://dev.to/theairabbit/testing-open-notebook-a-complete-walkthrough-with-gemini-ai-4ggj

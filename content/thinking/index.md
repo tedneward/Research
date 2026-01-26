@@ -13,6 +13,7 @@ summary=A collection of links (usually to articles) about the various forms of t
 
 * ["5 Life Lessons from 'Gambler's Ruin'"](https://mem.ai/p/IF6JxsnWgyLoIEJsVytu)
 * [Survivorship Bias: The exact backstory to that picture of an airplane with red dots on top of it.](https://yuxi.ml/logs/posts/2025-survivorship-bias/)
+* [How to train your brain to do hard things and actually like it](https://www.cnbc.com/2026/01/09/how-to-train-your-brain-to-do-hard-things-and-like-it-stanford-psychiatrist.html)
 
 ## Reading
 

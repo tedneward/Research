@@ -15,6 +15,7 @@ summary=A collection of topics and notes on the subject.
 - https://thenewstack.io/agents-meet-databases-the-future-of-agentic-architectures/
 - McKinsey: https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/how-agentic-ai-can-change-the-way-banks-fight-financial-crime
 - https://www.kdnuggets.com/7-steps-to-mastering-agentic-ai
+- https://github.com/weitianxin/Awesome-Agentic-Reasoning
 
 #### Python
 

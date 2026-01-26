@@ -1,6 +1,6 @@
 title=Quetite
 tags=language, interpreter
-summary=a modern & comfy interpreted scripting language.
+summary=A modern & comfy interpreted scripting language.
 ~~~~~~
 
 [Source](https://github.com/qewer33/quetite)

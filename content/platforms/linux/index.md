@@ -40,6 +40,7 @@ Popular
 * [Siduction](https://siduction.org/): an operating system based on the Linux kernel and the GNU project. In addition, there are applications and libraries from Debian. The name siduction is a play on two words. The word sid, which is the codename of Debian Unstable, and seduction in the sense of seduce.
 * [SparkyLinux](https://sparkylinux.org/download/stable/): a GNU/Linux distribution based on the Debian GNU/Linux operating system.
 * [Ubuntu](https://ubuntu.com/)
+* [Universal Blue](https://universal-blue.org/): a Linux operating system framework that's built entirely with immutability in mind, meaning that the base image is read-only, and any modifications can be easily rolled back.
 * [VanillaOS](/platforms/linux/vanillaos)
 * [Zorin](https://zorin.com/os/) *immutable*
 

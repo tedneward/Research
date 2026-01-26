@@ -56,6 +56,13 @@ Collection of links about and around hardware.
 
 - [External CD/DVD Drive](https://www.amazon.com/SUIDEK-External-Portable-Interface-Compatible/dp/B0FRFCKL4S)
 
+- https://www.howtogeek.com/the-usb-thumb-drive-is-dead/: "Probably the best solution lies in combining a standard M.2 SSD with a USB-C external enclosure."
+
+    - [UGREEN M.2 NVMe SSD Enclosure 10Gbps USB 3.2 Gen 2](https://www.amazon.com/UGREEN-Enclosure-10Gbps-External-Support/dp/B0D53K7HK9) $15 - $22: The UGREEN M.2 NVMe SSD Enclosure is perfect for assembling your own USB SSD at home. It offers 10Gbps transfer rates over USB 3.2 Gen 2, and accepts both M and M&B key M.2 PCIe SSDs. With a USB-C interface, it'll easily hook into your desktop or laptop to provide you with fast portable storage anywhere you go.
+    - Crucial T710 PCIe Gen5 NVMe SSD: 1TB models [$200 at Crucial](https://www.crucial.com/ssd/t710/CT1000T710SSD8) or [$180 at Newegg](https://www.newegg.com/crucial-1tb-t710-nvme/p/N82E16820156443) | also in 2TB, 4TB, ...
+
+$15 at Amazon
+
 ## Docks
 
 - https://www.caldigit.com/introducing-the-caldigit-ts5-ts5-plus/

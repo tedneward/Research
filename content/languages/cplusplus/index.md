@@ -15,7 +15,7 @@ Frequently conjoined with [C](/languages/c); Bjarne wanted C++ to be "as close a
 * [LLVM](/platforms/llvm)
 	- Clang - http://clang.llvm.org/cxx_status.html
 	- libc++ - http://libcxx.llvm.org/
-* [Emscripten](../emscripten): C++ to ASM.js/WebAssembly
+* [Emscripten](/languages/wasm/emscripten): C++ to ASM.js/WebAssembly
 * [OpenWatcom](http://www.openwatcom.org/)
 * [Digital Mars](http://www.digitalmars.com) : Free C/C++ Compiler for DOS, Win & NT by the author of Zortech C++.
 * [Cheerp](../cheerp): C++ to WASM bytecode [Github](https://github.com/leaningtech)

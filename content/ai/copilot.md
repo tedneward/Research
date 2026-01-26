@@ -3,6 +3,8 @@ tags=ai
 summary=An AI agent from GitHub/Microsoft.
 ~~~~~~
 
+[SDK](https://github.com/github/copilot-sdk)
+
 ## Reading
 
 ### Articles/Blogs/Essays

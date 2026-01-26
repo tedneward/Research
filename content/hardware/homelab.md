@@ -12,4 +12,8 @@ summary=Articles and links on building self-hosted hardware systems.
 - [How I Built my Home Lab: Tools, Setup, and Lessons Learned](https://medium.com/@josephsims1/how-i-built-my-homelab-tools-setup-lessons-learned-and-whats-next-2ec17dc4a2c3)
 - [Setting up and leveling up your HomeLab - a comprehensive guide](https://chriskirby.net/setting-up-and-leveling-up-your-homelab-a-comprehensive-guide/)
 - [The Self-Hosting Starter Pack: 5 Simple Tools I Recommend To Get Started With Your Homelab](https://itsfoss.com/self-hosting-starting-projects/)
+- [TrueNAS is free, so why would anyone pay for a NAS OS?](https://www.xda-developers.com/truenas-free-why-pay-nas-os/)
+- [The Smallest Home Lab That Still Feels Like a Real Datacenter](https://www.virtualizationhowto.com/2026/01/the-smallest-home-lab-that-still-feels-like-a-real-datacenter/)
+
+
 

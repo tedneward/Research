@@ -3,7 +3,7 @@ tags=language, presentation, browser
 summary=A programming language for web development, for fun.
 ~~~~~~
 
-[Source](https://github.com/figgleforth/ore-lang)
+[Website](https://ore-docs.fly.dev/) | [Source](https://github.com/figgleforth/ore-lang)
 
 ### Quick Start
 
