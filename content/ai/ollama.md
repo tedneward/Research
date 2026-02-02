@@ -10,6 +10,7 @@ summary=Host (?) for multiple open-source LLMs.
 `ollama run ` *model name*: Download and run the given model
 `ollama pull ` *model name*: Download the given model
 `ollama serve ` *model name*: Run the downloaded model
+`ollama launch ` *tool*: Run the given tool (or, if no *tool* is given, provide a list--Claude Code, Codex, etc) 
 
 ### Client SDKs
 
@@ -51,7 +52,41 @@ for chunk in stream:
 
 Install Continue.dev extension; 
 
-## Tools
+### Using with Claude Code
+
+`ollama launch claude` - seems to handle configuration well (v 0.15+)
+
+Another article recommends exporting some environment variables:
+
+"To run Claude Code, type the following command in a PowerShell command-line window."
+
+```
+PS C:\Users\thoma> $env:ANTHROPIC_AUTH_TOKEN = "ollama"
+PS C:\Users\thoma> $env:ANTHROPIC_API_KEY = ""
+PS C:\Users\thoma> $env:ANTHROPIC_BASE_URL = "http://localhost:11434"
+
+PS C:\Users\thoma> claude --model gpt-oss:20b --allow-dangerously-skip-permissions
+```
+
+[This article](https://medium.com/ai-software-engineer/i-tested-new-ollama-launch-for-claude-code-codex-opencode-more-bfae2af3c3db) confirms that:
+
+"The setup handles the Anthropic API configuration behind the scenes. Previously, you’d need to manually set:
+
+```
+export ANTHROPIC_AUTH_TOKEN=ollama
+export ANTHROPIC_BASE_URL=http://localhost:11434
+```
+
+By default, Ollama sets context length to 4,096 tokens.
+
+Coding tools need much more than that to work properly. ***You’ll want at least 64,000 tokens for Claude Code and similar tools.***"
+
+## Models
+
+- Qwen2.5-coder:7b (around 4.7GB) — Good balance for coding: `ollama pull qwen2.5-coder:7b`
+- Starcoder2:3b (around 1.7GB) — Compact coding model: `ollama pull starcoder2:3b`
+- Qwen2.5-coder:1.5b (around 1GB) — Lightweight option: `ollama pull qwen2.5-coder:1.5b`
+- Deepseek-coder:1.3b (around 776MB) — Smallest coding model: `ollama pull deepseek-coder:1.3b`
 
 ## Reading
 

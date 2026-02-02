@@ -13,6 +13,10 @@ SDKs:
 - [Python](https://github.com/modelcontextprotocol/python-sdk)
 - [TypeScript](https://github.com/modelcontextprotocol/typescript-sdk)
 
+# MCP Apps
+
+- [MCP Apps - Bringing UI Capabilities To MCP Clients](https://blog.modelcontextprotocol.io/posts/2026-01-26-mcp-apps/)
+
 # Concepts
 
 MCP servers can provide three main types of capabilities:
