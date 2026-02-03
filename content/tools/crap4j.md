@@ -6,6 +6,7 @@ summary=A Java implementation of the CRAP (Change Risk Anti-Patterns) software m
 [Website](http://www.crap4j.org/) | [Source](https://code.google.com/archive/p/crap4j/)
 
 **Q:** What Are Change Risk Anti Patterns?
+
 **A:** They are code patterns that are associated with an increased risk of breaking an existing piece of code when it’s being modified.
 
 **Q:** What are some examples of Change Risk Anti-Patterns?
@@ -19,10 +20,7 @@ summary=A Java implementation of the CRAP (Change Risk Anti-Patterns) software m
 
 Given a Java method m, CRAP for m is calculated as follows:
 
-
-
-CRAP(m) = comp(m)^2 * (1 – cov(m)/100)^3 + comp(m)
-
+    CRAP(m) = comp(m)^2 * (1 – cov(m)/100)^3 + comp(m)
 
 Where comp(m) is the cyclomatic complexity of method m, and cov(m) is the test code coverage provided by automated tests (e.g. JUnit tests, not manual QA). Cyclomatic complexity is a well-known and widely used metric and it’s calculated as one plus the number of unique decisions in the method. For code coverage we use basis path coverage. Low CRAP numbers indicate code with relatively low change and maintenance risk – because it’s not too complex and/or it’s well-protected by automated and repeatable tests. High CRAP numbers indicate code that’s risky to change because of a hazardous combination of high complexity and low, or no, automated test coverage.
 
@@ -49,6 +47,7 @@ Method's Cyclomatic Complexity | % of coverage required to be below CRAPpy thres
 31+ | Time to refactor
 
 **Q:** What Are Change Risk Anti Patterns?
+
 **A:** They are code patterns that are associated with an increased risk of breaking an existing piece of code when it’s being modified.
 
 **Q:** What are some examples of Change Risk Anti-Patterns?

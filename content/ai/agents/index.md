@@ -31,6 +31,7 @@ An agent generally consists of these core components:
 
 ### Articles, Blogs, Essays
 
+- [AGENTS.md outperforms skills in our agent evals](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals) (Vercel): "We expected skills to be the solution for teaching coding agents framework-specific knowledge. After building evals focused on Next.js 16 APIs, we found something unexpected. A compressed 8KB docs index embedded directly in AGENTS.md achieved a 100% pass rate, while skills maxed out at 79% even with explicit instructions telling the agent to use them. Without those instructions, skills performed no better than having no documentation at all."
 - [How to write a great agents.md: Lessons from over 2,500 repositories](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/)
 - [Agent Engineering: A New Discipline](https://blog.langchain.com/agent-engineering-a-new-discipline/)
 - [Practical Guide on how to build an Agent from scratch with Gemini 3](https://www.philschmid.de/building-agents): The core of an Agent is surprisingly simple: It is a Large Language Model (LLM) running in a loop, equipped with tools it can choose to use. If you can write a loop in Python, you can build an agent. This guide will walk you through the process, from a simple API call to a functioning CLI Agent.

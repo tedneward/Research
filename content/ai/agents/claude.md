@@ -30,6 +30,8 @@ summary=The AI agent.
 ## Skills
 
 - [dev-browser](https://github.com/SawyerHood/dev-browser): A Claude Skill to give your agent the ability to use a web browser
+- [SwiftUI-Agent Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill): Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open format).
+- [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)
 
 ---
 
