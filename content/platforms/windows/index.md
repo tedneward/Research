@@ -3,9 +3,11 @@ tags=platform, windows
 summary=The Microsoft operating system that has gone through several iterations since its humble beginnings as a standalone graphical user interface system on top of DOS.
 ~~~~~~
 
-## Updates
+## Reading
 
-["How to upgrade your Incompatible Windows 10 PC to Windows 11 Now"](https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11-now/)
+- ["How to upgrade your Incompatible Windows 10 PC to Windows 11 Now"](https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11-now/)
+- ["Create a bootable Windows USB"](https://www.makeuseof.com/windows-11-create-bootable-usb-drive/)
+
 
 ## WSL
 [XWindows for WSL subsystem](https://x410.dev/): Commercial
