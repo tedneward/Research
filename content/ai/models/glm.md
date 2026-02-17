@@ -43,7 +43,7 @@ Key capabilities include:
 
 * SOTA Performance Achieves the lowest average error rate (4.10) among comparable open-source models, showing significant advantages in Chinese benchmarks (Wenet Meeting, Aishell-1, etc..).
 
-## GLM-4.6V
+### GLM-4.6V
 
 [HuggingFace](https://huggingface.co/zai-org/GLM-4.6V)
 
@@ -67,9 +67,37 @@ Points to be cautious about:
 -   **Limited language support**: Currently, the model provides bilingual support for English and Chinese only.
 -   **Occasional repetition**: The model may over-explain or repeat phrases when handling highly complex prompts. This is a known issue in previous versions like GLM-4.5V.
 
+### GLM-Image
+
+[Hugging Face](https://huggingface.co/zai-org/GLM-Image)
+
+An open-source image generation model from Zhipu AI ([Z.ai](http://z.ai/)) that uses a hybrid autoregressive (AR) + diffusion decoder architecture. In general image quality, it’s competitive with mainstream latent diffusion models, but it stands out in two scenarios that many diffusion models still struggle with:
+
+-   Dense text rendering (especially Chinese and mixed-language typography)
+-   Knowledge-intensive, information-dense generation (posters, menus, infographics, UI-like layouts, instructions)
+
+Under the hood, GLM-Image pairs:
+
+-   A 9B autoregressive generator initialized from GLM-4-9B that generates a compact sequence of visual tokens for global semantics and layout.
+-   A 7B single-stream DiT diffusion decoder that reconstructs high-frequency details and adds a dedicated Glyph Encoder to improve accurate text rendering in images.
+
+Why should you use GLM-Image:
+
+-   **Best-in-class text rendering among open weights:** GLM-Image is specifically designed to generate legible, structured text inside images. If your outputs require typography (signage, posters, UI mockups, packaging), it’s a strong option.
+-   **Knowledge-dense generation and better instruction following:** The AR module helps with semantic alignment in complex prompts where pure diffusion models can drift or “lose” the information hierarchy.
+-   **One model for both generation and editing:** GLM-Image supports both text-to-image and image-to-image in the same model, including editing, style transfer, identity-preserving generation, and multi-subject consistency. This simplifies production pipelines.
+
+Points to be cautious about:
+
+-   **Resolution constraints:** Target resolution must be divisible by 32, or it will cause errors.
+-   **Prompt formatting matters for text**: For best text rendering, wrap text intended to appear in the image in quotation marks, and consider prompt enhancement (they recommend using GLM-4.7 to rewrite prompts).
+
+If you care about typography quality and complex prompts more than raw speed, GLM-Image is one of the most practical options.
+
 ## Reading
 
 ### Articles
 
 - [The Best Open-Source LLMs in 2026](https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models)
 - [The Best Open-Source Vision Language Models in 2026](https://www.bentoml.com/blog/multimodal-ai-a-guide-to-open-source-vision-language-models)
+- [The Best Open-Source Image Generation Models in 2026](https://bentoml.com/blog/a-guide-to-open-source-image-generation-models)

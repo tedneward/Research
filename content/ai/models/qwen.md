@@ -58,6 +58,30 @@ Key features:
 
 For more practical examples and use cases, explore the [official Qwen3-VL cookbooks](https://github.com/QwenLM/Qwen3-VL/tree/main/cookbooks).
 
+### Qwen-Image
+
+[Hugging Face](https://huggingface.co/Qwen/Qwen-Image)
+
+The image generation foundation model in the Qwen series. It stands out as a next-generation diffusion model that brings together text-aware visual generation, intelligent editing, and vision understanding. It adopts Apache 2.0, making it an excellent choice for commercial-ready image generation.
+
+Why should you use Qwen-Image:
+
+-   **Exceptional text rendering**: Unlike most diffusion-based image generators that struggle with typography or multilingual scripts, Qwen-Image integrates language and layout reasoning directly into its architecture. This means it is able to embed detailed text naturally within images. It maintains font consistency and spatial alignment across complex backgrounds. Whether it’s English signs, Chinese calligraphy, or numeric sequences, Qwen-Image reproduces them with high fidelity and semantic accuracy.
+-   **Versatile artistic expression**: Beyond text, Qwen-Image can generate images across a wide range of artistic styles, such as photorealistic scenes, impressionist paintings, anime aesthetics and minimalist design.
+-   **Unified image generation and editing**: The model supports both text-to-image creation and image editing, including style transfer, detail enhancement, object insertion or removal, pose modification, and background replacement. These features allow creators to fine-tune scenes without leaving the model environment.
+-   **Deep visual understanding**: Beyond generation, Qwen-Image performs well on tasks such as object detection, segmentation, depth estimation, and novel view synthesis. This “comprehension-driven” approach means you can do more consistent edits and realistic image compositions.
+
+Note that the image editing version is Qwen-Image-Edit, which is built upon the 20B Qwen-Image model. The latest iteration, [Qwen-Image-Edit-2509](https://huggingface.co/Qwen/Qwen-Image-Edit-2509), further enhances editing consistency and introduces multi-image editing, supporting operations across one to three input images (e.g., “person + product” or “person + scene”). It also adds ControlNet-based conditioning (depth, edge, and keypoint maps) for more structured and controllable results.
+
+If you are working with complex image editing workflows, also take a look at [Qwen-Image-Layered](https://huggingface.co/Qwen/Qwen-Image-Layered). It introduces a layered RGBA representation that decomposes an image into multiple editable layers. This means you can edit them independently in a precise, non-destructive way, including recoloring, resizing, repositioning, object replacement, and clean deletion.
+
+Points to be cautious about:
+
+-   Editing results may become unstable in some cases. To improve consistency and output stability, you can use prompt rewriting before running editing tasks. They provide an [official Prompt Enhancement Tool](https://github.com/QwenLM/Qwen-Image?tab=readme-ov-file#advanced-usage), which you can integrate directly into your code.
+
+If you are considering Qwen-Image, I also recommend [Qwen-Image-Lightning](https://github.com/ModelTC/Qwen-Image-Lightning/), a distilled and speed-optimized variant of the base model. It delivers high-quality image generation with a 12 to 25× speed improvement in most scenarios, with no significant loss in visual quality. By reducing inference steps to as few as 4 to 8, Qwen-Image-Lightning is ideal for real-time applications, high-throughput pipelines, and large-scale batch processing.
+
+
 ## Reading
 
 ### Articles
@@ -65,3 +89,4 @@ For more practical examples and use cases, explore the [official Qwen3-VL cookbo
 - [The Best Open-Source LLMs in 2026](https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models)
 - [The Best Open-Source SLMs in 2026](https://www.bentoml.com/blog/the-best-open-source-small-language-models)
 - [The Best Open-Source Vision Language Models in 2026](https://www.bentoml.com/blog/multimodal-ai-a-guide-to-open-source-vision-language-models)
+- [The Best Open-Source Image Generation Models in 2026](https://bentoml.com/blog/a-guide-to-open-source-image-generation-models)
