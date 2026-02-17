@@ -94,6 +94,101 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
+### Another MCP server example
+
+Setup
+```
+npm init -y
+npm install @modelcontextprotocol/sdk
+```
+
+Code
+```
+import { createServer } from '@modelcontextprotocol/sdk/server/index.js';
+import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
+import { CallToolRequestSchema, ListToolsRequestSchema } from '@modelcontextprotocol/sdk/types.js';
+
+// Create the MCP server
+const server = createServer({
+  name: 'ollama-mcp-server',
+  version: '1.0.0',
+});
+
+// 1. Define the tool (What it does)
+server.setRequestHandler(ListToolsRequestSchema, async () => {
+  return {
+    tools: [
+      {
+        name: "add_numbers",
+        description: "Adds two numbers together and returns the result",
+        inputSchema: {
+          type: "object",
+          properties: {
+            a: { type: "number", description: "The first number" },
+            b: { type: "number", description: "The second number" }
+          },
+          required: ["a", "b"]
+        }
+      }
+    ]
+  };
+});
+
+// 2. Handle the tool call (How it works)
+server.setRequestHandler(CallToolRequestSchema, async (request) => {
+  const { name, arguments: args } = request.params;
+
+  if (name === "add_numbers") {
+    const result = args.a + args.b;
+    return {
+      content: [
+        {
+          type: "text",
+          text: `The sum of ${args.a} and ${args.b} is ${result}.`
+        }
+      ]
+    };
+  }
+
+  throw new Error(`Unknown tool: ${name}`);
+});
+
+// 3. Start the server
+async function main() {
+  const transport = new StdioServerTransport();
+  await server.connect(transport);
+}
+
+main().catch((err) => {
+  console.error("Server error:", err);
+  process.exit(1);
+});
+```
+
+**Configuring it for use with Ollama**: Find your config file. Mac/Linux: `~/.ollama/config.json`; Windows: `%APPDATA%\Ollama\config.json`. Add the tool to the config: Open the config file (create it if it doesn't exist) and add a `tools` section. The value of `handler` must be the *absolute path* to your `server.js` file.
+
+    ```json
+    {
+      "tools": [
+        {
+          "name": "add_numbers",
+          "description": "Adds two numbers together",
+          "handler": "/full/path/to/your/project/server.js"
+        }
+      ]
+    }
+    ```
+
+Once you have saved the configuration file, you must restart Ollama for the changes to take effect.
+
+Start a conversation with a model (e.g., `ollama run llama3`) and ask it to use your tool.
+
+```text
+>>> Can you add 50 and 25 for me?
+```
+
+If successful, the model should invoke your MCP tool, and you should see output indicating the tool ran and the result (75).
+
 ### Reference implementations
 
 These official reference servers demonstrate core MCP features and SDK usage:

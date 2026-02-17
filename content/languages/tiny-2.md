@@ -1,0 +1,36 @@
+title=Tiny
+tags=language
+summary=A very small statically-typed embeddable scripting language.
+~~~~~~
+
+[Source](https://github.com/goodpaul6/Tiny)
+
+Tiny is a small statically-typed language with an embeddable compiler and bytecode interpreter; it is designed to be easy to embed and does its best to avoid doing allocations/garbage collection.
+
+## Usage
+
+You can use CMake to build a static library which you can integrate into your project like any other. Alternatively, you can just copy the few files inside `include` and `src` into your project. See [Embedding Tiny](https://github.com/goodpaul6/Tiny/wiki/Embedding-Tiny) for a quick tour of how to get started.
+
+## Examples
+
+Here are a few examples of how Tiny can be used.
+
+### Game Example
+
+I've written a small game which is scripted using Tiny. This example makes no use of garbage collection; in fact, there is no dynamic allocation being done in the scripts at all. You can find the code in the `examples/game` subdirectory of the repository. I made use of https://bitbucket.org/rmitton/tigr to facilitate the windowing, graphics and input.
+
+Notice how every entity in the game has a `Tiny_StateThread` encapsulating its execution state. Since `Tiny_StateThread` is relatively lightweight, you can have hundreds, even thousands of them.
+
+### Text Editor Example
+
+I got carried away and wrote a vim-like text editor using this language. I wrote all the buffer manipulation and graphics code in C and then exposed an interface for the editor logic. Have a look at `examples/notepad`.
+
+### Multithreaded Web Server Example
+
+I created a webserver which is capable of handling a large amount of concurrent connections with a variety of web application development utilities (async processing, routing, templating). Have a look at `examples/server`. I followed golang's "Writing Web Applications" tutorial which guides users through making a wiki and replicated that in tiny.
+
+### Advent of Code
+
+I used Tiny for [all of my Advent of Code 2024 solutions](https://github.com/goodpaul6/advent/blob/master/2024). I added a few quality-of-life features (`foreach` loops, array indexing, etc) but this added only ~200 lines to the compiler, and nothing to the runtime.
+
+You can run the solutions by building `terp` in the examples and then running `tiny_terp {day_whatever}.tiny` and putting the input in `inputs/{day_whatever}.txt` in your working directory.
