@@ -1,9 +1,9 @@
 title=lfm-thinking
-tags=ai, model
+tags=ai, model, llm
 summary=LFM2.5 is a new family of hybrid models designed for on-device deployment.
 ~~~~~~
 
-[Ollama page](https://ollama.com/library/lfm2.5-thinking)
+[Ollama](https://ollama.com/library/lfm2.5-thinking)
 
 LFM2.5 is a new family of hybrid models designed for on-device deployment. It builds on the LFM2 architecture with extended pre-training and reinforcement learning.
 

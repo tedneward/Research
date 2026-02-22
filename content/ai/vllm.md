@@ -1,5 +1,5 @@
 title=vLLM
-tags=ai
+tags=ai, runtime
 summary=Easy, fast, and cheap LLM serving for everyone
 ~~~~~~
 
