@@ -1,5 +1,5 @@
 title=Restful Objects
-tags=distribution, format, specification, hypertext
+tags=distribution, format, presentation, specification, hypertext
 summary=A generic way to expose a domain model through a REST (or more precisely, hypermedia) API.
 ~~~~~~
 
