@@ -5,6 +5,19 @@ summary=Host (?) for multiple open-source LLMs.
 
 [Website](https://ollama.com/) | [Source](https://github.com/ollama/ollama) | [Search (models)](https://ollama.com/search)
 
+## Installing
+
+### Docker
+
+```
+docker run --name=ollama -d --gpus=all --volume ./ollama:/root/.ollama -p 11434:11434 ollama/ollama
+```
+
+Might also want:
+
+* `--restart=no` or `--restart=always`?
+* `--env=LD_LIBRARY_PATH=/usr/local/nvidia/lib:/usr/local/nvidia/lib64 --env=NVIDIA_DRIVER_CAPABILITIES=compute,utility --env=NVIDIA_VISIBLE_DEVICES=all`? Not sure what this does--research further.
+
 ## Using
 
 `ollama run ` *model name*: Download and run the given model
@@ -123,6 +136,10 @@ Common context sizes:
 * 65536 tokens (64k) — Better for complex projects
 
 The larger the context, the more RAM your model will use. Balance your context needs with available system resources.
+
+## Modelfiles
+
+
 
 ## Reading
 

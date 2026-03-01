@@ -107,6 +107,15 @@ If you wish to utilize Open WebUI with Ollama included or CUDA acceleration, we 
   docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda
   ```
 
+- **After experimentation**, I ended up with:
+
+```
+docker run -d -p 3000:8080 --name=openweb-ui --restart=always --env=DOCKER=true --env=OLLAMA_BASE_URL=http://host.docker.internal:11434 --env=WEBUI_AUTH=False --env=WEBUI_SECRET_KEY= --volume=./open-webui:/app/backend/data --workdir=/app/backend ghcr.io/open-webui/open-webui:main
+```
+
+Research:
+* What does "--add-host" do in Docker?
+
 ### Installation for OpenAI API Usage Only
 
 - **If you're only using OpenAI API**, use this command:

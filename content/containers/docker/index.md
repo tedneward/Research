@@ -67,6 +67,13 @@ WinBoat is a lightweight, containerized tool that makes it easy to run Windows e
 
 - https://www.xda-developers.com/winboat-free-open-source-runs-windows-app-on-linux/
 
+## Docker flags/features reference
+
+`run`
+
+* `--add-host`: [Add a custom host-to-IP mapping (host:ip)](https://docs.docker.com/reference/cli/docker/container/run/#add-host)
+* `--restart`: [Restart policy to apply when a container exits](https://docs.docker.com/reference/cli/docker/container/run/#restart)
+
 ## Related Tools
 
 - [dockcheck: A CLI Tool for Updating Container Images](https://selfh.st/post/dockcheck-cli-container-updates/)
