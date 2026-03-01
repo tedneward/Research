@@ -72,7 +72,16 @@ WinBoat is a lightweight, containerized tool that makes it easy to run Windows e
 `run`
 
 * `--add-host`: [Add a custom host-to-IP mapping (host:ip)](https://docs.docker.com/reference/cli/docker/container/run/#add-host)
-* `--restart`: [Restart policy to apply when a container exits](https://docs.docker.com/reference/cli/docker/container/run/#restart)
+* `--restart`: [Restart policy to apply when a container exits](https://docs.docker.com/reference/cli/docker/container/run/#restart):
+
+  Flag | Description
+  ---- | -----------
+  no | Don't automatically restart the container. (Default)
+  on-failure[:max-retries] | Restart the container if it exits due to an error, which manifests as a non-zero exit code. Optionally, limit the number of times the Docker daemon attempts to restart the container using the :max-retries option. The on-failure policy only prompts a restart if the container exits with a failure. It doesn't restart the container if the daemon restarts.
+  always | Always restart the container if it stops. If it's manually stopped, it's restarted only when Docker daemon restarts or the container itself is manually restarted.
+  unless-stopped | Similar to always, except that when the container is stopped (manually or otherwise), it isn't restarted even after Docker daemon restarts.
+
+* `-v`/`--volume` *host-path*:*container-path*: [Bind mount a volume](https://docs.docker.com/reference/cli/docker/container/run/#volume). When the host directory of a bind-mounted volume doesn't exist, Docker automatically creates this directory on the host for you. As of Docker Engine version 23, you can use relative paths on the host.
 
 ## Related Tools
 
