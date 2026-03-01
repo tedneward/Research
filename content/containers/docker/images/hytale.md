@@ -1,5 +1,5 @@
 title=Hytale Server Docker
-tags=container
+tags=container, image
 summary=A Dockerized version of the Hytale dedicated server.
 ~~~~~~
 
