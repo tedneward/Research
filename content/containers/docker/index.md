@@ -72,6 +72,7 @@ WinBoat is a lightweight, containerized tool that makes it easy to run Windows e
 `run`
 
 * `--add-host`: [Add a custom host-to-IP mapping (host:ip)](https://docs.docker.com/reference/cli/docker/container/run/#add-host)
+* `-p`/`--expose` {*host-ip*:}*host-port*`:`*container-port*`/{tcp|udp|sctp}` : Publish/expose the container port to the host. `docker run -p 80:8080/tcp` binds port 8080 of the container to tcp port 80 on the host.
 * `--restart`: [Restart policy to apply when a container exits](https://docs.docker.com/reference/cli/docker/container/run/#restart):
 
   Flag | Description
