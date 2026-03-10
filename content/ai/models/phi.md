@@ -5,6 +5,17 @@ summary=AI model.
 
 ## Model instances
 
+### Phi-3.5 Mini (3.8B Parameters)
+Microsoft’s Phi-3.5 Mini is a top choice for developers building retrieval-augmented generation (RAG) systems on local hardware. Released in August 2024, it is widely used for applications that need to process long documents without cloud API calls.
+
+Long-context capability in a small footprint. Phi-3.5 Mini handles very long inputs (book-length prompts depending on the variant/runtime), which makes it a strong fit for RAG and document-heavy workflows. Many 7B models max out at much shorter default contexts. Some packaged variants (including the default phi3.5 tags in Ollama’s library) use shorter context by default — verify the specific variant/settings before relying on maximum context.
+
+Best for: Long-context reasoning (reading PDFs, technical documentation) · Code generation and debugging · RAG applications where you need to reference large amounts of text · Multilingual tasks
+
+Hardware: Quantized (4-bit) requires 6-10GB RAM for typical prompts (more for very long context) · Full precision (16-bit) requires 16GB RAM · Recommended: Any modern laptop with 16GB RAM
+
+Download / Run locally: Get the official Phi-3.5 Mini Instruct weights from Hugging Face (microsoft/Phi-3.5-mini-instruct) and follow the model card for the recommended runtime. If you use Ollama, pull the Phi 3.5 family model and verify the variant/settings on the Ollama model page before relying on maximum context. (ollama pull phi3.5)
+
 ### Phi-4-mini-instruct (SLM)
 
 [HuggingFace](https://huggingface.co/microsoft/Phi-4-mini-instruct)

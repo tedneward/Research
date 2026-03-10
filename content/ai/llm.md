@@ -47,6 +47,8 @@ summary=Collection of links, notes, and models.
     * [Part 1: Foundations of AI Engineering and LLMs](https://www.dailydoseofds.com/llmops-crash-course-part-1/)
     * [Part 2: Building Blocks of LLMs: Tokenization and Embeddings](https://www.dailydoseofds.com/llmops-crash-course-part-2/)
 
+* [Run an LLM on your Android](https://www.makeuseof.com/you-can-and-should-run-a-tiny-llm-on-your-android-phone/): ""
+
 ### Verification
 
 * [BEAVER](https://huggingface.co/papers/2512.05439): As large language models (LLMs) transition from research prototypes to production systems, practitioners often need reliable methods to verify that model outputs satisfy required constraints. While sampling-based estimates provide an intuition of model behavior, they offer no sound guarantees. We present BEAVER, the first practical framework for computing deterministic, sound probability bounds on LLM constraint satisfaction. Given any prefix-closed semantic constraint, BEAVER systematically explores the generation space using novel token trie and frontier data structures, maintaining provably sound bounds at every iteration. We formalize the verification problem, prove soundness of our approach, and evaluate BEAVER on correctness verification, privacy verification and secure code generation tasks across multiple state of the art LLMs. BEAVER achieves 6 to 8 times tighter probability bounds and identifies 3 to 4 times more high risk instances compared to baseline methods under identical computational budgets, enabling precise characterization and risk assessment that loose bounds or empirical evaluation cannot provide.

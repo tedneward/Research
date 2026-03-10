@@ -1,6 +1,6 @@
 title=Ollama
-tags=ai, engine
-summary=Host (?) for multiple open-source LLMs.
+tags=ai, inference engine
+summary=Locally-installed host for LLMs.
 ~~~~~~
 
 [Website](https://ollama.com/) | [Source](https://github.com/ollama/ollama) | [Search (models)](https://ollama.com/search)

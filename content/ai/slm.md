@@ -98,7 +98,9 @@ Instead of fine-tuning a model yourself, you can often start with an existing fi
 
 ### Articles, Blogs, Essays
 
+* [Build a Production-Ready LLM API](https://amanxai.com/2026/02/11/build-a-production-ready-llm-api/): We’ll build a fast, well-tested API to serve TinyLlama, a powerful open-source small language model, using FastAPI. The best part is that it’s completely free, runs on your own machine, and doesn’t require an OpenAI API key.
 * [The Best Open-Source Small Language Models (SLMs) in 2026](https://www.bentoml.com/blog/the-best-open-source-small-language-models)
+* [Top 7 Small Language Models You Can Run on a Laptop](https://machinelearningmastery.com/top-7-small-language-models-you-can-run-on-a-laptop/): Phi-3.5 Mini (3.8B Parameters), Llama 3.2 3B, Llama 3.2 1B, Ministral 3 8B, Qwen 2.5 7B, Gemma 2 9B, SmolLM2 1.7B
 * [The Optimal Architecture for Small Language Models](https://huggingface.co/blog/codelion/optimal-model-architecture)
 * [Unleashing the Power of Self-Learning Machines Running SLMs on your Browser](https://codezen.medium.com/unleashing-the-power-of-self-learning-machines-running-slms-on-your-browser-2ed3f3a3496e) ([Source](https://tarun047.github.io/slm-demo/))
 * [Introducing: Local Browser AI](https://blog.alexewerlof.com/p/local-browser-ai)

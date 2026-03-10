@@ -39,6 +39,19 @@ Points to be cautious about:
 -   **Context is shared across modalities**. The model has a total input context of 32K tokens across text, image, audio, and video. Multimodal tokens can consume context quickly; for long multimodal sessions, you need careful prompt budgeting and chunking.
 -   **Production needs modality-specific evaluation.** The performance of the model in use cases like speech-to-text and speech translation can vary by language, accent, noise, and domain. You should always benchmark the model in these aspects before production rollout.
 
+### Gemma 2 9B
+Google’s Gemma 2 9B pushes the boundary of what qualifies as “small.” At 9B parameters, it’s the heaviest model on this list, but it is competitive with 13B-class models on many benchmarks. Use this when you need the best quality your laptop can handle.
+
+Safety and instruction-following. Gemma 2 was trained with extensive safety filtering and alignment work. It refuses harmful requests more reliably than other models and follows complex, multi-step instructions accurately.
+
+Best for: Complex instruction-following · Tasks requiring careful safety handling · General knowledge Q&A · Content moderation
+
+Hardware: Quantized (4-bit) requires 12GB RAM · Full precision (16-bit) requires 24GB RAM · Recommended: 16GB+ RAM for production use
+
+Download / Run locally: Available on Hugging Face under the google org (Gemma 2 9B IT). You’ll need to accept Google’s license terms (and may need authentication depending on your tooling). For Ollama: ollama pull gemma2:9b-instruct-*. Ollama provides both base and instruct tags. Pick the one that matches your use case.
+
+
+
 ## Reading
 
 ### Articles

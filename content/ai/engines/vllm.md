@@ -1,5 +1,5 @@
 title=vLLM
-tags=ai, runtime
+tags=ai, inference engine
 summary=Easy, fast, and cheap LLM serving for everyone
 ~~~~~~
 

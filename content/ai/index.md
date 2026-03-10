@@ -37,6 +37,7 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 
 ## Criticism
 
+- [How AI Impacts Skill Formation](https://arxiv.org/pdf/2601.20245): "Novice workers who rely heavily on AI to complete unfamiliar tasks may compromise their own skill acquisition in the process. We conduct randomized experiments to study how developers gained mastery of a new asynchronous programming library with and without the assistance of AI. We find that AI use impairs conceptual understanding, code reading, and debugging abilities, without delivering significant efficiency gains on average. Participants who fully delegated coding tasks showed some productivity improvements, but at the cost of learning the library. We identify six distinct AI interaction patterns, three of which involve cognitive engagement and preserve learning outcomes even when participants receive AI assistance. Our findings suggest that AI-enhanced productivity is not a shortcut to competence and AI assistance should be carefully adopted into workflows to preserve skill formation – particularly in safety-critical domains."
 - [How NOT to use AI](https://www.axios.com/2025/12/25/ai-tips-how-not-to-use)
 - [AI Underpants Gnomes: The Missing Step in Your Strategy](https://www.jsnover.com/blog/2025/11/18/ai-underpants-gnomes-the-missing-step-in-your-strategy/)
 - ["The Copilot Delusion"](https://deplet.ing/the-copilot-delusion/)
@@ -253,4 +254,4 @@ An AI model designed to handle specific tasks, using fewer parameters and less c
 
 * [Anatomy of an AI Agent Knowledge Base](https://www.infoworld.com/article/4091400/anatomy-of-an-ai-agent-knowledge-base.html)
 * [Graphiti](https://help.getzep.com/graphiti/getting-started/welcome) ([Source](https://github.com/getzep/graphiti)): a Python framework for building temporally-aware knowledge graphs designed for AI agents. It enables real-time incremental updates to knowledge graphs without batch recomputation, making it suitable for dynamic environments where relationships and information evolve over time.
-
+* [6 agentic knowledge patterns emerging in the wild](https://thenewstack.io/agentic-knowledge-base-patterns/)

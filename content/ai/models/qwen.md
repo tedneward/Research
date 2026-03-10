@@ -81,6 +81,18 @@ Points to be cautious about:
 
 If you are considering Qwen-Image, I also recommend [Qwen-Image-Lightning](https://github.com/ModelTC/Qwen-Image-Lightning/), a distilled and speed-optimized variant of the base model. It delivers high-quality image generation with a 12 to 25× speed improvement in most scenarios, with no significant loss in visual quality. By reducing inference steps to as few as 4 to 8, Qwen-Image-Lightning is ideal for real-time applications, high-throughput pipelines, and large-scale batch processing.
 
+### Qwen 2.5 7B
+Alibaba’s Qwen 2.5 7B dominates coding and mathematical reasoning benchmarks. If your use case involves code generation, data analysis, or solving math problems, this model outperforms competitors in its size class.
+
+Domain specialization. Qwen was trained with heavy emphasis on code and technical content. It understands programming patterns, can debug code, and generates working solutions more reliably than general-purpose models.
+
+Best for: Code generation and completion · Mathematical reasoning · Technical documentation · Multilingual tasks (especially Chinese/English)
+
+Hardware: Quantized (4-bit) requires 8GB RAM · Full precision (16-bit) requires 16GB RAM · Recommended: 12GB RAM for best performance
+
+Download / Run locally: Available on Hugging Face under the Qwen org (Qwen 2.5 7B Instruct). For Ollama, pull the instruct-tagged variant: ollama pull qwen2.5:7b-instruct.
+
+
 
 ## Reading
 

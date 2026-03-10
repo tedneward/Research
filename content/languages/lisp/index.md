@@ -69,9 +69,7 @@ Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/li
 ### Reading
 
 * [John McCarthy's Home Page](http://www-formal.stanford.edu/jmc/)
-* [Land of Lisp](http://landoflisp.com/)
 * [The Lisp Curse](http://winestockwebdesign.com/Essays/Lisp_Curse.html): An attempt to reconcile the power of the Lisp language with the inability of the Lisp community to repduce their pre-AI Winter achievements; the explanation is that the power of Lisp is actually its curse, that those who can hack anything in Lisp often do, but only to the point where it is useful to themselves, and never take that final step to produce something generally useful.
-* [Practical Common Lisp (book)](https://gigamonkeys.com/book/)
 * [Basic Lisp Techniques](http://franz.com/resources/educational_resources/cooper.book.pdf) - David J. Cooper, Jr. (PDF)
 * [Casting Spels in Lisp](http://www.lisperati.com/casting.html)
 * [Common Lisp: A Gentle Introduction to Symbolic Computation](http://www.cs.cmu.edu/~dst/LispBook/) - David S. Touretzky (PDF, PS)
@@ -80,6 +78,7 @@ Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/li
 * [Common Lisp the Language, 2nd Edition](http://www.cs.cmu.edu/Groups/AI/html/cltl/mirrors.html)
 * [Google's Common Lisp Style Guide](https://google.github.io/styleguide/lispguide.xml)
 * [Interpreting LISP](http://www.civilized.com/files/lispbook.pdf) - Gary D. Knott (PDF)
+* [Land of Lisp](http://landoflisp.com/)
 * [Learn Lisp The Hard Way](https://github.com/LispTO/llthw) - Colin J.E. Lupton
 * [Let Over Lambda - 50 Years of Lisp](http://letoverlambda.com/index.cl/) - D. Hoyte
 * [Lisp for the Web](https://leanpub.com/lispweb) - Adam Tornhill (PDF, EPUB, MOBI) *(Leanpub account or valid email requested)*
@@ -89,8 +88,9 @@ Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/li
 * [Loving Common Lisp, or the Savvy Programmer's Secret Weapon](https://leanpub.com/lovinglisp) - Mark Watson (PDF, EPUB, MOBI) *(Leanpub account or valid email requested)*
 * [On Lisp](http://www.paulgraham.com/onlisp.html) - P. Graham
 * [Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp](https://github.com/norvig/paip-lisp) - Peter Norvig (PDF, epub, markdown)
-* [Practical Common Lisp](http://www.gigamonkeys.com/book/) - P. Seibel
+* [Practical Common Lisp](https://gigamonkeys.com/book/)
 * [The Common Lisp Cookbook](https://lispcookbook.github.io/cl-cookbook/)
+* [The Genius of Lisp](https://berksoft.ca/gol/)
 * [The Evolution of Lisp](http://www.dreamsongs.com/Files/HOPL2-Uncut.pdf) - Guy L. Steele Jr., Richard P. Gabriel (PDF)
 * ["C++ and Lisp"](https://www.lurklurk.org/cpp_clos.html): "This article investigates these *[C++ and Lisp]* different approaches in a variety of areas, with two intents. Firstly, I find that it is always illuminating to see concepts from an alternative viewpoint, to be reminded that things can be done differently when a different set of constraints apply. Neither is right or wrong, just appropriate in different circumstances."
 * ["Embedding Lisp in C++"](https://lambdafaktorie.com/embedding-lisp-in-c-a-recipe/)

@@ -1,5 +1,5 @@
 title=OpenLLM
-tags=ai, runtime
+tags=ai, inference engine
 summary=Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud.
 ~~~~~~
 

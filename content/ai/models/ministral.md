@@ -21,6 +21,17 @@ Points to be cautious about:
 
 -   **Vision is functional, not deep**. While it supports image inputs, the visual reasoning capability is limited. I suggest you use it for simple descriptions and basic Q&A rather than detailed image analysis or complex visual reasoning. If you need stronger multimodal reasoning, consider [Ministral-3-3B-Reasoning-2512](https://huggingface.co/mistralai/Ministral-3-3B-Reasoning-2512) instead.
 
+### Ministral 3 8B
+Mistral AI released Ministral 3 8B as their edge model, designed for deployments where you need maximum performance in minimal space. It is competitive with larger 13B-class models on practical tasks while staying efficient enough for laptops.
+
+Strong efficiency for edge deployments. The Ministral line is tuned to deliver high quality at low latency on consumer hardware, making it a practical “production small model” option when you want more capability than 3B-class models. It uses grouped-query attention and other optimizations to deliver strong performance at 8B parameter count.
+
+Best for: Complex reasoning tasks · Multi-turn conversations · Code generation · Tasks requiring nuanced understanding
+
+Hardware: Quantized (4-bit) requires 10GB RAM · Full precision (16-bit) requires 20GB RAM · Recommended: 16GB RAM for comfortable use
+
+Download / Run locally: The “Ministral” family has multiple releases with different licenses. The older Ministral-8B-Instruct-2410 weights are under the Mistral Research License. Newer Ministral 3 releases are Apache 2.0 and are preferred for commercial projects. For the most straightforward local run, use the official Ollama tag: ollama pull ministral-3:8b (may require a recent Ollama version) and consult the Ollama model page for the exact variant/license details.
+
 ## Reading
 
 ### Articles
