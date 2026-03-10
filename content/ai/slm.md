@@ -110,5 +110,5 @@ Instead of fine-tuning a model yourself, you can often start with an existing fi
     2. Phi-3.5 Mini (Microsoft): Phi keeps surprising. The 3/3.5 “mini” variants punch above their size and appear in ready-to-use MLC builds (multiple quantizations). A strong default for reasoning-heavy prompts under tight budgets. Best for: structured responses, JSON mode, quick reasoning.
     3. Qwen 2.5 1.5B Instruct (Alibaba): Lean, multilingual, and chatty. The 1.5B Instruct variant is small enough for browsers yet capable enough for everyday tasks; plenty of WebLLM demos use it with WebGPU.
 
-
+* [What are small language models and how do they differ from large ones?](https://theconversation.com/what-are-small-language-models-and-how-do-they-differ-from-large-ones-269103)
 

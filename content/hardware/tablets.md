@@ -32,6 +32,8 @@ Legion Go
 
 - https://www.windowscentral.com/hardware/handheld-gaming-pc/lenovo-legion-go-s-steamos-review
 
+## Amazon Kindle
 
+- [How to remove Amazon's DRM from your Kindle books](https://www.howtogeek.com/how-to-remove-amazon-drm-from-your-kindle-books/)
 
 

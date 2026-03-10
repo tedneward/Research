@@ -14,3 +14,11 @@ Also references LangGraph, LangSmith
 - [Introducing Polly: Your AI Agent Engineer](https://blog.langchain.com/introducing-polly-your-ai-agent-engineer/)
 - [Skills](https://docs.langchain.com/oss/python/langchain/multi-agent/skills)
 - [How to Build an AI Agent with LangChain and LangGraph: Build an Autonomous Starbucks Agent](https://www.freecodecamp.org/news/how-to-build-a-starbucks-ai-agent-with-langchain/)
+- Learning LangGraphJS:
+
+    - [Part 1: It’s Just a Graph](https://medium.com/the-guy-wire/learning-langgraph-js-part-1-its-a-graph-56e0ca277bf5)
+    - [Part 2: Conditional Edges](https://medium.com/the-guy-wire/learning-langgraph-js-part-2-conditional-edges-4672c35ff42f) [GitHub](https://github.com/guyroyse/learning-langgraph)
+    - [Part 3: Structured Output](https://medium.com/the-guy-wire/learning-langgraph-js-part-3-structured-output-758302f77a26)
+    - [Part 4: Custom Annotations](https://medium.com/the-guy-wire/learning-langgraph-js-part-4-custom-annotations-8c17ddf8ff55)
+
+

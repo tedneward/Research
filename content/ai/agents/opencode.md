@@ -1,5 +1,5 @@
 title=Opencode
-tags=ai, agent, coding, tool
+tags=ai, agent, coding, tool, specification driven development
 summary=An open source agent that helps you write code in your terminal, IDE, or desktop.
 ~~~~~~
 
