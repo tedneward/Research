@@ -167,4 +167,4 @@ summary=A set of web platform APIs that allow you to create new custom, reusable
 * ["The Problem with WebComponents"](https://dev.to/besworks/the-problem-with-web-components-4f8)
 * ["A Complete Introduction to WebComponents"](https://kinsta.com/blog/web-components/)
 * ["Web Components are the Comback Nobody Saw Coming"](https://thenewstack.io/web-components-are-the-comeback-nobody-saw-coming/)
-
+* [The Missing Link for Web Components](https://frontendmasters.com/blog/the-missing-link-for-web-components/): 

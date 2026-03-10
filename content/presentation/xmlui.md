@@ -8,6 +8,7 @@ summary=A framework for building browser user interfaces declaratively, with XML
 ## Reading
 
 * [Introducing XMLUI](https://blog.jonudell.net/2025/07/18/introducing-xmlui/)
+* [Improving the XMLUI MCP Server](https://blog.xmlui.org/blog/improving-the-xmlui-mcp-server) - [Source](https://github.com/xmlui-org/xmlui-mcp)
 
 ## Example
 

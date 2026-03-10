@@ -98,6 +98,7 @@ Instead of fine-tuning a model yourself, you can often start with an existing fi
 
 ### Articles, Blogs, Essays
 
+* [Introduction to Small Language Models: The Complete Guide for 2026](https://machinelearningmastery.com/introduction-to-small-language-models-the-complete-guide-for-2026/)
 * [Build a Production-Ready LLM API](https://amanxai.com/2026/02/11/build-a-production-ready-llm-api/): We’ll build a fast, well-tested API to serve TinyLlama, a powerful open-source small language model, using FastAPI. The best part is that it’s completely free, runs on your own machine, and doesn’t require an OpenAI API key.
 * [The Best Open-Source Small Language Models (SLMs) in 2026](https://www.bentoml.com/blog/the-best-open-source-small-language-models)
 * [Top 7 Small Language Models You Can Run on a Laptop](https://machinelearningmastery.com/top-7-small-language-models-you-can-run-on-a-laptop/): Phi-3.5 Mini (3.8B Parameters), Llama 3.2 3B, Llama 3.2 1B, Ministral 3 8B, Qwen 2.5 7B, Gemma 2 9B, SmolLM2 1.7B
@@ -111,4 +112,5 @@ Instead of fine-tuning a model yourself, you can often start with an existing fi
     3. Qwen 2.5 1.5B Instruct (Alibaba): Lean, multilingual, and chatty. The 1.5B Instruct variant is small enough for browsers yet capable enough for everyday tasks; plenty of WebLLM demos use it with WebGPU.
 
 * [What are small language models and how do they differ from large ones?](https://theconversation.com/what-are-small-language-models-and-how-do-they-differ-from-large-ones-269103)
+
 

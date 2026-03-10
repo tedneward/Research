@@ -16,6 +16,11 @@ summary=The AI agent.
 - https://www.shawnmayzes.com/product-engineering/running-claude-code-locally-just-got-easier-with-ollama-code/
 - https://ollama.com/blog/claude
 - https://github.com/mattlqx/claude-code-ollama-proxy
+- https://www.xda-developers.com/built-claude-code-workflow-lm-studio-offline-first-development/
+- [What Claude Code Actually Chooses](https://amplifying.ai/research/claude-code-picks): We pointed Claude Code at real repos 2,430 times and watched what it chose. No tool names in any prompt. Open-ended questions only.
+- https://www.reddit.com/r/ClaudeAI/comments/1rga7f5/how_i_built_a_13agent_claude_team_where_agents/
+- https://github.com/numman-ali/cc-mirror: Create multiple isolated Claude Code variants with custom providers (Z.ai, MiniMax, OpenRouter, LiteLLM)
+- [Sled: Run your coding agent from your phone, with voice](https://www.producthunt.com/products/sled-voice-interface-for-claude-code): [Website](https://sled.layercode.com/?ref=producthunt)
 
 ## Examples, Repositories
 

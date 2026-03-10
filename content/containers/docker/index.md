@@ -82,6 +82,29 @@ WinBoat is a lightweight, containerized tool that makes it easy to run Windows e
 
 * `-v`/`--volume` *host-path*:*container-path*: [Bind mount a volume](https://docs.docker.com/reference/cli/docker/container/run/#volume). When the host directory of a bind-mounted volume doesn't exist, Docker automatically creates this directory on the host for you. As of Docker Engine version 23, you can use relative paths on the host.
 
+## Docker AI
+
+- [Docker AI for Agent Builders: Models, Tools, and Cloud Offload](https://www.kdnuggets.com/docker-ai-for-agent-builders-models-tools-and-cloud-offload):
+
+    - Docker Model Runner:
+
+        ```
+        # Pull a model from Docker Hub
+        docker model pull ai/smollm2
+
+        # Run a one-shot query
+        docker model run ai/smollm2 "Explain agentic workflows to me."
+
+        # Use it via the OpenAI Python SDK
+        from openai import OpenAI
+        client = OpenAI(
+            base_url="http://model-runner.docker.internal/engines/llama.cpp/v1",
+            api_key="not-needed"
+        )
+        ```
+
+
+
 ## Related Tools
 
 - [dockcheck: A CLI Tool for Updating Container Images](https://selfh.st/post/dockcheck-cli-container-updates/)

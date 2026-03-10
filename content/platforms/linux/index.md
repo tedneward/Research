@@ -4,6 +4,7 @@ summary=The original open-source operating system.
 ~~~~~~
 
 - https://www.howtogeek.com/i-turned-a-usb-drive-into-a-linux-app-swiss-army-knife/
+- https://www.howtogeek.com/forget-distro-hopping-this-is-how-you-can-use-any-linux-distro-on-your-linux-pc/: [Distrobox](https://distrobox.it/) `sudo apt install distrobox`
 
 Distributions ([DistroWatch](https://distrowatch.com/)):
 

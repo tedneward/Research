@@ -21,4 +21,6 @@ Also references LangGraph, LangSmith
     - [Part 3: Structured Output](https://medium.com/the-guy-wire/learning-langgraph-js-part-3-structured-output-758302f77a26)
     - [Part 4: Custom Annotations](https://medium.com/the-guy-wire/learning-langgraph-js-part-4-custom-annotations-8c17ddf8ff55)
 
+- [How to Build an LLM Market Copilot MVP with LangChain, APIs, and Streamlit](https://www.freecodecamp.org/news/build-an-llm-market-copilot-with-langchain/)
+
 
