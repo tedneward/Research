@@ -3,7 +3,12 @@ tags=language, lisp, python
 summary=A lisp dialect built on top of python. This is achieved by converting hy code to python’s abstract syntax tree (ast). This allows hy to call native python code or python to call native hy code as well.
 ~~~~~~
 
-[Website](http://hy.readthedocs.org/) | [Source](http://github.com/hylang/hy)
+[Website](https://hylang.org/) | [Source](http://github.com/hylang/hy) | [Docs](https://hylang.org/hy/doc) | 
+
+Hy (or "Hylang" for long) is a multi-paradigm general-purpose programming language in the [Lisp family](https://en.wikipedia.org/wiki/Lisp_(programming_language)). It's implemented as a kind of alternative syntax for Python. Compared to Python, Hy offers a variety of new features, generalizations, and syntactic simplifications, as would be expected of a Lisp. Compared to other Lisps, Hy provides direct access to Python's built-ins and third-party Python libraries, while allowing you to freely mix imperative, functional, and object-oriented styles of programming. [(More on "Why Hy?")](https://hylang.org/hy/doc/v1.2.0/whyhy)
+
+To install the latest release of Hy, just use the command `pip3 install --user hy`. Then you can start an interactive read-eval-print loop (REPL) with the command `hy`, or run a Hy program with `hy myprogram.hy`.
+
 
 ```lisp
 ;; this gives an gentle introduction to hy for a quick trial head to
