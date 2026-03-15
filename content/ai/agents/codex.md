@@ -7,3 +7,5 @@ summary=OpenAI coding agent (ChatGPT).
 
 - [Skills Catalog for Codex](https://github.com/openai/skills)
 - https://ollama.com/blog/codex
+- [Introducing the Codex App](https://openai.com/index/introducing-the-codex-app/)
+

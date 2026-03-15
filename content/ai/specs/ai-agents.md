@@ -5,6 +5,8 @@ summary=A collection of AGENTS.md exemplars
 
 Also (apparently) can be called `AI_GUIDELINES.md`
 
+---
+
 ### ChatGPT-generated
 
 ```
