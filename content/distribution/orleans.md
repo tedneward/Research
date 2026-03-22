@@ -39,23 +39,21 @@ Core Orleans concepts.
 
     * [Set up NuGet References](https://dotnet.github.io/orleans/docs/tutorials_and_samples/tutorial_1.html#add-orleans-nuget-packages)
 
-        * SiloHost: Needs to depend on `Microsoft.Orleans.Server`, `Microsoft.Extensions.Logging.Console`:
+        * SiloHost: Needs to depend on `Microsoft.Orleans.Server`:
 
             ```
             cd SiloHost
             dotnet add package Microsoft.Orleans.Server
-            dotnet add package Microsoft.Extensions.Logging.Console
             ```
 
-        * GrainInterfaces: `Microsoft.Orleans.Core.Abstractions`, `Microsoft.Orleans.CodeGenerator.MSBuild`
+        * GrainInterfaces: `Microsoft.Orleans.Sdk`:
 
             ```
             cd GrainInterfaces
-            dotnet add package Microsoft.Orleans.Core.Abstractions
-            dotnet add package Microsoft.Orleans.CodeGenerator.MSBuild
+            dotnet add package Microsoft.Orleans.Sdk
             ```
 
-        * GrainImpls: `Microsoft.Orleans.CodeGenerator.MSBuild`, `Microsoft.Orleans.Core.Abstractions`, `Microsoft.Extensions.Logging.Abstractions`:
+        * GrainImpls: GrainInterfaces, 
 
             ```
             cd GrainImpls
@@ -64,7 +62,7 @@ Core Orleans concepts.
             dotnet add package Microsoft.Orleans.CodeGenerator.MSBuild
             ```
 
-        * Client: `Microsoft.Extensions.Logging.Console`, `Microsoft.Orleans.Client`
+        * Client: `Microsoft.Orleans.Client`
 
             ```
             cd Client
