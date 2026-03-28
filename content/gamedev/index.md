@@ -27,6 +27,12 @@ tags=gamedev
 
 - [Heroes of Might and Magic 2 clone](https://ihhub.github.io/fheroes2/) ([Source](https://github.com/ihhub/fheroes2))
 
+## Reading
+
+### Articles
+
+- [Over 800 gamers tried and utterly failed to beat a classic '80s game without a guide](https://www.polygon.com/agat-adventure-aptitude-test-pc-adventure-maniac-mansion-guide/): "The challenge: Beat an adventure game from the 80s, but without the help of a walkthrough. The participants would be monitored while playing a surprise game via a digital proctor that could determine if the gamer enlisted help in some way. If the player looked something up on their PC, used their phone, or somehow communicated with someone, the program — which is used by actual colleges — would be able to catch it. ... [P]layers were given the seminal LucasArts point-and-click adventure game, Maniac Mansion. ... [T]he Adventure Game Aptitude Test, which was held on February 28, 2026, gave players a 4-hour window to clear Maniac Mansion blind. According to How Long To Beat, Maniac Mansion tends to take players somewhere around three and a half hours to beat — meaning the test takers wouldn't have much wiggle room with the game if they got stuck. So, how'd people fare? Worse than you'd think! Out of 831 participants, only two people managed to get through Maniac Mansion within the allotted time span without any help."
+
 ## Engines too esoteric to rate their own page
 [M.U.G.E.N](http://www.elecbyte.com/mugendocs-11b1/mugen.html): 2D fighting game engine
 
