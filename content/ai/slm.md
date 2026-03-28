@@ -101,10 +101,10 @@ Instead of fine-tuning a model yourself, you can often start with an existing fi
 * [Introduction to Small Language Models: The Complete Guide for 2026](https://machinelearningmastery.com/introduction-to-small-language-models-the-complete-guide-for-2026/)
 * [Build a Production-Ready LLM API](https://amanxai.com/2026/02/11/build-a-production-ready-llm-api/): We’ll build a fast, well-tested API to serve TinyLlama, a powerful open-source small language model, using FastAPI. The best part is that it’s completely free, runs on your own machine, and doesn’t require an OpenAI API key.
 * [The Best Open-Source Small Language Models (SLMs) in 2026](https://www.bentoml.com/blog/the-best-open-source-small-language-models)
-* [Top 7 Small Language Models You Can Run on a Laptop](https://machinelearningmastery.com/top-7-small-language-models-you-can-run-on-a-laptop/): Phi-3.5 Mini (3.8B Parameters), Llama 3.2 3B, Llama 3.2 1B, Ministral 3 8B, Qwen 2.5 7B, Gemma 2 9B, SmolLM2 1.7B
 * [The Optimal Architecture for Small Language Models](https://huggingface.co/blog/codelion/optimal-model-architecture)
 * [Unleashing the Power of Self-Learning Machines Running SLMs on your Browser](https://codezen.medium.com/unleashing-the-power-of-self-learning-machines-running-slms-on-your-browser-2ed3f3a3496e) ([Source](https://tarun047.github.io/slm-demo/))
 * [Introducing: Local Browser AI](https://blog.alexewerlof.com/p/local-browser-ai)
+* [Top 7 Small Language Models You Can Run on a Laptop](https://machinelearningmastery.com/top-7-small-language-models-you-can-run-on-a-laptop/): Phi-3.5 Mini (3.8B Parameters), Llama 3.2 3B, Llama 3.2 1B, Ministral 3 8B, Qwen 2.5 7B, Gemma 2 9B, SmolLM2 1.7B
 * [Top 7 SLMs You Can Run in the Browser](https://medium.com/@hadiyolworld007/top-7-slms-you-can-run-in-the-browser-fa67d921e669): 
 
     1. Llama 3.2 1B Instruct (Meta): A tiny Llama that actually chats. Great as a default “it just works” browser model; widely packaged for WebLLM. If you want the Meta feel without the Meta footprint, start here. Best for: lightweight assistants, UI copilots, form-fill helpers.

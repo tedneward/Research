@@ -17,6 +17,8 @@ summary=Collection of links, notes, and models.
     * [The State Of LLMs 2025: Progress, Problems, and Predictions](https://magazine.sebastianraschka.com/p/state-of-llms-2025)
 
 * [Are language models a commodity?](https://www.kdnuggets.com/are-language-models-a-commodity)
+* [A Beginner's Reading list for LLMs for 2026](https://machinelearningmastery.com/a-beginners-reading-list-for-large-language-models-for-2026/)
+* [7 things I wish I knew when I started self-hosting LLMs](https://www.xda-developers.com/things-wish-knew-started-self-host-llms/)
 * [BUILDING AN INTELLIGENT ARCHITECTURE AGENT: LEVERAGING LLMS FOR AUTOMATED DIAGRAM GENERATION AND DOCUMENTATION](https://stal.blogspot.com/2025/09/building-intelligent-architecture-agent.html?m=1)
 * ["Researchers from Virginia Tech and Microsoft Introduce Algorithm of Thoughts: An AI Approach That Enhances Exploration of Ideas And Power of Reasoning In Large Language Models (LLMs)"](https://www.marktechpost.com/2023/08/31/researchers-from-virginia-tech-and-microsoft-introduce-algorithm-of-thoughts-an-ai-approach-that-enhances-exploration-of-ideas-and-power-of-reasoning-in-large-language-models-llms/)
 * ["Language Models are Few-Shot Learners"](https://dl.acm.org/doi/pdf/10.5555/3495724.3495883): "We demonstrate that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even becoming competitive with prior state-ofthe-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous nonsparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks. We also identify some datasets where GPT3’s few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora."
@@ -84,6 +86,7 @@ summary=Collection of links, notes, and models.
 ### Wow
 
 * [Can LLMs be Computers?](https://www.percepta.ai/blog/can-llms-be-computers): Executing programs inside transformers with exponentially faster inference. ... To achieve [execution inside the LLM], we implemented a WebAssembly interpreter inside the transformer weights.
+* [7 Advanced Feature Engineering Tricks Using LLM Embeddings](https://machinelearningmastery.com/7-advanced-feature-engineering-tricks-using-llm-embeddings/)
 
 ## Models
 

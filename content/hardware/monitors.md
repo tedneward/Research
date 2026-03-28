@@ -31,3 +31,5 @@ summary=Collection of links about displays that rest on your desk or mount on th
 
 * [Aurzen Roku TV Smart Projector with Wifi and Bluetooth, D1R Cube Roku Streaming Experience Built-in, Sealed Optical Engine, 1080P FHD, Dolby Audio, Portable Mini Projector for Home/Outdoor Movies](https://www.amazon.com/Aurzen-Projector-Bluetooth-Streaming-Experience/dp/B0FDGLZKKM/)
 * https://www.zdnet.com/home-and-office/home-entertainment/aurzen-d1r-cube-roku-projector-review/
+* https://www.zdnet.com/home-and-office/home-entertainment/xgimi-horizon-s-max-review/
+

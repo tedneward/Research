@@ -54,6 +54,7 @@ An agent generally consists of these core components:
 ### Implementation
 
 - [CREATING LLM AGENTS FOR DOMAIN-SPECIFIC LANGUAGE GENERATION AND PROCESSING](https://stal.blogspot.com/2025/10/creating-llm-agents-for-domain-specific.html?m=1)
+- [Building a Production-Ready LLM API](https://amanxai.com/2026/02/11/build-a-production-ready-llm-api/)
 
 ## Languages/Libraries
 

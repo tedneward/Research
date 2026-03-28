@@ -19,4 +19,4 @@ Then run `/setup` Claude Code handles everything: dependencies, authentication, 
 ### Articles, Blogs, Essays
 
 - https://thenewstack.io/nanoclaw-minimalist-ai-agents/
-
+- [NanoClaw](https://www.theregister.com/2026/03/01/nanoclaw_container_openclaw/)

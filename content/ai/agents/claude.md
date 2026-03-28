@@ -9,19 +9,20 @@ summary=The AI agent.
 
 ### Articles/Blogs/Essays
 
+- https://ollama.com/blog/claude
 - https://scottrfrancis.wordpress.com/2025/09/07/programming-claude-code-an-object-oriented-approach-to-ai-development-workflows/
 - https://medium.com/ai-insights-cobet/comprehensive-guide-to-setting-up-claude-code-on-windows-using-wsl-d3a3f3b5a128
 - https://itecsonline.com/post/how-to-install-claude-code-on-ubuntu-linux-complete-guide-2025
 - https://medium.com/@joe.njenga/17-best-claude-code-workflows-that-separate-amateurs-from-pros-instantly-level-up-5075680d4c49
 - https://www.shawnmayzes.com/product-engineering/running-claude-code-locally-just-got-easier-with-ollama-code/
-- https://ollama.com/blog/claude
 - https://github.com/mattlqx/claude-code-ollama-proxy
 - https://www.xda-developers.com/built-claude-code-workflow-lm-studio-offline-first-development/
 - [What Claude Code Actually Chooses](https://amplifying.ai/research/claude-code-picks): We pointed Claude Code at real repos 2,430 times and watched what it chose. No tool names in any prompt. Open-ended questions only.
-- https://www.reddit.com/r/ClaudeAI/comments/1rga7f5/how_i_built_a_13agent_claude_team_where_agents/
 - https://github.com/numman-ali/cc-mirror: Create multiple isolated Claude Code variants with custom providers (Z.ai, MiniMax, OpenRouter, LiteLLM)
 - [Sled: Run your coding agent from your phone, with voice](https://www.producthunt.com/products/sled-voice-interface-for-claude-code): [Website](https://sled.layercode.com/?ref=producthunt)
 - [Claude Code CLAUDE.md vs Skills](https://uxplanet.org/claude-code-claude-md-vs-skills-35685676b367)
+- [How I built a 13-agent Claude team where agents review each other's work - full setup guide](https://www.reddit.com/r/ClaudeAI/comments/1rga7f5/how_i_built_a_13agent_claude_team_where_agents/)
+- [New to Claude? Use these 6 simple starter prompts to unlock better answers instantly](https://www.tomsguide.com/ai/new-to-claude-use-this-simple-starter-prompt-to-unlock-better-answers-instantly)
 
 ### Videos
 

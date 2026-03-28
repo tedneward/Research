@@ -18,3 +18,4 @@ When used inside a browser, Python has full access to the Web APIs.
 ### Articles
 
 * [Rapid Python GUI development with HTML5 and Pyodide](https://www.tu.berlin/en/cmt/rapid-python-gui-development-with-html5-and-pyodide)
+* [Running Pydantic’s Monty Rust sandboxed Python subset in WebAssembly](https://simonwillison.net/2026/Feb/6/pydantic-monty/)

@@ -20,3 +20,9 @@ Simple and safe programming language with built-in concurrency, first-class C/C+
 - Built-in [concurrency](https://manual.jule.dev/concurrency): async runtime and coroutines, channels, mutexes, condition variables, and more
 - High [interoperability](https://manual.jule.dev/integrated-jule/interoperability) with C, C++, Objective-C, and Objective-C++
 - C++ [API](https://manual.jule.dev/api) for extending Jule or integrating with existing codebases
+
+## Resources
+
+### Reading
+
+- [Memory-Safe Jule language emerges as C/C++ alternative](https://thenewstack.io/jule-open-source-programming-language/)

@@ -31,17 +31,10 @@ Collection of links about and around hardware.
 ## Remote access-in-the-cloud
 [Rent a Mac in the Cloud](http://www.macincloud.com/)
 
-## Desktops
-[Skytech Gaming](https://skytechgaming.com/custom-pc-builder/)
-
-### Mini PCs
-[HIGOLEPC](https://www.amazon.com/stores/HIGOLEPC/page/AD7311E1-0B35-432D-A921-5E5D4B2C7AA9)
-
-[KAMRUI Essenx E1 Mini PC](https://www.amazon.com/KAMRUI-AK1PLUS-Processor-Computer-Ethernet/dp/B0CGD9F533?tag=kotaku01-20&th=1)
-
 ## Phones/tablets
 
-[Light](https://www.thelightphone.com/shop/products/light-phone-iii): A "dumbphone" that still does text, email, etc.
+- [Light](https://www.thelightphone.com/shop/products/light-phone-iii): A "dumbphone" that still does text, email, etc.
+- [NanoPhone 4G](https://nanophone.store/products/nanophone-3g-the-small-smartphone-copy): 3.88" screen, Android 12, Dual-SIM, micro-SD, 64GB storage
 
 ### Accessories
 
@@ -60,8 +53,6 @@ Collection of links about and around hardware.
 
     - [UGREEN M.2 NVMe SSD Enclosure 10Gbps USB 3.2 Gen 2](https://www.amazon.com/UGREEN-Enclosure-10Gbps-External-Support/dp/B0D53K7HK9) $15 - $22: The UGREEN M.2 NVMe SSD Enclosure is perfect for assembling your own USB SSD at home. It offers 10Gbps transfer rates over USB 3.2 Gen 2, and accepts both M and M&B key M.2 PCIe SSDs. With a USB-C interface, it'll easily hook into your desktop or laptop to provide you with fast portable storage anywhere you go.
     - Crucial T710 PCIe Gen5 NVMe SSD: 1TB models [$200 at Crucial](https://www.crucial.com/ssd/t710/CT1000T710SSD8) or [$180 at Newegg](https://www.newegg.com/crucial-1tb-t710-nvme/p/N82E16820156443) | also in 2TB, 4TB, ...
-
-$15 at Amazon
 
 ## Docks
 

@@ -16,6 +16,10 @@ If you want a personal, single-user assistant that feels local, fast, and always
 - [Run OpenClaw Securely in Docker Sandboxes](https://www.docker.com/blog/run-openclaw-securely-in-docker-sandboxes/)
 - [Running OpenClaw in Docker](https://til.simonwillison.net/llms/openclaw-docker)
 
+### Skills
+
+- [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
+
 ### Videos
 
 - [How to Setup & Run OpenClaw with Ollama on Mac/macOS and Zero API Cost (2026)](https://www.youtube.com/watch?app=desktop&v=iPH3Le99kqs)

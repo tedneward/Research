@@ -43,6 +43,8 @@ The following platforms have documented support for Agent Skills:
 
 ## Skill List
 
+- [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
+
 ### Official Claude Skills (Document Processing)
 
 Claude provides built-in skills for common document types:
