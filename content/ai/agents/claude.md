@@ -21,6 +21,11 @@ summary=The AI agent.
 - https://www.reddit.com/r/ClaudeAI/comments/1rga7f5/how_i_built_a_13agent_claude_team_where_agents/
 - https://github.com/numman-ali/cc-mirror: Create multiple isolated Claude Code variants with custom providers (Z.ai, MiniMax, OpenRouter, LiteLLM)
 - [Sled: Run your coding agent from your phone, with voice](https://www.producthunt.com/products/sled-voice-interface-for-claude-code): [Website](https://sled.layercode.com/?ref=producthunt)
+- [Claude Code CLAUDE.md vs Skills](https://uxplanet.org/claude-code-claude-md-vs-skills-35685676b367)
+
+### Videos
+
+- [Setting up Claude Cowork](https://www.youtube.com/watch?app=desktop&v=vMo-yRCN3QM)
 
 ## Examples, Repositories
 
@@ -37,6 +42,10 @@ summary=The AI agent.
 - [dev-browser](https://github.com/SawyerHood/dev-browser): A Claude Skill to give your agent the ability to use a web browser
 - [SwiftUI-Agent Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill): Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open format).
 - [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)
+
+## Plugins/Tools
+
+- [Claude HUD](https://github.com/jarrodwatts/claude-hud)
 
 ---
 

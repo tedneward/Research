@@ -42,6 +42,7 @@ Some random links I've found:
 * [Haifu](https://www.dangermouse.net/esoteric/haifu.html): a programming language to address the lack of Eastern philosophy in the current set of commonly used languages such as C and Java. The meanings of "haifu" all describe essential qualities of the language. *Note: The specification for Haifu is not quite complete.*
 * [JSFuck](http://www.jsfuck.com/): an esoteric and educational programming style based on the atomic parts of JavaScript. It uses only six different characters to write and execute code.
 * l33t: designed to be as confusing as possible (described at https://trove42.com/top-20-strangest-programming-languages/)
+* [MNMlang](https://github.com/mufeedvh/mnmlang): What if a little pile of M&Ms on a table was a real program? [Blog: "I made a programming language with M&Ms"](https://mufeedvh.com/posts/i-made-a-programming-language-with-mnms/)
 * Omgrofl: LOLCODE clone (described at https://trove42.com/top-20-strangest-programming-languages/)
 * [Q-BAL](https://mirrors.talideon.com/articles/qbal/): a programming language based on the question “What would it be like if a language were based on queues rather than stacks?” The acronym stands for Queue-BAsed Lanugage. This language is not designed to be useful, just fun.
 * reMorse: a programming language designed to look like Morse code (described at https://trove42.com/top-20-strangest-programming-languages/)

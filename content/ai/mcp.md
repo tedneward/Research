@@ -45,7 +45,9 @@ Connection lifecycle:
     - Transport disconnection
     - Error conditions
 
-# Reading
+## Reading
+
+### Articles, Blogs, Essays
 
 - [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners)
 - [The Model Context Protocol (MCP): A Complete Guide Series](https://ai.plainenglish.io/the-model-context-protocol-mcp-a-complete-guide-series-db4fc70a5e5a) (Requires Medium account)
@@ -53,6 +55,10 @@ Connection lifecycle:
 - [Quickstart: Server](https://modelcontextprotocol.io/quickstart/server): "we’ll build a simple MCP weather server and connect it to a host, Claude for Desktop. We’ll start with a basic setup, and then progress to more complex use cases. We’ll build a server that exposes two tools: `get-alerts` and `get-forecast`. Then we’ll connect the server to an MCP host (in this case, Claude for Desktop):"
 - [An LLM does not need to understand MCP](https://hackteam.io/blog/your-llm-does-not-care-about-mcp/)
 - [Stop Converting REST APIs to MCP](https://www.jlowin.dev/blog/stop-converting-rest-apis-to-mcp): "I’ve come to realize that it can paper over a fundamental problem: an API built for a human will poison your AI agent. In practice, LLMs achieve significantly better performance with well-designed, tailored MCP servers than with auto-converted ones. The reason goes right to the core of how agents and humans interact with software, and how we design technical products for each consumer. A good REST API is generous. It is a model of discoverability and atomicity. It offers hundreds of single-serving endpoints, flexible parameters, and endless options because programmatic iteration is cheap. Human developers are brilliant at doing discovery once and subseqeuently ignoring what’s irrelevant, and their code can chain together atomic calls — get_user(), then get_orders(user_id), then get_order_details(order_id) — with quick network hops to achieve complex outcomes. For them, more choice is good. We use properties like idempotency, pagination, and caching to make our APIs more efficient in the face of relatively deterministic access patterns. But when you hand this interface to an agent, you’re not empowering it; you’re drowning it. "
+
+## Tools
+
+- [Context7 is the most underrated MCP server you're not using for your local LLM](https://www.xda-developers.com/context7-underrated-mcp-server-local-llm/)
 
 ## Example Agents
 
