@@ -38,6 +38,9 @@ Official standard name of the language originally appearing in browsers. "Javasc
 * [Porffor](https://github.com/CanadaHonk/porffor) - a from-scratch experimental AOT optimizing JS/TS -> Wasm/C engine/compiler/runtime. You can try it out [here](https://porffor.dev/).
 * [sebastianwessel-quickjs](https://github.com/sebastianwessel/quickjs) - a typescript package to execute JavaScript and TypeScript code in a webassembly quickjs sandbox. You can try it out [here](https://sebastianwessel.github.io/quickjs/playground.html).
 
+see [javascript-zoo](https://github.com/ivankra/javascript-zoo) for more implementations?
+
+
 ## Implementation-related
 
 * [zipline](https://github.com/cashapp/zipline): This library streamlines using Kotlin/JS libraries from Kotlin/JVM and Kotlin/Native programs. It makes it fetching code as easy as fetching data:
@@ -94,7 +97,9 @@ To any JS engine (not direct FFI)
 
 * [neverthrow](https://github.com/supermacro/neverthrow): Type-Safe Errors for JS & TypeScript
 
-## Reading
+## Resources
+
+### Reading
 
 * [`SingleEscapeCharacter`](https://262.ecma-international.org/13.0/#prod-SingleEscapeCharacter)
 * [Airbnb JavaScript Style Guide](https://airbnb.io/javascript/) - Airbnb (HTML)
