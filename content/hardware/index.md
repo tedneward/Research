@@ -35,6 +35,7 @@ Collection of links about and around hardware.
 
 - [Light](https://www.thelightphone.com/shop/products/light-phone-iii): A "dumbphone" that still does text, email, etc.
 - [NanoPhone 4G](https://nanophone.store/products/nanophone-3g-the-small-smartphone-copy): 3.88" screen, Android 12, Dual-SIM, micro-SD, 64GB storage
+- [People wanted small Android phones for years—now they’re here](https://www.howtogeek.com/people-wanted-small-android-phones-now-theyre-here/)
 
 ### Accessories
 
