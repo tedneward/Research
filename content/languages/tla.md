@@ -13,5 +13,6 @@ summary=A language and tool to verify the correctness of a series of actions, ba
 * [The Future of TLA+](https://lamport.azurewebsites.net/tla/future.pdf)
 * ["An Introduction to TLA+ and its Use in Parties"](https://www.innoq.com/en/articles/2023/04/an-introduction-to-tla/)
 * ["Learn TLA"](https://learntla.com/)
+* [Systems Correctness Practices at AWS](https://spawn-queue.acm.org/doi/pdf/10.1145/3712057)
 
 
