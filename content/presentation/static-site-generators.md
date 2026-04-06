@@ -116,6 +116,7 @@ summary=The definitive listing of Static Site Generators.
 * [Gridsome](https://gridsome.org) - Vue.js-powered, modern site generator for building the fastest possible websites for any Headless CMS, APIs or Markdown-files. - `#Vue.js` `#JavaScript`
 * [Hakyll](https://github.com/jaspervdj/hakyll) - Hakyll is a Haskell library for generating static sites, mostly aimed at small-to-medium sites and personal blogs. It is written in a very configurable way and uses an xmonad-like DSL for configuration. - `#Haskell`
 * [Harp](http://harpjs.com/) - `#JavaScript` `#Node.js`
+* [Hexo](https://hexo.io/) - `#JavaScript` `#Node.js` [Source](https://github.com/hexojs/hexo)
 * [Hugo](https://github.com/spf13/hugo) - It is optimized for speed, easy use and configurability. - `#Go`
 * [îles](https://iles.pages.dev) - Generates static sites with islands of interactivity - `#Vue`, `#Preact`, `#Svelte`, `#Solid`
 * [JBake](https://github.com/jbake-org/jbake) `#Java`

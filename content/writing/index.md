@@ -10,3 +10,12 @@ summary=Notes and links on writing.
 - https://writingcooperative.com/how-to-be-a-writer-without-writing-a-single-line-c36ff61446de
 - [The Oldest Rule of Compelling Writing](https://lindac.substack.com/p/the-oldest-rule-of-compelling-writing): The Rule of Three
 
+## Writing-Adjacnet
+
+### Social Media
+
+- [How to Create Engaging Images for Social Media: A Simple Guide For Non-Designers](https://buffer.com/resources/how-to-create-engaging-images/)
+    - Principle 1: Create a Simple and Balanced Layout
+    - Principle 2: Colour Makes All the Difference
+    - Principle 3: Choose Fonts That Are Readable and Consistent
+    

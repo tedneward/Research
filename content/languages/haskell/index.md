@@ -5,13 +5,72 @@ summary=Pure-functional language.
 
 ## Implementations
 
+* [GHC](https://wiki.haskell.org/GHC) and [GHC](https://www.haskell.org/ghc/)
+* [Haskell Tool Stack](https://docs.haskellstack.org/en/stable/README/)
+* JVM: [Eta](../jvm/eta)
+* JVM: [Frege](../jvm/frege) is, I think a flavor of Haskell for the JVM
+* WASM: [GHC WASM](https://gitlab.haskell.org/haskell-wasm/ghc-wasm-meta) - GHC's wasm backend.
+* WASM: [haskell-wasm](https://github.com/SPY/haskell-wasm) - Haskell WebAssembly Toolkit. It includes Language helpers and a fully spec-compatible WASM interpreter.
+* WASM: [wasm-cross](https://github.com/WebGHC/wasm-cross) - A toolchain for cross compiling C and Haskell to WebAssembly, using the WebGHC and LLVM.
 * ~[Asterius](https://github.com/tweag/asterius) - a Haskell to WebAssembly compiler. [Unmaintained]~
 * ~[DHC](https://github.com/dfinity/dhc) - a Haskell compiler that accepts only a tiny subset of the language and produces WebAssembly binaries. [Unmaintained]~
-* [GHC WASM](https://gitlab.haskell.org/haskell-wasm/ghc-wasm-meta) - GHC's wasm backend.
 * ~[HaskellWasm](https://github.com/haskell-wasm/wasm) - a Haskell compiler infrastructure for generating WebAssembly. [Unmaintained]~
-* [haskell-wasm](https://github.com/SPY/haskell-wasm) - Haskell WebAssembly Toolkit. It includes Language helpers and a fully spec-compatible WASM interpreter.
-* [wasm-cross](https://github.com/WebGHC/wasm-cross) - A toolchain for cross compiling C and Haskell to WebAssembly, using the WebGHC and LLVM.
 
+### Libraries
+- [HaXml](https://archives.haskell.org/projects.haskell.org/HaXml/): a collection of many utilities for parsing, filtering, transforming, and generating XML documents using Haskell.
+- [Phooey](https://wiki.haskell.org/Phooey): a functional UI library for Haskell. Or it's two of them, as it provides a Monad interface and an Applicative interface. The simplicity of Phooey's implementation is due to its use of Reactive for applicative, data-driven computation.
+- [Yesod](http://yesodweb.com/): Web (with [Book](https://www.yesodweb.com/book))
+
+### FFI
+
+- Calling C++ from Haskell - "The Hard Way"
+	- https://wiki.haskell.org/CPlusPlus_from_Haskell
+- Cxx foreign function interface
+	- https://wiki.haskell.org/Cxx_foreign_function_interface
+- fficxx - FFI to C++ in Haskell
+	- Haskell-C++ Foreign Function Interface Generator
+	- http://ianwookim.org/fficxx/
+	- https://github.com/wavewave/fficxx
+- inline-c-cpp: Lets you embed C++ code into Haskell
+	- http://hackage.haskell.org/package/inline-c-cpp
+	- https://github.com/fpco/inline-c
+- Stranger in a Strange Land: An introductory tour of the Haskell FFI
+	- Haskell DC 2020; P.C. Shyamshankar
+	- https://www.youtube.com/watch?v=zlOrYQH_-Xs
+
+## Resources
+
+### Articles, Blogs, Essays
+
+- ["How to read Haskell like Python"](http://blog.ezyang.com/2011/11/how-to-read-haskell/)
+- ["Haskell web programming"](http://yannesposito.com/Scratch/en/blog/Yesod-tutorial-for-newbies/)
+- ["Basic Type Level Programming in Haskell"](https://www.parsonsmatt.org/2017/04/26/basic_type_level_programming_in_haskell.html)
+
+### Books
+* [A Gentle Introduction to Haskell Version 98](https://www.haskell.org/tutorial/) - Paul Hudak, John Peterson, Joseph Fasel
+* [Anatomy of Programming Languages](http://www.cs.utexas.edu/~wcook/anatomy/) - William R. Cook
+* [Beautiful Code, Compelling Evidence](https://web.archive.org/web/20160411023943/http://www.renci.org/wp-content/pub/tutorials/BeautifulCode.pdf) - J.R. Heard (PDF)
+* [Developing Web Applications with Haskell and Yesod](https://www.yesodweb.com/book) - Michael Snoyman 
+* [Exploring Generic Haskell](http://www.andres-loeh.de/ExploringGH.pdf) - Andres Löh (PDF)
+* [Happy Learn Haskell Tutorial](http://www.happylearnhaskelltutorial.com)
+* [Haskell](https://en.wikibooks.org/wiki/Haskell) - Wikibooks
+* [Haskell no panic](http://lisperati.com/haskell/) - Conrad Barski
+* [Haskell Notes for Professionals](https://goalkicker.com/HaskellBook/) - Compiled from StackOverflow documentation (PDF)
+* [Haskell web Programming](http://yannesposito.com/Scratch/fr/blog/Yesod-tutorial-for-newbies/) (Yesod tutorial)
+* [Learn Haskell Fast and Hard](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way/) - Yann Esposito
+* [Learn You a Haskell for Great Good](http://learnyouahaskell.com) - Miran Lipovaca
+* [Parallel and Concurrent Programming in Haskell](https://www.oreilly.com/library/view/parallel-and-concurrent/9781449335939/) - Simon Marlow
+* [Real World Haskell](http://book.realworldhaskell.org) - Bryan O'Sullivan, Don Stewart, and John Goerzen
+* [Speeding Through Haskell](http://www.sthaskell.com) - Arya Popescu
+* [The Haskell Road to Logic, Math and Programming](https://fldit-www.cs.uni-dortmund.de/~peter/PS07/HR.pdf) - Kees Doets and Jan van Eijck (PDF)
+* [The Haskell School of Music - From Signals to Symphonies](https://www.cs.yale.edu/homes/hudak/Papers/HSoM.pdf) - Paul Hudak (PDF)
+* [What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/) - Stephen Diehl (PDF)
+* [Wise Man's Haskell](https://github.com/anchpop/wise_mans_haskell/blob/master/book.md#preface) - Andre Popovitch
+* [Yet Another Haskell Tutorial](http://hal3.name/docs/daume02yaht.pdf) - Hal Daum ́e III (PDF)
+
+### Papers
+
+- ["Template Meta-programming for Haskell"](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/meta-haskell.pdf?from=http%3A%2F%2Fresearch.microsoft.com%2F%7Esimonpj%2Fpapers%2Fmeta-haskell%2Fmeta-haskell.pdf)
 
 ### Notes
 (Much quoted from [Learn You a Haskell](http://learnyouahaskell.com).)
@@ -220,69 +279,3 @@ Int (efficient), Integer (unbounded), Float, Double, Bool, Char
 `a` and `b` are often used as generics/parameterized-type descriptors in type descriptions.
 
 A typeclass is a sort of interface that defines some behavior. If a type is a part of a typeclass, that means that it supports and implements the behavior the typeclass describes. (A la interface, as opposed to class.)
-
-
-
-### Implementations
-
-* [Native: GHC](https://wiki.haskell.org/GHC) and [GHC](https://www.haskell.org/ghc/)
-* [JVM: Eta](../jvm/eta)
-* [JVM" Frege](../jvm/frege) is, I think a flavor of Haskell for the JVM
-* [GHC: Haskell Tool Stack](https://docs.haskellstack.org/en/stable/README/)
-
-### Libraries
-[Phooey](https://wiki.haskell.org/Phooey): a functional UI library for Haskell. Or it's two of them, as it provides a Monad interface and an Applicative interface. The simplicity of Phooey's implementation is due to its use of Reactive for applicative, data-driven computation.
-
-[Yesod](http://yesodweb.com/): Web (with [Book](https://www.yesodweb.com/book))
-
-### Books
-* [A Gentle Introduction to Haskell Version 98](https://www.haskell.org/tutorial/) - Paul Hudak, John Peterson, Joseph Fasel
-* [Anatomy of Programming Languages](http://www.cs.utexas.edu/~wcook/anatomy/) - William R. Cook
-* [Beautiful Code, Compelling Evidence](https://web.archive.org/web/20160411023943/http://www.renci.org/wp-content/pub/tutorials/BeautifulCode.pdf) - J.R. Heard (PDF)
-* [Developing Web Applications with Haskell and Yesod](https://www.yesodweb.com/book) - Michael Snoyman 
-* [Exploring Generic Haskell](http://www.andres-loeh.de/ExploringGH.pdf) - Andres Löh (PDF)
-* [Happy Learn Haskell Tutorial](http://www.happylearnhaskelltutorial.com)
-* [Haskell](https://en.wikibooks.org/wiki/Haskell) - Wikibooks
-* [Haskell no panic](http://lisperati.com/haskell/) - Conrad Barski
-* [Haskell Notes for Professionals](https://goalkicker.com/HaskellBook/) - Compiled from StackOverflow documentation (PDF)
-* [Haskell web Programming](http://yannesposito.com/Scratch/fr/blog/Yesod-tutorial-for-newbies/) (Yesod tutorial)
-* [Learn Haskell Fast and Hard](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way/) - Yann Esposito
-* [Learn You a Haskell for Great Good](http://learnyouahaskell.com) - Miran Lipovaca
-* [Parallel and Concurrent Programming in Haskell](https://www.oreilly.com/library/view/parallel-and-concurrent/9781449335939/) - Simon Marlow
-* [Real World Haskell](http://book.realworldhaskell.org) - Bryan O'Sullivan, Don Stewart, and John Goerzen
-* [Speeding Through Haskell](http://www.sthaskell.com) - Arya Popescu
-* [The Haskell Road to Logic, Math and Programming](https://fldit-www.cs.uni-dortmund.de/~peter/PS07/HR.pdf) - Kees Doets and Jan van Eijck (PDF)
-* [The Haskell School of Music - From Signals to Symphonies](https://www.cs.yale.edu/homes/hudak/Papers/HSoM.pdf) - Paul Hudak (PDF)
-* [What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/) - Stephen Diehl (PDF)
-* [Wise Man's Haskell](https://github.com/anchpop/wise_mans_haskell/blob/master/book.md#preface) - Andre Popovitch
-* [Yet Another Haskell Tutorial](http://hal3.name/docs/daume02yaht.pdf) - Hal Daum ́e III (PDF)
-
-### Papers
-["Template Meta-programming for Haskell"](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/meta-haskell.pdf?from=http%3A%2F%2Fresearch.microsoft.com%2F%7Esimonpj%2Fpapers%2Fmeta-haskell%2Fmeta-haskell.pdf)
-
-["How to read Haskell like Python"](http://blog.ezyang.com/2011/11/how-to-read-haskell/)
-
-["Haskell web programming"](http://yannesposito.com/Scratch/en/blog/Yesod-tutorial-for-newbies/)
-
-["Basic Type Level Programming in Haskell"](https://www.parsonsmatt.org/2017/04/26/basic_type_level_programming_in_haskell.html)
-
-### FFI
-
-- Calling C++ from Haskell - "The Hard Way"
-	- https://wiki.haskell.org/CPlusPlus_from_Haskell
-- Cxx foreign function interface
-	- https://wiki.haskell.org/Cxx_foreign_function_interface
-- fficxx - FFI to C++ in Haskell
-	- Haskell-C++ Foreign Function Interface Generator
-	- http://ianwookim.org/fficxx/
-	- https://github.com/wavewave/fficxx
-- inline-c-cpp: Lets you embed C++ code into Haskell
-	- http://hackage.haskell.org/package/inline-c-cpp
-	- https://github.com/fpco/inline-c
-- Stranger in a Strange Land: An introductory tour of the Haskell FFI
-	- Haskell DC 2020; P.C. Shyamshankar
-	- https://www.youtube.com/watch?v=zlOrYQH_-Xs
-
-
-https://gitlab.haskell.org/ghc/ghc
-A general-purpose, statically-typed, purely functional programming language with type inference and lazy evaluation. Designed for teaching, research and industrial application, Haskell has pioneered a number of programming language features such as type classes, which enable type-safe operator overloading. Haskell's main implementation is the Glasgow Haskell Compiler (GHC).
