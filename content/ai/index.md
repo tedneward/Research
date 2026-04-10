@@ -43,6 +43,22 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 * [How Google Workspace CLI Made My Claude Code Setup 10x More Powerful](https://aimaker.substack.com/p/google-workspace-cli-claude-code-daily-operating-system)
 * [I automated my entire read-it-later workflow with a local LLM so every article I save gets summarized overnight](https://www.xda-developers.com/automate-read-it-later-workflow-with-local-llm-to-summarize-articles/)
 
+### Suggestions
+
+10 Agent Projects: a list of 10 AI agent projects you can try this weekend. They go from basic single agents to more advanced multi-agent systems.
+
+-   **[Building an Agentic RAG Pipeline](https://amanxai.com/2025/12/30/building-an-agentic-rag-pipeline/)**
+-   **[Build a Multi-Agent System With LangGraph](https://amanxai.com/2025/12/09/build-a-multi-agent-system-with-langgraph/)**
+-   **[Build a Real-Time AI Assistant Using RAG + LangChain](https://amanxai.com/2025/11/18/build-a-real-time-ai-assistant-using-rag-langchain/)**
+-   **[Build an AI Agent to Automate Your Research](https://amanxai.com/2025/11/11/build-an-ai-agent-to-automate-your-research/)**
+-   **[Building a Multi-Agent System using Gemini API](https://amanxai.com/2025/09/16/building-a-multi-agent-system-using-gemini-api/)**
+-   **[Build an AI Agent to Master a Game](https://amanxai.com/2025/09/09/build-an-ai-agent-to-master-a-game-using-python/)**
+-   **[Building AI Agents with CrewAI](https://amanxai.com/2025/07/01/building-ai-agents-with-crewai-using-python/)**
+-   **[Building an AI Agent using OpenAI API](https://amanxai.com/2025/04/29/building-an-ai-agent-using-openai-api/)**
+-   **[AI Trading Agent using Reinforcement Learning](https://amanxai.com/2025/02/18/building-an-ai-agent-using-agentic-ai/)**
+-   **[Building an AI Research Agent for Image Analysis](https://developer.ibm.com/tutorials/awb-build-ai-research-agent-image-analysis-granite/)**
+
+
 ## History
 
 - [The Quest for Artificial Intelligence: A History of Ideas and Achievements](http://ai.stanford.edu/~nilsson/QAI/qai.pdf) - Nils J. Nilsson (PDF)
@@ -108,6 +124,11 @@ Java:
 An advanced artificial intelligence (AI) system, built on deep learning and transformer architectures, that is pre-trained on massive amounts of text data to understand, process, and generate human-like language. LLMs learn to predict the next word in a sequence, enabling them to perform tasks like text generation, translation, summarization, and responding to complex queries, though they are not perfect oracles and can generate incorrect information or exhibit bias. 
 
 * ["On the Biology of a Large Language Model"](https://transformer-circuits.pub/2025/attribution-graphs/biology.html): "We investigate the internal mechanisms used by Claude 3.5 Haiku — Anthropic's lightweight production model — in a variety of contexts, using our circuit tracing methodology."
+
+### Recursive Language Models
+
+- [Blog post](https://alexzhang13.github.io/blog/2025/rlm/): "We explore language models that recursively call themselves or other LLMs before providing a final answer. Our goal is to enable the processing of essentially unbounded input context length and output length and to mitigate degradation “context rot”. We propose Recursive Language Models, or RLMs, a general inference strategy where language models can decompose and recursively interact with their input context as a variable. We design a specific instantiation of this where GPT-5 or GPT-5-mini is queried in a Python REPL environment that stores the user’s prompt in a variable. We demonstrate that an RLM using GPT-5-mini outperforms GPT-5 on a split of the most difficult long-context benchmark we got our hands on (OOLONG [1]) by more than double the number of correct answers, and is cheaper per query on average! We also construct a new long-context Deep Research task from BrowseComp-Plus [2]. On it, we observe that RLMs outperform other methods like ReAct + test-time indexing and retrieval over the prompt. Surprisingly, we find that RLMs also do not degrade in performance when given 10M+ tokens at inference time."
+- [rlm-minimal](https://github.com/alexzhang13/rlm-minimal): Super basic implementation (gist-like) of RLMs with REPL environments.
 
 ### [Small Language Models (SLMs)](/ai/slm/)
 

@@ -3,7 +3,7 @@ tags=language, verification, clr, jvm, python, ecmascript
 summary=A verification=ready programming language.
 ~~~~~~
 
-[Website](https://dafny.org/) | [Source](https://github.com/dafny-lang/dafny)
+[Website](https://dafny.org/) | [Source](https://github.com/dafny-lang/dafny) | [Docs](https://dafny.org/latest/toc) | [Reference Manual](https://dafny.org/latest/DafnyRef/DafnyRef)
 
 Dafny is a verification-ready programming language. As you type in your program, Dafny's verifier constantly looks over your shoulder, flags any errors, shows you counterexamples, and congratulates you when your code matches your specifications. When you're done, Dafny can compile your code to C#, Go, Python, Java, or JavaScript (more to come!), so it can integrate with your existing workflow.
 
@@ -22,3 +22,10 @@ The language itself draws pieces of influence from:
 * ML (like the module system, and its functions and inductive datatypes), and
 * Coq and VeriFast (like the ability to include co-inductive datatypes and being able to write inductive and co-inductive proofs).
 
+## Resources
+
+### Reading
+
+- [Getting Started with Dafny](https://dafny.org/latest/OnlineTutorial/guide)
+- [HOWTO and FAQ](https://dafny.org/latest/HowToFAQ/index)
+- ["A Tutorial on Using Dafny to Construct Verified Software"](https://arxiv.org/pdf/1701.04481)

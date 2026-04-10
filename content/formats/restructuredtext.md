@@ -5,3 +5,9 @@ summary=Plaintext markup syntax and parser system.
 
 [Website](https://docutils.sourceforge.io/rst.html)
 
+## Resources
+
+### Articles, Blogs, Essays
+
+- [An Introduction to reStructuredText](https://docutils.sourceforge.io/docs/ref/rst/introduction.html)
+

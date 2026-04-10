@@ -8,7 +8,7 @@ summary=The original open-source operating system.
 
 Distributions ([DistroWatch](https://distrowatch.com/)):
 
-[DistroBox](https://github.com/89luca89/distrobox): Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with. To use: `sudo apt install distrobox`, then `distrobox create --name archbox --image archlinux:latest` or `distrobox create --name my-ubuntu --image ubuntu:22.04`, then `distrobox enter `*name*
+[DistroBox](https://distrobox.it/) [Source](https://github.com/89luca89/distrobox): Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with. To use: `sudo apt install distrobox`, then `distrobox create --name archbox --image archlinux:latest` or `distrobox create --name my-ubuntu --image ubuntu:22.04`, then `distrobox enter `*name*
 
 Popular
 

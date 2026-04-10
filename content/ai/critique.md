@@ -77,6 +77,10 @@ summary=A collection of links and notes talking about or criticizing/critiquing 
 
     "And that’s it."
 
+#### Eliminating Developers
+
+- [Why We've Tried to Replace Developers Every Decade](https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html)
+
 ---
 
 - [How NOT to use AI](https://www.axios.com/2025/12/25/ai-tips-how-not-to-use)
