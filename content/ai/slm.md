@@ -3,6 +3,69 @@ tags=ai
 summary=Collection of links and notes.
 ~~~~~~
 
+#### What is a small language model?
+
+Small language models are AI that use machine learning (ML) algorithms trained on much smaller, usually domain-specific datasets.
+
+Because the training dataset is smaller, the [data quality is often better and more accurate](https://www.ataccama.com/blog/what-is-data-quality-why-is-it-important). Small language models have fewer parameters (i.e., configurations) and a simpler architecture. **Typically, anything below 30B parameters is considered a small language model.**
+
+#### What is an SLM vs LLM?
+
+The main difference between an SLM vs LLM is the cost, complexity, and relevance.
+
+An SLM is a type of AI model that uses natural language processing and is designed for specific tasks within a targeted domain. Trained on domain-specific data, SLMs are more computationally efficient, cost-effective, and accurate, reducing the risk of generating inaccurate outputs. Their smaller size allows for easier fine-tuning, making them highly adaptable. Unlike LLMs, SLMs are not one-size-fits-all models; they are intended exclusively for the domain they were created for.
+
+SLMs and LLMs are similar in architecture design, training, data generation, and model evaluation. But there are some significant differences between an SML vs LLM:
+
+### 1\. Size and model complexity
+
+LLMs such as Meta’s Llama 3.1 contain [405B model parameters](https://codingscape.com/blog/most-powerful-llms-large-language-models#:~:text=Nvidia%20LLMs&text=This%20model%20has%20340%20billion,languages%20and%2040%2B%20coding%20languages.), while SLMs such as Mistral’s Mixtral 8x22B contain [8B model parameters](https://codingscape.com/blog/most-powerful-llms-large-language-models#:~:text=Nvidia%20LLMs&text=This%20model%20has%20340%20billion,languages%20and%2040%2B%20coding%20languages.) — significantly less.
+
+SLMs are smaller, so they typically have lower latency than LLMs when used for the same use case or task.
+
+### 2\. Contextual understanding and being domain-specific
+
+SLMs are trained only on data from specific domains, making them excel in their domain (the domain they were developed for) as opposed to LLMs with vast knowledge of different domains.
+
+SLMs lack this; they lack general knowledge, making LLMs more versatile. They can be adapted, improved, and engineered for a wider variety of downstream tasks.
+
+### 3\. Resource utilization
+
+Training LLMs is much more resource-intensive, making it prohibitive for most companies to train their own. They require many GPUs and highly powerful and scalable infrastructure.
+
+Training ChatGPT from scratch would require several thousand GPUs, whereas the Mistral SLM can be run on your local machines. Resource utilization is also about time. For all the reasons already mentioned, training an LLM takes much longer, typically months, whereas SLMs can be trained in weeks.
+
+This leads to a much larger resource demand from LLMs, while SLMs’ limited resource needs make them more sustainable. Inevitably, all this affects costs—bigger model size = higher token cost.
+
+### 4\. Bias
+
+Because LLMs are trained on large data sets, often from different domain areas and scraped from the open internet, they are less likely to be adequately fine-tuned. Working with a lot of raw, public data from different domain areas makes them more likely to produce biased outputs (e.g., it may underrepresent or misinterpret different groups and/or ideas).
+
+SLMs pose a lower risk of bias because they are only trained on smaller, domain-specific, carefully curated data sets.
+
+### 5\. Use case
+
+Given the context above, LLMs are typically better for complex, sophisticated general tasks, while SLMs are for more specialized, domain-focused tasks only.
+
+### 6\. Inference
+
+LLMs require a lot of hardware, GPUs, and cloud services, so they must run on the Internet.
+
+SLMs can be so small they can run locally without an internet connection.
+
+### 7\. Control
+
+If a company wants to use an LLM, it will need to buy it (purchase licenses) from an existing provider. If the provider decides to change the model parameters, the companies cannot do anything about it, and they are exposed to potential risks of model drift or catastrophic forgetting.
+
+Because SLMs can be run locally and are easier and cheaper to develop, companies can do it themselves. They have greater control over the data that goes into the model, the changes, and everything else. However, for this, companies need to have good-quality, governed data first.
+
+
+## Reading
+
+- [Small Language Models: A Comprehensive Overview](https://huggingface.co/blog/jjokah/small-language-model)
+- [Small Language Models](https://www.ataccama.com/blog/small-language-models)
+
+
 ## [Fine-tuning](https://www.bentoml.com/llm/getting-started/llm-fine-tuning)
 Fine-tuning is one of the most effective ways to adapt an LLM for a specific use case. It continues the training process on a pre-trained model using new, task-specific data. This can involve updating the entire model or just specific layers.
 
