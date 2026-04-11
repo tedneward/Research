@@ -3,7 +3,8 @@ tags=ai, inference engine
 summary=Easy, fast, and cheap LLM serving for everyone
 ~~~~~~
 
-[Website](https://docs.vllm.ai/en/stable/) | [Source](https://github.com/vllm-project/vllm)
+[Website](https://vllm.ai/) | [Source](https://github.com/vllm-project/) | 
+[Docs](https://docs.vllm.ai/en/stable/) 
 
 ## Getting Started
 
@@ -19,3 +20,10 @@ docker run --runtime nvidia --gpus all \
     vllm/vllm-openai:latest \
     --model Qwen/Qwen3-0.6B
 ```
+
+## Resources
+
+### Related projects
+
+- [vllm-playground](micytao.github.io/vllm-workshop/) | [Source](https://github.com/micytao/vllm-playground): A modern web interface for managing and interacting with vLLM servers (www.github.com/vllm-project/vllm). Supports both GPU and CPU modes, with special optimizations for macOS Apple Silicon and enterprise deployment on OpenShift/Kubernetes.
+
