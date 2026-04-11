@@ -6,6 +6,8 @@ summary=Easy, fast, and cheap LLM serving for everyone
 [Website](https://vllm.ai/) | [Source](https://github.com/vllm-project/) | 
 [Docs](https://docs.vllm.ai/en/stable/) 
 
+Looks more complicated than Ollama or LocalAI, which makes a certain amount of sense, I suppose. 
+
 ## Getting Started
 
 ### Docker
