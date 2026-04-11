@@ -15,6 +15,7 @@ If you want a personal, single-user assistant that feels local, fast, and always
 
 - [Run OpenClaw Securely in Docker Sandboxes](https://www.docker.com/blog/run-openclaw-securely-in-docker-sandboxes/)
 - [Running OpenClaw in Docker](https://til.simonwillison.net/llms/openclaw-docker)
+- [How to Set Up OpenClaw and Design an A2A Plugin Bridge](https://www.freecodecamp.org/news/openclaw-a2a-plugin-architecture-guide/)
 
 ### Skills
 

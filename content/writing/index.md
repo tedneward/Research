@@ -10,6 +10,10 @@ summary=Notes and links on writing.
 - https://writingcooperative.com/how-to-be-a-writer-without-writing-a-single-line-c36ff61446de
 - [The Oldest Rule of Compelling Writing](https://lindac.substack.com/p/the-oldest-rule-of-compelling-writing): The Rule of Three
 
+### Benefits
+
+- [Want to Charge Higher Rates for Your Services? New Data Shows Exactly How Much Writing a Book Can Add to Your Value.](https://www.entrepreneur.com/business-news/is-writing-a-book-worth-it): "AI tools and social media hacks get most of the marketing attention, but a new study shows there’s serious ROI in sitting down and [writing a good old-fashioned book](https://authorities.entrepreneur.com/) filled with your expertise. Published authors can charge 37% more for their time — $345 per hour versus $251 for non-authors, [according to a survey of 150 U.S. professionals](https://publishingevolution.org/author-credibility-study). And 89% of people said they trust content more when it comes from a book author."
+
 ## "Hardware"
 
 ### Notebooks

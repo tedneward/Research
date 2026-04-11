@@ -5,6 +5,21 @@ summary=Collection of thoughts/essays/notes/etc on managing people.
 tags=management
 ~~~~~~
 
+## Reading
+
+### Decision-Making
+
+* [Executive Decision-Making Demands a Different Kind of Discipline. Here’s What That Looks Like in Practice.](https://www.entrepreneur.com/leadership/how-senior-leaders-make-fewer-better-decisions/503283):
+
+    - Senior leaders don’t need more information. They need better visibility.
+    - Decision stamina is drained by noise, not by big calls
+    - Prime decision hours must be protected on purpose
+    - Great leaders know when to debate and when to decide
+    - Trust and ownership are what make altitude possible
+    
+
+---
+
 *(Reorganize this to be more topical)*
 
 ["The Worst Tool for the Job"](https://www.johndcook.com/blog/2020/07/25/worst-tool-for-the-job/): if you need a tool, buy the cheapest one you can find. If it’s inadequate, or breaks, or you use it a lot, then buy the best one you can afford. If you follow this strategy, you’ll sometimes waste a little money by buying a cheap tool before buying a good one. But you won’t waste money buying expensive tools that you rarely use. And you won’t waste money by buying a sequence of incrementally better tools until you finally buy a good one.
