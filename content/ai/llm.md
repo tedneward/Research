@@ -3,6 +3,10 @@ tags=ai
 summary=Collection of links, notes, and models.
 ~~~~~~
 
+## Places
+
+* [AI Agent Local LLM Inference Device Deployment Guide](https://llmdev.guide/)
+
 ## Reading
 
 ### General
@@ -54,6 +58,7 @@ summary=Collection of links, notes, and models.
 
 * [Run an LLM on your Android](https://www.makeuseof.com/you-can-and-should-run-a-tiny-llm-on-your-android-phone/)
 * [How to Run an LLM Locally to Interact with Your Documents](https://www.freecodecamp.org/news/run-an-llm-locally-to-interact-with-your-documents/)
+* [Select the right hardware for your local LLM deployment with this online guide](https://www.cnx-software.com/2026/03/30/select-the-right-hardware-for-your-local-llm-deployment-with-this-online-guide/)
 
 ### Verification
 

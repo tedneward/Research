@@ -3,7 +3,7 @@ tags=ai, development
 summary=The AI agent.
 ~~~~~~
 
-[Source](https://github.com/anthropics/claude-code) | [Docs](https://code.claude.com/docs/en/quickstart) | [Setup](https://code.claude.com/docs/en/setup)
+[Source](https://github.com/anthropics/claude-code) | [Docs](https://code.claude.com/docs/en/quickstart) | [Setup](https://code.claude.com/docs/en/setup) | [Fork/rewrite of leaked Claude Code](https://github.com/ultraworkers/claw-code)
 
 ## Reading
 
@@ -23,6 +23,46 @@ summary=The AI agent.
 - [Claude Code CLAUDE.md vs Skills](https://uxplanet.org/claude-code-claude-md-vs-skills-35685676b367)
 - [How I built a 13-agent Claude team where agents review each other's work - full setup guide](https://www.reddit.com/r/ClaudeAI/comments/1rga7f5/how_i_built_a_13agent_claude_team_where_agents/)
 - [New to Claude? Use these 6 simple starter prompts to unlock better answers instantly](https://www.tomsguide.com/ai/new-to-claude-use-this-simple-starter-prompt-to-unlock-better-answers-instantly)
+- [Claude Code doesn’t understand your .NET solution](https://blog.devgenius.io/claude-code-doesnt-understand-your-net-solution-cf2d3990c088): "The CLAUDE.md that most .NET developers don’t write
+CLAUDE.md is the single most important file in your Claude Code setup. Without it, every session starts from zero — Claude has to rediscover your project structure, your conventions, your build commands, everything. Most .NET developers either skip CLAUDE.md entirely or write a generic one that says “this is a .NET project.” That’s useless. Claude already knows what .NET is. What it doesn’t know is how YOUR .NET project works. Here's what a real CLAUDE.md looks like for a .NET solution:
+
+      ```
+      ## Project Structure
+      - Solution: MyApp.sln
+      - src/MyApp.Api - ASP.NET Core Web API (.NET 10)
+      - src/MyApp.Domain - Domain models and interfaces (class library)
+      - src/MyApp.Infrastructure - EF Core, external services (class library)
+      - tests/MyApp.Tests - xUnit test project
+      ## Build & Test
+      - Build: dotnet build MyApp.sln
+      - Test: dotnet test --no-build
+      - Run: dotnet run --project src/MyApp.Api
+      - Format: dotnet format MyApp.sln
+      ## Architecture Rules
+      - Minimal APIs only. No controllers. All endpoints go in src/MyApp.Api/Endpoints/
+      - CQRS with MediatR. Commands and Queries in src/MyApp.Domain/
+      - Repository pattern with IQueryable returns (not IEnumerable)
+      - All database access through EF Core. DbContext is in Infrastructure
+      - No business logic in API layer. API layer only maps requests to commands/queries
+      ## Code Style
+      - Explicit types on public API boundaries (method signatures, properties)
+      - var is fine for local variables where type is obvious
+      - File-scoped namespaces everywhere
+      - Primary constructors for DI in .NET 10
+      - Nullable reference types enabled. No suppression (!) without a comment explaining why
+      ## EF Core
+      - Migrations: dotnet ef migrations add <Name> --project src/MyApp.Infrastructure --startup-project src/MyApp.Api
+      - NEVER auto-generate migrations. Always ask first, show the SQL, wait for confirmation
+      - DbContext: AppDbContext in src/MyApp.Infrastructure/Data/
+      - All entity configurations in separate IEntityTypeConfiguration<T> files
+      ## Testing
+      - xUnit with FluentAssertions
+      - NSubstitute for mocking (not Moq)
+      - Test naming: MethodName_Scenario_ExpectedResult
+      - Integration tests use WebApplicationFactory<Program>
+      ```
+
+
 
 ### Videos
 

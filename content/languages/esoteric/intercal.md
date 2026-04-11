@@ -7,3 +7,6 @@ summary=The first esoteric programming language.
 
 [Published for the first time: The Princeton INTERCAL Compiler's source code](https://esoteric.codes/blog/published-for-the-first-time-the-original-intercal72-compiler-code): found on [Github: rottytooth/INTERCAL72](https://github.com/rottytooth/INTERCAL72)
 
+Jason Whittington's INTERCAL64: [Website](https://jawhitti.github.io/) | [Source](https://github.com/jawhitti/INTERCAL64)
+
+

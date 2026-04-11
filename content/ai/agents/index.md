@@ -55,6 +55,8 @@ An agent generally consists of these core components:
 
 - [CREATING LLM AGENTS FOR DOMAIN-SPECIFIC LANGUAGE GENERATION AND PROCESSING](https://stal.blogspot.com/2025/10/creating-llm-agents-for-domain-specific.html?m=1)
 - [Building a Production-Ready LLM API](https://amanxai.com/2026/02/11/build-a-production-ready-llm-api/)
+- [How to Build AI Agents That Can Control Cloud Infrastructure](https://www.freecodecamp.org/news/how-to-build-ai-agents-that-can-control-cloud-infrastructure/)
+- [I Built a Local AI Agent That Audits My Own Articles. It Flagged Every Single One.](https://dev.to/dannwaneri/i-built-a-local-ai-agent-that-audits-my-own-articles-it-flagged-every-single-one-pkh) [Source](https://github.com/dannwaneri/seo-agent)
 
 ## Languages/Libraries
 
