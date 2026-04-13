@@ -3,7 +3,7 @@ tags=presentation, browser, html, css
 summary=Multiline text measurement and layout entirely in "userland," bypassing the DOM and its performance bottlenecks. 
 ~~~~~~
 
-[Source](https://github.com/chenglou/pretext)
+[Website](https://chenglou.me/pretext/) | [Source](https://github.com/chenglou/pretext)
 
 ## Reading
 

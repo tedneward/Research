@@ -14,6 +14,10 @@ summary=Native language intended to supplement or replace C/C++ someday.
 * [Wasm-Bindgen](https://github.com/rustwasm/wasm-bindgen) - A library and a CLI for Rust that facilitate high-level interactions between wasm modules and JavaScript.
 * [Woz](https://github.com/alexkehayias/woz) - Woz is a WebAssembly progressive web app (PWA) toolchain for building and deploying performant mobile apps with Rust. Distributing your app is as simple as sharing a hyperlink.
 
+Related implementations
+
+* [Verus](https://verus-lang.github.io/verus/guide/): Verus is a tool for verifying the correctness of code written in Rust. The main goal is to verify full functional correctness of low-level systems code, building on ideas from existing verification frameworks like [Dafny](https://github.com/dafny-lang/dafny), [Boogie](https://github.com/boogie-org/boogie), [F\*](https://github.com/FStarLang/FStar), [VCC](https://www.microsoft.com/en-us/research/project/vcc-a-verifier-for-concurrent-c/), [Prusti](https://github.com/viperproject/prusti-dev), [Creusot](https://github.com/xldenis/creusot), [Aeneas](https://github.com/AeneasVerif/aeneas), [Cogent](https://github.com/NICTA/cogent), [Rocq](https://rocq-prover.org/), and [Isabelle/HOL](https://isabelle.in.tum.de/overview.html). Verification is static: Verus adds no run-time checks, but instead uses computer-aided theorem proving to statically verify that executable Rust code will always satisfy some user-provided specifications for all possible executions of the code.
+
 ## Reading
 
 ### Articles/Blogs/Essays

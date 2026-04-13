@@ -9,6 +9,8 @@ Heavily influenced by [Orbit](../orbit), a Java actors flavor.
 
 [HanBaoBao](https://github.com/ReubenBond/hanbaobao-web): Orleans sample application with Kubernetes hosting
 
+[OrleanSpaces](https://github.com/ledjon-behluli/OrleanSpaces): A virtual, fully-asynchronous, Tuple Space implementation backed by Orleans.
+
 ### Concepts
 Core Orleans concepts.
 
