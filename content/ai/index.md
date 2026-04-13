@@ -88,6 +88,16 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 * [Quantifying AI-Human Strategy](https://osf.io/preprints/psyarxiv/vbkmt_v1): "We introduce a novel Bayesian Item Response Theory framework to quantify human–AI  synergy, separating individual and  collaborative ability while controlling for task difficulty in interactive settings. Unlike standard static benchmarks, our approach models human–AI performance as a joint process, capturing both user-specific factors and moment-to-moment fluctuations. We validate the frame-work by applying it to human–AI benchmark data (n=667) and find significant synergy. We demonstrate that collaboration  ability is distinct from individual problem-solving ability. Users better able to infer and adapt to others’ perspectives achieve superior collaborative performance with AI--but not when working alone. Moreover, moment-to-moment fluctuations in perspective taking influence AI response quality, highlighting the role of dynamic user factors in collaboration. By introducing a principled framework to analyze data from human-AI collaboration, interactive benchmarks can better complement current single-task bench-marks and crowd-assessment methods. This work informs the design and training of language models that transcend static prompt benchmarks to achieve adaptive,socially aware collaboration with diverse and dynamic human partners."
 * [The New Operational Stack: From IaC to Platforms to AI Agents](https://thenewstack.io/the-new-operational-stack-from-iac-to-platforms-to-ai-agents/)
 * [How to Build and Deploy a Multi-Agent AI System with Python and Docker](https://www.freecodecamp.org/news/build-and-deploy-multi-agent-ai-with-python-and-docker/)
+* Sebastian Raschka: author of "How to Build a Large Language Model (from Scratch)" and "How to Build a Reasoning Model (from Scratch)"
+
+    * [Website](https://sebastianraschka.com/)
+    * [GitHub](https://github.com/rasbt?tab=repositories)
+    * [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+    * [reasoning-from-scratch](https://github.com/rasbt/reasoning-from-scratch)
+    * [mini-coding-agent](https://github.com/rasbt/mini-coding-agent)
+    * [RAGs](https://github.com/rasbt/RAGs): Simple implementations of Retrieval Augmented Generation (RAG) Systems
+    * [LLM-workshop-2024](https://github.com/rasbt/LLM-workshop-2024)
+    * [LLM-finetuning-scripts](https://github.com/rasbt/LLM-finetuning-scripts)
 
 ## Definitions
 
