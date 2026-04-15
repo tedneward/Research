@@ -2,7 +2,15 @@ title=GPU hardware Architecture
 tags=assembly, native, reading, hardware
 summary=A collection of reading materials on computer GPU hardware and architecture: articles & papers, CUDA, open source hardware GPU projects, software, talks.
 ~~~~~~
-# Articles & Papers
+
+## Hardware
+
+* [tinygpu](https://docs.tinygrad.org/tinygpu/): TinyGPU app lets you use AMD and NVIDIA GPUs on macOS over USB4/Thunderbolt with tinygrad.
+* [ASUS Announces UGen300 USB AI Accelerator](https://press.asus.com/news/press-releases/asus-ugen300-usb-ai-accelerator-generative-ai-edge/)
+
+## Resources
+
+### Articles & Papers
 
 * A closer look at GPUs. Fatahalian, K., & Houston, M. (2008) CACM - http://graphics.stanford.edu/~kayvonf/papers/fatahalianCACM.pdf
 * AMD’s Cayman GPU Architecture - http://www.realworldtech.com/cayman/

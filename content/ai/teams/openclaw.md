@@ -16,6 +16,7 @@ If you want a personal, single-user assistant that feels local, fast, and always
 - [Run OpenClaw Securely in Docker Sandboxes](https://www.docker.com/blog/run-openclaw-securely-in-docker-sandboxes/)
 - [Running OpenClaw in Docker](https://til.simonwillison.net/llms/openclaw-docker)
 - [How to Set Up OpenClaw and Design an A2A Plugin Bridge](https://www.freecodecamp.org/news/openclaw-a2a-plugin-architecture-guide/)
+- [How to Build a Secure Local-First Agent Runtime with OpenClaw Gateway, Skills, and Controlled Tool Execution](https://www.marktechpost.com/2026/04/11/how-to-build-a-secure-local-first-agent-runtime-with-openclaw-gateway-skills-and-controlled-tool-execution/)
 
 ### Skills
 

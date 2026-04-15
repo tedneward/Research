@@ -1,5 +1,5 @@
 title=Agent Skills
-tags=ai, agent, specification, format
+tags=ai, agent, specification, format, skills
 summary=A simple, open format for giving agents new capabilities and expertise.
 ~~~~~~
 

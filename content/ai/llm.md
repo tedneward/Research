@@ -59,6 +59,8 @@ summary=Collection of links, notes, and models.
 * [Run an LLM on your Android](https://www.makeuseof.com/you-can-and-should-run-a-tiny-llm-on-your-android-phone/)
 * [How to Run an LLM Locally to Interact with Your Documents](https://www.freecodecamp.org/news/run-an-llm-locally-to-interact-with-your-documents/)
 * [Select the right hardware for your local LLM deployment with this online guide](https://www.cnx-software.com/2026/03/30/select-the-right-hardware-for-your-local-llm-deployment-with-this-online-guide/)
+* [How to Build a Secure AI PR Reviewer with Claude, GitHub Actions, and JavaScript](https://www.freecodecamp.org/news/how-to-build-a-secure-ai-pr-reviewer-with-claude-github-actions-and-javascript/)
+* [How to Build Reliable AI Systems](https://www.freecodecamp.org/news/how-to-build-reliable-ai-systems/)
 
 ### Verification
 

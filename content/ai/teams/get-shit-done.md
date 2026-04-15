@@ -1,5 +1,5 @@
 title=Get-Shit-Done
-tags=tool, ai, agent, coding
+tags=tool, ai, agent, coding, team
 summary=A light-weight and powerful meta-prompting, context engineering and spec-driven development system for any coding agent.
 ~~~~~~
 

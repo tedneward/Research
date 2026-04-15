@@ -146,6 +146,7 @@ The larger the context, the more RAM your model will use. Balance your context n
 ### Articles
 
 - [How to Integrate Local LLMs With Ollama and Python](https://realpython.com/ollama-python/)
+- [Ollama is still the easiest way to start local LLMs, but it's the worst way to keep running them](https://www.xda-developers.com/ollama-easiest-way-start-local-llms-worst-keep-running/)
 - https://stal.blogspot.com/2025/12/ollama-local-llms-made-easy.html: "Furthermore, Ollama provides a straightforward RESTful API, offering developers an easy method to integrate local LLM capabilities into their custom applications and workflows, allowing programmatic access to generation, chat, and embedding functionalities. A particularly powerful feature is model customization through "Modelfiles," which grant users the ability to create bespoke models by modifying existing ones or by combining different components. These configuration files define parameters, system prompts, and other operational settings, enabling fine-grained control over model behavior. An example of a simple Modelfile might look like this:
 
         FROM llama2

@@ -36,3 +36,8 @@ The PDF combines three technologies:
 - [Small PDF](https://smallpdf.com/): A web-based PDF editor
 - [Stirling PDF](https://www.stirlingpdf.com/) [Source](https://github.com/Stirling-Tools/Stirling-PDF): A self-hosting PDF editor
 
+## Resources
+
+### Articles, Blogs, Essays
+
+- [From 4 Weeks to 45 Minutes: Designing a Document Extraction System for 4,700+ PDFs](https://towardsdatascience.com/from-4-weeks-to-45-minutes-designing-a-document-extraction-system-for-4700-pdfs/): How a hybrid PyMuPDF + GPT-4 Vision pipeline replaced £8,000 in manual engineering effort, and why the latest models weren’t the answer

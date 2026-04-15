@@ -28,6 +28,8 @@ summary=Notes and links on writing.
 ### Pens
 
 - [JetPens](https://www.jetpens.com/)
+- [Top 5 Pens for Journaling!](https://www.youtube.com/watch?app=desktop&v=znm5rCcJiB8) (Video)
+- [Building The Perfect BUDGET 5 Pen Fountain Pen Collection](https://www.youtube.com/watch?app=desktop&v=c3IqXBmaNrc)
 
 ## Writing-Adjacnet
 

@@ -17,12 +17,19 @@ summary=A collection of links and notes talking about or criticizing/critiquing 
 
 - [The Three Best Pieces of Writing About AI in 2026 That You Must Read Right Now](https://www.thealgorithmicbridge.com/p/the-three-best-pieces-of-writing)
 
+#### Productivity
+
+- [AI Doesn’t Reduce Work—It Intensifies It](https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it)
+- [AI-Generated “Workslop” Is Destroying Productivity](https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity)
+- [When Using AI Leads to “Brain Fry”](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry)
+
 #### Setting Expectations
 
 - [The 7 Biggest Misconceptions About AI Agents (and Why They Matter)](https://machinelearningmastery.com/the-7-biggest-misconceptions-about-ai-agents-and-why-they-matter/)
 
 #### Skill Erosion
 
+- [“I started to lose my ability to code”: Developers grapple with the real cost of AI programming tools](https://thenewstack.io/ai-coding-tools-reckoning/)
 - [Cognitive Offloading: Using AI Reduces New Skill Formation](https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202602/cognitive-offloading-using-ai-reduces-new-skill-formation)
 - [How AI Impacts Skill Formation](https://arxiv.org/pdf/2601.20245): "Novice workers who rely heavily on AI to complete unfamiliar tasks may compromise their own skill acquisition in the process. We conduct randomized experiments to study how developers gained mastery of a new asynchronous programming library with and without the assistance of AI. We find that AI use impairs conceptual understanding, code reading, and debugging abilities, without delivering significant efficiency gains on average. Participants who fully delegated coding tasks showed some productivity improvements, but at the cost of learning the library. We identify six distinct AI interaction patterns, three of which involve cognitive engagement and preserve learning outcomes even when participants receive AI assistance. Our findings suggest that AI-enhanced productivity is not a shortcut to competence and AI assistance should be carefully adopted into workflows to preserve skill formation – particularly in safety-critical domains."
 - [Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/): "We conduct a randomized controlled trial (RCT) to understand how early-2025 AI tools affect the productivity of experienced open-source developers working on their own repositories. Surprisingly, we find that when developers use AI tools, they take 19% longer than without—AI makes them slower. We view this result as a snapshot of early-2025 AI capabilities in one relevant setting; as these systems continue to rapidly evolve, we plan on continuing to use this methodology to help estimate AI acceleration from AI R&D automation." ([full paper](https://arxiv.org/abs/2507.09089))

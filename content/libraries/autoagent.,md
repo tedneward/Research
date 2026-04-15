@@ -1,0 +1,13 @@
+title=AutoAgent
+tags=library, ai, model
+summary=Like autoresearch but for agent engineering: Give an AI agent a task, let it build and iterate on an agent harness autonomously overnight.
+~~~~~~
+
+[Source](https://github.com/kevinrgu/autoagent/)
+
+## Resources
+
+### Articles, Blogs, Essays
+
+- [Meet ‘AutoAgent’: The Open-Source Library That Lets an AI Engineer and Optimize Its Own Agent Harness Overnight](https://www.marktechpost.com/2026/04/05/meet-autoagent-the-open-source-library-that-lets-an-ai-engineer-and-optimize-its-own-agent-harness-overnight/)
+

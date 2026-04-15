@@ -8,6 +8,7 @@ tags=hardware
 Collection of links about and around hardware.
 
 - https://9to5mac.com/2025/08/05/get-a-new-macbook-or-ipad-every-2-years-with-this-subscription/
+- [My dual-display travel setup fits in an envelope and it's not a MacBook](https://www.xda-developers.com/dual-display-travel-setup-aurzen-zip-fits-in-envelope-not-macbook/)
 
 ["7 software tools in my keychain USB to help out family and friends"](https://www.xda-developers.com/software-tools-usb-troubleshooting-debug/):
 
@@ -87,7 +88,10 @@ ANKER:
 
 ## Networking
 
-["How to get wired Internet at home without running ethernet cable"](https://www.zdnet.com/home-and-office/networking/weak-wi-fi-how-to-get-wired-internet-at-home-without-running-ethernet/) - use Multimedia over Coax ([MoCA](https://en.wikipedia.org/wiki/Multimedia_over_Coax_Alliance)) - also https://www.zdnet.com/home-and-office/networking/how-to-get-wired-network-without-ethernet/
+### COAX cabling
+
+- ["How to get wired Internet at home without running ethernet cable"](https://www.zdnet.com/home-and-office/networking/weak-wi-fi-how-to-get-wired-internet-at-home-without-running-ethernet/) - use Multimedia over Coax ([MoCA](https://en.wikipedia.org/wiki/Multimedia_over_Coax_Alliance)) - also https://www.zdnet.com/home-and-office/networking/how-to-get-wired-network-without-ethernet/
+- [Your coax cable is faster than mesh Wi-Fi—here's how to use it](https://www.howtogeek.com/dont-buy-a-mesh-wi-fi-router-this-adapter-turns-your-coax-line-into-whole-home-ethernet/)
 
 ## Power
 

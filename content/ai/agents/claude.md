@@ -22,6 +22,7 @@ summary=The AI agent.
 - [Sled: Run your coding agent from your phone, with voice](https://www.producthunt.com/products/sled-voice-interface-for-claude-code): [Website](https://sled.layercode.com/?ref=producthunt)
 - [Claude Code CLAUDE.md vs Skills](https://uxplanet.org/claude-code-claude-md-vs-skills-35685676b367)
 - [How I built a 13-agent Claude team where agents review each other's work - full setup guide](https://www.reddit.com/r/ClaudeAI/comments/1rga7f5/how_i_built_a_13agent_claude_team_where_agents/)
+- [How to Set Up Claude Agent Teams for Complex Projects](https://www.geeky-gadgets.com/cloud-code-agent-teams/)
 - [New to Claude? Use these 6 simple starter prompts to unlock better answers instantly](https://www.tomsguide.com/ai/new-to-claude-use-this-simple-starter-prompt-to-unlock-better-answers-instantly)
 - [Claude Code doesn’t understand your .NET solution](https://blog.devgenius.io/claude-code-doesnt-understand-your-net-solution-cf2d3990c088): "The CLAUDE.md that most .NET developers don’t write
 CLAUDE.md is the single most important file in your Claude Code setup. Without it, every session starts from zero — Claude has to rediscover your project structure, your conventions, your build commands, everything. Most .NET developers either skip CLAUDE.md entirely or write a generic one that says “this is a .NET project.” That’s useless. Claude already knows what .NET is. What it doesn’t know is how YOUR .NET project works. Here's what a real CLAUDE.md looks like for a .NET solution:
@@ -83,10 +84,17 @@ CLAUDE.md is the single most important file in your Claude Code setup. Without i
 - [dev-browser](https://github.com/SawyerHood/dev-browser): A Claude Skill to give your agent the ability to use a web browser
 - [SwiftUI-Agent Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill): Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open format).
 - [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)
+- [7 Rules for Creating an Effective Claude Code Skill](https://uxplanet.org/7-rules-for-creating-an-effective-claude-code-skill-2d81f61fc7cd):
+
+      1. Keep skills focused
+      2. Use role framing
+      3. Treat a Skill as a “mini-program,” not a set of instructions
+      4. ...
 
 ## Plugins/Tools
 
 - [Claude HUD](https://github.com/jarrodwatts/claude-hud)
+- [claude-mem](https://github.com/thedotmack/claude-mem)
 
 ---
 

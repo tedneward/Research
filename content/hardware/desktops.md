@@ -12,6 +12,14 @@ summary=PCs, mini-PCs, gaming rigs, etc
 
 ## Mini PCs
 
+- [Acemagic](https://acemagic.com/)
+
+    - [Acemagic M1A PRO+ Review An AMD-Powered 128GB AI Mini PC](https://www.servethehome.com/acemagic-m1a-pro-review-an-amd-powered-128gb-ai-mini-pc/)
+
+- [GMKTech]()
+
+    - [This powerhouse mini PC with an AMD Ryzen 7 7735HS, 32GB RAM, and OCuLink is now $360 off at its lowest price ever](https://www.xda-developers.com/this-mini-pc-is-an-absolute-beast-and-even-better-with-its-360-discount/)
+
 - [Khadas](https://www.khadas.com/)
 
     - [Mind 2S](https://www.khadas.com/mind-2): has a built-in battery? That's nifty

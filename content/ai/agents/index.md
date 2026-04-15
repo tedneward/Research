@@ -29,8 +29,14 @@ An agent generally consists of these core components:
 
 ## Reading
 
+### Detection
+
+- [Beyond Stars and Forks: RepoPulse](https://repopulse-arun-gupta.vercel.app/) [Source](https://github.com/arun-gupta/repo-pulse/blob/main/docs/oss-health-42-signals/README.md): Know the real health of any open source project — in seconds. RepoPulse computes a single OSS Health Score from five dimensions — scored as percentiles against 1,600+ real GitHub repositories in the same star bracket.
+
 ### Articles, Blogs, Essays
 
+- [Components of A Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)
+- [How to Implement Tool Calling with Gemma 4 and Python](https://machinelearningmastery.com/how-to-implement-tool-calling-with-gemma-4-and-python/)
 - [A Coding Guide to Build a Procedural Memory Agent That Learns, Stores, Retrieves, and Reuses Skills as Neural Modules Over Time](https://www.marktechpost.com/2025/12/09/a-coding-guide-to-build-a-procedural-memory-agent-that-learns-stores-retrieves-and-reuses-skills-as-neural-modules-over-time/) [Source](https://github.com/Marktechpost/AI-Tutorial-Codes-Included/blob/main/Agentic%20AI%20Memory/procedural_memory_agent_skill_learning_Marktechpost.ipynb)
 - [A week in GasTown](https://www.dolthub.com/blog/2026-03-24-a-week-in-gas-town/)
 - [Agent Engineering: A New Discipline](https://blog.langchain.com/agent-engineering-a-new-discipline/)

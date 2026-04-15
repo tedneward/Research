@@ -7,6 +7,12 @@ summary=An array language, and one of the oldest programming languages still in 
 
 [Wikipedia](https://en.wikipedia.org/wiki/APL_(programming_language)) - APL (named after the book A Programming Language) is a programming language developed in the 1960s by Kenneth E. Iverson. Its central datatype is the multidimensional array. It uses a large range of special graphic symbols to represent most functions and operators, leading to very concise code. It has been an important influence on the development of concept modeling, spreadsheets, functional programming, and computer math packages. It has also inspired several other programming languages.
 
+## Implementations
+
+* Native: [GNU](https://www.gnu.org/software/apl/)
+
+## Resources
+
 ### Reading
 
 * [A Practical Introduction to APL1 & APL2](http://robertson.uk.net/Files/APL1&2.pdf) - Graeme Donald Robertson (PDF)
