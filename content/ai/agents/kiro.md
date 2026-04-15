@@ -1,13 +1,13 @@
 title=Kiro
 tags=ai, agent, coding, tool, specification driven development
-summary=Spec-driven development.
+summary=Bringing structure to AI coding with spec-driven development.
 ~~~~~~
 
-[Website]()
+[Website](https://kiro.dev/)
 
-## Resources
+## Reading
 
 ### Articles, Blogs, Essays
 
-- [Introducing Kiro autonomous agent](https://kiro.dev/blog/introducing-kiro-autonomous-agent/)
+- [Introducing Kiro, Autonomous Agent](https://kiro.dev/blog/introducing-kiro-autonomous-agent/)
 

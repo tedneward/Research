@@ -59,7 +59,7 @@ tags=tool
 * [Boost Note](https://boostnote.io/): Collaborative workspace for developer teams [Source](https://github.com/BoostIO/BoostNote-App)
 * [Dendron](https://www.dendron.so/): Knowledge base plugin for VS Code [Source](https://github.com/dendronhq/dendron)
 * [Joplin](https://joplinapp.org/): Secure, Cross-platform, Open-Source  Markdown Note Taking App [Source](https://github.com/laurent22/joplin)
-* [Logseq](https://logseq.com/): Knowledge base manager [Source](https://github.com/logseq/logseq)
+* [Logseq](/platforms/logseq)
 * [Notabase](https://notabase.io): Powerful and easy-to-use note-taking app for networked thinking [Source](https://github.com/churichard/notabase)
 * [Otter](https://otter.ai/): Get an AI meeting assistant that records audio, writes notes, automatically captures slides, and generates summaries.
 * [Outline](https://www.getoutline.com/): Wiki and knowledge base [Source](https://github.com/outline/outline)
