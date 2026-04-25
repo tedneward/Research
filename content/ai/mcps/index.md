@@ -62,6 +62,14 @@ Connection lifecycle:
 ## Tools
 
 - [Context7 is the most underrated MCP server you're not using for your local LLM](https://www.xda-developers.com/context7-underrated-mcp-server-local-llm/)
+- [mindsdb](https://github.com/mindsdb/mindsdb) - federated query engine for AI - the only MCP Server you'll ever need 
+- [github-mcp-server](https://github.com/github/github-mcp-server) - GitHub's official MCP Server
+- [playwright-mcp](https://github.com/microsoft/playwright-mcp) - Playwright MCP server
+- [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Chrome DevTools for coding agents
+- [n8n-mcp](https://github.com/czlonkowski/n8n-mcp) - a MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you
+- [awslabs/mcp](https://github.com/awslabs/mcp) - AWS MCP Servers — helping you get the most out of AWS, wherever you use MCP
+- [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) - MCP server for Atlassian tools (Confluence, Jira)
+- [dbhub](https://github.com/bytebase/dbhub) - zero-dependency, token-efficient database MCP server for Postgres, MySQL, SQL Server, MariaDB, SQLite
 
 ## Example Agents
 

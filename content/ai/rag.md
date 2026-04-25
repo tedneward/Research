@@ -24,3 +24,23 @@ In a simple world, the answer would be to provide the model with relevant propri
 
 [Building a RAG system that runs completely offline](https://hackernoon.com/building-a-rag-system-that-runs-completely-offline)
 
+## Tools
+
+- [claude-context](https://github.com/zilliztech/claude-context) - make entire codebase the context for any coding agent
+- [graphiti](https://github.com/getzep/graphiti) - build real-time knowledge graphs for AI Agents
+- [graphrag](https://github.com/microsoft/graphrag) - a modular graph-based RAG system
+- [haystack](https://github.com/deepset-ai/haystack) - AI orchestration framework to build customizable, production-ready LLM applications, best suited for building RAG, question answering, semantic search or conversational agent chatbots
+- [LightRAG](https://github.com/HKUDS/LightRAG) - simple and fast RAG
+- [onyx](https://github.com/onyx-dot-app/onyx) - the AI platform connected to your company's docs, apps, and people
+- [pathway](https://github.com/pathwaycom/pathway) - Python ETL framework for stream processing, real-time analytics, LLM pipelines and RAG
+- [pipeshub-ai](https://github.com/pipeshub-ai/pipeshub-ai) - a fully extensible and explainable workplace AI platform for enterprise search and workflow automation
+- [vanna](https://github.com/vanna-ai/vanna) - an open-source Python RAG framework for SQL generation and related functionality
+
+## Reading
+
+### Tutorials
+
+- [Controllable RAG Agent](https://github.com/NirDiamant/Controllable-RAG-Agent) - an advanced Retrieval-Augmented Generation (RAG) solution for complex question answering that uses sophisticated graph based algorithm to handle the tasks
+- [LangChain RAG Cookbook](https://github.com/lokeswaran-aj/langchain-rag-cookbook) - a collection of modular RAG techniques, implemented in LangChain + Python
+- [Pathway AI Pipelines](https://github.com/pathwaycom/llm-app) - ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data
+- [RAG Techniques](https://github.com/NirDiamant/RAG_Techniques) - various advanced techniques for Retrieval-Augmented Generation (RAG) systems

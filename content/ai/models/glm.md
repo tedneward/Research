@@ -1,5 +1,5 @@
 title=Z.ai GLM
-tags=ai, model, llm, speech, vision
+tags=ai, model, llm, speech, vision, ocr
 summary=AI model.
 ~~~~~~
 
@@ -93,6 +93,12 @@ Points to be cautious about:
 -   **Prompt formatting matters for text**: For best text rendering, wrap text intended to appear in the image in quotation marks, and consider prompt enhancement (they recommend using GLM-4.7 to rewrite prompts).
 
 If you care about typography quality and complex prompts more than raw speed, GLM-Image is one of the most practical options.
+
+### GLM-OCR
+
+[HuggingFace](https://huggingface.co/zai-org/GLM-OCR): a 0.9B parameter vision-language model that ranks #1 on OmniDocBench V1.5, beating models 10x its size.
+
+- [Run the World's Best OCR on Your Own Laptop](https://theneuralmaze.substack.com/p/run-the-worlds-best-ocr-on-your-own)
 
 ## Reading
 

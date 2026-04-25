@@ -3,7 +3,7 @@ tags=ai, agent
 summary=Use command line to edit code in your local repo.
 ~~~~~~
 
-[Website](https://aider.chat/) | [Source](https://github.com/paul-gauthier/aider) | [Discord Invite](https://discord.com/invite/Tv2uQnR88V)
+[Website](https://aider.chat/) | [Source](https://github.com/Aider-AI/aider) | [Discord Invite](https://discord.com/invite/Tv2uQnR88V)
 
 Coding, GitHub
 

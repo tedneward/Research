@@ -1,7 +1,9 @@
-title=Mistral Ministral
-tags=ai, model, vision
-summary=AI model.
+title=Mistral
+tags=ai, model, place, vision
+summary=A pioneering French artificial intelligence startup.
 ~~~~~~
+
+[Hugging Face](https://huggingface.co/mistralai) - 
 
 ## Model instances
 

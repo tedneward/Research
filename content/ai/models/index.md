@@ -23,6 +23,26 @@ The “best” model is the one that fits your product requirements, works withi
 * Embedding models (special case): smaller, specifically for creating embedding vectors
 * Multi modal: accepts text and some other modality (image, audio, video, ....)
 
+## Explorers, Benchmarks, Leaderboards
+
+- [Arena](https://arena.ai/) - benchmark & compare the best AI models
+- [AI Models & API Providers Analysis](https://artificialanalysis.ai/) - understand the AI landscape to choose the best model and provider for your use case
+- [BullshitBench](https://github.com/petergpt/bullshit-benchmark) - measure whether AI models challenge nonsensical prompts instead of confidently answering them
+- [CyberGym](https://www.cybergym.io/) - evaluating AI agents' real-world cybersecurity capabilities at scale
+- [Dubesor LLM Benchmark table](https://dubesor.de/benchtable) - small-scale manual performance comparison benchmark
+- [LLM Explorer](https://llm-explorer.com/) - explore list of the open-source LLM models
+- [oobabooga benchmark](https://oobabooga.github.io/benchmark.html) - a list sorted by size (on disk) for each score
+- [SWE-rebench](https://swe-rebench.com/) - a continuously evolving and decontaminated benchmark for software engineering LLMs
+- [vakra](https://github.com/IBM/vakra) -  a benchmark for evaluating multi-hop, multi-source tool-calling in AI agents
+
+## Providers
+
+- [bartowski](https://huggingface.co/bartowski) - providing GGUF versions of popular LLMs
+- [Open Thoughts](https://huggingface.co/open-thoughts) - a team of researchers and engineers curating the best open reasoning datasets
+- [Tencent](https://huggingface.co/tencent) - a profile of a Chinese multinational technology conglomerate and holding company
+- [Unsloth AI](https://huggingface.co/unsloth) - focusing on making AI more accessible to everyone (GGUFs etc.)
+
+
 ## Reading
 
 ### Articles

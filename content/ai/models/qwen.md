@@ -1,6 +1,6 @@
 title=Alibaba Qwen
 tags=ai, model, llm, slm, vision
-summary=AI model.
+summary=Alibaba Cloud LLM models.
 ~~~~~~
 
 [Hugging Face](https://huggingface.co/Qwen/)
@@ -12,6 +12,20 @@ summary=AI model.
 The code version of Qwen3, the large language model series developed by Qwen team, Alibaba Cloud.
 
 [Website](https://chat.qwenlm.ai/) | [Source](https://github.com/QwenLM/Qwen3-Coder)
+
+### Qwen3-Embedding-8B
+
+[HuggingFace](https://huggingface.co/Qwen/Qwen3-Embedding-8B) 
+
+A high-end embedding model from the Qwen3 family, built specifically for text embedding and ranking workloads used in RAG and search systems. It is designed to perform strongly across retrieval-heavy tasks like document search, code search, clustering, and classification, and it has been evaluated extensively on public leaderboards where it ranks among the top models for multilingual retrieval quality.
+
+**Key features:**
+
+-   **Top tier retrieval quality**: Ranked number 1 on the MTEB multilingual leaderboard as of June 5, 2025 with a score of 70.58
+-   **Long context support**: Handles up to 32K tokens for long-text retrieval scenarios
+-   **Flexible embedding size**: Supports user-defined embedding dimensions from 32 to 4096
+-   **Instruction aware**: Supports task-specific instructions that typically improve downstream performance
+-   **Multilingual and code ready**: Supports 100 plus languages, including strong cross-lingual and code retrieval coverage
 
 ### Qwen3-235B-A22B-Instruct-2507
 

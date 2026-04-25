@@ -1,6 +1,6 @@
 title=Agents (AI)
 tags=ai, agent
-summary=Collection of notes and links on AI "agents".
+summary=Collection of notes and links on AI LLM-based "agents".
 ~~~~~~
 
 "Agents are a system that uses an LLM to dynamically decide the control flow of an application to achieve a user goal."
@@ -35,7 +35,6 @@ An agent generally consists of these core components:
 
 ### Articles, Blogs, Essays
 
-- [Components of A Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)
 - [How to Implement Tool Calling with Gemma 4 and Python](https://machinelearningmastery.com/how-to-implement-tool-calling-with-gemma-4-and-python/)
 - [A Coding Guide to Build a Procedural Memory Agent That Learns, Stores, Retrieves, and Reuses Skills as Neural Modules Over Time](https://www.marktechpost.com/2025/12/09/a-coding-guide-to-build-a-procedural-memory-agent-that-learns-stores-retrieves-and-reuses-skills-as-neural-modules-over-time/) [Source](https://github.com/Marktechpost/AI-Tutorial-Codes-Included/blob/main/Agentic%20AI%20Memory/procedural_memory_agent_skill_learning_Marktechpost.ipynb)
 - [A week in GasTown](https://www.dolthub.com/blog/2026-03-24-a-week-in-gas-town/)
@@ -52,16 +51,35 @@ An agent generally consists of these core components:
 - [Should You Use RAG or Fine-Tune Your LLM?](https://www.actian.com/blog/databases/should-you-use-rag-or-fine-tune-your-llm/)
 - [Stop Building God Agents](https://tyingshoelaces.com/blog/unlocking-a2a-aggressive-context-curation-agentic-mesh)
 - [Your AI Workflow Is Missing a Composable Architecture](https://thenewstack.io/your-ai-workflow-is-missing-a-composable-architecture/): "You’ve probably heard 'Don’t ask the model to build your whole app. Break your request into smaller parts and generate one function, hook, or component at a time.' if you use AI tools like Copilot or ChatGPT to write code. It’s solid advice because smaller prompts tend to produce cleaner output and fewer hallucinations. They also give you more control over what lands in your codebase. However, even when your prompts are super-descriptive, and the snippets look good, this workflow eventually runs into the same limitation. Without an overarching architecture that ties everything together, nothing connects at scale. Every time you start a new chat, you’re generating isolated pieces of code with no shared memory, version history, or consistency. Once the chat ends, the model forgets what it built. When you return later to extend or reuse that code, it’s often easier to generate something new than to improve what already exists. So what if your AI workflow didn’t have to start from scratch each time? What if every generated function, hook, or component had a home, a version, and a record of how it was used? That’s what composable architecture makes possible. It gives your AI workflow a structure that connects every generated piece into a living system. Components become reusable, versioned, and documented, and your work compounds instead of disappearing with every new chat."
+
+#### Critique
+
 - [Why Building AI Agents Is Mostly a Waste of Time](https://medium.com/data-science-collective/why-building-ai-agents-is-mostly-a-waste-of-time-55600b57e692): "But here is the uncomfortable truth: most AI agents are not progress. They are decoration. They do not meaningfully extend intelligence. They do not create new economic value. And they rarely survive the next generation of base models. In most cases, building AI agents is not a step toward the future of intelligence — it is a temporary distraction from understanding what intelligence actually is."
 
 ### Resources
 
 - [Intelligent automation and multi-agent orchestration for Claude Code](https://github.com/wshobson/agents): "This unified repository provides everything needed for intelligent automation and multi-agent orchestration across modern software development: 67 Focused Plugins - Granular, single-purpose plugins optimized for minimal token usage and composability; 99 Specialized Agents - Domain experts with deep knowledge across architecture, languages, infrastructure, quality, data/AI, documentation, business operations, and SEO; 107 Agent Skills - Modular knowledge packages with progressive disclosure for specialized expertise; 15 Workflow Orchestrators - Multi-agent coordination systems for complex operations like full-stack development, security hardening, ML pipelines, and incident response; 71 Development Tools - Optimized utilities including project scaffolding, security scanning, test automation, and infrastructure setup"
 
+### Tutorials
+
+- [12-Factor Agents](https://github.com/humanlayer/12-factor-agents) - principles for building reliable LLM applications
+- [500+ AI Agent Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) - a curated collection of AI agent use cases across various industries
+- [601 real-world gen AI use cases](https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders) - 601 real-world gen AI use cases from the world's leading organizations by Google
+- [A practical guide to building agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) - a practical guide to building agents by OpenAI
+- [Agents towards production](https://github.com/NirDiamant/agents-towards-production) - end-to-end, code-first tutorials covering every layer of production-grade GenAI agents, guiding you from spark to scale with proven patterns and reusable blueprints for real-world launches
+- [agents.md](https://github.com/agentsmd/agents.md) - a simple, open format for guiding coding agents
+- [Agent Skills](https://github.com/agentskills/agentskills) - a simple, open format for giving agents new capabilities and expertise
+- [GenAI Agents](https://github.com/NirDiamant/GenAI_Agents) - tutorials and implementations for various Generative AI Agent techniques
+- [LLM Agents & Ecosystem Handbook](https://github.com/oxbshw/LLM-Agents-Ecosystem-Handbook) - one-stop handbook for building, deploying, and understanding LLM agents with 60+ skeletons, tutorials, ecosystem guides, and evaluation tools
+- [skills](https://github.com/huggingface/skills) - Hugging Face Skills are definitions for AI/ML tasks like dataset creation, model training and evaluation
+- [superpowers](https://github.com/obra/superpowers) - an agentic skills framework & software development methodology that works
+
+
 ### Implementation
 
-- [CREATING LLM AGENTS FOR DOMAIN-SPECIFIC LANGUAGE GENERATION AND PROCESSING](https://stal.blogspot.com/2025/10/creating-llm-agents-for-domain-specific.html?m=1)
 - [Building a Production-Ready LLM API](https://amanxai.com/2026/02/11/build-a-production-ready-llm-api/)
+- [CREATING LLM AGENTS FOR DOMAIN-SPECIFIC LANGUAGE GENERATION AND PROCESSING](https://stal.blogspot.com/2025/10/creating-llm-agents-for-domain-specific.html?m=1)
+- [Components of A Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)
 - [How to Build AI Agents That Can Control Cloud Infrastructure](https://www.freecodecamp.org/news/how-to-build-ai-agents-that-can-control-cloud-infrastructure/)
 - [I Built a Local AI Agent That Audits My Own Articles. It Flagged Every Single One.](https://dev.to/dannwaneri/i-built-a-local-ai-agent-that-audits-my-own-articles-it-flagged-every-single-one-pkh) [Source](https://github.com/dannwaneri/seo-agent)
 
@@ -75,11 +93,24 @@ An agent generally consists of these core components:
 
 ---
 
-### [Awesome-agent](https://github.com/e2b-dev/awesome-ai-agents)
+### Coding Agents
+
+- [99](https://github.com/ThePrimeagen/99) - neovim AI agent done right
+- [continue](https://github.com/continuedev/continue) - create, share, and use custom AI code assistants with our open-source IDE extensions and hub of models, rules, prompts, docs, and other building blocks
+- [crush](https://github.com/charmbracelet/crush) - the glamourous AI coding agent for your favourite terminal
+- [humanlayer](https://github.com/humanlayer/humanlayer) - the best way to get AI coding agents to solve hard problems in complex codebases
+- [kilocode](https://github.com/Kilo-Org/kilocode) - open source AI coding assistant for planning, building, and fixing code
+- [OpenHands](https://github.com/All-Hands-AI/OpenHands) - a platform for software development agents powered by AI
+- [ProxyAI](https://github.com/carlrobertoh/ProxyAI) - the leading open-source AI copilot for JetBrains
+- [Roo-Code](https://github.com/RooCodeInc/Roo-Code) - a whole dev team of AI agents in your code editor
+- [void](https://github.com/voideditor/void) - an open-source Cursor alternative, use AI agents on your codebase, checkpoint and visualize changes, and bring any model or host locally
+- [zed](https://github.com/zed-industries/zed) - a next-generation code editor designed for high-performance collaboration with humans and AI
+
+---
+
+# [Awesome-agent](https://github.com/e2b-dev/awesome-ai-agents)
 
 These all belong as individual entries under `ai/agents` in the tree.
-
-# Open-source projects
 
 ## [BabyAGI](https://github.com/yoheinakajima/babyagi)
 A simple framework for managing tasks using AI

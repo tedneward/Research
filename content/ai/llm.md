@@ -22,10 +22,9 @@ summary=Collection of links, notes, and models.
 
 * [Are language models a commodity?](https://www.kdnuggets.com/are-language-models-a-commodity)
 * [A Beginner's Reading list for LLMs for 2026](https://machinelearningmastery.com/a-beginners-reading-list-for-large-language-models-for-2026/)
+* [100+ LLM interview questions with answers](https://github.com/KalyanKS-NLP/LLM-Interview-Questions-and-Answers-Hub)
 * [7 things I wish I knew when I started self-hosting LLMs](https://www.xda-developers.com/things-wish-knew-started-self-host-llms/)
-* [BUILDING AN INTELLIGENT ARCHITECTURE AGENT: LEVERAGING LLMS FOR AUTOMATED DIAGRAM GENERATION AND DOCUMENTATION](https://stal.blogspot.com/2025/09/building-intelligent-architecture-agent.html?m=1)
 * ["Researchers from Virginia Tech and Microsoft Introduce Algorithm of Thoughts: An AI Approach That Enhances Exploration of Ideas And Power of Reasoning In Large Language Models (LLMs)"](https://www.marktechpost.com/2023/08/31/researchers-from-virginia-tech-and-microsoft-introduce-algorithm-of-thoughts-an-ai-approach-that-enhances-exploration-of-ideas-and-power-of-reasoning-in-large-language-models-llms/)
-* ["Language Models are Few-Shot Learners"](https://dl.acm.org/doi/pdf/10.5555/3495724.3495883): "We demonstrate that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even becoming competitive with prior state-ofthe-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous nonsparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks. We also identify some datasets where GPT3’s few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora."
 * ["Boost your AI Apps with DSLs"](https://www.typefox.io/blog/boost-your-ai-apps-with-dsls/)
 * "Why LLMs get called “stochastic parrots”: That label (from Bender et al., 2021) was meant as a caution: Mimicry over meaning: LLMs are trained to predict the next word, not to “understand.”; Surface fluency: They can generate convincing text that looks like knowledge without grounding in truth.; Bias and error risks: Because they remix training data, they can reinforce biases or produce confident nonsense.
     So the “parrot” critique points to the danger of mistaking correlation for comprehension. Today’s LLMs do much more than repeat phrases: Cross-domain synthesis: They can connect physics, philosophy, and finance in ways that no single expert can, because their training corpus spans millions of sources.; Speed and breadth: A human expert might master a domain over decades, but an LLM can retrieve and correlate patterns across thousands of domains instantly.; Interactive reasoning: With Gen-AI, you can push through Socratic dialogues—testing assumptions, iterating on drafts, exploring alternatives. That’s not “parroting”; it’s a kind of statistical exploration of human knowledge.
@@ -35,32 +34,68 @@ summary=Collection of links, notes, and models.
 * [A Survey of Reinforcement Learning for Large Reasoning Models](https://huggingface.co/papers/2509.08827): "In this paper, we survey recent advances in Reinforcement Learning (RL) for reasoning with Large Language Models (LLMs). RL has achieved remarkable success in advancing the frontier of LLM capabilities, particularly in addressing complex logical tasks such as mathematics and coding. As a result, RL has emerged as a foundational methodology for transforming LLMs into LRMs. With the rapid progress of the field, further scaling of RL for LRMs now faces foundational challenges not only in computational resources but also in algorithm design, training data, and infrastructure. To this end, it is timely to revisit the development of this domain, reassess its trajectory, and explore strategies to enhance the scalability of RL toward Artificial SuperIntelligence (ASI). In particular, we examine research applying RL to LLMs and LRMs for reasoning abilities, especially since the release of DeepSeek-R1, including foundational components, core problems, training resources, and downstream applications, to identify future opportunities and directions for this rapidly evolving area. We hope this review will promote future research on RL for broader reasoning models. Github: https://github.com/TsinghuaC3I/Awesome-RL-for-LRMs"
 * [How to Enrich LLM Context to Significantly Enhance Capabilities](https://towardsdatascience.com/how-to-enrich-llm-context-to-significantly-enhance-capabilities/)
 * [MIT researchers propose a new model for legible, modular software](https://news.mit.edu/2025/mit-researchers-propose-new-model-for-legible-modular-software-1106): "The coding framework uses modular concepts and simple synchronization rules to make software clearer, safer, and easier for LLMs to generate. Coding with large language models (LLMs) holds huge promise, but it also exposes some long-standing flaws in software: code that’s messy, hard to change safely, and often opaque about what’s really happening under the hood. Researchers at MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL) are charting a more “modular” path ahead. Their new approach breaks systems into “concepts,” separate pieces of a system, each designed to do one job well, and “synchronizations,” explicit rules that describe exactly how those pieces fit together. The result is software that’s more modular, transparent, and easier to understand. A small domain-specific language (DSL) makes it possible to express synchronizations simply, in a form that LLMs can reliably generate. In a real-world case study, the team showed how this method can bring together features that would otherwise be scattered across multiple services."
-* [Enabling small language models to solve complex reasoning tasks](https://news.mit.edu/2025/enabling-small-language-models-solve-complex-reasoning-tasks-1212)
 * [What You See Is What It Does: A Structural Pattern for Legible Software](https://arxiv.org/html/2508.14511v2): "The opportunities offered by LLM coders (and their current limitations) demand a reevaluation of how software is structured. Software today is often “illegible”—lacking a direct correspondence between code and observed behavior—and insufficiently modular, leading to a failure of three key requirements of robust coding: incrementality (the ability to deliver small increments by making localized changes), integrity (avoiding breaking prior increments) and transparency (making clear what has changed at build time, and what actions have happened at runtime). A new structural pattern offers improved legibility and modularity. Its elements are concepts and synchronizations: fully independent services and event-based rules that mediate between them. A domain-specific language for synchronizations allows behavioral features to be expressed in a granular and declarative way (and thus readily generated by an LLM). A case study of the RealWorld benchmark is used to illustrate and evaluate the approach."
 * [How AI fixed my procrastination](https://devblogs.microsoft.com/visualstudio/how-ai-fixed-my-procrastination/)
-* [7 things I wish I knew when I started self-hosting LLMs](https://www.xda-developers.com/things-wish-knew-started-self-host-llms/)
+* [Run an LLM on your Android](https://www.makeuseof.com/you-can-and-should-run-a-tiny-llm-on-your-android-phone/)
+
+### Using LLMs
+
+* [Deploy an AI Analyst in Minutes: Connect Any LLM to Any Data Source with Bag of Words](https://www.kdnuggets.com/deploy-an-ai-analyst-in-minutes-connect-any-llm-to-any-data-source-with-bag-of-words)
+* [Designing an open-source LLM interface and social platforms for collectively driven LLM evaluation and auditing](https://openwebui.com/assets/files/whitepaper.pdf): "In the emerging landscape of large language models (LLMs), the imperative for robust evaluation and auditing mechanisms is paramount to ensure their ethical deployment and alignment with user needs. This workshop paper proposes a novel framework for the human-centered evaluation and auditing of LLMs, centered around an open-source chat user interface (UI) that facilitates direct interaction with a wide range of models. This approach allows for a collection of rich datasets critical for nuanced evaluation from a diverse spectrum of user interactions. Building on this foundation, we propose a social platform designed to leverage the collective intelligence of its users through crowdsourcing, enabling the evaluation and auditing of LLMs across various domains. This platform supports a dual-layered evaluation pipeline: an automated preliminary assessment based on user feedback and a deeper, community-driven analysis within domain-specific subcommunities. The culmination of this process informs the development of tailored model configurations and curated datasets, ensuring that LLMs serve the specific needs of different user groups. By combining an open-source UI with a socially-driven evaluation platform, our approach fosters a community-centric ecosystem for continuous LLM improvement, emphasizing transparency, inclusivity, and alignment with human values."
+* [Developing LLM-Based Text Adventure Games](https://stal.blogspot.com/2025/09/developing-llm-based-text-adventure.html)
+* [Enabling small language models to solve complex reasoning tasks](https://news.mit.edu/2025/enabling-small-language-models-solve-complex-reasoning-tasks-1212)
+* [How to Run an LLM Locally to Interact with Your Documents](https://www.freecodecamp.org/news/run-an-llm-locally-to-interact-with-your-documents/)
+* [How to Build a Secure AI PR Reviewer with Claude, GitHub Actions, and JavaScript](https://www.freecodecamp.org/news/how-to-build-a-secure-ai-pr-reviewer-with-claude-github-actions-and-javascript/)
+* [How to Build Reliable AI Systems](https://www.freecodecamp.org/news/how-to-build-reliable-ai-systems/)
 
 ### Implementation
 
-* [Simple-LLM](https://github.com/naklecha/simple-llm): ~950 line, minimal, extensible LLM inference engine built from scratch.
-* [Deploy an AI Analyst in Minutes: Connect Any LLM to Any Data Source with Bag of Words](https://www.kdnuggets.com/deploy-an-ai-analyst-in-minutes-connect-any-llm-to-any-data-source-with-bag-of-words)
+* [BUILDING AN INTELLIGENT ARCHITECTURE AGENT: LEVERAGING LLMS FOR AUTOMATED DIAGRAM GENERATION AND DOCUMENTATION](https://stal.blogspot.com/2025/09/building-intelligent-architecture-agent.html?m=1)
 * ["How to Build a Large Language Model from Scratch Using Python"](https://www.freecodecamp.org/news/how-to-build-a-large-language-model-from-scratch-using-python/)
 * ["How to build knowledge graphs using LLMs"](https://www.geeky-gadgets.com/building-knowledge-graphs-using-llms/)
-* [The Large Language Model Course](https://huggingface.co/blog/mlabonne/llm-course)
-* [Developing LLM-Based Text Adventure Games](https://stal.blogspot.com/2025/09/developing-llm-based-text-adventure.html)
-* [Designing an open-source LLM interface and social platforms for collectively driven LLM evaluation and auditing](https://openwebui.com/assets/files/whitepaper.pdf): "In the emerging landscape of large language models (LLMs), the imperative for robust evaluation and auditing mechanisms is paramount to ensure their ethical deployment and alignment with user needs. This workshop paper proposes a novel framework for the human-centered evaluation and auditing of LLMs, centered around an open-source chat user interface (UI) that facilitates direct interaction with a wide range of models. This approach allows for a collection of rich datasets critical for nuanced evaluation from a diverse spectrum of user interactions. Building on this foundation, we propose a social platform designed to leverage the collective intelligence of its users through crowdsourcing, enabling the evaluation and auditing of LLMs across various domains. This platform supports a dual-layered evaluation pipeline: an automated preliminary assessment based on user feedback and a deeper, community-driven analysis within domain-specific subcommunities. The culmination of this process informs the development of tailored model configurations and curated datasets, ensuring that LLMs serve the specific needs of different user groups. By combining an open-source UI with a socially-driven evaluation platform, our approach fosters a community-centric ecosystem for continuous LLM improvement, emphasizing transparency, inclusivity, and alignment with human values."
-* [100+ LLM interview questions with answers](https://github.com/KalyanKS-NLP/LLM-Interview-Questions-and-Answers-Hub)
 * [How NotebookLM made self-hosting an LLM easier than I ever expected](https://www.xda-developers.com/learn-how-to-self-host-llm-with-notebooklm/)
+* ["Language Models are Few-Shot Learners"](https://dl.acm.org/doi/pdf/10.5555/3495724.3495883): "We demonstrate that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even becoming competitive with prior state-ofthe-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous nonsparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks. We also identify some datasets where GPT3’s few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora."
+* [The Large Language Model Course](https://huggingface.co/blog/mlabonne/llm-course)
+* [Simple-LLM](https://github.com/naklecha/simple-llm): ~950 line, minimal, extensible LLM inference engine built from scratch.
+* [Let's reproduce GPT-2 (124M)](https://www.youtube.com/watch?v=l8pRSuU81PU)
 * LLMOps (paid access): 
 
     * [Part 1: Foundations of AI Engineering and LLMs](https://www.dailydoseofds.com/llmops-crash-course-part-1/)
     * [Part 2: Building Blocks of LLMs: Tokenization and Embeddings](https://www.dailydoseofds.com/llmops-crash-course-part-2/)
 
-* [Run an LLM on your Android](https://www.makeuseof.com/you-can-and-should-run-a-tiny-llm-on-your-android-phone/)
-* [How to Run an LLM Locally to Interact with Your Documents](https://www.freecodecamp.org/news/run-an-llm-locally-to-interact-with-your-documents/)
-* [Select the right hardware for your local LLM deployment with this online guide](https://www.cnx-software.com/2026/03/30/select-the-right-hardware-for-your-local-llm-deployment-with-this-online-guide/)
-* [How to Build a Secure AI PR Reviewer with Claude, GitHub Actions, and JavaScript](https://www.freecodecamp.org/news/how-to-build-a-secure-ai-pr-reviewer-with-claude-github-actions-and-javascript/)
-* [How to Build Reliable AI Systems](https://www.freecodecamp.org/news/how-to-build-reliable-ai-systems/)
+### Models
+
+- [nanochat](https://github.com/karpathy/nanochat) - a full-stack implementation of an LLM like ChatGPT in a single, clean, minimal, hackable, dependency-lite codebase, designed to run on a single 8XH100 node via scripts like speedrun.sh, that run the entire pipeline start to end
+- [Knowledge Distillation: How LLMs train each other](https://www.youtube.com/watch?v=jrJKRYAdh7I)
+- [gguf-docs](https://github.com/iuliaturc/gguf-docs) - Docs for GGUF quantization (unofficial)
+- [Embarrassingly Simple Self-Distillation Improves Code Generation](https://arxiv.org/pdf/2604.01193)
+
+### Prompt Engineering
+
+- [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - guides, papers, lecture, notebooks and resources for prompt engineering
+- [Prompt Engineering by NirDiamant](https://github.com/NirDiamant/Prompt_Engineering) - a comprehensive collection of tutorials and implementations for Prompt Engineering techniques, ranging from fundamental concepts to advanced strategies
+- [Prompting guide 101](https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf) - a quick-start handbook for effective prompts by Google
+- [Prompt Engineering by Google](https://drive.google.com/file/d/1AbaBYbEa_EbPelsT40-vj64L-2IwUJHy/view) - prompt engineering by Google
+- [Prompt Engineering by Anthropic](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - prompt engineering by Anthropic
+- [Prompt Engineering Interactive Tutorial](https://github.com/anthropics/courses/blob/master/prompt_engineering_interactive_tutorial/README.md) - Prompt Engineering Interactive Tutorial by Anthropic
+- [Real world prompting](https://github.com/anthropics/courses/blob/master/real_world_prompting/README.md) - real world prompting tutorial by Anthropic
+- [Prompt evaluations](https://github.com/anthropics/courses/blob/master/prompt_evaluations/README.md) - prompt evaluations course by Anthropic
+- [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - a collection of system prompts extracted from AI tools
+- [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) - a collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini
+- [Prompt from Codex](https://github.com/openai/codex/blob/main/codex-rs/core/prompt.md) - Prompt used to steer behavior of OpenAI's Codex
+
+### Context Engineering
+
+- [Context-Engineering](https://github.com/davidkimai/Context-Engineering) - a frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization
+- [Awesome-Context-Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) - a comprehensive survey on Context Engineering: from prompt engineering to production-grade AI systems
+
+### Inference
+
+- [vLLM Production Stack](https://github.com/vllm-project/production-stack) - vLLM’s reference system for K8S-native cluster-wide deployment with community-driven performance optimization
+
+### Miscellaneous
+
+- [Self-hosted AI coding that just works](https://www.reddit.com/r/LocalLLaMA/comments/1lt4y1z/selfhosted_ai_coding_that_just_works/)
 
 ### Verification
 
@@ -125,4 +160,235 @@ summary=Collection of links, notes, and models.
     * Are context-aware: connect a language model to sources of context (prompt instructions, few shot examples, content to ground its response in, etc.)
     * Reason: rely on a language model to reason (about how to answer based on provided context, what actions to take, etc.)
 
+---
 
+[awesome-local-llm](https://github.com/rafska/awesome-local-llm) - Crack these apart into pages, eliminate dupes
+
+## Inference platforms
+
+- [LM Studio](https://lmstudio.ai/) - discover, download and run local LLMs
+- [unsloth](https://github.com/unslothai/unsloth) -  unified web UI for training and running open models like Qwen, DeepSeek, and Gemma locally
+- [LocalAI](https://github.com/mudler/LocalAI) -  the free, open-source alternative to OpenAI, Claude and others
+- [jan](https://github.com/menloresearch/jan) - an open source alternative to ChatGPT that runs 100% offline on your computer
+- [ChatBox](https://github.com/ChatBoxAI/ChatBox) - user-friendly desktop client app for AI models/LLMs
+- [lemonade](https://github.com/lemonade-sdk/lemonade) - a local LLM server with GPU and NPU Acceleration
+
+## Inference engines
+
+- [ollama](https://github.com/ollama/ollama) - get up and running with LLMs
+- [llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++
+- [vllm](https://github.com/vllm-project/vllm) - a high-throughput and memory-efficient inference and serving engine for LLMs
+- [exo](https://github.com/exo-explore/exo) - run your own AI cluster at home with everyday devices
+- [BitNet](https://github.com/microsoft/BitNet) - official inference framework for 1-bit LLMs
+- [sglang](https://github.com/sgl-project/sglang) - a fast serving framework for large language models and vision language models
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) - provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs
+- [Nano-vLLM](https://github.com/GeeeekExplorer/nano-vllm) - a lightweight vLLM implementation built from scratch
+- [omlx](https://github.com/jundot/omlx) - LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar
+- [koboldcpp](https://github.com/LostRuins/koboldcpp) - run GGUF models easily with a KoboldAI UI
+- [mistral.rs](https://github.com/EricLBuehler/mistral.rs) - fast, flexible LLM inference
+- [dynamo](https://github.com/ai-dynamo/dynamo) - a datacenter scale distributed inference serving framework
+- [flashinfer](https://github.com/flashinfer-ai/flashinfer) - kernel library for LLM serving
+- [mlx-lm](https://github.com/ml-explore/mlx-lm) - generate text and fine-tune large language models on Apple silicon with MLX
+- [gpustack](https://github.com/gpustack/gpustack) - simple, scalable AI model deployment on GPU clusters
+- [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM) - Google's production-ready, high-performance, open-source inference framework for deploying Large Language Models on edge devices
+- [mini-sglang](https://github.com/sgl-project/mini-sglang) - a lightweight yet high-performance inference framework for Large Language Models
+- [mlx-vlm](https://github.com/Blaizzy/mlx-vlm) - a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX
+- [distributed-llama](https://github.com/b4rtaz/distributed-llama) - connect home devices into a powerful cluster to accelerate LLM inference
+- [LiteRT](https://github.com/google-ai-edge/litert) - Google's on-device framework for high-performance ML & GenAI deployment on edge platforms, via efficient conversion, runtime, and optimization
+- [ik_llama.cpp](https://github.com/ikawrakow/ik_llama.cpp) - llama.cpp fork with additional SOTA quants and improved performance
+- [FastFlowLM](https://github.com/FastFlowLM/FastFlowLM) - run LLMs on AMD Ryzen™ AI NPUs
+- [krasis](https://github.com/brontoguana/krasis) - a Hybrid LLM runtime which focuses on efficient running of larger models on consumer grade VRAM limited hardware
+- [vllm-gfx906](https://github.com/nlzy/vllm-gfx906) - vLLM for AMD gfx906 GPUs, e.g. Radeon VII / MI50 / MI60
+- [llm-scaler](https://github.com/intel/llm-scaler) - run LLMs on Intel Arc™ Pro B60 GPUs
+
+## User Interfaces
+
+- [Open WebUI](https://github.com/open-webui/open-webui) - User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+- [Lobe Chat](https://github.com/lobehub/lobe-chat) - an open-source, modern design AI chat framework
+- [Text generation web UI](https://github.com/oobabooga/text-generation-webui) - LLM UI with advanced features, easy setup, and multiple backend support
+- [SillyTavern](https://github.com/SillyTavern/SillyTavern) - LLM Frontend for Power Users
+- [Page Assist](https://github.com/n4ze3m/page-assist) - Use your locally running AI models to assist you in your web browsing
+
+## Large Language Models
+
+#### General purpose
+
+- [Qwen3.6](https://huggingface.co/collections/Qwen/qwen36) - a collection of the latest generation Qwen LLMs
+- [NVIDIA Nemotron v3](https://huggingface.co/collections/nvidia/nvidia-nemotron-v3) - a family of open models from NVIDIA with open weights, training data and recipes, delivering leading efficiency and accuracy for building specialized AI agents
+- [Gemma 4](https://huggingface.co/collections/google/gemma-4) - a family of open models built by Google DeepMind, that are multimodal, handling text and image input (with audio supported on small models) and generating text output
+- [Mistral Small 4](https://huggingface.co/collections/mistralai/mistral-small-4) - A state-of-the-art model from Mistral, open-weight, with a granular Mixture-of-Experts architecture that fuses instruct, reasoning and agentic skills
+- [gpt-oss](https://huggingface.co/collections/openai/gpt-oss-68911959590a1634ba11c7a4) - a collection of open-weight models from OpenAI, designed for powerful reasoning, agentic tasks, and versatile developer use cases
+- [gpt-oss-puzzle-88B](https://huggingface.co/nvidia/gpt-oss-puzzle-88B) - a deployment-optimized large language model developed by NVIDIA, derived from OpenAI's gpt-oss-120b
+- [Hunyuan](https://huggingface.co/collections/tencent/hunyuan-dense-model-6890632cda26b19119c9c5e7) - a collection of Tencent's open-source efficient LLMs designed for versatile deployment across diverse computational environments
+- [Phi-4](https://huggingface.co/collections/microsoft/phi-4) - a family of small language, multi-modal and reasoning models from Microsoft
+- [OpenReasoning-Nemotron](https://huggingface.co/collections/nvidia/openreasoning-nemotron-687730dae0170059860f1f01) - a collection of models from NVIDIA, trained on 5M reasoning traces for math, code and science
+- [GLM-5](https://huggingface.co/zai-org/GLM-5) - a model targeting complex systems engineering and long-horizon agentic tasks
+- [Granite 4.0](https://huggingface.co/collections/ibm-granite/granite-40-language-models-6811a18b820ef362d9e5a82c) - a collection of lightweight, state-of-the-art open foundation models from IBM that natively support multilingual capabilities, a wide range of coding tasks—including fill-in-the-middle (FIM) code completion—retrieval-augmented generation (RAG), tool usage and structured JSON output
+- [EXAONE-4.0](https://huggingface.co/collections/LGAI-EXAONE/exaone-40-686b2e0069800c835ed48375) - a collection of LLMs from LG AI Research, integrating non-reasoning and reasoning modes
+- [ERNIE 4.5](https://huggingface.co/collections/baidu/ernie-45-6861cd4c9be84540645f35c9) - a collection of large-scale multimodal models from Baidu
+- [Seed-OSS](https://huggingface.co/collections/ByteDance-Seed/seed-oss-68a609f4201e788db05b5dcd) - a collection of LLMs developed by ByteDance's Seed Team, designed for powerful long-context, reasoning, agent and general capabilities, and versatile developer-friendly features
+- [Step-3.5-Flash](https://huggingface.co/stepfun-ai/Step-3.5-Flash) - most capable open-source foundation model, engineered to deliver frontier reasoning and agentic capabilities with exceptional efficiency
+
+#### Coding
+
+- [Qwen3-Coder-Next](https://huggingface.co/collections/Qwen/qwen3-coder-next) - a collection of Qwen's open-weight language models designed specifically for coding agents and local development
+- [Devstral 2](https://huggingface.co/collections/mistralai/devstral-2) - a couple of agentic LLMs for software engineering tasks, excelling at using tools to explore codebases, edit multiple files, and power SWE Agents
+- [GLM-4.7](https://huggingface.co/collections/zai-org/glm-47) - a collection of agentic, reasoning and coding (ARC) foundation models
+- [MiniMax-M2](https://huggingface.co/collections/MiniMaxAI/minimax-m2) - a collection of SOTA models for real-world dev & agents
+- [OmniCoder-9B](https://huggingface.co/Tesslate/OmniCoder-9B) - a 9-billion parameter coding agent model built by Tesslate, fine-tuned on top of Qwen3.5-9B's hybrid architecture
+- [NousCoder-14B](https://huggingface.co/NousResearch/NousCoder-14B) - a competitive programming model post-trained on Qwen3-14B via reinforcement learning
+- [FrogBoss-32B-2510](https://huggingface.co/microsoft/FrogBoss-32B-2510) & [FrogMini-14B-2510](https://huggingface.co/microsoft/FrogMini-14B-2510) - coding agents specialized in fixing bugs in code obtained by fine‑tuning a Qwen3‑32B and Qwen3‑14B language model, respectively, on debugging trajectories generated by Claude Sonnet 4 within the BugPilot framework
+- [Jan-code](https://huggingface.co/collections/janhq/jan-code) - a small code-tuned model focuses on handling well-scoped subtasks reliably while keeping latency and compute requirements small
+- [Mellum-4b-base](https://huggingface.co/JetBrains/Mellum-4b-base) - an LLM from JetBrains, optimized for code-related tasks
+- [Stable-DiffCoder](https://huggingface.co/collections/ByteDance-Seed/stable-diffcoder) - a strong code diffusion large language model
+
+#### Multimodal
+
+- [Qwen3-Omni](https://huggingface.co/collections/Qwen/qwen3-omni-68d100a86cd0906843ceccbe) - a collection of the natively end-to-end multilingual omni-modal foundation models from Qwen
+- [GLM-4.6V](https://huggingface.co/collections/zai-org/glm-46v) - a collection of open source multimodal models with native tool use from Zhipu AI
+
+#### Image
+
+- [Qwen-Image](https://huggingface.co/collections/Qwen/qwen-image) - a collection of models for image generation, edit and decomposition from Qwen
+- [Qwen3-VL](https://huggingface.co/collections/Qwen/qwen3-vl-68d2a7c1b8a8afce4ebd2dbe) - a collection of the most powerful vision-language models in the Qwen series to date
+- [GLM-Image](https://huggingface.co/zai-org/GLM-Image) - an image generation model
+- [HunyuanImage](https://huggingface.co/collections/tencent/hunyuanimage) - a collection of image generation models from Tencent
+- [HunyuanVideo](https://huggingface.co/collections/tencent/hunyuanvideo) - a collection of video generation models from Tencent 
+- [Vidi](https://huggingface.co/collections/bytedance-research/vidi) - a collection of models for multimodal video understanding and creation
+- [FastVLM](https://huggingface.co/collections/apple/fastvlm-68ac97b9cd5cacefdd04872e) - a collection of VLMs with efficient vision encoding from Apple
+- [MiniCPM-V-4_5](https://huggingface.co/openbmb/MiniCPM-V-4_5) - a GPT-4o Level MLLM for single image, multi image and high-FPS video understanding on your phone
+- [LFM2-VL](https://huggingface.co/collections/LiquidAI/lfm2-vl-68963bbc84a610f7638d5ffa) - a colection of vision-language models, designed for on-device deployment
+- [ClipTagger-12b](https://huggingface.co/inference-net/ClipTagger-12b) -  a vision-language model (VLM) designed for video understanding at massive scale
+
+#### Audio
+
+- [whisper-large-v3](https://huggingface.co/openai/whisper-large-v3) - a state-of-the-art model for automatic speech recognition (ASR) and speech translation from OpenAI
+- [Nemotron Speech](https://huggingface.co/collections/nvidia/nemotron-speech) - a collection of open, state-of-the-art, production‑ready enterprise speech models from the NVIDIA Speech research team for ASR, TTS, Speaker Diarization and S2S
+- [Qwen3-ASR](https://huggingface.co/collections/Qwen/qwen3-asr) - a collection of models that support language identification and ASR for 52 languages and dialects
+- [Qwen3-TTS](https://huggingface.co/collections/Qwen/qwen3-tts) - a collection of TTS models that cover 10 major languages as well as multiple dialectal voice profiles to meet global application needs
+- [Granite Speech](https://huggingface.co/collections/ibm-granite/granite-speech) - a collection of compact and efficient speech-language models from IBM, specifically designed for multilingual automatic speech recognition (ASR) and bidirectional automatic speech translation (AST)
+- [Voxtral-Small-24B-2507](https://huggingface.co/mistralai/Voxtral-Small-24B-2507) - an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance
+- [Voxtral-Mini-4B-Realtime-2602](https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602) - a multilingual, realtime speech-transcription model and among the first open-source solutions to achieve accuracy comparable to offline systems with a delay of <500ms
+- [Voxtral-4B-TTS-2603](https://huggingface.co/mistralai/Voxtral-4B-TTS-2603) - frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents
+- [chatterbox](https://huggingface.co/ResembleAI/chatterbox) - first production-grade open-source TTS model
+- [VibeVoice](https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f) - a collection of frontier text-to-speech models from Microsoft
+- [Kitten TTS](https://huggingface.co/KittenML/models) - a collection of open-source realistic text-to-speech models designed for lightweight deployment and high-quality voice synthesis
+- [Streaming Sortformer Diarizer 4spk v2.1](https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2.1) - a streaming version of a novel end-to-end neural model for speaker diarization from NVIDIA
+
+#### Retrieval-Augmented Generation
+
+- [Nemotron RAG](https://huggingface.co/collections/nvidia/nemotron-rag) - a set of tools to build retrieval-augmented generation (RAG) systems, improve search and ranking accuracy, and extract structured data from complex docs
+- [Qwen3-Embedding](https://huggingface.co/collections/Qwen/qwen3-embedding) - a collection of the latest proprietary Qwen models, specifically designed for text embedding and ranking tasks
+- [Qwen3-VL-Embedding](https://huggingface.co/collections/Qwen/qwen3-vl-embedding) - an addition to the Qwen embedding models, specifically designed for multimodal information retrieval and cross-modal understanding
+- [Qwen3-Reranker](https://huggingface.co/collections/Qwen/qwen3-vl-reranker) - a collection of the latest proprietary Qwen models, engineered to refine embedding results
+- [Qwen3-VL-Reranker](https://huggingface.co/collections/Qwen/qwen3-vl-reranker) - an addition to the Qwen embedding models, specifically designed for multimodal information retrieval and cross-modal understanding
+
+#### Safeguards
+
+- [gpt-oss-safeguard](https://huggingface.co/collections/openai/gpt-oss-safeguard) - a collection of safety reasoning models built-upon gpt-oss
+- [Granite Guardian Models](https://huggingface.co/collections/ibm-granite/granite-guardian-models) - a collection of models created by IBM for safeguarding language models
+- [Qwen3Guard](https://huggingface.co/collections/Qwen/qwen3guard-68d2729abbfae4716f3343a1) - a collection of safety moderation models built upon Qwen3
+- [NemoGuard](https://huggingface.co/collections/nvidia/nemoguard) - a collection of models from NVIDIA for content safety, topic-following and security guardrails
+- [Nemotron-3-Content-Safety](https://huggingface.co/nvidia/Nemotron-3-Content-Safety) - a content-safety moderator from NVIDIA for both inputs to and responses from LLMs and VLMs
+- [privacy-filter](https://huggingface.co/openai/privacy-filter) - a bidirectional token-classification model from OpenAI for personally identifiable information (PII) detection and masking in text
+- [AprielGuard](https://huggingface.co/ServiceNow-AI/AprielGuard) - a safeguard model designed to detect and mitigate both safety risks and security threats in LLM interactions
+
+#### Miscellaneous
+
+- [Marco-MoE](https://huggingface.co/collections/AIDC-AI/marco-moe) - a suit of multilingual MoE models with highly-sparse architectures
+- [Jan-v3](https://huggingface.co/collections/janhq/jan-v3) - a 4B baseline model for fine-tuning, designed for downstream work: improved instruction following out of the box, strong starting point for fine-tuning and effective lightweight coding assistance
+- [Jan-v2-VL](https://huggingface.co/collections/janhq/jan-v2-vl) - a family of VLM focused on reliable, many-step task execution
+- [Nemotron-Orchestrator-8B](https://huggingface.co/nvidia/Nemotron-Orchestrator-8B) - a state-of-the-art 8B orchestration model designed to solve complex, multi-turn agentic tasks by coordinating a diverse set of expert models and tools
+- [Arch-Router-1.5B](https://huggingface.co/katanemo/Arch-Router-1.5B) - the fastest LLM router model that aligns to subjective usage preferences
+- [Waypoint](https://huggingface.co/collections/Overworld/waypoint) - a collection of real-time interactive video world models
+- [Hunyuan3D](https://huggingface.co/collections/tencent/hunyuan3d) - a collection of everything related (models, datasets etc.) to 3D assets generation from Tencent
+- [Hunyuan-GameCraft-1.0](https://huggingface.co/tencent/Hunyuan-GameCraft-1.0) - a novel framework for high-dynamic interactive video generation in game environments
+- [void-model](https://huggingface.co/netflix/void-model) - a model from Netflix that removes objects from videos along with all interactions they induce on the scene — not just secondary effects like shadows and reflections, but physical interactions like objects falling when a person is removed
+
+## Tools
+
+### Models
+
+- [llmfit](https://github.com/AlexsJones/llmfit) - hundreds of models & providers, one command to find what runs on your hardware
+- [outlines](https://github.com/dottxt-ai/outlines) - structured outputs for LLMs
+- [llama-swap](https://github.com/mostlygeek/llama-swap) - reliable model swapping for any local OpenAI compatible server - llama.cpp, vllm, etc.
+
+### Computer Use
+
+- [open-interpreter](https://github.com/OpenInterpreter/open-interpreter) - a natural language interface for computers
+- [OmniParser](https://github.com/microsoft/OmniParser) - a simple screen parsing tool towards pure vision based GUI agent
+- [openwork](https://github.com/different-ai/openwork) - an open-source alternative to Claude Cowork, powered by OpenCode
+- [cua](https://github.com/trycua/cua) - the Docker Container for Computer-Use AI Agents
+- [Agent-S](https://github.com/simular-ai/Agent-S) - an open agentic framework that uses computers like a human
+- [self-operating-computer](https://github.com/OthersideAI/self-operating-computer) - a framework to enable multimodal models to operate a computer
+- [OpenRoom](https://github.com/MiniMax-AI/OpenRoom) - a browser-based desktop where AI Agent operates every app through natural language, from MiniMaxAI
+
+### Browser Automation
+
+- [puppeteer](https://github.com/puppeteer/puppeteer) - a JavaScript API for Chrome and Firefox
+- [playwright](https://github.com/microsoft/playwright) - a framework for Web Testing and Automation
+- [browser-use](https://github.com/browser-use/browser-use) - make websites accessible for AI agents
+- [firecrawl](https://github.com/mendableai/firecrawl) - turn entire websites into LLM-ready markdown or structured data
+- [stagehand](https://github.com/browserbase/stagehand) -  the AI Browser Automation Framework
+- [nanobrowser](https://github.com/nanobrowser/nanobrowser) -  open-source Chrome extension for AI-powered web automation
+
+### Memory Management
+
+- [mem0](https://github.com/mem0ai/mem0) - universal memory layer for AI Agents
+- [mempalace](https://github.com/milla-jovovich/mempalace) - the highest-scoring AI memory system ever benchmarked
+- [letta](https://github.com/letta-ai/letta) - the stateful agents framework with memory, reasoning, and context management
+- [supermemory](https://github.com/supermemoryai/supermemory) - memory engine and app that is extremely fast, scalable
+- [cognee](https://github.com/topoteretes/cognee) - memory for AI Agents in 5 lines of code
+- [LMCache](https://github.com/LMCache/LMCache) - supercharge your LLM with the fastest KV Cache Layer
+- [memU](https://github.com/NevaMind-AI/memU) - an open-source memory framework for AI companions
+- [reasoning-bank](https://github.com/google-research/reasoning-bank) - a memory mechanism for agents that learns from both successful and failed trajectories, with reasoning stored as memory content
+
+### Testing, Evaluation and Observability
+
+- <img src="https://img.shields.io/github/stars/langfuse/langfuse?style=social" height="17" align="texttop"/> [langfuse](https://github.com/langfuse/langfuse) - an open-source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more
+- <img src="https://img.shields.io/github/stars/comet-ml/opik?style=social" height="17" align="texttop"/> [opik](https://github.com/comet-ml/opik) - debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards
+- <img src="https://img.shields.io/github/stars/traceloop/openllmetry?style=social" height="17" align="texttop"/> [openllmetry](https://github.com/traceloop/openllmetry) - an open-source observability for your LLM application, based on OpenTelemetry
+- <img src="https://img.shields.io/github/stars/NVIDIA/garak?style=social" height="17" align="texttop"/> [garak](https://github.com/NVIDIA/garak) - the LLM vulnerability scanner from NVIDIA
+- <img src="https://img.shields.io/github/stars/Giskard-AI/giskard?style=social" height="17" align="texttop"/> [giskard](https://github.com/Giskard-AI/giskard) - an open-source evaluation & testing for AI & LLM systems
+- <img src="https://img.shields.io/github/stars/Agenta-AI/agenta?style=social" height="17" align="texttop"/> [agenta](https://github.com/Agenta-AI/agenta) - an open-source LLMOps platform: prompt playground, prompt management, LLM evaluation, and LLM observability all in one place
+
+### Research
+
+- <img src="https://img.shields.io/github/stars/ItzCrazyKns/Perplexica?style=social" height="17" align="texttop"/> [Perplexica](https://github.com/ItzCrazyKns/Perplexica) -  an open-source alternative to Perplexity AI, the AI-powered search engine
+- <img src="https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=social" height="17" align="texttop"/> [gpt-researcher](https://github.com/assafelovic/gpt-researcher) - an LLM based autonomous agent that conducts deep local and web research on any topic and generates a long report with citations
+- <img src="https://img.shields.io/github/stars/MODSetter/SurfSense?style=social" height="17" align="texttop"/> [SurfSense](https://github.com/MODSetter/SurfSense) - an open-source alternative to NotebookLM / Perplexity / Glean
+- <img src="https://img.shields.io/github/stars/lfnovo/open-notebook?style=social" height="17" align="texttop"/> [open-notebook](https://github.com/lfnovo/open-notebook) - an open-source implementation of Notebook LM with more flexibility and features
+- <img src="https://img.shields.io/github/stars/microsoft/RD-Agent?style=social" height="17" align="texttop"/> [RD-Agent](https://github.com/microsoft/RD-Agent) - automate the most critical and valuable aspects of the industrial R&D process
+- <img src="https://img.shields.io/github/stars/langchain-ai/local-deep-researcher?style=social" height="17" align="texttop"/> [local-deep-researcher](https://github.com/langchain-ai/local-deep-researcher) - fully local web research and report writing assistant
+- <img src="https://img.shields.io/github/stars/LearningCircuit/local-deep-research?style=social" height="17" align="texttop"/> [local-deep-research](https://github.com/LearningCircuit/local-deep-research) - an AI-powered research assistant for deep, iterative research
+- <img src="https://img.shields.io/github/stars/murtaza-nasir/maestro?style=social" height="17" align="texttop"/> [maestro](https://github.com/murtaza-nasir/maestro) - an AI-powered research application designed to streamline complex research tasks
+
+### Training and Fine-tuning
+
+- <img src="https://img.shields.io/github/stars/p-e-w/heretic?style=social" height="17" align="texttop"/> [heretic](https://github.com/p-e-w/heretic) - fully automatic censorship removal for language models
+- <img src="https://img.shields.io/github/stars/huggingface/sentence-transformers?style=social" height="17" align="texttop"/> [sentence-transformers](https://github.com/huggingface/sentence-transformers) - a Python library for using and training embedding and reranker models for applications like retrieval augmented generation, semantic search, and more
+- <img src="https://img.shields.io/github/stars/huggingface/trl?style=social" height="17" align="texttop"/> [trl](https://github.com/huggingface/trl) - train transformer language models with reinforcement learning
+- <img src="https://img.shields.io/github/stars/OpenRLHF/OpenRLHF?style=social" height="17" align="texttop"/> [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF) - an easy-to-use, high-performance open-source RLHF framework built on Ray, vLLM, ZeRO-3 and HuggingFace Transformers, designed to make RLHF training simple and accessible
+- <img src="https://img.shields.io/github/stars/kiln-ai/kiln?style=social" height="17" align="texttop"/> [Kiln](https://github.com/kiln-ai/kiln) - the easiest tool for fine-tuning LLM models, synthetic data generation, and collaborating on datasets
+- <img src="https://img.shields.io/github/stars/e-p-armstrong/augmentoolkit?style=social" height="17" align="texttop"/> [augmentoolkit](https://github.com/e-p-armstrong/augmentoolkit) - train an open-source LLM on new facts
+- <img src="https://img.shields.io/github/stars/AgentToolkit/altk-evolve?style=social" height="17" align="texttop"/> [altk-evolve](https://github.com/AgentToolkit/altk-evolve) - a system designed to help agents improve over time by learning from their trajectories
+
+### Security and Sandboxing
+
+- <img src="https://img.shields.io/github/stars/NVIDIA-NeMo/Guardrails?style=social" height="17" align="texttop"/> [Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - an open-source toolkit from NVIDIA for easily adding programmable guardrails to LLM-based conversational systems
+- <img src="https://img.shields.io/github/stars/NVIDIA/OpenShell?style=social" height="17" align="texttop"/> [OpenShell](https://github.com/NVIDIA/OpenShell) - the safe, private runtime for autonomous AI agents from NVIDIA
+- <img src="https://img.shields.io/github/stars/TencentCloud/CubeSandbox?style=social" height="17" align="texttop"/> [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) - instant, concurrent, secure & lightweight sandbox for AI agents
+
+### Miscellaneous
+
+- <img src="https://img.shields.io/github/stars/upstash/context7?style=social" height="17" align="texttop"/> [context7](https://github.com/upstash/context7) - up-to-date code documentation for LLMs and AI code editors
+- <img src="https://img.shields.io/github/stars/AsyncFuncAI/deepwiki-open?style=social" height="17" align="texttop"/> [deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open) - open source DeepWiki: AI-powered wiki generator for GitHub/Gitlab/Bitbucket repositories
+- <img src="https://img.shields.io/github/stars/aliasrobotics/cai?style=social" height="17" align="texttop"/> [cai](https://github.com/aliasrobotics/cai) - Cybersecurity AI (CAI), the framework for AI Security
+- <img src="https://img.shields.io/github/stars/murtaza-nasir/speakr?style=social" height="17" align="texttop"/> [speakr](https://github.com/murtaza-nasir/speakr) - a personal, self-hosted web application designed for transcribing audio recordings
+- <img src="https://img.shields.io/github/stars/presenton/presenton?style=social" height="17" align="texttop"/> [presenton](https://github.com/presenton/presenton) - an open-source AI presentation generator and API
+- <img src="https://img.shields.io/github/stars/VectorSpaceLab/OmniGen2?style=social" height="17" align="texttop"/> [OmniGen2](https://github.com/VectorSpaceLab/OmniGen2) - exploration to advanced multimodal generation
+- <img src="https://img.shields.io/github/stars/TheAhmadOsman/4o-ghibli-at-home?style=social" height="17" align="texttop"/> [4o-ghibli-at-home](https://github.com/TheAhmadOsman/4o-ghibli-at-home) - a powerful, self-hosted AI photo stylizer built for performance and privacy
+- <img src="https://img.shields.io/github/stars/Roy3838/Observer?style=social" height="17" align="texttop"/> [Observer](https://github.com/Roy3838/Observer) - local open-source micro-agents that observe, log and react, all while keeping your data private and secure
+- <img src="https://img.shields.io/github/stars/minitap-ai/mobile-use?style=social" height="17" align="texttop"/> [mobile-use](https://github.com/minitap-ai/mobile-use) - a powerful, open-source AI agent that controls your Android or IOS device using natural language
+- <img src="https://img.shields.io/github/stars/gabber-dev/gabber?style=social" height="17" align="texttop"/> [gabber](https://github.com/gabber-dev/gabber) - build AI applications that can see, hear, and speak using your screens, microphones, and cameras as inputs
+- <img src="https://img.shields.io/github/stars/sevenreasons/promptcat?style=social" height="17" align="texttop"/> [promptcat](https://github.com/sevenreasons/promptcat) - a zero-dependency prompt manager/catalog/library in a single HTML file
