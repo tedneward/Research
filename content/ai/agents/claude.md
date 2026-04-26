@@ -3,13 +3,14 @@ tags=ai, development
 summary=The AI agent.
 ~~~~~~
 
-[Source](https://github.com/anthropics/claude-code) | [Docs](https://code.claude.com/docs/en/quickstart) | [Setup](https://code.claude.com/docs/en/setup) | [Fork/rewrite of leaked Claude Code](https://github.com/ultraworkers/claw-code)
+[Source](https://github.com/anthropics/claude-code) | [Docs](https://code.claude.com/docs/en/quickstart) | [Setup](https://code.claude.com/docs/en/setup) | [Fork/rewrite of leaked Claude Code](https://github.com/ultraworkers/claw-code) | [Official Plugins](https://github.com/anthropics/claude-plugins-official), [Knowledge Work Plugins](https://github.com/anthropics/knowledge-work-plugins)
 
 ## Reading
 
 ### Articles/Blogs/Essays
 
 - https://ollama.com/blog/claude
+- [Claude Code and the rise of personal software](https://thenewstack.io/claude-code-and-the-rise-of-personal-software/)
 - https://scottrfrancis.wordpress.com/2025/09/07/programming-claude-code-an-object-oriented-approach-to-ai-development-workflows/
 - https://medium.com/ai-insights-cobet/comprehensive-guide-to-setting-up-claude-code-on-windows-using-wsl-d3a3f3b5a128
 - https://itecsonline.com/post/how-to-install-claude-code-on-ubuntu-linux-complete-guide-2025

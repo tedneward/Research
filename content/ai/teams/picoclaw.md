@@ -1,5 +1,5 @@
 title=PicoClaw
-tags=ai, agent
+tags=ai, agent, team
 summary=Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity
 ~~~~~~
 

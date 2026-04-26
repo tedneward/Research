@@ -11,3 +11,4 @@ summary=Thoughts, links, and notes about "vibe" coding/engineering/whatevering.
 
 - [Managing the Infinite Developer Team](https://www.linkedin.com/pulse/managing-infinite-developer-team-richard-averill-exxve/): "AI does not just make developers faster. It gives each of them, in effect, an infinite developer team. The core challenge is not that AI-generated code is bad. Generally it is very good. The challenge is that code generation is now increasing faster than human understanding. Code output is growing much faster than organisational visibility."
 
+- [Vibe Coding Will Break Your Company](https://www.forbes.com/sites/jasonwingard/2026/04/23/vibe-coding-will-break-your-company/)

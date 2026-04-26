@@ -58,6 +58,8 @@ summary=A collection of links and notes talking about or criticizing/critiquing 
         - *Are the developers beginners at using Cursor/AI tools? Does this explain the result?* Developers seem to be qualitatively in-distribution for Cursor Pro users, although we can’t rule out learning effects beyond 50 hours of Cursor usage. Nearly all developers have substantial (dozens to hundreds of hours) prior experience prompting LLMs. See Appendix C.2.7 for more discussion/analysis of developer AI tool use skill.
         - *Do these results say that AI isn't useful in software engineering?* No--it seems plausible or likely that AI tools are useful in many other contexts different from our setting, for example, for less experienced developers, or for developers working in an unfamiliar codebase. See Appendix B for potential misreadings/overgeneralizations we do not endorse on the basis of our results.
         - *It's not appropriate to use homoskedastic SEs. What gives?* Appendix C.3.5 explores alternative estimators, including a naive ratio estimator. All alternative estimators evaluated yield similar results, suggesting that the slowdown result is robust to our empirical strategy. That said, we are actively evaluating further standard error estimation methods, in response to community feedback (thank you to those who have given feedback so far!).
+- [There's Something Fundamentally Wrong with LLMs](https://futurism.com/artificial-intelligence/something-fundamentally-wrong-llms-communicate)
+- [LLMs Will Never Be Intelligent](https://futurism.com/artificial-intelligence/large-language-models-willnever-be-intelligent)
 
 #### Silver Bullet Syndrome
 

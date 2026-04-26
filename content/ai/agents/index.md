@@ -35,17 +35,30 @@ An agent generally consists of these core components:
 
 ### Articles, Blogs, Essays
 
-- [How to Implement Tool Calling with Gemma 4 and Python](https://machinelearningmastery.com/how-to-implement-tool-calling-with-gemma-4-and-python/)
+- Steve Yegge/GasTown (MadMax analogies):
+
+	- [GasTown: from Clown Show to 1.0](https://steve-yegge.medium.com/gas-town-from-clown-show-to-v1-0-c239d9a407ec)
+	- [A week in GasTown](https://www.dolthub.com/blog/2026-03-24-a-week-in-gas-town/)
+	- [Welcome to GasCity](https://steve-yegge.medium.com/welcome-to-gas-city-57f564bb3607)
+
 - [A Coding Guide to Build a Procedural Memory Agent That Learns, Stores, Retrieves, and Reuses Skills as Neural Modules Over Time](https://www.marktechpost.com/2025/12/09/a-coding-guide-to-build-a-procedural-memory-agent-that-learns-stores-retrieves-and-reuses-skills-as-neural-modules-over-time/) [Source](https://github.com/Marktechpost/AI-Tutorial-Codes-Included/blob/main/Agentic%20AI%20Memory/procedural_memory_agent_skill_learning_Marktechpost.ipynb)
-- [A week in GasTown](https://www.dolthub.com/blog/2026-03-24-a-week-in-gas-town/)
 - [Agent Engineering: A New Discipline](https://blog.langchain.com/agent-engineering-a-new-discipline/)
 - [AGENTS.md outperforms skills in our agent evals](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals) (Vercel): "We expected skills to be the solution for teaching coding agents framework-specific knowledge. After building evals focused on Next.js 16 APIs, we found something unexpected. A compressed 8KB docs index embedded directly in AGENTS.md achieved a 100% pass rate, while skills maxed out at 79% even with explicit instructions telling the agent to use them. Without those instructions, skills performed no better than having no documentation at all."
+- [Building an AI Agent from Scratch with pure Python](https://levelup.gitconnected.com/building-an-ai-agent-from-scratch-with-pure-python-7d4532202637)
+- [Building AI Agents from Scratch -No Frameworks](https://nikhilpentapalli.medium.com/building-ai-agents-from-scratch-no-frameworks-7e75b11396d8)
+- [Building your own CLI Coding Agent with Pydantic-AI](https://martinfowler.com/articles/build-own-coding-agent.html)
+- [Components of a Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)
 - [Guardians of the Agents](https://dl.acm.org/doi/epdf/10.1145/3777544)
+- [How Non-Programmers Are Building Custom AI Agents in Minutes](https://www.geeky-gadgets.com/ai-agent-tutorial-2026/)
+- [How to Build and Deploy a Multi-Agent AI System with Python and Docker](https://www.freecodecamp.org/news/build-and-deploy-multi-agent-ai-with-python-and-docker/)
+- [How to Build a Coding Agent](https://github.com/ghuntley/how-to-build-a-coding-agent) (workshop)
+- [How to Implement Tool Calling with Gemma 4 and Python](https://machinelearningmastery.com/how-to-implement-tool-calling-with-gemma-4-and-python/)
 - [How I wrote JustHTML using coding agents](https://friendlybit.com/python/writing-justhtml-with-coding-agents/)
 - [How to Build AI Agents That Can Control Cloud Infrastructure](https://www.freecodecamp.org/news/how-to-build-ai-agents-that-can-control-cloud-infrastructure/)
 - [How to Keep LLM Outputs Predictable Using Pydantic Validation](https://www.freecodecamp.org/news/how-to-keep-llm-outputs-predictable-using-pydantic-validation/)
 - [How to write a great agents.md: Lessons from over 2,500 repositories](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/)
 - [JustHTML is a fascinating example of vibe engineering in action](https://simonwillison.net/2025/Dec/14/justhtml/)
+- [Production-Ready AI Agents: 5 Lessons from Refactoring a Monolith](https://developers.googleblog.com/production-ready-ai-agents-5-lessons-from-refactoring-a-monolith/)
 - [Practical Guide on how to build an Agent from scratch with Gemini 3](https://www.philschmid.de/building-agents): The core of an Agent is surprisingly simple: It is a Large Language Model (LLM) running in a loop, equipped with tools it can choose to use. If you can write a loop in Python, you can build an agent. This guide will walk you through the process, from a simple API call to a functioning CLI Agent.
 - [Meet SDialog: An Open-Source Python Toolkit for Building, Simulating, and Evaluating LLM-based Conversational Agents End-to-End](https://www.marktechpost.com/2025/11/14/meet-sdialog-an-open-source-python-toolkit-for-building-simulating-and-evaluating-llm-based-conversational-agents-end-to-end/): "Meet SDialog, an open sourced Python toolkit for synthetic dialogue generation, evaluation, and interpretability that targets the full conversational pipeline from agent definition to analysis. It standardizes how a Dialog is represented and gives engineers a single workflow to build, simulate, and inspect LLM based conversational agents."
 - [Should You Use RAG or Fine-Tune Your LLM?](https://www.actian.com/blog/databases/should-you-use-rag-or-fine-tune-your-llm/)
@@ -55,6 +68,10 @@ An agent generally consists of these core components:
 #### Critique
 
 - [Why Building AI Agents Is Mostly a Waste of Time](https://medium.com/data-science-collective/why-building-ai-agents-is-mostly-a-waste-of-time-55600b57e692): "But here is the uncomfortable truth: most AI agents are not progress. They are decoration. They do not meaningfully extend intelligence. They do not create new economic value. And they rarely survive the next generation of base models. In most cases, building AI agents is not a step toward the future of intelligence — it is a temporary distraction from understanding what intelligence actually is."
+
+### Papers
+
+- [ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents](https://huggingface.co/papers/2604.11784)
 
 ### Resources
 

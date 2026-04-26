@@ -64,7 +64,7 @@ Because SLMs can be run locally and are easier and cheaper to develop, companies
 
 - [Small Language Models: A Comprehensive Overview](https://huggingface.co/blog/jjokah/small-language-model)
 - [Small Language Models](https://www.ataccama.com/blog/small-language-models)
-
+- [Building AI Agents with Local Small Language Models](https://machinelearningmastery.com/building-ai-agents-with-local-small-language-models/)
 
 ## [Fine-tuning](https://www.bentoml.com/llm/getting-started/llm-fine-tuning)
 Fine-tuning is one of the most effective ways to adapt an LLM for a specific use case. It continues the training process on a pre-trained model using new, task-specific data. This can involve updating the entire model or just specific layers.

@@ -5,4 +5,8 @@ summary=Fast, local PDF parsing with spatial text parsing, OCR, and bounding box
 
 [Website](https://developers.llamaindex.ai/liteparse/) | [Source](https://github.com/run-llama/liteparse)
 
+## Reading
 
+### Articles, Blogs, Essays
+
+- [Extract PDF text in your browser with LiteParse for the web](https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/)

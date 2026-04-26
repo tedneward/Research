@@ -9,13 +9,9 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 
 ## General
 
+- [7 steps to mastering language model deployment](https://www.kdnuggets.com/7-steps-to-mastering-language-model-deployment)
+- [Getting Started with Zero-Shot Text Classification](https://machinelearningmastery.com/getting-started-with-zero-shot-text-classification/)
 - [How to Become an AI Engineer in 2026: A Self-Study Roadmap](https://www.kdnuggets.com/how-to-become-an-ai-engineer-in-2026-a-self-study-roadmap)
-- [The Three Best Pieces of Writing About AI in 2026 That You Must Read Right Now](https://www.thealgorithmicbridge.com/p/the-three-best-pieces-of-writing): The first is Matt Shumer’s “[Something Big Is Happening](https://x.com/i/status/2021256989876109403),” which amassed north of 80 million views on X, bringing together the entire timeline in a miracle not seen since St. Paul walked the paths of the old world proselytizing for Christ’s word (the godlike reach of Shumer’s essay can be explained by the fact that the title allows every single person to project the biggest thing in their lives right now as the thing happening to everyone else: we all have main character syndrome, especially myself). To Shumer, the big thing happening is AI, plain and simple, without caveats or nuances: AI is big and AI is happening (it's probably irrelevant that he's an AI founder himself with a tendency to hype up claims that don't hold up under scrutiny).
-
-  The second is Citrini’s “[The 2028 Global Intelligence Crisis](https://www.citriniresearch.com/p/2028gic),” a financial variation of the take-off scenario where AI ends up doing everything that _doomer_ pundits and industry leaders have been warning of but instead of killing everyone it stops at killing the $13 trillion mortgage market (because of course, that’s the most dramatic thing that could happen if you’re a financial analyst). I read it until I reached a point where they give three examples of SaaS firms that could be affected—“[Monday.com](http://monday.com/), Zapier, and Asana”— because when I asked Claude 4.6 Opus about the “SaaSpocalypse” two weeks earlier, it gave those three exact examples to illustrate its point. It might be a coincidence, but stochastic parrots are usually more parrot than stochastic.
-
-  The third one, and a personal favorite, is Sam Kriss’s Harper’s “[Child’s play](https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/),” a retelling of Kriss’s experience among some of the most idiosyncratic personalities of the San Francisco tech scene. This is the last one chronologically and, in literary merit and arguably historical value, the best of the three. Kriss, unlike, I presume, Shumer and Citrini, is a veteran in the sport of disguising fiction as non-fiction—worthy heir to the Borgesian style, although perhaps born at the worst time possible now that everyone seems to be shamelessly copycatting his schtick—which is apparent from the fact that, among the three texts, his is the only one that feels real. His thesis is something I imagine everyone agrees with: obsessing over being “high agency” and living your life as a means to an end is, ultimately, a relentless run-up for a date with death.
-  
 - [The 10+1 Commandments of Human AI Co-Existence](https://10plus1.ai/): "The 10+1 is a standard. Not everyone will adopt it - but those who do will lead the next era. If you're a policymaker, don't wait for regulation to catch up. If you're a CEO, don't wait for PR fallout to act with integrity. If you're building AI, don't just ask if it works - ask if it's worthy. We don't need more frameworks. We need a philosophical backbone. This is it."
 - [AI Defeats the Purpose of a Humanities Education](https://www.thecrimson.com/article/2025/9/9/chiocco-farrell-harvard-ai/) (The Harvard Crimson)
 - ["The Open-Source Toolkit for Building AI agents"](https://www.aitidbits.ai/p/open-source-agents)
@@ -58,6 +54,11 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 -   **[AI Trading Agent using Reinforcement Learning](https://amanxai.com/2025/02/18/building-an-ai-agent-using-agentic-ai/)**
 -   **[Building an AI Research Agent for Image Analysis](https://developer.ibm.com/tutorials/awb-build-ai-research-agent-image-analysis-granite/)**
 
+## People-centric
+
+* Dr Michael Stal
+
+    - [Hitchhiker's Guide to AI, Software Architecture, and Everything Else](https://stal.blogspot.com/2026/04/patterns-for-building-llm-and-agentic.html)
 
 ## History
 
@@ -87,7 +88,6 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 * [LangGraph101: Let's build a deep research agent](https://towardsdatascience.com/langgraph-101-lets-build-a-deep-research-agent/)
 * [Quantifying AI-Human Strategy](https://osf.io/preprints/psyarxiv/vbkmt_v1): "We introduce a novel Bayesian Item Response Theory framework to quantify human–AI  synergy, separating individual and  collaborative ability while controlling for task difficulty in interactive settings. Unlike standard static benchmarks, our approach models human–AI performance as a joint process, capturing both user-specific factors and moment-to-moment fluctuations. We validate the frame-work by applying it to human–AI benchmark data (n=667) and find significant synergy. We demonstrate that collaboration  ability is distinct from individual problem-solving ability. Users better able to infer and adapt to others’ perspectives achieve superior collaborative performance with AI--but not when working alone. Moreover, moment-to-moment fluctuations in perspective taking influence AI response quality, highlighting the role of dynamic user factors in collaboration. By introducing a principled framework to analyze data from human-AI collaboration, interactive benchmarks can better complement current single-task bench-marks and crowd-assessment methods. This work informs the design and training of language models that transcend static prompt benchmarks to achieve adaptive,socially aware collaboration with diverse and dynamic human partners."
 * [The New Operational Stack: From IaC to Platforms to AI Agents](https://thenewstack.io/the-new-operational-stack-from-iac-to-platforms-to-ai-agents/)
-* [How to Build and Deploy a Multi-Agent AI System with Python and Docker](https://www.freecodecamp.org/news/build-and-deploy-multi-agent-ai-with-python-and-docker/)
 * [10 LLM Engineering Concepts Explained in 10 Minutes](https://www.kdnuggets.com/10-llm-engineering-concepts-explained-in-10-minutes):
 
     1. Understanding Context Engineering
@@ -112,6 +112,14 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
     * [RAGs](https://github.com/rasbt/RAGs): Simple implementations of Retrieval Augmented Generation (RAG) Systems
     * [LLM-workshop-2024](https://github.com/rasbt/LLM-workshop-2024)
     * [LLM-finetuning-scripts](https://github.com/rasbt/LLM-finetuning-scripts)
+
+* [The Three Best Pieces of Writing About AI in 2026 That You Must Read Right Now](https://www.thealgorithmicbridge.com/p/the-three-best-pieces-of-writing): The first is Matt Shumer’s “[Something Big Is Happening](https://x.com/i/status/2021256989876109403),” which amassed north of 80 million views on X, bringing together the entire timeline in a miracle not seen since St. Paul walked the paths of the old world proselytizing for Christ’s word (the godlike reach of Shumer’s essay can be explained by the fact that the title allows every single person to project the biggest thing in their lives right now as the thing happening to everyone else: we all have main character syndrome, especially myself). To Shumer, the big thing happening is AI, plain and simple, without caveats or nuances: AI is big and AI is happening (it's probably irrelevant that he's an AI founder himself with a tendency to hype up claims that don't hold up under scrutiny).
+
+    The second is Citrini’s “[The 2028 Global Intelligence Crisis](https://www.citriniresearch.com/p/2028gic),” a financial variation of the take-off scenario where AI ends up doing everything that _doomer_ pundits and industry leaders have been warning of but instead of killing everyone it stops at killing the $13 trillion mortgage market (because of course, that’s the most dramatic thing that could happen if you’re a financial analyst). I read it until I reached a point where they give three examples of SaaS firms that could be affected—“[Monday.com](http://monday.com/), Zapier, and Asana”— because when I asked Claude 4.6 Opus about the “SaaSpocalypse” two weeks earlier, it gave those three exact examples to illustrate its point. It might be a coincidence, but stochastic parrots are usually more parrot than stochastic.
+
+    The third one, and a personal favorite, is Sam Kriss’s Harper’s “[Child’s play](https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/),” a retelling of Kriss’s experience among some of the most idiosyncratic personalities of the San Francisco tech scene. This is the last one chronologically and, in literary merit and arguably historical value, the best of the three. Kriss, unlike, I presume, Shumer and Citrini, is a veteran in the sport of disguising fiction as non-fiction—worthy heir to the Borgesian style, although perhaps born at the worst time possible now that everyone seems to be shamelessly copycatting his schtick—which is apparent from the fact that, among the three texts, his is the only one that feels real. His thesis is something I imagine everyone agrees with: obsessing over being “high agency” and living your life as a means to an end is, ultimately, a relentless run-up for a date with death.
+  
+
 
 ## Definitions
 

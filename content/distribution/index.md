@@ -83,6 +83,11 @@ Transactions and commits
 
 * [Stack on a budget (Free-Tier Driven Development)](https://github.com/255kb/stack-on-a-budget): A collection of services with great free tiers for developers on a budget.
 
+## TCP/IP-level reading
+
+* [Understanding Proxies and Reverse Proxies: Your Gateway to Secure Networking](https://www.freecodecamp.org/news/understanding-proxies-and-reverse-proxies-your-gateway-to-secure-networking/)
+* [The DNS server I wish I’d found earlier](https://www.makeuseof.com/self-hosted-dns-server-wish-someone-told-me-sooner/)
+
 ## Interesting links:
 
 * [Public APIs](https://github.com/public-apis/public-apis): A collection of public APIs to use

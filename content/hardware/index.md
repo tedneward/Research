@@ -164,5 +164,4 @@ https://techwriteredc.com/best-leatherman-multitools/
 
 [This Affordable Bolt-Action EDC Pen Is a Highly Compact Multi-Tool in Disguise](https://www.gearpatrol.com/outdoors/tacray-mp1/)
 
-https://www.yankodesign.com/2025/12/09/xteink-x4-is-a-wallet-sized-ereader-that-snaps-onto-your-phone/
-
+https://lifehacker.com/tech/i-love-this-reusable-smart-notebook - [Rocketbook Core Reusable Smart Notebook](https://www.amazon.com/Rocketbook-Reusable-Spiral-Notebook-Executive/dp/B0DP3J329Z)

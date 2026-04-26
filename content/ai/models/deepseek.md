@@ -7,6 +7,8 @@ summary=AI model and company.
 
 DeepSeek came to the spotlight during the “DeepSeek moment” in early 2025, when its R1 model demonstrated ChatGPT-level reasoning at significantly lower training costs.
 
+- [DeepSeek V4—almost on the frontier, a fraction of the price](https://simonwillison.net/2026/apr/24/deepseek-v4/)
+
 ## Model instances
 
 ### DeepSeek-3.2

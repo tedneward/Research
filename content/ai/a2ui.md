@@ -13,8 +13,6 @@ This approach ensures that agent-generated UIs are **safe like data, but express
 
 ## High-Level Philosophy
 
-[](https://github.com/google/A2UI/#high-level-philosophy)
-
 A2UI was designed to address the specific challenges of interoperable, cross-platform, generative or template-based UI responses from agents.
 
 The project's core philosophies:
@@ -37,3 +35,4 @@ Some of the use cases include:
 ### Articles
 
 - [Introducing A2UI: An open project for agent-driven interfaces](https://developers.googleblog.com/introducing-a2ui-an-open-project-for-agent-driven-interfaces/)
+- [A2UI v0.9: The New Standard for Portable, Framework-Agnostic Generative UI](https://developers.googleblog.com/a2ui-v0-9-generative-ui/)
