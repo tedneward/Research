@@ -1,5 +1,5 @@
 title=Agent-to-Agent (A2A) protocol
-tags=ai, format, distribution
+tags=ai, format, distribution, protocol
 summary=An open standard designed to enable seamless communication and collaboration between AI agents.
 ~~~~~~
 

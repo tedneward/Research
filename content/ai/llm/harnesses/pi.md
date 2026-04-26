@@ -1,5 +1,5 @@
 title=Pi
-tags=ai, agent, coding
+tags=ai, agent, harness, coding
 summary=A minimal terminal coding harness.
 ~~~~~~
 

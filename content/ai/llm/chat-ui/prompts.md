@@ -1,5 +1,5 @@
 title=LLM Prompts
-tags=ai, llm
+tags=ai, agent, prompts
 summary=Collection of interesting/useful prompts for LLMs.
 ~~~~~~
 

@@ -9,6 +9,6 @@ summary=OpenAPI for agents: a single, declarative spec that says what an agent i
 
 ### Reading
 
-- [](https://www.nextmoca.com/blogs/agent-definition-language-adl-the-open-source-standard-for-defining-ai-agents)
+- [ADL: The Open-Source Standard for defining AI agents](https://www.nextmoca.com/blogs/agent-definition-language-adl-the-open-source-standard-for-defining-ai-agents)
 - [Next Moca Releases Agent Definition Language as an Open Source Specification](https://www.nextmoca.com/blogs/agent-definition-language-adl-the-open-source-standard-for-defining-ai-agents)
 

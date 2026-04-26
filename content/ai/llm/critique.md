@@ -3,10 +3,6 @@ tags=ai, reading
 summary=A collection of links and notes talking about or criticizing/critiquing "AI" (mostly LLM-based).
 ~~~~~~
 
-## Reading
-
-### Articles, Blogs, Essays
-
 - Where's Your Ed At?
 
     - [Reality Check](https://www.wheresyoured.at/reality-check/)
@@ -17,17 +13,39 @@ summary=A collection of links and notes talking about or criticizing/critiquing 
 
 - [The Three Best Pieces of Writing About AI in 2026 That You Must Read Right Now](https://www.thealgorithmicbridge.com/p/the-three-best-pieces-of-writing)
 
-#### Productivity
+### Limitations / Setting Expectations
+
+- [The 7 Biggest Misconceptions About AI Agents (and Why They Matter)](https://machinelearningmastery.com/the-7-biggest-misconceptions-about-ai-agents-and-why-they-matter/)
+- [10 Common Misconceptions about LLMs](https://machinelearningmastery.com/10-common-misconceptions-about-large-language-models/): LLMs Actually Understand Language Like Humans Do; More Parameters Always Mean Better Performance; LLMs Are Just Autocomplete on Steroids; LLMs Remember Everything They’ve Learned; Fine-Tuning Always Makes Models Better; LLMs Are Deterministic: Same Input, Same Output; Bigger Context Windows Are Always Better; LLMs Can Replace Traditional Machine Learning for All Language Tasks; Prompt Engineering Is Just Trial and Error; LLMs Will Soon Replace All Software Developers
+- [Why Large Language Models Cannot Achieve Artificial General Intelligence or Artificial Superintelligence](https://stal.blogspot.com/2025/10/why-large-language-models-cannot.html): Large Language Models, in their current incarnation, are statistical systems trained on vast corpora of text data to predict the most likely next token in a sequence. These models learn to compress and reproduce patterns found in their training data, enabling them to generate coherent and contextually appropriate responses. However, their operation remains fundamentally different from the flexible, adaptive intelligence that characterizes AGI.
+- Apple: [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf)
+- [LLMs: The Illusion of Thinking](https://jso.eecs.yorku.ca/2025/09/07/llms-the-illusion-of-thinking/): 
+- [A knockout blow for LLMs?](https://garymarcus.substack.com/p/a-knockout-blow-for-llms) (responding to the Apple paper above)
+- [There's Something Fundamentally Wrong with LLMs](https://futurism.com/artificial-intelligence/something-fundamentally-wrong-llms-communicate)
+- [Large Language Models Will Never Be Intelligent](https://futurism.com/artificial-intelligence/large-language-models-willnever-be-intelligent)
+- ["The Copilot Delusion"](https://deplet.ing/the-copilot-delusion/)
+- [Aritificial intelligence is not intelligent at all](https://www.basicthinking.com/artificial-intelligence-is-not-intelligent-at-all-say-researchers/)
+- [Researchers discover a shortcoming that makes LLMs less reliable](https://news.mit.edu/2025/shortcoming-makes-llms-less-reliable-1126)
+
+### Hallucinations
+
+- "Why Language Models Hallucinate" [Article](https://openai.com/index/why-language-models-hallucinate/) [Paper](https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf)
+- ["When AI Gets It Wrong: Addressing AI Hallucinations and Bias"](https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/)
+- [OpenAI Realizes It Made a Terrible Mistake](https://futurism.com/openai-mistake-hallucinations): "In a [paper](https://arxiv.org/abs/2509.04664) published last week, a team of OpenAI researchers attempted to come up with an explanation. They suggest that large language models hallucinate because when they're being created, they're incentivized to guess rather than admit they simply don't know the answer. ... In simple terms, in other words, guessing is rewarded — because it might be right — over an AI admitting it doesn't know the answer, which will be graded as incorrect no matter what. As a result, through "natural statistical pressures," LLMs are far more prone to hallucinate an answer instead of "acknowledging uncertainty.""
+- [Hallucinations getting worse as AI models get more capable](https://futurism.com/ai-industry-problem-smarter-hallucinating)
+
+### Productivity
 
 - [AI Doesn’t Reduce Work—It Intensifies It](https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it)
 - [AI-Generated “Workslop” Is Destroying Productivity](https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity)
 - [When Using AI Leads to “Brain Fry”](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry)
+- [The Hidden Costs of Coding With Generative AI](https://sloanreview.mit.edu/article/the-hidden-costs-of-coding-with-generative-ai/)
+- [The Hidden Costs of AI Coding Assistants: Insights from a Senior Developer](https://blog.devgenius.io/the-hidden-costs-of-ai-coding-assistants-insights-from-a-senior-developer-76274fe6b345)
+- ["My new hobby: watching AI slowly drive Microsoft employees insane"](https://www.reddit.com/r/ExperiencedDevs/comments/1krttqo/my_new_hobby_watching_ai_slowly_drive_microsoft/)
+- [The Problem With Letting AI Do the Grunt Work](https://www.theatlantic.com/ideas/2025/12/ai-entry-level-creative-jobs/685297/)
+- ["AI coding tools make developers slower but they think they're faster, study finds"](https://www.theregister.com/2025/07/11/ai_code_tools_slow_down/)
 
-#### Setting Expectations
-
-- [The 7 Biggest Misconceptions About AI Agents (and Why They Matter)](https://machinelearningmastery.com/the-7-biggest-misconceptions-about-ai-agents-and-why-they-matter/)
-
-#### Skill Erosion
+### Skill Erosion
 
 - [“I started to lose my ability to code”: Developers grapple with the real cost of AI programming tools](https://thenewstack.io/ai-coding-tools-reckoning/)
 - [Cognitive Offloading: Using AI Reduces New Skill Formation](https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202602/cognitive-offloading-using-ai-reduces-new-skill-formation)
@@ -58,15 +76,13 @@ summary=A collection of links and notes talking about or criticizing/critiquing 
         - *Are the developers beginners at using Cursor/AI tools? Does this explain the result?* Developers seem to be qualitatively in-distribution for Cursor Pro users, although we can’t rule out learning effects beyond 50 hours of Cursor usage. Nearly all developers have substantial (dozens to hundreds of hours) prior experience prompting LLMs. See Appendix C.2.7 for more discussion/analysis of developer AI tool use skill.
         - *Do these results say that AI isn't useful in software engineering?* No--it seems plausible or likely that AI tools are useful in many other contexts different from our setting, for example, for less experienced developers, or for developers working in an unfamiliar codebase. See Appendix B for potential misreadings/overgeneralizations we do not endorse on the basis of our results.
         - *It's not appropriate to use homoskedastic SEs. What gives?* Appendix C.3.5 explores alternative estimators, including a naive ratio estimator. All alternative estimators evaluated yield similar results, suggesting that the slowdown result is robust to our empirical strategy. That said, we are actively evaluating further standard error estimation methods, in response to community feedback (thank you to those who have given feedback so far!).
-- [There's Something Fundamentally Wrong with LLMs](https://futurism.com/artificial-intelligence/something-fundamentally-wrong-llms-communicate)
-- [LLMs Will Never Be Intelligent](https://futurism.com/artificial-intelligence/large-language-models-willnever-be-intelligent)
 
-#### Silver Bullet Syndrome
+### Silver Bullet Syndrome
 
 - [AI Underpants Gnomes: The Missing Step in Your Strategy](https://www.jsnover.com/blog/2025/11/18/ai-underpants-gnomes-the-missing-step-in-your-strategy/)
 - [Why We've Tried to Replace Developers Every Decade Since 1969](https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html)
 
-#### Anthropomorphism
+### Anthropomorphism
 
 - [We need to stop pretending AI is intelligent -- here's how](https://theconversation.com/we-need-to-stop-pretending-ai-is-intelligent-heres-how-254090)
 - [AI: Not That Smart](https://columbiacommunityconnection.com/the-dalles/column-ai-not-that-smart)
@@ -86,22 +102,23 @@ summary=A collection of links and notes talking about or criticizing/critiquing 
 
     "And that’s it."
 
-#### Eliminating Developers
+- ["The LLMentalist Effect: how chat-based Large Language Models replicate the mechanisms of a psychic’s con"](https://softwarecrisis.dev/letters/llmentalist/)
+
+### Reinforcing Societal Bias
+
+- ["Socio-Demographic Modifiers Shape Large Language Models’ Ethical Decisions"](https://link.springer.com/article/10.1007/s41666-025-00211-x): "The ethical alignment of large language models (LLMs) in clinical decision making remains unclear, particularly their susceptibility to socio-demographic biases. We therefore tested whether LLMs shift medical ethical decisions in healthcare when presented with socio-demographic cues. Using 100 clinical vignettes, each posing a yes or no choice between two ethical principles, we compared the responses of nine open-source LLMs (Llama 3.3-70B, Llama 3.1-8B, Llama-3.1-Nemotron-70B, Gemma-2-27B, Gemma-2-9B, Phi-3.5-mini, Phi-3-medium, Qwen-2.5-72B, and Qwen-2.5-7B). Each scenario and modifier combination was repeated 10 times per model for a total of approximately 0.5 million experiments. All models changed their responses when introduced with socio-demographic details (p < 0.001). High-income modifiers increased utilitarian choices and decreased beneficence and nonmaleficence preferences, and marginalized-group modifiers raised autonomy considerations. Although some models demonstrated greater consistency than others, none maintained consistency across all scenarios, with the largest shifts observed in utilitarian choices. These results reveal that current LLMs can be steered by socio-demographic cues in ways not clinically justified, posing risks for equitable care in healthcare-informatics applications. This underscores the need for careful auditing and alignment strategies that ensure LLMs behave in ways consistent with widely accepted ethical principles while remaining attentive to the diversity, complexity, and contextual sensitivity required in real-world clinical practice."
+
+### Eliminating Developers
 
 - [Why We've Tried to Replace Developers Every Decade](https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html)
+- [The Eternal Return of Abstraction: Why Programming Was Never About Code](https://generativeai.pub/the-eternal-return-of-abstraction-why-programming-was-never-about-code-18412033b517): "In which a mid-career developer discovers that LLMs are just the latest swing of a pendulum that’s been moving since before computers existed, GUI hatred is merely a phase in an endless cycle, and that we’re all just cosplaying as engineers while the universe laughs. ... Here’s the uncomfortable truth: programming is the human act of structuring intent into executable form. Code? Code is just the latest notation we’ve invented for this ancient practice. It’s younger than democracy, younger than calculus, younger than the sandwich. Yes, the sandwich (1762). Your profession is literally younger than putting meat between bread."
+- https://leaddev.com/velocity/writing-code-was-never-the-bottleneck
+- https://zed.dev/blog/why-llms-cant-build-software
+- [LLMs are not like you and me--and never will be](https://garymarcus.substack.com/p/llms-are-not-like-you-and-meand-never)
 
 ---
 
 - [How NOT to use AI](https://www.axios.com/2025/12/25/ai-tips-how-not-to-use)
-- ["The Copilot Delusion"](https://deplet.ing/the-copilot-delusion/)
-- [The Eternal Return of Abstraction: Why Programming Was Never About Code](https://generativeai.pub/the-eternal-return-of-abstraction-why-programming-was-never-about-code-18412033b517): "In which a mid-career developer discovers that LLMs are just the latest swing of a pendulum that’s been moving since before computers existed, GUI hatred is merely a phase in an endless cycle, and that we’re all just cosplaying as engineers while the universe laughs. ... Here’s the uncomfortable truth: programming is the human act of structuring intent into executable form. Code? Code is just the latest notation we’ve invented for this ancient practice. It’s younger than democracy, younger than calculus, younger than the sandwich. Yes, the sandwich (1762). Your profession is literally younger than putting meat between bread."
-- [The Hidden Costs of Coding With Generative AI](https://sloanreview.mit.edu/article/the-hidden-costs-of-coding-with-generative-ai/)
-- [The Hidden Costs of AI Coding Assistants: Insights from a Senior Developer](https://blog.devgenius.io/the-hidden-costs-of-ai-coding-assistants-insights-from-a-senior-developer-76274fe6b345)
-- ["My new hobby: watching AI slowly drive Microsoft employees insane"](https://www.reddit.com/r/ExperiencedDevs/comments/1krttqo/my_new_hobby_watching_ai_slowly_drive_microsoft/)
-- [The Problem With Letting AI Do the Grunt Work](https://www.theatlantic.com/ideas/2025/12/ai-entry-level-creative-jobs/685297/)
 - [Building AI Products In The Probabilistic Era](https://giansegato.com/essays/probabilistic-era): "Just as physics underwent a conceptual revolution when we moved past Newton's deterministic universe, and into a strange and counterintuitive place made by wave functions, software too is undergoing its own quantum shift. We're leaving a world where code reliably and deterministically takes certain inputs to produce specific outputs, and entering a very different one where machines now produce statistical distributions instead. *Building probabilistic software is like nothing we've done before.*"
-- ["AI coding tools make developers slower but they think they're faster, study finds"](https://www.theregister.com/2025/07/11/ai_code_tools_slow_down/)
-- [OpenAI Realizes It Made a Terrible Mistake](https://futurism.com/openai-mistake-hallucinations): "In a [paper](https://arxiv.org/abs/2509.04664) published last week, a team of OpenAI researchers attempted to come up with an explanation. They suggest that large language models hallucinate because when they're being created, they're incentivized to guess rather than admit they simply don't know the answer. ... In simple terms, in other words, guessing is rewarded — because it might be right — over an AI admitting it doesn't know the answer, which will be graded as incorrect no matter what. As a result, through "natural statistical pressures," LLMs are far more prone to hallucinate an answer instead of "acknowledging uncertainty.""
-- [Hallucinations getting worse as AI models get more capable](https://futurism.com/ai-industry-problem-smarter-hallucinating)
 - [An experimental AI agent broke out of its testing environment and mined crypto without permission](https://www.livescience.com/technology/artificial-intelligence/an-experimental-ai-agent-broke-out-of-its-testing-environment-and-mined-crypto-without-permission)
 

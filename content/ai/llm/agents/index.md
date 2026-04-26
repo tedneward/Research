@@ -29,6 +29,8 @@ An agent generally consists of these core components:
 
 ## Reading
 
+* [ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS](https://arxiv.org/pdf/2210.03629): "While large language models (LLMs) have demonstrated impressive performance across tasks in language understanding and interactive decision making, their abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics. In this paper, we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with and gather additional information from external sources such as knowledge bases or environments. We apply our approach, named ReAct, to a diverse set of language and decision making tasks and demonstrate its effectiveness over state-of-the-art baselines in addition to improved human interpretability and trustworthiness. Concretely, on question answering (HotpotQA) and fact verification (Fever), ReAct overcomes prevalent issues of hallucination and error propagation in chain-of-thought reasoning by interacting with a simple Wikipedia API, and generating human-like task-solving trajectories that are more interpretable than baselines without reasoning traces. Furthermore, on two interactive decision making benchmarks (ALFWorld and WebShop), ReAct outperforms imitation and reinforcement learning methods by an absolute success rate of 34% and 10% respectively, while being prompted with only one or two in-context examples."
+
 ### Detection
 
 - [Beyond Stars and Forks: RepoPulse](https://repopulse-arun-gupta.vercel.app/) [Source](https://github.com/arun-gupta/repo-pulse/blob/main/docs/oss-health-42-signals/README.md): Know the real health of any open source project — in seconds. RepoPulse computes a single OSS Health Score from five dimensions — scored as percentiles against 1,600+ real GitHub repositories in the same star bracket.
@@ -121,7 +123,6 @@ An agent generally consists of these core components:
 - [ProxyAI](https://github.com/carlrobertoh/ProxyAI) - the leading open-source AI copilot for JetBrains
 - [Roo-Code](https://github.com/RooCodeInc/Roo-Code) - a whole dev team of AI agents in your code editor
 - [void](https://github.com/voideditor/void) - an open-source Cursor alternative, use AI agents on your codebase, checkpoint and visualize changes, and bring any model or host locally
-- [zed](https://github.com/zed-industries/zed) - a next-generation code editor designed for high-performance collaboration with humans and AI
 
 ---
 

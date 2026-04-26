@@ -1,5 +1,5 @@
 title=Retrival Augmented Generation (RAG)
-tags=ai
+tags=ai, llm, rag
 summary=Concepts, notes, links, reading
 ~~~~~~
 

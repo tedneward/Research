@@ -1,5 +1,5 @@
-title=Claude Code
-tags=ai, development
+title=Claude
+tags=ai, coding, agent, harness
 summary=The AI agent.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=LiteRT
-tags=ai, library, android, ios, macos, windows, linux
+tags=ai, llm, framework, android, ios, macos, windows, linux
 summary=High-performance ML & GenAI deployment on edge platforms.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=ComfyUI
-tags=ai
+tags=ai, generative, image, video, audio
 summary=A node-based Gradio GUI designed for generative AI models to generate AI images, video, and audio locally on your own hardware.
 ~~~~~~
 

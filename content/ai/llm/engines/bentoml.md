@@ -1,13 +1,11 @@
 title=BentoML
-tags=ai, runtime, platform
+tags=ai, engine, platform
 summary=The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more! (Unified Model Serving Framework)
 ~~~~~~
 
 [Website](https://bentoml.com/) | [Source](https://github.com/bentoml/bentoml)
 
 ## What is BentoML?
-
-[](https://github.com/bentoml/bentoml#what-is-bentoml)
 
 BentoML is a Python library for building online serving systems optimized for AI apps and model inference.
 
@@ -18,8 +16,6 @@ BentoML is a Python library for building online serving systems optimized for AI
 -   **Ready for Production.** Develop, run and debug locally. Seamlessly deploy to production with Docker containers or [BentoCloud](https://www.bentoml.com/).
 
 ## Getting started
-
-[](https://github.com/bentoml/bentoml#getting-started)
 
 Install BentoML:
 

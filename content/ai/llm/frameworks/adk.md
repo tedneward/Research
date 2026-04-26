@@ -1,5 +1,5 @@
 title=Agent Development Kit (ADK)
-tags=ai, jvm, python
+tags=ai, llm, agent, framework, jvm, python
 summary=An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
 ~~~~~~
 

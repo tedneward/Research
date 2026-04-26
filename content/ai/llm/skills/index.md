@@ -25,6 +25,36 @@ Skills load in three stages:
 
 Skills are **instructions**, not code. The AI reads them like a human would read a guide, then follows the steps.
 
+# Effective Skills
+
+## Skills Paths for AI Coding Assistants
+
+| Tool | Project Path | Global Path | Official Docs |
+| --- | --- | --- | --- |
+| Antigravity | `.agent/skills/` | `~/.gemini/antigravity/skills/` | [Antigravity Skills](https://antigravity.google/docs/skills) |
+| Claude Code | `.claude/skills/` | `~/.claude/skills/` | [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/skills) |
+| Codex | `.agents/skills/` | `~/.agents/skills/` | [Codex Skills](https://developers.openai.com/codex/skills) |
+| Cursor | `.cursor/skills/` | `~/.cursor/skills/` | [Cursor Skills](https://cursor.com/docs/context/skills) |
+| Gemini CLI | `.gemini/skills/` | `~/.gemini/skills/` | [Gemini CLI Skills](https://geminicli.com/docs/cli/skills/) |
+| GitHub Copilot | `.github/skills/` | `~/.copilot/skills/` | [Copilot Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills) |
+| OpenCode | `.opencode/skills/` | `~/.config/opencode/skills/` | [OpenCode Skills](https://opencode.ai/docs/skills) |
+| Windsurf | `.windsurf/skills/` | `~/.codeium/windsurf/skills/` | [Windsurf Cascade Skills](https://docs.windsurf.com/windsurf/cascade/skills) |
+
+## Skill Quality Standards
+
+As the ecosystem grows, consistent quality helps agents discover and use skills reliably. The following references and criteria keep the bar high.
+
+### Quality Criteria
+
+| Area | Guideline |
+| --- | --- |
+| **Description** | Write in third person. State _what_ the skill does and _when_ to use it. Use specific keywords agents can match on (e.g., "PostgreSQL migration" not "database stuff"). |
+| **Progressive disclosure** | Keep top-level metadata under ~100 tokens. Skill body should stay below 500 lines. Load resources (large docs, schemas) on demand, not inline. |
+| **No absolute paths** | Never hard-code machine-specific paths like `/Users/alice/`. Use relative paths or well-known variables (`$HOME`, `$PROJECT_ROOT`). |
+| **Scoped tools** | Request only the tools the skill actually needs. Avoid blanket `"tools": ["*"]`. Declare tool dependencies explicitly. |
+
+
+
 ---
 
 ## Compatible Agents

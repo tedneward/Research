@@ -15,6 +15,7 @@ summary=A collection of links to academic courses and/or tutorials on AI.
 - CS224U – Natural Language Understanding (How machines interpret meaning) - https://www.youtube.com/playlist?list=PLoROMvodv4rPt5D0zs3YhbWSZA8Q_DyiJ
 - CS224N – NLP with Deep Learning (transformers, embeddings, modern NLP) - https://www.youtube.com/playlist?list=PLoROMvodv4rOaMFbaqxPDoLWjDaRAdP9D
 - CS229 – Machine Learning by Andrew Ng (the legendary ML course) - https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU
+- CS229 - Machine Learning I Building Large Language Models (LLMs) - https://www.youtube.com/watch?app=desktop&v=9vM4p9NN0Ts&feature=youtu.be
 - CS229M – Machine Learning Theory (Mathematical backbone) - https://www.youtube.com/playlist?list=PLoROMvodv4rP8nAmISxFINlGKSK4rbLKh
 - CS329H – ML from Human Preferences (reinforcement learning meets alignment) - https://www.youtube.com/watch?v=ApF2OenMgfc&list=PLoROMvodv4rNm525zyAObP4al43WAifZz
 - CS230 – Deep Learning by Andrew Ng (Neural networks, CNNs, RNNs) - https://www.youtube.com/playlist?list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb

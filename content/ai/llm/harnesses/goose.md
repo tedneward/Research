@@ -1,5 +1,5 @@
 title=Goose
-tags=ai, agent, coding
+tags=ai, agent, coding, harness
 summary=Your local AI agent, automating engineering tasks seamlessly.
 ~~~~~~
 
