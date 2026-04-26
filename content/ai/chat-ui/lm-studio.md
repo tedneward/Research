@@ -1,5 +1,5 @@
 title=LM Studio
-tags=ai, inference engine
+tags=ai, tool, engine, chat ui
 summary=Locally-installed host for LLMs.
 ~~~~~~
 

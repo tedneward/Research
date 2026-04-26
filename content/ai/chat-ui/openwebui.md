@@ -1,5 +1,5 @@
 title=OpenWebUI
-tags=ai, tool, presentation, python, answer engine
+tags=ai, tool, chat ui
 summary=An extensible, feature-rich, user-friendly, self-hosted AI platform designed to operate entirely offline, supporting various LLM runners like Ollama and OpenAI-compatible APIs, with built-in inference engine for RAG.
 ~~~~~~
 

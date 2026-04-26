@@ -1,5 +1,5 @@
 title=GPT4All
-tags=ai, engine
+tags=ai, tool, engine, chat ui
 summary=Run Local LLMs on Any Device.
 ~~~~~~
 

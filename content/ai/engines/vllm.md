@@ -24,15 +24,16 @@ docker run --runtime nvidia --gpus all \
     --model Qwen/Qwen3-0.6B
 ```
 
+## Related Implementations
+
+- [vllm-gfx906](https://github.com/nlzy/vllm-gfx906) - vLLM for AMD gfx906 GPUs, e.g. Radeon VII / MI50 / MI60
+- [vllm-playground](micytao.github.io/vllm-workshop/) | [Source](https://github.com/micytao/vllm-playground): A modern web interface for managing and interacting with vLLM servers (www.github.com/vllm-project/vllm). Supports both GPU and CPU modes, with special optimizations for macOS Apple Silicon and enterprise deployment on OpenShift/Kubernetes.
+
 ## Resources
 
 ### Hardware
 
 - [vLLM on Mac Studio M4](https://medium.com/@michael.hannecke/hands-on-vllm-metal-on-mac-studio-m4-6263062c8c2d)
-
-### Related projects
-
-- [vllm-playground](micytao.github.io/vllm-workshop/) | [Source](https://github.com/micytao/vllm-playground): A modern web interface for managing and interacting with vLLM servers (www.github.com/vllm-project/vllm). Supports both GPU and CPU modes, with special optimizations for macOS Apple Silicon and enterprise deployment on OpenShift/Kubernetes.
 
 ### Reading
 

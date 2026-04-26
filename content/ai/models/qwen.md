@@ -7,6 +7,10 @@ summary=Alibaba Cloud LLM models.
 
 ## Model instances
 
+### Qwen2.5-Coder
+
+Your go-to coding companion. "It's a specialized LLM from the same family as qwen 2.5, but it's fine-tuned specifically for coding tasks. It is trained on an enormous dataset of code, providing it with a deep understanding of over 40 programming languages. The qwen-coder2.5 comes in different sizes, from a small 0.5B model to a powerful 32B model."
+
 ### Qwen3-Coder
 
 The code version of Qwen3, the large language model series developed by Qwen team, Alibaba Cloud.

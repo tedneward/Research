@@ -1,6 +1,6 @@
-title=Spec Kit
-tags=language, ai, spec-oriented
-summary=An effort to allow organizations to focus on product scenarios rather than writing undifferentiated code with the help of Spec-Driven Development.
+title=Spec-Kit
+tags=ai, agent, coding, specification-driven
+summary=An open source toolkit that allows you to focus on product scenarios and predictable outcomes instead of vibe coding every piece from scratch.
 ~~~~~~
 
 [Source](https://github.com/github/spec-kit)
@@ -533,3 +533,11 @@ The `/implement` command will:
 Once the implementation is complete, test the application and resolve any runtime errors that may not be visible in CLI logs (e.g., browser console errors). You can copy and paste such errors back to your AI agent for resolution.
 
 </details>
+
+## Reading
+
+### Articles
+
+- [Spec-driven development with AI: Get started with a new open source toolkit](https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/)
+- [Revolutionizing AI-Powered Development: A Complete Guide to GitHub’s SpecKit](https://medium.com/@abhinav.dobhal/revolutionizing-ai-powered-development-a-complete-guide-to-githubs-speckit-a85a39f0e2ee)
+

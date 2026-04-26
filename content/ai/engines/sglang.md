@@ -60,6 +60,10 @@ Once the server is running, API documentation is available at:
 
 The server automatically applies the chat template from the Hugging Face tokenizer. You can override it with `--chat-template` when launching.
 
+## Related Implementations
+
+- [mini-sglang](https://github.com/sgl-project/mini-sglang) - a lightweight yet high-performance inference framework for Large Language Models
+
 ## Send Requests
 
 SGLang is fully **OpenAI API-compatible**, so you can use the same tools and libraries you already know.

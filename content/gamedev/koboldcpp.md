@@ -1,5 +1,5 @@
 title=koboldcpp
-tags=gamedev, ai, tool
+tags=gamedev, ai, tool, engine
 summary=Run GGUF models easily with a KoboldAI UI.
 ~~~~~~
 
