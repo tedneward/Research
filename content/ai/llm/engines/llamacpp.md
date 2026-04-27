@@ -1,5 +1,5 @@
 title=llama.cpp
-tags=ai, inference engine
+tags=ai, engine
 summary=Widely used inference engine for running local models.
 ~~~~~~
 

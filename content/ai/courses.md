@@ -1,5 +1,5 @@
 title=Courses in AI
-tags=ai, courses
+tags=ai, llm, machine learning, reinforcement learning, deep learning, natural language, courses
 summary=A collection of links to academic courses and/or tutorials on AI.
 ~~~~~~
 
@@ -22,9 +22,12 @@ summary=A collection of links to academic courses and/or tutorials on AI.
 - CS234 – Reinforcement Learning (Agents, environments, reward-driven learning) - https://www.youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX
 - CS330 – Deep Multi-Task & Meta Learning (How models learn to learn) - https://www.youtube.com/watch?v=bkVCAk9Nsss&list=PLoROMvodv4rNjRoawgt72BBNwL2V7doGI
 
-## Tutorials
+### The Ollama Course
 
-- https://towardsdatascience.com/langgraph-101-lets-build-a-deep-research-agent/ : Learn LangGraph fundamentals from Google’s open-source full-stack implementation
+* [Introduction to the Ollama Course](https://www.youtube.com/watch?v=9KEUFe4KQAI)
+* [What are the different types of models](https://www.youtube.com/watch?v=f4tXwCNP1Ac)
+* [Upgrade Your AI Using WebSearch](https://www.youtube.com/watch?v=GMlSFIp1na0): SearXNG
+* [GitHub projects](https://github.com/technovangelist/videoprojects)
 
 
 

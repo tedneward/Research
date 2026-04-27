@@ -3,6 +3,11 @@ tags=ai, model
 summary=An overview of AI models.
 ~~~~~~
 
+- [nanochat](https://github.com/karpathy/nanochat) - a full-stack implementation of an LLM like ChatGPT in a single, clean, minimal, hackable, dependency-lite codebase, designed to run on a single 8XH100 node via scripts like speedrun.sh, that run the entire pipeline start to end
+- [Knowledge Distillation: How LLMs train each other](https://www.youtube.com/watch?v=jrJKRYAdh7I)
+- [gguf-docs](https://github.com/iuliaturc/gguf-docs) - Docs for GGUF quantization (unofficial)
+- [Embarrassingly Simple Self-Distillation Improves Code Generation](https://arxiv.org/pdf/2604.01193)
+
 #### What is the best open-source LLM now?
 
 The “best” open-source LLM always depends on your use case, compute budget, and priorities.That said, if you really want some names, here are commonly recommended open-source LLMs for different use cases.
@@ -22,6 +27,26 @@ The “best” model is the one that fits your product requirements, works withi
 * Fine Tuned models ("chat", "instruct", "code"): receive input in a specific format and respond accordingly
 * Embedding models (special case): smaller, specifically for creating embedding vectors
 * Multi modal: accepts text and some other modality (image, audio, video, ....)
+
+## [Fine-tuning](https://www.bentoml.com/llm/getting-started/llm-fine-tuning)
+Fine-tuning is one of the most effective ways to adapt an LLM for a specific use case. It continues the training process on a pre-trained model using new, task-specific data. This can involve updating the entire model or just specific layers.
+
+A key driver behind fine-tuning is efficiency. Instead of training a model from scratch (which is extremely resource-intensive), it's far easier and more cost-effective to build on top of a base model that has already learned general language patterns from massive datasets. Fine-tuning sharpens those broad capabilities for your particular task.
+
+For example, fine-tuning can significantly improve a model’s:
+
+-   **Domain expertise**: Adapting a model for legal, medical, or programming-related tasks.
+-   **Instruction following**: Ensuring the model adheres to specific formats, tones, or styles in its responses.
+-   **Safety and alignment**: Reinforcing how the model handles sensitive or high-risk prompts.
+
+### Common fine-tuning frameworks
+
+Fine-tuning LLMs doesn’t have to mean building everything from the ground up. Several open-source frameworks are designed to streamline the process. These tools provide out-of-the-box support for training open-weight models on custom datasets. They make it easier to apply modern optimization techniques without having to write complex training code yourself. Many of these frameworks are also built with efficiency in mind, helping users reduce memory usage and speed up training, even on limited hardware.
+
+- [Axolotl](/ai/llm/models/axolotl)
+- [LLaMA Factory](/ai/llm/models/llama-factory)
+- [Torchtune](/ai/llm/models/torchtune)
+- [Unsloth](/ai/llm/models/unsloth)
 
 ## Explorers, Benchmarks, Leaderboards
 
@@ -175,15 +200,6 @@ The “best” model is the one that fits your product requirements, works withi
 - [The Best Open-Source Vision Language Models in 2026](https://www.bentoml.com/blog/multimodal-ai-a-guide-to-open-source-vision-language-models)
 - [The Best Open-Source Image Generation Models in 2026](https://bentoml.com/blog/a-guide-to-open-source-image-generation-models)
 - [Top 7 Open Source OCR Models](https://www.kdnuggets.com/top-7-open-source-ocr-models)
-
-## Videos
-
-### The Ollama Course
-
-* [Introduction to the Ollama Course](https://www.youtube.com/watch?v=9KEUFe4KQAI)
-* [What are the different types of models](https://www.youtube.com/watch?v=f4tXwCNP1Ac)
-* [Upgrade Your AI Using WebSearch](https://www.youtube.com/watch?v=GMlSFIp1na0): SearXNG
-* [GitHub projects](https://github.com/technovangelist/videoprojects)
 
 
 

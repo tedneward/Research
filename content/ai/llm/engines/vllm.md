@@ -1,13 +1,15 @@
 title=vLLM
-tags=ai, inference engine
+tags=ai, engine
 summary=Easy, fast, and cheap LLM serving for everyone
 ~~~~~~
 
 [Website](https://vllm.ai/) | [Source](https://github.com/vllm-project/) | [Docs](https://docs.vllm.ai/en/stable/) | [Docker Hub](https://hub.docker.com/r/vllm/vllm-openai/)
 
+[vLLM Production Stack](https://github.com/vllm-project/production-stack) - vLLM’s reference system for K8S-native cluster-wide deployment with community-driven performance optimization
+
 Looks more complicated than Ollama or LocalAI, which makes a certain amount of sense, I suppose. 
 
-vLLM can only serve one model at a time; to run multiple models, run separate instances of vLLM on different ports.
+vLLM can only serve one model at a time; to run multiple models, run separate instances of vLLM on different ports. (I think this is probably true of all engines.)
 
 ## Getting Started
 
@@ -27,7 +29,7 @@ docker run --runtime nvidia --gpus all \
 ## Related Implementations
 
 - [vllm-gfx906](https://github.com/nlzy/vllm-gfx906) - vLLM for AMD gfx906 GPUs, e.g. Radeon VII / MI50 / MI60
-- [vllm-playground](micytao.github.io/vllm-workshop/) | [Source](https://github.com/micytao/vllm-playground): A modern web interface for managing and interacting with vLLM servers (www.github.com/vllm-project/vllm). Supports both GPU and CPU modes, with special optimizations for macOS Apple Silicon and enterprise deployment on OpenShift/Kubernetes.
+- [vllm-playground](micytao.github.io/vllm-workshop/) | [Source](https://github.com/micytao/vllm-playground): A modern web interface for managing and interacting with vLLM servers. Supports both GPU and CPU modes, with special optimizations for macOS Apple Silicon and enterprise deployment on OpenShift/Kubernetes.
 
 ## Resources
 
@@ -38,3 +40,4 @@ docker run --runtime nvidia --gpus all \
 ### Reading
 
 - [Moving from Ollama to vLLM: Finding Stability for High-Throughput LLM Serving](https://pub.towardsai.net/moving-from-ollama-to-vllm-finding-stability-for-high-throughput-llm-serving-74d3dc9702c8)
+

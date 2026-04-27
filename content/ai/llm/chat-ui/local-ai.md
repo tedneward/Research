@@ -55,3 +55,8 @@ local-ai models list          # List available models in the gallery
 local-ai models install <name> # Install a model
 ```
 
+## Reading
+
+### Articles, Blogs, Essays
+
+- [How to run a local LLM via LocalAI, an Open Source project](https://thenewstack.io/how-to-run-a-local-llm-via-localai-an-open-source-project/)

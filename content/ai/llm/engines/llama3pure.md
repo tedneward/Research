@@ -1,5 +1,5 @@
 title=llama3pure
-tags=ai, inference engine
+tags=ai, engine
 summary=Three inference engines for Llama 3: pure C for desktop systems, pure JavaScript for Node.js, and pure JavaScript for Web environments.
 ~~~~~~
 

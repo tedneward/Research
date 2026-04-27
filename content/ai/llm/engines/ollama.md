@@ -1,5 +1,5 @@
 title=Ollama
-tags=ai, inference engine
+tags=ai, engine
 summary=Locally-installed host for LLMs.
 ~~~~~~
 

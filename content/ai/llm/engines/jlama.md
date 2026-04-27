@@ -1,5 +1,5 @@
 title=Jlama
-tags=ai, jvm
+tags=ai, jvm, engine
 summary=A modern Java inference engine for LLMs.
 ~~~~~~
 

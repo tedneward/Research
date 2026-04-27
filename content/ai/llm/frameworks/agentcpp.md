@@ -1,5 +1,5 @@
 title=agent.cpp
-tags=ai, native, agent, library
+tags=ai, native, agent, framework
 summary=Building blocks for agents in C++.
 ~~~~~~
 

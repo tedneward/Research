@@ -1,5 +1,5 @@
 title=Agent Definition Language (ADL)
-tags=ai, language, dsl
+tags=ai, language, dsl, agent
 summary=A vendor-neutral, open standard for defining AI agents.
 ~~~~~~
 
@@ -191,3 +191,10 @@ node tools/validate.js examples/minimal_agent.json
   "rag": []
 }
 ```
+
+## Resources
+
+### Reading
+
+- [ADL: The Open-Source Standard for defining AI agents](https://www.nextmoca.com/blogs/agent-definition-language-adl-the-open-source-standard-for-defining-ai-agents)
+- [Next Moca Releases Agent Definition Language as an Open Source Specification](https://www.nextmoca.com/blogs/agent-definition-language-adl-the-open-source-standard-for-defining-ai-agents)

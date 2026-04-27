@@ -41,7 +41,6 @@ summary=Collection of links, notes, and models.
 * [Deploy an AI Analyst in Minutes: Connect Any LLM to Any Data Source with Bag of Words](https://www.kdnuggets.com/deploy-an-ai-analyst-in-minutes-connect-any-llm-to-any-data-source-with-bag-of-words)
 * [Designing an open-source LLM interface and social platforms for collectively driven LLM evaluation and auditing](https://openwebui.com/assets/files/whitepaper.pdf): "In the emerging landscape of large language models (LLMs), the imperative for robust evaluation and auditing mechanisms is paramount to ensure their ethical deployment and alignment with user needs. This workshop paper proposes a novel framework for the human-centered evaluation and auditing of LLMs, centered around an open-source chat user interface (UI) that facilitates direct interaction with a wide range of models. This approach allows for a collection of rich datasets critical for nuanced evaluation from a diverse spectrum of user interactions. Building on this foundation, we propose a social platform designed to leverage the collective intelligence of its users through crowdsourcing, enabling the evaluation and auditing of LLMs across various domains. This platform supports a dual-layered evaluation pipeline: an automated preliminary assessment based on user feedback and a deeper, community-driven analysis within domain-specific subcommunities. The culmination of this process informs the development of tailored model configurations and curated datasets, ensuring that LLMs serve the specific needs of different user groups. By combining an open-source UI with a socially-driven evaluation platform, our approach fosters a community-centric ecosystem for continuous LLM improvement, emphasizing transparency, inclusivity, and alignment with human values."
 * [Developing LLM-Based Text Adventure Games](https://stal.blogspot.com/2025/09/developing-llm-based-text-adventure.html)
-* [Enabling small language models to solve complex reasoning tasks](https://news.mit.edu/2025/enabling-small-language-models-solve-complex-reasoning-tasks-1212)
 * [How to Run an LLM Locally to Interact with Your Documents](https://www.freecodecamp.org/news/run-an-llm-locally-to-interact-with-your-documents/)
 * [How to Build a Secure AI PR Reviewer with Claude, GitHub Actions, and JavaScript](https://www.freecodecamp.org/news/how-to-build-a-secure-ai-pr-reviewer-with-claude-github-actions-and-javascript/)
 * [How to Build Reliable AI Systems](https://www.freecodecamp.org/news/how-to-build-reliable-ai-systems/)
@@ -62,77 +61,27 @@ summary=Collection of links, notes, and models.
 * [Let's reproduce GPT-2 (124M)](https://www.youtube.com/watch?v=l8pRSuU81PU)
 * ["Researchers from Virginia Tech and Microsoft Introduce Algorithm of Thoughts: An AI Approach That Enhances Exploration of Ideas And Power of Reasoning In Large Language Models (LLMs)"](https://www.marktechpost.com/2023/08/31/researchers-from-virginia-tech-and-microsoft-introduce-algorithm-of-thoughts-an-ai-approach-that-enhances-exploration-of-ideas-and-power-of-reasoning-in-large-language-models-llms/)
 * [A Survey of Reinforcement Learning for Large Reasoning Models](https://huggingface.co/papers/2509.08827): "In this paper, we survey recent advances in Reinforcement Learning (RL) for reasoning with Large Language Models (LLMs). RL has achieved remarkable success in advancing the frontier of LLM capabilities, particularly in addressing complex logical tasks such as mathematics and coding. As a result, RL has emerged as a foundational methodology for transforming LLMs into LRMs. With the rapid progress of the field, further scaling of RL for LRMs now faces foundational challenges not only in computational resources but also in algorithm design, training data, and infrastructure. To this end, it is timely to revisit the development of this domain, reassess its trajectory, and explore strategies to enhance the scalability of RL toward Artificial SuperIntelligence (ASI). In particular, we examine research applying RL to LLMs and LRMs for reasoning abilities, especially since the release of DeepSeek-R1, including foundational components, core problems, training resources, and downstream applications, to identify future opportunities and directions for this rapidly evolving area. We hope this review will promote future research on RL for broader reasoning models. Github: https://github.com/TsinghuaC3I/Awesome-RL-for-LRMs"
-
-### Models
-
-- [nanochat](https://github.com/karpathy/nanochat) - a full-stack implementation of an LLM like ChatGPT in a single, clean, minimal, hackable, dependency-lite codebase, designed to run on a single 8XH100 node via scripts like speedrun.sh, that run the entire pipeline start to end
-- [Knowledge Distillation: How LLMs train each other](https://www.youtube.com/watch?v=jrJKRYAdh7I)
-- [gguf-docs](https://github.com/iuliaturc/gguf-docs) - Docs for GGUF quantization (unofficial)
-- [Embarrassingly Simple Self-Distillation Improves Code Generation](https://arxiv.org/pdf/2604.01193)
-
-### Prompt Engineering
-
-- [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - guides, papers, lecture, notebooks and resources for prompt engineering
-- [Prompt Engineering by NirDiamant](https://github.com/NirDiamant/Prompt_Engineering) - a comprehensive collection of tutorials and implementations for Prompt Engineering techniques, ranging from fundamental concepts to advanced strategies
-- [Prompting guide 101](https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf) - a quick-start handbook for effective prompts by Google
-- [Prompt Engineering by Google](https://drive.google.com/file/d/1AbaBYbEa_EbPelsT40-vj64L-2IwUJHy/view) - prompt engineering by Google
-- [Prompt Engineering by Anthropic](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - prompt engineering by Anthropic
-- [Prompt Engineering Interactive Tutorial](https://github.com/anthropics/courses/blob/master/prompt_engineering_interactive_tutorial/README.md) - Prompt Engineering Interactive Tutorial by Anthropic
-- [Real world prompting](https://github.com/anthropics/courses/blob/master/real_world_prompting/README.md) - real world prompting tutorial by Anthropic
-- [Prompt evaluations](https://github.com/anthropics/courses/blob/master/prompt_evaluations/README.md) - prompt evaluations course by Anthropic
-- [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - a collection of system prompts extracted from AI tools
-- [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) - a collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini
-- [Prompt from Codex](https://github.com/openai/codex/blob/main/codex-rs/core/prompt.md) - Prompt used to steer behavior of OpenAI's Codex
+* WebLLM: High-Performance In-Browser LLM Inference Engine [Website](https://webllm.mlc.ai/) | [Source](https://github.com/mlc-ai/web-llm)
 
 ### Context Engineering
 
 - [Context-Engineering](https://github.com/davidkimai/Context-Engineering) - a frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization
 - [Awesome-Context-Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) - a comprehensive survey on Context Engineering: from prompt engineering to production-grade AI systems
 
-### Inference
-
-- [vLLM Production Stack](https://github.com/vllm-project/production-stack) - vLLM’s reference system for K8S-native cluster-wide deployment with community-driven performance optimization
-
-### Miscellaneous
-
-- [Self-hosted AI coding that just works](https://www.reddit.com/r/LocalLLaMA/comments/1lt4y1z/selfhosted_ai_coding_that_just_works/)
-
 ### Verification
 
 * [BEAVER](https://huggingface.co/papers/2512.05439): As large language models (LLMs) transition from research prototypes to production systems, practitioners often need reliable methods to verify that model outputs satisfy required constraints. While sampling-based estimates provide an intuition of model behavior, they offer no sound guarantees. We present BEAVER, the first practical framework for computing deterministic, sound probability bounds on LLM constraint satisfaction. Given any prefix-closed semantic constraint, BEAVER systematically explores the generation space using novel token trie and frontier data structures, maintaining provably sound bounds at every iteration. We formalize the verification problem, prove soundness of our approach, and evaluate BEAVER on correctness verification, privacy verification and secure code generation tasks across multiple state of the art LLMs. BEAVER achieves 6 to 8 times tighter probability bounds and identifies 3 to 4 times more high risk instances compared to baseline methods under identical computational budgets, enabling precise characterization and risk assessment that loose bounds or empirical evaluation cannot provide.
 * [The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality](https://huggingface.co/papers/2512.10791): "We introduce The FACTS Leaderboard, an online leaderboard suite and associated set of benchmarks that comprehensively evaluates the ability of language models to generate factually accurate text across diverse scenarios. The suite provides a holistic measure of factuality by aggregating the performance of models on four distinct sub-leaderboards: (1) FACTS Multimodal, which measures the factuality of responses to image-based questions; (2) FACTS Parametric, which assesses models' world knowledge by answering closed-book factoid questions from internal parameters; (3) FACTS Search, which evaluates factuality in information-seeking scenarios, where the model must use a search API; and (4) FACTS Grounding (v2), which evaluates whether long-form responses are grounded in provided documents, featuring significantly improved judge models. Each sub-leaderboard employs automated judge models to score model responses, and the final suite score is an average of the four components, designed to provide a robust and balanced assessment of a model's overall factuality. The FACTS Leaderboard Suite will be actively maintained, containing both public and private splits to allow for external participation while guarding its integrity. It can be found at https://www.kaggle.com/benchmarks/google/facts ."
 
-### Security
-
-* ["Understanding the Dark Side of Large Language Models: A Comprehensive Guide to Security Threats and Vulnerabilities"](https://www.marktechpost.com/2023/09/01/understanding-the-dark-side-of-large-language-models-a-comprehensive-guide-to-security-threats-and-vulnerabilities/)
-* ["Use of LLMs for Illicit Purposes: Threats, Prevention Measures, and Vulnerabilities"](https://arxiv.org/abs/2308.12833)
 
 ### Wow
 
 * [Can LLMs be Computers?](https://www.percepta.ai/blog/can-llms-be-computers): Executing programs inside transformers with exponentially faster inference. ... To achieve [execution inside the LLM], we implemented a WebAssembly interpreter inside the transformer weights.
 * [7 Advanced Feature Engineering Tricks Using LLM Embeddings](https://machinelearningmastery.com/7-advanced-feature-engineering-tricks-using-llm-embeddings/)
 
-## Integrations/Implementations
-
-* [How to run a local LLM via LocalAI, an Open Source project](https://thenewstack.io/how-to-run-a-local-llm-via-localai-an-open-source-project/)
-* [Guidance](https://github.com/guidance-ai/guidance): "Guidance is an efficient programming paradigm for steering language models. With Guidance, you can control how output is structured and get high-quality output for your use case—while reducing latency and cost vs. conventional prompting or fine-tuning. It allows users to constrain generation (e.g. with regex and CFGs) as well as to interleave control (conditionals, loops, tool use) and generation seamlessly."
-
-### Implementation
-
-[WebLLM](https://webllm.mlc.ai/) | [Source](https://github.com/mlc-ai/web-llm): WebLLM: High-Performance In-Browser LLM Inference Engine
-
-### LangChain
-
-* [Getting Started with LangChain: A Beginner’s Guide to Building LLM-Powered Applications](https://towardsdatascience.com/getting-started-with-langchain-a-beginners-guide-to-building-llm-powered-applications-95fc8898732c)
-* [A Practical Guide to Building Local RAG Applications with LangChain](https://machinelearningmastery.com/a-practical-guide-to-building-local-rag-applications-with-langchain/)
-
 ### Python
 
 * https://www.infoq.com/news/2025/08/google-langextract-python/
-* [Python Langchain](https://python.langchain.com/docs/get_started/introduction): LangChain is a framework for developing applications powered by language models. It enables applications that:
-    
-    * Are context-aware: connect a language model to sources of context (prompt instructions, few shot examples, content to ground its response in, etc.)
-    * Reason: rely on a language model to reason (about how to answer based on provided context, what actions to take, etc.)
 
 ---
 
