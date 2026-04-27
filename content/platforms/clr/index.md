@@ -83,3 +83,5 @@ Exploring the .NET 10 Preview:
 [Programmatically Convert HTML to PDF in .NET Core C# Without Dependencies](https://dev.to/grapecity/programmatically-convert-html-to-pdf-in-net-core-c-without-dependencies-76f): "... we will learn about the new GcHtml package, tips for migrating from the old to the new GcHtml package, and finally, explore how to use the new GcHtml package for converting HTML to PDF. GcHtml uses a Chrome or Edge browser (already installed in the current system or downloaded from a public website) in headless mode and interacts with it using the WebSocket protocol."
 
 ["Track your coding progress on GitHub with a .NET Worker Service"](https://dev.to/sannae/track-my-coding-progress-on-github-with-a-net-worker-service-49g4)
+
+[Writing Node.js addons with .NET Native AOT](https://devblogs.microsoft.com/dotnet/writing-nodejs-addons-with-dotnet-native-aot/)

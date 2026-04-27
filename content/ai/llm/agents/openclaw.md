@@ -1,5 +1,5 @@
 title=OpenClaw / MoltBot / ClawdBot
-tags=ai, tool, agent, team
+tags=ai, tool, agent
 summary=Clears your inbox, sends emails, manages your calendar, checks you in for flights.
 ~~~~~~
 

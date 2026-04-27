@@ -27,6 +27,7 @@ summary=PCs, mini-PCs, gaming rigs, etc
 - [Lenovo](https://www.lenovo.com)
 
     - [Thinkstation PGX](https://www.lenovo.com/us/en/p/workstations/thinkstation-p-series/lenovo-thinkstation-pgx-sff/len102s0023)
+    - [https://www.techradar.com/pro/lenovo-thinkstation-p3-ultra-sff-gen-2-mini-pc-workstation-review](https://www.techradar.com/pro/lenovo-thinkstation-p3-ultra-sff-gen-2-mini-pc-workstation-review)
 
 - [HIGOLEPC](https://www.amazon.com/stores/HIGOLEPC/page/AD7311E1-0B35-432D-A921-5E5D4B2C7AA9)
 - [KAMRUI Essenx E1 Mini PC](https://www.amazon.com/KAMRUI-AK1PLUS-Processor-Computer-Ethernet/dp/B0CGD9F533?tag=kotaku01-20&th=1)

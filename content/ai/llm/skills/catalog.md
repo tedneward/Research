@@ -34,6 +34,9 @@ Direct-response advertising skills by Kim Barrett, organized into foundations, c
 - **[realkimbarrett/full-funnel-campaign-orchestrator](https://github.com/realkimbarrett/advertising-skills/tree/main/skills/orchestrators/full-funnel-campaign-orchestrator)** - Coordinate all skills to build a complete ads + funnel campaign end-to-end
 - **[realkimbarrett/generic-language-killer](https://github.com/realkimbarrett/advertising-skills/tree/main/skills/qa/generic-language-killer)** - Remove vague, corporate, or AI-sounding language and replace it with clear, specific, human wording
 
+### Android
+- **[android/skills](https://github.com/android/skills)** - a dedicated repository of AI-optimised, modular instructions and resources, to help LLMs better understand and execute specific patterns that follow the best practices and guidance on Android development from developer.android.com. Use Android CLI to install Android skills to directories for all detected agents: `android skills add [--all] [--agent=<agent-name>] [--skill=<skill-name>]` [Docs](https://developer.android.com/tools/agents/android-skills)
+
 ### Angular
 - **[angular/angular-developer](https://github.com/angular/skills)** - Generate Angular code and architectural guidance for components, services, reactivity
 - **[angular/angular-new-app](https://github.com/angular/skills)** - Create new Angular apps using CLI with modern best practices
@@ -99,6 +102,10 @@ Official skills from the Brave team for accessing Brave Search APIs including we
 - **[brave/suggest](https://officialskills.sh/brave/skills/suggest)** - Query autocomplete suggestions via the Brave Search API
 - **[brave/videos-search](https://officialskills.sh/brave/skills/videos-search)** - Search for videos across the web via the Brave Search API
 - **[brave/web-search](https://officialskills.sh/brave/skills/web-search)** - Search the web via Brave's Search API with ranked results
+
+### Browser (use)
+
+- **[browser-use/browser-harness](https://github.com/browser-use/browser-harness)** - Self-healing harness that enables LLMs to complete any task.
 
 ### Browserbase
 
@@ -964,6 +971,11 @@ Trail of Bits team
 - **[getsentry/sentry-react-sdk](https://officialskills.sh/getsentry/skills/sentry-react-sdk)** - Full Sentry SDK setup for React (React Router v5-v7, TanStack Router, Redux, Vite, webpack)
 - **[getsentry/sentry-ruby-sdk](https://officialskills.sh/getsentry/skills/sentry-ruby-sdk)** - Full Sentry SDK setup for Ruby (Rails, Sinatra, Rack, Sidekiq, Resque)
 - **[getsentry/sentry-svelte-sdk](https://officialskills.sh/getsentry/skills/sentry-svelte-sdk)** - Full Sentry SDK setup for Svelte and SvelteKit
+
+### Simulink (MATLAB)
+
+- [Simulink Agentic Toolkit](https://blogs.mathworks.com/simulink/2026/04/17/simulink-agentic-toolkit/) - In addition to the 5 tools available in the MATLAB MCP server, the toolkit adds 7 Simulink-specific tools (model_overview, model_read, model_edit, model_check,  model_query_params, model_resolve_params, model_test) that are used by 6 skills: 
+building-simulink-models: Best practices for model construction and changes; specifying-mbd-algorithms: Specify algorithms for model-based design — system specs, architecture specs, implementation and test plans; specifying-plant-models:  Plant model specification workflow with 4 templates; testing-simulink-models: Test authoring and validation; generate-requirement-drafts: Requirements generation
 
 ### Stripe
 - **[stripe/stripe-best-practices](https://officialskills.sh/stripe/skills/stripe-best-practices)** - Best practices for building Stripe integrations

@@ -49,6 +49,9 @@ summary=Collection of links, notes, and models.
     * [Part 1: Foundations of AI Engineering and LLMs](https://www.dailydoseofds.com/llmops-crash-course-part-1/)
     * [Part 2: Building Blocks of LLMs: Tokenization and Embeddings](https://www.dailydoseofds.com/llmops-crash-course-part-2/)
 
+* [7 Steps to Mastering Language Model Deployment](https://www.kdnuggets.com/7-steps-to-mastering-language-model-deployment)
+* [The Complete Guide to Inference Caching in LLMs](https://machinelearningmastery.com/the-complete-guide-to-inference-caching-in-llms/)
+* [AI Concepts Software Engineers Need in 2026](https://www.geeky-gadgets.com/ai-concepts-2026/): LLMs, Tokens and Context Windows, AI Agents, MCP, RAG, Fine-tuning, context engineering, multimodal AI, MOE (mixture-of-experts)
 
 ### Implementation
 

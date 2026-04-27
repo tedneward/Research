@@ -26,6 +26,7 @@ An agent generally consists of these core components:
 
 - [Sculpt3D - Logs of the Claude Code session that lead to the current software](https://github.com/marmelab/sculpt-3D/blob/main/claude_code_logs.md)
 - [Agent Skills for Context Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/)
+- [10 Agentic Projects You Can Fork Today](https://www.kdnuggets.com/ai-engineering-hub-breakdown-10-agentic-projects-you-can-fork-today)
 
 ## Reading
 
@@ -66,6 +67,7 @@ An agent generally consists of these core components:
 - [Should You Use RAG or Fine-Tune Your LLM?](https://www.actian.com/blog/databases/should-you-use-rag-or-fine-tune-your-llm/)
 - [Stop Building God Agents](https://tyingshoelaces.com/blog/unlocking-a2a-aggressive-context-curation-agentic-mesh)
 - [Your AI Workflow Is Missing a Composable Architecture](https://thenewstack.io/your-ai-workflow-is-missing-a-composable-architecture/): "You’ve probably heard 'Don’t ask the model to build your whole app. Break your request into smaller parts and generate one function, hook, or component at a time.' if you use AI tools like Copilot or ChatGPT to write code. It’s solid advice because smaller prompts tend to produce cleaner output and fewer hallucinations. They also give you more control over what lands in your codebase. However, even when your prompts are super-descriptive, and the snippets look good, this workflow eventually runs into the same limitation. Without an overarching architecture that ties everything together, nothing connects at scale. Every time you start a new chat, you’re generating isolated pieces of code with no shared memory, version history, or consistency. Once the chat ends, the model forgets what it built. When you return later to extend or reuse that code, it’s often easier to generate something new than to improve what already exists. So what if your AI workflow didn’t have to start from scratch each time? What if every generated function, hook, or component had a home, a version, and a record of how it was used? That’s what composable architecture makes possible. It gives your AI workflow a structure that connects every generated piece into a living system. Components become reusable, versioned, and documented, and your work compounds instead of disappearing with every new chat."
+- [Building a Real-Time Multi-Agent UI with AG-UI and Microsoft Agent Framework Workflows](https://devblogs.microsoft.com/agent-framework/ag-ui-multi-agent-workflow-demo/)
 
 #### Critique
 

@@ -12,3 +12,5 @@ summary=GitHub's coding agent.
 - https://github.blog/ai-and-ml/github-copilot/5-ways-to-integrate-github-copilot-coding-agent-into-your-workflow/
 - [WRAP up your backlog with GitHub Copilot coding agent](https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/): "W – Write effective issues; R – Refine your instructions; A – Atomic tasks; P – Pair with the coding agent"
 - [Using your own LLM models in GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models)
+- [I Wasted 68 Minutes a Day Re-Explaining My Code. Then I Built auto-memory.](https://devblogs.microsoft.com/all-things-azure/i-wasted-68-minutes-a-day-re-explaining-my-code-then-i-built-auto-memory/)
+

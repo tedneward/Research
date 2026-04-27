@@ -34,7 +34,7 @@ The PDF combines three technologies:
 - [Bento PDF](https://bentopdf.com/) [Source](https://github.com/alam00000/bentopdf): BentoPDF covers everything from basic organization to more advanced professional tasks. Core features include the ability to reorganize, rotate, and delete pages within a document.
 - [Okular](https://okular.kde.org/): Lightweight, open-source (Windows, macOS, Linux)
 - [Small PDF](https://smallpdf.com/): A web-based PDF editor
-- [Stirling PDF](https://www.stirlingpdf.com/) [Source](https://github.com/Stirling-Tools/Stirling-PDF): A self-hosting PDF editor
+- [Stirling PDF](/platforms/stirling-pdf): A self-hosting PDF editor
 
 ## Resources
 

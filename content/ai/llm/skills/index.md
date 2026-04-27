@@ -236,6 +236,10 @@ Example Configuration:
 - [Build your first MCP Server](https://modelcontextprotocol.io/docs/first-server) - Python/TypeScript guide
 - [MCP Server Examples](https://github.com/modelcontextprotocol/servers) - Official server implementations
 
+### Microsoft
+
+- [Agent Skills in .NET](https://devblogs.microsoft.com/agent-framework/agent-skills-in-net-three-ways-to-author-one-provider-to-run-them/)
+
 ## Community Resources
 
 ### LangChain Tools

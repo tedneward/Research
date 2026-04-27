@@ -51,6 +51,7 @@ Connection lifecycle:
 
 - [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners)
 - [The Model Context Protocol (MCP): A Complete Guide Series](https://ai.plainenglish.io/the-model-context-protocol-mcp-a-complete-guide-series-db4fc70a5e5a) (Requires Medium account)
+- [MCP using Ollama](https://medium.com/data-science-in-your-pocket/model-context-protocol-mcp-using-ollama-e719b2d9fd7a)
 - [Anthropic intro](https://www.anthropic.com/news/model-context-protocol)
 - [Quickstart: Server](https://modelcontextprotocol.io/quickstart/server): "we’ll build a simple MCP weather server and connect it to a host, Claude for Desktop. We’ll start with a basic setup, and then progress to more complex use cases. We’ll build a server that exposes two tools: `get-alerts` and `get-forecast`. Then we’ll connect the server to an MCP host (in this case, Claude for Desktop):"
 - [An LLM does not need to understand MCP](https://hackteam.io/blog/your-llm-does-not-care-about-mcp/)

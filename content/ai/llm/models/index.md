@@ -39,6 +39,10 @@ For example, fine-tuning can significantly improve a model’s:
 -   **Instruction following**: Ensuring the model adheres to specific formats, tones, or styles in its responses.
 -   **Safety and alignment**: Reinforcing how the model handles sensitive or high-risk prompts.
 
+### More reading on fine-tuning
+
+- [Learn how to fine-tune LLMs in 12 hours](https://www.freecodecamp.org/news/learn-how-to-fine-tune-llms-in-12-hours/)
+
 ### Common fine-tuning frameworks
 
 Fine-tuning LLMs doesn’t have to mean building everything from the ground up. Several open-source frameworks are designed to streamline the process. These tools provide out-of-the-box support for training open-weight models on custom datasets. They make it easier to apply modern optimization techniques without having to write complex training code yourself. Many of these frameworks are also built with efficiency in mind, helping users reduce memory usage and speed up training, even on limited hardware.

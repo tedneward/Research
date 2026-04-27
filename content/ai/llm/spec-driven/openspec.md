@@ -928,3 +928,11 @@ openspec schema validate my-workflow
 - During `/opsx:apply`, if something's wrong — fix the artifact, then continue
 - Tasks track progress via checkboxes in `tasks.md`
 - Check status anytime: `openspec status --change "name"`
+
+## Reading
+
+### Articles/Blogs/Essays
+
+- [OpenSpec vs Spec Kit: Choosing the Right AI-Driven Development Workflow for Your Team](https://hashrocket.com/blog/posts/openspec-vs-spec-kit-choosing-the-right-ai-driven-development-workflow-for-your-team)
+- [How to make AI follow your instructions more for free](https://dev.to/webdeveloperhyper/how-to-make-ai-follow-your-instructions-more-for-free-openspec-2c85)
+- [OpenSpec: A Spec-Driven Workflow for AI Coding Assistants (No API Keys Needed)](https://medium.com/coding-nexus/openspec-a-spec-driven-workflow-for-ai-coding-assistants-no-api-keys-needed-d5b3323294fa)
