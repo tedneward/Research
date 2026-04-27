@@ -1,5 +1,5 @@
 title=Zed
-tags=tool, ai, 
+tags=tool, ai
 summary=A minimal code editor crafted for speed and collaboration with humans and AI.
 ~~~~~~
 
