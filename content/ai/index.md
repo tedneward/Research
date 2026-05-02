@@ -88,31 +88,6 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 * [LangGraph101: Let's build a deep research agent](https://towardsdatascience.com/langgraph-101-lets-build-a-deep-research-agent/)
 * [Quantifying AI-Human Strategy](https://osf.io/preprints/psyarxiv/vbkmt_v1): "We introduce a novel Bayesian Item Response Theory framework to quantify human–AI  synergy, separating individual and  collaborative ability while controlling for task difficulty in interactive settings. Unlike standard static benchmarks, our approach models human–AI performance as a joint process, capturing both user-specific factors and moment-to-moment fluctuations. We validate the frame-work by applying it to human–AI benchmark data (n=667) and find significant synergy. We demonstrate that collaboration  ability is distinct from individual problem-solving ability. Users better able to infer and adapt to others’ perspectives achieve superior collaborative performance with AI--but not when working alone. Moreover, moment-to-moment fluctuations in perspective taking influence AI response quality, highlighting the role of dynamic user factors in collaboration. By introducing a principled framework to analyze data from human-AI collaboration, interactive benchmarks can better complement current single-task bench-marks and crowd-assessment methods. This work informs the design and training of language models that transcend static prompt benchmarks to achieve adaptive,socially aware collaboration with diverse and dynamic human partners."
 * [The New Operational Stack: From IaC to Platforms to AI Agents](https://thenewstack.io/the-new-operational-stack-from-iac-to-platforms-to-ai-agents/)
-* [10 LLM Engineering Concepts Explained in 10 Minutes](https://www.kdnuggets.com/10-llm-engineering-concepts-explained-in-10-minutes):
-
-    1. Understanding Context Engineering
-    2. Implementing Tool Calling
-    3. Adopting the Model Context Protocol
-    4. Enabling Agent-to-Agent Communication
-    5. Leveraging Semantic Caching
-    6. Utilizing Contextual Compression
-    7. Applying Reranking
-    8. Implementing Hybrid Retrieval
-    9. Designing Agent Memory Architectures
-    10. Managing Inference Gateways and Intelligent Routing
-
-* [LLM Inference: Inside a Fast LLM Inference Server](https://pub.towardsai.net/llm-inference-inside-a-fast-llm-inference-server-d551f7bfcc97)
-* Sebastian Raschka: author of "How to Build a Large Language Model (from Scratch)" and "How to Build a Reasoning Model (from Scratch)"
-
-    * [Website](https://sebastianraschka.com/)
-    * [GitHub](https://github.com/rasbt?tab=repositories)
-    * [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
-    * [reasoning-from-scratch](https://github.com/rasbt/reasoning-from-scratch)
-    * [mini-coding-agent](https://github.com/rasbt/mini-coding-agent)
-    * [RAGs](https://github.com/rasbt/RAGs): Simple implementations of Retrieval Augmented Generation (RAG) Systems
-    * [LLM-workshop-2024](https://github.com/rasbt/LLM-workshop-2024)
-    * [LLM-finetuning-scripts](https://github.com/rasbt/LLM-finetuning-scripts)
-
 * [The Three Best Pieces of Writing About AI in 2026 That You Must Read Right Now](https://www.thealgorithmicbridge.com/p/the-three-best-pieces-of-writing): The first is Matt Shumer’s “[Something Big Is Happening](https://x.com/i/status/2021256989876109403),” which amassed north of 80 million views on X, bringing together the entire timeline in a miracle not seen since St. Paul walked the paths of the old world proselytizing for Christ’s word (the godlike reach of Shumer’s essay can be explained by the fact that the title allows every single person to project the biggest thing in their lives right now as the thing happening to everyone else: we all have main character syndrome, especially myself). To Shumer, the big thing happening is AI, plain and simple, without caveats or nuances: AI is big and AI is happening (it's probably irrelevant that he's an AI founder himself with a tendency to hype up claims that don't hold up under scrutiny).
 
     The second is Citrini’s “[The 2028 Global Intelligence Crisis](https://www.citriniresearch.com/p/2028gic),” a financial variation of the take-off scenario where AI ends up doing everything that _doomer_ pundits and industry leaders have been warning of but instead of killing everyone it stops at killing the $13 trillion mortgage market (because of course, that’s the most dramatic thing that could happen if you’re a financial analyst). I read it until I reached a point where they give three examples of SaaS firms that could be affected—“[Monday.com](http://monday.com/), Zapier, and Asana”— because when I asked Claude 4.6 Opus about the “SaaSpocalypse” two weeks earlier, it gave those three exact examples to illustrate its point. It might be a coincidence, but stochastic parrots are usually more parrot than stochastic.

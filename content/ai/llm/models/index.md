@@ -28,30 +28,6 @@ The “best” model is the one that fits your product requirements, works withi
 * Embedding models (special case): smaller, specifically for creating embedding vectors
 * Multi modal: accepts text and some other modality (image, audio, video, ....)
 
-## [Fine-tuning](https://www.bentoml.com/llm/getting-started/llm-fine-tuning)
-Fine-tuning is one of the most effective ways to adapt an LLM for a specific use case. It continues the training process on a pre-trained model using new, task-specific data. This can involve updating the entire model or just specific layers.
-
-A key driver behind fine-tuning is efficiency. Instead of training a model from scratch (which is extremely resource-intensive), it's far easier and more cost-effective to build on top of a base model that has already learned general language patterns from massive datasets. Fine-tuning sharpens those broad capabilities for your particular task.
-
-For example, fine-tuning can significantly improve a model’s:
-
--   **Domain expertise**: Adapting a model for legal, medical, or programming-related tasks.
--   **Instruction following**: Ensuring the model adheres to specific formats, tones, or styles in its responses.
--   **Safety and alignment**: Reinforcing how the model handles sensitive or high-risk prompts.
-
-### More reading on fine-tuning
-
-- [Learn how to fine-tune LLMs in 12 hours](https://www.freecodecamp.org/news/learn-how-to-fine-tune-llms-in-12-hours/)
-
-### Common fine-tuning frameworks
-
-Fine-tuning LLMs doesn’t have to mean building everything from the ground up. Several open-source frameworks are designed to streamline the process. These tools provide out-of-the-box support for training open-weight models on custom datasets. They make it easier to apply modern optimization techniques without having to write complex training code yourself. Many of these frameworks are also built with efficiency in mind, helping users reduce memory usage and speed up training, even on limited hardware.
-
-- [Axolotl](/ai/llm/models/axolotl)
-- [LLaMA Factory](/ai/llm/models/llama-factory)
-- [Torchtune](/ai/llm/models/torchtune)
-- [Unsloth](/ai/llm/models/unsloth)
-
 ## Explorers, Benchmarks, Leaderboards
 
 - [Arena](https://arena.ai/) - benchmark & compare the best AI models
@@ -70,6 +46,12 @@ Fine-tuning LLMs doesn’t have to mean building everything from the ground up. 
 - [Open Thoughts](https://huggingface.co/open-thoughts) - a team of researchers and engineers curating the best open reasoning datasets
 - [Tencent](https://huggingface.co/tencent) - a profile of a Chinese multinational technology conglomerate and holding company
 - [Unsloth AI](https://huggingface.co/unsloth) - focusing on making AI more accessible to everyone (GGUFs etc.)
+
+## Related tools
+
+- [llmfit](https://github.com/AlexsJones/llmfit) - hundreds of models & providers, one command to find what runs on your hardware
+- [outlines](https://github.com/dottxt-ai/outlines) - structured outputs for LLMs
+- [llama-swap](https://github.com/mostlygeek/llama-swap) - reliable model swapping for any local OpenAI compatible server - llama.cpp, vllm, etc.
 
 ## Specific (uncategorized) list of models
 
