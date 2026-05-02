@@ -13,8 +13,6 @@ summary=Training and fine-tuning language models.
 
 * [Building a Small Language Model(SLM) from Scratch](https://github.com/ChaitanyaK77/Building-a-Small-Language-Model-SLM-): This Repository provides a Jupyter Notebook for building a small language model from scratch using 'TinyStories' dataset. Covers data preprocessing, BPE tokenization, binary storage, GPU memory management, and training a Transformer in PyTorch. Generate sample stories to test your model. Ideal for learning NLP and PyTorch.
 
-
-
 ## Articles/Blogs/Essays
 
 * [Building a Small Language Model from Scratch: A Practical Guide to Domain-Specific AI](https://medium.com/@rajasami408/building-a-small-language-model-from-scratch-a-practical-guide-to-domain-specific-ai-59539131437f)

@@ -4,3 +4,8 @@ summary=Think Deep Research for GitHub: provides up-to-date documentation you ca
 ~~~~~~
 
 [Website](https://deepwiki.com/)
+
+## Implementations
+
+- [deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open) - open source DeepWiki: AI-powered wiki generator for GitHub/Gitlab/Bitbucket repositories
+

@@ -1,9 +1,9 @@
 title=Unsloth
-tags=ai, tool, llm, model, fine-tune
+tags=ai, tool, engine, llm, model, fine-tune
 summary=A fine-tuning framework designed to make training LLMs faster, lighter, and more accessible, especially on limited hardware (e.g., free Google Colab GPUs).
 ~~~~~~
 
-[Website](https://unsloth.ai/docs) | [Source](https://github.com/unslothai/unsloth)
+[Website](https://unsloth.ai/) | [Docs](https://unsloth.ai/docs) | [Source](https://github.com/unslothai/unsloth)
 
 - 🧬[Fine-tuning Guide](https://unsloth.ai/docs/get-started/fine-tuning-llms-guide)
 - ❓[What Model Should I Use?](https://unsloth.ai/docs/get-started/fine-tuning-llms-guide/what-model-should-i-use)
@@ -26,4 +26,8 @@ Key features:
 -   Runs easily on platforms like Google Colab, Kaggle, and even older consumer GPUs.
 
 If you're trying to fine-tune a model on resource-constrained setups, Unsloth is a top choice. It’s built to maximize what you can do with minimal resources.
+
+## Install
+
+`docker run -d -e JUPYTER_PASSWORD="mypassword" -p 8888:8888 -p 8000:8000 -p 2222:22 -v $(pwd)/work:/workspace/work --gpus all unsloth/unsloth`
 

@@ -128,24 +128,28 @@ Transactions and commits
 
 ## Ideas and theory
 
-#### Languages and Tools
+### Resilience and Reliability
+
+* [Gray Failure: The Achilles’ Heel of Cloud-Scale Systems](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/06/paper-1.pdf): ""
+
+### Languages and Tools
 
 * [Programming Distributed Erlang Applications: Pitfalls and Recipes](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.137.9417&rep=rep1&type=pdf) - Building reliable distributed applications isn't "just" using Erlang/OTP.
 
-#### Infrastructure
+### Infrastructure
 
 * [Principles of Robust Timing over the Internet](https://queue.acm.org/detail.cfm?id=1773943) - Managing clocks is essential for even basics such as debugging
 
-#### Versioning
+### Versioning
 
 * [API Versioning: A Deep Dive](https://irina.codes/api-versioning-a-deep-dive/)
 
-#### Storage
+### Storage
 
 * [Consistent Hashing and Random Trees](https://www.akamai.com/us/en/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf)
 * [Amazon's Dynamo Storage Service](https://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
 
-#### Paxos Consensus and other consensus papers
+### Paxos Consensus and other consensus papers
 
 * [Paxos Made Simple](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf) - Leslie Lamport - read first
 * [The Part-Time Parliament](https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf) - Leslie Lamport
@@ -157,7 +161,9 @@ Transactions and commits
 * [Mencius: Building Efficient Replicated State Machines for WANs](https://www.usenix.org/legacy/event/osdi08/tech/full_papers/mao/mao_html/) - consensus algorithm for wide-area network
 * [In Search of an Understandable Consensus Algorithm](https://raft.github.io/raft.pdf) - The extended version of the RAFT paper, an alternative to PAXOS.
 
-#### Gossip Protocols (Epidemic Behaviours)
+### Protocols
+
+#### Gossip (Epidemic Behaviours)
 
 * [How robust are gossip-based communication protocols?](https://infoscience.epfl.ch/record/109302?ln=en)
 * [Astrolabe: A Robust and Scalable Technology For Distributed Systems Monitoring, Management, and Data Mining](https://www.cs.cornell.edu/home/rvr/papers/astrolabe.pdf)
@@ -167,7 +173,7 @@ Transactions and commits
 * [ACM SIGOPS Operating Systems Review - Gossip-based computer networking](https://dl.acm.org/toc/sigops/2007/41/5)
 * [SWIM: Scalable Weakly-consistent Infection-style Process Group Membership Protocol](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.18.9737)
 
-#### P2P
+### P2P
 
 * [Chord](https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf): A Scalable Peer-to-peer Lookup Protocol for Internet Applications
 * [Kademlia](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf): A Peer-to-peer Information System Based on the XOR Metric
@@ -175,7 +181,7 @@ Transactions and commits
 * [PAST](http://research.microsoft.com/en-us/um/people/antr/PAST/hotos.pdf): A large-scale, persistent peer-to-peer storage utility - storage system atop Pastry
 * [SCRIBE](https://rowstron.azurewebsites.net/PAST/jsac.pdf): A large-scale and decentralised application-level multicast infrastructure - wide area messaging atop Pastry
 
-#### Amazon, Google
+### Amazon, Google
 Reading--some tech, some culture
 
 * [A Conversation with Werner Vogels](https://queue.acm.org/detail.cfm?id=1142065) - Coverage of Amazon's transition to a service-based architecture
