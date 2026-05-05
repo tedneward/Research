@@ -55,6 +55,8 @@ summary=Collection of links, notes, and models.
     10. Managing Inference Gateways and Intelligent Routing
 
 * [LLM Inference: Inside a Fast LLM Inference Server](https://pub.towardsai.net/llm-inference-inside-a-fast-llm-inference-server-d551f7bfcc97)
+* [You can (and should) run a tiny LLM on your Android phone](https://www.makeuseof.com/you-can-and-should-run-a-tiny-llm-on-your-android-phone/): Using [MNN](https://github.com/alibaba/MNN) ([Play Store](https://play.google.com/store/apps/details?id=com.alibaba.mnnllm.android.release))
+
 
 ### Using LLMs
 

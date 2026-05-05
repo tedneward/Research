@@ -12,3 +12,7 @@ summary=Makes creating software-defined networks easy: securely connecting users
 * ["How to set up a home VPN with Tailscale"](https://www.xda-developers.com/how-setup-powerful-tailscale/)
 * ["I use Tailscale to remotely access my self-hosted services - here's how"](https://www.xda-developers.com/tailscale-guide/)
 
+## Notes
+
+* Tailscale has to be installed on each machine that wants to be a part of the VPN/private network
+* Can make certain ports available to the public Internet (Tailscale Funnel)
