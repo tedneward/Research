@@ -1,5 +1,5 @@
 title=n8n
-tags=tool, ai
+tags=tool, ai, workflow
 summary=Fair-code workflow automation platform with native AI capabilities.
 ~~~~~~
 
