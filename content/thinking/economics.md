@@ -3,6 +3,10 @@ tags=reading, philosophy, thinking
 summary=Collections of articles and books on economics.
 ~~~~~~
 
+## Places
+
+* [Economics A-Z](https://www.economicshelp.org/economics-a-z/)
+
 ## The Economist
 
 [What to read to understand how economists think](https://www.economist.com/the-economist-reads/2022/08/09/what-to-read-to-understand-how-economists-think):
