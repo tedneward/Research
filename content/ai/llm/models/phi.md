@@ -16,6 +16,25 @@ Hardware: Quantized (4-bit) requires 6-10GB RAM for typical prompts (more for ve
 
 Download / Run locally: Get the official Phi-3.5 Mini Instruct weights from Hugging Face (microsoft/Phi-3.5-mini-instruct) and follow the model card for the recommended runtime. If you use Ollama, pull the Phi 3.5 family model and verify the variant/settings on the Ollama model page before relying on maximum context. (ollama pull phi3.5)
 
+### ## Phi-3-mini-4k-instruct
+
+-   **Release Date:** April 2024
+-   **Developer:** Microsoft
+-   **Location:** [microsoft/Phi-3-mini-4k-instruct](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct)
+
+| Technical Aspect | Details |
+| --- | --- |
+| Parameters | 3.8B |
+| Architecture | Decoder-only transformer |
+| Context Length | 4K tokens |
+| Vocabulary Size | 32,064 tokens |
+| Training Data | Synthetic + filtered public web data |
+| Post-training | SFT + DPO |
+| Tool Calling | Yes: via [chat template](https://huggingface.co/docs/transformers/en/chat_templating) (requiring HF's transformers ≥ 4.41.2) |
+| License | MIT |
+
+**[Phi-3-Mini-4K-Instruct](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct)** is a 3.8B parameter, lightweight, state-of-the-art open model trained with the Phi-3 datasets that include both synthetic data and filtered publicly available web data, with a focus on high-quality and reasoning-dense properties. The model underwent a post-training process incorporating both Supervised Fine-Tuning (SFT) and [Direct Preference Optimization](https://arxiv.org/abs/2305.18290) (DPO) for instruction following and safety. Microsoft's flagship "small but smart" model, Phi-3-mini was notable at launch for its ability to run on-device, including smartphones, while rivaling GPT-3.5 in capability benchmarks. The model is primarily intended for memory- and compute-constrained environments, latency-bound scenarios, and tasks requiring strong reasoning, especially math and logic. While older than the other models in this list and limited to a 4K context window, the MIT license makes it one of the most permissively licensed options available, and its strong general reasoning has made it a popular base for fine-tuning in commercial applications.
+
 ### Phi-4-mini-instruct (SLM)
 
 [HuggingFace](https://huggingface.co/microsoft/Phi-4-mini-instruct)

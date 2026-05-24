@@ -186,6 +186,18 @@ The “best” model is the one that fits your product requirements, works withi
 - [The Best Open-Source Vision Language Models in 2026](https://www.bentoml.com/blog/multimodal-ai-a-guide-to-open-source-vision-language-models)
 - [The Best Open-Source Image Generation Models in 2026](https://bentoml.com/blog/a-guide-to-open-source-image-generation-models)
 - [Top 7 Open Source OCR Models](https://www.kdnuggets.com/top-7-open-source-ocr-models)
+- [Can You Run LLMs Locally Without a GPU? I Tested 8 Models on Linux](https://itsfoss.com/testing-local-llms-without-gpu/): I used Ollama in this setup.
 
+    Model | Eval Rate | Disk Size
+    ----- | --------- | ---------
+    Qwen 3 0.6B | ~34–36 tok/s | ~500 MB
+    TinyLlama 1.1B | ~25–28 tok/s | ~638 MB
+    Gemma 3 1B | ~18.6 tok/s | ~815 MB
+    Gemma 4 E2B | ~9.9 tok/s | ~7 GB
+    Granite 4 3B | ~8.5–9 tok/s	 | ~2 GB
+    Phi 4 Mini 3.8B | ~6.90 tok/s	~ | .5 GB
+    OpenHermes 7B | ~4.1–4.3 tok/s | ~4.1 GB
+    Ministral 3 8B | ~3.16 tok/s | ~6 GB
 
+- [5 Small Language Models for Agentic Tool Calling](https://www.kdnuggets.com/5-small-language-models-for-agentic-tool-calling)
 

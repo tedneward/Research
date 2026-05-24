@@ -10,6 +10,12 @@ summary=PCs, mini-PCs, gaming rigs, etc
 
     - [Traveler 9880S](https://thermaltakeusa.com/collections/gaming-pc/products/traveler-9880s-tr1s-b850-580-lcs)
 
+## Gaming PCs
+
+- [ROG ASUS](https://rog.asus.com/us/)
+
+    - [Meet the ROG NUC 16](https://rog.asus.com/us/articles/gaming-desktop-pcs/meet-the-rog-nuc-16-compact-power-for-gaming-ai-workloads-and-beyond/) - Intel Core Ultra 9 290HX processor and NVIDIA GeForce RTX 5080 Laptop GPU
+
 ## Mini PCs
 
 - [Acemagic](https://acemagic.com/)

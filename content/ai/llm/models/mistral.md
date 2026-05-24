@@ -34,6 +34,24 @@ Hardware: Quantized (4-bit) requires 10GB RAM · Full precision (16-bit) require
 
 Download / Run locally: The “Ministral” family has multiple releases with different licenses. The older Ministral-8B-Instruct-2410 weights are under the Mistral Research License. Newer Ministral 3 releases are Apache 2.0 and are preferred for commercial projects. For the most straightforward local run, use the official Ollama tag: ollama pull ministral-3:8b (may require a recent Ollama version) and consult the Ollama model page for the exact variant/license details.
 
+### Mistral-7B-Instruct-v0.3
+
+-   **Release Date:** May 27, 2024
+-   **Developer:** Mistral AI
+-   **Location:** [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)
+
+| Technical Aspect | Details |
+| --- | --- |
+| Parameters | 7.25B |
+| Architecture | Transformer, GQA + SWA |
+| Context Length | 32,768 tokens |
+| Vocabulary Size | 32,768 tokens (extended from v0.2) |
+| Tokenizer | v3 Mistral tokenizer |
+| Function Calling | Yes: via `TOOL_CALLS` / `AVAILABLE_TOOLS` / `TOOL_RESULTS` tokens ([see here](https://huggingface.co/docs/transformers/main/chat_templating#advanced-tool-use--function-calling)) |
+| License | Apache 2.0 |
+
+**[Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)** is an instruct fine-tuned version of Mistral-7B-v0.3, which introduced three key changes over v0.2: an extended vocabulary to 32,768 tokens, support for the v3 tokenizer, and support for function calling. The model employs grouped-query attention for faster inference and [Sliding Window Attention](https://arxiv.org/abs/2502.18845) (SWA) to handle long sequences efficiently, and function calling support is made possible through the extended vocabulary including [dedicated tokens](https://huggingface.co/docs/transformers/main/chat_templating#advanced-tool-use--function-calling) for `TOOL_CALLS`, `AVAILABLE_TOOLS`, and `TOOL_RESULTS`. As the largest model in this roundup at 7B parameters, Mistral-7B-Instruct-v0.3 offers the best general instruction-following performance of the group and has become an industry-standard workhorse, widely available through Ollama, vLLM, and most inference platforms.
+
 ## Reading
 
 ### Articles

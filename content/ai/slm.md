@@ -65,10 +65,16 @@ Because SLMs can be run locally and are easier and cheaper to develop, companies
 
 * [Introduction to Small Language Models: The Complete Guide for 2026](https://machinelearningmastery.com/introduction-to-small-language-models-the-complete-guide-for-2026/)
 * [Build a Production-Ready LLM API](https://amanxai.com/2026/02/11/build-a-production-ready-llm-api/): We’ll build a fast, well-tested API to serve TinyLlama, a powerful open-source small language model, using FastAPI. The best part is that it’s completely free, runs on your own machine, and doesn’t require an OpenAI API key.
-* [The Best Open-Source Small Language Models (SLMs) in 2026](https://www.bentoml.com/blog/the-best-open-source-small-language-models)
 * [The Optimal Architecture for Small Language Models](https://huggingface.co/blog/codelion/optimal-model-architecture)
 * [Unleashing the Power of Self-Learning Machines Running SLMs on your Browser](https://codezen.medium.com/unleashing-the-power-of-self-learning-machines-running-slms-on-your-browser-2ed3f3a3496e) ([Source](https://tarun047.github.io/slm-demo/))
 * [Introducing: Local Browser AI](https://blog.alexewerlof.com/p/local-browser-ai)
+* [Small Language Models: A Guide with Examples](https://www.datacamp.com/blog/small-language-models)
+* [Small Language Models: A Comprehensive Overview](https://huggingface.co/blog/jjokah/small-language-model)
+* [Building AI Agents with Local Small Language Models](https://machinelearningmastery.com/building-ai-agents-with-local-small-language-models/)
+* [Enabling small language models to solve complex reasoning tasks](https://news.mit.edu/2025/enabling-small-language-models-solve-complex-reasoning-tasks-1212)
+
+### Model lists
+
 * [Top 7 Small Language Models You Can Run on a Laptop](https://machinelearningmastery.com/top-7-small-language-models-you-can-run-on-a-laptop/): Phi-3.5 Mini (3.8B Parameters), Llama 3.2 3B, Llama 3.2 1B, Ministral 3 8B, Qwen 2.5 7B, Gemma 2 9B, SmolLM2 1.7B
 * [Top 7 SLMs You Can Run in the Browser](https://medium.com/@hadiyolworld007/top-7-slms-you-can-run-in-the-browser-fa67d921e669): 
 
@@ -77,8 +83,5 @@ Because SLMs can be run locally and are easier and cheaper to develop, companies
     3. Qwen 2.5 1.5B Instruct (Alibaba): Lean, multilingual, and chatty. The 1.5B Instruct variant is small enough for browsers yet capable enough for everyday tasks; plenty of WebLLM demos use it with WebGPU.
 
 * [What are small language models and how do they differ from large ones?](https://theconversation.com/what-are-small-language-models-and-how-do-they-differ-from-large-ones-269103)
-* [Small Language Models: A Comprehensive Overview](https://huggingface.co/blog/jjokah/small-language-model)
 * [Small Language Models](https://www.ataccama.com/blog/small-language-models)
-* [Building AI Agents with Local Small Language Models](https://machinelearningmastery.com/building-ai-agents-with-local-small-language-models/)
-* [Enabling small language models to solve complex reasoning tasks](https://news.mit.edu/2025/enabling-small-language-models-solve-complex-reasoning-tasks-1212)
 

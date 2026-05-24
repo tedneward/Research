@@ -7,6 +7,10 @@ summary=Collection of links and notes about self-contained portable computers.
 
 - ProArt P16 https://www.asus.com/us/laptops/for-creators/proart/proart-p16-h7606/
 
+## MSI
+
+- [Stealth 16 AI+](https://us-store.msi.com/Laptops/Gaming-Series/Stealth-A16-AI-A3XWHG-079US) - [MSI’s new Stealth model has all the power without the bulk](https://www.techradar.com/computing/gaming-laptops/msi-stealth-16-ai-review)
+
 ## [Geekom](https://www.geekompc.com)
 
 - [14" Laptop](https://www.geekompc.com/geekbook-x14-pro-laptop-14-inch/)

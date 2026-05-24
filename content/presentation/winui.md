@@ -7,6 +7,12 @@ summary=A native user experience (UX) framework for both Windows desktop and UWP
 
 [Website](https://microsoft.github.io/microsoft-ui-xaml/) | [Docs](https://docs.microsoft.com/en-us/windows/apps/winui/) | [Source](https://github.com/microsoft/microsoft-ui-xaml)
 
+## Reading
+
+### Articles
+
+- [Introducing dotnet new WinUI templates](https://devblogs.microsoft.com/ifdef-windows/introducing-dotnet-new-templates-for-winui/)
+
 ---
 
 [WinUIEx](https://dotmorten.github.io/WinUIEx/): A set of extension methods and classes to fill some gaps in WinUI 3, mostly around windowing and unit testing.

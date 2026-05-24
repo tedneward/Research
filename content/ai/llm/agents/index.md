@@ -112,6 +112,7 @@ An agent generally consists of these core components:
 ## Tools
 
 - [AnyTool](https://github.com/HKUDS/AnyTool): Universal Tool-Use Layer for AI Agents
+- [IsItAgentReady](https://isitagentready.com/): Scan your website to see how ready it is for AI agents. We check multiple emerging standards — from robots.txt and Markdown negotiation to MCP, OAuth, Agent Skills and agentic commerce.
 
 ---
 

@@ -7,7 +7,22 @@ summary=AI model.
 
 ### Smol-3B (SLM)
 
-[HuggingFace](https://huggingface.co/HuggingFaceTB/SmolLM3-3B)
+-   **Release Date:** July 8, 2025
+-   **Developer:** Hugging Face
+-   **Location:** [HuggingFaceTB/SmolLM3-3B](https://huggingface.co/HuggingFaceTB/SmolLM3-3B)
+
+| Technical Aspect | Details |
+| --- | --- |
+| Parameters | 3B  |
+| Architecture | Decoder-only transformer (GQA + NoPE, 3:1 ratio) |
+| Context Length | 64K native; up to 128K with [YaRN extrapolation](https://arxiv.org/abs/2309.00071) |
+| Training Tokens | 11.2T |
+| Multilingual Support | 6 languages (EN, FR, ES, DE, IT, PT) |
+| Reasoning Mode | Dual-mode (thinking / no-think toggle) |
+| Tool Calling | Yes: JSON/XML (`xml_tools`) and Python (`python_tools`) |
+| License | Apache 2.0 |
+
+**[SmolLM3](https://huggingface.co/HuggingFaceTB/SmolLM3-3B)** is a 3B parameter language model designed to push the boundaries of small models, supporting dual-mode reasoning, 6 languages, and long context. It is a decoder-only transformer using Grouped Query Attention (GQA) and No Positional Embeddings (NoPE) (with a 3:1 ratio), pretrained on 11.2T tokens with a staged curriculum of web, code, math, and reasoning data. Post-training included a mid-training phase on 140 billion reasoning tokens, followed by supervised fine-tuning and alignment via Anchored Preference Optimization (APO), HuggingFace's off-policy [approach to preference alignment](https://huggingface.co/papers/2408.06266). The model supports two distinct tool-calling interfaces, JSON/XML blobs via `xml_tools` and Python-style function calls via `python_tools`, making it highly flexible for agentic pipelines and RAG systems. As a fully open release, including weights, datasets, and training code, SmolLM3 is ideal for chatbots, RAG systems, and code assistants on constrained hardware such as edge devices or low-VRAM machines.
 
 A fully open instruct and reasoning model. At the 3B scale, it outperforms Llama-3.2-3B and Qwen2.5-3B, while staying competitive with many 4B-class alternatives (including Qwen3 and Gemma 3) across 12 popular LLM benchmarks.
 

@@ -1,15 +1,15 @@
 title=Dialog
-tags=language, gamedev
+tags=language, gamedev, dsl
 summary=A domain-specific language for creating works of interactive fiction.
 ~~~~~~
 
-[Website](https://www.linusakesson.net/dialog/) | Source included in the download
+[Website](https://www.linusakesson.net/dialog/) | [Source](https://github.com/dialog-if/dialog) | [Manual](https://dialog-if.github.io/manual/dialog/1c01-dev/index.html)
 
 Heavily inspired by Inform 7 (Graham Nelson et al. 2006) and Prolog (Alain Colmerauer et al. 1972).
 
 An optimizing compiler, dialogc, translates high-level Dialog code into Z-code, a platform-independent runtime format originally created by Infocom in 1979.
 
-Since Dialog version 0d/01 there's an interactive debugger, and since version 0g/01 there's a separate backend for the Å-machine story format.
+Since Dialog version 0d/01 there's an interactive debugger, and since version 0g/01 there's a separate backend for the [Å-machine story format](/vms/aamachine).
 
 The main discussion is happening at the intfiction.org forum, in the Dialog category.
 
@@ -198,3 +198,10 @@ Cloak of Darkness reference game:
 		*(understand $Left as object $Obj preferably held)
 		*(understand $Right as single object $Dest)
 ```
+
+---
+
+## Tools
+
+- [dialog-tool](https://github.com/hlship/dialog-tool): Tool to assist in testing and building interactive fiction using Dialog
+

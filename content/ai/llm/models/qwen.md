@@ -60,6 +60,24 @@ Points to be cautious about:
 
 If you can afford a bit more compute, I also recommend [Qwen3-1.7B](https://huggingface.co/Qwen/Qwen3-1.7B) and [Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B). They keep the same hybrid reasoning and agent-friendly design, but offer better performance for more complex tasks than the 0.6B model.
 
+### Qwen3-4B-Instruct-2507
+
+-   **Release Date:** August 6, 2025
+-   **Developer:** Alibaba (Qwen Team)
+-   **Location:** [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507)
+
+| Technical Aspect | Details |
+| --- | --- |
+| Parameters | 4.0B (3.6B non-embedding) |
+| Architecture | Causal LM, 36 layers, GQA (32 Q heads / 8 KV heads) |
+| Context Length | 262,144 tokens (native) |
+| Reasoning Mode | Non-thinking only (no `<think>` blocks) |
+| Multilingual | [100+ languages](https://huggingface.co/Qwen/Qwen3-4B) |
+| Tool Calling | Yes: native, via Qwen-Agent / MCP |
+| License | Apache 2.0 |
+
+**[Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507)** is an updated version of the Qwen3-4B non-thinking mode, featuring significant improvements in general capabilities including: instruction following, logical reasoning, text comprehension, mathematics, science, coding, and tool usage. It also possesses substantial gains in long-tail knowledge coverage across multiple languages. Both the Instruct and Thinking variants share 4 billion total parameters (3.6B excluding embeddings) built across 36 transformer layers, using GQA with 32 query heads and 8 key/value heads, enabling efficient memory management for very long contexts. This specific non-thinking variant is optimized for direct, fast-response use cases, such as delivering concise answers without explicit chain-of-thought traces, making it well-suited for chatbots, customer support, and tool-calling agents where low latency matters. Qwen3 excels in tool-calling capabilities, and Alibaba recommends using the [Qwen-Agent framework](https://qwen.readthedocs.io/en/latest/framework/qwen_agent.html), which encapsulates tool-calling templates and parsers internally, reducing coding complexity, with support for MCP server configuration files.
+
 ### Qwen3-VL
 
 Qwen3-VL is the latest and most capable VLM in Alibaba’s Qwen series, which represents a major leap over its predecessor Qwen2.5-VL. It delivers stronger multimodal reasoning, agentic capabilities, and long-context comprehension.

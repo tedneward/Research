@@ -50,7 +50,26 @@ Hardware: Quantized (4-bit) requires 12GB RAM · Full precision (16-bit) require
 
 Download / Run locally: Available on Hugging Face under the google org (Gemma 2 9B IT). You’ll need to accept Google’s license terms (and may need authentication depending on your tooling). For Ollama: ollama pull gemma2:9b-instruct-*. Ollama provides both base and instruct tags. Pick the one that matches your use case.
 
+### ## Gemma-4-E2B-it
 
+-   **Release Date:** April 2, 2026
+-   **Developer:** Google DeepMind
+-   **Location:** [google/gemma-4-E2B-it](https://huggingface.co/google/gemma-4-E2B-it)
+
+| Technical Aspect | Details |
+| --- | --- |
+| Effective Parameters | 2.3B (5.1B total with embeddings) |
+| Architecture | Dense, hybrid attention (sliding window + global) + PLE |
+| Layers | 35  |
+| Sliding Window | 512 tokens |
+| Context Length | 128K tokens |
+| Vocabulary Size | 262K |
+| Modalities | Text, Image, Audio (≤30 sec), Video (as frames) |
+| Multilingual | 35+ native, trained on 140+ languages |
+| Tool Calling | Yes: native function calling |
+| License | Apache 2.0 |
+
+**[Gemma-4-E2B](https://huggingface.co/google/gemma-4-E2B-it)** is part of Google DeepMind's Gemma 4 family, which features a hybrid attention mechanism, local sliding window attention with full global attention. This design delivers the processing speed and low memory footprint of a lightweight model without sacrificing the deep awareness required for complex, long-context tasks. The "E" in E2B stands for "effective" parameters, enabled by a key architectural innovation called [Per-Layer Embeddings](https://huggingface.co/blog/rishiraj/matformer-in-gemma-3n) (PLE), which adds a dedicated conditioning vector at every decoder layer. This is the mechanism which allows the E2B to run in under 1.5 GB of memory with quantization and still produce valuable outputs. The model supports native function calling, enabling agentic workflows, and is optimized for on-device deployment on mobile and IoT devices, capable of handling text, image, audio, and video inputs. Released under Apache 2.0 (a change from earlier Gemma generations' more restrictive custom license), Gemma 4 E2B is an attractive option for developers building multimodal agentic applications running entirely at the edge.
 
 ## Reading
 

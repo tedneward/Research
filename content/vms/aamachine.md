@@ -3,7 +3,7 @@ tags=vm, gamedev
 summary=A virtual machine for delivering interactive stories.
 ~~~~~~
 
-[Website](https://www.linusakesson.net/dialog/aamachine/index.php) 
+[Website](https://www.linusakesson.net/dialog/aamachine/index.php) | [Specification](https://www.linusakesson.net/dialog/aamachine/aam-specification-0.5.txt)
 
 It is designed for stories implemented in the Dialog programming language. 
 

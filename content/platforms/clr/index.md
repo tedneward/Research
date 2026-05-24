@@ -39,16 +39,28 @@ Reading: [Creating a .NET CLR profiler using C# and NativeAOT with Silhouette](h
 
 [realmon](https://github.com/maoni0/realmon): A monitoring tool that tells you when GCs happen in a process and some characteristics about these GCs
 
+## Templates
+
+WinUI: `dotnet new install Microsoft.WindowsAppSDK.WinUI.CSharp.Templates`
+
+- [Introducing dotnet new WinUI templates](https://devblogs.microsoft.com/ifdef-windows/introducing-dotnet-new-templates-for-winui/)
+
 ## Reading
+
+### Gallery
+
+[WinSDK Gallery](https://aka.ms/winui-gallery): interactive sample experience showing everything you can do with WinUI and Windows App SDK.
 
 ### Articles
 .NET Internals:
+
 - [A brief introduction to the .NET muxer (dotnet.exe)](https://www.stevejgordon.co.uk/a-brief-introduction-to-the-dotnet-muxer)
 - [How dotnet.exe resolves and loads the hostfxr library – Exploring the .NET muxer](https://www.stevejgordon.co.uk/how-dotnet-muxer-resolves-and-loads-the-hostfxr-library)
 
 [Exploring the .NET Boot Process via host tracing](https://andrewlock.net/exploring-the-dotnet-boot-process-via-host-tracing/)
 
 Exploring the .NET 10 Preview:
+
 - Part 8: [Supporting platform-specific .NET tools on old .NET SDKs](https://andrewlock.net/exploring-dotnet-10-preview-features-8-supporting-platform-specific-dotnet-tools-on-old-sdks/)
 - Part 9: [Easier Reflection with UnsafeAccessorType in .NET 10](https://andrewlock.net/exploring-dotnet-10-preview-features-9-easier-reflection-with-unsafeaccessortype/)
 
