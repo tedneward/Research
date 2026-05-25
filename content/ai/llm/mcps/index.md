@@ -71,6 +71,7 @@ Connection lifecycle:
 - [awslabs/mcp](https://github.com/awslabs/mcp) - AWS MCP Servers — helping you get the most out of AWS, wherever you use MCP
 - [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) - MCP server for Atlassian tools (Confluence, Jira)
 - [dbhub](https://github.com/bytebase/dbhub) - zero-dependency, token-efficient database MCP server for Postgres, MySQL, SQL Server, MariaDB, SQLite
+- [SQL MCP Server as an App Service](https://devblogs.microsoft.com/azure-sql/sql-mcp-server-app-service/)
 
 ## Example Agents
 

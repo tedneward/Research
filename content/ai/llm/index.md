@@ -56,7 +56,7 @@ summary=Collection of links, notes, and models.
 
 * [LLM Inference: Inside a Fast LLM Inference Server](https://pub.towardsai.net/llm-inference-inside-a-fast-llm-inference-server-d551f7bfcc97)
 * [You can (and should) run a tiny LLM on your Android phone](https://www.makeuseof.com/you-can-and-should-run-a-tiny-llm-on-your-android-phone/): Using [MNN](https://github.com/alibaba/MNN) ([Play Store](https://play.google.com/store/apps/details?id=com.alibaba.mnnllm.android.release))
-
+* [Self-Hosted LLMs in the Real World: Limits, Workarounds, and Hard Lessons](https://www.kdnuggets.com/self-hosted-llms-in-the-real-world-limits-workarounds-and-hard-lessons)
 
 ### Using LLMs
 
@@ -76,6 +76,7 @@ summary=Collection of links, notes, and models.
 * [7 Steps to Mastering Language Model Deployment](https://www.kdnuggets.com/7-steps-to-mastering-language-model-deployment)
 * [The Complete Guide to Inference Caching in LLMs](https://machinelearningmastery.com/the-complete-guide-to-inference-caching-in-llms/)
 * [AI Concepts Software Engineers Need in 2026](https://www.geeky-gadgets.com/ai-concepts-2026/): LLMs, Tokens and Context Windows, AI Agents, MCP, RAG, Fine-tuning, context engineering, multimodal AI, MOE (mixture-of-experts)
+* [Guardrails for LLMs: Measuring AI ‘Hallucination’ and Verbosity](https://www.kdnuggets.com/guardrails-for-llms-measuring-ai-hallucination-and-verbosity)
 
 ### Implementation
 
@@ -96,6 +97,11 @@ summary=Collection of links, notes, and models.
 
 - [Context-Engineering](https://github.com/davidkimai/Context-Engineering) - a frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization
 - [Awesome-Context-Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) - a comprehensive survey on Context Engineering: from prompt engineering to production-grade AI systems
+
+### Design Patterns
+
+* [Choosing the Right Agentic Design Pattern: A Decision-Tree Approach](https://machinelearningmastery.com/choosing-the-right-agentic-design-pattern-a-decision-tree-approach/)
+
 
 ### Verification
 

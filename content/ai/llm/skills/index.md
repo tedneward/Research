@@ -27,6 +27,12 @@ For teams and enterprises: Capture organizational knowledge in portable, version
 * Repeatable workflows: Turn multi-step tasks into consistent and auditable workflows.
 * Interoperability: Reuse the same skill across different skills-compatible agent products.
 
+## Reading
+
+### Articles, Blogs, Essays
+
+* [How to build a Claude skill from scratch](https://writewithai.substack.com/p/how-to-build-a-claude-skill-from)
+
 ### Support for agent skills
 
 The following platforms have documented support for Agent Skills:

@@ -15,17 +15,18 @@ summary=Notes and links on the "follow-up" training one can apply to an LLM to c
 
 ## Reading
 
-[Getting Started (BentoML)](https://www.bentoml.com/llm/getting-started/llm-fine-tuning): Fine-tuning is one of the most effective ways to adapt an LLM for a specific use case. It continues the training process on a pre-trained model using new, task-specific data. This can involve updating the entire model or just specific layers.
+* [Getting Started (BentoML)](https://www.bentoml.com/llm/getting-started/llm-fine-tuning): Fine-tuning is one of the most effective ways to adapt an LLM for a specific use case. It continues the training process on a pre-trained model using new, task-specific data. This can involve updating the entire model or just specific layers.
 
-A key driver behind fine-tuning is efficiency. Instead of training a model from scratch (which is extremely resource-intensive), it's far easier and more cost-effective to build on top of a base model that has already learned general language patterns from massive datasets. Fine-tuning sharpens those broad capabilities for your particular task.
+    A key driver behind fine-tuning is efficiency. Instead of training a model from scratch (which is extremely resource-intensive), it's far easier and more cost-effective to build on top of a base model that has already learned general language patterns from massive datasets. Fine-tuning sharpens those broad capabilities for your particular task.
 
-For example, fine-tuning can significantly improve a model’s:
+    For example, fine-tuning can significantly improve a model’s:
 
--   **Domain expertise**: Adapting a model for legal, medical, or programming-related tasks.
--   **Instruction following**: Ensuring the model adheres to specific formats, tones, or styles in its responses.
--   **Safety and alignment**: Reinforcing how the model handles sensitive or high-risk prompts.
+    -   **Domain expertise**: Adapting a model for legal, medical, or programming-related tasks.
+    -   **Instruction following**: Ensuring the model adheres to specific formats, tones, or styles in its responses.
+    -   **Safety and alignment**: Reinforcing how the model handles sensitive or high-risk prompts.
 
-[Learn how to fine-tune LLMs in 12 hours](https://www.freecodecamp.org/news/learn-how-to-fine-tune-llms-in-12-hours/)
+* [Learn how to fine-tune LLMs in 12 hours](https://www.freecodecamp.org/news/learn-how-to-fine-tune-llms-in-12-hours/)
+* [Understanding Fine-Tuning Challenges in LLMs (QLoRA, LoRA, and Beyond)](https://www.vitalijneverkevic.com/understanding-fine-tuning-challenges-in-llms/)
 
 ### Common frameworks
 

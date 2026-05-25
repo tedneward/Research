@@ -48,6 +48,7 @@ An agent generally consists of these core components:
 - [A Coding Guide to Build a Procedural Memory Agent That Learns, Stores, Retrieves, and Reuses Skills as Neural Modules Over Time](https://www.marktechpost.com/2025/12/09/a-coding-guide-to-build-a-procedural-memory-agent-that-learns-stores-retrieves-and-reuses-skills-as-neural-modules-over-time/) [Source](https://github.com/Marktechpost/AI-Tutorial-Codes-Included/blob/main/Agentic%20AI%20Memory/procedural_memory_agent_skill_learning_Marktechpost.ipynb)
 - [Agent Engineering: A New Discipline](https://blog.langchain.com/agent-engineering-a-new-discipline/)
 - [AGENTS.md outperforms skills in our agent evals](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals) (Vercel): "We expected skills to be the solution for teaching coding agents framework-specific knowledge. After building evals focused on Next.js 16 APIs, we found something unexpected. A compressed 8KB docs index embedded directly in AGENTS.md achieved a 100% pass rate, while skills maxed out at 79% even with explicit instructions telling the agent to use them. Without those instructions, skills performed no better than having no documentation at all."
+- [AI Coding Agents Guide: A Map of the Four Workflow Types](https://realpython.com/ai-coding-agents-guide/)
 - [Building an AI Agent from Scratch with pure Python](https://levelup.gitconnected.com/building-an-ai-agent-from-scratch-with-pure-python-7d4532202637)
 - [Building AI Agents from Scratch -No Frameworks](https://nikhilpentapalli.medium.com/building-ai-agents-from-scratch-no-frameworks-7e75b11396d8)
 - [Building your own CLI Coding Agent with Pydantic-AI](https://martinfowler.com/articles/build-own-coding-agent.html)
@@ -104,6 +105,7 @@ An agent generally consists of these core components:
 - [Components of A Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)
 - [How to Build AI Agents That Can Control Cloud Infrastructure](https://www.freecodecamp.org/news/how-to-build-ai-agents-that-can-control-cloud-infrastructure/)
 - [I Built a Local AI Agent That Audits My Own Articles. It Flagged Every Single One.](https://dev.to/dannwaneri/i-built-a-local-ai-agent-that-audits-my-own-articles-it-flagged-every-single-one-pkh) [Source](https://github.com/dannwaneri/seo-agent)
+- [Components of A Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)
 
 ## Languages/Libraries
 

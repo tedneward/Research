@@ -64,7 +64,7 @@ Because SLMs can be run locally and are easier and cheaper to develop, companies
 ### Articles, Blogs, Essays
 
 * [Introduction to Small Language Models: The Complete Guide for 2026](https://machinelearningmastery.com/introduction-to-small-language-models-the-complete-guide-for-2026/)
-* [Build a Production-Ready LLM API](https://amanxai.com/2026/02/11/build-a-production-ready-llm-api/): We’ll build a fast, well-tested API to serve TinyLlama, a powerful open-source small language model, using FastAPI. The best part is that it’s completely free, runs on your own machine, and doesn’t require an OpenAI API key.
+* [Small Language Models: A Beginner’s Guide](https://www.ataccama.com/blog/small-language-models)
 * [The Optimal Architecture for Small Language Models](https://huggingface.co/blog/codelion/optimal-model-architecture)
 * [Unleashing the Power of Self-Learning Machines Running SLMs on your Browser](https://codezen.medium.com/unleashing-the-power-of-self-learning-machines-running-slms-on-your-browser-2ed3f3a3496e) ([Source](https://tarun047.github.io/slm-demo/))
 * [Introducing: Local Browser AI](https://blog.alexewerlof.com/p/local-browser-ai)
@@ -84,4 +84,12 @@ Because SLMs can be run locally and are easier and cheaper to develop, companies
 
 * [What are small language models and how do they differ from large ones?](https://theconversation.com/what-are-small-language-models-and-how-do-they-differ-from-large-ones-269103)
 * [Small Language Models](https://www.ataccama.com/blog/small-language-models)
+
+### Tutorials
+
+* [Building a Small Language Model(SLM) from Scratch](https://github.com/ChaitanyaK77/Building-a-Small-Language-Model-SLM-)
+* [Build a Small Language Model (SLM) From Scratch](https://medium.com/@shravankoninti/build-a-small-language-model-slm-from-scratch-3ddd13fa6470)
+* [Train a SLM from scratch (not fine tune)](https://www.reddit.com/r/LocalLLaMA/comments/1nv5ppk/train_a_slm_from_scratch_not_fine_tune/)
+* [Train an SLM from scratch with early-stopping grid search over hyperparameters](https://modal.com/docs/examples/hp_sweep_gpt)
+* [Build a Production-Ready LLM API](https://amanxai.com/2026/02/11/build-a-production-ready-llm-api/): We’ll build a fast, well-tested API to serve TinyLlama, a powerful open-source small language model, using FastAPI. The best part is that it’s completely free, runs on your own machine, and doesn’t require an OpenAI API key.
 
