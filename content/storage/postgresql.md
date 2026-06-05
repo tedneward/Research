@@ -15,6 +15,7 @@ summary=Open-source relational database.
 * [Postgres.app](https://postgresapp.com/) - The Easiest Way to Get Started with PostgreSQL on macOS.
 * [PostgreSql.Binaries.Lite](https://github.com/mihasic/PostgreSql.Binaries.Lite) - Minimum set of Windows binaries of the PostgreSQL database. Also made available through NuGet.
 * [Postgres-wasm](https://github.com/snaplet/postgres-wasm): A PostgreSQL server instance running in a virtual machine running in the browser
+* [PGLite](https://pglite.dev/): Run a full Postgres database locally in WASM with reactivity and live sync. [Source](https://github.com/electric-sql/pglite)
 
 ### Optimizations
 * [9 ways to shoot yourself in the foot](https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql)
