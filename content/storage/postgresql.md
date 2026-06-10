@@ -15,6 +15,7 @@ summary=Open-source relational database.
 * [Postgres.app](https://postgresapp.com/) - The Easiest Way to Get Started with PostgreSQL on macOS.
 * [PostgreSql.Binaries.Lite](https://github.com/mihasic/PostgreSql.Binaries.Lite) - Minimum set of Windows binaries of the PostgreSQL database. Also made available through NuGet.
 * [Postgres-wasm](https://github.com/snaplet/postgres-wasm): A PostgreSQL server instance running in a virtual machine running in the browser
+* [PGLite](https://pglite.dev/): Run a full Postgres database locally in WASM with reactivity and live sync. [Source](https://github.com/electric-sql/pglite)
 
 ### Optimizations
 * [9 ways to shoot yourself in the foot](https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql)
@@ -41,18 +42,6 @@ summary=Open-source relational database.
 * [postgres](https://hub.docker.com/_/postgres/) -  Official postgres container (from Docker)
 * [citusdata/citus](https://hub.docker.com/r/citusdata/citus/) - Citus official images with citus extensions. Based on the official Postgres container.
 * [mdillon/postgis](https://hub.docker.com/r/mdillon/postgis/) - PostGIS 2.3 on Postgres 9. Based on the official Postgres container.
-
-## Reading
-
-### Books
-
-* [PostgreSQL 14 Internals](https://edu.postgrespro.com/postgresql_internals-14_en.pdf)
-
-### Articles
-
-* ["Postgres is Too Good (And Why That's Actually a Problem)"](https://dev.to/shayy/postgres-is-too-good-and-why-thats-actually-a-problem-4imc)
-* [Go ahead, self-host Postgres](https://pierce.dev/notes/go-ahead-self-host-postgres)
-* [The Internals of PostgreSQL](https://www.interdb.jp/pg/)
 
 ## Access Tools
 
@@ -229,18 +218,33 @@ for `EXPLAIN`, that also provides performance tips (Commercial Software).
 * [ScaffoldHub.io](https://scaffoldhub.io) - Generate fullstack PostgreSQL apps with Angular, Vue or React (Commercial Software). 
 
 
-## Resources
+## Reading
 
-### Tutorials
+### Books
 
-* [Backup and recover a PostgreSQL DB using wal-e](https://coderwall.com/p/cwe2_a/backup-and-recover-a-postgres-db-using-wal-e) - Tutorial about setting up continuous archiving in PostgreSQL using wal-e.
-* [PG Casts](https://www.pgcasts.com) - Free weekly PostgreSQL screencasts by Hashrocket.
-* [Postgres Guide](http://postgresguide.com/) - Guide designed as an aid for beginners and experienced users to find specific tips and explore tools available within PostgreSQL.
-* [PostgreSQL Exercises](https://pgexercises.com/) - Site  to make it easy to learn PostgreSQL by doing exercises.
-* [tutorialspoint PostgreSQL tutorial](http://www.tutorialspoint.com/postgresql/) - Very extensive collection of tutorials on PostgreSQL
-* [postgresDBSamples](https://github.com/morenoh149/postgresDBSamples) - A collection of sample postgres schemas
-* [PostgreSQL Primer for Busy People](https://zaiste.net/posts/postgresql-primer-for-busy-people/) - A collection of the most common commands used in PostgreSQL
-* [pg-utils](https://github.com/dataegret/pg-utils) - Useful DBA tools by Data Egret
+* [PostgreSQL 14 Internals](https://edu.postgrespro.com/postgresql_internals-14_en.pdf)
+* [Postgres Official Documentation](http://www.postgresql.org/docs/)
+* [Postgres Succinctly](https://www.syncfusion.com/resources/techportal/ebooks/postgres) (PDF, Kindle) (email address *requested*, not required)
+* [PostgreSQL Notes for Professionals](https://goalkicker.com/PostgreSQLBook/) - Compiled from StackOverflow documentation (PDF)
+* [PostgreSQL Tutorial](https://www.tutorialspoint.com/postgresql) - Tutorials Point
+* [Practical PostgreSQL](http://www.faqs.org/docs/ppbook/book1.htm)
+* [The Internals of PostgreSQL for database administrators and system developers](http://www.interdb.jp/pg)
+
+### Articles
+
+* ["Postgres is Too Good (And Why That's Actually a Problem)"](https://dev.to/shayy/postgres-is-too-good-and-why-thats-actually-a-problem-4imc)
+* [Go ahead, self-host Postgres](https://pierce.dev/notes/go-ahead-self-host-postgres)
+* [The Internals of PostgreSQL](https://www.interdb.jp/pg/)
+* What PostgreSQL has over other open source SQL databases: [Part I](https://www.compose.com/articles/what-postgresql-has-over-other-open-source-sql-databases/) | [Part II](https://www.compose.com/articles/what-postgresql-has-over-other-open-source-sql-databases-part-ii/)
+* [the ultimate postgres vs mysql blog post](https://di.nmfay.com/postgres-vs-mysql)
+* [Debugging PostgreSQL performance, the hard way](https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/)
+* [Why use Postgres?](http://www.craigkerstiens.com/2017/04/30/why-postgres-five-years-later/)
+* [Superfast CSV imports using PostgreSQL's COPY command](https://infinum.com/the-capsized-eight/superfast-csv-imports-using-postgresqls-copy)
+* [Tricking Postgres into using an insane – but 200x faster – query plan](https://spacelift.io/blog/tricking-postgres-into-using-query-plan)
+* ["Optimizing Postgres Queries at Scale"](https://heap.io/blog/optimizing-postgres-queries-at-scale)
+* [5 Tips for a Healthier Postgres Database](https://blog.crunchydata.com/blog/five-tips-for-a-healthier-postgres-database-in-the-new-year)
+* [Postgres is a great pub/sub & job server](https://webapp.io/blog/postgres-is-the-answer/)
+* ["Join Data from PostgreSQL Declaratively in GraphQL w/o writing SQL"](https://stepzen.com/blog/join-data-postgresql-declarative-graphql-without-sql)
 
 ### Blogs
 
@@ -253,27 +257,16 @@ for `EXPLAIN`, that also provides performance tips (Commercial Software).
 * [Robert Haas' blog](http://rhaas.blogspot.com/search/label/postgresql/)
 * [select * from depesz;](https://www.depesz.com/tag/postgresql/) - Hubert Lubaczewski's blog.
 
-### Books
+### Tutorials
 
-* [Postgres Official Documentation](http://www.postgresql.org/docs/)
-* [Postgres Succinctly](https://www.syncfusion.com/resources/techportal/ebooks/postgres) (PDF, Kindle) (email address *requested*, not required)
-* [PostgreSQL Notes for Professionals](https://goalkicker.com/PostgreSQLBook/) - Compiled from StackOverflow documentation (PDF)
-* [PostgreSQL Tutorial](https://www.tutorialspoint.com/postgresql) - Tutorials Point
-* [Practical PostgreSQL](http://www.faqs.org/docs/ppbook/book1.htm)
-* [The Internals of PostgreSQL for database administrators and system developers](http://www.interdb.jp/pg)
-
-### Articles
-
-* What PostgreSQL has over other open source SQL databases: [Part I](https://www.compose.com/articles/what-postgresql-has-over-other-open-source-sql-databases/) | [Part II](https://www.compose.com/articles/what-postgresql-has-over-other-open-source-sql-databases-part-ii/)
-* [the ultimate postgres vs mysql blog post](https://di.nmfay.com/postgres-vs-mysql)
-* [Debugging PostgreSQL performance, the hard way](https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/)
-* [Why use Postgres?](http://www.craigkerstiens.com/2017/04/30/why-postgres-five-years-later/)
-* [Superfast CSV imports using PostgreSQL's COPY command](https://infinum.com/the-capsized-eight/superfast-csv-imports-using-postgresqls-copy)
-* [Tricking Postgres into using an insane – but 200x faster – query plan](https://spacelift.io/blog/tricking-postgres-into-using-query-plan)
-* ["Optimizing Postgres Queries at Scale"](https://heap.io/blog/optimizing-postgres-queries-at-scale)
-* [5 Tips for a Healthier Postgres Database](https://blog.crunchydata.com/blog/five-tips-for-a-healthier-postgres-database-in-the-new-year)
-* [Postgres is a great pub/sub & job server](https://webapp.io/blog/postgres-is-the-answer/)
-* ["Join Data from PostgreSQL Declaratively in GraphQL w/o writing SQL"](https://stepzen.com/blog/join-data-postgresql-declarative-graphql-without-sql)
+* [Backup and recover a PostgreSQL DB using wal-e](https://coderwall.com/p/cwe2_a/backup-and-recover-a-postgres-db-using-wal-e) - Tutorial about setting up continuous archiving in PostgreSQL using wal-e.
+* [PG Casts](https://www.pgcasts.com) - Free weekly PostgreSQL screencasts by Hashrocket.
+* [Postgres Guide](http://postgresguide.com/) - Guide designed as an aid for beginners and experienced users to find specific tips and explore tools available within PostgreSQL.
+* [PostgreSQL Exercises](https://pgexercises.com/) - Site  to make it easy to learn PostgreSQL by doing exercises.
+* [tutorialspoint PostgreSQL tutorial](http://www.tutorialspoint.com/postgresql/) - Very extensive collection of tutorials on PostgreSQL
+* [postgresDBSamples](https://github.com/morenoh149/postgresDBSamples) - A collection of sample postgres schemas
+* [PostgreSQL Primer for Busy People](https://zaiste.net/posts/postgresql-primer-for-busy-people/) - A collection of the most common commands used in PostgreSQL
+* [pg-utils](https://github.com/dataegret/pg-utils) - Useful DBA tools by Data Egret
 
 ### Newsletters
 
