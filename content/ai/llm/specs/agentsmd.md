@@ -5,7 +5,6 @@ summary=A simple, open format for guiding coding agents.
 
 [Website](https://agents.md/) | [Source](https://github.com/agentsmd/agents.md)
 
-
 ## Why AGENTS.md?
 
 README.md files are for humans: quick starts, project descriptions, and contribution guidelines.
