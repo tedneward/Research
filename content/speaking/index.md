@@ -20,6 +20,10 @@ summary=A collection of articles and resources about public (technical) speaking
 5. End early. People complain when talks go long—not short. If you plan to end early, you’ll be less likely to go long. Ending early also makes it feel like time flew by. It also gives more time for Q&A and discussion (which should be lively if your talk went well).
 6. Prepare two conclusion statements. Academic talks often end with a Q&A. But this can mean that the last thing you audience hears is a subpar question or an awkward “No more questions?” You can ensure that things end on a high note if you prep a post-Q&A conclusion.
 
+## Tools
+
+* ["Choose Your Own Adventure" Presentations](https://www.twilio.com/en-us/blog/developers/tutorials/integrations/choose-your-own-adventure-presentations-with-reveal-js-python-and-websockets-html): To create our Choose Your Own Adventure presentation we’ll use Reveal.js, Flask, WebSockets and Twilio SMS. [Source](https://github.com/makaimc/choose-your-own-adventure-presentations)
+
 ## Articles
 
 ["8 Talk Title Mistakes We've All Made"](https://hollycummins.com/presentation-titles/):

@@ -20,6 +20,7 @@ Agent skills can include prompt injections, tool poisoning, hidden malware paylo
 - [The set of Codex skills based on Effective Java (2nd ed.)](https://github.com/sherman/codex-skills)
 - [dotnet-claude-kit](https://github.com/codewithmukesh/dotnet-claude-kit)
 - [How to build a skills library for your engineering team](https://thenewstack.io/engineering-team-skills-library/)
+- [awesome-copilot](https://github.com/github/awesome-copilot): Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.
 
 ---
 
