@@ -1,5 +1,5 @@
 title=Aider
-tags=ai, agent
+tags=ai, llm, agent, coding
 summary=Use command line to edit code in your local repo.
 ~~~~~~
 

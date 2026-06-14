@@ -27,6 +27,8 @@ tags=gamedev
 
 - [Heroes of Might and Magic 2 clone](https://ihhub.github.io/fheroes2/) ([Source](https://github.com/ihhub/fheroes2))
 
+- [10 roguelikes that never die](https://github.blog/open-source/gaming/dungeons-desktops-10-roguelikes-that-never-die-because-their-communities-wont-let-them/)
+
 ## Reading
 
 ### Articles

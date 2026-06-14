@@ -106,6 +106,7 @@ An agent generally consists of these core components:
 - [How to Build AI Agents That Can Control Cloud Infrastructure](https://www.freecodecamp.org/news/how-to-build-ai-agents-that-can-control-cloud-infrastructure/)
 - [I Built a Local AI Agent That Audits My Own Articles. It Flagged Every Single One.](https://dev.to/dannwaneri/i-built-a-local-ai-agent-that-audits-my-own-articles-it-flagged-every-single-one-pkh) [Source](https://github.com/dannwaneri/seo-agent)
 - [Components of A Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)
+- [Building an AI Agent from Scratch with pure Python](https://levelup.gitconnected.com/building-an-ai-agent-from-scratch-with-pure-python-7d4532202637): a structured Plan-and-Execute AI agent. [Source](https://github.com/cbernecker/AIAgentScratch)
 
 ## Languages/Libraries
 

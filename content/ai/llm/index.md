@@ -81,6 +81,7 @@ summary=Collection of links, notes, and models.
 ### Implementation
 
 * [Hackaday: An LLM from "Scratch"](https://hackaday.com/2026/05/07/an-llm-from-scratch/)
+* [Train LLM from Scratch](https://fareedkhan-dev.github.io/train-llm-from-scratch/): A straightforward method for training your LLM, from downloading data to generating text. [Source](https://github.com/FareedKhan-dev/train-llm-from-scratch)
 * [Train an LLM from Scratch](https://github.com/angelos-p/llm-from-scratch): A hands-on workshop where you write every piece of a GPT training pipeline yourself, understanding what each component does and why.
 * [Simple-LLM](https://github.com/naklecha/simple-llm): ~950 line, minimal, extensible LLM inference engine built from scratch.
 * [BUILDING AN INTELLIGENT ARCHITECTURE AGENT: LEVERAGING LLMS FOR AUTOMATED DIAGRAM GENERATION AND DOCUMENTATION](https://stal.blogspot.com/2025/09/building-intelligent-architecture-agent.html?m=1)

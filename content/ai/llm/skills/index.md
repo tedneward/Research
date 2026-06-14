@@ -27,6 +27,11 @@ For teams and enterprises: Capture organizational knowledge in portable, version
 * Repeatable workflows: Turn multi-step tasks into consistent and auditable workflows.
 * Interoperability: Reuse the same skill across different skills-compatible agent products.
 
+## Collections
+
+* [Claude Skills](https://claudemarketplaces.com/skills)
+* [Anthropic Skills](https://github.com/anthropics/skills)
+
 ## Reading
 
 ### Articles, Blogs, Essays
