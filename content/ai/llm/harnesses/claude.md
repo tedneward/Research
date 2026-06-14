@@ -69,6 +69,7 @@ CLAUDE.md is the single most important file in your Claude Code setup. Without i
 ### Videos
 
 - [Setting up Claude Cowork](https://www.youtube.com/watch?app=desktop&v=vMo-yRCN3QM)
+- [ClaudeCode in Action](https://anthropic.skilljar.com/claude-code-in-action)
 
 ## Examples, Repositories
 

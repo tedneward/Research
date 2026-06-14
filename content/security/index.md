@@ -8,6 +8,7 @@ summary=Computer (network, operating system, application, etc) security.
 ## Reading (general)
 
 * [The Web Authentication Arms Race](https://blog.slaks.net/2015-10-13/web-authentication-arms-race-a-tale-of-two-security-experts/)
+* [Yes, you can turn any old USB drive into a physical security key](https://www.makeuseof.com/use-any-usb-drive-as-a-security-key/)
 
 ## Network
 

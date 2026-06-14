@@ -7,6 +7,7 @@ summary=The Microsoft operating system that has gone through several iterations 
 
 - ["How to upgrade your Incompatible Windows 10 PC to Windows 11 Now"](https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11-now/)
 - ["Create a bootable Windows USB"](https://www.makeuseof.com/windows-11-create-bootable-usb-drive/)
+- [3 tools I always keep on my Windows rescue USB that's saved countless PCs](https://www.makeuseof.com/tools-always-keep-on-windows-rescue-usb-saved-countless-pcs/): SystemRescue, a Windows-bootable USB, Kapersky RescueDisk
 
 
 ## WSL

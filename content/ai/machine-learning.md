@@ -9,6 +9,8 @@ Much of this needs further movement into other areas of the garden.
 
 ### Articles, Blogs, Essays
 
+- [Need Help Getting Started with Applied Machine Learning? These are the Step-by-Step Guides that You’ve Been Looking For!](https://machinelearningmastery.com/start-here/)
+
 ## "MLOps"
 
 - [Part 1: Designing a Production-Grade Agentic MLOps System](https://kmeanskaran.substack.com/p/part-1-designing-an-agentic-mlops): A practical guide to combining LSTM forecasting, transfer learning, and AI agents in real-world ML systems

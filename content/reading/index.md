@@ -46,6 +46,10 @@ Individual collections of articles/essays:
 
 * [Oren Golan](https://oren.github.io/articles/)
 
+## E-readers
+
+* [Here are your choices for a self-hosted e-book server](https://itsfoss.com/self-host-ebook-server-software/): Calibre + Calibre-Web, Kavita, Komga, Atsumeru, Ubooquity, pyShelf, BookLore
+
 ## Amazon Kindle (cloud system)
 
 * [How to remove Amazon's DRM from your Kindle books](https://www.howtogeek.com/how-to-remove-amazon-drm-from-your-kindle-books/)

@@ -4,13 +4,15 @@ summary=The original open-source operating system.
 ~~~~~~
 
 - https://www.howtogeek.com/i-turned-a-usb-drive-into-a-linux-app-swiss-army-knife/
+- https://www.howtogeek.com/how-to-create-a-portable-workspace-on-a-usb-using-linux/
 - https://www.howtogeek.com/forget-distro-hopping-this-is-how-you-can-use-any-linux-distro-on-your-linux-pc/: [Distrobox](https://distrobox.it/) `sudo apt install distrobox`
+- 
 
-Distributions ([DistroWatch](https://distrowatch.com/)):
+## Distributions ([DistroWatch](https://distrowatch.com/))
 
 [DistroBox](https://distrobox.it/) [Source](https://github.com/89luca89/distrobox): Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with. To use: `sudo apt install distrobox`, then `distrobox create --name archbox --image archlinux:latest` or `distrobox create --name my-ubuntu --image ubuntu:22.04`, then `distrobox enter `*name*
 
-Popular
+### Popular
 
 * [AnduinOS](https://anduinos.com): looks just like Windows, built by a Microsoft engineer
 * [Asmi Linux](https://teejeetech.com/asmi/): bringing Xfce desktop to a more manageable state
@@ -48,7 +50,7 @@ Popular
 * [VanillaOS](/platforms/linux/vanillaos)
 * [Zorin](https://zorin.com/os/) *immutable*
 
-Special-purpose
+### Special-purpose
 
 * [Arch Linux](https://archlinux.org/): Bleeding-edge distro of great complexity
 * [Kali Linux](https://www.kali.org/): Ethical hacking
@@ -57,7 +59,7 @@ Special-purpose
 * [Talos Linux](https://www.talos.dev/): For Kubernetes lovers
 * [TurnKey Linux](https://www.turnkeylinux.org/): a collection of pre-configured, ready-to-use Linux appliances that make deploying common server software fast and hassle-free.
 
-Gaming
+### Gaming
 
 * [Bazzite](https://bazzite.gg/): a Linux distribution designed specifically for gaming -- and it's quickly become my favorite for this purpose. Part of what makes Bazzite so good for gaming is that it includes everything necessary to play Steam games right out of the box. Also, Bazzite includes support for HDR & VRR; uses the System76 CPU scheduler for improved gameplay; adds community-developed tools and tweaks to streamline the gaming and streaming experience; includes a proprietary driver for GeForce GUPs; adds Waydroid to run Linux games; and offers LUKs full-disk encryption and game controller support. Another key aspect of Bazzite is that it's a SteamOS clone. For those unfamiliar with SteamOS, the operating system powers the SteamDeck, so it's ideal for gaming on Linux. In fact, I'd have to say that Bazzite is the single best Linux distribution for gaming. However, remember that Bazzite isn't a 1:1 clone of SteamOS. The biggest difference is that Bazzite is based on Fedora, whereas SteamOS is based on Arch.
 * [DraugerOS](https://draugeros.org/): based on Ubuntu and ships with tons of optimizations and modifications intended to improve gaming performance and the gaming experience. You'll find simple changes (such as a custom Plasma desktop) to far more complicated optimizations (such as a custom kernel with lot latency enabled and a scheduling frequency from 250Hz to 1000Hz). Everything in Drauger OS has been tweaked to make it an ideal gaming platform. In fact, the developers make no bones about the fact that Drauger OS is designed explicitly for gaming. This isn't your normal desktop OS. It's not aimed at productivity, shopping, socialization, project management, or development. Drauger OS supports several gaming platforms (such as Steam, Lutris, PlayOnLinux, etc.), works with several different game controllers, offers higher frame rates, and reduced screen tearing, as well as an overall increase in performance. The one downfall of Drauger OS is that the installation is a bit of a departure from the standard Ubuntu offering. The installation isn't hard, it's just… different. 
@@ -65,8 +67,7 @@ Gaming
 * [Fedora Game Spin](https://fedoraproject.org/labs/games): If you'd like a gaming-specific spin on your favorite Fedora distribution, look no further than Fedora Game Spin. However, there is a catch in that it's only for open-source games. But the good news is that there are hundreds of available games. The bad news is that they tend to look and feel like cheap knock-offs of other games. You'll find games like Extreme Tux Racer, Wesnoth, Hedewars, Colossus, BZFlag, Freeciv, Warzon 2100, MegaGlest, and Fillets. There are games ranging from first-person shooters, real-time and turn-based strategy, and puzzle games. In the end, if you're looking for varied free games, Fedora Game Spin might be a great option. And when you combine that with Fedora's inherently great performance, this spin becomes even more appealing.
 * [Regata OS](https://get.regataos.com.br/): Regata OS is about achieving as much performance as possible so your favorite games play as expected. Regata OS includes GameMode as well as AMD FSR (to help boost frame rates while delivering a high-resolution experience). If you have a laptop with hybrid graphics, Regata OS can run some applications with the dedicated GPU by default on AMD and NVIDIA-based laptops. Regata also supports Vulkan for faster performance and improved video quality. Moreover, you'll find support for Steam and Game Access, which allows you to run games from Origin, Battle.net, Ubisoft Connect, and the Epic Games Store. Unlike other gaming-specific distributions, Regata OS can also serve as a great desktop solution for productivity and other uses.
 
-
-Tiny/lightweight
+### Tiny/lightweight
 
 * [Damn Small Linux](https://www.damnsmalllinux.org/): for older machines [ISO](https://www.damnsmalllinux.org/download/dsl-2024.alpha.iso)
 * [ttylinux](http://www.minimalinux.org/ttylinux/): a small GNU/Linux system available for several CPU architectures. This small system has an 8 MB file system and runs on i486 computers within 28 MB of RAM, but provides a complete command line environment and is ready for Internet access.
