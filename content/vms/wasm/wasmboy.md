@@ -1,5 +1,5 @@
 title=WasmBoy
-tags=vm, wasm, gamedev
+tags=vm, web assembly, gamedev
 summary=A Game Boy / Game Boy Color Emulation Library, written for Web Assembly using AssemblyScript.
 ~~~~~~
 

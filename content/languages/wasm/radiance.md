@@ -1,5 +1,5 @@
 title=Radiance
-tags=language, wasm
+tags=language, web assembly
 summary=Simple language that compiles to WASM.
 ~~~~~~
 

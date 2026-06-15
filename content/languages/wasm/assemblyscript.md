@@ -1,5 +1,5 @@
 title=AssemblyScript
-tags=language, wasm
+tags=language, web assembly
 summary=A TypeScript-like language for WebAssembly.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=WAC
-tags=vm, wasm, linux, macos, windows
+tags=vm, web assembly, linux, macos, windows
 summary=A Minimal WebAssembly interpreter written in C.
 ~~~~~~
 

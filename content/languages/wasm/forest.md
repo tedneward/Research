@@ -1,5 +1,5 @@
 title=Forest
-tags=language, wasm, functional
+tags=language, web assembly, functional
 summary=Multi-syntax functional programming language that compiles to WebAssembly.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=WebAssembly Virtual Machine
-tags=vm, wasm, linux, macos, windows
+tags=vm, web assembly, linux, macos, windows
 summary=WebAssembly virtual machine designed for use in non-web applications.
 ~~~~~~
 

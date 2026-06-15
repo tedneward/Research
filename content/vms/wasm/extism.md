@@ -1,5 +1,5 @@
 title=Extism
-tags=vm, wasm, linux, macos, windows
+tags=vm, web assembly, linux, macos, windows
 summary=Goal is to make all software programmable, and is a flexible, embedded runtime to make it easy to extend your software with WebAssembly.
 ~~~~~~
 

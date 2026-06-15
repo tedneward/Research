@@ -1,5 +1,5 @@
 title=WasmEdge
-tags=vm, wasm, linux, macos, windows, android
+tags=vm, web assembly, linux, macos, windows, android
 summary=A lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications.
 ~~~~~~
 

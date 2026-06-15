@@ -1,5 +1,5 @@
 title=Pyodide
-tags=language, python, wasm, browser
+tags=language, python, web assembly, browser
 summary=Python with the scientific stack, compiled to WebAssembly; may be used in any context where you want to run Python inside a web browser.
 ~~~~~~
 

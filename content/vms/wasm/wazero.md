@@ -1,5 +1,5 @@
 title=Wazero
-tags=vm, wasm, linux, macos, windows
+tags=vm, web assembly, linux, macos, windows
 summary=A WebAssembly 1.0 and 2.0 spec compliant runtime written in Go, with zero platform dependencies.
 ~~~~~~
 

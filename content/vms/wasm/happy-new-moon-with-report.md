@@ -1,5 +1,5 @@
 title=Happy New Moon with Report
-tags=vm, wasm, jvm, linux, macos, windows
+tags=vm, web assembly, jvm, linux, macos, windows
 summary=An open-source implementation of WebAssembly written entirely in Java. It is used to run or test Web Assembly Modules (*.wasm) in Java.
 ~~~~~~
 

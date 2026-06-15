@@ -1,5 +1,5 @@
 title=Haskell
-tags=language, functional
+tags=language, functional, native, jvm, web assembly
 summary=Pure-functional language.
 ~~~~~~
 

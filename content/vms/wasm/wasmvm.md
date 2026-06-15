@@ -1,5 +1,5 @@
 title=WasmVM
-tags=vm, wasm, linux, macos, windows
+tags=vm, web assembly, linux, macos, windows
 summary=An unofficial standalone WebAssembly process virtual machine.
 ~~~~~~
 

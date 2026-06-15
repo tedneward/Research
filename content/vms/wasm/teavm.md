@@ -1,5 +1,5 @@
 title=TeaVM
-tags=vm, tool, jvm, wasm, native
+tags=vm, tool, jvm, web assembly, native
 summary=Compiles Java bytecode to JavaScript, WebAssembly and C
 ~~~~~~
 

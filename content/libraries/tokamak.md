@@ -1,5 +1,5 @@
 title=Tokamak
-tags=library, swift, wasm, browser
+tags=library, swift, web assembly, browser
 summary=SwiftUI-compatible framework for building browser apps with WebAssembly and native apps for other platforms.
 ~~~~~~
 

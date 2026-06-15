@@ -1,5 +1,5 @@
 title=Cheerp C/C++
-tags=language, browser, wasm, ecmascript, nodejs
+tags=language, browser, web assembly, ecmascript, nodejs
 summary=A C/C++ compiler for Web applications - compiles to WebAssembly and JavaScript.
 ~~~~~~
 

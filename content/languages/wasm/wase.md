@@ -1,5 +1,5 @@
 title=Wase
-tags=language, wasm, assembly
+tags=language, waweb assemblysm, assembly
 summary=A friendly, low-level language for Wasm.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=Swam
-tags=vm, wasm, jvm, linux, macos, windows
+tags=vm, web assembly, jvm, linux, macos, windows
 summary=WebAssembly engine in Scala.
 ~~~~~~
 

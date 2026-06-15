@@ -1,5 +1,5 @@
 title=Uno
-tags=presentation, windows, wasm, ios, macos, android, linux
+tags=presentation, windows, web assembly, ios, macos, android, linux
 summary=The first and only UI Platform for single-codebase applications for Windows, WebAssembly, iOS, macOS, Android and Linux.
 ~~~~~~
 

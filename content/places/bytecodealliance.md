@@ -1,5 +1,5 @@
 title=Bytecode Alliance
-tags=place, vm, web, wasm
+tags=place, vm, web, web assembly
 summary=A nonprofit organization dedicated to creating secure new software foundations, building on standards such as WebAssembly and WebAssembly System Interface (WASI).
 ~~~~~~
 

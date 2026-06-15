@@ -1,5 +1,5 @@
 title=WebVM
-tags=vm, operating system, linux, wasm
+tags=vm, operating system, linux, web assembly
 summary=A Linux virtual machine that runs in your browser.
 ~~~~~~
 

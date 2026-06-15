@@ -1,5 +1,5 @@
 title=Tangle
-tags=library, wasm, network
+tags=library, web assembly, network
 summary=Radically simple multiplayer networking apps.
 ~~~~~~
 

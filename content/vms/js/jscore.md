@@ -1,5 +1,5 @@
 title=JavaScriptCore
-tags=vm, ecmascript, wasm
+tags=vm, ecmascript, web assembly
 summary=Javascript engine for WebKit.
 ~~~~~~
 

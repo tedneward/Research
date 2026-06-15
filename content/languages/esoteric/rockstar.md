@@ -1,5 +1,5 @@
 title=Rockstar
-tags=language, esoteric
+tags=language, esoteric, web assembly
 summary=A dynamically typed computer programming language, designed for creating programs that are also song lyrics.
 ~~~~~~
 

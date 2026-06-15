@@ -1,5 +1,5 @@
 title=GraalVM
-tags=vm, jvm, python, nodejs, wasm
+tags=vm, jvm, python, nodejs, web assembly
 summary=Polyglot VM from Oracle with support for a number of languages/platforms.
 ~~~~~~
 

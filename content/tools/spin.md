@@ -1,5 +1,5 @@
 title=Spin
-tags=tool, wasm
+tags=tool, web assembly
 summary=A framework for building, deploying, and running fast, secure, and composable cloud microservices with WebAssembly.
 ~~~~~~
 

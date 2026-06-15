@@ -1,5 +1,5 @@
 title=WAMR (WebAssembly Micro-Runtime)
-tags=vm, web, wasm, native, linux, macos, windows, android
+tags=vm, web, web assembly, native, linux, macos, windows, android
 summary=a lightweight standalone WebAssembly (WASM) runtime with small footprint, high performance and highly configurable features.
 ~~~~~~
 

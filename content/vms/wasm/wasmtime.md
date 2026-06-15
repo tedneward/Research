@@ -1,5 +1,5 @@
 title=Wasmtime
-tags=vm, wasm, linux, macos, windows
+tags=vm, web assembly, linux, macos, windows
 summary=A standalone wasm-only runtime for WebAssembly, using the Cranelift JIT.
 ~~~~~~
 

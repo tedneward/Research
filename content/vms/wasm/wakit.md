@@ -1,5 +1,5 @@
 title=WaKit
-tags=vm, wasm, linux, macos
+tags=vm, web assembly, linux, macos
 summary=A WebAssembly runtime written in Swift.
 ~~~~~~
 

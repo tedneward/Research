@@ -1,5 +1,5 @@
 title=Grain
-tags=language, wasm
+tags=language, web assembly
 summary=A new language that puts academic language features to work.
 ~~~~~~
 

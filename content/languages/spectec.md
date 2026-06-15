@@ -1,5 +1,5 @@
 title=SpecTec
-tags=language, dsl, wasm, specification
+tags=language, dsl, web assembly, specification
 summary=A DSL in which the syntax and semantics of Wasm can be specified faithfully, for generating specification artifacts for WebAssembly from that single source of truth.
 ~~~~~~
 

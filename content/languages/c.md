@@ -1,5 +1,5 @@
 title=C
-tags=language, native, windows, macos, linux, web assembly, ios, android
+tags=language, native, windows, macos, linux, web assembly, ios, android, web assembly
 summary=General-purpose, imperative, supporting structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations.
 ~~~~~~
 

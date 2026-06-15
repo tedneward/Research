@@ -1,5 +1,5 @@
 title=Oqtane
-tags=presentation, clr, wasm
+tags=presentation, clr, web assembly
 summary=A Modular Application Framework for Blazor (.NET WebAssembly).
 ~~~~~~
 

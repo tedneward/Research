@@ -1,5 +1,5 @@
 title=Wizard
-tags=vm, wasm, linux, macos, jvm
+tags=vm, web assembly, linux, macos, jvm
 summary=Research WebAssembly Engine.
 ~~~~~~
 

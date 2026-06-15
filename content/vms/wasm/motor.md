@@ -1,5 +1,5 @@
 title=Motor
-tags=vm, wasm, linux, macos
+tags=vm, web assembly, linux, macos
 summary=A WebAssembly runtime which aims for secure and efficient execution of WebAssembly programs.
 ~~~~~~
 

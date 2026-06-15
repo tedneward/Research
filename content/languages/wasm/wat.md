@@ -1,5 +1,5 @@
 title=WebAssembly Text (WAT)
-tags=language, wasm
+tags=language, web assembly
 summary=A lowest-level text language representation for definining WebAssembly modules.
 ~~~~~~
 

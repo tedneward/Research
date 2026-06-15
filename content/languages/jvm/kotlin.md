@@ -1,5 +1,5 @@
 title=Kotlin
-tags=jvm, browser, language, functional, static, object, metaobject
+tags=jvm, browser, language, functional, static, object, metaobject, web assembly
 summary=An object language originally for JVM and later adopted for Android.
 ~~~~~~
 

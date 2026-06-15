@@ -1,5 +1,5 @@
 title=Onyx
-tags=language, wasm, procedural
+tags=language, web assembly, procedural
 summary=A data-oriented, procedural programming language, compiling solely to WebAssembly.
 ~~~~~~
 

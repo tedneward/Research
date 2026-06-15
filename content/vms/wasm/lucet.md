@@ -1,5 +1,5 @@
 title=Lucet
-tags=vm, wasm, linux
+tags=vm, web assembly, linux
 summary=A native WebAssembly compiler and runtime designed to safely execute untrusted WebAssembly programs inside your application.
 ~~~~~~
 

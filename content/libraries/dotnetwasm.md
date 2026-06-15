@@ -1,5 +1,5 @@
 title=WebAssembly for .NET
-tags=library, platform, clr, wasm
+tags=library, platform, clr, web assembly
 summary=Create, read, modify, write and execute WebAssembly (WASM) files from .NET-based applications.
 ~~~~~~
 

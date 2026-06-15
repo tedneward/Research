@@ -1,5 +1,5 @@
 title=Astro
-tags=language, native, wasm
+tags=language, native, web assembly
 summary=Multiparadigm language with Python-ish syntax compiling to WASM and native code
 ~~~~~~
 

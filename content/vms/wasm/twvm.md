@@ -1,5 +1,5 @@
 title=TWVM
-tags=vm, wasm, linux, macos, windows
+tags=vm, web assembly, linux, macos, windows
 summary=A tiny and efficient WebAssembly virtual machine.
 ~~~~~~
 

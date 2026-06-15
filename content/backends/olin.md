@@ -1,6 +1,6 @@
 title=Olin
-tags=backend, distribution, wasm
-summary=Olin is like the JVM for WebAssembly. It wraps WebAssembly with a set of functions to access the outside world and keeps track of things like how many instructions were used, how many syscalls were made and how much memory was used.
+tags=backend, distribution, jvm, web assembly
+summary=Wraps WebAssembly with a set of functions to access the outside world and keeps track of things like how many instructions were used, how many syscalls were made and how much memory was used.
 ~~~~~~
 
 [Source](https://github.com/Xe/olin)

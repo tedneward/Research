@@ -1,5 +1,5 @@
 title=Coi
-tags=language, wasm
+tags=language, web assembly
 summary=A component-based language designed to make writing high-performance WebAssembly apps feel like writing modern web components, while maintaining the raw speed of a C++ backend.
 ~~~~~~
 

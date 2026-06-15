@@ -1,5 +1,5 @@
 title=wasmvm
-tags=vm, wasm, linux, macos, windows
+tags=vm, web assembly, linux, macos, windows
 summary=WebAssembly Virtual Machine, which aim to fit embedded systems.
 ~~~~~~
 

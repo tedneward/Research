@@ -1,5 +1,5 @@
 title=py-wasm
-tags=vm, wasm, python, linux, macos, windows
+tags=vm, web assembly, python, linux, macos, windows
 summary=A python implementation of the WebAssembly interpreter.
 ~~~~~~
 

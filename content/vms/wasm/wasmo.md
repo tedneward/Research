@@ -1,5 +1,5 @@
 title=Wasmo
-tags=vm, wasm, llvm
+tags=vm, web assembly, llvm
 summary=A WebAssembly runtime and compiler based on LLVM.
 ~~~~~~
 

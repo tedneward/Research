@@ -1,5 +1,5 @@
 title=Life
-tags=vm, wasm, linux, macos, windows
+tags=vm, web assembly, linux, macos, windows
 summary=A secure & fast WebAssembly VM built for decentralized applications.
 ~~~~~~
 

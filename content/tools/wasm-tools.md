@@ -1,5 +1,5 @@
 title=Wasm-tools
-tags=tool, platform, language, wasm
+tags=tool, platform, language, web assembly
 summary=A collection of tools for WebAssembly modules and components.
 ~~~~~~
 

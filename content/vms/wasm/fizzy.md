@@ -1,5 +1,5 @@
 title=Fizzy
-tags=vm, wasm, linux, macos
+tags=vm, web assembly, linux, macos
 summary=Aims to be a fast, deterministic, and pedantic WebAssembly interpreter written in C++.
 ~~~~~~
 

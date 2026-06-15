@@ -1,5 +1,5 @@
 title=Chicory
-tags=vm, jvm, wasm
+tags=vm, jvm, web assembly
 summary=Native JVM WebAssembly runtime.
 ~~~~~~
 

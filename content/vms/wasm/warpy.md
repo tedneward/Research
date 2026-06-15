@@ -1,5 +1,5 @@
 title=Warpy
-tags=vm, wasm, python, linux, macos, windows
+tags=vm, web assembly, python, linux, macos, windows
 summary=WebAssembly interpreter in RPython.
 ~~~~~~
 

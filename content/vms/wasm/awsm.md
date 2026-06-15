@@ -1,5 +1,5 @@
 title=aWsm
-tags=vm, wasm, llvm, linux, macos
+tags=vm, web assembly, llvm, linux, macos
 summary=A compiler and runtime for compiling WebAssembly into LLVM, then into sandboxed binaries.
 ~~~~~~
 

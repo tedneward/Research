@@ -1,5 +1,5 @@
 title=Blazor
-tags=presentation, clr, wasm
+tags=presentation, clr, web assembly
 summary=A tool to convert C# to WASM for interactive browser UIs written in C#.
 ~~~~~~
 

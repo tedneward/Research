@@ -1,5 +1,5 @@
 title=Wasmi
-tags=vm, wasm, linux, macos, windows
+tags=vm, web assembly, linux, macos, windows
 summary=A Wasm interpreter.
 ~~~~~~
 

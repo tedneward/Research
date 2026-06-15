@@ -1,5 +1,5 @@
 title=webassembly
-tags=vm, wasm, linux, macos, windows
+tags=vm, wweb assemblyasm, linux, macos, windows
 summary=An experimental, minimal toolkit and runtime on top of node to produce and run WebAssembly modules.
 ~~~~~~
 

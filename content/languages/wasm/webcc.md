@@ -1,5 +1,5 @@
 title=WebCC
-tags=language, wasm
+tags=language, web assembly
 summary=A lightweight C++ toolchain and framework for WebAssembly.
 ~~~~~~
 

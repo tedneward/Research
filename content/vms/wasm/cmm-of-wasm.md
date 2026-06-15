@@ -1,5 +1,5 @@
 title=CMM of WASM
-tags=vm, wasm, linux, macos
+tags=vm, web assembly, linux, macos
 summary=A compiler from WebAssembly to native code, via the OCaml backend.
 ~~~~~~
 

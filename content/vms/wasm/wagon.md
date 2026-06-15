@@ -1,5 +1,5 @@
 title=Wagon
-tags=vm, wasm, linux, macos, windows
+tags=vm, web assembly, linux, macos, windows
 summary=A WebAssembly-based interpreter in Go, for Go.
 ~~~~~~
 

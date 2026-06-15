@@ -1,5 +1,5 @@
 title=Wasmer
-tags=vm, wasm, linux, macos, windows, android
+tags=vm, web assembly, linux, macos, windows, android
 summary=A standalone WebAssembly runtime for running WebAssembly outside of the browser, supporting WASI and Emscripten.
 ~~~~~~
 

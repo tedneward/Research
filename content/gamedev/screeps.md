@@ -1,5 +1,5 @@
 title=Screeps
-tags=gamedev, nodejs, ecmascript, wasm
+tags=gamedev, nodejs, ecmascript, web assembly
 summary=MMO sandbox game for programmers; "scripting creeps" is an open-source game for programmers, wherein the core mechanic is programming your units' AI. You control your colony by writing JavaScript.
 ~~~~~~
 

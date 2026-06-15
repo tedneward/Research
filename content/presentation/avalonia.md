@@ -1,5 +1,5 @@
 title=Avalonia
-tags=presentation, clr, windows, macos, linux, ios, android, wasm
+tags=presentation, clr, windows, macos, linux, ios, android, web assembly
 summary=A cross-platform .NET UI framework that supports all the major platforms.
 ~~~~~~
 

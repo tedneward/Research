@@ -1,5 +1,5 @@
 title=Emscripten
-tags=language, native, wasm
+tags=language, native, web assembly
 summary=C++ compiler that generates Javascript "assembly" for execution by any JS engine.
 ~~~~~~
 

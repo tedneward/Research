@@ -1,5 +1,5 @@
 title=WasmCloud
-tags=platform, wasm
+tags=platform, web assembly
 summary=Build applications in any language. Deploy them anywhere.
 ~~~~~~
 

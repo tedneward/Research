@@ -1,5 +1,5 @@
 title=SpiderMonkey
-tags=vm, ecmascript, wasm
+tags=vm, ecmascript, web assembly
 summary=Mozilla's JavaScript and WebAssembly engine, written in C++, Rust, and JS.
 ~~~~~~
 
