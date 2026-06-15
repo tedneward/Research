@@ -78,6 +78,21 @@ summary=Collection of links, notes, and models.
 * [AI Concepts Software Engineers Need in 2026](https://www.geeky-gadgets.com/ai-concepts-2026/): LLMs, Tokens and Context Windows, AI Agents, MCP, RAG, Fine-tuning, context engineering, multimodal AI, MOE (mixture-of-experts)
 * [Guardrails for LLMs: Measuring AI ‘Hallucination’ and Verbosity](https://www.kdnuggets.com/guardrails-for-llms-measuring-ai-hallucination-and-verbosity)
 
+### Performance
+
+* [Can You Run LLMs Locally Without a GPU? I Tested 8 Models on Linux](https://itsfoss.com/testing-local-llms-without-gpu/): "I tested 8 LLMs on a CPU-only machine to find out what works and what doesn’t." Results:
+
+    Model | Eval Rate | Disk Size
+    ----- | --------- | ---------
+    Qwen 3 0.6B | ~34–36 tok/s | ~500 MB
+    TinyLlama 1.1B | ~25–28 tok/s | ~638 MB
+    Gemma 3 1B | ~18.6 tok/s | ~815 MB
+    Gemma 4 E2B | ~9.9 tok/s | ~7 GB
+    Granite 4 3B | ~8.5–9 tok/s | ~2 GB
+    Phi 4 Mini 3.8B | ~6.90 tok/s | ~2.5 GB
+    OpenHermes 7B | ~4.1–4.3 tok/s | ~4.1 GB
+    Ministral 3 8B | ~3.16 tok/s | ~6 GB
+
 ### Implementation
 
 * [Hackaday: An LLM from "Scratch"](https://hackaday.com/2026/05/07/an-llm-from-scratch/)

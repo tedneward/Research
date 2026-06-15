@@ -1,5 +1,5 @@
-title=Zero
-tags=language, ai, agents
+title=Zerolang
+tags=language, ai, agents, verification, syntactic
 summary=A programming language for agents: a systems language for small native tools, explicit effects, predictable memory, and structured compiler output.
 ~~~~~~
 

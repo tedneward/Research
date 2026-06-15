@@ -53,6 +53,12 @@ The “best” model is the one that fits your product requirements, works withi
 - [outlines](https://github.com/dottxt-ai/outlines) - structured outputs for LLMs
 - [llama-swap](https://github.com/mostlygeek/llama-swap) - reliable model swapping for any local OpenAI compatible server - llama.cpp, vllm, etc.
 
+## Reading
+
+### Articles, Blogs, Essays
+
+- [Guardrails for LLMs: Measuring AI ‘Hallucination’ and Verbosity](https://www.kdnuggets.com/guardrails-for-llms-measuring-ai-hallucination-and-verbosity)
+
 ## Specific (uncategorized) list of models
 
 * wizard-math: Your logic partner. "This model is a specialized version of the WizardLM family. It is trained to excel in complex mathematical problems, logical reasoning, and solving puzzles. There are three different sizes available for wizard-math – 7B, 13B, and 70B. With my little experience exploring wizard-math with 7B, I found it fantastic. It helps me test my solutions and explore new ways to approach difficult problems. The model's ability to handle these subjects with precision and clarity makes it my go-to partner for all things logic and numbers."

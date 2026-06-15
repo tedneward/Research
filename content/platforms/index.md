@@ -17,13 +17,18 @@ Native refers to a variety of different hardware/OS combinations, including:
 * Android/ARM
 * Android/x86
 
-### Internal Developer Platform
+## Operating systems
+Some of the original "platforms".
+
+* [Virtual OS Museum](https://virtualosmuseum.org/): "Want to see the earliest resident monitors? The ancestor of all modern OSes (CTSS)? The earliest versions of Unix? The first OS with a desktop metaphor GUI (Xerox Star Pilot/ViewPoint)? Early versions of mainstream OSes? If you want to explore historical OSes and platforms without having to worry about configuring/installing emulators and OSes or corrupting emulated installations, you’ve come to the right place."
+
+## Internal Developer Platform
 
 * [Platform as a runtime](https://www.infoq.com/articles/platform-runtime-engineering/)
 * [MVP or TVP? Why your Internal Developer Platform Needs Both](https://thenewstack.io/mvp-or-tvp-why-your-internal-developer-platform-needs-both/)
 * [Infrastructure from Code](https://www.shuttle.dev/blog/2022/05/09/ifc)
 
-### Other platform-like links:
+## Other platform-like links:
 
 * [Sliksafe](https://www.sliksafe.com/): a Dropbox alternative where all your data is first encrypted on your own device and then stored on decentralized storage. [Whitepaper](https://sliksafe.com/whitepaper.pdf). [Web app](https://app.sliksafe.com), [macOS app](https://sliksafe.com/downloads). [HackerNews](https://news.ycombinator.com/item?id=29637188)
 

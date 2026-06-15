@@ -96,6 +96,10 @@ Four principles in one file that directly address these issues:
 
 # Reading
 
+## Articles, Blogs, Essays
+
+* [How to build a skills library for your engineering team](https://thenewstack.io/engineering-team-skills-library/)
+
 ## Tutorials and Guides
 
 ### Claude and Anthropic
