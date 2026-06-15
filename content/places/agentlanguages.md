@@ -35,36 +35,36 @@ Some entries here are academic (Pel from CMU, Quasar from Penn); some are infras
 
 This camp overlaps the most with the others — Boruna includes a type checker and capability system; Quasar adds conformal prediction. The line between “language for agents” and “framework for agents” is genuinely blurry here, which is itself informative.
 
-* [AILANG](): Verification
-* [Aver](): Verification
-* [Axis](): Syntactic, Verification
-* [BHC/hx](): Verification
-* [B-IR](): Syntactic
-* [Boruna](): Orchestration, Verification
-* [Codong](): Syntactic
-* [Intent](): Verification
-* [Koru](): *N/A*
-* [Laze](): Syntactic
-* [LLMLang](): Syntactic, Verification
-* [Lume](): Syntactic
-* [Lumen](): Orchestration
-* [Magpie](): Syntactic
+* [AILANG](/languages/ailang): Verification
+* [Aver](/languages/aver): Verification
+* [Axis](/languages/axis): Syntactic, Verification
+* [BHC/hx](/languages/bhc-hx): Verification
+* [B-IR](/languages/b-ir): Syntactic
+* [Boruna](/languages/boruna): Orchestration, Verification
+* [Codong](/languages/codong): Syntactic
+* [Intent](/languages/intent): Verification
+* [Koru](/languages/koru): *N/A*
+* [Laze](/languages/laze): Syntactic
+* [LLMLang](/languages/llmlang): Syntactic, Verification
+* [Lume](/languages/lume): Syntactic
+* [Lumen](/languages/lumen): Orchestration
+* [Magpie](/languages/magpie2): Syntactic
 * [Marsha](/languages/marsha): Orchestration
 * [Mog](/languages/mog): Syntactic, Verification
 * [MoonBit](/languages/moonbit): Verification
 * [Nanolang](/languages/nanolang): Verification, Syntactic
 * [NERD](/languages/nerd) (No Effort Required, Done): Syntactic
-* [Pact](): Verification
-* [Pel](): Orchestration
-* [Plasm](): Orchestration, Syntactic
-* [Plumbing](): *N/A*
-* [Prove](): Verification
-* [Quasar](): Orchestration, Verification
+* [Pact](/languages/pact): Verification
+* [Pel](/languages/pel): Orchestration
+* [Plasm](/languages/plasm): Orchestration, Syntactic
+* [Plumbing](/languages/plumbing): *N/A*
+* [Prove](/languages/prove): Verification
+* [Quasar](/languages/quasar): Orchestration, Verification
 * [Sever](/languages/sever): Syntactic
-* [Spec](): Orchestration?
+* [Spec](/languages/spec): Orchestration?
 * [Tacit](/languages/tacit): Syntactic, Verification
-* [Valea](): *N/A*
+* [Valea](/languages/valea): *N/A*
 * [Vera](/languages/vera): Verification, Orchestration
-* [Vow](): Verification
-* [X07](): Syntactic
+* [Vow](/languages/vow): Verification
+* [X07](/languages/x07): Syntactic
 * [Zero](/languages/zero): Verification, Syntactic
