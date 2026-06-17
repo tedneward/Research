@@ -19,5 +19,9 @@
     <link rel="stylesheet" href="${config.site_host}/css/styles/vs.min.css">
     <script src="${config.site_host}/js/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
+    
+    <!-- Search functionality -->
+    <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.43/dist/flexsearch.bundle.min.js"></script>
+    <script src="${config.site_host}/js/search.js"></script>
   </body>
 </html>
