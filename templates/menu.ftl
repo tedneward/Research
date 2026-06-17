@@ -24,6 +24,17 @@
             <li><a href="${config.site_host}/tags">All Tags</a></li>
             <li><a href="${config.site_host}/${config.feed_file}">Subscribe (RSS)</a></li>
           </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="search-container">
+              <form class="navbar-form" role="search" onsubmit="return false;">
+                <div class="input-group">
+                  <input type="text" id="search-input" class="form-control" placeholder="Search..." autocomplete="off">
+                  <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                </div>
+              </form>
+              <div id="search-results" class="search-results-dropdown"></div>
+            </li>
+          </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
