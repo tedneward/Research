@@ -1,5 +1,5 @@
 title=Roc
-tags=language, functional, wasm, native
+tags=language, functional, web assembly, native
 summary=A fast, friendly, functional language.
 ~~~~~~
 
