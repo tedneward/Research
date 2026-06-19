@@ -28,12 +28,23 @@
             <li class="search-container">
               <form class="navbar-form" role="search" onsubmit="return false;">
                 <div class="input-group">
-                  <input type="text" id="search-input" class="form-control" placeholder="Search..." autocomplete="off">
+                  <input type="text" id="search-input" class="form-control" placeholder="Local Search..." autocomplete="off">
                   <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
                 </div>
               </form>
               <div id="search-results" class="search-results-dropdown"></div>
             </li>
+            <!-- Use a localized Google search: pass "site:research.tedneward.org {search}" to Google -->
+            <!-- 
+            <li class="search-container">
+              <form class="navbar-form" role="search" onsubmit="return false;">
+                <div class="input-group">
+                  <input type="text" id="google-search-input" class="form-control" placeholder="Google Search..." autocomplete="off">
+                  <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                </div>
+              </form>
+            </li>
+            -->
           </ul>
         </div><!--/.nav-collapse -->
       </div>

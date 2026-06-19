@@ -20,3 +20,16 @@ tags=teaching
 * [Relocation Advisor - Junior Developer Training Project](https://github.com/robfosterdotnet/RelocationAdvisorSpecs)
 
 * [The Interactive Handbook on Data Structures and Algorithms](https://cartesian.app/)
+
+### Interviewing Practice
+
+* [hello interview](https://www.hellointerview.com/)
+
+### Practice Projects
+
+#### Python
+
+* [The Big Book of Small Python Projects](https://inventwithpython.com/bigbookpython/)
+* ["I Need Practice Programming": 49 Ideas for Game Clones to Code](https://inventwithpython.com/blog/i-need-practice-programming-49-ideas-for-game-clones-to-code.html)
+* [Python Projects - Beginner to Advanced](https://www.geeksforgeeks.org/python/python-projects-beginner-to-advanced/)
+* [80 Python Projects from Beginner to Advanced](https://www.dataquest.io/blog/python-projects-for-beginners/)
