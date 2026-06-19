@@ -6,11 +6,7 @@
     'use strict';
 
     // Search configuration
-    const SEARCH_INDEX_URL = '/searchindex.html';
-        // This should be a JSON file; I tried like hell to make it a JSON file.
-        // But the JBake configuration is just not picking up the configuration
-        // that's documentation to make it happen, and I'm tired to fighting it.
-        // So, sure, parse JSON out of an .html-extension-named file. Why not.
+    const SEARCH_INDEX_URL = '/searchindex.json';
     const DEBOUNCE_DELAY = 150;
     const MAX_RESULTS = 20;
 
