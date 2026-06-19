@@ -29,6 +29,7 @@ tags=teaching
 
 #### Python
 
+* [learnbyexample: Practice Python Projects](https://learnbyexample.github.io/practice_python_projects/)
 * [The Big Book of Small Python Projects](https://inventwithpython.com/bigbookpython/)
 * ["I Need Practice Programming": 49 Ideas for Game Clones to Code](https://inventwithpython.com/blog/i-need-practice-programming-49-ideas-for-game-clones-to-code.html)
 * [Python Projects - Beginner to Advanced](https://www.geeksforgeeks.org/python/python-projects-beginner-to-advanced/)
