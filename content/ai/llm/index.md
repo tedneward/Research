@@ -77,6 +77,7 @@ summary=Collection of links, notes, and models.
 * [The Complete Guide to Inference Caching in LLMs](https://machinelearningmastery.com/the-complete-guide-to-inference-caching-in-llms/)
 * [AI Concepts Software Engineers Need in 2026](https://www.geeky-gadgets.com/ai-concepts-2026/): LLMs, Tokens and Context Windows, AI Agents, MCP, RAG, Fine-tuning, context engineering, multimodal AI, MOE (mixture-of-experts)
 * [Guardrails for LLMs: Measuring AI ‘Hallucination’ and Verbosity](https://www.kdnuggets.com/guardrails-for-llms-measuring-ai-hallucination-and-verbosity)
+* [How to Build a Multi-Agent AI System with LangGraph, MCP, and A2A](https://www.freecodecamp.org/news/how-to-build-a-multi-agent-ai-system-with-langgraph-mcp-and-a2a-full-book/) with [Source](http://github.com/sandeepmb/freecodecamp-multi-agent-ai-system)
 
 ### Performance
 

@@ -124,3 +124,28 @@ This concept is also referenced in the realm of object detection, a technique us
 - https://byronsalty.medium.com/my-growing-list-of-ai-and-llm-terminology-26d8b109a14f
 - https://shiftmag.dev/the-glossary-you-must-read-if-you-wanna-talk-about-ai-8413/
 - https://www.pryon.com/landing/rag-definition-and-llm-glossary
+
+## Reading
+
+### Articles, Blogs, Essays
+
+* [How Anthropic Thinks About Agents, Workflows, and Tasks](https://shellypalmer.com/2026/04/how-anthropic-thinks-about-agents-workflows-and-tasks/): Anthropic thinks of an agent as the environment it operates in, the tools it can call, and the system prompt that defines its goals and constraints. Everything else (caching, parallelization, trajectory inspection) is downstream optimization. You must nail the first three first.
+
+    * Task – A single model call: Summarize this. Classify that. Extract these fields. Two years ago this felt like magic. Today it is table stakes. The cost is predictable and the failure modes are bounded.
+
+    * Workflow – Multiple model calls in a predefined control flow. You decide the steps, the model fills them in. Route the customer email to the right queue, draft a response, check the response against policy, then send. The control flow is yours. The intelligence happens at each node.
+
+    * Agent – A model using tools in a loop, deciding its own trajectory. You give it a goal, a set of tools, and a system prompt. It decides what to do next based on what just happened. The control flow belongs to the model.
+
+    With a workflow, you own the plumbing. With an agent, the model owns the plumbing. Every other tradeoff is based on that single structural choice.
+
+    Is the task ambiguous enough that you cannot pre-map the decision tree? If you can map it, build it. Optimize each node. You will get more accuracy, more control, and lower cost than any agent will give you.
+
+    Is the task valuable enough to justify the token spend? Agents explore, and exploration costs money. Zhang’s rule of thumb: a 10-cent per task budget buys you roughly 30,000 to 50,000 tokens. That is workflow territory. A customer support operation processing one million tickets a month at 5x the necessary token spend burns roughly $1.5M in unnecessary cost per year. Choose wisely.
+
+    Are the bottleneck capabilities solid? If the model cannot reliably write code, debug code, and recover from its own errors, do not build a coding agent. Errors compound. Each loop iteration multiplies the failure rate of the weakest link.
+
+    What is the cost of error? If a mistake is high-stakes and hard to detect, autonomy becomes a liability. Read-only access and human-in-the-loop are real mitigations. But they also cap how far you can scale.
+
+    Coding is a great agent use case because it satisfies these conditions. The task is ambiguous. The output has obvious value. Frontier models are good at it. Unit tests verify the work. That is why agentic coding tools work today and why most other categories are still figuring it out.
+

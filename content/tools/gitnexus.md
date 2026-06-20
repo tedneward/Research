@@ -1,8 +1,7 @@
 title=GitNexus
-tags=tool, ai
+tags=tool, ai, llm, coding, agent
 summary=A client-side knowledge graph creator that runs entirely in your browser -- drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent.
 ~~~~~~
-
 [Website](https://gitnexus.vercel.app/) | [Source](https://github.com/abhigyanpatwari/GitNexus)
 
 **Building nervous system for agent context.**

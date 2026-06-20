@@ -103,7 +103,7 @@ Just the tool itself; considered separate from [Github](/clouds/github) since it
 * [git-scm - Video Tutorials](http://git-scm.com/videos)
 * [The New Boston tutorial to Git covering basic commands and workflow](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx)
 
-### Libraries
+## Libraries
 
 ### C/Native
 * [libgit2](https://libgit2.org/): a portable, pure C implementation of the Git core methods
