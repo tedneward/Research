@@ -21,6 +21,12 @@ The “best” open-source LLM always depends on your use case, compute budget, 
 
 The “best” model is the one that fits your product requirements, works within your compute constraints, and can be optimized for your specific tasks.
 
+[Best Local Models for OpenClaw](https://mrprompts.substack.com/p/best-local-models-for-openclaw-in):
+
+* 16GB (Mac Mini M4, most laptops): heartbeats yes, real work no. The default: Qwen3 4B. If Qwen3 4B feels heavy, drop to Llama 3.2 3B. What 16GB will not do well is run your primary agent work locally. 
+* 32GB: heartbeats easily, real work maybe, with caveats. Qwen3 8B or Qwen3 14B are the models to try first if you want local agent work. Mistral Small is the other strong candidate in this tier if it fits your memory budget. Here's the thing I'd tell a friend at 32GB: keep using the local model for heartbeats no matter what, and experiment with running light real work locally, but don't rip out your paid provider yet. Run both side by side using the "mode": "merge" config from the LM Studio post. Route the easy stuff local, keep the hard stuff on the paid model, and watch where the local model lets you down. After a week you'll know exactly which tasks it can own.
+* 64GB or a dedicated GPU: real local work becomes genuinely viable. A 70B-class model (Llama 3.3 70B and its relatives) in a sensible quantization is the target. Two honest caveats even at this tier. First, speed. Even on strong hardware a 70B model runs slower than a cloud call. For background work that's fine. For anything where you're sitting and waiting, the latency is noticeable. Second, the ceiling. Top-end tool-calling (the kind Claude Sonnet 4.5 gives you, which is why the main guide says the framework was built around it) still isn't something a local model fully matches in 2026. If your agent is doing high-stakes work where a wrong tool call has real consequences, the cloud model is still the safer brain. Local at this tier is excellent for privacy, offline operation, and zero marginal cost, but "as reliable as Sonnet for complex agent work" is not yet the claim.
+
 ## Model types
 
 * Source models ("text" or "base"): predictive-text models trained on a large corpus of text
