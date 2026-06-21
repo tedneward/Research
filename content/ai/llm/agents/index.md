@@ -35,6 +35,7 @@ An agent generally consists of these core components:
 
 ### Detection
 
+- [AI Coding Agents Guide: A Map of the Four Workflow Types](https://realpython.com/ai-coding-agents-guide/)
 - [Beyond Stars and Forks: RepoPulse](https://repopulse-arun-gupta.vercel.app/) [Source](https://github.com/arun-gupta/repo-pulse/blob/main/docs/oss-health-42-signals/README.md): Know the real health of any open source project — in seconds. RepoPulse computes a single OSS Health Score from five dimensions — scored as percentiles against 1,600+ real GitHub repositories in the same star bracket.
 
 ### Articles, Blogs, Essays

@@ -60,6 +60,7 @@ summary=Collection of links, notes, and models.
 
 ### Using LLMs
 
+* [5 Cool Things](https://www.kdnuggets.com/5-cool-things-i-did-with-local-language-models)
 * [How NotebookLM made self-hosting an LLM easier than I ever expected](https://www.xda-developers.com/learn-how-to-self-host-llm-with-notebooklm/)
 * [Run an LLM on your Android](https://www.makeuseof.com/you-can-and-should-run-a-tiny-llm-on-your-android-phone/)
 * [Deploy an AI Analyst in Minutes: Connect Any LLM to Any Data Source with Bag of Words](https://www.kdnuggets.com/deploy-an-ai-analyst-in-minutes-connect-any-llm-to-any-data-source-with-bag-of-words)
@@ -96,6 +97,7 @@ summary=Collection of links, notes, and models.
 
 ### Implementation
 
+* [Anatomy of an LLM](https://www.royvanrijn.com/anatomy-of-an-llm/): A visual walk through the machinery inside a large language model: from raw text, to tokens, to vectors, to attention, to the next token.
 * [Hackaday: An LLM from "Scratch"](https://hackaday.com/2026/05/07/an-llm-from-scratch/)
 * [Train LLM from Scratch](https://fareedkhan-dev.github.io/train-llm-from-scratch/): A straightforward method for training your LLM, from downloading data to generating text. [Source](https://github.com/FareedKhan-dev/train-llm-from-scratch)
 * [Train an LLM from Scratch](https://github.com/angelos-p/llm-from-scratch): A hands-on workshop where you write every piece of a GPT training pipeline yourself, understanding what each component does and why.
