@@ -216,6 +216,8 @@ Example Configuration:
 
 - [Andrej-Karpathy Skills](https://github.com/forrestchang/andrej-karpathy-skills)
 - [Awesome-LLM-Skills](https://github.com/Prat011/awesome-llm-skills)
+- [Codex skills based on Effective Java (2nd Ed)](https://github.com/sherman/codex-skills)
+- [dotnet-claude-kit](https://github.com/codewithmukesh/dotnet-claude-kit): Make Claude Code a .NET 10 Expert
 - [OfficialSkills (Website)](https://officialskills.sh/): Official skills from the dev teams of software vendors, plus handpicked & community-adopted skills. Powered from [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills), seems like?
 - [skillcreatorai/Ai-Agent-Skills](https://github.com/skillcreatorai/Ai-Agent-Skills) - SkillCreator.ai collection with CLI installer
 - [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) - 50+ verified skills for Claude Code and Claude.ai
