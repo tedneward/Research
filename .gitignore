@@ -25,3 +25,5 @@ org.eclipse.buildship.core.prefs
 
 bake.sh
 bake.bat
+
+__pycache__
