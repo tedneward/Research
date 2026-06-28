@@ -1,5 +1,5 @@
 title=AnythingLLM
-tags=ai, tool, presentation, python
+tags=ai, tool, engine, chat ui, python
 summary=Everything great about AI in one desktop application. Chat with docs, use AI Agents, and more - full locally and offline.
 ~~~~~~
 
