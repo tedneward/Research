@@ -51,6 +51,8 @@ Awesomes:
 
 [IBM Redbooks](http://www.redbooks.ibm.com)
 
+[In the Weights](https://www.intheweights.com/): Find out if you live on in GPT-5.5, GPT-5.4 Mini, Opus 4.8, Haiku 4.5, Grok 4.20, Gemini 3.1 Lite, Kimi K2 0905, DeepSeek V4, Llama 3.3 70B, Llama 3.2 1B, GLM 4.7 Flash, Mistral 3.2 24B, and Qwen3 8B.
+
 [InfoQ Minibooks](http://www.infoq.com/minibooks/)
 
 [InTech: Computer and Information Science](http://www.intechopen.com/subjects/computer-and-information-science)

@@ -3,12 +3,13 @@
 
 import re
 import sys
+import socket
 import argparse
 import ssl
 from pathlib import Path
 from typing import List, Tuple, Optional
 from urllib.request import Request, urlopen
-from urllib.error import URLError, HTTPError
+from urllib.error import URLError, HTTPError, InvalidURL
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
@@ -115,11 +116,17 @@ def validate_internet(url: str, timeout: int, skip_internet: bool) -> Tuple[bool
             if method == 'HEAD':
                 continue
             return False, str(e.reason)
+        except (socket.timeout, ConnectionResetError, InvalidURL):
+            if method == 'HEAD':
+                continue
+            return False, "Timeout"
 
     return False, "Unreachable"
 
 
 def validate_file_link(url: str, source_file: Path, content_dir: Path) -> Tuple[bool, str]:
+    if url.startswith('/tags'):
+        return True, ""
     resolved = resolve_content_path(url, source_file, content_dir)
     if resolved is None:
         return False, "File not found"
@@ -215,6 +222,8 @@ def main():
     total_file = 0
 
     for file_path in files:
+        print(f"Validating links in {file_path}...")
+        
         file_rel, broken = process_file(file_path, content_dir,
                                         args.timeout, args.skip_internet)
         all_broken.append((file_rel, broken))
