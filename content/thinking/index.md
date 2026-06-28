@@ -1,13 +1,15 @@
 title=Thinking
 category=thinking
 type=categorypage
-tags=thinking, philosophy, psychology
+tags=thinking, philosophy, psychology, mathematics, software
 summary=A collection of links (usually to articles) about the various forms of thinking we do.
 ~~~~~~
 
 [Not entirely sure what this is](https://moebio.com/mind/) but it's definitely something interactive and interesting
 
 # Mathematics
+
+* [A Mathematical Theory of Communication](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf): The core paper on information science/theory.
 
 ### Articles/Blogs/Essays/Tweet threads
 
