@@ -35,6 +35,7 @@ summary=The original object-oriented programming language, emphasizing multiple 
 * C++: [Smalltalk-80](https://github.com/dbanay/Smalltalk): By the Bluebook implementation of Smalltalk-80
 * [Crosstalk](https://github.com/michaelengel/crosstalk): Smalltalk-80 bare metal implementation for the Raspberry Pi
 * [Smalltalk compiler in Swift](https://github.com/markbush/Smalltalk-80-CompilerLib)
+* [Wise Owl: Smalltalk from Scratch](https://www.wiseowl.com/projects/smalltalk-from-scratch/) [Source](https://github.com/BrentRector/Smalltalk-2026)
 
 ## [Ultra-quick intro to Smalltalk](https://web.archive.org/web/20061221211047/http://www.daimi.au.dk/~ups/OOVM/slides/smalltalk-ultra-quick-intro.pdf)
 
