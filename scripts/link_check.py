@@ -9,7 +9,8 @@ import ssl
 from pathlib import Path
 from typing import List, Tuple, Optional
 from urllib.request import Request, urlopen
-from urllib.error import URLError, HTTPError, InvalidURL
+from urllib.error import URLError, HTTPError
+from http.client import InvalidURL
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
