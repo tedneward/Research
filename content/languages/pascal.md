@@ -14,6 +14,8 @@ summary=A procedural language with added object extensions popularized by Borlan
 * [Free Pascal](https://wiki.freepascal.org/WebAssembly) - Free Pascal compilation target and Pascal-to-Javascript runtime.
 * [Virtual Pascal](http://vpascal.ning.com/) : A tool of choice for 32-bit cross-platform development using the Pascal language. It is compatible with Borland Pascal and Delphi, including the Run-Time Library (RTL), an optimizing compiler, a powerful integrated debugger, and comprehensive online documentation.
 * Rust: [rascal](https://github.com/tylerlaberge/rascal): A simple Pascal interpreter in Rust.
+* JVM: [Gardens Point Component Pascal for Java 1.4](https://github.com/pahihu/gpcp-JVM)
+* CLR: [Gardens Point Component Pascal for .NET 1.4](https://github.com/k-john-gough/gpcp/)
 
 ### Reading
 
@@ -26,6 +28,8 @@ summary=A procedural language with added object extensions popularized by Borlan
 
 * ["Relational Pascal data base interface"](https://academic.oup.com/comjnl/article/24/2/112/338088)
 
+## Related repositories
 
+* [Component Pascal on Windows examples](https://github.com/michelou/component-pascal-examples): This repository gathers [Component Pascal](https://en.wikipedia.org/wiki/Component_Pascal) code examples coming from various websites and books.  It also includes several build scripts ([batch files](https://en.wikibooks.org/wiki/Windows_Batch_Scripting), [Gradle scripts](https://docs.gradle.org/current/userguide/writing_build_scripts.html)) for experimenting with [Component Pascal](https://en.wikipedia.org/wiki/Component_Pascal) on a Windows machine.
 
 

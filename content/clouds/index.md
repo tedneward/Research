@@ -16,6 +16,14 @@ tags=cloud
 * [Streamline microservice management with Istio Service Mesh](https://developers.redhat.com/books/introducing-istio-service-mesh-microservices/) *(account required)*
 
 
+## Reading
+
+### Articles, Blogs, Essays
+
+* [Cloud DSL: A Language for Supporting Cloud Portability by Describing Cloud Entities](https://ceur-ws.org/Vol-1242/paper9.pdf): "Different cloud platforms offer similar services with different characteristics, names, and functionalities. Therefore, describing cloud platform entities in such a way that they can be mapped to each other is critical to enable a smooth migration across platforms. In this paper, we present a DSL that uses a common cloud vocabulary for describing cloud entities covering a wide variety of cloud IaaS services. Through analysis of existing cloud DSLs, we advocate that our cloud DSL is more expressive for the purpose of describing different cloud IaaS services. In addition, when used along with TOSCA, our preliminary analysis suggests that our Cloud DSL significantly reduces the workload of creating cloud descriptions in a TOSCA specification.
+
+---
+
 ### Parse Server infrastructure providers
 
 - **[Clever Cloud](https://www.clever-cloud.com)**: Clever Cloud is a Europe-based PaaS company with bulletproof infrastructure, automatic scaling, fair pricing and an integration with Github for app deployment and hosting. Clever Cloud comes with a Node.js runtime and a native MongoDB add-on to run Parse.

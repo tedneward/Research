@@ -115,6 +115,14 @@ Here's a weird one: [C+P: Combining the Usefulness of C with the Excellence of P
 
 Many of these are built on the idea of the [Warren Abstract machine](http://en.wikipedia.org/wiki/Warren_abstract_machine), [archived here](http://wambook.sourceforge.net/).
 
+## Repositories
+
+* [GunterMueller/Unverisity.of.Melbourne_Australia_Prolog_Systems](https://github.com/GunterMueller/Unverisity.of.Melbourne_Australia_Prolog_Systems): MUProlog, NUProlog.
+* [GunterMueller/A.Miguel_Dias_CxProlog](https://github.com/GunterMueller/A.Miguel_Dias_CxProlog): CxProlog (WASM prolog)
+* [GunterMueller/C-Prolog](https://github.com/GunterMueller/C-Prolog): C-Prolog
+* [GunterMueller/Stony_Brooks_Prolog](https://github.com/GunterMueller/Stony_Brooks_Prolog): Prolog System from State University of New York at Stony Brook
+* [GunterMueller/UNSW_Prolog_and_iProlog](https://github.com/GunterMueller/UNSW_Prolog_and_iProlog): NSW Prolog and iProlog. Forked from http://www.cse.unsw.edu.au/~claude/untitled_text/untitled_text_4/untitled_text.html
+* [GunterMueller/Prolog_for_Programmers](https://github.com/GunterMueller/Prolog_for_Programmers): Material for the book " Prolog for Programmers" (listed below, in Reading)
 
 ## Reading
 
