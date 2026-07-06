@@ -25,6 +25,10 @@ Awesomes:
 * [Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 * [Sysadmin](https://github.com/awesome-foss/awesome-sysadmin)
 
+Good GitHub profiles/organizations that have a collection of interesting projects:
+
+* [GunterMueller](https://github.com/GunterMueller): 600+ repositories, most of which look be forked from other places. Lots of programming language repos.
+
 [Apple Open-Source](https://opensource.apple.com/)
 
 [The Programming Languages Laboratory at Johns Hopkins](https://pl.cs.jhu.edu/): Variety of inactive projects and papers, including BigBang, TinyBang, FeatherweightJava (FJ), and a few more. Most only of interest for background research.
@@ -50,6 +54,8 @@ Awesomes:
 [Goalkicker](https://goalkicker.com) - Programming Notes for Professionals books
 
 [IBM Redbooks](http://www.redbooks.ibm.com)
+
+[In the Weights](https://www.intheweights.com/): Find out if you live on in GPT-5.5, GPT-5.4 Mini, Opus 4.8, Haiku 4.5, Grok 4.20, Gemini 3.1 Lite, Kimi K2 0905, DeepSeek V4, Llama 3.3 70B, Llama 3.2 1B, GLM 4.7 Flash, Mistral 3.2 24B, and Qwen3 8B.
 
 [InfoQ Minibooks](http://www.infoq.com/minibooks/)
 

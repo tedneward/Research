@@ -27,6 +27,16 @@ tags=teaching
 
 ### Practice Projects
 
+#### AI
+
+* [7 Real World AI Projects to Build in 2026](https://www.kdnuggets.com/7-real-world-ai-projects-to-build-in-2026-with-guides):
+
+    * [JobFitAI](https://www.datacamp.com/tutorial/kimi-k2-6-api-tutorial) [Source](https://github.com/kingabzpro/JobFit-AI)
+    * [How to Build a Multi-Agent Research Assistant in Python](https://machinelearningmastery.com/how-to-build-a-multi-agent-research-assistant-in-python/) [Source](https://github.com/kingabzpro/Multi-Agent-Research-Assistant)
+    * [Agentic Market Research and Trend Analysis w/Olostep](https://www.olostep.com/blog/agentic-market-research-olostep) [Source](https://github.com/kingabzpro/agentic-market-research-olostep)
+    * [Building an Invoice-Processing Pipeline in Python](https://www.datacamp.com/tutorial/qwen-3-6-plus-api-tutorial) [Source](https://github.com/BexTuychiev/qwen-invoice-pipeline-tutorial)
+
+
 #### Python
 
 * [learnbyexample: Practice Python Projects](https://learnbyexample.github.io/practice_python_projects/)

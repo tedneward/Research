@@ -44,6 +44,10 @@ Numerous languages seek to supplant or replace C as the ubiquitous system langua
 
 ---
 
+## Instructional Uses
+
+* [Building a C-Subset Compiler for the FRISC Architecture: From Formal Languages to Executable Code](https://zenodo.org/records/20511074) [PDF](https://zenodo.org/records/20511074/files/Building%20a%20C-Subset%20Compiler%20for%20the%20FRISC%20Architecture_KarloKnezevic.pdf?download=1) [Source](https://github.com/KarloKnezevic/ccompiler): Building a C-Subset Compiler for the FRISC Architecture: From Formal Languages to Executable Code is a narrative monograph that follows a complete, working compiler from a deterministic subset of C all the way down to code that runs on the FRISC (FER Instruction Set Computer) educational architecture. Rather than presenting compilation as a catalogue of disconnected algorithms, the book builds a single real compiler end to end and explains every phase as it is implemented: lexical analysis (NFA construction, subset construction to a DFA, and maximal-munch tokenization), LR(1) parsing with an automatically constructed parse table, semantic analysis and type checking, lowering to a typed three-address intermediate representation, sixteen semantics-preserving optimization passes, and final code generation for the FRISC instruction set, followed by simulation. Part IV then revisits the same intermediate representation through two additional back ends — a tree-walking IR interpreter and a stack-based bytecode virtual machine — and uses them, together with the native FRISC back end, to study program behaviour and optimization impact through reproducible measurements on real example programs.
+
 ## Relationship to other languages
 
 * [C-rusted: The Advantages of Rust, in C, without the Disadvantages](https://arxiv.org/pdf/2302.05331.pdf)

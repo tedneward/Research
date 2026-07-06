@@ -163,6 +163,9 @@ Programming languages are (generally) human-friendly means of getting a computer
 
 [Phi-Calculus](/languages/concepts/phi-calculus.pdf)
 
+[Quantum](/languages/concepts/quantum)
+Quantum programming is the practice of writing algorithms and applications for quantum computers or quantum simulators. It draws on quantum mechanical phenomena such as superposition, entanglement, and interference – to encode and process information in ways that classical computing cannot. A quantum program specifies a sequence of gate operations applied to qubits, measurement operations, and classical post-processing logic. Classical programming is deterministic – input goes in, output comes out. Quantum programming, by contrast, is probabilistic – algorithms must be designed to amplify correct answers through quantum interference while suppressing incorrect ones. The constraint that shapes everything else is measurement. Classical code can inspect any variable at any point. Quantum code can only extract information by measuring qubits – and measurement collapses the quantum state, destroying it. Quantum programmers cannot use print statements or step-through debuggers on quantum variables. Algorithms need to be mathematically verified before testing, with validation relying on statistical error rates rather than deterministic checks. Resource constraints are also more severe. Classical programs run on billions of transistors. Current quantum programs must fit within 50 to a few hundred qubits on production hardware, with strict limits on circuit depth before errors accumulate. This makes quantum programming closer in spirit to embedded systems or Field-programmable gate array (FPGA) design than to standard software engineering.
+
 ## Miscellaneous
 
 - [Concurrency is not Parallelism](https://vimeo.com/49718712)

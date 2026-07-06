@@ -11,13 +11,19 @@ Much of this needs further movement into other areas of the garden.
 
 - [Need Help Getting Started with Applied Machine Learning? These are the Step-by-Step Guides that You’ve Been Looking For!](https://machinelearningmastery.com/start-here/)
 
-## "MLOps"
+#### "MLOps"
 
 - [Part 1: Designing a Production-Grade Agentic MLOps System](https://kmeanskaran.substack.com/p/part-1-designing-an-agentic-mlops): A practical guide to combining LSTM forecasting, transfer learning, and AI agents in real-world ML systems
 
-# Papers
+### Books
 
-## Type Inference
+[Foundations of Machine Learning](https://cs.nyu.edu/~mohri/mlbook/), 2nd Ed (2018), MIT Press - [PDF](https://www.dropbox.com/s/38p0j6ds5q9c8oe/10290.pdf?dl=1) [HTML](https://mitpress.ublish.com/ebook/foundations-of-machine-learning--2-preview/7093/Cover) [Lecture slides](http://www.cs.nyu.edu/~mohri/ml18)
+
+[Introduction to Machine Learning Systems](https://mlsysbook.ai/vol1/)
+
+### Papers
+
+#### Type Inference
 
 - **Concrete Type Inference for Code Optimization using Machine Learning with SMT Solving** (2023), OOPSLA'23, Ye, Fangke, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3622825)
 - **Learning Type Inference for Enhanced Dataflow Analysis** (2023), ESORICS'23, Seidel, Lukas, et al. [[pdf]](https://arxiv.org/pdf/2310.00673) 

@@ -57,6 +57,26 @@ summary=Collection of links, notes, and models.
 * [LLM Inference: Inside a Fast LLM Inference Server](https://pub.towardsai.net/llm-inference-inside-a-fast-llm-inference-server-d551f7bfcc97)
 * [You can (and should) run a tiny LLM on your Android phone](https://www.makeuseof.com/you-can-and-should-run-a-tiny-llm-on-your-android-phone/): Using [MNN](https://github.com/alibaba/MNN) ([Play Store](https://play.google.com/store/apps/details?id=com.alibaba.mnnllm.android.release))
 * [Self-Hosted LLMs in the Real World: Limits, Workarounds, and Hard Lessons](https://www.kdnuggets.com/self-hosted-llms-in-the-real-world-limits-workarounds-and-hard-lessons)
+* ["How to give yourself a BSc in AI Engineering in 3 weeks"](http://linkedin.com/posts/nk-systemdesign-one_how-to-give-yourself-a-personal-bsc-in-ai-activity-7476612135058595840-6zZV/):
+
+    1. [How A2A Works](https://newsletter.systemdesign.one/p/agent-to-agent-protocol)
+    2. [Agentic Engineering Concepts](https://newsletter.systemdesign.one/p/agentic-engineering)  
+    3. [How AI Infrastructure Works](https://newsletter.systemdesign.one/p/what-is-ai-infrastructure)
+    4. The Anatomy of Claude Folder  
+    5. AI Agents: Memory, State & Consistency  
+    6. Machine Learning System Design 101  
+    7. Design Personal AI Chat Assistant  
+    8. How RAG Works  
+    9. LLM Concepts - A Deep Dive  
+    10. How to Design an AI Agent  
+    11. What is Reinforcement Learning  
+    12. How Vector Databases Work  
+    13. Context Engineering 101  
+    14. AI Coding Workflow 101  
+    15. LLM Evals Explained  
+    16. How MCP Works  
+    17. Agentic Patterns Explained  
+    18. Multi-Agent Architecture Explained  
 
 ### Using LLMs
 
