@@ -3,7 +3,7 @@ tags=ai, inference engine, inference server
 summary=Easy, fast, and cheap LLM serving for everyone
 ~~~~~~
 
-[Website](https://vllm.ai/) | [Source](https://github.com/vllm-project/) | [Docs](https://docs.vllm.ai/en/stable/) | [Docker Hub](https://hub.docker.com/r/vllm/vllm-openai/)
+[Website](https://vllm.ai/) | [Source](https://github.com/vllm-project/) [Windows Source](https://github.com/SystemPanic/vllm-windows) | [Docs](https://docs.vllm.ai/en/stable/) | [Docker Hub](https://hub.docker.com/r/vllm/vllm-openai/)
 
 [vLLM Production Stack](https://github.com/vllm-project/production-stack) - vLLM’s reference system for K8S-native cluster-wide deployment with community-driven performance optimization
 
