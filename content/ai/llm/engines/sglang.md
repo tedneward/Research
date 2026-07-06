@@ -1,5 +1,5 @@
 title=SGLang
-tags=ai, language, llm, engine, machine learning
+tags=ai, language, llm, inference engine, machine learning
 summary=High-performance serving framework for large language and multimodal models.
 ~~~~~~
 

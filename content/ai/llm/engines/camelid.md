@@ -1,5 +1,5 @@
 title=Camelid
-tags=ai, llm, engine
+tags=ai, llm, inference engine
 summary=A Rust-native local LLM inference engine — GGUF in, OpenAI-style API out, every claim backed by reproducible evidence.
 ~~~~~~
 

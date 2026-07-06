@@ -1,5 +1,5 @@
 title=litgpt
-tags=ai, llm, engine
+tags=ai, llm, inference ngine
 summary=20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.
 ~~~~~~
 

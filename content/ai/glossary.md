@@ -53,6 +53,10 @@ This concept is also referenced in the realm of object detection, a technique us
 
 **_Inference._** This simply means “using” a model, as opposed to creating or training it.
 
+**_Inference Server._** Manages the queue of users waiting for service and handles external network traffic. The inference server’s job isn't to perform intensive computation; it's to handle the communication protocol that gets data in and out of the system.
+
+**_Inference Engine._** The inference engine speeds up generation by optimizing graphics processing unit (GPU) usage. It increases computational speed by applying algorithms like PagedAttention to manage the key value (KV) cache and continuous batching for optimized request scheduling.
+
 **_Large Language Model (LLM)._** (1) This is a specific type of AI model which has been trained to generate text. These models are called “large” because they consist of billions of parameters which allow them to understand very complex and nuanced elements of natural language. _Examples_: GPT, Bard, Claude, LLaMa. (2) An AI model within the deep learning spectrum, primarily designed for language understanding and content generation. LLMs excel at processing and generating human-like text. (3) LLMs are what enable an AI application to provide outputs (responses) to users. LLMs are typically trained on a large set of data so they can learn what to "say," similar to how humans are educated through books and other media so we know how to communicate. Many companies have introduced their own LLMs, such as OpenAI (GPT), Google (Gemini), Meta (LLaMa), and Mistral (Mixtral). At Pryon, we have our own set of LLMs that are expertly designed to ingest enterprise content and provide trustworthy outputs for trusted answers.
 
 **_LLM Based App._** This doesn’t have to mean a “chat” application. This simply means an application that uses an LLM to perform some part of it’s core functionality. There may not even be any visible language component.

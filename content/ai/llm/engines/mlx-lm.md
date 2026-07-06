@@ -1,5 +1,5 @@
 title=Apple MLX-LM
-tags=ai, llm, engine, macOS
+tags=ai, llm, inference engine, macOS
 summary=Deeply integrated with macOS to leverage unified memory on M-series chips for incredible generation speeds
 ~~~~~~
 

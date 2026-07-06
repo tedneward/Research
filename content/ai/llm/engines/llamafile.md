@@ -1,5 +1,5 @@
 title=Llamafile
-tags=ai, llm, engine
+tags=ai, llm, inference engine, native
 summary=Compile a LLM model into a single executable for fast execution.
 ~~~~~~
 

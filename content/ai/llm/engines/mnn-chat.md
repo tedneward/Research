@@ -1,5 +1,5 @@
 title=MNN Chat
-tags=ai, android, engine
+tags=ai, android, llm, inference engine
 summary=An open-source Android app that lets you run large language models fully offline on your phone with a focus on speed efficiency and real on-device inference.
 ~~~~~~
 

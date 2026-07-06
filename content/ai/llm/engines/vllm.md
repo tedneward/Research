@@ -1,5 +1,5 @@
 title=vLLM
-tags=ai, engine
+tags=ai, inference engine, inference server
 summary=Easy, fast, and cheap LLM serving for everyone
 ~~~~~~
 

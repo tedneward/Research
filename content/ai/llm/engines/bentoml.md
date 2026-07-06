@@ -1,5 +1,5 @@
 title=BentoML
-tags=ai, engine, platform
+tags=ai, llm, inference engine, platform
 summary=The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more! (Unified Model Serving Framework)
 ~~~~~~
 
