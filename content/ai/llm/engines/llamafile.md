@@ -3,7 +3,7 @@ tags=ai, llm, inference engine, native
 summary=Compile a LLM model into a single executable for fast execution.
 ~~~~~~
 
-[Website](https://docs.mozilla.ai/llamafile) | [Source](https://github.com/mozilla-ai/llamafile)
+[Website](https://docs.mozilla.ai/llamafile) | [Source](https://github.com/mozilla-ai/llamafile) | [Pre-built executables](https://huggingface.co/mozilla-ai/llamafile_0.10)
 
 Our goal is to make open LLMs much more accessible to both developers and end users. We're doing that by combining [llama.cpp](https://github.com/ggerganov/llama.cpp) with [Cosmopolitan Libc](https://github.com/jart/cosmopolitan) into one framework that collapses all the complexity of LLMs down to a single-file executable (called a "llamafile") that runs locally on most operating systems and CPU archiectures, with no installation.
 
