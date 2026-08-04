@@ -34,6 +34,9 @@ Pure-functional languages are those that have no side effects permitted (except 
     * [Higher-Order Java Parallelism, Part 3: Threadless Concurrency With Actors](https://apocalisp.wordpress.com/2008/07/28/threadless-concurrency-with-actors/)
     * [Higher-Order Java Parallelism, Part 4: A Better Future](https://apocalisp.wordpress.com/2008/09/02/a-better-future/)
 
+* [Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/content/) - Mostly Adequate Core Team
+* [The Pure Function Pipeline Data Flow v3.0 ---- the Grand Unified Programming Theory](https://github.com/linpengcheng/PurefunctionPipelineDataflow) - Lin Pengcheng
+
 ### Monads
 
 * ["Functional Programming: Beyond the Vampire Castle"](https://www.ooloi.org/home/functional-programming-beyond-the-vampire-castle)

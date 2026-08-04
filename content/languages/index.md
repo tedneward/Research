@@ -138,7 +138,9 @@ Programming languages are (generally) human-friendly means of getting a computer
 * [Concepts of Programming Languages](https://www.youtube.com/playlist?list=PLgybIyDbLkEQUTX00Mazlcb7KhX1UzpXs) (video)
 * [Concepts of Programming Languages](/languages/concepts/Concepts_of_Programming_Languages.pdf) (PDF)
 
-[Multi-paradigm design](/languages/concepts/multi-paradigm-design): The idea that a languaeg can offer multiple paradigms, simultaneously.
+### List of concepts
+
+[Multi-paradigm design](/languages/concepts/multi-paradigm-design): The idea that a languate can offer multiple paradigms, simultaneously.
 
 [Aspect-Oriented](/languages/concepts/aspect-oriented): Attempting to capture as first-class citizens the code that "cuts across the inheritance tree" of object-oriented languages.
 
@@ -148,11 +150,11 @@ Programming languages are (generally) human-friendly means of getting a computer
 
 [Literate](/languages/concepts/literate): Code as documentation as code.
 
-* [nuweb](/languages/nuweb)
+* [nuweb](/languages/nuweb): The canonical implementation
 
 [Logic](/languages/concepts/logic): Defines the meaning of a program as its unique smallest model: the deductive closure of its inference rules.
 
-[Meta-object protocols (MOP)](/languages/concepts/metaobjectprotocol.html): A series of ideas about how objects relate to one another through means other than inheritance trees.
+[Meta-object protocols (MOP)](/languages/concepts/metaobjectprotocol): A series of ideas about how objects relate to one another through means other than inheritance trees.
 
 [Object-oriented](/languages/concepts/object-oriented): The union of state and behavior in a first-class construct.
 
@@ -161,10 +163,9 @@ Programming languages are (generally) human-friendly means of getting a computer
 * [Foundations of Object Oriented Languages](https://www.cs.cmu.edu/~aldrich/FOOL/FOOL1/FOOL1-report.pdf) ([local PDF](/languages/concepts/FOOL1-report.pdf))
 * [Open, Reusable Object Models](/languages/concepts/Open_Reusable_Object_Models.pdf) ([2-col](/languages/concepts/Open_Reusable_Object_Models-2col.pdf))
 
-[Phi-Calculus](/languages/concepts/phi-calculus.pdf)
+[Phi-Calculus](/languages/concepts/phi-calculus.pdf): ...?
 
-[Quantum](/languages/concepts/quantum)
-Quantum programming is the practice of writing algorithms and applications for quantum computers or quantum simulators. It draws on quantum mechanical phenomena such as superposition, entanglement, and interference – to encode and process information in ways that classical computing cannot. A quantum program specifies a sequence of gate operations applied to qubits, measurement operations, and classical post-processing logic. Classical programming is deterministic – input goes in, output comes out. Quantum programming, by contrast, is probabilistic – algorithms must be designed to amplify correct answers through quantum interference while suppressing incorrect ones. The constraint that shapes everything else is measurement. Classical code can inspect any variable at any point. Quantum code can only extract information by measuring qubits – and measurement collapses the quantum state, destroying it. Quantum programmers cannot use print statements or step-through debuggers on quantum variables. Algorithms need to be mathematically verified before testing, with validation relying on statistical error rates rather than deterministic checks. Resource constraints are also more severe. Classical programs run on billions of transistors. Current quantum programs must fit within 50 to a few hundred qubits on production hardware, with strict limits on circuit depth before errors accumulate. This makes quantum programming closer in spirit to embedded systems or Field-programmable gate array (FPGA) design than to standard software engineering.
+[Quantum](/languages/concepts/quantum): Quantum programming is the practice of writing algorithms and applications for quantum computers or quantum simulators. It draws on quantum mechanical phenomena such as superposition, entanglement, and interference – to encode and process information in ways that classical computing cannot. A quantum program specifies a sequence of gate operations applied to qubits, measurement operations, and classical post-processing logic. Classical programming is deterministic – input goes in, output comes out. Quantum programming, by contrast, is probabilistic – algorithms must be designed to amplify correct answers through quantum interference while suppressing incorrect ones. The constraint that shapes everything else is measurement. Classical code can inspect any variable at any point. Quantum code can only extract information by measuring qubits – and measurement collapses the quantum state, destroying it. Quantum programmers cannot use print statements or step-through debuggers on quantum variables. Algorithms need to be mathematically verified before testing, with validation relying on statistical error rates rather than deterministic checks. Resource constraints are also more severe. Classical programs run on billions of transistors. Current quantum programs must fit within 50 to a few hundred qubits on production hardware, with strict limits on circuit depth before errors accumulate. This makes quantum programming closer in spirit to embedded systems or Field-programmable gate array (FPGA) design than to standard software engineering.
 
 ## Miscellaneous
 
@@ -174,8 +175,6 @@ Quantum programming is the practice of writing algorithms and applications for q
 - [Great Works in Programming Languages](https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml) Collected by Benjamin C. Pierce
 - [Flow based Programming](http://jpaulmorrison.com/fbp/) - J Paul Morrison
 - [Making Sense of Stream Processing](https://assets.confluent.io/m/2a60fabedb2dfbb1/original/20190307-EB-Making_Sense_of_Stream_Processing_Confluent.pdf) - Martin Kleppmann (PDF)
-- [Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/content/) - Mostly Adequate Core Team
-- [The Pure Function Pipeline Data Flow v3.0 ---- the Grand Unified Programming Theory](https://github.com/linpengcheng/PurefunctionPipelineDataflow) - Lin Pengcheng
 - [ProLaLa2022](https://github.com/dsyme/ProLaLa2022): "Archival material for "Programming Languages and the Law" 2022 Keynote" (DSyme); [@dsymetweets](https://twitter.com/dsymetweets/status/1482835211582906374): "Before I ever programmed in a functional language, while still a student, I worked as a C and Prolog programmer on a set of tools called STATUTE for modelling and automating adminstrative law. STATUTE eventually became Oracle Policy Modelling now Oracle Intelligent Advisor today / STATUTE made key design decisions about using limited natural language to achieve "practical isomorphism" between legislation/policy structure and the rules that form the implementation as a program. / This decision - made in a garage in Australia in 1989 by David Mead - cut programmers out of the loop, creating a form of end-user programming for those trained in law and policy. / If you feel like you're a PL guru and you've "seen it all" in how programming+logic can be delivered as a usable tool, I'd encourage you to watch Davin's demo from [the keynote](https://youtu.be/bLob9Ah1004). Conceptually it opens up a different kind of tooling for domains dominated by language and policy."
 - [SXML](https://en.m.wikipedia.org/wiki/SXML)
 - [X-expressions-in-XMLisp](https://www.semanticscholar.org/paper/X-expressions-in-XMLisp%3A-S-expressions-and-markup-Repenning-Ioannidou/7da9239a5a365593ba5437dca58b2ffc4620062e)
@@ -252,6 +251,8 @@ My ontology:
 
 ### [Memory management](/reading/development/memory-management)
 Languages often break down to automatically-managed memory vs. manually-managed, but most of the time that means heap management; static and stack allocation are (almost?) always automatically managed by virtue of their allocation schemes.
+
+There's also relationships to [physical memory](/languages/concepts/memory) that merit examination.
 
 ### Language execution types
 
