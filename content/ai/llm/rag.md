@@ -38,9 +38,16 @@ In a simple world, the answer would be to provide the model with relevant propri
 
 ## Reading
 
+### Articles/Blogs/Essays
+
+- [Code a simple RAG from scratch](https://huggingface.co/blog/ngxson/make-your-own-rag)
+- [Building a Retrieval-Augmented Generation (RAG) Chatbot with Python](https://medium.com/@crimsonsyrus000/building-a-retrieval-augmented-generation-rag-chatbot-with-python-bf324335e335)
+- [What We Learned Building a RAG System from Scratch (No Frameworks)](https://www.dataquest.io/blog/build-a-rag-system-from-scratch/)
+
 ### Tutorials
 
 - [Controllable RAG Agent](https://github.com/NirDiamant/Controllable-RAG-Agent) - an advanced Retrieval-Augmented Generation (RAG) solution for complex question answering that uses sophisticated graph based algorithm to handle the tasks
 - [LangChain RAG Cookbook](https://github.com/lokeswaran-aj/langchain-rag-cookbook) - a collection of modular RAG techniques, implemented in LangChain + Python
+- [Retrieval Augmented Generation (RAG) with Deep Agents](https://docs.langchain.com/oss/python/deepagents/rag)
 - [Pathway AI Pipelines](https://github.com/pathwaycom/llm-app) - ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data
 - [RAG Techniques](https://github.com/NirDiamant/RAG_Techniques) - various advanced techniques for Retrieval-Augmented Generation (RAG) systems
