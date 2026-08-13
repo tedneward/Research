@@ -44,6 +44,10 @@ Pure-functional languages are those that have no side effects permitted (except 
 * ["Monad Comprehensions: A Versatile Representation for Queries"](https://db.in.tum.de/~grust/files/monad-comprehensions.pdf)
 * ["Why do monads matter?"](https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/)
 
+### Papers/Theses
+
+* [A Functional Pattern System for Object-Oriented Design](http://homepages.mcs.vuw.ac.nz/~tk/fps/fps-sans-escher.pdf) - Thomas Kuhne (PDF)
+
 ## Videos
 [Erik Meijer](https://www.youtube.com/playlist?list=PLoJC20gNfC2gpI7Dl6fg8uj1a-wfnWTH8) (13 videos)
 
