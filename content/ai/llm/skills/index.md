@@ -38,6 +38,7 @@ For teams and enterprises: Capture organizational knowledge in portable, version
 
 * [How to build a Claude skill from scratch](https://writewithai.substack.com/p/how-to-build-a-claude-skill-from)
 * [How I Do Content Engineering with Claude Code](https://ahrefs.com/blog/how-i-do-content-engineering-with-claude-code/)
+* [Avoid dependency hell for Claude SKILLs](https://medium.com/@michaelyuan_88928/avoid-dependency-hell-for-claude-skills-62658982ebb4)
 
 ### Support for agent skills
 

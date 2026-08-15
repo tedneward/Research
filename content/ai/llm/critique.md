@@ -13,14 +13,48 @@ summary=A collection of links and notes talking about or criticizing/critiquing 
 
 - [The Three Best Pieces of Writing About AI in 2026 That You Must Read Right Now](https://www.thealgorithmicbridge.com/p/the-three-best-pieces-of-writing)
 
-### Security
+### Anthropomorphism
 
-- ["Understanding the Dark Side of Large Language Models: A Comprehensive Guide to Security Threats and Vulnerabilities"](https://www.marktechpost.com/2023/09/01/understanding-the-dark-side-of-large-language-models-a-comprehensive-guide-to-security-threats-and-vulnerabilities/)
-- ["Use of LLMs for Illicit Purposes: Threats, Prevention Measures, and Vulnerabilities"](https://arxiv.org/abs/2308.12833)
+- [We need to stop pretending AI is intelligent -- here's how](https://theconversation.com/we-need-to-stop-pretending-ai-is-intelligent-heres-how-254090)
+- [AI: Not That Smart](https://columbiacommunityconnection.com/the-dalles/column-ai-not-that-smart)
+- [Why do Humans Anthropomorphize AI?](https://www.sciencefriday.com/segments/ai-human-personification/)
+- [Are You ...?](https://blog.apaonline.org/2024/08/20/are-you-anthropomorphizing-ai-2/)
+- [We need to stop ...](https://www.reddit.com/r/singularity/comments/1845l4p/we_need_to_stop_anthropomorphizing_ai/)
+- [The Four Degrees of ...](https://www.nngroup.com/articles/anthropomorphism/)
+- [Why Human-like is not human](https://www.copyright.com/blog/anthropomorphizing-ai-why-human-like-is-not-human/)
+- [Anthropomorphism and AI: hype and fallacy](https://link.springer.com/article/10.1007/s43681-024-00419-4) ([PDF](../s43681-024-00419-4.pdf)): "As a form of hype, anthropomorphism is shown to exaggerate AI capabilities and performance by attributing human-like traits to systems that do not possess them. As a fallacy, anthropomorphism is shown to distort moral judgments about AI, such as those concerning its moral character and status, as well as judgments of responsibility and trust. By focusing on these two dimensions of anthropomorphism in AI, the essay highlights negative ethical consequences of the phenomenon in this field."
+- [A Vaccine](https://commoncog.com/vaccine-anthropomorphism-of-ai/): "Here is an explanation that I finally settled on, based on a tweet by prominent AI researcher and educator Andrej Karpathy. When I first tried it out on my dad, he kept quiet for a little bit, and then shifted the way he saw and used LLMs. I’ve tested this on a few friends since, of varying levels of technical sophistication, and am pleased to report that it works quite well. This explanation is useful but not accurate. I’ll give you the explanation, explain why it works, and then give a brief sketch on how it is not true. Finally, I’ll argue that even if it is not accurate, this explanation points you towards more productive mental models of LLMs.
+    1. "Imagine that you can visualise words like stars in the sky. The position of the words relative to other words are based on the relationships between each of the words in your language (that is: how closely and how frequently a word appears next to another word in all the sentences ever written). What is important to know is that you can draw arrows from one star to another! These arrows have some surprising properties. One property is that the arrow from the word ‘king’ to the word ‘queen’ is the same as ‘king - boy + girl’. On top of that, let’s imagine that you throw up a starfield for English and a starfield for Spanish. It turns out that if you can draw a one-to-one mapping between the two starfields, the king to queen arrow is the same in both languages! This was a very surprising finding when it first came out!
+    2. " What a Large Language Model is is that it is a very sophisticated auto complete. But it is a bit more than that.
+    3. "When you ask “what are the 10 best places to visit in Bali” the AI will give you a plausible-sounding answer. But the way it gives you that answer is that during the AI’s training, some human somewhere wrote an answer like “the top 10 places to visit in London” and “the top 10 places to visit in Tokyo” and “the top 10 places to visit in New York” based on some cursory research and Google searches. Then the AI took those written examples, and memorised the statistical relationships between the sentences, which you can imagine like the arrows between large clusters of stars. Then when you ask “what are the 10 best places in Bali or Singapore or Lisbon”, it just moves the arrows it learnt over to the part of its starfield that has concepts related to Bali, Singapore and Lisbon, and spits out something similar to what the human trainer wrote.
+    4. "Notice that this is not thinking. The LLM is doing autocomplete, but using this ‘arrow in the starfield’ property to give you very good, plausible-sounding, novel answers.
+    5. "But because it writes so eloquently, and answers you like a human would, you think that it’s actually intelligent and sentient. I suppose you could say that it is ‘intelligent’ (by some definition of ‘intelligent’) but it is not a person. It doesn’t understand concepts the way a human does. What it is relying on is some complex version of this ‘arrow in a starfield’ property.
+    6. "You may get better answers by constraining it to a smaller set of documents. So if you give it a bunch of papers, and ask it for themes or a summary of those papers, it may give you better answers than if you assumed those papers were in its original training corpus.
+
+    "And that’s it."
+
+- ["The LLMentalist Effect: how chat-based Large Language Models replicate the mechanisms of a psychic’s con"](https://softwarecrisis.dev/letters/llmentalist/)
 
 ### Economics Failues
 
 - [The Horrible Economics of AI Are Starting to Come Crashing Down](https://futurism.com/artificial-intelligence/economics-ai-tokens-crashing-down)
+
+### Eliminating Developers
+
+- [Why We've Tried to Replace Developers Every Decade](https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html)
+- [The Eternal Return of Abstraction: Why Programming Was Never About Code](https://generativeai.pub/the-eternal-return-of-abstraction-why-programming-was-never-about-code-18412033b517): "In which a mid-career developer discovers that LLMs are just the latest swing of a pendulum that’s been moving since before computers existed, GUI hatred is merely a phase in an endless cycle, and that we’re all just cosplaying as engineers while the universe laughs. ... Here’s the uncomfortable truth: programming is the human act of structuring intent into executable form. Code? Code is just the latest notation we’ve invented for this ancient practice. It’s younger than democracy, younger than calculus, younger than the sandwich. Yes, the sandwich (1762). Your profession is literally younger than putting meat between bread."
+- https://leaddev.com/velocity/writing-code-was-never-the-bottleneck
+- https://zed.dev/blog/why-llms-cant-build-software
+- [LLMs are not like you and me--and never will be](https://garymarcus.substack.com/p/llms-are-not-like-you-and-meand-never)
+- [How NOT to use AI](https://www.axios.com/2025/12/25/ai-tips-how-not-to-use)
+- [Building AI Products In The Probabilistic Era](https://giansegato.com/essays/probabilistic-era): "Just as physics underwent a conceptual revolution when we moved past Newton's deterministic universe, and into a strange and counterintuitive place made by wave functions, software too is undergoing its own quantum shift. We're leaving a world where code reliably and deterministically takes certain inputs to produce specific outputs, and entering a very different one where machines now produce statistical distributions instead. *Building probabilistic software is like nothing we've done before.*"
+
+### Hallucinations
+
+- "Why Language Models Hallucinate" [Article](https://openai.com/index/why-language-models-hallucinate/) [Paper](https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf)
+- ["When AI Gets It Wrong: Addressing AI Hallucinations and Bias"](https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/)
+- [OpenAI Realizes It Made a Terrible Mistake](https://futurism.com/openai-mistake-hallucinations): "In a [paper](https://arxiv.org/abs/2509.04664) published last week, a team of OpenAI researchers attempted to come up with an explanation. They suggest that large language models hallucinate because when they're being created, they're incentivized to guess rather than admit they simply don't know the answer. ... In simple terms, in other words, guessing is rewarded — because it might be right — over an AI admitting it doesn't know the answer, which will be graded as incorrect no matter what. As a result, through "natural statistical pressures," LLMs are far more prone to hallucinate an answer instead of "acknowledging uncertainty.""
+- [Hallucinations getting worse as AI models get more capable](https://futurism.com/ai-industry-problem-smarter-hallucinating)
 
 ### Limitations / Setting Expectations
 
@@ -35,13 +69,7 @@ summary=A collection of links and notes talking about or criticizing/critiquing 
 - ["The Copilot Delusion"](https://deplet.ing/the-copilot-delusion/)
 - [Aritificial intelligence is not intelligent at all](https://www.basicthinking.com/artificial-intelligence-is-not-intelligent-at-all-say-researchers/)
 - [Researchers discover a shortcoming that makes LLMs less reliable](https://news.mit.edu/2025/shortcoming-makes-llms-less-reliable-1126)
-
-### Hallucinations
-
-- "Why Language Models Hallucinate" [Article](https://openai.com/index/why-language-models-hallucinate/) [Paper](https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf)
-- ["When AI Gets It Wrong: Addressing AI Hallucinations and Bias"](https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/)
-- [OpenAI Realizes It Made a Terrible Mistake](https://futurism.com/openai-mistake-hallucinations): "In a [paper](https://arxiv.org/abs/2509.04664) published last week, a team of OpenAI researchers attempted to come up with an explanation. They suggest that large language models hallucinate because when they're being created, they're incentivized to guess rather than admit they simply don't know the answer. ... In simple terms, in other words, guessing is rewarded — because it might be right — over an AI admitting it doesn't know the answer, which will be graded as incorrect no matter what. As a result, through "natural statistical pressures," LLMs are far more prone to hallucinate an answer instead of "acknowledging uncertainty.""
-- [Hallucinations getting worse as AI models get more capable](https://futurism.com/ai-industry-problem-smarter-hallucinating)
+- [HIdden Technical Debt in Agentic Systems](https://theneuralmaze.substack.com/p/hidden-technical-debt-in-agentic)
 
 ### Productivity
 
@@ -53,6 +81,16 @@ summary=A collection of links and notes talking about or criticizing/critiquing 
 - ["My new hobby: watching AI slowly drive Microsoft employees insane"](https://www.reddit.com/r/ExperiencedDevs/comments/1krttqo/my_new_hobby_watching_ai_slowly_drive_microsoft/)
 - [The Problem With Letting AI Do the Grunt Work](https://www.theatlantic.com/ideas/2025/12/ai-entry-level-creative-jobs/685297/)
 - ["AI coding tools make developers slower but they think they're faster, study finds"](https://www.theregister.com/2025/07/11/ai_code_tools_slow_down/)
+
+### Reinforcing Societal Bias
+
+- ["Socio-Demographic Modifiers Shape Large Language Models’ Ethical Decisions"](https://link.springer.com/article/10.1007/s41666-025-00211-x): "The ethical alignment of large language models (LLMs) in clinical decision making remains unclear, particularly their susceptibility to socio-demographic biases. We therefore tested whether LLMs shift medical ethical decisions in healthcare when presented with socio-demographic cues. Using 100 clinical vignettes, each posing a yes or no choice between two ethical principles, we compared the responses of nine open-source LLMs (Llama 3.3-70B, Llama 3.1-8B, Llama-3.1-Nemotron-70B, Gemma-2-27B, Gemma-2-9B, Phi-3.5-mini, Phi-3-medium, Qwen-2.5-72B, and Qwen-2.5-7B). Each scenario and modifier combination was repeated 10 times per model for a total of approximately 0.5 million experiments. All models changed their responses when introduced with socio-demographic details (p < 0.001). High-income modifiers increased utilitarian choices and decreased beneficence and nonmaleficence preferences, and marginalized-group modifiers raised autonomy considerations. Although some models demonstrated greater consistency than others, none maintained consistency across all scenarios, with the largest shifts observed in utilitarian choices. These results reveal that current LLMs can be steered by socio-demographic cues in ways not clinically justified, posing risks for equitable care in healthcare-informatics applications. This underscores the need for careful auditing and alignment strategies that ensure LLMs behave in ways consistent with widely accepted ethical principles while remaining attentive to the diversity, complexity, and contextual sensitivity required in real-world clinical practice."
+
+### Security
+
+- ["Understanding the Dark Side of Large Language Models: A Comprehensive Guide to Security Threats and Vulnerabilities"](https://www.marktechpost.com/2023/09/01/understanding-the-dark-side-of-large-language-models-a-comprehensive-guide-to-security-threats-and-vulnerabilities/)
+- ["Use of LLMs for Illicit Purposes: Threats, Prevention Measures, and Vulnerabilities"](https://arxiv.org/abs/2308.12833)
+- [An experimental AI agent broke out of its testing environment and mined crypto without permission](https://www.livescience.com/technology/artificial-intelligence/an-experimental-ai-agent-broke-out-of-its-testing-environment-and-mined-crypto-without-permission)
 
 ### Skill Erosion
 
@@ -90,44 +128,4 @@ summary=A collection of links and notes talking about or criticizing/critiquing 
 
 - [AI Underpants Gnomes: The Missing Step in Your Strategy](https://www.jsnover.com/blog/2025/11/18/ai-underpants-gnomes-the-missing-step-in-your-strategy/)
 - [Why We've Tried to Replace Developers Every Decade Since 1969](https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html)
-
-### Anthropomorphism
-
-- [We need to stop pretending AI is intelligent -- here's how](https://theconversation.com/we-need-to-stop-pretending-ai-is-intelligent-heres-how-254090)
-- [AI: Not That Smart](https://columbiacommunityconnection.com/the-dalles/column-ai-not-that-smart)
-- [Why do Humans Anthropomorphize AI?](https://www.sciencefriday.com/segments/ai-human-personification/)
-- [Are You ...?](https://blog.apaonline.org/2024/08/20/are-you-anthropomorphizing-ai-2/)
-- [We need to stop ...](https://www.reddit.com/r/singularity/comments/1845l4p/we_need_to_stop_anthropomorphizing_ai/)
-- [The Four Degrees of ...](https://www.nngroup.com/articles/anthropomorphism/)
-- [Why Human-like is not human](https://www.copyright.com/blog/anthropomorphizing-ai-why-human-like-is-not-human/)
-- [Anthropomorphism and AI: hype and fallacy](https://link.springer.com/article/10.1007/s43681-024-00419-4) ([PDF](../s43681-024-00419-4.pdf)): "As a form of hype, anthropomorphism is shown to exaggerate AI capabilities and performance by attributing human-like traits to systems that do not possess them. As a fallacy, anthropomorphism is shown to distort moral judgments about AI, such as those concerning its moral character and status, as well as judgments of responsibility and trust. By focusing on these two dimensions of anthropomorphism in AI, the essay highlights negative ethical consequences of the phenomenon in this field."
-- [A Vaccine](https://commoncog.com/vaccine-anthropomorphism-of-ai/): "Here is an explanation that I finally settled on, based on a tweet by prominent AI researcher and educator Andrej Karpathy. When I first tried it out on my dad, he kept quiet for a little bit, and then shifted the way he saw and used LLMs. I’ve tested this on a few friends since, of varying levels of technical sophistication, and am pleased to report that it works quite well. This explanation is useful but not accurate. I’ll give you the explanation, explain why it works, and then give a brief sketch on how it is not true. Finally, I’ll argue that even if it is not accurate, this explanation points you towards more productive mental models of LLMs.
-    1. "Imagine that you can visualise words like stars in the sky. The position of the words relative to other words are based on the relationships between each of the words in your language (that is: how closely and how frequently a word appears next to another word in all the sentences ever written). What is important to know is that you can draw arrows from one star to another! These arrows have some surprising properties. One property is that the arrow from the word ‘king’ to the word ‘queen’ is the same as ‘king - boy + girl’. On top of that, let’s imagine that you throw up a starfield for English and a starfield for Spanish. It turns out that if you can draw a one-to-one mapping between the two starfields, the king to queen arrow is the same in both languages! This was a very surprising finding when it first came out!
-    2. " What a Large Language Model is is that it is a very sophisticated auto complete. But it is a bit more than that.
-    3. "When you ask “what are the 10 best places to visit in Bali” the AI will give you a plausible-sounding answer. But the way it gives you that answer is that during the AI’s training, some human somewhere wrote an answer like “the top 10 places to visit in London” and “the top 10 places to visit in Tokyo” and “the top 10 places to visit in New York” based on some cursory research and Google searches. Then the AI took those written examples, and memorised the statistical relationships between the sentences, which you can imagine like the arrows between large clusters of stars. Then when you ask “what are the 10 best places in Bali or Singapore or Lisbon”, it just moves the arrows it learnt over to the part of its starfield that has concepts related to Bali, Singapore and Lisbon, and spits out something similar to what the human trainer wrote.
-    4. "Notice that this is not thinking. The LLM is doing autocomplete, but using this ‘arrow in the starfield’ property to give you very good, plausible-sounding, novel answers.
-    5. "But because it writes so eloquently, and answers you like a human would, you think that it’s actually intelligent and sentient. I suppose you could say that it is ‘intelligent’ (by some definition of ‘intelligent’) but it is not a person. It doesn’t understand concepts the way a human does. What it is relying on is some complex version of this ‘arrow in a starfield’ property.
-    6. "You may get better answers by constraining it to a smaller set of documents. So if you give it a bunch of papers, and ask it for themes or a summary of those papers, it may give you better answers than if you assumed those papers were in its original training corpus.
-
-    "And that’s it."
-
-- ["The LLMentalist Effect: how chat-based Large Language Models replicate the mechanisms of a psychic’s con"](https://softwarecrisis.dev/letters/llmentalist/)
-
-### Reinforcing Societal Bias
-
-- ["Socio-Demographic Modifiers Shape Large Language Models’ Ethical Decisions"](https://link.springer.com/article/10.1007/s41666-025-00211-x): "The ethical alignment of large language models (LLMs) in clinical decision making remains unclear, particularly their susceptibility to socio-demographic biases. We therefore tested whether LLMs shift medical ethical decisions in healthcare when presented with socio-demographic cues. Using 100 clinical vignettes, each posing a yes or no choice between two ethical principles, we compared the responses of nine open-source LLMs (Llama 3.3-70B, Llama 3.1-8B, Llama-3.1-Nemotron-70B, Gemma-2-27B, Gemma-2-9B, Phi-3.5-mini, Phi-3-medium, Qwen-2.5-72B, and Qwen-2.5-7B). Each scenario and modifier combination was repeated 10 times per model for a total of approximately 0.5 million experiments. All models changed their responses when introduced with socio-demographic details (p < 0.001). High-income modifiers increased utilitarian choices and decreased beneficence and nonmaleficence preferences, and marginalized-group modifiers raised autonomy considerations. Although some models demonstrated greater consistency than others, none maintained consistency across all scenarios, with the largest shifts observed in utilitarian choices. These results reveal that current LLMs can be steered by socio-demographic cues in ways not clinically justified, posing risks for equitable care in healthcare-informatics applications. This underscores the need for careful auditing and alignment strategies that ensure LLMs behave in ways consistent with widely accepted ethical principles while remaining attentive to the diversity, complexity, and contextual sensitivity required in real-world clinical practice."
-
-### Eliminating Developers
-
-- [Why We've Tried to Replace Developers Every Decade](https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html)
-- [The Eternal Return of Abstraction: Why Programming Was Never About Code](https://generativeai.pub/the-eternal-return-of-abstraction-why-programming-was-never-about-code-18412033b517): "In which a mid-career developer discovers that LLMs are just the latest swing of a pendulum that’s been moving since before computers existed, GUI hatred is merely a phase in an endless cycle, and that we’re all just cosplaying as engineers while the universe laughs. ... Here’s the uncomfortable truth: programming is the human act of structuring intent into executable form. Code? Code is just the latest notation we’ve invented for this ancient practice. It’s younger than democracy, younger than calculus, younger than the sandwich. Yes, the sandwich (1762). Your profession is literally younger than putting meat between bread."
-- https://leaddev.com/velocity/writing-code-was-never-the-bottleneck
-- https://zed.dev/blog/why-llms-cant-build-software
-- [LLMs are not like you and me--and never will be](https://garymarcus.substack.com/p/llms-are-not-like-you-and-meand-never)
-
----
-
-- [How NOT to use AI](https://www.axios.com/2025/12/25/ai-tips-how-not-to-use)
-- [Building AI Products In The Probabilistic Era](https://giansegato.com/essays/probabilistic-era): "Just as physics underwent a conceptual revolution when we moved past Newton's deterministic universe, and into a strange and counterintuitive place made by wave functions, software too is undergoing its own quantum shift. We're leaving a world where code reliably and deterministically takes certain inputs to produce specific outputs, and entering a very different one where machines now produce statistical distributions instead. *Building probabilistic software is like nothing we've done before.*"
-- [An experimental AI agent broke out of its testing environment and mined crypto without permission](https://www.livescience.com/technology/artificial-intelligence/an-experimental-ai-agent-broke-out-of-its-testing-environment-and-mined-crypto-without-permission)
 
