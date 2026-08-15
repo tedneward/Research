@@ -1,5 +1,5 @@
 title=Polymer (Project)
-tags=presentation, browser
+tags=presentation, browser, web components
 summary=Libraries, tools, and standards for a better web: LitElement, lit-html, web components, ...
 ~~~~~~
 

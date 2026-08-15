@@ -1,5 +1,5 @@
 title=Subversion (SVN)
-tags=tool, source control
+tags=tool, version control
 summary=
 ~~~~~~
 

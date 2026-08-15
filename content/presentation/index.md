@@ -276,3 +276,7 @@ Repositories for graphics:
 - [React - Basic Theoretical Concepts](https://github.com/reactjs/react-basic)
 - [React Concurrent mode](https://twitter.com/dan_abramov/status/1120971795425832961)
 - [TypeScript + fp-ts: ReaderTaskEither and React](https://andywhite.xyz/posts/2021-01-28-rte-react)
+
+## Search (client-side)
+
+- [A static, full-text search engine using Rust and WebAssembly](https://endler.dev/2019/tinysearch/) [Source](https://github.com/mre/tinysearch)

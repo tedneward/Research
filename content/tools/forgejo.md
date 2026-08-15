@@ -1,5 +1,5 @@
 title=Forgejo
-tags=tool, cloud, backend
+tags=tool, cloud, backend, git, version control
 summary=Open-source cloud repository tool platform built around Git.
 ~~~~~~
 

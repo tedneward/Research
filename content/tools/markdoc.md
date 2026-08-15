@@ -1,5 +1,5 @@
 title=Markdoc
-tags=tool, format
+tags=tool, format, markdown
 summary=A Markdown-based syntax and toolchain for creating custom documtation sites.
 ~~~~~~
 

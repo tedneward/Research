@@ -1,5 +1,5 @@
 title=Docfind
-tags=tool, browser, search, web assembly
+tags=presentation, browser, search, web assembly
 summary=A high-performance document search engine built in Rust with WebAssembly support.
 ~~~~~~
 

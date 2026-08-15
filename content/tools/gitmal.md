@@ -1,5 +1,5 @@
 title=gitmal
-tags=tool, git, static stite generator
+tags=tool, git, static stite generator, version control
 summary=A static page generator for Git repositories that generates static HTML pages with files, commits, code highlighting, and markdown rendering.
 ~~~~~~
 

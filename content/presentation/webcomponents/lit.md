@@ -1,5 +1,5 @@
 title=Lit
-tags=presentation, browser
+tags=presentation, browser, web components
 summary=Elements on top of WebComponents.
 ~~~~~~
 
@@ -35,4 +35,3 @@ export class SimpleGreeting extends LitElement {
 ```
 <simple-greeting name="World"></simple-greeting>
 ```
-

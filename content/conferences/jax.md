@@ -5,4 +5,4 @@ summary=The Conference for Java, Architecture and Software Innovation, from SMS 
 
 [JAX Mainz](https://jax.de/mainz-en/)
 
-[WJAX](https://jax.de/muenchen): 11-06-2023 to 11-10-2023
+[WJAX](https://jax.de/muenchen)
