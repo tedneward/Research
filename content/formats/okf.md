@@ -1,4 +1,4 @@
-title-Open Knowledge Format (OKF)
+title=Open Knowledge Format (OKF)
 tags=format, ai, knowledge base
 summary=An open, human- and agent-friendly format for representing knowledge: the metadata, context, and curated insight that surrounds data and systems.
 ~~~~~~
