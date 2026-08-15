@@ -129,3 +129,7 @@ summary=A collection of links and notes talking about or criticizing/critiquing 
 - [AI Underpants Gnomes: The Missing Step in Your Strategy](https://www.jsnover.com/blog/2025/11/18/ai-underpants-gnomes-the-missing-step-in-your-strategy/)
 - [Why We've Tried to Replace Developers Every Decade Since 1969](https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html)
 
+### Social Impact
+
+- https://futurism.com/gpt-5-disaster
+- [ChatGPT Is Blowing Up Marriages as Spouses Use AI to Attack Their Partners](https://futurism.com/chatgpt-marriages-divorces)
