@@ -1,5 +1,5 @@
 title=Gitea
-tags=tool, git
+tags=tool, git, version control
 summary=Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD.
 ~~~~~~
 

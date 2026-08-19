@@ -1,5 +1,5 @@
 title=mdBook
-tags=tool, presentation, publishing
+tags=tool, presentation, publishing, markdown
 summary=A command-line tool to create books with Markdown.
 ~~~~~~
 

@@ -1,5 +1,5 @@
 title=Shoelace
-tags=presentation, browser
+tags=presentation, browser, web components
 summary=A forward-thinking library of web components.
 ~~~~~~
 

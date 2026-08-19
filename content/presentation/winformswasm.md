@@ -1,5 +1,5 @@
 title=WASM WinForms
-tags=presentation, wasm
+tags=presentation, browser, web assembly
 summary=C# Winforms for Webassembly.
 ~~~~~~
 

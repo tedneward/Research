@@ -1,5 +1,5 @@
 title=Wasm Interface Types (WIT)
-tags=platform, waweb assemblysm, language
+tags=platform, web assembly, language
 summary=Defining interfaces in WebAssembly.
 ~~~~~~
 

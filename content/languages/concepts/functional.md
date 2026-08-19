@@ -34,12 +34,19 @@ Pure-functional languages are those that have no side effects permitted (except 
     * [Higher-Order Java Parallelism, Part 3: Threadless Concurrency With Actors](https://apocalisp.wordpress.com/2008/07/28/threadless-concurrency-with-actors/)
     * [Higher-Order Java Parallelism, Part 4: A Better Future](https://apocalisp.wordpress.com/2008/09/02/a-better-future/)
 
+* [Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/content/) - Mostly Adequate Core Team
+* [The Pure Function Pipeline Data Flow v3.0 ---- the Grand Unified Programming Theory](https://github.com/linpengcheng/PurefunctionPipelineDataflow) - Lin Pengcheng
+
 ### Monads
 
 * ["Functional Programming: Beyond the Vampire Castle"](https://www.ooloi.org/home/functional-programming-beyond-the-vampire-castle)
 * ["This is not a monad tutorial"](https://johnazariah.github.io/2022/12/06/this-is-not-a-monad-tutorial.html)
 * ["Monad Comprehensions: A Versatile Representation for Queries"](https://db.in.tum.de/~grust/files/monad-comprehensions.pdf)
 * ["Why do monads matter?"](https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/)
+
+### Papers/Theses
+
+* [A Functional Pattern System for Object-Oriented Design](http://homepages.mcs.vuw.ac.nz/~tk/fps/fps-sans-escher.pdf) - Thomas Kuhne (PDF)
 
 ## Videos
 [Erik Meijer](https://www.youtube.com/playlist?list=PLoJC20gNfC2gpI7Dl6fg8uj1a-wfnWTH8) (13 videos)

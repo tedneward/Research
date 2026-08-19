@@ -28,6 +28,7 @@ Awesomes:
 Good GitHub profiles/organizations that have a collection of interesting projects:
 
 * [GunterMueller](https://github.com/GunterMueller): 600+ repositories, most of which look be forked from other places. Lots of programming language repos.
+* [Microsoft Comic Chat IRC client](https://github.com/microsoft/comic-chat): Microsoft Comic Chat is a Microsoft-developed Internet Relay Chat (IRC) chat client released in 1996 that rendered conversations as automatically generated comic strips. Instead of plain text, users communicated through cartoon avatars with messages displayed in speech bubbles inside dynamically composed comic panels. The application used an expert system to determine character placement, gestures, facial expressions, balloon shape, and panel layout in real time. It shipped as part of Internet Explorer 3.0 and was later bundled with Windows 98 and MSN before being discontinued in the early 2000s.
 
 [Apple Open-Source](https://opensource.apple.com/)
 

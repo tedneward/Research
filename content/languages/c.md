@@ -20,6 +20,7 @@ Numerous languages seek to supplant or replace C as the ubiquitous system langua
         * ELVM assembly listing (example: rot13.s)
     * Compile ELVM assembly to:
         * x86/lambda calculus/BLC/SKI combinator calculus (all of the above)
+* [c4wa](https://github.com/kign/c4wa): A simplified subset of C transpiled into Web Assembly
 * [Cheerp](https://leaningtech.com/pages/cheerp.html): C to WASM bytecode
 * [clang](http://clang.llvm.org/cxx_status.html) from [LLVM](/platforms/llvm.html)
 * [CuikC](https://cuik.handmade.network/): The plan is a modern C11 compiler which can mostly work with Clang, GCC, and MSVC while also introducing some new ideas. Warning: unfinished

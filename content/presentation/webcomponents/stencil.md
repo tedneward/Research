@@ -1,5 +1,5 @@
 title=Stencil
-tags=presentation, language, webcomponents
+tags=presentation, language, web components
 summary=A compiler that generates Web Components (more specifically, Custom Elements). Stencil combines the best concepts of the most popular frameworks into a simple build-time tool.
 ~~~~~~
 

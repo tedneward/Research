@@ -16,12 +16,6 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 - [AI Defeats the Purpose of a Humanities Education](https://www.thecrimson.com/article/2025/9/9/chiocco-farrell-harvard-ai/) (The Harvard Crimson)
 - ["The Open-Source Toolkit for Building AI agents"](https://www.aitidbits.ai/p/open-source-agents)
 - [Is Complexity an Illusion?](https://arxiv.org/pdf/2404.07227): "Simplicity is held by many to be the key to general intelligence. Simpler models tend to “generalise”, identifying the cause or generator of data with greater sample efficiency. The implications of the correlation between simplicity and generalisation extend far beyond computer science, addressing questions of physics and even biology. Yet simplicity is a property of form, while generalisation is of function. In interactive settings, any correlation between the two depends on interpretation. In theory there could be no correlation and yet in practice, there is. Previous theoretical work showed generalisation to be a consequence of “weak” constraints implied by function, not form. Experiments demonstrated choosing weak constraints over simple forms yielded a 110 − 500% improvement in generalisation rate. Here we show that all constraints can take equally simple forms, regardless of weakness. However if forms are spatially extended, then function is represented using a finite subset of forms. If function is represented using a finite subset of forms, then we can force a correlation between simplicity and generalisation by making weak constraints take simple forms. If function is determined by a goal directed process that favours versatility (e.g. natural selection), then efficiency demands weak constraints take simple forms. Complexity has no causal influence on generalisation, but appears to due to confounding."
-- Rob Conery's posts exploring using AI in a dev setting:
-
-    - ["Using Gemini CLI to Learn Something New"](https://thenext.dev/articles/all/using-gemini-cli-to-learn-something-new/)
-    - ["Creating a Markdown Compiler"](https://thenext.dev/articles/copilot/creating-a-markdown-compiler/) (video)
-    - ["Turning a Markdown Spec into a Database - With Test Data!"](https://thenext.dev/articles/video/turning-a-markdown-spec-into-a-database-with-test-data/)
-
 - ["You're Building AI Apps Backwards: The Model-Product Problem"](https://thenewstack.io/youre-building-ai-apps-backwards-the-model-product-problem/)
 - ["AI Models Need a Virtual Machine"](https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/)
 - [Artificial Intelligence for a Better Future: An Ecosystem Perspective on the Ethics of AI and Emerging Digital Technologies](https://link.springer.com/book/10.1007/978-3-030-69978-9) - Bernd Carsten Stahl (PDF)
@@ -64,15 +58,9 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 
 - [The Quest for Artificial Intelligence: A History of Ideas and Achievements](http://ai.stanford.edu/~nilsson/QAI/qai.pdf) - Nils J. Nilsson (PDF)
 
-## [Criticism](/ai/critique)
-
 ## Tools
 
 * [Lovable](https://lovable.dev/): Create apps and websites by chatting with AI
-* ChatGPT-5
-
-    - https://futurism.com/gpt-5-disaster
-    - [ChatGPT Is Blowing Up Marriages as Spouses Use AI to Attack Their Partners](https://futurism.com/chatgpt-marriages-divorces)
 
 ## Reading
 
@@ -100,7 +88,7 @@ tags=ai, machine learning, fuzzy logic, logic, expert system, nlp
 
 ### Assistants
 
-* [DeepTutor: AI-Powered Personalized Learning Assistant](https://hkuds.github.io/DeepTutor/) [Source](https://github.com/HKUDS/DeepTutor): Your AI Learning Companion - Transform any document into an interactive learning experience
+* [DeepTutor: AI-Powered Personalized Learning Assistant](https://github.com/HKUDS/DeepTutor): Your AI Learning Companion - Transform any document into an interactive learning experience
 
 ### [Expert Systems](/tags/expert%20system.html) / [Rules Engines](/tags/rules.html)
 
@@ -141,7 +129,7 @@ An advanced artificial intelligence (AI) system, built on deep learning and tran
 
 An AI model designed to handle specific tasks, using fewer parameters and less computational power than a large language model (LLM). This efficiency makes SLMs faster to train, more accessible, and suitable for deployment on devices with limited resources or for performing specialized functions, such as data extraction from documents, language translation, or specific conversational agents. In terms of size, SLM parameters range from a few million to a few billion, as opposed to LLMs with hundreds of billions or even trillions of parameters. Parameters are internal variables, such as weights and biases, that a model learns during training. These parameters influence how a machine learning model behaves and performs.
 
-### [Retrieval Augmented Generation (RAG)](/ai/rag)
+### [Retrieval Augmented Generation (RAG)](/ai/rag/)
 
 * [Wikipedia: Prompt Engineering - Retrieval Augmented Generation](https://en.wikipedia.org/wiki/Prompt_engineering#Retrieval-augmented_generation)
 * ["Cognita: An Open Source Framework for Building Modular RAG Applications"](https://www.marktechpost.com/2024/05/27/cognita-an-open-source-framework-for-building-modular-rag-applications/)

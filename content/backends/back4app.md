@@ -5,5 +5,5 @@ summary=Parse backend hosting.
 
 [Website](https://www.back4app.com/) | [Source](https://github.com/back4app)
 
-Based on [Parse](../parse) and therefore one of the [Parse alternatives](../parse-alternatives).
+Based on [Parse](/backends/parse).
 

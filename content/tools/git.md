@@ -1,5 +1,5 @@
 title=Git
-tags=tool, revision control
+tags=tool, version control
 summary=Distributed version-control system.
 ~~~~~~
 

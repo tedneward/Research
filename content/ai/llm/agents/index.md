@@ -3,6 +3,8 @@ tags=ai, agent
 summary=Collection of notes and links on AI LLM-based "agents".
 ~~~~~~
 
+[LLM Reference: AI coding agents/harnesses](https://www.llmreference.com/agents)
+
 "Agents are a system that uses an LLM to dynamically decide the control flow of an application to achieve a user goal."
 
 An agent generally consists of these core components:

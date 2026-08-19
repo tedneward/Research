@@ -20,8 +20,8 @@
                 </#list>
               </ul>
             </li>
-            <li><a href="${config.site_host}/all/">All Pages</a></li>
-            <li><a href="${config.site_host}/tags">All Tags</a></li>
+            <li><a href="${config.site_host}/all.html">All Pages</a></li>
+            <li><a href="${config.site_host}/tags/index.html">All Tags</a></li>
             <li><a href="${config.site_host}/${config.feed_file}">Subscribe (RSS)</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">

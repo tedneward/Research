@@ -1,5 +1,5 @@
 title=Gitbook
-tags=tool, documentation, writing, git
+tags=tool, documentation, writing, git, version control
 summary=Personalized, intelligent docs — tailored to every user, powered by AI.
 ~~~~~~
 

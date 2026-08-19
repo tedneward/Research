@@ -98,6 +98,8 @@ Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/li
 * [Chris Kohlepp's Blog](https://chriskohlhepp.wordpress.com/): Interesting sections. ["Advanced C++ and Lisp"](https://chriskohlhepp.wordpress.com/advanced-c-lisp/), ["Embeddable Common Lisp on iPhone"](https://chriskohlhepp.wordpress.com/embeddable-common-lisp-on-iphone/), ["Reasoning Systems"](https://chriskohlhepp.wordpress.com/reasoning-systems/), and so on.
 * ["How to Write a Lisp Interpreter in JavaScript"](https://chidiwilliams.com/post/how-to-write-a-lisp-interpreter-in-javascript/)
 
+See [Common-Lisp-Resources](https://github.com/ccceye/Common-Lisp-Resources)
+
 ### Libraries(ish)
 
 * [Foil](http://foil.sourceforge.net/): a Foreign Object Interface for Lisp (JVM and CLR integration)
