@@ -27,6 +27,7 @@ Basic idea of strategy: apply strength to opportunity.
 A strategy is like a lever that magnifies force. Yes, you might be able to drag a giant block of rock across the ground with muscles, ropes and motivation. But it is wiser to build levers and wheels and then move the rock. Unlike a stand-alone decision or a goal, a strategy is a coherent set of analyses/concepts/policies/arguments/actions that respond to a high-stakes challenge.
 
 Sources of strength:
+
 * Having a coherent strategy, one that creates strength.
 * Subtle shifts in viewpoints.
 
@@ -148,6 +149,7 @@ Strategy is visible as ***coordinated action imposed on a system***. Imposed = "
 ## Chapter 6 - Using leverage
 
 Strategic leverage arises from a mixture of:
+
 * anticipation: buyer demand, competition reactions. Anticipation does not require psychic powers. In many circumstances, anticipation simply means considering the habits, preferences and policies of others, as well as various inertias and constraints in change.
 * pivot points: small adjustment magnifies effect of effort
 * concentration: focus on a few objectives, due to limited resources, limited leadership cognition, perceived effectiveness (a 100% improvement in one department seems more effective than a 10% improvement in 100 departments)
@@ -169,10 +171,12 @@ Quality matters when quantity is an inadequate substitute.
 Find limiting factors.
 
 Quality matching: when each link is managed separately, the system can get stuck in a low-effectiveness state:
+
 * Quality of the chain is equal to the lowest link.
 * Improving on any other link is a waste.
 
 Problems with chain-linked:
+
 * Identify bottlenecks.
 * Incremental change may not pay off and even make things worse: Focus success measurement on change itself.
 
@@ -195,6 +199,7 @@ Given a set level of challenge, higher-quality resources lessen the need for the
 Resources and tight coordination are partial substitutes for each other.
 
 Tight integration cost:
+
 * Harder to create.
 * Narrower focus.
 * More fragile.
@@ -221,6 +226,7 @@ An advantage is the result of differences – an asymmetry between rivals. Knowi
 The most basic advantage is producing at a lower cost than your competitors, or delivering more perceived value than your competitors, or a mix of the two. The difficult part is sustaining an advantage. To do that, you need an "isolating mechanism" that prevents competitors from duplicating it. Isolating mechanisms include patents, reputations, commercial and social relationships, network effects, dramatic economies of scale, and tacit knowledge and skill gained through experience.
 
 Once you have an advantage, you should strengthen it by:
+
 * *deepening it*
 * *broadening it*
 * *creating higher demand* for your products and services
@@ -309,6 +315,7 @@ Judgment can be practiced: Write down before every meeting what issues will aris
 Independent, not eccentric. Doubting without curmudgeon.
 
 Errors in judgment:
+
 * Engineering overreach: when failure modes and consequences are not understood.
 * Smooth-sailing fallacy: when lack of recent failures make people overconfident.
 * Working under risk-seeking malincentives: You profit if things go well, others pay if things go bad.
@@ -316,10 +323,12 @@ Errors in judgment:
 * Inside view: believe “this case is different” despite data.
 
 ### Improve on strategy
+
 1. Have tools to fight myopia and guide attention
 2. Question your own judgement
 3. Record judgements so you can learn from them
 
 ### Tools to help thinking
 Think about first principles — not what is done but by WHY it’s done
+
 Create-Destroy — try hard to destroy current alternative
