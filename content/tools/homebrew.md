@@ -36,6 +36,6 @@ brew bundle install --file=./Brewfile
 * luna-display: Use your iPad as a wireless second display
 * luna-secondary: Turn a computer or tablet into a second display
 * redot: Multi-platform 2D and 3D game engine
-* 
+
 
 
