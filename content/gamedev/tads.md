@@ -41,17 +41,17 @@ firstRoom: Room 'Starting Room'
 
 | Interpreter | Link | Format | System | Updated | Multimedia support |
 | --- | --- | --- | --- | --- | --- |
-| [Spatterlight](https://www.ifwiki.org/Spatterlight "Spatterlight") | [Download](https://github.com/angstsmurf/spatterlight/releases) | ADRIFT 4, ADRIFT 5, AdvSys, AGT, Alan 2, Alan 3, Glulx, Hugo, Level 9, Magnetic Scrolls, Quest, ScottFree, TADS 2, TADS 3, Z-code, Other | macOS | 2026-08-17 | Colors, graphics, sound |
-| [Parchment](https://www.ifwiki.org/Parchment "Parchment") | [Download](https://github.com/curiousdannii/parchment/releases) [Play](https://iplayif.com/) | ADRIFT 4, Glulx, Hugo, TADS 2, TADS 3, Z-code | Browser | 2026-08-01 | Colours, graphics, sound (in Glulx only) |
-| [Gargoyle](https://www.ifwiki.org/Gargoyle "Gargoyle") | [Download](https://github.com/garglk/garglk/releases) | ADRIFT 4, AdvSys, AGT, Alan 2, Alan 3, Glulx, Hugo, Level 9, Magnetic Scrolls, ScottFree, TADS 2, TADS 3, Z-code | Windows, macOS, Linux | 2026-02-08 | Different for each game format |
-| [Lectrote](https://www.ifwiki.org/Lectrote "Lectrote") | [Download](https://github.com/erkyrath/lectrote/releases) | ADRIFT 4, Glulx, Hugo, Ink JSON, TADS 2, TADS 3, Z-code | Windows, macOS, Linux | 2025-10-04 | Color, Graphics (No TADS multimedia support) |
-| [Fabularium (F-Droid)](https://www.ifwiki.org/Fabularium_(F-Droid) "Fabularium (F-Droid)") | [Download](https://f-droid.org/en/packages/io.davidar.fabularium/) | ADRIFT 4, ADRIFT 5, AdvSys, AGT, Alan 2, Alan 3, Glulx, Hugo, Level 9, Magnetic Scrolls, ScottFree, TADS 2, TADS 3, Z-code | Android | 2025-01-11 | Colors, graphics |
-| [Gelek Vanilla](https://www.ifwiki.org/Gelek_Vanilla "Gelek Vanilla") | [Download](https://gitlab.com/cibersheep/gelek-vanilla) | ADRIFT 4, AdvSys, AGT, Alan 2, Alan 3, Glulx, Hugo, Level 9, Magnetic Scrolls, ScottFree, TADS 2, TADS 3, Z-code | Linux | 2024-09-18 |     |
-| [Frotz for iOS](https://www.ifwiki.org/Frotz_for_iOS "Frotz for iOS") | [Download](https://apps.apple.com/us/app/frotz/id287653015) | Glulx, TADS 2, TADS 3, Z-code | iOS | 2023-09-24 | Color, Graphics (No TADS multimedia support) |
-| [ElseIFPlayer](https://www.ifwiki.org/ElseIFPlayer "ElseIFPlayer") | [Play](https://he4et.github.io/elseifplayer/) | ADRIFT 4, Glulx, Hugo, TADS 2, TADS 3, Z-code | Browser | 2023-06-29 | No multimedia |
-| [Parchmap](https://www.ifwiki.org/Parchmap "Parchmap") | [Play](http://parchmap.free.nf/) | Glulx, Hugo, TADS 2, TADS 3, Z-code | Browser | 2023-06-17 |     |
-| [QTads](https://www.ifwiki.org/QTads "QTads") | [Download](https://realnc.github.io/qtads/#downloads) | TADS 2, TADS 3 | Windows, macOS, Linux | 2023-05-17 | All multimedia features of TADS are supported. |
-| [Hunky Punk](https://www.ifwiki.org/Hunky_Punk "Hunky Punk") | [Download](https://play.google.com/store/apps/details?id=org.andglkmod.hunkypunk) | TADS 2, TADS 3, Z-code | Android | 2021-04-05 |     |
+| [ElseIFPlayer](https://www.ifwiki.org/ElseIFPlayer "ElseIFPlayer") | [Play](https://he4et.github.io/elseifplayer/) | Browser | 2023-06-29 | No multimedia |
+| [Fabularium (F-Droid)](https://www.ifwiki.org/Fabularium_(F-Droid) "Fabularium (F-Droid)") | [Download](https://f-droid.org/en/packages/io.davidar.fabularium/) | Android | 2025-01-11 | Colors, graphics |
+| [Frotz for iOS](https://www.ifwiki.org/Frotz_for_iOS "Frotz for iOS") | [Download](https://apps.apple.com/us/app/frotz/id287653015) | iOS | 2023-09-24 | Color, Graphics (No TADS multimedia support) |
+| [Gargoyle](https://www.ifwiki.org/Gargoyle "Gargoyle") | [Download](https://github.com/garglk/garglk/releases) | Windows, macOS, Linux | 2026-02-08 | Different for each game format |
+| [Gelek Vanilla](https://www.ifwiki.org/Gelek_Vanilla "Gelek Vanilla") | [Download](https://gitlab.com/cibersheep/gelek-vanilla) | Linux | 2024-09-18 |     |
+| [Hunky Punk](https://www.ifwiki.org/Hunky_Punk "Hunky Punk") | [Download](https://play.google.com/store/apps/details?id=org.andglkmod.hunkypunk) | Android | 2021-04-05 |     |
+| [Lectrote](https://www.ifwiki.org/Lectrote "Lectrote") | [Download](https://github.com/erkyrath/lectrote/releases) | Windows, macOS, Linux | 2025-10-04 | Color, Graphics (No TADS multimedia support) |
+| [Parchment](https://www.ifwiki.org/Parchment "Parchment") | [Download](https://github.com/curiousdannii/parchment/releases) [Play](https://iplayif.com/) | Browser | 2026-08-01 | Colours, graphics, sound (in Glulx only) |
+| [Parchmap](https://www.ifwiki.org/Parchmap "Parchmap") | [Play](http://parchmap.free.nf/) | Browser | 2023-06-17 |     |
+| [QTads](https://www.ifwiki.org/QTads "QTads") | [Download](https://realnc.github.io/qtads/#downloads) | Windows, macOS, Linux | 2023-05-17 | All multimedia features of TADS are supported. |
+| [Spatterlight](https://www.ifwiki.org/Spatterlight "Spatterlight") | [Download](https://github.com/angstsmurf/spatterlight/releases) | macOS | 2026-08-17 | Colors, graphics, sound |
 
 ## Reading
 
