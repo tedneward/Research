@@ -24,7 +24,6 @@ brew bundle install --file=./Brewfile
 
 ## Interesting formulae to follow up later
 
-* baml: Programming language for agents
 * droast: Opinionated Dockerfile linter
 * fanficfare: Download fanfiction and original stories as e-books
 * git-pkgs-brief: Tool that detects and reports a project's toolchain, configuration, and more
