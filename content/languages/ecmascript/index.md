@@ -12,7 +12,7 @@ Official standard name of the language originally appearing in browsers. "Javasc
 * Native: [WebKit JavaScriptCore](https://github.com/WebKit/WebKit/tree/main/Source/JavaScriptCore): the JavaScript engine that comes as part of the larger open-source [WebKit](https://github.com/WebKit/) browser core.
 * C/C++: [Duktape](https://github.com/svaarala/duktape): embeddable JS engine capable of being run in the browser via WebAssembly
 * C/C++: [mjs](https://github.com/cesanta/mjs) Embedded JavaScript for C/C++, designed for microcontrollers with limited resources. Implements a strict subset of ES6.
-* C/C++: [QuickJS](https://bellard.org/quickjs/): a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
+* C/C++: [QuickJS](/languages/ecmascript/quickjs): a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
 * WASM: [quickjs-emscripten](https://github.com/justjake/quickjs-emscripten) - Safely execute untrusted Javascript in your JS/TS, and execute synchronous code that uses async functions.
 * C/C++: [V8](/vms/v8): The engine below NodeJS from Google.
 * CLR: [jint](/languages/ecmascript/jint) - an embeddable Javascript interpreter for .NET which can run on any modern .NET platform as it supports .NET Standard 2.0 and .NET 4.6.2 targets (and later).
