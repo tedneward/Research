@@ -5,6 +5,12 @@ summary=An extensible, feature-rich, user-friendly, self-hosted AI platform desi
 
 [Website](https://openwebui.com/) | [Source](https://github.com/open-webui/open-webui) | [Docs](https://docs.openwebui.com/features)
 
+# Docker install
+
+```
+docker run -d -p 3000:8080 ghcr.io/open-webui/open-webui:main
+```
+
 ## Key Features of Open WebUI ⭐
 
 - Install using Docker or Kubernetes (kubectl, kustomize or helm) with support for both `:ollama` and `:cuda` tagged images.

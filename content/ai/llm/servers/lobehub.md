@@ -5,6 +5,8 @@ summary=The ultimate space for work and life: to find, build, and collaborate wi
 
 [Website](https://lobehub.com/) | [Source](https://github.com/lobehub/lobehub)
 
+> There's a 2024-era fork at https://github.com/AIDotNet/lobe-chat that 
+
 LobeHub is the ultimate space for work and life: to find, build, and collaborate with agent teammates that grow with you. We’re building the world’s largest human–agent co-evolving network.
 
 ## 👋🏻 Getting Started & Join Our Community

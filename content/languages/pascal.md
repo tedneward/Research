@@ -16,6 +16,7 @@ summary=A procedural language with added object extensions popularized by Borlan
 * Rust: [rascal](https://github.com/tylerlaberge/rascal): A simple Pascal interpreter in Rust.
 * JVM: [Gardens Point Component Pascal for Java 1.4](https://github.com/pahihu/gpcp-JVM)
 * CLR: [Gardens Point Component Pascal for .NET 1.4](https://github.com/k-john-gough/gpcp/)
+* [IP-Pascal](https://github.com/samiam95124/IP-Pascal): a large system for Pascal language used from about 1993 to 2010. Its a very complex, but well structured and well commented compiler. It continued on the original compiler created in 1980, but it is written in Pascal itself. The language of IP Pascal started with ISO 7185 Pascal and included a modest number of extensions, most importantly Modularity and container arrays of any length.
 
 ### Reading
 
