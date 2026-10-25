@@ -155,4 +155,53 @@ OpenCode is a powerful, open-source AI coding assistant that brings intelligent 
 - [AI Token Calculator](https://www.nxcode.io/tools/ai-token-calculator) - Calculate token usage and costs for 150+ AI models
 - [Best AI App Builders 2026](https://www.nxcode.io/resources/news/best-ai-app-builders-2026) - Complete guide to no-code AI app builders
 
+## CLI Interface
+
+```
+USAGE
+  opencode <subcommand> [flags] [<directory>]
+
+ARGUMENTS
+  directory string    Directory to start OpenCode in (optional)
+
+FLAGS
+  --standalone            Run with a private server instead of the background service
+  --server string         Connect to a server URL instead of the background service
+  --auto                  Auto-approve permissions that are not explicitly denied
+  --continue, -c          Continue the last session
+  --session, -s string    Session ID to continue, or to create if it does not exist
+  --prompt string         Prompt to use
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|sh>                                    Print shell completion script (choices: bash, zsh, fish, sh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+
+SUBCOMMANDS
+  upgrade, update    Upgrade OpenCode to the latest or a specific version
+  uninstall          Uninstall OpenCode, keeping session data, configuration, and state
+  acp                Start an Agent Client Protocol server
+  api                Make a request to the running server
+  debug              Debugging and troubleshooting tools
+  auth               manage integrations and credentials
+  mcp                Manage MCP (Model Context Protocol) servers
+  plugin             Manage plugins
+  models             List all available models
+  stats              Show shareable usage statistics
+  mini               Start the minimal interactive interface
+  run                Run OpenCode with a message
+  session            Manage sessions
+  service            Manage the background server
+  reload             Reload configuration
+  pair               Print one-time links to connect a browser or app
+  serve              Start the v2 API and web server
+```
+
+`opencode --wizard`: Walks through a console-based wizard to create a shell command for execution.
+
+`opencode run --model ollama/qwen3.8:27b "Create a singly-linked list class in Python." .`: Run a prompt through the given model in the current directory
+
 
