@@ -81,6 +81,8 @@ An agent generally consists of these core components:
 ### Papers
 
 - [ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents](https://huggingface.co/papers/2604.11784)
+- [SkillHone: A Harness for Continual Agent Skill Evolution Through Persistent Decision History](https://huggingface.co/papers/2606.08671)
+- [Program-as-Weights: A Programming Paradigm for Fuzzy Functions](https://huggingface.co/papers/2607.02512)
 
 ### Resources
 
