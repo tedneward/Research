@@ -44,6 +44,8 @@ summary=The original dynamic functional(ish) homoiconic (consistent symbology) l
 * [Llisp](https://stopa.io/post/292): A Lisp in Lisp
 * Awk: https://github.com/darius/awklisp
 * Swift: https://github.com/uraimo/SwiftyLISP A minimal Lisp implemented in Swift
+* [tinylisp](https://github.com/Robert-van-Engelen/tinylisp): Lisp in 99 lines of C and how to write one yourself. Includes 21 Lisp primitives, garbage collection and REPL. Includes tail-call optimized versions for speed and reduced memory use.
+* [OG2VLM](https://github.com/JMlisp/og2vlm): Open Genera 2 Virtual Lisp Machine emulator for Debian Linux. OG2VLM is the main JMlisp OG2 repository of a Workgroup of Symbolics machines and DEC Alpha VLM workstation users, whose goal it is to keep OG2 and associated OG2 systems alive and, based on Brad Parker's great work of adapting the Alpha version to x86_64, to provide bug fixes for still remaining problems, and maintain OG2 on Debian-based Linux platforms as well. 
 
 Standalone Lisp environment: [Lisp in a Box!](https://common-lisp.net/project/lispbox/): "Lispbox is an IDE for Common Lisp development. Actually, Lispbox is just a pre-configured packaging of the Emacs editing environment, SLIME (The Superior Lisp Interaction Mode for Emacs), the Quicklisp library manager, and the Clozure Common Lisp compiler."
 

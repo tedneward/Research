@@ -110,6 +110,7 @@ Prolog is used in many kinds of applications including:
 * Javascript: [Tau Prolog](http://tau-prolog.org/) (Prolog in JavaScript) | [Source](https://github.com/tau-prolog)
 * JVM: [JIProlog](http://www.jiprolog.com/) | [Source](https://github.com/jiprolog/)
 * JVM: [TuProlog](http://alice.unibo.it/xwiki/bin/view/Tuprolog/)
+* [binprolog](https://github.com/ptarau/binprolog): Fast, simplified WAM-based Prolog system
 
 Here's a weird one: [C+P: Combining the Usefulness of C with the Excellence of Prolog](https://hackaday.com/2025/03/14/cp-combining-the-usefulness-of-c-with-the-excellence-of-prolog/) Basically it's a Prolog program system that transpiles C code? [Source](https://github.com/needleful/c_plus_prolog)
 

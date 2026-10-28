@@ -17,6 +17,145 @@ If you want a personal, single-user assistant that feels local, fast, and always
 - [Running OpenClaw in Docker](https://til.simonwillison.net/llms/openclaw-docker)
 - [How to Set Up OpenClaw and Design an A2A Plugin Bridge](https://www.freecodecamp.org/news/openclaw-a2a-plugin-architecture-guide/)
 - [How to Build a Secure Local-First Agent Runtime with OpenClaw Gateway, Skills, and Controlled Tool Execution](https://www.marktechpost.com/2026/04/11/how-to-build-a-secure-local-first-agent-runtime-with-openclaw-gateway-skills-and-controlled-tool-execution/)
+- [Running OpenClaw with Ollama](https://www.kdnuggets.com/running-openclaw-with-ollama): Ollama defaults to context lengths based on available VRAM: under 24 GB gets 4k context, 24–48 GB gets 32k, and 48 GB or more gets 256k. The default for most consumer hardware is 4k, which is not enough for an agent doing multi-step tasks. You will need to set context explicitly.
+
+    Model recommendations:
+
+    | **Model** | **Type** | **VRAM** | **Best for** |
+    | --- | --- | --- | --- |
+    | **[kimi-k2.5:cloud](https://ollama.com/library/kimi-k2.5)** | Cloud | None | Multimodal reasoning and sub-agents |
+    | **[qwen3.5:cloud](https://ollama.com/library/qwen3.5)** | Cloud | None | Reasoning, coding, vision |
+    | **[minimax-m2.7:cloud](https://ollama.com/library/minimax-m2.7)** | Cloud | None | Fast productivity tasks |
+    | **[glm-5.1:cloud](https://ollama.com/library/glm-5.1)** | Cloud | None | Reasoning and code generation |
+    | **[qwen3-coder](https://ollama.com/library/qwen3-coder)** | Local | ~25 GB | Coding tasks, full privacy |
+    | **[gemma4](https://ollama.com/library/gemma4)** | Local | ~16 GB | Reasoning locally |
+
+    Cloud models have full context length automatically and include web search support without any additional configuration. For most users starting out, `kimi-k2.5:cloud` is the right pick; it is free to start, handles agentic tasks well, and requires no VRAM.
+
+    Once the Gateway is running, you connect your messaging platform with:
+
+    ```
+    openclaw configure --section channels
+    ```
+
+    This opens an interactive selector listing WhatsApp, Telegram, Slack, Discord, and iMessage. The setup steps differ per platform. Telegram is the cleanest starting point for developers. It requires no phone number linking and uses a proper bot token rather than emulating a personal account.
+
+    **Step 1: Create a bot with BotFather**  
+    Open Telegram and search for **[@BotFather](https://t.me/botfather)**. Send `/newbot`, choose a name (this is the display name), then choose a username (must end in bot, e.g. `my_openclaw_bot`). BotFather returns a token that looks like:
+
+    ```
+    1234567890:AAFxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    ```
+
+    Copy this token. You will not be shown it again. If you lose it, you can generate a new one with `/token`.
+
+    **Step 2: Paste the token into OpenClaw**  
+    In the `openclaw configure --section channels` menu, select Telegram, then paste the bot token when prompted.
+
+    **Step 3: Select "Finished" to save**  
+    After configuring, select Finished in the configurator. This is required. Exiting without selecting Finished discards your configuration.
+
+    **Step 4: Find your bot on Telegram and start a conversation**  
+    Search for your bot's username in Telegram. Send `/start`. The Gateway handles the first connection and the bot begins responding.
+
+    For WhatsApp, the process uses the Baileys protocol, which means you scan a QR code in the OpenClaw TUI to link your WhatsApp account. This works, but it links your actual WhatsApp account rather than creating a separate bot account. Be aware of that before proceeding.
+
+    For Slack and Discord, you will need to create an app in each platform's developer portal and supply the bot token and channel IDs. The OpenClaw configurator walks through the required fields for each.
+
+    Noninteractive/headless deployment Dockerfile:
+
+    ```
+    # Dockerfile
+    # Runs Ollama + OpenClaw as a headless agent service.
+    # Build: docker build -t openclaw-agent .
+    # Run:   docker run -d --gpus all --env-file .env openclaw-agent
+    #
+    # Prerequisites for the build machine:
+    #   - Docker with nvidia-container-toolkit (for GPU passthrough)
+    #   - A .env file with OLLAMA_API_KEY and channel credentials
+
+    FROM ubuntu:22.04
+
+    # ── System dependencies ────────────────────────────────────────────────────────
+    # Ubuntu 22.04's default apt repo ships Node.js 12.x, which does not meet
+    # OpenClaw's Node.js 18+ requirement, so Node.js 18 is installed via NodeSource.
+    RUN apt-get update && apt-get install -y curl \
+        && curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
+        && apt-get install -y nodejs \
+        && rm -rf /var/lib/apt/lists/*
+
+    # ── Install Ollama ─────────────────────────────────────────────────────────────
+    RUN curl -fsSL https://ollama.com/install.sh | sh
+
+    # ── Install OpenClaw via npm ───────────────────────────────────────────────────
+    # Install globally so the `openclaw` binary is in PATH
+    RUN npm install -g openclaw
+
+    # ── Set context length for agent workloads ─────────────────────────────────────
+    # 64000 is the minimum. Increase if your GPU has VRAM headroom.
+    ENV OLLAMA_CONTEXT_LENGTH=64000
+
+    # ── Startup script ─────────────────────────────────────────────────────────────
+    # 1. Start the Ollama server in the background
+    # 2. Wait for it to be ready
+    # 3. Launch OpenClaw headlessly with the specified cloud model
+    COPY start.sh /start.sh
+    RUN chmod +x /start.sh
+
+    EXPOSE 11434
+
+    CMD ["/start.sh"]
+
+    # start.sh -- runs alongside the Dockerfile above
+
+    #!/bin/bash
+    set -e
+
+    # Start the Ollama server in the background
+    ollama serve &
+    OLLAMA_PID=$!
+
+    # Wait until Ollama's API is responding (up to 30 seconds)
+    echo "Waiting for Ollama to start..."
+    for i in $(seq 1 30); do
+        if curl -s http://localhost:11434/api/tags > /dev/null 2>&1; then
+            echo "Ollama ready."
+            break
+        fi
+        sleep 1
+    done
+
+    # Launch OpenClaw headlessly -- --yes skips all interactive prompts
+    # OLLAMA_MODEL should be set in your .env file or docker run -e flag
+    ollama launch openclaw \
+        --model "${OLLAMA_MODEL:-kimi-k2.5:cloud}" \
+        --yes
+
+    # Keep the container alive and follow OpenClaw's logs
+    wait $OLLAMA_PID
+    
+
+    Build and run:
+
+    # Create a .env file with your credentials
+    cat > .env << EOF
+    OLLAMA_MODEL=kimi-k2.5:cloud
+    OLLAMA_API_KEY=your_ollama_api_key
+    EOF
+
+    # Build the image
+    docker build -t openclaw-agent .
+
+    # Run with GPU passthrough (requires nvidia-container-toolkit)
+    docker run -d \
+        --gpus all \
+        --env-file .env \
+        --name openclaw \
+        openclaw-agent
+
+    # Follow logs
+    docker logs -f openclaw
+    ```
 
 ### Skills
 

@@ -21,3 +21,4 @@ Agent Development Kit (ADK) is a flexible and modular framework for developing a
 * [Building agents with the ADK and the new Interactions API](https://developers.googleblog.com/building-agents-with-the-adk-and-the-new-interactions-api/)
 * [Introducing Agent Development Kit for TypeScript: Build AI Agents with the Power of a Code-First Approach](https://developers.googleblog.com/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/)
 * [Hands-on with...](https://www.infoworld.com/article/4153857/hands-on-with-the-google-agent-development-kit.html)
+* [Why we build ADK 2.0](https://developers.googleblog.com/why-we-built-adk-20/)
