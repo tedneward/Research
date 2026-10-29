@@ -1,6 +1,6 @@
 title=Z#
-tags=language
-summary=A custom programming language I made because I don't like c++ very much (Z-Sharp's interpreter is written in c++ though).
+tags=language, native
+summary="A custom programming language I made because I don't like c++ very much".
 ~~~~~~
 
 [Source](https://github.com/sam-astro/Z-Sharp)
