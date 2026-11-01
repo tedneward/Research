@@ -1,4 +1,4 @@
-title=Article: 
+title=Article: Building Local AI Systems with Qwen3.6 MCPs
 tags=reading, article, ai
 summary=Define a tool once as an MCP server and any MCP-compatible client, any model, any framework, can discover and call it with zero custom integration code per model.
 ~~~~~~

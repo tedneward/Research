@@ -1,6 +1,6 @@
 title=Article: Back up files like a pro
 tags=reading, article, sysadmin
-summary=
+summary=Proposed backup strategy for consumer data.
 ~~~~~~
 
 Source: https://www.makeuseof.com/backup-files-like-a-pro-three-two-one-rule/

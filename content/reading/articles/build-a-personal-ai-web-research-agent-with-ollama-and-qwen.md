@@ -1,6 +1,6 @@
 title=Article: Personal Web Research AI Agent with Ollama and Qwen
 tags=reading, ai, agent, ollama, qwen
-summary=
+summary=Suggestions on how to build a locally-operated research system.
 ~~~~~~
 
 Source: https://www.freecodecamp.org/news/build-a-personal-ai-web-research-agent-with-ollama-and-qwen/ (26 June 2026)
