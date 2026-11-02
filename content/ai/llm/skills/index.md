@@ -39,6 +39,7 @@ For teams and enterprises: Capture organizational knowledge in portable, version
 * [How to build a Claude skill from scratch](https://writewithai.substack.com/p/how-to-build-a-claude-skill-from)
 * [How I Do Content Engineering with Claude Code](https://ahrefs.com/blog/how-i-do-content-engineering-with-claude-code/)
 * [Avoid dependency hell for Claude SKILLs](https://medium.com/@michaelyuan_88928/avoid-dependency-hell-for-claude-skills-62658982ebb4)
+* [Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents](https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more)
 
 ### Support for agent skills
 
@@ -231,6 +232,8 @@ Example Configuration:
 - [gradion-ai/freeact-skills](https://github.com/gradion-ai/freeact-skills) - Freeact agent library skills
 - [gotalab/skillport](https://github.com/gotalab/skillport) - Skills distribution via CLI or MCP
 - [mhattingpete/claude-skills-marketplace](https://github.com/mhattingpete/claude-skills-marketplace) - Git, code review, and testing skills
+- [superpowers](https://github.com/obra/superpowers): An agentic skills framework & software development methodology that works.
+- [mattpocock](https://aihero.dev/skills) ([Source](https://github.com/mattpocock/skills)): Skills for Real Engineers. Straight from my .agents directory.
 
 ---
 

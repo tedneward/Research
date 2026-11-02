@@ -11,3 +11,6 @@ This is the home of the pi agent harness project including our self extensible c
 * [@earendil-works/pi-agent-core](https://github.com/earendil-works/pi/blob/main/packages/agent): Agent runtime with tool calling and state management
 * [@earendil-works/pi-ai](https://github.com/earendil-works/pi/blob/main/packages/ai): Unified multi-provider LLM API (OpenAI, Anthropic, Google, …)
 
+## Tools
+
+* [Java extensions for pi](https://github.com/prpatel/pi-java-tools)
