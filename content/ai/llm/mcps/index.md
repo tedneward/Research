@@ -3,7 +3,10 @@ tags=ai, distribution, standard
 summary=An open standard that enables developers to build secure, two-way connections between their data sources and AI-powered tools.
 ~~~~~~
 
-[Website](https://modelcontextprotocol.io/introduction) | [Source](https://github.com/modelcontextprotocol) | [Specification](https://spec.modelcontextprotocol.io/) | [Docs](https://github.com/modelcontextprotocol/docs)
+[Website](https://modelcontextprotocol.io/) | [Source](https://github.com/modelcontextprotocol) | [Specification](https://spec.modelcontextprotocol.io/) | [Docs](https://github.com/modelcontextprotocol/docs)
+
+- [Build your first MCP Server](https://modelcontextprotocol.io/docs/first-server) - Python/TypeScript guide
+- [MCP Server Examples](https://github.com/modelcontextprotocol/servers) - Official server implementations
 
 SDKs:
 
@@ -12,6 +15,28 @@ SDKs:
 - [Kotlin](https://github.com/modelcontextprotocol/kotlin-sdk) and [Example](https://github.com/modelcontextprotocol/kotlin-sdk/tree/main/samples/kotlin-mcp-server)
 - [Python](https://github.com/modelcontextprotocol/python-sdk)
 - [TypeScript](https://github.com/modelcontextprotocol/typescript-sdk)
+
+### Using MCP Servers (Claude Desktop)
+
+Edit your configuration file:
+- **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+- **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+
+Example Configuration:
+```json
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/username/Desktop"
+      ]
+    }
+  }
+}
+```
 
 # MCP Apps
 
