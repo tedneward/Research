@@ -42,6 +42,7 @@ This camp overlaps the most with the others — Boruna includes a type checker a
 * [B-IR](/languages/b-ir): Syntactic
 * [Boruna](/languages/boruna): Orchestration, Verification
 * [Codong](/languages/codong): Syntactic
+* [Faber Romanus](/languages/faber): Syntactic
 * [Intent](/languages/intent): Verification
 * [Koru](/languages/koru): *N/A*
 * [Laze](/languages/laze): Syntactic
