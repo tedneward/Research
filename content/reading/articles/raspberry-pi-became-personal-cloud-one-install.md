@@ -1,4 +1,4 @@
-title=My dusty Raspberry Pi became a personal cloud after one install
+title=Article: My dusty Raspberry Pi became a personal cloud after one install
 tags=reading, article, cloud, raspberry pi
 summary=Why an older Pi makes a surprisingly capable Nextcloud server for personal use
 ~~~~~~

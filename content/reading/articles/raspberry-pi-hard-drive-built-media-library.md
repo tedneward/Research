@@ -1,4 +1,4 @@
-title=Article: 
+title=Article: A Raspberry Pi and a hard drive built me a media library no company can take away
 tags=reading, article, raspberry pi, cloud
 summary=Your own media library starts with surprisingly little: a Raspberry Pi, an external hard drive, and open-source software are all you need
 ~~~~~~

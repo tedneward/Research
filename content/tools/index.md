@@ -53,7 +53,7 @@ tags=tool
 
 ## Notetaking OSS Alternatives
 
-* [AppFlowy](https://www.appflowy.io/): Open-source alternative to Notion [Source](https://github.com/AppFlowy-IO/appflowy)
+* [AppFlowy](/tools/appflowy): Open-source alternative to Notion
 * [Athens Research](https://www.athensresearch.org/): Knowledge graph for research [Source](https://github.com/athensresearch/athens)
 * [Bangle.io](https://bangle.io/): A rich note note taking web app that works on top of your locally saved Markdown files [Source](https://github.com/bangle-io/bangle-io)
 * [Boost Note](https://boostnote.io/): Collaborative workspace for developer teams [Source](https://github.com/BoostIO/BoostNote-App)
@@ -62,7 +62,7 @@ tags=tool
 * [Logseq](/platforms/logseq)
 * [Notabase](https://notabase.io): Powerful and easy-to-use note-taking app for networked thinking [Source](https://github.com/churichard/notabase)
 * [Otter](https://otter.ai/): Get an AI meeting assistant that records audio, writes notes, automatically captures slides, and generates summaries.
-* [Outline](https://www.getoutline.com/): Wiki and knowledge base [Source](https://github.com/outline/outline)
+* [Outline](/tools/outline): Wiki and knowledge base
 * [Trilium.cc](https://trilium.cc/): Personal knowledge base [Source](https://github.com/zadam/trilium)
 
 ---
@@ -131,7 +131,3 @@ tags=tool
 * [ActivePieces](https://www.activepieces.com/) seems to have the right momentum to get things going in a good direction; it also has a reasonably priced cloud option, and while it is also still new, it has a lot of potential and a quickly growing app list. (It, too, doesn’t use a pure GPL-style license, however. Another responsive-to-feedback team, however.)
 * If your goal is just automating some basic tasks, the browser extension [Automa](https://www.automa.site/) also has a lot of potential.
 * [Flowpipe: A workflow engine for DevOps scripters](https://www.infoworld.com/article/3712125/flowpipe-a-workflow-engine-for-devops-scripters.html): Uses HCL for configuration/definition
-
----
-
-## 

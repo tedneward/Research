@@ -27,10 +27,41 @@ For teams and enterprises: Capture organizational knowledge in portable, version
 * Repeatable workflows: Turn multi-step tasks into consistent and auditable workflows.
 * Interoperability: Reuse the same skill across different skills-compatible agent products.
 
+### Skills Paths for AI Coding Assistants
+
+| Tool | Project Path | Global Path | Official Docs |
+| --- | --- | --- | --- |
+| Antigravity | `.agent/skills/` | `~/.gemini/antigravity/skills/` | [Antigravity Skills](https://antigravity.google/docs/skills) |
+| Claude Code | `.claude/skills/` | `~/.claude/skills/` | [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/skills) |
+| Codex | `.agents/skills/` | `~/.agents/skills/` | [Codex Skills](https://developers.openai.com/codex/skills) |
+| Cursor | `.cursor/skills/` | `~/.cursor/skills/` | [Cursor Skills](https://cursor.com/docs/context/skills) |
+| Gemini CLI | `.gemini/skills/` | `~/.gemini/skills/` | [Gemini CLI Skills](https://geminicli.com/docs/cli/skills/) |
+| GitHub Copilot | `.github/skills/` | `~/.copilot/skills/` | [Copilot Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills) |
+| OpenCode | `.opencode/skills/` | `~/.config/opencode/skills/` | [OpenCode Skills](https://opencode.ai/docs/skills) |
+| Windsurf | `.windsurf/skills/` | `~/.codeium/windsurf/skills/` | [Windsurf Cascade Skills](https://docs.windsurf.com/windsurf/cascade/skills) |
+
 ## Collections
 
-* [Claude Skills](https://claudemarketplaces.com/skills)
-* [Anthropic Skills](https://github.com/anthropics/skills)
+- [skillcreatorai/Ai-Agent-Skills](https://github.com/skillcreatorai/Ai-Agent-Skills) - SkillCreator.ai collection with CLI installer
+- [Andrej-Karpathy Skills](https://github.com/forrestchang/andrej-karpathy-skills)
+- [Anthropic Skills](https://github.com/anthropics/skills)
+- [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) - 50+ verified skills for Claude Code and Claude.ai
+- [shajith003/awesome-claude-skills](https://github.com/shajith003/awesome-claude-skills) - Skills for specialized capabilities
+- [ponderous-dustiness314/awesome-claude-skills](https://github.com/ponderous-dustiness314/awesome-claude-skills) - Document editing, data analysis, project management
+- [Awesome-LLM-Skills](https://github.com/Prat011/awesome-llm-skills)
+- [Claude Skills](https://claudemarketplaces.com/skills)
+- [Codex skills based on Effective Java (2nd Ed)](https://github.com/sherman/codex-skills)
+- [dotnet-claude-kit](https://github.com/codewithmukesh/dotnet-claude-kit): Make Claude Code a .NET 10 Expert
+- [OfficialSkills (Website)](https://officialskills.sh/): Official skills from the dev teams of software vendors, plus handpicked & community-adopted skills. Powered from [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills), seems like?
+- [GuDaStudio/skills](https://github.com/GuDaStudio/skills) - Multi-agent collaboration skills
+- [DougTrajano/pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) - Pydantic AI integration
+- [OmidZamani/dspy-skills](https://github.com/OmidZamani/dspy-skills) - Skills for DSPy framework
+- [hikanner/agent-skills](https://github.com/hikanner/agent-skills) - Curated Claude Agent Skills collection
+- [gradion-ai/freeact-skills](https://github.com/gradion-ai/freeact-skills) - Freeact agent library skills
+- [gotalab/skillport](https://github.com/gotalab/skillport) - Skills distribution via CLI or MCP
+- [mhattingpete/claude-skills-marketplace](https://github.com/mhattingpete/claude-skills-marketplace) - Git, code review, and testing skills
+- [superpowers](https://github.com/obra/superpowers): An agentic skills framework & software development methodology that works.
+- [mattpocock](https://aihero.dev/skills) ([Source](https://github.com/mattpocock/skills)): Skills for Real Engineers. Straight from my .agents directory.
 
 ## Reading
 
@@ -39,18 +70,62 @@ For teams and enterprises: Capture organizational knowledge in portable, version
 * [How to build a Claude skill from scratch](https://writewithai.substack.com/p/how-to-build-a-claude-skill-from)
 * [How I Do Content Engineering with Claude Code](https://ahrefs.com/blog/how-i-do-content-engineering-with-claude-code/)
 * [Avoid dependency hell for Claude SKILLs](https://medium.com/@michaelyuan_88928/avoid-dependency-hell-for-claude-skills-62658982ebb4)
+* [Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents](https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more)
 
-### Support for agent skills
+### Tutorials and Guides
 
-The following platforms have documented support for Agent Skills:
+#### Claude and Anthropic
+- [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) - Official quick start guide
+- [Claude Code Skills Documentation](https://code.claude.com/docs/en/skills) - Official reference
+- [Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents](https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more)
 
-| Agent | Documentation |
-|-------|---------------|
-| Claude Code | [code.claude.com/docs/en/skills](https://code.claude.com/docs/en/skills) |
-| Claude.ai | [support.claude.com](https://support.claude.com/en/articles/12512180-using-skills-in-claude) |
-| Codex (OpenAI) | [developers.openai.com](https://developers.openai.com/codex/skills) |
-| GitHub Copilot | [docs.github.com](https://docs.github.com/copilot/concepts/agents/about-agent-skills) |
-| VS Code | [code.visualstudio.com](https://code.visualstudio.com/docs/copilot/customization/agent-skills) |
+#### GitHub Copilot
+- [About Agent Skills](https://docs.github.com/copilot/concepts/agents/about-agent-skills) - GitHub documentation
+- [VS Code Agent Skills](https://code.visualstudio.com/docs/copilot/customization/agent-skills) - VS Code integration
+
+#### Microsoft
+
+- [Agent Skills in .NET](https://devblogs.microsoft.com/agent-framework/agent-skills-in-net-three-ways-to-author-one-provider-to-run-them/)
+
+## Community Resources
+
+### LangChain Tools
+- [Google Search](https://python.langchain.com/docs/integrations/tools/google_search/) - Wrapper around SerpApi
+- [Wikipedia](https://python.langchain.com/docs/integrations/tools/wikipedia/) - Fetch summaries from Wikipedia
+- [Python REPL](https://python.langchain.com/docs/integrations/tools/python/) - Execute Python code
+- [Custom Tools Guide](https://python.langchain.com/docs/how_to/custom_tools/) - How to use the `@tool` decorator
+
+## FAQ
+
+### What are Agent Skills?
+
+Agent Skills are instruction files that teach AI assistants how to do specific tasks. Think of them as "how-to guides" that the AI reads and follows. They only load when needed, so the AI stays fast and focused.
+
+### How are Agent Skills different from fine-tuning?
+
+Fine-tuning permanently changes how an AI thinks (expensive and hard to update). Agent Skills are just instruction files, you can update, swap, or share them anytime without touching the AI itself.
+
+### What's the difference between Agent Skills and MCP?
+
+They do different things and work great together:
+- **Agent Skills** = teach the AI *how* to do something (workflows, best practices)
+- **MCP** = help the AI *access* things (APIs, databases, external tools)
+
+### Which AI tools support Agent Skills?
+
+Currently supported: **Claude** (Claude.ai and Claude Code), **GitHub Copilot**, **VS Code**, and others. The list is growing as more tools adopt the standard.
+
+### Do Agent Skills run code?
+
+No. Skills are just text instructions, the AI reads and follows them like a recipe. If you need to run actual code, you'd use something like MCP servers alongside skills.
+
+## References
+
+The principles in these skills are derived from research and production experience at leading AI labs and framework developers.
+
+- [Anthropic: Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)
+- [Anthropic: Creating custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills)
+- [GitHub Copilot: About Agent Skills](https://docs.github.com/copilot/concepts/agents/about-agent-skills)
 
 ### How It Works
 
@@ -177,122 +252,3 @@ To debug failing GitHub Actions workflows:
 
 When performing tasks, Copilot decides when to use skills based on your prompt and the skill's description. The `SKILL.md` file is injected into the agent's context.
 
-### Using MCP Servers (Claude Desktop)
-
-Edit your configuration file:
-- **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
-- **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
-
-Example Configuration:
-```json
-{
-  "mcpServers": {
-    "filesystem": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-filesystem",
-        "/Users/username/Desktop"
-      ]
-    }
-  }
-}
-```
-
-### Skills Paths for AI Coding Assistants
-
-| Tool | Project Path | Global Path | Official Docs |
-| --- | --- | --- | --- |
-| Antigravity | `.agent/skills/` | `~/.gemini/antigravity/skills/` | [Antigravity Skills](https://antigravity.google/docs/skills) |
-| Claude Code | `.claude/skills/` | `~/.claude/skills/` | [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/skills) |
-| Codex | `.agents/skills/` | `~/.agents/skills/` | [Codex Skills](https://developers.openai.com/codex/skills) |
-| Cursor | `.cursor/skills/` | `~/.cursor/skills/` | [Cursor Skills](https://cursor.com/docs/context/skills) |
-| Gemini CLI | `.gemini/skills/` | `~/.gemini/skills/` | [Gemini CLI Skills](https://geminicli.com/docs/cli/skills/) |
-| GitHub Copilot | `.github/skills/` | `~/.copilot/skills/` | [Copilot Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills) |
-| OpenCode | `.opencode/skills/` | `~/.config/opencode/skills/` | [OpenCode Skills](https://opencode.ai/docs/skills) |
-| Windsurf | `.windsurf/skills/` | `~/.codeium/windsurf/skills/` | [Windsurf Cascade Skills](https://docs.windsurf.com/windsurf/cascade/skills) |
-
-
-# Collections
-
-- [Andrej-Karpathy Skills](https://github.com/forrestchang/andrej-karpathy-skills)
-- [Awesome-LLM-Skills](https://github.com/Prat011/awesome-llm-skills)
-- [Codex skills based on Effective Java (2nd Ed)](https://github.com/sherman/codex-skills)
-- [dotnet-claude-kit](https://github.com/codewithmukesh/dotnet-claude-kit): Make Claude Code a .NET 10 Expert
-- [OfficialSkills (Website)](https://officialskills.sh/): Official skills from the dev teams of software vendors, plus handpicked & community-adopted skills. Powered from [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills), seems like?
-- [skillcreatorai/Ai-Agent-Skills](https://github.com/skillcreatorai/Ai-Agent-Skills) - SkillCreator.ai collection with CLI installer
-- [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) - 50+ verified skills for Claude Code and Claude.ai
-- [shajith003/awesome-claude-skills](https://github.com/shajith003/awesome-claude-skills) - Skills for specialized capabilities
-- [GuDaStudio/skills](https://github.com/GuDaStudio/skills) - Multi-agent collaboration skills
-- [DougTrajano/pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) - Pydantic AI integration
-- [OmidZamani/dspy-skills](https://github.com/OmidZamani/dspy-skills) - Skills for DSPy framework
-- [ponderous-dustiness314/awesome-claude-skills](https://github.com/ponderous-dustiness314/awesome-claude-skills) - Document editing, data analysis, project management
-- [hikanner/agent-skills](https://github.com/hikanner/agent-skills) - Curated Claude Agent Skills collection
-- [gradion-ai/freeact-skills](https://github.com/gradion-ai/freeact-skills) - Freeact agent library skills
-- [gotalab/skillport](https://github.com/gotalab/skillport) - Skills distribution via CLI or MCP
-- [mhattingpete/claude-skills-marketplace](https://github.com/mhattingpete/claude-skills-marketplace) - Git, code review, and testing skills
-
----
-
-# Reading
-
-## Tutorials and Guides
-
-### Claude and Anthropic
-- [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) - Official quick start guide
-- [Claude Code Skills Documentation](https://code.claude.com/docs/en/skills) - Official reference
-
-### GitHub Copilot
-- [About Agent Skills](https://docs.github.com/copilot/concepts/agents/about-agent-skills) - GitHub documentation
-- [VS Code Agent Skills](https://code.visualstudio.com/docs/copilot/customization/agent-skills) - VS Code integration
-
-### Model Context Protocol (MCP)
-- [MCP Official Documentation](https://modelcontextprotocol.io/) - The open standard
-- [Build your first MCP Server](https://modelcontextprotocol.io/docs/first-server) - Python/TypeScript guide
-- [MCP Server Examples](https://github.com/modelcontextprotocol/servers) - Official server implementations
-
-### Microsoft
-
-- [Agent Skills in .NET](https://devblogs.microsoft.com/agent-framework/agent-skills-in-net-three-ways-to-author-one-provider-to-run-them/)
-
-## Community Resources
-
-### LangChain Tools
-- [Google Search](https://python.langchain.com/docs/integrations/tools/google_search/) - Wrapper around SerpApi
-- [Wikipedia](https://python.langchain.com/docs/integrations/tools/wikipedia/) - Fetch summaries from Wikipedia
-- [Python REPL](https://python.langchain.com/docs/integrations/tools/python/) - Execute Python code
-- [Custom Tools Guide](https://python.langchain.com/docs/how_to/custom_tools/) - How to use the `@tool` decorator
-
-## FAQ
-
-### What are Agent Skills?
-
-Agent Skills are instruction files that teach AI assistants how to do specific tasks. Think of them as "how-to guides" that the AI reads and follows. They only load when needed, so the AI stays fast and focused.
-
-### How are Agent Skills different from fine-tuning?
-
-Fine-tuning permanently changes how an AI thinks (expensive and hard to update). Agent Skills are just instruction files, you can update, swap, or share them anytime without touching the AI itself.
-
-### What's the difference between Agent Skills and MCP?
-
-They do different things and work great together:
-- **Agent Skills** = teach the AI *how* to do something (workflows, best practices)
-- **MCP** = help the AI *access* things (APIs, databases, external tools)
-
-### Which AI tools support Agent Skills?
-
-Currently supported: **Claude** (Claude.ai and Claude Code), **GitHub Copilot**, **VS Code**, and others. The list is growing as more tools adopt the standard.
-
-### Do Agent Skills run code?
-
-No. Skills are just text instructions, the AI reads and follows them like a recipe. If you need to run actual code, you'd use something like MCP servers alongside skills.
-
-## References
-
-The principles in these skills are derived from research and production experience at leading AI labs and framework developers.
-
-- [Anthropic: Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)
-- [Anthropic: Creating custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills)
-- [Claude Code Skills Documentation](https://code.claude.com/docs/en/skills)
-- [GitHub Copilot: About Agent Skills](https://docs.github.com/copilot/concepts/agents/about-agent-skills)
-- [Model Context Protocol Documentation](https://modelcontextprotocol.io/)

@@ -41,8 +41,9 @@ In a simple world, the answer would be to provide the model with relevant propri
 ### Articles/Blogs/Essays
 
 - [Code a simple RAG from scratch](https://huggingface.co/blog/ngxson/make-your-own-rag)
-- [Building a Retrieval-Augmented Generation (RAG) Chatbot with Python](https://medium.com/@crimsonsyrus000/building-a-retrieval-augmented-generation-rag-chatbot-with-python-bf324335e335)
 - [What We Learned Building a RAG System from Scratch (No Frameworks)](https://www.dataquest.io/blog/build-a-rag-system-from-scratch/)
+- [Building a Retrieval-Augmented Generation (RAG) Chatbot with Python](https://medium.com/@crimsonsyrus000/building-a-retrieval-augmented-generation-rag-chatbot-with-python-bf324335e335)
+- [How to Build a RAG Q&A AI Agent for Your Documents Using LangChain v1](https://www.freecodecamp.org/news/build-a-private-rag-qa-ai-agent-for-your-documents-using-langchain/)
 
 ### Tutorials
 

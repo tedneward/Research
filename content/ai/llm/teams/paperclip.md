@@ -1,5 +1,5 @@
 title=Paperclip
-tags=ai, agent, llm, teams
+tags=ai, agent, llm, team
 summary=The app people use to manage AI agents for work.
 ~~~~~~
 
