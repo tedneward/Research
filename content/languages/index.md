@@ -137,6 +137,7 @@ Programming languages are (generally) human-friendly means of getting a computer
 
 * [Concepts of Programming Languages](https://www.youtube.com/playlist?list=PLgybIyDbLkEQUTX00Mazlcb7KhX1UzpXs) (video)
 * [Concepts of Programming Languages](/languages/concepts/Concepts_of_Programming_Languages.pdf) (PDF)
+* [Control structures in programming languages](https://xavierleroy.org/control-structures/book/index.html): imperative, functional, algebraic effects and handlers, reasoning (Forthcoming book)
 
 ### List of concepts
 
