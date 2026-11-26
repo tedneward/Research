@@ -47,3 +47,4 @@ main {
 - **Jul 2026** — `faber` CLI imported from the closed Radix compiler; v1.0.0 tagged.
 - **Oct 2026** — Front end, runner, standard library and grammar published as `faberlang/faber` (Apache-2.0 OR MIT). v1.18 makes Cranelift the default engine for `faber run`.
 - **Nov 2026** — v1.19: one `.fab` file can hold its program, tests and expected input/output as labelled sections; `and` loop heads walk lists in lockstep; `f64` allowed in kernels on CPU and CUDA.
+- **Nov 2026** — v1.24, the first binaries since 1.19.1: `faber build` makes a native Cranelift executable by default, kernels compile through one kernel IR for CPU, Metal, CUDA and AMD GPUs, math prefix words (`sin x`, `exp x`, `sigmoid x`) and the constants `π` and `ℯ`, and `exclusive`/`inclusive` range words (`for exclusive n`).
