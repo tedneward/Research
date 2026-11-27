@@ -40,7 +40,9 @@ Uses [PDB](/formats/pdb) for debugging information.
 * Portable Executable File Format – A Reverse Engineer View - http://www.stonedcoder.org/~kd/lib/CBJ-2005-74.pdf
 * Peering Inside the PE: A Tour of the Win32 Portable Executable File Format - https://msdn.microsoft.com/en-us/library/ms809762.aspx
 * Resource Hacker: a resource editor for 32-bit and 64-bit Windows applications
+// Alternative: Resource Cracker https://www.pelock.com/products/resource-cracker
 	- http://www.angusj.com/resourcehacker/
+	// Alternative: Resource Cracker https://www.pelock.com/products/resource-cracker
 * Resources: Microsoft Portable Executable and COFF (32-bit and 64-bit) Format - http://bytepointer.com/resources/
 * Robust Static Analysis of Portable Executable Malware - Katja Hahn, Master Thesis - https://github.com/katjahahn/PortEx/tree/master/masterthesis
 * The sad state of PE parsing - http://lucasg.github.io/2017/04/28/the-sad-state-of-pe-parsing/
