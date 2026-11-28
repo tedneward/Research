@@ -10,3 +10,4 @@ summary=Cross-platform, fast, feature-rich, GPU based.
 ### Articles/Blogs/Essays
 
 - [Kitty is the open-source Mac terminal that iTerm wishes it could be](https://www.howtogeek.com/kitty-is-the-open-source-mac-terminal-that-iterm-wishes-it-could-be/)
+
